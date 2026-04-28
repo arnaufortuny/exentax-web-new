@@ -178,6 +178,14 @@ A Exentax no proposem baixa del RETA per defecte: fem el càlcul amb els teus n�
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [LLC com a alternativa real a ser autònom a Espanya: guia honesta](/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [Per què obrir una LLC americana el 2026: 5 pilars de l'avantatge](/ca/blog/per-que-obrir-una-llc-americana-el-2026-els-5-pilars-del)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Aquest%20article%20parla%20dels%20aut%C3%B2noms%20espanyols%2C%20per%C3%B2%20el%20diagn%C3%B2stic%20encaixa%20perf%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>

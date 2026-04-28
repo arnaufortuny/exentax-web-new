@@ -150,6 +150,18 @@ L'application concrète de ces règles à votre cas dépend de votre résidence 
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote32-native-v1:llc-alternativa-autonomo-espana-fr -->
+## Comment lire la comparaison LLC contre auto-entrepreneur espagnol comme une cartographie stable plutôt que comme un débat de communauté
+
+La comparaison LLC contre auto-entrepreneur espagnol se lit plus utilement comme une cartographie stable entre le pays de résidence du bénéficiaire effectif, le pays où la valeur est créée et le pays des clients, plutôt que comme un débat de communauté. Cette cartographie ne change pas avec la saison, et une note courte et datée dans le dossier personnel rend la position relisible en quelques minutes lors d'une conversation avec un fiscaliste, plutôt que de devoir la reconstruire de mémoire sous pression.
+<!-- /exentax:lote32-native-v1:llc-alternativa-autonomo-espana-fr -->
+
+<!-- exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-fr -->
+## Pourquoi la note s'organise par axe et non par juridiction
+
+La note s'organise par axe — résidence, création de valeur, marché client — et non par juridiction, parce que les axes restent stables tandis que le discours marketing autour d'une juridiction change avec la saison.
+<!-- /exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -254,6 +266,14 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Pourquoi les freelances espagnols quittent l'auto-entreprise pour une LLC](/fr/blog/pourquoi-les-freelancers-espagnols-quittent-le-statut-dauto)
+- [Fiscalité LLC par pays de résidence : ce que vous payez où vous vivez](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+- [Pourquoi ouvrir une LLC aux États-Unis en 2026 : les 5 piliers clés](/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/services">Réserver une consultation gratuite</a>.

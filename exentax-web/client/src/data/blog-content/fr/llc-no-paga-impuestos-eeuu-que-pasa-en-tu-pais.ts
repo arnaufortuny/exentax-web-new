@@ -125,6 +125,14 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [IRS 1120 et 5472 : ce que c'est vraiment et quand ça s'applique](/fr/blog/irs-1120-et-5472-ce-que-cest-vraiment-et-quand-ca-sapplique)
+- [Form 5472 : qu'est-ce que c'est, qui doit le déposer et comment s'y conformer](/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment)
+- [Fiscalité LLC par pays de résidence : ce que vous payez et où](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Parlez à notre équipe</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -67,6 +67,18 @@ Bringing the above down to actual decisions we take with Exentax clients every w
 - **The state of formation matters for non-tax reasons but operational ones**. Wyoming and New Mexico keep winning for freelancer and services profiles; Delaware keeps winning for SaaS aimed at raising capital or for holdings; Florida fits cases with US physical nexus. None of these decisions hinges on CRS — all of them hinge on how your activity and your banking match the jurisdiction. We cover this in <a href="/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax">self-employed vs LLC</a>.
 - **Tax residence of the owner is the master variable.** Residence is not chosen, it is determined by facts (days of physical presence, centre of economic interests, family nucleus). Trying to hide your real residence under cover of the FATCA-CRS asymmetry is, beyond a technical mistake, a defined infraction in most European and Latin American jurisdictions with severe penalties. Any professional design starts from real residence and structures around it.
 
+<!-- exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-en -->
+## Why the US position on CRS is structural rather than political
+
+The reason the United States has not joined CRS is structural, not a matter of political mood that can change in any given administration. The US already has its own information regime under FATCA and a domestic reporting infrastructure built around the same identifiers used by the IRS. Joining a parallel multilateral exchange would duplicate the work without adding visibility for the US side.
+<!-- /exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-en -->
+
+<!-- exentax:lote34-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-en -->
+## How to read CRS 2.0 and CARF coverage as a stable jurisdictional mapping rather than as a moving target
+
+CRS 2.0 and CARF coverage read more usefully when they're treated as a stable jurisdictional mapping between the country of the financial institution, the country of residence of the beneficial owner and the framework that applies between them, than as a moving target. The mapping doesn't shift with marketing trends.
+<!-- /exentax:lote34-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -143,6 +155,14 @@ Or message us on <a href="https://wa.me/34614916910">WhatsApp at +34 614 916 910
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [CRS and your US LLC bank accounts: what is shared with your home country](/en/blog/crs-and-your-us-llc-bank-accounts-what-gets-shared-with-your)
+- [DAC8 and crypto: the new automatic tax reporting that arrives in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+- [Wise IBAN with your LLC: what actually gets reported to the tax office](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.

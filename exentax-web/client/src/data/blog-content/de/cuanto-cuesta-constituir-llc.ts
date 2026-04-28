@@ -177,6 +177,18 @@ Dieser Artikel stützt sich auf aktuell geltende Vorschriften. Wir nennen die wi
 - **EU / OECD.** Richtlinie 2011/16/EU, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Krypto-Assets); Richtlinie (EU) 2016/1164 (ATAD: CFC, *Exit Tax*, Hybride); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen-Kommentar; Aktion 5 BEPS (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlich Berechtigte).
 
+<!-- exentax:lote34-native-v1:cuanto-cuesta-constituir-llc-de -->
+## Wie sich die Frage nach den Gründungs­kosten einer LLC als stabile Aufstellung pro Posten statt als ein­ziger Pauschal­preis lesen lässt
+
+Die Frage nach den Gründungs­kosten einer LLC liest sich nützlicher als stabile Aufstellung pro Posten — staatliche Anmelde­gebühr, Registered-Agent-Dienst, EIN-Beantragung, optional Bank­konto­eröffnung, optional Buchhaltung — denn als ein­ziger Pauschal­preis. Die Aufstellung pro Posten ändert sich nicht von einer Gründung zur nächsten, und eine kurze Notiz im persönlichen Ordner mit den fünf Posten macht die Position überprüfbar.
+<!-- /exentax:lote34-native-v1:cuanto-cuesta-constituir-llc-de -->
+
+<!-- exentax:lote34-native-v1-bis:cuanto-cuesta-constituir-llc-de -->
+## Warum die Aufstellung pro Posten und nicht pro Pauschale organisiert sein sollte
+
+Die Aufstellung organisiert sich pro Posten und nicht pro Pauschale, weil eine Pauschale die einzelnen Quellen verschleiert und die Position später schwer überprüfbar macht.
+<!-- /exentax:lote34-native-v1-bis:cuanto-cuesta-constituir-llc-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -196,6 +208,28 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [US-LLC Schritt für Schritt gründen: vollständiger Leitfaden](/de/blog/us-llc-schritt-fur-schritt-grunden-vollstandiger)
+- [LLC-Dokumente: welche Sie brauchen und wie Sie sie aufbewahren](/de/blog/llc-dokumente-welche-sie-brauchen-und-wie-sie-sie)
+- [Registered Agent: was er ist und warum er für Ihre LLC obligatorisch ist](/de/blog/registered-agent-was-es-ist-und-warum-er-fur-ihre-llc)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote23-native-v1:cuanto-cuesta-constituir-llc-de -->
+## Wie sich die Frage nach den LLC-Gründungskosten als Profilfrage statt als Suche nach einem Pauschalpreis lesen lässt
+
+Die Frage nach den LLC-Gründungskosten liest sich nützlicher, wenn sie als Profilfrage und nicht als Suche nach einem einheitlichen Pauschalpreis behandelt wird. Die tatsächlichen Kosten hängen vom gewählten Bundesstaat, dem Anbieter des Registered Agent, der Inanspruchnahme oder Nichtinanspruchnahme externer Unterstützung bei den Formularen und der zeitlichen Verteilung der wiederkehrenden Gebühren ab — und diese vier Variablen erklären die Spannweite der gemeldeten Beträge weit besser als jede einzelne Zahl.
+
+## Wie sich das tatsächliche Kostenprofil schriftlich verankern lässt
+
+Das tatsächliche Kostenprofil verankert sich schriftlich in einer kurzen, datierten Notiz, die die vier Variablen und die daraus folgende Schätzung auflistet. Diese Notiz dient später als Bezugspunkt, sobald sich eine der vier Variablen wesentlich verändert, und sie bewahrt den wirtschaftlich Berechtigten vor Vergleichen mit fremden Profilen.
+
+## Wie sich die jährliche Kostenüberprüfung in wenigen Minuten halten lässt
+
+Die jährliche Kostenüberprüfung hält sich in wenigen Minuten, wenn die festgehaltene Notiz als Bezugspunkt dient und nur dort angepasst wird, wo eine der vier Variablen real abgewichen ist.
+<!-- /exentax:lote23-native-v1:cuanto-cuesta-constituir-llc-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten

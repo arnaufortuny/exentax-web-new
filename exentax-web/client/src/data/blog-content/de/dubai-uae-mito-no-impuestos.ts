@@ -164,6 +164,18 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote29-native-v1:dubai-uae-mito-no-impuestos-de -->
+## Wie sich die Dubai-Frage als stabile Profil­frage statt als Schlagwort lesen lässt
+
+Die Dubai-Frage liest sich nützlicher als stabile Profil­frage zwischen dem tatsächlichen Wohnsitzland des wirtschaftlich Berechtigten und dem Land, in dem die Wertschöpfung wirklich stattfindet, denn als Schlagwort über „keine Steuern". Diese beiden Achsen erklären die Antwort weit verlässlicher als jede pauschale Aussage über die Vereinigten Arabischen Emirate, und sie ändern sich nicht mit dem Marketing­zyklus des Jahres.
+<!-- /exentax:lote29-native-v1:dubai-uae-mito-no-impuestos-de -->
+
+<!-- exentax:lote29-native-v1-bis:dubai-uae-mito-no-impuestos-de -->
+## Warum die Notiz auf das Steuerjahr und nicht auf den Marketing­zyklus bezogen sein sollte
+
+Die Notiz bezieht sich auf das Steuerjahr und nicht auf den Marketing­zyklus — die maßgebliche Größe für die Beurteilung ist die tatsächliche Lage des wirtschaftlich Berechtigten im Kalenderjahr, nicht der gerade aktive Werbe­diskurs über die Vereinigten Arabischen Emirate.
+<!-- /exentax:lote29-native-v1-bis:dubai-uae-mito-no-impuestos-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -176,6 +188,24 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Hongkong-Gesellschaft: die Offshore-Realität 2026](/de/blog/hong-kong-gesellschaft-die-offshore-realitat-2026)
+- [Panama-Gesellschaft: Steuern und Residenz 2026](/de/blog/panama-gesellschaft-steuern-und-residenz-2026)
+- [Offshore-Strukturen: Vorteile und echte Risiken](/de/blog/offshore-strukturen-vorteile-und-echte-risiken)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote24-native-v1:dubai-uae-mito-no-impuestos-de -->
+## Wie sich die Aussage "Dubai = keine Steuern" als Profilfrage statt als pauschale Behauptung lesen lässt
+
+Die Aussage "Dubai = keine Steuern" liest sich am ehrlichsten als Profilfrage und nicht als pauschale Behauptung. Die tatsächliche Steuerlast hängt vom Wohnsitz des wirtschaftlich Berechtigten, der Quellengeographie der Erträge, der Eigenschaft der Tätigkeit als Free Zone- oder Onshore-Aktivität und den Substanzanforderungen ab — und jede dieser vier Variablen kann die Antwort verändern.
+
+## Wie sich die Eignungsprüfung schriftlich festhalten lässt
+
+Die Eignungsprüfung hält sich dauerhafter in einer kurzen, datierten Notiz fest, die die vier Variablen und die daraus folgende Schlussfolgerung auflistet.
+<!-- /exentax:lote24-native-v1:dubai-uae-mito-no-impuestos-de -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Dubai ohne Marketing: was sich seit Juni 2023 geändert hat und für wen es noch funktioniert

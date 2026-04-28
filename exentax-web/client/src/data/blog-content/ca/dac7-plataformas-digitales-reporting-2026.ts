@@ -162,6 +162,14 @@ Milers d'autònoms i emprenedors ja operen amb la seva LLC americana de forma 10
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
+- [Vendre a Amazon amb la teva LLC americana: guia completa](/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa)
+- [IVA en serveis digitals internacionals: quan s'aplica i quan no](/ca/blog/iva-en-serveis-digitals-internacionals-quan-saplica-i-quan)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 

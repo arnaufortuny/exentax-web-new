@@ -107,6 +107,14 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Convention Espagne–États-Unis.** La convention (BOE 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
+<!-- exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-fr -->
+## Comment lire la demande d'ITIN comme une procédure documentée stable plutôt que comme un événement ponctuel
+
+La demande d'ITIN se lit plus sereinement comme une procédure documentée stable que comme un événement ponctuel. Les pièces requises — un Form W-7 valide, un motif de déclaration fédérale qui justifie le besoin d'ITIN et un document d'identité accepté par l'IRS — définissent un processus discret qui ne change pas d'une année à l'autre.
+
+Une courte note datée dans le dossier personnel qui consigne la version du Form W-7 utilisée, le motif fédéral cité, le document d'identité transmis et le canal par lequel il a été envoyé rend la demande relisible en quelques minutes si l'IRS revient avec une question ou un avis de deficiency.
+<!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Parlez à notre équipe</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -171,6 +179,14 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [EIN vs ITIN vs SSN : numéros d'identification fiscale américains](/fr/blog/ein-vs-itin-vs-ssn-les-numeros-didentification-fiscale)
+- [EIN : qu'est-ce que le numéro fiscal de votre LLC et comment l'obtenir](/fr/blog/ein-quest-ce-que-le-numero-fiscal-de-votre-llc-et-comment)
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

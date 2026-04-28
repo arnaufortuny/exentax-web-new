@@ -26,9 +26,6 @@ Hi ha tres errors que cada any fan pagar de més a contribuents amb perfils molt
 Si la teva base general supera de forma estable els 60.000 euros i la font d'ingressos és una activitat econòmica que pots facturar des d'una societat, convé comparar l'IRPF d'autònom (tipus marginal 45-47%) amb l'Impost sobre Societats (Llei 7/2024: microempreses amb xifra &lt;1 M€ tributen al 19% en els primers 50.000 € i 21% sobre la resta el 2026; ERD 1-10 M€ al 23%; tipus general 25%) més el cost de repatriar benefici via dividend. Per a perfils 100% digitals amb clients internacionals, també val la pena modelar l'<a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">alternativa de la LLC americana</a>, que en molts casos redueix la càrrega combinada respecte a continuar com a autònom espanyol als trams alts de l'IRPF.
 Per verificar les tarifes, consulta el <a href="https://sede.agenciatributaria.gob.es/">portal de l'Agència Tributària espanyola</a> i la <a href="https://www.boe.es/">Llei 35/2006 de l'IRPF al BOE</a>. La planificació fiscal real combina conèixer la tarifa, ordenar les teves rendes entre base general i estalvi, esgotar deduccions legítimes i, quan els números ho justifiquen, valorar un canvi d'estructura.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
-<!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.
 
@@ -83,6 +80,63 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:tramos-irpf-2026 -->
+### Què donen realment els trams en renda neta per a un freelance tipus
+
+La taula es llegeix en marginal: cada euro addicional es grava al tipus del tram en què cau, mai al tipus mitjà de la renda total. A la pràctica, un freelance espanyol amb renda neta anual estable al tram general superior veu els seus últims euros facturats gravats al tipus marginal combinat (estatal més autonòmic) més alt, mentre que els primers euros facturats gaudeixen d'un tipus més baix. Quan modelem el net per a clients en les bandes més habituals (entre uns 30.000 i 90.000 euros de renda neta), el tipus efectiu mitjà d'IRPF se situa típicament diversos punts per sota del tipus marginal superior, perquè la major part de la base està als trams intermedis. Aquesta distinció importa per planificar decisions de final d'any, facturació diferida o aportacions a instruments de jubilació: el tipus rellevant és sempre el marginal del següent tram en què la renda entraria, no el mitjà.
+
+### Quan el tram obliga a mirar l'estructura, no només les deduccions
+
+Hi ha un llindar recurrent a la nostra pràctica on la conversa deixa de ser "quina deducció puc afegir" i passa a ser "encara és l'estructura correcta". Per a un freelance digital amb la majoria de clients a l'estranger, aquest llindar apareix quan el tipus marginal puja al tram general superior i alhora la quota mensual d'autònom es troba en un dels trams alts; en aquest escenari combinat, redissenyar l'estructura operativa (per exemple, traslladant part de l'activitat a través d'una LLC americana posseïda des d'Espanya, o avaluant una SL espanyola) comença a dominar la conversa respecte a l'ajust de deduccions aïllades. La decisió mai no és automàtica, perquè cada estructura porta el seu cost de compliment i la seva càrrega declarativa, però el mapa de trams és el punt de partida natural per saber si la conversa estructural mereix una hora d'anàlisi.
+<!-- /exentax:lote6-native-v1:tramos-irpf-2026 -->
+
+<!-- exentax:lote6-native-v1-bis:tramos-irpf-2026 -->
+### Un kit de documentació que mantenim a mà per a cada declaració d'IRPF
+
+Quan tanquem la declaració d'IRPF d'un client freelance, l'arxiu que volem tenir preparat per als dotze mesos següents és petit però precís. Primer, el resum d'ingressos per client i per mes, amb moneda i nota de tipus de canvi quan és rellevant. Segon, el llibre de despeses deduïbles amb categoria, proveïdor, data, import i justificació d'una línia per entrada. Tercer, el conjunt trimestral de Modelo 130 amb rebuts de pagament. Quart, el propi Modelo 100 amb tots els annexos. Cinquè, el certificat de retenció d'IRPF de cada client espanyol (quan aplica) més el desglossament d'ingressos de font estrangera quan hi ha activitat transfronterera. Sisè, els rebuts de quota d'autònom dels dotze mesos. Aquest arxiu es revisa una vegada al final de l'any i es manté disponible al llarg de l'any per a l'aclariment inevitable que l'AEAT pot demanar. La disciplina és lleugera si s'integra al ritme de tancament mensual; només esdevé feixuga quan es reconstrueix des de zero la setmana abans del termini.
+
+### Tres decisions de calendari que canvien el tram assolit
+
+La primera decisió és si emetre una factura a final de desembre o a començament de gener quan la feina es va completar a mitjans de desembre: estirar la factura cap a l'any següent ajorna l'ingrés a la declaració d'IRPF següent, cosa que pot mantenir el freelance per sota d'un llindar de tram si la projecció mostra que l'any en curs ja és al límit. La segona decisió és el moment de registrar o amortitzar una despesa significativa (programa de formació, compra d'equipament): avançar-la a l'any en curs redueix la base imposable corrent. La tercera decisió és el calendari de les aportacions voluntàries a instruments de jubilació, que dedueixen de la base general dins dels límits anuals i poden mantenir el freelance en un tram marginal més baix. Cap d'aquestes decisions és automàtica, totes exigeixen que la projecció acumulada estigui ben calculada i totes tenen efectes secundaris (tresoreria, deducibilitat futura) que mereixen una conversa calmada, no un reflex de 31 de desembre.
+<!-- /exentax:lote6-native-v1-bis:tramos-irpf-2026 -->
+
+<!-- exentax:lote20-native-v1:tramos-irpf-2026-ca -->
+## Com llegir els trams d'IRPF 2026 sense perdre la perspectiva anual
+
+Els trams d'IRPF 2026 es llegeixen amb més utilitat quan la vista marginal i la vista mitjana es mantenen una al costat de l'altra. La vista marginal mostra com tributarà el proper euro d'ingrés; la vista mitjana mostra el que efectivament recau sobre l'any sencer. La confusió entre les dues genera regularment conclusions equivocades sobre la càrrega fiscal "real".
+
+Una lectura pràctica consisteix a calcular els dos valors per a tres escenaris d'ingressos — baix, mitjà, alt — i mantenir-los al mateix full de planificació.
+<!-- /exentax:lote20-native-v1:tramos-irpf-2026-ca -->
+
+<!-- exentax:lote26-native-v1:tramos-irpf-2026-ca -->
+## Com llegir els trams d'IRPF 2026 com un mapatge anual estable en lloc d'un debat recurrent
+
+Els trams d'IRPF 2026 es llegeixen de manera més serena com un mapatge anual estable entre la renda imposable prevista i el tipus marginal corresponent, en lloc d'un debat recurrent. Els trams estatals i autonòmics defineixen conjuntament una relació discreta que no canvia de mes en mes, i l'única peça que realment demana atenció cada any és la xifra de renda imposable prevista utilitzada per ancorar la posició a l'inici de l'exercici.
+<!-- /exentax:lote26-native-v1:tramos-irpf-2026-ca -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
+### Per què la capa autonòmica canvia la conversa
+
+La tarifa d'IRPF a Espanya es divideix en una meitat estatal i una meitat autonòmica, i la meitat autonòmica varia de manera significativa entre comunitats autònomes. Per a un freelance amb el mateix ingrés nominal, el tipus marginal en dues comunitats pot diferir en diversos punts percentuals a la franja general superior, cosa que basta per fer girar la resposta a la pregunta "aquesta estructura encara és la correcta". A la nostra pràctica, l'element autonòmic importa sobretot en el moment d'un canvi de residència (un freelance que es trasllada entre comunitats, o que torna de l'estranger per inscriure's en una comunitat específica) i en el moment d'un disseny estructural (en comparar escenaris d'autònom, SL o LLC per a una residència planejada). L'enfocament net consisteix a mirar tant la meitat estatal com l'autonòmica del mapa de trams per a la comunitat on el freelance està o estarà inscrit, no només el tipus estatal de capçalera, i a repetir aquest exercici sempre que un canvi de residència estigui sobre la taula.
+
+### Una plantilla d'auto-revisió trimestral que evita sorpreses de final d'any
+
+Cada tres mesos fem una breu auto-revisió amb els nostres clients autònoms que dura uns quinze minuts. Primer pas: extreure la projecció d'IRPF acumulada des de la comptabilitat (ingressos menys despeses deduïbles, multiplicades per quatre si el client està en un ritme mensual estable, o projectades amb el patró estacional altrament). Segon pas: comparar la base projectada amb el tram marginal actual i amb el següent tram per sobre. Tercer pas: si la projecció es troba dins del deu per cent d'una frontera de tram, llistar les decisions de calendari que podrien mantenir l'ingrés al costat inferior (factura ajornada, despesa avançada, aportació voluntària). Quart pas: si la projecció supera amb folgança el següent tram, acceptar el tram i recalibrar la reserva de tresoreria de final d'any per a la diferència d'IRPF a pagar. La disciplina evita l'escenari més habitual que veiem: un freelance que descobreix al maig, en presentar la declaració anual, que està fermament en un tram més alt sense haver tingut cap de les converses acumulades que haurien pogut canviar l'aterratge.
+<!-- /exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Quota d'autònom a Espanya 2026: el que pagues realment cada mes](/ca/blog/quota-autonom-2026-trams-explicacio)
+- [Despeses deduïbles per a freelancers espanyols el 2026: guia clara](/ca/blog/despeses-deduibles-autonoms-2026)
+- [Autònom a Espanya vs LLC americana: una comparació que t'ajuda de debò](/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.

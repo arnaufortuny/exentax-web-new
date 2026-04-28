@@ -142,6 +142,14 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Com constituir una LLC americana pas a pas: guia completa](/ca/blog/com-constituir-una-llc-americana-pas-a-pas-guia-completa)
+- [Registered Agent: què és i per què és obligatori per a la teva LLC](/ca/blog/registered-agent-que-es-i-per-que-es-obligatori-per-a-la)
+- [Quant costa constituir una LLC americana: anàlisi completa](/ca/blog/quant-costa-constituir-una-llc-americana-analisi-completa)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -98,6 +98,14 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 
+<!-- exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-fr -->
+## Comment lire les erreurs les plus fréquentes sur LLC comme une checklist stable plutôt que comme une collection d'anecdotes
+
+Les erreurs les plus fréquentes que nous voyons sur les dossiers LLC se lisent plus utilement comme une checklist stable et répétable que comme une collection d'anecdotes. Les causes profondes récurrentes — mélange entre les fonds personnels et professionnels, dépôts de Form 5472 manquants ou tardifs, absence de séparation documentée entre le membre et la LLC, non-renouvellement du Registered Agent — réapparaissent sur des profils très différents, et elles sont bien plus faciles à prévenir qu'à réparer après coup.
+
+Une courte note datée en tête du dossier LLC, listant les obligations récurrentes et la date à laquelle chacune a été remplie pour la dernière fois, transforme la même checklist en quelque chose que le membre peut relire en quelques minutes par an, au lieu de la reconstruire de mémoire sous pression au moment d'un contrôle.
+<!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -162,6 +170,14 @@ Chez Exentax nous gérons la compliance intégrale et régularisons les LLC avec
 ## Nous l'installons sans que vous perdiez un week-end
 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+- [J'ai une LLC américaine : est-ce que je la gère bien ? Checklist](/fr/blog/jai-une-llc-est-ce-que-je-la-gere-correctement-checklist)
+- [Maintenance annuelle LLC : obligations que vous ne pouvez pas ignorer](/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

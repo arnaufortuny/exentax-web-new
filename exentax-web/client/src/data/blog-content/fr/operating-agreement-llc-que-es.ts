@@ -123,6 +123,12 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote30-native-v1:operating-agreement-llc-que-es-fr -->
+## Comment lire l'Operating Agreement comme une carte de gouvernance stable plutôt que comme un document signé une seule fois
+
+L'Operating Agreement se lit plus utilement comme une carte de gouvernance stable entre les membres, le manager et les règles de distribution, plutôt que comme un document signé une seule fois à l'incorporation. Cette carte reste valide tant que ni un membre, ni le manager, ni les règles ne changent, et une note courte dans le dossier LLC qui consigne la version en vigueur la rend relisible en quelques minutes lors d'une consultation.
+<!-- /exentax:lote30-native-v1:operating-agreement-llc-que-es-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -193,6 +199,14 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+- [De single-member à multi-member LLC : implications fiscales avant le saut](/fr/blog/de-single-member-a-multi-member-llc-implications-fiscales)
+- [BOI Report 2026 : guide complet pour le dépôt FinCEN Beneficial Ownership](/fr/blog/boi-report-2026-guide-complet-pour-le-depot-fincen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Création, EIN, BOI, banque et maintenance : une seule équipe qui comprend votre dossier de bout en bout. <a href="/fr/services">Voir tous les services</a>.

@@ -108,6 +108,16 @@ The reasonable conclusion is not "Wise is bad" or "the LLC is dangerous". The co
 
 At Exentax we work exactly on that frontier: structuring the <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a>, choosing <a href="/en/blog/traditional-banks-vs-fintech-for-your-llc-where-to-open-your">which bank or fintech</a> makes sense as primary and which as secondary, anticipating what gets reported via <a href="/en/blog/crs-for-residents-in-spain-and-latam-real-implications">CRS</a> back to your home tax authority, and engineering the whole so that the Wise piece (or <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax">Revolut Business</a>, or any other) fits without surprises. We expand on this in <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">Designing a solid international tax structure</a>.
 
+<!-- exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-en -->
+## How to read the Wise IBAN reporting question as a stable mapping rather than as a recurring uncertainty
+
+The question of what a Wise IBAN held by an LLC reports to the Spanish tax administration reads more calmly when it's treated as a stable mapping between the type of account, the holder of the account and the country whose authority feeds the exchange channel, rather than as a recurring uncertainty. What's reported and to whom doesn't change month to month.
+
+A short note in the LLC folder that records the type of account opened with Wise, the legal holder, the country of the IBAN and the exchange channel that applies to it makes the same mapping reviewable in a few minutes, instead of being rebuilt from memory each time the question comes up.
+
+The same note also makes it much easier to align what's declared by the Spanish-resident member with what arrives through the exchange of information channel.
+<!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -169,6 +179,14 @@ At Exentax we structure Wise Business per operational need, correctly declare at
 ## We set it up without you losing a weekend
 
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise, banks and your LLC: the complete banking stack nobody explains](/en/blog/wise-banks-and-your-llc-the-complete-banking-stack-nobody)
+- [US bank accounts: what gets reported and how to organise your LLC](/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the)
+- [DAC8 and crypto: automatic tax reporting of crypto-assets in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

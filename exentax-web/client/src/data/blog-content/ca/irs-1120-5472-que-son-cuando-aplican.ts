@@ -197,6 +197,94 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
   Per a residents fiscals a Espanya/Catalunya, l'**art. 100 LIRPF (Transparència Fiscal Internacional)** obliga a declarar el control efectiu en LLCs americanes situades en jurisdiccions de baixa tributació. El **Modelo 232** (operacions vinculades + paraïsos fiscals) regulat per l'**OM HFP/816/2017** complementa el reporting americà. Per a residents a **Andorra**, el **conveni Andorra-EUA en vigor des de l'1 de gener de 2024** elimina la doble imposició sobre dividends i interessos qualificats provinents d'estructures LLC.
 
+<!-- exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+## Què reporten realment 1120 + Form 5472 (i què no)
+
+Per a una single-member LLC propietat d'una persona no-US i
+tractada com a disregarded a efectes fiscals als US, l'IRS demana
+una envelope pro-forma 1120 utilitzada només com a suport del Form
+5472. Aquest parell no determina impost US sobre una LLC
+disregarded de propietat estrangera; documenta que certes
+transaccions reportables entre la LLC i el seu propietari
+estranger (o parts relacionades) van tenir lloc. L'IRS vol
+visibilitat sobre aquests fluxos, no necessàriament ingressos.
+
+| Element          | Què reporta                                             |
+|------------------|---------------------------------------------------------|
+| Pro-forma 1120   | Envelope d'identificació: nom de la LLC, EIN, adreça,   |
+|                  | any                                                     |
+| Form 5472        | Cada transacció reportable amb la part relacionada      |
+|                  | estrangera (aportacions de capital, distribucions,      |
+|                  | préstecs, serveis, etc.)                                |
+
+Si l'any no va tenir transaccions reportables, el parell es presenta
+generalment amb valors a zero perquè l'IRS vegi l'estat d'activitat
+explícitament. Saltar la presentació és el que activa la coneguda
+exposició a sancions prevista en la regulació.
+
+## Tres patrons reals de presentació que apliquem
+
+Una single-member LLC amb una aportació de capital a la
+constitució, una petita retirada mensual al propietari estranger i
+cap altre flux relacionat. El 5472 reporta l'aportació i les
+retirades; el pro-forma 1120 fa d'envelope. La temporada de
+presentació porta unes hores de feina estructurada, incloent-hi la
+reconciliació comptable.
+
+Una single-member LLC que va prestar diners a una societat
+relacionada estrangera, més tard reemborsats, amb tipus d'interès
+normal. El 5472 reporta la concessió del préstec i el reemborsament;
+l'acumulació d'interessos forma part dels llibres de la LLC i es
+reflecteix a la declaració del propietari al seu país. La
+documentació és aliada aquí: el contracte de préstec i el quadre
+d'amortització són a la carpeta de compliance de la LLC.
+
+Una LLC plurianual sense activitat l'any en curs. Presentem
+igualment el pro-forma 1120 + 5472 a zeros, hi adjuntem un breu
+memoràndum intern que explica l'any dorment, i mantenim
+l'expedient a punt per al moment en què la LLC es reactivi.
+
+## Errors que porten a cartes de sanció
+
+- Tractar el parell com una declaració fiscal que "no deu res" i
+  saltar-la. És una presentació declarativa; l'absència d'impost no
+  retira l'obligació.
+- Barrejar despeses personals del propietari als llibres de la LLC
+  i després intentar reconciliar a l'hora de presentar. Mantenir la
+  frontera neta mensualment.
+- Oblidar que una retirada al propietari estranger és una
+  transacció reportable. Sovint ho és, segons la seva natura
+  (retorn de capital, distribució, etc.).
+- Presentar tard. La sanció per un Form 5472 fallit és substancial
+  i s'aplica fins i tot sense impost US degut.
+
+## Checklist de pre-presentació
+
+- L'EIN de la LLC coincideix amb la carta IRS (CP575).
+- Any d'exercici confirmat (any natural per defecte per a una
+  single-member disregarded LLC).
+- Comptabilitat tancada i reconciliada amb els bancs.
+- Fluxos entre parts relacionades mapats a les categories de línies
+  del 5472.
+- Document d'identitat del propietari a l'arxiu coherent amb la
+  declaració BOI.
+- Canal de presentació a punt (paper o e-file via proveïdor
+  autoritzat).
+
+Tractem 1120 + 5472 com l'encaixada anual de la LLC amb l'IRS:
+tranquil·la, previsible, estructurada. Una presentació endreçada
+aquest any fa l'any següent encara més tranquil.
+
+<!-- /exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Què passa si no presentes el Form 5472: multes de l'IRS i com corregir-ho](/ca/blog/que-passa-si-no-presentes-el-form-5472-multes-irs-i-com)
+- [W-8BEN i W-8BEN-E: una guia completa i tranquil·la](/ca/blog/w8-ben-i-w8-ben-e-la-guia-completa)
+- [Què és l'IRS i com afecta realment la teva LLC americana](/ca/blog/que-es-lirs-i-com-afecta-la-teva-llc-americana)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Revisem BOI, EIN, agent registrat i obligacions federals perquè cap multa et pugui sorprendre. <a href="/ca/serveis">Demanar revisió de compliance</a>.
 <!-- /exentax:cta-v1 -->

@@ -131,6 +131,12 @@ Applying any of these rules to your specific case depends on your tax residency,
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote27-native-v1:fiscalidad-internacional-emprendedores-digitales-en -->
+## How to read international taxation for digital entrepreneurs as a stable mapping rather than as a recurring debate
+
+International taxation for digital entrepreneurs reads more usefully when it's treated as a stable mapping between residence, vehicle and country of customers, than as a recurring debate.
+<!-- /exentax:lote27-native-v1:fiscalidad-internacional-emprendedores-digitales-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -171,6 +177,14 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Optimal tax structure for international freelancers: full framework](/en/blog/optimal-tax-structure-for-international-freelancers-the)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

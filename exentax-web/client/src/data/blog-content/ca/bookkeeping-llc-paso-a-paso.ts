@@ -218,6 +218,14 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Deduccions fiscals per a la teva LLC: què pots deduir i com fer-ho bé](/ca/blog/deduccions-fiscals-per-a-la-teva-llc-que-pots-deduir-i-com)
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+- [Documentar la separació de fons en la teva LLC: procediment real](/ca/blog/documentar-be-la-separacio-de-fons-en-la-teva-llc-amb)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->

@@ -80,9 +80,6 @@ Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**,
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
-<!-- /exentax:calc-cta-v1 -->
 
 Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
 
@@ -99,6 +96,14 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-de -->
+## Warum eine solide internationale Steuerstruktur von der tatsächlichen Tätigkeit aus konzipiert wird und nicht von den Jurisdiktionen aus
+
+Eine solide internationale Steuerstruktur wird ausgehend von der tatsächlichen Tätigkeit konzipiert und nicht ausgehend von einem Katalog von Jurisdiktionen. Der Grund ist einfach: die Jurisdiktionen sind Werkzeuge; die Tätigkeit ist das, was bestimmt, welches Werkzeug angemessen ist.
+
+In der Praxis beginnt diese Konzeption mit der Beschreibung der wesentlichen Flüsse: woher die Einnahmen stammen, wo die operativen Ausgaben anfallen, in welchen Währungen und an welche Gegenparteien gezahlt wird. Erst wenn dieses Bild klar ist, lassen sich die Werkzeuge sinnvoll wählen, ohne in den Fehler zu verfallen, eine theoretisch attraktive Jurisdiktion auf eine Tätigkeit aufzusetzen, die sie nicht ausnutzen kann.
+<!-- /exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -168,6 +173,150 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 
   Bei Exentax schließen wir diese fünf Fronten jedes Jahr parallel zum US-Bundeskalender (Form 5472, 1120 pro-forma, FBAR, staatlicher Annual Report, BOI Report bei Anwendbarkeit). Ziel ist, dass keine Prüfung ein loses Ende findet und die Struktur einer rückwirkenden Prüfung über 5 bis 7 Jahre standhält.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-de -->
+## Wie sich die Gestaltung einer internationalen Steuerstruktur als stabile Kartografie statt als opportunistische Konstruktion lesen lässt
+
+Die Gestaltung einer soliden internationalen Steuerstruktur liest sich nützlicher als stabile Kartografie zwischen Vehikeln, Jurisdiktionen und operativen Flüssen denn als opportunistische Konstruktion mit Modejurisdiktionen. Die strukturierenden Achsen — Steueransässigkeit des wirtschaftlich Berechtigten, Ort der Wertschöpfung, Aktivitätstyp — definieren einen diskreten Rahmen, der sich nicht von Quartal zu Quartal ändert.
+
+Eine kurze Notiz im Ordner, die diese Achsen für die aktuelle Struktur festhält, macht die Gestaltung bei jedem Jahresreview in wenigen Minuten nachlesbar und erleichtert jede spätere Anpassung erheblich.
+<!-- /exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-de -->
+
+<!-- exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-de-bis -->
+## Wie sich die jährliche Überprüfung der Strukturkartografie als kurzer Eintrag statt als vollständige Neubewertung lesen lässt
+
+Die jährliche Überprüfung der Strukturkartografie pflegt sich am ruhigsten als kurzer datierter Eintrag, der die drei strukturierenden Achsen — Steueransässigkeit, Ort der Wertschöpfung, Aktivitätstyp — zum Stichtag bestätigt und nur die tatsächlich bewegten Achsen zur Anpassung vormerkt, statt die gesamte Struktur jedes Jahr neu zu bewerten.
+<!-- /exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-de-bis -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
+<!-- /exentax:calc-cta-v1 -->
+
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+## Eine solide Struktur beginnt beim Mitglied, nicht bei der LLC
+
+Ein häufiger Fehler beim Entwurf einer internationalen Struktur ist,
+bei der Entität zu beginnen. Der richtige Ausgangspunkt ist das
+Mitglied: seine Steueransässigkeit, seine persönliche Bilanz, die
+Lebens- und Mobilitätspläne der nächsten zwei bis fünf Jahre und die
+Tätigkeiten, die die LLC tatsächlich ausführen wird. Wenn dieses
+Bild ehrlich und schriftlich vorliegt, ergibt sich die Entitätswahl
+fast von selbst.
+
+| Mitgliederfakt                            | Strukturelle Konsequenz               |
+|-------------------------------------------|---------------------------------------|
+| Steueransässig in Land mit Regeln zum     | LLC bleibt transparent; Einkünfte     |
+| Ort der tatsächlichen Geschäftsleitung    | fliessen in die Heimaterklärung       |
+| Mobiles Mitglied, mögliche Relocation     | Struktur muss tragbar, leicht bleiben |
+| Überwiegend US-Quellen-Kunden             | W-8-Zyklus und Abkommensanspruch im   |
+|                                           | Mittelpunkt                           |
+| Mehrere Geschäftszweige                   | eine LLC pro Zweig, nicht eine für    |
+|                                           | alles                                  |
+
+Beim Mitglied zu beginnen, beseitigt auch die Versuchung,
+mehrschichtige Holdings zu überengineeren, die die Tätigkeit nicht
+braucht. Eine einzige operative LLC, sauber und gut dokumentiert,
+schlägt die meisten "komplexen, aber eleganten" Diagramme in realen
+Prüfungen.
+
+## Drei Strukturen, die wir mit Mandanten geführt haben
+
+Eine Beraterin in Spanien mit EU- und US-Kunden betreibt eine
+Single-Member LLC mit einem kleinen Mercury-+-Wise-Stack. Die
+Einkünfte fliessen in ihre jährliche persönliche Erklärung; das
+Pro-forma-1120 + 5472 der LLC dokumentiert die verbundenen Flüsse;
+keine Holding-Schicht nötig. Gesamte jährliche Pflege: leicht.
+
+Ein Zwei-Mitglieder-Team in Portugal und Deutschland betreibt
+gemeinsam eine LLC, mit Zuteilung in der Operating Agreement
+definiert. Jedes Mitglied erklärt seinen anteiligen Anteil zu Hause;
+die LLC ist die operative Hülle, kein Holding. Die Struktur ist
+tragbar und überlebt eine Relocation eines Mitglieds, ohne das
+Diagramm neu zeichnen zu müssen.
+
+Eine Gründerin mit einer SaaS-Linie und einer separaten
+Beratungslinie betreibt zwei LLCs, eine pro Linie. Jede hat ihre
+Bücher, ihren Bank-Stack und ihren W-8-Zyklus. Die Trennung
+vereinfacht später die Verkaufsoptionalität (eine Linie könnte
+verkauft werden, ohne die andere zu beeinträchtigen) und hält die
+Berichterstattung sauber.
+
+## Fehler im Entwurf vermeiden
+
+- Die Struktur entwerfen, um ein steuerliches Ergebnis zu jagen,
+  das die Ansässigkeit des Mitglieds nicht erlaubt. Die Regeln zum
+  Ort der tatsächlichen Geschäftsleitung des Heimatlands werden
+  letztlich gewinnen.
+- Holdings stapeln, um "corporate auszusehen", wenn die Tätigkeit
+  Einzelpersonenberatung ist. Die Komplexität wird zur eigenen
+  Risikofläche.
+- Vergessen, dass BOI für die LLC und ihre wirtschaftlich
+  Berechtigten gilt, unabhängig davon, wie sauber die Heimaterklärung
+  ist.
+- Die Operating Agreement als Boilerplate behandeln. Sie ist das
+  Gründungsdokument, das bestimmt, wer unterschreibt, wer entscheidet
+  und wie Streitigkeiten gelöst werden.
+
+## Vor-Entwurfs-Checkliste
+
+- Steueransässigkeit des Mitglieds bestätigt und dokumentiert.
+- Zwei-bis-fünf-Jahres-Mobilitätsplan schriftlich.
+- Tätigkeitsbeschreibung: Kunden je Land, erwartete Umsatzbandbreite.
+- Bank-Stack vor-zugeordnet (Mercury-, Relay-, Wise-, Stripe-Rollen).
+- Jährlicher Compliance-Kalender (1120 + 5472, BOI, Staat, CRS wo
+  anwendbar, Heimaterklärung).
+
+Wir entwerfen jede Struktur so, dass sie im einzigen relevanten
+Forum verteidigt werden kann: der heimischen Steuerverwaltung des
+Mitglieds. Alles andere ist nachgelagert.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+
+
+
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-bis -->
+## Die Struktur in der Zeit: Tragbarkeit und Widerstandsfähigkeit
+
+Eine gute Struktur ist nicht nur für heute geeignet; sie muss
+Wohnsitzwechsel des Mitglieds, neue Geschäftszweige und neue
+internationale Regeln überleben, ohne neu gezeichnet werden zu
+müssen. Wir testen jeden Entwurf immer gegen drei Szenarien: Umzug
+des Mitglieds in ein Nachbarland, Hinzufügen einer zweiten
+Geschäftslinie in 18 Monaten und Änderung internationaler Regeln
+(zum Beispiel eine Erweiterung von DAC oder CARF), die die
+Steuertransparenz einer Jurisdiktion in der Kette berührt. Eine
+Struktur, die alle drei ohne wesentliche Änderung übersteht, ist
+eine tragbare Struktur. Eine, die an einem scheitert, ist
+wahrscheinlich schon heute fragil.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-bis -->
+
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-ter -->
+## Eine kurze Schlussbeobachtung zum Entwurfsprozess
+
+Der Entwurfsprozess endet nicht mit der Gründung. Wir notieren immer
+das Datum, an dem die Struktur nach dem geplanten Modell tatsächlich
+in Betrieb geht, und das geplante Datum der ersten formellen
+Überprüfung, in der Regel zwölf Monate später. Diese frühe
+Bestätigung verwandelt einen Plan in eine gelebte Praxis und ist die
+einzige Grundlage, auf der spätere Anpassungen ehrlich verglichen
+werden können.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-ter -->
+
+<!-- exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-de-bis -->
+## Wie sich die Auswahl der Werkzeuge schriftlich nachvollziehbar dokumentieren lässt
+
+Damit die Auswahl der Werkzeuge auch Jahre später nachvollziehbar bleibt, lohnt es sich, die Begründung der Wahl in einer kurzen Notiz festzuhalten, die jedem Werkzeug das konkrete Merkmal der Tätigkeit zuordnet, das es bedient.
+<!-- /exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Doppelbesteuerungsabkommen USA-Spanien für LLCs: praktische Lesart](/de/blog/doppelbesteuerungsabkommen-usa-spanien-fur-llcs)
+- [IRS 1120 und 5472: was sie wirklich sind und wann sie gelten](/de/blog/irs-1120-und-5472-was-sie-wirklich-sind-und-wann-sie-gelten)
+- [Autónomo in Spanien vs US-LLC: ein Vergleich, der tatsächlich weiterhilft](/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

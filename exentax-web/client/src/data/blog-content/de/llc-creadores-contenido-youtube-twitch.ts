@@ -95,6 +95,18 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-de -->
+## Wie sich das LLC-Profil eines Content-Creators als stabiles Mapping zwischen Plattformen und Einnahmen lesen lässt
+
+Das LLC-Profil eines Content-Creators auf YouTube oder Twitch liest sich nützlicher als stabiles Mapping zwischen Plattformen und Einnahmenarten — Werbeerlöse, Memberships, Tips, Sponsorings — denn als monatliche Improvisation. Diese Zuordnung ändert sich nicht von Quartal zu Quartal, und eine kurze Notiz im LLC-Ordner mit der Plattform und dem zugehörigen Einnahmentyp macht die operative Konfiguration jederzeit nachlesbar.
+<!-- /exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-de -->
+
+<!-- exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-de-bis -->
+## Wie sich die jährliche Aktualisierung der Plattform-Einnahmen-Zuordnung als kurzer Eintrag pflegen lässt
+
+Die jährliche Aktualisierung dieser Zuordnung pflegt sich am ruhigsten als kurzer, datierter Eintrag im LLC-Ordner mit der Plattform und dem entsprechenden Einnahmentyp zum Stichtag.
+<!-- /exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-de-bis -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -114,6 +126,16 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote23-native-v1:llc-creadores-contenido-youtube-twitch-de -->
+## Wie sich die LLC-Eignung für Content Creators als Profilfrage statt als universelle Empfehlung lesen lässt
+
+Die LLC-Eignung für YouTube- und Twitch-Creators liest sich am ehrlichsten als Profilfrage und nicht als universelle Empfehlung. Ihre Eignung hängt von der geografischen Quellverteilung der Erträge, dem Typ der Monetarisierung (Werbung, Sponsoring, Mitgliedschaften) und der Frequenz der Auszahlungen ab — und diese drei Variablen erklären die Spannweite der Antworten weit besser als jede pauschale Empfehlung.
+
+## Wie sich die Eignungsprüfung in einer kurzen Notiz festhalten lässt
+
+Die Eignungsprüfung hält sich dauerhafter in einer kurzen, datierten Notiz fest, die die drei Variablen und die daraus folgende Schlussfolgerung auflistet.
+<!-- /exentax:lote23-native-v1:llc-creadores-contenido-youtube-twitch-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -158,6 +180,24 @@ Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansä
 _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:lote13-native-v1:llc-creadores-contenido-youtube-twitch -->
+## Welche Besonderheiten Content-Creator-Profile mitbringen
+
+Content-Creator-Profile bringen drei Besonderheiten mit, die
+beim LLC-Setup berücksichtigt werden sollten: schwankende
+monatliche Einnahmen, mehrere parallele Plattformen mit eigenen
+Reporting-Logiken und ein hoher Anteil von Aufwendungen, die
+gleichzeitig privat und geschäftlich genutzt werden.
+<!-- /exentax:lote13-native-v1:llc-creadores-contenido-youtube-twitch -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Zahlungs-Gateways für Ihre LLC: Stripe, PayPal und DoDo](/de/blog/zahlungs-gateways-fur-ihre-llc-stripe-paypal-und-dodo)
+- [Ihr digitales Unternehmen mit einer US-LLC skalieren](/de/blog/ihr-digitales-unternehmen-mit-einer-us-llc-skalieren)
+- [Steuerliche Abzüge für Ihre LLC: was Sie abziehen können](/de/blog/steuerliche-abzuge-fur-ihre-llc-was-sie-abziehen-konnen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

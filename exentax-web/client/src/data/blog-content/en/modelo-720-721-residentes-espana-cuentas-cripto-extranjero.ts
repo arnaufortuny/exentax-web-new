@@ -137,6 +137,12 @@ The realistic recommendation: **Mercury + Relay as backup + Slash for ad operati
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-en -->
+## How to read Models 720 and 721 as a stable annual mapping rather than as a recurring fear
+
+Models 720 and 721 read more usefully when they're treated as a stable annual mapping between the country where the assets are held, the type of asset (account, security, crypto) and the corresponding declaration form, than as a recurring fear. The mapping doesn't change year to year — only the cumulative balance moves.
+<!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -204,6 +210,22 @@ Madrid based freelancer with: Wise EUR balance EUR 18,400, Mercury Personal Savi
 > **Is your stack flirting with the EUR 50,000 per block line?** Run your balances through the <strong>Exentax tax calculator</strong> and see whether moving to a properly declared LLC structure offsets the current operational complexity.
 
 For the bank reporting layer that precedes Modelo 720, read <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">what US banks really report to your home tax authority</a>, and if your goal is minimising total tax, the map is in <a href="/en/blog/legal-paths-to-minimize-your-taxes">the legal paths to minimise your taxes</a>. If you would rather delegate the actual filing, <strong>book a call with the Exentax team</strong> and we close it in one week.
+
+<!-- exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-en -->
+## How forms 720 and 721 fit together in practice
+
+Forms 720 and 721 are two different windows on the same overall picture, and they are best understood as complementary rather than competing. Form 720 covers categories of assets held abroad that have been informative-reportable for years: foreign bank accounts, foreign securities and certain forms of foreign-located real estate. Form 721 was introduced specifically to cover virtual currencies held outside Spain through entities that provide custody, exchange or related services, and it answers a question that the older form was never designed to answer. The two forms therefore have distinct thresholds, distinct content boxes and, in practice, distinct preparation rhythms.
+
+In a calm year, the cleanest way to keep both forms manageable is to maintain three working files in parallel: a list of foreign bank or brokerage accounts with year-end balances and average quarterly balances; a list of foreign securities with the same valuation discipline; and a list of crypto positions held in non-Spanish custodial relationships with end-of-year valuation in euros. Each of these three lists feeds the relevant boxes of the relevant form, and a year-on-year comparison flags movements that may need a refreshed declaration. The forms also rely heavily on the consistency of the figures from one year to the next, so a small change in methodology should always be documented in the same working file rather than left to memory.
+<!-- /exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-en -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [US bank accounts: what gets reported and how to organise your LLC](/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the)
+- [DAC8 and crypto: automatic tax reporting of crypto-assets in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+- [Cryptocurrency and trading with LLC: complete tax guide for traders](/en/blog/cryptocurrency-and-trading-with-llc-complete-tax-guide-for)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

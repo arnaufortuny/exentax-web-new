@@ -57,9 +57,6 @@ L'application concrète de ces règles à votre cas dépend de votre résidence 
 
 Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
-<!-- /exentax:calc-cta-v1 -->
 
 ### Points clés
 
@@ -94,6 +91,106 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
   **DAC 8** (Directive (UE) 2023/2226 du Conseil du 17 octobre 2023) sera transposée en droit français au plus tard le **31 décembre 2025**, pour une entrée en application au **1er janvier 2026**. Le projet de loi de transposition s'appuie sur l'**article 1649 ter A du CGI** déjà créé par la Loi de finances pour 2024 (article 116) qui anticipe l'obligation déclarative des prestataires de services sur actifs numériques (PSAN) au sens du **règlement MiCA (UE) 2023/1114**.
 
   Concrètement, tout PSAN agréé par l'**AMF** (procédure d'agrément MiCA depuis le 30 décembre 2024) devra communiquer chaque année à la **DGFiP** l'identité de chaque utilisateur résident, ses comptes, ses transactions agrégées par actif et les soldes au 31 décembre. Les sanctions pour défaut de communication sont prévues à l'article 1740 D du CGI: **200 € par utilisateur non déclaré** et jusqu'à **50 000 €** par exercice en cas de manquement systématique.
+
+<!-- exentax:lote7-native-v1:dac8-criptomonedas-reporting-fiscal-2026 -->
+## Ce que DAC8 change réellement pour les détenteurs crypto dans l'UE
+
+DAC8 étend le régime d'échange automatique d'informations de l'UE
+aux prestataires de services sur crypto-actifs. Du point de vue du
+détenteur, le changement pratique est que le même type de résumés
+déjà échangés pour les comptes bancaires (CRS) est désormais
+produit par les plateformes crypto déclarables sur leurs
+utilisateurs résidents de l'UE. Les plateformes identifient les
+utilisateurs, classent les actifs, et envoient une fois par an un
+enregistrement défini à l'administration fiscale de l'utilisateur.
+
+| Champ déclaré sous DAC8 (typique)        | Ce que l'administration fiscale voit   |
+|------------------------------------------|----------------------------------------|
+| Identité de l'utilisateur                | Nom, résidence, identifiant fiscal     |
+| Produits bruts agrégés                   | Somme annuelle, par actif si applicable|
+| Acquisitions brutes agrégées             | Somme annuelle, par actif si applicable|
+| Avoirs en fin d'année                    | Instantané, quand la plateforme garde  |
+|                                          | la custody                             |
+
+Cela signifie que la mise en correspondance des agrégats déclarés
+par la plateforme avec la déclaration annuelle du détenteur devient
+la base de tout plan de conformité crypto à l'ère DAC8. Si les deux
+se réconcilient, le rapport est de nouveau un non-événement.
+
+## Trois schémas réels de réconciliation
+
+Un détenteur qui utilisait une seule plateforme UE régulée pour le
+trading spot a passé une année propre parce que le rapport annuel
+de la plateforme reflétait l'historique des trades exporté chaque
+janvier, qui alimentait directement la déclaration du pays
+d'origine. L'enregistrement DAC8 est arrivé comme prévu et
+correspondait.
+
+Un utilisateur avec un mix de plateformes UE et hors UE a produit
+un grand livre maître qui consolidait tous les lieux, puis mappait
+chaque ligne à sa source. La part déclarée DAC8 était une tranche
+du maître ; le reste était auto-déclaré avec la même rigueur.
+L'administration locale a vu un seul chiffre cohérent.
+
+Un détenteur long terme avec custody sur une plateforme UE régulée
+et une petite queue DeFi a conservé la queue DeFi comme section
+documentée séparément. DAC8 a capté la portion régulée ; la section
+DeFi avait sa propre paperasse (adresses de portefeuilles, preuves
+de transaction, méthodologie de valorisation) prête à présenter si
+demandé.
+
+## Erreurs à éviter dans le nouveau régime
+
+- Ignorer la demande de mise à jour des données utilisateur de la
+  plateforme. Si votre résidence fiscale sur la plateforme est
+  périmée, le rapport partira au mauvais pays.
+- Traiter "la plateforme déclare" comme "je n'ai pas à déclarer". Le
+  contraire est vrai : déclarez, et laissez la déclaration de la
+  plateforme s'aligner.
+- Mélanger crypto personnelle et crypto détenue par la LLC. Le
+  crypto détenu par la LLC est dans un silo de déclaration différent
+  du crypto personnel ; les mélanger cause des réconciliations
+  douloureuses.
+- Ignorer la base de coût. DAC8 déclare des flux bruts ; la
+  déclaration locale a besoin de la base pour calculer le résultat
+  imposable.
+
+## Checklist annuelle de réconciliation
+
+- Rafraîchir les données utilisateur sur chaque plateforme en
+  janvier.
+- Tirer les rapports annuels dès leur disponibilité.
+- Réconcilier les totaux plateforme avec votre grand livre maître,
+  par actif.
+- Confirmer que la méthodologie de base de coût est cohérente
+  d'année en année.
+- Conserver les preuves pour tout avoir hors DAC8 (portefeuilles,
+  validateurs, etc.).
+
+Nous traitons DAC8 comme un simplificateur structurel, pas comme
+une complication. Une fois la routine en place, le travail de fin
+d'année rétrécit plutôt qu'il ne grandit.
+
+<!-- /exentax:lote7-native-v1:dac8-criptomonedas-reporting-fiscal-2026 -->
+
+<!-- exentax:lote34-native-v1:dac8-criptomonedas-reporting-fiscal-2026-fr -->
+## Comment lire la portée du DAC8 comme une cartographie d'opérateurs et de juridictions stable plutôt que comme une crainte récurrente
+
+La portée du DAC8 se lit plus utilement comme une cartographie stable entre l'opérateur de crypto-actifs, le pays de résidence du bénéficiaire effectif et le cadre qui s'applique entre les deux, plutôt que comme une crainte récurrente.
+<!-- /exentax:lote34-native-v1:dac8-criptomonedas-reporting-fiscal-2026-fr -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:cross-refs-v1 -->
+### Sur le même sujet
+
+- [CRS 2.0 et CARF : pourquoi les USA ne signeront jamais — impact LLC](/fr/blog/crs-2-0-carf-pourquoi-les-usa-ne-signeront-jamais-llc)
+- [CRS pour résidents en Espagne et Amérique latine : implications réelles](/fr/blog/crs-pour-residents-en-espagne-et-latam-implications-reelles)
+- [Exit tax Espagne, LLC, crypto et Interactive Brokers](/fr/blog/exit-tax-espagne-llc-crypto-interactive-brokers)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

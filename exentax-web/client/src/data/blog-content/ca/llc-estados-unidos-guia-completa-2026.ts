@@ -109,6 +109,18 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
+<!-- exentax:lote30-native-v1:llc-estados-unidos-guia-completa-2026-ca -->
+## Com llegir la LLC dels EUA com una elecció estructural estable en lloc d'un argument comercial
+
+La LLC dels EUA es llegeix de manera més útil com una elecció estructural estable entre les obligacions recurrents del vehicle (Form 5472, BOI, renovació del Registered Agent) i els beneficis recurrents (separació jurídica, infraestructura de pagaments dels EUA, estructura simple per a activitats digitals), en lloc d'un argument comercial. Una nota curta i datada al dossier de la LLC amb els dos costats fa l'elecció consultable en pocs minuts en una conversa amb un assessor.
+<!-- /exentax:lote30-native-v1:llc-estados-unidos-guia-completa-2026-ca -->
+
+<!-- exentax:lote30-native-v1-bis:llc-estados-unidos-guia-completa-2026-ca -->
+## Per què la nota es refereix a l'any fiscal i no a esdeveniments aïllats
+
+La nota es refereix a l'any fiscal i no a esdeveniments aïllats — les obligacions recurrents i els beneficis recurrents es manifesten a nivell anual, i aquesta visió encerta la granularitat correcta per a qualsevol revisió posterior amb un assessor o autoavaluació.
+<!-- /exentax:lote30-native-v1-bis:llc-estados-unidos-guia-completa-2026-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -140,6 +152,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote18-native-v1:llc-estados-unidos-guia-completa-2026-ca -->
+## Per què una guia completa de LLC es llegeix millor com a full de ruta que com a procediment únic
+
+Una guia completa per operar una LLC dels EUA es llegeix millor com a full de ruta amb etapes anomenades que com a procediment únic d'extrem a extrem. La raó és pràctica: un full de ruta permet a la persona que llegeix entrar a l'etapa que correspon a la situació actual, en lloc de començar cada vegada des del principi. L'etapa u cobreix les decisions de constitució, que són en gran mesura irreversibles. L'etapa dos cobreix la configuració operativa que es manté cada any.
+<!-- /exentax:lote18-native-v1:llc-estados-unidos-guia-completa-2026-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -198,6 +216,14 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Operating Agreement: què és i per què la teva LLC en necessita un](/ca/blog/operating-agreement-que-es-i-per-que-la-teva-llc-en)
+- [Per què obrir una LLC americana el 2026: 5 pilars de l'avantatge](/ca/blog/per-que-obrir-una-llc-americana-el-2026-els-5-pilars-del)
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Constitució, EIN, BOI, banca i manteniment: un sol equip que entén el teu cas de cap a peus. <a href="/ca/serveis">Veure tots els serveis</a>.

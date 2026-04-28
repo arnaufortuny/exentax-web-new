@@ -77,6 +77,12 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 
+<!-- exentax:lote30-native-v1:llc-agencias-marketing-digital-pt -->
+## Como ler a LLC para agências de marketing digital como um mapa operativo estável em vez de uma escolha de custo
+
+A LLC para agências de marketing digital lê-se de forma mais útil como um mapa operativo estável entre os clientes nos EUA, o beneficiário e o país onde se cria valor, em vez de uma escolha de custo. Este mapa não muda de trimestre em trimestre, e uma nota curta e datada no ficheiro da agência com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+<!-- /exentax:lote30-native-v1:llc-agencias-marketing-digital-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -137,6 +143,14 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 ### Nota editorial
 
 Este artigo é atualizado anualmente com as alterações regulatórias que afetam as estruturas abordadas. Se detetar uma referência desatualizada, escreva-nos e revê-la-emos no próximo ciclo editorial; mantemos a data de publicação visível no topo de cada artigo para total transparência.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [LLC americana para desenvolvedores de software e fundadores SaaS](/pt/blog/llc-americana-para-desenvolvedores-de-software-e-fundadores)
+- [LLC americana para criadores de conteúdo: YouTube, Twitch e além](/pt/blog/llc-americana-para-criadores-de-conteudo-youtube-twitch-e)
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

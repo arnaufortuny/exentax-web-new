@@ -69,6 +69,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / OCDE.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote32-native-v1:criptomonedas-trading-llc-impuestos-ca -->
+## Com llegir la qüestió de la LLC per a trading de criptomonedes com un mapatge estructural estable en lloc d'una drecera de comunitat
+
+La qüestió de la LLC per a trading de criptomonedes es llegeix de manera més útil com un mapatge estable entre residència, tipus d'activitat (ocasional o habitual) i tractament fiscal corresponent, en lloc d'una drecera de comunitat. Aquest mapatge no canvia amb l'estació de l'any.
+<!-- /exentax:lote32-native-v1:criptomonedas-trading-llc-impuestos-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -126,6 +132,20 @@ A Exentax modelem la imputació crypto en residència, deixem el reporting Model
 ## Com treballem a Exentax
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
+
+<!-- exentax:lote15-native-v1:criptomonedas-trading-llc-impuestos-ca -->
+## Per què la fiscalitat cripto rarament tracta només de cripto
+
+El tractament fiscal de l'activitat cripto dins d'una LLC poques vegades és un tema net i aïllat. Acostuma a dependre alhora de tres coses: com el bròker o exchange reporta l'activitat, quan es produeixen les conversions a moneda fiat respecte de les pròpies operacions, i com es documenta el període de tinença. Cadascun d'aquests punts influeix en la xifra que arriba a la declaració personal del membre, i ometre'n qualsevol acostuma a produir aquell tipus de desviació tardana després cara de reconciliar. La higiene més simple consisteix a mantenir, per a cada any natural, un únic fitxer de treball que reconciliï la comptabilitat de la LLC amb els extractes del bròker i amb l'historial on-chain. Així la posició es manté consistent a banda i banda i la preparació anual de les declaracions esdevé una rutina ordenada en lloc d'una cerca.
+<!-- /exentax:lote15-native-v1:criptomonedas-trading-llc-impuestos-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Tributació de la LLC per activitat: serveis, ecommerce, SaaS, royalties, trading](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+- [Exit tax Espanya amb LLC, cripto i Interactive Brokers](/ca/blog/exit-tax-espanya-llc-cripto-interactive-brokers)
+- [Conveni de doble imposició USA-Espanya per a LLCs: lectura pràctica](/ca/blog/conveni-de-doble-imposicio-usa-espanya-per-a-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

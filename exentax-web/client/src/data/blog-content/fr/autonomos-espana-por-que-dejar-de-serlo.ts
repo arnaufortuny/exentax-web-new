@@ -178,6 +178,14 @@ Chez Exentax nous ne poussons pas la radiation du RETA par défaut: nous faisons
 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [LLC américaine comme alternative réelle au statut d'autónomo en Espagne](/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne)
+- [Fiscalité LLC par pays de résidence : ce que vous payez où vous vivez](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+- [Pourquoi ouvrir une LLC aux États-Unis en 2026 : les 5 piliers clés](/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Ce%20guide%20est%20pens%C3%A9%20pour%20un%20public%20espagnol%2C%20mais%20la%20logique%20parle%20directement%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

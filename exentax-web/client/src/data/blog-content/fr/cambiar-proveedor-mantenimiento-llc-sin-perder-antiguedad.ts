@@ -82,6 +82,12 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 
+<!-- exentax:lote29-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-fr -->
+## Comment relire la transition sans la reconstruire de mémoire
+
+Une note courte et datée dans le dossier LLC, qui consigne les trois passations (Registered Agent, adresse postale, garde des documents) avec la référence de confirmation, suffit à relire la transition en quelques minutes lors d'un échange avec un conseiller ou une banque.
+<!-- /exentax:lote29-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -101,6 +107,14 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Payoneer** opère via des entités européennes (Payoneer Europe Ltd, Irlande) elles aussi **dans le périmètre CRS** pour les clients résidant dans une juridiction participante.
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
+
+<!-- exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-fr -->
+## Pourquoi changer de prestataire de maintenance se prépare comme une migration et non comme une rupture
+
+Changer de prestataire de maintenance d'une LLC sans perdre l'ancienneté se prépare comme une migration et non comme une rupture. La différence est concrète : une migration commence par un inventaire des éléments à transférer (registered agent, dates de renouvellement, dossier informatif), définit une fenêtre de bascule courte mais explicite, et réserve une période de chevauchement pendant laquelle les deux prestataires sont alignés sur les mêmes échéances.
+
+Cette préparation évite les deux problèmes les plus fréquents : la perte d'une notification importante pendant la transition, et la divergence d'information entre l'ancien et le nouveau prestataire après la bascule. Une fois la migration close, l'ancienneté reste lisible parce que le dossier informatif reste continu.
+<!-- /exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-fr -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
@@ -157,6 +171,14 @@ Note de terrain après avoir piloté cela mois après mois pour des clients: la 
 ### Étape 1. Diagnostiquer ce qui est lié au prestataire actuel
 
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Gérer votre LLC au quotidien: 45-60 min/mois vs 8-10 h](/fr/blog/gerer-votre-llc-au-quotidien-guide-pratique-pour-non)
+- [J'ai une LLC américaine : est-ce que je la gère bien ? Checklist](/fr/blog/jai-une-llc-est-ce-que-je-la-gere-correctement-checklist)
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

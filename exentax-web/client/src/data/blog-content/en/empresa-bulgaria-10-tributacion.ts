@@ -191,6 +191,14 @@ At Exentax we model Bulgaria with your real clients, residency and volume — an
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Estonia taxation: how the OÜ and e-Residency really work](/en/blog/estonia-taxation-how-it-really-works)
+- [Why not to open an Estonian company: US LLC wins for non-residents](/en/blog/why-not-to-open-an-estonian-company-the-us-llc-wins-for-most)
+- [Why open a US LLC in 2026: the 5 pillars of the American advantage](/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

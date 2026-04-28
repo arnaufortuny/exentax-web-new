@@ -152,6 +152,12 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
+<!-- exentax:lote33-native-v1:autonomo-espana-vs-llc-estados-unidos-fr -->
+## Comment lire la comparaison auto-entrepreneur espagnol contre LLC américaine comme une cartographie stable plutôt que comme un débat de communauté
+
+La comparaison auto-entrepreneur espagnol contre LLC américaine se lit plus utilement comme une cartographie stable entre le pays de résidence du bénéficiaire, le pays où la valeur est créée et le pays des clients, plutôt que comme un débat de communauté. Cette cartographie ne change pas avec la saison, et une note courte et datée dans le dossier personnel rend la position relisible en quelques minutes.
+<!-- /exentax:lote33-native-v1:autonomo-espana-vs-llc-estados-unidos-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -172,6 +178,14 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Payoneer** opère via des entités européennes (Payoneer Europe Ltd, Irlande) elles aussi **dans le périmètre CRS** pour les clients résidant dans une juridiction participante.
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
+
+<!-- exentax:lote20-native-v1:autonomo-espana-vs-llc-estados-unidos-fr -->
+## Comment lire la comparaison autónomo / LLC comme un exercice par profil plutôt que comme un débat à somme nulle
+
+La comparaison autónomo / LLC se lit plus utilement lorsqu'elle est traitée comme un exercice par profil: la même comparaison peut atterrir différemment pour deux profils qui diffèrent par le volume facturé, la répartition géographique des clients, la fréquence des distributions et la complexité de la chaîne opérationnelle. Lire la comparaison sans le profil en tête tend à pousser la conclusion vers l'option la plus bruyante du débat général.
+
+Une approche utile consiste à définir trois profils — facturation basse, moyenne, haute — et à dérouler la comparaison pour chacun, en notant pour chaque profil quelle structure ressort comme plus efficiente.
+<!-- /exentax:lote20-native-v1:autonomo-espana-vs-llc-estados-unidos-fr -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure

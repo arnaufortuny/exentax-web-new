@@ -98,6 +98,12 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
 
+<!-- exentax:lote31-native-v1:amazon-ecommerce-llc-vender-online-ca -->
+## Com llegir la LLC per a ecommerce com un mapa operatiu estable en lloc d'una drecera comercial
+
+La LLC per a ecommerce es llegeix de manera més útil com un mapa operatiu estable entre el marketplace, el beneficiari i el país de residència del beneficiari, en lloc d'una drecera comercial. Aquest mapa no canvia amb la temporada de l'any, i una nota curta i datada al dossier de la LLC amb els tres eixos fa la posició consultable en pocs minuts en una conversa amb un assessor fiscal.
+<!-- /exentax:lote31-native-v1:amazon-ecommerce-llc-vender-online-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -143,6 +149,14 @@ A Exentax muntem aquesta estructura d'extrem a extrem i lliurem al seller el man
 ## Com treballem a Exentax
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+- [DAC7: el nou reporting de plataformes digitals el 2026](/ca/blog/dac7-el-nou-reporting-de-plataformes-digitals-el-2026)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

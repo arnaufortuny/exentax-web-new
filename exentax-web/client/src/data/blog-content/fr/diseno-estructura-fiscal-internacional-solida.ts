@@ -86,6 +86,14 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-fr -->
+## Comment lire la conception d'une structure fiscale internationale comme une cartographie stable plutôt que comme un assemblage opportuniste
+
+La conception d'une structure fiscale internationale solide se lit plus utilement comme une cartographie stable entre vehicules, juridictions et flux opérationnels, plutôt que comme un assemblage opportuniste de juridictions à la mode. Les axes structurants — résidence fiscale du bénéficiaire, lieu de la valeur créée, type d'activité — définissent un cadre discret qui ne change pas d'un trimestre à l'autre.
+
+Une courte note dans le dossier qui consigne ces axes pour la structure actuelle rend la conception relisible en quelques minutes à chaque revue annuelle, et facilite grandement toute évolution ultérieure.
+<!-- /exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -98,6 +106,12 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Payoneer** opère via des entités européennes (Payoneer Europe Ltd, Irlande) elles aussi **dans le périmètre CRS** pour les clients résidant dans une juridiction participante.
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
+
+<!-- exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-fr -->
+## Pourquoi une structure fiscale internationale solide se conçoit à partir de l'activité réelle, pas à partir des juridictions
+
+Une structure fiscale internationale solide se conçoit en partant de l'activité réelle plutôt qu'en partant d'un catalogue de juridictions. La raison est simple : les juridictions sont des outils ; l'activité est ce qui détermine quel outil est approprié.
+<!-- /exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-fr -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Le framework Exentax pour concevoir une structure fiscale internationale
@@ -152,6 +166,107 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
   Chez Exentax, nous fermons ces cinq fronts chaque année en parallèle du calendrier fédéral américain (Form 5472, 1120 pro-forma, FBAR, Annual Report étatique, BOI Report quand il s'applique). L'objectif: qu'aucun contrôle ne trouve de bout libre et que la structure tienne une révision rétroactive sur 5 à 7 ans.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+## Une structure solide part du membre, pas de la LLC
+
+Une erreur fréquente en concevant une structure internationale est
+de partir de l'entité. Le bon point de départ est le membre : sa
+résidence fiscale, son bilan personnel, les plans de vie et de
+mobilité pour les deux à cinq prochaines années, et les activités
+que la LLC va réellement exercer. Une fois ce tableau honnête et
+écrit, le choix d'entité se conçoit presque tout seul.
+
+| Fait sur le membre                        | Conséquence structurelle              |
+|-------------------------------------------|---------------------------------------|
+| Résident fiscal d'un pays avec règles de  | LLC reste transparente ; revenus      |
+| siège effectif de direction               | remontent dans la déclaration locale  |
+| Membre mobile, possible relocation 24 mois| structure doit rester portable, légère|
+| Clients à dominante source US             | cycle W-8 et bénéfice de convention   |
+|                                           | au cœur                               |
+| Plusieurs lignes d'activité               | une LLC par ligne, pas une pour tout  |
+
+Partir du membre supprime aussi la tentation de sur-concevoir avec
+des holdings multi-niveaux dont l'activité n'a pas besoin. Une seule
+LLC opérationnelle, propre et bien documentée, bat la plupart des
+diagrammes "complexes mais élégants" dans les revues réelles.
+
+## Trois structures menées avec des clients
+
+Une consultante en Espagne avec des clients UE et US opère une
+single-member LLC associée à un petit stack Mercury + Wise. Les
+revenus remontent dans sa déclaration personnelle annuelle ; le
+pro-forma 1120 + 5472 de la LLC documente les flux liés ; aucune
+couche de holding n'a été nécessaire. Maintenance annuelle totale :
+légère.
+
+Une équipe à deux membres au Portugal et en Allemagne opère
+ensemble une LLC, avec allocation définie dans l'operating
+agreement. Chaque membre déclare sa part proportionnelle chez lui ;
+la LLC est la coquille opérationnelle, pas un holding. La structure
+est portable et survit à une relocation de membre sans redessiner le
+diagramme.
+
+Un fondateur avec une ligne SaaS et une ligne conseil distincte
+opère deux LLC, une par ligne. Chacune a ses livres, son stack
+bancaire, son cycle W-8. La séparation simplifie l'optionnalité de
+vente plus tard (une ligne peut être vendue sans affecter l'autre)
+et garde le reporting propre.
+
+## Erreurs à éviter en conception
+
+- Concevoir la structure pour chasser un résultat fiscal que la
+  résidence du membre ne permet pas. Les règles de siège effectif
+  de direction du pays d'origine finiront par gagner.
+- Empiler des holdings pour "faire corporate" quand l'activité est
+  un consulting d'une seule personne. La complexité devient sa
+  propre surface de risque.
+- Oublier que le BOI s'applique à la LLC et à ses bénéficiaires
+  effectifs, quelle que soit la propreté de la déclaration locale.
+- Traiter l'operating agreement comme un boilerplate. C'est le
+  document fondateur qui détermine qui signe, qui décide et comment
+  les différends se résolvent.
+
+## Checklist de pré-conception
+
+- Résidence fiscale du membre confirmée et documentée.
+- Plan de mobilité deux à cinq ans écrit.
+- Description d'activité : clients par pays, fourchette de revenu
+  attendue.
+- Stack bancaire pré-mappé (rôles Mercury, Relay, Wise, Stripe).
+- Calendrier de conformité annuel (1120 + 5472, BOI, État, CRS le
+  cas échéant, déclaration locale).
+
+Nous concevons chaque structure pour qu'elle soit défendable dans le
+seul forum qui compte : l'administration fiscale d'origine du
+membre. Tout le reste est en aval.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-bis -->
+## La structure dans le temps : portabilité et résilience
+
+Une bonne structure n'est pas seulement adaptée à aujourd'hui ; elle
+doit survivre aux changements de résidence du membre, aux nouvelles
+lignes d'activité et à l'arrivée de nouvelles règles internationales
+sans devoir être redessinée. Nous testons toujours chaque conception
+contre trois scénarios : déménagement du membre dans un pays
+voisin, ajout d'une seconde ligne d'activité dans 18 mois, et
+changement de règles internationales (par exemple un élargissement
+de DAC ou de CARF) qui touche la transparence fiscale d'une
+juridiction de la chaîne. Une structure qui survit aux trois sans
+modification matérielle est une structure portable. Une structure
+qui en échoue à un est probablement déjà fragile aujourd'hui.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Convention fiscale USA-Espagne appliquée aux LLC : lecture pratique](/fr/blog/convention-fiscale-usa-espagne-appliquee-aux-llc)
+- [IRS 1120 et 5472 : ce que c'est vraiment et quand ça s'applique](/fr/blog/irs-1120-et-5472-ce-que-cest-vraiment-et-quand-ca-sapplique)
+- [Autónomo en Espagne vs LLC américaine : une comparaison qui éclaire vraiment](/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

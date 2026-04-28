@@ -65,6 +65,12 @@ O quadro normativo está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 6. ✓ Transferir para o formulário 349 trimestral ou mensal.
 7. ✓ Conciliar o resumo com o formulário 303 e rever coerência anual com o formulário 390.
 
+<!-- exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-pt -->
+## Como ler o IVA intracomunitário sobre serviços como um mapeamento estável em vez de um debate caso a caso
+
+O IVA intracomunitário sobre serviços lê-se de forma mais útil como um mapeamento estável entre o país do prestador, o estatuto do cliente (empresa registada em IVA ou consumidor final) e o país de consumo, em vez de um debate caso a caso.
+<!-- /exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -122,6 +128,34 @@ Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+### Como assegurar que a inscrição no VIES chega a tempo
+
+A inscrição no Registo de Operadores Intracomunitários (ROI) pede-se via Modelo 036 e pode demorar até três meses a ser confirmada. Na nossa prática, a dor operativa mais frequente é a do freelancer que emite uma factura intracomunitária sem número de IVA ainda activo no VIES, o que produz uma lacuna de cumprimento imediata que a equipa contabilística do cliente UE assinalará. A abordagem limpa consiste em inscrever-se via Modelo 036 bem antes da primeira factura de cliente europeu prevista (recomendamos noventa dias de margem), monitorizar o portal VIES para a activação e manter uma captura de ecrã da inscrição activa no dossier como prova a anexar à primeira factura quando o cliente a solicitar. A segunda dor operativa é deixar a inscrição caducar por inactividade (sem operações intracomunitárias durante vários trimestres); a inscrição pode ser desactivada e será necessário um novo pedido antes do próximo cliente europeu. Uma verificação trimestral do estado de activação em VIES é suficiente para evitar ambas as dores.
+
+### Três padrões reais de facturação e a documentação que cada um exige
+
+O primeiro padrão é o freelancer que emite uma factura de serviços B2B a uma sociedade residente UE com número VIES activo: factura sem IVA, menção "reverse charge", reporte no Modelo 349 trimestral e transposição no Modelo 303 na casa correspondente. O kit documental por factura inclui a captura de validação VIES do cliente datada da data da factura, o contrato ou encomenda e o comprovativo de pagamento. O segundo padrão é o freelancer que emite uma factura de serviços digitais B2C a um consumidor UE abaixo do limiar anual de 10 000 EUR: aplica-se IVA espanhol como se o consumidor fosse espanhol; o kit documental inclui a prova de localização do consumidor (IP mais morada de facturação) e a factura padrão. O terceiro padrão é o freelancer que emite uma factura de serviços digitais B2C a um consumidor UE acima do limiar (ou tendo optado pelo OSS): aplica-se o IVA do país do consumidor, declarado via declaração OSS trimestral, com o kit documental a incluir a prova de localização do consumidor, a confirmação de inscrição no OSS e o recibo trimestral OSS. Manter os três kits prontos em modelos evita reconstrução ad hoc no fim do trimestre.
+<!-- /exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+### Como o calendário do Modelo 349 se alinha com o resto do trimestre
+
+O Modelo 349 é a declaração recapitulativa de operações intracomunitárias, apresentada mensalmente ou trimestralmente conforme o volume. Para a maioria dos freelancers na nossa prática, aplica-se a versão trimestral, com o mesmo calendário do Modelo 303 (IVA) e do Modelo 130 (adiantamento de IRPF), de modo que as três apresentações são processadas na mesma janela de fecho. A abordagem limpa que recomendamos é alinhar o fecho trimestral num dia fixo de cada mês (usamos o segundo dia útil de Janeiro, Abril, Julho e Outubro como referência de fecho), apresentar primeiro o Modelo 303, depois o Modelo 349 contra as operações registadas para o trimestre, e manter ambos os recibos na mesma pasta para esse trimestre. A aritmética entre os dois modelos deve reconciliar: os serviços intracomunitários declarados no Modelo 349 devem ser iguais à casa correspondente do Modelo 303; qualquer desfasamento produzirá um pedido de esclarecimento de rotina da AEAT.
+
+### Como o OSS remodela o calendário para fluxos B2C digitais
+
+Quando o freelancer optou pelo balcão único (OSS) para serviços digitais B2C a consumidores UE, a declaração OSS trimestral torna-se uma quarta apresentação alinhada com as outras, mas com calendário próprio (um mês após o fim do trimestre, sem prorrogação). A declaração OSS cobre o IVA cobrado por país consumidor, pago numa única conta espanhola, e redistribuído pela AEAT a cada país UE. A disciplina que mantemos com clientes no OSS é manter uma contagem por país a cada trimestre (localização do consumidor, taxa de IVA do país, montante), reconciliar a contagem com a contabilidade no fim do trimestre e apresentar a declaração OSS antes dos restantes fechos trimestrais. A armadilha mais frequente é tratar o OSS como opcional num trimestre lento e saltar a apresentação porque "não há nada a declarar"; uma vez inscrito no OSS, o freelancer tem de apresentar todos os trimestres, mesmo a zero, caso contrário a inscrição corre o risco de ser cancelada e uma reinscrição cria vários meses de hiato administrativo.
+<!-- /exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [IVA em serviços digitais internacionais: quando se aplica e quando não](/pt/blog/iva-em-servicos-digitais-internacionais-quando-se-aplica-e)
+- [Impostos com clientes internacionais a partir de Espanha: o que ninguém lhe diz](/pt/blog/impostos-com-clientes-internacionais-em-espanha-o-que)
+- [Despesas dedutíveis para freelancers em Espanha em 2026: guia claro](/pt/blog/despesas-dedutiveis-autonomo-espanha-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.

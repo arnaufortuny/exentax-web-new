@@ -147,6 +147,20 @@ The realistic recommendation: **Mercury + Relay as backup + Slash for ad operati
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:cross-refs-v1 -->
+## To continue reading
+
+- [US resident vs non-resident: the key tax differences for the LLC](/en/blog/us-resident-vs-non-resident-llc-the-key-tax-differences)
+- [The LLC as a real alternative to being self-employed in Spain](/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain)
+- [Self-employed in Spain vs LLC in the US: complete tax comparison](/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-en -->
+## How to read the LLC trade-off for non-residents as a stable mapping rather than as a marketing pitch
+
+The LLC trade-off for non-residents reads more usefully as a stable mapping between the recurring obligations of the vehicle (Form 5472, BOI, Registered Agent renewal) and the recurring benefits (legal separation, US payment infrastructure, simple structure for digital activities), than as a marketing pitch. Both sides of the mapping are stable: they don't change with the result of the year.
+<!-- /exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

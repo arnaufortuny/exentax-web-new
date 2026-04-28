@@ -125,6 +125,14 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
+<!-- exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-en -->
+## How to read the LLC + Interactive Brokers configuration as a stable operational mapping rather than as an opportunistic combination
+
+The LLC + Interactive Brokers configuration reads more usefully when it's treated as a stable operational mapping between the holder of the brokerage account, the country of residence of the beneficial owner and the type of activity hosted in the LLC, than as an opportunistic combination. The mapping doesn't change with the market direction.
+
+A short note in the LLC folder that records the holder of the brokerage account, the date the account was opened and the activity hosted in the LLC turns the configuration into something the member can review in a few minutes whenever a tax adviser asks for clarification.
+<!-- /exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -191,6 +199,14 @@ Choosing a jurisdiction always depends on the holder's actual tax residency and 
 _More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+- [Spain Exit Tax for crypto, LLC and Interactive Brokers investors](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

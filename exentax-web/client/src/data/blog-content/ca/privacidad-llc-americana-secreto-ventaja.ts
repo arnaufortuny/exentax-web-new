@@ -123,6 +123,12 @@ Ara que tens el context complet, el pas següent natural és contrastar-lo amb l
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote27-native-v1:privacidad-llc-americana-secreto-ventaja-ca -->
+## Com llegir la privacitat de la LLC americana com una propietat jurídica estable en lloc d'un avantatge de màrqueting
+
+La privacitat de la LLC americana es llegeix de manera més útil com una propietat jurídica estable del vehicle, específica de cada estat, que com un avantatge de màrqueting transversal. El que efectivament és públic i el que no depèn de l'estat de registre.
+<!-- /exentax:lote27-native-v1:privacidad-llc-americana-secreto-ventaja-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -135,6 +141,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote16-native-v1:privacidad-llc-americana-secreto-ventaja-ca -->
+## Per què la privacy d'una LLC americana es confon sovint amb el secret
+
+La paraula privacy associada a una LLC americana sovint es llegeix com a sinònim de secret, cosa que no és. El que la LLC ofereix concretament és una visibilitat pública limitada d'informacions trivials (adreça de notificació, agent registrat) i l'absència d'inscripció pública del membre en certs estats, però això coexisteix amb un règim d'informació centralitzat al costat federal.
+<!-- /exentax:lote16-native-v1:privacidad-llc-americana-secreto-ventaja-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -181,6 +193,14 @@ Prefereixes agenda? <a href="/ca/agendar">Reserva una sessió gratuïta</a> i re
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [BOI Report 2026: guia de la declaració FinCEN Beneficial Ownership](/ca/blog/boi-report-2026-guia-completa-per-a-la-declaracio-fincen)
+- [Due diligence bancari per a la teva LLC americana: què verifiquen](/ca/blog/due-diligence-bancari-per-a-la-teva-llc-americana-el-que)
+- [Compliment AML per a la teva LLC: el que has de saber](/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Comparem Nou Mèxic, Wyoming, Delaware i Florida sobre el teu cas real, sense vendre't l'estat de moda. <a href="/ca/serveis/llc-nou-mexic">Comparar el meu cas amb un assessor</a>.

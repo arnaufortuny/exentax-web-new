@@ -187,6 +187,18 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
+<!-- exentax:lote30-native-v1:por-que-no-abrir-empresa-estonia-ca -->
+## Com llegir la qüestió d'una societat estoniana com una cartografia estable de perfil en lloc d'una promesa de marca
+
+La qüestió d'una societat estoniana es llegeix de manera més útil com una cartografia estable entre el país de residència fiscal del beneficiari, el país on es crea valor i el país dels clients, en lloc d'una promesa de marca. Aquests tres eixos expliquen la resposta de manera més fiable que el discurs comercial en vigor sobre l'e-Residency, i una nota curta i datada al dossier personal amb els tres eixos fa la posició consultable en pocs minuts.
+<!-- /exentax:lote30-native-v1:por-que-no-abrir-empresa-estonia-ca -->
+
+<!-- exentax:lote30-native-v1-bis:por-que-no-abrir-empresa-estonia-ca -->
+## Per què la nota s'organitza per eix i no per efecte de marca
+
+La nota s'organitza per eix — residència del beneficiari, lloc de creació de valor, mercat dels clients — i no per efecte de marca, perquè els eixos es mantenen estables mentre el discurs comercial canvia amb la temporada.
+<!-- /exentax:lote30-native-v1-bis:por-que-no-abrir-empresa-estonia-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -220,6 +232,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote18-native-v1:por-que-no-abrir-empresa-estonia-ca -->
+## Per què no escollir Estònia per defecte no és un judici, és una lectura de perfil
+
+No escollir Estònia per defecte com a jurisdicció per a una activitat internacional operada des d'Espanya no constitueix un judici sobre la qualitat del sistema estonià, que d'altra banda és coherent i ben documentat; és una lectura del perfil de l'activitat en qüestió. Per a una activitat amb fluxos majoritàriament fora de la UE i clientela dispersa, l'ecosistema estonià no aporta l'avantatge que sovint se li atribueix.
+<!-- /exentax:lote18-native-v1:por-que-no-abrir-empresa-estonia-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -256,6 +274,14 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 ### Recordatori pràctic
 
 Cada situació fiscal depèn de la teva residència, de l'activitat exercida i dels contractes en vigor. La informació aquí presentada és general i no substitueix l'assessorament personalitzat; analitza el teu cas concret abans de prendre decisions estructurals.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Fiscalitat d'Estònia: com funciona realment l'OÜ i la e-Residency](/ca/blog/fiscalitat-estonia-com-funciona)
+- [Per què obrir una LLC americana el 2026: 5 pilars de l'avantatge](/ca/blog/per-que-obrir-una-llc-americana-el-2026-els-5-pilars-del)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

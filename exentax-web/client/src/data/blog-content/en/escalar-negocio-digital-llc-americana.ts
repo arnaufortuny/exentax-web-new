@@ -107,6 +107,12 @@ Applying any of these rules to your specific case depends on your tax residency,
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote28-native-v1:escalar-negocio-digital-llc-americana-en -->
+## How to read scaling a digital business through a US LLC as a stable architectural choice rather than as a one-shot decision
+
+Scaling a digital business through a US LLC reads more usefully when it's treated as a stable architectural choice between the operating role of the LLC, the country of the customers and the country of residence of the beneficial owner, than as a one-shot decision. The architecture doesn't change with each new market — only the scale on each axis evolves.
+<!-- /exentax:lote28-native-v1:escalar-negocio-digital-llc-americana-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -119,6 +125,14 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote19-native-v1:escalar-negocio-digital-llc-americana-en -->
+## How to read scaling decisions as a sequence of stable thresholds rather than as continuous fine-tuning
+
+Scaling a digital business through an LLC reads more clearly when the operating decisions are tied to a few stable thresholds rather than to continuous fine-tuning. Each threshold — number of recurring clients, monthly billing volume, number of bank operations — triggers a known adjustment in the way the LLC is operated.
+
+This threshold approach replaces the impression of constant management with a small set of moments where things change, and leaves the rest of the time free of structural decisions.
+<!-- /exentax:lote19-native-v1:escalar-negocio-digital-llc-americana-en -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Scaling without the structure holding you back: the growth playbook around the LLC
@@ -151,6 +165,20 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 
 Each tax situation depends on your specific residency, the activity carried out and the contracts in force. The information here is general and does not replace personalised advice; check your particular case before taking structural decisions.
 
+
+<!-- exentax:lote19-native-v1:escalar-negocio-digital-llc-americana-en-bis -->
+## How to record the threshold-driven adjustments in a single short note
+
+The adjustments triggered by each scaling threshold can be captured in a single short, dated note that lists what changed and why. This note becomes the reference when the next threshold is reached.
+<!-- /exentax:lote19-native-v1:escalar-negocio-digital-llc-americana-en-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [US LLC for software developers and SaaS founders: the complete guide](/en/blog/us-llc-for-software-developers-and-saas-founders-the)
+- [International taxation for digital entrepreneurs: the complete guide](/en/blog/international-taxation-for-digital-entrepreneurs-the)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

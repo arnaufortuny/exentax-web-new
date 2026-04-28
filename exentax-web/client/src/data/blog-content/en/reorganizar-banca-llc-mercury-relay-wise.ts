@@ -181,6 +181,90 @@ When an LLC starts receiving serious payments, the initial stack (sometimes just
 If your current stack no longer holds, run the <strong>Exentax calculator</strong> or book thirty minutes: we deliver the migration plan in writing before touching anything.
 <!-- /exentax:execution-v2 -->
 
+<!-- exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
+## When the stack is the bottleneck, not the bank
+
+Most of the calls we get about "I want to reorganise my LLC's
+banking" are not really about a bad bank. They are about a stack
+that grew by accident: one Mercury account opened in year one, a
+Stripe payout pipe added when web payments arrived, a Wise card
+brought in for ad spend, and at some point Relay or another fintech
+tested for bookkeeping integrations. After two or three years the
+result is a topology nobody designed on purpose, and small frictions
+start adding up: reconciliation gets slower, FX hits become invisible,
+and KYC questions land on whoever happened to onboard last.
+
+The reorganisation rarely means closing accounts. It usually means
+re-purposing them so each one has a single, clear job and the others
+keep tidy backup roles.
+
+## A clean role assignment per account
+
+| Account     | Primary job                              | Secondary job                  |
+|-------------|------------------------------------------|--------------------------------|
+| Mercury     | Domiciliary US bank, ACH/wire ops        | Card spend if low volume       |
+| Relay       | Bookkeeping integrations + sub-accounts  | Backup ACH                     |
+| Wise        | Multi-currency receive (EUR/GBP) + FX    | Card for ad spend              |
+| Stripe      | Web/marketplace inbound + payouts        | Reserve held by Stripe (FIFO)  |
+
+Once each account has a single primary job, the bookkeeping rules
+write themselves: Mercury reconciles to operating cash, Wise to FX
+balances by currency, Stripe to revenue and reserve, Relay to the
+expense sub-accounts. The "where is that movement?" question stops
+appearing.
+
+## Three real reorganisation patterns we run
+
+- The "single-bank fragility" exit. Client had only Mercury and a
+  routine review temporarily blocked outgoing wires. We added Relay
+  as backup ACH and a small Wise multi-currency layer for EUR
+  invoices. Cost: marginal. Benefit: no single point of failure on
+  payroll or supplier payments.
+- The "Stripe is becoming the bank" exit. Client was leaving large
+  reserves at Stripe and pulling personal funds from Stripe directly.
+  We re-routed Stripe payouts to Mercury daily, kept Wise for EU
+  client invoices, and treated Stripe purely as the inbound rail.
+- The "Wise card is the company card" exit. Client used the Wise
+  card as the main spending card. We moved recurring SaaS and
+  payroll-adjacent spend to Mercury (where the audit trail is
+  bank-grade) and kept the Wise card narrowly for paid ads.
+
+## Mistakes we see when reorganising
+
+- Closing the older account first. Always open and seed the new role
+  before closing anything; account history is part of the LLC's
+  banking record.
+- Moving large balances in a single transfer. Split into normal
+  operational tranches; treasury-style movements often trigger a KYC
+  refresh.
+- Letting "personal" cards mix in. The LLC card list should be
+  short, named, and reconciled monthly.
+- Forgetting to update beneficial-owner data after the move. If the
+  BOI submission has the LLC's address, all bank profiles should
+  match it.
+
+## Reorganisation checklist
+
+- Map current accounts to the role table above.
+- Identify the one or two roles that are missing.
+- Open new role accounts; pre-fund with small amounts.
+- Migrate recurring inbound/outbound on a 30-day shadow period.
+- Close anything truly redundant only after a clean month-end close.
+
+We treat the banking stack as the LLC's circulatory system: each
+vessel has a job, and reorganising means fixing the layout, not
+ripping out the vessels.
+
+<!-- /exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [How to open a Mercury account for your LLC from any country](/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country)
+- [Traditional banks vs fintech for your LLC: where to open your account](/en/blog/traditional-banks-vs-fintech-for-your-llc-where-to-open-your)
+- [How to avoid account freezes at Mercury, Wise and Revolut](/en/blog/how-to-avoid-account-freezes-at-mercury-wise-and-revolut)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22If%20you%20have%20an%20LLC%20and%20your%20banking%20is%20Mercury%20for%20everything%20because%20that%20is%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

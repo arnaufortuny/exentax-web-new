@@ -157,6 +157,14 @@ At Exentax we structure AML compliance for non-resident LLCs (KYC pack, traceabl
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [BOI Report 2026: complete guide to FinCEN Beneficial Ownership filing](/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial)
+- [Banking due diligence for your US LLC: what banks check and how to pass](/en/blog/banking-due-diligence-for-your-us-llc-what-banks-check-and)
+- [Nominee owners for LLCs: why it is illegal and the risks you take](/en/blog/nominee-owners-for-llcs-why-it-is-illegal-and-the-risks-you)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

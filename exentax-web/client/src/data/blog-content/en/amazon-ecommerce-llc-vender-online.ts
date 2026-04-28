@@ -212,6 +212,14 @@ Fintech and CRS information evolves; here is the current state:
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+- [DAC7: the new digital-platform reporting affecting your business in 2026](/en/blog/dac7-the-new-digital-platform-reporting-affecting-your)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

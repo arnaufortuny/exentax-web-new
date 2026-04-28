@@ -141,6 +141,20 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **DBA Spanien–USA.** Das Abkommen (BOE 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
+<!-- exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-de -->
+## Wie sich das Doppel­besteuerungs­abkommen Spanien-USA als stabile Kartografie zwischen Ansässigkeit und Quelle statt als generischer Kurzschluss lesen lässt
+
+Das Doppel­besteuerungs­abkommen Spanien-USA liest sich nützlicher als stabile Kartografie zwischen dem steuerlichen Wohnsitzland des wirtschaftlich Berechtigten und dem Quell­land jedes Einkunfts­typs denn als generischer Kurzschluss zum „nicht zweimal zahlen". Das Abkommen ersetzt nicht die Ansässigkeits­regeln beider Länder: es organisiert eine Koordinations­weise, Einkunftsart für Einkunftsart.
+
+Eine kurze, datierte Notiz im persönlichen Ordner, die das für das Jahr erklärte Wohnsitzland, die Einkunftsarten und die Seite festhält, auf der jede zuerst besteuert wurde, macht die Position in wenigen Minuten gegenüber einem Steuerberater nachlesbar.
+<!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-de -->
+
+<!-- exentax:lote29-native-v1-bis:convenio-doble-imposicion-usa-espana-llc-de -->
+## Warum die Notiz pro Einkunftsart und nicht pro Land organisiert sein sollte
+
+Die Notiz organisiert sich pro Einkunftsart und nicht pro Land — die Koordinations­regel des Abkommens setzt auf der Einkunftsart auf, nicht auf der Geografie als solcher, und diese Sicht trifft die korrekte Granularität für jede spätere Diskussion mit einem Berater.
+<!-- /exentax:lote29-native-v1-bis:convenio-doble-imposicion-usa-espana-llc-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -182,6 +196,58 @@ Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses
 
 Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Struktur verliert Steuern, Bankzugang oder Compliance. Die folgenden Hinweise spiegeln wider, was wir mit Mandanten in genau diesem Fall tatsächlich tun, mit Priorität auf den Variablen, die das Ergebnis bewegen.
 
+
+
+## Artikel 7 (Unternehmensgewinne) in klarer Sprache
+
+Artikel 7 des Doppelbesteuerungsabkommens USA-Spanien ist das zentrale Stück für die meisten US-LLCs in der Hand von Personen mit Wohnsitz in Spanien. Die Logik: Unternehmensgewinne sind nur im Wohnsitzstaat des Unternehmens steuerbar, es sei denn, es übt seine Tätigkeit im anderen Staat über eine *Betriebsstätte* (permanent establishment) aus.
+
+Für eine LLC als Disregarded Entity ohne Büro, ohne Personal und ohne dauerhaft abhängigen Vertreter in den USA lautet die übliche Lesart: keine US-Betriebsstätte, also keine Bundessteuer auf operative Gewinne. Die Pass-Through-Mechanik bringt die Einkünfte zur Gesellschafterin, die sie im Wohnsitzland — Spanien — im Modelo 100 in der passenden Kategorie deklariert (meist Einkünfte aus wirtschaftlicher Tätigkeit).
+
+Drei Stolpersteine verdienen Aufmerksamkeit. Erstens: Coworking-Vertrag mit fester Adresse oder Personal in den USA schafft eine Betriebsstätte und kippt das Gleichgewicht. Zweitens: physischer Warenhandel mit US-Lager kann je nach Volumen und Struktur die Analyse in Richtung steuerpflichtiger Handelsaktivität verschieben. Drittens: keine Bundessteuer ist nicht keine Erklärungspflicht — 5472 und pro-forma 1120 sind weiterhin jährlich fällig.
+
+## Wenn die AEAT nach Ihrer LLC fragt
+
+Das passiert häufiger, als man denkt, und fast immer nach Abgabe des Modelo 100 oder Modelo 720. Die Anfrage ist legitim: Die AEAT will Natur, Einkünfteherkunft und Kohärenz mit dem Deklarierten verstehen. Drei Dokumente machen den Unterschied, wenn der Brief kommt.
+
+**Die Entity-Akte.** Unterzeichnetes Operating Agreement, EIN-Bestätigung (CP-575 oder 147C), Nachweis des Gründungsstaats, Vertrag mit dem Registered Agent, BOI-Erstmeldung. Diese Akte beweist Existenz und Regelmäßigkeit der LLC; sie wird zuerst angefragt.
+
+**Banking- und Operationsspur.** Mercury- und Wise-Auszüge der letzten 24 Monate, ausgestellte Rechnungen mit Angabe der LLC, wesentliche Kundenverträge, Kopien der eingereichten Form 5472. Diese Spur belegt, dass die LLC tatsächlich tätig ist und die in Spanien erklärten Einkünfte dokumentierten Flüssen entsprechen.
+
+**Die DBA-Lesart.** Eine ein- bis zweiseitige Notiz, die die Position der Einheit im Lichte von Artikel 7 erklärt (keine US-Betriebsstätte, Pass-Through, Besteuerung in Spanien). Diese Notiz entsteht *vor* dem AEAT-Brief im Rahmen der normalen Jahresorganisation und wird bei strukturellen Änderungen aktualisiert.
+
+Unser Team koordiniert diese Akte mit Ihrer spanischen Beraterin und hält sie ständig griffbereit. Eine organisierte, vollständige Antwort an die AEAT in zwei Wochen ist mehr wert als eine improvisierte Antwort in zwei Monaten; das ist unser Standard für jede Mandantin, die wir jahresweise begleiten.
+
+
+
+### Der jährliche Reflex, den wir mit jeder Mandantin einrichten
+
+Sobald das spanische Steuerjahr abgeschlossen ist, datieren und archivieren wir drei Stücke: das eingereichte Modelo 100, die aktualisierte DBA-Anwendungsnotiz und das Inventar der Mercury-Wise-Auszüge der vergangenen zwölf Monate. Dieses Trio entsteht in weniger als einer Stunde und spart Wochen, falls die AEAT zwei Jahre später eine Prüfung eröffnet.
+
+### Drei Sonderfälle aus der DACH-Praxis
+
+**Sonderfall 1 — Wohnsitz in Spanien, eine LLC und ein deutsches Konto.** Manche Mandant:innen behalten ein deutsches Privatkonto neben Mercury. Das spanische Modelo 720 erfasst beide Konten oberhalb der Schwelle, das DBA Spanien-USA berührt das deutsche Konto nicht; es bleibt eine reine spanische Meldepflicht. Die häufigste Verwechslung: anzunehmen, das DBA mit den USA decke auch deutsche Konten ab. Es tut es nicht.
+
+**Sonderfall 2 — Beckham-Regime in Spanien.** Unter dem Beckham-Regime werden ausländische Einkünfte unterschiedlich behandelt. Eine US-LLC im Disregarded-Entity-Status liefert Einkünfte, die dieses Regime möglicherweise nicht abdeckt. Bevor man den Beckham-Antrag stellt, modellieren wir gemeinsam mit der spanischen Beraterin, ob er die LLC-Einkünfte einschließt; in vielen Fällen lautet die ehrliche Antwort, dass das gewöhnliche Regime gleich oder günstiger ausfällt.
+
+**Sonderfall 3 — Wechsel des Wohnsitzes innerhalb der DACH-Region während des LLC-Lebens.** Ein Umzug Berlin → Wien → Zürich über drei Jahre löst eigene Fragen aus, weil jedes der drei Länder eine andere CFC- und DBA-Logik gegenüber den USA hat. Hier ist die DBA-Notiz nicht statisch, sondern wird nach jedem Umzug aktualisiert und mit der Beraterin im neuen Wohnsitzland abgestimmt. Diesen kleinen Wartungsaufwand vergisst man im Reisestress häufig; er kostet später deutlich mehr als die ursprüngliche Stunde Vorbereitung.
+
+
+
+### Ein letzter ruhiger Gedanke zum DBA-Reflex
+
+Das Doppelbesteuerungsabkommen USA-Spanien ist ein Werkzeug, kein Ritual. Wer die Anwendungsnotiz einmal sauber aufsetzt, sie jährlich pflegt und Belege geordnet ablegt, verwandelt eine potenziell unangenehme Korrespondenz mit der AEAT in eine zwei-Wochen-Antwort mit Anhängen. Das ist kein Glück, sondern Methode; und sie kostet weniger Zeit, als die meisten denken, sobald die Routine einmal etabliert ist.
+
+
+
+### Eine letzte Klarstellung zur DBA-Praxis
+
+Das Doppelbesteuerungsabkommen schützt nicht automatisch; es schützt diejenigen, die es richtig anwenden. Eine kurze, gut datierte Anwendungsnotiz, ein nachvollziehbarer Belegfaden und die jährliche Pflege machen den Unterschied zwischen einer Anfrage, die in zwei Wochen geschlossen wird, und einer Anfrage, die zwei Quartale offen bleibt. Diesen Unterschied erleben unsere Mandant:innen jedes Jahr und er kostet weniger Energie, als die meisten denken.
+
+### Drei Belege, die wir niemals fehlen lassen
+
+Das Operating Agreement in seiner aktuellen Fassung, die EIN-Bestätigung des IRS und die letzten zwölf Monate Mercury- oder Wise-Auszüge sind unsere drei Belege erster Reihe. Fehlt eines davon, organisieren wir es vor jeder weiteren Diskussion mit der AEAT, denn ohne sie verliert jede DBA-Argumentation Substanz.
+
 <!-- exentax:execution-v2 -->
 ## Wie das DBA USA-Spanien auf Ihre LLC angewendet wird, Klausel für Klausel
 
@@ -216,6 +282,23 @@ Unsere Haltung hier ist bewusst konservativ: wir optimieren für das, was eine P
   ### Praktische Hinweise für die parallele Anwendung des DBA Deutschland-USA
 
   Die deutsche Verwaltungspraxis behandelt eine US-LLC, die in den USA als *disregarded entity* steuerlich transparent ist, im Rahmen der "Subject-to-Tax-Klausel" des Artikels 1 Absatz 7 DBA D-USA als nicht abkommensberechtigt im eigenen Namen. Stattdessen wird der Schutz des Abkommens dem Alleingesellschafter persönlich gewährt (BFH-Urteil **I R 15/02 vom 20. August 2008**, BStBl. II 2009, 26). Dies hat Folgen für die Quellensteuerermäßigung auf Dividenden, Zinsen und Lizenzen aus US-Quellen: Der deutsche Gesellschafter muss persönlich das Formular W-8BEN einreichen, nicht die LLC.
+
+
+<!-- exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-de -->
+## Wie das Doppelbesteuerungsabkommen USA–Spanien für eine LLC mit nur einem Mitglied praktisch greift
+
+Das Abkommen zwischen Spanien und den Vereinigten Staaten wirkt auf der Ebene der Personen, nicht auf der Ebene transparenter Vehikel. Eine Single-Member-LLC, die für US-Steuerzwecke als disregarded entity behandelt wird, wird in der Regel durchgesehen, und die relevanten Fragen stellen sich auf der Ebene der natürlichen Person, die deren Mitglied ist. Wo diese Person steuerlich in Spanien ansässig ist, besteuert Spanien das über die LLC zugerechnete Welteinkommen nach eigenen Regeln, und das Abkommen teilt die Besteuerungsrechte zwischen beiden Ländern Kategorie für Kategorie auf.
+
+In der Praxis tragen drei Artikel die Hauptlast in einem ruhigen Jahr: der Ansässigkeitsartikel, der festlegt, welches Land das primäre Besteuerungsrecht hat, wenn beide es sonst beanspruchen könnten; der Artikel über Unternehmensgewinne, der in der Regel eine Betriebsstätte im anderen Staat verlangt, bevor dieser Land die operativen Gewinne besteuern darf; und der Artikel zur Vermeidung der Doppelbesteuerung, der die Reihenfolge der Anrechnung festlegt. Keiner dieser Artikel produziert für sich allein ein automatisches Ergebnis. Es sind Werkzeuge, die durchgängige Dokumentation verlangen: Ansässigkeitsbescheinigungen, eine Buchführung, die mit dem in jedem Land verwendeten Kalenderjahr übereinstimmt, und ein klarer Nachweis, wo die wirtschaftliche Tätigkeit tatsächlich stattgefunden hat. Eine Arbeitsmappe mit diesen drei Bausteinen, einmal jährlich aktualisiert, beseitigt den grössten Teil der Reibung, die das Abkommen gerade beseitigen soll.
+<!-- /exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-de -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Durchlaufbesteuerung für LLCs: wie sie funktioniert und warum sie wichtig ist](/de/blog/durchlaufbesteuerung-fur-llcs-wie-sie-funktioniert-und-warum)
+- [Exit-Tax Spanien mit LLC, Krypto und Interactive Brokers](/de/blog/exit-tax-spanien-llc-krypto-interactive-brokers)
+- [LLC-Besteuerung nach Tätigkeit: Dienstleistungen, E-Commerce, SaaS, Royalties, Trading](/de/blog/llc-besteuerung-nach-wirtschaftlicher-aktivitat)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

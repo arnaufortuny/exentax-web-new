@@ -142,7 +142,17 @@ La France avec le régime mère-fille est compétitive si l'activité le justifi
 
 Une holding bien conçue est un outil puissant de centralisation, d'efficacité fiscale et de planification. Mal conçue ou appliquée par mode, c'est de la complexité chère qui n'apporte rien. La décision dépend de la taille et de la maturité de votre business, pas du titre de la dernière vidéo virale.
 
-Pour les entrepreneurs non résidents avec un seul business opérationnel international, une <a href="/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026">LLC américaine</a> couvre habituellement le cas sans besoin de holding. Quand le business croît et que plusieurs activités apparaissent, nous pouvons analyser avec vous si une holding (américaine, française ou internationale) a du sens. Chez Exentax nous étudions votre cas avec des données réelles : <a href="/fr/reserver">réservez une consultation gratuite</a> de 30 minutes.<!-- exentax:execution-v2 -->
+Pour les entrepreneurs non résidents avec un seul business opérationnel international, une <a href="/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026">LLC américaine</a> couvre habituellement le cas sans besoin de holding. Quand le business croît et que plusieurs activités apparaissent, nous pouvons analyser avec vous si une holding (américaine, française ou internationale) a du sens. Chez Exentax nous étudions votre cas avec des données réelles : <a href="/fr/reserver">réservez une consultation gratuite</a> de 30 minutes.
+
+## Trois questions qu'on nous pose dès le premier appel
+
+**Une holding fait-elle baisser les impôts automatiquement ?** Non. Elle organise des flux et protège du risque ; l'économie fiscale vient ensuite, selon où atterrissent les dividendes. Nous modélisons toujours le flux après impôt avant de recommander l'étape.
+
+**Puis-je migrer ma LLC actuelle vers une holding ?** Oui, en règle générale par apport de parts, avec un Operating Agreement propre et une mise à jour BOI déposée. Le moment délicat est le passage single-member → multi-member, pas la paperasse de holding.
+
+**Quand la holding est-elle de trop ?** Si le bénéfice net annuel reste sous les cinq chiffres médians en USD et qu'il n'existe qu'une seule LLC opérationnelle, la holding ajoute du coût sans bénéfice. Nous le disons franchement dès le premier appel.
+
+<!-- exentax:execution-v2 -->
 ## Holding d'entreprise: comment ça marche vraiment et quand ça économise (ou pas)
 
 Une holding n'est pas un truc fiscal automatique: c'est une structure qui centralise des participations pour optimiser dividendes intra-groupe, plus-values de cession et planification successorale. Bien conçue, elle économise réellement; mal conçue, elle n'ajoute que de la comptabilité. Voici l'essentiel avant de la monter.
@@ -182,6 +192,15 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
+
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [D'une LLC unique à une structure holding : quand, comment, à quel coût](/fr/blog/dune-llc-unique-a-une-structure-holding-quand-comment-et)
+- [De single-member à multi-member LLC : implications fiscales réelles](/fr/blog/de-single-member-a-multi-member-llc-implications-fiscales)
+- [LLC vs Corporation, S-corp vs C-corp : le guide pratique](/fr/blog/difference-llc-vs-corporation-s-corp-c-corp-guide)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

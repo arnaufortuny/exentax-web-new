@@ -87,6 +87,24 @@ Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode d
 
 El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
 
+<!-- exentax:lote18-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca -->
+## Per què reorganitzar la banca d'una LLC es prepara com a transferència i no com a tancament
+
+Reorganitzar l'estructura bancària d'una LLC incorporant Mercury, Relay i Wise es prepara com una transferència d'operacions i no com un tancament seguit de reobertura. La diferència és concreta: una transferència manté els fluxos operatius durant la transició, mentre que un tancament els interromp i obliga a reconstruir la cadena de pagaments i recepcions de zero.
+<!-- /exentax:lote18-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca -->
+
+<!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca -->
+## Com llegir la reorganització bancària de la LLC com una actualització de mapatge en lloc d'un canvi de proveïdor
+
+La reorganització bancària de la LLC es llegeix de manera més útil com una actualització del mapatge rol-per-proveïdor entre Mercury, Relay i Wise, que com un canvi de proveïdor aïllat. Una nota curta i datada al dossier de la LLC que registri quin proveïdor fa quin paper al nou stack i quins ho feien a l'anterior fa la reorganització consultable en pocs minuts.
+<!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca -->
+
+<!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca-bis -->
+## Com llegir la transició entre stack antic i nou com una nota datada en lloc d'un canvi implícit
+
+La transició entre l'stack antic i el nou es pren de manera més serena com una nota curta i datada que registra la data del canvi i el paper de cada proveïdor abans i després — fent que qualsevol qüestió posterior es pugui respondre en pocs minuts sense reconstruir el context de memòria.
+<!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca-bis -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -159,6 +177,98 @@ Si el teu stack actual ja no aguanta, obre la <strong>calculadora Exentax</stron
 ## El cas específic del resident fiscal a Catalunya o l'Estat espanyol i a Andorra
 
   **A l'Estat espanyol**, la reorganització bancària suposa actualització del **Model 720** si el saldo agregat de les noves entitats supera 50 000 € al tancament o saldo mitjà del quart trimestre, en aplicació de la **Disposició Addicional 18a de la LGT** (modificada per la Llei 5/2022). El nou règim sancionador (articles 198 i 199 LGT) substitueix l'anterior declarat contrari al dret UE pel TJUE en el cas C-788/19.
+
+<!-- exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
+## Quan el stack és el coll d'ampolla, no el banc
+
+La majoria de trucades que rebem per "vull reorganitzar la banca de
+la meva LLC" no són, de fet, sobre un mal banc. Són sobre un stack
+que ha crescut per casualitat: un compte Mercury obert el primer
+any, un canal de payout Stripe afegit quan van arribar els pagaments
+web, una targeta Wise introduïda per a despeses publicitàries i, en
+algun moment, Relay o una altra fintech provada per a integracions
+comptables. Al cap de dos o tres anys el resultat és una topologia
+que ningú ha dissenyat a propòsit, i petites friccions s'acumulen:
+la conciliació es fa més lenta, els costos de canvi es tornen
+invisibles, i les preguntes de KYC cauen sobre qui ha estat el
+darrer a ser onboardat.
+
+La reorganització rarament significa tancar comptes. Significa,
+sovint, redirigir-los perquè cadascun tingui una sola feina clara i
+els altres mantinguin papers de reserva endreçats.
+
+## Una assignació neta de papers per compte
+
+| Compte      | Paper principal                              | Paper secundari               |
+|-------------|----------------------------------------------|-------------------------------|
+| Mercury     | Banc US domiciliari, operacions ACH/wire     | Targeta si volum baix         |
+| Relay       | Integracions comptables + sub-comptes        | ACH de reserva                |
+| Wise        | Recepció multi-moneda (EUR/GBP) + canvi      | Targeta per a despesa publicitària |
+| Stripe      | Entrada web/marketplace + payouts            | Reserva retinguda per Stripe  |
+
+Quan cada compte té un únic paper principal, les regles comptables
+s'escriuen soles: Mercury reconcilia amb la caixa operacional, Wise
+amb els saldos FX per moneda, Stripe amb els ingressos i la reserva,
+Relay amb els sub-comptes de despesa. La pregunta "on és aquest
+moviment?" deixa d'aparèixer.
+
+## Tres patrons reals que apliquem
+
+- Sortida de la "fragilitat de banc únic". Client només tenia
+  Mercury i una revisió de rutina va bloquejar temporalment les
+  transferències de sortida. Vam afegir Relay com a ACH de reserva i
+  una petita capa multi-moneda Wise per a factures en EUR. Cost
+  marginal. Benefici: ja no hi ha punt únic de fallada sobre salari
+  o pagaments a proveïdors.
+- Sortida del "Stripe s'està convertint en el banc". Client deixava
+  grans reserves a Stripe i treia fons personals directament des de
+  Stripe. Vam redirigir els payouts Stripe a Mercury diàriament, vam
+  mantenir Wise per a factures a clients de la UE i Stripe va passar
+  a ser purament rail d'entrada.
+- Sortida de "la targeta Wise és la targeta de l'empresa". Client
+  utilitzava la targeta Wise com a targeta principal. Vam moure SaaS
+  recurrents i despeses pròximes al salari a Mercury (on la pista
+  d'auditoria és de qualitat bancària) i vam mantenir la targeta
+  Wise estrictament per a anuncis pagats.
+
+## Errors que veiem en una reorganització
+
+- Tancar el compte antic primer. Obrir i iniciar sempre el nou paper
+  abans de tancar res; l'historial de compte forma part del registre
+  bancari de la LLC.
+- Moure grans saldos en una sola transferència. Dividir en trams
+  operacionals normals; els moviments tipus tresoreria sovint
+  desencadenen una actualització de KYC.
+- Deixar que targetes "personals" es barregin. La llista de
+  targetes de la LLC ha de ser curta, nominada i reconciliada
+  mensualment.
+- Oblidar actualitzar les dades de beneficiari efectiu després del
+  canvi. Si la declaració BOI té l'adreça de la LLC, tots els
+  perfils bancaris hi han de coincidir.
+
+## Checklist de reorganització
+
+- Mapar els comptes actuals a la taula de papers de dalt.
+- Identificar el o els papers que hi falten.
+- Obrir els nous comptes de paper; prefinançar amb imports petits.
+- Migrar fluxos recurrents d'entrada/sortida en un període de 30
+  dies en ombra.
+- Tancar només el que sigui realment redundant i només després d'un
+  tancament mensual net.
+
+Tractem el stack bancari com el sistema circulatori de la LLC: cada
+vas té una feina, i reorganitzar significa corregir el plànol, no
+arrencar els vasos.
+
+<!-- /exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Com obrir un compte Mercury per a la teva LLC des de qualsevol país](/ca/blog/com-obrir-un-compte-mercury-per-a-la-teva-llc-des-de)
+- [Bancs tradicionals vs fintech per a la teva LLC: on obrir el compte](/ca/blog/bancs-tradicionals-vs-fintech-per-a-la-teva-llc-on-obrir-el)
+- [Com evitar bloquejos de compte a Mercury, Wise i Revolut](/ca/blog/com-evitar-els-bloquejos-de-compte-a-mercury-wise-i-revolut)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

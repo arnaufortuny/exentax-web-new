@@ -85,6 +85,12 @@ Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erkl
 
 Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
+<!-- exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-de-bis -->
+## Wie sich der Stichtag in der Buchhaltung der LLC sauber abbildet
+
+Auf Seiten der LLC besteht der sauberste Eintrag darin, am Stichtag ein Zwischensaldo der Konten zu erstellen, das gleiche Schema wie zum Jahresende zu verwenden und das Ergebnis im selben Ordner abzulegen wie die übrigen Jahresunterlagen. Diese kleine zusätzliche Datei macht die Aufteilung der Einkünfte zwischen den beiden Wohnsitzperioden später zu einer Routinebuchung statt zu einer nachträglichen Rekonstruktion und nimmt der Erstellung der Erklärungen einen Grossteil der Unsicherheit.
+<!-- /exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-de-bis -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
@@ -102,6 +108,18 @@ Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist
 ## Steuerliche Compliance in Ihrem Land: CFC, TFI und Einkünftezurechnung
 
 Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Struktur verliert Steuern, Bankzugang oder Compliance. Die folgenden Hinweise spiegeln wider, was wir mit Mandanten in genau diesem Fall tatsächlich tun, mit Priorität auf den Variablen, die das Ergebnis bewegen.
+
+<!-- exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-de -->
+## Wie sich ein unterjähriger Wohnsitzwechsel eines LLC-Gesellschafters als stabile Zeit­kartografie statt als Verwirrung lesen lässt
+
+Ein unterjähriger Wohnsitzwechsel eines LLC-Gesellschafters liest sich nützlicher als stabile Zeit­kartografie zwischen den Umzugs­daten, den Ansässigkeits­regeln jedes betroffenen Landes und dem entsprechenden Anteil am LLC-Jahresergebnis denn als Verwirrung. Eine kurze, datierte Notiz im persönlichen Ordner macht die Position nachlesbar.
+<!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-de -->
+
+<!-- exentax:lote29-native-v1-bis:fiscalidad-socios-llc-cambio-residencia-mid-year-de -->
+## Warum die Notiz auf die Daten und nicht auf das Gefühl des Übergangs bezogen sein sollte
+
+Die Notiz bezieht sich auf die Daten des Umzugs und auf die für jede Seite zitierte Regel — nicht auf das Gefühl des Übergangs, weil eine spätere Verwaltungs­anfrage stets auf nachprüfbaren Daten und Regeln aufsetzt.
+<!-- /exentax:lote29-native-v1-bis:fiscalidad-socios-llc-cambio-residencia-mid-year-de -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
@@ -178,6 +196,72 @@ Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist
   **DBA Deutschland-USA (BGBl. II 1991 S. 354 i.d.F. Protokoll 2006):** Art. 4 Abs. 2 enthält die **Tie-Breaker-Regelung** (ständige Wohnstätte → Mittelpunkt der Lebensinteressen → gewöhnlicher Aufenthalt → Staatsangehörigkeit → Verständigungsverfahren). Art. 23 regelt die Vermeidung der Doppelbesteuerung mit **Anrechnungsmethode** für die meisten Einkunftsarten. **Saving Clause Art. 1 Abs. 4** behält den USA das Besteuerungsrecht über US-Staatsbürger und Green-Card-Inhaber unabhängig vom Wohnsitz vor.
 
   **§50d Abs. 8 EStG**: bei Auslandseinkünften aus nichtselbständiger Arbeit wird die DBA-Freistellung nur gewährt, wenn der Steuerpflichtige nachweist, dass die Steuer im Ausland tatsächlich entrichtet wurde oder der Quellenstaat auf das Besteuerungsrecht verzichtet hat. **Anlage AUS** zur Einkommensteuererklärung dokumentiert die ausländischen Einkünfte und die Anrechnung. **Aufbewahrungsfrist 10 Jahre** nach §147 AO. In Österreich greift §27 Abs. 6 Z 1 lit. b EStG (Wegzugsbesteuerung) und in der Schweiz **Art. 18 DBG SR 642.11** mit kantonalem Tarif.
+
+<!-- exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year -->
+## Signale, die im Jahr des Wohnsitzwechsels zu beobachten sind
+
+Über den offiziellen Steuerkalender hinaus helfen drei praktische
+Signale dem LLC-Mitglied, im Jahr des Umzugs Überraschungen zu
+vermeiden. Das erste ist die Übereinstimmung zwischen der bei der
+Bank hinterlegten Adresse (Mercury, Wise, Stripe) und dem
+tatsächlichen steuerlichen Wohnsitz im Moment jeder bedeutenden
+Transaktion. Das zweite ist die sofortige Verfügbarkeit eines
+aktualisierten W-8, falls das Zielland das Abkommensprofil
+verändert. Das dritte ist die getrennte Dokumentation der
+LLC-Einkünfte, die jeder Wohnsitzperiode zugeordnet sind, bereit
+gelesen zu werden, wenn eine der beiden Steuerbehörden danach
+fragt.
+
+Diese Disziplin ist keine zusätzliche Belastung: sie ersetzt
+schlicht die Annäherungen, die später als steuerlicher Schrift-
+verkehr wieder auftauchen und meistens mehr Zeit kosten als die
+ursprüngliche Klarheit.
+
+Eine zweite Beobachtung: das W-8 sollte nicht nur bei Wohnsitz-
+wechseln aktualisiert werden, sondern jedes Mal, wenn ein neuer
+US-Zahler hinzukommt, der das Formular anfragt. Diese
+Doppelroutine — Wohnsitzwechsel und neuer Zahler — sorgt dafür,
+dass die Datei nie veraltet ist und keine Plattform die Auszahlung
+verzögert, weil das Formular abgelaufen oder unvollständig wirkt.
+
+<!-- /exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year -->
+
+<!-- exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-bis -->
+## Eine letzte Bemerkung zur Übergangsperiode
+
+Der Wohnsitzwechsel im laufenden Jahr ist selten eine technische
+Schwierigkeit, sondern fast immer eine Frage der Reihenfolge: was
+wird wann aktualisiert, in welchem Land wird welche Erklärung
+abgegeben, welche Dokumente liegen am Tag des Umzugs bereit. Wenn
+diese Reihenfolge auf einer Seite festgehalten und mit dem
+Berater abgestimmt ist, läuft das Jahr des Wechsels ruhig ab und
+das Folgejahr beginnt sauber, ohne nachgelagerte Korrekturen.
+
+<!-- /exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-bis -->
+
+<!-- exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-ter -->
+## Eine letzte praktische Notiz
+
+Der Wohnsitzwechsel im laufenden Jahr ist gut handhabbar, sobald
+Reihenfolge und Kalender mit dem Berater abgestimmt sind. Was
+schiefgeht, geht fast immer wegen Eile schief, nicht wegen
+fehlender Information.
+
+<!-- /exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-ter -->
+
+<!-- exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-de -->
+## Warum ein Wohnsitzwechsel mitten im Jahr mehr Reibung erzeugt als ein Wechsel zum Jahresende
+
+Ein Wohnsitzwechsel mitten im Jahr erzeugt mehr administrative Reibung als ein Wechsel, der mit der Kalendergrenze zusammenfällt, und der Grund ist mechanisch, nicht konzeptuell. Jedes Land erwartet ein kohärentes Bild dessen, was dem LLC-Mitglied während seiner steuerlichen Ansässigkeit zuzurechnen war, und je näher der Wechsel an einer Jahresgrenze liegt, desto einfacher lassen sich diese beiden Bilder unabhängig voneinander zusammensetzen. Findet der Wechsel mitten im Jahr statt, müssen dieselben Einkunftspositionen aufgeteilt, der Zeitpunkt von Ausschüttungen geprüft und gegebenenfalls die Tie-Breaker-Regeln des Abkommens für die Tage dazwischen angewendet werden. Keiner dieser Schritte ist für sich allein ungewöhnlich. Den Unterschied macht die rechtzeitige Aufbereitung der Unterlagen: eine Bestandsaufnahme vor der Abreise, ein klarer Eröffnungsstand nach der Ankunft und eine schriftliche Notiz des Stichtags. Mit diesen drei Bausteinen lassen sich beide Erklärungen einreichen, ohne das Jahr im Nachhinein rekonstruieren zu müssen.
+<!-- /exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-de -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [US LLC Besteuerung nach Wohnsitzland: Was Sie wo zahlen](/de/blog/us-llc-besteuerung-nach-wohnsitzland-was-sie-wo-zahlen)
+- [Spanische Wegzugsteuer für Krypto-, LLC- und Brokers-Investoren](/de/blog/exit-tax-spanien-llc-krypto-interactive-brokers)
+- [DBA USA-Spanien für LLCs: praktischer Leitfaden für in Spanien Ansässige](/de/blog/doppelbesteuerungsabkommen-usa-spanien-fur-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

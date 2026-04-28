@@ -136,6 +136,12 @@ The comparisons and quantitative data on the jurisdictions cited here rely on of
 - **Spain.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, arts. 8-9 on residency and art. 100 on CFC) and the inbound-expat regime (art. 93 LIRPF, "Beckham Law").
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Pillar Two (GloBE) and OECD Model Tax Convention with Commentaries.
 
+<!-- exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-en -->
+## How to read a mid-year change of residence by an LLC member as a stable timeline mapping rather than as a confusion
+
+A mid-year change of residence by an LLC member reads more usefully when it's treated as a stable timeline mapping between the dates of the move, the residence rules of each country involved and the corresponding share of the LLC result for the year, than as a confusion. A short note in the personal folder with the dates and the rule cited makes the position reviewable.
+<!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -174,6 +180,20 @@ Our team specialises in international tax structures for residents of Spanish-sp
 ### Editorial note
 
 This article is updated yearly with regulatory changes that affect the structures discussed. If you spot an outdated reference, write to us and we will revise it in the next editorial cycle; we keep the publication date visible at the top of every post for full transparency.
+
+<!-- exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-en -->
+## Why mid-year residence changes generate more friction than year-end changes
+
+A residence change that happens in the middle of the year produces more administrative friction than one that lines up with the calendar boundary, and the reason is mechanical rather than conceptual. Each country expects to receive a coherent picture of what was attributable to the LLC member while that member was its tax resident, and the closer the change is to a year boundary, the easier those two pictures are to assemble independently. When the change happens mid-year, the same income items have to be split, the timing of distributions has to be examined, and the treaty tie-breaker rules may need to be applied for the days in between. None of these steps is unusual on its own. What makes the difference is preparing the documentation in advance: a pre-departure snapshot, a clear post-arrival opening balance, and a written record of the day used as the cut-off. With those three pieces in hand, both returns can be filed without having to reconstruct the year afterwards.
+<!-- /exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-en -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+- [Spain Exit Tax for crypto, LLC and Interactive Brokers investors](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)
+- [US-Spain tax treaty applied to LLCs: practical guide for Spain residents](/en/blog/us-spain-tax-treaty-applied-to-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

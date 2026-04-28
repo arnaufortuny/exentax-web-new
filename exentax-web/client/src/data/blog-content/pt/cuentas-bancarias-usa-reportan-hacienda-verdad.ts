@@ -194,6 +194,14 @@ Mantenha o seu W-8BEN-E alinhado com a estrutura real, fature e receba sempre pe
 
 Para ver como estes dados se cruzam com a apresentação do 720 continue com <a href="/pt/blog/modelo-720-e-modelo-721-guia-para-residentes-em-espanha-com">o guia passo a passo do Modelo 720 e 721</a>, e para uma auditoria completa do setup <strong>agende uma chamada com a equipa Exentax</strong>.
 
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [DAC8 e criptomoedas: o novo reporting fiscal automático em 2026](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
+- [Wise, IBAN e LLC: o que é realmente reportado às autoridades fiscais](/pt/blog/wise-iban-e-llc-o-que-realmente-e-reportado-as-autoridades)
+- [Visa e Mastercard: o que as autoridades veem do seu cartão](/pt/blog/visa-mastercard-reporting-o-que-as-autoridades-fiscais-veem)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22%C3%89%20a%20pergunta%20que%20mais%20se%20repete%20quando%20um%20cliente%20fecha%20a%20sua%20LLC%20connosco%3A%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>

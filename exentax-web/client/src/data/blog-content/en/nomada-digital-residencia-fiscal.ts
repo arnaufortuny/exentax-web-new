@@ -263,6 +263,14 @@ Setting the LLC in Wyoming, New Mexico, Delaware or Florida does not change your
 
 To stay out of grey zones continue with <a href="/en/blog/offshore-structures-benefits-and-real-risks">the tax havens and non cooperative jurisdictions guide</a>, and if your plan is to stay in Spain using legal levers review <a href="/en/blog/legal-paths-to-minimize-your-taxes">the legal paths to minimise taxes</a>. To design your setup, <strong>book a session with Exentax</strong>.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [International taxation for digital entrepreneurs: the complete guide](/en/blog/international-taxation-for-digital-entrepreneurs-the)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+- [LLC member taxation when changing tax residence mid-year](/en/blog/llc-member-taxation-when-changing-tax-residence-mid-year)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22If%20you%20work%20remotely%20while%20traveling%20between%20countries%2C%20your%20tax%20situation%20is%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

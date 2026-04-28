@@ -187,6 +187,14 @@ Una auditoria útil no busca culpables: posa la LLC en ordre en menys de trenta 
 Per aplicar el mateix guió ara, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts: et tornem l'informe amb prioritats i cost real de regularització, sense compromís.
 <!-- /exentax:execution-v2 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Tinc una LLC als EUA, la gestiono correctament? Checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real)
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [Problemes comuns d'una LLC i com evitar-los: lliçons de casos reals](/ca/blog/problemes-comuns-llc-i-com-evitar-los-llicons-de-clients)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 

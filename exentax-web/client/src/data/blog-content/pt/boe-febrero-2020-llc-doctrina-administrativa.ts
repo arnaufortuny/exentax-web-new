@@ -119,6 +119,14 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **Declarações informativas (Espanha).** Contas bancárias nos EUA com saldo médio ou final >50.000 € no exercício: **Modelo 720** (Lei 5/2022 após STJUE C-788/19, 27/01/2022; sanções agora dentro do regime geral da LGT). Operações vinculadas com a LLC e dividendos repatriados: **Modelo 232**. Criptoativos custodiados nos EUA: **Modelo 721**.
 - **CDT relevantes.** A CDT Portugal-EUA de 1994 (com Protocolo posterior) e a CDI Espanha-EUA (BOE 22/12/1990, Protocolo em vigor 27/11/2019) ordenam a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável no país do sócio não constitui, por si só, EE desse sócio, mas a direcção efectiva pode criá-lo se toda a gestão for feita a partir do território de residência.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Autónomo em Espanha vs LLC nos EUA: comparação fiscal completa](/pt/blog/autonomo-em-espanha-vs-llc-nos-eua-comparacao-fiscal)
+- [A tua LLC não paga imposto nos EUA — o que se passa no teu país](/pt/blog/a-tua-llc-nao-paga-imposto-nos-eua-o-que-se-passa-no-teu)
+- [Tributação da LLC por país de residência: o que se paga e onde](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

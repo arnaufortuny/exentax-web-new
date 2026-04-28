@@ -65,6 +65,18 @@ The legal framework is set out in <a href="https://www.boe.es/buscar/act.php?id=
 6. ✓ Transfer to the quarterly or monthly form 349.
 7. ✓ Reconcile the summary with form 303 and review annual coherence with form 390.
 
+<!-- exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-en -->
+## How to read intra-EU VAT on services as a stable mapping rather than as a recurring case-by-case debate
+
+Intra-EU VAT on services reads more usefully when it's treated as a stable mapping between the country of the supplier, the status of the customer (VAT-registered business or final consumer) and the country where the service is consumed, than as a recurring case-by-case debate. The mapping doesn't change month to month.
+<!-- /exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-en -->
+
+<!-- exentax:lote31-native-v1-bis:iva-intracomunitario-servicios-europa-en -->
+## Why the note is organized by service type and not by individual invoice
+
+The note is organized by service type and not by individual invoice — the applicable VAT rule depends on the service type and the customer's status, not on each invoice in isolation, and this view keeps the right granularity for an annual review.
+<!-- /exentax:lote31-native-v1-bis:iva-intracomunitario-servicios-europa-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -122,6 +134,34 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+### How to ensure VIES registration arrives on time
+
+Registration in the Intra-Community Operators Register (ROI) is requested via Form 036 and may take up to three months to be confirmed. In our practice, the most common operational pain is the freelancer issuing an intra-Community invoice without a VAT number that is yet active in VIES, which produces an immediate compliance gap that the EU client's accounting team will flag. The clean approach is to register via Form 036 well before the first European client invoice is expected (we recommend ninety days of buffer), to monitor the VIES portal for activation, and to keep a screenshot of the active registration on file as the proof attached to the first invoice when the client requests it. The second operational pain is allowing the registration to lapse through inactivity (no intra-Community operations for several quarters); the registration can be deactivated and a fresh request will be needed before the next European client. A quarterly check on VIES activation status is enough to avoid both pains.
+
+### Three real-world invoicing patterns and the documentation each one requires
+
+The first pattern is the freelancer issuing a B2B services invoice to an EU-resident company with an active VIES number: invoice without VAT, mention "reverse charge", report on quarterly Form 349, and reflect on Form 303 in the corresponding box. The documentation kit per invoice is the client's VIES validation screenshot dated on the invoice date, the contract or order, and the proof of payment. The second pattern is the freelancer issuing a B2C digital services invoice to an EU consumer below the EUR 10,000 annual threshold: Spanish VAT applies as if the consumer were Spanish; the documentation kit is the consumer's location proof (IP plus billing address) and the standard invoice. The third pattern is the freelancer issuing a B2C digital services invoice to an EU consumer above the threshold (or having opted into OSS): VAT of the consumer's country applies, declared via the OSS quarterly return, with the documentation kit including the consumer's location proof, the OSS registration confirmation and the OSS quarterly receipt. Keeping the three kits ready in templates avoids ad-hoc reconstruction at quarter-end.
+<!-- /exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+### How the Form 349 timing aligns with the rest of the quarter
+
+Form 349 is the recapitulative declaration of intra-Community operations, filed monthly or quarterly depending on volume. For most freelancers in our practice, the quarterly version applies, with the same calendar as Form 303 (VAT) and Form 130 (IRPF advance), so the three filings are processed in the same closing window. The clean approach we recommend is to align the quarterly closing on a fixed day each month (we use the second working day of January, April, July and October as the closing reference), to file Form 303 first, then Form 349 against the operations registered for the quarter, and to keep both receipts in the same folder for that quarter. The arithmetic between the two forms must reconcile: the intra-Community services declared on Form 349 should equal the corresponding box of Form 303; any mismatch will produce a routine AEAT request for clarification.
+
+### How OSS reshapes the calendar for B2C digital flows
+
+When the freelancer has opted into the One-Stop Shop (OSS) for B2C digital services to EU consumers, the quarterly OSS return becomes a fourth filing aligned with the others, but with its own calendar (one month after the quarter end, with no extension). The OSS return covers the VAT collected per consumer-country, paid in a single Spanish account, and redistributed by the AEAT to each EU country. The discipline we keep with clients on OSS is to maintain a per-country tally each quarter (consumer location, VAT rate of the country, amount), to reconcile the tally against the bookkeeping at quarter end, and to file the OSS return before the rest of the quarterly closings. The most common pitfall is treating OSS as optional during a slow quarter and skipping the filing because "there's nothing to declare"; once registered in OSS, the freelancer must file every quarter, even at zero, otherwise the registration is at risk of being cancelled and a re-registration creates several months of administrative gap.
+<!-- /exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [VAT on international digital services: when it applies and when it doesn't](/en/blog/vat-on-international-digital-services-when-it-applies-and)
+- [Taxes with international clients from Spain: what nobody tells you](/en/blog/taxes-with-international-clients-in-spain-what-nobody-tells)
+- [Deductible expenses for Spanish freelancers in 2026: a clear guide](/en/blog/deductible-expenses-self-employed-spain-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.

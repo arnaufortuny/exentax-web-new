@@ -145,6 +145,12 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.
 
+<!-- exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-fr -->
+## Comment lire la question des Forms W-8BEN et W-8BEN-E comme une cartographie de relations stables plutôt que comme un formulaire à remplir une fois
+
+La question des Forms W-8BEN et W-8BEN-E se lit plus utilement comme une cartographie de relations stables entre la personne ou l'entité qui certifie son statut, le payeur américain qui demande la certification et la juridiction de résidence du bénéficiaire effectif, plutôt que comme un formulaire à remplir une fois. Cette cartographie reste relisible en quelques minutes lors d'une révision périodique de la documentation.
+<!-- /exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -176,6 +182,18 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Payoneer** opère via des entités européennes (Payoneer Europe Ltd, Irlande) elles aussi **dans le périmètre CRS** pour les clients résidant dans une juridiction participante.
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
+
+<!-- exentax:lote19-native-v1:w8-ben-y-w8-ben-e-guia-completa-fr -->
+## Comment lire les formulaires W-8BEN et W-8BEN-E comme deux pièces complémentaires d'un même dossier
+
+Les formulaires W-8BEN et W-8BEN-E se lisent plus clairement lorsqu'ils sont compris comme deux pièces complémentaires d'un même dossier d'attestation, et non comme deux documents interchangeables. L'un attestait la qualité de bénéficiaire effectif d'une personne physique étrangère; l'autre, celle d'une entité étrangère.
+
+Cette distinction de portée évite la confusion la plus fréquente dans les premiers échanges avec une contrepartie américaine: présenter le mauvais formulaire fait recommencer la séquence, parce que la contrepartie a besoin du document qui correspond à la nature juridique du payé.
+
+## Comment classer les formulaires dans le dossier de la LLC pour qu'ils restent retrouvables
+
+Le classement des formulaires W-8BEN et W-8BEN-E dans le dossier de la LLC gagne à être traité comme une rubrique distincte de la comptabilité courante, avec ses propres versions datées. Cette séparation permet de retrouver le bon document à la première demande d'une contrepartie sans devoir parcourir les justificatifs de l'année.
+<!-- /exentax:lote19-native-v1:w8-ben-y-w8-ben-e-guia-completa-fr -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
@@ -238,6 +256,131 @@ Notre position ici est délibérément prudente: nous optimisons pour ce qui ré
 
   Chez Exentax, nous fermons ces cinq fronts chaque année en parallèle du calendrier fédéral américain (Form 5472, 1120 pro-forma, FBAR, Annual Report étatique, BOI Report quand il s'applique). L'objectif: qu'aucun contrôle ne trouve de bout libre et que la structure tienne une révision rétroactive sur 5 à 7 ans.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa -->
+## W-8 en clair : qui certifie quoi
+
+La famille W-8 répond à une seule question répétée des payeurs
+américains : la personne en face de ce paiement est-elle une "US
+person" au sens fiscal, et sinon, quel statut certifie-t-elle pour
+que la bonne règle de retenue s'applique. Plusieurs variantes
+existent parce que la réponse dépend de la nature du payee : personne
+physique, entité, intermédiaire ou gouvernement étranger. La plupart
+des propriétaires de LLC n'interagissent qu'avec deux d'entre elles.
+
+| Formulaire   | Qui signe                                | Usage typique                        |
+|--------------|------------------------------------------|--------------------------------------|
+| W-8BEN       | Une personne physique non-US             | Personne physique étrangère recevant |
+|              |                                          | des revenus de source US sur compte  |
+|              |                                          | personnel                             |
+| W-8BEN-E     | Une entité non-US                        | Entité étrangère (souvent la LLC)    |
+|              |                                          | recevant de clients/plateformes US   |
+
+Pour une single-member LLC détenue par une personne non-US et
+traitée comme transparente fiscalement aux US, les payeurs
+américains demandent typiquement le W-8BEN-E à la LLC et, sur
+certaines plateformes, également un W-8BEN au membre comme
+bénéficiaire effectif. Les noms se ressemblent mais les documents
+remplissent des rôles différents dans la même relation.
+
+## Trois cas réels fréquents
+
+Une LLC SaaS vend à des clients US enterprise sous un contrat
+master. L'équipe achats demande le W-8BEN-E avec l'EIN de la LLC,
+le pays d'organisation (Wyoming ou New Mexico par exemple) et la
+demande de bénéfice de convention fiscale si le membre est dans un
+pays signataire avec les US. Un formulaire propre au dossier signifie
+paiement sans retenue de précaution et piste d'audit complète des
+deux côtés.
+
+Une marketplace basée aux US paie une LLC détenue par un résident
+fiscal espagnol. La plateforme demande un W-8BEN-E à la LLC et,
+dans le tableau de bord, enregistre le bénéficiaire effectif. Nous
+remplissons la demande de bénéfice de convention quand elle
+s'applique, joignons le document de constitution de la LLC et la
+lettre EIN, et les payouts s'effectuent au taux conventionnel
+standard.
+
+Une LLC de conseil travaille pour un grand compte coté US. Leur
+système comptable fait des renouvellements W-8 annuels ; nous
+mettons à jour le formulaire avec les mêmes données, conservons à la
+fois la version précédente et la nouvelle dans le dossier
+conformité de la LLC, et marquons la date de renouvellement dans
+notre calendrier interne pour que le client ne voie jamais de
+cycle manqué.
+
+## Erreurs qui retardent les paiements
+
+- Mélanger W-8BEN et W-8BEN-E. Les personnes physiques signent
+  W-8BEN ; les entités, LLC comprises, signent W-8BEN-E. Ne pas
+  croiser les fils.
+- Laisser la case convention vide quand une convention s'applique.
+  C'est la demande qui fait passer la retenue de 30% au taux
+  conventionnel ; sans elle, le payeur retient au taux par défaut.
+- Utiliser l'adresse étrangère d'il y a quelques années. Le
+  formulaire doit refléter la résidence actuelle ; les écarts avec
+  la déclaration BOI ou les dossiers KYC déclenchent des demandes
+  de réémission.
+- Signer pour la LLC sans autorité. Les single-member LLC sont
+  simples ; les multi-member ont besoin de l'operating agreement
+  pour montrer le pouvoir de signature.
+
+## Checklist de renouvellement et de stockage
+
+- Les formulaires W-8 expirent à la troisième année complète après
+  signature.
+- Conserver à la fois le PDF signé et les données sources dans le
+  dossier conformité de la LLC.
+- Mettre à jour avant que les changements de résidence ne touchent
+  la banque ou le payeur.
+- Confirmer que l'EIN du formulaire correspond à celui en dossier
+  IRS.
+- Faire correspondre exactement le nom de la LLC et le DBA aux
+  documents de constitution.
+
+Nous traitons le cycle W-8 comme une hygiène annuelle de la LLC, au
+même titre que les rafraîchissements BOI et les mises à jour de
+profil bancaire : un petit travail récurrent qui évite de gros
+problèmes récurrents.
+
+<!-- /exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa -->
+
+<!-- exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa-bis -->
+## W-8 dans la pratique des plateformes et marketplaces US
+
+Chaque grande plateforme US traite le W-8 légèrement différemment,
+mais le motif de base est constant : le flux d'onboarding demande la
+classification d'entité, puis l'adresse de la LLC et celle du
+bénéficiaire effectif, puis la demande de bénéfice de convention.
+Les marketplaces pour services numériques permettent souvent
+l'upload d'une version PDF du formulaire signé comme source de
+vérité ; les systèmes AP corporate de grands clients exigent
+fréquemment que les données soient saisies dans leur portail
+fournisseurs, avec un PDF signé en pièce jointe.
+
+Notre procédure standard : la LLC conserve une "copie or" du
+W-8BEN-E dans le dossier conformité ; PDF signé, mêmes données
+saisies dans chaque portail, et horodatage dans un petit index
+interne. Ainsi, en cas de litige de retenue à la source, une seule
+vérité régit toutes les versions plateforme. Au renouvellement, la
+copie or est mise à jour en premier, puis les saisies plateforme
+suivent ce gabarit.
+
+Pour les clients de pays avec convention fiscale US, nous vérifions
+à chaque renouvellement la référence d'article de convention car
+les interprétations administratives évoluent entre cycles. Une
+référence périmée n'empêche pas le traitement mais peut faire
+manquer la retenue conventionnelle standard.
+
+<!-- /exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [IRS 1120 et 5472 : ce que c'est vraiment et quand ça s'applique](/fr/blog/irs-1120-et-5472-ce-que-cest-vraiment-et-quand-ca-sapplique)
+- [Qu'est-ce que l'IRS et comment affecte-t-il vraiment votre LLC américaine](/fr/blog/quest-ce-que-lirs-et-comment-affecte-t-il-votre-llc)
+- [Convention fiscale USA-Espagne appliquée aux LLC : lecture pratique](/fr/blog/convention-fiscale-usa-espagne-appliquee-aux-llc)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

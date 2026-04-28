@@ -152,6 +152,18 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote32-native-v1:llc-alternativa-autonomo-espana-ca -->
+## Com llegir la comparació LLC contra autònom espanyol com un mapatge estable en lloc d'un debat de comunitat
+
+La comparació LLC contra autònom espanyol es llegeix de manera més útil com un mapatge estable entre el país de residència del beneficiari, el país on es crea valor i el país dels clients, en lloc d'un debat de comunitat. Aquest mapatge no canvia amb l'estació de l'any, i una nota curta i datada al dossier personal amb els tres eixos fa la posició consultable en pocs minuts en una conversa amb un assessor.
+<!-- /exentax:lote32-native-v1:llc-alternativa-autonomo-espana-ca -->
+
+<!-- exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-ca -->
+## Per què la nota s'organitza per eix i no per jurisdicció
+
+La nota s'organitza per eix — residència, creació de valor, mercat client — i no per jurisdicció, perquè els eixos es mantenen estables mentre que el discurs de màrqueting al voltant d'una jurisdicció canvia amb l'estació.
+<!-- /exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -164,6 +176,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-ca -->
+## Per què comparar una LLC i el règim espanyol d'autònom requereix comparar perfils operatius i no només costos
+
+Comparar una LLC dels EUA amb el règim espanyol d'autònom funciona millor quan la comparació es construeix entorn del perfil operatiu i no entorn d'una llista de costos destacats.
+<!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -245,6 +263,14 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Per què els freelancers espanyols deixen l'autònom per la LLC](/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [Per què obrir una LLC americana el 2026: 5 pilars de l'avantatge](/ca/blog/per-que-obrir-una-llc-americana-el-2026-els-5-pilars-del)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/serveis">Reservar consulta gratuïta</a>.

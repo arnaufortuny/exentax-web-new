@@ -138,6 +138,12 @@ Now that you have the full context, the natural next step is to map it against y
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote28-native-v1:empresa-panama-fiscalidad-residencia-en -->
+## How to read the Panama company question as a profile mapping rather than as a generic comparison
+
+The Panama company question reads more usefully when it's treated as a profile mapping between the country of residence of the beneficial owner and the country where value is actually created, than as a generic comparison.
+<!-- /exentax:lote28-native-v1:empresa-panama-fiscalidad-residencia-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -150,6 +156,14 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Hong Kong company: the offshore reality in 2026](/en/blog/hong-kong-company-the-offshore-reality-in-2026)
+- [Dubai/UAE: the myth of no taxes](/en/blog/dubai-uae-the-myth-of-no-taxes)
+- [Offshore structures: benefits and real risks](/en/blog/offshore-structures-benefits-and-real-risks)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Panama today: real territoriality, EU grey list and what still works

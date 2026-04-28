@@ -266,6 +266,14 @@ At Exentax we set up your LLC's bookkeeping from month one with chart of account
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Deductible expenses for Spanish self-employed in 2026: practical list](/en/blog/deductible-expenses-self-employed-spain-2026)
+- [LLC taxation by activity: services, e-commerce, SaaS, royalties, trading](/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

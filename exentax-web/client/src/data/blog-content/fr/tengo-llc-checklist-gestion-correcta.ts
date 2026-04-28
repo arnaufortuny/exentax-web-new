@@ -150,6 +150,18 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.
 
+<!-- exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-fr -->
+## Comment lire la checklist de gestion d'une LLC comme une carte annuelle stable plutôt que comme une liste sporadique
+
+La checklist de gestion d'une LLC se lit plus utilement comme une carte annuelle stable entre les obligations récurrentes (Form 5472, BOI, renouvellement du Registered Agent), les documents récurrents (Operating Agreement, séparation des fonds, comptabilité de base) et les dates auxquelles chacun est dû, plutôt que comme une liste sporadique de tâches. La carte ne change pas d'année en année — seules les dates se décalent.
+<!-- /exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-fr -->
+
+<!-- exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-fr -->
+## Pourquoi la note s'organise par obligation récurrente plutôt que par mois de l'année
+
+La note s'organise par obligation récurrente plutôt que par mois de l'année, parce que les obligations restent les mêmes d'un cycle à l'autre alors que leurs dates se décalent, et cette vue garde la carte réutilisable d'un cycle au suivant.
+<!-- /exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -235,6 +247,14 @@ Avoir une LLC c'est avoir un calendrier; sans, tôt ou tard 5472 ou BOI sautent.
 
 Pour piloter votre LLC avec cette checklist ou nous la confier, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+- [Maintenance annuelle LLC : obligations que vous ne pouvez pas ignorer](/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas)
+- [Documenter la séparation des fonds dans votre LLC : procédure réelle](/fr/blog/bien-documenter-la-separation-des-fonds-dans-votre-llc-avec)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

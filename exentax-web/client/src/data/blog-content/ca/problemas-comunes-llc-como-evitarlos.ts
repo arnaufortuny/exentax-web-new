@@ -117,6 +117,14 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-ca -->
+## Com llegir els errors més freqüents en LLC com una checklist estable en lloc d'una col·lecció d'anècdotes
+
+Els errors més freqüents que veiem en dossiers de LLC es llegeixen de manera més útil com una checklist estable i repetible que com una col·lecció d'anècdotes. Les causes recurrents — barreja de fons personals i professionals, presentacions de Form 5472 que falten o tardanes, absència de separació documentada entre el membre i la LLC, no renovació del Registered Agent — tornen a aparèixer en perfils molt diferents, i són força més fàcils de prevenir que de reparar a posteriori.
+
+Una nota curta i datada al capdamunt del dossier de la LLC, amb les obligacions recurrents i la data en què cadascuna es va complir per última vegada, converteix aquesta mateixa checklist en una cosa que el membre pot revisar en pocs minuts l'any, en lloc de reconstruir-la de memòria sota pressió en un control.
+<!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -129,6 +137,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote16-native-v1:problemas-comunes-llc-como-evitarlos-ca -->
+## Per què la majoria de "problemes habituals" es redueix a tres hàbits prevenibles
+
+La majoria dels problemes recurrents que apareixen en LLCs operades des de l'estranger es redueixen, al final d'una revisió tranquil·la, a tres hàbits prevenibles i no a la pròpia estructura. El primer és barrejar despeses personals i operatives en els mateixos instruments de pagament. El segon és deixar el manteniment anual a la memòria en lloc del calendari. El tercer és tractar la comptabilitat com una cosa per recuperar al final de l'any en lloc d'una rutina mensual estable.
+<!-- /exentax:lote16-native-v1:problemas-comunes-llc-como-evitarlos-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -172,6 +186,14 @@ A Exentax portem compliment integral i regularitzem LLCs amb històric trencat.
 
 La nostra posició aquí és deliberadament conservadora: optimitzem allò que sobreviu a una inspecció, no la xifra més agressiva. Els punts següents són els que estem disposats a defensar per escrit.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [Tinc una LLC als EUA, la gestiono correctament? Checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real)
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

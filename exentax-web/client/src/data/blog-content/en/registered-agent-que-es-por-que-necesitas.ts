@@ -209,6 +209,14 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Annual LLC maintenance: obligations you cannot ignore](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+- [Operating Agreement: what it is and why your LLC needs one](/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 We review BOI, EIN, registered agent and federal obligations so a fine never catches you by surprise. <a href="/en/services">Request a compliance review</a>.
 <!-- /exentax:cta-v1 -->

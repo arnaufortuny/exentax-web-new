@@ -136,6 +136,12 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
+<!-- exentax:lote32-native-v1:caminos-legales-minimos-impuestos-en -->
+## How to read the legal minimum-tax paths as a stable structural mapping rather than as a marketing trick
+
+The legal minimum-tax paths read more usefully when they're treated as a stable structural mapping between residence, value creation and customers, than as a marketing trick. The mapping doesn't change with the season, and a short dated note in the personal folder with the three axes makes the position reviewable.
+<!-- /exentax:lote32-native-v1:caminos-legales-minimos-impuestos-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -240,6 +246,14 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [International taxation for digital entrepreneurs: the complete guide](/en/blog/international-taxation-for-digital-entrepreneurs-the)
+- [Why open a US LLC in 2026: the 5 pillars of the American advantage](/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.

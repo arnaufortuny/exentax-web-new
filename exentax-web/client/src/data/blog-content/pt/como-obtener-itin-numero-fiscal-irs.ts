@@ -107,6 +107,14 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **CDT Espanha–EUA.** A convenção (BOE 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
 - **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 
+<!-- exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-pt -->
+## Como ler o pedido de ITIN como um procedimento documentado estável em vez de um evento pontual
+
+O pedido de ITIN lê-se de forma mais serena como um procedimento documentado estável do que como um evento pontual. As peças necessárias — um Form W-7 válido, um motivo de declaração federal que justifique a necessidade de ITIN e um documento de identidade aceite pelo IRS — definem um processo discreto que não muda de ano para ano.
+
+Uma nota curta e datada no ficheiro pessoal que registe a versão do Form W-7 utilizada, o motivo federal citado, o documento de identidade entregue e o canal por onde foi enviado torna o pedido relevável em poucos minutos se o IRS voltar com uma pergunta ou uma deficiency notice.
+<!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -141,6 +149,12 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
 
+<!-- exentax:lote20-native-v1:como-obtener-itin-numero-fiscal-irs-pt -->
+## Como ler o pedido de ITIN como sequência e não como envio único
+
+O pedido de ITIN lê-se com mais clareza quando é tratado como sequência e não como envio único. A sequência começa com a identificação da necessidade concreta da ITIN (obrigação fiscal, exigência de um pagador, condição de um acordo), passa pela escolha da via de submissão (Certifying Acceptance Agent ou submissão directa) e termina com a obtenção da ITIN e o seu arquivamento no dossiê da LLC.
+<!-- /exentax:lote20-native-v1:como-obtener-itin-numero-fiscal-irs-pt -->
+
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## O procedimento ITIN que evita as rejeições mais comuns
 
@@ -173,6 +187,14 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [EIN vs ITIN vs SSN: números fiscais americanos explicados](/pt/blog/ein-vs-itin-vs-ssn-os-numeros-de-identificacao-fiscal)
+- [EIN: o que é o número fiscal da sua LLC e como obtê-lo](/pt/blog/ein-o-que-e-o-numero-fiscal-da-sua-llc-e-como-obte-lo)
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

@@ -132,6 +132,14 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Cotisation autónomo en Espagne 2026 : ce que vous payez vraiment chaque mois](/fr/blog/cotisation-autonomo-espagne-2026-tranches)
+- [Pourquoi les freelances espagnols quittent en silence le statut d'autónomo](/fr/blog/pourquoi-les-freelancers-espagnols-quittent-le-statut-dauto)
+- [LLC américaine comme alternative au statut d'autónomo en Espagne](/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->

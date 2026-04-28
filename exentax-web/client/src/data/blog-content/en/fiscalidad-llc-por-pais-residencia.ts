@@ -215,6 +215,14 @@ At Exentax we cross-reference your residence, activity and volume to tell you ex
 We treat this block as one of the load-bearing decisions of the LLC strategy: get it wrong and the rest of the structure leaks tax, banking access or compliance. The notes below distil what we actually do with clients facing this exact case, prioritising the variables that move the needle.
 
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+- [International taxation for digital entrepreneurs: the complete guide](/en/blog/international-taxation-for-digital-entrepreneurs-the)
+- [Optimal tax structure for international freelancers: full framework](/en/blog/optimal-tax-structure-for-international-freelancers-the)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

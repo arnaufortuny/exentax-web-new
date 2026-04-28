@@ -79,6 +79,20 @@ Per a un autònom facturant 60.000€/any, el canvi a SL freqüentment redueix i
 
 **Quan convé tancar una SL que ja no funciona?** Com més aviat, perquè la SL inactiva continua costant ~6.000€/any en manteniment. Si fa 6+ mesos sense activitat, calcula cost de tancament vs mantenir-la "per si de cas". El tancament dura 6-12 mesos i uns 600-1.500€.
 
+<!-- exentax:lote19-native-v1:sociedad-limitada-espana-costes-ventajas-ca -->
+## Com llegir la comparació de costos de la SL sense convertir-la en debat absolut
+
+La comparació de costos d'una SL espanyola es llegeix amb més calma quan es relaciona amb el perfil operatiu real i no amb un cas genèric. Els costos recurrents (gestoria, impost sobre societats, cotitzacions socials de l'administrador, comissions bancàries) prenen un sentit diferent segons el volum facturat, el nombre d'operacions mensuals i la freqüència de les distribucions.
+
+Una lectura útil consisteix a fixar tres perfils tipus — facturació baixa, mitjana i alta — i recalcular el cost total anual per a cadascun, en lloc de partir d'una xifra única. Aquest enquadrament per perfils evita conclusions absolutes del tipus "la SL costa X" i retorna una forquilla que sobreviu al primer any real d'activitat.
+<!-- /exentax:lote19-native-v1:sociedad-limitada-espana-costes-ventajas-ca -->
+
+<!-- exentax:lote36-native-v1:sociedad-limitada-espana-costes-ventajas-ca -->
+## Com llegir la qüestió d'una SL espanyola com un mapatge estable de costos i funcions en lloc d'una comparació puntual
+
+La qüestió d'una SL espanyola es llegeix com un mapatge estable entre costos recurrents, funcions cobertes pel vehicle i residència del beneficiari.
+<!-- /exentax:lote36-native-v1:sociedad-limitada-espana-costes-ventajas-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -137,6 +151,40 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1-bis:sociedad-limitada-espana-costes-ventajas -->
+### Com s'apila el cost real d'una SL durant els tres primers anys
+
+Una visió defensable del cost d'una SL ha d'anar més enllà dels honoraris de notari del dia u. A l'any u, el freelance absorbeix el cost de constitució (notari, registre, capital inicial), la feina de comptabilitat i preparació de l'impost de societats, la cotització d'autònom societari si el freelance és també administrador, les declaracions periòdiques d'IVA i impost de societats i les obligacions de dipòsit legal. A l'any dos, el cost de constitució desapareix però les obligacions recurrents s'estabilitzen; la declaració d'impost de societats introdueix la seva pròpia complexitat en assignació de beneficis, planificació de dividends i reserves. A l'any tres, una SL amb benefici suficient i dividends estructurats produeix una separació clara entre benefici operatiu i renda personal, cosa que és un avantatge real per a la planificació de projecte, però el cost combinat de la capa d'impost de societats més l'IRPF personal sobre dividends supera habitualment el que un autònom pagaria per sota d'un punt d'equilibri clar d'activitat neta. Estimem típicament aquest punt d'equilibri en base anual neta real només al voltant d'ingressos estables de sis dígits mitjans ben establerts amb facturació espanyola estable; per sota d'aquest llindar, la SL és més còmoda per a la postura institucional que eficient en la factura fiscal.
+
+### Tres comparacions operatives que recorrem amb els clients
+
+La primera comparació és la recepció de factures: una SL emet factures en nom propi corporatiu i rep els fons en un compte bancari espanyol corporatiu, cosa que és còmoda per a clients del sector públic espanyol i per a alguns compradors institucionals; un autònom factura en nom personal en un compte personal; una LLC americana factura en nom propi en un compte Mercury, Wise, Stripe o Relay, còmoda per a clients internacionals i no sempre reconeguda pels compradors del sector públic espanyol. La segona comparació és l'extracció del benefici: beneficis de SL passen al propietari via salari (subjecte a IRPF a la base general més cotitzacions socials) o dividends (subjectes a IRPF a la base d'estalvi, després de l'impost de societats ja pagat); el benefici d'autònom equival directament a la renda personal; el benefici de LLC flueix pass-through al propietari a l'IRPF a la categoria corresponent. La tercera comparació és la càrrega declarativa: SL porta una declaració d'impost de societats, dipòsit de comptes i IVA trimestral; autònom porta IVA trimestral i Modelo 130 més IRPF anual; LLC porta Form 5472, comptabilitat, declaracions anuals estatals i la integració amb l'IRPF del propietari. Cada estructura és més pesada que les més lleugeres; la qüestió és quin pes correspon a l'activitat, no quina és "la millor".
+<!-- /exentax:lote6-native-v1-bis:sociedad-limitada-espana-costes-ventajas -->
+
+<!-- exentax:lote6-native-v1-ter:sociedad-limitada-espana-costes-ventajas -->
+### Tres hàbits operatius que fan una SL lleugera o pesada
+
+El primer hàbit és l'ús d'un compte bancari de negocis dedicat des del primer dia. Una SL amb un compte operatiu net (a la nostra pràctica, un compte corporatiu espanyol funciona per a operacions locals espanyoles; per a fluxos internacionals, els noms Mercury, Wise, Stripe i Relay es repeteixen) evita la confusió comptable més freqüent: una despesa personal pagada des del compte corporatiu que el comptable ha de reclassificar i que l'auditor acabarà assenyalant. El segon hàbit és el ritme de tancament mensual. Una SL tancada una vegada al mes (ingressos comptabilitzats, despeses comptabilitzades, banc conciliat, nòmina tancada) és lleugera de mantenir perquè cada tancament és petit; una SL tancada una vegada a l'any és pesada de mantenir perquè el final d'any esdevé una reconstrucció de diverses setmanes. El tercer hàbit és la planificació de dividends. Una SL amb una política anual de dividends clara (quan, quant, en quina proporció respecte als beneficis retinguts) fa previsible la interacció entre IRPF i impost de societats; una SL on els dividends es decideixen a corre-cuita a final d'any produeix sorpreses d'IRPF d'última hora per al propietari. Cap dels tres hàbits requereix expertesa avançada; tots tres requereixen disciplina i una revisió mensual de trenta minuts.
+
+### Un kit documental per trimestre tancat que s'avança a peticions de l'AEAT
+
+Per a una SL, el kit documental per trimestre tancat que mantenim a l'arxiu reflecteix el d'un autònom però amb sabor corporatiu. Primer: el llibre de factures emeses amb nom del client, NIF, data, import i detall d'IVA. Segon: el llibre de factures de proveïdors amb els mateixos camps. Tercer: l'extracte bancari conciliat contra els dos llibres, amb qualsevol línia no conciliada documentada en una nota d'una línia. Quart: els rebuts del Modelo 303 trimestral (IVA) i del Modelo 111 (retencions quan és aplicable). Cinquè: la nòmina del trimestre si la SL té empleats, inclosa la cotització d'autònom societari si l'administrador és també soci. Sisè: qualsevol contracte o comanda per a operacions no rutinàries del trimestre. Setè: un memo de tancament d'una pàgina que resumeix el trimestre. El kit és petit, previsible i àmpliament automàtic si el ritme de tancament és mensual; és la diferència entre una sol·licitud de l'AEAT respostada en dos dies i una que obre una revisió més àmplia.
+<!-- /exentax:lote6-native-v1-ter:sociedad-limitada-espana-costes-ventajas -->
+
+<!-- exentax:lote6-native-v1-quint:sociedad-limitada-espana-costes-ventajas -->
+### Una nota pràctica sobre l'elecció del compte corporatiu des del primer dia
+
+El compte bancari corporatiu escollit al primer dia modela gran part del confort operatiu de la SL durant els tres primers anys. Per a SL amb fluxos predominantment espanyols (clients espanyols, proveïdors espanyols, nòmines espanyoles), un compte corporatiu espanyol funciona suaument: les transferències domèstiques són ràpides, la integració amb la infraestructura de pagament espanyola és nativa, i el format de l'extracte bancari és familiar al comptable local. Per a SL amb fluxos predominantment internacionals, el quadre canvia; els noms que es repeteixen a les nostres instal·lacions per a fluxos internacionals són Mercury, Wise, Stripe i Relay, amb l'elecció depenent de la combinació específica de monedes, de les necessitats d'acceptació de pagaments i de la integració amb el sistema comptable. La resposta neta rarament és un sol compte; és més habitualment un compte corporatiu espanyol primari per a operacions locals, emparellat amb un compte internacional secundari per a fluxos transfronterers, ambdós reflectits al mateix tancament mensual.
+<!-- /exentax:lote6-native-v1-quint:sociedad-limitada-espana-costes-ventajas -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Autònom a Espanya vs LLC americana: una comparació que t'ajuda de debò](/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa)
+- [LLC americana com a alternativa a ser autònom a Espanya: quan té sentit](/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya)
+- [Facturar sense ser autònom el 2026: alternatives reals, sense dreceres](/ca/blog/facturar-sense-ser-autonom-espanya-2026-alternatives)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.

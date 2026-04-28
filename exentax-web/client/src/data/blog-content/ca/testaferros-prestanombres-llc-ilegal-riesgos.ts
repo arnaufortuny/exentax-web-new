@@ -110,6 +110,18 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote33-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-ca -->
+## Com llegir la qüestió dels testaferros com una incompatibilitat estructural amb la identificació del beneficiari en lloc d'una discussió de detall
+
+La qüestió dels testaferros es llegeix de manera més útil com una incompatibilitat estructural entre el nom fet visible al vehicle i el beneficiari efectiu, en lloc d'una discussió de detall. L'expectativa regulatòria sobre la identificació del beneficiari és la magnitud estable — no el discurs de màrqueting d'un proveïdor concret.
+<!-- /exentax:lote33-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-ca -->
+
+<!-- exentax:lote33-native-v1-bis:testaferros-prestanombres-llc-ilegal-riesgos-ca -->
+## Per què la nota manté la identificació del beneficiari i no la pàgina de màrqueting
+
+La nota manté la identificació del beneficiari i no una pàgina de màrqueting, perquè l'expectativa regulatòria depèn d'aquesta identificació.
+<!-- /exentax:lote33-native-v1-bis:testaferros-prestanombres-llc-ilegal-riesgos-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -155,6 +167,33 @@ A Exentax estructurem privadesa legítima i BOI amb UBO real.
 ## T'ho muntem sense que perdis un cap de setmana
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
+
+<!-- exentax:lote9-native-v1:testaferros-prestanombres-llc-ilegal-riesgos -->
+## Una observació final
+
+No existeix cap manera prudent de mantenir una construcció amb
+testaferros. Existeix només la manera de desfer-la abans que es
+desfaci sota pressió. Una LLC correctament constituïda amb el
+membre real és més barata i molt més segura que qualsevol
+variant que intenti ocultar la propietat real.
+
+<!-- /exentax:lote9-native-v1:testaferros-prestanombres-llc-ilegal-riesgos -->
+
+<!-- exentax:lote15-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-ca -->
+## Per què les estructures amb testaferro rarament resisteixen una inspecció acurada
+
+Els arranjaments amb testaferro semblen atractius sobre el paper perquè redueixen la petjada visible del veritable propietari, però tendeixen a cedir en qualsevol examen seriós per una raó estructural i no documental. Les administracions fiscals i els bancs en la majoria de les jurisdiccions modernes apliquen un principi de prevalença de la substància sobre la forma, és a dir, miren qui decideix realment, qui rep realment el benefici econòmic i qui suporta realment el risc, independentment del nom que consti als documents de constitució. Quan la resposta a les tres preguntes apunta a una persona i el títol jurídic apunta a una altra, la divergència esdevé el tema mateix, i cada prova posterior (instruccions bancàries, signatures als contractes, correspondència amb proveïdors) acaba reforçant la mateixa imatge.
+
+Els registres de beneficiaris efectius afegeixen una segona capa a la mateixa lògica. No estan dissenyats per atrapar una estructura concreta; estan dissenyats per fer observable de manera rutinària la coherència entre el propietari legal i el propietari econòmic. Allà on hi ha desalineació, l'estructura no és tant detectada com ja visible, i el cost de desmuntar-la esdevé desproporcionat respecte d'allò que pretenia estalviar inicialment.
+<!-- /exentax:lote15-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [Compliment AML per a la teva LLC: el que has de saber](/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber)
+- [BOI Report 2026: guia de la declaració FinCEN Beneficial Ownership](/ca/blog/boi-report-2026-guia-completa-per-a-la-declaracio-fincen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

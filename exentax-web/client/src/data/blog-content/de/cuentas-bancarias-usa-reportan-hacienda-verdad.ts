@@ -110,6 +110,12 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / OECD.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-de -->
+## Wie sich die Frage US-Bank­konten und Meldung an die spanische Finanz­verwaltung als stabile jurisdiktionelle Kartografie statt als wiederkehrende Sorge lesen lässt
+
+Die Frage US-Bank­konten und Meldung an die spanische Finanz­verwaltung liest sich nützlicher als stabile jurisdiktionelle Kartografie zwischen dem Land des Kontos, dem Wohnsitz­land des wirtschaftlich Berechtigten und dem zwischen beiden anwendbaren Rahmen denn als wiederkehrende Sorge. Diese Kartografie ändert sich nicht mit Marketing-Trends, und eine kurze Notiz im persönlichen Ordner mit den drei Achsen macht die Position in wenigen Minuten überprüfbar.
+<!-- /exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -129,6 +135,22 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote21-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-de -->
+## Wie sich die Frage der US-Bank-Berichterstattung als Perimeter-Übung statt als Ja-Nein-Antwort lesen lässt
+
+Die Frage, ob US-Bankkonten an Ihre heimische Steuerbehörde melden, liest sich nützlicher, wenn sie als Perimeter-Übung und nicht als Ja-Nein-Antwort behandelt wird. Die Meldung hängt davon ab, welche Bank, welcher Kontotyp, welcher Wohnsitz des wirtschaftlich Berechtigten und welches Jahr — und jede dieser Dimensionen verengt oder erweitert den Perimeter unabhängig.
+
+Die Frage ohne diesen Perimeter zu lesen, produziert Schlussfolgerungen, die entweder zu beruhigend (Annahme, nichts werde gemeldet) oder zu alarmierend (Annahme, alles werde gemeldet) ausfallen. Eine Perimeter-Sicht ersetzt beide Extreme durch eine kleine Karte, die die erste reale Erklärung übersteht.
+
+## Wie sich die Perimeter-Analyse im tatsächlichen operativen Profil verankern lässt
+
+Die Perimeter-Analyse verankert sich nützlicher im tatsächlichen operativen Profil, wenn jede Dimension mit dem konkreten Wert des Falls gefüllt wird: die konkrete Bank, der konkrete Kontotyp, der konkrete Wohnsitz und das konkrete Jahr. Mit diesen vier Werten hört die Frage auf, eine allgemeine Debatte zu sein, und wird zu einer konkreten Antwort.
+
+## Wie sich das Perimeter-Ergebnis in der LLC-Dokumentation festhalten lässt
+
+Das Perimeter-Ergebnis hält sich dauerhafter in der LLC-Dokumentation in einer kurzen, datierten Notiz fest, die die vier Werte und die daraus folgende Schlussfolgerung auflistet.
+<!-- /exentax:lote21-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -193,6 +215,25 @@ Dieser Abschnitt zerlegt den Mythos "US-Banken melden nichts" und zeichnet den r
 Halten Sie Ihre W-8BEN-E in Einklang mit der realen Struktur, fakturieren und kassieren Sie immer über das LLC-Konto, archivieren Sie Monatsauszüge als PDF, und falls ein 720-Auskunftsersuchen eintrifft, haben Sie fünf Werktage Antwortfrist. Lassen Sie Ihren Fall durch den <strong>Exentax-Steuerrechner</strong> laufen, um die Netto-Kosten einer sauberen Deklaration gegenüber einer Grauzone zu sehen.
 
 Um zu sehen, wie diese Daten mit der 720-Einreichung verschnitten werden, lesen Sie weiter mit <a href="/de/blog/modelo-720-und-modelo-721-leitfaden-fur-in-spanien-ansassige">der Schritt-für-Schritt-Anleitung zum Modelo 720 und 721</a>, und für ein vollständiges Setup-Audit <strong>vereinbaren Sie ein Gespräch mit dem Exentax-Team</strong>.
+
+<!-- exentax:lote10-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad -->
+## Eine kurze Schlussnotiz
+
+Die ehrliche Antwort auf die Frage "werden US-Konten gemeldet?"
+hängt weniger von der Geografie ab als vom konkreten
+Bankpartner, vom Kontotyp und von der Art und Weise, wie die LLC
+strukturiert ist. Sobald diese drei Variablen mit dem Berater
+geklärt sind, verliert die Frage ihr emotionales Gewicht.
+
+<!-- /exentax:lote10-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [DAC8 und Krypto: automatische steuerliche Meldung 2026](/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche)
+- [Wise, IBAN und LLC: was wirklich an die Steuerbehörde gemeldet wird](/de/blog/wise-iban-und-llc-was-wirklich-an-die-steuerbehoerde)
+- [Visa und Mastercard: was Finanzämter aus Ihren Kartenzahlungen sehen](/de/blog/visa-mastercard-reporting-was-die-finanzamter-von)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

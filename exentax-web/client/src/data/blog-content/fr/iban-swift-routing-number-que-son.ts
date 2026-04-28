@@ -115,6 +115,12 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote34-native-v1:iban-swift-routing-number-que-son-fr -->
+## Comment lire IBAN, SWIFT et routing number comme une cartographie d'identifiants stables plutôt que comme des codes interchangeables
+
+IBAN, SWIFT et routing number se lisent plus utilement comme une cartographie d'identifiants stables entre la juridiction du compte, la banque ou le réseau et le compte lui-même, plutôt que comme des codes interchangeables. Cette cartographie ne change pas d'un transfert à l'autre.
+<!-- /exentax:lote34-native-v1:iban-swift-routing-number-que-son-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

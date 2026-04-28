@@ -107,6 +107,20 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote17-native-v1:due-diligence-bancario-llc-americana-de -->
+## Warum die Bank-Due-Diligence einer LLC im Vorfeld vorbereitet wird, nicht während der Eröffnung
+
+Die Bank-Due-Diligence einer LLC wird im Vorfeld der Kontoeröffnung vorbereitet, nicht während. Der Grund ist einfach: in der Eröffnungsphase verfügt das Compliance-Team über ein kurzes Zeitfenster und über eine Standardraster von Kriterien; jedes fehlende Dokument oder jede ungenaue Antwort verlängert den Prozess mechanisch.
+
+In der Praxis lässt sich diese Vorbereitung auf eine kurze Liste reduzieren: ein klar formuliertes Aktivitätsdossier, eine kohärente Eigentümerstruktur, eine offizielle Adresse, die mit den anderen Dokumenten übereinstimmt, und eine Beschreibung der erwarteten Geldflüsse, die in einem einzigen Absatz Platz findet. Diese vier Elemente decken den grössten Teil der Standardfragen ab und reduzieren die Gespräche während der Eröffnung erheblich.
+<!-- /exentax:lote17-native-v1:due-diligence-bancario-llc-americana-de -->
+
+<!-- exentax:lote30-native-v1:due-diligence-bancario-llc-americana-de -->
+## Wie sich die bankseitige Due Diligence auf der LLC als stabile dokumentierte Prozedur statt als unvorhersehbarer Test lesen lässt
+
+Die bankseitige Due Diligence auf der LLC liest sich nützlicher als stabile dokumentierte Prozedur — Identifikation des wirtschaftlich Berechtigten, Mittel­herkunft, Aktivitäts­kontext — denn als unvorhersehbarer Test. Eine kurze, datierte Notiz im Bank­ordner mit den übermittelten Unterlagen macht die Position nachlesbar.
+<!-- /exentax:lote30-native-v1:due-diligence-bancario-llc-americana-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -173,6 +187,38 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
   ### Bankenprüfung aus DACH-Sicht: zusätzliche Anforderungen
 
   Mercury und Relay verlangen bei DACH-Antragstellern systematisch: (a) **Reisepass** (kein Personalausweis), (b) **Wohnsitznachweis** in Deutsch + englischer Übersetzung (JVEG-vereidigter Übersetzer empfohlen), (c) **EIN-Bestätigungsschreiben** (CP 575 oder 147C), (d) bei Beträgen über €15.000 Quartalsumsatz **Geldwäsche-Sorgfalt nach §10 GwG** mit Source-of-Funds-Nachweis. Die FDIC-Versicherung von USD 250.000 pro Bank und pro Kategorie schützt das Guthaben (12 CFR §330) — wichtiger Unterschied zur deutschen Einlagensicherung von €100.000 pro Bank nach §8 EinSiG.
+
+<!-- exentax:lote10-native-v1:due-diligence-bancario-llc-americana -->
+## Wie die Bank-Due-Diligence ruhig durchläuft
+
+Die bankseitige Due-Diligence wirkt von aussen oft wie ein
+strenger Filter, ist aber im Kern eine gut definierte Übung. Die
+Bank prüft drei Dinge: ob die LLC eine reale wirtschaftliche
+Aktivität ausübt, ob das wirtschaftlich berechtigte Mitglied
+korrekt identifiziert ist und ob die Geldflüsse zur erklärten
+Tätigkeit passen.
+
+Eine LLC, die diese drei Punkte mit klar formulierten Antworten
+und vollständigen Unterlagen vorbereitet, durchläuft den Prozess
+ohne unnötige Reibung. Eine LLC, die improvisiert oder Antworten
+nachreicht, verlängert den Prozess unnötig — selten endet er in
+einer Ablehnung, aber häufig in einem mehrwöchigen Wartespiel.
+
+<!-- /exentax:lote10-native-v1:due-diligence-bancario-llc-americana -->
+
+<!-- exentax:lote17-native-v1:due-diligence-bancario-llc-americana-de-bis -->
+## Wie sich die vier Vorbereitungselemente in einem einzigen Ordner bündeln lassen
+
+Die vier genannten Vorbereitungselemente lassen sich praktisch in einem einzigen Ordner mit vier benannten Unterordnern bündeln. Diese Struktur erleichtert nicht nur die Eröffnung, sondern auch jede spätere Aktualisierung über die Jahre.
+<!-- /exentax:lote17-native-v1:due-diligence-bancario-llc-americana-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Mercury-Konto für Ihre LLC eröffnen, aus jedem Land](/de/blog/mercury-konto-fur-ihre-llc-eroffnen-aus-jedem-land)
+- [Anti-Geldwäsche-Compliance für Ihre LLC: Was Sie wissen müssen](/de/blog/anti-geldwasche-compliance-fur-ihre-llc-was-sie-wissen)
+- [BOI Report 2026: Leitfaden zur FinCEN Beneficial Ownership Meldung](/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.

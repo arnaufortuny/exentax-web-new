@@ -84,6 +84,20 @@ Per tancar, lectures relacionades que encaixen al costat d'aquest article: <a hr
 
 A Exentax ens encarreguem que la teva estructura fiscal sigui la correcta per al teu tipus de clients. Si estàs fins a dalt de models trimestrals i vols simplificar la teva vida, agenda una assessoria gratuïta. T'expliquem com la LLC pot eliminar el 90% de la teva burocràcia fiscal.
 
+<!-- exentax:lote17-native-v1:iva-servicios-digitales-internacional-ca -->
+## Per què l'IVA sobre serveis digitals es tracta per perfils en lloc de casos aïllats
+
+L'IVA sobre serveis digitals internacionals es tracta més eficientment per perfils de clientela que per operacions aïllades. La raó és pràctica: cada perfil (consumidor final a la UE, empresa fora de la UE, plataforma exercint el rol de proveïdor presumit) desencadena una lògica de facturació i declaració diferent, i intentar raonar operació per operació condueix ràpidament a contradiccions internes en els registres.
+
+L'enfocament més estable consisteix a classificar la clientela ja en el registre dins el sistema de facturació, documentar el motiu de la classificació i autoritzar només un nombre limitat de perfils. Aquesta disciplina redueix les excepcions i simplifica les conciliacions al final de cada període.
+<!-- /exentax:lote17-native-v1:iva-servicios-digitales-internacional-ca -->
+
+<!-- exentax:lote35-native-v1:iva-servicios-digitales-internacional-ca -->
+## Com llegir l'IVA sobre serveis digitals internacionals com un mapatge estable en lloc d'un debat factura a factura
+
+L'IVA sobre serveis digitals internacionals es llegeix de manera més útil com un mapatge estable entre el país del prestador, l'estatut del client (empresa registrada en IVA o consumidor final) i el país de consum, en lloc d'un debat factura a factura.
+<!-- /exentax:lote35-native-v1:iva-servicios-digitales-internacional-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -133,6 +147,30 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
   ### IVA sobre serveis digitals B2C: règim espanyol OSS i Andorra IGI
 
   Per a prestadors espanyols de serveis digitals B2C a la UE, s'aplica des de **01/07/2021** el règim del **One-Stop-Shop** segons l'**art. 70 LIVA** modificat pel **RD-Llei 7/2021** (transposició Directiva 2017/2455). Llindar **€10.000/any**. Inscripció via **Modelo 035**, declaració trimestral **Modelo 369** a la AEAT. Conservació documents **6 anys** (art. 30 Codi de Comerç). A **Andorra**, el règim equivalent és l'**IGI (Llei 11/2012)** amb tipus general 4,5 % i regla de localització B2C al destí (art. 41 LIGI).
+
+<!-- exentax:lote9-native-v1:iva-servicios-digitales-internacional -->
+## Una nota final
+
+L'IVA dels serveis digitals esdevé més clar quan se separa amb
+rigor el país del client B2B del país del client B2C. Aquesta
+distinció simple resol la majoria dels dubtes que semblen, de
+lluny, irresolubles.
+
+<!-- /exentax:lote9-native-v1:iva-servicios-digitales-internacional -->
+
+<!-- exentax:lote17-native-v1:iva-servicios-digitales-internacional-ca-bis -->
+## Com mantenir la llista de perfils en una sola pàgina
+
+La llista de perfils es manté bé en una sola pàgina, amb tres o quatre perfils, cadascun il·lustrat per un cas d'ús curt que serveix de referència en classificar una nova clientela.
+<!-- /exentax:lote17-native-v1:iva-servicios-digitales-internacional-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [DAC7: el nou reporting de plataformes digitals el 2026](/ca/blog/dac7-el-nou-reporting-de-plataformes-digitals-el-2026)
+- [Tributació de la LLC per activitat: serveis, e-commerce, SaaS, trading](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

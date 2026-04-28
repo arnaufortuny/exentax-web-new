@@ -218,6 +218,18 @@ Separar els teus diners personals dels diners de la teva LLC no és un detall ad
 
 La bona notícia és que implementar aquesta separació és senzill si ho fas des del principi. Un compte bancari dedicat, un sistema de comptabilitat bàsic i disciplina en les teves distribucions és tot el que necessites.
 
+<!-- exentax:lote31-native-v1:separar-dinero-personal-llc-por-que-importa-ca -->
+## Com llegir la separació entre diners personals i diners de la LLC com un mapatge estable en lloc d'una regla puntual
+
+La separació entre diners personals i diners de la LLC es llegeix de manera més útil com un mapatge estable entre el compte de la LLC, el compte personal del beneficiari i els moviments datats entre els dos, en lloc d'una regla puntual. Aquest mapatge no canvia de mes en mes, i una nota curta i datada al dossier de la LLC amb la data de tall i el saldo de tancament de cada banda fa la separació defensable en pocs minuts en una conversa amb un banc o un assessor.
+<!-- /exentax:lote31-native-v1:separar-dinero-personal-llc-por-que-importa-ca -->
+
+<!-- exentax:lote31-native-v1-bis:separar-dinero-personal-llc-por-que-importa-ca -->
+## Per què la nota es refereix a la data de tall i no a cada moviment individual
+
+La nota es refereix a la data de tall i al saldo de tancament de cada banda, i no a cada moviment individual — la magnitud rellevant per a una verificació posterior és el saldo a les dates de referència, no l'historial complet.
+<!-- /exentax:lote31-native-v1-bis:separar-dinero-personal-llc-por-que-importa-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -250,6 +262,14 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
 
+<!-- exentax:lote16-native-v1:separar-dinero-personal-llc-por-que-importa-ca -->
+## Per què la separació entre patrimoni personal i patrimoni de la LLC és més important del que sembla
+
+La separació entre el patrimoni personal i el patrimoni de la LLC no és només una qüestió d'ordre comptable; és la peça que sosté la pròpia limitació de responsabilitat. Quan un compte s'utilitza indistintament per a despeses personals i operatives, l'argument que la societat és una entitat separada del membre es debilita justament en el moment en què més cal recolzar-s'hi: un litigi amb un proveïdor, una qüestió del banc o un examen de l'administració fiscal.
+
+La disciplina que resol aquest punt no és espectacular i no exigeix eines sofisticades. Es basa en tres hàbits simples: una targeta assignada exclusivament a la LLC, transferències identificades al membre quan es tracten de distribucions, i comptabilitat que reflecteix cada moviment amb la seva contrapartida. Aquests tres hàbits costen poc esforç un cop instal·lats i produeixen, al llarg del temps, l'únic resultat que realment compta: un fitxer que es llegeix sense ambigüitat quan algú de fora el ve a consultar.
+<!-- /exentax:lote16-native-v1:separar-dinero-personal-llc-por-que-importa-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
@@ -260,7 +280,21 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
-- **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.<!-- exentax:execution-v2 -->
+- **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
+
+## Com organitzar la separació a la pràctica
+
+La separació es torna senzilla quan la configuració la fa òbvia. Recomanem: una targeta dedicada de la LLC per a qualsevol despesa professional, una categoria de reemborsaments per a les compres ocasionals fetes amb la targeta personal i un protocol mensual de reemborsament documentat amb una transferència entre comptes. Els retirs del soci es tracten com a *owner draws* amb un concepte clar a l'extracte. Així, a final de mes, la conciliació de Mercury o Wise dura minuts i el 5472 reflecteix una realitat controlada.
+
+### Tres rutines que mantenen l'any estable
+
+Cada dilluns, cinc minuts al Mercury per marcar moviments que cal aclarir i passar-los a comptabilitat. El primer dia hàbil del mes, descarregar extractes, conciliar targetes, regularitzar reemborsaments i actualitzar el 5472-worksheet. Cada trimestre, mirada al contracte del Registered Agent, als camps BOI rellevants (adreça, passaport, nous beneficial owners) i al KYC del Mercury.
+
+### Preguntes habituals als nostres acompanyaments
+
+**Què faig si he barrejat moviments aquest any?** Es fixa una data de tall, tot el que precedeix es reclassifica com a owner draws i a partir d'aquí s'inicia la rutina neta. **Cal eina especialitzada des del primer dia?** No: fins a uns 150 000 USD anuals, un full de càlcul ben portat amb l'export de Mercury és suficient. **Què canvia si visc fora de la UE?** Res en la separació; sí en la declaració del compte al país de residència, segons les regles CRS aplicables.
+
+<!-- exentax:execution-v2 -->
 ## Separar diners personals i de la LLC: per què importa més del que creus
 
 Barrejar els diners personals amb els de la LLC és l'error operatiu més comú i, paradoxalment, el més car a llarg termini.
@@ -300,6 +334,14 @@ Apunt concret dels nostres expedients: així passa de debò, no com ho descriu u
 ### Revolut Business: operativa multi-divisa
 
 Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Constituir la teva LLC americana pas a pas: la guia completa](/ca/blog/com-constituir-una-llc-americana-pas-a-pas-guia-completa)
+- [Errors crítics si ja tens una LLC: el que ningú t'ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [Gestionar la teva LLC dia a dia: guia pràctica per a no-residents](/ca/blog/com-gestionar-la-teva-llc-dia-a-dia-guia-practica-per-a-no)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

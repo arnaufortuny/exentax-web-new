@@ -107,6 +107,22 @@ Para verificar a sua LLC em qualquer plataforma de pagamento precisa de:
 
 O processo de verificação costuma demorar 1-5 dias úteis. Na Exentax coordenamos toda a configuração para que não tenha de lidar com formulários de verificação em inglês nem carregar documentos um por um. decide que plataformas precisa, nós deixamo-las prontas.
 
+<!-- exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-pt -->
+## Porque é que a escolha de um gateway de pagamento se faz pelo perfil de pagamento e não pela marca
+
+Escolher um gateway de pagamento para uma LLC faz-se mais eficientemente a partir do perfil concreto dos pagamentos (moedas dominantes, meios de pagamento esperados, taxa de reembolso, geografia da clientela) do que a partir da marca em si. O Stripe cobre bem um caso de uso centrado em cartões internacionais com integração técnica padronizada; outros gateways cobrem melhor casos mais específicos.
+
+Esta lógica tem uma consequência prática: vale frequentemente mais a pena ativar um gateway principal alinhado com o perfil dominante e manter um gateway secundário pronto para os casos particulares, em vez de tentar fazer passar tudo por um único.
+<!-- /exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-pt -->
+
+<!-- exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-pt -->
+## Como ler a escolha da gateway de pagamento da LLC como um mapeamento estável entre atividade, país do cliente e fluxo de conciliação
+
+A escolha da gateway de pagamento da LLC lê-se de forma mais útil como um mapeamento estável entre o tipo de atividade, o país do cliente e o fluxo de conciliação com a conta bancária da LLC, em vez de uma comparação feature a feature. O que muda de um fornecedor para outro é essencialmente a superfície de integração e os mercados suportados — e essas propriedades não se alteram de semana para semana.
+
+Uma nota curta no ficheiro da LLC que registe qual gateway é usada para que tipo de cliente, e como o settlement chega à conta bancária da LLC, transforma esse mapeamento em algo que o membro pode reler a qualquer momento, sem o reconstruir de memória.
+<!-- /exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -160,6 +176,23 @@ As comparações e dados quantitativos sobre as jurisdições citadas baseiam-se
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilar Dois (GloBE) e Modelo de Convenção OCDE com Comentários.
 
 A escolha de jurisdição depende sempre da residência fiscal real do titular e da substância económica da atividade; analise o seu caso específico antes de qualquer decisão estrutural.
+
+<!-- exentax:lote9-native-v1:pasarelas-pago-llc-stripe-paypal-dodo -->
+## Como escolher a passarela certa
+
+A escolha da passarela depende menos da marca e mais do perfil
+real da LLC: país dos clientes, tipo de produto, volume mensal e
+tolerância ao atraso do payout. Uma passarela mal alinhada cria
+fricções invisíveis que acabam por custar mais do que a diferença
+de comissão.
+
+Na prática, recomendamos decidir a passarela em conjunto com o
+consultor e com o stack bancário da LLC (Mercury, Wise e
+eventualmente Relay) já desenhado. Assim evita-se que uma
+passarela adicionada mais tarde desorganize a arquitectura
+original do dia-a-dia operacional.
+
+<!-- /exentax:lote9-native-v1:pasarelas-pago-llc-stripe-paypal-dodo -->
 
 <!-- exentax:cross-refs-v1 -->
 ### Leituras adicionais

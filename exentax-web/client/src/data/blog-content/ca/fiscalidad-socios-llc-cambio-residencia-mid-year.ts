@@ -102,6 +102,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
 
+<!-- exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-ca -->
+## Com llegir un canvi de residència a meitat d'any per part d'un soci de la LLC com un mapatge temporal estable
+
+Un canvi de residència a meitat d'any per part d'un soci de la LLC es llegeix de manera més útil com un mapatge temporal estable. Una nota curta i datada al dossier personal fa la posició consultable.
+<!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -170,6 +176,20 @@ Aquest article s'actualitza anualment amb els canvis normatius que afecten les e
   **Exit tax — art. 95 bis LIRPF:** introduït per la **Llei 26/2014**, grava les plusvàlues latents en accions/participacions de societats (inclou LLCs assimilades a societats segons la **DGT V0290-20**) quan el contribuent canvia de residència després d'haver estat resident a Espanya durant **almenys 10 dels 15 darrers exercicis**. El llindar de subjecció és que el valor de mercat de les participacions superi els **4 milions d'euros** o el percentatge de participació superi el **25 %** amb valor superior a **1 milió d'euros**. Possibilitat de **diferiment** automàtic per a desplaçaments a Estats UE/EEE amb intercanvi d'informació; per a EUA, cal sol·licitud expressa amb **garantia** (art. 95 bis.5 LIRPF).
 
   **Andorra — quadre paral·lel:** la **Llei 5/2014 de l'IRPF andorrà** (modificada per la **Llei 6/2018**) estableix la residència fiscal segons criteris similars (183 dies o nucli d'interessos econòmics). El **CDI Andorra-Espanya (BOE 07/12/2015)** regula el conflicte de resident i preveu el mètode d'imputació amb integració del **Quartiat Convengut** sobre rendiments de capital. El nou **règim fiscal del Principat per a estrangers d'alt valor afegit** (Llei 12/2024) ofereix tipus reduït del **5 %** sobre la base general durant 5 anys per a residents nous amb activitats qualificades. **Conservació de documents 6 anys** (art. 32 Codi Comerç andorrà i art. 35 Llei general tributària andorrana).
+
+<!-- exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-ca -->
+## Per què un canvi de residència a mitjan any genera més fricció que un canvi al final d'any
+
+Un canvi de residència a mitjan any produeix més fricció administrativa que un canvi alineat amb la frontera de l'any natural, i la raó és mecànica i no conceptual. Cada país espera rebre una imatge coherent d'allò que era imputable al membre de la LLC mentre aquest n'era resident fiscal, i com més a prop de la frontera anual sigui el canvi, més fàcil és muntar aquestes dues imatges de manera independent. Quan el canvi passa a meitat d'any, les mateixes partides de renda s'han de repartir, el moment de les distribucions s'ha d'examinar, i les regles de desempat del conveni poden haver d'aplicar-se als dies intermedis. Cap d'aquests passos no és, per si sol, inusual. El que marca la diferència és preparar la documentació amb antelació: una fotografia anterior a la sortida, un saldo d'obertura clar després de l'arribada i un registre escrit del dia utilitzat com a data de tall. Amb aquestes tres peces a la mà, les dues declaracions es poden presentar sense haver de reconstruir l'any després.
+<!-- /exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [Exit Tax a Espanya: impost de sortida per a cripto, LLC i brokers](/ca/blog/exit-tax-espanya-llc-cripto-interactive-brokers)
+- [Conveni de doble imposició USA-Espanya aplicat a LLCs: guia pràctica](/ca/blog/conveni-de-doble-imposicio-usa-espanya-per-a-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

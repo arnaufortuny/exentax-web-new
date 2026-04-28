@@ -136,6 +136,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
 
+<!-- exentax:lote31-native-v1:estructura-fiscal-optima-freelancer-internacional-ca -->
+## Com llegir l'estructura òptima del freelancer internacional com un mapatge estable en lloc d'una elecció de moda
+
+L'estructura òptima del freelancer internacional es llegeix com un mapatge estable entre residència, creació de valor i clients.
+<!-- /exentax:lote31-native-v1:estructura-fiscal-optima-freelancer-internacional-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -175,6 +181,14 @@ A Exentax fem el diagnòstic amb els teus números reals, descartem les estructu
 ## Com treballem a Exentax
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Fiscalitat internacional per a emprenedors digitals: guia completa](/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

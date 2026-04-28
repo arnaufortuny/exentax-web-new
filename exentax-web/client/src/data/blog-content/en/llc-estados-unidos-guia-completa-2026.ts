@@ -180,6 +180,12 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
+<!-- exentax:lote30-native-v1:llc-estados-unidos-guia-completa-2026-en -->
+## How to read the US LLC as a stable structural choice rather than as a marketing pitch
+
+The US LLC reads more usefully when it's treated as a stable structural choice between the recurring obligations of the vehicle (Form 5472, BOI, Registered Agent renewal) and the recurring benefits (legal separation, US payment infrastructure, simple structure for digital activities), than as a marketing pitch. Both sides of the choice are stable: they don't change with the result of the year, and a short dated note in the LLC folder with both sides keeps the trade-off reviewable in a few minutes whenever a tax adviser asks.
+<!-- /exentax:lote30-native-v1:llc-estados-unidos-guia-completa-2026-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -211,6 +217,14 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote18-native-v1:llc-estados-unidos-guia-completa-2026-en -->
+## Why a complete LLC guide reads better as a roadmap than as a single procedure
+
+A complete guide to operating a US LLC reads better as a roadmap with named stages than as a single end-to-end procedure. The reason is practical: a roadmap allows the reader to enter at the stage that matches the current situation rather than starting from the beginning every time. Stage one covers formation choices that are mostly irreversible. Stage two covers the operational setup that runs every year. Stage three covers the maintenance that keeps the structure consistent over time.
+
+Reading the guide as a roadmap also reduces the temptation to treat every section as urgent. Most readers only need a small portion of the content at any given moment, and the roadmap helps locate that portion without scanning the entire document each time.
+<!-- /exentax:lote18-native-v1:llc-estados-unidos-guia-completa-2026-en -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
@@ -271,6 +285,20 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote18-native-v1:llc-estados-unidos-guia-completa-2026-en-bis -->
+## How to use the roadmap as a working reference rather than a one-time read
+
+To use the roadmap as a working reference rather than a one-time read, it helps to keep a personal index that maps each section of the guide to the corresponding folder in the LLC documentation. This small index turns the roadmap into a navigation aid that returns useful in any later moment.
+<!-- /exentax:lote18-native-v1:llc-estados-unidos-guia-completa-2026-en-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Operating Agreement: what it is and why your LLC needs one](/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one)
+- [Why open a US LLC in 2026: the 5 pillars of the American advantage](/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american)
+- [Annual LLC maintenance: obligations you cannot ignore](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Formation, EIN, BOI, banking and ongoing maintenance — one team that understands your case end to end. <a href="/en/services">Explore all services</a>.

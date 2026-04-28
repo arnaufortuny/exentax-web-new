@@ -142,6 +142,86 @@ Thousands of freelancers and entrepreneurs already operate their US LLC fully le
   At Exentax we cover those five fronts every year alongside the US federal calendar (Form 5472, pro-forma 1120, FBAR, state Annual Report and BOI Report when applicable). The goal is that no inquiry finds a loose end and that the structure withstands a 5-to-7-year retroactive review.
 <!-- /exentax:defensa-fiscal-v1 -->
 
+<!-- exentax:lote7-native-v1:dac8-criptomonedas-reporting-fiscal-2026 -->
+## What DAC8 actually changes for crypto holders inside the EU
+
+DAC8 extends the EU's automatic exchange of information regime to
+crypto-asset service providers. From the holder's perspective, the
+practical change is that the same kinds of summaries already exchanged
+for bank accounts (CRS) are now produced by reporting crypto
+platforms about their EU-resident users. The platforms identify
+their users, classify the assets, and once a year send a defined
+record to the user's tax administration.
+
+| Field reported under DAC8 (typical)      | What the tax administration sees       |
+|------------------------------------------|----------------------------------------|
+| User identity                            | Name, residence, tax ID                |
+| Aggregate gross proceeds                 | Annual sum, by asset where applicable  |
+| Aggregate gross acquisitions             | Annual sum, by asset where applicable  |
+| End-of-year holdings                     | Snapshot, where the platform retains   |
+|                                          | custody                                |
+
+This means the matching of platform-reported aggregates with the
+holder's annual declaration becomes the baseline of any DAC8-era
+crypto compliance plan. If the two reconcile, the report is again a
+non-event.
+
+## Three real reconciliation patterns
+
+A holder who used a single regulated EU platform for spot trading
+ran a clean year because the platform's annual report mirrored the
+trade history exported each January, which fed straight into the
+home-country declaration. The DAC8 record arrived as expected and
+matched.
+
+A user with a mix of EU-licensed and non-EU platforms produced one
+master ledger that consolidated all venues, then mapped each line
+to its source. The DAC8-reported part was a slice of the master;
+the rest was self-declared with the same rigour. The home tax
+administration saw a single coherent number.
+
+A long-term holder with custody on a regulated EU platform and a
+small DeFi tail kept the DeFi tail as a separately documented
+section. DAC8 captured the regulated portion; the DeFi section had
+its own paperwork (wallet addresses, transaction proofs, fair
+valuation methodology) ready to present if asked.
+
+## Mistakes to avoid in the new regime
+
+- Ignoring the platform's user data update request. If your tax
+  residence on the platform is stale, the report will go to the
+  wrong country.
+- Treating "platform reports it" as "I do not need to declare it".
+  The reverse is true: declare it, and let the platform report
+  match.
+- Mixing personal and LLC-held crypto. Crypto held by the LLC sits
+  in a different reporting silo than personal crypto; mixing them
+  causes painful reconciliations.
+- Disregarding cost basis. DAC8 reports gross flows; the home-
+  country declaration needs the basis to compute the taxable result.
+
+## Annual reconciliation checklist
+
+- Refresh user data on every platform in January.
+- Pull annual reports as soon as they become available.
+- Reconcile platform totals to your master ledger by asset.
+- Confirm cost-basis methodology is consistent year-on-year.
+- Keep proofs for any non-DAC8 holdings (wallets, validators, etc.).
+
+We treat DAC8 as a structural simplifier, not a complication. Once
+the routine is in place, the year-end work shrinks rather than
+grows.
+
+<!-- /exentax:lote7-native-v1:dac8-criptomonedas-reporting-fiscal-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [CRS and your US LLC bank accounts: what is shared with your home country](/en/blog/crs-and-your-us-llc-bank-accounts-what-gets-shared-with-your)
+- [CRS 2.0 and CARF: why the US won't sign, and what that means for LLCs](/en/blog/crs-2-0-carf-why-the-us-will-never-sign-llc-impact)
+- [Revolut Business and CRS: what actually gets reported to your tax office](/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->

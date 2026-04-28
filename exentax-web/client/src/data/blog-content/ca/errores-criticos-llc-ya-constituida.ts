@@ -145,6 +145,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote34-native-v1:errores-criticos-llc-ya-constituida-ca -->
+## Com llegir els errors crítics post-constitució d'una LLC com una checklist de revisió a 12 mesos en lloc d'incidents aïllats
+
+Els errors crítics post-constitució d'una LLC es llegeixen de manera més útil com una checklist de revisió a 12 mesos — adreça del registered agent encara vàlida, dades del beneficiari actualitzades, comptabilitat tancada per trimestre, registres federals i estatals seguits — en lloc d'incidents aïllats. La checklist no canvia d'un any a l'altre, només els punts a tractar es mouen.
+<!-- /exentax:lote34-native-v1:errores-criticos-llc-ya-constituida-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -176,6 +182,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-ca -->
+## Per què els errors crítics en una LLC ja constituïda solen ser corregibles quan es detecten aviat
+
+L'expressió "error crític" sona dramàtica, però en el context d'una LLC ja operativa descriu normalment situacions que continuen sent corregibles quan es detecten aviat i es tracten en l'ordre correcte.
+<!-- /exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -231,6 +243,14 @@ Més del 70% de les LLCs que ens arriben per revisió tenen el mateix perfil: be
 
 Si la teva LLC té buits i vols el cost real de tancar-los, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Problemes comuns d'una LLC i com evitar-los: lliçons de casos reals](/ca/blog/problemes-comuns-llc-i-com-evitar-los-llicons-de-clients)
+- [Tinc una LLC als EUA, la gestiono correctament? Checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real)
+- [Separar diners personals i de la LLC: per què és important](/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

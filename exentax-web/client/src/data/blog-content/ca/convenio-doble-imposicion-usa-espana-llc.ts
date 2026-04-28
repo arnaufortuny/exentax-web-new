@@ -146,6 +146,14 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
+<!-- exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-ca -->
+## Com llegir el conveni de doble imposició Espanya-EUA com un mapatge estable entre residència i font en lloc d'una drecera genèrica
+
+El conveni de doble imposició Espanya-EUA es llegeix de manera més útil com un mapatge estable entre el país de residència fiscal del beneficiari i el país de la font de cada tipus de renda, en lloc d'una drecera genèrica per "no pagar dues vegades". El conveni no substitueix les regles de residència de cada país: organitza una manera de coordinació, tipus de renda a tipus de renda.
+
+Una nota curta i datada al dossier personal, que registri el país de residència declarat per a l'any, els tipus de renda rebuts i la banda on cadascun va ser gravat primer, fa la posició consultable en pocs minuts en una conversa amb un assessor fiscal, sense haver de reconstruir l'any de memòria.
+<!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -186,6 +194,28 @@ La nostra posició aquí és deliberadament conservadora: optimitzem allò que s
 
 Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.
 
+
+
+## Article 7 (beneficis empresarials) en llenguatge clar
+
+L'article 7 del tractat USA-Espanya és la peça central per a la majoria de LLCs americanes en mans de residents fiscals a Espanya. La lògica: els beneficis d'una empresa només són imposables a l'Estat de residència de l'empresa, llevat que aquesta exerceixi la seva activitat a l'altre Estat a través d'un *establiment permanent*.
+
+Per a una LLC disregarded entity sense oficina, sense personal i sense agent permanent als EUA, la lectura habitual és: sense establiment permanent nord-americà, sense impost federal sobre els beneficis operatius. La transparència fiscal fa pujar els ingressos al soci, que els declara al país de residència — Espanya — al Modelo 100 en la categoria adequada (la majoria de vegades, rendiments d'activitats econòmiques).
+
+Tres paranys mereixen atenció acurada. Primer: llogar un coworking fix als EUA o tenir personal en sòl americà crea establiment permanent i canvia tot l'equilibri. Segon: revendre productes físics amb magatzem als EUA pot, segons el volum i l'estructura, desplaçar l'anàlisi cap a activitat comercial subjecta a impost federal. Tercer: absència d'impost federal no és absència d'obligacions declaratives — el 5472 i el 1120 pro-forma segueixen sent deguts cada any.
+
+## Si l'AEAT et pregunta per la LLC
+
+Passa més sovint del que sembla, gairebé sempre després de la presentació del Modelo 100 o del Modelo 720. La petició és legítima: l'AEAT vol comprendre la naturalesa de l'entitat, l'origen dels ingressos i la coherència amb el que s'ha declarat. Tres documents fan la diferència quan arriba la carta.
+
+**L'expedient d'entitat.** Operating Agreement signat, certificat EIN (CP-575 o 147C), comprovant de l'Estat de constitució, contracte amb el Registered Agent, primera presentació BOI. Aquest expedient prova l'existència i la regularitat de la LLC; és el primer que es demana.
+
+**El rastre bancari i operatiu.** Extractes Mercury i Wise dels darrers 24 mesos, factures emeses a nom de la LLC, contractes de clients rellevants, còpies dels Form 5472 presentats. Aquest rastre prova que la LLC opera de debò i que els ingressos declarats a Espanya corresponen a fluxos documentats.
+
+**La lectura del conveni.** Una nota d'una o dues pàgines que explica la posició de l'entitat a la llum de l'article 7 (sense establiment permanent als EUA, transparència fiscal, tributació a Espanya). Aquesta nota es prepara *abans* de la carta de l'AEAT, dins l'organització anual normal, i s'actualitza en cas de canvi estructural.
+
+El nostre equip coordina aquest expedient amb el teu assessor fiscal espanyol i el manté sempre llest. Una resposta organitzada i completa a l'AEAT en dues setmanes val més que una resposta improvisada en dos mesos; és l'estàndard que mantenim amb cada client que acompanyem a l'any.
+
 <!-- exentax:execution-v2 -->
 ## Com s'aplica el conveni EUA-Espanya a la teva LLC, clàusula a clàusula
 
@@ -208,6 +238,23 @@ A Exentax mapegem cada flux de la teva LLC contra l'article aplicable del conven
 ## Declaració a Espanya: Model 100
 
 La nostra posició aquí és deliberadament conservadora: optimitzem allò que sobreviu a una inspecció, no la xifra més agressiva. Els punts següents són els que estem disposats a defensar per escrit.
+
+
+<!-- exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-ca -->
+## Com el conveni EUA–Espanya s'aplica en la pràctica a una LLC d'un sol membre
+
+El conveni entre Espanya i els Estats Units actua a nivell de persones, no a nivell de vehicles transparents. Una LLC d'un sol membre tractada com a disregarded entity a efectes fiscals nord-americans és, en general, mirada a través, i les preguntes rellevants es plantegen a nivell de la persona física que n'és membre. Quan aquesta persona és resident fiscal a Espanya, Espanya tributa, segons les seves pròpies normes, la renda mundial imputada a través de la LLC, i el conveni reparteix els drets de tributació entre els dos països categoria a categoria.
+
+A la pràctica, tres articles fan el gruix del treball en un any tranquil: l'article de residència, que determina quin país té els drets primaris quan tots dos els podrien reclamar; l'article sobre beneficis empresarials, que en general exigeix un establiment permanent a l'altre Estat abans que aquest pugui tributar els beneficis operatius; i l'article d'eliminació de la doble imposició, que fixa l'ordre en què s'apliquen els crèdits. Cap d'aquests articles no produeix per si sol un resultat automàtic. Són eines que exigeixen documentació consistent: certificats de residència, comptabilitat alineada amb l'any natural utilitzat a cada país, i registre clar del lloc on l'activitat econòmica efectivament va tenir lloc. Un fitxer de treball amb aquestes tres peces, actualitzat un cop l'any, elimina la major part de la fricció que el conveni pretén eliminar.
+<!-- /exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Tributació pass-through per a LLC: com funciona i per què importa](/ca/blog/tributacio-pass-through-per-a-llc-com-funciona-i-per-que)
+- [Exit tax Espanya amb LLC, cripto i Interactive Brokers](/ca/blog/exit-tax-espanya-llc-cripto-interactive-brokers)
+- [Tributació de la LLC per activitat: serveis, ecommerce, SaaS, royalties, trading](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

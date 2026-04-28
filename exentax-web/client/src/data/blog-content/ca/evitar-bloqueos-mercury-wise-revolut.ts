@@ -67,6 +67,12 @@ Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <
 - **Wise Business** és una EMI (Institució de Diner Electrònic), no un banc. No té assegurança de dipòsits com un banc tradicional, però els fons de clients estan segregats. Utilitza'l per a conversions i transferències, no com a tresoreria principal.
 - **Relay** utilitza Thread Bank com a banc subjacent. Bona opció com a compte de respatller amb fins a 20 subcomptes gratuïts.
 
+<!-- exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-ca -->
+## Com llegir l'estabilitat del compte a Mercury i a Wise com un procediment documentat en lloc d'una qüestió de sort
+
+L'estabilitat del compte a Mercury i a Wise es llegeix de manera més útil com un procediment documentat — identificació del beneficiari mantinguda actualitzada, origen dels fons documentat, context de l'activitat actualitzat quan evoluciona — en lloc d'una qüestió de sort.
+<!-- /exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -115,6 +121,20 @@ A Exentax deixem la cascada muntada des del dia u (Mercury + Relay + Wise), amb 
 ## Com treballem a Exentax
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
+
+<!-- exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-ca -->
+## Una rutina curta que manté Mercury i Wise tranquils
+
+Les dues palanques pràctiques que mantenen l'operació fluida a Mercury i Wise són la previsibilitat i la traçabilitat. Previsibilitat vol dir que el perfil de volum, la geografia de les contraparts i el tipus de fluxos d'entrada semblen raonablement constants d'un trimestre a un altre. Traçabilitat vol dir que, per a qualsevol transferència rebuda, es pot presentar una factura o contracte en pocs minuts. Amb aquests dos hàbits al lloc, la majoria de revisions acaben abans fins i tot de començar.
+<!-- /exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Com obrir un compte Mercury per a la teva LLC des de qualsevol país](/ca/blog/com-obrir-un-compte-mercury-per-a-la-teva-llc-des-de)
+- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Reorganitzar la banca de la teva LLC: quan combinar Mercury, Relay i Wise](/ca/blog/reorganitzar-la-banca-de-la-teva-llc-quan-combinar-mercury)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

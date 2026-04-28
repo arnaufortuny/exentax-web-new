@@ -164,6 +164,14 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Structure fiscale optimale pour freelances internationaux : cadre complet](/fr/blog/structure-fiscale-optimale-pour-les-freelancers)
+- [Fiscalité LLC par pays de résidence : ce que vous payez où vous vivez](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Depuis%20la%20France%2C%20la%20fiscalit%C3%A9%20internationale%20de%20l'entrepreneur%20digital%20ne%20se%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

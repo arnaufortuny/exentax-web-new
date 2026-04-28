@@ -114,6 +114,38 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
+
+
+## Cas 4: cartera mixta (accions IBKR + participació en la LLC + cripto)
+
+És el perfil més freqüent a la nostra pràctica catalana: una freelance que ha construït una activitat estable via LLC americana, ha acumulat posicions a IBKR durant anys i ha afegit una assignació cripto fora de la LLC. Quan el trasllat a Andorra, Portugal o un destí fora de la UE es torna seriós, tres capes d'exit tax mereixen cadascuna la seva lectura pròpia.
+
+Les posicions IBKR són actius financers personals i activen l'article 95 bis quan s'arriben als llindars globals. La participació a la LLC es valora a la data del canvi de residència com a participació en una entitat estrangera; en disregarded entity es mira «a través» de la closca per determinar el valor just, cosa que sovint sorprèn els clients que només comptaven amb la liquiditat del Mercury. La cripto personal s'alinea amb la capa IBKR al mateix càlcul, mentre que la cripto que té la LLC es queda al balanç de la LLC i només apareix via el valor de la participació. El cas mixt rarament activa la totalitat de l'exit tax perquè la valoració de la participació pot ser inferior a la suma dels actius personals, però sempre mereix una fotografia documentada preparada tres mesos abans de la partida.
+
+## Errors típics que ajudem a evitar
+
+**Error 1: confondre cripto personal amb cripto de la LLC.** Segueixen camins diferents al càlcul de l'exit tax. La cripto personal entra directament a l'article 95 bis; la cripto de la LLC entra via valoració de la participació. Una separació neta des del primer dia, al Mercury o Kraken, evita ambigüitat futura.
+
+**Error 2: assumir que el llindar sempre s'aplica.** L'article 95 bis es dispara per sobre de llindars definits de patrimoni o de plusvàlua latent. Molts clients tenen carteres realistes per sota dels llindars i descobreixen, després d'un càlcul estructurat, que no hi ha exit tax deguda.
+
+**Error 3: presentar la sol·licitud d'ajornament massa tard.** El trasllat intra UE/EEE obre un ajornament automàtic; cap a fora de la UE cal una sol·licitud condicional amb termini propi. Si es perd, es paga la plusvàlua latent en efectiu a la finestra habitual.
+
+**Error 4: oblidar el Modelo 720 a l'any de la partida.** L'obligació declarativa continua per la fracció d'any de residència espanyola. Saltar-la afegeix sancions a un procés ja prou carregat.
+
+## Calendari pràctic 12-6-3 mesos abans de marxar
+
+**T menys 12 mesos.** Inventari: llista completa d'actius personals (IBKR, carteres cripto, comptes bancaris), balanç de la LLC, Operating Agreement, carta EIN. Primera conversa amb el nostre equip i la seva assessora espanyola per modelitzar la plusvàlua latent i triar la destinació per impacte fiscal, no només pel clima.
+
+**T menys 6 mesos.** Decisió sobre l'ajornament (UE/EEE automàtic vs fora de la UE condicional). Preparar documentació que sustenti la valoració de la participació a la LLC: 24 mesos d'extractes Mercury o Wise, històric Form 5472, llista de contractes. Onboarding al país de destí (NIF, banc, permís de residència).
+
+**T menys 3 mesos.** Fotografia final dels valors al dia del canvi. Redacció de la sol·licitud d'ajornament si escau. Coordinació del Modelo 100 de l'any parcial amb la seva assessora espanyola i planificació del primer Modelo 720 per a l'any de residència al nou país.
+
+
+
+### Una frase que repetim a cada client abans del trasllat
+
+L'exit tax rarament és el fre temut a l'inici de la conversa. El cost ocult ve gairebé sempre d'un calendari massa estret: sol·licitud d'ajornament tardana, valoració de la LLC sense suport documental, Modelo 720 oblidat a l'any parcial. Una preparació estructurada en dotze mesos, amb l'assessora espanyola implicada des del primer mes, converteix la conversa d'exit tax en un punt de planificació serena, no de tensió.
+
 <!-- exentax:execution-v2 -->
 ## Exit Tax al sortir d'Espanya amb LLC, cripto i Interactive Brokers: el càlcul real
 
@@ -135,6 +167,14 @@ A Exentax modelem l'impacte de l'Exit Tax amb la teva cartera real i país dest�
 ## Opcions d'ajornament: la clau per planificar
 
 El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
+
+<!-- exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-ca -->
+## Com llegir l'exit tax espanyol en perfils amb LLC, cripto i Interactive Brokers com un inventari estable en lloc d'un debat recurrent
+
+L'exit tax espanyol es llegeix de manera més serena en perfils que combinen una LLC, actius en cripto i un compte Interactive Brokers com un inventari estable dels actius tributables en el moment de la sortida, en lloc d'un debat recurrent. Els eixos rellevants — tipus d'actiu, titular de l'actiu, mètode de valoració, país de destinació — defineixen un marc discret que no canvia d'una conversa a una altra.
+
+Una nota curta al dossier personal que registri l'inventari dels actius rellevants a la data de tall, amb el mètode de valoració triat per cadascun i una referència a la font utilitzada, fa que la posició d'exit tax sigui consultable en pocs minuts.
+<!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-ca -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
@@ -215,6 +255,23 @@ Detall pràctic per fixar abans d'actuar. La major part del dany evitable que ve
   Els **criptoactius** detinguts via Interactive Brokers o wallet privada queden subjectes a l'IRPF com a guanys patrimonials integrats a la base de l'estalvi des de la **Llei 35/2006 art. 33 i seg.** i estan obligats a la declaració al **Model 721** (RD 249/2023, BOE 8/4/2023) per a saldos superiors a **50 000 €** al tancament. El canvi de residència obliga també a actualitzar la situació censal mitjançant **Model 030** i, si escau, a presentar el darrer IRPF en règim de residència fins a la data de sortida.
 
   Per a residents que es traslladen a **Andorra**, l'**article 11 de la Llei 5/2014 de l'IRPF andorrà** estableix la submissió a tributació mundial sobre la base de la residència fiscal, amb tipus marginal màxim del 10 %. El **Conveni de doble imposició Andorra-Espanya** signat el 8 de gener de 2015 (BOE 7/12/2015) i en vigor des del 26 de febrer de 2016 permet eliminar la doble imposició sobre rendes i guanys patrimonials. El **Conveni Andorra-Estats Units**, signat el 8 de febrer de 2023, **va entrar en vigor l'1 de gener de 2024**, fet que clarifica el tractament dels rendiments d'origen americà i facilita l'aplicació de credits per impostos satisfets als EUA.
+
+
+<!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-ca -->
+## Com l'exit tax interactua amb els actius mantinguts en brokers estrangers
+
+L'exit tax espanyola no mira on es manté l'actiu; mira la residència fiscal del titular el dia de la sortida i el guany latent acumulat fins a aquesta data. Per a una persona que manté posicions en un bròker estranger, la conseqüència pràctica és que el bròker no és el desencadenant i el cicle de reporte del bròker no és el calendari rellevant. Allò que compta és la data personal de sortida, la valoració de cada posició en aquesta data i la documentació que enllaça totes dues peces. Una aproximació neta consisteix a imprimir els extractes del bròker a la data de sortida, guardar-los en una carpeta datada i registrar per escrit la metodologia utilitzada per a qualsevol posició la valoració de la qual no consti directament a l'extracte.
+
+Dos altres detalls apareixen sovint en converses posteriors amb l'administració fiscal. En primer lloc, existeixen opcions de diferiment per a trasllats a altres jurisdiccions de la UE o de l'EEE que s'han d'exercir dins de la finestra prevista; perdre aquesta finestra converteix allò que podia haver estat un esdeveniment diferit en un esdeveniment immediat. En segon lloc, el cicle declaratiu espanyol de l'any de sortida es reparteix entre el període resident i el període no resident, i els actius mantinguts a l'estranger continuen rellevants per a la part resident. Mantenir un únic fitxer de treball datat facilita força tots dos punts quan arriba el moment.
+<!-- /exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Cripto i trading amb LLC americana: guia fiscal completa](/ca/blog/criptomonedes-i-trading-amb-llc-guia-fiscal-completa-per-a)
+- [Tributació de la LLC per activitat: serveis, ecommerce, SaaS, royalties, trading](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+- [Conveni de doble imposició USA-Espanya per a LLCs: lectura pràctica](/ca/blog/conveni-de-doble-imposicio-usa-espanya-per-a-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

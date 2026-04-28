@@ -168,6 +168,14 @@ Pour que nous le gérions de bout en bout ou simplement vérifier le vôtre, lan
 <!-- /exentax:execution-v2 -->
 
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Rattraper une LLC avec BOI et 5472 en retard : procédure et priorités](/fr/blog/recuperer-une-llc-avec-boi-et-5472-en-retard-procedure)
+- [Maintenance annuelle LLC : obligations que vous ne pouvez pas ignorer](/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas)
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

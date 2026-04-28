@@ -138,6 +138,12 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote33-native-v1:pagar-cero-impuestos-legalmente-llc-ca -->
+## Com llegir la pregunta "pagar zero impostos legalment" com un mapatge estructural estable
+
+La pregunta "pagar zero impostos legalment" es llegeix com un mapatge estable entre residència, creació de valor i clients.
+<!-- /exentax:lote33-native-v1:pagar-cero-impuestos-legalmente-llc-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -154,7 +160,15 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 <!-- exentax:zero-tax-nuance-v1 -->
 ## Matís important sobre "zero impostos"
 
-Una LLC ben estructurada **no genera impost federal als EUA** sobre rendes sense connexió efectiva amb el país (no ECI). Això no és el mateix que "no pagar impostos enlloc". Com a propietari resident fiscal d'un país amb regles CFC, transparència fiscal o atribució de rendes (Espanya, Alemanya, França, Mèxic, Argentina, Brasil, Portugal en molts casos…), **la renda neta de la LLC s'imputa o es grava al país de residència** l'exercici en què es genera o es distribueix, segons el règim local aplicable. La planificació legítima busca **evitar la doble imposició** i **declarar correctament a residència**, no eliminar-la. <!-- exentax:legal-facts-v1 -->
+Una LLC ben estructurada **no genera impost federal als EUA** sobre rendes sense connexió efectiva amb el país (no ECI). Això no és el mateix que "no pagar impostos enlloc". Com a propietari resident fiscal d'un país amb regles CFC, transparència fiscal o atribució de rendes (Espanya, Alemanya, França, Mèxic, Argentina, Brasil, Portugal en molts casos…), **la renda neta de la LLC s'imputa o es grava al país de residència** l'exercici en què es genera o es distribueix, segons el règim local aplicable. La planificació legítima busca **evitar la doble imposició** i **declarar correctament a residència**, no eliminar-la. <!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Nòmada digital: on pagar impostos i com triar la residència fiscal](/ca/blog/nomada-digital-on-pagar-impostos-i-com-triar-la-residencia)
+- [Els comptes bancaris americans informen a la teva autoritat fiscal?](/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat)
+- [Fiscalitat Estònia: com funciona](/ca/blog/fiscalitat-estonia-com-funciona)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:

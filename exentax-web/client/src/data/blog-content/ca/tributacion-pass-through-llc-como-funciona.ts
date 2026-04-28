@@ -132,6 +132,14 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Tributació de la LLC segons l'activitat econòmica: serveis, e-commerce, SaaS](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+- [Fiscalitat LLC per país de residència: el que es paga i on es paga](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [Deduccions fiscals per a la teva LLC: què pots deduir i com](/ca/blog/deduccions-fiscals-per-a-la-teva-llc-que-pots-deduir-i-com)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 

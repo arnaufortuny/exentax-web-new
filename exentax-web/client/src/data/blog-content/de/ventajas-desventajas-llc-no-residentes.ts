@@ -111,6 +111,18 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-de -->
+## Wie sich der LLC-Trade-off für Nicht-Residenten als stabile Kartografie statt als Marketingargument lesen lässt
+
+Der LLC-Trade-off für Nicht-Residenten liest sich nützlicher als stabile Kartografie zwischen den wiederkehrenden Pflichten des Vehikels (Form 5472, BOI, Verlängerung des Registered Agent) und den wiederkehrenden Vorteilen (rechtliche Trennung, US-Zahlungsinfrastruktur, schlanke Struktur für digitale Aktivitäten) denn als Marketingargument. Beide Seiten sind stabil: sie ändern sich nicht mit dem Jahresergebnis.
+<!-- /exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-de -->
+
+<!-- exentax:lote28-native-v1-bis:ventajas-desventajas-llc-no-residentes-de -->
+## Wie eine kurze Notiz im LLC-Ordner mit den beiden Seiten des Trade-offs hilft
+
+Eine kurze, datierte Notiz im LLC-Ordner, die die wiederkehrenden Pflichten und die wiederkehrenden Vorteile aufführt, macht den Trade-off jederzeit nachlesbar — was besonders dann hilfreich ist, wenn ein Beratungsgespräch ansteht oder wenn der wirtschaftlich Berechtigte nach einigen Monaten Abstand seine eigene Position überprüfen möchte, ohne sie aus dem Gedächtnis zu rekonstruieren.
+<!-- /exentax:lote28-native-v1-bis:ventajas-desventajas-llc-no-residentes-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -143,6 +155,12 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
+<!-- exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-de -->
+## Warum die Bilanz einer LLC vom konkreten operativen Profil abhängt
+
+Die Vorteils-/Nachteils-Bilanz einer LLC für eine nicht ansässige Person hat keine universelle Antwort; sie hängt vom konkreten operativen Profil ab. Eine Tätigkeit mit geografisch verstreuter Kundschaft, Zahlungen in mehreren Währungen und Gegenparteien überwiegend ausserhalb Spaniens zieht aus der Struktur einen greifbaren Nutzen; eine auf einen einzigen europäischen Markt mit lokaler Kundschaft konzentrierte Tätigkeit zieht einen bescheideneren Nutzen, der den administrativen Aufwand möglicherweise nicht rechtfertigt. Der sauberste Weg zur Entscheidung besteht darin, auf einem Blatt das tatsächliche Flussprofil zu skizzieren und es der Liste der Vorteile und Kosten der Struktur gegenüberzustellen.
+<!-- /exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
@@ -156,7 +174,27 @@ Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
 ## Wir richten es ein, ohne dass Sie ein Wochenende verlieren
 
-Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, IRS-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.<!-- exentax:execution-v2 -->
+Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, IRS-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
+
+## Wann sich der Mehraufwand wirklich lohnt
+
+Eine US-LLC ist kein Universaltool. Damit Vor- und Nachteile in Ihrem konkreten Fall zueinanderpassen, helfen drei ehrliche Profile aus unserer DACH-Praxis.
+
+### Profil 1: SaaS- oder Agentur-Gründer mit US-Kunden
+
+Wenn die Mehrheit der Rechnungen an Kunden in den USA, Kanada oder Großbritannien geht, glättet die LLC den Zahlungsweg deutlich: Stripe in USD, Mercury in USD, klare ETO-Position bei korrekter Strukturierung. Hier überwiegt der Nutzen den Mehraufwand der jährlichen Pflichten meist klar.
+
+### Profil 2: Freelancer mit gemischter Kundschaft
+
+Wenn die Hälfte der Kunden in der EU sitzt und Rechnungen mit deutscher oder österreichischer Umsatzsteuer benötigt, wird die LLC zum reinen Banking- und Vertragswerkzeug. Sie funktioniert, ist aber nicht zwingend günstiger als eine UG oder ein Einzelunternehmen mit guter Bank.
+
+### Profil 3: Digitaler Nomade mit stabilem Wohnsitz
+
+Wenn der Wohnsitz fest in einem Land ist, das LLC-Einkünfte über die *pass-through*-Logik sauber besteuern lässt (Spanien, Portugal, Andorra, einige LATAM-Länder), entfaltet die Struktur ihre Stärken. Bei häufigen Wohnsitzwechseln steigt dagegen das Risiko unklarer Doppelbesteuerung; wir empfehlen dann zuerst ein Gespräch über die Residenzfrage.
+
+Wer sich zwischen mehreren Profilen sieht, ist ein guter Kandidat für eine kostenlose Erstberatung. Wir sagen ehrlich, ob die LLC die richtige Antwort ist oder ob eine schlankere Lösung reicht.
+
+<!-- exentax:execution-v2 -->
 ## Vor- und Nachteile der LLC für Nichtansässige: ehrliche Tabelle vor der Entscheidung
 
 ### Echte Vorteile
@@ -210,6 +248,20 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
   ### Vor- und Nachteile der US-LLC für Nicht-Residenten aus deutscher Sicht
 
   Für deutsche Steuerinländer, die als Nicht-US-Residenten eine LLC betreiben, ergeben sich konkrete Vorteile und Nachteile aus dem Zusammenspiel von **§49 Abs. 1 Nr. 2 EStG** (beschränkte Steuerpflicht in den USA nur bei US-Quellen-ECI), **DBA Deutschland-USA Art. 7** (Unternehmensgewinne nur bei Betriebsstätte in den USA besteuerbar) und der **Limitation on Benefits-Klausel Art. 28 DBA** (LOB-Tests: Aktiengesellschaft mit Börsenpräsenz, Eigentums- und Basiserosionstest, oder Active Trade or Business). Das Formular **W-8BEN-E** dokumentiert die Treaty-Berechtigung gegenüber US-Quellensteuer-Pflichtigen mit den Codes Chapter 3 und 4 (FATCA).
+
+<!-- exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-de-bis -->
+## Wie sich die Entscheidung in eine kurze Tabelle übersetzen lässt
+
+In der Praxis lässt sich die Entscheidung in eine kurze Tabelle mit zwei Spalten übersetzen: links das tatsächliche Profil (Volumen, Geografie, Währungen, Wiederkehr), rechts die Liste der konkreten Vorteile, die die LLC für genau dieses Profil bietet. Wenn die rechte Spalte mehr Punkte enthält als die linke offene Fragen, ist die Struktur ihre Komplexität wert.
+<!-- /exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [US-Resident vs Nicht-Resident: die wichtigsten Steuerunterschiede der LLC](/de/blog/us-resident-vs-nicht-resident-llc-die-wichtigsten)
+- [Die LLC als echte Alternative zum Autónomo-Status in Spanien](/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien)
+- [Selbständig in Spanien vs US-LLC: der komplette Steuervergleich](/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/leistungen">Kostenlose Beratung buchen</a>.

@@ -85,6 +85,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-ca -->
+## Com llegir la prevenció del blanqueig com un mapatge d'expectatives documentals estables en lloc d'una preocupació difusa
+
+La prevenció del blanqueig es llegeix de manera més útil com un mapatge d'expectatives documentals estables — identificació del beneficiari, origen dels fons, context de l'activitat — en lloc d'una preocupació difusa. El mapatge es manté vàlid d'un compte al següent.
+<!-- /exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -106,6 +112,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-ca -->
+## Per què la prevenció del blanqueig es tracta per la coherència del dossier en lloc de justificacions ad hoc
+
+La prevenció del blanqueig de capitals per a una LLC es tracta més eficientment per la coherència general del dossier que per justificacions ad hoc presentades a cada petició. Un dossier coherent inclou una descripció clara de l'activitat, una descripció plausible dels fluxos esperats, una estructura de propietat identificada i una comptabilitat en què cada moviment està lligat a la seva contrapartida.
+<!-- /exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-ca -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Prevenció de blanqueig de capitals i la teva LLC: el que el banc mira i per què et pot tancar el compte
@@ -136,6 +148,20 @@ Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blan
 - **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
+
+<!-- exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-ca-bis -->
+## Com revisar la coherència del dossier de manera regular
+
+La coherència del dossier es manté amb més facilitat mitjançant una revisió semestral curta que recorre els quatre elements principals pel mateix ordre i verifica la seva concordança mútua. Aquesta rutina evita que s'acumulin discrepàncies fins que una sol·licitud externa les faci visibles.
+<!-- /exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [BOI Report 2026: guia de la declaració FinCEN Beneficial Ownership](/ca/blog/boi-report-2026-guia-completa-per-a-la-declaracio-fincen)
+- [Due diligence bancari per a la teva LLC americana: què verifiquen](/ca/blog/due-diligence-bancari-per-a-la-teva-llc-americana-el-que)
+- [Propietaris ficticis per a LLCs: per què és il·legal i els riscos](/ca/blog/propietaris-ficticis-per-a-llcs-per-que-es-illegal-i-els)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

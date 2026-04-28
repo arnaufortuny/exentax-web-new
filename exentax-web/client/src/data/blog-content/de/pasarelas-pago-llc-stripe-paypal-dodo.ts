@@ -107,6 +107,22 @@ Um Ihre LLC bei einer Zahlungsplattform zu verifizieren, benötigen Sie:
 
 Der Verifizierungsprozess dauert in der Regel 1-5 Werktage. Bei Exentax koordinieren wir die gesamte Einrichtung, damit Sie sich nicht mit Verifizierungsformularen auf Englisch herumschlagen oder Dokumente einzeln hochladen müssen. Sie entscheiden, welche Zahlungsplattformen Sie benötigen, wir richten sie betriebsbereit ein.
 
+<!-- exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-de -->
+## Warum die Wahl eines Zahlungs-Gateways nach Zahlungsprofil und nicht nach Marke erfolgt
+
+Die Wahl eines Zahlungs-Gateways für eine LLC erfolgt effizienter ausgehend vom konkreten Zahlungsprofil (Hauptwährungen, erwartete Zahlungsmittel, Rückerstattungsquote, Geografie der Kundschaft) als von der Marke selbst. Stripe deckt einen Anwendungsfall gut ab, der sich auf internationale Kartenzahlungen mit standardisierter technischer Integration konzentriert; andere Gateways decken spezifischere Fälle besser ab.
+
+Diese Logik hat eine praktische Konsequenz: oft ist es sinnvoller, ein Haupt-Gateway zu aktivieren, das mit dem dominanten Profil übereinstimmt, und ein sekundäres Gateway für Sonderfälle bereitzuhalten, anstatt zu versuchen, alles über ein einziges abzuwickeln.
+<!-- /exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-de -->
+
+<!-- exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-de -->
+## Wie sich die Wahl der Payment-Gateway für die LLC als stabiles Mapping zwischen Aktivität, Kundenland und Abstimmungsfluss lesen lässt
+
+Die Wahl der Payment-Gateway für die LLC liest sich nützlicher als stabiles Mapping zwischen dem Aktivitätstyp, dem Land des Kunden und dem Abstimmungsfluss mit dem Bankkonto der LLC, denn als Feature-für-Feature-Vergleich. Was sich von einem Anbieter zum anderen ändert, ist im Wesentlichen die Integrationsfläche und die unterstützten Märkte — und diese Eigenschaften ändern sich nicht von Woche zu Woche.
+
+Eine kurze Notiz im LLC-Ordner, die festhält, welche Gateway für welchen Kundentyp verwendet wird und wie das Settlement auf das Bankkonto der LLC gelangt, macht dieses Mapping zu etwas, das das Mitglied jederzeit nachlesen kann, ohne es aus dem Gedächtnis zu rekonstruieren.
+<!-- /exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -174,6 +190,51 @@ _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/
   **§3 Abs. 11a UStG Vermittlungsleistungen:** Plattformen, die in eigenem Namen aber für fremde Rechnung handeln, werden als Eingangs- und Ausgangsleistungserbringer behandelt (Dienstleistungskommission). Stripe und PayPal handeln in fremdem Namen und sind keine Kommissionäre — ihre Provisionen sind reine Finanzdienstleistungen nach **§4 Nr. 8 UStG steuerbefreit**.
 
   **Plattformen-Steuertransparenzgesetz (PStTG, BGBl. I 2022 S. 2730)** — DAC7-Umsetzung in Kraft seit 01.01.2023: Plattformbetreiber melden bis 31.01. des Folgejahres Verkäufer-Daten an das BZSt bei Schwellenüberschreitung von **30 Transaktionen/Jahr** oder **€2.000 Umsatz/Jahr** je Verkäufer. Stripe und PayPal sind als reine Zahlungsanbieter nach §3 Abs. 4 PStTG **ausgenommen**, sofern sie nicht selbst die Transaktionsdurchführung verantworten. **Aufbewahrungsfrist 10 Jahre** für Plattformaufzeichnungen.
+
+
+<!-- exentax:lote9-native-v1:pasarelas-pago-llc-stripe-paypal-dodo -->
+## Wie die richtige Zahlungspassarelle gewählt wird
+
+Die Wahl der Zahlungspassarelle ist weniger eine Frage der Marke
+als des tatsächlichen Profils der LLC. Eine LLC, die digitale
+Produkte an europäische Privatkunden verkauft, hat andere
+Anforderungen als eine LLC, die monatliche SaaS-Abonnements an
+Unternehmen in den USA berechnet, oder als eine LLC, die globale
+Mikro-Transaktionen verarbeitet. Die Passerelle, die im einen
+Fall die richtige Wahl ist, kann im anderen Fall unnötige
+Reibung verursachen.
+
+In der Praxis hängt die richtige Wahl von vier Punkten ab: dem
+durchschnittlichen Land der Kunden, dem Typ des Produkts oder
+der Dienstleistung, dem monatlichen Volumen und der Toleranz
+gegenüber Auszahlungsverzögerungen. Wenn diese vier Variablen
+auf einer Seite zusammengefasst sind, wird die Auswahl ruhig
+und nachvollziehbar — und sie hält den Anforderungen der LLC
+über mehrere Jahre stand, ohne ständige Wechsel.
+
+## Eine kurze Schlussbemerkung
+
+Wir empfehlen, die Wahl der Passarelle nicht isoliert zu treffen,
+sondern gemeinsam mit dem Berater und mit klarem Blick auf den
+Banken-Stack der LLC (Mercury, Wise, gegebenenfalls Relay).
+So lässt sich vermeiden, dass eine später hinzugefügte Passarelle
+die ursprüngliche Architektur durcheinanderbringt.
+
+<!-- /exentax:lote9-native-v1:pasarelas-pago-llc-stripe-paypal-dodo -->
+
+<!-- exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-de-bis -->
+## Wie sich die Trennung zweier Gateways in der Buchhaltung sauber abbildet
+
+Die Trennung zwischen einem Haupt- und einem sekundären Gateway lässt sich in der Buchhaltung sauber abbilden, indem jedem Gateway ein eigener Konteneintrag zugewiesen wird, der mit der Bewegung im entsprechenden Bankkonto übereinstimmt.
+<!-- /exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Auf Amazon verkaufen mit Ihrer US-LLC: vollständiger E-Commerce-Leitfaden](/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger)
+- [Steuerliche Abzüge für Ihre LLC: was Sie abziehen können](/de/blog/steuerliche-abzuge-fur-ihre-llc-was-sie-abziehen-konnen)
+- [LLC-Besteuerung nach wirtschaftlicher Aktivität: Services, E-Commerce, SaaS](/de/blog/llc-besteuerung-nach-wirtschaftlicher-aktivitat)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

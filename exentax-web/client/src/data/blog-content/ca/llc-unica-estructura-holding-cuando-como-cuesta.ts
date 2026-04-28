@@ -97,6 +97,12 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
+<!-- exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-ca -->
+## Com llegir la qüestió de la LLC holding com un mapatge estructural en lloc d'una elecció d'estatut
+
+La qüestió de la LLC holding es llegeix de manera més útil com un mapatge estructural estable entre la LLC operacional, la LLC holding i el beneficiari, en lloc d'una elecció d'estatut. Aquest mapatge no canvia amb el resultat de l'any.
+<!-- /exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -117,6 +123,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
 
+<!-- exentax:lote18-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-ca -->
+## Per què el pas a una estructura de holding es justifica per l'activitat i no per una projecció teòrica
+
+El pas d'una LLC única a una estructura que inclogui una holding no es justifica per una projecció teòrica d'avantatges futurs; es justifica per una lectura honesta de l'activitat tal com ja es presenta. Els indicadors habituals d'un pas útil són la diversificació real de les línies d'activitat, la presència de socis associats només a certes línies, o un volum de distribucions que fa la separació explícitament útil per a la planificació.
+<!-- /exentax:lote18-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
@@ -130,6 +142,16 @@ Les obligacions davant la <a href="https://www.fincen.gov" target="_blank" rel="
 ## Fets bancaris i fiscals que convé precisar
 
 Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.
+
+
+
+## Tres preguntes que rebem just abans de fer el salt
+
+**Cal tancar la LLC operativa per obrir la holding?** No. La LLC operativa continua; el que canvia és la titularitat: les participacions s'aporten a la holding via Operating Agreement, amb actualització BOI de l'entitat operativa.
+
+**Hi haurà un tall bancari?** Molt breu. El Mercury actualitza el KYC en pocs dies si la documentació està preparada (organigrama, Operating Agreement, EIN de la holding). Coordinem perquè el Stripe i el Wise existents no perdin un dia de cobrament.
+
+**Quant de temps cal planificar en total?** Tres mesos tranquils valen més que un mes a corre-cuita. Seqüenciem: decisió i modelització el primer mes, constitució i onboarding bancari el segon, primera conciliació consolidada el tercer.
 
 <!-- exentax:execution-v2 -->
 ## LLC única o estructura holding? Quan, com i quant costa cada opció
@@ -186,6 +208,20 @@ O truca'ns directament al <a href="tel:+34614916910">+34 614 916 910</a> si pref
   Per a residents fiscals a Espanya/Catalunya, la **transparència fiscal internacional (TFI) de l'art. 100 LIRPF** s'activa si la LLC holding controla participacions en jurisdiccions de baixa tributació. La **doctrina del TEAC en la resolució 6555/2017 de 19/02/2020** classifica les LLCs amb dos o més socis com a partnerships transparents als efectes espanyols, cosa que activa la imputació directa als socis residents.
 
   Per a residents a **Andorra**, la **Llei 95/2010 de l'Impost sobre Societats** preveu un règim de **participation exemption** semblant al de Luxemburg per a holdings amb participacions ≥ 5 % o cost ≥ €250.000 i un any de tinença mínima. El **conveni Andorra-EUA en vigor des de l'1 de gener de 2024** elimina la doble imposició sobre dividends i interessos qualificats.
+
+<!-- exentax:lote18-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-ca-bis -->
+## Com fixar la decisió de transició en un memorandum curt
+
+La decisió de transició es fixa en un memorandum curt que enumera els indicadors que efectivament hi havia en el moment de la decisió. Aquest memorandum serveix més tard com a punt de referència.
+<!-- /exentax:lote18-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Holding empresarial: com funciona realment](/ca/blog/holding-empresarial-com-funciona)
+- [De single-member a multi-member LLC: implicacions fiscals reals](/ca/blog/de-single-member-a-multi-member-llc-implicacions-fiscals)
+- [LLC vs Corporation, S-corp vs C-corp: la guia pràctica](/ca/blog/diferencia-llc-vs-corporation-s-corp-c-corp-guia)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/serveis/llc-wyoming">Reservar consulta gratuïta</a>.

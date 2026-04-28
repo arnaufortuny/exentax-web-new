@@ -183,6 +183,14 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 
 <!-- related-inline-stripped-2026-04 -->
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [US LLC for software developers and SaaS founders: the complete guide](/en/blog/us-llc-for-software-developers-and-saas-founders-the)
+- [US LLC for content creators: YouTube, Twitch and beyond](/en/blog/us-llc-for-content-creators-youtube-twitch-and-beyond)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

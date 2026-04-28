@@ -199,6 +199,14 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Operating Agreement : ce que c'est et pourquoi votre LLC en a besoin](/fr/blog/operating-agreement-quest-ce-que-cest-et-pourquoi-votre-llc)
+- [Pourquoi ouvrir une LLC aux États-Unis en 2026 : les 5 piliers clés](/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers)
+- [Maintenance annuelle LLC : obligations que vous ne pouvez pas ignorer](/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Création, EIN, BOI, banque et maintenance : une seule équipe qui comprend votre dossier de bout en bout. <a href="/fr/services">Voir tous les services</a>.
 <!-- /exentax:cta-v1 -->

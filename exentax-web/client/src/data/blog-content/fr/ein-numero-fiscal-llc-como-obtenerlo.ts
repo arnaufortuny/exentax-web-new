@@ -103,6 +103,12 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
 
+<!-- exentax:lote18-native-v1:ein-numero-fiscal-llc-como-obtenerlo-fr -->
+## Pourquoi l'obtention de l'EIN mérite un dossier propre et traçable dès le départ
+
+Obtenir l'EIN d'une LLC mérite un dossier propre et traçable dès le départ, parce que l'EIN devient l'identifiant référencé dans presque toutes les opérations ultérieures : ouverture bancaire, inscription auprès des passerelles de paiement, déclarations informatives, et toute communication ultérieure avec l'IRS.
+<!-- /exentax:lote18-native-v1:ein-numero-fiscal-llc-como-obtenerlo-fr -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
@@ -162,6 +168,14 @@ Si votre priorité est l'ITIN, consultez <a href="/fr/services/obtiens-ton-itin"
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [EIN vs ITIN vs SSN : numéros d'identification fiscale américains](/fr/blog/ein-vs-itin-vs-ssn-les-numeros-didentification-fiscale)
+- [L'IRS et votre LLC: 0 USD vs amende 25.000 USD Form 5472](/fr/blog/quest-ce-que-lirs-et-comment-affecte-t-il-votre-llc)
+- [J'ai une LLC américaine : est-ce que je la gère bien ? Checklist](/fr/blog/jai-une-llc-est-ce-que-je-la-gere-correctement-checklist)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Nous vérifions BOI, EIN, agent enregistré et obligations fédérales pour qu'aucune amende ne vous surprenne. <a href="/fr/services">Demander une revue de conformité</a>.

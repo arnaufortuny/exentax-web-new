@@ -121,6 +121,14 @@ Une LLC américaine est un outil légal et reconnu internationalement. Mais la c
 - **Suisse (DBG art. 49 / LIFD).** En droit fiscal suisse, une LLC pass-through est typiquement assimilée à une société de personnes étrangère ; les bénéfices sont attribués à l'associé résident dans son impôt fédéral direct (LIFD/DBG) et dans ses impôts cantonaux. L'AFC peut requalifier sous Steuerumgehung (évasion fiscale) si la LLC est dépourvue de substance. La circulaire AFC n° 5 sur la transparence des sociétés étrangères et la circulaire n° 6 sur les sociétés à substance économique limitée sont des références opérationnelles.
 - **Québec (LIR fédérale + Loi sur les impôts du Québec).** Au Canada (et donc au Québec), une LLC américaine est traitée par défaut comme une corporation par l'ARC, ce qui crée souvent une double imposition non éliminée car les distributions sont des dividendes non admissibles côté canadien et l'IRS l'a vue comme transparente. Le Québec applique en miroir la position fédérale via la Loi sur les impôts. C'est la pire juridiction CSF (corporation étrangère affiliée contrôlée) au monde pour détenir une LLC américaine ; nous le détaillons dans le bloc execution-v2.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Auto-entrepreneur en Espagne vs LLC aux États-Unis : comparaison fiscale](/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis)
+- [Votre LLC ne paie pas d'impôt aux USA — alors que se passe-t-il dans votre pays](/fr/blog/votre-llc-ne-paie-pas-dimpot-aux-usa-alors-que-se-passe-t-il)
+- [Fiscalité LLC par pays de résidence : ce que vous payez et où](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

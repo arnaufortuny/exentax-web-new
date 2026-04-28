@@ -133,6 +133,14 @@ L'application concrète de ces règles à votre cas dépend de votre résidence 
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Comment créer une LLC américaine étape par étape : guide complet](/fr/blog/comment-creer-une-llc-americaine-etape-par-etape-guide)
+- [Registered Agent : qu'est-ce que c'est et pourquoi c'est obligatoire](/fr/blog/registered-agent-quest-ce-que-cest-et-pourquoi-cest)
+- [Combien coûte la création d'une LLC américaine : décomposition complète](/fr/blog/combien-coute-la-creation-dune-llc-americaine-decomposition)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Découvrez si une LLC est faite pour vous</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -139,6 +139,14 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Pourquoi ouvrir une société en Estonie convient rarement à un profil opérationnel réel](/fr/blog/pourquoi-ne-pas-ouvrir-une-entreprise-en-estonie-la-llc)
+- [Concevoir une structure fiscale internationale solide étape par étape](/fr/blog/conception-dune-structure-fiscale-internationale-solide)
+- [LLC aux États-Unis : guide complet 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

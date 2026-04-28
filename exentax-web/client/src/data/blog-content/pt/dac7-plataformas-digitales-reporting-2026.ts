@@ -162,6 +162,14 @@ Milhares de trabalhadores independentes e empreendedores já operam com a sua LL
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Marque uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [DAC8 e criptomoedas: o novo reporting fiscal automático em 2026](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
+- [Vender na Amazon com sua LLC americana: guia completo](/pt/blog/vender-na-amazon-com-sua-llc-americana-guia-completo)
+- [IVA em serviços digitais internacionais: quando se aplica e quando não](/pt/blog/iva-em-servicos-digitais-internacionais-quando-se-aplica-e)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 

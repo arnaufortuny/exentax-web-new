@@ -126,6 +126,12 @@ Si vols saber què encaixa al teu cas real, obre la <strong>calculadora Exentax<
 
   Per a residents a **Andorra**, l'**article 24 de la Llei 5/2014 de l'IRPF andorrà** subjecta a tributació els guanys per transmissió onerosa d'elements patrimonials al tipus general del 10 %. El **Conveni de doble imposició Andorra-Estats Units**, en vigor des de l'1 de gener de 2024, ofereix mecanismes d'eliminació de doble imposició aplicables a aquests guanys.
 
+<!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-ca -->
+## Com llegir la tria entre vendre o tancar la LLC com un mapatge estable en lloc d'una decisió emocional
+
+La tria entre vendre o tancar la LLC es llegeix de manera més útil com un mapatge estable entre l'estat actual del vehicle, el perfil del comprador potencial i les obligacions residuals, en lloc d'una decisió emocional.
+<!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -149,6 +155,90 @@ Si vols saber què encaixa al teu cas real, obre la <strong>calculadora Exentax<
 
   A Exentax revisem aquests cinc fronts cada any en paral·lel al calendari federal estatunidenc (Form 5472, 1120 pro-forma, FBAR, Annual Report estatal i BOI Report quan apliqui). L'objectiu és que cap inspecció trobi un cap solt i que l'estructura aguanti revisions a 5-7 anys vista.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+## Vendre o tancar: triar la pregunta abans de l'acció
+
+El primer pas útil és separar dues preguntes que sovint arriben
+juntes: "vull continuar operant amb aquesta LLC?" i "aquesta LLC
+és un actiu vendible per si sola?". Moltes LLCs són excel·lents
+cascos operatius però pobres actius vendibles, i el contrari també
+és possible. Feta aquesta distinció, la decisió pràctica surt de
+les dades.
+
+| Senyal                                   | Apunta a vendre             | Apunta a tancar         |
+|------------------------------------------|-----------------------------|-------------------------|
+| Contractes recurrents en nom de la LLC   | sí                          | feble                   |
+| Domini, marca, PI en mans de la LLC      | sí                          | feble                   |
+| Historial bancari amb institucions US    | sí (transferible amb cura)  | neutre                  |
+| Single-member, valor de marca baix       | feble                       | sí                      |
+| Litigi obert o reclamació pendent        | pausa rigorosa              | pausa rigorosa          |
+
+Quan la taula s'inclina cap a vendre, la feina és sobre
+documentació, llibres nets i una narrativa creïble. Quan s'inclina
+cap a tancar, la feina és sobre una desactivació ordenada i una
+sortida neta amb l'IRS, l'estat i el banc.
+
+## Tres històries reals de clients
+
+Una consultora que operava amb una single-member LLC des de tres
+anys va decidir desactivar-la quan va canviar de jurisdicció.
+Tancar era el correcte: cap contracte transferible, l'historial
+bancari només li servia a ella, i el cost de vendre superava el
+preu realista. Vam córrer el tancament ordenat en dos mesos.
+
+Una fundadora va construir un petit SaaS a través de la seva LLC
+amb base recurrent de clients. La LLC era vendible com a unitat
+perquè el producte, els contractes de clients i els comptes
+merchant eren tots en nom de la LLC. Vam córrer una venda
+estructurada, el comprador va assumir la LLC, i la fundadora va
+mantenir la seva narrativa de sortida neta.
+
+Una consultora amb dues LLCs (una operativa, una dormant) va
+tancar la dormant i va mantenir l'activa. La LLC dormant no
+portava actius i només afegia feina de compliance cada any.
+Tancar-la va simplificar el cicle 1120 + 5472 següent i va reduir
+el perímetre de manteniment del BOI.
+
+## Errors a evitar en totes dues direccions
+
+- Aturar les operacions sense presentar la dissolució. L'estat
+  continua esperant les taxes anuals; sense dissolució la LLC
+  acumula obligacions.
+- Vendre sense resoldre l'EIN. Les EINs no es transfereixen com a
+  certificats d'accions; estructurar el deal perquè el comprador
+  mantingui la LLC intacta o substitueixi l'EIN de manera neta.
+- Oblidar el perfil bancari. Els comptes bancaris s'han de tancar
+  per ordre en una desactivació, no abandonats; l'abandó pot deixar
+  saldos residuals de comissions que compliquen les darreres
+  presentacions fiscals.
+- Ignorar el cicle BOI. Una LLC dissolta necessita una
+  actualització BOI; una LLC venuda necessita també reporting
+  d'actualització de propietat.
+
+## Checklist de tancament o venda
+
+- Balanç de comprovació i extractes bancaris reconciliats a punt.
+- 1120 + 5472 finals preparats per endavant per a l'any de
+  tancament.
+- Tots els contractes catalogats (cedibles / no cedibles).
+- Registre de PI confirmat (dominis, marques, repositoris de codi).
+- Estat BOI actualitzat just després de l'escriptura.
+- Pla de retenció de registres a punt per 7 anys com a mínim.
+
+Tractem la decisió vendre-o-tancar com un dels moments de més
+palanca a la vida de la LLC. Una sortida neta, en qualsevol dels
+sentits, és valor permanent per al soci.
+
+<!-- /exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Com dissoldre i tancar una LLC americana: un camí calmat, pas a pas](/ca/blog/com-dissoldre-i-tancar-una-llc-americana-pas-a-pas)
+- [Canviar de proveïdor de manteniment de la LLC sense perdre l'historial](/ca/blog/canviar-de-proveidor-de-manteniment-de-la-llc-sense-perdre)
+- [Fiscalitat dels socis d'una LLC en canvi de residència a mig any](/ca/blog/fiscalitat-dels-socis-duna-llc-en-canvi-de-residencia-a-mig)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

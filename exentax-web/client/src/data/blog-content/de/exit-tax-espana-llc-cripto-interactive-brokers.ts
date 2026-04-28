@@ -114,6 +114,58 @@ Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchzi
 
 Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitplan zählen — wer eines davon falsch setzt, bringt den Rest ins Wanken.
 
+
+
+## Fall 4: gemischtes Portfolio (IBKR-Aktien + LLC-Beteiligung + Krypto)
+
+Das häufigste Profil aus unserer DACH-Praxis: eine Freelancerin, die über eine US-LLC ein stabiles Geschäft aufgebaut, über Jahre IBKR-Positionen angesammelt und zusätzlich eine Krypto-Allokation außerhalb der LLC hält. Wird der Umzug nach Andorra, Portugal oder ein Nicht-EU-Ziel real, brauchen drei Schichten der Wegzugsteuer ihre eigene Lesart.
+
+Die IBKR-Bestände sind persönliche Finanzaktiva und lösen Art. 95 bis aus, sobald die globalen Schwellen erreicht sind. Die LLC-Beteiligung wird zum Stichtag des Wohnsitzwechsels als Beteiligung an einer ausländischen Einheit bewertet; bei Disregarded-Entity-Strukturen schaut man durch die Hülle hindurch auf die unterliegenden Vermögenswerte, was Mandantinnen oft überrascht, die nur die Mercury-Liquidität gezählt haben. Persönliche Krypto liegt mit der IBKR-Schicht in derselben Rechnung, während Krypto der LLC in der LLC-Bilanz bleibt und nur über den Beteiligungswert sichtbar wird. Der gemischte Fall löst die Wegzugsteuer selten in voller Höhe aus, weil die Beteiligungsbewertung niedriger sein kann als die Summe der persönlichen Aktiva — er verdient aber immer eine dokumentierte Momentaufnahme drei Monate vor Abreise.
+
+## Typische Fehler, die wir vermeiden helfen
+
+**Fehler 1: persönliche Krypto und LLC-Krypto verwechseln.** Sie folgen unterschiedlichen Pfaden in der Wegzugsteuer. Persönliche Krypto fällt direkt unter Art. 95 bis; LLC-Krypto fällt über die Beteiligungsbewertung darunter. Eine saubere Trennung von Tag eins in Mercury oder Kraken beseitigt jede Mehrdeutigkeit später.
+
+**Fehler 2: annehmen, die Schwelle gelte immer.** Art. 95 bis greift oberhalb definierter Vermögens- oder Latenzgewinn-Schwellen. Viele Mandantinnen haben realistische Portfolios unterhalb der Schwellen und stellen nach einer strukturierten Rechnung fest, dass keine Wegzugsteuer fällig ist.
+
+**Fehler 3: Stundungsantrag zu spät einreichen.** Umzug innerhalb EU/EWR öffnet eine automatische Stundung; außerhalb braucht es einen bedingten Antrag mit eigener Frist. Verpasst, bedeutet das, die Latenzgewinne in Bar im üblichen Zahlungsfenster zu tragen.
+
+**Fehler 4: Modelo 720 im Wegzugsjahr vergessen.** Die Meldepflicht läuft für den Teil des Jahres mit spanischem Wohnsitz weiter. Sie zu überspringen, addiert Strafen zu einem ohnehin komplexen Vorgang.
+
+## Praktischer Zeitplan 12-6-3 Monate vor dem Umzug
+
+**T minus 12 Monate.** Inventar: vollständige Liste der persönlichen Aktiva (IBKR, Krypto-Wallets, Bankkonten), LLC-Bilanz, Operating Agreement, EIN-Bestätigung. Erstes Gespräch mit unserem Team und Ihrer spanischen Beraterin, um den Latenzgewinn zu modellieren und das Ziel nach steuerlicher Wirkung zu wählen, nicht nur nach dem Wetter.
+
+**T minus 6 Monate.** Entscheidung über die Stundung (EU/EWR automatisch vs Nicht-EU bedingt). Belege zur Beteiligungsbewertung vorbereiten: 24 Monate Mercury- oder Wise-Auszüge, 5472-Historie, Vertragsliste. Onboarding im Zielland einplanen (NIF/Steuernummer, Bank, Aufenthaltstitel).
+
+**T minus 3 Monate.** Finale Bewertungsmomentaufnahme zum Stichtag. Stundungsantrag entwerfen, falls anwendbar. Modelo 100 des Teiljahres mit der spanischen Beraterin abstimmen und ersten Modelo 720 für das neue Wohnsitzjahr vorplanen.
+
+
+
+### Ein Satz, den wir vor jedem Wegzug wiederholen
+
+Die Wegzugsteuer ist selten der gefürchtete Showstopper aus dem Erstgespräch. Der versteckte Preis kommt fast immer aus einem zu engen Zeitplan: Stundungsantrag spät eingereicht, undokumentierte LLC-Bewertung, vergessenes Modelo 720 im Teiljahr. Eine strukturierte Zwölf-Monats-Vorbereitung, mit der spanischen Beraterin ab Monat eins eingebunden, verwandelt das Wegzugsteuer-Gespräch von einem angespannten Gespräch in ein Planungsgespräch. Wir haben dutzende Gründer:innen begleitet und die ruhigsten Umzüge waren immer jene, die früh begonnen haben, Papier bereit, nicht jene, die im letzten Quartal improvisiert haben.
+
+### Drei DACH-spezifische Klarstellungen
+
+Erstens: Der Wegzug aus Spanien nach Deutschland, Österreich oder in die Schweiz wird häufig mit dem Wegzug aus Deutschland verwechselt. Hier geht es ausschließlich um den spanischen Art. 95 bis. Die deutsche oder österreichische Hinzurechnungsbesteuerung greift erst NACH dem Wegzug auf der Wohnsitzlandseite und folgt eigenen Regeln, die wir mit der lokalen Beratung im Folgejahr koordinieren.
+
+Zweitens: Die Schweiz ist kein EWR-Staat, Stundungsanträge folgen daher dem bedingten Pfad. In der Praxis bedeutet das schärfere Dokumentation und einen früher gestellten Antrag, nicht eine andere Logik. Wer den Schweiz-Pfad früh plant, hat in der Regel keine bösen Überraschungen.
+
+Drittens: Krypto-Bestände auf Kraken oder Coinbase werden bei deutschen Mandant:innen oft separat gehalten, in Deutschland gemeldet und gleichzeitig in Spanien beim Modelo 720 erklärt. Diese doppelte Sichtbarkeit ist legitim und sogar erwünscht; sie zeigt der AEAT, dass nichts versteckt wurde, und beschleunigt jede spätere Rückfrage. Wir bereiten einen kurzen Vermerk vor, der die parallele Meldung erklärt — er gehört in jede Akte vor dem Umzug.
+
+
+
+### Eine letzte praktische Erinnerung
+
+Die Wegzugsteuer wird oft als drohendes Hindernis dargestellt; in unserer Beratungspraxis ist sie häufig handhabbar, sobald Inventar, Bewertung und Antrag rechtzeitig vorbereitet sind. Wer sich zwölf Monate Zeit nimmt und die spanische Beraterin früh einbindet, behandelt das Thema als geordneten Prozess statt als unangenehme Überraschung im letzten Quartal.
+
+
+
+### Was wir Mandant:innen am häufigsten als Beruhigung mitgeben
+
+Die Wegzugsteuer fühlt sich am Anfang abstrakt und groß an, wird aber in der Praxis konkret und händelbar, sobald drei Zahlen auf dem Tisch liegen: globaler Vermögenswert, Latenzgewinn auf IBKR und realistische Beteiligungsbewertung der LLC. Sind diese drei Werte dokumentiert, schrumpft die Diskussion auf wenige klare Entscheidungen und einen sauberen Antragsprozess.
+
 <!-- exentax:execution-v2 -->
 ## Exit Tax beim Verlassen Spaniens mit LLC, Krypto und Interactive Brokers: die reale Rechnung
 
@@ -135,6 +187,20 @@ Bei Exentax modellieren wir die Wegzugsbesteuerung mit Ihrem realen Portfolio un
 ## Berechnung des latenten Veräußerungsgewinns
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus — die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
+
+<!-- exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de -->
+## Wie sich die spanische Exit Tax bei Profilen mit LLC, Krypto und Interactive Brokers als stabiles Inventar statt als wiederkehrende Debatte lesen lässt
+
+Die spanische Exit Tax liest sich ruhiger bei Profilen, die eine LLC, Kryptobestände und ein Interactive Brokers-Konto kombinieren, als stabiles Inventar der steuerpflichtigen Vermögenswerte zum Zeitpunkt der Abreise denn als wiederkehrende Debatte. Die relevanten Achsen — Vermögenstyp, Inhaber des Vermögens, Bewertungsmethode, Zielland — definieren einen diskreten Rahmen, der sich nicht von Gespräch zu Gespräch ändert.
+
+Eine kurze Notiz im persönlichen Ordner, die das Inventar der relevanten Vermögenswerte zum Stichtag mit der gewählten Bewertungsmethode pro Position und einem Quellenverweis festhält, macht die Exit-Tax-Position in wenigen Minuten nachlesbar, auch Jahre nach der Abreise — und sie erleichtert eine spätere Prüfung erheblich.
+<!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de -->
+
+<!-- exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de-bis -->
+## Wie sich die Exit-Tax-Position in den Folgejahren als pflegbarer Eintrag statt als einmalige Übung lesen lässt
+
+Die Exit-Tax-Position liest sich auch in den Folgejahren ruhiger, wenn sie als pflegbarer Eintrag im persönlichen Ordner geführt wird und nicht als einmalige Übung am Tag der Abreise. Eine kurze, datierte Aktualisierung pro Jahr genügt, um die Position konsistent zu halten.
+<!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de-bis -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
@@ -225,6 +291,23 @@ Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermei
   Eine Rückkehrregelung nach § 6 Abs. 3 AStG erlaubt die rückwirkende Aufhebung der Wegzugsteuer, wenn der Steuerpflichtige innerhalb von **sieben Jahren** wieder unbeschränkt steuerpflichtig in Deutschland wird (verlängerbar auf zwölf Jahre auf Antrag). Diese Regelung ist relevant für Berater, die einen vorübergehenden Wegzug planen, beispielsweise zur Realisierung stiller Reserven nach Erreichen der DBA-Schwelle in einem Niedrigsteuerstaat.
 
   Ein häufig übersehenes Risiko: das Finanzamt kann eine Wegzugsteuer auch dann festsetzen, wenn der Steuerpflichtige formal in Deutschland gemeldet bleibt, aber sein Lebensmittelpunkt nach den Indizien des § 9 AO ins Ausland verlegt wurde. Das Bundesfinanzhof-Urteil **I R 76/82 vom 23. Oktober 1985** und die Folgejudikatur bleiben hierfür maßgeblich.
+
+
+<!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de -->
+## Wie die Exit Tax mit Vermögenswerten bei ausländischen Brokern zusammenwirkt
+
+Die spanische Exit Tax knüpft nicht daran an, wo ein Vermögenswert gehalten wird; sie knüpft an die steuerliche Ansässigkeit des Halters am Tag des Wegzugs und an den bis zu diesem Datum aufgelaufenen unrealisierten Gewinn an. Für eine Person, die Positionen bei einem ausländischen Broker hält, ist die praktische Konsequenz, dass der Broker nicht der Auslöser ist und der Reporting-Zyklus des Brokers nicht der massgebliche Kalender. Was zählt, ist das persönliche Wegzugsdatum, die Bewertung jeder Position an diesem Datum und die Dokumentation, die beide Elemente verknüpft. Ein sauberer Ansatz besteht darin, die Broker-Auszüge zum Wegzugstag auszudrucken, in einer datierten Ablage zu speichern und die für Positionen ohne direkt verfügbare Bewertung verwendete Methodik schriftlich festzuhalten.
+
+Zwei weitere Punkte tauchen in späteren Gesprächen mit der Steuerverwaltung regelmässig auf. Erstens bestehen für Umzüge in andere EU- oder EWR-Jurisdiktionen Stundungsoptionen, die innerhalb des vorgesehenen Fensters geltend gemacht werden müssen; das Verpassen dieses Fensters macht aus einem potenziell gestundeten Ereignis ein sofortiges. Zweitens ist der spanische Erklärungszyklus für das Jahr des Wegzugs zwischen der ansässigen und der nicht ansässigen Periode aufgeteilt, und im Ausland gehaltene Vermögenswerte bleiben für den ansässigen Teil relevant. Eine einzige datierte Arbeitsmappe erleichtert beide Punkte zur gegebenen Zeit deutlich.
+<!-- /exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Krypto und Trading mit US-LLC: vollständiger Steuerleitfaden](/de/blog/kryptowahrungen-und-trading-mit-llc-vollstandiger)
+- [LLC-Besteuerung nach Tätigkeit: Dienstleistungen, E-Commerce, SaaS, Royalties, Trading](/de/blog/llc-besteuerung-nach-wirtschaftlicher-aktivitat)
+- [Doppelbesteuerungsabkommen USA-Spanien für LLCs: praktische Lesart](/de/blog/doppelbesteuerungsabkommen-usa-spanien-fur-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

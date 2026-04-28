@@ -152,6 +152,20 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
+<!-- exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-de -->
+## Wie sich die Schließung der LLC als dokumentierte Sequenz statt als plötzliches Ende lesen lässt
+
+Die Schließung der LLC liest sich nützlicher als dokumentierte Sequenz — finale Erklärungen, Auflösung beim Staat, Archivierung der Unterlagen — denn als plötzliches Ende. Die Sequenz ändert sich nicht mit der Größe der LLC, und eine kurze, datierte Notiz im LLC-Ordner, die jeden Schritt mit seiner Bestätigungs­referenz festhält, macht die Schließung in wenigen Minuten gegenüber einer Verwaltung oder einem späteren Berater nachlesbar.
+<!-- /exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-de -->
+
+<!-- exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-de -->
+## Warum die Notiz pro Sequenz­schritt und nicht pro Schließungs­datum organisiert sein sollte
+
+Die Notiz organisiert sich pro Sequenz­schritt — finale Erklärungen, Auflösung, Archivierung — und nicht pro Schließungs­datum, weil die Sequenz unabhängig vom gewählten Kalender gleich bleibt und diese Sicht jeden Schritt unabhängig überprüfbar macht.
+
+Eine kurze, datierte Notiz pro Schritt im LLC-Ordner reicht aus, um den gesamten Schließungs­vorgang in wenigen Minuten zu rekonstruieren, ohne sich auf das Gedächtnis zu verlassen.
+<!-- /exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -185,6 +199,20 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
+<!-- exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-de -->
+## Wie sich die Auflösungssequenz als ein einziger geordneter Prozess statt als Liste isolierter Aufgaben lesen lässt
+
+Die Auflösung einer LLC liest sich klarer, wenn sie als ein einziger geordneter Prozess und nicht als Liste isolierter Aufgaben behandelt wird. Die Reihenfolge ist entscheidend, denn jeder Schritt schliesst einen Perimeter, von dem der nächste Schritt abhängt: das Einstellen der operativen Tätigkeit geht der Begleichung offener Rechnungen voraus, die Begleichung geht den Schlussausschüttungen voraus, die Schlussausschüttungen gehen der federalen Schlusserklärung voraus, und die federale Schlusserklärung geht den beim Bundesstaat einzureichenden articles of dissolution voraus.
+
+Wird diese Reihenfolge eingehalten, erzeugt jeder Schritt das Dokument, das der nächste benötigt, und die Schlussakte baut sich schrittweise ohne Rückgriffe auf. Wird die Reihenfolge gebrochen, müssen einige Schritte wiederholt werden, weil die Belegunterlagen noch nicht verfügbar sind.
+
+Die Lesart als einheitlicher Prozess hilft auch beim Zeitplan: der Kalender eines Auflösungsverfahrens ist selten eng, aber die Abstände zwischen den Schritten sollten sich auch nicht unbegrenzt dehnen, denn jeder offene Perimeter erzeugt kleine Pflichten (Gebühren, Aufstellungen, Mitteilungen), die sich während des laufenden Verfahrens ansammeln.
+
+## Wie sich jeder Schritt so dokumentieren lässt, dass er den nächsten trägt, ohne die Arbeit erneut zu leisten
+
+Jeder Schritt der Auflösung gewinnt, wenn er mit einer kurzen Notiz dokumentiert wird, die die erzeugten Belege bündelt: der schriftliche Beschluss der Mitglieder, die Nachweise über die Begleichung der ausstehenden Rechnungen, die Schlussauszüge der Konten, die Bestätigung der Schlussausschüttung, die Eingangsbestätigung der federalen Schlusserklärung und die Eingangsbestätigung der articles of dissolution. Diese kurzen, nach Schritten geordneten Notizen bilden anschliessend die übertragbare Schlussakte und ersparen die spätere Rekonstruktion der Sequenz.
+<!-- /exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-de -->
+
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Die exakte Sequenz, um eine LLC ohne lose Enden zu schließen
 
@@ -216,6 +244,52 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+
+<!-- exentax:lote9-native-v1:como-disolver-cerrar-llc-paso-a-paso -->
+## Wie eine ruhige Auflösung der LLC tatsächlich abläuft
+
+Die Auflösung der LLC ist häufig der Moment, an dem versteckte
+Schwachstellen der Strukturpflege sichtbar werden — fehlende
+BOI-Updates, ungeklärte Bankbewegungen, vergessene
+Form-5472-Pflichten. Eine ordentlich vorbereitete Auflösung
+spart in dieser Phase deutlich mehr Geld und Zeit, als sie
+kostet, weil sie diese Schwachstellen kontrolliert schliesst,
+statt sie aufzudecken, wenn keine Zeit mehr bleibt zu reagieren.
+
+In der Praxis verläuft die Auflösung am ruhigsten, wenn sie als
+Projekt mit klarer Reihenfolge behandelt wird: zuerst die
+operative Aktivität auslaufen lassen, dann die offenen
+Bankbewegungen abschliessen, dann die letzten US-Erklärungen
+einreichen, dann die Auflösungsdokumente bei der Behörde des
+US-Bundesstaats und schliesslich die Schliessung der Konten in
+abgestimmter Reihenfolge. Wer die Schritte vermischt, riskiert
+nicht das Endergebnis, aber er verlängert den Prozess unnötig.
+
+## Eine letzte Notiz
+
+Eine LLC korrekt zu schliessen ist kein Versagen; es ist eine
+strategische Entscheidung wie jede andere, und sie verdient
+dieselbe ruhige Vorbereitung wie ihre Eröffnung.
+
+<!-- /exentax:lote9-native-v1:como-disolver-cerrar-llc-paso-a-paso -->
+
+<!-- exentax:lote9-native-v1:como-disolver-cerrar-llc-paso-a-paso-bis -->
+## Eine kurze Schlussempfehlung
+
+Wir empfehlen, den Auflösungsprozess vom ersten Tag an mit einem
+einseitigen Zeitplan zu führen, der die wichtigsten Daten
+festhält. Diese einfache Massnahme genügt fast immer, um den
+Prozess ruhig und planbar zu halten.
+
+<!-- /exentax:lote9-native-v1:como-disolver-cerrar-llc-paso-a-paso-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Kritische Fehler nach LLC-Gründung, die niemand erklärt](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand)
+- [Jährliche LLC-Pflege: Pflichten, die Sie nicht ignorieren können](/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren)
+- [LLC-Wartungsanbieter wechseln ohne Historie oder Kontinuität zu verlieren](/de/blog/llc-wartungsanbieter-wechseln-ohne-historie-oder-kontinuitat)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

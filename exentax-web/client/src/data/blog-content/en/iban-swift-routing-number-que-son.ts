@@ -189,6 +189,14 @@ Our team specialises in international tax structures for residents of Spanish-sp
 
 This article is updated yearly with regulatory changes that affect the structures discussed. If you spot an outdated reference, write to us and we will revise it in the next editorial cycle; we keep the publication date visible at the top of every post for full transparency.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise, IBAN and LLC: what actually gets reported and what does not](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+- [Wise, banks and your LLC: the complete banking stack nobody explains](/en/blog/wise-banks-and-your-llc-the-complete-banking-stack-nobody)
+- [ACH vs wire transfer: payment timelines and impact on LLC cash flow](/en/blog/ach-vs-wire-transfer-timelines-for-your-llc)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

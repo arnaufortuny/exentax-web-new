@@ -118,6 +118,12 @@ Pour finir sur le concret, ce sont les erreurs que chez Exentax on voit se rép�
 
 Le Form 5472 est un des rares cas où le coût de **ne rien faire** est géométriquement supérieur au coût de bien faire. La base de 25 000 USD par année ne se discute pas; ce qui se discute, c'est **comment vous régularisez, dans quel ordre, avec quelle argumentation et quels risques collatéraux vous fermez en même temps**.
 
+<!-- exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-fr -->
+## Comment lire les conséquences de l'absence de dépôt du Form 5472 comme une cartographie stable plutôt que comme une menace vague
+
+Les conséquences de l'absence de dépôt du Form 5472 se lisent plus utilement comme une cartographie stable entre l'année concernée, le type d'omission et le type de remédiation, plutôt que comme une menace vague. Cette cartographie reste relisible en quelques minutes lors d'une conversation avec un fiscaliste.
+<!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Parlez à notre équipe</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -184,6 +190,22 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
+
+<!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-fr -->
+## Pourquoi la pénalité du Form 5472 escalade plus vite que d'autres dépôts tardifs
+
+La pénalité du Form 5472 a une structure qui escalade plus vite que la plupart des autres dépôts tardifs, et la raison tient au rôle de ce formulaire dans le régime américain plus large d'information. Le formulaire est conçu pour donner à l'IRS une vision propre des transactions entre parties liées impliquant des détenteurs étrangers, et le régime de pénalités reflète à quel point cette visibilité est centrale pour le système, plutôt que la complexité même du formulaire. Le montant de départ est fixé par formulaire et par année et s'applique que de l'impôt soit dû ou non, et il peut s'aggraver lorsque les rappels ne sont pas traités dans les fenêtres légales.
+
+Deux points pratiques réduisent l'essentiel de la friction. D'abord, des critères d'abatement existent lorsqu'il y a une cause raisonnable, et une narration calmement rédigée appuyée par les rappels d'agenda d'origine, la lettre d'engagement et la date de premier dépôt pèse en général davantage qu'une lettre plus longue rédigée sous pression plus tard. Ensuite, la mesure préventive la plus nette consiste à aligner le calendrier des rappels avec le cycle fédéral d'extension et à conserver un seul fichier de travail par année qui contient déjà la liste des transactions entre parties liées, de sorte que le formulaire lui-même se réduise à une étape finale de mise en forme.
+<!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-fr -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Form 5472 : ce que c'est, qui doit le déposer et comment se conformer](/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment)
+- [Rattraper une LLC avec BOI et 5472 en retard : procédure et priorités](/fr/blog/recuperer-une-llc-avec-boi-et-5472-en-retard-procedure)
+- [IRS 1120 et 5472 : ce que c'est et quand ça s'applique à votre LLC](/fr/blog/irs-1120-et-5472-ce-que-cest-vraiment-et-quand-ca-sapplique)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

@@ -89,6 +89,22 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
+<!-- exentax:lote24-native-v1:dac7-plataformas-digitales-reporting-2026-en -->
+## How to read DAC7 as a stable property of the platform reporting stack rather than as a recurring surprise
+
+DAC7 reads more calmly when it's treated as a stable property of the platform reporting stack rather than as a recurring surprise. The DAC7 standard defines who reports what to whom in a perimeter that doesn't change every year, and understanding the perimeter once is enough to anchor the annual exposure without repeating the analysis.
+
+## How to capture the DAC7 perimeter in a short written note
+
+The DAC7 perimeter captures more durably in a short, dated note that lists the reporting platform, the seller category and the year of first report. This note becomes the reference whenever any of the three values shifts in a later period.
+<!-- /exentax:lote24-native-v1:dac7-plataformas-digitales-reporting-2026-en -->
+
+<!-- exentax:lote32-native-v1:dac7-plataformas-digitales-reporting-2026-en -->
+## How to read DAC7 platform reporting as a stable yearly mapping rather than as a recurring concern
+
+DAC7 platform reporting reads more usefully when it's treated as a stable yearly mapping between the platform that hosted the activity, the country of residence of the seller and the threshold that triggered the report, than as a recurring concern. The mapping doesn't change year to year — only the volume on each platform moves, and a short dated note in the personal folder with the three axes makes the position reviewable in a few minutes during a tax conversation.
+<!-- /exentax:lote32-native-v1:dac7-plataformas-digitales-reporting-2026-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -133,6 +149,35 @@ At Exentax we tune your LLC configuration on each DAC7 platform so the report is
 ## How we work at Exentax
 
 Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
+
+<!-- exentax:lote12-native-v1:dac7-plataformas-digitales-reporting-2026 -->
+## Reading the DAC7 calendar without anxiety
+
+DAC7 looks intimidating from the outside, but it operates on a
+predictable annual rhythm. Platforms collect identifying data
+during the calendar year, run their own internal validation
+during the early weeks of the following year, and submit the
+consolidated report to the relevant tax authority by the
+deadline set by each member state — typically January 31. The
+tax authority then exchanges the data with the other relevant
+jurisdictions during the following months.
+
+For the LLC member, the practical implication is straightforward:
+the figures that the platforms hold today are the figures that
+will land on the tax administration's desk a few months later.
+A short quarterly review with the advisor — checking that the
+platform-side data matches the bookkeeping — keeps any
+inconsistency manageable while it is still trivial to correct.
+
+<!-- /exentax:lote12-native-v1:dac7-plataformas-digitales-reporting-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [DAC8 and crypto: automatic tax reporting of crypto-assets in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+- [Selling on Amazon with your US LLC: guide for international sellers](/en/blog/selling-on-amazon-with-your-us-llc-complete-guide-for)
+- [VAT on international digital services: when it applies and when it doesn't](/en/blog/vat-on-international-digital-services-when-it-applies-and)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

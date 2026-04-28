@@ -115,6 +115,14 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **CDT Espanha–EUA.** A convenção (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
 - **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 
+<!-- exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-pt -->
+## Como ler a questão do reporting Visa e Mastercard como um mapeamento estável em vez de um rumor recorrente
+
+A questão do reporting Visa e Mastercard à administração fiscal espanhola lê-se de forma mais serena como um mapeamento estável entre o tipo de cartão, o emissor do cartão, o país do emissor e o canal pelo qual a informação pode chegar à administração, do que como um rumor recorrente. As redes Visa e Mastercard não decidem por si próprias o que é reportado e a quem — o canal jurídico que efetivamente leva a informação é definido pela jurisdição do emissor e pelos acordos que lhe são aplicáveis. Esse mapeamento não muda de mês para mês.
+
+Uma nota curta no ficheiro pessoal que registe o tipo de cartão detido, o emissor, o país de emissão e o titular legal da conta subjacente transforma essa mesma questão em algo relevável em poucos minutos da próxima vez que voltar a aparecer.
+<!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -198,6 +206,47 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 ### Lembrete prático
 
 Cada situação fiscal depende da sua residência, da atividade exercida e dos contratos em vigor. As informações aqui apresentadas são gerais e não substituem aconselhamento personalizado; analise o seu caso específico antes de tomar decisões estruturais.
+
+<!-- exentax:lote9-native-v1:visa-mastercard-reporting-tarjetas-hacienda -->
+## O que o reporting Visa e Mastercard significa para a LLC
+
+O reporting de cartões é frequentemente confundido com o
+reporting CRS, mas são realidades distintas. As transacções Visa
+e Mastercard geram um fluxo detalhado de dados — comerciante,
+país, montante, momento — usado para análise de risco, disputas
+e prevenção de fraude. Este fluxo não é transmitido
+automaticamente às administrações fiscais.
+
+O que pode ser transmitido depende da conta a que o cartão está
+ligado, não do cartão em si. Um cartão ligado a uma conta
+sujeita a CRS na Europa entra no relatório anual dessa conta. Um
+cartão ligado a uma conta US da LLC segue o regime americano,
+que não faz parte do CRS.
+
+## Uma nota final
+
+Para a LLC, a pergunta correcta não é "o meu cartão é
+reportado?", mas sim "a que conta está ligado e qual o regime
+de reporting dessa conta?". Esta distinção transforma a decisão
+sobre cartões empresariais numa decisão serena e fundamentada.
+
+<!-- /exentax:lote9-native-v1:visa-mastercard-reporting-tarjetas-hacienda -->
+
+<!-- exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-pt -->
+## Como a informação dos cartões chega efetivamente à administração fiscal espanhola
+
+O fluxo de informação das redes de cartões para a administração fiscal espanhola é mais concreto do que por vezes parece. O ponto de partida é o banco ou instituição de pagamento espanhol que emite ou processa o cartão; a rede em si é o carril, não a parte que declara. Os emissores e adquirentes espanhóis enviam declarações informativas à Agencia Tributaria em ciclos regulares, e essas declarações contêm movimentos agregados por titular em vez do detalhe linha a linha, restaurante ou comércio, que os consumidores veem nos seus extratos. A informação que circula é portanto numérica e estrutural: totais, contrapartes ao nível do agregador de comerciantes e identificadores que permitem ligar os registos a uma pessoa ou empresa.
+
+Um segundo fluxo corre pelos canais internacionais de troca de informação, onde os dados sobre contas mantidas no estrangeiro são partilhados em formatos normalizados uma vez por ano. Um cartão associado a uma conta estrangeira participa indiretamente neste segundo fluxo porque a conta subjacente é reportável. Para um membro de LLC residente em Espanha, a conclusão prática é que existem dois canais paralelos, que se sobrepõem na mesma pessoa e que se reconciliam a médio prazo. A higiene mais simples é guardar os extratos dos cartões da LLC junto da contabilidade do ano, de forma a que qualquer questão posterior possa ser resolvida com uma página impressa e um número, sem ter de reconstituir o movimento de memória.
+<!-- /exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-pt -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Contas bancárias US: o que reporta cada entidade e como estruturar](/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade)
+- [Wise, IBAN e LLC: o que é realmente reportado às autoridades fiscais](/pt/blog/wise-iban-e-llc-o-que-realmente-e-reportado-as-autoridades)
+- [DAC8 e criptomoedas: o novo reporting fiscal automático em 2026](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

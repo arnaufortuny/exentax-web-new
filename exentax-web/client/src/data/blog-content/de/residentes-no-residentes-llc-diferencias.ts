@@ -119,6 +119,18 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
+<!-- exentax:lote33-native-v1:residentes-no-residentes-llc-diferencias-de -->
+## Wie sich die Unterscheidung Resident und Non-Resident als stabile Profil­karte statt als Status­diskussion lesen lässt
+
+Die Unterscheidung Resident und Non-Resident liest sich nützlicher als stabile Profil­karte zwischen dem Wohnsitz­land des wirtschaftlich Berechtigten, dem Vehikel und der Beziehung zwischen beiden denn als Status­diskussion. Diese Karte ändert sich nicht von Jahr zu Jahr, und eine kurze Notiz im persönlichen Ordner mit den drei Achsen macht die Position überprüfbar.
+<!-- /exentax:lote33-native-v1:residentes-no-residentes-llc-diferencias-de -->
+
+<!-- exentax:lote33-native-v1-bis:residentes-no-residentes-llc-diferencias-de -->
+## Warum die Notiz die Beziehung Person–Vehikel und nicht das Land isoliert festhält
+
+Die Notiz hält die Beziehung zwischen wirtschaftlich Berechtigtem und Vehikel fest und nicht das Land isoliert, weil die fiskalische Behandlung aus dieser Beziehung folgt.
+<!-- /exentax:lote33-native-v1-bis:residentes-no-residentes-llc-diferencias-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

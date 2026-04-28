@@ -154,7 +154,15 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:zero-tax-nuance-v1 -->
 ## Nuance importante sur le « zéro impôt »
 
-Une LLC bien structurée **ne génère pas d'impôt fédéral aux États-Unis** sur des revenus sans connexion effective avec le pays (no ECI). Ce n'est pas la même chose que « ne payer d'impôt nulle part ». En tant que propriétaire résident fiscal d'un pays avec règles CFC, transparence fiscale ou attribution de revenus (Espagne, Allemagne, France, Mexique, Argentine, Brésil, Portugal dans beaucoup de cas…), **le revenu net de la LLC est imputé ou imposé dans votre pays de résidence** au titre de l'exercice de génération ou de distribution, selon le régime local applicable. La planification légitime cherche à **éviter la double imposition** et à **déclarer correctement en résidence**, pas à l'éliminer. <!-- exentax:legal-facts-v1 -->
+Une LLC bien structurée **ne génère pas d'impôt fédéral aux États-Unis** sur des revenus sans connexion effective avec le pays (no ECI). Ce n'est pas la même chose que « ne payer d'impôt nulle part ». En tant que propriétaire résident fiscal d'un pays avec règles CFC, transparence fiscale ou attribution de revenus (Espagne, Allemagne, France, Mexique, Argentine, Brésil, Portugal dans beaucoup de cas…), **le revenu net de la LLC est imputé ou imposé dans votre pays de résidence** au titre de l'exercice de génération ou de distribution, selon le régime local applicable. La planification légitime cherche à **éviter la double imposition** et à **déclarer correctement en résidence**, pas à l'éliminer. <!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Nomade numérique : où payer ses impôts et comment choisir sa résidence fiscale](/fr/blog/nomade-numerique-ou-payer-ses-impots-et-comment-choisir-sa)
+- [Les comptes bancaires américains rapportent-ils à votre administration fiscale ?](/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre)
+- [Fiscalité Estonie : comment ça fonctionne](/fr/blog/fiscalite-estonie-comment-ca-fonctionne)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
 Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:

@@ -167,6 +167,20 @@ Fintech and CRS information evolves; here is the current state:
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [EIN tax number for your LLC: how to get it](/en/blog/ein-tax-number-for-your-llc-how-to-get-it)
+- [New Mexico vs Wyoming vs Delaware: which state for your LLC](/en/blog/new-mexico-vs-wyoming-vs-delaware-which-state-for-your-llc)
+- [Operating Agreement: what it is and why your LLC needs one](/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote21-native-v1:constituir-llc-proceso-paso-a-paso-en -->
+## How to read the LLC formation process as a single ordered sequence rather than a checklist
+
+The LLC formation process reads more clearly when it's treated as a single ordered sequence rather than as a checklist of independent items. The order matters because each step generates the document that the next step needs, and skipping or reordering steps usually means doing some of them twice.
+<!-- /exentax:lote21-native-v1:constituir-llc-proceso-paso-a-paso-en -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
 

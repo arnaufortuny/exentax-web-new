@@ -177,6 +177,14 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 
 Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [DAC7: the new digital-platform reporting affecting your business in 2026](/en/blog/dac7-the-new-digital-platform-reporting-affecting-your)
+- [LLC taxation by activity: services, e-commerce, SaaS, royalties, trading](/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

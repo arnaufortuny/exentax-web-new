@@ -190,6 +190,14 @@ Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noo
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Fiscalité estonienne : comment fonctionne vraiment l'OÜ et l'e-Residency](/fr/blog/fiscalite-estonie-comment-ca-fonctionne)
+- [Pourquoi ne pas ouvrir une entreprise en Estonie : la LLC l'emporte](/fr/blog/pourquoi-ne-pas-ouvrir-une-entreprise-en-estonie-la-llc)
+- [Pourquoi ouvrir une LLC aux États-Unis en 2026 : les 5 piliers clés](/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22hong%20kong%20offshore%20realidad%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

@@ -131,9 +131,6 @@ The realistic recommendation: **Mercury + Relay as backup + Slash for ad operati
 
 Fintech and CRS information evolves; here is the current state:
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/en/book">Free consultation, no strings attached</a>
-<!-- /exentax:calc-cta-v1 -->
 
 ### Notes by provider
 
@@ -184,6 +181,388 @@ At Exentax we open Wise Business + Mercury in package and configure each by func
 ## Wise in the context of your financial operations
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
+
+
+<!-- exentax:lote7-native-v1:wise-business-llc-guia -->
+## Practical decision matrix: when Wise should be in your stack
+
+Most LLC owners don't actually need a single bank — they need a small,
+well-aligned set of accounts that does three things calmly: receive
+payments from clients, hold funds in the right currency, and move money
+to the personal side without friction. Wise Business sits in that
+picture as the multi-currency layer, not as a replacement for the
+domiciliary US bank. Below is the matrix we use with most clients to
+decide whether Wise should join the stack as the second or third tool.
+
+| Profile                                          | Mercury | Relay | Wise Business | Stripe |
+|--------------------------------------------------|---------|-------|---------------|--------|
+| US clients only, ACH-heavy                       | core    | —     | optional      | if web |
+| EU + LATAM clients, multi-currency invoices      | core    | —     | core          | core   |
+| Very low movement, mostly card spend             | core    | —     | optional      | —      |
+| Marketplace payouts in EUR/GBP                   | core    | —     | core          | —      |
+| Bookkeeping/automation focus                     | optional| core  | optional      | core   |
+
+The pattern is consistent: Wise becomes essential the moment EU clients
+or EUR/GBP invoices enter the picture, because the IBAN-style details
+remove friction for the payer and the FX cost is materially closer to
+the mid-market rate than what a US correspondent bank would deliver.
+
+## Real client cases (anonymised)
+
+A bilingual consultant working from Barcelona for German and French
+clients invoices roughly half in EUR and half in USD. With Mercury as
+the domicile and Wise Business as the EUR/GBP layer, the conversion
+cost dropped to a fraction of what the previous Stripe + foreign-bank
+flow used to cost. The accounting side also simplified: each currency
+holds its own balance, and the conversion to USD only happens when the
+member draws funds.
+
+A Florida-incorporated services LLC with a Wise card for ad spend
+keeps Mercury as the operational account and uses Wise only for FX +
+card. The card is treated as a tool for ad budgets and SaaS, never as
+the main spending vehicle. That separation makes the bookkeeping
+trivial and the AML conversation with the bank predictable.
+
+## Common mistakes to avoid with Wise Business
+
+- Treating Wise as the primary US bank. It is a money-services
+  provider on top of partner banks; it does not replace Mercury or
+  Relay for ACH/wire patterns and recurring biller relationships.
+- Mixing personal Wise and Wise Business. The two are different legal
+  relationships; do not move funds between them as if they were one
+  account.
+- Skipping the source-of-funds note in the first transfer. A short
+  written explanation kept on file prevents most second-round KYC
+  questions later.
+- Holding large idle balances in many currencies. Wise pays interest
+  on some balances but it is not a treasury vehicle; keep working
+  balances and sweep excess to the operating account.
+
+## Checklist before going live with Wise Business
+
+- LLC formation documents and EIN letter (CP575) on hand for upload.
+- Mercury or Relay opened first as the domiciliary US account.
+- Member ID document matches the address on the LLC's BOI submission.
+- Source-of-funds one-pager prepared and kept in the LLC's compliance
+  folder.
+- Bookkeeping rule: Wise balances reconcile to the operating ledger
+  at month-end, by currency.
+
+We treat Wise Business as the multi-currency lung of the LLC: it
+breathes in payments from EU clients, breathes out payouts to the
+member, and the rest of the stack handles US-side gravity.
+
+<!-- /exentax:lote7-native-v1:wise-business-llc-guia -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/en/book">Free consultation, no strings attached</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote7-native-v1:wise-business-llc-guia-bis -->
+## Wise Business across the LLC's life: a longer view
+
+Most of the operational questions about Wise Business arrive at three
+specific moments in the LLC's life: when opening the account during
+the first year, when the LLC has its first significant cash flow
+spike, and when a member relocates or the activity widens to new
+client countries. Each moment asks a different version of the same
+question, and the answer changes the way the account is used.
+
+In year one, the priority is identity coherence. The LLC has a fresh
+EIN, a single member of record, and a US registered agent address
+that is operational rather than residential. Wise Business onboarding
+expects all of these to line up: the LLC name on the formation
+document, the EIN letter (CP575) ID, the registered agent address as
+the LLC's seat, and the member's personal residence as the
+beneficial-owner data. Submitting a clean bundle in year one removes
+most of the friction that shows up later as second-round questions.
+
+When the first cash flow spike arrives, typically in months six to
+twelve, the priority changes from identity to narrative. A larger
+incoming wire from a new client, a marketplace payout three times
+the previous monthly average, or a single round of accumulated
+invoices flowing through in one batch can all trigger a soft review.
+The fix is the same one we use for second-round KYC in general: a
+short cover note attached to the relevant inbound, naming the
+counterparty, the underlying contract or invoice, and the expected
+cadence going forward. With Wise's web interface the note is a
+two-minute job, and it shifts the file from "anomaly to investigate"
+to "documented variation".
+
+When a member relocates or the activity widens, the priority becomes
+profile coherence. Wise will eventually pick up signals of the new
+geography: device location, card-spend patterns, IP origins of the
+logins. If the registered residence on file does not catch up with
+those signals, the account becomes a candidate for re-onboarding in
+the new jurisdiction. We pre-empt that by updating the residence the
+moment the move is real, attaching a short evidentiary note (rental
+contract, registration certificate or equivalent) and confirming the
+member ID document still matches.
+
+## A 12-month operational rhythm with Wise Business
+
+| Month range  | Action                                                  |
+|--------------|---------------------------------------------------------|
+| Jan-Feb      | Refresh user data; confirm residence; export prior-year |
+|              | annual report                                           |
+| Mar-Apr      | Reconcile balances by currency to the operating ledger  |
+| May-Jun      | Attach cover notes to any large new client cohort       |
+| Jul-Aug      | Mid-year FX policy review; sweep idle balances if any   |
+| Sep-Oct      | Pre-renewal of supporting documents (passports, etc.)   |
+| Nov-Dec      | Year-end snapshot; export statements; archive in        |
+|              | compliance folder                                       |
+
+This rhythm replaces the "react when something happens" pattern with
+a quiet, predictable cadence. The bookkeeping team knows what to
+expect; the bank's compliance team sees a profile that ages well.
+
+## Two more real-world Wise Business cases
+
+A Spanish-resident member running a US-incorporated SaaS LLC kept
+Wise Business as the EUR/GBP layer for European clients. After a
+partnership announcement that briefly inflated the volume, the
+account stayed clean because the member proactively uploaded the
+partnership press release and the underlying contract before the
+first wire arrived. No KYC interruption, no payout delay.
+
+A consultant who relocated from one EU country to another at year-
+end updated the Wise Business residence on day one of the move,
+attached a short cover note explaining the move and the unchanged
+LLC activity, and continued operating without a re-onboarding cycle.
+The home tax administration of the new country received the standard
+DAC2/CRS report at year-end and matched the user's annual
+declaration.
+
+## Things to never do with Wise Business
+
+- Ignore a documentation request and "wait it out". The longer a
+  Wise notification sits open, the heavier the eventual review.
+- Use the personal Wise app to log into Wise Business or vice versa
+  with mixed identity data. Two relationships, two identities.
+- Park large idle balances and treat the multi-currency holding as a
+  treasury vehicle. It is not designed for that role.
+- Use the card for cash withdrawals beyond minimal one-off amounts;
+  cash patterns drive AML scoring up disproportionately.
+
+## Bringing it together
+
+Wise Business done well is the calm part of a calm LLC. The setup is
+small, the rhythm is predictable, and the compliance picture is
+self-documenting because each operation either fits the established
+profile or carries a one-paragraph note explaining the variation. We
+treat it that way with every client and the long-term result is a
+banking relationship that stays out of the way of the business
+rather than competing with it for attention.
+
+<!-- /exentax:lote7-native-v1:wise-business-llc-guia-bis -->
+
+<!-- exentax:lote7-native-v1:wise-business-llc-guia-ter -->
+## A deeper read of the Wise Business stack for LLCs
+
+Beyond the role tables and the operational rhythm, three structural
+characteristics of Wise Business deserve a closer reading because
+they shape how the LLC ages over time: the partner-bank model
+underneath the brand, the multi-currency holding mechanism, and the
+data exchange that flows between Wise and the home tax administration
+of the user.
+
+The partner-bank model means that Wise Business is the customer-
+facing layer over a network of regulated institutions in different
+jurisdictions. The practical consequence for an LLC is that the
+"bank" you actually transact with for a given currency may differ
+between USD, EUR and GBP. Wire instructions, beneficiary lookups,
+and KYC requests all reflect that. We map this for every client at
+onboarding so the bookkeeping side knows which institution to expect
+on each currency rail.
+
+The multi-currency holding mechanism is the core operational asset
+for an LLC working across continents. Each currency holds its own
+balance, with its own routing details where applicable, and the
+conversion is explicit when the user triggers it. Compared to
+single-currency US bank accounts that auto-convert at internal rates,
+the Wise model lets the LLC hold revenue in the currency of the
+client until a deliberate conversion. That alone often saves more
+across a year than the entire account fee structure costs.
+
+The data exchange piece is the part most LLCs underestimate at the
+beginning. Wise produces annual user reports and, where applicable,
+participates in DAC2/CRS exchange. The user data on file becomes the
+data the home tax administration sees once a year. Keeping the
+residence, the tax ID and the contact channel current is therefore
+not a UI exercise; it is the actual mechanism that determines
+whether the year-end report tells the right story.
+
+## When Wise Business is the wrong tool
+
+Wise Business is excellent in many situations and not the right tool
+in some. We say "no" to it when:
+
+- The LLC needs persistent ACH-pull relationships with US billers
+  that prefer routing on a domiciliary US bank only.
+- The activity involves cash deposits or cash withdrawals as a
+  meaningful share of the flow.
+- Treasury-style holding of large idle balances across many
+  currencies is the goal; that is a treasury workflow, not a
+  Wise Business workflow.
+- The member's home country places restrictions on the use of
+  fintech accounts for business purposes that override the LLC's
+  preferences.
+
+In all those cases, Mercury or Relay tend to be the right primary,
+with Wise added later as a focused multi-currency layer if the
+client mix evolves.
+
+## A larger 24-month timeline view
+
+| Phase                | What we expect                                          |
+|----------------------|---------------------------------------------------------|
+| Onboarding           | Documents validated within 5-15 business days, depending|
+|                      | on jurisdiction                                         |
+| Months 0-6           | Soft observation period; profile is being calibrated   |
+| Months 6-12          | First annual report; first KYC refresh window           |
+| Months 12-18         | Stable cadence; cost-of-stack review; FX optimisation   |
+| Months 18-24         | Second annual report; profile considered "aged"         |
+
+After 24 months of clean operation, the relationship enters a phase
+of low-friction maintenance. Disruptions become less common, and the
+account history itself starts to act as a soft credibility asset for
+new client onboardings (when the LLC needs to demonstrate banking
+seniority for, say, a marketplace partnership or an enterprise
+procurement check).
+
+## Two more failure modes to avoid
+
+- Treating the Wise Business chat as the primary operational record.
+  Decisions discussed in chat must be reflected in the LLC's own
+  paperwork; the chat is helpful but it is not the ledger.
+- Using one Wise Business account across two LLCs. Each LLC needs
+  its own account; sharing one is a structural mistake that
+  generates avoidable compliance noise.
+
+## Bringing the deeper view to operations
+
+The deeper view is not a different account; it is a different way of
+reading the same account. Once the partner-bank model, the
+multi-currency mechanism and the data exchange piece are understood
+in writing, the operational side becomes mostly automatic and the
+review cycles become predictable. We carry that view through every
+quarterly check-in and every annual close, because it is what keeps
+the Wise Business piece quiet over years rather than months.
+
+<!-- /exentax:lote7-native-v1:wise-business-llc-guia-ter -->
+
+<!-- exentax:lote7-native-v1:wise-business-llc-guia-quater -->
+## Wise Business viewed from the LLC's accounting team
+
+Most of what we have written so far looks at Wise Business from the
+member's perspective. Equally important is how the account is
+experienced by the LLC's accounting team, because they are the ones
+who carry the structure forward year over year and whose work is
+either made easier or made harder by the choices made at setup.
+
+The first observation is that Wise Business produces structured
+exports in formats that integrate cleanly into modern bookkeeping
+systems. CSV statements, transaction-level detail, and
+counterparty-stamped lines reduce the manual entry that older bank
+exports forced into accounting workflows. When we set up the LLC's
+chart of accounts, we map the Wise account explicitly to a separate
+ledger account and we tag the multi-currency sub-balances so the
+month-end conversion variance is visible rather than buried.
+
+The second observation is that the multi-currency model surfaces a
+small but recurring decision: when to convert and when to hold. We
+write a short, plain-language internal policy with each client (one
+paragraph: "We hold up to X in EUR/GBP for forecast outflows; above
+X we convert at month-end") so the conversion choice is rule-based
+rather than discretionary. This single document removes the most
+common source of friction between the member and the bookkeeper at
+year-end, and it documents the FX outcome in a way that survives a
+team change.
+
+The third observation is that the Wise Business audit trail is
+particularly clean for inter-account transfers within the LLC's own
+stack: from Wise to Mercury or Relay, from Mercury back into Wise
+for FX reasons, and so on. Each leg has its own statement entry on
+both sides; reconciling the inter-account portion of the LLC's books
+becomes a mostly automatic exercise once the labels are in place.
+
+| Bookkeeping touchpoint                  | Wise Business contribution            |
+|-----------------------------------------|---------------------------------------|
+| Monthly bank reconciliation             | Structured CSV, counterparty-stamped  |
+| Multi-currency P&L                      | Sub-balance per currency, explicit FX |
+| Inter-account transfers                 | Symmetric entries on both ends        |
+| Annual close                            | Year-end snapshot + clean export      |
+| Audit support                           | Per-transaction PDF receipt available |
+
+## How we onboard a new bookkeeper to a Wise Business account
+
+When a new bookkeeper joins an LLC, the handoff for Wise Business
+follows a fixed sequence we have refined over many onboardings:
+
+1. We give the bookkeeper read-only access (or a defined operational
+   role) on the platform; never the member's own credentials.
+2. We share the internal note that documents the role of each
+   account in the stack (Wise = multi-currency layer, Mercury =
+   primary US operating, Relay = bookkeeping sub-accounts, Stripe =
+   merchant inbound). One page, no ambiguity.
+3. We share the FX policy paragraph mentioned above and the
+   month-end checklist used in the prior period.
+4. We pair on the first month-end together, walking through one
+   reconciliation cycle in real time, so the bookkeeper sees the
+   structure rather than just inheriting a pile of files.
+
+This sequence is one of the operational quietness multipliers in a
+well-run LLC. The Wise Business account becomes a known quantity
+to a new team member in a single afternoon rather than a discovery
+process spread over weeks.
+
+## A short note on long-tail edge cases
+
+Three edge cases come up rarely but, when they do, they benefit from
+a calm, prepared response:
+
+- A wire arrives in a currency the LLC does not yet hold. Wise
+  auto-creates a balance in that currency; we treat the arrival as
+  a "new currency event" and record it explicitly in the next
+  month-end note.
+- A counterparty asks for a wire in a currency the LLC does not yet
+  send. We test with a small amount first, document the receipt
+  confirmation from the counterparty, and only then route the larger
+  payment.
+- A scheduled payment fails for a non-business reason (bank holiday
+  cascade, beneficiary detail change). We rerun on the next business
+  day, attach the original failure notice and the resolution note,
+  and the audit trail closes itself.
+
+## What "ready for the next year" looks like
+
+A Wise Business account is "ready for the next year" when, on
+December 31, the year-end snapshot reconciles to the LLC's books,
+the prior-year statements are archived, the user data on file is
+current, and the FX policy has been reviewed for any changes in the
+client mix. None of these steps is heavy individually; their value
+comes from doing them in the same order, every year, without
+exception.
+
+## Closing thought
+
+The Wise Business piece is rarely the loudest part of the LLC's
+financial life, and that is exactly the goal. Done with care, it is
+a quiet, structured, multi-currency layer that disappears from the
+member's daily attention while continuing to serve the cross-border
+nature of the activity. We treat this quietness as a deliverable,
+not as the absence of work.
+
+<!-- /exentax:lote7-native-v1:wise-business-llc-guia-quater -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise and banks for your LLC: the complete banking stack](/en/blog/wise-banks-and-your-llc-the-complete-banking-stack-nobody)
+- [Wise IBAN and LLC: what actually gets reported to the tax authority](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+- [Changing currencies for your LLC: best options without hidden fees](/en/blog/changing-currencies-for-your-llc-best-options-and-how-to)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

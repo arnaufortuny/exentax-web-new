@@ -185,6 +185,91 @@ Field note from running this for clients month after month: the rule is straight
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
+<!-- exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+## What a second-round KYC actually checks
+
+A second KYC round is rarely the bank doubting you personally. It is a
+periodic process the compliance team runs when an account profile and
+its real movements stop matching: an LLC opened with a "consulting,
+low-volume" stated use that now receives marketplace payouts, or a
+member listed as Spanish tax resident whose card spend looks centred
+in another jurisdiction. The bank is updating its model of the
+client, and the documents they ask for are aimed at confirming that
+the model still fits.
+
+Three buckets cover most second-round requests:
+
+| Bucket                  | What the bank really wants                              |
+|-------------------------|---------------------------------------------------------|
+| Source of funds         | Where the money you are bringing in actually originates |
+| Source of wealth        | How the member built the wealth that capitalises the LLC|
+| Use of the account      | What the LLC will actually do during the next 12 months |
+
+Once the question is read in those three buckets, the answer becomes
+a short, structured paper rather than a stack of disconnected files.
+
+## Three real cases we ran with clients
+
+A bilingual designer LLC received a second-round request after a
+spike in EUR payouts from a marketplace. The cleanup was a one-page
+narrative naming the marketplace, the typical client country mix,
+the payout cadence, and three sample invoices. No new structure, no
+new account, no drama. The compliance team marked the file complete
+within ten business days.
+
+A consulting LLC with a single large institutional client got a
+second-round letter the week the first invoice cleared. The answer
+was a copy of the master services agreement, the corresponding wire
+trace, and a short note explaining that the client expected
+quarterly invoicing of similar size. The relationship continued
+without any change to the account.
+
+A services LLC operating from Florida received a request after a
+large internal transfer between member-owned accounts. We re-titled
+that movement explicitly as a member draw, attached the corresponding
+ledger entry, and added a forward-looking note on how member draws
+would be handled going forward. The bank closed the request and the
+client kept the operational rhythm.
+
+## Mistakes that turn a calm review into an ugly one
+
+- Sending PDFs without a cover note. Documents alone read as evidence
+  for an unstated thesis; banks want the thesis in one paragraph
+  first, then the evidence.
+- Re-explaining the LLC structure from scratch when the bank already
+  has it. Anchor the answer in what changed since onboarding, not in
+  what they already filed.
+- Mixing personal and business documents in the same upload. Each
+  upload should be a tight, named bundle.
+- Promising future behaviour and then doing the opposite. Banks
+  reread the file; consistency is what shortens the next review.
+
+## Source-of-funds one-pager template
+
+- Member background: nationality, tax residence, professional
+  history (two lines).
+- LLC purpose: stated activity, country mix of clients, monthly
+  expected revenue band.
+- Capitalisation: how the initial funds entered the LLC and from
+  where.
+- Operational rhythm: typical inbound and outbound patterns over a
+  representative quarter.
+- Forward note: any expected change in the next 12 months.
+
+We treat the second-round KYC as a normal hygiene event rather than a
+threat. Done well, it is the single best reinforcement of the LLC's
+banking history and the cheapest insurance against future blocks.
+
+<!-- /exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Banking due diligence for your US LLC: what banks check, calmly explained](/en/blog/banking-due-diligence-for-your-us-llc-what-banks-check-and)
+- [AML compliance for your LLC: what you actually need to know](/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need)
+- [Traditional banks vs fintech for your LLC: where it actually makes sense to open](/en/blog/traditional-banks-vs-fintech-for-your-llc-where-to-open-your)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22If%20you%20have%20had%20your%20LLC%20for%20a%20while%20and%20Mercury%2C%20Wise%20or%20your%20payment%20proces%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

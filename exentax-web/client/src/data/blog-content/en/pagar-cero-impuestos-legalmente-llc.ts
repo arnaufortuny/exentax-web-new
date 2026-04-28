@@ -167,6 +167,12 @@ Applying any of these rules to your specific case depends on your tax residency,
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote33-native-v1:pagar-cero-impuestos-legalmente-llc-en -->
+## How to read the "pay zero tax legally" question as a stable structural mapping rather than as a tax-rate target
+
+The "pay zero tax legally" question reads more usefully when it's treated as a stable structural mapping between residence, value creation and customers, than as a tax-rate target. The mapping doesn't shift with marketing trends, and a short dated note in the personal folder with the three axes is enough to keep the position reviewable.
+<!-- /exentax:lote33-native-v1:pagar-cero-impuestos-legalmente-llc-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -183,7 +189,27 @@ Fintech and CRS information evolves; here is the current state:
 <!-- exentax:zero-tax-nuance-v1 -->
 ## Important nuance on "zero tax"
 
-A properly structured LLC **generates no US federal tax** on income that is not effectively connected with the United States (no ECI). That is not the same as "paying no tax anywhere". As an owner who is tax resident in a country with CFC, tax-transparency or income-attribution rules (Spain, Germany, France, Mexico, Argentina, Brazil, Portugal in many cases…), **the LLC's net income is attributed or taxed in your country of residence** in the year it is generated or distributed, under the applicable local regime. Legitimate planning seeks **no double taxation** and **correct reporting at residence**, not elimination. <!-- exentax:legal-facts-v1 -->
+A properly structured LLC **generates no US federal tax** on income that is not effectively connected with the United States (no ECI). That is not the same as "paying no tax anywhere". As an owner who is tax resident in a country with CFC, tax-transparency or income-attribution rules (Spain, Germany, France, Mexico, Argentina, Brazil, Portugal in many cases…), **the LLC's net income is attributed or taxed in your country of residence** in the year it is generated or distributed, under the applicable local regime. Legitimate planning seeks **no double taxation** and **correct reporting at residence**, not elimination. <!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Digital nomad: where to pay taxes and how to choose your tax residency](/en/blog/digital-nomad-where-to-pay-taxes-and-how-to-choose-your-tax)
+- [Do US bank accounts report to your home tax authority?](/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the)
+- [Estonia taxation: how it really works](/en/blog/estonia-taxation-how-it-really-works)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote20-native-v1:pagar-cero-impuestos-legalmente-llc-en -->
+## How to read "zero tax" claims about LLCs without losing the residency anchor
+
+Claims about "paying zero taxes legally with an LLC" read more honestly when the residency anchor is kept in view. An LLC's federal pass-through nature means the result depends, for the member, on the rules of the country where the member is tax-resident. Reading the claim without that anchor produces conclusions that don't survive the first domestic return.
+
+A useful approach is to translate any "zero tax" claim into the concrete combination it assumes: which LLC structure, which member residency, which type of income, which declaration framework. The combinations that genuinely lead to a low effective rate are far fewer than the headlines suggest, and they require a stable setup over time.
+
+## How to anchor the analysis in the actual residency profile
+
+The analysis anchors more usefully in the actual residency profile when the rules of the resident country are read first and the LLC is read second. This order avoids designing a structure that relies on assumptions about the LLC's federal treatment without checking how those assumptions land in the resident country's framework.
+<!-- /exentax:lote20-native-v1:pagar-cero-impuestos-legalmente-llc-en -->
+
+<!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
 
 FinCEN and IRS reporting requirements moved recently; the current state is:

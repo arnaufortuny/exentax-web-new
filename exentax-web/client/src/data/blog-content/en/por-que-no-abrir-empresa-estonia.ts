@@ -287,6 +287,14 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 
 <!-- related-inline-stripped-2026-04 -->
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Estonia taxation: how the OÜ and e-Residency really work](/en/blog/estonia-taxation-how-it-really-works)
+- [Why open a US LLC in 2026: the 5 pillars of the American advantage](/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Estonia's%20e-Residency%20program%20attracts%20digital%20entrepreneurs%20with%20promises%20of%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

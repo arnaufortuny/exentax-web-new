@@ -140,6 +140,12 @@ Andorra is a serious option, not a trick. For entrepreneurs and professionals wi
 
 For profiles not wanting to move, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> solves corporate optimization without needing to change country. For those willing to take the step, the combination of Andorran residency + US LLC is one of the most efficient structures we see.
 
+<!-- exentax:lote29-native-v1:crear-empresa-andorra-ventajas-en -->
+## How to read the Andorra company question as a profile mapping rather than as a brand promise
+
+The Andorra company question reads more usefully when it's treated as a profile mapping between the country of tax residence of the beneficial owner, the country where value is created and the country of customers, than as a brand promise. The mapping is stable: it doesn't change with the season.
+<!-- /exentax:lote29-native-v1:crear-empresa-andorra-ventajas-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -195,6 +201,14 @@ _More on this topic: [Bulgaria 10% corporate tax: the honest picture](/en/blog/b
 
 <!-- related-inline-stripped-2026-04 -->
 
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Why open a US LLC in 2026: the 5 pillars of the American advantage](/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

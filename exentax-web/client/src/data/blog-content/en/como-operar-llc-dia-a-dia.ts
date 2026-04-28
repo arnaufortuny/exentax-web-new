@@ -303,6 +303,14 @@ At Exentax we leave the client with an LLC operating manual fit to their flow, s
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [I have a US LLC, am I managing it right? A real checklist](/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist)
+- [Separating personal and LLC finances: why it matters and how to do it](/en/blog/separating-personal-and-llc-finances-why-it-matters)
+- [Document fund separation in your LLC with history: real procedure](/en/blog/document-fund-separation-in-your-llc-with-history-real)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

@@ -152,6 +152,14 @@ _Dans la même série: [Structures offshore: bénéfices réels et risques honn�
 Vous souhaitez appliquer ce protocole à votre cas? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Concevoir une structure fiscale internationale solide : étape par étape](/fr/blog/conception-dune-structure-fiscale-internationale-solide)
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+- [Structure fiscale optimale pour freelances internationaux : cadre complet](/fr/blog/structure-fiscale-optimale-pour-les-freelancers)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

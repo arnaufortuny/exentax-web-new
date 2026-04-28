@@ -108,6 +108,22 @@ Die vernünftige Schlussfolgerung lautet weder "Wise ist schlecht" noch "die LLC
 
 Bei Exentax arbeiten wir genau an dieser Schnittstelle: <a href="/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten">US-LLC</a> aufsetzen, entscheiden, <a href="/de/blog/traditionelle-banken-vs-fintech-fur-ihre-llc-wo-ihr-konto">welche Bank oder Fintech</a> als Haupt- und welche als Sekundärkonto sinnvoll ist, antizipieren, was über <a href="/de/blog/crs-fur-ansassige-in-spanien-und-lateinamerika-reale">CRS</a> an Ihre nationale Behörde gemeldet wird, und das Ganze so konstruieren, dass der Baustein Wise (oder <a href="/de/blog/revolut-business-und-crs-was-ihrer-steuerbehorde-gemeldet">Revolut Business</a> oder ein anderer) ohne Überraschungen passt. Wir vertiefen das in <a href="/de/blog/gestaltung-einer-soliden-internationalen-steuerstruktur">Gestaltung einer soliden internationalen Steuerstruktur</a>.
 
+<!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
+## Warum die IBAN eines an eine LLC gebundenen Kontos eine eigene Referenzkarte verdient
+
+Eine an eine LLC gebundene IBAN verdient eine eigene Referenzkarte, getrennt von den übrigen Bankdokumenten, weil sie das Element ist, das am häufigsten in Abstimmungen und grenzüberschreitenden Kontrollen auftaucht. Die Karte muss nicht komplex sein: sie nennt die genaue Kontoinhaberin oder den genauen Kontoinhaber, die Ausgabejurisdiktion der IBAN, die Rolle des Kontos im Banken-Stack und das Eröffnungsdatum. Diese vier Informationen reichen aus, um den überwiegenden Teil der möglichen Fragen rasch zu beantworten.
+
+Der Nutzen dieser Karte zeigt sich vor allem, wenn eine Behörde um Klärung bittet: anstatt die Information aus mehreren Quellen rekonstruieren zu müssen, wird eine bereits kohärente und in sich tragende Karte übermittelt, was das Gespräch rasch abschliesst.
+<!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
+
+<!-- exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
+## Wie sich die Frage, was ein von einer LLC gehaltener Wise-IBAN an die Steuerbehörde meldet, als stabiles Mapping statt als wiederkehrende Unsicherheit lesen lässt
+
+Die Frage, was ein von einer LLC gehaltener Wise-IBAN an die spanische Steuerbehörde meldet, liest sich ruhiger als stabiles Mapping zwischen Kontotyp, Kontoinhaber und dem Land, dessen Behörde den Austauschkanal speist, denn als wiederkehrende Unsicherheit. Was gemeldet wird und an wen, ändert sich nicht von Monat zu Monat.
+
+Eine kurze Notiz im LLC-Ordner, die den bei Wise eröffneten Kontotyp, den rechtlichen Inhaber, das Land des IBAN und den dafür geltenden Austauschkanal festhält, macht dasselbe Mapping in wenigen Minuten nachlesbar, statt es bei jeder Wiederkehr der Frage erneut aus dem Gedächtnis rekonstruieren zu müssen — sei es bei einer Prüfung oder einem Beratungstermin.
+<!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -175,6 +191,75 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
   ### Was der belgische Wise-IBAN für deutsche Steuerpflichtige konkret bedeutet
 
   Wise Business stellt allen Geschäftskunden in der Eurozone seit 2024 einen **belgischen IBAN (BE)** aus, weil die Wise Europe SA in Brüssel als belgische E-Geld-Institution unter NBB-Aufsicht (Nationale Bank von Belgien) firmiert. Für deutsche LLC-Inhaber heißt das: das Wise-Konto unterliegt dem **belgischen CRS-Reporting** nach DAC2 (Ihnen. 2014/107/EU), das automatisch jährlich an das **deutsche Bundeszentralamt für Steuern (BZSt)** und damit an das zuständige Wohnsitzfinanzamt weitergeleitet wird. Zusätzlich besteht die nationale Meldepflicht nach **§138 Abs. 2 AO** ans Finanzamt innerhalb von 5 Monaten nach Jahresende, wenn der Saldo durchschnittlich €100.000 übersteigt.
+
+
+<!-- exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda -->
+## Was die Wise-IBAN aus Sicht des Reportings wirklich ändert
+
+Die Wise-IBAN ist nicht das Reporting-Profil der LLC: sie ist die
+Adresse, an die das Geld gelangt. Das Reporting-Profil entsteht aus
+der Adresse des Mitglieds, das bei Wise hinterlegt ist, in
+Verbindung mit dem CRS-System des Wohnsitzlandes. Wenn das
+Mitglied in Spanien steuerlich ansässig ist, sieht die spanische
+Steuerbehörde die Wise-Salden über CRS, unabhängig davon, wo der
+IBAN-Header technisch lokalisiert ist.
+
+Die nüchterne Konsequenz daraus ist, dass die richtig geführte
+LLC die Wise-IBAN nicht als Verschleierungsinstrument behandelt,
+sondern als operatives Werkzeug, dessen Sichtbarkeit gegenüber dem
+Wohnsitzland des Mitglieds vorhersehbar ist. Die jährliche
+spanische Erklärung — Modelo 720, falls die Schwelle überschritten
+wird — und die Buchhaltung der LLC auf US-Seite müssen
+übereinstimmen, damit das System ruhig läuft.
+
+In der Praxis bedeutet das: das hinterlegte Wise-Profil bleibt
+aktuell, die Heimaterklärung des Mitglieds spiegelt die Wise-Salden
+und -Bewegungen, und die Buchhaltung der LLC zeichnet die
+Wise-Bewegungen mit klaren Etiketten auf. Die Reporting-Schichten
+sprechen dann dieselbe Sprache, und die Wise-IBAN bleibt das, was
+sie sein soll: ein bequemes operatives Werkzeug innerhalb eines
+vollständig sichtbaren Stacks.
+
+<!-- /exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda -->
+
+<!-- exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda-bis -->
+## Eine kurze Schlussnotiz
+
+Die richtig geführte Wise-IBAN passt sich in einen vollständig
+sichtbaren Stack ein und gewinnt dadurch an Stabilität. Was sie
+verliert — die Illusion einer Verschleierung — hatte ohnehin
+keinen praktischen Wert, weil CRS und Heimaterklärung diese
+Sichtbarkeit ohnehin herstellen.
+
+<!-- /exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda-bis -->
+
+<!-- exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda-ter -->
+## Eine zusätzliche Bemerkung zur Wise-IBAN
+
+Die Wise-IBAN ändert das Reporting nicht, aber sie verändert die
+Geschwindigkeit, mit der EUR- und GBP-Eingänge in die Buchhaltung
+der LLC einfliessen. Diese Geschwindigkeit ist der eigentliche
+Mehrwert, nicht ein angeblicher Sichtbarkeitsvorteil; und sie
+funktioniert nur dauerhaft, wenn die hinterlegten Daten exakt zum
+Bankprofil und zur Heimaterklärung des Mitglieds passen.
+
+<!-- /exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda-ter -->
+
+<!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-de-bis -->
+## Wie sich die Referenzkarte über die Jahre konsistent halten lässt
+
+Die Referenzkarte zur IBAN bleibt über die Jahre konsistent, wenn sie an einem einzigen Ort abgelegt wird und einer kurzen jährlichen Aktualisierungsroutine folgt. In der Praxis genügt es, einmal pro Jahr beim Jahresabschluss zu prüfen, ob die vier Felder noch der Realität des Kontos entsprechen.
+
+Diese kleine jährliche Geste vermeidet, dass sich Diskrepanzen ansammeln, die sich erst dann zeigen, wenn jemand die Karte tatsächlich braucht. Sie kostet wenige Minuten und produziert über die Jahre eine zuverlässige Quelle.
+<!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Wise Business mit Ihrer LLC: der vollständige Multi-Währungs-Leitfaden](/de/blog/wise-business-mit-ihrer-llc-der-vollstandige-leitfaden-fur)
+- [Wise und Banken für Ihre LLC: der komplette Banking-Stack](/de/blog/wise-banken-und-llc-der-komplette-banking-stack-den-niemand)
+- [Währungen für Ihre LLC wechseln: beste Optionen ohne versteckte Gebühren](/de/blog/wahrungen-fur-ihre-llc-wechseln-beste-optionen-und)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

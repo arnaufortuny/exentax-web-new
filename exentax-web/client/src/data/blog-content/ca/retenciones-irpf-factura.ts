@@ -93,6 +93,12 @@ L'arrendatari (autònom o empresa) presenta model 115 trimestral declarant els 1
 
 **Hisenda sap el que m'han retingut?** Sí. Cada client declara les retencions al model 111 trimestral amb el teu NIF. Abans de presentar la teva declaració anual, descarrega les dades fiscals a la seu AEAT i creua amb el teu propi registre: si hi ha diferències, exigeix al teu client la correcció abans del 30 de juny.
 
+<!-- exentax:lote28-native-v1:retenciones-irpf-factura-ca -->
+## Com llegir les retencions d'IRPF a la factura com un mapatge anual estable
+
+Les retencions d'IRPF a la factura es llegeixen de manera més útil com un mapatge anual estable.
+<!-- /exentax:lote28-native-v1:retenciones-irpf-factura-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -150,6 +156,34 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:retenciones-irpf-factura -->
+### Com acaba el tipus reduït del 7% a la pràctica
+
+El tipus del 7% per a nous autònoms professionals s'aplica durant l'any d'alta i els dos anys naturals següents, i acaba automàticament; a la nostra pràctica, l'error operatiu més habitual és no actualitzar el percentatge a les factures el gener del tercer any següent, mantenint el 7% retingut quan ja hauria d'aplicar-se el 15%. La detecció ve habitualment del client (que declara un codi diferent al seu Modelo 111) i desencadena una factura rectificativa pel import no retingut. Per evitar-ho, fixem un recordatori de calendari a la data exacta del canvi, acordat per escrit amb el client a inici d'any, i mantenim els dos models de factura preparats a l'eina de facturació perquè el canvi sigui un sol clic. Recomanem també conciliar trimestralment el Modelo 130 acumulat amb les factures emeses, perquè una desviació de retenció només es converteix en un problema real de tresoreria quan s'acumula durant quatre trimestres sense ser detectada.
+
+### Tres patrons de facturació que veiem cada trimestre
+
+El primer patró és el freelance que factura a una societat espanyola per serveis professionals sense incloure la línia de retenció, perquè el client no l'ha demanat; és un error de procediment que l'AEAT conciliarà al final de l'any a través del resum Modelo 190 i que habitualment desencadena una factura rectificativa. El segon patró és el freelance que factura a un client estranger i aplica retenció per reflex, quan no s'aplica (el client estranger no pot presentar un Modelo 111 espanyol). El tercer patró és el freelance amb cartera mixta (societats espanyoles més clients estrangers) que aplica el mateix model a tots, barrejant els dos errors. L'enfocament net en els tres casos consisteix a definir el model de factura per tipus de client a l'inici de l'encàrrec, mantenir dos models disponibles i verificar la primera factura amb l'equip comptable del client abans d'emetre la resta del trimestre.
+<!-- /exentax:lote6-native-v1:retenciones-irpf-factura -->
+
+<!-- exentax:lote6-native-v1-ter:retenciones-irpf-factura -->
+### Mecànica del Modelo 130 per a un trimestre recurrent típic
+
+El Modelo 130 és l'avançament trimestral d'IRPF per a autònoms en estimació directa, i la seva aritmètica és senzilla: 20% de la renda neta (ingressos menys despeses deduïbles) del trimestre, menys la retenció d'IRPF ja aplicada sobre les factures del trimestre, és igual a l'import a pagar. En un trimestre en què la majoria de factures s'han emès a societats espanyoles (amb 15% retingut a la font) i l'autònom ha mantingut el seu perfil de despesa normal, el resultat del Modelo 130 és típicament modest, de vegades nul. En un trimestre en què la majoria de factures s'han emès a clients estrangers (sense retenció), el resultat del Modelo 130 és més substancial perquè l'avançament complet del 20% cau sobre aquesta presentació trimestral. L'error operatiu més freqüent que veiem és el dels autònoms que se salten el Modelo 130 en trimestres modestos perquè "no hi ha res a pagar", oblidant que el model s'ha de presentar fins i tot amb resultat zero; l'AEAT tracta l'absència de presentació com a incompliment. L'enfocament net consisteix a presentar el Modelo 130 cada trimestre a temps, sempre, fins i tot a zero, i a mantenir el rebut al kit documental de final d'any.
+
+### Per què la retenció correcta des del primer dia evita estrès de final d'any
+
+Quan el freelance aplica el tipus correcte de retenció d'IRPF a cada factura des del gener, la conciliació de final d'any és essencialment neutra: els imports retinguts més els avançaments trimestrals del Modelo 130 estan molt a prop de l'IRPF anual degut, i la declaració d'IRPF o paga una petita diferència o retorna un petit import. Quan el freelance ha aplicat el tipus erroni (habitualment 7% mantingut més enllà de la seva expiració, o 0% per a un client espanyol que hauria d'haver tingut 15%), la declaració anual revela la diferència com un pagament en efectiu real al maig o juny, de vegades prou substancial per pertorbar la planificació de mig any. Tenim una regla senzilla que compartim amb els clients el primer mes de cada any: verificar el tipus aplicable contra la data d'entrada al registre d'autònom, acordar el tipus per escrit amb cada client espanyol a l'inici de l'any, i mantenir ambdós models de factura disponibles perquè el canvi de tipus (quan finalment s'aplica) no es retardi per feina de plantilles. La lleugeresa professional de la declaració d'IRPF al maig depèn gairebé íntegrament del que es va muntar al gener.
+<!-- /exentax:lote6-native-v1-ter:retenciones-irpf-factura -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Trams de l'IRPF 2026 a Espanya explicats sense soroll](/ca/blog/trams-irpf-2026-explicacio)
+- [Despeses deduïbles per a freelancers espanyols el 2026: guia clara](/ca/blog/despeses-deduibles-autonoms-2026)
+- [Mòduls vs estimació directa el 2026: quin règim s'adapta al teu cas](/ca/blog/moduls-vs-estimacio-directa-espanya-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.

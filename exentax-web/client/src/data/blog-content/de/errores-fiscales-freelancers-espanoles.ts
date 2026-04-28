@@ -158,6 +158,18 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote34-native-v1:errores-fiscales-freelancers-espanoles-de -->
+## Wie sich die Frage steuerlicher Fehler spanischer Freelancer als stabile Jahres­prüf­liste statt als isolierte Vorfälle lesen lässt
+
+Die Frage steuerlicher Fehler spanischer Freelancer liest sich nützlicher als stabile Jahres­prüf­liste — quartalsweise abgeschlossene Bücher, korrekt eingeordnete Ausgaben, fristgerechte Einreichungen, dokumentierte ausländische Einkünfte — denn als isolierte Vorfälle. Die Prüf­liste ändert sich nicht von Jahr zu Jahr.
+<!-- /exentax:lote34-native-v1:errores-fiscales-freelancers-espanoles-de -->
+
+<!-- exentax:lote34-native-v1-bis:errores-fiscales-freelancers-espanoles-de -->
+## Warum die Prüf­liste pro Achse und nicht pro Einzel­fehler organisiert sein sollte
+
+Die Prüf­liste organisiert sich pro Achse — Bücher, Ausgaben­einordnung, Fristen, ausländische Einkünfte — und nicht pro Einzel­fehler, weil die Achsen über das Steuer­jahr stabil bleiben und eine periodische Überprüfung tragen.
+<!-- /exentax:lote34-native-v1-bis:errores-fiscales-freelancers-espanoles-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -170,6 +182,12 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote22-native-v1:errores-fiscales-freelancers-espanoles-de -->
+## Wie sich der Katalog häufiger Steuerfehler als stabile Prüfliste statt als Anlass zur Sorge lesen lässt
+
+Der Katalog häufiger Steuerfehler liest sich nützlicher, wenn er als stabile Prüfliste und nicht als Anlass zur Sorge behandelt wird. Die wirklich wiederkehrenden Fehler ändern sich von Jahr zu Jahr selten, und die Prüfliste lässt sich am Jahresabschluss in wenigen Minuten durchgehen, um nur die Punkte zu vertiefen, die im konkreten Profil tatsächlich relevant sind.
+<!-- /exentax:lote22-native-v1:errores-fiscales-freelancers-espanoles-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -216,6 +234,20 @@ Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansä
 _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:lote6-native-v1-quat:errores-fiscales-freelancers-espanoles -->
+### Eine Praxis-Notiz zur Behebung eines bereits sichtbaren Fehlers
+
+Wenn ein freiberuflicher Mandant uns mit einem bereits sichtbaren Fehler erreicht (eine vergessene Modelo-130-Einreichung, eine fehlerhafte Quellensteuer auf einer Reihe von Rechnungen, eine nicht erfasste Tätigkeit), folgen wir einem dreistufigen Behebungsprotokoll. Schritt eins ist die ehrliche Einschätzung des Umfangs: welche Periode betroffen ist, welche Beträge im Spiel stehen und ob die Frist für eine ergänzende Erklärung ohne Sanktion noch offen ist. Schritt zwei ist die saubere Vorbereitung der Korrektur: die ergänzende Erklärung wird mit allen Belegen und einer einseitigen Begleitnotiz erstellt, die die Lücke und die Korrektur erklärt. Schritt drei ist die Vorbeugung gegen die Wiederholung: Wir bauen einen Kalenderhinweis und einen Quartalskontrollpunkt für die Mandantin auf, sodass derselbe Fehler im Folgejahr nicht erneut auftritt. Die saubere Behebung ist fast immer kostenpflichtig, aber der Ablauf ist berechenbar und der Mandant verlässt das Gespräch mit einem klaren Plan und ohne offene Frage.
+<!-- /exentax:lote6-native-v1-quat:errores-fiscales-freelancers-espanoles -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Absetzbare Ausgaben für spanische Freelancer 2026: klarer Leitfaden](/de/blog/absetzbare-ausgaben-autonomo-spanien-2026)
+- [IRPF-Quellensteuer auf spanischen Rechnungen: so funktioniert es in der Praxis](/de/blog/irpf-quellensteuer-auf-rechnungen-spanien)
+- [Autónomo in Spanien vs US-LLC: ein Vergleich, der tatsächlich weiterhilft](/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

@@ -106,6 +106,18 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote17-native-v1:due-diligence-bancario-llc-americana-fr -->
+## Pourquoi la due diligence bancaire d'une LLC se prépare en amont, pas pendant l'ouverture
+
+La due diligence bancaire d'une LLC se prépare en amont de l'ouverture de compte, pas pendant. La raison est simple : pendant la phase d'ouverture, l'équipe de conformité dispose d'un délai court et d'une grille de critères standard ; tout document manquant ou réponse imprécise prolonge mécaniquement le processus.
+<!-- /exentax:lote17-native-v1:due-diligence-bancario-llc-americana-fr -->
+
+<!-- exentax:lote30-native-v1:due-diligence-bancario-llc-americana-fr -->
+## Comment lire la due diligence bancaire sur la LLC comme une procédure documentée stable plutôt que comme un test imprévisible
+
+La due diligence bancaire sur la LLC se lit plus utilement comme une procédure documentée stable — identification du bénéficiaire, origine des fonds, contexte de l'activité — plutôt que comme un test imprévisible. Une note courte et datée dans le dossier bancaire avec les pièces transmises rend la position relisible.
+<!-- /exentax:lote30-native-v1:due-diligence-bancario-llc-americana-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

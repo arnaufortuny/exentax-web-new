@@ -187,6 +187,14 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 
 Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise, banks and your LLC: the complete banking stack nobody explains](/en/blog/wise-banks-and-your-llc-the-complete-banking-stack-nobody)
+- [How to open a Mercury account for your LLC from any country](/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country)
+- [Changing currencies for your LLC: best options without hidden fees](/en/blog/changing-currencies-for-your-llc-best-options-and-how-to)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

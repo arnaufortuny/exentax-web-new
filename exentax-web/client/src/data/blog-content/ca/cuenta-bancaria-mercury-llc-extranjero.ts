@@ -168,6 +168,12 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-ca -->
+## Com llegir l'obertura d'un compte Mercury per a una LLC amb membre no resident com un procediment documentat estable
+
+L'obertura d'un compte Mercury per a una LLC amb membre no resident es llegeix de manera més serena com un procediment documentat estable.
+<!-- /exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -265,6 +271,14 @@ Les quatre plataformes demanen: Articles of Organization de la LLC, EIN Confirma
 > **Quant estalvies en comissions i canvi combinant Mercury i Wise?** Carrega el volum anual a la <strong>calculadora fiscal i operativa d'Exentax</strong> i compara'l amb el setup actual.
 
 Per aprofundir en l'estructura bancària completa llegeix <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat">què reporten realment els bancs dels EUA</a>, i per delegar l'obertura <strong>reserva una sessió amb Exentax</strong>.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Com evitar els bloquejos de compte a Mercury, Wise i Revolut](/ca/blog/com-evitar-els-bloquejos-de-compte-a-mercury-wise-i-revolut)
+- [Due diligence bancari per a la teva LLC americana: què verifiquen](/ca/blog/due-diligence-bancari-per-a-la-teva-llc-americana-el-que)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

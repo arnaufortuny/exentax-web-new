@@ -100,10 +100,28 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
+<!-- exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-de -->
+## Warum Geldwäscheprävention besser durch die Kohärenz der Akte als durch Ad-hoc-Rechtfertigungen gelingt
+
+Die Geldwäscheprävention für eine LLC gelingt effizienter durch die allgemeine Kohärenz der Akte als durch Ad-hoc-Rechtfertigungen, die zu jeder einzelnen Anfrage geliefert werden. Eine kohärente Akte umfasst eine klare Beschreibung der Tätigkeit, eine plausible Beschreibung der erwarteten Geldflüsse, eine identifizierte Eigentümerstruktur und eine Buchhaltung, in der jede Bewegung mit ihrer Gegenposition verknüpft ist. Wenn diese Elemente vorhanden sind, beantworten sie die meisten Compliance-Fragen, bevor sie überhaupt formuliert werden müssen.
+<!-- /exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
 Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich recent years bewegt; aktueller Stand:
+
+<!-- exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-de -->
+## Wie sich die Geldwäsche­prävention als stabile Karte dokumentarischer Erwartungen statt als diffuse Sorge lesen lässt
+
+Die Geldwäsche­prävention liest sich nützlicher als stabile Karte dokumentarischer Erwartungen — Identifikation des wirtschaftlich Berechtigten, Mittel­herkunft, Aktivitäts­kontext — denn als diffuse Sorge. Die Karte bleibt von einem Konto zum nächsten gültig.
+<!-- /exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-de -->
+
+<!-- exentax:lote33-native-v1-bis:prevencion-blanqueo-capitales-llc-de -->
+## Warum die Notiz pro dokumentarische Erwartung und nicht pro Vorgang organisiert sein sollte
+
+Die Notiz organisiert sich pro dokumentarische Erwartung und nicht pro Vorgang, weil die Erwartung über die Vorgänge hinweg stabil bleibt.
+<!-- /exentax:lote33-native-v1-bis:prevencion-blanqueo-capitales-llc-de -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
@@ -142,6 +160,54 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
   Für deutsche Steuerinländer mit US-LLC gilt das **Geldwäschegesetz (GwG) vom 23.06.2017 (BGBl. I 2017 S. 1822)** in der Fassung der **5. EU-Geldwäscherichtlinie (Richtlinie EU 2018/843)** und der **6. EU-Geldwäscherichtlinie (Richtlinie EU 2018/1673)**. Die neue **AML-Verordnung (EU) 2024/1624** und die Errichtung der **AMLA-Behörde in Frankfurt am Main** ab 2025 (Verordnung EU 2024/1620) zentralisieren die Aufsicht.
 
   **Konkrete Pflichten:** (a) Eintragung im **Transparenzregister §§19-20 GwG** des wirtschaftlich Berechtigten ≥ 25 % Anteil — Frist unverzüglich, Verstoß nach **§56 GwG** mit Geldbuße bis **€5 Millionen** oder 10 % des Jahresumsatzes; (b) **CDD-Pflichten §10-11 GwG** bei Geschäftsbeziehungen zur LLC; (c) Verdachtsmeldung an **FIU Köln** nach §43 GwG; (d) Aufzeichnungspflicht **5 Jahre** nach §8 GwG.
+
+<!-- exentax:lote10-native-v1:prevencion-blanqueo-capitales-llc -->
+## Warum Geldwäscheprävention die LLC stärkt, nicht belastet
+
+Die Geldwäscheprävention wird häufig als bürokratische Last
+empfunden, dabei ist sie eines der Werkzeuge, die der
+ordnungsgemäss geführten LLC tatsächlich nützen. Eine LLC, die
+eine konsistente Beneficial-Ownership-Erklärung, eine saubere
+Adresse und nachvollziehbare Geldflüsse vorweist, profitiert von
+schnelleren Bankentscheidungen, weniger KYC-Rückfragen und
+einer höheren Glaubwürdigkeit gegenüber Geschäftspartnern.
+
+Der Effekt ist über die Zeit besonders sichtbar: nach zwei oder
+drei sauber dokumentierten Jahren wird die LLC für Banken zu
+einem unauffälligen Standardfall, was sich in praktisch jedem
+Vorgang positiv niederschlägt.
+
+<!-- /exentax:lote10-native-v1:prevencion-blanqueo-capitales-llc -->
+
+<!-- exentax:lote10-native-v1:prevencion-blanqueo-capitales-llc-bis -->
+## Eine kurze praktische Schlussbemerkung
+
+Die Zeit, die in saubere AML-Unterlagen investiert wird, zahlt
+sich praktisch immer mehrfach zurück: in schnelleren
+Bankprozessen und in der Ruhe, mit der die LLC alltägliche
+Vorgänge erledigt.
+
+<!-- /exentax:lote10-native-v1:prevencion-blanqueo-capitales-llc-bis -->
+
+<!-- exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-de-bis -->
+## Wie sich die Kohärenz der Akte regelmässig überprüfen lässt
+
+Die Kohärenz der Akte lässt sich am ruhigsten über eine kurze halbjährliche Überprüfung halten, die die vier Hauptelemente in derselben Reihenfolge durchgeht und ihre Übereinstimmung untereinander prüft. Diese Routine vermeidet, dass Diskrepanzen sich anhäufen, bis eine externe Anfrage sie sichtbar werden lässt.
+<!-- /exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-de-bis -->
+
+<!-- exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-de-tris -->
+## Wie sich die halbjährliche Überprüfung in den Jahreskalender einfügt
+
+Die halbjährliche Überprüfung lässt sich am ruhigsten an feste Daten knüpfen, etwa an das Ende des ersten und des dritten Quartals, sodass sie nicht der Erinnerung überlassen bleibt und sich von Jahr zu Jahr identisch wiederholt.
+<!-- /exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-de-tris -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [BOI Report 2026: Leitfaden zur FinCEN Beneficial Ownership Meldung](/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen)
+- [Banking Due Diligence für Ihre US LLC: Was Banken prüfen](/de/blog/banking-due-diligence-fur-ihre-us-llc-was-banken-prufen)
+- [Strohmanneigentümer für LLCs: warum es illegal ist und die Risiken](/de/blog/strohmanneigentumer-fur-llcs-warum-es-illegal-ist-und-die)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

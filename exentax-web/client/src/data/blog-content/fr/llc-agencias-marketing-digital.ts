@@ -142,6 +142,14 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 
 Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [LLC américaine pour développeurs et fondateurs SaaS : guide complet](/fr/blog/llc-americaine-pour-developpeurs-de-logiciels-et-fondateurs)
+- [LLC américaine pour créateurs de contenu : YouTube, Twitch et au-delà](/fr/blog/llc-americaine-pour-createurs-de-contenu-youtube-twitch-et)
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

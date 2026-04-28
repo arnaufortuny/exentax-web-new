@@ -207,6 +207,14 @@ Prefer a calendar slot? <a href="/en/book">Book a free session</a> and we'll rev
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [BOI Report 2026: complete guide to FinCEN Beneficial Ownership filing](/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial)
+- [Banking due diligence for your US LLC: what banks check and how to pass](/en/blog/banking-due-diligence-for-your-us-llc-what-banks-check-and)
+- [Anti-money laundering compliance for your LLC: what you need to know](/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 We compare New Mexico, Wyoming, Delaware and Florida against your real case — no trendy-state pitch. <a href="/en/services/llc-new-mexico">Compare my case with an advisor</a>.
 <!-- /exentax:cta-v1 -->

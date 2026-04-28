@@ -76,6 +76,12 @@ Si vous voulez valider si cette stratégie convient à votre situation concrète
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-fr -->
+## Comment lire la stabilité d'un compte Mercury ou Wise comme une procédure documentée plutôt que comme une question de chance
+
+La stabilité d'un compte Mercury ou Wise se lit plus utilement comme une procédure documentée plutôt que comme une question de chance.
+<!-- /exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -120,6 +126,12 @@ Les comparaisons et données quantitatives sur les juridictions citées s'appuie
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilier Deux (GloBE) et Modèle de Convention OCDE avec Commentaires.
 
 Le choix de la juridiction dépend toujours de la résidence fiscale réelle du titulaire et de la substance économique de l'activité; étudiez votre cas spécifique avant toute décision structurelle.
+
+<!-- exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-fr -->
+## Une courte routine qui garde Mercury et Wise sereins
+
+Les deux leviers pratiques qui maintiennent l'activité fluide chez Mercury et Wise sont la prévisibilité et la traçabilité. La prévisibilité, c'est que le profil de volume, la géographie des contreparties et le type de flux entrants paraissent raisonnablement constants d'un trimestre à l'autre. La traçabilité, c'est que, pour tout virement entrant, une facture ou un contrat puisse être produit en quelques minutes. Avec ces deux habitudes, la plupart des revues se terminent avant même de commencer.
+<!-- /exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-fr -->
 
 <!-- exentax:cross-refs-v1 -->
 ### Lectures complémentaires

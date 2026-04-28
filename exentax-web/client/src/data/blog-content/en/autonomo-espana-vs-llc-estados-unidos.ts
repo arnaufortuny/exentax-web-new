@@ -148,6 +148,26 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Ireland, Canada and Australia.** Irish Revenue typically treats US LLCs as opaque (TDM Part 35-01-04), so an Irish-resident member is taxed on distributions, not on the LLC's annual profit; Form 11 reporting applies. The CRA in Canada also treats LLCs as corporations for Canadian tax (Folio S5-F2-C1), which generates mismatch issues with US tax-treaty benefits — careful planning around Article IV(7)(b) of the Canada–US treaty is essential, plus T1135 reporting for foreign property over CAD 100,000. The Australian ATO considers most US LLCs to be foreign companies, with Australian residents subject to attribution under the CFC rules in Part X of the ITAA 1936 if control and tainted-income tests are met. In all three jurisdictions, hybrid mismatches under OECD BEPS Action 2 (and locally enacted anti-hybrid rules) should be reviewed before the LLC actually starts trading.
 - **Practical takeaway across jurisdictions.** Whatever your residence, the chain of decisions is the same: (1) confirm how your local tax authority classifies a US single-member LLC (transparent vs opaque); (2) check whether your local CFC or attribution regime catches the LLC's profits (active vs passive income tests, control thresholds, low-tax safe harbours); (3) map out the relevant tax-treaty provisions on PE, dividends, interest and royalties; (4) document a tangible operating substance trail (contracts in the LLC's name, separate banking, US registered agent, EIN, Form 5472 filings); (5) align disclosure forms in your country (Form 720 in Spain, Form 11 in Ireland, T1135 in Canada, IDS in Australia, SA106 in the UK). Skipping any of these creates downside risk that no amount of US-side tax efficiency can compensate. Exentax handles the US-side compliance and coordinates with your local advisor on the rest so the structure stays defensible end to end.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Spain autónomo quotas 2026: complete guide](/en/blog/spain-autonomo-quotas-2026-complete-guide)
+- [US LLC as an alternative to being self-employed in Spain](/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain)
+- [LLC in the United States: complete 2026 guide](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote20-native-v1:autonomo-espana-vs-llc-estados-unidos-en -->
+## How to read the autónomo-vs-LLC comparison as a profile-based exercise rather than a winner-take-all debate
+
+The autónomo-vs-LLC comparison reads more usefully when it's treated as a profile-based exercise: the same comparison can land differently for two profiles that differ in billing volume, geographical mix of clients, frequency of distributions and complexity of the operating chain. Reading the comparison without the profile in mind tends to push the conclusion toward whichever option is louder in general discussion.
+
+A useful approach is to define three profiles — low, medium, high billing — and walk the comparison through each, recording for each profile which structure emerges as more efficient. This profile-based view replaces the impression of a single answer with a small map that survives the first real year.
+
+## How to capture the per-profile result in a short note
+
+The per-profile result captures more durably in a short, dated note that lists, for each profile, the structure that emerged as more efficient and the two or three reasons that drove that conclusion. This note then serves as a reference whenever the actual profile shifts in a later year, so the full comparison doesn't need to be rebuilt from scratch.
+<!-- /exentax:lote20-native-v1:autonomo-espana-vs-llc-estados-unidos-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

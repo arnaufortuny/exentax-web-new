@@ -69,6 +69,12 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
 
+<!-- exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-pt -->
+## Porque é que um historial documentado pesa mais do que uma fotografia atual
+
+Um historial documentado da separação entre fundos pessoais e fundos da LLC pesa mais, perante um terceiro, do que uma fotografia tirada à data de hoje. A razão é simples: a fotografia demonstra o estado atual mas nada diz sobre a coerência no tempo, ao passo que o historial responde precisamente à pergunta que qualquer revisão ou litígio levanta: a prática foi constante desde a constituição. Um ficheiro que cobre vários anos com a mesma estrutura de contas, as mesmas categorias de movimentos e as mesmas contrapartes identificadas torna essa pergunta quase retórica.
+<!-- /exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-pt -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
@@ -80,20 +86,29 @@ As obrigações junto da <a href="https://www.fincen.gov" target="_blank" rel="n
 - **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
 - **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
-## Como o abordamos na Exentax
 
-O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.
-## Factos bancários e fiscais que convém precisar
+<!-- exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-pt -->
+## Como ler a documentação da separação de fundos como um mapeamento anual estável
 
-Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
+A documentação da separação de fundos da LLC lê-se de forma mais útil como um mapeamento anual estável entre a conta bancária da LLC, a conta pessoal do beneficiário e os movimentos datados entre as duas, em vez de uma tarefa recorrente. Uma nota curta e datada no ficheiro da LLC com a data de corte e o saldo de fecho de cada lado torna a separação defensável em poucos minutos.
+<!-- /exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-pt -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-## Factos jurídicos e processuais
+<!-- exentax:legal-refs-v1 -->
+## Referências: regulamentação aplicável à gestão operacional
 
-A nossa posição aqui é deliberadamente conservadora: optimizamos para o que sobrevive a uma inspecção, não para o número mais agressivo. Os pontos abaixo são aqueles que estamos dispostos a defender por escrito.
+A operacional descrita apoia-se nas seguintes obrigações formais e boas práticas atualmente em vigor:
+
+- **Estados Unidos.** Treas. Reg. §301.7701-3 (classificação *check-the-box* da LLC), IRC §6038A e Treas. Reg. §1.6038A-2 (Form 5472, sanção base de 25 000 USD por incumprimento), 31 U.S.C. §5336 e FinCEN Reporting Rule sobre o BOI Report.
+- **Portugal.** Art. 6.º do CIRC (transparência fiscal), art. 28.º do CIRS (Categoria B e contabilidade organizada), art. 38.º do CIRC (cláusula geral antiabuso), art. 130.º do CIRS e art. 123.º do CIRC (conservação de documentos por 10 anos), Modelo 58 ao Banco de Portugal a partir de 1 milhão € de ativos no estrangeiro, Anexo J do Modelo 3 (rendimentos obtidos no estrangeiro), Lei 83/2017 (prevenção do branqueamento, transposição da Diretiva (UE) 2015/849).
+- **Brasil.** Art. 51 da Lei 9.430/96 (preços de transferência), IN RFB 1.520/2014 (CFC brasileira), Solução de Consulta COSIT 14/2018 sobre LLCs, DCBE ao Bacen a partir de 1 milhão USD, ficha de Bens e Direitos código 31 da DIRPF.
+- **Boas práticas contabilísticas.** Recomendações do AICPA para LLCs com atividade internacional e guia IRS Publication 583 (Starting a Business and Keeping Records).
+- **Banca e rastreabilidade.** Termos gerais de Mercury, Relay e Wise Business; obrigações KYC do Bank Secrecy Act (31 CFR Part 1010) e da Diretiva (UE) 2015/849.
+
+<!-- /exentax:legal-refs-v1 -->
 
 <!-- exentax:execution-v2 -->
 ## Como construir um histórico de separação que aguente uma revisão
@@ -143,6 +158,33 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
   **Sanções por confusão patrimonial:** a falta de documentação adequada permite à AT requalificar os movimentos como rendimentos pessoais ao abrigo do **art. 38.º do CIRC** (cláusula geral antiabuso), com tributação em sede de IRS Categoria B à taxa marginal (até 48 %) acrescida de **derrama estadual** até 9 % e **derrama municipal** até 1,5 %. Em casos graves, aplica-se o **art. 104.º do RGIT (fraude fiscal qualificada)** com pena de prisão de 1 a 5 anos.
 
   **Quadro brasileiro paralelo:** para sócios brasileiros residentes, a separação documental atende ao **art. 51 da Lei 9.430/96** (preços de transferência) e à **IN RFB 1.520/2014** (CFC brasileira), com obrigação de informar a LLC na **DIRPF ficha de Bens e Direitos código 31**, conforme **Solução de Consulta COSIT 14/2018**.
+
+<!-- exentax:lote9-native-v1:documentar-separacion-fondos-llc-historial -->
+## Uma nota final sobre o historial da LLC
+
+O historial documentado da separação de fundos não é um
+exercício administrativo: é o que transforma a LLC numa
+estrutura defensável perante um banco, um contabilista ou uma
+administração fiscal. O membro que arquiva cada movimento com o
+respectivo comprovativo no momento em que ocorre atravessa os
+controlos com serenidade, porque a evidência existe já,
+arrumada e acessível.
+
+<!-- /exentax:lote9-native-v1:documentar-separacion-fondos-llc-historial -->
+
+<!-- exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-pt-bis -->
+## Porque é que guardar os últimos três anos num único sítio costuma bastar
+
+Na prática, guardar os últimos três anos numa única pasta digital com a mesma arborescência basta amplamente para cobrir as questões habituais de uma revisão ou de um pedido administrativo. Esta janela de três anos permite ver tendência sem dispersar a informação.
+<!-- /exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-pt-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+### Para continuar a leitura
+
+- [Separar dinheiro pessoal e da LLC: por que é importante](/pt/blog/separar-dinheiro-pessoal-e-da-llc-por-que-e-importante)
+- [Bookkeeping para a sua LLC americana passo a passo](/pt/blog/bookkeeping-para-sua-llc-americana-passo-a-passo)
+- [Erros críticos se já tens uma LLC e ninguém tos explicou](/pt/blog/erros-criticos-se-ja-tens-uma-llc-e-ninguem-tas-explicou)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

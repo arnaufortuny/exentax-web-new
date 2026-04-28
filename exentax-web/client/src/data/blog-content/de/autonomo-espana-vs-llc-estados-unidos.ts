@@ -157,6 +157,12 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **Schweiz (DBG, kantonal).** Die Schweiz kennt keine umfassende CFC-Regel; trotzdem wird eine US-LLC für eine in der Schweiz unbeschränkt steuerpflichtige natürliche Person regelmäßig als ausländische Personengesellschaft betrachtet (Kreisschreiben ESTV Nr. 38), sodass Gewinne im Privatvermögen direkt im Wertschriftenverzeichnis und in der Steuererklärung des Wohnsitzkantons zu deklarieren sind. Das DBA Schweiz–USA von 1996 (Protokoll 2009 in Kraft seit 2019) regelt Quellensteuersätze, Diskriminierungsverbote und Informationsaustausch (Art. 26). Liechtenstein folgt einem ähnlichen Substanzansatz, mit zusätzlicher Pflicht zur jährlichen Selbstauskunft an die Steuerverwaltung über kontrollierte ausländische Strukturen.
 - **Praktische Schritte für DACH-Mandanten.** Drei nicht verhandelbare Bausteine: (1) klare schriftliche Klassifikation der LLC mit dem örtlichen Steuerberater fixieren (transparent oder opak), möglichst vor dem ersten Geschäftsjahr; (2) ein vollständiges Substanzdossier führen — Verträge auf den LLC-Namen, separates Banking, Registered Agent, EIN, jährliche Form-5472-Abgabe, BOI-Report wo noch anwendbar; (3) jährliche Selbstdeklaration synchronisieren: Anlage AUS in Deutschland (Frist 31. Juli mit Steuerberater bis 28. Februar Folgejahr), Anlage E1kv in Österreich (30. Juni elektronisch), Wertschriftenverzeichnis und kantonale Steuererklärung in der Schweiz. Erst danach ist die Struktur prüfungsfest, sowohl gegenüber der Finanzverwaltung als auch im Falle einer DAC6-Meldepflicht des Beraters.
 
+<!-- exentax:lote33-native-v1:autonomo-espana-vs-llc-estados-unidos-de -->
+## Wie sich der Vergleich spanisches Autónomo gegen amerikanische LLC als stabile Profil­karte statt als Community-Debatte lesen lässt
+
+Der Vergleich spanisches Autónomo gegen amerikanische LLC liest sich nützlicher als stabile Profil­karte zwischen Wohnsitz, Wertschöpfung und Kunden denn als Community-Debatte. Diese Karte ändert sich nicht mit der Saison.
+<!-- /exentax:lote33-native-v1:autonomo-espana-vs-llc-estados-unidos-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -177,6 +183,26 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Autónomo-Beiträge Spanien 2026: vollständiger Leitfaden](/de/blog/autonomo-beitraege-spanien-2026-vollstaendiger-leitfaden)
+- [LLC als Alternative zum Autónomo-Status in Spanien](/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien)
+- [LLC in den USA: vollständiger Leitfaden](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote20-native-v1:autonomo-espana-vs-llc-estados-unidos-de -->
+## Wie sich der Vergleich Autónomo / LLC als profilbasierte Übung statt als Nullsummendebatte lesen lässt
+
+Der Vergleich Autónomo / LLC liest sich nützlicher, wenn er als profilbasierte Übung behandelt wird: derselbe Vergleich kann für zwei Profile, die sich in Umsatzvolumen, geografischer Verteilung der Kunden, Häufigkeit der Ausschüttungen und Komplexität der operativen Kette unterscheiden, unterschiedlich ausfallen. Den Vergleich ohne das Profil im Kopf zu lesen, drängt die Schlussfolgerung tendenziell in Richtung der in der allgemeinen Debatte lautesten Option.
+
+Ein nützlicher Ansatz besteht darin, drei Profile zu definieren — niedrige, mittlere, hohe Umsätze — und den Vergleich für jedes durchzugehen, wobei für jedes Profil festgehalten wird, welche Struktur als effizienter hervorgeht.
+
+## Wie sich das Ergebnis je Profil in einer kurzen Notiz festhalten lässt
+
+Das Ergebnis je Profil lässt sich in einer kurzen, datierten Notiz festhalten, die als Bezugspunkt dient, sobald sich das tatsächliche Profil in einem späteren Jahr verändert. So muss der gesamte Vergleich nicht von Grund auf wiederholt werden.
+<!-- /exentax:lote20-native-v1:autonomo-espana-vs-llc-estados-unidos-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten

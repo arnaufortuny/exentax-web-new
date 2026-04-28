@@ -225,6 +225,14 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [How to get an ITIN: the IRS individual tax number for non-residents](/en/blog/how-to-get-an-itin-irs-individual-tax-number)
+- [EIN: what is your LLC's tax number and how to get it step by step](/en/blog/ein-tax-number-for-your-llc-how-to-get-it)
+- [Complete guide to W-8BEN and W-8BEN-E forms for non-resident LLCs](/en/blog/w8-ben-and-w8-ben-e-the-complete-guide)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 We file your ITIN with the IRS through a Certifying Acceptance Agent — your original passport stays with you. <a href="/en/services/get-your-itin">Get my ITIN</a>.
 <!-- /exentax:cta-v1 -->

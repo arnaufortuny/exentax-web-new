@@ -168,6 +168,20 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-de -->
+## Wie sich die Eröffnung eines Mercury-Kontos für eine LLC mit nicht-ansässigem Mitglied als stabile, dokumentierte Prozedur lesen lässt
+
+Die Eröffnung eines Mercury-Kontos für eine LLC mit nicht-ansässigem Mitglied liest sich ruhiger als stabile, dokumentierte Prozedur denn als ungewisser Antrag. Die wiederkehrenden Bestandteile — eine vollständige Identifizierung des nicht-ansässigen Mitglieds, ein klarer Tätigkeitsbeschrieb der LLC und eine kohärente Erklärung der Geldflüsse — definieren einen diskreten Rahmen, der sich nicht von einem Antrag zum nächsten ändert.
+
+Eine kurze, datierte Notiz im LLC-Ordner, die das Datum der Antragstellung, die eingereichten Identifikationsdokumente und den genannten Tätigkeitsbeschrieb festhält, macht den Antrag in wenigen Minuten nachlesbar, falls Mercury im Onboarding eine zusätzliche Frage stellt. Dieselbe Notiz erleichtert auch eine spätere Anpassung des Kontos, wenn sich die Aktivität entwickelt, ohne den ursprünglichen Kontext aus dem Gedächtnis rekonstruieren zu müssen.
+<!-- /exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-de -->
+
+<!-- exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-de-bis -->
+## Wie sich der Mercury-Antrag in der Folgesaison als wiederverwendbares Dossier statt als Neuantrag lesen lässt
+
+Der Mercury-Antrag liest sich in der Folgesaison ruhiger als wiederverwendbares Dossier, das die ursprünglich eingereichten Unterlagen referenziert, denn als Neuantrag ohne Vorgeschichte. Eine kurze, datierte Notiz mit dem Verweis auf das ursprüngliche Antragsdatum genügt, um spätere Klärungen zügig zu beantworten.
+<!-- /exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-de-bis -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -180,6 +194,20 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote23-native-v1:cuenta-bancaria-mercury-llc-extranjero-de -->
+## Wie sich die Eignung von Mercury für eine LLC mit ausländischem wirtschaftlich Berechtigten nüchtern beurteilen lässt
+
+Die Eignung von Mercury für eine LLC mit ausländischem wirtschaftlich Berechtigten beurteilt sich am ehrlichsten, wenn sie an drei Eigenschaften des operativen Profils gekoppelt wird: das Volumen der monatlichen Bewegungen, der geografische Mix der Gegenparteien und die Notwendigkeit, in mehreren Währungen zu arbeiten. Diese drei Eigenschaften bestimmen, ob Mercury zum Profil passt — unabhängig vom Markenruf.
+
+## Wie sich die Mercury-Wahl schriftlich verankern lässt
+
+Die Mercury-Wahl verankert sich schriftlich in einer kurzen, datierten Notiz, die die drei Eigenschaften erfasst und sie der konkreten Begründung der Wahl zuordnet. Diese Notiz dient später als Bezugspunkt, sobald sich eine der Eigenschaften wesentlich verändert.
+
+## Wie sich die jährliche Überprüfung der Bankenwahl ohne grosse Vorbereitung halten lässt
+
+Die jährliche Überprüfung der Bankenwahl hält sich ohne grosse Vorbereitung, wenn sie strikt an die festgehaltenen drei Eigenschaften gebunden bleibt und nur dort wieder eröffnet wird, wo eine der drei Eigenschaften real abgewichen ist. Diese Methode erspart, die Bankendiskussion Jahr für Jahr neu zu führen, und reduziert die jährliche Übung auf das Eintragen einer kurzen Aktualisierung.
+<!-- /exentax:lote23-native-v1:cuenta-bancaria-mercury-llc-extranjero-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -274,6 +302,33 @@ Alle vier Plattformen verlangen: Articles of Organization der LLC, EIN Confirmat
 > **Wie viel sparen Sie an Gebühren und FX, wenn Sie Mercury und Wise kombinieren?** Geben Sie Ihr Jahresvolumen in den <strong>Exentax-Steuer- und Betriebsrechner</strong> ein und vergleichen Sie mit Ihrem aktuellen Setup.
 
 Für die vollständige Bankstruktur lesen Sie <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die">was US-Banken wirklich melden</a>, und um die Eröffnung zu delegieren <strong>vereinbaren Sie ein Gespräch mit Exentax</strong>.
+
+<!-- exentax:lote12-native-v1:cuenta-bancaria-mercury-llc-extranjero -->
+## Wie der Mercury-Antrag aus dem Ausland ruhig durchläuft
+
+Der Mercury-Antrag aus dem Ausland scheitert selten an einem
+einzelnen Punkt, sondern in fast allen Fällen an der Kombination
+aus drei kleinen Inkonsistenzen: eine Adresse, die nicht zur
+Steueridentifikation passt, eine Geschäftsbeschreibung, die zu
+vage formuliert ist, und ein erster Geldfluss, der nicht zur
+erklärten Tätigkeit passt.
+
+Drei einfache Vorbereitungen genügen, um diese Risiken zu
+neutralisieren: die Adresse über alle Dokumente hinweg
+einheitlich halten, die Geschäftstätigkeit in einem klaren Satz
+beschreiben können, und den ersten Geldeingang plausibel zur
+erklärten Tätigkeit gestalten. Mit dieser Vorbereitung ist der
+Antrag in den meisten Fällen unspektakulär.
+
+<!-- /exentax:lote12-native-v1:cuenta-bancaria-mercury-llc-extranjero -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Traditionelle Banken vs Fintech für Ihre LLC: wo das Konto eröffnen](/de/blog/traditionelle-banken-vs-fintech-fur-ihre-llc-wo-ihr-konto)
+- [Banking Ihrer LLC reorganisieren: wann Mercury, Relay und Wise kombinieren](/de/blog/banking-ihrer-llc-reorganisieren-wann-mercury-relay-und-wise)
+- [Wise Business mit Ihrer LLC: der vollständige Multi-Währungs-Leitfaden](/de/blog/wise-business-mit-ihrer-llc-der-vollstandige-leitfaden-fur)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

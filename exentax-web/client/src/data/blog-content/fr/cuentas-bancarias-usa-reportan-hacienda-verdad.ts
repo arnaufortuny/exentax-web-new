@@ -198,6 +198,14 @@ Gardez votre W-8BEN-E aligné avec la structure réelle, facturez et encaissez t
 
 Pour voir comment ces données se croisent avec le dépôt du 720 enchaînez avec <a href="/fr/blog/modelo-720-et-modelo-721-guide-pour-les-residents-en-espagne">le guide pas à pas du Modelo 720 et 721</a>, et pour un audit complet de votre setup <strong>réservez un échange avec l'équipe Exentax</strong> et on l'examine avec vous.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [DAC8 et cryptos : reporting fiscal automatique des crypto-actifs en 2026](/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal)
+- [Wise, IBAN et LLC : ce qui est déclaré au fisc et ce qui ne l'est pas](/fr/blog/wise-iban-et-llc-ce-qui-est-vraiment-declare-au-fisc)
+- [Visa et Mastercard : ce que le fisc voit de vos paiements par carte](/fr/blog/visa-mastercard-reporting-ce-que-le-fisc-voit-de-vos)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22C'est%20la%20question%20qui%20revient%20le%20plus%20souvent%20quand%20un%20client%20constitue%20sa%20LL%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

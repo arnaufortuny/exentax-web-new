@@ -94,6 +94,14 @@ Plus sur la manière d'éviter les erreurs typiques dans <a href="/fr/blog/risqu
 
 Une LLC ne se taxe pas « d'une seule manière » : elle se taxe selon ce qu'elle fait, où elle le fait et d'où elle est contrôlée. La conversation sérieuse de planification fiscale commence par la compréhension de votre activité réelle, pas par le choix d'un pays sur une carte.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Fiscalité transparente pour LLC : comment ça fonctionne et pourquoi c'est important](/fr/blog/fiscalite-transparente-pour-llc-comment-ca-fonctionne-et)
+- [Fiscalité LLC par pays de résidence : ce que vous payez et où](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+- [Déductions fiscales pour votre LLC : ce que vous pouvez déduire](/fr/blog/deductions-fiscales-pour-votre-llc-ce-que-vous-pouvez)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->

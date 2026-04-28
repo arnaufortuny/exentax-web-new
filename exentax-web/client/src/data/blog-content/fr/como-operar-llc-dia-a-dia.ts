@@ -150,6 +150,12 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote27-native-v1:como-operar-llc-dia-a-dia-fr -->
+## Comment lire l'opération quotidienne de la LLC comme un ensemble d'habitudes documentées plutôt que comme une improvisation
+
+L'opération quotidienne de la LLC se lit plus utilement comme un ensemble d'habitudes documentées — réconciliation bancaire mensuelle, classement des justificatifs au mois, séparation stricte entre fonds personnels et fonds de la LLC — que comme une improvisation pilotée par les besoins de la semaine. Ces habitudes ne changent pas d'un mois à l'autre, et une courte note dans le dossier qui consigne la fréquence retenue pour chacune rend l'opération relisible à tout moment.
+<!-- /exentax:lote27-native-v1:como-operar-llc-dia-a-dia-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -162,6 +168,14 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Payoneer** opère via des entités européennes (Payoneer Europe Ltd, Irlande) elles aussi **dans le périmètre CRS** pour les clients résidant dans une juridiction participante.
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
+
+<!-- exentax:lote18-native-v1:como-operar-llc-dia-a-dia-fr -->
+## Pourquoi le quotidien d'une LLC tient sur trois rituels courts plutôt que sur des décisions ponctuelles
+
+Faire fonctionner une LLC au jour le jour ne tient pas à une succession de décisions ponctuelles mais à trois rituels courts qui se répètent à des fréquences différentes. Le rituel hebdomadaire couvre les rapprochements bancaires de la semaine et le classement des justificatifs reçus. Le rituel mensuel couvre la revue des distributions au membre et l'envoi des informations à la comptabilité. Le rituel trimestriel couvre la vérification des échéances à venir et l'éventuel ajustement des prévisions de trésorerie.
+
+Ces trois rituels, une fois installés, transforment la gestion d'une LLC en une routine prévisible qui ne dépend plus de la mémoire ou de la disponibilité d'un week-end. Le bénéfice principal n'est pas le gain de temps immédiat mais l'absence d'urgence en fin d'année.
+<!-- /exentax:lote18-native-v1:como-operar-llc-dia-a-dia-fr -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Les sept habitudes opérationnelles qui maintiennent une LLC en bonne santé
@@ -211,6 +225,14 @@ Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme 
 ### Comment facturer avec votre LLC
 
 Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [J'ai une LLC américaine : est-ce que je la gère bien ? Checklist](/fr/blog/jai-une-llc-est-ce-que-je-la-gere-correctement-checklist)
+- [Séparer argent personnel et LLC : pourquoi c'est essentiel](/fr/blog/separer-argent-personnel-et-llc-pourquoi-cest-essentiel)
+- [Documenter la séparation des fonds dans votre LLC : procédure réelle](/fr/blog/bien-documenter-la-separation-des-fonds-dans-votre-llc-avec)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

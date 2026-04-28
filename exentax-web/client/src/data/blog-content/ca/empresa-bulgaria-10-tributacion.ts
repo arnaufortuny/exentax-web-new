@@ -190,6 +190,14 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 
 Cada situació fiscal depèn de la teva residència, de l'activitat exercida i dels contractes en vigor. La informació aquí presentada és general i no substitueix l'assessorament personalitzat; analitza el teu cas concret abans de prendre decisions estructurals.
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Fiscalitat d'Estònia: com funciona realment l'OÜ i la e-Residency](/ca/blog/fiscalitat-estonia-com-funciona)
+- [Per què no obrir empresa a Estònia: la LLC americana guanya](/ca/blog/per-que-no-obrir-una-empresa-a-estonia-la-llc-americana)
+- [Per què obrir una LLC americana el 2026: 5 pilars de l'avantatge](/ca/blog/per-que-obrir-una-llc-americana-el-2026-els-5-pilars-del)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 

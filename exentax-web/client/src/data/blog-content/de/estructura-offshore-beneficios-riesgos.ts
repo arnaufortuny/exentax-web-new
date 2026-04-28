@@ -128,6 +128,18 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / OECD.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote31-native-v1:estructura-offshore-beneficios-riesgos-de -->
+## Wie sich die Frage einer Offshore-Struktur als stabile Profil­karte statt als Marken­diskurs lesen lässt
+
+Die Frage einer Offshore-Struktur liest sich nützlicher als stabile Profil­karte zwischen dem Wohnsitzland des wirtschaftlich Berechtigten, dem Land der Wertschöpfung und dem Land der Kunden denn als Marken­diskurs über eine bestimmte Jurisdiktion. Diese drei Achsen erklären die Antwort verlässlicher als der gerade aktive Werbe­zyklus, und eine kurze, datierte Notiz im persönlichen Ordner mit den drei Achsen macht die Position in wenigen Minuten überprüfbar — sowohl für eine spätere Beratungs­situation als auch für eine eigene Selbst­überprüfung.
+<!-- /exentax:lote31-native-v1:estructura-offshore-beneficios-riesgos-de -->
+
+<!-- exentax:lote31-native-v1-bis:estructura-offshore-beneficios-riesgos-de -->
+## Warum die Notiz pro Achse und nicht pro Jurisdiktion organisiert sein sollte
+
+Die Notiz organisiert sich pro Achse — Wohnsitz, Wertschöpfung, Kunden­markt — und nicht pro Jurisdiktion, weil die Achsen stabil bleiben, während sich der Marken­diskurs einer einzelnen Offshore-Jurisdiktion mit der Saison ändert.
+<!-- /exentax:lote31-native-v1-bis:estructura-offshore-beneficios-riesgos-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -147,6 +159,28 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Hongkong-Gesellschaft: die Offshore-Realität 2026](/de/blog/hong-kong-gesellschaft-die-offshore-realitat-2026)
+- [Panama-Gesellschaft: Steuern und Residenz 2026](/de/blog/panama-gesellschaft-steuern-und-residenz-2026)
+- [Dubai/VAE: der Mythos der Steuerfreiheit](/de/blog/dubai-vae-der-mythos-der-steuerfreiheit)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote24-native-v1:estructura-offshore-beneficios-riesgos-de -->
+## Wie sich Offshore-Strukturen als Profilfrage statt als universelle Empfehlung lesen lassen
+
+Offshore-Strukturen lesen sich am ehrlichsten als Profilfrage und nicht als universelle Empfehlung. Ihre Eignung hängt vom tatsächlichen Wohnsitz des wirtschaftlich Berechtigten, der Quellengeographie der Erträge, dem Typ der Tätigkeit und den Substanzanforderungen ab — und jede dieser vier Variablen kann die Antwort verändern, ohne dass die übrigen sich bewegen.
+
+## Wie sich die Eignungsprüfung in einer kurzen Notiz festhalten lässt
+
+Die Eignungsprüfung hält sich dauerhafter in einer kurzen, datierten Notiz fest, die die vier Variablen und die daraus folgende Schlussfolgerung auflistet.
+
+## Wie sich die jährliche Überprüfung ohne grosse Vorbereitung halten lässt
+
+Die jährliche Überprüfung hält sich ohne grosse Vorbereitung, wenn sie strikt an die festgehaltenen vier Variablen gebunden bleibt.
+<!-- /exentax:lote24-native-v1:estructura-offshore-beneficios-riesgos-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten

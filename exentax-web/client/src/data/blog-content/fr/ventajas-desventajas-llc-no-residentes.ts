@@ -111,6 +111,20 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 
+<!-- exentax:cross-refs-v1 -->
+## Pour continuer la lecture
+
+- [Résident vs non-résident aux USA : les différences fiscales clés de la LLC](/fr/blog/resident-vs-non-resident-aux-usa-les-differences-fiscales)
+- [La LLC comme alternative réelle au statut d'auto-entrepreneur en Espagne](/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne)
+- [Auto-entrepreneur en Espagne vs LLC aux États-Unis : comparaison fiscale](/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-fr -->
+## Comment lire le trade-off LLC pour non-résidents comme une cartographie stable plutôt que comme un argumentaire commercial
+
+Le trade-off de la LLC pour les non-résidents se lit plus utilement comme une cartographie stable entre les obligations récurrentes du véhicule (Form 5472, BOI, renouvellement du Registered Agent) et les bénéfices récurrents (séparation juridique, infrastructure de paiement US, structure simple pour activités digitales), plutôt que comme un argumentaire commercial. Les deux côtés sont stables : ils ne changent pas avec le résultat de l'année.
+<!-- /exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -142,6 +156,12 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Payoneer** opère via des entités européennes (Payoneer Europe Ltd, Irlande) elles aussi **dans le périmètre CRS** pour les clients résidant dans une juridiction participante.
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
+
+<!-- exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-fr -->
+## Pourquoi le bilan d'une LLC dépend du profil opérationnel concret
+
+Le bilan avantages/inconvénients d'une LLC pour un non-résident n'a pas de réponse universelle ; il dépend du profil opérationnel concret. Une activité avec une clientèle dispersée géographiquement, des paiements en plusieurs devises et des contreparties principalement extérieures à l'Espagne tire un bénéfice tangible de la structure ; une activité concentrée sur un seul marché européen avec une clientèle locale en tire un bénéfice plus modeste qui peut ne pas justifier la complexité administrative. Le moyen le plus net de trancher consiste à dresser, sur une feuille, le profil réel des flux et à confronter cette feuille à la liste des avantages et des coûts de la structure.
+<!-- /exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-fr -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure

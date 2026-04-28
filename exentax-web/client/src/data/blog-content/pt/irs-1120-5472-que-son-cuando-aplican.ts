@@ -194,6 +194,94 @@ Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">p�
 
   Para residentes fiscais em Portugal com participações em LLCs americanas, ao stack americano (Form 1120 + Form 5472 com sanção de **USD 25.000 por incumprimento** ao abrigo do **IRC §6038A(d)(1)** agravado pela **Sec. 13301 do TCJA — Pub. L. 115-97 de 22/12/2017**) acresce um stack português: (a) **Modelo 22 do IRC** se a LLC for considerada não residente com estabelecimento estável; (b) **Anexo G ao Modelo 22** para entidades estrangeiras controladas; (c) **art. 121.º do CIRC** sobre obrigações declarativas; (d) regime CFC do **art. 66.º do CIRC** quando a LLC esteja em jurisdição de tributação privilegiada. A **ficha doutrinária 2018003278 da AT** confirma a transparência fiscal das LLCs com dois ou mais sócios. O intercâmbio CRS via **DAC2 desde 2017** garante o cruzamento automático de dados entre o IRS e a AT.
 
+<!-- exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+## O que 1120 + Form 5472 reportam realmente (e o que não)
+
+Para uma single-member LLC detida por uma pessoa não-US e tratada
+como disregarded para efeitos fiscais nos US, o IRS exige uma
+envelope pro-forma 1120 utilizada apenas como suporte do Form 5472.
+Este par não apura imposto US sobre uma LLC disregarded detida por
+estrangeiro; documenta que certas transacções reportáveis entre a
+LLC e o seu proprietário estrangeiro (ou partes relacionadas)
+ocorreram efectivamente. O IRS quer visibilidade sobre estes
+fluxos, não necessariamente receita.
+
+| Item             | O que reporta                                           |
+|------------------|---------------------------------------------------------|
+| Pro-forma 1120   | Envelope de identificação: nome da LLC, EIN, morada,    |
+|                  | ano                                                     |
+| Form 5472        | Cada transacção reportável com a parte relacionada      |
+|                  | estrangeira (entradas de capital, distribuições,        |
+|                  | empréstimos, serviços, etc.)                            |
+
+Se o ano não teve transacções reportáveis, o par é, em geral,
+entregue na mesma com valores a zero para que o IRS veja o estatuto
+de actividade explicitamente. Saltar a entrega é o que despoleta a
+conhecida exposição a coimas previstas no regulamento.
+
+## Três padrões reais de entrega que aplicamos
+
+Uma single-member LLC com uma entrada de capital na constituição,
+uma pequena retirada mensal ao proprietário estrangeiro e nenhum
+outro fluxo relacionado. O 5472 reporta a entrada e as retiradas;
+o pro-forma 1120 leva a envelope. A época de entrega leva umas
+horas de trabalho estruturado, incluindo a reconciliação
+contabilística.
+
+Uma single-member LLC que emprestou dinheiro a uma sociedade
+relacionada estrangeira, mais tarde reembolsado, com taxa de juro
+normal. O 5472 reporta a concessão do empréstimo e o reembolso; a
+acumulação de juros faz parte dos livros da LLC e reflecte-se na
+declaração do proprietário no seu país. A documentação é aliada
+aqui: o contrato de empréstimo e o quadro de amortização estão na
+pasta de compliance da LLC.
+
+Uma LLC plurianual sem actividade no ano corrente. Entregamos
+ainda assim o pro-forma 1120 + 5472 a zeros, anexamos um curto
+memorando interno a explicar o ano dormente, e mantemos o processo
+pronto para o momento em que a LLC reactive.
+
+## Erros que levam a cartas de coima
+
+- Tratar o par como declaração fiscal que "nada deve" e saltá-lo. É
+  uma entrega declarativa; a ausência de imposto não retira a
+  obrigação.
+- Misturar despesas pessoais do proprietário nos livros da LLC e
+  depois tentar reconciliar à hora da entrega. Manter a fronteira
+  limpa mensalmente.
+- Esquecer que uma retirada ao proprietário estrangeiro é uma
+  transacção reportável. É-o muitas vezes, conforme a sua natureza
+  (devolução de capital, distribuição, etc.).
+- Entregar tarde. A coima por um Form 5472 falhado é substancial e
+  aplica-se mesmo sem imposto US devido.
+
+## Checklist de pré-entrega
+
+- A EIN da LLC corresponde à carta IRS (CP575).
+- Ano de exercício confirmado (ano civil por defeito para uma
+  single-member disregarded LLC).
+- Contabilidade fechada e reconciliada com os bancos.
+- Fluxos entre partes relacionadas mapeados às categorias de linhas
+  do 5472.
+- Documento de identificação do proprietário em ficheiro coerente
+  com a declaração BOI.
+- Canal de entrega pronto (papel ou e-file via prestador
+  autorizado).
+
+Tratamos 1120 + 5472 como o aperto de mão anual da LLC com o IRS:
+calmo, previsível, estruturado. Uma entrega arrumada este ano
+torna o ano seguinte ainda mais calmo.
+
+<!-- /exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [O que acontece se não apresentar o Form 5472: multas do IRS e como corrigir](/pt/blog/o-que-acontece-se-nao-apresentar-o-form-5472-multas-irs-e)
+- [W-8BEN e W-8BEN-E: um guia completo e tranquilo](/pt/blog/w8-ben-e-w8-ben-e-o-guia-completo)
+- [O que é o IRS e como afeta realmente a sua LLC americana](/pt/blog/o-que-e-o-irs-e-como-afeta-a-sua-llc-americana)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Revemos BOI, EIN, agente registado e obrigações federais para que nenhuma multa o apanhe de surpresa. <a href="/pt/servicos">Pedir revisão de compliance</a>.
 <!-- /exentax:cta-v1 -->

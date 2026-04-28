@@ -83,6 +83,18 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
+<!-- exentax:lote20-native-v1:llc-desarrolladores-software-saas-pt -->
+## Como avaliar a adequação da LLC para programadores de software e SaaS de forma sóbria
+
+A adequação da LLC para programadores de software e SaaS avalia-se com mais honestidade quando se examinam separadamente três características do negócio: o modelo de receitas (licenças, subscrições, vendas únicas), a distribuição geográfica dos clientes e a frequência das operações bancárias. Só estas três características em conjunto determinam se a LLC corresponde verdadeiramente às exigências operacionais.
+<!-- /exentax:lote20-native-v1:llc-desarrolladores-software-saas-pt -->
+
+<!-- exentax:lote31-native-v1:llc-desarrolladores-software-saas-pt -->
+## Como ler a LLC para developers e SaaS como um mapa operativo estável em vez de uma escolha de tendência
+
+A LLC para developers e SaaS lê-se de forma mais útil como um mapa operativo estável entre os clientes (frequentemente dispersos globalmente), o beneficiário e o país onde se cria valor de software, em vez de uma escolha de tendência. Este mapa mantém-se válido de um release para o seguinte.
+<!-- /exentax:lote31-native-v1:llc-desarrolladores-software-saas-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -177,6 +189,12 @@ Preferes agenda? <a href="/pt/agendar">Marca uma sessão gratuita</a> e analisam
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote20-native-v1:llc-desarrolladores-software-saas-pt-bis -->
+## Como actualizar a avaliação anualmente sem grande esforço
+
+A avaliação da adequação da LLC para um perfil de SaaS actualiza-se anualmente, no encerramento do ano, em poucos minutos, revendo as três características registadas e ajustando apenas onde o perfil tenha realmente mudado.
+<!-- /exentax:lote20-native-v1:llc-desarrolladores-software-saas-pt-bis -->
 
 <!-- exentax:cta-v1 -->
 Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-delaware">Comparar o meu caso com um consultor</a>.

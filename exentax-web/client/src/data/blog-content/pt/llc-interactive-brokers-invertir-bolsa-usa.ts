@@ -125,6 +125,20 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **CDT Espanha–EUA.** A convenção (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
 - **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 
+<!-- exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-pt -->
+## Como ler a configuração LLC + Interactive Brokers como um mapeamento operacional estável em vez de uma combinação oportunista
+
+A configuração LLC + Interactive Brokers lê-se de forma mais útil como um mapeamento operacional estável entre o titular da conta de corretagem, o país de residência do beneficiário e o tipo de atividade alojada na LLC, do que como uma combinação oportunista. Esse mapeamento não muda com a direção do mercado.
+
+Uma nota curta no ficheiro da LLC que registe o titular da conta, a data de abertura e a atividade alojada torna a configuração relevável em poucos minutos pelo membro.
+<!-- /exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-pt -->
+
+<!-- exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-pt -->
+## Como reler a configuração sem partir do zero a cada conversa com um consultor
+
+Uma nota curta e datada, que registe o titular da conta, o país de residência do beneficiário e o tipo de atividade alojada na LLC, é suficiente para reler a configuração em poucos minutos numa conversa com um consultor fiscal, sem ter de a reconstruir de memória nem reabrir o ficheiro todo.
+<!-- /exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -145,6 +159,16 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:lote21-native-v1:llc-interactive-brokers-invertir-bolsa-usa-pt -->
+## Como avaliar a escolha de um corretor para a LLC de forma sóbria
+
+A escolha de um corretor para a LLC avalia-se com mais honestidade quando é ligada a três características da prática de investimento: o tipo de instrumentos preferidos, a frequência das operações e as exigências de reporte que o corretor deve fornecer para a contabilidade da LLC. Estas três características determinam se um corretor se ajusta ao perfil — independentemente da reputação da marca.
+
+## Como verificar a escolha do corretor anualmente sem grande esforço
+
+A escolha do corretor verifica-se anualmente, no encerramento do ano, em poucos minutos, revendo as três características registadas e ajustando apenas onde a prática de investimento tenha realmente mudado.
+<!-- /exentax:lote21-native-v1:llc-interactive-brokers-invertir-bolsa-usa-pt -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento

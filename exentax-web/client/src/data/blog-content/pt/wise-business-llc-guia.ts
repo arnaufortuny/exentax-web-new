@@ -103,9 +103,6 @@ A recomendação realista: **Mercury + Relay como backup + Slash para operativa 
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
-<!-- /exentax:calc-cta-v1 -->
 
 ### Notas por provedor
 
@@ -151,6 +148,223 @@ Na Exentax abrimos Wise + Mercury em pacote com configuração optimizada.
 ## Porquê a Wise Business para a sua LLC?
 
 Tratamos este bloco como uma das decisões estruturais da estratégia LLC: errar aqui e o resto da estrutura perde fiscalidade, acesso bancário ou conformidade. As notas seguintes traduzem o que fazemos efetivamente com clientes neste caso, priorizando as variáveis que mexem o resultado.
+
+
+<!-- exentax:lote7-native-v1:wise-business-llc-guia -->
+## Matriz prática de decisão: quando a Wise deve entrar no stack
+
+A maioria dos donos de LLC não precisa de um único banco, mas de um
+pequeno conjunto bem alinhado de contas que faz três coisas com
+calma: receber pagamentos de clientes, guardar fundos na moeda
+correta e mover dinheiro para o lado pessoal sem fricção. A Wise
+Business ocupa nesse quadro o lugar da camada multi-moeda, não o do
+substituto do banco US domiciliário. Em baixo está a matriz que
+usamos com a maioria dos clientes para decidir se a Wise deve juntar-
+se ao stack como segunda ou terceira ferramenta.
+
+| Perfil                                             | Mercury | Relay  | Wise Business | Stripe |
+|----------------------------------------------------|---------|--------|---------------|--------|
+| Só clientes US, ACH dominante                      | central | —      | opcional      | se web |
+| Clientes UE + LATAM, facturas multi-moeda          | central | —      | central       | central|
+| Movimento muito baixo, sobretudo despesa em cartão | central | —      | opcional      | —      |
+| Pagamentos de marketplace em EUR/GBP               | central | —      | central       | —      |
+| Foco em contabilidade/automação                    | opcional| central| opcional      | central|
+
+O padrão é estável: a Wise torna-se essencial no momento em que
+clientes da UE ou facturas em EUR/GBP entram em cena, porque os dados
+em formato IBAN eliminam a fricção para o pagador e o custo de câmbio
+fica muito mais perto da taxa interbancária do que o que um banco
+correspondente nos EUA entregaria.
+
+## Casos reais de clientes (anonimizados)
+
+Uma consultora bilingue instalada em Barcelona facturava cerca de
+metade dos seus clientes alemães e franceses em EUR e a outra metade
+em USD. Com a Mercury como domicílio e a Wise Business como camada
+EUR/GBP, o custo de conversão caiu para uma fracção do que o anterior
+fluxo Stripe + banco estrangeiro custava. A contabilidade também
+simplificou: cada moeda mantém o seu saldo e a conversão em USD só
+acontece quando o sócio retira fundos.
+
+Uma LLC de serviços constituída na Florida utiliza um cartão Wise
+para despesas de publicidade, mantém a Mercury como conta operacional
+e usa a Wise apenas para câmbio e cartão. O cartão é tratado como
+ferramenta para orçamentos publicitários e SaaS, nunca como o meio de
+pagamento principal. Essa separação torna a contabilidade trivial e a
+conversa AML com o banco previsível.
+
+## Erros comuns a evitar com a Wise Business
+
+- Tratar a Wise como o banco US principal. É um prestador de serviços
+  financeiros sobre bancos parceiros; não substitui a Mercury nem a
+  Relay nos padrões ACH/wire nem nas relações recorrentes com
+  fornecedores.
+- Misturar a Wise pessoal e a Wise Business. São duas relações
+  jurídicas distintas; não mover fundos entre elas como se fossem uma
+  só conta.
+- Saltar a nota de origem dos fundos na primeira transferência. Uma
+  curta explicação escrita arquivada evita a maior parte das perguntas
+  KYC de segunda ronda mais à frente.
+- Manter grandes saldos parados em várias moedas. A Wise remunera
+  alguns saldos mas não é um veículo de tesouraria; manter saldos de
+  trabalho e varrer o excedente para a conta operacional.
+
+## Checklist antes de pôr a Wise Business em uso
+
+- Documentos de constituição da LLC e carta EIN (CP575) prontos para
+  upload.
+- Mercury ou Relay aberta primeiro como conta US domiciliária.
+- Documento de identificação do sócio coerente com a morada do BOI da
+  LLC.
+- One-pager de origem dos fundos preparado e guardado na pasta de
+  compliance da LLC.
+- Regra contabilística: os saldos Wise reconciliam com o livro
+  operacional ao fim do mês, por moeda.
+
+Tratamos a Wise Business como o pulmão multi-moeda da LLC: inspira os
+pagamentos dos clientes da UE, expira os pagamentos ao sócio, e o
+resto do stack trata da gravidade do lado US.
+
+<!-- /exentax:lote7-native-v1:wise-business-llc-guia -->
+
+<!-- exentax:lote22-native-v1:wise-business-llc-guia-pt -->
+## Como avaliar a adequação da Wise para uma LLC de forma sóbria
+
+A adequação da Wise para uma LLC avalia-se com mais honestidade quando é ligada a três características do perfil operativo: o volume das movimentações mensais, a mistura geográfica das contrapartes e a necessidade de separar várias moedas com clareza. Estas três características determinam se a Wise se ajusta ao perfil — independentemente da reputação da marca.
+
+## Como verificar a escolha da Wise anualmente sem grande esforço
+
+A escolha da Wise verifica-se anualmente, no encerramento do ano, em poucos minutos, revendo as três características registadas e ajustando apenas onde a prática real do ano tenha divergido.
+<!-- /exentax:lote22-native-v1:wise-business-llc-guia-pt -->
+
+<!-- exentax:lote35-native-v1:wise-business-llc-guia-pt -->
+## Como ler a questão de uma conta Wise Business para uma LLC como um mapeamento de identificadores e expectativas documentais estável em vez de uma sequência de tickets de suporte
+
+A questão de uma conta Wise Business para uma LLC lê-se de forma mais útil como um mapeamento estável entre o identificador da conta, a identificação do beneficiário e o contexto de atividade documentado, em vez de uma sequência de tickets de suporte resolvidos ao sabor do momento. Este mapeamento não muda de mês para mês, e uma nota curta e datada no ficheiro da LLC com os três eixos torna a posição relevável.
+<!-- /exentax:lote35-native-v1:wise-business-llc-guia-pt -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote7-native-v1:wise-business-llc-guia-bis -->
+## Wise Business ao longo da vida da LLC: uma visão mais longa
+
+A maior parte das perguntas operacionais sobre a Wise Business
+chega em três momentos específicos da vida da LLC: na abertura da
+conta no primeiro ano, quando a LLC tem o seu primeiro pico
+significativo de tesouraria, e quando um sócio se relocaliza ou a
+actividade se alarga a novos países de clientes. Cada momento põe
+uma versão diferente da mesma pergunta, e a resposta muda a forma
+como a conta é usada.
+
+No ano um, a prioridade é a coerência de identidade. A LLC tem uma
+EIN nova, um único sócio registado e uma morada de registered agent
+US operacional e não residencial. O onboarding da Wise Business
+espera que tudo isto coincida: nome da LLC no documento de
+constituição, ID da carta EIN (CP575), morada do registered agent
+como sede da LLC e residência pessoal do sócio como dado de
+beneficiário efectivo. Submeter um bundle arrumado no ano um
+elimina a maior parte das fricções que aparecem mais tarde como
+perguntas de segunda ronda.
+
+Quando o primeiro pico de tesouraria chega, tipicamente entre os
+meses seis e doze, a prioridade passa da identidade para a
+narrativa. Uma transferência maior de um novo cliente, um payout de
+marketplace três vezes acima da média mensal, ou um único lote
+acumulado de facturas a passar de uma vez podem todos despoletar
+uma revisão suave. A correcção é a mesma que para a segunda ronda
+de KYC em geral: uma curta nota de cobertura anexada à entrada
+relevante, a nomear a contraparte, o contrato ou factura
+subjacentes, e a cadência esperada a seguir. Com a interface web da
+Wise, a nota é um trabalho de dois minutos, e desloca o processo de
+"anomalia a investigar" para "variação documentada".
+
+Quando um sócio se relocaliza ou a actividade se alarga, a
+prioridade torna-se a coerência de perfil. A Wise vai acabar por
+captar os sinais da nova geografia: localização dos dispositivos,
+padrões de despesa em cartão, origens IP dos logins. Se a
+residência registada não acompanhar esses sinais, a conta torna-se
+candidata a um re-onboarding na nova jurisdição. Antecipamo-nos
+actualizando a residência no momento em que a mudança é real,
+anexando uma curta nota probatória (contrato de arrendamento,
+certificado de registo ou equivalente) e confirmando que o
+documento de identidade do sócio ainda corresponde.
+
+## Um ritmo operacional de 12 meses com a Wise Business
+
+| Intervalo de meses | Acção                                              |
+|--------------------|----------------------------------------------------|
+| Jan-Fev            | Refrescar dados de utilizador; confirmar           |
+|                    | residência; exportar relatório anual anterior      |
+| Mar-Abr            | Reconciliar saldos por moeda com o livro           |
+|                    | operacional                                         |
+| Mai-Jun            | Anexar notas de cobertura a coortes de clientes    |
+|                    | novas e relevantes                                  |
+| Jul-Ago            | Revisão a meio do ano da política de FX; varrer    |
+|                    | saldos parados, se houver                          |
+| Set-Out            | Pré-renovação dos documentos de suporte            |
+|                    | (passaportes, etc.)                                 |
+| Nov-Dez            | Instantânea de fim de ano; exportar extractos;     |
+|                    | arquivar na pasta de compliance                     |
+
+Este ritmo substitui o padrão "reagir quando algo acontece" por
+uma cadência calma e previsível. A equipa de contabilidade sabe o
+que esperar; a equipa de compliance do banco vê um perfil que
+envelhece bem.
+
+## Mais dois casos reais com a Wise Business
+
+Um sócio residente em Espanha a operar uma LLC US SaaS mantinha a
+Wise Business como camada EUR/GBP para clientes europeus. Depois
+de um anúncio de parceria que inflou brevemente o volume, a conta
+manteve-se arrumada porque o sócio fez upload, de forma proactiva,
+do comunicado de imprensa da parceria e do contrato subjacente
+antes da chegada da primeira transferência. Sem interrupção de KYC,
+sem atraso de payout.
+
+Um consultor que se relocalizou de um país da UE para outro no fim
+de ano actualizou a residência da Wise Business no primeiro dia da
+mudança, anexou uma curta nota de cobertura a explicar a mudança e
+a actividade inalterada da LLC, e continuou a operar sem ciclo de
+re-onboarding. A autoridade fiscal de residência do novo país
+recebeu o relatório padrão DAC2/CRS no fim de ano e fê-lo
+corresponder à declaração anual do utilizador.
+
+## Coisas a nunca fazer com a Wise Business
+
+- Ignorar um pedido de documentação e "esperar que passe". Quanto
+  mais tempo uma notificação da Wise fica em aberto, mais pesada a
+  revisão eventual.
+- Usar a app pessoal da Wise para entrar na Wise Business ou
+  vice-versa com dados de identidade misturados. Duas relações,
+  duas identidades.
+- Estacionar grandes saldos parados e tratar a posição multi-moeda
+  como veículo de tesouraria. Não foi desenhada para esse papel.
+- Usar o cartão para levantamentos de numerário acima de pequenos
+  valores pontuais; padrões de numerário fazem subir o scoring AML
+  desproporcionalmente.
+
+## Juntar tudo
+
+Wise Business bem feita é a parte calma de uma LLC calma. A
+configuração é pequena, o ritmo previsível, e a imagem de
+compliance documenta-se a si mesma porque cada operação ou
+corresponde ao perfil estabelecido ou leva uma nota de um
+parágrafo a explicar a variação. Tratamos assim com cada cliente, e
+o resultado a longo prazo é uma relação bancária que se mantém fora
+do caminho do negócio em vez de competir pela sua atenção.
+
+<!-- /exentax:lote7-native-v1:wise-business-llc-guia-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Wise e bancos para a sua LLC: a stack bancária completa](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
+- [Wise IBAN e LLC: o que é realmente reportado às autoridades fiscais](/pt/blog/wise-iban-e-llc-o-que-realmente-e-reportado-as-autoridades)
+- [Trocar divisas para a sua LLC: melhores opções e como evitar taxas ocultas](/pt/blog/trocar-divisas-para-sua-llc-melhores-opcoes-e-como-evitar)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

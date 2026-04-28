@@ -85,6 +85,14 @@ For non-residents, the LLC remains the most common choice because it combines li
 
 The right choice depends on your 3-5 year plan, not on whichever forum is trending today.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Pass-through taxation for LLCs: how it works and why it matters](/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it)
+- [How to form a US LLC step by step: complete process guide](/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide)
+- [LLC taxation by economic activity: services, e-commerce, SaaS](/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Find out whether an LLC fits your case</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -166,6 +166,14 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote28-native-v1:nomada-digital-residencia-fiscal-ca -->
+## Com llegir la qüestió de la residència fiscal per a nòmades digitals com un mapatge estable en lloc d'un joc geogràfic
+
+La qüestió de la residència fiscal per a nòmades digitals es llegeix de manera més útil com un mapatge estable entre els criteris objectius (dies de presència, centre d'interessos, lligams personals) i la declaració formal a cada jurisdicció en qüestió, que com un joc geogràfic. Els criteris no canvien de viatge en viatge.
+
+Una nota curta i datada al dossier personal que registri els dies de presència per país i el centre d'interessos declarat per a l'any fa la posició consultable a qualsevol moment — cosa que ajuda força tant en una consulta posterior d'una autoritat com en una reunió amb un assessor.
+<!-- /exentax:lote28-native-v1:nomada-digital-residencia-fiscal-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -253,6 +261,14 @@ Constituir la LLC al Wyoming, Nou Mèxic, Delaware o Florida no afecta la teva r
 > **Quina és la teva millor combinació país més LLC amb la teva facturació?** Calcula l'estalvi net a la <strong>calculadora fiscal d'Exentax</strong>.
 
 Per quedar-te fora de zones grises continua amb <a href="/ca/blog/estructures-offshore-beneficis-i-riscos-reals">la guia actual de paradisos fiscals</a>, i si el pla és quedar-te a Espanya aprofitant palanques legals revisa <a href="/ca/blog/camins-legals-per-minimitzar-impostos">els camins legals per minimitzar impostos</a>. Per dissenyar el setup <strong>reserva una sessió amb Exentax</strong>.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Fiscalitat internacional per a emprenedors digitals: guia completa](/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [Fiscalitat dels socis d'una LLC en canvi de residència a mig any](/ca/blog/fiscalitat-dels-socis-duna-llc-en-canvi-de-residencia-a-mig)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

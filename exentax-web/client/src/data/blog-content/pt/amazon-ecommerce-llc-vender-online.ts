@@ -98,6 +98,18 @@ Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada
 - **Wise Business** (EMI multi-divisa, não é banco). Para receber e pagar em EUR, GBP, USD e outras divisas com dados bancários locais e conversão à *mid-market rate*. Não substitui uma conta US real, mas é imbatível para tesouraria internacional.
 - **Wallester / Revolut Business.** Wallester traz cartões corporativos com BIN próprio para alto volume. Revolut Business funciona como complemento europeu, não como conta principal da LLC.
 
+<!-- exentax:lote21-native-v1:amazon-ecommerce-llc-vender-online-pt -->
+## Como avaliar a adequação da LLC para perfis Amazon e e-commerce de forma sóbria
+
+A adequação da LLC para perfis Amazon e e-commerce avalia-se com mais honestidade quando se examinam separadamente três características do negócio: o modelo de vendas (marca própria, revenda, dropshipping), a distribuição geográfica dos clientes e a frequência das operações bancárias.
+<!-- /exentax:lote21-native-v1:amazon-ecommerce-llc-vender-online-pt -->
+
+<!-- exentax:lote31-native-v1:amazon-ecommerce-llc-vender-online-pt -->
+## Como ler a LLC para ecommerce como um mapa operativo estável em vez de um atalho comercial
+
+A LLC para ecommerce lê-se de forma mais útil como um mapa operativo estável entre o marketplace, o beneficiário e o país de residência do beneficiário, em vez de um atalho comercial. Este mapa não muda com a época do ano.
+<!-- /exentax:lote31-native-v1:amazon-ecommerce-llc-vender-online-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -143,6 +155,14 @@ Na Exentax montamos essa estrutura de ponta a ponta e entregamos ao seller o man
 ## Como trabalhamos na Exentax
 
 A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+- [DAC7: o novo reporting de plataformas digitais em 2026](/pt/blog/dac7-o-novo-reporting-de-plataformas-digitais-em-2026)
+- [Tributação da LLC por país de residência: o que se paga onde se vive](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

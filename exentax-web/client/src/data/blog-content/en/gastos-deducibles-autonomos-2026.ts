@@ -77,6 +77,18 @@ The official criterion on deductible expenses is in <a href="https://www.boe.es/
 
 **What if I lose an invoice?** Spain's tax authority allows reconstruction via bank statement + supplier certificate + sworn declaration. The process is cumbersome and frequently rejected. Better: digital archive (Drive, Notion, manager) updated monthly.
 
+<!-- exentax:lote21-native-v1:gastos-deducibles-autonomos-2026-en -->
+## How to read the deductible-expense list as a stable framework rather than as a year-by-year hunt
+
+The list of deductible expenses for autónomos reads more usefully when it's treated as a stable framework rather than as a year-by-year hunt for new categories. The categories that genuinely qualify rarely change from one year to the next, and the recurring deductibles dominate the total far more than the occasional ones.
+<!-- /exentax:lote21-native-v1:gastos-deducibles-autonomos-2026-en -->
+
+<!-- exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-en -->
+## How to read deductible expenses for the self-employed as a stable annual mapping rather than as a recurring debate
+
+Deductible expenses for the self-employed read more usefully when they're treated as a stable annual mapping between the type of activity, the type of expense and the deductibility rule that applies, than as a recurring debate. The mapping doesn't change month to month, and a short note in the activity folder helps.
+<!-- /exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -134,6 +146,34 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+### How the home-office proportion is documented without surprises
+
+The deduction for home-office utilities (electricity, water, gas, internet) requires that the freelancer has notified the AEAT, via Form 036/037, the percentage of the dwelling allocated to professional activity. That percentage must be defensible: in practice we recommend basing it on a simple sketch of the dwelling indicating the rooms used exclusively for the activity (and the proportion of shared rooms used for it), with a date and a note in the file. Once that percentage is registered, the deductible portion of the utility is 30% of the percentage of the dwelling allocated to the activity, applied each invoice. The most common mistake we see is freelancers deducting 30% of the full utility bill (instead of 30% of the proportional part), which produces a routine adjustment when the AEAT reviews the year. The clean approach is to register the percentage in writing, document the rooms with a brief sketch, and apply the formula consistently across the four quarters.
+
+### Three deduction conversations we have at every annual review
+
+The first conversation is around training: the rule allows deduction of training directly linked to the activity, but in practice the AEAT looks closely at the link between the course content and the codes of the activity registered. Keeping the course syllabus and a one-paragraph note explaining how the training applies to current or planned client work in the file makes the deduction defensible. The second conversation is around vehicle expenses: for most freelancers without exclusive professional vehicle use, the safer answer is to limit deductions to documented business trips with kilometres logged, rather than attempting to deduct general fuel and maintenance, which the AEAT routinely adjusts. The third conversation is around equipment depreciation: laptops, monitors and similar work tools above a small ticket are deducted via amortisation tables, not as a one-shot expense, and keeping the original purchase invoice with serial number is the cleanest paper trail when an item is later sold or scrapped.
+<!-- /exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+### A practical deductions checklist before each quarterly closing
+
+Before each quarterly Form 130 filing, we run a four-step checklist with the autónomo. Step one: verify that every supplier invoice for the quarter is in the file with full identification (supplier name, NIF, date, amount, VAT detail and, where applicable, the activity link in one line). Step two: separate strictly personal expenses from business expenses for any payment method that is mixed (a credit card used for both is the most common source of confusion at this step), and tag each expense as personal or business in the bookkeeping. Step three: verify that the home-office utility proportion has been applied correctly, that the registered percentage in Form 036 has not changed and that no seasonal anomaly inflated a single bill (for example a one-off repair that should not be deducted). Step four: review the quarterly net-income result against the year-to-date projection and confirm with the autónomo whether any timing decision (advance an expense, defer an invoice) is on the table for the closing month before the quarter shuts.
+
+### When the AEAT reviews a quarter and what to have ready
+
+The AEAT can request supporting documentation for a Form 130 result during the four years that follow the filing, with the most common review window being the year following the annual IRPF return. The documentation kit we keep ready per quarter is small and predictable: the income summary by client and date, the expense ledger with category, supplier, date and amount, the invoice copies (or scans) for any expense above a small ticket, the bank statement matching the cash movements, and a one-page note explaining any unusual line. When the request arrives, the response time is short (typically ten working days), so the cost of having the kit ready is far smaller than the cost of reconstructing it from scratch under deadline pressure. We have seen many clients absorb a routine review without friction simply because the kit was kept current month after month; we have also seen the opposite, where a missing invoice or an unmatched bank line opened the door to a wider review of the year.
+<!-- /exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Spain's 2026 IRPF brackets explained without noise](/en/blog/spain-2026-irpf-tax-brackets-explained)
+- [Self-employed quota in Spain 2026: what you actually pay each month](/en/blog/spain-self-employed-quota-2026-tiers-explained)
+- [Deductible expenses for your US LLC: a complete, honest guide](/en/blog/tax-deductions-for-your-llc-complete-guide)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.

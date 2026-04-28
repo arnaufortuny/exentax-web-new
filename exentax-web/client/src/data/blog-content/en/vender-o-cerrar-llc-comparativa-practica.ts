@@ -79,9 +79,6 @@ Regardless of path:
 
 At Exentax we accompany all three paths. Before proposing one, we validate with the client what is really there to liquidate or transfer, what real demand exists, and what the net result would be in each scenario.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/en/book">Free consultation, no strings attached</a>
-<!-- /exentax:calc-cta-v1 -->
 
 If you are evaluating exiting your LLC and not sure which path, book a free initial session through our booking page. We help you choose and execute.
 ## Legal and regulatory references
@@ -163,6 +160,92 @@ If you want to know which path fits your real case, run the <strong>Exentax calc
 
   At Exentax we cover those five fronts every year alongside the US federal calendar (Form 5472, pro-forma 1120, FBAR, state Annual Report and BOI Report when applicable). The goal is that no inquiry finds a loose end and that the structure withstands a 5-to-7-year retroactive review.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/en/book">Free consultation, no strings attached</a>
+<!-- /exentax:calc-cta-v1 -->
+
+<!-- exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+## Sell or close: choosing the question before choosing the action
+
+The first useful step is to separate two questions that often arrive
+together: "do I want to keep operating with this LLC?" and "is this
+LLC a sellable asset on its own?". Many LLCs are excellent operating
+shells but poor sellable assets, and the reverse can also be true.
+Once that distinction is clear, the practical decision falls out of
+the data.
+
+| Signal                                  | Points to selling          | Points to closing       |
+|-----------------------------------------|----------------------------|-------------------------|
+| Recurring contracts in the LLC's name   | yes                        | weak                    |
+| Domain, brand, IP held by the LLC       | yes                        | weak                    |
+| Bank history with US institutions       | yes (transferable carefully)| neutral                |
+| Single-member, low brand value          | weak                       | yes                     |
+| Open litigation or unresolved claims    | hard pause                 | hard pause              |
+
+When the table tilts towards selling, the work is on documentation,
+clean books, and a credible narrative. When it tilts towards closing,
+the work is on an orderly wind-down and a clean exit with the IRS,
+the state and the bank.
+
+## Three real client stories
+
+A consultant operating through a single-member LLC for three years
+decided to wind it down when relocating jurisdictions. Closing was
+the right call: there were no transferable contracts, the bank
+history was useful only to her, and the cost of selling exceeded the
+realistic price. We ran the orderly close in two months.
+
+A founder built a small SaaS through her LLC with a recurring
+customer base. The LLC was sellable as a unit because the product,
+the customer contracts and the merchant accounts were all in the
+LLC's name. We ran a structured sale, the buyer assumed the LLC,
+and the founder kept her clean exit narrative.
+
+A consultant with two LLCs (one operating, one dormant) closed the
+dormant one and kept the active one. The dormant LLC carried no
+assets and only added compliance work each year. Closing it
+simplified the next 1120 + 5472 cycle and reduced the BOI
+maintenance perimeter.
+
+## Mistakes to avoid in either direction
+
+- Stopping operations without filing the dissolution. The state
+  still expects annual fees; without dissolution the LLC accrues
+  obligations.
+- Selling without resolving the EIN. EINs do not transfer like share
+  certificates; structure the deal so the buyer either keeps the LLC
+  intact or substitutes the EIN cleanly.
+- Forgetting the bank profile. Bank accounts must be closed in order
+  during a wind-down, not abandoned; abandonment can leave residual
+  fee balances that complicate the final tax filings.
+- Ignoring the BOI cycle. A dissolved LLC needs a BOI update; a sold
+  LLC needs ownership-update reporting too.
+
+## Wind-down or sale checklist
+
+- Trial balance and reconciled bank statements ready.
+- Final 1120 + 5472 prepared in advance for the closing year.
+- All contracts catalogued (assignable / non-assignable).
+- IP register confirmed (domains, trademarks, code repositories).
+- BOI status updated immediately after the deed.
+- Records retention plan in place for 7 years minimum.
+
+We treat the sell-or-close decision as one of the highest-leverage
+moments in the LLC's life. A clean exit, of either kind, is
+permanent value for the member.
+
+<!-- /exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+
+
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [How to dissolve and close a US LLC: a calm, step-by-step path](/en/blog/how-to-dissolve-and-close-a-us-llc-step-by-step)
+- [Change LLC maintenance provider without losing history or continuity](/en/blog/change-llc-maintenance-provider-without-losing-history-or)
+- [LLC member taxation when you change tax residence mid-year](/en/blog/llc-member-taxation-when-changing-tax-residence-mid-year)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

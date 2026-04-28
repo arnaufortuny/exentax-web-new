@@ -154,6 +154,20 @@ Ara que tens el context complet, el pas següent natural és contrastar-lo amb l
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote27-native-v1:como-operar-llc-dia-a-dia-ca -->
+## Com llegir l'operació diària de la LLC com un conjunt d'hàbits documentats en lloc d'una improvisació
+
+L'operació diària de la LLC es llegeix de manera més útil com un conjunt d'hàbits documentats — conciliació bancària mensual, arxiu mensual de justificants, separació estricta entre fons personals i fons de la LLC — que com una improvisació guiada per les necessitats de la setmana. Aquests hàbits no canvien de mes en mes.
+
+Una nota curta al dossier de la LLC que registri la freqüència triada per a cadascun fa l'operació consultable a qualsevol moment, sense haver-la de reconstruir de memòria — cosa que ajuda força en una revisió posterior o en el traspàs a un nou comptable.
+<!-- /exentax:lote27-native-v1:como-operar-llc-dia-a-dia-ca -->
+
+<!-- exentax:lote27-native-v1:como-operar-llc-dia-a-dia-ca-bis -->
+## Com llegir la rutina mensual com una entrada curta al dossier de la LLC en lloc d'una assumpció implícita
+
+La rutina mensual de la LLC es manté de manera més serena com una entrada curta i datada al dossier de la LLC que registri la freqüència de cada hàbit i la data del darrer cicle — i fa que qualsevol traspàs o revisió posterior sigui llegible en pocs minuts en lloc de ser reconstruïda de memòria.
+<!-- /exentax:lote27-native-v1:como-operar-llc-dia-a-dia-ca-bis -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -166,6 +180,14 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote18-native-v1:como-operar-llc-dia-a-dia-ca -->
+## Per què el dia a dia d'una LLC es basa en tres rituals curts en lloc de decisions puntuals
+
+Fer funcionar una LLC en el dia a dia no es basa en una successió de decisions puntuals, sinó en tres rituals curts que es repeteixen amb freqüències diferents. El ritual setmanal cobreix les conciliacions bancàries de la setmana i l'arxiu dels justificants rebuts. El ritual mensual cobreix la revisió de les distribucions al membre i l'enviament de les informacions a la comptabilitat. El ritual trimestral cobreix la verificació dels terminis pròxims i el possible ajust de les previsions de tresoreria.
+
+Aquests tres rituals, un cop instal·lats, transformen la gestió d'una LLC en una rutina previsible que deixa de dependre de la memòria o de la disponibilitat d'un cap de setmana.
+<!-- /exentax:lote18-native-v1:como-operar-llc-dia-a-dia-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -217,6 +239,14 @@ Apunt concret dels nostres expedients: així passa de debò, no com ho descriu u
 ### Wallester: targetes corporatives per a despeses del dia a dia
 
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Tinc una LLC als EUA, la gestiono correctament? Checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real)
+- [Separar diners personals i de la LLC: per què és important](/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important)
+- [Documentar la separació de fons en la teva LLC: procediment real](/ca/blog/documentar-be-la-separacio-de-fons-en-la-teva-llc-amb)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

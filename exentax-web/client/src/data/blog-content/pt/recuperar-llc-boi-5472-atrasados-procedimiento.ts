@@ -84,10 +84,22 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
 
+<!-- exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-pt -->
+## Porque é que um calendário de recuperação funciona melhor do que uma resposta em bloco
+
+Recuperar uma LLC cujas comunicações BOI e o formulário Form 5472 estão em atraso não se faz numa única ação, mas segundo um calendário curto e disciplinado que separa as peças no tempo para evitar que se contradigam ou sejam submetidas sem coerência interna. O primeiro passo consiste em reconstituir o ano que serve de base de referência para os restantes; os exercícios seguintes alinham-se em seguida nessa base, e evita-se assim o cenário frequente em que a recuperação de um exercício revela incoerências com os exercícios já submetidos.
+<!-- /exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-pt -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
 As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+
+<!-- exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-pt -->
+## Como ler a regularização de BOI e Form 5472 em atraso como um procedimento documentado em vez de uma reação improvisada
+
+A regularização de BOI e Form 5472 em atraso lê-se de forma mais útil como um procedimento documentado com uma sequência fixa — fechar a lacuna ano a ano, submeter por ordem cronológica, arquivar as confirmações — em vez de uma reação improvisada. O procedimento não muda com o número de anos a recuperar.
+<!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-pt -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
@@ -147,6 +159,40 @@ Se a sua LLC tem anos pendentes e quer saber a via que se aplica, abra a <strong
   ### Regularização FBAR/Form 5472/BOI: perspetiva portuguesa
 
   Para sócios portugueses de LLC americana em atraso com declarações US (**FBAR FinCEN 114** para contas > USD 10.000, **Form 5472 IRC §6038A(d)** com sanção USD 25.000/formulário/ano, FinCEN BOI sob **CTA §6403** com sanção USD 591/dia), a regularização efetua-se via **Streamlined Foreign Offshore Procedures (SFOP)** ou **Voluntary Disclosure Practice (VDP)** do IRS. Em Portugal, as obrigações paralelas são o **Anexo J do Modelo 3 IRS** retroativo, **Modelo 38** para transferências internacionais > €12.500 (Lei 5/2002), e a **Comunicação à AT** ao abrigo do **acordo FATCA Portugal-EUA de 06/08/2015 (Lei 82-B/2014)**. Conservação 10 anos (art. 130.º CIRS).
+
+<!-- exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
+## Como se vê uma operação de recuperação a partir de dentro da LLC
+
+Quando uma LLC nos chega com obrigações BOI ou Form 5472 em
+atraso, o primeiro passo não é nunca apresentar papel, é criar
+clareza: que ano fiscal está realmente em aberto, que documentos já
+foram apresentados, e que movimentos bancários têm de corresponder
+à realidade económica concreta. Esta primeira meia hora de
+esclarecimento encurta a operação seguinte muitas vezes em
+semanas, porque coloca a ordem correta antes da execução.
+
+A segunda observação é que a maior parte das apresentações
+atrasadas implica menos risco de multa do que os sócios temem,
+desde que a recuperação seja voluntária, completa e cronologicamente
+ordenada. As reacções do FinCEN e do IRS são claramente mais suaves
+quando é a LLC que toma a iniciativa em vez de esperar por uma
+notificação.
+
+<!-- /exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
+
+<!-- exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-pt-bis -->
+## Como o calendário de recuperação se constrói na prática
+
+Na prática, o calendário de recuperação constrói-se em três fases curtas: primeiro a definição do ano de referência, depois a ordem dos exercícios a regularizar, e por fim a reserva de um espaço para a verificação final de coerência entre todas as peças submetidas.
+<!-- /exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-pt-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Form 5472: o que é, quem deve apresentá-lo e como cumprir](/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir)
+- [BOI Report 2026: guia da declaração FinCEN Beneficial Ownership](/pt/blog/boi-report-2026-guia-completo-para-a-declaracao-fincen)
+- [Erros críticos se já tem uma LLC americana e ninguém te explicou isto](/pt/blog/erros-criticos-se-ja-tens-uma-llc-e-ninguem-tas-explicou)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

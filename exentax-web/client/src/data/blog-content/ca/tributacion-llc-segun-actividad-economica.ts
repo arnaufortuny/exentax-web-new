@@ -94,6 +94,14 @@ Més sobre com evitar errors típics a <a href="/ca/blog/riscos-fiscals-duna-mal
 
 Una LLC no tributa «d'una sola manera»: tributa segons el que fa, on ho fa i des d'on es controla. La conversa seriosa de planificació fiscal comença per entendre la seva activitat real, no per triar un país en un mapa.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Tributació pass-through per a LLC: com funciona i per què és important](/ca/blog/tributacio-pass-through-per-a-llc-com-funciona-i-per-que)
+- [Fiscalitat LLC per país de residència: el que es paga i on es paga](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [Deduccions fiscals per a la teva LLC: què pots deduir i com](/ca/blog/deduccions-fiscals-per-a-la-teva-llc-que-pots-deduir-i-com)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

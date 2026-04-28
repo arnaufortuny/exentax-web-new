@@ -127,6 +127,26 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [IRS 1120 und 5472: was sie wirklich sind und wann sie gelten](/de/blog/irs-1120-und-5472-was-sie-wirklich-sind-und-wann-sie-gelten)
+- [Form 5472: was es ist, wer es einreichen muss und wie man es erfüllt](/de/blog/form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es)
+- [US-LLC Besteuerung nach Wohnsitzland: was Sie wo zahlen](/de/blog/us-llc-besteuerung-nach-wohnsitzland-was-sie-wo-zahlen)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote25-native-v1:llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais-de -->
+## Wie sich die Aussage "die LLC zahlt keine US-Steuer" als technische Beschreibung statt als steuerliche Schlussfolgerung lesen lässt
+
+Die Aussage "die LLC zahlt keine US-Steuer" liest sich am ehrlichsten als rein technische Beschreibung der Pass-through-Eigenschaft des Vehikels und nicht als steuerliche Schlussfolgerung für den wirtschaftlich Berechtigten. Was im Wohnsitzland des Mitglieds tatsächlich anfällt, hängt von dessen lokalem Steuerrecht und vom Bestehen oder Fehlen eines Doppelbesteuerungsabkommens ab — Fragen, die in den USA nicht beantwortet werden.
+<!-- /exentax:lote25-native-v1:llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais-de -->
+
+<!-- exentax:lote36-native-v1:llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais-de -->
+## Wie sich die Aussage „die LLC zahlt keine Steuern in den USA" als unvollständiger Satz statt als Schlussfolgerung lesen lässt
+
+Die Aussage „die LLC zahlt keine Steuern in den USA" liest sich nützlicher als unvollständiger Satz, der eine zweite Lesart im Wohnsitz­land des wirtschaftlich Berechtigten verlangt, denn als Schlussfolgerung. Die zweite Lesart hängt vom Wohnsitz­land ab und ändert die Vollständigkeit der Aussage.
+<!-- /exentax:lote36-native-v1:llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -143,6 +143,12 @@ This article relies on rules currently in force. Main sources for verification:
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
 
+<!-- exentax:lote30-native-v1:operating-agreement-llc-que-es-en -->
+## How to read the Operating Agreement as a stable governance map rather than as a one-shot document
+
+The Operating Agreement reads more usefully when it's treated as a stable governance map between the members, the manager and the rules of distribution, than as a one-shot document signed at incorporation. The map remains valid until a member, the manager or the rules change.
+<!-- /exentax:lote30-native-v1:operating-agreement-llc-que-es-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -174,6 +180,12 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote18-native-v1:operating-agreement-llc-que-es-en -->
+## Why the operating agreement matters even when nothing seems to require it
+
+The operating agreement of an LLC matters even when no immediate counterparty seems to require it, because it is the document that turns informal practice into a record that can be referenced later. Banks, payment processors, and tax authorities rarely ask for it during routine moments, but they do ask for it during the moments that actually matter: opening, restructuring, succession, or any review.
+<!-- /exentax:lote18-native-v1:operating-agreement-llc-que-es-en -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
@@ -227,6 +239,14 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+- [From single-member to multi-member LLC: tax implications before the step](/en/blog/from-single-member-to-multi-member-llc-real-tax-implications)
+- [BOI Report 2026: complete guide to FinCEN Beneficial Ownership filing](/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Formation, EIN, BOI, banking and ongoing maintenance — one team that understands your case end to end. <a href="/en/services">Explore all services</a>.

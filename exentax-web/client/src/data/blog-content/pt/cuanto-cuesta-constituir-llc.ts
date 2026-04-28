@@ -195,6 +195,14 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar correctamente na residência**, não eliminá-la.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Como constituir uma LLC americana passo a passo: guia completo](/pt/blog/como-constituir-uma-llc-americana-passo-a-passo-guia)
+- [Documentos da LLC: quais precisa e como organizá-los](/pt/blog/documentos-da-llc-quais-precisa-e-como-organiza-los)
+- [Registered Agent: o que é e por que é obrigatório para a sua LLC](/pt/blog/registered-agent-o-que-e-e-por-que-e-obrigatorio-para-sua)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 

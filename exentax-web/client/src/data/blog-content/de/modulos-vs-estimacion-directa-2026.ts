@@ -27,9 +27,6 @@ Ist Ihre Tätigkeit 100% digital, international und mit überwiegend nicht-spani
 
 Die detaillierte Regelung steht in der spanischen IRPF-Verordnung (RD 439/2007) und in der jährlichen Modulverordnung, die jeden November im <a href="https://www.boe.es/">BOE</a> erscheint. Zur Prüfung Ihres IAE-Eintrags konsultieren Sie das <a href="https://sede.agenciatributaria.gob.es/">Steuerbehördenportal</a> vor jeder Entscheidung.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
-<!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.
 
@@ -84,6 +81,57 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+### Wie ein sauberer Übergang von Modulos zur direkten Schätzung tatsächlich abläuft
+
+Der Verzicht wird im Dezember über das Modelo 036 eingereicht, damit er ab Januar des Folgejahres wirksam wird, und einmal eingereicht bindet er die freiberufliche Person für mindestens drei Jahre, bevor sie zu Modulos zurückkehren kann. Die erste praktische Aufgabe im Januar besteht darin, den Buchhaltungsrhythmus aufzubauen, den die direkte Schätzung verlangt: ein separates Geschäftskonto (in unserer Praxis vermeidet ein dediziertes Geschäftskonto die meisten Abstimmungsfriktionen), Rechnungen und Lieferantenbelege monatsweise abgelegt mit elektronischer Sicherung, und ein quartalsweises Modelo 130, das das Nettoeinkommen (Erträge minus absetzbare Ausgaben) als Bemessungsgrundlage nimmt. Die zweite praktische Aufgabe besteht darin, die Abzugslandkarte zu Jahresbeginn zu überprüfen, damit die neue Sichtbarkeit voll genutzt wird: Software, Weiterbildung, Beratungshonorare, Homeoffice-Anteil der Nebenkosten und jeder andere berufliche Aufwand, der unter Modulos schlicht nicht relevant war, wird zu einem rechenbaren Hebel. Die dritte praktische Aufgabe besteht darin, einen quartalsweisen Fünfzehn-Minuten-Termin für die laufende IRPF-Projektion einzuplanen, damit jeder Stufenwechsel oder Schwellenkurs erkannt wird, bevor er zur Jahresend-Überraschung wird.
+
+### Wenn weder Modulos noch direkte Schätzung mehr passt
+
+In unserer Praxis gibt es ein wiederkehrendes Profil, für das sich beide Regime eng anfühlen: eine freiberufliche Person mit überwiegend ausländischen Kunden, wiederkehrender monatlicher Fakturierung in Fremdwährung und einem digitalen Dienstleistungskatalog, der schlecht in die für lokale Gewerbe konzipierten IRPF-Tätigkeitscodes passt. In diesem Profil sind Modulos nicht verfügbar (durch die Tätigkeit ausgeschlossen) und die direkte Schätzung wirkt wie doppelte Belastung (RETA-Beitrag plus voller IRPF auf den Netto-Wert) für eine Struktur, die nicht für grenzüberschreitende digitale Flüsse konzipiert ist. Das Gespräch, das wir an diesem Punkt typischerweise eröffnen, vergleicht zwei strukturelle Alternativen: eine spanische SL (mit eigener Körperschaftsteuer und Dividendenebene, sinnvoll wenn lokale Präsenz erforderlich ist) und eine US-LLC, gehalten aus Spanien (mit eigener Pass-Through-Mechanik und Meldelast, sinnvoll wenn die Mehrheit der Kunden und die Treasury außerhalb Spaniens sitzen). Keine ist eine Abkürzung; beide sind Entscheidungen mit eigenem Drei-Jahres-Horizont und eigenen Setup-Kosten, und genau deshalb verdient der Vergleich eine ruhige Stunde statt einer schnellen Suchmaschinen-Sitzung.
+<!-- /exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:lote25-native-v1:modulos-vs-estimacion-directa-2026-de -->
+## Wie sich die Wahl zwischen Módulos und Estimación Directa als Profilfrage statt als allgemeine Debatte lesen lässt
+
+Die Wahl zwischen Módulos und Estimación Directa liest sich nützlicher, wenn sie als Profilfrage und nicht als allgemeine Debatte behandelt wird. Die Entscheidung hängt vom tatsächlichen Verhältnis zwischen Erträgen und abzugsfähigen Ausgaben ab — und dieses Verhältnis erklärt die Antwort weit besser als jede pauschale Empfehlung pro Tätigkeitstyp.
+<!-- /exentax:lote25-native-v1:modulos-vs-estimacion-directa-2026-de -->
+
+<!-- exentax:lote28-native-v1:modulos-vs-estimacion-directa-2026-de -->
+## Wie sich die Wahl Módulos vs Estimación Directa als Profilfrage statt als allgemeine Debatte lesen lässt
+
+Die Wahl zwischen Módulos und Estimación Directa liest sich nützlicher als Profilfrage — was ist das tatsächliche Verhältnis zwischen Erträgen und abzugsfähigen Ausgaben für genau diese Tätigkeit — denn als allgemeine Debatte. Die Antwort hängt nicht von dem ab, was im Sektor am häufigsten vorkommt, sondern von der Quote, die dieser konkrete Selbstständige für das fragliche Jahr dokumentieren kann.
+<!-- /exentax:lote28-native-v1:modulos-vs-estimacion-directa-2026-de -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+### Eine vergleichende Entscheidungstabelle, die wir mit Autónomos teilen
+
+Wir empfehlen selten Modulos gegenüber direkter Schätzung im Abstrakten: Die Antwort hängt vom Tätigkeitsprofil und von der Einkommens-Vorhersagbarkeit ab. Die Entscheidungstabelle, die wir mit Mandant:innen teilen, hat vier Spalten. Erste Spalte: Tätigkeitssektor (die Verfügbarkeit von Modulos wird durch den Tätigkeitscode festgelegt; einige digitale und Beratungsprofile sind per Definition ausgeschlossen). Zweite Spalte: Einkommens-Vorhersagbarkeit (Modulos geben dieselbe feste Quartalsrechnung unabhängig vom tatsächlichen Einkommen, was Upside schützt, aber schwache Jahre bestraft). Dritte Spalte: Intensität absetzbarer Ausgaben (direkte Schätzung belohnt ausgabenintensive Profile, weil die IRPF-Bemessungsgrundlage netto ist; Modulos ignorieren Ausgaben, was tätigkeiten mit geringen Ausgaben begünstigt). Vierte Spalte: die Mehrjahres-Disziplin (Regimewechsel sperrt die neue Wahl für mindestens drei Jahre, daher sollte die Entscheidung gegen einen Drei-Jahres-Horizont projiziert werden, nicht ein einzelnes Jahr). Die saubere Empfehlung kommt vom Ausfüllen der Tabelle mit realen Zahlen und vom Lesen des Ergebnisses, nicht von einer Einzeiler-Regel.
+
+### Häufige Fallstricke beim Regimewechsel
+
+Der erste Fallstrick ist, das Regime mitten im Jahr versehentlich zu wechseln (z. B. durch Überschreiten der tätigkeitsbasierten Ausschlussschwelle, ohne es zu merken); die AEAT wird dies bei der Jahresend-Prüfung abstimmen und das Ergebnis ist selten freundlich. Der saubere Ansatz besteht darin, die tätigkeitsbasierte Berechtigung bei jedem Jahresabschluss zu überprüfen und jede vorhergesehene Änderung über das Modelo 036 im Dezember für das Folgejahr zu registrieren. Der zweite Fallstrick ist der Wechsel von Modulos zur direkten Schätzung ohne Vorbereitung des Buchhaltungsrhythmus: Die Autónoma findet sich im März ohne Ausgabenbuch, ohne quartalsweise Modelo-130-Akte und ohne verlässliche Nettoeinkommens-Zahl. Der saubere Ansatz besteht darin, die Buchhaltung in der ersten Januarwoche einzurichten, idealerweise mit einem dedizierten Geschäftskonto vom ersten Tag an. Der dritte Fallstrick ist der Wechsel von direkter Schätzung zu Modulos in der Annahme, das Leben werde dadurch einfacher: Die Vereinfachung ist für manche Profile real, aber der Verlust der Ausgabensichtbarkeit ist ebenfalls real, und wenn das Regime einmal für drei Jahre gesperrt ist, ist es heikel, es rückgängig zu machen. Der saubere Ansatz besteht darin, beide Regime für die nächsten drei Jahre vor der Dezember-Einreichung zu projizieren.
+<!-- /exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:lote6-native-v1-quat:modulos-vs-estimacion-directa-2026 -->
+### Eine Praxis-Notiz zur Drei-Jahres-Bindung
+
+Die Drei-Jahres-Bindung beim Wechsel zwischen Modulos und direkter Schätzung wird in der Beratung oft unterschätzt. Konkret bedeutet sie: Wer im Dezember einen Wechsel anmeldet, kann frühestens nach drei vollen Kalenderjahren zum vorigen Regime zurückkehren. In unserer Praxis hat das eine wichtige Konsequenz: Die Wahl muss gegen die voraussichtliche Aktivitätsentwicklung der nächsten drei Jahre projiziert werden, nicht gegen das laufende Jahr. Eine Mandantin mit einem starken Wachstumsplan, das die Tätigkeit aus den Modulos-zulässigen Codes herausführt, wird die Wahl ohnehin verlieren; eine Mandantin mit stabiler Tätigkeit und gut prognostizierbaren Ausgaben kann den Vergleich rein arithmetisch führen und das passendere Regime wählen, ohne die Drei-Jahres-Bindung als Risiko zu empfinden.
+<!-- /exentax:lote6-native-v1-quat:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Autónomo-Beitrag in Spanien 2026: was Sie wirklich monatlich zahlen](/de/blog/autonomo-beitrag-2026-spanien-stufen)
+- [Absetzbare Ausgaben für spanische Freelancer 2026: klarer Leitfaden](/de/blog/absetzbare-ausgaben-autonomo-spanien-2026)
+- [Warum spanische Freelancer den Autónomo-Status leise verlassen](/de/blog/warum-spanische-freelancer-die-selbststandigkeit-fur-eine-us)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.

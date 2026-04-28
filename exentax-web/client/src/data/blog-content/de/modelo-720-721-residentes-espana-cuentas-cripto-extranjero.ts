@@ -137,6 +137,18 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de -->
+## Wie sich die Modelos 720 und 721 als stabile Jahres­kartografie statt als wiederkehrende Sorge lesen lassen
+
+Die Modelos 720 und 721 lesen sich nützlicher als stabile Jahres­kartografie zwischen dem Land, in dem die Vermögens­werte gehalten werden, dem Vermögens­typ (Konto, Wertpapier, Krypto) und dem entsprechenden Erklärungs­formular denn als wiederkehrende Sorge. Die Kartografie ändert sich nicht von Jahr zu Jahr — nur die kumulativen Salden bewegen sich, und eine kurze Notiz pro Jahr im persönlichen Ordner mit den drei Achsen macht die Position nachlesbar.
+<!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de -->
+
+<!-- exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de -->
+## Warum die Notiz pro Vermögens­typ und nicht pro Land organisiert sein sollte
+
+Die Notiz organisiert sich pro Vermögens­typ — Konto, Wertpapier, Krypto — und nicht pro Land, weil das anwendbare Erklärungs­formular auf dem Vermögens­typ aufsetzt und sich die Sicht so leichter mit den Modelos abgleichen lässt.
+<!-- /exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -214,6 +226,85 @@ Für die Bankberichts-Schicht vor dem Modelo 720 lesen Sie <a href="/de/blog/mel
   Für deutsche Steuerresidenten in Spanien gilt zusätzlich: das **deutsche Konto bei Sparkasse oder Volksbank** muss in Modelo 720 deklariert werden, auch wenn es zugleich gemäß **CRS (DAC2, Ihnen. 2014/107/EU)** vom deutschen BZSt automatisch nach Spanien gemeldet wird. Die Doppelmeldung ist Pflicht — das Modelo 720 ersetzt die CRS-Meldung nicht, sondern ist eine eigenständige nationale Pflicht. Gleiches gilt für Österreicher mit Erste-Bank-Konten und Schweizer mit UBS/PostFinance-Konten (Schweiz nimmt seit 2018 am AEOI/CRS teil).
 
   Bei Krypto-Beständen auf in **Deutschland regulierten Plattformen** (BaFin-Lizenz nach KMAG, z. B. Coinbase Germany GmbH, Bitvavo) oder in der **Schweiz** (FINMA-lizenziert, z. B. Bitcoin Suisse) entsteht die Modelo-721-Meldepflicht trotzdem in Spanien. Die spanische Verwaltung fordert den Stichtagswert zum 31. Dezember in EUR (Wechselkurs nach EZB-Referenzkurs). Mit der **CARF-Verordnung (OECD Crypto-Asset Reporting Framework)** und **DAC8 (Richtlinie (EU) 2023/2226)** ab 2026 wird der Datenaustausch zwischen den Krypto-Plattformen und der spanischen AEAT systematisch — Nicht-Deklaration wird damit für die Steuerverwaltung praktisch lückenlos sichtbar.
+
+<!-- exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->
+## Modelo 720 / 721 aus Sicht des in Spanien ansässigen LLC-Eigners
+
+Die Modelos 720 und 721 sind keine reinen Kryptoformulare: sie sind
+informative Erklärungen über im Ausland gehaltene Vermögenswerte,
+die der in Spanien ansässige LLC-Eigner kennen muss, sobald die
+Schwelle überschritten wird. Die nüchterne Vorgehensweise besteht
+darin, einmal pro Jahr — typischerweise im Januar — eine kurze
+Aufstellung der ausländischen Salden zu erstellen: Mercury, Wise,
+Stripe, Relay sowie zugehörige Krypto-Plattformen. Diese
+Aufstellung wird mit dem Berater geprüft, und die Entscheidung über
+die Einreichung wird ruhig anhand der Schwellenwerte getroffen,
+nicht in letzter Minute.
+
+Eine zweite Beobachtung betrifft die Konsistenz der Adressen. Wenn
+ein Mitglied, das in Spanien steuerlich ansässig ist, eine andere
+Adresse bei Mercury oder Wise hinterlegt hat, ist das oft das
+erste, was eine Inspektion beanstandet. Wir empfehlen, einmal pro
+Jahr alle Bankprofile mit der spanischen Steuererklärung
+abzugleichen, damit die Daten keine Diskrepanz erzeugen, die
+später teurer wird als die ursprüngliche Klarheit.
+
+Drittens: das Modelo 721 für Krypto folgt der gleichen Logik wie
+das Modelo 720 für Bankkonten, nur mit einer eigenen Liste
+qualifizierter Plattformen und einer eigenen Schwelle. Beide
+Erklärungen sind informativ — sie verändern nicht die
+Steuerschuld, aber ihre nicht- oder unvollständige Einreichung
+kann disproportionale Sanktionen auslösen, die viel grösser sind
+als der eigentliche Inhalt der Erklärung.
+
+<!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->
+
+<!-- exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-bis -->
+## Eine kurze Schlussnotiz zur Modelo-720/721-Routine
+
+Die Modelos 720 und 721 wirken intimidierend, sind aber im Kern
+nur eine geordnete jährliche Aufstellung. Wer sich angewöhnt, im
+Januar fünfzehn Minuten für die Datenerhebung und eine halbe
+Stunde mit dem Berater einzuplanen, erlebt diese Erklärungen als
+Routinevorgang statt als jährliche Belastung. Die LLC verändert
+sich dadurch nicht; was sich verändert, ist die Beziehung des
+Mitglieds zur Erklärung — von Sorge zu Routine.
+
+<!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-bis -->
+
+<!-- exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ter -->
+## Eine zusätzliche Bemerkung zur jährlichen Disziplin
+
+Die jährliche Modelo-720- und 721-Routine wirkt am besten, wenn
+sie an ein bereits bestehendes Datum im Kalender geknüpft ist —
+beispielsweise an die Jahresabschluss-Sitzung mit dem Berater im
+Januar. Diese einfache Verknüpfung sorgt dafür, dass die Frage
+"haben wir den Schwellenwert erreicht?" jedes Jahr ruhig
+beantwortet wird, statt im April improvisiert werden zu müssen.
+
+<!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ter -->
+
+<!-- exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de -->
+## Wie die Formulare 720 und 721 in der Praxis zusammenwirken
+
+Die Formulare 720 und 721 sind zwei verschiedene Fenster auf dasselbe Gesamtbild, und es lohnt sich, sie als komplementär statt als konkurrierend zu verstehen. Formular 720 deckt Kategorien von im Ausland gehaltenen Vermögenswerten ab, die seit Jahren meldepflichtig sind: ausländische Bankkonten, ausländische Wertpapiere und bestimmte Formen von im Ausland gelegenen Immobilien. Formular 721 wurde speziell eingeführt, um virtuelle Währungen abzudecken, die ausserhalb Spaniens über Einheiten gehalten werden, die Verwahrung, Tausch oder verwandte Dienstleistungen erbringen, und es beantwortet eine Frage, die das ältere Formular nie beantworten sollte. Beide Formulare haben daher unterschiedliche Schwellen, unterschiedliche Inhaltsfelder und in der Praxis unterschiedliche Vorbereitungsrhythmen.
+
+In einem ruhigen Jahr besteht der sauberste Weg, beide Formulare beherrschbar zu halten, darin, drei Arbeitsdateien parallel zu führen: eine Liste der ausländischen Bank- oder Broker-Konten mit Jahresendsalden und durchschnittlichen Quartalssalden; eine Liste der ausländischen Wertpapiere mit derselben Bewertungsdisziplin; und eine Liste der Krypto-Positionen, die in nicht-spanischen Verwahrungsbeziehungen gehalten werden, mit Bewertung in Euro zum Jahresende. Jede dieser drei Listen speist die einschlägigen Felder des einschlägigen Formulars, und ein Jahresvergleich zeigt Bewegungen, die eine aktualisierte Erklärung erfordern können. Die Formulare hängen auch stark von der Konsistenz der Zahlen von Jahr zu Jahr ab; eine kleine Methodikänderung sollte immer in derselben Arbeitsdatei dokumentiert und nicht dem Gedächtnis überlassen werden.
+<!-- /exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de -->
+
+<!-- exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de-bis -->
+## Wie sich die jährliche Vorbereitung der Formulare 720 und 721 ruhig planen lässt
+
+Eine kurze Notiz im Kalender Ende Januar, in der drei Punkte stehen — Aktualisierung der Liste ausländischer Konten, Prüfung der Wertpapierpositionen und Auslesen der Krypto-Bewertungen zum 31. Dezember — verschiebt die gesamte Vorbereitung an einen ruhigen Zeitpunkt vor der Frist. Mit dieser einen Notiz wird die Erstellung beider Formulare zur Routinearbeit, und kurzfristige Korrekturen werden selten.
+<!-- /exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [US-Bankkonten: was gemeldet wird und wie Ihre LLC meldet](/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die)
+- [DAC8 und Krypto: automatische steuerliche Meldung 2026](/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche)
+- [Kryptowährungen und Trading mit LLC: vollständiger Steuerleitfaden](/de/blog/kryptowahrungen-und-trading-mit-llc-vollstandiger)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

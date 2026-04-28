@@ -135,6 +135,14 @@ Our position here is deliberate and conservative: we optimise for what survives 
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
+<!-- exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-en -->
+## How to read the Spanish exit tax in profiles with LLC, crypto and Interactive Brokers as a stable inventory rather than as a recurring debate
+
+The Spanish exit tax reads more calmly in profiles that combine an LLC, crypto holdings and an Interactive Brokers account when it's treated as a stable inventory of taxable assets at the moment of departure than as a recurring debate. The relevant axes — type of asset, holder of the asset, valuation method, country of destination — define a discrete frame that doesn't change between conversations.
+
+A short note in the personal folder that records the inventory of relevant assets at the cut-off date, with the chosen valuation method for each one and a reference to the source used, makes the exit-tax position reviewable in a few minutes at any point in the years that follow the departure.
+<!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -145,6 +153,38 @@ Most of the avoidable damage we see in this exact point comes from skipping the 
 ### Which assets count: does your portfolio qualify?
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
+
+
+
+## Case 4: mixed portfolio (IBKR shares + LLC stake + crypto)
+
+This is the most common profile we see in our DACH and Spanish practice: a freelancer who has built a stable business via a US LLC, accumulated some IBKR positions over several years, and added a crypto allocation outside the LLC. When the move to Andorra, Portugal or another non-EU destination becomes a realistic plan, three layers of exit tax need their own reading.
+
+The IBKR holdings are personal financial assets and trigger Article 95 bis once the global thresholds are met. The LLC participation is valued at the date of the residency change as a participation in a foreign entity; in disregarded-entity setups the underlying assets are looked through to determine the fair value, which often surprises clients who only counted the cash on the Mercury balance. Personal crypto sits with the IBKR layer in the same calculation, but crypto held by the LLC stays inside the LLC's balance sheet and surfaces only through the participation value. The mixed case rarely triggers exit tax in full because the LLC participation valuation may be lower than the sum of personal assets, but it always deserves a documented snapshot prepared three months before departure.
+
+## Common mistakes we help clients avoid
+
+**Mistake 1: confusing personal crypto with LLC crypto.** They follow different paths in the exit-tax calculation. Personal crypto enters Article 95 bis directly; LLC crypto enters via the participation valuation. A clean separation in Mercury or Kraken from day one removes any ambiguity later.
+
+**Mistake 2: assuming the threshold always applies.** Article 95 bis applies above defined wealth or unrealised gain thresholds. Many clients have realistic portfolios that fall below the thresholds and discover, after a structured calculation, that no exit tax is due at all.
+
+**Mistake 3: filing the deferral request late.** Moving inside the EU/EEA opens an automatic deferral; moving outside requires a conditional deferral request that has its own deadline. Missing it means paying the latent gain in cash within the standard payment window.
+
+**Mistake 4: forgetting Modelo 720 the year of departure.** The reporting obligation continues for the partial year of Spanish residency. Skipping it adds penalties to a process already complex enough.
+
+## Practical timeline 12-6-3 months before leaving Spain
+
+**T minus 12 months.** Inventory: full list of personal assets (IBKR, crypto wallets, bank accounts), LLC balance sheet snapshot, Operating Agreement, EIN letter. First conversation with our team and your Spanish adviser to model the latent gain and choose the destination based on tax implications, not only on weather.
+
+**T minus 6 months.** Decide on the deferral path (EU/EEA automatic vs non-EU conditional). Prepare documentation that supports the LLC participation valuation: 24 months of Mercury or Wise statements, Form 5472 history, contract list. Schedule the destination-side onboarding (NIF or fiscal number, bank, residency permit).
+
+**T minus 3 months.** Final snapshot of all asset values on the day of the residency change. Draft the deferral request if applicable. Coordinate the Modelo 100 of the partial year with your Spanish adviser, and book a follow-up call for the first Modelo 720 in your new residence year.
+
+
+
+### One sentence we repeat to every client before the move
+
+Exit tax is rarely the show-stopper our clients fear at the start of the conversation. The hidden cost is almost always the rushed timeline: filing the deferral request late, undocumented LLC valuations, or a missed Modelo 720 in the partial year. A structured twelve-month preparation, with the Spanish adviser in the loop from month one, turns the exit tax conversation from a tense conversation into a planning conversation. We have walked dozens of founders through this and the calmest moves were always the ones that started early, with paper ready, not the ones that improvised in the last quarter.
 
 <!-- exentax:execution-v2 -->
 ## Exit Tax leaving Spain with an LLC, crypto and Interactive Brokers: the real math
@@ -240,6 +280,23 @@ The numbers and the calendar matter — get either wrong and the rest unravels.
 ## A note for English-speaking residents of Spain or Andorra
 
   If you are an English-speaking resident in Spain (UK, US or Irish national working from Madrid or Barcelona) and considering an Andorra move, the same Spanish exit tax under article 95 bis LIRPF applies. The DTA Andorra-United States entered into force on 1 January 2024, providing for the first time a stable tax framework for Andorran residents holding US source income, with a maximum 15% withholding on dividends and reciprocal interest exemption on commercial accounts. Coordinate the move with your tax advisor to anticipate the Modelo 030 census update and the Modelo 100 final return for the year of departure.
+
+
+<!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-en -->
+## How exit tax interacts with assets held at foreign brokers
+
+The Spanish exit tax does not look at where an asset is held; it looks at the tax residence of the holder on the day of departure and at the unrealised gain accumulated until that date. For a person who keeps positions at a foreign broker, the practical consequence is that the broker is not the trigger and the broker's reporting cycle is not the relevant calendar. What matters is the personal departure date, the valuation of each position on that date, and the documentation that links those two pieces together. A clean approach is to print broker statements as of the departure day, save them in a dated folder, and write down the methodology used for any position whose valuation is not directly available on the statement.
+
+Two further details tend to come up in conversations with the tax authority later. First, deferral options exist for moves to other EU or EEA jurisdictions and have to be elected within the prescribed window; missing that window converts what could have been a deferred event into an immediate one. Second, the Spanish reporting cycle for the year of departure is split between the period as resident and the period as non-resident, and assets held abroad continue to be relevant for the resident portion. Keeping a single dated working file makes both points considerably easier to handle when the time comes.
+<!-- /exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-en -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Crypto and trading with a US LLC: complete tax guide](/en/blog/cryptocurrency-and-trading-with-llc-complete-tax-guide-for)
+- [LLC taxation by activity: services, ecommerce, SaaS, royalties, trading](/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas)
+- [US-Spain tax treaty applied to LLCs: practical reading](/en/blog/us-spain-tax-treaty-applied-to-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

@@ -113,6 +113,12 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
+<!-- exentax:lote33-native-v1:residentes-no-residentes-llc-diferencias-pt -->
+## Como ler a distinção residente e não-residente como um mapa de perfil estável em vez de uma discussão de estatuto
+
+A distinção residente e não-residente lê-se de forma mais útil como um mapa de perfil estável entre o país de residência do beneficiário, o veículo e a relação entre os dois, em vez de uma discussão de estatuto. Este mapa não muda de ano para ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável.
+<!-- /exentax:lote33-native-v1:residentes-no-residentes-llc-diferencias-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

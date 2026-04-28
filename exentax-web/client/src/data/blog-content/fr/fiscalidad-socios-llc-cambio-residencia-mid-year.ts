@@ -122,6 +122,12 @@ Les comparaisons et données quantitatives sur les juridictions citées s'appuie
 - **Espagne.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, arts. 8-9 sur la résidence et art. 100 sur la TFI) et régime spécial des impatriés (art. 93 LIRPF, "Loi Beckham").
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilier Deux (GloBE) et Modèle de Convention OCDE avec Commentaires.
 
+<!-- exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-fr -->
+## Comment lire un changement de résidence en cours d'année par un membre d'une LLC comme une cartographie temporelle stable plutôt que comme une confusion
+
+Un changement de résidence en cours d'année par un membre d'une LLC se lit plus utilement comme une cartographie temporelle stable entre les dates du déménagement, les règles de résidence de chaque pays concerné et la part correspondante du résultat de la LLC pour l'année, plutôt que comme une confusion. Une note courte dans le dossier personnel rend la position relisible.
+<!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -146,6 +152,32 @@ Déménager au 1er janvier est propre. Le faire le 17 juin avec une LLC active o
 
 Chez Exentax nous planifions les changements de résidence en cours d'année avec LLC active: calendrier fiscal optimal, flux pré-déménagement et documentation qui tient sous les deux contrôles.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year -->
+## Quelques signaux à observer pendant l'année du changement
+
+Au-delà du calendrier officiel de la résidence fiscale, trois
+signaux pratiques aident le membre de la LLC à éviter les surprises
+pendant l'année du changement. Le premier est la cohérence entre
+l'adresse déclarée à la banque (Mercury, Wise, Stripe) et la
+résidence fiscale réelle au moment de chaque transaction
+significative. Le second est la disponibilité immédiate du W-8 mis
+à jour si le pays d'arrivée modifie le profil de convention. Le
+troisième est la documentation séparée des revenus de la LLC
+attribués à chaque période de résidence, prête à être lue par les
+deux administrations fiscales si nécessaire.
+
+Cette discipline n'est pas une contrainte supplémentaire : elle
+remplace simplement les approximations qui finissent par coûter
+plus cher en correspondance fiscale.
+
+<!-- /exentax:lote8-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year -->
+
+<!-- exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-fr -->
+## Pourquoi un changement de résidence en cours d'année génère plus de friction qu'un changement en fin d'année
+
+Un changement de résidence en cours d'année produit plus de friction administrative qu'un changement aligné sur la frontière calendaire, et la raison est mécanique plutôt que conceptuelle. Chaque pays s'attend à recevoir une image cohérente de ce qui était attribuable au membre de la LLC pendant qu'il en était résident fiscal, et plus le changement est proche d'une frontière annuelle, plus ces deux images sont faciles à monter de manière indépendante. Lorsque le changement intervient en milieu d'année, les mêmes flux de revenu doivent être répartis, le moment des distributions doit être examiné, et les règles de départage de la convention peuvent devoir s'appliquer aux jours intermédiaires. Aucune de ces étapes n'est inhabituelle prise isolément. Ce qui fait la différence est la préparation de la documentation à l'avance : un instantané pré-départ, un solde d'ouverture clair après l'arrivée, et un enregistrement écrit du jour utilisé comme date de coupure. Avec ces trois pièces en main, les deux déclarations peuvent être déposées sans avoir à reconstituer l'année par la suite.
+<!-- /exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-fr -->
 
 <!-- exentax:cross-refs-v1 -->
 ### Lectures complémentaires

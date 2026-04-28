@@ -123,6 +123,34 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+### Comment s'assurer que l'inscription au VIES arrive à temps
+
+L'inscription au Registre des Opérateurs Intracommunautaires (ROI) se demande via Modelo 036 et peut prendre jusqu'à trois mois pour être confirmée. Dans notre pratique, la douleur opérationnelle la plus fréquente est celle du freelance qui émet une facture intracommunautaire sans numéro de TVA encore actif dans VIES, ce qui produit un écart de conformité immédiat que l'équipe comptable du client UE signalera. L'approche propre consiste à s'inscrire via Modelo 036 bien avant la première facture client européen attendue (nous recommandons quatre-vingt-dix jours de marge), à surveiller le portail VIES pour l'activation et à conserver une capture d'écran de l'inscription active dans le dossier comme preuve à joindre à la première facture lorsque le client la demande. La seconde douleur opérationnelle est de laisser l'inscription se périmer par inactivité (pas d'opérations intracommunautaires pendant plusieurs trimestres); l'inscription peut être désactivée et une nouvelle demande sera nécessaire avant le prochain client européen. Une vérification trimestrielle du statut d'activation dans VIES suffit à éviter les deux douleurs.
+
+### Trois schémas de facturation réels et la documentation que chacun exige
+
+Le premier schéma est le freelance qui émet une facture de services B2B à une société résidente UE avec un numéro VIES actif: facture sans TVA, mention "autoliquidation", déclaration sur Modelo 349 trimestriel et report sur Modelo 303 dans la case correspondante. Le kit documentaire par facture comprend la capture de validation VIES du client datée du jour de la facture, le contrat ou la commande et la preuve de paiement. Le deuxième schéma est le freelance qui émet une facture de services numériques B2C à un consommateur UE en dessous du seuil annuel de 10 000 EUR: la TVA espagnole s'applique comme si le consommateur était espagnol; le kit documentaire comprend la preuve de localisation du consommateur (IP plus adresse de facturation) et la facture standard. Le troisième schéma est le freelance qui émet une facture de services numériques B2C à un consommateur UE au-dessus du seuil (ou ayant opté pour le OSS): la TVA du pays du consommateur s'applique, déclarée via la déclaration OSS trimestrielle, avec le kit documentaire incluant la preuve de localisation du consommateur, la confirmation d'inscription OSS et le reçu trimestriel OSS. Garder les trois kits prêts dans des modèles évite une reconstruction ad hoc en fin de trimestre.
+<!-- /exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+### Comment le calendrier du Modelo 349 s'aligne sur le reste du trimestre
+
+Le Modelo 349 est la déclaration récapitulative des opérations intracommunautaires, déposée mensuellement ou trimestriellement selon le volume. Pour la plupart des freelances dans notre pratique, la version trimestrielle s'applique, avec le même calendrier que le Modelo 303 (TVA) et le Modelo 130 (avance IRPF), de sorte que les trois dépôts sont traités dans la même fenêtre de clôture. L'approche propre que nous recommandons est d'aligner la clôture trimestrielle sur un jour fixe chaque mois (nous utilisons le deuxième jour ouvré de janvier, avril, juillet et octobre comme référence de clôture), de déposer d'abord le Modelo 303, puis le Modelo 349 face aux opérations enregistrées pour le trimestre, et de garder les deux reçus dans le même dossier pour ce trimestre. L'arithmétique entre les deux formulaires doit se réconcilier: les services intracommunautaires déclarés sur le Modelo 349 doivent être égaux à la case correspondante du Modelo 303; tout écart produira une demande de clarification de routine de l'AEAT.
+
+### Comment l'OSS remodèle le calendrier pour les flux B2C numériques
+
+Lorsque le freelance a opté pour le guichet unique (OSS) pour les services numériques B2C aux consommateurs UE, la déclaration OSS trimestrielle devient un quatrième dépôt aligné avec les autres, mais avec son propre calendrier (un mois après la fin du trimestre, sans prolongation). La déclaration OSS couvre la TVA collectée par pays consommateur, payée sur un seul compte espagnol, et redistribuée par l'AEAT à chaque pays UE. La discipline que nous gardons avec les clients sur OSS est de maintenir un décompte par pays chaque trimestre (localisation du consommateur, taux de TVA du pays, montant), de réconcilier le décompte avec la comptabilité à la fin du trimestre et de déposer la déclaration OSS avant le reste des clôtures trimestrielles. Le piège le plus fréquent est de traiter l'OSS comme optionnel pendant un trimestre lent et de sauter le dépôt parce qu'"il n'y a rien à déclarer"; une fois inscrit à l'OSS, le freelance doit déposer chaque trimestre, même à zéro, sinon l'inscription risque d'être annulée et une réinscription crée plusieurs mois d'écart administratif.
+<!-- /exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [TVA sur les services numériques internationaux : quand elle s'applique](/fr/blog/tva-sur-les-services-numeriques-internationaux-quand-elle)
+- [Impôts avec des clients internationaux depuis l'Espagne : ce qu'on ne vous dit pas](/fr/blog/impots-avec-des-clients-internationaux-en-espagne-ce-que)
+- [Dépenses déductibles pour les freelances espagnols en 2026 : guide clair](/fr/blog/depenses-deductibles-autonomo-espagne-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->

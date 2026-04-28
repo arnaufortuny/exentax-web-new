@@ -148,6 +148,14 @@ Now that you have the full context, the natural next step is to map it against y
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-en -->
+## How to read the most common LLC mistakes as a stable checklist rather than as anecdotal stories
+
+The most common mistakes that we see on LLC files read more usefully when they're treated as a stable, repeatable checklist than as a collection of anecdotal stories. The recurring root causes — mixed personal and business funds, missing or late Form 5472 filings, no documented separation between the member and the LLC, no Registered Agent renewal — appear again and again across very different profiles, and they're easier to prevent than to repair after the fact.
+
+A short, dated note at the top of the LLC folder that lists the recurring obligations and the date each one was last met turns the same checklist into something the member can review in a few minutes a year, instead of rebuilding it from memory under pressure.
+<!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -160,6 +168,12 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote16-native-v1:problemas-comunes-llc-como-evitarlos-en -->
+## Why most "common problems" trace back to three preventable habits
+
+Most of the recurring problems that show up in LLCs operated from abroad trace back, at the end of a calm review, to three preventable habits rather than to the structure itself. The first is mixing personal and operational expenses on the same payment instruments. The second is leaving the annual maintenance to memory rather than to a calendar. The third is treating the bookkeeping as something to catch up at year end rather than as a steady monthly routine.
+<!-- /exentax:lote16-native-v1:problemas-comunes-llc-como-evitarlos-en -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
@@ -200,6 +214,14 @@ At Exentax we handle integral compliance (5472/1120 + BOI + bookkeeping + reside
 ## Legal and procedural facts
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [I have a US LLC, am I managing it right? A real checklist](/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist)
+- [Annual LLC maintenance: obligations you cannot ignore](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

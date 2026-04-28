@@ -143,6 +143,12 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
+<!-- exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-en -->
+## How to read closing the LLC as a documented sequence rather than as a sudden ending
+
+Closing the LLC reads more usefully when it's treated as a documented sequence — final filings, dissolution with the State, archiving of records — than as a sudden ending. The sequence doesn't change with the size of the LLC.
+<!-- /exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -176,6 +182,16 @@ Fintech and CRS information evolves; here is the current state:
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
+<!-- exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-en -->
+## How to read the dissolution sequence as a single ordered process rather than a list of isolated tasks
+
+The dissolution of an LLC reads more clearly when it's treated as a single ordered process, not as a list of isolated tasks. The order matters because each step closes a perimeter that the next step depends on: ceasing operations comes before settling outstanding invoices, settling invoices comes before final distributions, final distributions come before the federal final return, and the federal final return comes before the state articles of dissolution.
+
+When this order is respected, each step generates the document that the next one needs, and the closing file is built progressively without backtracking. When the order is broken, some steps need to be repeated because the supporting documentation isn't yet available.
+
+Reading the sequence as a single process also helps with timing: the calendar of a closure is rarely tight, but the gaps between steps shouldn't stretch indefinitely either, because each open perimeter generates small obligations (fees, statements, notices) that accumulate while the closure is pending.
+<!-- /exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-en -->
+
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## The exact sequence to close an LLC without leaving loose ends
 
@@ -205,6 +221,14 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [Annual LLC maintenance: obligations you cannot ignore](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)
+- [Change LLC maintenance provider without losing history or continuity](/en/blog/change-llc-maintenance-provider-without-losing-history-or)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

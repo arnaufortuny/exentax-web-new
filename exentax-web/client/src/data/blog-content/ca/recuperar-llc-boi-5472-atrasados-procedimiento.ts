@@ -84,10 +84,22 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
+<!-- exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-ca -->
+## Per què un calendari de recuperació funciona millor que una resposta en bloc
+
+Recuperar una LLC les comunicacions BOI i el formulari Form 5472 de la qual estan endarrerits no es fa en una única acció, sinó segons un calendari curt i disciplinat que separa les peces en el temps per evitar que es contradiguin o siguin presentades sense coherència interna. El primer pas consisteix a reconstituir l'any que serveix de base de referència per als restants; els exercicis següents s'alineen tot seguit en aquesta base, i s'evita així l'escenari freqüent en què la recuperació d'un exercici revela incoherències amb els exercicis ja presentats.
+<!-- /exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
+
+<!-- exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-ca -->
+## Com llegir la regularització de BOI i Form 5472 en endarreriment com un procediment documentat en lloc d'una situació de pànic
+
+La regularització de BOI i Form 5472 en endarreriment es llegeix de manera més útil com un procediment documentat amb una seqüència fixa — tancar el buit any a any, presentar per ordre cronològic, arxivar les confirmacions — en lloc d'una situació de pànic. El procediment no canvia amb el nombre d'anys a recuperar.
+<!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-ca -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
@@ -147,6 +159,40 @@ Si la teva LLC té anys pendents i vols saber la via que correspon, obre la <str
   ### Regularització FBAR/Form 5472/BOI: perspectiva espanyola i andorrana
 
   Per a socis espanyols de LLC americana en retard amb les declaracions US (**FBAR FinCEN 114** per a comptes > USD 10.000, **Form 5472 IRC §6038A(d)** amb sanció USD 25.000/formulari/any, FinCEN BOI sota **CTA §6403** amb sanció USD 591/dia), la regularització s'efectua via **Streamlined Foreign Offshore Procedures (SFOP)** o **Voluntary Disclosure Practice (VDP)** de l'IRS. A Espanya, les obligacions paral·leles són el **Modelo 100 IRPF** retroactiu, el **Modelo 720** sobre béns a l'estranger (RD 1065/2007 + Llei 5/2022 post-STJUE C-788/19 27/01/2022), i la comunicació via **acord FATCA Espanya-EUA BOE 22/04/2015**. A **Andorra**, l'**acord FATCA andorrà** (Llei 19/2016) preveu canals similars d'intercanvi automàtic. Conservació 6 anys (art. 30 Codi Comerç).
+
+<!-- exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
+## Com es veu una operació de recuperació des de dins de la LLC
+
+Quan una LLC ens arriba amb obligacions BOI o Form 5472
+endarrerides, el primer pas no és mai presentar paper, és crear
+claredat: quin any fiscal està realment obert, quins documents ja
+s'han presentat, i quins moviments bancaris han de coincidir amb la
+realitat econòmica concreta. Aquesta primera mitja hora
+d'aclariment escurça la recuperació posterior moltes vegades en
+setmanes, perquè col·loca l'ordre correcte abans de l'execució.
+
+La segona observació és que la majoria de presentacions
+endarrerides comporta menys risc de multa del que els socis temen,
+sempre que la recuperació sigui voluntària, completa i ordenada
+cronològicament. Les reaccions del FinCEN i de l'IRS són clarament
+més suaus quan és la LLC qui pren la iniciativa en lloc d'esperar
+una notificació.
+
+<!-- /exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
+
+<!-- exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-ca-bis -->
+## Com es construeix el calendari de recuperació a la pràctica
+
+A la pràctica, el calendari de recuperació es construeix en tres fases curtes: primer la definició de l'any de referència, després l'ordre dels exercicis a regularitzar, i finalment la reserva d'un espai per a la verificació final de coherència entre totes les peces presentades.
+<!-- /exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Form 5472: què és, qui l'ha de presentar i com complir](/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir)
+- [BOI Report 2026: guia de la declaració FinCEN Beneficial Ownership](/ca/blog/boi-report-2026-guia-completa-per-a-la-declaracio-fincen)
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

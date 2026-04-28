@@ -84,6 +84,24 @@ The typical path:
 
 Tax risks are not hypothetical: they're the reality of audits we see monthly. The good news: all these risks are **avoidable** with serious and honest planning. Legal tax optimization exists and is very powerful; opacity as strategy is a shortcut that always ends in the same place.
 
+<!-- exentax:lote23-native-v1:riesgos-fiscales-mala-estructuracion-internacional-en -->
+## How to read the catalogue of structural tax risks as a stable checklist rather than as an alarm
+
+The catalogue of tax risks tied to poor international structuring reads more usefully when it's treated as a stable checklist rather than as an alarm. The recurring risks rarely change from year to year — residency mismatch, undocumented economic substance, treaty misalignment, beneficial-owner ambiguity — and the checklist can be reviewed at year-end in a few minutes to confirm that none of the four conditions has shifted in the operating profile.
+
+## How to capture the checklist outcome in the LLC documentation
+
+The checklist outcome captures more durably in a short, dated note that lists the four conditions and the conclusion they yield, so the discussion doesn't have to be reopened from scratch whenever the operating profile evolves modestly.
+<!-- /exentax:lote23-native-v1:riesgos-fiscales-mala-estructuracion-internacional-en -->
+
+<!-- exentax:lote28-native-v1:riesgos-fiscales-mala-estructuracion-internacional-en -->
+## How to read the tax risks of a poorly structured international setup as a stable inventory rather than as a recurring fear
+
+The tax risks of a poorly structured international setup read more usefully when they're treated as a stable inventory of identifiable problems — beneficial owner not aligned with the vehicle, residence not consistent with the operation, contracts that don't reflect the actual flow — than as a recurring fear. The inventory doesn't change month to month.
+
+A short note in the structure folder that records each axis with the date of the last review turns the inventory into something the beneficial owner can revisit at any time, instead of relying on memory or on a rebuilt account at the next concern.
+<!-- /exentax:lote28-native-v1:riesgos-fiscales-mala-estructuracion-internacional-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -133,6 +151,14 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
   ### International tax structuring risks: UK and US enforcement perspective
 
   From a UK angle, the **Diverted Profits Tax (DPT)** introduced by **Finance Act 2015 ss. 77-116** at a 25 % rate (rising to 31 % from April 2023) penalises structures lacking economic substance. **HMRC's GAAR** (general anti-abuse rule, **FA 2013 ss. 206-215**) plus the **Targeted Anti-Avoidance Rules (TAARs)** scattered across CTA 2010 cover specific structuring abuses. From the US side, **IRC §482 transfer pricing**, **§7701(o) economic substance doctrine** (codified by Health Care Act 2010 with 20-40 % strict-liability penalty under §6662(b)(6)), and **GILTI under §951A** (10.5-13.125 % effective rate post-TCJA) limit aggressive offshore structuring.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Designing a solid international tax structure: step-by-step framework](/en/blog/designing-a-solid-international-tax-structure-step-by-step)
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [Optimal tax structure for international freelancers: full framework](/en/blog/optimal-tax-structure-for-international-freelancers-the)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

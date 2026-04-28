@@ -130,6 +130,22 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Resident EUA vs no-resident: les diferències fiscals clau de la LLC](/ca/blog/resident-eua-vs-no-resident-llc-les-diferencies-fiscals-clau)
+- [La LLC com a alternativa real a ser autònom a Espanya](/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya)
+- [Autònom a Espanya vs LLC als EUA: comparativa fiscal completa](/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-ca -->
+## Com llegir el trade-off LLC per a no residents com un mapatge estable en lloc d'un argument comercial
+
+El trade-off de la LLC per a no residents es llegeix de manera més útil com un mapatge estable entre les obligacions recurrents del vehicle (Form 5472, BOI, renovació del Registered Agent) i els beneficis recurrents (separació jurídica, infraestructura de pagaments dels EUA, estructura simple per a activitats digitals), en lloc d'un argument comercial. Els dos costats del mapatge són estables: no canvien amb el resultat de l'any.
+
+Una nota curta al dossier de la LLC que registri els dos costats fa el trade-off consultable a qualsevol moment, sense haver-lo de reconstruir de memòria.
+<!-- /exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -142,6 +158,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-ca -->
+## Per què el balanç d'una LLC depèn del perfil operatiu concret
+
+El balanç avantatges/desavantatges d'una LLC per a una persona no resident no té resposta universal; depèn del perfil operatiu concret. Una activitat amb clientela geogràficament dispersa, pagaments en diverses divises i contraparts majoritàriament fora d'Espanya treu un benefici tangible de l'estructura; una activitat concentrada en un únic mercat europeu amb clientela local en treu un benefici més modest que pot no justificar la complexitat administrativa. La manera més neta de decidir consisteix a traçar, en un full, el perfil real dels fluxos i confrontar aquest full amb la llista d'avantatges i costos de l'estructura.
+<!-- /exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -206,6 +228,12 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-ca-bis -->
+## Com traduir la decisió en una taula curta
+
+A la pràctica, la decisió es pot traduir en una taula curta de dues columnes: a l'esquerra el perfil real (volum, geografia, divises, recurrència), a la dreta la llista d'avantatges concrets que la LLC ofereix per a exactament aquest perfil. Quan la columna de la dreta conté més punts dels que la columna de l'esquerra té preguntes obertes, l'estructura compensa la seva complexitat administrativa.
+<!-- /exentax:lote16-native-v1:ventajas-desventajas-llc-no-residentes-ca-bis -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/serveis">Reservar consulta gratuïta</a>.

@@ -242,6 +242,88 @@ Thousands of freelancers and entrepreneurs already operate their US LLC fully le
   At Exentax we cover those five fronts every year alongside the US federal calendar (Form 5472, pro-forma 1120, FBAR, state Annual Report and BOI Report when applicable). The goal is that no inquiry finds a loose end and that the structure withstands a 5-to-7-year retroactive review.
 <!-- /exentax:defensa-fiscal-v1 -->
 
+<!-- exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa -->
+## W-8 in plain words: who certifies what
+
+The W-8 family answers a single, repeated question from US payers: is
+the person on the other side of this payment a US person for tax
+purposes, and if not, what status do you certify so the right
+withholding rule applies. There are several variants because the
+answer depends on whether the payee is a person, an entity, an
+intermediary or a foreign government. Most LLC owners only ever
+interact with two of them.
+
+| Form         | Who signs                                | Typical use                          |
+|--------------|------------------------------------------|--------------------------------------|
+| W-8BEN       | A non-US individual                      | Foreign individual receiving US-source|
+|              |                                          | income on personal account           |
+| W-8BEN-E     | A non-US entity                          | Foreign entity (often the LLC) acting |
+|              |                                          | as payee from US clients/platforms   |
+
+For a single-member LLC owned by a non-US person and treated as
+disregarded for US tax purposes, US payers typically request the
+W-8BEN-E from the LLC and, in some platforms, also a W-8BEN from the
+member as the beneficial owner. The names look similar but the
+documents serve different roles in the same relationship.
+
+## Three real cases we see often
+
+A SaaS LLC sells to US enterprise customers under a master services
+agreement. The procurement team requests the W-8BEN-E with the LLC's
+EIN, the country of organisation (Wyoming or New Mexico for instance)
+and a treaty claim if the member is in a country with a US tax treaty.
+A clean form on file means the customer pays without backup
+withholding and the audit trail is complete on both sides.
+
+A US-based marketplace pays an LLC owned by a Spanish tax resident.
+The platform asks for a W-8BEN-E from the LLC and, on the dashboard,
+records the beneficial owner. We populate the treaty claim where it
+applies, attach the LLC's formation document and the EIN letter, and
+the payouts proceed at the standard treaty rate.
+
+A consulting LLC works for a US-listed corporate. Their AP system
+runs annual W-8 refreshes; we update the form with the same data,
+keep both the previous and the new copy in the LLC's compliance
+folder, and flag the renewal date in our internal calendar so the
+client never sees a missed cycle.
+
+## Mistakes that delay payments
+
+- Mixing W-8BEN and W-8BEN-E. Individuals sign W-8BEN; entities
+  including LLCs sign W-8BEN-E. Do not cross the wires.
+- Leaving the treaty box blank when a treaty applies. The treaty
+  claim is what brings the withholding from 30% to the treaty rate;
+  unclaimed, the payer withholds at the default.
+- Using the foreign address from years ago. The form must reflect
+  the current residence; mismatches with the BOI submission or with
+  KYC files trigger requests for re-issue.
+- Signing on behalf of the LLC without authority. Single-member
+  LLCs are easy; multi-member LLCs need the operating agreement to
+  show signing authority.
+
+## Renewal and storage checklist
+
+- W-8 forms expire on the third complete year after signature.
+- Keep both the signed PDF and the source data in the LLC's
+  compliance folder.
+- Update before residence changes hit the bank or the payer.
+- Confirm the EIN on the form matches the EIN on file with the IRS.
+- Match the LLC name and DBA to formation documents exactly.
+
+We treat the W-8 cycle as part of the LLC's annual hygiene, the same
+way we treat BOI refreshes and bank profile updates: small recurring
+work that prevents large recurring problems.
+
+<!-- /exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [IRS Form 1120 and 5472: what they actually are and when they apply](/en/blog/irs-form-1120-and-5472-what-they-actually-are-and-when-they)
+- [What is the IRS, and how does it actually affect your US LLC](/en/blog/what-is-the-irs-and-how-does-it-affect-your-us-llc)
+- [US-Spain tax treaty applied to LLCs: practical reading](/en/blog/us-spain-tax-treaty-applied-to-llcs)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->

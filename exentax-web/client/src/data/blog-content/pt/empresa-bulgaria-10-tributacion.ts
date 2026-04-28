@@ -193,6 +193,14 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Fiscalidade da Estónia: como funciona realmente a OÜ e a e-Residency](/pt/blog/fiscalidade-estonia-como-funciona)
+- [Por que não abrir uma empresa na Estónia: a LLC americana vence](/pt/blog/por-que-nao-abrir-uma-empresa-na-estonia-a-llc-americana)
+- [Por que abrir uma LLC americana em 2026: 5 pilares da vantagem](/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 

@@ -169,6 +169,20 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-de -->
+## Wie sich die LLC-Management-Checkliste als stabile Jahres­karte statt als sporadische Aufgaben­liste lesen lässt
+
+Die LLC-Management-Checkliste liest sich nützlicher als stabile Jahres­karte zwischen den wiederkehrenden Pflichten (Form 5472, BOI, Verlängerung des Registered Agent), den wiederkehrenden Dokumenten (Operating Agreement, Mittel­trennung, Basis­buchhaltung) und den jeweiligen Fälligkeits­daten denn als sporadische Aufgaben­liste. Die Karte ändert sich nicht von Jahr zu Jahr — nur die Daten verschieben sich.
+<!-- /exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-de -->
+
+<!-- exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-de -->
+## Warum die Notiz pro wiederkehrender Pflicht und nicht pro Monat des Jahres organisiert sein sollte
+
+Die Notiz organisiert sich pro wiederkehrender Pflicht und nicht pro Monat des Jahres, weil die Pflichten von einem Zyklus zum nächsten gleich bleiben, während sich ihre Daten verschieben, und diese Sicht hält die Karte wiederverwendbar.
+
+Eine kurze Notiz im LLC-Ordner mit der Pflicht­liste pro Jahr macht den Status nachlesbar.
+<!-- /exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -181,6 +195,14 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-de -->
+## Wie sich die Erstaufstellung in einen tragfähigen Jahresrhythmus überführen lässt
+
+Eine Checkliste funktioniert am besten, wenn sie aufhört, als Liste gelesen zu werden, und beginnt, als Kalender gelesen zu werden. Die Aufstellung einer LLC ist der erste Zyklus, aber die folgenden Zyklen entscheiden darüber, ob die Struktur leicht zu betreiben bleibt oder leise Reibung anhäuft. Der einfachste Weg, diesen Übergang zu vollziehen, besteht darin, die Überschriften der Erstcheckliste in eine wiederkehrende Jahreserinnerung zu kopieren und an jede Überschrift die Datei oder den Ordner anzuhängen, in dem die unterstützenden Belege für das jeweilige Jahr abgelegt werden.
+
+In der Praxis verwandelt diese kleine Verschiebung der Sichtweise die jährliche Wartung von einer Aufgabe, die immer wieder neu geprüft werden muss, in eine Routine, die sich von selbst versteht. Die Überschriften ändern sich kaum von einem Jahr zum nächsten, der Inhalt aktualisiert sich, und der Aufwand bleibt überschaubar.
+<!-- /exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -248,6 +270,50 @@ Wenn Sie Ihre LLC mit dieser Checkliste führen oder uns das überlassen wollen,
   ### LLC-Compliance-Checkliste aus DACH-Sicht: parallele Pflichten
 
   Neben der US-Checkliste (BOI FinCEN, Form 5472, Operating Agreement, Annual Report) müssen DACH-Gesellschafter eine **parallele Compliance-Schicht** führen: jährliche **Anlage AUS** zur Einkommensteuererklärung, **§138 Abs. 2 AO**-Mitteilung bei Anteilsänderungen, **Transparenzregister** nach §§19–20 GwG bei Änderung des wirtschaftlich Berechtigten (Frist unverzüglich), in Österreich **WiEReG-Meldung** binnen 4 Wochen nach Änderung, in der Schweiz **AIA-Meldung** über die jeweilige Zahlstellen-Bank an die ESTV. Dokumentenarchivierung gemäß **§147 AO** (10 Jahre für Buchführungsunterlagen) bzw. **§132 BAO** (Österreich, 7 Jahre).
+
+<!-- exentax:lote10-native-v1:tengo-llc-checklist-gestion-correcta -->
+## Wie sich die Checkliste in den Jahresrhythmus einfügt
+
+Die Checkliste für eine korrekt geführte LLC ist nicht ein
+einmaliges Dokument, das man am Tag der Gründung abhakt und
+weglegt. Sie ist eine kleine, wiederkehrende Routine, die das
+Mitglied einmal pro Quartal durchgeht — vorzugsweise gemeinsam
+mit dem Berater oder zumindest mit einem festen, im Kalender
+markierten Termin. Diese Disziplin verwandelt potenziell
+stressige Jahresenden in geordnete Übergänge.
+
+In der Praxis genügen drei Dinge, damit die Checkliste ihre
+Wirkung entfaltet. Erstens: sie liegt nicht in einer Schublade,
+sondern in dem System, in dem das Mitglied tatsächlich arbeitet
+— Buchhaltungs-Tool, gemeinsamer Ordner mit dem Berater oder
+Notion-Seite. Zweitens: sie wird nicht abstrakt formuliert,
+sondern mit konkreten Daten, Konten und Verantwortlichen
+versehen. Drittens: sie wird tatsächlich am vorgesehenen Datum
+geöffnet, nicht erst dann, wenn ein Problem auftaucht.
+
+## Eine kurze Schlussempfehlung
+
+Wer diese drei Bedingungen erfüllt, erlebt die Checkliste nicht
+als zusätzliche Last, sondern als Schutz vor den teuren
+Korrekturen, die sonst alle paar Jahre fällig werden. Das
+Verhältnis zwischen Mitglied und Berater wird ruhiger, und die
+LLC altert sauber.
+
+<!-- /exentax:lote10-native-v1:tengo-llc-checklist-gestion-correcta -->
+
+<!-- exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-de-bis -->
+## Wie sich die jährliche Erinnerung mit den drei Hauptterminen verbindet
+
+Die wiederkehrende Jahreserinnerung gewinnt an Wirkung, wenn sie nicht eine einzige Notiz umfasst, sondern an drei Hauptdaten geknüpft wird: das staatliche Erneuerungsdatum, das föderale Informationsdatum und das Datum des buchhalterischen Abschlusses. Jeder dieser drei Termine löst denselben kleinen Prozess aus: den entsprechenden Ordner öffnen, die Liste durchgehen, das aktualisierte Dokument ablegen.
+<!-- /exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Kritische Fehler nach LLC-Gründung, die niemand erklärt](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand)
+- [Jährliche LLC-Pflege: Pflichten, die Sie nicht ignorieren können](/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren)
+- [Trennung der Mittel in Ihrer LLC korrekt dokumentieren: realer Ablauf](/de/blog/fonds-trennung-in-ihrer-llc-mit-vorgeschichte-richtig)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

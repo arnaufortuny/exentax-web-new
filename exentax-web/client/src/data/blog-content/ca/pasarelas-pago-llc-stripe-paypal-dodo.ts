@@ -107,6 +107,22 @@ Per verificar la teva LLC a qualsevol passarel·la de pagament necessites:
 
 El procés de verificació sol trigar 1-5 dies hàbils. A Exentax coordinem tota la configuració perquè no hagis de bregar amb formularis de verificació en anglès ni pujar documents un per un. Tu decideixes quines passarel·les necessites, nosaltres les deixem llestes.
 
+<!-- exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-ca -->
+## Per què l'elecció d'una passarel·la es fa pel perfil de pagament i no per la marca
+
+Escollir una passarel·la de pagament per a una LLC es fa més eficientment a partir del perfil concret dels pagaments (divises dominants, mitjans de pagament esperats, taxa de reemborsament, geografia de la clientela) que a partir de la marca en si. Stripe cobreix bé un cas d'ús centrat en targetes internacionals amb integració tècnica estandarditzada; altres passarel·les cobreixen millor casos més específics.
+
+Aquesta lògica té una conseqüència pràctica: sovint val més la pena activar una passarel·la principal alineada amb el perfil dominant i mantenir-ne una de secundària preparada per als casos particulars, en lloc d'intentar fer passar tot per una sola.
+<!-- /exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-ca -->
+
+<!-- exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-ca -->
+## Com llegir l'elecció de la passarel·la de pagament de la LLC com un mapatge estable entre activitat, país del client i flux de conciliació
+
+L'elecció de la passarel·la de pagament de la LLC es llegeix de manera més útil com un mapatge estable entre el tipus d'activitat, el país del client i el flux de conciliació amb el compte bancari de la LLC, en lloc d'una comparació feature a feature. El que canvia d'un proveïdor a un altre és essencialment la superfície d'integració i els mercats suportats — i aquestes propietats no es mouen de setmana en setmana.
+
+Una nota curta al dossier de la LLC que registri quina passarel·la s'utilitza per a quin tipus de client, i com arriba el settlement al compte bancari de la LLC, converteix aquest mapatge en una cosa que el membre pot rellegir en qualsevol moment.
+<!-- /exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -159,6 +175,31 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
   ### Passarel·les de pagament i LLC: marc espanyol DAC7
 
   Per a socis espanyols/catalans d'una LLC americana que utilitzin Stripe, PayPal o DodoPayments, vigeix des de **01/01/2023** el **RD-Llei 7/2021** + **RD-Llei 23/2024** (transposició DAC7) amb obligació de comunicació via **Modelo 238** a l'AEAT abans del 31 de gener. Llindar de reporte: **30 operacions/any** o **€2.000/any** per venedor (art. 1 RD-Llei 23/2024). Les passarel·les pures **no es consideren plataformes comunicants** si només processen pagaments. Facturació obligatòria segons el **RD 1619/2012** i conservació **6 anys** (art. 30 Codi de Comerç).
+
+
+<!-- exentax:lote9-native-v1:pasarelas-pago-llc-stripe-paypal-dodo -->
+## Una nota final sobre la passarel·la
+
+L'elecció correcta depèn menys de la marca i més del perfil real
+de la LLC: país dels clients, tipus de producte, volum mensual i
+tolerància al retard del payout. Una passarel·la mal alineada
+crea friccions que costen més que la diferència de comissió.
+
+<!-- /exentax:lote9-native-v1:pasarelas-pago-llc-stripe-paypal-dodo -->
+
+<!-- exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-ca-bis -->
+## Com reflectir netament la separació de dues passarel·les a la comptabilitat
+
+La separació entre una passarel·la principal i una de secundària es reflecteix netament a la comptabilitat assignant a cada passarel·la una entrada de comptes pròpia.
+<!-- /exentax:lote17-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Vendre a Amazon amb la teva LLC americana: guia e-commerce completa](/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa)
+- [Deduccions fiscals per a la teva LLC: què pots deduir i com](/ca/blog/deduccions-fiscals-per-a-la-teva-llc-que-pots-deduir-i-com)
+- [Tributació de la LLC segons l'activitat econòmica: serveis, e-commerce, SaaS](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

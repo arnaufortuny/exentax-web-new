@@ -110,6 +110,18 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote33-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-de -->
+## Wie sich die Frage von Strohmännern als strukturelle Unvereinbarkeit mit der Identifikation des wirtschaftlich Berechtigten statt als Detail­diskussion lesen lässt
+
+Die Frage von Strohmännern liest sich nützlicher als strukturelle Unvereinbarkeit zwischen dem im Vehikel sichtbar gemachten Namen und dem tatsächlich wirtschaftlich Berechtigten denn als Detail­diskussion. Die regulatorische Erwartung an die Identifikation des wirtschaftlich Berechtigten ist die stabile Größe — nicht der gerade aktive Marken­diskurs einer Anbieter­seite.
+<!-- /exentax:lote33-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-de -->
+
+<!-- exentax:lote33-native-v1-bis:testaferros-prestanombres-llc-ilegal-riesgos-de -->
+## Warum die Notiz die Identifikation des wirtschaftlich Berechtigten und nicht die Marken­seite festhält
+
+Die Notiz hält die Identifikation des wirtschaftlich Berechtigten fest und nicht eine Marken­seite, weil die regulatorische Erwartung an dieser Identifikation hängt.
+<!-- /exentax:lote33-native-v1-bis:testaferros-prestanombres-llc-ilegal-riesgos-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -159,6 +171,61 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
   ### Strohmann-Konstruktionen aus DACH-Steuersicht: warum sie scheitern
 
   In Deutschland greift bei nachgewiesenen Strohmann-Konstruktionen sofort §42 AO (**Missbrauch von Gestaltungsmöglichkeiten**): die wirtschaftliche Zurechnung erfolgt zum tatsächlich Berechtigten, sämtliche Steuern werden rückwirkend mit 6 % p. a. Zinsen nach §233a AO festgesetzt, und es droht **Steuerhinterziehung nach §370 AO** (Freiheitsstrafe bis 5 Jahre, in besonders schweren Fällen bis 10 Jahre nach §370 Abs. 3 AO). Das **Transparenzregister** nach §§19–20 GwG verlangt ohnehin die Offenlegung des wirtschaftlich Berechtigten (≥25 % Anteile oder Stimmen) — eine bewusst falsche Eintragung ist nach §56 GwG mit bis zu €150.000 Bußgeld bewehrt, bei Vorsatz bis €1 Mio. In Österreich gilt das **WiEReG** (Wirtschaftliche Eigentümer Registergesetz) mit identischem Schwellenwert und Sanktionen bis €200.000. In der Schweiz greifen das **GwG (SR 955.0)** und die **VStrR**-Bestimmungen analog. Die FATCA- und CRS-Datenflüsse machen Strohmann-Strukturen für die DACH-Finanzverwaltungen praktisch lückenlos sichtbar.
+
+<!-- exentax:lote9-native-v1:testaferros-prestanombres-llc-ilegal-riesgos -->
+## Warum Strohmann-Konstruktionen die LLC zerstören
+
+Die Strohmann-Konstruktion — eine Person erscheint formal als
+Eigentümer der LLC, während eine andere die tatsächliche
+Kontrolle ausübt — ist nicht ein Grenzfall, sondern ein klarer
+Bruch der Regeln. Sie verstösst gegen die Beneficial-Ownership-
+Pflichten, gegen die Bankvorschriften zur Identifikation des
+wirtschaftlich Berechtigten und gegen die Pflichten des
+tatsächlichen Mitglieds gegenüber seiner Heimatverwaltung.
+
+In der Praxis bricht die Konstruktion fast immer im
+unpassendsten Moment zusammen: bei einer KYC-Aktualisierung der
+Bank, bei einer Anfrage des Anbieters oder schlicht weil der
+Strohmann die Beziehung beenden möchte. Wenn dieser Moment
+kommt, sind die rechtlichen Folgen für das tatsächliche Mitglied
+nicht mehr verhandelbar.
+
+## Eine klare Schlussbemerkung
+
+Es gibt keinen "vorsichtigen" Weg, eine Strohmann-Konstruktion
+zu betreiben. Es gibt nur den Weg, sie aufzulösen, bevor sie
+sich unter Zwang auflöst. Eine korrekt aufgesetzte LLC, mit dem
+tatsächlichen Mitglied an seiner Stelle, ist sowohl
+kostengünstiger als auch deutlich sicherer als jede Variante,
+die versucht, das wahre Eigentum zu verschleiern.
+
+<!-- /exentax:lote9-native-v1:testaferros-prestanombres-llc-ilegal-riesgos -->
+
+<!-- exentax:lote9-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-bis -->
+## Eine kurze Schlussbeobachtung
+
+Eine LLC, die unter dem richtigen Namen geführt wird, hat einen
+unsichtbaren, aber realen Wert: sie altert sauber und gewinnt
+über die Jahre an Glaubwürdigkeit gegenüber Banken und
+Behörden.
+
+<!-- /exentax:lote9-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-bis -->
+
+<!-- exentax:lote15-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-de -->
+## Warum Strohmann-Konstruktionen einer sorgfältigen Prüfung selten standhalten
+
+Strohmann-Vereinbarungen wirken auf dem Papier attraktiv, weil sie den sichtbaren Fussabdruck des tatsächlichen Eigentümers reduzieren, scheitern aber bei jeder ernsthaften Prüfung aus einem strukturellen, nicht aus einem dokumentarischen Grund. Steuerbehörden und Banken in den meisten modernen Jurisdiktionen wenden den Grundsatz der wirtschaftlichen Betrachtungsweise an, das heisst, sie schauen darauf, wer tatsächlich entscheidet, wer tatsächlich den wirtschaftlichen Vorteil erhält und wer tatsächlich das Risiko trägt, unabhängig davon, wessen Name auf den Gründungsdokumenten steht. Wenn die Antwort auf alle drei Fragen auf eine Person zeigt und der formale Titel auf eine andere, wird die Abweichung selbst zum Thema, und jeder spätere Beleg (Bankinstruktionen, Unterschriften unter Verträgen, Korrespondenz mit Lieferanten) verstärkt am Ende dasselbe Bild.
+
+Register der wirtschaftlich Berechtigten fügen derselben Logik eine zweite Ebene hinzu. Sie sind nicht dafür gemacht, eine bestimmte Konstruktion zu fangen; sie sind dafür gemacht, die Übereinstimmung zwischen rechtlichem und wirtschaftlichem Eigentümer routinemässig sichtbar zu machen. Wo es eine Abweichung gibt, wird die Struktur weniger entdeckt als vielmehr ohnehin schon sichtbar, und die Kosten ihrer Auflösung übersteigen dann das, was sie ursprünglich einsparen sollte, deutlich.
+<!-- /exentax:lote15-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-de -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Kritische Fehler nach LLC-Gründung, die niemand erklärt](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand)
+- [Anti-Geldwäsche-Compliance für Ihre LLC: Was Sie wissen müssen](/de/blog/anti-geldwasche-compliance-fur-ihre-llc-was-sie-wissen)
+- [BOI Report 2026: Leitfaden zur FinCEN Beneficial Ownership Meldung](/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

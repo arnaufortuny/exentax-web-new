@@ -157,7 +157,15 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 <!-- exentax:zero-tax-nuance-v1 -->
 ## Nuance importante sobre "tributação zero"
 
-Uma LLC bem estruturada **não gera imposto federal nos EUA** sobre rendimentos sem conexão efetiva com o país (no ECI). Isto não é o mesmo que "não pagar impostos em lugar nenhum". Enquanto proprietário residente fiscal num país com regras CFC, transparência fiscal ou atribuição de rendimentos (Espanha, Alemanha, França, México, Argentina, Brasil, Portugal em muitos casos…), **o rendimento líquido da LLC é imputado ou tributado no país de residência** no ano em que é gerado ou distribuído, segundo o regime local aplicável. O planeamento legítimo procura **evitar dupla tributação** e **declarar corretamente na residência**, não eliminar. <!-- exentax:legal-facts-v1 -->
+Uma LLC bem estruturada **não gera imposto federal nos EUA** sobre rendimentos sem conexão efetiva com o país (no ECI). Isto não é o mesmo que "não pagar impostos em lugar nenhum". Enquanto proprietário residente fiscal num país com regras CFC, transparência fiscal ou atribuição de rendimentos (Espanha, Alemanha, França, México, Argentina, Brasil, Portugal em muitos casos…), **o rendimento líquido da LLC é imputado ou tributado no país de residência** no ano em que é gerado ou distribuído, segundo o regime local aplicável. O planeamento legítimo procura **evitar dupla tributação** e **declarar corretamente na residência**, não eliminar. <!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Nómada digital: onde pagar impostos e como escolher a residência fiscal](/pt/blog/nomade-digital-onde-pagar-impostos-e-como-escolher-a)
+- [As contas bancárias americanas reportam à sua autoridade fiscal?](/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade)
+- [Fiscalidade Estónia: como funciona](/pt/blog/fiscalidade-estonia-como-funciona)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
 As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:

@@ -111,6 +111,14 @@ Connect all payment processors to your Mercury account for unified cash manageme
 2. **International:** PayPal (if platform requires it. need ITIN)
 3. **Payouts:** Mercury for all deposits
 
+<!-- exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-en -->
+## How to read the LLC payment-gateway choice as a stable mapping between activity, country of customer and reconciliation flow
+
+The LLC payment-gateway choice reads more usefully when it's treated as a stable mapping between the type of activity, the country of the customer and the reconciliation flow with the LLC's bank account, rather than as a feature-by-feature comparison. What changes from one provider to another is mostly the integration surface and the supported markets — and those properties don't shift week to week.
+
+A short note in the LLC folder that records which gateway is used for which type of customer, and how the settlement reaches the LLC's bank account, turns this mapping into something the member can review at any time.
+<!-- /exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -195,6 +203,14 @@ The numbers and the calendar matter - get either wrong and the rest unravels.
 ## Stripe
 
 Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise, banks and your LLC: the complete banking stack nobody explains](/en/blog/wise-banks-and-your-llc-the-complete-banking-stack-nobody)
+- [How to open a Mercury account for your LLC from any country](/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country)
+- [How to scale your digital business with a US LLC](/en/blog/how-to-scale-your-digital-business-with-a-us-llc)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

@@ -1,46 +1,39 @@
 # Blog CTA position audit (Task #52)
 
-Generated: 2026-04-26T19:01:25.851Z
+Generated: 2026-04-27T22:03:59.437Z
 
 Total files audited: 672
 
-Files with at least one violation: 16
+Files with at least one violation: 9
 
-Total violations: 16
+Total violations: 9
 
 
 ## Per language
 
 | Lang | Files | Violations | calc-cta avg %pos | cta avg %pos |
 |------|------:|-----------:|------------------:|-------------:|
-| es | 112 | 3 | 51.3 | 98.8 |
-| en | 112 | 1 | 51.5 | 91.9 |
-| fr | 112 | 0 | 51.2 | 91.8 |
-| de | 112 | 6 | 49.2 | 92.2 |
-| pt | 112 | 3 | 51 | 92.2 |
-| ca | 112 | 3 | 50.5 | 92.3 |
+| es | 112 | 1 | 51.1 | 99 |
+| en | 112 | 0 | 50 | 97.4 |
+| fr | 112 | 1 | 49.9 | 97.2 |
+| de | 112 | 4 | 47.4 | 97.6 |
+| pt | 112 | 1 | 49.7 | 97.4 |
+| ca | 112 | 2 | 49.2 | 97.4 |
 
 ## Violations by category
 
 | Category | Count |
 |----------|------:|
-| too_early | 16 |
+| too_early | 9 |
 
 ## Worst 20 files
 
-- `es/facturar-sin-ser-autonomo-alternativas-2026` — 1 violations: calc_cta:too_early
-- `es/tramos-irpf-2026` — 1 violations: calc_cta:too_early
-- `es/wise-business-llc-guia` — 1 violations: calc_cta:too_early
-- `en/auditoria-rapida-llc-12-puntos-30-minutos` — 1 violations: calc_cta:too_early
+- `es/evitar-bloqueos-mercury-wise-revolut` — 1 violations: calc_cta:too_early
+- `fr/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad` — 1 violations: calc_cta:too_early
 - `de/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad` — 1 violations: calc_cta:too_early
-- `de/dac8-criptomonedas-reporting-fiscal-2026` — 1 violations: calc_cta:too_early
-- `de/documentar-separacion-fondos-llc-historial` — 1 violations: calc_cta:too_early
+- `de/evitar-bloqueos-mercury-wise-revolut` — 1 violations: calc_cta:too_early
 - `de/pasarelas-pago-llc-stripe-paypal-dodo` — 1 violations: calc_cta:too_early
 - `de/recuperar-llc-boi-5472-atrasados-procedimiento` — 1 violations: calc_cta:too_early
-- `de/revolut-business-crs-reporting-fiscal` — 1 violations: calc_cta:too_early
-- `pt/pasarelas-pago-llc-stripe-paypal-dodo` — 1 violations: calc_cta:too_early
-- `pt/single-member-multi-member-llc-implicaciones-fiscales` — 1 violations: calc_cta:too_early
-- `pt/vender-o-cerrar-llc-comparativa-practica` — 1 violations: calc_cta:too_early
-- `ca/dac8-criptomonedas-reporting-fiscal-2026` — 1 violations: calc_cta:too_early
-- `ca/single-member-multi-member-llc-implicaciones-fiscales` — 1 violations: calc_cta:too_early
-- `ca/vender-o-cerrar-llc-comparativa-practica` — 1 violations: calc_cta:too_early
+- `pt/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad` — 1 violations: calc_cta:too_early
+- `ca/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad` — 1 violations: calc_cta:too_early
+- `ca/evitar-bloqueos-mercury-wise-revolut` — 1 violations: calc_cta:too_early

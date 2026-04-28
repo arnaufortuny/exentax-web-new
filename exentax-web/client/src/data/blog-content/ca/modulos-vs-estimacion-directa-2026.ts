@@ -27,9 +27,6 @@ Si la teva activitat és 100% digital, internacional i amb clients majoritàriam
 
 La regulació detallada està al Reglament de l'IRPF (RD 439/2007) i a l'Ordre anual de mòduls publicada cada novembre al <a href="https://www.boe.es/">BOE</a>. Per verificar el teu epígraf IAE consulta el <a href="https://sede.agenciatributaria.gob.es/">portal de l'AEAT</a> abans de prendre la decisió.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
-<!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.
 
@@ -84,6 +81,39 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+### Com es desenvolupa realment una transició neta de mòduls a estimació directa
+
+La renúncia es presenta via Modelo 036 al desembre perquè faci efecte a partir del gener de l'any següent, i una vegada presentada vincula l'autònom durant almenys tres anys abans de poder tornar a mòduls. La primera tasca pràctica al gener és muntar el ritme comptable que l'estimació directa exigeix: un compte operatiu separat (a la nostra pràctica, un compte de negocis dedicat evita la major part de la fricció de conciliació), factures i despeses de proveïdors arxivades per mes amb còpia electrònica, i un Modelo 130 trimestral que pren la renda neta (ingressos menys despeses deduïbles) com a base. La segona tasca pràctica és revisar el mapa de deduccions a l'inici de l'any perquè la nova visibilitat es faci servir al complet: programari, formació, honoraris d'assessoria, proporció de teletreball dels subministraments, i qualsevol altra despesa professional que simplement no era rellevant sota mòduls passa a ser una palanca calculable. La tercera tasca pràctica és programar una revisió trimestral de quinze minuts de la projecció d'IRPF acumulada perquè qualsevol canvi de tram o aproximació a un llindar es detecti abans que esdevingui una sorpresa de final d'any.
+
+### Quan ni mòduls ni estimació directa encaixen ja
+
+Hi ha un perfil recurrent a la nostra pràctica per a qui els dos règims es queden estrets: un freelance amb la majoria de clients a l'estranger, facturació mensual recurrent en moneda estrangera i un catàleg de serveis digitals que encaixa malament amb els codis d'activitat d'IRPF dissenyats per a oficis locals. En aquest perfil, els mòduls no estan disponibles (exclosos per activitat) i l'estimació directa sembla pagar dues vegades (quota RETA més IRPF complet sobre el net) per una estructura no pensada per a fluxos digitals transfronterers. La conversa que obrim habitualment en aquest moment compara dues alternatives estructurals: una SL espanyola (amb el seu impost de societats i la seva capa de dividend, vàlida quan cal presència local) i una LLC americana posseïda des d'Espanya (amb la seva mecànica pass-through i la seva càrrega declarativa, vàlida quan la majoria de clients i la tresoreria estan fora d'Espanya). Cap no és una drecera; totes dues són decisions amb horitzó de tres anys i amb el seu cost d'instal·lació, i és precisament per això que la comparació mereix una hora calmada en lloc d'una cerca ràpida en línia.
+<!-- /exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+### Una taula de decisió costat per costat que compartim amb autònoms
+
+Rarament recomanem mòduls versus estimació directa en l'abstracte: la resposta depèn del perfil d'activitat i de la previsibilitat dels ingressos. La taula de decisió que compartim amb els clients té quatre columnes. Primera columna: sector d'activitat (la disponibilitat de mòduls està fixada pel codi d'activitat; alguns perfils digitals i de consultoria estan exclosos per definició). Segona columna: previsibilitat dels ingressos (els mòduls donen la mateixa factura trimestral fixa independentment dels ingressos reals, cosa que protegeix el cantó positiu però penalitza els anys febles). Tercera columna: intensitat de despeses deduïbles (l'estimació directa recompensa perfils amb despeses elevades perquè la base d'IRPF és neta; els mòduls ignoren despeses, cosa que afavoreix activitats amb poques despeses). Quarta columna: la disciplina plurianual (canviar de règim tanca la nova elecció durant almenys tres anys, de manera que la decisió s'hauria de projectar contra un horitzó de tres anys, no un sol any). La recomanació neta ve d'omplir la taula amb números reals i llegir el resultat, no d'una regla d'una línia.
+
+### Paranys comuns en canviar de règim
+
+El primer parany és canviar de règim a meitat d'any per error (per exemple, creuant el llindar d'exclusió per activitat sense adonar-se'n); l'AEAT conciliarà això a la revisió de final d'any i el resultat rarament és amistós. L'enfocament net consisteix a verificar l'elegibilitat per activitat a cada tancament anual i a registrar qualsevol canvi anticipat via Modelo 036 al desembre per a l'any següent. El segon parany és passar de mòduls a estimació directa sense preparar el ritme comptable: l'autònom es troba al març sense llibre de despeses, sense dossier de Modelo 130 trimestral i sense xifra fiable d'ingrés net. L'enfocament net consisteix a muntar la comptabilitat a la primera setmana de gener, idealment amb un compte de negocis dedicat en el lloc des del primer dia. El tercer parany és passar d'estimació directa a mòduls pensant que simplificarà la vida: la simplificació és real per a alguns perfils però la pèrdua de visibilitat sobre despeses també és real, i una vegada bloquejat el règim per tres anys és delicat desfer-lo. L'enfocament net consisteix a projectar ambdós règims per als pròxims tres anys abans de la presentació de desembre.
+<!-- /exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Quota d'autònom a Espanya 2026: el que pagues realment cada mes](/ca/blog/quota-autonom-2026-trams-explicacio)
+- [Despeses deduïbles per a freelancers espanyols el 2026: guia clara](/ca/blog/despeses-deduibles-autonoms-2026)
+- [Per què els freelancers espanyols estan deixant l'autònom en silenci](/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.

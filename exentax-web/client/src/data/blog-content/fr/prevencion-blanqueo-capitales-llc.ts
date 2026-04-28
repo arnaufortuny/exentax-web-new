@@ -100,10 +100,22 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
 
+<!-- exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-fr -->
+## Pourquoi la prévention du blanchiment se traite par la cohérence du dossier plutôt que par des justifications ad hoc
+
+La prévention du blanchiment des capitaux pour une LLC se traite plus efficacement par la cohérence générale du dossier que par des justifications ad hoc apportées à chaque demande.
+<!-- /exentax:lote17-native-v1:prevencion-blanqueo-capitales-llc-fr -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
 Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont bougé en recent years; voici la version en vigueur:
+
+<!-- exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-fr -->
+## Comment lire la prévention du blanchiment comme une cartographie d'attentes documentaires stables plutôt que comme une crainte diffuse
+
+La prévention du blanchiment se lit plus utilement comme une cartographie d'attentes documentaires stables — identification du bénéficiaire effectif, origine des fonds, contexte de l'activité — que comme une crainte diffuse. La cartographie reste valide d'un compte à l'autre.
+<!-- /exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-fr -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
@@ -136,6 +148,14 @@ Chez Exentax nous structurons l'AML compliance pour LLCs non-résidentes et méd
 ## Nous l'installons sans que vous perdiez un week-end
 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [BOI Report 2026 : guide complet pour le dépôt FinCEN Beneficial Ownership](/fr/blog/boi-report-2026-guide-complet-pour-le-depot-fincen)
+- [Due diligence bancaire pour votre LLC : ce que vérifient les banques](/fr/blog/due-diligence-bancaire-pour-votre-llc-ce-que-verifient-les)
+- [Propriétaires fictifs pour LLC : pourquoi c'est illégal et les risques](/fr/blog/proprietaires-fictifs-pour-llc-pourquoi-cest-illegal-et-les)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

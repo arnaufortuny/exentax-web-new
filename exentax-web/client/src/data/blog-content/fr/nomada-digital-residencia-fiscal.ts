@@ -254,6 +254,14 @@ Constituer la LLC au Wyoming, Nouveau-Mexique, Delaware ou Floride n'affecte pas
 
 Pour rester hors des zones grises continuez avec <a href="/fr/blog/structures-offshore-benefices-et-risques-reels">le guide paradis fiscaux et juridictions non coopératives</a>, et si vous restez en Espagne en exploitant des leviers légaux relisez <a href="/fr/blog/voies-legales-pour-minimiser-vos-impots">les voies légales pour minimiser les impôts</a>. Pour dessiner le setup <strong>réservez un échange avec Exentax</strong>.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Fiscalité internationale pour entrepreneurs numériques : guide complet](/fr/blog/fiscalite-internationale-pour-entrepreneurs-numeriques-guide)
+- [Fiscalité LLC par pays de résidence : ce que vous payez où vous vivez](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+- [Fiscalité des membres de LLC en cas de changement de résidence mid-year](/fr/blog/fiscalite-des-membres-de-llc-en-cas-de-changement-de)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Vous%20travaillez%20deux%20mois%20depuis%20Lisbonne%2C%20un%20mois%20depuis%20Bali%2C%20puis%20vous%20rev%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

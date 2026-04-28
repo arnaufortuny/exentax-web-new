@@ -158,6 +158,12 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
+<!-- exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-ca -->
+## Com llegir la qüestió dels Forms W-8BEN i W-8BEN-E com un mapatge de relacions estables en lloc d'un formulari a omplir una vegada
+
+La qüestió dels Forms W-8BEN i W-8BEN-E es llegeix de manera més útil com un mapatge de relacions estables entre la persona o entitat que certifica el seu estatut, el pagador americà que demana la certificació i la jurisdicció de residència del beneficiari, en lloc d'un formulari a omplir una vegada. Aquest mapatge es manté consultable en pocs minuts en una revisió periòdica de la documentació al dossier personal.
+<!-- /exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -243,6 +249,98 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 
   A Exentax revisem aquests cinc fronts cada any en paral·lel al calendari federal estatunidenc (Form 5472, 1120 pro-forma, FBAR, Annual Report estatal i BOI Report quan apliqui). L'objectiu és que cap inspecció trobi un cap solt i que l'estructura aguanti revisions a 5-7 anys vista.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa -->
+## W-8 en paraules clares: qui certifica què
+
+La família W-8 respon a una única pregunta repetida pels pagadors
+americans: la persona a l'altre costat d'aquest pagament és una "US
+person" als efectes fiscals i, si no, quin estatut certifica perquè
+s'apliqui la regla de retenció correcta. Hi ha diverses variants
+perquè la resposta depèn de si el receptor és persona física,
+entitat, intermediari o govern estranger. La majoria de propietaris
+de LLC només interactuen amb dues.
+
+| Formulari    | Qui signa                                | Ús típic                             |
+|--------------|------------------------------------------|--------------------------------------|
+| W-8BEN       | Una persona física no-US                 | Persona física estrangera que rep    |
+|              |                                          | rendes de font US en compte personal |
+| W-8BEN-E     | Una entitat no-US                        | Entitat estrangera (sovint la LLC)   |
+|              |                                          | que rep de clients/plataformes US    |
+
+Per a una single-member LLC propietat d'una persona no-US i tractada
+com a disregarded a efectes fiscals als US, els pagadors americans
+demanen típicament el W-8BEN-E a la LLC i, en algunes plataformes,
+també un W-8BEN al soci com a beneficiari efectiu. Els noms
+s'assemblen però els documents juguen papers diferents en la mateixa
+relació.
+
+## Tres casos reals freqüents
+
+Una LLC SaaS ven a clients US enterprise sota un contracte marc.
+L'equip de compres demana el W-8BEN-E amb l'EIN de la LLC, el país
+de constitució (per exemple Wyoming o New Mexico) i la sol·licitud
+de benefici de conveni fiscal si el soci és en un país amb conveni
+amb els US. Un formulari endreçat en arxiu vol dir pagament sense
+retenció de precaució i pista d'auditoria completa als dos costats.
+
+Un marketplace basat als US paga a una LLC propietat d'un resident
+fiscal espanyol. La plataforma demana un W-8BEN-E a la LLC i, al
+dashboard, registra el beneficiari efectiu. Omplim la sol·licitud de
+benefici de conveni quan s'aplica, hi adjuntem el document de
+constitució de la LLC i la carta EIN, i els payouts es fan a la
+taxa convencional estàndard.
+
+Una LLC de consultoria treballa per a una cotitzada US. El seu
+sistema comptable fa renovacions anuals del W-8; actualitzem el
+formulari amb les mateixes dades, conservem tant la versió anterior
+com la nova a la carpeta de compliance de la LLC i marquem la data
+de renovació al nostre calendari intern perquè el client mai no
+vegi un cicle perdut.
+
+## Errors que retarden pagaments
+
+- Barrejar W-8BEN i W-8BEN-E. Les persones físiques signen W-8BEN;
+  les entitats, incloses les LLCs, signen W-8BEN-E. No creuar els
+  fils.
+- Deixar la casella de conveni buida quan hi ha conveni aplicable.
+  És la sol·licitud la que fa que la retenció passi del 30% a la
+  taxa convencional; sense això, el pagador reté a la taxa per
+  defecte.
+- Utilitzar l'adreça estrangera de fa anys. El formulari ha de
+  reflectir la residència actual; divergències amb la declaració
+  BOI o amb les carpetes KYC desencadenen peticions de reemissió.
+- Signar per la LLC sense autoritat. Les single-member LLCs són
+  senzilles; les multi-member necessiten l'operating agreement per
+  mostrar el poder de signatura.
+
+## Checklist de renovació i arxiu
+
+- Els formularis W-8 expiren al cap del tercer any complet després
+  de la signatura.
+- Conservar tant el PDF signat com les dades d'origen a la carpeta
+  de compliance de la LLC.
+- Actualitzar abans que canvis de residència arribin al banc o al
+  pagador.
+- Confirmar que l'EIN del formulari coincideix amb l'EIN a l'arxiu
+  de l'IRS.
+- Fer coincidir exactament el nom de la LLC i el DBA amb els
+  documents de constitució.
+
+Tractem el cicle W-8 com a part de la higiene anual de la LLC, del
+mateix mode com tractem els refreshes del BOI i les actualitzacions
+de perfil bancari: una petita feina recurrent que evita grans
+problemes recurrents.
+
+<!-- /exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [IRS 1120 i 5472: què són realment i quan apliquen](/ca/blog/irs-1120-i-5472-que-son-realment-i-quan-apliquen)
+- [Què és l'IRS i com afecta realment la teva LLC americana](/ca/blog/que-es-lirs-i-com-afecta-la-teva-llc-americana)
+- [Conveni de doble imposició EUA-Espanya per a LLCs: lectura pràctica](/ca/blog/conveni-de-doble-imposicio-usa-espanya-per-a-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

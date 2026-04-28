@@ -133,6 +133,18 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **CDT Espanha–EUA.** A convenção (BOE 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
 - **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 
+<!-- exentax:lote32-native-v1:caminos-legales-minimos-impuestos-pt -->
+## Como ler os caminhos legais para minimizar impostos como um mapeamento estrutural estável em vez de um truque de marketing
+
+Os caminhos legais para minimizar impostos leem-se de forma mais útil como um mapeamento estrutural estável entre residência, criação de valor e clientes, em vez de um truque de marketing. O mapeamento não muda com a estação do ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+<!-- /exentax:lote32-native-v1:caminos-legales-minimos-impuestos-pt -->
+
+<!-- exentax:lote32-native-v1-bis:caminos-legales-minimos-impuestos-pt -->
+## Porque a nota se organiza por eixo e não por promessa de marketing
+
+A nota organiza-se por eixo — residência, criação de valor, clientes — e não por promessa de marketing, porque os eixos mantêm-se estáveis ao longo do ano.
+<!-- /exentax:lote32-native-v1-bis:caminos-legales-minimos-impuestos-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

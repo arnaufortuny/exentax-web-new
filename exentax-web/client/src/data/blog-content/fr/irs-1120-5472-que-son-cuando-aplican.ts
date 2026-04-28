@@ -194,6 +194,93 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 
   Pour un résident fiscal français, la **Treas. Reg. §1.6038A-1(c)(1) modifiée par TD 9796 du 12/12/2016** impose le dépôt conjoint de la Form 1120 + 5472 même pour une LLC unipersonnelle "disregarded entity". En parallèle, l'**art. 209 B du CGI** (BOI-INT-DG-50-20) peut requalifier la LLC en entité contrôlée si la fiscalité effective y est inférieure à 50 % de la fiscalité française, déclenchant l'imposition immédiate des bénéfices au niveau du résident français.
 
+<!-- exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+## Ce que 1120 + Form 5472 déclarent réellement (et ne déclarent pas)
+
+Pour une single-member LLC détenue par une personne non-US et
+traitée comme transparente fiscalement aux US, l'IRS exige une
+enveloppe pro-forma 1120 utilisée uniquement comme support du Form
+5472. Ce duo n'établit pas d'impôt US sur une LLC transparente
+détenue par un étranger ; il documente que certaines transactions
+déclarables entre la LLC et son propriétaire étranger (ou des
+parties liées) ont effectivement eu lieu. L'IRS veut de la
+visibilité sur ces flux, pas nécessairement des recettes.
+
+| Élément          | Ce qu'il déclare                                        |
+|------------------|---------------------------------------------------------|
+| Pro-forma 1120   | Enveloppe d'identification : nom de la LLC, EIN,        |
+|                  | adresse, année                                          |
+| Form 5472        | Chaque transaction déclarable avec la partie liée       |
+|                  | étrangère (apports en capital, distributions, prêts,    |
+|                  | services, etc.)                                          |
+
+Si l'année n'a comporté aucune transaction déclarable, le duo se
+dépose en général tout de même avec des montants à zéro afin que
+l'IRS voie le statut d'activité explicitement. Ne pas déposer est ce
+qui déclenche l'exposition aux pénalités bien connues prévues par la
+réglementation.
+
+## Trois schémas réels de dépôt que nous suivons
+
+Une single-member LLC avec un apport en capital à la constitution,
+un petit retrait mensuel au propriétaire étranger et aucun autre
+flux lié. Le 5472 déclare l'apport et les retraits ; le pro-forma
+1120 sert d'enveloppe. La période de dépôt prend quelques heures de
+travail structuré, réconciliation comptable comprise.
+
+Une single-member LLC qui a prêté de l'argent à une société liée
+étrangère, plus tard remboursé, avec un taux d'intérêt normal. Le
+5472 déclare l'octroi du prêt et le remboursement ; l'accumulation
+des intérêts fait partie des livres de la LLC et se reflète dans la
+déclaration du propriétaire dans son pays. La documentation est
+votre amie ici : le contrat de prêt et le tableau d'amortissement
+sont dans le dossier conformité de la LLC.
+
+Une LLC pluriannuelle sans activité l'année en cours. Nous déposons
+quand même le pro-forma 1120 + 5472 à zéro, joignons un court mémo
+interne expliquant l'année dormante, et tenons le dossier prêt pour
+le moment où la LLC se réactivera.
+
+## Erreurs qui mènent à des lettres de pénalité
+
+- Traiter le duo comme une déclaration fiscale qui "ne doit rien" et
+  la sauter. C'est un dépôt déclaratif ; l'absence d'impôt n'efface
+  pas l'obligation.
+- Mélanger les dépenses personnelles du propriétaire dans les
+  livres de la LLC, puis tenter de réconcilier au moment du dépôt.
+  Garder la frontière propre mensuellement.
+- Oublier qu'un retrait au propriétaire étranger est une transaction
+  déclarable. Il l'est souvent, selon sa nature (retour de capital,
+  distribution, etc.).
+- Déposer tard. La pénalité pour un Form 5472 manqué est
+  substantielle et s'applique même sans impôt US dû.
+
+## Checklist de pré-dépôt
+
+- L'EIN de la LLC correspond à la lettre IRS (CP575).
+- Année d'exercice confirmée (année civile par défaut pour une
+  single-member disregarded LLC).
+- Comptabilité clôturée et réconciliée avec les banques.
+- Flux entre parties liées mappés aux catégories de lignes 5472.
+- Document d'identité du propriétaire en dossier conforme à la
+  déclaration BOI.
+- Canal de dépôt prêt (papier ou e-file via un fournisseur
+  autorisé).
+
+Nous traitons 1120 + 5472 comme la poignée de main annuelle de la
+LLC avec l'IRS : calme, prévisible, structurée. Un dépôt propre
+cette année rend l'année suivante encore plus calme.
+
+<!-- /exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Que se passe-t-il si vous ne déposez pas le Form 5472 : sanctions IRS et correction](/fr/blog/que-se-passe-t-il-si-vous-ne-deposez-pas-le-form-5472)
+- [W-8BEN et W-8BEN-E : un guide complet et posé](/fr/blog/w8-ben-et-w8-ben-e-le-guide-complet)
+- [Qu'est-ce que l'IRS et comment affecte-t-il vraiment votre LLC américaine](/fr/blog/quest-ce-que-lirs-et-comment-affecte-t-il-votre-llc)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Nous vérifions BOI, EIN, agent enregistré et obligations fédérales pour qu'aucune amende ne vous surprenne. <a href="/fr/services">Demander une revue de conformité</a>.
 <!-- /exentax:cta-v1 -->

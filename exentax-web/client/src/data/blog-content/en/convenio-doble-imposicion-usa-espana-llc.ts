@@ -148,6 +148,22 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Pass-through taxation for LLCs: how it works and why it matters](/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it)
+- [Exit tax Spain with LLC, crypto and Interactive Brokers](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)
+- [LLC taxation by economic activity: services, ecommerce, SaaS, royalties, trading](/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-en -->
+## How to read the US-Spain double taxation treaty as a stable mapping between residence and source rather than as a generic shortcut
+
+The US-Spain double taxation treaty reads more usefully when it's treated as a stable mapping between the country of tax residence of the beneficial owner and the country of the source of each income type, than as a generic shortcut to "avoid paying twice". The treaty doesn't replace the residence rules of either country: it sets a structured way for both administrations to coordinate, type of income by type of income.
+
+A short note in the personal folder that records the country of residence declared for the year, the types of income received and the side where each one was first taxed makes the position reviewable in a few minutes whenever a tax adviser asks for clarification, instead of forcing a reconstruction from memory of the entire year.
+<!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -201,6 +217,14 @@ At Exentax we map every flow of your LLC against the applicable treaty article, 
 ## How we work at Exentax
 
 Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
+
+<!-- exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-en -->
+## How the US–Spain treaty actually plays out for a single-member LLC
+
+The treaty between Spain and the United States works on the level of persons, not on the level of pass-through vehicles. A single-member LLC that is disregarded for US tax purposes is generally looked through, and the relevant questions are answered at the level of the natural person who is the member. Where that person is tax resident in Spain, Spain will tax the worldwide income attributed through the LLC under its own rules, and the treaty will allocate taxing rights between the two countries on a category-by-category basis.
+
+In practice this means that three articles do most of the work in a calm year: the residence article, which sets which country has primary taxing rights when both could otherwise claim it; the business profits article, which generally requires a permanent establishment in the other country before that country can tax operating profits; and the elimination-of-double-taxation article, which sets the order in which credits are applied. None of these articles produces an automatic outcome on its own. They are tools that need consistent documentation: residence certificates, accounting that ties to the calendar year used in each country, and a clear record of where economic activity actually happened. A working file with these three pieces, refreshed once a year, removes most of the friction that the treaty is meant to remove.
+<!-- /exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-en -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

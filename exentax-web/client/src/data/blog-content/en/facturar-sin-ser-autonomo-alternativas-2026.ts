@@ -27,9 +27,6 @@ Practical summary: low one-off income (under 3,000 euros total per year) and non
 
 Habituality criteria are consolidated in <a href="https://www.poderjudicial.es/">Supreme Court</a> rulings and in the doctrine of Spain's <a href="https://www.seg-social.es/">Social Security Treasury</a>. Before operating without RETA, model your situation with serious advisory; false shortcuts end up costly.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/en/book">Free consultation, no strings attached</a>
-<!-- /exentax:calc-cta-v1 -->
 
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
 
@@ -84,6 +81,61 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
+### What "sporadic income" actually means in practice
+
+The often-quoted exemption from the autónomo regime for sporadic and low-value income comes from interpretation of jurisprudence rather than a clear bright-line rule. In practice, the AEAT and the Social Security treat as truly sporadic only income that is one-off, low in absolute terms (well below the annual minimum wage) and unrelated to a recurring activity. Three invoices issued to the same client over six months will not look sporadic to a labour inspector even if the absolute amount is small; on the other hand, a single workshop fee paid once a year clearly fits the definition. The grey zone in the middle is where most freelancers get into trouble: invoicing through someone else's company, declaring as "occasional services" what is actually a recurring contract, or simply skipping registration hoping that small amounts will go unnoticed. None of these shortcuts holds up well, and the cost of an inspection (back-payment of contributions plus penalty) far exceeds the saving of a few months without quota.
+
+### A clean comparison between the four real alternatives
+
+For freelancers with recurring digital income who want to leave the autónomo regime, four alternatives compete in our practice with their own profile. Invoicing cooperatives offer the lowest setup friction and a Spanish invoice for the client, but they retain a fee on each invoice and the freelancer remains taxed via IRPF on the cooperative's payslip; they fit short-term needs and small recurring contracts. A Spanish SL offers full corporate structure with a clear separation of capital, but it carries setup cost, accounting requirements and the corporate tax plus dividend layer; it fits when local presence and Spanish billing are core to the business. A US LLC owned from Spain offers a clean cross-border structure with international banking (Mercury, Wise, Stripe, Relay are the names that recur in our setups) and pass-through taxation, with the reporting load that comes with it; it fits when most clients and treasury sit outside Spain. The fourth alternative is to keep the autónomo registration but redesign the activity (raising rates, dropping low-margin clients, applying available allowances) so that the regime feels less heavy; for a portion of clients, this proves to be the most pragmatic answer.
+<!-- /exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
+
+<!-- exentax:lote6-native-v1-bis:facturar-sin-ser-autonomo-alternativas-2026 -->
+### How a cooperative invoicing arrangement actually feels day to day
+
+In a cooperative model, the freelancer joins as a member-employee for the months in which they invoice; the cooperative issues the invoice to the end client in its own name, retains a service fee (typically a single-digit percentage of the invoice value, plus the social-security cost of the worked period), and pays out the net to the freelancer as a payslip. The freelancer files an annual IRPF return on the payslip income, which lands in the general base just like any salaried income, with the regular IRPF brackets. The day-to-day comfort is real for occasional contracts, especially when the alternative is the full Autónomo quota for a single billable month; the friction starts when monthly invoicing becomes recurring, because the cumulative cost of the cooperative fee plus the social-security contribution exceeds the quota a freelancer would have paid directly. We typically suggest reviewing the breakeven monthly billing level at quarterly intervals; once recurring monthly invoicing crosses the threshold, the conversation about a structural alternative deserves to be opened.
+
+### When a US LLC quietly becomes the natural fit
+
+For freelancers with most clients abroad and a stable monthly billing rhythm, the LLC owned from Spain becomes a natural conversation, not a clever workaround. The structure offers a clean operating bank (Mercury, Wise, Stripe and Relay are the names that recur in our setups), a US legal envelope that is comfortable for international clients, pass-through taxation that flows the income to the Spanish-resident owner for IRPF declaration in the standard category (usually economic activity), and a reporting load that is predictable: Form 5472 plus the bookkeeping discipline plus the annual state filings. The structure does not erase Spanish IRPF or RETA when the owner remains tax-resident in Spain; it changes how the activity is operated, banked and presented to international clients, and it removes the autónomo quota for the time the owner is no longer registered as autónomo. The fit is a matter of client mix, billing rhythm and personal residency project, not a magic shortcut, and that is precisely why we open the conversation only when the data shows it deserves an hour.
+<!-- /exentax:lote6-native-v1-bis:facturar-sin-ser-autonomo-alternativas-2026 -->
+
+<!-- exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-en -->
+## How to read the alternatives to autónomo registration as a profile question
+
+The alternatives to autónomo registration read more usefully when they're treated as a profile question rather than a list of exotic options. Each alternative — cooperative, LLC, occasional invoicing — addresses a particular combination of recurrence, billing volume and counterparty type, and the right alternative for the case is the one whose combination matches the actual profile.
+<!-- /exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-en -->
+
+<!-- exentax:lote36-native-v1:facturar-sin-ser-autonomo-alternativas-2026-en -->
+## How to read the question of invoicing without being autónomo as a stable mapping of structural alternatives rather than as a single trick
+
+The question of invoicing without being autónomo reads more usefully as a stable mapping of structural alternatives — own foreign vehicle, third-party billing platform, contracted role under another vehicle — than as a single trick that solves every situation.
+<!-- /exentax:lote36-native-v1:facturar-sin-ser-autonomo-alternativas-2026-en -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/en/book">Free consultation, no strings attached</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
+### A first-month decision protocol when leaving the autónomo regime
+
+The first month after deciding to leave the autónomo regime is when most operational mistakes are concentrated. We follow a five-step protocol with clients in this position. Step one: keep the autónomo registration active until the new structure is operationally ready (a Spanish SL with a corporate bank account open and validated, or a US LLC with the EIN and operating bank in place); the gap between deregistration and the new structure being functional is the most common source of unbilled weeks. Step two: notify clients of the change with a short professional message indicating the new invoicing entity, the new bank details and the effective date; do not start invoicing from the new structure until the client has acknowledged the change. Step three: file the autónomo deregistration via Form 036 only when the first invoice from the new structure has been issued and paid. Step four: keep one autónomo quarterly Form 130 filing live for the period between January and the deregistration date, and one annual IRPF return covering that period. Step five: archive the autónomo documentation kit (NIF history, invoice history, IRPF returns) for at least four years.
+
+### How to read the breakeven for each alternative
+
+The breakeven calculation between the four real alternatives (cooperative, autónomo, SL, LLC) requires three numbers per alternative: monthly fixed cost, marginal cost per euro invoiced, and one-off setup cost. The cooperative has near-zero fixed cost, a marginal cost equal to the service fee plus social-security contribution percentage, and a tiny setup cost. Autónomo has a fixed monthly cost equal to the RETA quota, no marginal cost beyond the IRPF on net income, and a small setup cost. SL has a higher fixed cost (accountancy, autónomo societario, periodic filings), a marginal cost split between corporate tax and dividend IRPF, and a substantial setup cost. US LLC has a moderate fixed cost (registered agent, bookkeeping discipline, annual state filings, Form 5472), a marginal cost equal to IRPF on the pass-through income, and a setup cost concentrated in the first month. Filling these three numbers for each alternative against the freelancer's actual annual billing produces the breakeven map; once the map is on the table, the conversation about the right answer takes one calm hour, not a series of late-night online searches.
+<!-- /exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Self-employed in Spain vs US LLC: a side-by-side that actually helps](/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax)
+- [US LLC as an alternative to being autónomo in Spain: when it makes sense](/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain)
+- [Spanish SL: real costs, real advantages, when it actually fits](/en/blog/spanish-limited-company-sl-costs-advantages-guide)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.

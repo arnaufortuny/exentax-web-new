@@ -92,6 +92,14 @@ Para não residentes, a LLC continua a ser a opção mais comum porque combina p
 
 A escolha correta depende do seu plano a 3-5 anos, não da moda do fórum do dia.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Tributação pass-through para LLC: como funciona e por que é importante](/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que)
+- [Como constituir uma LLC americana passo a passo: guia completo](/pt/blog/como-constituir-uma-llc-americana-passo-a-passo-guia)
+- [Tributação da LLC segundo a atividade económica: serviços, e-commerce, SaaS](/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->

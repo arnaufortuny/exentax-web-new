@@ -145,6 +145,18 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote34-native-v1:errores-criticos-llc-ya-constituida-de -->
+## Wie sich kritische Fehler nach der LLC-Gründung als 12-Monats-Prüf­liste statt als isolierte Vorfälle lesen lassen
+
+Kritische Fehler nach der LLC-Gründung lesen sich nützlicher als 12-Monats-Prüf­liste — gültige Registered-Agent-Adresse, aktuelle Daten zum wirtschaftlich Berechtigten, quartalsweise abgeschlossene Buchführung, nachverfolgte föderale und einzelstaatliche Einreichungen — denn als isolierte Vorfälle, auf die improvisiert reagiert wird. Die Prüf­liste ändert sich nicht von Jahr zu Jahr, nur die zu bearbeitenden Punkte bewegen sich, und eine kurze, datierte Notiz im persönlichen Ordner mit den vier Achsen macht den Stand der Position überprüfbar.
+<!-- /exentax:lote34-native-v1:errores-criticos-llc-ya-constituida-de -->
+
+<!-- exentax:lote34-native-v1-bis:errores-criticos-llc-ya-constituida-de -->
+## Warum die Prüf­liste pro Achse und nicht pro Vorfall organisiert sein sollte
+
+Die Prüf­liste organisiert sich pro Achse und nicht pro Vorfall, weil die Achsen über das Geschäfts­jahr stabil bleiben, während Vorfälle sporadisch auftreten und aus dem Kontext gerissen schwer einzuordnen sind.
+<!-- /exentax:lote34-native-v1-bis:errores-criticos-llc-ya-constituida-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -176,6 +188,14 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de -->
+## Warum kritische Fehler in einer bestehenden LLC meist behebbar sind, wenn sie früh erkannt werden
+
+Der Ausdruck "kritischer Fehler" klingt dramatisch, beschreibt im Kontext einer bereits operativen LLC jedoch meist Situationen, die behebbar bleiben, wenn sie früh erkannt und in der richtigen Reihenfolge angegangen werden. Die Reihenfolge zählt: der erste Schritt besteht darin, genau zu inventarisieren, welche Pflicht versäumt wurde (staatliche Erneuerung, föderale Informationsmeldung, Beneficial-Ownership-Meldung), der zweite besteht darin, die unterstützende Dokumentation zusammenzutragen, die hätte vorliegen müssen, und erst der dritte besteht darin, die korrigierenden Einreichungen über den zuständigen Kanal vorzunehmen.
+
+Diese Dreiteilung wirkt selbstverständlich, wird aber unter Druck häufig übersprungen. Genau das Überspringen des Inventarisierungsschritts ist es jedoch, das eine handhabbare Korrektur in ein unorganisiertes Scrambling verwandelt und unnötige Folgeprobleme erzeugt.
+<!-- /exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -229,6 +249,30 @@ Die Fehler, die wir recent years bei bereits gegründeten LLCs wiederholt sehen,
 
 **Erkennt die IRS automatisch?** Zunehmend. Cross-Check 1099/1042-S/Form 5472/CRS ist aktuell stärker automatisiert als 2020.
 
+
+
+## Selbsteinschätzung in fünfzehn Minuten
+
+Bevor wir gemeinsam tiefer einsteigen, lohnt eine ruhige Viertelstunde mit einer kurzen Liste. Sie zeigt, ob die LLC ein paar gezielte Korrekturen oder eine grundlegende Aufräumaktion braucht. Wir empfehlen, die Antworten schriftlich festzuhalten und zur ersten Beratung mitzubringen.
+
+### Banking und Belege
+
+Existiert ein dediziertes LLC-Konto, getrennt von jedem Privatkonto? Liegen für die letzten zwölf Monate vollständige Mercury- oder Wise-Auszüge bereit? Lassen sich Einnahmen den ausgestellten Rechnungen zuordnen, und Ausgaben den Lieferantenbelegen? Falls eine dieser drei Antworten Nein lautet, beginnt die Aufräumarbeit beim Banking; alles Weitere folgt darauf.
+
+### IRS-Pflichten
+
+Wurde Form 5472 plus pro-forma Form 1120 für jedes Geschäftsjahr eingereicht, in dem es eine Bewegung gab, ungleich Null? Liegt die EIN-Bestätigung als CP-575 oder 147C-Schreiben physisch oder digital vor? Wenn nur eine Frist verpasst wurde, gibt es sauberere Wege als das schlichte Ignorieren; wir prüfen den Einzelfall.
+
+### Bundesstaat und Registered Agent
+
+Ist der Annual Report des Bundesstaates für das laufende Jahr eingereicht? Ist der Vertrag mit dem Registered Agent gültig und die Rechnungsadresse aktuell? Eine *forfeited* LLC lässt sich meist reaktivieren, kostet aber Zeit und Strafen, die mit Voraussicht vermeidbar sind.
+
+### Wohnsitz und CRS
+
+Wird das Mercury- oder Wise-Konto im Wohnsitzland korrekt deklariert, wenn das CRS dies vorsieht? Stimmen Pass, Adresse und Beneficial-Owner-Daten in BOI mit der Realität überein? Adressen- oder Passwechsel öffnen ein verpflichtendes 30-Tage-Aktualisierungsfenster.
+
+Wer bei mehr als zwei Fragen ein Nein notiert, sollte nicht zögern, ein erstes Gespräch zu buchen. Es geht nicht um Schuld, sondern um eine ruhige, dokumentierte Rückkehr in die volle Compliance.
+
 <!-- exentax:execution-v2 -->
 ## Wie wir eine bereits gegründete LLC bei Exentax reparieren
 
@@ -240,6 +284,26 @@ Die Fehler, die wir recent years bei bereits gegründeten LLCs wiederholt sehen,
 
 Wenn Ihre LLC Lücken hat und Sie die realen Kosten für deren Schließung kennen wollen, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-bis -->
+## Wie sich die drei Schritte unter Zeitdruck praktisch durchführen lassen
+
+Unter Zeitdruck lassen sich die drei genannten Schritte am ruhigsten an drei aufeinanderfolgenden Tagen umsetzen: am ersten Tag das Inventar abschliessen, am zweiten Tag die unterstützenden Dokumente sammeln und sortieren, am dritten Tag die Korrektureinreichungen vorbereiten. Diese Tagesstruktur hält jeden Schritt von den anderen frei und vermeidet das gleichzeitige Bearbeiten von Stücken, die sich gegenseitig überschneiden würden.
+<!-- /exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-bis -->
+
+<!-- exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-tris -->
+## Wie sich nach abgeschlossener Korrektur eine Wiederholung verhindern lässt
+
+Sobald die Korrektur abgeschlossen ist, beugt eine kurze schriftliche Notiz mit der Chronologie des Vorfalls und den getroffenen Massnahmen einer Wiederholung wirksam vor, weil sie im Folgejahr als Referenz dient und die Erinnerung an die getroffenen Vereinbarungen wachhält.
+<!-- /exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-tris -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Jährliche LLC-Pflege: die Pflichten, die Sie nicht ignorieren dürfen](/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren)
+- [Privates Geld und LLC-Geld trennen: warum es wirklich wichtig ist](/de/blog/personliches-geld-und-llc-trennen-warum-es-wichtig-ist)
+- [Ihre LLC im Alltag betreiben: praktischer Leitfaden für Nicht-Residenten](/de/blog/llc-im-alltag-betreiben-leitfaden-fur-nicht-residenten)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

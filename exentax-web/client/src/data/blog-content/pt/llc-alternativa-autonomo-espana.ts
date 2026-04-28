@@ -149,6 +149,18 @@ A aplicação concreta de qualquer destas normas ao seu caso depende da sua resi
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote32-native-v1:llc-alternativa-autonomo-espana-pt -->
+## Como ler a comparação LLC contra autónomo espanhol como um mapeamento estável em vez de um debate de comunidade
+
+A comparação LLC contra autónomo espanhol lê-se de forma mais útil como um mapeamento estável entre o país de residência do beneficiário, o país onde se cria valor e o país dos clientes, em vez de um debate de comunidade. Este mapeamento não muda com a estação do ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+<!-- /exentax:lote32-native-v1:llc-alternativa-autonomo-espana-pt -->
+
+<!-- exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-pt -->
+## Porque a nota se organiza por eixo e não por jurisdição
+
+A nota organiza-se por eixo — residência, criação de valor, mercado cliente — e não por jurisdição, porque os eixos mantêm-se estáveis enquanto o discurso de marketing à volta de uma jurisdição muda com a estação.
+<!-- /exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -161,6 +173,14 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-pt -->
+## Porque é que comparar uma LLC e o regime espanhol de trabalhador independente exige comparar perfis operacionais e não apenas custos
+
+Comparar uma LLC dos EUA com o regime espanhol de trabalhador independente funciona melhor quando a comparação é construída em torno do perfil operacional e não em torno de uma lista de custos destacados. Dois perfis operacionais que parecem semelhantes numa descrição de superfície podem produzir resultados práticos muito diferentes quando se tomam em conta a geografia de faturação, a mistura de moedas e a composição da carteira de clientes.
+
+A forma mais limpa de tornar a comparação legível consiste em escrever o perfil operacional num parágrafo e depois mapear cada característica do perfil para um ou outro regime. Esta abordagem torna explícitas as compensações e evita a armadilha de deixar uma única característica atraente conduzir uma decisão que afeta toda a estrutura.
+<!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-pt -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
@@ -180,6 +200,18 @@ Tratamos este bloco como uma das decisões estruturais da estratégia LLC: errar
 ## Factos bancários e fiscais que convém precisar
 
 Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
+
+
+
+## Plano prático de transição do regime autónomo para a LLC
+
+Quem migra de autónomo em Espanha para uma estrutura com LLC americana ganha em organizar a passagem em três fases. Não é um interruptor: é um trimestre que se acompanha.
+
+**Fase 1 — Preparação (2 a 4 semanas).** Inventário dos contratos em curso, identificação dos clientes que aceitam facturação a partir de uma LLC americana, conversa com o assessor fiscal espanhol sobre a declaração das rendas da LLC no Modelo 100 e o Modelo 720 para contas no estrangeiro a partir dos limiares aplicáveis. Em paralelo: constituição da LLC, EIN, BOI, onboarding no Mercury e Registered Agent.
+
+**Fase 2 — Migração (1 a 2 meses).** Migrar cliente a cliente, com data de corte clara e novo contrato ou adenda. Mantém-se o regime autónomo activo até liquidar facturas EU em curso, antes de planear qualquer baixa.
+
+**Fase 3 — Estabilização.** Conciliação mensal Mercury, revisão trimestral BOI/Registered Agent/EIN e a obrigação anual 5472 com pró-forma 1120, coordenadas com o assessor espanhol para que tudo apareça de forma consistente no Modelo 100.
 
 <!-- exentax:execution-v2 -->
 ## A LLC americana é uma alternativa real ao trabalhador independente em Portugal?
@@ -251,6 +283,20 @@ Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-pt-bis -->
+## Como atualizar a comparação ano após ano sem grande esforço
+
+Para que a comparação se mantenha atualizável ano após ano sem grande esforço, vale a pena fixar o perfil operacional e os seus mapeamentos num documento curto e datado, revisto no encerramento do ano e ajustado apenas onde o perfil tenha realmente mudado.
+<!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-pt-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Autónomo em Espanha vs LLC nos EUA: comparação fiscal completa](/pt/blog/autonomo-em-espanha-vs-llc-nos-eua-comparacao-fiscal)
+- [Vantagens e desvantagens de uma LLC para não-residentes: uma visão honesta](/pt/blog/vantagens-e-desvantagens-de-uma-llc-americana-para-nao)
+- [Residente nos EUA vs não-residente: as diferenças fiscais essenciais da LLC](/pt/blog/residente-eua-vs-nao-residente-llc-as-diferencas-fiscais)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/servicos">Marcar consulta gratuita</a>.

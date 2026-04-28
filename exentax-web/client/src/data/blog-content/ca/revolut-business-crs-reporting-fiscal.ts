@@ -68,26 +68,37 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
-## Fets bancaris i fiscals que convé precisar
 
-Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.
-## Referències: fonts i normativa bancària
+<!-- exentax:legal-refs-v1 -->
+## Fonts i referències sobre normativa bancària
 
-## El teu pròxim pas amb Exentax
+La pràctica bancària descrita es basa en documentació pública i en les polítiques vigents de cada plataforma:
 
-Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.
+- **Bank Secrecy Act i <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>.** 31 U.S.C. §5318 (programes KYC/AML obligatoris per a entitats financeres), 31 CFR Part 1010 (Customer Identification Program) i 31 U.S.C. §5336 amb la FinCEN Reporting Rule de l'1 de gener de 2024 (Beneficial Ownership Information Report).
+- **FATCA i CRS.** IRC §1471–1474 (FATCA i formularis W-8/W-9), els acords intergovernamentals Model 1 entre els EUA i Espanya o Andorra, així com el Common Reporting Standard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>, al qual els EUA no s'han adherit però que sí que s'aplica a fintechs amb llicència europea (Wise Europe SA a Bèlgica, Revolut Bank UAB a Lituània).
+- **Plataformes concretes.** Termes d'ús, polítiques de privacitat i FAQ regulatòries publicades per Mercury (Choice Financial Group / Evolve Bank, FDIC), Relay (Thread Bank, FDIC), Wise Business (FinCEN-MSB als EUA; Wise Europe SA a la UE; Wise Payments Ltd. al Regne Unit), Revolut Business (Revolut Bank UAB a Lituània) i Payoneer (Payoneer Europe Ltd. a Irlanda).
+
+Aquestes referències són orientatives; cada cas bancari requereix una anàlisi individual del KYC, del país de residència i del volum operat. Per a un client resident a Catalunya, a la resta de l'Estat espanyol o a Andorra amb una LLC americana, recomanem habitualment un stack US primari (Mercury o Relay) i un node europeu secundari (Wise Business per a cobraments en EUR o Wallester per a targetes), de manera que la petjada CRS quedi controlada i cap plataforma aïllada concentri tot el risc operatiu.
+
+<!-- /exentax:legal-refs-v1 -->
+
+<!-- exentax:lote30-native-v1:revolut-business-crs-reporting-fiscal-ca -->
+## Com llegir el reporting CRS d'un compte business com un mapatge estable en lloc d'un risc obert
+
+El reporting CRS d'un compte business es llegeix de manera més útil com un mapatge estable entre la residència fiscal del beneficiari, el país on es manté el compte i l'administració fiscal que rep la informació, en lloc d'un risc obert. Aquest mapatge no canvia de trimestre en trimestre, i una nota curta i datada al dossier personal amb els tres eixos fa la posició consultable en pocs minuts en una conversa amb un assessor fiscal.
+<!-- /exentax:lote30-native-v1:revolut-business-crs-reporting-fiscal-ca -->
+
+<!-- exentax:lote30-native-v1-bis:revolut-business-crs-reporting-fiscal-ca -->
+## Per què la nota es refereix als tres eixos i no al nom del compte
+
+La nota es refereix als tres eixos — residència del beneficiari, país del compte, administració receptora — i no al nom del compte, perquè la lògica del CRS deriva d'aquests eixos i no de la marca del proveïdor del compte.
+<!-- /exentax:lote30-native-v1-bis:revolut-business-crs-reporting-fiscal-ca -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.
-
-## Quina informació concreta envia Revolut
-
-## El cas de la LLC amb compte Revolut Business
-
-Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.<!-- exentax:execution-v2 -->
+<!-- exentax:execution-v2 -->
 ## Revolut Business i CRS: què reporta a Hisenda i com es veu des de l'altre costat
 
 Revolut Business és pràctic, multidivisa i barat - i reporta sistemàticament sota el Common Reporting Standard.
@@ -106,9 +117,102 @@ Revolut Business és pràctic, multidivisa i barat - i reporta sistemàticament 
 A Exentax estructurem el stack bancari tenint en compte el que CRS/FATCA reporten.
 <!-- /exentax:execution-v2 -->
 
-## Quines entitats de Revolut hi ha i on reporten
+## El teu pròxim pas amb Exentax
 
-Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.
+A Exentax muntem i acompanyem LLCs per a no residents als EUA cada dia: tria d'estat, EIN, Operating Agreement, BOI Report quan aplica, banking amb Mercury, Relay i Wise, processament de pagaments amb Stripe i Adyen, comptabilitat mensual, Form 5472 i 1120 pro forma cada any, i coordinació amb la teva situació fiscal a Catalunya, l'Estat espanyol o Andorra. Si vols validar el teu cas concret amb números reals, reserva una sessió amb el nostre equip i et mostrem pas a pas com l'estructura encaixa en la teva situació.
+
+<!-- exentax:lote7-native-v1:revolut-business-crs-reporting-fiscal -->
+## Què mou realment el CRS entre països
+
+El CRS no envia cada línia de transacció per la xarxa. Transmet un
+cop l'any un registre definit per compte reportable: identitat del
+titular, saldo a final d'any, interessos bruts, dividends bruts i
+proveïments bruts per a comptes que tenen valors. Els moviments
+entre els teus propis comptes, la llista granular de factures i les
+notes operatives es queden al banc. L'administració fiscal
+destinatària rep un resum endreçat, no un extracte de pagaments.
+
+Això importa quan llegeixes el perfil Revolut Business, perquè la
+pregunta no és "què veu Revolut", sinó "quin registre Revolut
+lliurarà un cop l'any a la meva autoritat fiscal, i aquest registre
+coincideix amb el que jo mateix declaro".
+
+| Camp reportat per Revolut Business    | Què veu l'autoritat fiscal       |
+|----------------------------------------|----------------------------------|
+| Identitat del titular                  | Nom del soci, residència, NIF    |
+| Saldo a 31 de desembre                 | Una instantània, en moneda del   |
+|                                        | compte                            |
+| Interessos bruts (quan aplica)         | Agregat anual                    |
+| Dividends bruts (quan aplica)          | Agregat anual                    |
+| Proveïments bruts (valors)             | Agregat anual                    |
+
+Si aquestes cinc línies, llegides al costat de la teva declaració
+anual, expliquen la mateixa història, el report CRS és un no-event.
+Si divergeixen, és aquí on cal el treball de reconciliació.
+
+## Tres escenaris reals Revolut Business + CRS
+
+Una resident fiscal espanyola que operava una LLC americana
+mantenia un compte Revolut Business en EUR per a algunes factures a
+clients de la UE. El saldo de final d'any era modest i el flux de
+caixa limitat. El report CRS va encaixar de manera neta amb la
+comptabilitat de la LLC perquè la sòcia tractava Revolut com a
+compte de treball normal i no com a vehicle de tresoreria.
+
+Una agència digital amb dos socis, un a Portugal i un a Alemanya,
+operava un únic compte Revolut Business. El reporting anava
+proporcionalment als dos països d'origen segons la quota de
+beneficiari efectiu declarada, i vam reconciliar les retirades dels
+socis amb l'assignació tipus K-1 que cada soci declarava a casa.
+Cap sorpresa.
+
+Un consultor que havia estacionat breument una bestreta gran a
+Revolut Business va veure la instantània de desembre desencadenar
+una pregunta de seguiment de la seva autoritat fiscal la primavera
+següent. La correcció va ser una nota d'una pàgina amb el contracte
+que justificava la bestreta, la factura corresponent i el servei
+prestat després. La bestreta ja estava declarada, la pregunta es va
+tancar de pressa.
+
+## Errors que converteixen un report CRS calmat en un expedient sorollós
+
+- Tractar Revolut Business com a compte d'estalvi. És la instantània
+  del 31 de desembre la que alimenta el report; saldos grans aturats
+  esdevenen excuses de conversa.
+- Operar una Revolut personal i una Revolut Business sota el mateix
+  model mental. Es reporten separades i l'aparellament amb les
+  declaracions ha de ser separat.
+- Oblidar el canvi de residència. Si la residència fiscal del soci
+  canvia a mig any, el perfil CRS del banc s'ha de moure a temps;
+  altrament, el report va al país equivocat.
+- Ignorar la revisió anual lleugera que fa Revolut. Una breu
+  actualització proactiva sobre l'activitat costa menys que una
+  pregunta reactiva més endavant.
+
+## Checklist de reconciliació amb la teva declaració
+
+- Identificar el saldo de tancament en moneda del compte a 31 de
+  desembre.
+- Convertir al tipus oficial de final d'any utilitzat al teu país.
+- Afegir els interessos rebuts durant l'any, si n'hi ha.
+- Confirmar que el número apareix a la teva declaració anual
+  (Modelo 720/721 a Espanya quan aplica, o l'equivalent local).
+- Guardar les captures de suport a la carpeta de compliance de la
+  LLC.
+
+Tractem el CRS com una postal anual calmada, no com un mandat de
+registre. Perfils alineats i declaracions alineades fan que la
+postal sigui la part més lleugera de l'any.
+
+<!-- /exentax:lote7-native-v1:revolut-business-crs-reporting-fiscal -->
+
+<!-- exentax:cross-refs-v1 -->
+### Per continuar la lectura
+
+- [CRS per a residents a Espanya i Llatinoamèrica: implicacions reals](/ca/blog/crs-per-a-residents-a-espanya-i-llatinoamerica-implicacions)
+- [Wise Business i CRS: què es reporta a Hisenda](/ca/blog/wise-business-i-crs-que-es-reporta-a-hisenda)
+- [Visa i Mastercard: què veu Hisenda dels pagaments amb targeta](/ca/blog/visa-mastercard-reporting-que-veu-hisenda-dels-pagaments-amb)
+<!-- /exentax:cross-refs-v1 -->
 
 ## El cas específic del resident fiscal a Catalunya, l'Estat espanyol i Andorra
 

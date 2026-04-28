@@ -127,6 +127,14 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [IRS 1120 e 5472: o que realmente são e quando se aplicam](/pt/blog/irs-1120-e-5472-o-que-realmente-sao-e-quando-se-aplicam)
+- [Form 5472: o que é, quem deve apresentá-lo e como cumprir](/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir)
+- [Tributação da LLC por país de residência: o que se paga e onde](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

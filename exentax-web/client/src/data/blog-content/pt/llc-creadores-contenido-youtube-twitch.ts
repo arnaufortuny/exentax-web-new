@@ -104,6 +104,12 @@ Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-pt -->
+## Como ler o perfil LLC de um criador de conteúdo como um mapeamento estável entre plataformas e receitas
+
+O perfil LLC de um criador de conteúdo no YouTube ou Twitch lê-se de forma mais útil como um mapeamento estável entre plataformas e tipos de receita — publicidade, memberships, tips, patrocínios — do que como uma improvisação mensal. Essa associação não muda de trimestre em trimestre, e uma nota curta no ficheiro da LLC com a plataforma e o tipo de receita correspondente torna a configuração operacional consultável a qualquer momento.
+<!-- /exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -149,6 +155,14 @@ Na Exentax montamos o setup criador completo (LLC + EIN + Mercury + W-8BEN-E + m
 ## Montamos para si sem perder um fim de semana
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [LLC americana para desenvolvedores de software e fundadores SaaS](/pt/blog/llc-americana-para-desenvolvedores-de-software-e-fundadores)
+- [LLC americana para agências de marketing digital: estrutura e escala](/pt/blog/llc-americana-para-agencias-de-marketing-digital-estrutura)
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

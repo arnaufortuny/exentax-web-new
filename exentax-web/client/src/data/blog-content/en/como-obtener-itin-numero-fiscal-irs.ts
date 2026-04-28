@@ -107,6 +107,14 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Spain–US tax treaty.** The treaty (BOE 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
+<!-- exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-en -->
+## How to read the ITIN application as a stable, documented procedure rather than as a one-time event
+
+The ITIN application reads more calmly when it's treated as a stable, documented procedure than as a one-time event. The required pieces — a valid Form W-7, a federal tax filing reason that triggers the need for an ITIN, and an identity document accepted by the IRS — define a discrete process that doesn't change from one year to the next.
+
+A short, dated note in the personal folder that records the version of Form W-7 used, the federal filing reason cited, the identity document submitted and the channel through which it was sent makes the application reviewable in a few minutes if the IRS comes back with a question or a deficiency notice. The same note also makes it much easier to handle the renewal cycle on time, instead of starting from scratch when the ITIN expires.
+<!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -169,6 +177,14 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [EIN vs ITIN vs SSN: the US tax identification numbers explained](/en/blog/ein-vs-itin-vs-ssn-the-us-tax-identification-numbers)
+- [EIN: what is your LLC's tax number and how to get it step by step](/en/blog/ein-tax-number-for-your-llc-how-to-get-it)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

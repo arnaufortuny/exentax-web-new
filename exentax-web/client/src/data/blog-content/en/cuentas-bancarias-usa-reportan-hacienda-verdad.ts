@@ -120,6 +120,22 @@ Fintech and CRS information evolves; here is the current state:
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
+<!-- exentax:lote21-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-en -->
+## How to read the question of US-bank reporting as a perimeter exercise rather than a yes-or-no answer
+
+The question of whether US bank accounts report to your home tax authority reads more usefully when it's treated as a perimeter exercise rather than a yes-or-no answer. The reporting depends on which bank, which type of account, which beneficial owner residency and which year — and each of these dimensions narrows or widens the perimeter independently.
+
+Reading the question without that perimeter in mind tends to produce conclusions that are either too reassuring (assuming nothing is reported) or too alarming (assuming everything is). A perimeter view replaces both extremes with a small map that survives the first real filing.
+
+## How to anchor the perimeter analysis in the actual operating profile
+
+The perimeter analysis anchors more usefully in the actual operating profile when each dimension is filled in with the concrete value of the case: the specific bank, the specific account type, the specific residency and the specific year. With those four values fixed, the question stops being a general debate and becomes a concrete answer.
+
+## How to capture the perimeter result in the LLC documentation
+
+The perimeter result captures more durably in the LLC documentation as a short, dated note that lists the four values and the conclusion they yield. This note becomes the reference whenever any of the four values shifts in a later year, so the perimeter doesn't need to be re-evaluated from scratch.
+<!-- /exentax:lote21-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-en -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
 
@@ -149,6 +165,12 @@ The real discretion of US accounts is not a myth nor an absolute promise: it is 
 
 At Exentax we design the Mercury + Wise operating with coherent flows, clean Modelo 720 reporting and documentation ready for any future request, leveraging the asymmetry without turning it into a declarative omission.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-en -->
+## How to read the question of US bank accounts and reporting to Spanish tax authorities as a stable jurisdictional mapping rather than as a worry
+
+The question of US bank accounts and reporting to Spanish tax authorities reads more usefully when it's treated as a stable jurisdictional mapping between the country of the account, the country of residence of the beneficial owner and the framework that applies between them, than as a recurring worry.
+<!-- /exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-en -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
@@ -205,6 +227,28 @@ To see how this data crosses with Modelo 720 filing, continue with <a href="/en/
   ### What FATCA actually transmits: technical reality vs. myth
 
   The FATCA reporting obligation arises under **IRC §§1471–1474** and Treasury Regulations **§1.1471-1 to §1.1474-7** (TD 9610 of 17/01/2013), implemented worldwide via Intergovernmental Agreements. For UK FFIs, the **UK-US IGA of 12/09/2012** (Model 1) routes the data through **HMRC** annually under **regulations 2014/1506**. The transmitted data set is exactly defined: account holder identification, balance at year-end, gross interest, dividends, gross proceeds. It does **not** include transaction-level history — that information remains accessible only via specific exchange-of-information requests under **Article 27** of the bilateral tax treaty.
+
+<!-- exentax:lote10-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad -->
+## A practical closing note
+
+The honest answer to "do US bank accounts get reported?" depends
+less on geography and more on the actual banking partner, the
+account type and the way the LLC is structured. Once those three
+variables are clarified with a knowledgeable advisor, the
+question loses most of its emotional weight: the member knows
+exactly what is reported, to whom, and on which schedule. From
+that point onward, the file becomes a simple, well-documented
+yearly routine rather than a recurring source of doubt.
+
+<!-- /exentax:lote10-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [DAC8 and crypto: automatic tax reporting of crypto-assets in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+- [Wise, IBAN and LLC: what actually gets reported and what does not](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+- [Visa and Mastercard: what tax authorities see from your card spend](/en/blog/visa-mastercard-reporting-what-tax-authorities-see-from-card)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

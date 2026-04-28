@@ -136,6 +136,14 @@ Cet article s'appuie sur la réglementation en vigueur. Sources principales pour
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Imposition de la LLC selon l'activité économique : services, e-commerce, SaaS](/fr/blog/imposition-de-la-llc-selon-lactivite-economique-services)
+- [Fiscalité LLC par pays de résidence : ce que vous payez et où](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+- [Déductions fiscales pour votre LLC : ce que vous pouvez déduire](/fr/blog/deductions-fiscales-pour-votre-llc-ce-que-vous-pouvez)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 

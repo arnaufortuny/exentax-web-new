@@ -88,6 +88,30 @@ Want to analyze how your activity is taxed exactly and design the most efficient
 
 To keep going on this thread, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">Why Spanish freelancers are leaving self-employment for a US LLC</a> fills in a nuance this guide only touched on.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Pass-through taxation for LLCs: how it works and why it matters](/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it)
+- [US LLC taxation by country of residence: what you pay where](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+- [Tax deductions for your LLC: complete guide](/en/blog/tax-deductions-for-your-llc-complete-guide)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote23-native-v1:tributacion-llc-segun-actividad-economica-en -->
+## How to read the link between activity and LLC taxation as a stable mapping rather than as an open question
+
+The link between economic activity and LLC taxation reads more usefully when it's treated as a stable mapping rather than as an open question revisited each year. The activity dictates which categories of expenses are recurring, which sources of income require specific treatment, and which reporting obligations apply on a recurring basis — and once that mapping is built, the annual filing collapses into looking up the case rather than re-deriving it.
+
+## How to capture the activity-to-treatment mapping in a short written note
+
+The mapping captures more durably in a short, dated note that lists the activity, its recurring expense categories, its income sources and the reporting obligations that follow. This note becomes the reference whenever the activity expands, contracts or shifts focus.
+<!-- /exentax:lote23-native-v1:tributacion-llc-segun-actividad-economica-en -->
+
+<!-- exentax:lote36-native-v1:tributacion-llc-segun-actividad-economica-en -->
+## How to read LLC taxation by economic activity as a stable mapping of activity types and treatment expectations rather than as a single global rule
+
+LLC taxation by economic activity reads more usefully as a stable mapping between the activity type — services, digital products, dropshipping, intellectual property — and the treatment expected in the United States and in the residence country, than as a single global rule.
+<!-- /exentax:lote36-native-v1:tributacion-llc-segun-actividad-economica-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

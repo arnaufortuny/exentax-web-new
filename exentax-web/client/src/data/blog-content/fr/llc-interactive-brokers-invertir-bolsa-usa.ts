@@ -133,6 +133,20 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.
 
+<!-- exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-fr -->
+## Comment lire la configuration LLC + Interactive Brokers comme une cartographie opérationnelle stable plutôt que comme une combinaison opportuniste
+
+La configuration LLC + Interactive Brokers se lit plus utilement comme une cartographie opérationnelle stable entre le titulaire du compte de courtage, le pays de résidence du bénéficiaire et le type d'activité hébergée dans la LLC, plutôt que comme une combinaison opportuniste. Cette cartographie ne change pas avec la direction du marché.
+
+Une courte note dans le dossier LLC qui consigne le titulaire du compte, la date d'ouverture et l'activité hébergée transforme la configuration en quelque chose de relisible en quelques minutes par le membre.
+<!-- /exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-fr -->
+
+<!-- exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-fr -->
+## Comment relire la configuration sans repartir de zéro à chaque entretien avec un conseiller
+
+Une note courte et datée, qui consigne le titulaire du compte, le pays de résidence du bénéficiaire et le type d'activité hébergée dans la LLC, suffit à relire la configuration en quelques minutes lors d'un entretien avec un conseiller fiscal, sans avoir besoin de la reconstruire de mémoire ni de rouvrir l'ensemble du dossier.
+<!-- /exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -188,6 +202,14 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 ### Note éditoriale
 
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+- [Exit Tax en Espagne : crypto, LLC et investisseurs Interactive Brokers](/fr/blog/exit-tax-espagne-llc-crypto-interactive-brokers)
+- [Fiscalité LLC par pays de résidence : ce que vous payez où vous vivez](/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

@@ -77,6 +77,22 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote24-native-v1:llc-agencias-marketing-digital-de -->
+## Wie sich die LLC-Eignung für Digital-Marketing-Agenturen als Profilfrage statt als universelle Empfehlung lesen lässt
+
+Die LLC-Eignung für Digital-Marketing-Agenturen liest sich am ehrlichsten als Profilfrage und nicht als universelle Empfehlung. Die Eignung hängt vom Modell der Dienstleistung (Retainer, Projekt, Performance), der geografischen Verteilung der Kunden und der Frequenz der internationalen Auszahlungen ab — und diese drei Variablen erklären die Spannweite der Antworten weit besser als jede pauschale Empfehlung.
+
+## Wie sich die Eignungsprüfung schriftlich verankern lässt
+
+Die Eignungsprüfung verankert sich schriftlich in einer kurzen, datierten Notiz, die die drei Variablen und die daraus folgende Schlussfolgerung auflistet, sodass die Eignungsdiskussion nicht bei jeder neuen Auftragsänderung neu eröffnet werden muss.
+<!-- /exentax:lote24-native-v1:llc-agencias-marketing-digital-de -->
+
+<!-- exentax:lote30-native-v1:llc-agencias-marketing-digital-de -->
+## Wie sich die LLC für Digital-Marketing-Agenturen als stabile operative Karte statt als Kostenwahl lesen lässt
+
+Die LLC für Digital-Marketing-Agenturen liest sich nützlicher als stabile operative Karte zwischen den US-Kunden, dem wirtschaftlich Berechtigten und dem Land der Wertschöpfung denn als Kostenwahl. Diese Karte ändert sich nicht von Quartal zu Quartal, und eine kurze Notiz im Agentur­ordner mit den drei Achsen macht die Position überprüfbar.
+<!-- /exentax:lote30-native-v1:llc-agencias-marketing-digital-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -147,6 +163,34 @@ Jede steuerliche Situation hängt von Ihrer Ansässigkeit, der ausgeübten Täti
 ### Redaktioneller Hinweis
 
 Dieser Artikel wird jährlich an die regulatorischen Änderungen angepasst, die die behandelten Strukturen betreffen. Wenn Sie einen veralteten Verweis entdecken, schreiben Sie uns, und wir werden ihn im nächsten redaktionellen Zyklus überarbeiten; wir halten das Veröffentlichungsdatum oben in jedem Beitrag sichtbar, um volle Transparenz zu gewährleisten.
+
+
+<!-- exentax:lote13-native-v1:llc-agencias-marketing-digital -->
+## Welche LLC-Konfiguration zu einer Marketing-Agentur passt
+
+Marketing-Agenturen haben drei Eigenschaften, die sie für die
+LLC besonders geeignet machen: internationale Kundenstruktur,
+projektbasierte Abrechnung und ein hoher Anteil dokumentierter
+Aufwendungen. Das Setup profitiert von einer klaren Trennung
+zwischen Projekteinnahmen und wiederkehrenden Retainer-Zahlungen
+in der Buchhaltung — diese Differenzierung erleichtert sowohl
+das jährliche Reporting als auch die strategische Steuerung der
+Agentur über die Zeit.
+<!-- /exentax:lote13-native-v1:llc-agencias-marketing-digital -->
+
+<!-- exentax:lote24-native-v1:llc-agencias-marketing-digital-de-bis -->
+## Wie sich die jährliche Überprüfung der Eignung ohne erneute Grundsatzdebatte halten lässt
+
+Die jährliche Überprüfung der Eignung hält sich ohne erneute Grundsatzdebatte, wenn sie strikt an die festgehaltenen drei Variablen — Dienstleistungsmodell, Kundenverteilung, Frequenz internationaler Auszahlungen — gebunden bleibt und nur dort wieder eröffnet wird, wo eine real abgewichen ist.
+<!-- /exentax:lote24-native-v1:llc-agencias-marketing-digital-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Zahlungs-Gateways für Ihre LLC: Stripe, PayPal und DoDo](/de/blog/zahlungs-gateways-fur-ihre-llc-stripe-paypal-und-dodo)
+- [Ihr digitales Unternehmen mit einer US-LLC skalieren](/de/blog/ihr-digitales-unternehmen-mit-einer-us-llc-skalieren)
+- [Steuerliche Abzüge für Ihre LLC: was Sie abziehen können](/de/blog/steuerliche-abzuge-fur-ihre-llc-was-sie-abziehen-konnen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

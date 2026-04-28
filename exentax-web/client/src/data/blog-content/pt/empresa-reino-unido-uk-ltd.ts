@@ -245,6 +245,14 @@ Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">p�
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Por que abrir uma LLC americana em 2026: 5 pilares da vantagem](/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da)
+- [Tributação da LLC por país de residência: o que se paga onde se vive](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->

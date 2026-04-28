@@ -134,6 +134,20 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Per què obrir una empresa a Estònia rarament s'ajusta a un perfil operatiu real](/ca/blog/per-que-no-obrir-una-empresa-a-estonia-la-llc-americana)
+- [Dissenyar una estructura fiscal internacional sòlida pas a pas](/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas)
+- [LLC als Estats Units: guia completa 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote33-native-v1:fiscalidad-estonia-como-funciona-ca -->
+## Com llegir la qüestió de la fiscalitat estoniana com una lectura estructural estable en lloc d'un nombre aïllat
+
+La qüestió de la fiscalitat estoniana es llegeix de manera més útil com una lectura estable entre el vehicle, el país de residència del beneficiari i el tractament dels resultats distribuïts i no distribuïts, en lloc d'un nombre aïllat de l'any.
+<!-- /exentax:lote33-native-v1:fiscalidad-estonia-como-funciona-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

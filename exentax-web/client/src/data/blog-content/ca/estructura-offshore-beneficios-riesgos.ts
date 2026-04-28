@@ -119,6 +119,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / OCDE.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote31-native-v1:estructura-offshore-beneficios-riesgos-ca -->
+## Com llegir la qüestió d'una estructura offshore com un mapa de perfil estable en lloc d'un discurs de marca
+
+La qüestió d'una estructura offshore es llegeix de manera més útil com un mapa de perfil estable entre tres eixos: residència, creació de valor, mercat.
+<!-- /exentax:lote31-native-v1:estructura-offshore-beneficios-riesgos-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -138,6 +144,14 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Empresa a Hong Kong: la realitat offshore el 2026](/ca/blog/empresa-a-hong-kong-la-realitat-offshore-el-2026)
+- [Empresa a Panamà: fiscalitat i residència 2026](/ca/blog/empresa-a-panama-fiscalitat-i-residencia-2026)
+- [Dubai/UAE: el mite dels zero impostos](/ca/blog/dubai-uae-el-mite-dels-zero-impostos)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## "Offshore" actualment: el que ja no significa el que penses

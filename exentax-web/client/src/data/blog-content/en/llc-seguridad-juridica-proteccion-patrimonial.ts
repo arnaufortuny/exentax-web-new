@@ -189,6 +189,14 @@ Prefer a calendar slot? <a href="/en/book">Book a free session</a> and we'll rev
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Operating Agreement: what it is and why your LLC needs one](/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one)
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 We compare New Mexico, Wyoming, Delaware and Florida against your real case — no trendy-state pitch. <a href="/en/services/llc-wyoming">Compare my case with an advisor</a>.
 <!-- /exentax:cta-v1 -->

@@ -122,6 +122,12 @@ As comparações e dados quantitativos sobre as jurisdições citadas baseiam-se
 - **Espanha.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, arts. 8-9 sobre residência e art. 100 sobre TFI) e regime especial de impatriados (art. 93 LIRPF, "Lei Beckham").
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilar Dois (GloBE) e Modelo de Convenção OCDE com Comentários.
 
+<!-- exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-pt -->
+## Como ler uma mudança de residência a meio do ano por um sócio da LLC como um mapeamento temporal estável em vez de uma confusão
+
+Uma mudança de residência a meio do ano por um sócio da LLC lê-se de forma mais útil como um mapeamento temporal estável entre as datas da mudança, as regras de residência de cada país envolvido e a parte correspondente do resultado da LLC para o ano, em vez de uma confusão. Uma nota curta e datada no ficheiro pessoal, que registe as datas relevantes e a regra invocada para cada lado, torna a posição relevável em poucos minutos numa conversa com um consultor.
+<!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -146,6 +152,12 @@ Mudar a 1 de Janeiro é limpo. Fazê-lo a 17 de Junho com uma LLC activa abre ci
 
 Na Exentax planeamos mudanças de residência a meio do ano com LLC activa: calendário fiscal óptimo, fluxos pré-mudança e documentação que aguenta sob ambas as inspecções.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-pt -->
+## Porque é que uma mudança de residência a meio do ano gera mais atrito do que uma mudança no fim do ano
+
+Uma mudança de residência a meio do ano produz mais atrito administrativo do que uma mudança alinhada com a fronteira do ano civil, e a razão é mecânica e não concetual. Cada país espera receber uma imagem coerente daquilo que era imputável ao membro da LLC enquanto este foi residente fiscal seu, e quanto mais próxima a mudança estiver de uma fronteira anual, mais fácil é montar essas duas imagens de forma independente. Quando a mudança ocorre a meio do ano, as mesmas rubricas de rendimento têm de ser repartidas, o momento das distribuições tem de ser examinado e as regras de desempate da convenção podem ter de ser aplicadas aos dias intermédios. Nenhum destes passos é, por si só, invulgar. O que faz a diferença é preparar a documentação com antecedência: um retrato antes da partida, um saldo de abertura claro depois da chegada e um registo escrito do dia usado como data de corte. Com estas três peças disponíveis, ambas as declarações podem ser submetidas sem ter de reconstituir o ano depois.
+<!-- /exentax:lote15-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-pt -->
 
 <!-- exentax:cross-refs-v1 -->
 ### Leituras adicionais

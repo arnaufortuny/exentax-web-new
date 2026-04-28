@@ -77,6 +77,12 @@ O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe
 
 **O que acontece se perder uma fatura?** A AEAT admite reconstrução via extrato bancário + certificado do fornecedor + declaração sob compromisso de honra. O processo é trabalhoso e rejeita-se com frequência. Melhor: ficheiro digital (Drive, Notion, gestor) atualizado mensalmente.
 
+<!-- exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-pt -->
+## Como ler as despesas dedutíveis dos trabalhadores independentes como um mapeamento anual estável em vez de um debate recorrente
+
+As despesas dedutíveis dos trabalhadores independentes leem-se de forma mais útil como um mapeamento anual estável entre o tipo de atividade, o tipo de despesa e a regra de dedutibilidade aplicável.
+<!-- /exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -134,6 +140,34 @@ Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+### Como a proporção de escritório em casa se documenta sem surpresas
+
+A dedução dos consumos de escritório em casa (electricidade, água, gás, internet) exige que o autónomo tenha notificado a AEAT, via Modelo 036/037, a percentagem da habitação afecta à actividade profissional. Essa percentagem tem de ser defensável: na prática, recomendamos basear-se num esboço simples da habitação que indique as divisões usadas exclusivamente para a actividade (e a proporção das divisões partilhadas usadas para a mesma), com data e nota no dossier. Uma vez registada essa percentagem, a parte dedutível do consumo é de 30% da percentagem da habitação afecta à actividade, aplicada a cada factura. O erro mais frequente que vemos é o dos autónomos que deduzem 30% da factura completa (em vez de 30% da parte proporcional), o que produz um ajuste de rotina quando a AEAT revê o ano. A abordagem limpa consiste em registar a percentagem por escrito, documentar as divisões com um esboço breve e aplicar a fórmula de forma consistente nos quatro trimestres.
+
+### Três conversas de dedução que temos em cada revisão anual
+
+A primeira conversa é sobre formação: a regra permite a dedução de formações directamente ligadas à actividade, mas na prática a AEAT olha com atenção para a ligação entre o conteúdo do curso e os códigos da actividade registada. Manter o programa do curso e uma nota de um parágrafo a explicar como a formação se aplica ao trabalho de clientes actual ou previsto torna a dedução defensável. A segunda conversa é sobre despesas de veículo: para a maioria dos freelancers sem uso profissional exclusivo do veículo, a resposta mais segura é limitar as deduções a deslocações profissionais documentadas com quilometragem registada, em vez de tentar deduzir combustível geral e manutenção, que a AEAT ajusta rotineiramente. A terceira conversa é sobre amortização de equipamento: portáteis, monitores e ferramentas de trabalho semelhantes acima de um pequeno valor deduzem-se via tabelas de amortização, não como despesa de uma vez, e manter a factura de compra original com número de série é o trilho de papel mais limpo quando um item é mais tarde vendido ou abatido.
+<!-- /exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+### Uma checklist prática de deduções antes de cada fecho trimestral
+
+Antes de cada apresentação trimestral do Modelo 130, percorremos uma lista de quatro passos com o autónomo. Passo um: verificar que cada factura de fornecedor do trimestre está no dossier com identificação completa (nome do fornecedor, NIF, data, montante, detalhe de IVA e, quando aplicável, a ligação à actividade numa linha). Passo dois: separar estritamente despesas pessoais de despesas profissionais para qualquer meio de pagamento misto (um cartão de crédito utilizado para ambos é a fonte de confusão mais frequente neste passo), e marcar cada despesa como pessoal ou profissional na contabilidade. Passo três: verificar que a proporção de teletrabalho dos consumos foi aplicada correctamente, que a percentagem registada no Modelo 036 não mudou e que nenhuma anomalia sazonal inflacionou uma factura isolada (por exemplo uma reparação pontual que não deveria ser deduzida). Passo quatro: rever o resultado trimestral de rendimento líquido face à projecção acumulada e confirmar com o autónomo se alguma decisão de calendário (antecipar uma despesa, adiar uma factura) está em cima da mesa para o mês de fecho antes do final do trimestre.
+
+### Quando a AEAT revê um trimestre e o que ter pronto
+
+A AEAT pode pedir documentação de suporte para um resultado de Modelo 130 durante os quatro anos que se seguem à apresentação, sendo a janela de revisão mais frequente o ano seguinte à declaração anual de IRPF. O kit documental que mantemos pronto por trimestre é pequeno e previsível: o resumo de receitas por cliente e data, o livro de despesas com categoria, fornecedor, data e montante, as cópias (ou digitalizações) das facturas para qualquer despesa acima de um pequeno valor, o extracto bancário que cobre os movimentos de caixa, e uma nota de uma página a explicar qualquer linha invulgar. Quando o pedido chega, o tempo de resposta é curto (tipicamente dez dias úteis), pelo que o custo de ter o kit pronto é muito inferior ao custo de o reconstruir de raiz sob pressão de prazo. Vimos muitos clientes absorver uma revisão de rotina sem fricção simplesmente porque o kit era mantido actualizado mês após mês; vimos também o oposto, em que uma factura em falta ou uma linha bancária não conciliada abriu a porta a uma revisão mais ampla do ano.
+<!-- /exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Escalões do IRPF 2026 em Espanha explicados sem ruído](/pt/blog/escaloes-irpf-2026-explicacao-espanha)
+- [Quota de autónomo em Espanha 2026: o que paga realmente todos os meses](/pt/blog/quota-autonomo-espanha-2026-escaloes)
+- [Despesas dedutíveis para a sua LLC americana: um guia completo e honesto](/pt/blog/deducoes-fiscais-para-sua-llc-o-que-pode-deduzir-e-como)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.

@@ -27,9 +27,6 @@ If your activity is 100% digital, international and with mostly non-Spanish clie
 
 Detailed regulation is in Spain's IRPF Regulation (RD 439/2007) and in the annual modulos Order published every November in the <a href="https://www.boe.es/">BOE</a>. To verify your IAE epigraph, consult the <a href="https://sede.agenciatributaria.gob.es/">Tax Agency portal</a> before deciding.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/en/book">Free consultation, no strings attached</a>
-<!-- /exentax:calc-cta-v1 -->
 
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
 
@@ -84,6 +81,45 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+### How a clean transition from modulos to direct estimation actually unfolds
+
+The waiver is filed via Form 036 in December for it to take effect from January of the following year, and once filed it binds the freelancer for at least three years before they can return to modulos. The first practical task in January is to set up the bookkeeping rhythm that direct estimation requires: a separate operating account (in our practice, a dedicated business account avoids most reconciliation pain), invoices and supplier bills filed by month with electronic backup, and a quarterly Form 130 that takes net income (revenue minus deductible expenses) as the base. The second practical task is reviewing the deduction map at the start of the year so that the new visibility is used in full: software, training, advisory fees, work-from-home proportion of utilities, and any other professional expense that was simply not relevant under modulos becomes a calculable lever. The third practical task is to schedule a quarterly fifteen-minute review of the year-to-date IRPF projection so that any tier change or threshold approach is detected before it becomes a year-end surprise.
+
+### When neither modulos nor direct estimation feels right anymore
+
+There is a recurring profile in our practice for whom both regimes feel cramped: a freelancer with most clients abroad, recurring monthly billing in foreign currency, and a digital service catalogue that fits awkwardly in the IRPF activity codes designed for local trades. In that profile, modulos is unavailable (excluded by activity) and direct estimation feels like paying twice (RETA quota plus full IRPF on net) for a structure not designed for cross-border digital flows. The conversation we usually open at that point compares two structural alternatives: a Spanish SL (with its own corporation tax and dividend layer, valid when local presence is needed) and a US LLC owned from Spain (with its own pass-through mechanics and reporting load, valid when most clients and treasury sit outside Spain). Neither is a shortcut; both are decisions with their own three-year horizon and their own setup cost, and that is precisely why the comparison deserves a calm hour rather than a quick search engine session.
+<!-- /exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:lote28-native-v1:modulos-vs-estimacion-directa-2026-en -->
+## How to read the choice between Módulos and Estimación Directa as a profile question rather than a general debate
+
+The choice between Módulos and Estimación Directa reads more usefully when it's treated as a profile question — what's the actual relationship between income and deductible expenses for this specific activity — than as a general debate. The answer doesn't depend on what's most common in the sector, but on the ratio that this particular self-employed person can document for the year in question.
+<!-- /exentax:lote28-native-v1:modulos-vs-estimacion-directa-2026-en -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/en/book">Free consultation, no strings attached</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+### A side-by-side decision table we share with autónomos
+
+We rarely recommend modulos versus direct estimation in the abstract: the answer depends on the activity profile and on the income predictability. The decision table we share with clients has four columns. First column: activity sector (modulos availability is set by activity code; some digital and consulting profiles are excluded by definition). Second column: income predictability (modulos give the same fixed quarterly bill regardless of actual income, which protects upside but punishes weak years). Third column: deductible-expense intensity (direct estimation rewards high-expense profiles because the IRPF base is net; modulos ignore expenses, which favours low-expense activities). Fourth column: the multi-year discipline (changing regimes locks in the new choice for at least three years, so the decision should be projected against a three-year horizon, not a single year). The clean recommendation comes from filling the table with real numbers and reading the result, not from a one-line rule.
+
+### Common pitfalls when changing regime
+
+The first pitfall is changing regime mid-year by mistake (e.g., crossing the activity-based exclusion threshold without noticing); the AEAT will reconcile this at the year-end review and the result is rarely friendly. The clean approach is to verify the activity-based eligibility at each annual closing and to register any anticipated change via Form 036 in December for the following year. The second pitfall is going from modulos to direct estimation without preparing the bookkeeping rhythm: the autónomo finds themselves in March with no expense ledger, no quarterly Form 130 file and no reliable net-income figure. The clean approach is to set up the bookkeeping in the first week of January, ideally with a dedicated business account in place from day one. The third pitfall is going from direct estimation to modulos thinking it will simplify life: the simplification is real for some profiles but the loss of expense visibility is also real, and once the regime is locked in for three years it is awkward to undo. The clean approach is to project both regimes for the next three years before the December filing.
+<!-- /exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Self-employed quota in Spain 2026: what you actually pay each month](/en/blog/spain-self-employed-quota-2026-tiers-explained)
+- [Deductible expenses for Spanish freelancers in 2026: a clear guide](/en/blog/deductible-expenses-self-employed-spain-2026)
+- [Why Spanish freelancers are quietly leaving the autónomo regime](/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.

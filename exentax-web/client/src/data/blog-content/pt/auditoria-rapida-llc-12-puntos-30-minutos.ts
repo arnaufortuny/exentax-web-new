@@ -109,6 +109,12 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam - falhar num deles desfaz o resto.
 
+<!-- exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-pt -->
+## Como ler a auditoria rápida da LLC em 12 pontos como um check-up recorrente em vez de um exercício pontual
+
+A auditoria rápida da LLC em 12 pontos lê-se de forma mais útil como um check-up recorrente repetido a cada trimestre, em vez de um exercício pontual. Os 12 pontos não mudam de uma sessão para outra; apenas os itens que pedem atenção se movem, e uma nota curta e datada no ficheiro da LLC permite que a revisão seguinte retome exatamente onde a anterior parou.
+<!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -188,6 +194,14 @@ Uma auditoria útil não procura culpados: arruma a LLC em menos de trinta minut
 
 Para aplicar o mesmo guião agora, abra a <strong>calculadora Exentax</strong> ou reserve trinta minutos: devolvemos o relatório com prioridades e custo real de regularização, sem compromisso.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Tenho uma LLC nos EUA, estou a geri-la bem? Checklist real](/pt/blog/tenho-uma-llc-estou-a-gerir-bem-checklist-real)
+- [Erros críticos se já tem uma LLC americana e ninguém te explicou isto](/pt/blog/erros-criticos-se-ja-tens-uma-llc-e-ninguem-tas-explicou)
+- [7 problemas reais da LLC e como evitá-los: lições de clientes reais](/pt/blog/problemas-comuns-da-llc-e-como-evita-los-licoes-de-clientes)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

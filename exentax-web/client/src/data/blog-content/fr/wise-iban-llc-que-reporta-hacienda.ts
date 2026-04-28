@@ -108,6 +108,22 @@ La conclusion raisonnable n'est pas "Wise est mauvais" ni "la LLC est dangereuse
 
 Chez Exentax, nous travaillons précisément sur cette frontière: structurer la <a href="/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026">LLC américaine</a>, choisir <a href="/fr/blog/banques-traditionnelles-vs-fintech-pour-votre-llc-ou-ouvrir">quelle banque ou fintech</a> a du sens en compte principal et laquelle en compte secondaire, anticiper ce qui sera déclaré via <a href="/fr/blog/crs-pour-residents-en-espagne-et-latam-implications-reelles">CRS</a> vers votre administration nationale, et concevoir l'ensemble pour que la pièce Wise (ou <a href="/fr/blog/revolut-business-et-crs-ce-qui-est-declare-a-votre-fisc">Revolut Business</a>, ou toute autre) s'intègre sans surprise. Nous le détaillons dans <a href="/fr/blog/conception-dune-structure-fiscale-internationale-solide">Conception d'une structure fiscale internationale solide</a>.
 
+<!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-fr -->
+## Pourquoi l'IBAN d'un compte rattaché à une LLC mérite une fiche de référence dédiée
+
+Un IBAN rattaché à une LLC mérite une fiche de référence dédiée, distincte des autres documents bancaires, parce qu'il est l'élément qui apparaît le plus souvent dans les rapprochements et les contrôles transfrontaliers. La fiche n'a pas besoin d'être complexe : elle indique le titulaire exact du compte, la juridiction d'émission de l'IBAN, le rôle du compte dans le stack bancaire et la date d'ouverture. Ces quatre informations suffisent à répondre rapidement à la grande majorité des questions qui peuvent surgir.
+
+Le bénéfice de cette fiche apparaît surtout lorsqu'une administration demande une clarification : au lieu de reconstituer l'information à partir de plusieurs sources, on transmet une fiche déjà cohérente et auto-portée, ce qui referme la conversation rapidement.
+<!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-fr -->
+
+<!-- exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-fr -->
+## Comment lire la question de ce que reporte un IBAN Wise détenu par une LLC comme un mapping stable plutôt que comme une incertitude récurrente
+
+La question de ce que reporte un IBAN Wise détenu par une LLC à l'administration fiscale espagnole se lit plus sereinement comme un mapping stable entre le type de compte, son titulaire et le pays dont l'autorité alimente le canal d'échange, que comme une incertitude récurrente. Ce qui est reporté et à qui ne change pas d'un mois à l'autre.
+
+Une courte note dans le dossier LLC qui consigne le type de compte ouvert chez Wise, le titulaire juridique, le pays de l'IBAN et le canal d'échange qui s'y applique rend ce même mapping relisible en quelques minutes, au lieu de devoir le reconstruire de mémoire chaque fois que la question revient lors d'un contrôle ou d'un rendez-vous.
+<!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -171,6 +187,14 @@ Chez Exentax nous structurons Wise selon besoin et déclarons correctement.
 ## Nous l'installons sans que vous perdiez un week-end
 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Wise, banques et LLC : la stack bancaire complète que personne n'explique](/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne)
+- [Comptes bancaires US : ce qui est déclaré et organiser le reporting LLC](/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre)
+- [DAC8 et cryptos : reporting fiscal automatique des crypto-actifs en 2026](/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

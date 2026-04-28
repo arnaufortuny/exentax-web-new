@@ -136,10 +136,28 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
+<!-- exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-de -->
+## Wie sich ITIN und SSN je nach tatsächlicher Situation auseinanderhalten lassen
+
+Die Wahl zwischen ITIN und SSN ist keine Wahl der Gelegenheit; sie hängt von der tatsächlichen Situation der Person ab. Die SSN ist mit Fällen verbunden, in denen ein Arbeitsrecht in den Vereinigten Staaten oder bestimmte Visa-Kategorien bestehen, während die ITIN gerade für Personen konzipiert ist, die eine Erklärungspflicht gegenüber dem IRS haben, ohne SSN-berechtigt zu sein. Ein nicht ansässiges LLC-Mitglied, das ein bundesstaatliches Formular einreichen muss, fällt in den zweiten Fall, und der ITIN-Antrag wird damit zum natürlichen Weg, um einen in der Erklärung verwendbaren Identifikator zu erhalten. Der Zeitpunkt des ITIN-Antrags zählt fast so viel wie der Antrag selbst: ihn parallel zur ersten Erklärung einzureichen, synchronisiert beide Stücke und vermeidet das Hin und Her, das entsteht, wenn der Identifikator nach der Frist eintrifft.
+<!-- /exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
 Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+
+<!-- exentax:lote35-native-v1:itin-ssn-que-son-como-obtenerlos-de -->
+## Wie sich die Unterscheidung ITIN und SSN als stabile Identifikator-Kartografie statt als austauschbare Wahl lesen lässt
+
+Die Unterscheidung ITIN und SSN liest sich nützlicher als stabile Identifikator-Kartografie zwischen dem migrations­rechtlichen oder steuerlichen Status der Person, der ausstellenden Behörde und dem vorgesehenen Verwendungs­zweck denn als austauschbare Wahl.
+<!-- /exentax:lote35-native-v1:itin-ssn-que-son-como-obtenerlos-de -->
+
+<!-- exentax:lote35-native-v1-bis:itin-ssn-que-son-como-obtenerlos-de -->
+## Warum die Notiz pro Identifikator und nicht pro Antrag organisiert sein sollte
+
+Die Notiz organisiert sich pro Identifikator und nicht pro Antrag, weil die spätere Verwendung an den Identifikator anknüpft und nicht an den einzelnen Antrags­vorgang.
+<!-- /exentax:lote35-native-v1-bis:itin-ssn-que-son-como-obtenerlos-de -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
@@ -201,6 +219,50 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
   ### ITIN für DACH-Antragsteller: Verfahren und Fristen
 
   Für deutsche Steuerpflichtige existiert die nationale **Steuer-Identifikationsnummer nach §139b AO** (11 Stellen, lebenslang gültig, vom Bundeszentralamt für Steuern bei Geburt zugeteilt). Das US-amerikanische **ITIN (Individual Taxpayer Identification Number)** wird parallel benötigt, sobald ein deutscher Resident eine US-LLC mit reporting-Pflicht (Form 5472) betreibt oder US-Quellensteuer (W-8BEN) reklamieren will. Das Antragsverfahren erfolgt über **Form W-7** mit Original-Reisepass oder einer **certified copy by the issuing agency** (Bundesdruckerei oder Auslandsvertretung) — keine notariell beglaubigten Kopien laut **IRS Publication 1915** (rev. 11/2023). Der **PATH Act 2015 §203 (Pub. L. 114-113)** verlangt Erneuerung des ITIN, wenn es drei Jahre lang nicht für eine US-Steuererklärung verwendet wurde. Bearbeitungszeit nach **IR-2024-25**: 7–11 Wochen. Über **Certifying Acceptance Agents (CAAs)** in Berlin, München und Frankfurt entfällt das Versenden des Originals. Datenaustausch mit dem BZSt erfolgt über das **FATCA-IGA Modell 1 vom 31.05.2013 (BGBl. II 2013 S. 1362)** und die **CRS-Multilaterale Vereinbarung** vom 29.10.2014 (BGBl. II 2015 S. 1630).
+
+<!-- exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos -->
+## Den Unterschied zwischen ITIN, SSN und EIN ohne Verwirrung lesen
+
+Viele LLC-Mitglieder kommen mit diesen drei Kennungen
+durcheinander. Die im Alltag nützliche Unterscheidung ist einfach:
+das EIN identifiziert die LLC, der ITIN identifiziert eine nicht
+ansässige natürliche Person mit US-Erklärungspflicht, und der SSN
+bleibt eine Kennung der US-Residenten und -Staatsbürger. Für die
+meisten nicht ansässigen Mitglieder reicht das EIN aus, um die LLC
+zu betreiben; der ITIN ist nur in den spezifischen weiter oben
+beschriebenen Konstellationen erforderlich.
+
+Diese Klarheit erspart unnötige Schritte: einen ITIN aus Vorsicht
+zu beantragen, wenn er nicht erforderlich ist, verlangsamt oft die
+Konteneröffnung, statt sie zu erleichtern. Die nüchterne
+Vorgehensweise besteht darin, die Notwendigkeit gemeinsam mit dem
+Berater zu prüfen, bevor das Formular W-7 ausgefüllt wird.
+
+<!-- /exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos -->
+
+<!-- exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos-bis -->
+## Eine kurze Schlussbemerkung
+
+ITIN, SSN und EIN sind nicht austauschbar. Wer ihre jeweilige
+Funktion klar trennt, vermeidet die häufigsten Verzögerungen
+beim Eröffnen von Bankkonten und beim Einreichen von US-Steuer-
+unterlagen.
+
+<!-- /exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos-bis -->
+
+<!-- exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-de-bis -->
+## Wie sich der Antrag in den Erklärungszyklus einbettet
+
+In der Praxis bettet sich der ITIN-Antrag am ruhigsten in denselben Zyklus ein wie die Erstellung der ersten Erklärung, sodass beide Stücke gemeinsam an die zuständige Stelle gehen und im selben Ordner abgelegt werden.
+<!-- /exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [ITIN beantragen: IRS-Steuernummer für Nicht-Residenten](/de/blog/itin-beantragen-individuelle-steuernummer-irs)
+- [EIN: Was ist die Steuernummer Ihrer LLC und wie Sie sie erhalten](/de/blog/ein-was-ist-die-steuernummer-ihrer-llc-und-wie-sie-sie)
+- [W-8BEN und W-8BEN-E: Leitfaden für Nicht-Resident-LLCs](/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Wir reichen Ihre ITIN beim IRS über einen Certifying Acceptance Agent ein — Ihr Original-Reisepass bleibt bei Ihnen. <a href="/de/leistungen/hol-deine-itin">Meine ITIN beantragen</a>.

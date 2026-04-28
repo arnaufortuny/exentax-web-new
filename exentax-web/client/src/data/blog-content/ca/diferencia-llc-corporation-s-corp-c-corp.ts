@@ -88,6 +88,14 @@ Per a no residents, la LLC continua sent l'opció més comuna perquè combina pr
 
 L'elecció correcta depèn del teu pla a 3-5 anys, no de la moda del fòrum del torn.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Tributació pass-through per a LLC: com funciona i per què és important](/ca/blog/tributacio-pass-through-per-a-llc-com-funciona-i-per-que)
+- [Com constituir una LLC americana pas a pas: guia completa](/ca/blog/com-constituir-una-llc-americana-pas-a-pas-guia-completa)
+- [Tributació de la LLC segons l'activitat econòmica: serveis, e-commerce, SaaS](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->

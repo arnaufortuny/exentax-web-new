@@ -127,6 +127,12 @@ Now that you have the full context, the natural next step is to map it against y
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-en -->
+## How to read the CRS exchange around LLC bank accounts as a stable mapping rather than as a year-end surprise
+
+The CRS exchange around LLC bank accounts reads more usefully as a stable mapping between the reporting financial institution, the beneficial owner identified on the account and the receiving tax administration, than as a year-end surprise. The mapping doesn't shift between cycles, only the reported balances move, and a short dated note in the LLC folder with the three nodes makes the position reviewable in a few minutes.
+<!-- /exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -139,6 +145,16 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote21-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-en -->
+## How to read the CRS exchange as a stable property of the banking stack rather than as a recurring surprise
+
+The CRS exchange of information reads more calmly when it's treated as a stable property of the banking stack rather than as a recurring surprise. The CRS standard defines who reports what to whom in a perimeter that doesn't change every year, and understanding the perimeter once is enough to anchor the annual filing without repeating the analysis.
+
+## How to capture the CRS perimeter in a short written note
+
+The CRS perimeter captures more durably in a short, dated note that lists the bank, the account type, the residency and the year of first report.
+<!-- /exentax:lote21-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-en -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## The operational truth about CRS and your LLC bank accounts
@@ -167,6 +183,14 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise, IBAN and LLC: what actually gets reported and what does not](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+- [DAC8 and crypto: automatic tax reporting of crypto-assets in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+- [US bank accounts: what gets reported and how to organise your LLC](/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

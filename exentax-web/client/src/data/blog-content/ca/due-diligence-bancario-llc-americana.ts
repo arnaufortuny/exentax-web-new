@@ -100,6 +100,18 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
 
+<!-- exentax:lote17-native-v1:due-diligence-bancario-llc-americana-ca -->
+## Per què la due diligence bancària d'una LLC es prepara abans i no durant l'obertura
+
+La due diligence bancària d'una LLC es prepara abans de l'obertura del compte, i no durant. La raó és simple: en la fase d'obertura, l'equip de conformitat disposa d'un termini curt i d'una graella de criteris estàndard.
+<!-- /exentax:lote17-native-v1:due-diligence-bancario-llc-americana-ca -->
+
+<!-- exentax:lote30-native-v1:due-diligence-bancario-llc-americana-ca -->
+## Com llegir la due diligence bancària de la LLC com un procediment documentat estable en lloc d'una prova imprevisible
+
+La due diligence bancària de la LLC es llegeix com un procediment documentat estable — identificació del beneficiari, origen dels fons, context de l'activitat. Una nota curta i datada al dossier bancari amb el que s'ha enviat fa la posició consultable.
+<!-- /exentax:lote30-native-v1:due-diligence-bancario-llc-americana-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -154,6 +166,14 @@ L'elecció de jurisdicció depèn sempre de la residència fiscal real del titul
 _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Com obrir un compte Mercury per a la teva LLC des de qualsevol país](/ca/blog/com-obrir-un-compte-mercury-per-a-la-teva-llc-des-de)
+- [Compliment AML per a la teva LLC: el que has de saber](/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber)
+- [BOI Report 2026: guia de la declaració FinCEN Beneficial Ownership](/ca/blog/boi-report-2026-guia-completa-per-a-la-declaracio-fincen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

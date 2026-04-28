@@ -115,6 +115,24 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote20-native-v1:iban-swift-routing-number-que-son-de -->
+## Wie sich die drei Codes IBAN, SWIFT und Routing Number ohne Verwechslung lesen lassen
+
+Die drei Codes IBAN, SWIFT und Routing Number lesen sich am ruhigsten, wenn sie als drei verschiedene Aufgaben behandelt werden und nicht als drei Varianten desselben Bezeichners. Der IBAN identifiziert eine bestimmte Bankverbindung im europäischen Raum; der SWIFT identifiziert eine bestimmte Bank in einem internationalen Netz; die Routing Number identifiziert eine bestimmte Bank im US-amerikanischen Inlandszahlungssystem.
+
+Diese funktionale Trennung vermeidet die häufigste Verwirrung im ersten Kontakt mit einer LLC-Bankverbindung: die Verwendung des falschen Codes verzögert die Operation oder leitet sie auf den falschen Weg.
+
+## Wie sich die drei Codes in der LLC-Akte sauber ablegen lassen
+
+Die drei Codes lassen sich in der LLC-Akte sauber ablegen, wenn sie als drei getrennte Felder mit eigener Bezeichnung erfasst werden, statt sie als einen einzigen langen Bezeichner zu führen.
+<!-- /exentax:lote20-native-v1:iban-swift-routing-number-que-son-de -->
+
+<!-- exentax:lote34-native-v1:iban-swift-routing-number-que-son-de -->
+## Wie sich IBAN, SWIFT und Routing-Number als stabile Identifikator-Kartografie statt als austauschbare Codes lesen lassen
+
+IBAN, SWIFT und Routing-Number lesen sich nützlicher als stabile Identifikator-Kartografie zwischen der Konto­jurisdiktion, der Bank bzw. dem Netzwerk und dem Konto selbst denn als austauschbare Codes. Diese Kartografie ändert sich nicht von einer Überweisung zur nächsten, und eine kurze Notiz im persönlichen Ordner mit den drei Achsen macht die Identifikatoren überprüfbar.
+<!-- /exentax:lote34-native-v1:iban-swift-routing-number-que-son-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -164,6 +182,40 @@ _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/
 
 <!-- related-inline-stripped-2026-04 -->
 
+
+<!-- exentax:lote11-native-v1:iban-swift-routing-number-que-son -->
+## Wie IBAN, SWIFT und Routing Number im LLC-Stack zusammenarbeiten
+
+Die drei Bezeichner — IBAN, SWIFT/BIC und Routing Number —
+beschreiben dieselbe Sache aus drei unterschiedlichen
+geografischen Perspektiven. Eine LLC, die mit Mercury für den
+US-Float und Wise für die EUR/GBP-Verteilung arbeitet, sieht
+typischerweise alle drei Bezeichner gleichzeitig in ihrer
+Banken-Konfiguration auftauchen — was am Anfang verwirrend
+wirkt, sich aber schnell klärt.
+
+Die ruhigere Variante besteht darin, sich diese Logik einmal
+sauber vom Berater erklären zu lassen und sie danach als
+gegeben zu behandeln.
+
+<!-- /exentax:lote11-native-v1:iban-swift-routing-number-que-son -->
+
+<!-- exentax:lote11-native-v1:iban-swift-routing-number-que-son-bis -->
+## Eine kurze Schlussempfehlung zum Banken-Setup
+
+Sobald die drei Bezeichner einmal verstanden sind, wird das
+Banken-Setup der LLC zu einem ruhigen Werkzeug, das im
+Hintergrund seine Arbeit verrichtet.
+<!-- /exentax:lote11-native-v1:iban-swift-routing-number-que-son-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [ACH vs Banküberweisung: Zahlungsfristen für Ihre LLC](/de/blog/ach-vs-bankuberweisung-zahlungsfristen-und-auswirkungen-auf)
+- [Mercury-Konto für Ihre LLC aus jedem Land eröffnen](/de/blog/mercury-konto-fur-ihre-llc-eroffnen-aus-jedem-land)
+- [Währungen für Ihre LLC wechseln: beste Optionen ohne versteckte Gebühren](/de/blog/wahrungen-fur-ihre-llc-wechseln-beste-optionen-und)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
@@ -183,6 +235,12 @@ _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/
 
   Bei Exentax schließen wir diese fünf Fronten jedes Jahr parallel zum US-Bundeskalender (Form 5472, 1120 pro-forma, FBAR, staatlicher Annual Report, BOI Report bei Anwendbarkeit). Ziel ist, dass keine Prüfung ein loses Ende findet und die Struktur einer rückwirkenden Prüfung über 5 bis 7 Jahre standhält.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote20-native-v1:iban-swift-routing-number-que-son-de-bis -->
+## Wie sich der Code-Wechsel zwischen Operationstypen festhalten lässt
+
+Der Wechsel zwischen den drei Codes je nach Operationstyp lässt sich in einer kurzen internen Tabelle festhalten, sodass beim ersten Mal nicht überlegt werden muss, welcher Code verlangt ist.
+<!-- /exentax:lote20-native-v1:iban-swift-routing-number-que-son-de-bis -->
 
 <!-- exentax:cta-v1 -->
 

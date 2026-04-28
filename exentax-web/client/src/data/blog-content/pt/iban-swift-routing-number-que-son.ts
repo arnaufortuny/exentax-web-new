@@ -109,6 +109,18 @@ Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada
 - **Wise Business** (EMI multi-divisa, não é banco). Para receber e pagar em EUR, GBP, USD e outras divisas com dados bancários locais e conversão à *mid-market rate*. Não substitui uma conta US real, mas é imbatível para tesouraria internacional.
 - **Wallester / Revolut Business.** Wallester traz cartões corporativos com BIN próprio para alto volume. Revolut Business funciona como complemento europeu, não como conta principal da LLC.
 
+<!-- exentax:lote20-native-v1:iban-swift-routing-number-que-son-pt -->
+## Como ler os três códigos IBAN, SWIFT e Routing Number sem confusão
+
+Os três códigos IBAN, SWIFT e Routing Number lêem-se com mais calma quando são tratados como três tarefas diferentes e não como três variantes do mesmo identificador. O IBAN identifica uma conta bancária específica no espaço europeu; o SWIFT identifica um banco específico numa rede internacional; o Routing Number identifica um banco específico no sistema doméstico de pagamentos norte-americano.
+<!-- /exentax:lote20-native-v1:iban-swift-routing-number-que-son-pt -->
+
+<!-- exentax:lote34-native-v1:iban-swift-routing-number-que-son-pt -->
+## Como ler IBAN, SWIFT e routing number como um mapeamento de identificadores estáveis em vez de códigos intercambiáveis
+
+IBAN, SWIFT e routing number leem-se de forma mais útil como um mapeamento de identificadores estáveis entre a jurisdição da conta, o banco ou rede e a conta em si, em vez de códigos intercambiáveis. O mapeamento não muda de uma transferência para outra, e uma nota curta no ficheiro pessoal com os três eixos torna os identificadores releváveis em poucos minutos.
+<!-- /exentax:lote34-native-v1:iban-swift-routing-number-que-son-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -154,6 +166,14 @@ Na Exentax configuramos o stack bancário completo da sua LLC (Mercury principal
 ## Como trabalhamos na Exentax
 
 A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Wise, IBAN e LLC: o que é realmente reportado às autoridades fiscais](/pt/blog/wise-iban-e-llc-o-que-realmente-e-reportado-as-autoridades)
+- [Wise, bancos e LLC: a stack bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
+- [ACH vs transferência bancária: prazos e impacto no fluxo da LLC](/pt/blog/ach-vs-transferencia-bancaria-prazos-de-pagamento-e-impacto)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

@@ -148,6 +148,18 @@ Applying any of these rules to your specific case depends on your tax residency,
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote32-native-v1:mantenimiento-anual-llc-obligaciones-en -->
+## How to read annual LLC maintenance as a stable yearly mapping rather than as a recurring chore
+
+Annual LLC maintenance reads more usefully when it's treated as a stable yearly mapping between the state where the LLC is registered, the registered agent and the annual obligations corresponding to that state, than as a recurring chore. The mapping doesn't change year to year.
+<!-- /exentax:lote32-native-v1:mantenimiento-anual-llc-obligaciones-en -->
+
+<!-- exentax:lote32-native-v1-bis:mantenimiento-anual-llc-obligaciones-en -->
+## Why the note is organized by state and not by individual filing
+
+The note is organized by state — and not by individual filing — because the applicable obligations depend on the state of registration, and this view keeps the right granularity for an annual review.
+<!-- /exentax:lote32-native-v1-bis:mantenimiento-anual-llc-obligaciones-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -211,6 +223,20 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote15-native-v1:mantenimiento-anual-llc-obligaciones-en -->
+## Why annual LLC maintenance is best calendarised
+
+Annual maintenance for an LLC works best when it sits on a fixed calendar rather than on memory. Three dates carry most of the load: the state-level renewal, the federal information cycle and the bookkeeping close. Once those three dates are written down at the start of the year and tied to a single working folder, the rhythm becomes routine and unpleasant surprises become rare.
+<!-- /exentax:lote15-native-v1:mantenimiento-anual-llc-obligaciones-en -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Your first month with a US LLC: what to expect week by week](/en/blog/your-first-month-with-a-us-llc-what-to-expect-week-by-week)
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 We review BOI, EIN, registered agent and federal obligations so a fine never catches you by surprise. <a href="/en/services">Request a compliance review</a>.

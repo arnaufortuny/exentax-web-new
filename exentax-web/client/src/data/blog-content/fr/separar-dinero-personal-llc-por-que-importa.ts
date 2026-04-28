@@ -218,6 +218,18 @@ Séparer votre argent personnel de l'argent de votre LLC n'est pas un détail ad
 
 La bonne nouvelle, c'est que mettre en place cette séparation est simple si vous le faites dès le début. Un compte bancaire dédié, un système de comptabilité basique et de la discipline dans vos distributions, c'est tout ce dont vous avez besoin.
 
+<!-- exentax:lote31-native-v1:separar-dinero-personal-llc-por-que-importa-fr -->
+## Comment lire la séparation entre l'argent personnel et l'argent de la LLC comme une cartographie stable plutôt que comme une règle ponctuelle
+
+La séparation entre l'argent personnel et l'argent de la LLC se lit plus utilement comme une cartographie stable entre le compte LLC, le compte personnel du bénéficiaire et les mouvements datés entre les deux, plutôt que comme une règle ponctuelle. Cette cartographie ne change pas d'un mois sur l'autre — seules les sommes cumulées évoluent, et une note courte et datée dans le dossier LLC qui consigne la date d'arrêté et le solde de clôture de chaque côté rend la séparation défendable en quelques minutes lors d'un échange avec une banque ou un fiscaliste.
+<!-- /exentax:lote31-native-v1:separar-dinero-personal-llc-por-que-importa-fr -->
+
+<!-- exentax:lote31-native-v1-bis:separar-dinero-personal-llc-por-que-importa-fr -->
+## Pourquoi la note se rapporte à la date d'arrêté et non à chaque mouvement individuel
+
+La note se rapporte à la date d'arrêté et au solde de clôture de chaque côté, et non à chaque mouvement individuel — la grandeur pertinente pour une vérification ultérieure est le solde aux dates de référence, pas l'historique complet, et cette vue trouve la bonne granularité.
+<!-- /exentax:lote31-native-v1-bis:separar-dinero-personal-llc-por-que-importa-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -250,6 +262,14 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
 
+<!-- exentax:lote16-native-v1:separar-dinero-personal-llc-por-que-importa-fr -->
+## Pourquoi la séparation entre patrimoine personnel et patrimoine de la LLC est plus importante qu'elle n'en a l'air
+
+La séparation entre le patrimoine personnel et le patrimoine de la LLC n'est pas seulement une question d'ordre comptable ; c'est la pièce qui soutient la limitation de responsabilité elle-même. Lorsqu'un compte est utilisé indistinctement pour des dépenses personnelles et pour des dépenses opérationnelles, l'argument selon lequel la société est une entité distincte de son membre se fragilise au moment précis où il faut le plus s'y appuyer : un litige avec un fournisseur, une question de la banque ou un examen de l'administration fiscale.
+
+La discipline qui résout ce point n'est pas spectaculaire et ne demande pas d'outils sophistiqués. Elle tient à trois habitudes simples : une carte attribuée exclusivement à la LLC, des virements identifiés au membre lorsqu'il s'agit de distributions, et une comptabilité qui reflète chaque mouvement avec sa contrepartie. Ces trois habitudes coûtent peu d'effort une fois en place et produisent, sur la durée, le seul résultat qui compte vraiment : un dossier qui se lit sans ambiguïté quand quelqu'un d'extérieur vient le consulter.
+<!-- /exentax:lote16-native-v1:separar-dinero-personal-llc-por-que-importa-fr -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
@@ -260,7 +280,13 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
-- **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.<!-- exentax:execution-v2 -->
+- **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
+
+## Mise en place pratique d'une séparation propre
+
+La séparation devient simple quand l'outillage la rend évidente : une carte dédiée à la LLC pour toute dépense professionnelle, une catégorie « remboursements » pour les rares achats faits avec la carte personnelle, et un protocole mensuel de remboursement documenté par virement entre comptes. Les retraits du fondateur se traitent comme des *owner draws* avec un libellé clair sur le relevé. Ainsi, à la fin du mois, le rapprochement Mercury ou Wise tient en quelques minutes et le 5472 reflète une réalité contrôlée.
+
+<!-- exentax:execution-v2 -->
 ## Séparer argent personnel et LLC: pourquoi ça compte plus que vous ne pensez
 
 Mélanger argent personnel et LLC est l'erreur opérationnelle la plus commune et, paradoxalement, la plus chère à long terme.
@@ -299,6 +325,14 @@ C'est l'un des points que nous auditons en premier lorsque nous reprenons un dos
 ### Revolut Business: opérationnel multi-devises
 
 Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Créer votre LLC américaine étape par étape : le guide complet](/fr/blog/comment-creer-une-llc-americaine-etape-par-etape-guide)
+- [Erreurs critiques si vous avez déjà une LLC : ce que personne ne vous a dit](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+- [Gérer votre LLC au quotidien : guide pratique pour non-résidents](/fr/blog/gerer-votre-llc-au-quotidien-guide-pratique-pour-non)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

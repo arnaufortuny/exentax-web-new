@@ -156,6 +156,22 @@ At Exentax we structure legitimate privacy (nominee manager + Wyoming + virtual 
 
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
+<!-- exentax:lote15-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-en -->
+## Why nominee structures rarely survive a careful inspection
+
+Nominee arrangements look attractive on paper because they reduce the visible footprint of the real owner, but they tend to fail under any serious examination for a structural reason rather than a documentary one. Tax authorities and banks across most modern jurisdictions apply a substance-over-form principle, which means they look at who actually decides, who actually receives the economic benefit, and who actually bears the risk, regardless of whose name appears on the formation documents. When the answer to all three questions points to one person and the legal title points to another, the divergence becomes the issue itself, and every later piece of evidence (banking instructions, signatures on contracts, communications with suppliers) ends up reinforcing the same picture.
+
+Beneficial-ownership registries add a second layer to the same logic. They are not designed to catch a particular structure; they are designed to make consistency between the legal owner and the economic owner observable on a routine basis. Where there is a mismatch, the structure is not so much detected as already visible, and the cost of unwinding it is then disproportionate to whatever it was meant to save in the first place.
+<!-- /exentax:lote15-native-v1:testaferros-prestanombres-llc-ilegal-riesgos-en -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [Anti-money laundering compliance for your LLC: what you need to know](/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need)
+- [BOI Report 2026: complete guide to FinCEN Beneficial Ownership filing](/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

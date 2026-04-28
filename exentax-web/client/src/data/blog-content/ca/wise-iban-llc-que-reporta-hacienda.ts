@@ -108,6 +108,22 @@ La conclusió raonable no és "Wise és dolent" ni "la LLC és perillosa". La co
 
 A Exentax treballem exactament en aquesta frontera: estructurar la <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a>, triar <a href="/ca/blog/bancs-tradicionals-vs-fintech-per-a-la-teva-llc-on-obrir-el">quin compte bancari o fintech</a> té sentit com a principal i quin com a secundari, anticipar què es reporta via <a href="/ca/blog/crs-per-a-residents-a-espanya-i-llatinoamerica-implicacions">CRS</a> cap a la teva hisenda, i dissenyar el conjunt perquè la peça Wise (o <a href="/ca/blog/revolut-business-i-crs-que-es-reporta-a-hisenda">Revolut Business</a>, o qualsevol altra) encaixi sense sorpreses. Ho desenvolupem en detall a <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">Disseny d'una estructura fiscal internacional sòlida</a>.
 
+<!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-ca -->
+## Per què l'IBAN d'un compte associat a una LLC mereix una fitxa de referència dedicada
+
+Un IBAN associat a una LLC mereix una fitxa de referència dedicada, diferent dels altres documents bancaris, perquè és l'element que més sovint apareix en les conciliacions i els controls transfronterers. La fitxa no cal que sigui complexa: indica el titular exacte del compte, la jurisdicció d'emissió de l'IBAN, el paper del compte dins el stack bancari i la data d'obertura. Aquestes quatre informacions basten per respondre ràpidament a la gran majoria de les preguntes que poden sorgir.
+
+El benefici d'aquesta fitxa es manifesta sobretot quan una administració demana un aclariment: en lloc de reconstituir la informació a partir de diverses fonts, es transmet una fitxa ja coherent i autoportant, cosa que tanca ràpidament la conversa.
+<!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-ca -->
+
+<!-- exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-ca -->
+## Com llegir la qüestió del que reporta un IBAN Wise mantingut per una LLC com un mapatge estable en lloc d'una incertesa recurrent
+
+La qüestió del que reporta un IBAN Wise mantingut per una LLC a l'administració fiscal espanyola es llegeix de manera més serena com un mapatge estable entre el tipus de compte, el titular del compte i el país l'autoritat del qual alimenta el canal d'intercanvi, en lloc d'una incertesa recurrent. El que es reporta i a qui no canvia de mes en mes.
+
+Una nota curta al dossier de la LLC que registri el tipus de compte obert a Wise, el titular legal, el país de l'IBAN i el canal d'intercanvi que li és aplicable fa aquest mapatge consultable en pocs minuts, en lloc d'haver-lo de reconstruir de memòria cada vegada que la qüestió torna a aparèixer en un control o en una reunió amb l'equip fiscal.
+<!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -171,6 +187,14 @@ A Exentax estructurem Wise segons necessitat i declarem correctament.
 ## T'ho muntem sense que perdis un cap de setmana
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Comptes bancaris US: què reporta cada entitat i com estructurar-ho](/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat)
+- [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

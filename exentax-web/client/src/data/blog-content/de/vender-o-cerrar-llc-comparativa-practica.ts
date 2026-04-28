@@ -69,6 +69,16 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
+<!-- exentax:lote22-native-v1:vender-o-cerrar-llc-comparativa-practica-de -->
+## Wie sich die Wahl zwischen Verkauf und Schliessung einer LLC als Profilfrage lesen lässt
+
+Die Wahl zwischen dem Verkauf und der Schliessung einer LLC liest sich nützlicher, wenn sie als Profilfrage und nicht als allgemeine Debatte behandelt wird. Die Entscheidung hängt vom Vorhandensein eines konkreten Käufers, dem Wert der übertragbaren Vermögensgegenstände und den steuerlichen Folgen jeder der beiden Optionen für den wirtschaftlich Berechtigten ab — und die drei Variablen lassen sich getrennt prüfen, bevor die Schlussfolgerung gezogen wird.
+
+## Wie sich die Entscheidung schriftlich verankern lässt
+
+Die Entscheidung verankert sich schriftlich in einer kurzen, datierten Notiz, die die drei Variablen und die daraus folgende Schlussfolgerung auflistet. Diese Notiz schützt vor späteren Re-Diskussionen, die ohne neue Information nichts zur Entscheidung beitragen würden.
+<!-- /exentax:lote22-native-v1:vender-o-cerrar-llc-comparativa-practica-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
@@ -103,6 +113,12 @@ Die Wahl zwischen **Verkauf** und **Schließung** einer LLC hat aktuell untersch
 ### FAQ aktuell
 
 **Kann eine inaktive SMLLC einfach „liegen gelassen" werden?** Nein. Ohne Annual Report und Registered Agent endet sie *Forfeited*, aber IRS-Pflichten (5472 bei Bewegungen) bleiben mit kaskadierenden Sanktionen bestehen.
+
+<!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-de -->
+## Wie sich die Wahl Verkaufen oder Schließen der LLC als stabile Kartografie statt als emotionale Entscheidung lesen lässt
+
+Die Wahl Verkaufen oder Schließen der LLC liest sich nützlicher als stabile Kartografie zwischen dem aktuellen Zustand des Vehikels, dem Profil des potenziellen Käufers und den verbleibenden Pflichten denn als emotionale Entscheidung. Eine kurze Notiz im LLC-Ordner mit den drei Punkten macht den Vergleich überprüfbar.
+<!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-de -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
@@ -157,6 +173,100 @@ Um zu wissen, welcher Weg in Ihrem realen Fall passt, starten Sie den <strong>Ex
 
   Bei Exentax schließen wir diese fünf Fronten jedes Jahr parallel zum US-Bundeskalender (Form 5472, 1120 pro-forma, FBAR, staatlicher Annual Report, BOI Report bei Anwendbarkeit). Ziel ist, dass keine Prüfung ein loses Ende findet und die Struktur einer rückwirkenden Prüfung über 5 bis 7 Jahre standhält.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+## Verkaufen oder schliessen: die Frage vor der Handlung wählen
+
+Der erste nützliche Schritt ist es, zwei Fragen zu trennen, die oft
+gemeinsam ankommen: "Will ich mit dieser LLC weiter operieren?" und
+"Ist diese LLC ein verkäuflicher Vermögenswert für sich?". Viele
+LLCs sind ausgezeichnete operative Hüllen, aber schlechte
+verkäufliche Vermögenswerte, und das Umgekehrte kann ebenso gelten.
+Sobald diese Unterscheidung klar ist, ergibt sich die praktische
+Entscheidung aus den Daten.
+
+| Signal                                   | Spricht für Verkauf         | Spricht für Schliessung |
+|------------------------------------------|-----------------------------|-------------------------|
+| Wiederkehrende Verträge im LLC-Namen     | ja                          | schwach                 |
+| Domain, Marke, IP gehalten von der LLC   | ja                          | schwach                 |
+| Bankhistorie mit US-Instituten           | ja (vorsichtig übertragbar) | neutral                 |
+| Single-Member, geringer Markenwert       | schwach                     | ja                      |
+| Offene Streitigkeiten oder Forderungen   | harte Pause                 | harte Pause             |
+
+Wenn die Tabelle in Richtung Verkauf neigt, liegt die Arbeit auf
+Dokumentation, sauberen Büchern und einer glaubwürdigen Erzählung.
+Wenn sie in Richtung Schliessung neigt, liegt die Arbeit auf einer
+geordneten Abwicklung und einem sauberen Ausstieg mit IRS, Staat
+und Bank.
+
+## Drei reale Mandantengeschichten
+
+Eine Beraterin, die seit drei Jahren über eine Single-Member LLC
+operierte, entschied sich beim Wechsel der Jurisdiktion für die
+Abwicklung. Schliessen war richtig: keine übertragbaren Verträge,
+die Bankhistorie nützte nur ihr, und die Verkaufskosten überstiegen
+den realistischen Preis. Wir liefen die geordnete Schliessung in
+zwei Monaten.
+
+Eine Gründerin baute über ihre LLC ein kleines SaaS mit
+wiederkehrender Kundenbasis auf. Die LLC war als Einheit
+verkäuflich, weil das Produkt, die Kundenverträge und die
+Händlerkonten alle im LLC-Namen waren. Wir führten einen
+strukturierten Verkauf, der Käufer übernahm die LLC, und die
+Gründerin behielt ihre saubere Ausstiegserzählung.
+
+Eine Beraterin mit zwei LLCs (eine operativ, eine ruhend)
+schloss die ruhende und behielt die aktive. Die ruhende LLC trug
+keine Vermögenswerte und fügte jedes Jahr nur Compliance-Arbeit
+hinzu. Sie zu schliessen vereinfachte den nächsten 1120-+-5472-
+Zyklus und reduzierte den BOI-Wartungsumfang.
+
+## Fehler in beide Richtungen vermeiden
+
+- Operationen einstellen, ohne die Auflösung einzureichen. Der
+  Staat erwartet weiterhin Jahresgebühren; ohne Auflösung
+  akkumuliert die LLC Verpflichtungen.
+- Verkaufen, ohne die EIN zu lösen. EINs lassen sich nicht wie
+  Aktien übertragen; den Deal so strukturieren, dass der Käufer die
+  LLC intakt behält oder die EIN sauber ersetzt.
+- Das Bankprofil vergessen. Bankkonten müssen bei einer Abwicklung
+  geordnet geschlossen werden, nicht aufgegeben; Aufgabe kann
+  Restgebührensalden hinterlassen, die die Schlussabrechnungen
+  erschweren.
+- Den BOI-Zyklus ignorieren. Eine aufgelöste LLC braucht eine
+  BOI-Aktualisierung; eine verkaufte LLC braucht ebenfalls eine
+  Eigentumsaktualisierungs-Meldung.
+
+## Abwicklungs- oder Verkaufs-Checkliste
+
+- Saldenbilanz und abgestimmte Kontoauszüge bereit.
+- Schluss-1120 + 5472 vorbereitet im Voraus für das
+  Schlussgeschäftsjahr.
+- Alle Verträge katalogisiert (übertragbar / nicht übertragbar).
+- IP-Register bestätigt (Domains, Marken, Code-Repositorien).
+- BOI-Status sofort nach der Urkunde aktualisiert.
+- Aufbewahrungsplan vorhanden für mindestens 7 Jahre.
+
+Wir behandeln die Verkaufen-oder-Schliessen-Entscheidung als einen
+der wirkungsstärksten Momente im Leben der LLC. Ein sauberer
+Ausstieg, in beide Richtungen, ist dauerhafter Wert für das
+Mitglied.
+
+<!-- /exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+
+<!-- exentax:lote22-native-v1:vender-o-cerrar-llc-comparativa-practica-de-bis -->
+## Wie sich die Wahl Verkauf vs Schliessung jährlich ohne erneute Grundsatzdebatte überprüfen lässt
+
+Die Wahl zwischen Verkauf und Schliessung überprüft sich jährlich ohne erneute Grundsatzdebatte, wenn die schriftlich verankerten drei Variablen — Käuferpräsenz, übertragbare Werte, steuerliche Folgen — als Bezugspunkt dienen und die Diskussion nur dort wieder eröffnet wird, wo eine der drei Variablen real abgewichen ist.
+<!-- /exentax:lote22-native-v1:vender-o-cerrar-llc-comparativa-practica-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [US-LLC auflösen und schliessen: ruhiger Weg, Schritt für Schritt](/de/blog/us-llc-auflosen-und-schliessen-schritt-fur-schritt)
+- [LLC-Wartungsanbieter wechseln, ohne Historie oder Kontinuität zu verlieren](/de/blog/llc-wartungsanbieter-wechseln-ohne-historie-oder-kontinuitat)
+- [Besteuerung der LLC-Mitglieder bei Residenzwechsel mitten im Jahr](/de/blog/besteuerung-der-llc-mitglieder-bei-residenzwechsel-mitten-im)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

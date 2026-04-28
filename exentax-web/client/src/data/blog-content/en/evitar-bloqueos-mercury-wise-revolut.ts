@@ -99,6 +99,12 @@ Fintech and CRS information evolves; here is the current state:
 
 What follows is the operational view, not the textbook one. We have run this play enough times to know which variables collapse first under scrutiny from a tax authority or a banking compliance team, and that is the order we tackle them in.
 
+<!-- exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-en -->
+## How to read account stability with Mercury and Wise as a documented procedure rather than as luck
+
+Account stability with Mercury and Wise reads more usefully when it's treated as a documented procedure — beneficial owner identification kept current, source of funds documented, business activity context updated when it evolves — than as luck. The procedure doesn't change with the size of the account.
+<!-- /exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -132,6 +138,26 @@ At Exentax we set the cascade from day one (Mercury + Relay + Wise), with a cohe
 ## Why do they block accounts?
 
 What follows is the operational view, not the textbook one. We have run this play enough times to know which variables collapse first under scrutiny from a tax authority or a banking compliance team, and that is the order we tackle them in.
+
+<!-- exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-en -->
+## A short routine that keeps Mercury and Wise calm
+
+The two practical levers that keep operations smooth at Mercury and Wise are predictability and traceability. Predictability means that the volume profile, the geography of counterparties and the type of incoming flows look reasonably constant from one quarter to the next. Traceability means that, for any incoming wire, an invoice or contract can be produced within minutes. With those two habits in place, most reviews end before they begin.
+<!-- /exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-en -->
+
+<!-- exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-en-bis -->
+## A short note on outgoing wires that helps the same way
+
+The same logic that keeps incoming flows calm at Mercury and Wise applies to outgoing wires: a brief written reason kept with the underlying contract or invoice removes most of the questions that compliance teams might otherwise raise later.
+<!-- /exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-en-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [How to open a Mercury account for your LLC from any country](/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country)
+- [Wise, banks and your LLC: the complete banking stack nobody explains](/en/blog/wise-banks-and-your-llc-the-complete-banking-stack-nobody)
+- [Reorganize your LLC banking: when to combine Mercury, Relay and Wise](/en/blog/reorganize-your-llc-banking-when-to-combine-mercury-relay)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

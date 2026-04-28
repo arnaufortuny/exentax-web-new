@@ -81,6 +81,18 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
+<!-- exentax:lote31-native-v1:llc-desarrolladores-software-saas-fr -->
+## Comment lire la LLC pour développeurs et SaaS comme une carte opérationnelle stable plutôt que comme un choix de tendance
+
+La LLC pour développeurs et SaaS se lit plus utilement comme une carte opérationnelle stable entre les clients (souvent dispersés mondialement), le bénéficiaire effectif et le pays où la valeur logicielle est créée, plutôt que comme un choix de tendance. Cette carte reste valide d'un release à l'autre.
+<!-- /exentax:lote31-native-v1:llc-desarrolladores-software-saas-fr -->
+
+<!-- exentax:lote31-native-v1-bis:llc-desarrolladores-software-saas-fr -->
+## Pourquoi la note se rapporte à la carte opérationnelle et non à un release particulier
+
+La note se rapporte à la carte opérationnelle (clients, bénéficiaire, lieu de création de valeur logicielle) et non à un release particulier, parce que la carte reste valide d'un cycle de release à l'autre.
+<!-- /exentax:lote31-native-v1-bis:llc-desarrolladores-software-saas-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Découvrez si une LLC est faite pour vous</a>
 <!-- /exentax:calc-cta-v1 -->

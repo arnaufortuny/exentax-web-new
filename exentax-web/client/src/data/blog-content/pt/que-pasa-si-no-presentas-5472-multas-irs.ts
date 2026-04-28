@@ -118,6 +118,12 @@ Para fechar no concreto, estes são os erros que na Exentax vemos repetir mês a
 
 O Form 5472 é um dos poucos casos onde o custo de **não fazer nada** é geometricamente superior ao custo de fazer bem. A base de 25.000 USD por ano não se discute; o que se discute é **como regularizas, em que ordem, com que argumentação e que riscos colaterais fechas em simultâneo**.
 
+<!-- exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-pt -->
+## Como ler as consequências de não apresentar o Form 5472 como um mapeamento estável em vez de uma ameaça vaga
+
+As consequências de não apresentar o Form 5472 leem-se de forma mais útil como um mapeamento estável entre o ano afetado, o tipo de omissão e o tipo de remediação, em vez de uma ameaça vaga. Este mapeamento mantém-se relevável em poucos minutos numa conversa com um consultor — uma nota curta e datada no ficheiro pessoal com os três eixos é suficiente.
+<!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -184,6 +190,37 @@ Na Exentax fazemos regularizações de 5472 atrasados.
 
 A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
 
+
+<!-- exentax:lote9-native-v1:que-pasa-si-no-presentas-5472-multas-irs -->
+## Uma nota sobre o ano seguinte
+
+Uma falha na Form 5472 é, na grande maioria dos casos,
+recuperável — desde que a regularização siga uma sequência clara
+e não passos improvisados. O custo real depende mais de como se
+fecha a lacuna do que do facto de ela ter existido.
+
+A nossa experiência com membros que percorreram este caminho
+mostra que o ano seguinte é tranquilo quando se estabelece uma
+pequena rotina anual que garante que a mesma falha não volta a
+ocorrer.
+
+<!-- /exentax:lote9-native-v1:que-pasa-si-no-presentas-5472-multas-irs -->
+
+<!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-pt -->
+## Porque é que a coima do Form 5472 escala mais depressa do que outras entregas tardias
+
+A coima do Form 5472 tem uma estrutura que escala mais depressa do que a maior parte das outras entregas tardias, e a razão está no papel do formulário dentro do regime de informação norte-americano mais alargado. O formulário está pensado para dar ao IRS uma visão limpa das operações entre partes relacionadas envolvendo detentores estrangeiros, e o regime sancionatório reflete o quão central é essa visibilidade para o sistema, e não a complexidade do próprio formulário. O valor de partida é fixo por formulário e por ano e aplica-se independentemente de existir imposto a pagar, e pode agravar-se quando os avisos não são tratados dentro das janelas legais.
+
+Dois pontos práticos eliminam a maior parte do atrito. Primeiro, existem critérios de abatement quando há causa razoável, e uma narrativa calmamente redigida apoiada nos lembretes de agenda originais, na carta de compromisso e na data da primeira entrega pesa em regra mais do que uma carta mais longa escrita sob pressão mais tarde. Segundo, a medida preventiva mais limpa é alinhar o calendário de avisos com o ciclo federal de extensão e manter um único ficheiro de trabalho por ano que já contenha a lista de operações entre partes relacionadas, de modo que o formulário em si seja apenas o passo final de formatação.
+<!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-pt -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Form 5472: o que é, quem deve apresentá-lo e como cumprir](/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir)
+- [Recuperar uma LLC com BOI e 5472 em atraso: procedimento real](/pt/blog/recuperar-uma-llc-com-boi-e-5472-em-atraso-procedimento-real)
+- [IRS 1120 e 5472: o que realmente são e quando se aplicam à sua LLC](/pt/blog/irs-1120-e-5472-o-que-realmente-sao-e-quando-se-aplicam)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

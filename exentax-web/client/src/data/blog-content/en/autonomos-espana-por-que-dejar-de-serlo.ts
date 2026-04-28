@@ -144,6 +144,12 @@ Applying any of these rules to your specific case depends on your tax residency,
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote36-native-v1:autonomos-espana-por-que-dejar-de-serlo-en -->
+## How to read the question of leaving the Spanish autónomo regime as a stable structural decision rather than as a monthly venting
+
+The question of leaving the Spanish autónomo regime reads more usefully as a stable structural decision between the activity actually carried out, the residence of the beneficial owner and the vehicle that holds the activity, than as a monthly venting about social-security contributions. The reading does not change with each contribution receipt and a short dated note in the personal folder makes it reviewable.
+<!-- /exentax:lote36-native-v1:autonomos-espana-por-que-dejar-de-serlo-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -156,6 +162,16 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote22-native-v1:autonomos-espana-por-que-dejar-de-serlo-en -->
+## How to read the question of leaving the autónomo regime as a profile question rather than as a value judgement
+
+The question of whether to leave the autónomo regime reads more honestly when it's treated as a profile question rather than as a value judgement on the regime. The decision depends on the freelancer's billing volume, geographic mix of clients and frequency of distributions — and the answer for one combination is rarely the answer for another.
+
+## How to capture the decision in a short written note
+
+The decision captures more durably in a short, dated note that lists the three variables and the conclusion they yield, so the discussion doesn't reopen at every billing cycle.
+<!-- /exentax:lote22-native-v1:autonomos-espana-por-que-dejar-de-serlo-en -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## The honest calculation of when the Spanish self-employed regime stops making sense
@@ -184,6 +200,14 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [US LLC as a real alternative to being self-employed (autónomo) in Spain](/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+- [Why open a US LLC in 2026: the 5 pillars of the American advantage](/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

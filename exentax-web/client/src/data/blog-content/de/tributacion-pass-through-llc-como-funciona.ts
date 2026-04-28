@@ -132,10 +132,40 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [LLC-Besteuerung nach wirtschaftlicher Aktivität: Dienstleistungen, E-Commerce, SaaS](/de/blog/llc-besteuerung-nach-wirtschaftlicher-aktivitat)
+- [US-LLC Besteuerung nach Wohnsitzland: was Sie wo zahlen](/de/blog/us-llc-besteuerung-nach-wohnsitzland-was-sie-wo-zahlen)
+- [Steuerliche Abzüge für Ihre LLC: was Sie abziehen können](/de/blog/steuerliche-abzuge-fur-ihre-llc-was-sie-abziehen-konnen)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote23-native-v1:tributacion-pass-through-llc-como-funciona-de -->
+## Wie sich die Pass-through-Besteuerung als stabile Eigenschaft der LLC statt als jährliche Überraschung lesen lässt
+
+Die Pass-through-Besteuerung liest sich ruhiger, wenn sie als stabile Eigenschaft der LLC und nicht als jährliche Überraschung behandelt wird. Das Prinzip — die Erträge der LLC werden auf Ebene der Mitglieder besteuert, nicht auf Ebene der Gesellschaft — ändert sich nicht von Jahr zu Jahr, und das einmalige Verständnis dieses Prinzips genügt, um die jährliche Erklärung zu verankern, ohne die Analyse zu wiederholen.
+
+## Wie sich die Pass-through-Anwendung im konkreten Profil schriftlich festhalten lässt
+
+Die Pass-through-Anwendung hält sich dauerhafter in einer kurzen, datierten Notiz fest, die das Wohnsitzland des Mitglieds, den Mitgliedschaftsanteil und das Jahr der ersten Erklärung auflistet.
+<!-- /exentax:lote23-native-v1:tributacion-pass-through-llc-como-funciona-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
 Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+
+<!-- exentax:lote32-native-v1:tributacion-pass-through-llc-como-funciona-de -->
+## Wie sich die Pass-Through-Besteuerung der LLC als stabile Beziehungs­karte statt als Status­debatte lesen lässt
+
+Die Pass-Through-Besteuerung der LLC liest sich nützlicher als stabile Beziehungs­karte zwischen dem Vehikel (LLC), dem Steuer­status (default oder gewählter Status) und dem wirtschaftlich Berechtigten denn als Status­debatte. Diese Karte ändert sich nicht von Jahr zu Jahr, und eine kurze, datierte Notiz im persönlichen Ordner mit den drei Achsen macht die Beziehung in wenigen Minuten überprüfbar.
+<!-- /exentax:lote32-native-v1:tributacion-pass-through-llc-como-funciona-de -->
+
+<!-- exentax:lote32-native-v1-bis:tributacion-pass-through-llc-como-funciona-de -->
+## Warum die Notiz pro Status und nicht pro Vorgang organisiert sein sollte
+
+Die Notiz organisiert sich pro Steuer­status und nicht pro Vorgang, weil die Pass-Through-Beziehung auf dem Status beruht und nicht auf einer einzelnen Operation.
+<!-- /exentax:lote32-native-v1-bis:tributacion-pass-through-llc-como-funciona-de -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>

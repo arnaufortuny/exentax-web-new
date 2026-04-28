@@ -112,6 +112,12 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
+<!-- exentax:lote35-native-v1:form-5472-que-es-como-presentarlo-ca -->
+## Com llegir la presentació del Form 5472 com una seqüència anual estable
+
+La presentació del Form 5472 es llegeix com una seqüència anual estable de passos en lloc d'una improvisació anual.
+<!-- /exentax:lote35-native-v1:form-5472-que-es-como-presentarlo-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -129,6 +135,14 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [IRS 1120 i 5472: què són realment i quan apliquen](/ca/blog/irs-1120-i-5472-que-son-realment-i-quan-apliquen)
+- [Pròrroga IRS Form 1120: com presentar el Form 7004 i obtenir 6 mesos](/ca/blog/prorroga-irs-form-1120-com-presentar-el-form-7004-i-obtenir)
+- [La teva LLC no paga impostos als EUA — què passa al teu país](/ca/blog/la-teva-llc-no-paga-impostos-als-eua-que-passa-al-teu-pais)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment

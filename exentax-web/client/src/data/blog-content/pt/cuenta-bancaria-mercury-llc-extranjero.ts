@@ -168,6 +168,12 @@ A recomendação realista: **Mercury + Relay como backup + Slash para operativa 
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-pt -->
+## Como ler a abertura de uma conta Mercury para uma LLC com membro não residente como um procedimento documentado estável
+
+A abertura de uma conta Mercury para uma LLC com membro não residente lê-se de forma mais serena como um procedimento documentado estável do que como um pedido incerto. As peças recorrentes — identificação completa do membro não residente, descrição clara da atividade da LLC e uma explicação coerente dos fluxos — definem um quadro discreto.
+<!-- /exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -265,6 +271,14 @@ As quatro plataformas pedem: Articles of Organization da LLC, EIN Confirmation L
 > **Quanto poupa em comissões e câmbio combinando Mercury e Wise?** Carregue o volume anual na <strong>calculadora fiscal e operacional da Exentax</strong> e compare com o setup atual.
 
 Para aprofundar a estrutura bancária completa leia <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade">o que os bancos americanos realmente reportam</a>, e para delegar a abertura <strong>agende uma sessão com a Exentax</strong>.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Wise, bancos e LLC: a stack bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
+- [Como evitar bloqueios de conta no Mercury, Wise e Revolut](/pt/blog/como-evitar-bloqueios-de-conta-no-mercury-wise-e-revolut)
+- [Due diligence bancária da sua LLC americana: o que os bancos verificam](/pt/blog/due-diligence-bancaria-para-sua-llc-americana-o-que-os)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

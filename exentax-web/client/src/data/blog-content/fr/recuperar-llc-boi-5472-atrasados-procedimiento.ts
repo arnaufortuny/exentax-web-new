@@ -84,10 +84,22 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
 
+<!-- exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-fr -->
+## Pourquoi un calendrier de récupération vaut mieux qu'une réponse en bloc
+
+Récupérer une LLC dont les déclarations BOI et le formulaire 5472 sont en retard ne se fait pas en une seule action mais selon un calendrier court et discipliné, qui sépare les pièces dans le temps pour éviter qu'elles ne se contredisent ou ne soient déposées sans cohérence interne. La première étape consiste à reconstituer l'année qui sert de base de référence pour les autres ; les exercices suivants s'alignent ensuite sur cette base, et l'on évite ainsi le scénario fréquent où la récupération d'un exercice fait apparaître des incohérences avec les exercices déjà déposés.
+<!-- /exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-fr -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
 Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+
+<!-- exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-fr -->
+## Comment lire la régularisation des BOI et Form 5472 en retard comme une procédure documentée plutôt que comme une réaction improvisée
+
+La régularisation des BOI et Form 5472 en retard se lit plus utilement comme une procédure documentée avec une séquence fixe — combler l'écart année par année, déposer dans l'ordre chronologique, archiver les confirmations — plutôt que comme une réaction improvisée. La procédure ne change pas avec le nombre d'années à rattraper.
+<!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-fr -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
@@ -147,6 +159,14 @@ Si votre LLC a des années en attente et vous voulez savoir la voie qui s'appliq
   ### Régularisation FBAR/Form 5472/BOI : perspective française
 
   Pour un sócio résident français d'une LLC américaine en retard de déclarations US (FBAR FinCEN 114, **Form 5472 sous IRC §6038A(d)** sanctionné USD 25.000 par formulaire et par an, FinCEN BOI sous CTA §6403 sanctionné USD 591/jour), la régularisation se coordonne via les **procédures du Streamlined Filing Compliance** (Foreign et Domestic) de l'IRS. Côté français, les obligations parallèles sont la déclaration **3916** (compte étranger), le formulaire **2042-NR** des participations, et la conservation **6 ans** au sens de l'**art. L. 102 B du LPF**. Application de la **convention d'assistance administrative France-USA du 31/08/1994 art. 27** (échange d'informations).
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Form 5472 : ce que c'est, qui doit le déposer et comment se conformer](/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment)
+- [BOI Report 2026 : guide complet pour le dépôt FinCEN Beneficial Ownership](/fr/blog/boi-report-2026-guide-complet-pour-le-depot-fincen)
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

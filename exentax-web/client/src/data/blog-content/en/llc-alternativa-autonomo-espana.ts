@@ -152,6 +152,12 @@ Applying any of these rules to your specific case depends on your tax residency,
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote32-native-v1:llc-alternativa-autonomo-espana-en -->
+## How to read the LLC vs Spanish self-employed comparison as a stable mapping rather than as a community debate
+
+The LLC vs Spanish self-employed comparison reads more usefully when it's treated as a stable mapping between the country of residence of the beneficial owner, the country where value is created and the country of the customers, than as a community debate. The mapping doesn't change with the season, and a short dated note in the personal folder makes the position reviewable in a few minutes.
+<!-- /exentax:lote32-native-v1:llc-alternativa-autonomo-espana-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -164,6 +170,14 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-en -->
+## Why comparing an LLC and the Spanish self-employed regime requires comparing operating profiles, not just costs
+
+Comparing a US LLC with the Spanish self-employed regime works best when the comparison is built around the operating profile rather than around a list of headline costs. Two operating profiles that look similar on a surface description can produce very different practical outcomes once invoicing geography, currency mix, and client mix are taken into account.
+
+The cleanest way to make the comparison readable is to write the operating profile in one paragraph and then map each feature of the profile to one or the other regime. This approach makes the trade-offs explicit and avoids the trap of letting a single attractive feature drive a decision that affects the whole structure.
+<!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-en -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
@@ -243,6 +257,14 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Why Spanish freelancers are leaving self-employment for a US LLC](/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+- [Why open a US LLC in 2026: the 5 pillars of the American advantage](/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free consultation</a>.

@@ -160,6 +160,12 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote34-native-v1:gastos-deducibles-llc-que-puedes-deducir-ca -->
+## Com llegir la qüestió de les despeses deduïbles d'una LLC com un mapa de perfil entre tipus de despesa i propòsit de l'activitat en lloc d'una llista tancada
+
+La qüestió de les despeses deduïbles d'una LLC es llegeix com un mapa estable entre tipus de despesa, comprovant documental i propòsit de l'activitat.
+<!-- /exentax:lote34-native-v1:gastos-deducibles-llc-que-puedes-deducir-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -205,6 +211,14 @@ A Exentax muntem la comptabilitat de la teva LLC des del primer mes amb pla de c
 ## T'ho muntem sense que perdis un cap de setmana
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Despeses deduïbles per a autònoms el 2026: la llista pràctica](/ca/blog/despeses-deduibles-autonoms-2026)
+- [Tributació de la LLC per activitat: serveis, e-commerce, SaaS, trading](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

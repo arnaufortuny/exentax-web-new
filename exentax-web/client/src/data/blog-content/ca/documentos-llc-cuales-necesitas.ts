@@ -183,6 +183,14 @@ Si la teva prioritat és l'ITIN, consulta <a href="/ca/serveis/obte-el-teu-itin"
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Operating Agreement: què és i per què la teva LLC en necessita un](/ca/blog/operating-agreement-que-es-i-per-que-la-teva-llc-en)
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Constitució, EIN, BOI, banca i manteniment: un sol equip que entén el teu cas de cap a peus. <a href="/ca/serveis">Veure tots els serveis</a>.
 <!-- /exentax:cta-v1 -->

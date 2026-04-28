@@ -102,6 +102,12 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote30-native-v1:cambiar-divisas-llc-mejores-opciones-ca -->
+## Com llegir la conversió de divises a la LLC com un mapa operatiu estable en lloc d'una decisió puntual de mercat
+
+La conversió de divises a la LLC es llegeix de manera més útil com un mapa operatiu estable entre la divisa dels clients, la divisa del compte operatiu i la divisa del país de residència del beneficiari, en lloc d'una decisió puntual de mercat. El mapa no canvia amb la cotització del dia.
+<!-- /exentax:lote30-native-v1:cambiar-divisas-llc-mejores-opciones-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -150,6 +156,14 @@ L'elecció de jurisdicció depèn sempre de la residència fiscal real del titul
 _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Wise, IBAN i LLC: què es reporta realment a Hisenda i què no](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
+- [ACH vs transferència bancària: terminis i impacte en el flux de la LLC](/ca/blog/ach-vs-transferencia-bancaria-terminis-de-pagament-i-impacte)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

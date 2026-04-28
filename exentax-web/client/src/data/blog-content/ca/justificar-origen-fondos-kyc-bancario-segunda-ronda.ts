@@ -85,6 +85,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
 
+<!-- exentax:lote20-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-ca -->
+## Com llegir la segona ronda del KYC bancari com a procediment ordenat i no com a crisi
+
+La segona ronda del KYC bancari es llegeix amb més calma quan es tracta com a procediment ordenat i no com a crisi. El banc, en la segona ronda, sol demanar no menys sinó més ben estructurats els comprovants: contractes, factures, extractes bancaris i una breu explicació escrita dels moviments, tots relacionats entre si.
+<!-- /exentax:lote20-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
@@ -118,6 +124,12 @@ La primera ronda de KYC es passa amb passaport i adreça. La segona ronda - que 
 A Exentax preparem el dossier de Source of Wealth/Funds abans de la primera operació significativa: documents, narrativa coherent i traducció jurada quan aplica - perquè la segona ronda no congeli la teva operativa.
 <!-- /exentax:execution-v2 -->
 
+<!-- exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-ca -->
+## Com llegir la segona ronda del KYC bancari com un procediment documentat en lloc d'una amenaça oberta
+
+La segona ronda del KYC bancari es llegeix de manera més serena com un procediment documentat — el banc vol completar el que faltava per tancar el dossier — que com una amenaça oberta sobre la relació. Una nota curta i datada al dossier bancari amb el que s'ha enviat fa la segona ronda més ràpida de tractar.
+<!-- /exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -147,6 +159,96 @@ Detall pràctic per fixar abans d'actuar. La major part del dany evitable que ve
 ### Pas 5. Enviar el paquet complet en un sol enviament
 
 Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
+
+<!-- exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+## Què comprova realment una segona ronda de KYC
+
+Una segona ronda de KYC rarament és el banc dubtant de tu
+personalment. És un procés periòdic que l'equip de compliance fa
+quan el perfil d'un compte i els seus moviments reals deixen de
+coincidir: una LLC oberta amb l'ús declarat "consultoria, volum
+baix" que ara rep payouts de marketplace, o un soci llistat com a
+resident fiscal espanyol amb despesa en targeta centrada en una
+altra jurisdicció. El banc està actualitzant el seu model del
+client, i els documents que demana volen confirmar que el model
+encara encaixa.
+
+Tres famílies cobreixen la major part de les peticions de segona
+ronda:
+
+| Família                    | Què vol realment el banc                              |
+|----------------------------|-------------------------------------------------------|
+| Origen dels fons           | D'on prové realment el diner que entra                |
+| Origen del patrimoni       | Com el soci ha bastit el patrimoni que capitalitza    |
+|                            | la LLC                                                 |
+| Ús del compte              | Què farà la LLC concretament en els pròxims 12 mesos  |
+
+Llegida en aquestes tres famílies, la resposta esdevé un paper curt
+i estructurat, no un munt de fitxers deslligats.
+
+## Tres casos reals que hem acompanyat amb clients
+
+Una LLC de dissenyadora bilingüe va rebre una petició de segona
+ronda després d'un augment dels payouts en EUR d'un marketplace. La
+neteja va ser una nota d'una pàgina amb el nom del marketplace, el
+mix típic de països dels clients, la cadència dels payouts i tres
+factures representatives. Sense estructura nova, sense compte nou,
+sense soroll. L'equip de compliance va marcar l'expedient com a
+complet en menys de deu dies hàbils.
+
+Una LLC de consultoria amb un únic client institucional gran va
+rebre una carta de segona ronda la setmana en què es va liquidar la
+primera factura. La resposta va ser una còpia del contracte marc de
+serveis, el registre de la transferència corresponent i una breu
+nota que explicava la facturació trimestral esperada de mida
+similar. La relació va continuar sense canvis.
+
+Una LLC de serveis operant des de Florida va rebre una petició
+després d'una transferència interna gran entre comptes del mateix
+soci. Vam re-titolar aquell moviment explícitament com una retirada
+del soci, vam adjuntar l'assentament comptable corresponent i vam
+afegir una nota prospectiva sobre el tractament futur de les
+retirades. El banc va tancar la petició i el client va mantenir el
+ritme operatiu.
+
+## Errors que converteixen una revisió calmada en una de lletja
+
+- Enviar PDFs sense nota de coberta. Els documents sols es llegeixen
+  com a proves d'una tesi no dita; els bancs volen primer la tesi
+  en un paràgraf, després les proves.
+- Reexplicar l'estructura de la LLC des de zero quan el banc ja la
+  té. Ancorar la resposta en allò que ha canviat des de
+  l'onboarding, no en allò que ja està arxivat.
+- Barrejar documents personals i professionals en el mateix upload.
+  Cada upload ha de ser un bundle ben tancat i nominat.
+- Prometre comportaments futurs i fer el contrari. Els bancs
+  rellegeixen l'expedient; la coherència escurça la revisió següent.
+
+## Plantilla d'una pàgina sobre origen dels fons
+
+- Trajectòria del soci: nacionalitat, residència fiscal, historial
+  professional (dues línies).
+- Finalitat de la LLC: activitat declarada, mix de països dels
+  clients, banda mensual d'ingrés esperat.
+- Capitalització: com els fons inicials van entrar a la LLC i d'on.
+- Ritme operatiu: patrons típics d'entrada i sortida en un trimestre
+  representatiu.
+- Nota prospectiva: qualsevol canvi esperat en els 12 mesos vinents.
+
+Tractem la segona ronda de KYC com un esdeveniment d'higiene
+normal, no com una amenaça. Ben feta, és el millor reforç de
+l'historial bancari de la LLC i l'assegurança més barata contra
+bloquejos futurs.
+
+<!-- /exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Due diligence bancària per a la teva LLC americana: el que verifiquen els bancs, amb calma](/ca/blog/due-diligence-bancari-per-a-la-teva-llc-americana-el-que)
+- [Compliment AML per a la teva LLC: el que has de saber de debò](/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber)
+- [Bancs tradicionals vs fintech per a la teva LLC: on té sentit obrir de debò](/ca/blog/bancs-tradicionals-vs-fintech-per-a-la-teva-llc-on-obrir-el)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

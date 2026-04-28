@@ -98,6 +98,20 @@ Les comparaisons et données quantitatives sur les juridictions citées s'appuie
 - **Espagne.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, arts. 8-9 sur la résidence et art. 100 sur la TFI) et régime spécial des impatriés (art. 93 LIRPF, "Loi Beckham").
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilier Deux (GloBE) et Modèle de Convention OCDE avec Commentaires.
 
+<!-- exentax:lote17-native-v1:iva-servicios-digitales-internacional-fr -->
+## Pourquoi la TVA sur les services numériques se traite par profils plutôt que par cas isolés
+
+La TVA sur les services numériques internationaux se traite plus efficacement par profils de clientèle que par opérations isolées. La raison est pratique : chaque profil (consommateur final dans l'UE, entreprise hors UE, plateforme jouant le rôle de fournisseur réputé) déclenche une logique de facturation et de déclaration différente, et tenter de raisonner opération par opération mène rapidement à des contradictions internes dans les registres.
+
+L'approche la plus stable consiste à classer la clientèle dès l'enregistrement dans le système de facturation, à documenter le motif du classement et à n'autoriser qu'un nombre limité de profils. Cette discipline réduit les exceptions, simplifie les rapprochements en fin de période et permet à la comptabilité de produire des registres lisibles sans avoir à reconstituer l'intention de chaque facture.
+<!-- /exentax:lote17-native-v1:iva-servicios-digitales-internacional-fr -->
+
+<!-- exentax:lote35-native-v1:iva-servicios-digitales-internacional-fr -->
+## Comment lire la TVA sur les services numériques internationaux comme une cartographie stable plutôt que comme un débat ponctuel par facture
+
+La TVA sur les services numériques internationaux se lit plus utilement comme une cartographie stable entre le pays du prestataire, le statut du client (entreprise enregistrée à la TVA ou consommateur final) et le pays de consommation, plutôt que comme un débat ponctuel par facture.
+<!-- /exentax:lote35-native-v1:iva-servicios-digitales-internacional-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -122,6 +136,16 @@ Vendre des services numériques (SaaS, infoproduits, abonnements, téléchargeme
 
 Chez Exentax nous révisons votre mix exact (B2B/B2C, UE/hors UE, plateforme) et configurons OSS, VIES et les mentions correctes - pour que le jour du contrôle le flux tienne tout seul.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:lote9-native-v1:iva-servicios-digitales-internacional -->
+## Une note finale sur la TVA des services numériques
+
+La TVA des services numériques est moins compliquée qu'on le
+dit, à condition de séparer clairement le pays du client B2B du
+pays du client B2C. Cette distinction simple résout la majorité
+des questions qui semblent, vues de loin, insolubles.
+
+<!-- /exentax:lote9-native-v1:iva-servicios-digitales-internacional -->
 
 <!-- exentax:cross-refs-v1 -->
 ### Lectures complémentaires

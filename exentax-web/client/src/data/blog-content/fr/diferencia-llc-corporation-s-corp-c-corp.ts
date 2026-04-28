@@ -86,6 +86,14 @@ Pour les non-résidents, la LLC reste l'option la plus courante car elle combine
 
 Le bon choix dépend de votre plan à 3-5 ans, pas de la mode du forum du moment.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Fiscalité transparente pour LLC : comment ça fonctionne et pourquoi c'est important](/fr/blog/fiscalite-transparente-pour-llc-comment-ca-fonctionne-et)
+- [Comment créer une LLC américaine étape par étape : guide complet](/fr/blog/comment-creer-une-llc-americaine-etape-par-etape-guide)
+- [Imposition de la LLC selon l'activité économique : services, e-commerce, SaaS](/fr/blog/imposition-de-la-llc-selon-lactivite-economique-services)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Découvrez si une LLC est faite pour vous</a>
 <!-- /exentax:calc-cta-v1 -->

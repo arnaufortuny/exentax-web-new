@@ -202,6 +202,85 @@ Thousands of freelancers and entrepreneurs already operate their US LLC fully le
   At Exentax we cover those five fronts every year alongside the US federal calendar (Form 5472, pro-forma 1120, FBAR, state Annual Report and BOI Report when applicable). The goal is that no inquiry finds a loose end and that the structure withstands a 5-to-7-year retroactive review.
 <!-- /exentax:defensa-fiscal-v1 -->
 
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+## A solid structure starts from the member, not the LLC
+
+A common mistake when designing an international structure is to
+start from the entity. The right starting point is the member: their
+tax residence, their personal balance sheet, the lifestyle and
+mobility plans for the next two to five years, and the activities
+the LLC will actually perform. Once that picture is honest and
+written down, the entity choice almost designs itself.
+
+| Member fact                              | Structural consequence                |
+|------------------------------------------|---------------------------------------|
+| Tax-resident in a country with effective | LLC remains transparent; income flows |
+| place of management rules                | through to home declarations          |
+| Mobile member, may relocate within 24 mo | structure must remain portable, light |
+| Member has US-source clients dominantly  | W-8 cycle and treaty claim are central|
+| Multiple business lines                  | one LLC per line, not one LLC for all |
+
+Starting from the member also removes the temptation to over-engineer
+with multi-layer holdings the activity does not need. A single
+operational LLC, kept clean and well documented, beats most
+"complex but elegant" diagrams in real-world reviews.
+
+## Three structures we have run with clients
+
+A consultant in Spain with EU and US clients runs a single-member
+LLC paired with a small Mercury + Wise stack. The income flows to
+her annual personal declaration; the LLC's pro-forma 1120 + 5472
+documents the related-party flows; no holding layer was needed.
+Total annual maintenance: light.
+
+A two-member team in Portugal and Germany runs an LLC together,
+with allocation defined in the operating agreement. Each member
+declares the proportional share at home; the LLC is the operational
+shell, not a holding. The structure is portable and survives a
+member relocation without redrawing the diagram.
+
+A founder with a SaaS line and a separate consulting line runs two
+LLCs, one per business line. Each one has its own books, its own
+bank stack and its own W-8 cycle. The separation simplifies sale
+optionality later (one line could be sold without affecting the
+other) and keeps reporting clean.
+
+## Mistakes to avoid in design
+
+- Designing the structure to chase a tax outcome the member's
+  residence does not allow. The home country's effective place of
+  management rules will eventually win.
+- Stacking holdings to "look corporate" when the activity is single-
+  person consulting. The complexity becomes its own risk surface.
+- Forgetting that BOI applies to the LLC and to its beneficial
+  owners, regardless of how clean the home declaration is.
+- Treating the operating agreement as boilerplate. It is the
+  foundational document that determines who signs, who decides and
+  how disputes are resolved.
+
+## Pre-design checklist
+
+- Member tax residence confirmed and documented.
+- Two-to-five-year mobility plan written down.
+- Activity description: clients by country, expected revenue band.
+- Bank stack pre-mapped (Mercury, Relay, Wise, Stripe roles).
+- Annual compliance calendar (1120 + 5472, BOI, state, CRS where
+  applicable, home-country declaration).
+
+We design every structure to be defensible in the only forum that
+matters: the home tax administration of the member. Everything else
+is downstream.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [US-Spain tax treaty applied to LLCs: practical reading](/en/blog/us-spain-tax-treaty-applied-to-llcs)
+- [IRS Form 1120 and 5472: what they actually are and when they apply](/en/blog/irs-form-1120-and-5472-what-they-actually-are-and-when-they)
+- [Self-employed in Spain vs US LLC: a side-by-side that actually helps](/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->

@@ -80,6 +80,14 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 
+<!-- exentax:lote29-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-pt -->
+## Como ler a mudança do prestador de manutenção da LLC como um mapeamento estável de transição em vez de uma rutura
+
+A mudança do prestador de manutenção da LLC lê-se de forma mais útil como um mapeamento estável de transição entre três passagens — Registered Agent, endereço postal, guarda dos documentos — do que como uma rutura. Cada passagem segue um padrão documentável independente do novo prestador.
+
+Uma nota curta e datada no ficheiro da LLC com a data e a referência de cada passagem torna a transição relevável em poucos minutos.
+<!-- /exentax:lote29-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -99,6 +107,14 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-pt -->
+## Porque é que mudar de prestador de manutenção se prepara como uma migração e não como uma rutura
+
+Mudar de prestador de manutenção de uma LLC sem perder a antiguidade prepara-se como uma migração e não como uma rutura. A diferença é concreta: uma migração começa por um inventário dos elementos a transferir (registered agent, datas de renovação, ficheiro informativo), define uma janela de comutação curta mas anunciada explicitamente, e reserva um período de sobreposição em que os dois prestadores estão alinhados nos mesmos prazos.
+
+Esta preparação evita os dois problemas mais frequentes: a perda de uma notificação importante durante a transição, e a divergência de informação entre o antigo e o novo prestador após a comutação. Uma vez encerrada a migração, a antiguidade permanece legível porque o ficheiro informativo permanece contínuo.
+<!-- /exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-pt -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
@@ -153,6 +169,29 @@ Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, �
 ### Passo 1. Diagnóstico do que está ligado ao prestador atual
 
 Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operacional antes do jurídico.
+
+<!-- exentax:lote8-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-bis -->
+## Uma observação final
+
+Uma mudança de prestador bem preparada é aborrecida — e essa é a
+sua melhor qualidade. Quando o dossiê está completo, a passagem
+decorre serena, sem fricção e sem perda de antiguidade da LLC.
+
+<!-- /exentax:lote8-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-bis -->
+
+<!-- exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-pt-bis -->
+## Como dimensionar a janela de sobreposição de forma realista
+
+A janela de sobreposição estabelece-se realisticamente entre duas e quatro semanas: curta o suficiente para não gerar duplicação de custos durante meses, e longa o suficiente para permitir uma transferência completa da informação e da correspondência em curso.
+<!-- /exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-pt-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Operar a sua LLC no dia-a-dia: 45-60 min/mês vs 8-10 h](/pt/blog/como-gerir-sua-llc-no-dia-a-dia-guia-pratico-para-nao)
+- [Tenho uma LLC nos EUA, estou a geri-la bem? Checklist real](/pt/blog/tenho-uma-llc-estou-a-gerir-bem-checklist-real)
+- [Erros críticos se já tem uma LLC americana e ninguém te explicou isto](/pt/blog/erros-criticos-se-ja-tens-uma-llc-e-ninguem-tas-explicou)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

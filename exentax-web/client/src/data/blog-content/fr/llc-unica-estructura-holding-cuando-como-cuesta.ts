@@ -99,6 +99,12 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.
 
+<!-- exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-fr -->
+## Comment lire la question de la LLC holding comme une cartographie structurelle plutôt que comme un choix de statut
+
+La question de la LLC holding se lit plus utilement comme une cartographie structurelle stable entre la LLC opérationnelle, la LLC holding et le bénéficiaire effectif, plutôt que comme un choix de statut. Cette cartographie ne change pas avec le résultat de l'année et reste relisible en quelques minutes lors d'une consultation.
+<!-- /exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -119,6 +125,12 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
 
+<!-- exentax:lote18-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-fr -->
+## Pourquoi le passage à une structure de holding se justifie par l'activité, pas par une projection théorique
+
+Le passage d'une LLC unique à une structure incluant un holding ne se justifie pas par une projection théorique d'avantages futurs ; il se justifie par une lecture honnête de l'activité telle qu'elle se présente déjà. Les indicateurs habituels d'un passage utile sont la diversification réelle des lignes d'activité, la présence de partenaires associés à certaines lignes seulement, ou un volume de distributions qui rend la séparation explicitement utile pour la planification.
+<!-- /exentax:lote18-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-fr -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
@@ -128,7 +140,17 @@ Les obligations <a href="https://www.fincen.gov" target="_blank" rel="noopener">
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
-- **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.<!-- exentax:execution-v2 -->
+- **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
+
+## Trois questions qu'on nous pose juste avant de franchir le pas
+
+**Faut-il fermer la LLC opérationnelle pour ouvrir la holding ?** Non. La LLC opérationnelle continue ; ce qui change, c'est la propriété : les parts sont contribuées à la holding via Operating Agreement et une mise à jour BOI déposée pour l'entité opérationnelle.
+
+**Y aura-t-il une coupure bancaire ?** Très brève. Mercury met à jour le KYC en quelques jours si la documentation est prête (chart de propriété, Operating Agreement, EIN de la holding). Nous coordonnons pour que les Stripe et Wise existants ne perdent jamais une journée d'encaissement.
+
+**Combien de temps faut-il prévoir au global ?** Trois mois sereins valent mieux qu'un mois bousculé. Nous séquençons : décision et chiffrage le premier mois, formation et onboarding bancaire le deuxième, première clôture consolidée le troisième.
+
+<!-- exentax:execution-v2 -->
 ## LLC unique ou structure holding? Quand, comment et combien coûte chaque option
 
 La question arrive quand la première année LLC a facturé décemment et que le deuxième projet, l'immeuble ou le SaaS apparaît. Tout dans la même LLC ou créer une holding avec filiales? La réponse dépend de quatre variables mesurables.
@@ -184,6 +206,14 @@ Ou appelez-nous directement au <a href="tel:+34614916910">+34 614 916 910</a> si
   ### Holding LLC unique : implications pour résidents fiscaux français
 
   Pour un résident fiscal français, la LLC holding unique est en pratique traitée comme une **société transparente** au sens du BOI-INT-DG-20-20-100 et de la jurisprudence du Conseil d'État (CE 391396 du 27/06/2018) si elle a opté pour le régime "disregarded entity" ou "partnership". Les revenus remontent au résident français et sont imposés à l'IR au taux marginal (jusqu'à 45 %) plus 17,2 % de prélèvements sociaux, avec crédit d'impôt USA selon la **convention franco-américaine du 31/08/1994** (art. 24).
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Holding d'entreprise : comment ça fonctionne vraiment](/fr/blog/holding-dentreprise-comment-ca-fonctionne)
+- [De single-member à multi-member LLC : implications fiscales réelles](/fr/blog/de-single-member-a-multi-member-llc-implications-fiscales)
+- [LLC vs Corporation, S-corp vs C-corp : le guide pratique](/fr/blog/difference-llc-vs-corporation-s-corp-c-corp-guide)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/services/llc-wyoming">Réserver une consultation gratuite</a>.

@@ -118,6 +118,16 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
+<!-- exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-en -->
+## How to read the Visa and Mastercard reporting question as a stable mapping rather than as a recurring rumour
+
+The Visa and Mastercard reporting question reads more calmly when it's treated as a stable mapping between the type of card, the issuer of the card, the country of the issuer and the channel through which information may reach the Spanish tax administration, than as a recurring rumour. The card networks themselves don't decide what's reported to whom — the legal channel that actually carries the information is set by the issuer's jurisdiction and by the agreements that apply to it. That mapping doesn't change month to month.
+
+A short note in the personal folder that records the type of card held, the issuer, the country of issuance and the legal holder of the underlying account turns the same question into something that's reviewable in a few minutes the next time it comes up, instead of being re-derived from memory under pressure of a notification or an inspection request.
+
+The same note also makes it much easier to align what's declared by the resident with what arrives through the exchange channel.
+<!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -199,6 +209,22 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 ### Practical reminder
 
 Each tax situation depends on your specific residency, the activity carried out and the contracts in force. The information here is general and does not replace personalised advice; check your particular case before taking structural decisions.
+
+<!-- exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-en -->
+## How card information actually reaches the Spanish tax authority
+
+The flow of information from card networks to the Spanish tax authority is more concrete than it sometimes sounds. The starting point is the Spanish bank or payment institution that issues the card or processes it; the network itself is the rail, not the reporting party. Spanish issuers and acquirers feed informative returns to the Agencia Tributaria on regular cycles, and those returns contain aggregate movements per holder rather than the line-by-line restaurant or store detail that consumers see on their statements. The information that travels is therefore numerical and structural: totals, counterparties at the merchant-aggregator level, and identifiers that allow the records to be linked back to a person or company.
+
+A second flow runs through the international information-exchange channels, where data on accounts held abroad is shared in standardised formats once a year. A card linked to a foreign account participates indirectly in this second flow because the underlying account is reportable. For an LLC member resident in Spain, the practical takeaway is that two parallel channels exist, that they overlap on the same person, and that they reconcile in the medium term. The simplest hygiene is to keep the LLC's card statements with the year's accounting record, so that any later question can be answered with a printed page and a number, without having to reconstruct the movement from memory.
+<!-- /exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-en -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [US bank accounts: what gets reported and how to organise your LLC](/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the)
+- [Wise, IBAN and LLC: what actually gets reported and what does not](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+- [DAC8 and crypto: automatic tax reporting of crypto-assets in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

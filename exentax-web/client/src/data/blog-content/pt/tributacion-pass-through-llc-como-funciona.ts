@@ -132,6 +132,14 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Tributação da LLC segundo a atividade económica: serviços, e-commerce, SaaS](/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos)
+- [Tributação da LLC por país de residência: o que se paga e onde](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
+- [Deduções fiscais para a sua LLC: o que pode deduzir e como](/pt/blog/deducoes-fiscais-para-sua-llc-o-que-pode-deduzir-e-como)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 

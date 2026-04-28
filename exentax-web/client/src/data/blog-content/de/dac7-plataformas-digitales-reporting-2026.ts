@@ -102,6 +102,12 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **Österreich (EStG, KStG).** Vergleichbare Logik: ausländische Personengesellschaft wird transparent behandelt (§ 23 EStG), Beilage E1kv für Kapitaleinkünfte, KZ 754 für ausländische Erträge mit Anrechnung. Die **Methode der Befreiung mit Progressionsvorbehalt** kommt bei aktiven Einkünften zur Anwendung; passive Einkünfte unterliegen der **Anrechnungsmethode** nach DBA Österreich–USA.
 - **Schweiz (DBG, StHG).** Die LLC wird je nach Kanton entweder als ausländische Personengesellschaft (Transparenz im Wertschriftenverzeichnis) oder als Kapitalgesellschaft qualifiziert. Die **Eidgenössische Steuerverwaltung (ESTV)** koordiniert die Behandlung mit den kantonalen Steuerverwaltungen. Bei wirtschaftlicher Doppelansässigkeit greift Art. 4 DBA Schweiz–USA mit Tie-Breaker-Tests.
 
+<!-- exentax:lote32-native-v1:dac7-plataformas-digitales-reporting-2026-de -->
+## Wie sich die DAC7-Plattform­meldung als stabile Jahres­kartografie statt als wiederkehrende Sorge lesen lässt
+
+Die DAC7-Plattform­meldung liest sich nützlicher als stabile Jahres­kartografie zwischen der Plattform, dem Wohnsitz­land des Verkäufers und dem ausgelösten Schwellen­wert denn als wiederkehrende Sorge.
+<!-- /exentax:lote32-native-v1:dac7-plataformas-digitales-reporting-2026-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -161,6 +167,14 @@ Tausende Selbstständige und Unternehmer operieren bereits mit ihrer US-LLC zu 1
 
 Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/buchen">Buchen Sie eine Sitzung mit dem Exentax-Team</a> und wir prüfen Ihre LLC mit echten Zahlen in dreißig Minuten, ohne Verpflichtung.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [DAC8 und Krypto: automatische steuerliche Meldung 2026](/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche)
+- [Auf Amazon verkaufen mit Ihrer US LLC: vollständiger Leitfaden](/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger)
+- [MwSt. auf internationale digitale Dienstleistungen: Wann sie gilt](/de/blog/mwst-auf-internationale-digitale-dienstleistungen-wann-sie)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

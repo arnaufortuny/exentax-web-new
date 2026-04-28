@@ -139,6 +139,12 @@ Now that you have the full context, the natural next step is to map it against y
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote32-native-v1:criptomonedas-trading-llc-impuestos-en -->
+## How to read the crypto-trading LLC question as a stable structural mapping rather than as a community shortcut
+
+The crypto-trading LLC question reads more usefully as a stable structural mapping between the residence of the beneficial owner, the type of activity (occasional vs habitual) and the corresponding tax treatment, than as a community shortcut. The mapping doesn't change with the season.
+<!-- /exentax:lote32-native-v1:criptomonedas-trading-llc-impuestos-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -187,6 +193,12 @@ At Exentax we model the crypto reporting at residency, prepare Modelo 721 and Ko
 ## Your next step with Exentax
 
 Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+
+<!-- exentax:lote15-native-v1:criptomonedas-trading-llc-impuestos-en -->
+## Why crypto taxation is rarely just about crypto
+
+The tax treatment of cryptocurrency activity inside an LLC is rarely a clean, isolated topic. It usually depends on three other things at the same time: how the broker or exchange reports the activity, when fiat conversions happen relative to the trades themselves, and how the holding period is documented. Each of these influences which figure ultimately reaches the personal return of the member, and overlooking any of them tends to cause the kind of late discrepancy that is then expensive to reconcile. The simplest hygiene is to keep, for each calendar year, a single working file that reconciles the LLC's accounting record with the broker statements and with the on-chain history.
+<!-- /exentax:lote15-native-v1:criptomonedas-trading-llc-impuestos-en -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

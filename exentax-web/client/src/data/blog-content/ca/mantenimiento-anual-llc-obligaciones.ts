@@ -122,6 +122,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote32-native-v1:mantenimiento-anual-llc-obligaciones-ca -->
+## Com llegir el manteniment anual de la LLC com un mapatge anual estable
+
+El manteniment anual de la LLC es llegeix com un mapatge anual estable entre l'estat, el registered agent i les obligacions.
+<!-- /exentax:lote32-native-v1:mantenimiento-anual-llc-obligaciones-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -199,6 +205,20 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote15-native-v1:mantenimiento-anual-llc-obligaciones-ca -->
+## Per què el manteniment anual d'una LLC funciona millor quan és al calendari
+
+El manteniment anual d'una LLC funciona millor quan reposa sobre un calendari fix i no sobre la memòria. Tres dates suporten el gruix de la càrrega: la renovació al nivell de l'estat, el cicle informatiu federal i el tancament comptable. Un cop aquestes tres dates inscrites a l'inici de l'any i lligades a una sola carpeta de treball, el ritme esdevé rutina i les sorpreses desagradables es tornen rares.
+<!-- /exentax:lote15-native-v1:mantenimiento-anual-llc-obligaciones-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [El teu primer mes amb una LLC americana: el que esperar setmana a setmana](/ca/blog/el-teu-primer-mes-amb-una-llc-americana-el-que-esperar)
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Revisem BOI, EIN, agent registrat i obligacions federals perquè cap multa et pugui sorprendre. <a href="/ca/serveis">Demanar revisió de compliance</a>.

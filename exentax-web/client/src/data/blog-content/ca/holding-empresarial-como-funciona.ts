@@ -154,7 +154,17 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
-A Exentax muntem l'estructura perquè encaixi al primer escenari i documentem cada pas perquè la teva declaració local sigui defensable davant d'una eventual revisió.<!-- exentax:execution-v2 -->
+A Exentax muntem l'estructura perquè encaixi al primer escenari i documentem cada pas perquè la teva declaració local sigui defensable davant d'una eventual revisió.
+
+## Tres preguntes que rebem en cada primera trucada
+
+**Una holding fa baixar els impostos automàticament?** No. Organitza fluxos i protegeix del risc; l'estalvi fiscal arriba després, segons on aterren els dividends i quina és la residència. Modelem sempre el flux net abans de recomanar el pas.
+
+**Puc migrar la meva LLC actual a una estructura holding?** Sí, generalment via aportació de participacions, amb un Operating Agreement renovat i una actualització BOI dipositada. El moment delicat és el salt single-member → multi-member, no la paperassa de la holding.
+
+**Quan és excessiu posar una holding?** Si el benefici net anual queda clarament per sota de les cinc xifres mitjanes en USD i només hi ha una LLC operativa, la holding suma cost sense benefici. Ho diem amb franquesa a la primera conversa.
+
+<!-- exentax:execution-v2 -->
 ## Holding empresarial: com funciona de debò i quan t'estalvia diners (i quan no)
 
 Una holding no és un truc fiscal automàtic: és una estructura societària que centralitza participacions per optimitzar dividends intragrup, plusvàlues per venda i planificació successòria. Ben dissenyada estalvia impostos reals; mal dissenyada només afegeix comptabilitat. Això és el que convé saber abans de muntar-la.
@@ -191,6 +201,15 @@ _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no
 
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
+
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [D'una LLC única a estructura holding: quan, com i quant costa](/ca/blog/duna-llc-unica-a-estructura-holding-quan-com-i-quant-costa)
+- [De single-member a multi-member LLC: implicacions fiscals reals](/ca/blog/de-single-member-a-multi-member-llc-implicacions-fiscals)
+- [LLC vs Corporation, S-corp vs C-corp: la guia pràctica](/ca/blog/diferencia-llc-vs-corporation-s-corp-c-corp-guia)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

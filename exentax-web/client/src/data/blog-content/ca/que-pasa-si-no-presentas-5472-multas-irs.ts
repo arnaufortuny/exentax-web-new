@@ -118,6 +118,18 @@ Per acabar amb el concret, aquests són els errors que a Exentax veiem repetir m
 
 El Form 5472 és un dels pocs casos on el cost de **no fer res** és geomètricament superior al cost de fer-ho bé. La base de 25.000 USD per any no es discuteix; el que es discuteix és **com regularitzes, en quin ordre, amb quina argumentació i quins riscos col·laterals tanques alhora**.
 
+<!-- exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
+## Com llegir les conseqüències de no presentar el Form 5472 com un mapatge estable en lloc d'una amenaça vaga
+
+Les conseqüències de no presentar el Form 5472 es llegeixen de manera més útil com un mapatge estable entre l'any afectat, el tipus d'omissió i el tipus de remediació, en lloc d'una amenaça vaga. Aquest mapatge es manté consultable en pocs minuts en una conversa amb un assessor — una nota curta i datada al dossier personal amb els tres eixos és suficient, i aquesta és la lectura més serena de la situació en una conversa amb un consultor fiscal.
+<!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
+
+<!-- exentax:lote32-native-v1-bis:que-pasa-si-no-presentas-5472-multas-irs-ca -->
+## Per què la nota s'organitza per any i no per moviment individual
+
+La nota s'organitza per any i no per moviment individual, perquè la remediació es refereix a l'any afectat i aquesta visió manté la granularitat correcta per a una revisió posterior.
+<!-- /exentax:lote32-native-v1-bis:que-pasa-si-no-presentas-5472-multas-irs-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -184,6 +196,22 @@ A Exentax portem regularitzacions de 5472 endarrerits.
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
+
+<!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
+## Per què la sanció del Form 5472 escala més de pressa que altres presentacions tardanes
+
+La sanció del Form 5472 té una estructura que escala més de pressa que la majoria d'altres presentacions tardanes, i la raó rau en el paper del formulari dins del règim d'informació nord-americà més ampli. El formulari està pensat per donar a l'IRS una visió neta de les operacions entre parts relacionades amb titulars estrangers, i el règim sancionador reflecteix quant central és aquesta visibilitat per al sistema, i no la complexitat del formulari mateix. L'import de partida és fix per formulari i any i s'aplica independentment que hi hagi impost a pagar, i pot agreujar-se quan els avisos no es tracten dins de les finestres legals.
+
+Dos punts pràctics eliminen la major part de la fricció. Primer, existeixen criteris d'abatement quan hi ha causa raonable, i una narrativa calmament redactada amb suport en els recordatoris d'agenda originals, la carta d'encàrrec i la data de primera presentació pesa en general més que una carta més llarga escrita sota pressió més tard. Segon, la mesura preventiva més neta és alinear el calendari d'avisos amb el cicle federal d'extensió i mantenir un únic fitxer de treball per any que ja contingui la llista d'operacions entre parts relacionades, de manera que el formulari en si sigui només el pas final de formatació.
+<!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Form 5472: què és, qui l'ha de presentar i com complir](/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir)
+- [Recuperar una LLC amb BOI i 5472 endarrerits: procediment real](/ca/blog/recuperar-una-llc-amb-boi-i-5472-endarrerits-procediment)
+- [IRS 1120 i 5472: què són realment i quan apliquen a la teva LLC](/ca/blog/irs-1120-i-5472-que-son-realment-i-quan-apliquen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

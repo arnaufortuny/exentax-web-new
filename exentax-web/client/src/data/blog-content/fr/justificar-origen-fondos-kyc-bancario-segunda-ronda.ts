@@ -118,6 +118,12 @@ Le premier tour KYC passe avec passeport et adresse. Le second tour - qui arrive
 Chez Exentax nous préparons le dossier Source of Wealth/Funds avant la première opération significative: documents, narrative cohérente et traduction assermentée si nécessaire - pour que le second tour ne gèle pas votre opérationnel.
 <!-- /exentax:execution-v2 -->
 
+<!-- exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-fr -->
+## Comment lire la deuxième manche du KYC bancaire comme une procédure documentée plutôt que comme une menace ouverte
+
+La deuxième manche du KYC bancaire se lit plus sereinement comme une procédure documentée — le banquier demande à compléter ce qui manquait pour clore le dossier — que comme une menace ouverte sur la relation. Les pièces demandées suivent un schéma stable : justificatif de l'origine des fonds, contexte de l'activité, confirmation du bénéficiaire effectif. Une courte note dans le dossier qui consigne ce qui a été transmis et à quelle date rend la deuxième manche plus rapide à traiter.
+<!-- /exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -146,6 +152,94 @@ Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme 
 ### Étape 3. Préparer la description du business en une page
 
 Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
+
+<!-- exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+## Ce qu'une seconde ronde de KYC vérifie vraiment
+
+Une seconde ronde de KYC est rarement la banque qui doute de vous
+personnellement. C'est un processus périodique de l'équipe
+conformité, déclenché quand le profil d'un compte et ses mouvements
+réels ne s'accordent plus : une LLC ouverte avec un usage déclaré
+"consulting, faibles volumes" qui reçoit désormais des payouts de
+marketplace, ou un membre déclaré résident fiscal espagnol dont les
+dépenses carte semblent centrées sur une autre juridiction. La
+banque met à jour son modèle du client, et les documents demandés
+visent à confirmer que ce modèle reste valable.
+
+Trois familles couvrent la plupart des demandes de seconde ronde :
+
+| Famille                     | Ce que la banque veut réellement                          |
+|-----------------------------|-----------------------------------------------------------|
+| Origine des fonds           | D'où provient réellement l'argent qui entre               |
+| Origine du patrimoine       | Comment le membre a constitué le patrimoine qui capitalise|
+| Usage du compte             | Ce que la LLC va faire concrètement dans les 12 prochains mois |
+
+Lue dans ces trois familles, la réponse devient une note courte et
+structurée, plutôt qu'un tas de fichiers déconnectés.
+
+## Trois cas réels que nous avons accompagnés
+
+Une LLC de designer bilingue a reçu une demande de seconde ronde
+après une hausse de payouts EUR depuis un marketplace. Le nettoyage
+a tenu en une note d'une page nommant le marketplace, le mix typique
+de pays clients, la cadence des payouts et trois factures
+représentatives. Pas de nouvelle structure, pas de nouveau compte,
+pas d'agitation. L'équipe conformité a marqué le dossier complet en
+moins de dix jours ouvrables.
+
+Une LLC de conseil avec un seul gros client institutionnel a reçu
+une lettre de seconde ronde la semaine du règlement de la première
+facture. La réponse a été une copie du contrat de services, la trace
+de virement correspondante et une note courte expliquant la
+facturation trimestrielle attendue de taille similaire. La relation
+s'est poursuivie sans changement.
+
+Une LLC de services opérant depuis la Floride a reçu une demande
+après un gros transfert interne entre comptes du même membre. Nous
+avons re-titré ce mouvement explicitement comme un retrait du membre,
+joint l'écriture comptable correspondante et ajouté une note
+prospective sur le traitement futur des retraits. La banque a clos
+la demande et le client a conservé son rythme opérationnel.
+
+## Erreurs qui transforment une revue calme en revue laide
+
+- Envoyer des PDF sans note de couverture. Les documents seuls se
+  lisent comme des preuves pour une thèse non énoncée ; les banques
+  veulent d'abord la thèse en un paragraphe, puis les preuves.
+- Réexpliquer la structure de la LLC depuis zéro alors que la banque
+  l'a déjà. Ancrer la réponse dans ce qui a changé depuis
+  l'onboarding, pas dans ce qu'ils ont déjà.
+- Mélanger documents personnels et documents pro dans le même envoi.
+  Chaque envoi doit être un bundle serré et nommé.
+- Promettre un comportement futur puis faire l'inverse. Les banques
+  relisent le dossier ; la cohérence raccourcit la revue suivante.
+
+## Modèle de note d'une page sur l'origine des fonds
+
+- Parcours du membre : nationalité, résidence fiscale, historique
+  professionnel (deux lignes).
+- But de la LLC : activité déclarée, mix pays clients, fourchette
+  mensuelle de revenus attendus.
+- Capitalisation : comment les fonds initiaux sont entrés dans la
+  LLC et d'où.
+- Rythme opérationnel : schémas typiques d'entrées et de sorties sur
+  un trimestre représentatif.
+- Note prospective : tout changement attendu sur 12 mois.
+
+Nous traitons la seconde ronde KYC comme un événement d'hygiène
+normal plutôt que comme une menace. Bien menée, c'est le meilleur
+renforcement de l'historique bancaire de la LLC et la moins chère
+des assurances contre de futurs blocages.
+
+<!-- /exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Due diligence bancaire pour votre LLC américaine : ce que vérifient les banques, posément](/fr/blog/due-diligence-bancaire-pour-votre-llc-ce-que-verifient-les)
+- [Conformité AML pour votre LLC : ce qu'il faut vraiment savoir](/fr/blog/conformite-aml-pour-votre-llc-ce-que-vous-devez-savoir)
+- [Banques traditionnelles vs fintech pour votre LLC : où ouvrir vraiment a du sens](/fr/blog/banques-traditionnelles-vs-fintech-pour-votre-llc-ou-ouvrir)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

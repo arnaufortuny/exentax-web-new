@@ -141,6 +141,14 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Convention Espagne–États-Unis.** La convention (BOE 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
+<!-- exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-fr -->
+## Comment lire la convention de double imposition Espagne-USA comme une cartographie stable entre résidence et source plutôt que comme un raccourci générique
+
+La convention de double imposition Espagne-USA se lit plus utilement comme une cartographie stable entre le pays de résidence fiscale du bénéficiaire et le pays de la source de chaque type de revenu, plutôt que comme un raccourci générique pour « ne pas payer deux fois ». La convention ne remplace pas les règles de résidence de chaque pays : elle organise un mode de coordination, type de revenu par type de revenu.
+
+Une note courte et datée dans le dossier personnel, qui consigne le pays de résidence déclaré pour l'année, les types de revenus reçus et le côté où chacun a été imposé en premier, rend la position relisible en quelques minutes lors d'un échange avec un conseiller fiscal, sans avoir à reconstruire l'année de mémoire.
+<!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -186,6 +194,34 @@ Notre position ici est délibérément prudente: nous optimisons pour ce qui ré
 
 Nous traitons ce bloc comme l'une des décisions structurantes de la stratégie LLC: un faux pas ici et le reste de la structure perd en fiscalité, en accès bancaire ou en conformité. Les notes qui suivent reflètent ce que nous faisons réellement avec des clients dans ce cas précis, en priorisant les variables qui changent vraiment le résultat.
 
+
+
+## Article 7 (bénéfices d'entreprise) en langage clair
+
+L'article 7 de la convention USA-Espagne est la pièce centrale pour la plupart des LLC américaines détenues par des résidents fiscaux espagnols. Sa logique : les bénéfices d'une entreprise sont imposables uniquement dans l'État de résidence de l'entreprise, sauf si elle exerce son activité dans l'autre État via un *établissement stable* (permanent establishment).
+
+Pour une LLC disregarded entity sans bureau, sans personnel et sans dépendance d'un agent permanent aux US, la lecture habituelle est : pas d'établissement stable américain, donc pas d'imposition fédérale sur les bénéfices opérationnels. La transparence fiscale fait que les revenus remontent au membre, qui les déclare dans son pays de résidence — l'Espagne — au Modelo 100 dans la catégorie correspondante (rendements d'activités économiques le plus souvent).
+
+Trois pièges méritent une attention soignée. Premier piège : louer un bureau partagé aux US ou employer une personne sur place crée un établissement stable et change tout l'équilibre. Deuxième piège : revendre des produits physiques avec entrepôt américain peut, selon le volume et la structure, faire basculer l'analyse vers une activité commerciale soumise à l'impôt fédéral. Troisième piège : confondre l'absence d'impôt fédéral avec l'absence d'obligations déclaratives — le 5472 et le 1120 pro-forma restent dus chaque année.
+
+## Si l'AEAT vous interroge sur votre LLC
+
+Cela arrive plus souvent qu'on ne le pense, et presque toujours après le dépôt du Modelo 100 ou du Modelo 720. La requête est légitime : l'AEAT veut comprendre la nature de l'entité, l'origine des revenus et la cohérence avec ce qui est déclaré. Trois documents font la différence quand la lettre arrive.
+
+**Le dossier d'entité.** Operating Agreement signé, attestation EIN (CP-575 ou 147C), justificatif de l'État de constitution, contrat avec le Registered Agent, dépôt BOI initial. Ce dossier prouve l'existence et la régularité de la LLC ; il est demandé en premier.
+
+**La trace bancaire et opérationnelle.** Relevés Mercury et Wise sur les 24 derniers mois, factures émises avec mention de la LLC, contrats client significatifs, copies des Form 5472 déposés. Cette trace prouve que la LLC opère réellement et que les revenus déclarés en Espagne correspondent à des flux documentés.
+
+**La lecture du convenio.** Une note d'une à deux pages qui explique la position de l'entité au regard de l'article 7 (pas d'établissement stable américain, transparence fiscale, imposition en Espagne). Cette note se prépare *avant* la lettre de l'AEAT, dans le cadre normal de l'organisation annuelle, et se met à jour en cas de changement structurel.
+
+Notre équipe coordonne ce dossier avec votre conseiller fiscal espagnol et le tient prêt en permanence. Une réponse organisée et complète à l'AEAT en deux semaines vaut mieux qu'une réponse improvisée en deux mois ; c'est notre standard pour chaque mandant que nous accompagnons à l'année.
+
+
+
+### Le réflexe annuel que nous installons avec chaque mandant
+
+Une fois l'année fiscale espagnole bouclée, nous datons et archivons trois pièces : le Modelo 100 déposé, la note d'application du convenio mise à jour et l'inventaire des relevés Mercury-Wise des douze mois écoulés. Ce trio se prépare en moins d'une heure et fait gagner des semaines si l'AEAT ouvre une vérification deux ans plus tard.
+
 <!-- exentax:execution-v2 -->
 ## Comment la convention USA-Espagne s'applique à votre LLC, clause par clause
 
@@ -208,6 +244,23 @@ Chez Exentax nous mappons chaque flux de votre LLC contre l'article applicable d
 ## Comment cela fonctionne pour les LLC disregarded entity
 
 Ce qui suit est la vision opérationnelle, pas celle des manuels. Nous avons exécuté ce schéma assez souvent pour savoir quelles variables cèdent en premier sous l'examen d'une administration fiscale ou d'une compliance bancaire, et c'est dans cet ordre que nous les traitons.
+
+
+<!-- exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-fr -->
+## Comment la convention États-Unis–Espagne s'applique en pratique à une LLC unipersonnelle
+
+La convention entre l'Espagne et les États-Unis s'applique au niveau des personnes, pas au niveau des véhicules transparents. Une LLC unipersonnelle traitée comme disregarded entity côté américain est en général regardée à travers, et les questions pertinentes se posent au niveau de la personne physique qui en est le membre. Lorsque cette personne est résidente fiscale en Espagne, l'Espagne taxera selon ses propres règles le revenu mondial attribué à travers la LLC, et la convention répartira les droits d'imposition entre les deux pays catégorie par catégorie.
+
+En pratique, trois articles font l'essentiel du travail dans une année calme : l'article sur la résidence, qui détermine quel pays a les droits d'imposition primaires lorsque les deux pourraient autrement les revendiquer ; l'article sur les bénéfices des entreprises, qui exige en général un établissement stable dans l'autre pays avant que celui-ci ne puisse imposer les bénéfices opérationnels ; et l'article sur l'élimination de la double imposition, qui fixe l'ordre dans lequel les crédits sont appliqués. Aucun de ces articles ne produit seul un résultat automatique. Ce sont des outils qui demandent une documentation constante : certificats de résidence, comptabilité alignée sur l'année calendaire utilisée dans chaque pays, et trace claire de l'endroit où l'activité économique a réellement eu lieu. Un dossier de travail contenant ces trois pièces, rafraîchi une fois par an, supprime la majeure partie de la friction que la convention est censée supprimer.
+<!-- /exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-fr -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Fiscalité transparente pour LLC : comment ça fonctionne et pourquoi c'est important](/fr/blog/fiscalite-transparente-pour-llc-comment-ca-fonctionne-et)
+- [Exit tax Espagne avec LLC, crypto et Interactive Brokers](/fr/blog/exit-tax-espagne-llc-crypto-interactive-brokers)
+- [Fiscalité de la LLC par activité : services, ecommerce, SaaS, royalties, trading](/fr/blog/imposition-de-la-llc-selon-lactivite-economique-services)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

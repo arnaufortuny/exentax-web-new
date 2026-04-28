@@ -164,6 +164,14 @@ Vous préférez un créneau ? <a href="/fr/reserver">Réservez une session gratu
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Operating Agreement : ce que c'est et pourquoi votre LLC en a besoin](/fr/blog/operating-agreement-quest-ce-que-cest-et-pourquoi-votre-llc)
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Nous comparons le Nouveau-Mexique, le Wyoming, le Delaware et la Floride sur votre cas réel — sans vous vendre l'État à la mode. <a href="/fr/services/llc-wyoming">Comparer mon cas avec un conseiller</a>.
 <!-- /exentax:cta-v1 -->

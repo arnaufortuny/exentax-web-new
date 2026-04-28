@@ -115,6 +115,12 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
+<!-- exentax:lote27-native-v1:impuestos-clientes-internacionales-espana-ca -->
+## Com llegir la qüestió dels clients internacionals a Espanya com un mapatge estable
+
+La qüestió de la tributació de clients internacionals per a un treballador autònom resident a Espanya es llegeix de manera més útil com un mapatge estable entre el tipus de client i el país de residència del client.
+<!-- /exentax:lote27-native-v1:impuestos-clientes-internacionales-espana-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -167,6 +173,14 @@ A Exentax revisem el teu mix de clients (B2B/B2C, UE/no-UE, digital/consultiu), 
 ## T'ho muntem sense que perdis un cap de setmana
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Fiscalitat internacional per a emprenedors digitals: guia completa](/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

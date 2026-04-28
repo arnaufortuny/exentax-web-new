@@ -59,6 +59,12 @@ L'avantatge fiscal és igualment notable: sense doble imposició societària i, 
 
 **Cas 3. Autònom alt ingrés.** Factures 100.000 €, despeses 15.000 €. Rendiment net 85.000 € (7.083 €/mes, tram 15). Quota mensual 604,80 €, anual 7.257,60 € (7,3%). IRPF estimat: 35.000 €. Total 42.257,60 € (42,3%). Net 57.742,40 €. Amb LLC: quota 0 €, IRPF 35.000 €, total 35.000 € (35%), net 65.000 €. **Estalvi anual: 7.257,60 €.**
 
+<!-- exentax:lote34-native-v1:cuotas-autonomos-2026-guia-completa-ca -->
+## Com llegir la qüestió de les quotes d'autònoms com un mapatge anual estable en lloc d'una xifra en moviment
+
+La qüestió de les quotes d'autònoms es llegeix com un mapatge anual estable entre la base de cotització, la quota corresponent i les prestacions públiques associades a aquesta base.
+<!-- /exentax:lote34-native-v1:cuotas-autonomos-2026-guia-completa-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -131,6 +137,14 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Quota d'autònom a Espanya 2026: el que pagues realment cada mes](/ca/blog/quota-autonom-2026-trams-explicacio)
+- [Per què els freelancers espanyols estan deixant l'autònom en silenci](/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per)
+- [LLC americana com a alternativa a ser autònom a Espanya: quan té sentit](/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.

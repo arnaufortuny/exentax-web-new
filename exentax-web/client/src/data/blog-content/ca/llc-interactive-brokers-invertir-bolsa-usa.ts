@@ -125,6 +125,20 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
+<!-- exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-ca -->
+## Com llegir la configuració LLC + Interactive Brokers com un mapatge operatiu estable en lloc d'una combinació oportunista
+
+La configuració LLC + Interactive Brokers es llegeix de manera més útil com un mapatge operatiu estable entre el titular del compte de corretatge, el país de residència del beneficiari i el tipus d'activitat allotjada a la LLC, en lloc d'una combinació oportunista. Aquest mapatge no canvia amb la direcció del mercat.
+
+Una nota curta al dossier de la LLC que registri el titular del compte, la data d'obertura i l'activitat allotjada converteix la configuració en una cosa rellegible en pocs minuts pel membre.
+<!-- /exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-ca -->
+
+<!-- exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-ca -->
+## Com rellegir la configuració sense partir de zero a cada conversa amb un assessor
+
+Una nota curta i datada, que registri el titular del compte, el país de residència del beneficiari i el tipus d'activitat allotjada a la LLC, n'hi ha prou per rellegir la configuració en pocs minuts en una conversa amb un assessor fiscal, sense haver-la de reconstruir de memòria ni reobrir el dossier sencer.
+<!-- /exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -193,6 +207,14 @@ L'elecció de jurisdicció depèn sempre de la residència fiscal real del titul
 _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+- [Exit Tax a Espanya: impost de sortida per a cripto, LLC i brokers](/ca/blog/exit-tax-espanya-llc-cripto-interactive-brokers)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

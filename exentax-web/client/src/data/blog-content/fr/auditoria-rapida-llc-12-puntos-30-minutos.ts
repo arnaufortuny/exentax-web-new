@@ -82,6 +82,12 @@ Si vous voulez valider si cette stratégie correspond à votre situation concrè
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr -->
+## Comment lire l'audit rapide LLC en 12 points comme un contrôle de santé récurrent plutôt que comme un exercice ponctuel
+
+L'audit rapide LLC en 12 points se lit plus utilement comme un contrôle de santé récurrent répété chaque trimestre que comme un exercice ponctuel. Les 12 points ne changent pas d'une session à l'autre, seuls les éléments qui demandent attention bougent, et une note courte et datée dans le dossier LLC permet à la révision suivante de reprendre exactement là où la précédente s'est arrêtée.
+<!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -145,6 +151,20 @@ Un audit utile ne cherche pas de coupables: il met la LLC en ordre en moins de t
 
 Pour appliquer le même protocole maintenant, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes: vous recevez le rapport avec priorités et coût réel de mise à niveau, sans engagement.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr-bis -->
+## Comment fixer la fenêtre trimestrielle de l'audit dans le calendrier
+
+La fenêtre trimestrielle de l'audit gagne à être inscrite dans le calendrier au même titre qu'une réunion régulière, avec une heure de début et une durée de trente minutes, plutôt que d'être planifiée à la dernière minute.
+<!-- /exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [J'ai une LLC américaine : est-ce que je la gère bien ? Checklist](/fr/blog/jai-une-llc-est-ce-que-je-la-gere-correctement-checklist)
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+- [Problèmes courants LLC et comment les éviter : leçons de vrais clients](/fr/blog/problemes-courants-llc-et-comment-les-eviter-lecons-de-vrais)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

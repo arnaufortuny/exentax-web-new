@@ -138,6 +138,14 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
 
 Aquest article s'actualitza anualment amb els canvis normatius que afecten les estructures tractades. Si detectes una referència desactualitzada, escriu-nos i la revisarem al pròxim cicle editorial; mantenim la data de publicació visible a la part superior de cada article per a total transparència.
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [LLC americana per a desenvolupadors de programari i SaaS: guia](/ca/blog/llc-americana-per-a-desenvolupadors-de-programari-i)
+- [LLC americana per a creadors de contingut: YouTube, Twitch i més](/ca/blog/llc-americana-per-a-creadors-de-contingut-youtube-twitch-i)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 

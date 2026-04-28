@@ -150,6 +150,18 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote32-native-v1:llc-alternativa-autonomo-espana-de -->
+## Wie sich der Vergleich LLC gegen spanisches Autónomo als stabile Profil­karte statt als Community-Debatte lesen lässt
+
+Der Vergleich LLC gegen spanisches Autónomo liest sich nützlicher als stabile Profil­karte zwischen dem Wohnsitz­land des wirtschaftlich Berechtigten, dem Land der Wertschöpfung und dem Land der Kunden denn als Community-Debatte. Diese Profil­karte ändert sich nicht mit der Saison, und eine kurze, datierte Notiz im persönlichen Ordner mit den drei Achsen macht die Position in wenigen Minuten überprüfbar.
+<!-- /exentax:lote32-native-v1:llc-alternativa-autonomo-espana-de -->
+
+<!-- exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-de -->
+## Warum die Notiz pro Achse und nicht pro Jurisdiktion organisiert sein sollte
+
+Die Notiz organisiert sich pro Achse — Wohnsitz, Wertschöpfung, Kunden­markt — und nicht pro Jurisdiktion, weil die Achsen stabil bleiben, während sich der Marketing-Diskurs einer einzelnen Jurisdiktion mit der Saison ändert. Eine kurze Notiz pro Achse genügt für die Position.
+<!-- /exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -162,6 +174,14 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de -->
+## Warum der Vergleich zwischen LLC und spanischem Selbstständigenregime auf Profile beruhen muss und nicht nur auf Kosten
+
+Eine US-LLC mit dem spanischen Selbstständigenregime zu vergleichen, funktioniert am besten, wenn der Vergleich auf das operative Profil aufgebaut wird und nicht auf eine Liste von plakativen Kosten. Zwei operative Profile, die in einer Oberflächenbeschreibung ähnlich aussehen, können sehr unterschiedliche praktische Ergebnisse erzeugen, sobald Rechnungsgeografie, Währungsmix und Kundenmix berücksichtigt werden.
+
+Die sauberste Art, den Vergleich lesbar zu machen, besteht darin, das operative Profil in einem Absatz aufzuschreiben und dann jedes Merkmal des Profils dem einen oder anderen Regime zuzuordnen. Dieser Ansatz macht die Trade-offs explizit und vermeidet die Falle, ein einziges attraktives Merkmal eine Entscheidung treiben zu lassen, die die gesamte Struktur betrifft.
+<!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -185,6 +205,28 @@ Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses
 ## Bank- und Steuerfakten, die es zu präzisieren gilt
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
+
+
+
+## Praktischer Übergang vom Autónomo-Status zur LLC
+
+Wer aus dem spanischen Autónomo-Status heraus eine LLC nutzt, sollte den Übergang als Projekt mit drei Phasen denken: Vorbereitung, Umstellung und Stabilisierung. Es ist kein Schalter, den man umlegt; es ist ein Quartal, das man begleitet.
+
+### Phase 1: Vorbereitung (zwei bis vier Wochen)
+
+Bestandsaufnahme der laufenden Verträge, Identifikation der Kunden, mit denen sich die Rechnungsstellung von einer EU-Steuernummer auf eine US-LLC umstellen lässt, und ein Steuergespräch über die spanische Seite: Erklärung der LLC-Einkünfte über Modelo 100, Modelo 720 für ausländische Konten ab den geltenden Schwellenwerten, und Auswirkungen auf die SEPE-Beiträge. Parallel: LLC-Gründung in Wyoming, Delaware oder New Mexico, EIN, BOI, Mercury-Onboarding und Registered Agent.
+
+### Phase 2: Umstellung (einer bis zwei Monate)
+
+Einer der häufigsten Fehler ist die abrupte Migration aller Kunden in einer Woche. Wir empfehlen die schrittweise Umstellung: pro Kunde einen klaren Stichtag, neue Rechnungsadresse mit der LLC, neue Bankverbindung Mercury, ggf. neuer Vertrag oder ein kurzer Anhang. Der Autónomo-Status bleibt zunächst aktiv, um die laufenden EU-Rechnungen sauber abzuwickeln. Erst wenn der letzte Altvertrag ausläuft oder migriert ist, wird die Abmeldung mit Steuerberater geplant.
+
+### Phase 3: Stabilisierung (drittes Quartal)
+
+Sobald die Mehrheit der Einnahmen über die LLC läuft, beginnt die routinierte Compliance: monatliche Abstimmung Mercury, vierteljährliche Selbstprüfung BOI/Registered Agent/EIN, jährliche 5472 plus pro-forma 1120, jährlicher Modelo 100 mit dem spanischen Steuerberater und ggf. Modelo 720. Wer bis hierhin sauber gearbeitet hat, gewinnt eine Struktur, die sich ohne Drama führen lässt.
+
+### Was wir typischerweise begleiten
+
+Die meisten Mandanten kommen für die LLC-Gründung und das Mercury-Onboarding zu uns und bleiben für die Jahresroutine. Wir koordinieren mit ihrem spanischen Steuerberater, damit die LLC-Einkünfte konsistent in Modelo 100 erscheinen und kein Vorgang im Niemandsland verschwindet. Wenn Sie diesen Übergang gerade planen, ist eine kostenlose Erstberatung der beste nächste Schritt.
 
 <!-- exentax:execution-v2 -->
 ## Ist die US-LLC eine echte Alternative zum Selbständigen-Status in Deutschland?
@@ -256,6 +298,39 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote13-native-v1:llc-alternativa-autonomo-espana -->
+## Wann der Wechsel vom autónomo zur LLC realistisch wird
+
+Der Wechsel vom autónomo-Status in Spanien zur LLC-Konfiguration
+ist keine pauschale Empfehlung, sondern hängt von einigen
+konkreten Variablen ab: Volumen der jährlichen Rechnungslegung,
+geografische Verteilung der Kunden und persönliche Pläne in
+Bezug auf den Wohnsitz. In den Profilen, die wir am häufigsten
+sehen, wird der Wechsel ab einer bestimmten Volumenschwelle
+strukturell vorteilhaft — darunter ist der autónomo oft die
+ruhigere Wahl.
+<!-- /exentax:lote13-native-v1:llc-alternativa-autonomo-espana -->
+
+<!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de-bis -->
+## Wie sich der Vergleich Jahr für Jahr ohne grossen Aufwand aktualisieren lässt
+
+Damit der Vergleich Jahr für Jahr ohne grossen Aufwand aktualisierbar bleibt, lohnt es sich, das operative Profil und seine Zuordnungen in einem kurzen, datierten Dokument festzuhalten, das beim Jahresabschluss überprüft und nur dort angepasst wird, wo sich das Profil tatsächlich verändert hat.
+<!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de-bis -->
+
+<!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de-tris -->
+## Wie sich die jährliche Überprüfung in eine kurze Notiz fassen lässt
+
+Die jährliche Überprüfung lässt sich in eine kurze Notiz fassen, die festhält, ob das operative Profil im abgelaufenen Jahr stabil geblieben ist und welche der drei Hauptmerkmale gegebenenfalls eine Neubewertung der Wahl erfordern.
+<!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de-tris -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Selbständig in Spanien vs US-LLC: der komplette Steuervergleich](/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger)
+- [Vor- und Nachteile einer US-LLC für Nicht-Residenten: ein ehrlicher Blick](/de/blog/vor-und-nachteile-einer-us-llc-fur-nicht-residenten-ehrliche)
+- [US-Resident vs Nicht-Resident: die wichtigsten Steuerunterschiede der LLC](/de/blog/us-resident-vs-nicht-resident-llc-die-wichtigsten)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/leistungen">Kostenlose Beratung buchen</a>.

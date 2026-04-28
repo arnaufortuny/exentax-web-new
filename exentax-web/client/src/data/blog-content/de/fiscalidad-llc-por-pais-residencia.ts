@@ -113,11 +113,33 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote32-native-v1:fiscalidad-llc-por-pais-residencia-de -->
+## Wie sich die Fiskalität der LLC nach Wohnsitz­land als stabile Profil­karte statt als isolierte Länder­frage lesen lässt
+
+Die Fiskalität der LLC nach Wohnsitz­land liest sich nützlicher als stabile Profil­karte zwischen dem Wohnsitz­land des wirtschaftlich Berechtigten, dem Vehikel (LLC) und der Beziehung zwischen beiden denn als isolierte Länder­frage. Diese Karte ändert sich nicht mit der Saison, und eine kurze Notiz im persönlichen Ordner macht die Position überprüfbar.
+<!-- /exentax:lote32-native-v1:fiscalidad-llc-por-pais-residencia-de -->
+
+<!-- exentax:lote32-native-v1-bis:fiscalidad-llc-por-pais-residencia-de -->
+## Warum die Notiz die Beziehung Person–Vehikel und nicht das Land isoliert festhält
+
+Die Notiz hält die Beziehung zwischen wirtschaftlich Berechtigtem und Vehikel fest und nicht das Land isoliert, weil die fiskalische Behandlung aus dieser Beziehung folgt.
+<!-- /exentax:lote32-native-v1-bis:fiscalidad-llc-por-pais-residencia-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+
+<!-- exentax:lote23-native-v1:fiscalidad-llc-por-pais-residencia-de -->
+## Wie sich die LLC-Besteuerung nach Wohnsitzland als stabile Mappingfrage lesen lässt
+
+Die LLC-Besteuerung nach Wohnsitzland liest sich nützlicher, wenn sie als stabile Mappingfrage und nicht als jährliche Suche nach neuen Regeln behandelt wird. Die wirklich anwendbaren Regeln hängen vom Wohnsitzland des wirtschaftlich Berechtigten, dem Bestehen oder Fehlen eines Doppelbesteuerungsabkommens und der Klassifizierung der Erträge ab — und diese drei Variablen ändern sich von Jahr zu Jahr selten.
+
+## Wie sich das Mapping pro Wohnsitzland in einer kurzen Tabelle pflegen lässt
+
+Das Mapping pro Wohnsitzland pflegt sich in einer kurzen, datierten Tabelle, die einmal eingerichtet und einmal jährlich beim Jahresabschluss überprüft wird, was die Steuerentscheidung pro Periode auf das Nachschlagen in dieser Tabelle reduziert.
+<!-- /exentax:lote23-native-v1:fiscalidad-llc-por-pais-residencia-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -155,6 +177,28 @@ Bei Exentax kombinieren wir Wohnsitz, Tätigkeit und Volumen, um Ihnen genau zu 
 
 Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.
 
+
+<!-- exentax:lote13-native-v1:fiscalidad-llc-por-pais-residencia -->
+## Warum das Wohnsitzland die Fiskalität der LLC bestimmt
+
+Die steuerliche Behandlung einer LLC hängt nicht primär vom
+Bundesstaat der Gründung ab, sondern vom Wohnsitzland des
+Mitglieds. Diese Reihenfolge wird oft missverstanden.
+<!-- /exentax:lote13-native-v1:fiscalidad-llc-por-pais-residencia -->
+
+<!-- exentax:lote23-native-v1:fiscalidad-llc-por-pais-residencia-de-bis -->
+## Wie sich das Wohnsitz-Mapping ohne Wiederholung der Grundlagenanalyse jährlich pflegen lässt
+
+Das Wohnsitz-Mapping pflegt sich jährlich ohne Wiederholung der Grundlagenanalyse, wenn die festgehaltene Tabelle als Bezugspunkt dient und nur dort angepasst wird, wo eine der drei Variablen — Wohnsitzland, Doppelbesteuerungsabkommen, Ertragsklassifizierung — real abgewichen ist.
+<!-- /exentax:lote23-native-v1:fiscalidad-llc-por-pais-residencia-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten 2026](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
+- [Internationale Besteuerung digitaler Unternehmer: Leitfaden](/de/blog/internationale-besteuerung-fur-digitale-unternehmer)
+- [Optimale Steuerstruktur für internationale Freelancer: das Framework](/de/blog/optimale-steuerstruktur-fur-internationale-freelancer-das)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

@@ -85,6 +85,18 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
 Lisez cette section comme une checklist exigeante: chaque point signale un mode de défaillance que nous avons constaté sur des dossiers LLC transfrontaliers. N'en sautez aucun - la plupart des redressements et clôtures de comptes que nous récupérons remontent à l'un de ces éléments.
 
+<!-- exentax:lote18-native-v1:reorganizar-banca-llc-mercury-relay-wise-fr -->
+## Pourquoi réorganiser la banque d'une LLC se prépare comme un transfert plutôt que comme une fermeture
+
+Réorganiser la structure bancaire d'une LLC en intégrant Mercury, Relay et Wise se prépare comme un transfert d'opérations plutôt que comme une fermeture suivie d'une réouverture. La différence est concrète : un transfert maintient les flux opérationnels pendant la transition, alors qu'une fermeture les interrompt et oblige à reconstruire la chaîne de paiements et de réceptions à partir de zéro.
+<!-- /exentax:lote18-native-v1:reorganizar-banca-llc-mercury-relay-wise-fr -->
+
+<!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-fr -->
+## Comment lire la réorganisation bancaire de la LLC comme une mise à jour de mapping plutôt que comme un changement de fournisseur
+
+La réorganisation bancaire de la LLC se lit plus utilement comme une mise à jour du mapping rôle-par-fournisseur entre Mercury, Relay et Wise, qu'à un changement de fournisseur isolé.
+<!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -160,6 +172,99 @@ Si votre stack actuel ne tient plus, lancez la <strong>calculatrice Exentax</str
   ### Considérations pratiques supplémentaires pour le résident français
 
   Tout transfert international supérieur à 12 500 € entre comptes appartenant à la même personne est notifié automatiquement à TRACFIN par la banque française émettrice ou réceptrice (article L.561-15 du Code monétaire et financier). Une trace contradictoire avec la déclaration 3916-bis déclenche un signalement et, le cas échéant, une demande de justification documentée dans un délai de trente jours.
+
+<!-- exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
+## Quand le stack est le goulot, pas la banque
+
+La plupart des appels reçus pour "je veux réorganiser la banque de
+ma LLC" ne portent pas vraiment sur une mauvaise banque. Ils
+portent sur un stack qui a grandi par accident : un compte Mercury
+ouvert la première année, un canal de payout Stripe ajouté quand les
+paiements web sont arrivés, une carte Wise introduite pour les
+dépenses publicitaires et, à un certain moment, Relay ou un autre
+fintech testé pour les intégrations comptables. Après deux ou trois
+ans, le résultat est une topologie que personne n'a dessinée
+volontairement, et de petites frictions s'accumulent : la
+réconciliation ralentit, les coûts de change deviennent invisibles,
+et les questions KYC tombent sur la dernière entité onboardée.
+
+La réorganisation ne signifie presque jamais fermer des comptes.
+Elle signifie le plus souvent les recadrer pour que chacun ait un
+seul travail clair et que les autres conservent des rôles
+secondaires propres.
+
+## Une attribution de rôle nette par compte
+
+| Compte      | Rôle principal                                | Rôle secondaire             |
+|-------------|-----------------------------------------------|-----------------------------|
+| Mercury     | Banque US domiciliataire, opérations ACH/wire | Carte si faible volume      |
+| Relay       | Intégrations comptables + sous-comptes        | ACH de secours              |
+| Wise        | Réception multi-devises (EUR/GBP) + change    | Carte pour dépenses pub     |
+| Stripe      | Encaissement web/marketplace + payouts        | Réserve retenue par Stripe  |
+
+Une fois que chaque compte a un seul rôle principal, les règles
+comptables s'écrivent toutes seules : Mercury se réconcilie avec la
+trésorerie d'exploitation, Wise avec les soldes FX par devise,
+Stripe avec le chiffre d'affaires et la réserve, Relay avec les
+sous-comptes de dépenses. La question "où est passé ce mouvement?"
+disparaît.
+
+## Trois schémas réels que nous appliquons
+
+- Sortie de la "fragilité mono-banque". Client n'avait que Mercury
+  et une revue de routine a temporairement bloqué les virements
+  sortants. Ajout de Relay en ACH de secours et d'une petite couche
+  multi-devises Wise pour les factures EUR. Coût marginal. Bénéfice :
+  plus de point unique de défaillance sur la paie ou les fournisseurs.
+- Sortie du "Stripe devient la banque". Client laissait de grosses
+  réserves chez Stripe et tirait des fonds personnels directement
+  depuis Stripe. Réacheminement quotidien des payouts Stripe vers
+  Mercury, conservation de Wise pour les factures clients UE, et
+  Stripe traité purement comme rail d'encaissement.
+- Sortie de "la carte Wise est la carte de l'entreprise". Client
+  utilisait la carte Wise comme carte principale. Déplacement des
+  SaaS récurrents et des dépenses proches de la paie sur Mercury (où
+  la piste d'audit est de qualité bancaire) et conservation de la
+  carte Wise étroitement pour les publicités payantes.
+
+## Erreurs vues lors d'une réorganisation
+
+- Fermer d'abord l'ancien compte. Toujours ouvrir et amorcer le
+  nouveau rôle avant de fermer quoi que ce soit ; l'historique de
+  compte fait partie du dossier bancaire de la LLC.
+- Déplacer de gros soldes en un seul virement. Fractionner en
+  tranches opérationnelles normales ; les mouvements de type
+  trésorerie déclenchent souvent une mise à jour KYC.
+- Laisser des cartes "personnelles" se mélanger. La liste des cartes
+  de la LLC doit être courte, nommée et réconciliée mensuellement.
+- Oublier de mettre à jour les données de bénéficiaire après le
+  changement. Si la déclaration BOI a l'adresse de la LLC, tous les
+  profils bancaires doivent y correspondre.
+
+## Checklist de réorganisation
+
+- Cartographier les comptes actuels selon le tableau de rôles.
+- Identifier le ou les rôles manquants.
+- Ouvrir les nouveaux comptes de rôle ; préfinancer avec de petits
+  montants.
+- Migrer les flux récurrents entrants/sortants sur 30 jours en
+  parallèle.
+- Ne fermer ce qui est vraiment redondant qu'après une clôture
+  mensuelle propre.
+
+Nous traitons le stack bancaire comme le système circulatoire de la
+LLC : chaque vaisseau a un rôle, et réorganiser signifie corriger
+le tracé, pas arracher les vaisseaux.
+
+<!-- /exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Comment ouvrir un compte Mercury pour votre LLC depuis l'étranger](/fr/blog/comment-ouvrir-un-compte-mercury-pour-votre-llc-depuis)
+- [Banques traditionnelles vs fintech pour votre LLC : où ouvrir votre compte](/fr/blog/banques-traditionnelles-vs-fintech-pour-votre-llc-ou-ouvrir)
+- [Comment éviter les blocages de compte chez Mercury, Wise et Revolut](/fr/blog/comment-eviter-les-blocages-de-compte-chez-mercury-wise-et)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

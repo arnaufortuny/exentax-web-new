@@ -83,6 +83,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote33-native-v1:ein-numero-fiscal-llc-como-obtenerlo-ca -->
+## Com llegir la qüestió de l'EIN com un identificador estructural estable en lloc d'un pas únic
+
+La qüestió de l'EIN es llegeix de manera més útil com un identificador estructural estable de la LLC en lloc d'un pas únic. Aquest identificador es manté estable al llarg de la vida del vehicle.
+<!-- /exentax:lote33-native-v1:ein-numero-fiscal-llc-como-obtenerlo-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -102,6 +108,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote18-native-v1:ein-numero-fiscal-llc-como-obtenerlo-ca -->
+## Per què l'obtenció de l'EIN mereix un registre net i traçable des de l'inici
+
+Obtenir l'EIN d'una LLC mereix un registre net i traçable des de l'inici, perquè l'EIN esdevé l'identificador referenciat en gairebé totes les operacions posteriors: obertura bancària, registre a les passarel·les de pagament, comunicacions informatives i qualsevol comunicació posterior amb l'IRS.
+<!-- /exentax:lote18-native-v1:ein-numero-fiscal-llc-como-obtenerlo-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -162,6 +174,14 @@ Si la teva prioritat és l'ITIN, consulta <a href="/ca/serveis/obte-el-teu-itin"
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [EIN vs ITIN vs SSN: els números d'identificació fiscal americans explicats](/ca/blog/ein-vs-itin-vs-ssn-els-numeros-didentificacio-fiscal)
+- [IRS i LLC: 0 USD federal vs multa 25.000 USD Form 5472](/ca/blog/que-es-lirs-i-com-afecta-la-teva-llc-americana)
+- [Tinc una LLC als EUA, la gestiono correctament? Checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Revisem BOI, EIN, agent registrat i obligacions federals perquè cap multa et pugui sorprendre. <a href="/ca/serveis">Demanar revisió de compliance</a>.

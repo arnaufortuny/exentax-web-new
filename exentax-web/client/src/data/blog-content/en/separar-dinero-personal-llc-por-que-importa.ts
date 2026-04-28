@@ -384,6 +384,14 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Document fund separation in your LLC with history: real procedure](/en/blog/document-fund-separation-in-your-llc-with-history-real)
+- [I have a US LLC, am I managing it right? A real checklist](/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist)
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22One%20of%20the%20most%20critical%20rules%20of%20operating%20a%20US%20LLC%20is%20maintaining%20strict%20se%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

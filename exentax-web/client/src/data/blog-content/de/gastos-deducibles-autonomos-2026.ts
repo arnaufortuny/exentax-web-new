@@ -77,6 +77,28 @@ Das offizielle Kriterium zu absetzbaren Ausgaben steht im <a href="https://www.b
 
 **Was passiert, wenn ich eine Rechnung verliere?** Die Steuerbehörde lässt Rekonstruktion via Kontoauszug + Lieferantenbestätigung + eidesstattliche Erklärung zu. Der Prozess ist mühsam und wird häufig abgelehnt. Besser: digitales Archiv (Drive, Notion, Manager) monatlich aktualisiert.
 
+<!-- exentax:lote21-native-v1:gastos-deducibles-autonomos-2026-de -->
+## Wie sich die Liste abzugsfähiger Ausgaben als stabiles Rahmenwerk statt als jährliche Suche lesen lässt
+
+Die Liste abzugsfähiger Ausgaben für Autónomos liest sich nützlicher, wenn sie als stabiles Rahmenwerk und nicht als jährliche Suche nach neuen Kategorien behandelt wird. Die wirklich qualifizierten Kategorien ändern sich von Jahr zu Jahr selten, und die wiederkehrenden Abzüge dominieren die Gesamtsumme weit stärker als die gelegentlichen.
+
+## Wie sich die wiederkehrenden Abzüge in einer kurzen Liste pflegen lassen
+
+Die wiederkehrenden Abzüge pflegen sich in einer kurzen, datierten Liste, die einmal eingerichtet und einmal jährlich beim Jahresabschluss überprüft wird.
+<!-- /exentax:lote21-native-v1:gastos-deducibles-autonomos-2026-de -->
+
+<!-- exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-de -->
+## Wie sich abzugsfähige Ausgaben für Selbstständige als stabiles Jahres-Mapping statt als wiederkehrende Debatte lesen lassen
+
+Abzugsfähige Ausgaben für Selbstständige lesen sich nützlicher als stabiles Jahres-Mapping zwischen dem Aktivitäts­typ, dem Ausgabetyp und der anwendbaren Abzugs­regel denn als wiederkehrende Debatte. Das Mapping ändert sich nicht von Monat zu Monat, und eine kurze, datierte Notiz im Aktivitäts­ordner mit der Regel pro Ausgabetyp macht die Position in wenigen Minuten überprüfbar.
+<!-- /exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-de -->
+
+<!-- exentax:lote29-native-v1-bis:gastos-deducibles-autonomos-2026-de -->
+## Warum die Notiz pro Ausgabetyp und nicht pro Beleg organisiert sein sollte
+
+Die Notiz organisiert sich pro Ausgabetyp und nicht pro einzelnem Beleg — die maßgebliche Größe für die Abzugs­fähigkeit ist die anwendbare Regel pro Ausgabetyp, nicht der einzelne Beleg, und diese Sicht trifft die korrekte Granularität für eine Jahres­überprüfung.
+<!-- /exentax:lote29-native-v1-bis:gastos-deducibles-autonomos-2026-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -138,6 +160,40 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
   ### Vergleich für DACH-Gewerbetreibende: §4 EStG Betriebsausgaben
 
   Aus deutscher Sicht entspricht das spanische Konzept "gastos deducibles" für autónomos den **Betriebsausgaben nach §4 Abs. 4 EStG** (alle durch den Betrieb veranlassten Aufwendungen). Abzugsbeschränkungen ergeben sich aus **§4 Abs. 5 EStG** (z. B. Geschenke ≤ €35, Bewirtung 70 %), Pauschalen für häusliches Arbeitszimmer **€1.260/Jahr** ohne Mittelpunktsnachweis (§4 Abs. 5 Satz 1 Nr. 6b EStG i.d.F. JStG 2022). AfA gemäß **§7 EStG**, Investitionsabzugsbetrag **§7g EStG** für KMU.
+
+<!-- exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+### Wie der Homeoffice-Anteil ohne Überraschungen dokumentiert wird
+
+Der Abzug für Homeoffice-Nebenkosten (Strom, Wasser, Gas, Internet) setzt voraus, dass die freiberufliche Person der AEAT über das Modelo 036/037 den Prozentsatz der Wohnung mitgeteilt hat, der der beruflichen Tätigkeit zugewiesen ist. Dieser Prozentsatz muss verteidigbar sein: In der Praxis empfehlen wir, ihn auf einer einfachen Skizze der Wohnung zu basieren, die die ausschließlich für die Tätigkeit genutzten Räume (und den Anteil gemeinsam genutzter Räume) kennzeichnet, mit Datum und Notiz in der Akte. Sobald dieser Prozentsatz eingetragen ist, beträgt der absetzbare Teil der Nebenkosten 30% des der Tätigkeit zugewiesenen Wohnungsanteils, angewandt auf jede Rechnung. Der häufigste Fehler, den wir sehen, sind Freelancer, die 30% der gesamten Rechnung absetzen (statt 30% des proportionalen Anteils), was bei einer Jahresprüfung der AEAT zu einer routinemäßigen Berichtigung führt. Der saubere Ansatz besteht darin, den Prozentsatz schriftlich zu registrieren, die Räume mit einer kurzen Skizze zu dokumentieren und die Formel über die vier Quartale konsistent anzuwenden.
+
+### Drei Abzugsgespräche, die wir bei jeder Jahresprüfung führen
+
+Das erste Gespräch dreht sich um Weiterbildung: Die Regel erlaubt den Abzug von Schulungen, die direkt mit der Tätigkeit verbunden sind, doch in der Praxis prüft die AEAT die Verbindung zwischen Kursinhalt und den Codes der registrierten Tätigkeit genau. Den Kurslehrplan und eine einabsätzige Notiz, die erklärt, wie die Schulung sich auf laufende oder geplante Mandantenarbeit auswirkt, in der Akte zu behalten, macht den Abzug verteidigbar. Das zweite Gespräch dreht sich um Fahrzeugkosten: Für die meisten Freelancer ohne ausschließlich professionelle Fahrzeugnutzung ist die sicherere Antwort, Abzüge auf dokumentierte Geschäftsfahrten mit Kilometerprotokoll zu beschränken, statt zu versuchen, allgemeinen Treibstoff und Wartung abzusetzen, was die AEAT routinemäßig korrigiert. Das dritte Gespräch dreht sich um Geräteabschreibung: Laptops, Monitore und ähnliche Arbeitsmittel oberhalb eines kleinen Tickets werden über Abschreibungstabellen abgeschrieben, nicht als Einmal-Aufwand, und die ursprüngliche Kaufrechnung mit Seriennummer aufzubewahren ist die sauberste Papierspur, wenn ein Gegenstand später verkauft oder ausgesondert wird.
+<!-- /exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+### Eine praktische Abzugs-Checkliste vor jedem Quartalsabschluss
+
+Vor jeder quartalsweisen Modelo-130-Einreichung gehen wir eine vierstufige Checkliste mit der Autónoma durch. Schritt eins: prüfen, dass jede Lieferantenrechnung des Quartals mit vollständiger Identifikation in der Akte ist (Lieferantenname, NIF, Datum, Betrag, MwSt.-Detail und, sofern anwendbar, der Tätigkeitslink in einer Zeile). Schritt zwei: streng persönliche Ausgaben von Geschäftsausgaben trennen für jedes gemischte Zahlungsmittel (eine für beides verwendete Kreditkarte ist die häufigste Verwirrungsquelle in diesem Schritt), und jede Ausgabe in der Buchhaltung als persönlich oder geschäftlich kennzeichnen. Schritt drei: prüfen, dass der Homeoffice-Nebenkostenanteil korrekt angewandt wurde, dass der im Modelo 036 registrierte Prozentsatz sich nicht geändert hat und dass keine saisonale Anomalie eine einzelne Rechnung aufgebläht hat (zum Beispiel eine einmalige Reparatur, die nicht abgesetzt werden sollte). Schritt vier: das quartalsweise Nettoeinkommens-Ergebnis gegen die laufende Projektion überprüfen und mit der Autónoma bestätigen, ob eine Timing-Entscheidung (eine Ausgabe vorziehen, eine Rechnung verschieben) für den Abschlussmonat vor Quartalsende auf dem Tisch liegt.
+
+### Wenn die AEAT ein Quartal prüft und was bereitliegen sollte
+
+Die AEAT kann während der vier Jahre, die auf die Einreichung folgen, unterstützende Dokumentation für ein Modelo-130-Ergebnis anfordern, wobei das häufigste Prüffenster das Jahr nach der jährlichen IRPF-Erklärung ist. Das Dokumentationskit, das wir pro Quartal bereithalten, ist klein und vorhersehbar: die Einnahmenübersicht nach Kunde und Datum, das Ausgabenbuch mit Kategorie, Lieferant, Datum und Betrag, die Rechnungskopien (oder Scans) für jede Ausgabe oberhalb eines kleinen Tickets, der Kontoauszug, der die Kassenbewegungen abdeckt, und eine einseitige Notiz, die jede ungewöhnliche Position erklärt. Wenn die Anfrage eintrifft, ist die Antwortzeit kurz (typischerweise zehn Arbeitstage), sodass die Kosten, das Kit bereitzuhalten, weit geringer sind als die Kosten, es unter Fristdruck von Grund auf zu rekonstruieren. Wir haben viele Mandant:innen gesehen, die eine Routineprüfung reibungslos absorbierten, einfach weil das Kit Monat für Monat aktuell gehalten wurde; wir haben auch das Gegenteil gesehen, wo eine fehlende Rechnung oder eine nicht abgestimmte Bankzeile die Tür zu einer breiteren Prüfung des Jahres öffnete.
+<!-- /exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:lote6-native-v1-quat:gastos-deducibles-autonomos-2026 -->
+### Eine Praxis-Notiz zur saisonalen Nachjustierung der Abzüge
+
+Manche Abzüge bewegen sich im Jahresverlauf saisonal: Die Stromrechnung für das Heimbüro ist im Winter höher als im Sommer, die Telekommunikationskosten können in arbeitsintensiven Monaten steigen, die Weiterbildungsausgaben können sich um die Eintragungen für Kurse oder Konferenzen herum bündeln. In unserer Praxis empfehlen wir Mandant:innen, die Nachjustierung der Abzüge nicht einmal am Jahresende vorzunehmen, sondern bei jedem Quartalsabschluss, indem die Liste der Abzüge des Quartals mit der Vergleichsperiode des Vorjahres abgeglichen wird. Die Kontrolle dauert wenige Minuten und verhindert die häufige Konstellation, in der eine ganze Kategorie (zum Beispiel Werbeausgaben einer abgesagten Kampagne) im Jahresabschluss vergessen oder unverhältnismäßig hochgerechnet wird.
+<!-- /exentax:lote6-native-v1-quat:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Spaniens IRPF-Tarifstufen 2026 ohne Lärm erklärt](/de/blog/irpf-tarifstufen-2026-spanien-erklart)
+- [Autónomo-Beitrag in Spanien 2026: was Sie wirklich monatlich zahlen](/de/blog/autonomo-beitrag-2026-spanien-stufen)
+- [Absetzbare Ausgaben für Ihre US-LLC: ein vollständiger, ehrlicher Leitfaden](/de/blog/steuerliche-abzuge-fur-ihre-llc-was-sie-abziehen-konnen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.

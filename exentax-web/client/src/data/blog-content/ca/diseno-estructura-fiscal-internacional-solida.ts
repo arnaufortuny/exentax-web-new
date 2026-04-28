@@ -76,9 +76,6 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
-<!-- /exentax:calc-cta-v1 -->
 
 La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
 
@@ -95,6 +92,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-ca -->
+## Per què una estructura fiscal internacional sòlida es concep des de l'activitat real i no des de les jurisdiccions
+
+Una estructura fiscal internacional sòlida es concep partint de l'activitat real i no partint d'un catàleg de jurisdiccions. La raó és simple: les jurisdiccions són eines; l'activitat és el que determina quina eina és apropiada. A la pràctica, aquesta concepció comença per la descripció dels fluxos essencials: d'on provenen els ingressos, on es produeixen les despeses operatives, en quines divises i a quines contraparts es paga.
+<!-- /exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -152,6 +155,125 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 
   A Exentax revisem aquests cinc fronts cada any en paral·lel al calendari federal estatunidenc (Form 5472, 1120 pro-forma, FBAR, Annual Report estatal i BOI Report quan apliqui). L'objectiu és que cap inspecció trobi un cap solt i que l'estructura aguanti revisions a 5-7 anys vista.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-ca -->
+## Com llegir el disseny d'una estructura fiscal internacional com un mapatge estable en lloc d'un muntatge oportunista
+
+El disseny d'una estructura fiscal internacional sòlida es llegeix de manera més útil com un mapatge estable entre vehicles, jurisdiccions i fluxos operatius, que com un muntatge oportunista amb jurisdiccions de moda. Els eixos estructurants — residència fiscal del beneficiari, lloc de la creació de valor, tipus d'activitat — defineixen un marc discret que no canvia de trimestre en trimestre.
+
+Una nota curta al dossier que registri aquests eixos per a l'estructura actual fa el disseny consultable en pocs minuts a cada revisió anual.
+<!-- /exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-ca -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
+<!-- /exentax:calc-cta-v1 -->
+
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+## Una estructura sòlida comença pel soci, no per la LLC
+
+Un error freqüent quan es dissenya una estructura internacional és
+començar per l'entitat. El punt de partida correcte és el soci: la
+seva residència fiscal, el seu balanç personal, els plans de vida i
+mobilitat per als propers dos a cinc anys, i les activitats que la
+LLC durà a terme realment. Una vegada aquest quadre és honest i per
+escrit, la tria d'entitat es dissenya quasi sola.
+
+| Fet sobre el soci                         | Conseqüència estructural              |
+|-------------------------------------------|---------------------------------------|
+| Resident fiscal de país amb regles de seu | LLC es manté transparent; renda flueix|
+| de direcció efectiva                      | a la declaració al país de residència |
+| Soci mòbil, possible relocació 24 mesos   | estructura ha de mantenir-se portable |
+| Clients predominantment de font US        | cicle W-8 i benefici de conveni al    |
+|                                           | centre                                |
+| Diverses línies d'activitat               | una LLC per línia, no una per a tot   |
+
+Començar pel soci també elimina la temptació de sobre-enginyar amb
+holdings multicapa que l'activitat no necessita. Una única LLC
+operativa, neta i ben documentada, supera la majoria dels diagrames
+"complexos però elegants" en revisions reals.
+
+## Tres estructures que hem corregut amb clients
+
+Una consultora a Espanya amb clients de la UE i US opera una single-
+member LLC associada a un petit stack Mercury + Wise. Els ingressos
+flueixen a la seva declaració personal anual; el pro-forma 1120 +
+5472 de la LLC documenta els fluxos relacionats; cap capa de holding
+necessària. Manteniment anual total: lleuger.
+
+Un equip de dos socis a Portugal i Alemanya opera plegats una LLC,
+amb assignació definida al operating agreement. Cada soci declara la
+part proporcional a casa; la LLC és el casc operatiu, no un
+holding. L'estructura és portable i sobreviu a una relocació de
+soci sense redibuixar el diagrama.
+
+Una fundadora amb una línia SaaS i una línia de consultoria
+separada opera dues LLCs, una per línia. Cadascuna té els seus
+llibres, el seu stack bancari i el seu cicle W-8. La separació
+simplifica l'opcionalitat de venda més endavant (una línia es podria
+vendre sense afectar l'altra) i manté el reporting net.
+
+## Errors a evitar en el disseny
+
+- Dissenyar l'estructura per perseguir un resultat fiscal que la
+  residència del soci no permet. Les regles de seu de direcció
+  efectiva del país de residència acabaran guanyant.
+- Apilar holdings per "semblar corporate" quan l'activitat és
+  consultoria d'una sola persona. La complexitat es converteix en la
+  seva pròpia superfície de risc.
+- Oblidar que el BOI s'aplica a la LLC i als seus beneficiaris
+  efectius, independentment de com de neta sigui la declaració al
+  país de residència.
+- Tractar l'operating agreement com a boilerplate. És el document
+  fundacional que determina qui signa, qui decideix i com es
+  resolen disputes.
+
+## Checklist de pre-disseny
+
+- Residència fiscal del soci confirmada i documentada.
+- Pla de mobilitat de dos a cinc anys escrit.
+- Descripció de l'activitat: clients per país, banda de rendició
+  esperada.
+- Stack bancari pre-mapat (rols Mercury, Relay, Wise, Stripe).
+- Calendari de compliance anual (1120 + 5472, BOI, estat, CRS quan
+  aplica, declaració al país de residència).
+
+Dissenyem cada estructura perquè sigui defensable a l'únic fòrum
+que importa: l'administració fiscal de residència del soci. Tota la
+resta queda a sota.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida -->
+
+
+
+<!-- exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-bis -->
+## L'estructura en el temps: portabilitat i resiliència
+
+Una bona estructura no només és adequada per a avui; ha de
+sobreviure als canvis de residència del soci, a noves línies
+d'activitat i a l'arribada de noves regles internacionals sense
+haver de ser redibuixada. Sempre provem cada disseny contra tres
+escenaris: trasllat del soci a un país veí, addició d'una segona
+línia d'activitat en 18 mesos i canvi de regles internacionals (per
+exemple una ampliació de la DAC o de la CARF) que toca la
+transparència fiscal d'una jurisdicció de la cadena. Una estructura
+que sobreviu als tres sense canvi material és una estructura
+portable. Una que en falla un és probablement ja fràgil avui.
+
+<!-- /exentax:lote7-native-v1:diseno-estructura-fiscal-internacional-solida-bis -->
+
+<!-- exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-ca-bis -->
+## Com documentar la tria d'eines de manera traçable per escrit
+
+Perquè la tria d'eines continuï sent comprensible anys més tard, val la pena fixar la justificació de la tria en una nota curta que associï a cada eina la característica concreta de l'activitat que cobreix.
+<!-- /exentax:lote18-native-v1:diseno-estructura-fiscal-internacional-solida-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Conveni de doble imposició EUA-Espanya per a LLCs: lectura pràctica](/ca/blog/conveni-de-doble-imposicio-usa-espanya-per-a-llcs)
+- [IRS 1120 i 5472: què són realment i quan apliquen](/ca/blog/irs-1120-i-5472-que-son-realment-i-quan-apliquen)
+- [Autònom a Espanya vs LLC americana: una comparació que t'ajuda de debò](/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

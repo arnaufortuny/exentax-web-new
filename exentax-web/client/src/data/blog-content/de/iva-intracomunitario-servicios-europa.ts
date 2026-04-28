@@ -65,6 +65,24 @@ Der rechtliche Rahmen findet sich im <a href="https://www.boe.es/buscar/act.php?
 6. ✓ Auf das vierteljährliche oder monatliche Formular 349 übertragen.
 7. ✓ Zusammenfassung mit Formular 303 abstimmen und jährliche Kohärenz mit Formular 390 überprüfen.
 
+<!-- exentax:lote25-native-v1:iva-intracomunitario-servicios-europa-de -->
+## Wie sich die innergemeinschaftliche Mehrwertsteuer auf Dienstleistungen als stabile Mappingfrage lesen lässt
+
+Die innergemeinschaftliche Mehrwertsteuer auf Dienstleistungen liest sich nützlicher, wenn sie als stabile Mappingfrage und nicht als jährliche Suche nach neuen Regeln behandelt wird. Die wirklich anwendbaren Regeln hängen vom Typ des Kunden (Unternehmen oder Privatperson) und dem Wohnsitzland des Kunden ab.
+<!-- /exentax:lote25-native-v1:iva-intracomunitario-servicios-europa-de -->
+
+<!-- exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-de -->
+## Wie sich die Frage der innergemeinschaftlichen Umsatz­steuer auf Dienst­leistungen als stabile Kartografie statt als wiederkehrende Einzelfall­debatte lesen lässt
+
+Die Frage der innergemeinschaftlichen Umsatz­steuer auf Dienst­leistungen liest sich nützlicher als stabile Kartografie zwischen dem Sitz­land des Leistenden, dem Status des Kunden (umsatz­steuer­registriertes Unternehmen oder Endverbraucher) und dem Land des Verbrauchs der Dienstleistung denn als wiederkehrende Einzelfall­debatte.
+<!-- /exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-de -->
+
+<!-- exentax:lote31-native-v1-bis:iva-intracomunitario-servicios-europa-de -->
+## Warum die Notiz pro Dienstleistungs­typ und nicht pro einzelner Rechnung organisiert sein sollte
+
+Die Notiz organisiert sich pro Dienstleistungs­typ und nicht pro einzelner Rechnung — die anwendbare Umsatz­steuer­regel hängt vom Dienst­typ und vom Kunden­status ab, nicht von jeder Rechnung einzeln, und diese Sicht hält die korrekte Granularität für eine Jahres­überprüfung.
+<!-- /exentax:lote31-native-v1-bis:iva-intracomunitario-servicios-europa-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -122,6 +140,46 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+### Wie die VIES-Registrierung rechtzeitig ankommt
+
+Die Eintragung im Register der Innergemeinschaftlichen Operateure (ROI) wird über das Modelo 036 beantragt und kann bis zu drei Monate dauern, bis sie bestätigt ist. In unserer Praxis ist der häufigste operative Schmerz, dass die freiberufliche Person eine innergemeinschaftliche Rechnung ohne in VIES bereits aktive USt-IdNr. ausstellt, was eine sofortige Compliance-Lücke erzeugt, die das Buchhaltungsteam der EU-Kundin meldet. Der saubere Ansatz besteht darin, sich über das Modelo 036 deutlich vor der erwarteten ersten europäischen Kundenrechnung anzumelden (wir empfehlen neunzig Tage Puffer), den VIES-Portal auf Aktivierung zu überwachen und einen Screenshot der aktiven Registrierung in der Akte zu halten als Nachweis, der der ersten Rechnung beigefügt wird, sobald die Kundin ihn anfordert. Der zweite operative Schmerz besteht darin, die Registrierung durch Inaktivität verfallen zu lassen (keine innergemeinschaftlichen Vorgänge mehrere Quartale lang); die Registrierung kann deaktiviert werden und vor der nächsten europäischen Kundin ist ein neuer Antrag nötig. Eine quartalsweise Prüfung des Aktivierungsstatus in VIES reicht, um beide Schmerzen zu vermeiden.
+
+### Drei reale Rechnungsmuster und die Dokumentation, die jedes verlangt
+
+Das erste Muster ist die freiberufliche Person, die eine B2B-Dienstleistungsrechnung an eine EU-residente Gesellschaft mit aktiver VIES-Nummer ausstellt: Rechnung ohne MwSt., Vermerk "Reverse Charge", Meldung im quartalsweisen Modelo 349 und Übertrag im Modelo 303 in das entsprechende Feld. Das Dokumentationskit pro Rechnung umfasst den auf das Rechnungsdatum datierten VIES-Validierungs-Screenshot der Kundin, den Vertrag oder die Bestellung und den Zahlungsbeleg. Das zweite Muster ist die freiberufliche Person, die eine B2C-digitale-Dienstleistungs-Rechnung an eine EU-Verbraucherin unterhalb der jährlichen 10.000-EUR-Schwelle ausstellt: Es gilt spanische MwSt., als wäre die Verbraucherin spanisch; das Dokumentationskit umfasst den Standortnachweis der Verbraucherin (IP plus Rechnungsadresse) und die Standardrechnung. Das dritte Muster ist die freiberufliche Person, die eine B2C-digitale-Dienstleistungs-Rechnung an eine EU-Verbraucherin oberhalb der Schwelle (oder mit OSS-Optierung) ausstellt: Es gilt die MwSt. des Verbraucherlandes, gemeldet über die quartalsweise OSS-Erklärung, mit einem Dokumentationskit, das den Standortnachweis der Verbraucherin, die OSS-Registrierungsbestätigung und den quartalsweisen OSS-Beleg umfasst. Die drei Kits in Vorlagen bereit zu halten vermeidet Ad-hoc-Rekonstruktion zum Quartalsende.
+<!-- /exentax:lote6-native-v1-bis:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+### Wie das Timing des Modelo 349 sich mit dem Rest des Quartals deckt
+
+Das Modelo 349 ist die zusammenfassende Meldung innergemeinschaftlicher Vorgänge, monatlich oder quartalsweise eingereicht je nach Volumen. Für die meisten Freelancer in unserer Praxis gilt die quartalsweise Version, mit demselben Kalender wie Modelo 303 (MwSt.) und Modelo 130 (IRPF-Vorauszahlung), sodass die drei Einreichungen im selben Abschlussfenster verarbeitet werden. Der saubere Ansatz, den wir empfehlen, besteht darin, den quartalsweisen Abschluss auf einen festen Tag jedes Monats abzustimmen (wir nutzen den zweiten Werktag im Januar, April, Juli und Oktober als Abschlussreferenz), zuerst das Modelo 303 einzureichen, dann das Modelo 349 gegen die für das Quartal erfassten Vorgänge, und beide Quittungen im selben Ordner für dieses Quartal aufzubewahren. Die Arithmetik zwischen den beiden Formularen muss übereinstimmen: Die im Modelo 349 deklarierten innergemeinschaftlichen Dienstleistungen müssen dem entsprechenden Feld des Modelo 303 entsprechen; jede Abweichung erzeugt eine routinemäßige AEAT-Anfrage zur Klärung.
+
+### Wie OSS den Kalender für B2C-Digitalflüsse umgestaltet
+
+Wenn die freiberufliche Person den One-Stop Shop (OSS) für B2C-digitale Dienstleistungen an EU-Verbraucher gewählt hat, wird die quartalsweise OSS-Erklärung zur vierten Einreichung, abgestimmt mit den anderen, aber mit eigenem Kalender (ein Monat nach Quartalsende, ohne Verlängerung). Die OSS-Erklärung deckt die je Verbraucherland eingenommene MwSt. ab, gezahlt auf ein einziges spanisches Konto und von der AEAT an jedes EU-Land umverteilt. Die Disziplin, die wir mit Mandant:innen im OSS halten, besteht darin, eine Aufstellung pro Land je Quartal zu pflegen (Verbraucherstandort, MwSt.-Satz des Landes, Betrag), die Aufstellung am Quartalsende mit der Buchhaltung abzustimmen und die OSS-Erklärung vor den anderen quartalsweisen Abschlüssen einzureichen. Der häufigste Fallstrick besteht darin, OSS in einem schwachen Quartal als optional zu behandeln und die Einreichung zu überspringen, weil "es nichts zu erklären gibt"; einmal im OSS angemeldet, muss die freiberufliche Person jedes Quartal einreichen, auch bei null, sonst läuft die Anmeldung Gefahr, gestrichen zu werden, und eine Wiederanmeldung erzeugt mehrere Monate administrativer Lücke.
+<!-- /exentax:lote6-native-v1-ter:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:lote6-native-v1-quat:iva-intracomunitario-servicios-europa -->
+### Eine Praxis-Notiz zur Abstimmung zwischen Modelo 303, Modelo 349 und der Buchhaltung
+
+Die drei Datenquellen zum innergemeinschaftlichen Geschäft (Modelo 303, Modelo 349, Buchhaltung) müssen quartalsweise abgestimmt werden, sonst öffnen kleine Abweichungen die Tür zu AEAT-Anfragen. In unserer Praxis halten wir am Ende jedes Quartals einen kurzen Abstimmungs-Schritt: Erstens die Summe der innergemeinschaftlichen Dienstleistungen aus der Buchhaltung extrahieren, zweitens dieselbe Summe aus dem entwurfsbereiten Modelo 349 ablesen, drittens die entsprechende Box des entwurfsbereiten Modelo 303 ablesen. Die drei Zahlen müssen identisch sein. Bei einer Abweichung wird die Position pro Kunde überprüft, bis die Quelle gefunden ist (häufig eine Rechnung im falschen Quartal gebucht, oder eine Korrekturrechnung doppelt gezählt). Sobald die drei Zahlen übereinstimmen, werden die beiden Modelos zusammen eingereicht und beide Quittungen in derselben Quartalsmappe abgelegt.
+<!-- /exentax:lote6-native-v1-quat:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:lote6-native-v1-quint:iva-intracomunitario-servicios-europa -->
+### Eine Praxis-Notiz zum Schließen einer VIES-Lücke nach mehreren inaktiven Quartalen
+
+Wenn die Mandantin nach mehreren inaktiven Quartalen mit einer neuen europäischen Rechnung zurückkehrt, kann die VIES-Registrierung wegen Inaktivität deaktiviert sein. Der saubere Wiederherstellungsablauf besteht aus drei Schritten: Erstens den aktuellen Status der USt-IdNr. im VIES-Portal mit dem Datum der erwarteten ersten Rechnung prüfen; zweitens, falls deaktiviert, einen neuen Antrag über das Modelo 036 stellen, mit dem Hinweis, dass die Aktivierung Wochen dauern kann; drittens den europäischen Kunden über das Aktivierungsdatum informieren und die erste Rechnung erst nach Bestätigung ausstellen. Die Disziplin verhindert das häufige Muster, in dem eine Rechnung mit einer veralteten USt-IdNr. ausgestellt wird, der Kunde sie zurückweist und mehrere Wochen für die Klärung verloren gehen.
+<!-- /exentax:lote6-native-v1-quint:iva-intracomunitario-servicios-europa -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Mehrwertsteuer auf internationale digitale Dienstleistungen: wann sie greift](/de/blog/mwst-auf-internationale-digitale-dienstleistungen-wann-sie)
+- [Steuern mit internationalen Kunden aus Spanien: was Ihnen niemand sagt](/de/blog/steuern-mit-internationalen-kunden-in-spanien-was-niemand)
+- [Absetzbare Ausgaben für spanische Freelancer 2026: klarer Leitfaden](/de/blog/absetzbare-ausgaben-autonomo-spanien-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.

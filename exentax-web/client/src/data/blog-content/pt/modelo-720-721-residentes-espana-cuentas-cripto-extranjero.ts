@@ -118,6 +118,18 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
+<!-- exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
+## Como ler os Modelos 720 e 721 como um mapeamento anual estável em vez de uma preocupação recorrente
+
+Os Modelos 720 e 721 leem-se de forma mais útil como um mapeamento anual estável entre o país onde os ativos são detidos, o tipo de ativo (conta, título, cripto) e o formulário de declaração correspondente, em vez de uma preocupação recorrente. O mapeamento não muda de ano para ano — só os saldos acumulados se movem, e uma nota curta por ano no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+<!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
+
+<!-- exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
+## Porque a nota se organiza por tipo de ativo e não por país
+
+A nota organiza-se por tipo de ativo — conta, título, cripto — e não por país, porque o formulário de declaração aplicável assenta no tipo de ativo, e esta visão facilita a reconciliação com os Modelos sem reconstruir a posição de memória.
+<!-- /exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -204,6 +216,54 @@ Freelancer residente em Madrid com: Wise EUR saldo 18.400 EUR, Mercury Personal 
 > **O seu stack roça os 50.000 EUR por bloco?** Passe os saldos pela <strong>calculadora fiscal da Exentax</strong> e veja se mudar para uma LLC bem declarada compensa a complexidade atual.
 
 Para a camada bancária a montante do 720 leia <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade">o que os bancos americanos reportam de facto ao seu fisco</a>, e para a estratégia global <a href="/pt/blog/caminhos-legais-para-minimizar-impostos">os caminhos legais para pagar o mínimo de impostos</a>. Para delegar a apresentação, <strong>agende uma sessão com a equipa Exentax</strong> e fechamos numa semana.
+
+<!-- exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->
+## Modelo 720 / 721 a partir da realidade do residente fiscal em Espanha
+
+Os Modelos 720 e 721 não são formulários só para cripto: são
+declarações informativas sobre activos detidos no estrangeiro que o
+proprietário de uma LLC residente fiscal em Espanha tem de conhecer
+quando os limites são ultrapassados. A prática serena consiste em
+fazer uma vez por ano — tipicamente em Janeiro — uma listagem dos
+saldos no estrangeiro: Mercury, Wise, Stripe, Relay e plataformas
+cripto associadas. Esta listagem é revista com o consultor e a
+decisão de apresentação é tomada com calma a partir dos limites,
+não à última hora.
+
+Uma segunda observação tem que ver com a consistência das moradas.
+Quando um sócio residente fiscal em Espanha tem uma morada
+diferente registada no Mercury ou no Wise, isso é muitas vezes a
+primeira coisa que uma inspeção sinaliza. Recomendamos uma
+revisão anual dos perfis bancários alinhada com a declaração
+fiscal espanhola, para que os dados não criem uma divergência que
+depois custa mais a esclarecer do que a clareza inicial.
+
+<!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->
+
+<!-- exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-bis -->
+## Uma nota final
+
+Os Modelos 720 e 721 ganham uma dimensão diferente quando entram
+no calendário anual da LLC como rotina e não como reacção
+tardia.
+
+<!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-bis -->
+
+<!-- exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
+## Como os modelos 720 e 721 se articulam na prática
+
+Os modelos 720 e 721 são duas janelas diferentes sobre o mesmo quadro geral, e é mais útil entendê-los como complementares do que como concorrentes. O modelo 720 cobre categorias de ativos detidos no estrangeiro que são declarativas há anos: contas bancárias estrangeiras, valores mobiliários estrangeiros e certas formas de bens imóveis situados no estrangeiro. O modelo 721 foi introduzido especificamente para cobrir moedas virtuais mantidas fora de Espanha através de entidades que prestam guarda, troca ou serviços conexos, e responde a uma pergunta que o modelo mais antigo nunca foi pensado para responder. Os dois modelos têm portanto limiares distintos, campos de conteúdo distintos e, na prática, ritmos de preparação distintos.
+
+Num ano calmo, a maneira mais limpa de manter ambos os modelos geríveis é manter três ficheiros de trabalho em paralelo: uma lista de contas bancárias ou de broker estrangeiras com saldos de fim de ano e saldos médios trimestrais; uma lista de valores mobiliários estrangeiros com a mesma disciplina de valorização; e uma lista de posições cripto mantidas em relações de guarda não espanholas com valorização em euros no final do ano. Cada uma destas três listas alimenta os campos relevantes do modelo relevante, e uma comparação ano a ano sinaliza movimentos que podem exigir declaração atualizada. Os modelos dependem também muito da consistência dos números de um ano para o outro; qualquer pequena mudança de metodologia deve ser sempre documentada no mesmo ficheiro de trabalho e não confiada à memória.
+<!-- /exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Contas bancárias US: o que reporta cada entidade e como estruturar](/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade)
+- [DAC8 e criptomoedas: o novo reporting fiscal automático em 2026](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
+- [Criptomoedas e trading com LLC: guia fiscal completo para traders](/pt/blog/criptomoedas-e-trading-com-llc-guia-fiscal-completo-para)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

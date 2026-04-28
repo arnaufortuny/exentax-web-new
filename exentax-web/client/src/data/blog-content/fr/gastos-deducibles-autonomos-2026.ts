@@ -135,6 +135,34 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+### Comment la proportion de bureau à domicile se documente sans surprise
+
+La déduction des consommations du bureau à domicile (électricité, eau, gaz, internet) exige que l'autónomo ait notifié à l'AEAT, via Modelo 036/037, le pourcentage du logement affecté à l'activité professionnelle. Ce pourcentage doit être défendable: en pratique, nous recommandons de le baser sur un simple croquis du logement indiquant les pièces utilisées exclusivement pour l'activité (et la proportion des pièces partagées utilisées pour celle-ci), avec date et note au dossier. Une fois ce pourcentage enregistré, la part déductible de la consommation est de 30% du pourcentage du logement affecté à l'activité, appliquée à chaque facture. L'erreur la plus fréquente que nous voyons est celle des autónomos qui déduisent 30% de la facture complète (au lieu de 30% de la partie proportionnelle), ce qui produit un ajustement de routine lorsque l'AEAT revoit l'année. L'approche propre consiste à enregistrer le pourcentage par écrit, à documenter les pièces par un croquis bref et à appliquer la formule de manière cohérente sur les quatre trimestres.
+
+### Trois conversations de déduction que nous avons à chaque revue annuelle
+
+La première conversation porte sur la formation: la règle permet la déduction des formations directement liées à l'activité, mais en pratique l'AEAT regarde de près le lien entre le contenu du cours et les codes de l'activité enregistrée. Conserver le syllabus du cours et une note d'un paragraphe expliquant comment la formation s'applique au travail client actuel ou prévu rend la déduction défendable. La deuxième conversation porte sur les frais de véhicule: pour la plupart des freelances sans usage professionnel exclusif du véhicule, la réponse la plus sûre est de limiter les déductions aux trajets professionnels documentés avec kilométrage relevé, plutôt que de tenter de déduire le carburant général et l'entretien, que l'AEAT ajuste de manière routinière. La troisième conversation porte sur l'amortissement des équipements: ordinateurs portables, écrans et outils de travail similaires au-delà d'un petit ticket se déduisent via tableaux d'amortissement, pas en charge unique, et conserver la facture d'achat originale avec numéro de série est la trace papier la plus propre lorsqu'un élément est revendu ou mis au rebut plus tard.
+<!-- /exentax:lote6-native-v1:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+### Une liste pratique de déductions avant chaque clôture trimestrielle
+
+Avant chaque dépôt trimestriel de Modelo 130, nous parcourons une liste en quatre étapes avec l'autónomo. Étape un: vérifier que chaque facture de fournisseur du trimestre est au dossier avec identification complète (nom du fournisseur, NIF, date, montant, détail TVA et, le cas échéant, le lien d'activité en une ligne). Étape deux: séparer strictement les dépenses personnelles des dépenses professionnelles pour tout moyen de paiement mixte (une carte de crédit utilisée pour les deux est la source de confusion la plus fréquente à cette étape), et taguer chaque dépense comme personnelle ou professionnelle dans la comptabilité. Étape trois: vérifier que la proportion télétravail des consommations a été appliquée correctement, que le pourcentage enregistré dans le Modelo 036 n'a pas changé et qu'aucune anomalie saisonnière n'a gonflé une facture isolée (par exemple une réparation ponctuelle qui ne devrait pas être déduite). Étape quatre: revoir le résultat trimestriel de revenu net par rapport à la projection cumulée et confirmer avec l'autónomo si une décision de calendrier (avancer une dépense, différer une facture) est sur la table pour le mois de clôture avant la fin du trimestre.
+
+### Lorsque l'AEAT contrôle un trimestre et ce qu'il faut avoir prêt
+
+L'AEAT peut demander la documentation justificative d'un résultat de Modelo 130 pendant les quatre années qui suivent le dépôt, avec la fenêtre de contrôle la plus fréquente étant l'année suivant la déclaration IRPF annuelle. Le kit documentaire que nous gardons prêt par trimestre est petit et prévisible: le récapitulatif des revenus par client et date, le grand livre des dépenses avec catégorie, fournisseur, date et montant, les copies (ou scans) des factures pour toute dépense au-delà d'un petit ticket, le relevé bancaire correspondant aux mouvements de trésorerie et une note d'une page expliquant toute ligne inhabituelle. Lorsque la demande arrive, le délai de réponse est court (typiquement dix jours ouvrables), donc le coût d'avoir le kit prêt est bien inférieur au coût de le reconstruire de zéro sous pression d'échéance. Nous avons vu de nombreux clients absorber un contrôle de routine sans friction simplement parce que le kit était maintenu à jour mois après mois; nous avons aussi vu le contraire, où une facture manquante ou une ligne bancaire non rapprochée a ouvert la porte à un contrôle plus large de l'année.
+<!-- /exentax:lote6-native-v1-ter:gastos-deducibles-autonomos-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Les tranches IRPF 2026 en Espagne expliquées sans bruit](/fr/blog/tranches-irpf-2026-bareme-explication)
+- [Cotisation autónomo en Espagne 2026 : ce que vous payez vraiment chaque mois](/fr/blog/cotisation-autonomo-espagne-2026-tranches)
+- [Dépenses déductibles pour votre LLC américaine : guide complet et honnête](/fr/blog/deductions-fiscales-pour-votre-llc-ce-que-vous-pouvez)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->

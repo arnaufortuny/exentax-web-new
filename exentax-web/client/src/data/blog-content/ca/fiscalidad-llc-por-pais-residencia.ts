@@ -156,6 +156,14 @@ A Exentax encreuem la teva residència, la teva activitat i el teu volum per dir
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+- [Fiscalitat internacional per a emprenedors digitals: guia completa](/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia)
+- [Estructura fiscal òptima per a freelancers internacionals](/ca/blog/estructura-fiscal-optima-per-a-freelancers-internacionals-el)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 

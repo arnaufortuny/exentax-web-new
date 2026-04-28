@@ -27,9 +27,6 @@ Praktische Zusammenfassung: niedrige einmalige Einkünfte (unter 3.000 Euro pro 
 
 Die Gewohnheitsmäßigkeitskriterien sind in Urteilen des <a href="https://www.poderjudicial.es/">Obersten Gerichts</a> und in der Lehre der spanischen <a href="https://www.seg-social.es/">Sozialversicherungskasse</a> konsolidiert. Bevor Sie ohne RETA operieren, modellieren Sie Ihre Situation mit seriöser Beratung; falsche Abkürzungen kommen am Ende teuer.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
-<!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.
 
@@ -84,6 +81,77 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
+### Was "sporadisches Einkommen" in der Praxis tatsächlich bedeutet
+
+Die häufig zitierte Befreiung vom Autónomo-Regime für sporadische und geringfügige Einkünfte ergibt sich aus der Auslegung der Rechtsprechung und nicht aus einer klaren, scharfen Regel. In der Praxis behandeln die AEAT und die Sozialversicherung nur solche Einkünfte als wirklich sporadisch, die einmalig sind, absolut gering ausfallen (deutlich unter dem jährlichen Mindestlohn) und nicht mit einer wiederkehrenden Tätigkeit in Verbindung stehen. Drei Rechnungen an denselben Kunden in sechs Monaten wirken auf einen Arbeitsinspektor nicht sporadisch, auch wenn der absolute Betrag klein ist; ein einmaliger Workshop-Honorar, einmal im Jahr gezahlt, passt dagegen klar in die Definition. Die Grauzone in der Mitte ist der Ort, an dem die meisten Freelancer in Schwierigkeiten geraten: über die Gesellschaft einer anderen Person fakturieren, einen wiederkehrenden Vertrag als "gelegentliche Dienstleistung" deklarieren oder schlicht die Anmeldung überspringen in der Hoffnung, dass kleine Beträge unbemerkt bleiben. Keine dieser Abkürzungen hält gut, und die Kosten einer Prüfung (Nachzahlung von Beiträgen plus Strafe) übersteigen die Ersparnis einiger Monate ohne Quote bei weitem.
+
+### Ein sauberer Vergleich der vier realen Alternativen
+
+Für Freelancer mit wiederkehrendem digitalen Einkommen, die das Autónomo-Regime verlassen wollen, konkurrieren in unserer Praxis vier Alternativen mit eigenem Profil. Fakturierungs-Kooperativen bieten die geringste Setup-Friktion und eine spanische Rechnung für die Kundin, behalten aber eine Provision auf jede Rechnung ein, und die freiberufliche Person bleibt über die Lohnabrechnung der Kooperative IRPF-pflichtig; sie passen für kurzfristigen Bedarf und kleine wiederkehrende Verträge. Eine spanische SL bietet eine vollständige Unternehmensstruktur mit klarer Kapitaltrennung, trägt aber Setup-Kosten, Buchhaltungspflichten und die Körperschaftsteuer-plus-Dividenden-Ebene; sie passt, wenn lokale Präsenz und spanische Fakturierung kerngeschäftlich sind. Eine US-LLC, gehalten aus Spanien, bietet eine saubere grenzüberschreitende Struktur mit internationalem Banking (Mercury, Wise, Stripe, Relay sind die Namen, die in unseren Setups wiederkehren) und Pass-Through-Besteuerung, mit der dazugehörigen Meldelast; sie passt, wenn die Mehrheit der Kunden und die Treasury außerhalb Spaniens sitzen. Die vierte Alternative besteht darin, die Autónomo-Anmeldung beizubehalten, aber die Tätigkeit neu auszurichten (Tarife erhöhen, margenarme Kunden ablegen, verfügbare Vergünstigungen anwenden), damit sich das Regime weniger schwer anfühlt; für einen Teil der Mandant:innen erweist sich das als die pragmatischste Antwort.
+<!-- /exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
+
+<!-- exentax:lote6-native-v1-bis:facturar-sin-ser-autonomo-alternativas-2026 -->
+### Wie sich ein Genossenschafts-Fakturierungsmodell im Alltag wirklich anfühlt
+
+Im Genossenschaftsmodell tritt die freiberufliche Person als Mitglieds-Angestellte für die Monate bei, in denen sie fakturiert; die Genossenschaft stellt die Rechnung im eigenen Namen an die Endkundin, behält eine Servicegebühr ein (typischerweise ein einstelliger Prozentsatz des Rechnungswerts plus die Sozialversicherungskosten des Arbeitszeitraums) und zahlt der freiberuflichen Person den Nettobetrag als Lohnabrechnung aus. Die freiberufliche Person reicht eine jährliche IRPF-Erklärung über das Lohnabrechnungseinkommen ein, das in der allgemeinen Bemessungsgrundlage wie jedes lohnabhängige Einkommen mit den üblichen IRPF-Stufen landet. Der Alltagskomfort ist für gelegentliche Verträge real, besonders wenn die Alternative der volle Autónomo-Beitrag für einen einzigen abrechenbaren Monat wäre; die Friktion beginnt, wenn die monatliche Fakturierung wiederkehrend wird, weil die kumulierten Kosten aus Genossenschaftsgebühr plus Sozialversicherungsbeitrag die Quote übersteigen, die eine freiberufliche Person direkt gezahlt hätte. Wir schlagen typischerweise vor, das monatliche Break-Even-Fakturierungsniveau quartalsweise zu überprüfen; sobald die wiederkehrende monatliche Fakturierung die Schwelle überschreitet, verdient das Gespräch über eine strukturelle Alternative geöffnet zu werden.
+
+### Wann eine US-LLC leise zur natürlichen Lösung wird
+
+Für Freelancer mit überwiegend ausländischen Kunden und stabilem monatlichen Fakturierungsrhythmus wird die LLC, gehalten aus Spanien, ein natürliches Gespräch, kein cleverer Umweg. Die Struktur bietet ein sauberes operatives Banking (Mercury, Wise, Stripe und Relay sind die Namen, die in unseren Setups wiederkehren), einen US-rechtlichen Mantel, der für internationale Kunden komfortabel ist, eine Pass-Through-Besteuerung, die das Einkommen an die spanisch-residente Eigentümerin zur IRPF-Erklärung in der Standardkategorie (üblicherweise wirtschaftliche Tätigkeit) durchleitet, und eine planbare Meldelast: Form 5472 plus Buchhaltungsdisziplin plus die jährlichen staatlichen Einreichungen. Die Struktur löscht weder den spanischen IRPF noch RETA, wenn die Eigentümerin steuerlich in Spanien ansässig bleibt; sie verändert, wie die Tätigkeit betrieben, gebankt und internationalen Kunden präsentiert wird, und sie entfernt die Autónomo-Quote für die Zeit, in der die Eigentümerin nicht mehr als Autónomo gemeldet ist. Die Passung ist eine Frage von Kundenmix, Fakturierungsrhythmus und persönlichem Wohnsitzprojekt, kein magischer Umweg, und genau deshalb öffnen wir das Gespräch nur, wenn die Daten zeigen, dass es eine Stunde verdient.
+<!-- /exentax:lote6-native-v1-bis:facturar-sin-ser-autonomo-alternativas-2026 -->
+
+<!-- exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de -->
+## Wie sich die Alternativen zur Autónomo-Anmeldung als Profilfrage lesen lassen
+
+Die Alternativen zur Autónomo-Anmeldung lesen sich nützlicher, wenn sie als Profilfrage und nicht als Liste exotischer Optionen behandelt werden. Jede Alternative — Genossenschaft, LLC, gelegentliche Rechnungsstellung — adressiert eine bestimmte Kombination aus Wiederholung, Umsatzvolumen und Gegenparteientyp, und die richtige Alternative für den Fall ist diejenige, deren Kombination dem tatsächlichen Profil entspricht.
+
+## Wie sich die Alternativwahl schriftlich verankern lässt
+
+Die Alternativwahl verankert sich schriftlich in einer kurzen Notiz, die die drei Eigenschaften des Profils erfasst und sie der gewählten Alternative zuordnet.
+<!-- /exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de -->
+
+<!-- exentax:lote36-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de -->
+## Wie sich die Frage des Rechnung­stellens ohne Autónomo-Status als stabile Karte struktureller Alternativen statt als einzelner Trick lesen lässt
+
+Die Frage des Rechnung­stellens ohne Autónomo-Status liest sich nützlicher als stabile Karte struktureller Alternativen — eigenes ausländisches Vehikel, dritter Abrechnungs­anbieter, vertraglich gebundene Rolle unter anderem Vehikel — denn als einzelner Trick, der jede Situation löst.
+<!-- /exentax:lote36-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
+### Ein Entscheidungsprotokoll für den ersten Monat nach Verlassen des Autónomo-Regimes
+
+Der erste Monat nach der Entscheidung, das Autónomo-Regime zu verlassen, ist derjenige, in dem die meisten operativen Fehler konzentriert sind. Wir folgen einem fünfstufigen Protokoll mit Mandant:innen in dieser Position. Schritt eins: die Autónomo-Anmeldung aktiv halten, bis die neue Struktur operativ bereit ist (eine spanische SL mit eröffnetem und validiertem Geschäftskonto, oder eine US-LLC mit EIN und operativem Banking in Betrieb); die Lücke zwischen Abmeldung und Funktionsfähigkeit der neuen Struktur ist die häufigste Quelle nicht fakturierter Wochen. Schritt zwei: Kunden über die Änderung mit einer kurzen professionellen Nachricht informieren, die die neue Fakturierungseinheit, die neuen Bankdaten und das Wirksamkeitsdatum angibt; nicht mit der Fakturierung aus der neuen Struktur beginnen, bis der Kunde die Änderung bestätigt hat. Schritt drei: die Autónomo-Abmeldung über das Modelo 036 erst einreichen, wenn die erste Rechnung aus der neuen Struktur ausgestellt und bezahlt wurde. Schritt vier: eine Autónomo-Quartals-Modelo-130-Einreichung für den Zeitraum zwischen Januar und dem Abmeldedatum aufrechterhalten, und eine jährliche IRPF-Erklärung, die diesen Zeitraum abdeckt. Schritt fünf: das Autónomo-Dokumentationskit (NIF-Historie, Rechnungshistorie, IRPF-Erklärungen) für mindestens vier Jahre archivieren.
+
+### Wie sich der Break-Even für jede Alternative lesen lässt
+
+Die Break-Even-Berechnung zwischen den vier realen Alternativen (Genossenschaft, Autónomo, SL, LLC) verlangt drei Zahlen pro Alternative: monatliche Fixkosten, Grenzkosten pro fakturiertem Euro und einmalige Setup-Kosten. Die Genossenschaft hat nahezu null Fixkosten, Grenzkosten in Höhe der Servicegebühr plus Sozialversicherungs-Beitragssatz und winzige Setup-Kosten. Autónomo hat monatliche Fixkosten in Höhe der RETA-Quote, keine Grenzkosten über die IRPF auf das Nettoeinkommen hinaus und kleine Setup-Kosten. SL hat höhere Fixkosten (Buchhaltung, Autónomo societario, periodische Einreichungen), Grenzkosten aufgeteilt zwischen Körperschaftsteuer und Dividenden-IRPF und substantielle Setup-Kosten. Die US-LLC hat moderate Fixkosten (Registered Agent, Buchhaltungsdisziplin, jährliche staatliche Einreichungen, Form 5472), Grenzkosten in Höhe der IRPF auf das Pass-Through-Einkommen und Setup-Kosten, die im ersten Monat konzentriert sind. Diese drei Zahlen für jede Alternative gegen die tatsächliche jährliche Fakturierung des Freelancers auszufüllen produziert die Break-Even-Karte; sobald die Karte auf dem Tisch liegt, dauert das Gespräch über die richtige Antwort eine ruhige Stunde, nicht eine Reihe nächtlicher Online-Recherchen.
+<!-- /exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
+
+<!-- exentax:lote6-native-v1-quat:facturar-sin-ser-autonomo-alternativas-2026 -->
+### Eine Praxis-Notiz zur Übergangsphase zwischen zwei Strukturen
+
+Die Übergangsphase zwischen zwei Strukturen (zum Beispiel von Autónomo zu spanischer SL, oder von Autónomo zu US-LLC) ist die operative Schwelle, an der die meisten praktischen Fehler entstehen. In unserer Praxis decken wir diese Phase mit einer schriftlichen Übergangsvereinbarung mit der Mandantin ab, die drei Punkte festhält: das Datum, ab dem die alte Struktur keine neuen Rechnungen mehr ausstellt; das Datum, ab dem die neue Struktur ihre erste Rechnung ausstellt; und die Liste der Kunden, die über den Wechsel informiert werden müssen, mit Verantwortlichkeit dafür. Die Vereinbarung bleibt während des Übergangs sichtbar im Akt der Mandantin und wird wöchentlich aktualisiert, bis der letzte offene Punkt geschlossen ist. Die Disziplin verhindert die häufige Konstellation, in der zwei Strukturen mehrere Wochen parallel laufen und die Buchhaltung Monate braucht, um die Vorgänge sauber zu trennen.
+<!-- /exentax:lote6-native-v1-quat:facturar-sin-ser-autonomo-alternativas-2026 -->
+
+<!-- exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de-bis -->
+## Wie sich die jährliche Überprüfung der Alternativwahl ohne erneute Grundsatzdebatte halten lässt
+
+Die jährliche Überprüfung der Alternativwahl hält sich ohne erneute Grundsatzdebatte, wenn sie strikt an die schriftlich verankerten drei Eigenschaften gebunden bleibt: nur dort, wo eine der drei Eigenschaften real abgewichen ist, lohnt sich die Wiedereröffnung der Diskussion — die übrigen Punkte werden ohne weitere Prüfung übernommen.
+<!-- /exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Autónomo in Spanien vs US-LLC: ein Vergleich, der tatsächlich weiterhilft](/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger)
+- [US-LLC als Alternative zum Autónomo-Status in Spanien: wann sie passt](/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien)
+- [Spanische SL: tatsächliche Kosten, tatsächliche Vorteile, wann sie wirklich passt](/de/blog/spanische-gmbh-sl-kosten-vorteile-leitfaden)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.

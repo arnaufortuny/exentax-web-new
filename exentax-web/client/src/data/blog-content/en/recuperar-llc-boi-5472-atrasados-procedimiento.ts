@@ -94,6 +94,12 @@ This article relies on rules currently in force. Main sources for verification:
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
 
+<!-- exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-en -->
+## How to read the recovery of late BOI and Form 5472 filings as a documented procedure rather than as a improvised reaction
+
+The recovery of late BOI and Form 5472 filings reads more usefully when it's treated as a documented procedure with a fixed sequence — close the gap by year, file in chronological order, archive the confirmations — than as a improvised reaction. The procedure doesn't change with the number of years to catch up.
+<!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -162,6 +168,14 @@ When BOI or 5472 arrive with one or several years missing, the priority is not f
 
 If your LLC has years pending and you want to know which path applies, run the <strong>Exentax calculator</strong> or book thirty minutes.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Form 5472: what it is, who must file it and how to comply](/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply)
+- [BOI Report 2026: complete guide to FinCEN Beneficial Ownership filing](/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial)
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

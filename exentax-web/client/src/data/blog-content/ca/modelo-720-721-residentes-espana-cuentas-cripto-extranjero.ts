@@ -137,6 +137,18 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ca -->
+## Com llegir els Models 720 i 721 com un mapatge anual estable en lloc d'una preocupació recurrent
+
+Els Models 720 i 721 es llegeixen de manera més útil com un mapatge anual estable entre el país on es tenen els actius, el tipus d'actiu (compte, títol, cripto) i el formulari de declaració corresponent, en lloc d'una preocupació recurrent. El mapatge no canvia d'un any a un altre — només els saldos acumulats es mouen, i una nota curta per any al dossier personal amb els tres eixos fa la posició consultable en pocs minuts en una conversa amb un assessor.
+<!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ca -->
+
+<!-- exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ca -->
+## Per què la nota s'organitza per tipus d'actiu i no per país
+
+La nota s'organitza per tipus d'actiu — compte, títol, cripto — i no per país, perquè el formulari de declaració aplicable s'assenta en el tipus d'actiu, i aquesta visió facilita la reconciliació amb els Models sense reconstruir la posició de memòria.
+<!-- /exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -204,6 +216,37 @@ Freelance resident a Madrid amb: Wise EUR saldo 18.400 EUR, Mercury Personal Sav
 > **El teu stack frega els 50.000 EUR per bloc?** Passa els saldos per la <strong>calculadora fiscal d'Exentax</strong> i mira si passar a una LLC ben declarada compensa la complexitat actual.
 
 Per a la capa bancària prèvia al 720 llegeix <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat">què reporten realment els bancs americans al teu fisc</a>, i per a l'estratègia global <a href="/ca/blog/camins-legals-per-minimitzar-impostos">els camins legals per minimitzar impostos</a>. Per delegar la presentació, <strong>reserva una sessió amb l'equip Exentax</strong> i la tanquem en una setmana.
+
+<!-- exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->
+## Modelo 720 / 721 a partir de la realitat del resident fiscal a Espanya
+
+Els Modelos 720 i 721 no són formularis només per a cripto: són
+declaracions informatives sobre actius mantinguts a l'estranger
+que el propietari d'una LLC resident fiscal a Espanya ha de
+conèixer quan se superen els límits. La pràctica serena consisteix
+a fer un cop l'any — típicament al gener — un llistat dels saldos
+a l'estranger: Mercury, Wise, Stripe, Relay i plataformes cripto
+associades. Aquest llistat es revisa amb l'assessor i la decisió
+de presentació es pren amb calma a partir dels llindars, no a
+l'última hora.
+
+<!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->
+
+<!-- exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ca -->
+## Com els models 720 i 721 s'articulen a la pràctica
+
+Els models 720 i 721 són dues finestres diferents sobre el mateix quadre general, i resulta més útil entendre'ls com a complementaris que com a competidors. El model 720 cobreix categories d'actius mantinguts a l'estranger que són declaratives des de fa anys: comptes bancaris estrangers, valors mobiliaris estrangers i certes formes de béns immobles situats a l'estranger. El model 721 es va introduir específicament per cobrir monedes virtuals mantingudes fora d'Espanya a través d'entitats que presten custòdia, intercanvi o serveis connexos, i respon a una pregunta que el model més antic mai no va ser pensat per respondre. Els dos models tenen, doncs, llindars distints, camps de contingut distints i, a la pràctica, ritmes de preparació distints.
+
+En un any tranquil, la manera més neta de mantenir tots dos models manejables és mantenir tres fitxers de treball en paral·lel: una llista de comptes bancaris o de bròker estrangers amb saldos de final d'any i saldos mitjans trimestrals; una llista de valors mobiliaris estrangers amb la mateixa disciplina de valoració; i una llista de posicions cripto mantingudes en relacions de custòdia no espanyoles amb valoració en euros a final d'any. Cadascuna d'aquestes tres llistes alimenta els camps rellevants del model rellevant, i una comparació any a any assenyala moviments que poden exigir declaració actualitzada. Els models depenen també molt de la consistència de les xifres d'un any a l'altre; qualsevol petit canvi de metodologia s'ha de documentar sempre al mateix fitxer de treball i no confiar-lo a la memòria.
+<!-- /exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Comptes bancaris US: què reporta cada entitat i com estructurar-ho](/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat)
+- [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
+- [Criptomonedes i trading amb LLC: guia fiscal completa per a traders](/ca/blog/criptomonedes-i-trading-amb-llc-guia-fiscal-completa-per-a)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

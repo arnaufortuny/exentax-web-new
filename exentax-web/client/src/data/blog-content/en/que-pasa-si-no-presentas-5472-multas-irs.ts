@@ -135,6 +135,12 @@ Applying any of these rules to your specific case depends on your tax residency,
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->
+## How to read the consequences of not filing Form 5472 as a stable mapping rather than as a vague threat
+
+The consequences of not filing Form 5472 read more usefully as a stable mapping between the year affected, the type of omission and the type of remediation than as a vague threat. The mapping is reviewable in a few minutes during a conversation.
+<!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -182,6 +188,22 @@ At Exentax we handle late-5472 regularisations (late filing + reasonable cause +
 
 Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
+
+<!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->
+## Why the Form 5472 penalty escalates faster than other late filings
+
+The Form 5472 penalty has a structure that escalates faster than most other late filings, and the reason is rooted in the form's role within the wider US information regime. The form is designed to give the IRS a clean view of related-party transactions involving foreign owners, and the penalty regime reflects how central that visibility is to the system rather than how complex the form itself is to prepare. The starting amount is fixed per form per year and applies regardless of whether tax was due, and the amount can compound when reminders are not addressed within the statutory windows.
+
+Two practical points reduce most of the friction. First, abatement criteria exist when there is a reasonable cause, and a calmly written narrative supported by the original calendar reminders, the engagement letter and the date of first filing usually carries more weight than a longer letter written under pressure later. Second, the cleanest preventive measure is to align the calendar of reminders with the federal extension cycle and to keep a single working file per year that already contains the related-party transaction list, so that the form itself is just the final formatting step.
+<!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Form 5472: what it is, who must file it and how to comply](/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply)
+- [Recover an LLC with overdue BOI and 5472: real procedure and priorities](/en/blog/recover-an-llc-with-overdue-boi-and-5472-real-procedure-and)
+- [IRS Forms 1120 and 5472: what they are and when they apply to your LLC](/en/blog/irs-form-1120-and-5472-what-they-actually-are-and-when-they)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

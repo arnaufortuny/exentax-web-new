@@ -93,6 +93,14 @@ If you want to validate whether this strategy fits your specific situation, at E
 
 Fintech and CRS information evolves; here is the current state:
 
+<!-- exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-en -->
+## How to read documenting fund separation as a stable annual mapping rather than as a recurring task
+
+Documenting the separation of LLC funds reads more usefully when it's treated as a stable annual mapping between the LLC bank account, the personal account of the beneficial owner and the dated movements between them, than as a recurring task. The mapping doesn't change with each transaction — only the cumulative balance moves.
+
+A short note in the LLC folder that records the cut-off date and the closing balance of each side turns the separation into something the member can defend in a few minutes whenever a bank or a tax adviser asks.
+<!-- /exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -169,6 +177,14 @@ If it is not clean here, every downstream assumption becomes negotiable in front
 ### Step 6. Prepare a clean-up memo
 
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [I have a US LLC, am I managing it right? A real checklist](/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist)
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [Bookkeeping for your US LLC step by step: keep it simple and clean](/en/blog/bookkeeping-for-your-us-llc-step-by-step)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

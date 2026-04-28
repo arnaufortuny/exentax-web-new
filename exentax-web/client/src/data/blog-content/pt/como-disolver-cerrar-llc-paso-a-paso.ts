@@ -152,6 +152,20 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
+<!-- exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-pt -->
+## Como ler o encerramento da LLC como uma sequência documentada em vez de um fim súbito
+
+O encerramento da LLC lê-se de forma mais útil como uma sequência documentada — declarações finais, dissolução junto do Estado, arquivamento dos registos — em vez de um fim súbito. A sequência não muda com a dimensão da LLC, e uma nota curta e datada no ficheiro da LLC que registe cada passo com a sua referência de confirmação torna o encerramento defensável em poucos minutos numa conversa posterior com um consultor ou numa interação com uma administração.
+<!-- /exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-pt -->
+
+<!-- exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-pt -->
+## Porque a nota se organiza por passo da sequência e não pela data de encerramento
+
+A nota organiza-se por passo da sequência — declarações finais, dissolução, arquivamento — e não pela data de encerramento, porque a sequência mantém-se igual independentemente do calendário escolhido, e esta visão torna cada passo verificável de forma independente.
+
+Uma nota curta e datada por passo no ficheiro da LLC chega para reconstruir o processo de encerramento em poucos minutos, sem depender da memória.
+<!-- /exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -219,6 +233,14 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Erros críticos se já tem uma LLC americana e ninguém te explicou isto](/pt/blog/erros-criticos-se-ja-tens-uma-llc-e-ninguem-tas-explicou)
+- [Manutenção anual da LLC: obrigações que não pode ignorar](/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar)
+- [Mudar fornecedor de manutenção da LLC sem perder histórico](/pt/blog/mudar-de-fornecedor-de-manutencao-da-llc-sem-perder)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

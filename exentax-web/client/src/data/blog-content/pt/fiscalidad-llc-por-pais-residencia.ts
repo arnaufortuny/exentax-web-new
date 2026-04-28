@@ -101,6 +101,12 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
+<!-- exentax:lote32-native-v1:fiscalidad-llc-por-pais-residencia-pt -->
+## Como ler a fiscalidade da LLC por país de residência como um mapeamento estável
+
+A fiscalidade da LLC por país de residência lê-se como um mapeamento estável entre o beneficiário e o país.
+<!-- /exentax:lote32-native-v1:fiscalidad-llc-por-pais-residencia-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -155,6 +161,14 @@ Na Exentax cruzamos a sua residência, a sua actividade e o seu volume para lhe 
 
 A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+- [Tributação internacional para empreendedores digitais: guia completo](/pt/blog/tributacao-internacional-para-empreendedores-digitais-guia)
+- [Estrutura fiscal ótima para freelancers internacionais: framework](/pt/blog/estrutura-fiscal-otima-para-freelancers-internacionais-o)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

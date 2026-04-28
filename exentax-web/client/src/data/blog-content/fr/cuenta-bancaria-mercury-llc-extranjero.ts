@@ -266,6 +266,14 @@ Les quatre plateformes demandent: Articles of Organization de la LLC, EIN Confir
 
 Pour aller plus loin sur la structure bancaire complète lisez <a href="/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre">ce que les banques US déclarent vraiment</a>, et pour déléguer l'ouverture <strong>réservez un échange avec Exentax</strong>.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Wise, banques et LLC : la stack bancaire complète que personne n'explique](/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne)
+- [Comment éviter les blocages de compte chez Mercury, Wise et Revolut](/fr/blog/comment-eviter-les-blocages-de-compte-chez-mercury-wise-et)
+- [Due diligence bancaire pour votre LLC : ce que vérifient les banques](/fr/blog/due-diligence-bancaire-pour-votre-llc-ce-que-verifient-les)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Si%20vous%20venez%20de%20constituer%20votre%20LLC%20depuis%20la%20France%2C%20la%20Belgique%20ou%20la%20Sui%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

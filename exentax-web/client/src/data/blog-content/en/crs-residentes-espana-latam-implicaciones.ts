@@ -85,6 +85,12 @@ The professional approach involves:
 
 CRS is not "avoided" from a European jurisdiction. It is planned for, with knowledge. A US LLC remains an extraordinarily useful tool, but the design of your banking stack and your tax residency are decisive for the informational footprint you generate to be consistent with what you declare.
 
+<!-- exentax:lote36-native-v1:crs-residentes-espana-latam-implicaciones-en -->
+## How to read CRS implications for Spanish and Latin American residents as a stable mapping of who is reported and to whom rather than as a country-by-country anecdote
+
+CRS implications for Spanish and Latin American residents read more usefully as a stable mapping between the reporting financial institution, the residence declared on the account and the receiving tax administration, than as a country-by-country anecdote. The mapping doesn't shift with each anecdote.
+<!-- /exentax:lote36-native-v1:crs-residentes-espana-latam-implicaciones-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

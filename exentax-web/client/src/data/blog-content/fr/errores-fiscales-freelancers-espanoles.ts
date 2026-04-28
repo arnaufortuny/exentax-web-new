@@ -209,6 +209,14 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Dépenses déductibles pour les freelances espagnols en 2026 : guide clair](/fr/blog/depenses-deductibles-autonomo-espagne-2026)
+- [Retenues IRPF sur les factures espagnoles : comment ça marche en pratique](/fr/blog/retenues-irpf-sur-factures-espagne-explication)
+- [Autónomo en Espagne vs LLC américaine : une comparaison qui éclaire vraiment](/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22L'article%20d'origine%20parle%20des%20freelances%20espagnols%2C%20mais%20la%20liste%20des%20erreurs%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

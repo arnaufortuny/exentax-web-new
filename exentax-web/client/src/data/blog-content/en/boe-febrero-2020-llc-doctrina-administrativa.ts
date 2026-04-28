@@ -100,6 +100,26 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)** in Spain — and within the **GAAR** of FA 2013 Part 5 in the United Kingdom, **section 245 ITA 1985** in Canada or **Part IVA of ITAA 1936** in Australia. The facts decide, not the paperwork.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Self-employed in Spain vs LLC in the US: complete tax comparison](/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax)
+- [Your LLC pays no US tax — then what happens in your country](/en/blog/your-llc-pays-no-us-tax-then-what-happens-in-your-country)
+- [US LLC taxation by country of residence: what you pay where](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote25-native-v1:boe-febrero-2020-llc-doctrina-administrativa-en -->
+## How to read the February 2020 BOE administrative doctrine as a stable interpretive reference rather than as a one-time event
+
+The February 2020 BOE administrative doctrine reads more usefully when it's treated as a stable interpretive reference rather than as a one-time event. The interpretation it sets out — how the Spanish tax administration looks at US LLCs in the hands of Spanish-resident members — has not been substantively reversed in the years that followed, and it remains the practical anchor for any analysis that involves a Spanish-resident beneficial owner of a US LLC.
+<!-- /exentax:lote25-native-v1:boe-febrero-2020-llc-doctrina-administrativa-en -->
+
+<!-- exentax:lote36-native-v1:boe-febrero-2020-llc-doctrina-administrativa-en -->
+## How to read the published Spanish administrative doctrine on LLCs as a stable structural reference rather than as a closed verdict
+
+The published Spanish administrative doctrine on LLCs reads more usefully as a stable structural reference between vehicle, beneficial owner and treatment of profits and distributions, than as a closed verdict on every situation. The structural reading remains stable across personal cases.
+<!-- /exentax:lote36-native-v1:boe-febrero-2020-llc-doctrina-administrativa-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

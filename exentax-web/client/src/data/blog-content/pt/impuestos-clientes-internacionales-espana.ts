@@ -115,6 +115,12 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **CDT Espanha–EUA.** A convenção (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
 - **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 
+<!-- exentax:lote27-native-v1:impuestos-clientes-internacionales-espana-pt -->
+## Como ler a questão dos clientes internacionais em Espanha como um mapeamento estável em vez de uma pesquisa caso a caso
+
+A questão da tributação de clientes internacionais para um trabalhador independente residente em Espanha lê-se de forma mais útil como um mapeamento estável entre o tipo de cliente (empresa ou particular) e o país de residência do cliente, do que como uma pesquisa caso a caso por fatura. As regras aplicáveis não mudam de mês para mês.
+<!-- /exentax:lote27-native-v1:impuestos-clientes-internacionales-espana-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -167,6 +173,14 @@ Na Exentax revemos o seu mix de clientes (B2B/B2C, UE/não-UE, digital/consultiv
 ## Montamos para si sem perder um fim de semana
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Tributação internacional para empreendedores digitais: guia completo](/pt/blog/tributacao-internacional-para-empreendedores-digitais-guia)
+- [Tributação da LLC por país de residência: o que se paga onde se vive](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

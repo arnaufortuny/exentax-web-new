@@ -27,9 +27,6 @@ Se a sua atividade é 100% digital, internacional e com clientes maioritariament
 
 A regulamentação detalhada está no Regulamento do IRPF (RD 439/2007) e na Ordem anual de módulos publicada todos os anos em novembro no <a href="https://www.boe.es/">BOE</a>. Para verificar o seu epígrafe IAE consulte o <a href="https://sede.agenciatributaria.gob.es/">portal da agência</a> antes de decidir.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
-<!-- /exentax:calc-cta-v1 -->
 
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.
 
@@ -84,6 +81,39 @@ Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+### Como uma transição limpa de módulos para estimativa directa decorre de facto
+
+A renúncia apresenta-se via Modelo 036 em Dezembro para ter efeito a partir de Janeiro do ano seguinte, e uma vez apresentada vincula o autónomo durante pelo menos três anos antes de poder voltar a módulos. A primeira tarefa prática em Janeiro é montar o ritmo contabilístico que a estimativa directa exige: uma conta operacional separada (na nossa prática, uma conta de negócios dedicada evita a maior parte do atrito de reconciliação), facturas e despesas de fornecedores arquivadas por mês com cópia electrónica, e um Modelo 130 trimestral que toma o rendimento líquido (receitas menos despesas dedutíveis) como base. A segunda tarefa prática é rever o mapa de deduções no início do ano para que a nova visibilidade seja usada na totalidade: software, formação, honorários de assessoria, proporção de teletrabalho dos consumos, e qualquer outra despesa profissional que simplesmente não era relevante sob módulos passa a ser uma alavanca calculável. A terceira tarefa prática é agendar uma revisão trimestral de quinze minutos da projecção de IRPF acumulada para que qualquer mudança de escalão ou aproximação a um limite seja detectada antes de se tornar uma surpresa de fim de ano.
+
+### Quando nem módulos nem estimativa directa servem mais
+
+Há um perfil recorrente na nossa prática para quem ambos os regimes ficam apertados: um freelancer com a maioria dos clientes no estrangeiro, facturação mensal recorrente em moeda estrangeira e um catálogo de serviços digitais que se enquadra mal nos códigos de actividade IRPF concebidos para ofícios locais. Nesse perfil, os módulos não estão disponíveis (excluídos por actividade) e a estimativa directa parece pagar duas vezes (quota RETA mais IRPF integral sobre o líquido) por uma estrutura não pensada para fluxos digitais transfronteiriços. A conversa que abrimos habitualmente nesse momento compara duas alternativas estruturais: uma SL espanhola (com o seu próprio imposto sobre sociedades e a sua camada de dividendo, válida quando é necessária presença local) e uma LLC americana detida a partir de Espanha (com a sua mecânica pass-through e a sua carga declarativa, válida quando a maioria dos clientes e a tesouraria estão fora de Espanha). Nenhuma é um atalho; ambas são decisões com horizonte de três anos e com o seu custo de instalação, e é precisamente por isso que a comparação merece uma hora calma em vez de uma pesquisa rápida online.
+<!-- /exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+### Uma tabela de decisão lado a lado que partilhamos com autónomos
+
+Raramente recomendamos módulos versus estimativa directa no abstracto: a resposta depende do perfil de actividade e da previsibilidade do rendimento. A tabela de decisão que partilhamos com clientes tem quatro colunas. Primeira coluna: sector de actividade (a disponibilidade de módulos é fixada pelo código de actividade; alguns perfis digitais e de consultoria estão excluídos por definição). Segunda coluna: previsibilidade do rendimento (os módulos dão a mesma factura trimestral fixa independentemente do rendimento real, o que protege o lado positivo mas penaliza os anos fracos). Terceira coluna: intensidade de despesas dedutíveis (a estimativa directa recompensa perfis com despesas elevadas porque a base de IRPF é líquida; os módulos ignoram despesas, o que favorece actividades com poucas despesas). Quarta coluna: a disciplina plurianual (mudar de regime tranca a nova escolha por pelo menos três anos, pelo que a decisão deve ser projectada contra um horizonte de três anos, não um único ano). A recomendação limpa vem de preencher a tabela com números reais e ler o resultado, não de uma regra de uma linha.
+
+### Armadilhas comuns ao mudar de regime
+
+A primeira armadilha é mudar de regime a meio do ano por engano (por exemplo, atravessando o limiar de exclusão por actividade sem reparar); a AEAT reconciliará isso na revisão de fim de ano e o resultado raramente é amigável. A abordagem limpa consiste em verificar a elegibilidade por actividade a cada fecho anual e em registar qualquer mudança antecipada via Modelo 036 em Dezembro para o ano seguinte. A segunda armadilha é passar de módulos para estimativa directa sem preparar o ritmo contabilístico: o autónomo encontra-se em Março sem livro de despesas, sem dossier de Modelo 130 trimestral e sem cifra fiável de rendimento líquido. A abordagem limpa consiste em montar a contabilidade na primeira semana de Janeiro, idealmente com uma conta de negócios dedicada no lugar desde o primeiro dia. A terceira armadilha é passar de estimativa directa para módulos pensando que simplificará a vida: a simplificação é real para alguns perfis mas a perda de visibilidade sobre despesas também é real, e uma vez trancado o regime por três anos é delicado desfazê-lo. A abordagem limpa consiste em projectar ambos os regimes para os próximos três anos antes da apresentação de Dezembro.
+<!-- /exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Quota de autónomo em Espanha 2026: o que paga realmente todos os meses](/pt/blog/quota-autonomo-espanha-2026-escaloes)
+- [Despesas dedutíveis para freelancers em Espanha em 2026: guia claro](/pt/blog/despesas-dedutiveis-autonomo-espanha-2026)
+- [Por que freelancers espanhóis estão a deixar o regime de autónomo](/pt/blog/por-que-freelancers-espanhois-estao-deixando-o-trabalho)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.

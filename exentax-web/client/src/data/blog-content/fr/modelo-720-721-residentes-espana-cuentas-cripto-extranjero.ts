@@ -118,6 +118,12 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.
 
+<!-- exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-fr -->
+## Comment lire les Modelos 720 et 721 comme une cartographie annuelle stable plutôt que comme une crainte récurrente
+
+Les Modelos 720 et 721 se lisent plus utilement comme une cartographie annuelle stable entre le pays où les actifs sont détenus, le type d'actif (compte, titre, crypto) et le formulaire de déclaration correspondant, plutôt que comme une crainte récurrente. La cartographie ne change pas d'une année sur l'autre — seuls les soldes cumulés évoluent.
+<!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -204,6 +210,22 @@ Freelance résidant à Madrid avec: Wise EUR solde 18 400 EUR, Mercury Personal 
 > **Votre stack frôle les 50 000 EUR par bloc?** Passez vos soldes dans le <strong>calculateur fiscal Exentax</strong> et voyez si une LLC bien déclarée compense la complexité actuelle.
 
 Pour la couche bancaire en amont du 720, lisez <a href="/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre">ce que les banques US déclarent vraiment à votre fisc</a>, et pour la stratégie globale <a href="/fr/blog/voies-legales-pour-minimiser-vos-impots">les voies légales pour minimiser vos impôts</a>. Pour déléguer le dépôt, <strong>réservez un échange avec l'équipe Exentax</strong> et on le clôture en une semaine.
+
+<!-- exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-fr -->
+## Comment les formulaires 720 et 721 s'articulent en pratique
+
+Les formulaires 720 et 721 sont deux fenêtres différentes sur la même image d'ensemble, et il est plus utile de les considérer comme complémentaires que comme concurrents. Le formulaire 720 couvre des catégories d'actifs détenus à l'étranger qui sont déclaratifs depuis des années : comptes bancaires étrangers, titres étrangers et certaines formes de biens immobiliers situés à l'étranger. Le formulaire 721 a été introduit spécifiquement pour couvrir les monnaies virtuelles détenues hors d'Espagne via des entités qui fournissent garde, échange ou services connexes, et il répond à une question que l'ancien formulaire n'avait pas vocation à traiter. Les deux formulaires ont donc des seuils distincts, des cases de contenu distinctes et, en pratique, des rythmes de préparation distincts.
+
+Au cours d'une année calme, la manière la plus nette de garder les deux formulaires gérables consiste à maintenir trois dossiers de travail en parallèle : une liste des comptes bancaires ou de brokers étrangers avec leurs soldes en fin d'année et leurs soldes moyens trimestriels ; une liste des titres étrangers avec la même discipline de valorisation ; et une liste des positions crypto détenues dans des relations de garde non espagnoles avec une valorisation en euros en fin d'année. Chacune de ces trois listes alimente les cases pertinentes du formulaire pertinent, et une comparaison d'année en année met en évidence les mouvements qui peuvent appeler une déclaration rafraîchie. Les formulaires reposent aussi fortement sur la cohérence des chiffres d'une année sur l'autre, et tout changement modeste de méthodologie devrait toujours être documenté dans le même dossier de travail plutôt que laissé à la mémoire.
+<!-- /exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-fr -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Comptes bancaires US : ce qui est déclaré et organiser le reporting LLC](/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre)
+- [DAC8 et cryptos : reporting fiscal automatique des crypto-actifs en 2026](/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal)
+- [Cryptomonnaies et trading avec LLC : guide fiscal complet pour traders](/fr/blog/cryptomonnaies-et-trading-avec-llc-guide-fiscal-complet-pour)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

@@ -119,6 +119,12 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **UE / OCDE.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 
+<!-- exentax:lote31-native-v1:estructura-offshore-beneficios-riesgos-pt -->
+## Como ler a questão de uma estrutura offshore como um mapa de perfil estável em vez de um discurso de marca
+
+A questão de uma estrutura offshore lê-se de forma mais útil como um mapa de perfil estável entre o país de residência do beneficiário, o país onde se cria valor e o país dos clientes, em vez de um discurso de marca sobre uma jurisdição específica.
+<!-- /exentax:lote31-native-v1:estructura-offshore-beneficios-riesgos-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -138,6 +144,14 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Empresa em Hong Kong: a realidade offshore em 2026](/pt/blog/empresa-em-hong-kong-a-realidade-offshore-em-2026)
+- [Empresa no Panamá: fiscalidade e residência 2026](/pt/blog/empresa-no-panama-fiscalidade-e-residencia-2026)
+- [Dubai/UAE: o mito dos zero impostos](/pt/blog/dubai-uae-o-mito-dos-zero-impostos)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## "Offshore" atualmente: o que já não significa o que pensa

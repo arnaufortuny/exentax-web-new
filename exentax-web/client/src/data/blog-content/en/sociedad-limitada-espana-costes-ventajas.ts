@@ -138,6 +138,50 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:lote6-native-v1-bis:sociedad-limitada-espana-costes-ventajas -->
+### How the real cost of an SL stacks up over the first three years
+
+A defensible cost view of an SL needs to look beyond the day-one notary fee. In year one, the freelancer absorbs the formation cost (notary, registry, initial capital), the bookkeeping and corporate-tax preparation work, the autónomo societario contribution if the freelancer is also a director, the periodic VAT and corporate tax filings, and the legal-deposit obligations. In year two, the formation cost disappears but the recurring obligations stabilise; the corporate tax filing introduces its own complexity in profit allocation, dividend planning and reserves. In year three, an SL with sufficient profit and structured dividends produces a clear separation between operational profit and personal income, which is a real advantage for project planning, but the combined cost of the corporate-tax layer plus the personal IRPF on dividends usually exceeds what an autónomo would pay below a clear breakeven of net activity. We typically estimate that breakeven on real annual net basis only around well-established mid-six-figure income with stable Spanish billing; below that threshold, the SL is more comfortable for the institutional posture than efficient on the tax bill.
+
+### Three operational comparisons we walk clients through
+
+The first comparison is invoice receipt: an SL issues invoices in its own corporate name and receives funds in a corporate Spanish bank account, which is comfortable for Spanish public-sector clients and for some institutional buyers; an autónomo invoices in personal name into a personal account; a US LLC invoices in its own name into a Mercury, Wise, Stripe or Relay account, which is comfortable for international clients and not always recognised by Spanish public-sector buyers. The second comparison is profit extraction: SL profits move to the owner via salary (subject to IRPF in the general base plus social contributions) or dividends (subject to IRPF in the savings base, after corporate tax already paid); autónomo profit equals personal income directly; LLC profit flows to the owner pass-through into IRPF in the corresponding category. The third comparison is reporting load: SL carries a corporate tax return, accounting deposit and quarterly VAT; autónomo carries quarterly VAT and Form 130 plus annual IRPF; LLC carries Form 5472, bookkeeping, annual state filings and the integration with the owner's IRPF. Each structure is heavier than the lighter ones; the question is which weight matches the activity, not which is "best".
+<!-- /exentax:lote6-native-v1-bis:sociedad-limitada-espana-costes-ventajas -->
+
+<!-- exentax:lote6-native-v1-ter:sociedad-limitada-espana-costes-ventajas -->
+### Three operating habits that make an SL light or heavy
+
+The first habit is the use of a dedicated business bank account from day one. An SL with a clean operating account (in our practice, a Spanish corporate account works for local Spanish operations; for international flows, the Mercury, Wise, Stripe and Relay names recur) avoids the most common bookkeeping confusion: a personal expense paid from the corporate account that the bookkeeper has to reclassify and that the auditor will eventually flag. The second habit is the monthly closing rhythm. An SL closed once a month (revenue posted, expenses posted, bank reconciled, payroll closed) is light to maintain because each closing is small; an SL closed once a year is heavy to maintain because the year-end becomes a multi-week reconstruction. The third habit is the dividend planning. An SL with a clear annual dividend policy (when, how much, in what proportion to retained earnings) makes the IRPF and the corporate tax interaction predictable; an SL where dividends are decided on the spot at year-end produces last-minute IRPF surprises for the owner. None of the three habits requires advanced expertise; all three require discipline and a thirty-minute monthly review.
+
+### A documentation kit per closed quarter that pre-empts AEAT requests
+
+For an SL, the documentation kit per closed quarter that we keep on file mirrors the one for an autónomo but with corporate flavour. First: the issued-invoice ledger with client name, NIF, date, amount and VAT detail. Second: the supplier-invoice ledger with the same fields. Third: the bank statement reconciled against the two ledgers, with any unmatched line documented in a one-line note. Fourth: the quarterly Form 303 (VAT) and Form 111 (withholdings if applicable) receipts. Fifth: the payroll for the quarter if the SL has employees, including the autónomo societario contribution if the director is also a member. Sixth: any contract or order for non-routine operations of the quarter. Seventh: a one-page closing memo summarising the quarter. The kit is small, predictable and largely automatic if the closing rhythm is monthly; it is the difference between an AEAT request answered in two days and one that opens a wider review.
+<!-- /exentax:lote6-native-v1-ter:sociedad-limitada-espana-costes-ventajas -->
+
+<!-- exentax:lote6-native-v1-quat:sociedad-limitada-espana-costes-ventajas -->
+### A second-year reset that protects the SL from drifting
+
+The second year of an SL is the moment to perform a quiet reset on the operating habits established in year one. We typically run this reset in January of the second calendar year, with three checks. First check: the chart of accounts is reviewed to ensure that the categories actually used during year one are clean (no orphan accounts, no duplicates), and that any new recurring expense category is added before posting the first January transaction. Second check: the bank-account reconciliation procedure is documented in a one-page note (which account, which frequency, which person, which sign-off), so that the year-two closings do not depend on the year-one improvisation. Third check: the dividend policy for year two is decided in writing in January, not in November when the corporate tax is being prepared, so that the IRPF on dividends is anticipated by the owner and not landed as a year-end surprise. The three checks take an hour and they are the difference between an SL that runs lighter every year and one that accumulates a backlog that the third year will not absorb.
+
+### How a Spanish SL and a US LLC can coexist for the same owner
+
+In a small subset of our practice, the answer is neither SL nor LLC alone but both, with a clear allocation between them. The owner runs the Spanish-billed activity through the SL (which provides the Spanish corporate envelope, the local invoice and the local banking) and the international-billed activity through the LLC (which provides the cross-border envelope, the international invoice and the Mercury, Wise, Stripe or Relay banking). The two structures are operated separately, with two separate bookkeepings, two separate annual reports and two separate flows back to the owner's IRPF declaration. The setup is heavier than a single structure and only justifies its weight when the activity profile genuinely splits between two distinct client bases; for an owner whose activity is purely domestic or purely international, the single-structure answer remains the simpler one.
+<!-- /exentax:lote6-native-v1-quat:sociedad-limitada-espana-costes-ventajas -->
+
+<!-- exentax:lote6-native-v1-quint:sociedad-limitada-espana-costes-ventajas -->
+### A practical note on the corporate-bank account choice from day one
+
+The corporate bank account chosen on day one shapes most of the SL's operational comfort during the first three years. For SL with predominantly Spanish flows (Spanish clients, Spanish suppliers, Spanish payroll), a Spanish corporate bank works smoothly: domestic transfers are fast, the integration with the Spanish payment infrastructure is native, and the bank statement format is familiar to the local bookkeeper. For SL with predominantly international flows, the picture changes; the names that recur in our setups for international flows are Mercury, Wise, Stripe and Relay, with the choice depending on the specific currency mix, the payment-acceptance needs and the integration with the bookkeeping system. The clean answer is rarely a single account; it is more often a primary corporate Spanish account for local operations, paired with a secondary international account for cross-border flows, with both reflected in the same monthly closing.
+<!-- /exentax:lote6-native-v1-quint:sociedad-limitada-espana-costes-ventajas -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Self-employed in Spain vs US LLC: a side-by-side that actually helps](/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax)
+- [US LLC as an alternative to being autónomo in Spain: when it makes sense](/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain)
+- [Invoicing without being autónomo in 2026: real alternatives, no shortcuts](/en/blog/invoice-without-being-self-employed-spain-2026-alternatives)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->

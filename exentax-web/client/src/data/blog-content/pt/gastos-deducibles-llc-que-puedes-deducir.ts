@@ -160,6 +160,12 @@ A recomendação realista: **Mercury + Relay como backup + Slash para operativa 
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote34-native-v1:gastos-deducibles-llc-que-puedes-deducir-pt -->
+## Como ler a questão das despesas dedutíveis de uma LLC como um mapa de perfil entre tipo de despesa e propósito da atividade em vez de uma lista fechada
+
+A questão das despesas dedutíveis de uma LLC lê-se de forma mais útil como um mapa de perfil estável entre tipo de despesa, comprovativo documental e propósito da atividade, em vez de uma lista fechada. Este mapa mantém-se válido de um exercício para o seguinte, e uma nota curta no ficheiro da LLC com os três eixos torna a posição relevável.
+<!-- /exentax:lote34-native-v1:gastos-deducibles-llc-que-puedes-deducir-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -205,6 +211,14 @@ Na Exentax montamos a contabilidade da sua LLC desde o primeiro mês com plano d
 ## Montamos para si sem perder um fim de semana
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Despesas dedutíveis para autónomos em 2026: lista prática](/pt/blog/despesas-dedutiveis-autonomo-espanha-2026)
+- [Tributação da LLC por atividade: serviços, e-commerce, SaaS, trading](/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos)
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

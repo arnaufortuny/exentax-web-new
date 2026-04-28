@@ -165,6 +165,93 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
   At Exentax we cover those five fronts every year alongside the US federal calendar (Form 5472, pro-forma 1120, FBAR, state Annual Report and BOI Report when applicable). The goal is that no inquiry finds a loose end and that the structure withstands a 5-to-7-year retroactive review.
 <!-- /exentax:defensa-fiscal-v1 -->
 
+<!-- exentax:lote7-native-v1:revolut-business-crs-reporting-fiscal -->
+## What CRS actually moves between countries
+
+CRS does not push every transaction line over the wire. It moves a
+defined record per reportable account once a year: account holder
+identity, balance at year-end, gross interest, gross dividends, and
+gross proceeds for accounts that hold securities. Movements between
+your own accounts, the granular invoice list, and operational notes
+stay inside the bank. The receiving tax administration gets a tidy
+summary, not a payment statement.
+
+This matters when reading your Revolut Business profile, because the
+question is not "what does Revolut see"; it is "what record will
+Revolut hand to my tax authority once a year, and does that record
+match what I will declare myself".
+
+| Field reported by Revolut Business | What your tax administration sees    |
+|------------------------------------|--------------------------------------|
+| Account holder identity            | Member name, residence, tax ID       |
+| Account balance at 31 Dec          | One snapshot, in account currency    |
+| Gross interest (where applicable)  | Annual aggregate                     |
+| Gross dividends (where applicable) | Annual aggregate                     |
+| Gross proceeds (securities)        | Annual aggregate                     |
+
+If you read those five lines next to your own annual declaration and
+they tell the same story, the CRS report is a non-event. If they
+diverge, that is where the reconciliation work belongs.
+
+## Three real Revolut Business + CRS scenarios
+
+A Spanish tax-resident running a US LLC kept a Revolut Business
+account in EUR for occasional EU client invoices. The end-of-year
+balance was small and the cash flow modest. The CRS report matched
+the LLC's bookkeeping cleanly because the member treated Revolut as
+an ordinary working account rather than a treasury vehicle.
+
+A digital agency with two members, one in Portugal and one in
+Germany, ran a single Revolut Business account. The reporting went
+to both home countries proportionally to the declared beneficial-
+owner share, and we reconciled member draws against the K-1-style
+allocation each member declared at home. No surprises.
+
+A consultant who briefly parked a large advance in Revolut Business
+saw the December snapshot trigger a follow-up question from the home
+tax office the next spring. The fix was a one-page note attaching
+the contract that justified the advance, the matching invoice, and
+the subsequent service delivery. The advance was already declared,
+so the question closed quickly.
+
+## Mistakes that turn a calm CRS report into a noisy file
+
+- Treating Revolut Business as a savings account. The 31 December
+  snapshot is what feeds the report; large idle balances become
+  conversation starters.
+- Operating both a personal Revolut and a Revolut Business under the
+  same email mental model. They are reported separately and the
+  matching to your declarations must be separate.
+- Forgetting the residence change. If the member's tax residence
+  shifted mid-year, the bank's CRS profile must shift in time;
+  otherwise the report goes to the wrong country.
+- Ignoring the soft annual review that Revolut does. A short
+  proactive update on activity is cheaper than a reactive question
+  later.
+
+## Reconciliation checklist with your declaration
+
+- Identify the closing balance in account currency on 31 December.
+- Convert at the official year-end rate used in your home country.
+- Add interest received during the year, if any.
+- Confirm the figure appears in your annual filing (Modelo 720/721
+  in Spain when applicable, or the equivalent in your jurisdiction).
+- Keep the supporting screenshots in the LLC's compliance folder.
+
+We treat CRS as a calm annual postcard, not a search warrant.
+Aligned profiles and aligned declarations make the postcard the
+thinnest part of the year.
+
+<!-- /exentax:lote7-native-v1:revolut-business-crs-reporting-fiscal -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise IBAN with your LLC: what actually gets reported to the tax office](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+- [CRS and your US LLC bank accounts: what is shared with your home country](/en/blog/crs-and-your-us-llc-bank-accounts-what-gets-shared-with-your)
+- [DAC8 and crypto: the new automatic tax reporting that arrives in 2026](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->

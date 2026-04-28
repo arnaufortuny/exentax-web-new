@@ -76,6 +76,12 @@ Se quer validar se esta estratégia encaixa na sua situação concreta, na Exent
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-pt -->
+## Como ler a estabilidade da conta na Mercury e na Wise como um procedimento documentado em vez de uma questão de sorte
+
+A estabilidade da conta na Mercury e na Wise lê-se de forma mais útil como um procedimento documentado — identificação do beneficiário mantida atualizada, origem dos fundos documentada, contexto da atividade atualizado quando evolui — em vez de uma questão de sorte. O procedimento não muda com a dimensão da conta.
+<!-- /exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -120,6 +126,12 @@ As comparações e dados quantitativos sobre as jurisdições citadas baseiam-se
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilar Dois (GloBE) e Modelo de Convenção OCDE com Comentários.
 
 A escolha de jurisdição depende sempre da residência fiscal real do titular e da substância económica da atividade; analise o seu caso específico antes de qualquer decisão estrutural.
+
+<!-- exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-pt -->
+## Uma rotina curta que mantém Mercury e Wise tranquilos
+
+Os dois alavancas práticas que mantêm a operação fluida em Mercury e Wise são a previsibilidade e a rastreabilidade. Previsibilidade quer dizer que o perfil de volume, a geografia das contrapartes e o tipo de fluxos de entrada parecem razoavelmente constantes de trimestre para trimestre. Rastreabilidade quer dizer que, para qualquer transferência recebida, uma fatura ou contrato pode ser apresentado em poucos minutos. Com estes dois hábitos no sítio, a maioria das revisões termina antes mesmo de começar.
+<!-- /exentax:lote15-native-v1:evitar-bloqueos-mercury-wise-revolut-pt -->
 
 <!-- exentax:cross-refs-v1 -->
 ### Leituras adicionais

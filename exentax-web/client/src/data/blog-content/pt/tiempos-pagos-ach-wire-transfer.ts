@@ -107,6 +107,20 @@ A recomendação realista: **Mercury + Relay como backup + Slash para operativa 
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote16-native-v1:tiempos-pagos-ach-wire-transfer-pt -->
+## Porque é que para ACH e wire a previsibilidade conta mais do que a velocidade
+
+O planeamento dos pagamentos via ACH e wire não fica mais simples se se procurar a velocidade máxima; fica mais simples se se procurar a previsibilidade. A diferença é concreta: uma wire emitida na manhã de terça-feira no âmbito de uma rotina estabelecida não levanta perguntas, ao passo que uma wire emitida sexta à noite fora de qualquer rotina abre conversas com a conformidade bancária que consomem tempo sem trazer nada à própria operação. A mesma lógica vale para ACH: um calendário regular, com montantes alinhados com os fluxos operacionais, funciona melhor do que um envio oportunista.
+
+Um hábito que reduz a fricção consiste em fixar duas janelas semanais para os pagamentos a enviar e anunciá-las internamente. As contrapartes adaptam-se depressa, a contabilidade alinha as reconciliações e o próprio banco acaba por ler o perfil como previsível, o que reduz o número de revisões internas.
+<!-- /exentax:lote16-native-v1:tiempos-pagos-ach-wire-transfer-pt -->
+
+<!-- exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-pt -->
+## Como ler os tempos dos pagamentos ACH e wire transfer como um mapeamento estável em vez de uma espera incerta
+
+Os tempos dos pagamentos ACH e wire transfer leem-se de forma mais útil como um mapeamento estável entre o tipo de instrução (ACH ou wire), o momento em que é lançada e o prazo operacional esperado, em vez de uma espera incerta. Estes prazos não mudam de mês para mês.
+<!-- /exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -151,6 +165,26 @@ A nossa equipa é especializada em estruturas fiscais internacionais para reside
   ### SEPA, TARGET2 e particularidades para titulares de LLC residentes em Portugal
 
   Quem opera uma LLC americana a partir de Portugal combina na prática transferências ACH/Wire em USD com transferências **SEPA em EUR** para o seu IBAN português. Os tempos de execução em Portugal são: **SEPA Credit Transfer (SCT)** D+1 dia útil, **SEPA Instant Credit Transfer (SCT Inst)** menos de 10 segundos 24/7 — obrigatória para receção até 9 de outubro de 2025 e para envio até 9 de abril de 2026 ao abrigo do **Regulamento UE 2024/886**. O Banco de Portugal regula este sistema e publicou o **Aviso 1/2022 do BdP** sobre comunicação de operações cambiais e contas no estrangeiro com saldo superior a USD 1 000 000 (Sistema CBE).
+
+
+<!-- exentax:lote9-native-v1:tiempos-pagos-ach-wire-transfer -->
+## Uma nota prática sobre os prazos
+
+Os prazos ACH e wire não são valores fixos: dependem da hora de
+envio, do dia da semana e do corredor bancário concreto. O
+membro que integra estas variáveis no ciclo de facturação evita
+a maioria das fricções de tesouraria que afectam as LLC em fase
+de crescimento.
+
+<!-- /exentax:lote9-native-v1:tiempos-pagos-ach-wire-transfer -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [IBAN, SWIFT e routing number: entendendo os códigos bancários internacionais](/pt/blog/iban-swift-e-routing-number-entendendo-os-codigos-bancarios)
+- [Como abrir uma conta Mercury para a sua LLC de qualquer país](/pt/blog/como-abrir-uma-conta-mercury-para-sua-llc-de-qualquer-pais)
+- [Trocar divisas para a sua LLC: melhores opções e como evitar taxas ocultas](/pt/blog/trocar-divisas-para-sua-llc-melhores-opcoes-e-como-evitar)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

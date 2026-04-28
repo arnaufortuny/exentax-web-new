@@ -81,11 +81,29 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
+<!-- exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-de -->
+## Wie sich die Nachholung verspäteter BOI- und Form-5472-Erklärungen als dokumentierte Prozedur statt als improvisierte Reaktion lesen lässt
+
+Die Nachholung verspäteter BOI- und Form-5472-Erklärungen liest sich nützlicher als dokumentierte Prozedur mit fester Sequenz — Lücke Jahr für Jahr schließen, in chronologischer Reihenfolge einreichen, Bestätigungen archivieren — denn als improvisierte Reaktion. Die Prozedur ändert sich nicht mit der Zahl der nachzuholenden Jahre, und eine kurze, datierte Notiz im LLC-Ordner mit den eingereichten Jahren macht den Status nachlesbar.
+<!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-de -->
+
+<!-- exentax:lote30-native-v1-bis:recuperar-llc-boi-5472-atrasados-procedimiento-de -->
+## Warum die Notiz pro Jahr und nicht pro Formular­typ organisiert sein sollte
+
+Die Notiz organisiert sich pro nachgeholtem Jahr und nicht pro Formular­typ, weil die Sequenz chronologisch verläuft und sich der Status pro Jahr klarer zeigt als pro Formular­typ über mehrere Jahre verteilt.
+<!-- /exentax:lote30-native-v1-bis:recuperar-llc-boi-5472-atrasados-procedimiento-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+
+<!-- exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-de -->
+## Warum ein Recovery-Kalender besser wirkt als eine Sammelantwort
+
+Eine LLC zu rekuperieren, deren BOI-Meldungen und Form 5472 in Verzug sind, geschieht nicht in einer einzigen Handlung, sondern nach einem kurzen, disziplinierten Zeitplan, der die einzelnen Stücke zeitlich trennt, damit sie sich nicht widersprechen oder ohne innere Kohärenz eingereicht werden. Der erste Schritt besteht darin, das Jahr zu rekonstruieren, das als Referenzbasis für die übrigen dient; die nachfolgenden Geschäftsjahre richten sich dann an dieser Basis aus, und so vermeidet man das häufige Szenario, in dem die Rekuperation eines Geschäftsjahres Inkohärenzen mit bereits eingereichten Jahren sichtbar werden lässt.
+<!-- /exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -164,6 +182,58 @@ Wenn Ihre LLC Jahre offen hat und Sie wissen wollen, welcher Weg passt, starten 
   **Deutsche Parallelpflichten:** (a) **Mitteilung nach §138 Abs. 2 Nr. 2 AO** an das deutsche Finanzamt rückwirkend für nicht angezeigte Jahre — §379 AO sanktioniert mit bis zu €25.000 pro Jahr; (b) **Anlage AUS** nachträglich für die betroffenen Steuerjahre einreichen; (c) **§371 AO Selbstanzeige** bei vorsätzlicher Steuerhinterziehung mit Sperrwirkung nach §371 Abs. 2 AO; (d) **Transparenzregister §§19-20 GwG** Nachmeldung des wirtschaftlich Berechtigten — §56 GwG bis €5 Millionen Strafsanktion.
 
   **FATCA-Abkommen vom 31.05.2013 (BGBl. II 2013 S. 1362)** und **DBA D-USA Art. 26** (Informationsaustausch i.d.F. Protokoll 2006) bilden die Rechtsgrundlage für den Datenaustausch zwischen IRS und BZSt — die Wahrscheinlichkeit der Aufdeckung ist daher hoch. **Aufbewahrungsfrist 10 Jahre** nach §147 AO. **In Österreich** greift §49a FinStrG Selbstanzeige und §109 BAO Mitteilungspflicht. **In der Schweiz** greift Art. 175 DBG SR 642.11 Steuerbetrug und die straflose Selbstanzeige nach Art. 175 Abs. 3 DBG (einmalig im Leben).
+
+<!-- exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
+## Wie eine Aufholaktion aus Sicht der LLC aussieht
+
+Wenn eine LLC mit ausstehenden BOI- oder Form-5472-Pflichten zu uns
+kommt, ist der erste Schritt nie, Papier einzureichen, sondern
+Klarheit zu schaffen: welches Geschäftsjahr ist wirklich offen,
+welche bereits eingereichten Unterlagen existieren, und welche
+Bankbewegungen müssen zur tatsächlichen Wirtschaftsrealität passen.
+Diese erste halbe Stunde der Klarstellung verkürzt die spätere
+Aufholaktion oft um Wochen, weil sie die Reihenfolge richtig setzt.
+
+Die zweite Beobachtung ist, dass die meisten verspäteten
+Einreichungen weniger Strafrisiko bergen, als die Mitglieder
+befürchten, sofern die Aufholaktion freiwillig, vollständig und
+chronologisch geordnet erfolgt. Die FinCEN- und IRS-Reaktionen sind
+deutlich milder, wenn die LLC selbst die Initiative ergreift, statt
+auf eine Aufforderung zu warten.
+
+Drittens: nach der Aufholaktion ändern wir mit dem Mandanten den
+Kalender so, dass die nächste Frist nicht mehr von der individuellen
+Erinnerung abhängt. Ein wiederkehrender Quartals- oder Jahres-
+eintrag, gekoppelt an einen einzigen Verantwortlichen für die LLC,
+verhindert, dass dasselbe Szenario wiederkehrt. Die Aufholaktion
+selbst wird so zu einem einmaligen Ereignis statt zu einem
+rezidivierenden Muster.
+
+<!-- /exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
+
+<!-- exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-bis -->
+## Eine kurze Schlussnotiz zur Aufholaktion
+
+Eine gut geführte Aufholaktion endet nicht mit der Einreichung,
+sondern mit einer Routine, die sicherstellt, dass dieselbe Lücke
+nicht wiederkehrt. Diese kleine zusätzliche Disziplin verwandelt
+einen kritischen Moment in einen einmaligen Wendepunkt.
+
+<!-- /exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-bis -->
+
+<!-- exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-de-bis -->
+## Wie sich der Recovery-Kalender in der Praxis aufbaut
+
+In der Praxis baut sich der Recovery-Kalender in drei kurzen Phasen auf: zuerst die Definition des Referenzjahres, dann die Reihenfolge der nachzureichenden Geschäftsjahre, schliesslich die Reservierung eines Slots für die letzte abschliessende Überprüfung der Kohärenz aller Stücke.
+<!-- /exentax:lote17-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Form 5472: Was es ist, wer es einreichen muss und wie man es erfüllt](/de/blog/form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es)
+- [BOI Report 2026: Leitfaden zur FinCEN Beneficial Ownership Meldung](/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen)
+- [Kritische Fehler nach LLC-Gründung, die niemand erklärt](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

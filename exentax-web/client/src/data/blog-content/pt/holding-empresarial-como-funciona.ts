@@ -155,7 +155,21 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
-Na Exentax, montamos a estrutura para encaixar no primeiro cenário e documentamos cada passo para que a sua declaração local seja defensável perante uma eventual revisão.<!-- exentax:execution-v2 -->
+Na Exentax, montamos a estrutura para encaixar no primeiro cenário e documentamos cada passo para que a sua declaração local seja defensável perante uma eventual revisão.
+
+## Três perguntas que recebemos sempre na primeira conversa
+
+**Uma holding faz baixar os impostos automaticamente?** Não. Ela organiza fluxos e protege o risco; a poupança fiscal vem depois, consoante a residência e a rota dos dividendos. Modelamos sempre o cash-flow líquido antes de recomendar o passo.
+
+**Posso migrar a minha LLC actual para uma estrutura holding?** Sim, em regra por entrada de participações, com um Operating Agreement renovado e uma actualização BOI depositada. O momento delicado é o salto single-member → multi-member, não o papel da holding em si.
+
+**A holding precisa do próprio EIN, banco e Registered Agent?** Sim ao EIN e ao Registered Agent. O Mercury ou o Wise só aceitam uma holding se a actividade, a origem dos fundos e os beneficiários efectivos estiverem documentados de forma clara.
+
+**E o Form 5472 com várias subsidiárias?** Cada disregarded entity apresenta o seu 5472 com pró-forma 1120; a holding faz uma leitura consolidada na sua declaração quando aplicável. Coordenamos os calendários para que nada caia entre declarações.
+
+**Quando é que uma holding é excessiva?** Se o lucro líquido anual fica claramente abaixo das cinco cifras médias em USD e só existe uma LLC operacional, a holding acrescenta custo sem benefício. Dizemo-lo com franqueza no primeiro contacto.
+
+<!-- exentax:execution-v2 -->
 ## Holding empresarial: como funciona mesmo e quando lhe poupa dinheiro (e quando não)
 
 Uma holding não é um truque fiscal automático: é uma estrutura societária que centraliza participações para optimizar dividendos intragrupo, mais-valias por venda e planeamento sucessório. Bem desenhada poupa imposto real; mal desenhada só adiciona contabilidade. Eis o essencial antes de a montar.

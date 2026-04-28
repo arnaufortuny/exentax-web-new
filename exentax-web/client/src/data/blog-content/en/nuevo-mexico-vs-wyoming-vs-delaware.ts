@@ -210,6 +210,14 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [How to form a US LLC step by step: complete process guide](/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide)
+- [Registered Agent: what it is and why it's mandatory for your LLC](/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your)
+- [How much does it cost to form a US LLC: complete cost breakdown](/en/blog/how-much-does-it-cost-to-form-a-us-llc-complete-cost)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Find out whether an LLC fits your case</a>
 <!-- /exentax:calc-cta-v1 -->

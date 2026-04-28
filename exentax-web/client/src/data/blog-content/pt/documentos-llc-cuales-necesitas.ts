@@ -183,6 +183,14 @@ Se a tua prioridade é o ITIN, consulta <a href="/pt/servicos/obtenha-seu-itin">
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Operating Agreement: o que é e por que sua LLC precisa de um](/pt/blog/operating-agreement-o-que-e-e-por-que-sua-llc-precisa-de-um)
+- [Manutenção anual da LLC: obrigações que não pode ignorar](/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar)
+- [LLC nos Estados Unidos: guia completo para não residentes em 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Constituição, EIN, BOI, banca e manutenção: uma única equipa que entende o seu caso do início ao fim. <a href="/pt/servicos">Ver todos os serviços</a>.
 <!-- /exentax:cta-v1 -->

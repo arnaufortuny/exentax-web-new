@@ -152,6 +152,14 @@ _Weiter dazu: [Offshore-Strukturen: echte Vorteile und ehrliche Risiken](/de/blo
 Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/buchen">Buchen Sie eine Sitzung mit dem Exentax-Team</a> und wir prüfen Ihre LLC mit echten Zahlen in dreißig Minuten, ohne Verpflichtung.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Solide internationale Steuerstruktur: Schritt-für-Schritt-Rahmen](/de/blog/gestaltung-einer-soliden-internationalen-steuerstruktur)
+- [Kritische Fehler nach LLC-Gründung, die niemand erklärt](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand)
+- [Optimale Steuerstruktur für internationale Freelancer: das Framework](/de/blog/optimale-steuerstruktur-fur-internationale-freelancer-das)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 

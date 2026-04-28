@@ -162,6 +162,14 @@ _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no
 
 <!-- related-inline-stripped-2026-04 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Com obrir un compte Mercury per a la teva LLC des de qualsevol país](/ca/blog/com-obrir-un-compte-mercury-per-a-la-teva-llc-des-de)
+- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Due diligence bancari per a la teva LLC americana: què verifiquen](/ca/blog/due-diligence-bancari-per-a-la-teva-llc-americana-el-que)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 

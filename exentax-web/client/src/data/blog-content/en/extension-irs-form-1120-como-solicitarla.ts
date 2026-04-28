@@ -156,6 +156,14 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Recover an LLC with overdue BOI and 5472: real procedure and priorities](/en/blog/recover-an-llc-with-overdue-boi-and-5472-real-procedure-and)
+- [What happens if you don’t file Form 5472: IRS penalties and how to fix it](/en/blog/what-happens-if-you-dont-file-form-5472-irs-penalties-and)
+- [Annual LLC maintenance: obligations you cannot ignore](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

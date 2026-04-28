@@ -55,6 +55,12 @@ _Weiter dazu: [Corporate Veil durchstoßen: wie vermeiden](/de/blog/personliches
 
 Wenn Sie validieren möchten, prüfen wir bei Exentax Ihren Fall persönlich. Buchen Sie eine unverbindliche Erstsession über unsere Kontaktseite.
 
+<!-- exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-de -->
+## Warum eine dokumentierte Historie mehr wiegt als eine aktuelle Momentaufnahme
+
+Eine dokumentierte Historie der Trennung von Privat- und LLC-Mitteln wiegt vor einem Dritten mehr als eine zum aktuellen Datum gemachte Momentaufnahme. Der Grund ist einfach: Die Momentaufnahme zeigt den jetzigen Zustand, sagt aber nichts über die Konsistenz im Zeitverlauf, während die Historie genau die Frage beantwortet, die jede Prüfung oder Streitigkeit stellt: War die Praxis seit der Gründung gleichbleibend. Eine Akte, die mehrere Jahre mit derselben Kontostruktur, denselben Bewegungskategorien und denselben identifizierten Gegenparteien abdeckt, macht diese Frage nahezu rhetorisch und nimmt jeder späteren Diskussion ihren Anlass.
+<!-- /exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
@@ -66,18 +72,19 @@ Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" r
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
-## Wie wir es bei Exentax angehen
 
-## Bank- und Steuerfakten, die es zu präzisieren gilt
+<!-- exentax:legal-refs-v1 -->
+## Referenzen: anwendbare Regulierung für das operative Management
 
-Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
+Die hier beschriebene Operative stützt sich auf folgende formelle Pflichten und Best Practices, die aktuell in Kraft sind:
 
-## Rechtliche und verfahrenstechnische Fakten
+- **USA.** Treas. Reg. §301.7701-3 (Check-the-Box-Klassifizierung der LLC), IRC §6038A und Treas. Reg. §1.6038A-2 (Form 5472, Grundsanktion 25 000 USD bei Nichteinreichung), 31 U.S.C. §5336 sowie FinCEN Reporting Rule zum BOI Report.
+- **Deutschland.** §§ 4 Abs. 4, 5 EStG (Betriebsausgaben und Gewinnermittlung), §§ 140, 147, 158, 162 AO (Buchführungspflicht, Aufbewahrung, Schätzung), § 138 AO (Anzeige von Auslandsbeteiligungen ab 10 %), §§ 7–14 AStG (Hinzurechnungsbesteuerung), § 39 Abs. 2 Nr. 1 AO (wirtschaftliche Zurechnung bei vermischten Vermögen), §§ 238, 264 HGB (Buchführung und Bilanzierung), GoBD-Schreiben des BMF vom 28.11.2019.
+- **Österreich.** §§ 124–126 BAO (Aufzeichnungspflicht, 7 Jahre), § 184 BAO (Schätzungsbefugnis), § 22 BAO (wirtschaftliche Betrachtungsweise), § 6 FM-GwG (Sorgfaltspflichten), Beilagen E25/E26 zur Einkommensteuererklärung.
+- **Schweiz.** Art. 957a OR (kaufmännische Buchführung), Art. 958f OR (10-jährige Aufbewahrung), Art. 18 DBG (SR 642.11) bei fehlender klarer Trennung, kantonale Vermögensdeklarationspflichten.
+- **Bank- und Compliance-Praxis.** Allgemeine Bedingungen von Mercury, Relay und Wise Business; Sorgfaltspflichten des Bank Secrecy Act (31 CFR Part 1010) und der Geldwäscherichtlinie (EU) 2015/849, in Deutschland umgesetzt durch das GwG.
 
-Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
-## Referenzen: Regulierung für das operative Management
-
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
+<!-- /exentax:legal-refs-v1 -->
 
 <!-- exentax:execution-v2 -->
 ## Eine Trennungs-Historie aufbauen, die einer Prüfung standhält
@@ -147,9 +154,67 @@ Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermei
 
   **Trennungsgebot konkret:** jeder Geldfluss zwischen Gesellschafter und LLC muss als **Darlehen, Einlage, Entnahme oder Vergütung** klar qualifiziert sein und mit Belegen (Rechnungen, Verträgen, Kontoauszügen) dokumentiert werden. Vermischungen führen nach **§39 Abs. 2 Nr. 1 AO** zur direkten wirtschaftlichen Zurechnung beim Gesellschafter und zur steuerlichen Aberkennung der LLC-Rechtspersönlichkeit. In Österreich greifen **§§124–126 BAO** (7 Jahre Aufbewahrung) und **§22 BAO** (wirtschaftliche Betrachtungsweise). In der Schweiz gilt **Art. 957a OR** (Buchführung nach kaufmännischer Sorgfalt) und **Art. 958f OR** (10-jährige Aufbewahrungsfrist), mit steuerlicher Zurechnung nach **Art. 18 DBG (SR 642.11)** bei fehlender klarer Trennung.
 
+<!-- exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-de -->
+## Wie sich die Dokumentation der Mittel­trennung als stabile Jahres­kartografie statt als wiederkehrende Aufgabe lesen lässt
+
+Die Dokumentation der Mittel­trennung in der LLC liest sich nützlicher als stabile Jahres­kartografie zwischen dem LLC-Bankkonto, dem persönlichen Konto des wirtschaftlich Berechtigten und den datierten Bewegungen dazwischen denn als wiederkehrende Aufgabe.
+
+Eine kurze, datierte Notiz im LLC-Ordner mit dem Stichtag und dem Schlussstand jeder Seite macht die Trennung in wenigen Minuten gegenüber einer Bank oder einem Steuerberater nachvollziehbar.
+<!-- /exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-de -->
+
+<!-- exentax:lote29-native-v1-bis:documentar-separacion-fondos-llc-historial-de -->
+## Warum die Notiz auf den Stichtag und nicht auf jede einzelne Bewegung bezogen sein sollte
+
+Die Notiz bezieht sich auf den Stichtag und nicht auf jede einzelne Bewegung — die maßgebliche Größe für eine spätere Überprüfung ist der Saldo­stand zum Stichtag jeder Seite und seine Belegbarkeit, nicht die vollständige Bewegungs­historie, und diese Sicht trifft die korrekte Granularität.
+<!-- /exentax:lote29-native-v1-bis:documentar-separacion-fondos-llc-historial-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
+
+<!-- exentax:lote9-native-v1:documentar-separacion-fondos-llc-historial -->
+## Warum die dokumentierte Trennung der Mittel zählt
+
+Die dokumentierte Trennung zwischen privaten und geschäftlichen
+Mitteln ist nicht nur ein Rat von Buchhaltern. Sie ist der
+sichtbare Beweis dafür, dass die LLC tatsächlich als
+eigenständige Struktur betrieben wird und nicht als
+Verlängerung des Privatvermögens des Mitglieds. Banken, Behörden
+und spätere Käufer prüfen genau diesen Punkt, oft als Erstes.
+
+Eine LLC, deren Bewegungen Monat für Monat klar getrennt sind,
+mit Belegen, die im Moment der Zahlung archiviert werden, lässt
+sich in Minuten erklären. Eine LLC, deren Konto Privatkäufe und
+Geschäftsausgaben vermischt, lässt sich auch nach Stunden nicht
+sauber rekonstruieren. Der Unterschied zwischen beiden Welten ist
+keine Frage der Komplexität, sondern der Routine: jeden Beleg
+sofort, im richtigen Ordner, mit dem korrekten Datum.
+
+## Eine kurze praktische Empfehlung
+
+Wir empfehlen, am Ende jedes Monats fünfzehn Minuten dafür
+einzuplanen, dass jede Bewegung des Mercury- oder Wise-Kontos
+mit der Buchhaltung verknüpft und der Beleg digital abgelegt ist.
+Diese kleine Routine ersetzt zuverlässig die Notarbeit am
+Jahresende und macht aus der LLC eine ruhige, dokumentierte
+Struktur, deren Geschichte jederzeit lesbar bleibt — für das
+Mitglied, für die Bank und für jede zukünftige Prüfung.
+
+<!-- /exentax:lote9-native-v1:documentar-separacion-fondos-llc-historial -->
+
+<!-- exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-de-bis -->
+## Warum drei zusammenhängende Jahre an einem Ort meist genügen
+
+In der Praxis genügt es weitgehend, die letzten drei Jahre in einem einzigen digitalen Ordner mit derselben Struktur abzulegen, um die üblichen Fragen einer Prüfung oder einer behördlichen Anfrage abzudecken. Die drei Jahre erlauben es, einen Trend zu sehen, eine Veränderung zu dokumentieren und denselben Beleg in der historischen Reihe zu verorten, ohne in mehreren getrennten Sammlungen suchen zu müssen.
+<!-- /exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+### Zum Weiterlesen
+
+- [Persönliches Geld und LLC trennen: warum es wichtig ist](/de/blog/personliches-geld-und-llc-trennen-warum-es-wichtig-ist)
+- [Bookkeeping für Ihre US-LLC Schritt für Schritt](/de/blog/bookkeeping-fur-ihre-us-llc-schritt-fur-schritt)
+- [Kritische Fehler, wenn Sie bereits eine LLC haben und niemand es Ihnen erklärt hat](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

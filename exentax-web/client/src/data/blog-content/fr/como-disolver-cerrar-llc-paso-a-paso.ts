@@ -142,6 +142,18 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
+<!-- exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-fr -->
+## Comment lire la fermeture de la LLC comme une séquence documentée plutôt que comme une fin brutale
+
+La fermeture de la LLC se lit plus utilement comme une séquence documentée — déclarations finales, dissolution auprès de l'État, archivage des dossiers — plutôt que comme une fin brutale. La séquence ne change pas avec la taille de la LLC, et une note courte et datée dans le dossier LLC qui consigne chaque étape avec sa référence de confirmation rend la fermeture défendable en quelques minutes lors d'une consultation ultérieure ou d'un échange avec une administration.
+<!-- /exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-fr -->
+
+<!-- exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-fr -->
+## Pourquoi la note s'organise par étape et non par date de fermeture
+
+La note s'organise par étape de la séquence — déclarations finales, dissolution, archivage — et non par date de fermeture, parce que la séquence reste la même quel que soit le calendrier choisi, et cette vue rend chaque étape vérifiable de manière indépendante.
+<!-- /exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -176,6 +188,20 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Revolut Business** : lorsqu'il est associé à une **LLC américaine**, il passe par **Revolut Technologies Inc.** avec **Lead Bank** comme partenaire bancaire US. Le compte fourni est un compte américain (routing + account number) ; **aucun IBAN européen n'est émis** à une LLC. Les IBAN européens (lituaniens, BE) appartiennent à **Revolut Bank UAB** et sont émis aux clients européens du groupe. Si on vous propose un IBAN européen rattaché à votre LLC, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
 
+<!-- exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-fr -->
+## Comment lire la séquence de dissolution comme un processus unique et ordonné plutôt que comme une liste de tâches isolées
+
+La dissolution d'une LLC se lit plus clairement lorsqu'elle est traitée comme un processus unique et ordonné, et non comme une liste de tâches isolées. L'ordre compte, car chaque étape clôt un périmètre dont dépend l'étape suivante: l'arrêt des opérations précède le règlement des factures en cours, le règlement précède les distributions finales, les distributions précèdent la déclaration fédérale finale, et la déclaration fédérale finale précède les articles de dissolution déposés auprès de l'État.
+
+Lorsque cet ordre est respecté, chaque étape génère le document dont la suivante a besoin, et le dossier de clôture se construit progressivement sans retour en arrière. Lorsque l'ordre est rompu, certaines étapes doivent être répétées parce que la documentation justificative n'est pas encore disponible.
+
+Lire la séquence comme un processus unique aide aussi sur le plan du calendrier: le calendrier d'une clôture est rarement serré, mais les écarts entre étapes ne devraient pas non plus s'étirer indéfiniment, car chaque périmètre ouvert génère de petites obligations (frais, états, avis) qui s'accumulent pendant que la clôture est pendante.
+
+## Comment documenter chaque étape pour qu'elle soutienne la suivante sans recommencer le travail
+
+Chaque étape de la dissolution gagne à être documentée avec une note brève qui rassemble les pièces justificatives produites: la décision écrite des membres, les preuves de règlement des factures restantes, les relevés finaux des comptes, l'attestation de distribution finale, la confirmation de dépôt de la déclaration fédérale finale et l'accusé de réception des articles de dissolution. Ces notes courtes, classées par étape, constituent ensuite le dossier de clôture transmissible à toute partie intéressée et évitent qu'on doive reconstituer la séquence des années plus tard.
+<!-- /exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-fr -->
+
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## La séquence exacte pour fermer une LLC sans laisser de loose ends
 
@@ -207,6 +233,14 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 - **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Erreurs critiques sur une LLC déjà constituée : ce qu'on ne vous dit pas](/fr/blog/erreurs-critiques-si-vous-avez-deja-une-llc-et-personne-ne)
+- [Maintenance annuelle LLC : obligations que vous ne pouvez pas ignorer](/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas)
+- [Changer de prestataire de maintenance LLC sans perdre l'ancienneté](/fr/blog/changer-de-prestataire-de-maintenance-llc-sans-perdre)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

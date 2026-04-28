@@ -142,6 +142,20 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Why opening a company in Estonia rarely fits a real operating profile](/en/blog/why-not-to-open-an-estonian-company-the-us-llc-wins-for-most)
+- [Designing a solid international tax structure step by step](/en/blog/designing-a-solid-international-tax-structure-step-by-step)
+- [LLC in the United States: complete 2026 guide](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote19-native-v1:fiscalidad-estonia-como-funciona-en -->
+## How to use the Estonian rules as background information rather than as a comparison endpoint
+
+The Estonian tax rules become useful information when they're treated as background that explains a particular regime, not as the endpoint of a comparison aimed at deciding where to set up an activity. The decision on jurisdiction depends on the operating profile and on a series of practical factors that go beyond the headline rate.
+<!-- /exentax:lote19-native-v1:fiscalidad-estonia-como-funciona-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

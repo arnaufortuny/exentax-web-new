@@ -130,6 +130,14 @@ Cet article s'appuie sur la réglementation en vigueur. Sources principales pour
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [IRS 1120 et 5472 : ce que c'est vraiment et quand ça s'applique](/fr/blog/irs-1120-et-5472-ce-que-cest-vraiment-et-quand-ca-sapplique)
+- [Extension IRS Form 1120 : comment déposer le Form 7004 et gagner 6 mois](/fr/blog/extension-irs-form-1120-comment-deposer-le-form-7004-et)
+- [Votre LLC ne paie pas d'impôt aux USA — alors que se passe-t-il dans votre pays](/fr/blog/votre-llc-ne-paie-pas-dimpot-aux-usa-alors-que-se-passe-t-il)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 

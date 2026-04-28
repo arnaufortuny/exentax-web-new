@@ -85,6 +85,14 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
+<!-- exentax:lote17-native-v1:single-member-multi-member-llc-implicaciones-fiscales-ca -->
+## Per què l'elecció entre single-member i multi-member no és només una qüestió de nombre
+
+L'elecció entre single-member LLC i multi-member LLC no es redueix al nombre de persones inscrites al registre; té conseqüències directes en la classificació fiscal per omissió del costat americà i en la cartografia dels fluxos del costat del país de residència. Una single-member LLC es tracta per omissió com a entitat transparent lligada al seu únic membre; una multi-member LLC es tracta per omissió com a partnership, cosa que modifica la naturalesa dels formularis a presentar i la manera com les distribucions es veuen del costat del resident.
+
+Aquesta distinció tècnica té una traducció molt concreta en el dia a dia: la documentació, els comptes bancaris i la comptabilitat guanyen en ser configurats des de l'origen en funció de la classificació escollida, en lloc d'intentar reconstituir-la després de diversos exercicis.
+<!-- /exentax:lote17-native-v1:single-member-multi-member-llc-implicaciones-fiscales-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
@@ -102,6 +110,36 @@ Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode d
 ## Fets jurídics i de procediment
 
 El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
+
+
+
+## Exemple concret: un pas a multi-member ben orquestrat
+
+L'Anna gestiona des de fa divuit mesos una LLC de Wyoming en single-member, des de Madrid. Decideix incorporar un soci tècnic amb un 30%, resident a Barcelona. El pas es planifica en sis setmanes, no en tres dies.
+
+**Setmanes 1-2 — decisió i modelització.** Càlcul conjunt amb l'assessora espanyola i el nostre equip: la LLC deixa de ser *disregarded entity* quan entra el segon soci i passa a *partnership* als EUA (Form 1065 i K-1 per soci). A Espanya les rendes segueixen apareixent al Modelo 100 segons la proporció de participació; el soci entrant revisa el seu IRPF amb la mateixa base.
+
+**Setmanes 3-4 — paper jurídic.** Nou Operating Agreement amb capital, drets de vot, distribucions, clàusules de sortida i regles de bloqueig. Aquest document és l'escut el dia que arriba una decisió difícil; mereix cura, no una plantilla gratuïta.
+
+**Setmanes 5-6 — execució.** Acceptació formal del nou soci, actualització BOI dins la finestra de 30 dies, Form 8832 si correspon, comunicació al Mercury i al Wise per actualitzar el KYC, decisió sobre EIN segons l'escenari i comptabilitat a dos socis des del primer dia.
+
+## Tres senyals d'alerta abans de signar
+
+**Senyal 1 — pressa en el calendari fiscal.** El salt entre gener i abril complica el 5472 i el futur 1065 dins el mateix any. Recomanem sovint efecte a 1 de gener següent, amb preparació al darrer trimestre.
+
+**Senyal 2 — un soci fora de la UE i l'altre dins.** La lògica pass-through funciona, però cada soci declara la seva part al país de residència. Quan els dos països tenen regles diferents per a rendes passives o actives, un enquadrament previ amb els assessors respectius evita sorpreses la primavera següent.
+
+**Senyal 3 — Operating Agreement feble en clàusules de separació.** El moment de signar és el moment de l'entesa; el difícil arriba després. Un OA que preveu recompra, valoració i arbitratge en cas de desacord val el seu pes en tranquil·litat.
+
+Si algun d'aquests senyals apareix al teu cas, una conversa gratuïta amb el nostre equip abans del pas estalvia sovint sis mesos de reparació posterior.
+
+
+
+### Tres ajustaments diaris a anticipar després del pas
+
+Un cop la transició està signada i comunicada, la vida de la LLC canvia en petits tocs, no en grans ruptures. Tres ajustaments mereixen preparació anticipada per no comprometre el dia a dia.
+
+Primer, les distribucions esdevenen un tema trimestral, no només anual: qui rep quant i quan demana un registre curt però regular, validat pels dos socis amb data. Després, la comptabilitat passa a un pla de comptes dual-member on cada despesa porta la seva proporció; lliurem una plantilla Mercury-Wise llesta per als nostres clients. Finalment, les comunicacions externes — Stripe, proveïdors, clients clau — guanyen integrant els dos signataris oficials de l'Operating Agreement, evitant sorpreses als KYC anuals.
 
 <!-- exentax:execution-v2 -->
 ## Single-member vs multi-member LLC: implicacions fiscals que canvien tot el setup
@@ -155,9 +193,32 @@ Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple,
 
 Si vols veure aquesta llista aplicada al teu cas concret, demana una avaluació amb el nostre equip i sortim amb un calendari fiscal escrit.
 
+<!-- exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-ca -->
+## Com llegir l'elecció single-member vs multi-member LLC com una propietat estructural estable en lloc d'una optimització fiscal
+
+L'elecció single-member vs multi-member LLC es llegeix de manera més útil com una propietat estructural estable del vehicle que com una optimització fiscal d'any en any. Les dues configuracions porten classificacions federals per defecte diferents — disregarded entity en el cas single-member, partnership en el cas multi-member — i aquesta classificació determina després un conjunt específic d'obligacions anuals que no canvia amb el resultat operatiu de l'any.
+
+Una nota curta al dossier de la LLC que registri la configuració triada, la data en què es va fixar i les obligacions anuals corresponents converteix aquesta elecció en una cosa fàcil de rellegir.
+<!-- /exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote17-native-v1:single-member-multi-member-llc-implicaciones-fiscales-ca-bis -->
+## Com fer visible la classificació a la comptabilitat corrent
+
+Perquè la classificació també sigui operativament eficaç, val la pena fer-la visible a la capçalera del pla de comptes i a la denominació dels comptes bancaris, de manera que qualsevol revisió posterior la reconegui sense explicació addicional.
+<!-- /exentax:lote17-native-v1:single-member-multi-member-llc-implicaciones-fiscales-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [D'una LLC única a estructura holding: quan, com i quant costa](/ca/blog/duna-llc-unica-a-estructura-holding-quan-com-i-quant-costa)
+- [Holding empresarial: com funciona realment](/ca/blog/holding-empresarial-com-funciona)
+- [LLC vs Corporation, S-corp vs C-corp: la guia pràctica](/ca/blog/diferencia-llc-vs-corporation-s-corp-c-corp-guia)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

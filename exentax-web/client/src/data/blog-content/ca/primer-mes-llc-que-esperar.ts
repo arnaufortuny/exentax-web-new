@@ -113,6 +113,12 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote27-native-v1:primer-mes-llc-que-esperar-ca -->
+## Com llegir el primer mes de la LLC com una seqüència previsible en lloc d'un període d'incertesa
+
+El primer mes de la LLC es llegeix de manera més serena com una seqüència previsible de passos — recepció del document de constitució, obertura del compte bancari, configuració operativa — que com un període d'incertesa. La seqüència no canvia d'un dossier a l'altre, i una nota curta i datada al dossier de la LLC amb cada pas assolit fa el recorregut consultable a qualsevol moment.
+<!-- /exentax:lote27-native-v1:primer-mes-llc-que-esperar-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -125,6 +131,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote19-native-v1:primer-mes-llc-que-esperar-ca -->
+## Com llegir el primer mes d'una LLC sense expectatives inflades
+
+El primer mes d'una LLC es llegeix amb més realisme quan s'entén com a fase d'instal·lació i no com a fase d'escalament. En aquest mes s'obren comptes, s'assignen permisos, es configuren els primers moviments recurrents i es fixa el sistema d'arxivament intern. Només després comencen les setmanes en què l'activitat troba el seu ritme definitiu.
+<!-- /exentax:lote19-native-v1:primer-mes-llc-que-esperar-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -173,6 +185,14 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Constitució, EIN, BOI, banca i manteniment: un sol equip que entén el teu cas de cap a peus. <a href="/ca/serveis">Veure tots els serveis</a>.

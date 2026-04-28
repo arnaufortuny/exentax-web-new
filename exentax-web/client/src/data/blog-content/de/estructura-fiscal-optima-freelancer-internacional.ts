@@ -122,6 +122,18 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote31-native-v1:estructura-fiscal-optima-freelancer-internacional-de -->
+## Wie sich die optimale Struktur für den internationalen Freelancer als stabile Profil­karte statt als Mode­wahl lesen lässt
+
+Die optimale Struktur für den internationalen Freelancer liest sich nützlicher als stabile Profil­karte zwischen Wohnsitz, Wertschöpfung und Kunden denn als Mode­wahl, und eine kurze, datierte Notiz im persönlichen Ordner mit den drei Achsen macht die Position in wenigen Minuten überprüfbar.
+<!-- /exentax:lote31-native-v1:estructura-fiscal-optima-freelancer-internacional-de -->
+
+<!-- exentax:lote31-native-v1-bis:estructura-fiscal-optima-freelancer-internacional-de -->
+## Warum die Notiz pro Achse und nicht pro Jurisdiktion organisiert sein sollte
+
+Die Notiz organisiert sich pro Achse — Wohnsitz, Wertschöpfung, Kunden — und nicht pro Jurisdiktion, weil die Achsen stabil bleiben, während sich der gerade aktive Marken­diskurs einer Jurisdiktion mit der Saison ändert.
+<!-- /exentax:lote31-native-v1-bis:estructura-fiscal-optima-freelancer-internacional-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -134,6 +146,16 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:lote21-native-v1:estructura-fiscal-optima-freelancer-internacional-de -->
+## Wie sich die Aussage zur "optimalen Struktur" für internationale Freelancer als Profilfrage lesen lässt
+
+Aussagen zur "optimalen Struktur" für internationale Freelancer lesen sich ehrlicher, wenn sie als Ergebnis einer Profilfrage und nicht als universelles Rezept behandelt werden. Die Struktur hängt vom steuerlichen Wohnsitz des Freelancers, der geografischen Verteilung der Kunden, dem Typ der Dienstleistungen und der Frequenz der Ausschüttungen ab — und die optimale Antwort für eine Kombination ist selten die optimale Antwort für eine andere.
+
+## Wie sich die Profilantwort schriftlich verankern lässt
+
+Die Profilantwort verankert sich schriftlich in einer kurzen Notiz, die die vier Eigenschaften erfasst und sie der gewählten Struktur zuordnet, sodass eine spätere Profiländerung nicht den gesamten Vergleich von Grund auf neu auslöst.
+<!-- /exentax:lote21-native-v1:estructura-fiscal-optima-freelancer-internacional-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
@@ -175,6 +197,34 @@ Bei Exentax führen wir die Diagnose mit Ihren echten Zahlen, schließen unpasse
 ## Wie wir bei Exentax arbeiten
 
 Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.
+
+<!-- exentax:lote12-native-v1:estructura-fiscal-optima-freelancer-internacional -->
+## Wie ein Freelancer die optimale Struktur tatsächlich findet
+
+Die "optimale" steuerliche Struktur für einen internationalen
+Freelancer existiert nicht als universelle Vorlage. Sie ergibt
+sich aus drei konkreten Variablen: Wohnsitzland des
+Freelancers, geografische Verteilung der Kunden und Volumen
+der jährlichen Rechnungslegung. Erst wenn diese drei Variablen
+auf dem Tisch liegen, lässt sich seriös zwischen Modellen
+vergleichen.
+
+In der Mehrheit der Fälle, die uns erreichen, führt diese
+Analyse zu einer Kombination aus persönlicher steuerlicher
+Residenz und einer LLC für den Geschäftsbetrieb. In anderen
+Fällen ist eine andere Struktur die ruhigere Wahl. Die
+Reihenfolge ist entscheidend: zuerst die Variablen klären,
+dann die Struktur wählen.
+
+<!-- /exentax:lote12-native-v1:estructura-fiscal-optima-freelancer-internacional -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Internationale Besteuerung digitaler Unternehmer: Leitfaden](/de/blog/internationale-besteuerung-fur-digitale-unternehmer)
+- [US LLC Besteuerung nach Wohnsitzland: Was Sie wo zahlen](/de/blog/us-llc-besteuerung-nach-wohnsitzland-was-sie-wo-zahlen)
+- [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten 2026](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

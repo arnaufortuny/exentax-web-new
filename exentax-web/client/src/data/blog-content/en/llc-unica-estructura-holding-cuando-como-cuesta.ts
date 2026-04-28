@@ -102,6 +102,12 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
+<!-- exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-en -->
+## How to read the holding LLC question as a structural mapping rather than as a status choice
+
+The holding LLC question reads more usefully when it's treated as a structural mapping between the operating LLC, the holding LLC and the beneficial owner, than as a status choice.
+<!-- /exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -131,7 +137,25 @@ Fintech and CRS information evolves; here is the current state:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.<!-- exentax:execution-v2 -->
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+
+## Practical migration timeline from single LLC to holding
+
+The cleanest moves we have run share the same three-month rhythm. It is not a weekend job, but it is not an enterprise project either; the trick is sequencing.
+
+### Month 1 — Decide and prepare
+
+Stress-test the rationale: is the holding solving a real problem (multiple revenue lines, brand isolation, future co-founder, exit planning) or is it cosmetic? Draft the target chart, list the entities, model the after-tax flow with a Spanish or DACH adviser, and confirm the BOI implications. The Operating Agreement work starts now.
+
+### Month 2 — File and onboard
+
+Form the holding, file initial BOI, request EIN, sign the Registered Agent contract, open Mercury for the holding with the activity description aligned to the chart. Contribute the operating LLC's membership interests, file the BOI update for the operating entity, and update banking KYC where ownership changed.
+
+### Month 3 — Operate and stabilise
+
+Run the first month with two entities, separate cards, separate categories, and a consolidated month-end review. Adjust the bookkeeping template so each 5472 worksheet flows naturally. By the end of month three the structure feels like the original LLC plus one quiet layer above, not a different business.
+
+<!-- exentax:execution-v2 -->
 ## Single LLC or holding structure? When, how and how much each costs
 
 The question lands when the first LLC year invoiced decently and the second project, the property you want to buy or the SaaS you want to launch appears. Put it all in the same LLC or create a holding with subsidiaries? The answer depends on four measurable variables.
@@ -180,6 +204,14 @@ Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd r
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Corporate holding: how it actually works](/en/blog/corporate-holding-how-it-works)
+- [From single-member to multi-member LLC: real tax implications](/en/blog/from-single-member-to-multi-member-llc-real-tax-implications)
+- [LLC vs Corporation, S-corp vs C-corp: the practical guide](/en/blog/difference-llc-vs-corporation-s-corp-c-corp-guide)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services/llc-wyoming">Book a free consultation</a>.

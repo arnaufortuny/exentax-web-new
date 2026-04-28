@@ -108,6 +108,22 @@ A conclusão razoável não é "a Wise é má" nem "a LLC é perigosa". A conclu
 
 Na Exentax trabalhamos exatamente nessa fronteira: estruturar a <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a>, escolher <a href="/pt/blog/bancos-tradicionais-vs-fintech-para-sua-llc-onde-abrir-a">que banco ou fintech</a> faz sentido como principal e qual como secundário, antecipar o que se reporta via <a href="/pt/blog/crs-para-residentes-em-espanha-e-latam-implicacoes-reais">CRS</a> para a sua autoridade fiscal nacional, e desenhar o conjunto para que a peça Wise (ou <a href="/pt/blog/revolut-business-e-crs-o-que-e-reportado-a-sua-autoridade">Revolut Business</a>, ou qualquer outra) encaixe sem surpresas. Aprofundamos em <a href="/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro">Desenho de uma estrutura fiscal internacional sólida</a>.
 
+<!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-pt -->
+## Porque é que o IBAN de uma conta associada a uma LLC merece uma ficha de referência dedicada
+
+Um IBAN associado a uma LLC merece uma ficha de referência dedicada, distinta dos restantes documentos bancários, porque é o elemento que mais frequentemente aparece nas reconciliações e nos controlos transfronteiriços. A ficha não precisa de ser complexa: indica o titular exato da conta, a jurisdição de emissão do IBAN, o papel da conta no stack bancário e a data de abertura. Estas quatro informações bastam para responder rapidamente à grande maioria das questões que podem surgir.
+
+O benefício desta ficha manifesta-se sobretudo quando uma administração pede um esclarecimento: em vez de reconstituir a informação a partir de várias fontes, transmite-se uma ficha já coerente e autoportante, o que encerra rapidamente a conversa.
+<!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-pt -->
+
+<!-- exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-pt -->
+## Como ler a questão do que reporta um IBAN Wise detido por uma LLC como um mapeamento estável em vez de uma incerteza recorrente
+
+A questão do que um IBAN Wise detido por uma LLC reporta à administração fiscal espanhola lê-se de forma mais serena como um mapeamento estável entre o tipo de conta, o titular da conta e o país cuja autoridade alimenta o canal de troca, em vez de uma incerteza recorrente. O que é reportado e a quem não muda de mês para mês.
+
+Uma nota curta no ficheiro da LLC que registe o tipo de conta aberta na Wise, o titular legal, o país do IBAN e o canal de troca que lhe é aplicável torna esse mesmo mapeamento relevável em poucos minutos, em vez de ter de o reconstruir de memória sempre que a questão volta a aparecer num controlo ou numa reunião com o responsável da equipa fiscal.
+<!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -171,6 +187,14 @@ Na Exentax estruturamos Wise por necessidade e declaramos correctamente.
 ## Montamos para si sem perder um fim de semana
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Wise, bancos e LLC: a stack bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
+- [Contas bancárias US: o que reporta cada entidade e como estruturar](/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade)
+- [DAC8 e criptomoedas: o novo reporting fiscal automático em 2026](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

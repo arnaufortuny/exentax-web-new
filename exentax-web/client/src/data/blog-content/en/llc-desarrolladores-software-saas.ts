@@ -177,6 +177,14 @@ Fintech and CRS information evolves; here is the current state:
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [LLC in the United States: complete guide for non-residents in 2026](/en/blog/llc-united-states-complete-guide-non-residents-2026)
+- [LLC taxation by activity: services, e-commerce, SaaS, royalties, trading](/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas)
+- [US LLC taxation by country of residence: what you pay where you live](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

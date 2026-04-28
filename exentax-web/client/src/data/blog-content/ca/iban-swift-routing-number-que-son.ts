@@ -109,6 +109,12 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
 
+<!-- exentax:lote34-native-v1:iban-swift-routing-number-que-son-ca -->
+## Com llegir IBAN, SWIFT i routing number com un mapatge d'identificadors estables en lloc de codis intercanviables
+
+IBAN, SWIFT i routing number es llegeixen de manera més útil com un mapatge d'identificadors estables entre la jurisdicció del compte, el banc o xarxa i el compte mateix, en lloc de codis intercanviables. El mapatge no canvia d'una transferència a una altra, i una nota curta al dossier personal fa els identificadors consultables en pocs minuts.
+<!-- /exentax:lote34-native-v1:iban-swift-routing-number-que-son-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -154,6 +160,14 @@ A Exentax configurem el stack bancari complet de la teva LLC (Mercury principal,
 ## Com treballem a Exentax
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Wise, IBAN i LLC: què es reporta realment a Hisenda i què no](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
+- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [ACH vs transferència bancària: terminis i impacte en el flux de la LLC](/ca/blog/ach-vs-transferencia-bancaria-terminis-de-pagament-i-impacte)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

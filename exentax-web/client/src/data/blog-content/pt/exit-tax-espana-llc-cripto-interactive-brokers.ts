@@ -116,6 +116,38 @@ Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos ne
 
 Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se não estiver limpo aqui, qualquer hipótese a jusante torna-se negociável perante a autoridade.
 
+
+
+## Caso 4: carteira mista (acções IBKR + participação na LLC + cripto)
+
+É o perfil mais frequente na nossa prática lusófona: uma freelancer que construiu uma actividade estável via LLC americana, acumulou posições no IBKR durante anos e adicionou uma alocação cripto fora da LLC. Quando a mudança para Andorra, Espanha ou um destino fora da UE se torna séria, três camadas de exit tax merecem cada uma a sua leitura própria.
+
+As posições IBKR são activos financeiros pessoais e desencadeiam o art. 95 bis quando se atingem os limiares globais. A participação na LLC é avaliada à data da mudança de residência como participação numa entidade estrangeira; em disregarded entity olha-se «através» da casca para apurar o justo valor, o que costuma surpreender clientes que só contavam com a liquidez do Mercury. A cripto pessoal alinha-se com a camada IBKR no mesmo cálculo, enquanto a cripto detida pela LLC fica no balanço da LLC e só aparece via o valor da participação. O caso misto raramente desencadeia a totalidade da exit tax porque a avaliação da participação pode ser inferior à soma dos activos pessoais, mas merece sempre um retrato documentado preparado três meses antes da partida.
+
+## Erros típicos que ajudamos a evitar
+
+**Erro 1: confundir cripto pessoal com cripto da LLC.** Seguem caminhos distintos no cálculo da exit tax. A cripto pessoal entra directamente no art. 95 bis; a cripto da LLC entra via avaliação da participação. Uma separação limpa desde o dia um, no Mercury ou Kraken, retira ambiguidade futura.
+
+**Erro 2: assumir que o limiar se aplica sempre.** O art. 95 bis dispara acima de limiares definidos de património ou de mais-valia latente. Muitos clientes têm carteiras realistas abaixo dos limiares e descobrem, após cálculo estruturado, que não há exit tax devida.
+
+**Erro 3: pedir o diferimento tarde demais.** A mudança intra UE/EEE abre diferimento automático; para fora da UE é preciso um pedido condicional com prazo próprio. Falhá-lo significa pagar a mais-valia latente a pronto na janela habitual.
+
+**Erro 4: esquecer o Modelo 720 no ano da partida.** A obrigação declarativa continua para a fracção de ano com residência em Espanha. Saltá-la acrescenta penalizações a um processo já carregado.
+
+## Calendário prático 12-6-3 meses antes de sair
+
+**T menos 12 meses.** Inventário: lista completa de activos pessoais (IBKR, carteiras cripto, contas bancárias), balanço da LLC, Operating Agreement, carta EIN. Primeira conversa com a nossa equipa e o seu assessor espanhol para modelar a mais-valia latente e escolher o destino pelo impacto fiscal, não só pelo clima.
+
+**T menos 6 meses.** Decisão sobre o diferimento (UE/EEE automático vs fora da UE condicional). Preparar documentação que apoia a avaliação da participação na LLC: 24 meses de extractos Mercury ou Wise, histórico Form 5472, lista de contratos. Onboarding no destino (NIF, banco, título de residência).
+
+**T menos 3 meses.** Retrato final dos valores ao dia da mudança. Redacção do pedido de diferimento se aplicável. Coordenação do Modelo 100 do ano parcial com o seu assessor espanhol e planeamento do primeiro Modelo 720 para o ano de residência no novo país.
+
+
+
+### Uma frase que repetimos a cada cliente antes da partida
+
+A exit tax raramente é o travão temido no início da conversa. O custo oculto vem quase sempre de um calendário apertado: pedido de diferimento tardio, avaliação da LLC sem suporte documental, Modelo 720 esquecido no ano parcial. Uma preparação estruturada em doze meses, com o assessor espanhol envolvido desde o primeiro mês, transforma a conversa de exit tax de uma conversa tensa numa conversa de planeamento. Acompanhámos dezenas de fundadores e as mudanças mais serenas foram sempre as que começaram cedo, com papel preparado, não as que improvisaram no último trimestre.
+
 <!-- exentax:execution-v2 -->
 ## Exit Tax ao sair de Espanha com LLC, cripto e Interactive Brokers: o cálculo real
 
@@ -137,6 +169,14 @@ Na Exentax modelamos o impacto do Exit Tax com a sua carteira real e país de de
 ## Opções de diferimento: a chave para planear
 
 O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.
+
+<!-- exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-pt -->
+## Como ler o exit tax espanhol em perfis com LLC, cripto e Interactive Brokers como um inventário estável em vez de um debate recorrente
+
+O exit tax espanhol lê-se de forma mais serena em perfis que combinam uma LLC, ativos em cripto e uma conta Interactive Brokers como um inventário estável dos ativos tributáveis no momento da partida do que como um debate recorrente. Os eixos relevantes — tipo de ativo, titular do ativo, método de valorização, país de destino — definem um quadro discreto que não muda de conversa para conversa.
+
+Uma nota curta no ficheiro pessoal que registe o inventário dos ativos relevantes na data de corte, com o método de valorização escolhido para cada um e uma referência à fonte utilizada, torna a posição de exit tax relevável em poucos minutos.
+<!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-pt -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
@@ -219,6 +259,23 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
   Os **criptoativos** detidos via Interactive Brokers ou wallet privada estão hoje sujeitos ao novo regime introduzido pela **Lei n.º 24-D/2022 (Orçamento do Estado para 2023)**: tributação a **28 %** sobre as mais-valias realizadas em prazo inferior a **365 dias**, isenção a partir desse prazo. A mudança de residência não desencadeia tributação automática sobre criptoativos, mas obriga a comunicar a operação à Autoridade Tributária no prazo de **sessenta dias** após a perda de residência fiscal, sob pena de coima nos termos do artigo 117.º do RGIT.
 
   **No Brasil**, a saída fiscal definitiva é regulada pela **Instrução Normativa RFB n.º 208/2002** e exige a apresentação da **Declaração de Saída Definitiva do País** até ao último dia do mês de fevereiro do ano seguinte. A partir desse momento, o contribuinte passa a ser tributado como não residente, com retenção na fonte de **15 %** ou **25 %** consoante a natureza dos rendimentos brasileiros (artigo 685 do RIR/2018). A **Lei 14.754/2023** introduziu nova fiscalidade sobre ativos no exterior, incluindo criptoativos, com tributação anual à alíquota de 15 % sobre rendimentos auferidos.
+
+
+<!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-pt -->
+## Como a exit tax interage com os ativos mantidos em brokers estrangeiros
+
+A exit tax espanhola não olha para onde está o ativo; olha para a residência fiscal do titular no dia da saída e para a mais-valia latente acumulada até essa data. Para uma pessoa que mantém posições num broker estrangeiro, a consequência prática é que o broker não é o desencadeador e o ciclo de reporte do broker não é o calendário relevante. O que conta é a data pessoal de saída, a valorização de cada posição nessa data e a documentação que liga ambas as peças. Uma abordagem limpa consiste em imprimir os extratos do broker à data de saída, guardá-los numa pasta datada e registar por escrito a metodologia utilizada para qualquer posição cuja valorização não conste diretamente do extrato.
+
+Dois outros pormenores aparecem frequentemente em conversas posteriores com a administração fiscal. Primeiro, existem opções de diferimento para mudanças para outras jurisdições da UE ou do EEE que têm de ser exercidas dentro da janela prevista; perder essa janela converte o que poderia ter sido um evento diferido num evento imediato. Segundo, o ciclo declarativo espanhol do ano de saída está repartido entre o período residente e o período não residente, e os ativos mantidos no estrangeiro continuam relevantes para a parte residente. Manter um único ficheiro de trabalho datado facilita bastante ambos os pontos quando chega o momento.
+<!-- /exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-pt -->
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Cripto e trading com LLC americana: guia fiscal completo](/pt/blog/criptomoedas-e-trading-com-llc-guia-fiscal-completo-para)
+- [Tributação da LLC por atividade: serviços, ecommerce, SaaS, royalties, trading](/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos)
+- [Tratado de dupla tributação USA-Espanha para LLCs: leitura prática](/pt/blog/tratado-de-dupla-tributacao-usa-espanha-para-llcs)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

@@ -186,6 +186,26 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 
+<!-- exentax:lote6-native-v1-quat:errores-fiscales-freelancers-espanoles -->
+### A year-end self-audit that prevents the most common mistakes
+
+We close every year with a short self-audit run with the freelance client that takes about one hour and that catches the most common mistakes before they crystallise into a real adjustment. First module: invoicing audit. We review the issued-invoice ledger for the year against the contracts in place, to confirm that every contract has produced the expected number of invoices and that no invoice has been issued without a contract behind it. Second module: deduction audit. We walk through the deduction ledger by category and verify that each category has the documentation kit attached (supplier name, NIF, dates, amounts, activity link in one line). Third module: cross-form reconciliation. We match the totals of the four quarterly Form 130 filings against the year-end IRPF base, the totals of the four quarterly Form 303 filings against the VAT box of Form 100, and the Form 349 totals against the corresponding boxes; any mismatch is investigated and resolved before the IRPF return is filed. Fourth module: residency and structure check. We re-confirm that the residency status, the autónomo registration and the activity codes are aligned with the activity actually carried out during the year, and we flag any divergence for the year-one conversation of the new year.
+<!-- /exentax:lote6-native-v1-quat:errores-fiscales-freelancers-espanoles -->
+
+<!-- exentax:lote6-native-v1-quint:errores-fiscales-freelancers-espanoles -->
+### A first-quarter checkpoint that catches half of the year's mistakes
+
+We hold a short first-quarter checkpoint with each freelance client around mid-April that catches most of the mistakes that would otherwise crystallise during the year. Three things are reviewed in this checkpoint. First, the IRPF withholding rate applied on every invoice issued since January, against the current rule for the autónomo's registration date and activity. Second, the deduction-tagging consistency in the bookkeeping for the first three months, with any miscategorised expense reclassified before the first quarterly Form 130 is filed. Third, the cash-flow alignment between the operating account, the autónomo quota domiciliation and the projected year-end IRPF balance to pay; any mismatch is recalibrated at the checkpoint, not in November. The checkpoint takes about thirty minutes per client and it is the single highest-leverage routine we maintain across the year for catching tax errors before they become real.
+<!-- /exentax:lote6-native-v1-quint:errores-fiscales-freelancers-espanoles -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Deductible expenses for Spanish freelancers in 2026: a clear guide](/en/blog/deductible-expenses-self-employed-spain-2026)
+- [IRPF withholding on Spanish invoices: how it works in practice](/en/blog/spain-irpf-withholding-on-invoices-explained)
+- [Self-employed in Spain vs US LLC: a side-by-side that actually helps](/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22After%20working%20with%20hundreds%20of%20Spanish%20freelancers%20who%20operate%20US%20LLCs%2C%20we've%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

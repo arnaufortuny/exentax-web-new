@@ -118,6 +118,14 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
+<!-- exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-ca -->
+## Com llegir la qüestió del reporting Visa i Mastercard com un mapatge estable en lloc d'un rumor recurrent
+
+La qüestió del reporting Visa i Mastercard a l'administració fiscal espanyola es llegeix de manera més serena com un mapatge estable entre el tipus de targeta, l'emissor de la targeta, el país de l'emissor i el canal pel qual la informació pot arribar a l'administració, que com un rumor recurrent. Les xarxes Visa i Mastercard no decideixen per si mateixes què es reporta i a qui — el canal jurídic que efectivament porta la informació es defineix per la jurisdicció de l'emissor i pels acords que li són aplicables.
+
+Una nota curta al dossier personal que registri el tipus de targeta mantinguda, l'emissor, el país d'emissió i el titular legal del compte subjacent converteix aquesta mateixa qüestió en una cosa rellegible en pocs minuts la propera vegada.
+<!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -201,6 +209,32 @@ A Exentax estructurem l'ús amb bookkeeping i declaració correcta a la residèn
 ## T'ho muntem sense que perdis un cap de setmana
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
+
+<!-- exentax:lote9-native-v1:visa-mastercard-reporting-tarjetas-hacienda -->
+## Una observació final
+
+El que es transmet a Hisenda no depèn de la marca de la
+targeta, sinó del compte al qual aquesta targeta està
+vinculada. Aquesta distinció transforma una conversa normalment
+confusa en una decisió clara per al membre de la LLC.
+
+<!-- /exentax:lote9-native-v1:visa-mastercard-reporting-tarjetas-hacienda -->
+
+<!-- exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-ca -->
+## Com la informació de les targetes arriba realment a l'administració fiscal espanyola
+
+El flux d'informació de les xarxes de targetes cap a l'administració fiscal espanyola és més concret del que de vegades sembla. El punt de partida és el banc o entitat de pagament espanyol que emet o processa la targeta; la xarxa en si és el carril, no la part que declara. Els emissors i adquirents espanyols envien declaracions informatives a l'Agencia Tributaria en cicles regulars, i aquestes declaracions contenen moviments agregats per titular en lloc del detall línia a línia, restaurant o comerç, que els consumidors veuen als seus extractes. La informació que circula és, doncs, numèrica i estructural: totals, contraparts a nivell d'agregador de comerciants i identificadors que permeten lligar els registres a una persona o empresa.
+
+Un segon flux passa pels canals internacionals d'intercanvi d'informació, on les dades sobre comptes mantinguts a l'estranger es comparteixen en formats normalitzats un cop l'any. Una targeta associada a un compte estranger participa indirectament en aquest segon flux perquè el compte subjacent és reportable. Per a un membre de LLC resident a Espanya, la conclusió pràctica és que existeixen dos canals paral·lels, que se sobreposen en la mateixa persona i que es reconcilien a mitjà termini. La higiene més simple és conservar els extractes de les targetes de la LLC amb la comptabilitat de l'any, de manera que qualsevol qüestió posterior es pugui resoldre amb una pàgina impresa i un número, sense haver de reconstruir el moviment de memòria.
+<!-- /exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-ca -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Comptes bancaris US: què reporta cada entitat i com estructurar-ho](/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat)
+- [Wise, IBAN i LLC: què es reporta realment a Hisenda i què no](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
+- [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

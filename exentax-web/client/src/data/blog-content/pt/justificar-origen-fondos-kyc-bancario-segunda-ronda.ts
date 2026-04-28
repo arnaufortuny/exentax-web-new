@@ -85,6 +85,12 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - **Revolut Business**: quando associado a uma **LLC norte-americana**, opera sob **Revolut Technologies Inc.** com **Lead Bank** como banco parceiro nos EUA. A conta entregue é uma conta dos EUA (routing + account number); **não é emitido IBAN europeu** a uma LLC. Os IBAN europeus (lituanos, BE) são da **Revolut Bank UAB** e são emitidos a clientes europeus do grupo. Se lhe oferecerem um IBAN europeu associado à sua LLC, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
 - **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
 
+<!-- exentax:lote20-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-pt -->
+## Como ler a segunda ronda do KYC bancário como procedimento ordenado e não como crise
+
+A segunda ronda do KYC bancário lê-se com mais calma quando é tratada como procedimento ordenado e não como crise. O banco, na segunda ronda, costuma pedir não menos mas melhor estruturados os comprovativos: contratos, facturas, extractos bancários e uma curta explicação escrita dos movimentos, todos relacionados entre si.
+<!-- /exentax:lote20-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-pt -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
@@ -117,6 +123,12 @@ A primeira ronda de KYC passa-se com passaporte e morada. A segunda ronda - que 
 
 Na Exentax preparamos o dossier de Source of Wealth/Funds antes da primeira operação significativa: documentos, narrativa coerente e tradução juramentada quando aplica - para que a segunda ronda não congele a sua operativa.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-pt -->
+## Como ler a segunda ronda do KYC bancário como um procedimento documentado em vez de uma ameaça aberta
+
+A segunda ronda do KYC bancário lê-se de forma mais serena como um procedimento documentado do que como uma ameaça aberta. Uma nota curta e datada no ficheiro bancário com o que foi enviado torna a segunda ronda mais rápida de tratar.
+<!-- /exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-pt -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
@@ -152,6 +164,94 @@ Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se n�
   ### Considerações práticas adicionais para o residente em Portugal
 
   A AT pode emitir, mediante pedido formal apresentado no portal das Finanças, uma declaração de situação tributária regularizada ao abrigo do artigo 64.º do CPPT no prazo de cinco dias úteis. Esta declaração é frequentemente solicitada por Mercury, Relay e Wise como prova adicional de cumprimento fiscal local.
+
+<!-- exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+## O que uma segunda ronda de KYC verifica realmente
+
+Uma segunda ronda de KYC raramente é o banco a duvidar de si
+pessoalmente. É um processo periódico que a equipa de compliance
+corre quando o perfil de uma conta e os seus movimentos reais
+deixam de coincidir: uma LLC aberta com a utilização declarada
+"consultoria, volume baixo" que agora recebe payouts de marketplace,
+ou um sócio listado como residente fiscal espanhol cuja despesa em
+cartão parece centrada noutra jurisdição. O banco está a actualizar
+o seu modelo do cliente, e os documentos pedidos visam confirmar que
+o modelo continua válido.
+
+Três famílias cobrem a maior parte dos pedidos de segunda ronda:
+
+| Família                    | O que o banco quer realmente                          |
+|----------------------------|-------------------------------------------------------|
+| Origem dos fundos          | De onde provém realmente o dinheiro que entra         |
+| Origem do património       | Como o sócio constituiu o património que capitaliza   |
+|                            | a LLC                                                  |
+| Utilização da conta        | O que a LLC vai fazer concretamente nos próximos      |
+|                            | 12 meses                                              |
+
+Lida nestas três famílias, a resposta torna-se um papel curto e
+estruturado, em vez de um monte de ficheiros desconexos.
+
+## Três casos reais que acompanhámos com clientes
+
+Uma LLC de designer bilingue recebeu um pedido de segunda ronda
+após um aumento de payouts em EUR de um marketplace. A limpeza foi
+uma nota de uma página a nomear o marketplace, o mix típico de
+países dos clientes, a cadência dos payouts e três facturas
+representativas. Sem nova estrutura, sem nova conta, sem alarmes. A
+equipa de compliance marcou o processo como completo em menos de
+dez dias úteis.
+
+Uma LLC de consultoria com um único cliente institucional grande
+recebeu uma carta de segunda ronda na semana em que a primeira
+factura foi paga. A resposta foi uma cópia do contrato-quadro de
+serviços, o registo da transferência correspondente e uma curta
+nota explicando a facturação trimestral esperada de dimensão
+semelhante. A relação continuou sem alterações.
+
+Uma LLC de serviços a operar a partir da Florida recebeu um pedido
+após uma transferência interna grande entre contas do mesmo sócio.
+Re-titulámos esse movimento explicitamente como retirada do sócio,
+anexámos o lançamento contabilístico correspondente e acrescentámos
+uma nota prospectiva sobre como retiradas seriam tratadas no futuro.
+O banco encerrou o pedido e o cliente manteve o ritmo operacional.
+
+## Erros que transformam uma revisão calma numa revisão feia
+
+- Enviar PDFs sem nota de cobertura. Documentos sozinhos lêem-se
+  como provas para uma tese não dita; os bancos querem primeiro a
+  tese num parágrafo, depois as provas.
+- Reexplicar a estrutura da LLC do zero quando o banco já a tem.
+  Ancorar a resposta naquilo que mudou desde o onboarding, não no
+  que já está em ficheiro.
+- Misturar documentos pessoais e profissionais no mesmo upload.
+  Cada upload deve ser um bundle apertado e nomeado.
+- Prometer comportamentos futuros e fazer o contrário. Os bancos
+  releem o processo; a consistência encurta a revisão seguinte.
+
+## Modelo de uma página sobre origem dos fundos
+
+- Percurso do sócio: nacionalidade, residência fiscal, historial
+  profissional (duas linhas).
+- Fim da LLC: actividade declarada, mix de países dos clientes,
+  banda mensal de receita esperada.
+- Capitalização: como os fundos iniciais entraram na LLC e de onde.
+- Ritmo operacional: padrões típicos de entrada e saída ao longo
+  de um trimestre representativo.
+- Nota prospectiva: qualquer mudança esperada nos próximos 12 meses.
+
+Tratamos a segunda ronda de KYC como um evento de higiene normal e
+não como uma ameaça. Bem feita, é o melhor reforço do histórico
+bancário da LLC e o seguro mais barato contra bloqueios futuros.
+
+<!-- /exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Due diligence bancária para a sua LLC americana: o que os bancos verificam, com calma](/pt/blog/due-diligence-bancaria-para-sua-llc-americana-o-que-os)
+- [Conformidade AML para a sua LLC: o que realmente precisa saber](/pt/blog/conformidade-anti-lavagem-de-dinheiro-para-sua-llc-o-que)
+- [Bancos tradicionais vs fintech para a sua LLC: onde faz mesmo sentido abrir](/pt/blog/bancos-tradicionais-vs-fintech-para-sua-llc-onde-abrir-a)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

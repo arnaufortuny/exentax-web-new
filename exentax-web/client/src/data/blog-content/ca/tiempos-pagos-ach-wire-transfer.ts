@@ -107,6 +107,20 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote16-native-v1:tiempos-pagos-ach-wire-transfer-ca -->
+## Per què per a ACH i wire la previsibilitat compta més que la velocitat
+
+La planificació dels pagaments per ACH i wire no esdevé més simple si es busca la velocitat màxima; esdevé més simple si es busca la previsibilitat. La diferència és concreta: una wire emesa el dimarts al matí dins d'una rutina establerta no genera preguntes, mentre que una wire emesa divendres a la nit fora de qualsevol rutina obre converses amb la conformitat bancària que consumeixen temps sense aportar res a la pròpia operació. La mateixa lògica val per a ACH: un calendari regular, amb imports alineats amb els fluxos operatius, funciona millor que un enviament oportunista.
+
+Un hàbit que redueix la fricció consisteix a fixar dues finestres setmanals per als pagaments a enviar i anunciar-les internament. Les contraparts s'hi adapten ràpidament, la comptabilitat alinea les conciliacions i el mateix banc acaba llegint el perfil com a previsible, cosa que redueix el nombre de revisions internes.
+<!-- /exentax:lote16-native-v1:tiempos-pagos-ach-wire-transfer-ca -->
+
+<!-- exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-ca -->
+## Com llegir els temps dels pagaments ACH i wire transfer com un mapatge estable en lloc d'una espera incerta
+
+Els temps dels pagaments ACH i wire transfer es llegeixen de manera més útil com un mapatge estable entre el tipus d'instrucció (ACH o wire), el moment en què es llança i el termini operatiu esperat, en lloc d'una espera incerta. Aquests terminis no canvien de mes en mes, i una nota curta al dossier de la LLC amb la finestra típica per tipus d'instrucció fa l'expectativa consultable.
+<!-- /exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -151,6 +165,15 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
   ### SEPA i particularitats per a titulars de LLC residents a Espanya/Catalunya/Andorra
 
   Qui opera una LLC nord-americana des d'Espanya combina ACH/Wire en USD amb transferències **SEPA en EUR** al seu IBAN espanyol. La normativa europea **Reglament UE 2024/886 (Instant Payments)** obliga totes les entitats de la zona euro a acceptar SEPA Instant fins al 9 d'octubre de 2025 i a oferir-lo fins al 9 d'abril de 2026, sense recàrrec. A Andorra, l'**AFA** regula les transferències i les entitats andorranes (MoraBanc, Crèdit Andorrà, Andbank) ofereixen IBAN AD i accés a SEPA des de 2018, amb tarifes habitualment lleugerament superiors a les espanyoles per a transferències internacionals.
+
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [IBAN, SWIFT i routing number: entendre els codis bancaris internacionals](/ca/blog/iban-swift-i-routing-number-entendre-els-codis-bancaris)
+- [Com obrir un compte Mercury per a la teva LLC des de qualsevol país](/ca/blog/com-obrir-un-compte-mercury-per-a-la-teva-llc-des-de)
+- [Canviar divises per a la teva LLC: millors opcions sense comissions ocultes](/ca/blog/canviar-divises-per-a-la-teva-llc-millors-opcions-i-com)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

@@ -136,6 +136,14 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
 La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
 
+<!-- exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-ca -->
+## Com llegir l'stack bancari de la LLC com un mapatge estable en lloc d'una comparació oberta de productes
+
+L'stack bancari de la LLC es llegeix de manera més útil com un mapatge estable entre rol operatiu, titular del compte i país de l'IBAN, que com una comparació oberta de productes. Entre els proveïdors operativament compatibles amb perfils de LLC americana — Mercury, Wise, Stripe i Relay — cadascun ocupa un rol discret: Mercury i Relay com a compte operatiu dels EUA, Wise com a capa multidivisa i Stripe com a ingest comercial quan aplica.
+
+Una nota curta al dossier de la LLC que registri quin proveïdor fa quin rol a l'stack actual, amb la data en què la configuració es va fixar, fa l'arquitectura consultable en pocs minuts cada vegada que una contrapart demana dades bancàries o un assessor fiscal demana una conciliació.
+<!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -157,6 +165,14 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-ca -->
+## Per què un stack bancari amb diversos carrils aporta estabilitat operativa
+
+Construir un stack bancari amb diversos carrils per a una LLC no és una qüestió de redundància teòrica; és una qüestió de continuïtat operativa. Quan un únic proveïdor centralitza tots els fluxos, qualsevol revisió interna o simple manteniment tècnic pot interrompre l'activitat durant diversos dies. En canvi, un stack que separa els carrils de recepció, els carrils de pagament a proveïdors i els carrils de canvi redueix l'exposició a un únic punt de fallada i suavitza la planificació de tresoreria.
+
+Un esquema simple i durador consisteix a assignar a cada carril una funció clara i evitar superposicions: un carril principal per als fluxos operatius, un carril secundari de canvi per als pagaments internacionals i un compte dedicat exclusivament a les distribucions al membre. Aquesta repartició accelera les conciliacions, facilita les converses amb la comptabilitat i limita les sorpreses quan un dels proveïdors introdueix una modificació de tarifa o de política d'acceptació.
+<!-- /exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -224,6 +240,50 @@ Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode d
   **Andorra:**
 
   Per a residents fiscals a **Andorra**, l'estructura bancària segueix la **Llei 8/2013 sobre els requisits organitzatius i les condicions de funcionament de les entitats operatives del sistema financer** i la **Llei 14/2017 de prevenció del blanqueament de capitals**. La supervisió correspon a l'**Autoritat Financera Andorrana (AFA)**. El **conveni Andorra-EUA en vigor des de l'1 de gener de 2024** elimina la doble imposició sobre dividends i interessos qualificats provinents d'estructures LLC, i el **conveni Andorra-Espanya (BOE 07/12/2015) amb Protocol de 03/05/2023** regula la fiscalitat dels fluxos transfrontèrers entre tots dos països. Les aplicacions financeres a l'estranger s'integren a la **declaració de l'IRPF andorrà (Llei 5/2014)** com a rendiments del capital mobiliari.
+
+
+<!-- exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria-completa -->
+## La stack bancària vista des de dins de la LLC
+
+Quan es mira la stack bancària d'una LLC al llarg de dotze mesos en
+comptes de fer-ho en el moment de l'obertura, apareixen tres
+patrons. El primer és la complementarietat entre Mercury i Wise
+Business: Mercury fa de compte operatiu en USD amb routing
+americà, Wise fa de receptacle multi-divisa per a clients fora del
+USD. El segon és el lloc de Stripe quan l'activitat agafa volum: la
+passarel·la de pagament viu sobre el compte americà i alimenta
+Mercury, que al seu torn alimenta Wise per a la part en EUR, GBP i
+MXN. El tercer és l'ús de Relay com a alternativa a Mercury quan el
+perfil del soci i l'estat de constitució encaixen millor pel costat
+de Relay.
+
+Cap d'aquestes eleccions és definitiva. El reflex assenyat del soci
+no resident és escriure en una pàgina la cartografia dels fluxos
+d'entrada i sortida previstos per als pròxims dotze mesos, i llegir
+aquesta pàgina en veu alta. Si la frase que en surt és clara — per
+exemple "Stripe US cobra, Mercury guarda el float operatiu, Wise
+distribueix en EUR" — la stack està correcta. Si vacil·la, és
+perquè hi ha una capa de més o una capa de menys. Aquesta
+documentació honesta de la decisió protegeix la LLC millor que
+qualsevol arquitectura sofisticada.
+
+<!-- /exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria-completa -->
+
+<!-- exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-ca-bis -->
+## Com posicionar Mercury i Wise dins del stack sense posar-los en competència
+
+Mercury i Wise ocupen dins del stack funcions distintes i no competidores: Mercury serveix habitualment com a carril de recepció i pagaments en USD, mentre que Wise serveix com a carril de canvi multi-divisa per als pagaments internacionals. Aquesta repartició funcional evita demanar a un únic proveïdor que cobreixi casos d'ús que no són el seu nucli de negoci i facilita la conversa amb cada equip de conformitat, que veu així un perfil coherent.
+
+Una petita higiene addicional consisteix a donar a la comptabilitat una classificació única a cada compte que correspongui a la seva funció dins del stack. Així, més endavant es pot saber immediatament si un moviment pertany al carril de recepció, de canvi o de distribució, sense necessitat de buscar el justificant subjacent.
+<!-- /exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Wise Business amb la teva LLC: la guia multi-moneda completa](/ca/blog/wise-business-amb-la-teva-llc-la-guia-completa-de-gestio)
+- [Wise IBAN i LLC: què es reporta realment a Hisenda](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
+- [Canviar divises per a la teva LLC: millors opcions sense comissions ocultes](/ca/blog/canviar-divises-per-a-la-teva-llc-millors-opcions-i-com)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

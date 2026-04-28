@@ -146,6 +146,18 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote28-native-v1:empresa-panama-fiscalidad-residencia-de -->
+## Wie sich die Frage einer Panama-Gesellschaft als Profil-Mapping statt als generischer Vergleich lesen lässt
+
+Die Frage einer Panama-Gesellschaft liest sich nützlicher als Profil-Mapping zwischen dem Wohnsitzland des wirtschaftlich Berechtigten und dem Land, in dem die Wertschöpfung tatsächlich stattfindet, denn als generischer Vergleich. Diese beiden Achsen erklären die Antwort weit besser als jede pauschale Empfehlung pro Branche.
+<!-- /exentax:lote28-native-v1:empresa-panama-fiscalidad-residencia-de -->
+
+<!-- exentax:lote28-native-v1-bis:empresa-panama-fiscalidad-residencia-de -->
+## Wie eine kurze Notiz mit den beiden Achsen die Diskussion mit einem Berater vereinfacht
+
+Eine kurze, datierte Notiz im persönlichen Ordner, die das Wohnsitzland des wirtschaftlich Berechtigten und das Land der tatsächlichen Wertschöpfung festhält, vereinfacht die Diskussion mit einem Steuerberater erheblich, weil sie die Ausgangslage überprüfbar macht, ohne dass beide Seiten aus dem Gedächtnis arbeiten müssen.
+<!-- /exentax:lote28-native-v1-bis:empresa-panama-fiscalidad-residencia-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -158,6 +170,24 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Hongkong-Gesellschaft: die Offshore-Realität 2026](/de/blog/hong-kong-gesellschaft-die-offshore-realitat-2026)
+- [Dubai/VAE: der Mythos der Steuerfreiheit](/de/blog/dubai-vae-der-mythos-der-steuerfreiheit)
+- [Offshore-Strukturen: Vorteile und echte Risiken](/de/blog/offshore-strukturen-vorteile-und-echte-risiken)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote23-native-v1:empresa-panama-fiscalidad-residencia-de -->
+## Wie sich die panamaische Gesellschaft als Profilfrage statt als universelle Empfehlung lesen lässt
+
+Die panamaische Gesellschaft liest sich am ehrlichsten als Profilfrage und nicht als universelle Empfehlung. Ihre Eignung hängt vom tatsächlichen Wohnsitz des wirtschaftlich Berechtigten, der geografischen Verteilung der Kunden, dem Typ der Tätigkeit und den Substanzanforderungen ab — und jede dieser vier Variablen kann die Antwort verändern, ohne dass die übrigen sich bewegen.
+
+## Wie sich die Eignungsprüfung in einer kurzen Notiz festhalten lässt
+
+Die Eignungsprüfung hält sich dauerhafter in einer kurzen, datierten Notiz fest, die die vier Variablen und die daraus folgende Schlussfolgerung auflistet, sodass die Eignungsfrage nicht von Grund auf neu gestellt werden muss, sobald sich eine der Variablen leicht verschiebt.
+<!-- /exentax:lote23-native-v1:empresa-panama-fiscalidad-residencia-de -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Panama heute: echte Territorialität, EU-Graue-Liste und was noch funktioniert

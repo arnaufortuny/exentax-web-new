@@ -106,6 +106,20 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote16-native-v1:tiempos-pagos-ach-wire-transfer-fr -->
+## Pourquoi la prévisibilité compte plus que la vitesse pour les ACH et les wires
+
+La planification des paiements via ACH et wire ne devient pas plus simple en cherchant la vitesse maximale ; elle devient plus simple en cherchant la prévisibilité. La différence est concrète : un wire transmis le mardi matin selon une routine établie ne provoque aucune question, alors qu'un wire transmis vendredi soir hors de toute routine ouvre des conversations avec la conformité bancaire qui consomment du temps sans rien apporter à l'opération elle-même. La même logique vaut pour les ACH : un calendrier régulier, avec des montants alignés sur les flux opérationnels, fonctionne mieux qu'un envoi opportuniste.
+
+Une habitude qui réduit la friction consiste à fixer deux fenêtres hebdomadaires pour les paiements sortants et à les annoncer en interne. Les contreparties s'y adaptent rapidement, les comptables alignent leurs rapprochements et la banque elle-même finit par lire le profil comme prévisible, ce qui réduit le nombre de revues internes.
+<!-- /exentax:lote16-native-v1:tiempos-pagos-ach-wire-transfer-fr -->
+
+<!-- exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-fr -->
+## Comment lire les délais des paiements ACH et wire transfer comme une cartographie stable plutôt que comme une attente incertaine
+
+Les délais des paiements ACH et wire transfer se lisent plus utilement comme une cartographie stable entre le type d'instruction (ACH ou wire), le moment où l'instruction est lancée et le délai opérationnel attendu, plutôt que comme une attente incertaine. Ces délais ne changent pas d'un mois à l'autre.
+<!-- /exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -146,6 +160,27 @@ Chez Exentax nous montons le stack bancaire par cas d'usage.
 ## Comment nous travaillons chez Exentax
 
 Notre équipe est spécialisée dans les structures fiscales internationales pour les résidents de pays hispanophones qui exploitent des activités en ligne. Nous combinons une connaissance locale de l'Espagne, de l'Andorre et de l'Amérique latine avec une expérience opérationnelle de constitution d'entités au Delaware, dans le Wyoming, en Estonie et dans d'autres juridictions. Chaque dossier commence par une consultation gratuite au cours de laquelle nous évaluons la résidence, l'activité et les objectifs, et nous vous disons honnêtement si la structure proposée a du sens ou si une alternative plus simple suffit.
+
+
+<!-- exentax:lote9-native-v1:tiempos-pagos-ach-wire-transfer -->
+## Une note pratique sur les temps de paiement
+
+Les délais ACH et wire ne sont pas des chiffres figés sur le
+papier: ils dépendent de l'heure de l'envoi, du jour de la
+semaine et du couloir banque-à-banque concerné. Le membre qui
+intègre ces variables à son cycle de facturation évite la
+plupart des frictions de trésorerie qui touchent les LLC en
+phase de croissance.
+
+<!-- /exentax:lote9-native-v1:tiempos-pagos-ach-wire-transfer -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [IBAN, SWIFT et routing numbers : comprendre les codes bancaires](/fr/blog/iban-swift-et-routing-numbers-comprendre-les-codes-bancaires)
+- [Comment ouvrir un compte Mercury pour votre LLC depuis l'étranger](/fr/blog/comment-ouvrir-un-compte-mercury-pour-votre-llc-depuis)
+- [Changer de devises pour votre LLC : meilleures options et éviter les frais cachés](/fr/blog/changer-de-devises-pour-votre-llc-meilleures-options-et)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

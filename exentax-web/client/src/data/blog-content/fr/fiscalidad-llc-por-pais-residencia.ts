@@ -156,6 +156,14 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+- [Fiscalité internationale pour entrepreneurs numériques : guide complet](/fr/blog/fiscalite-internationale-pour-entrepreneurs-numeriques-guide)
+- [Structure fiscale optimale pour freelances internationaux : cadre complet](/fr/blog/structure-fiscale-optimale-pour-les-freelancers)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

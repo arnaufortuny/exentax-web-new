@@ -140,6 +140,14 @@ Fintech and CRS information evolves; here is the current state:
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Hong Kong company: the offshore reality in 2026](/en/blog/hong-kong-company-the-offshore-reality-in-2026)
+- [Panama company: tax and residency 2026](/en/blog/panama-company-tax-and-residency-2026)
+- [Dubai/UAE: the myth of no taxes](/en/blog/dubai-uae-the-myth-of-no-taxes)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## "Offshore" today: what it no longer means what you think
 

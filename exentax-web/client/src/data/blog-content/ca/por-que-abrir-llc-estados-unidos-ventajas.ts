@@ -199,6 +199,12 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote34-native-v1:por-que-abrir-llc-estados-unidos-ventajas-ca -->
+## Com llegir la qüestió dels avantatges d'una LLC americana com un mapa de perfil estable en lloc d'una afirmació de màrqueting
+
+La qüestió dels avantatges d'una LLC americana es llegeix com un mapa de perfil estable entre el país de residència del beneficiari, la naturalesa de l'activitat empresarial i el perfil geogràfic dels clients, en lloc d'una afirmació de màrqueting.
+<!-- /exentax:lote34-native-v1:por-que-abrir-llc-estados-unidos-ventajas-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -211,6 +217,14 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote19-native-v1:por-que-abrir-llc-estados-unidos-ventajas-ca -->
+## Com llegir els avantatges d'una LLC sense relliscar cap al to publicitari
+
+Els avantatges d'una LLC es llegeixen amb més honestedat quan no es presenten com una llista de punts positius universals, sinó com a característiques la rellevància de les quals varia segons el perfil operatiu. La separació jurídica entre membre i societat té un pes diferent per a qui mou imports significatius que per a qui opera amb volum reduït.
+
+Aquesta lectura per perfil evita relliscar cap al to publicitari i fa la decisió més sòlida. Els avantatges que compten en el cas concret solen ser només dos o tres dels enumerats — i són precisament aquests els que mereixen atenció plena.
+<!-- /exentax:lote19-native-v1:por-que-abrir-llc-estados-unidos-ventajas-ca -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Per què obrir una LLC als Estats Units: avantatges reals per a no residents
@@ -257,6 +271,14 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+- [Fiscalitat LLC per país de residència: el que es paga on es viu](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+- [Tributació de la LLC per activitat: serveis, e-commerce, SaaS, trading](/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/serveis">Reservar consulta gratuïta</a>.

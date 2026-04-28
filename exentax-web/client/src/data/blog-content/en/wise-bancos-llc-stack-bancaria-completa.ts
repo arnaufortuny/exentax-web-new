@@ -145,6 +145,16 @@ There is no perfect account for an LLC. There is the right **stack**, where each
 - **Wise Business** (multi-currency EMI, not a bank). To collect and pay in EUR, GBP, USD and other currencies with local bank details and mid-market FX. Does not replace a real US account but is unbeatable for international treasury.
 - **Wallester / Revolut Business.** Wallester provides corporate cards on a dedicated BIN for high volume. Revolut Business works as a European complement, not as the LLC's main account.
 
+<!-- exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-en -->
+## How to read the LLC banking stack as a stable mapping rather than as an open product comparison
+
+The LLC banking stack reads more usefully when it's treated as a stable mapping between operational role, holder of the account and country of the IBAN, than as an open product comparison. Within the providers that are operationally compatible with US LLC profiles — Mercury, Wise, Stripe and Relay — each one occupies a discrete role: Mercury and Relay as the LLC's US operating account, Wise as the multicurrency layer, and Stripe as the merchant ingest where applicable.
+
+A short note in the LLC folder that records which provider plays which role in the current stack, with the date the configuration was set, makes the architecture reviewable in a few minutes whenever a counterparty asks for a payment instruction or a tax adviser asks for a reconciliation.
+
+The same note also makes it much easier to spot when one of the providers stops fitting the role it was assigned and another configuration is needed, instead of waiting for a friction event to discover it.
+<!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -215,6 +225,14 @@ Choosing a jurisdiction always depends on the holder's actual tax residency and 
 _More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise, IBAN and LLC: what actually gets reported and what does not](/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax)
+- [Changing currencies for your LLC: best options without hidden fees](/en/blog/changing-currencies-for-your-llc-best-options-and-how-to)
+- [How to avoid account freezes at Mercury, Wise and Revolut](/en/blog/how-to-avoid-account-freezes-at-mercury-wise-and-revolut)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

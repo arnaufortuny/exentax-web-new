@@ -83,11 +83,15 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
-<!-- /exentax:calc-cta-v1 -->
-
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
+
+<!-- exentax:lote17-native-v1:single-member-multi-member-llc-implicaciones-fiscales-fr -->
+## Pourquoi le choix entre single-member et multi-member n'est pas qu'une question de nombre
+
+Le choix entre single-member LLC et multi-member LLC ne se réduit pas au nombre de personnes inscrites au registre ; il a des conséquences directes sur la classification fiscale par défaut côté américain et sur la cartographie des flux côté pays de résidence. Une single-member LLC est traitée par défaut comme une entité transparente liée à son membre unique ; une multi-member LLC est traitée par défaut comme un partnership, ce qui modifie la nature des formulaires à déposer et la manière dont les distributions sont vues côté résident.
+
+Cette distinction technique a une traduction très concrète dans le quotidien : la documentation, les comptes bancaires et la comptabilité gagnent à être configurés dès l'origine en fonction de la classification choisie, plutôt que de tenter de la reconstituer après plusieurs exercices.
+<!-- /exentax:lote17-native-v1:single-member-multi-member-llc-implicaciones-fiscales-fr -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
@@ -106,6 +110,36 @@ Notre position ici est délibérément prudente: nous optimisons pour ce qui ré
 ## Faits juridiques et de procédure
 
 Lisez cette section comme une checklist exigeante: chaque point signale un mode de défaillance que nous avons constaté sur des dossiers LLC transfrontaliers. N'en sautez aucun - la plupart des redressements et clôtures de comptes que nous récupérons remontent à l'un de ces éléments.
+
+
+
+## Exemple concret : un passage à multi-member bien orchestré
+
+Anna gère depuis dix-huit mois une LLC du Wyoming en single-member, depuis Madrid. Elle décide d'intégrer un associé technique à 30 %, résident en France. Le passage se planifie sur six semaines, pas trois jours.
+
+**Semaines 1-2 — décision et chiffrage.** Modélisation conjointe avec son conseiller espagnol et notre équipe : la LLC arrête d'être *disregarded entity* dès que le second associé entre, et bascule en *partnership* fiscale aux US (formulaires 1065 et K-1 par associé). Côté Espagne, les revenus continuent d'apparaître au Modelo 100 selon le pourcentage détenu.
+
+**Semaines 3-4 — papier juridique.** Nouvel Operating Agreement détaillant capital, droits de vote, distributions, clauses de sortie et règles de blocage. Ce document est le bouclier le jour où une décision difficile survient ; il doit être rédigé avec soin, pas avec un modèle gratuit.
+
+**Semaines 5-6 — exécution.** Acceptation formelle du nouveau membre, mise à jour BOI dans la fenêtre de 30 jours, dépôt du Form 8832 si nécessaire, communication à Mercury et à Wise pour mettre à jour le KYC, demande d'EIN d'un éventuel partnership separate ou maintien selon le scénario, mise en place d'une comptabilité dual-member dès le J+1.
+
+## Trois signaux d'alarme avant de signer
+
+**Signal 1 : précipitation sur le calendrier fiscal.** Faire le saut entre janvier et avril complique le 5472 et le futur 1065 sur la même année. Nous recommandons souvent un effet au 1er janvier suivant, avec préparation pendant le dernier trimestre.
+
+**Signal 2 : un seul associé hors de l'UE et l'autre en UE.** La transparence fiscale fonctionne, mais chaque membre doit déclarer sa quote-part dans son pays de résidence. Quand les deux pays ont des règles différentes sur les revenus passifs ou actifs, un cadrage préalable avec les conseils respectifs évite des surprises au printemps suivant.
+
+**Signal 3 : Operating Agreement faible sur les clauses de séparation.** Le moment où on signe est le moment où les associés s'entendent ; le moment difficile arrive plus tard. Un OA qui prévoit le rachat des parts, l'évaluation et la procédure d'arbitrage en cas de désaccord vaut son poids en sérénité.
+
+Si l'un de ces signaux apparaît dans votre cas, une consultation gratuite avec notre équipe avant le saut épargne souvent six mois de réparation après coup.
+
+
+
+### Trois ajustements quotidiens à anticiper après le passage
+
+Une fois la transition signée et déposée, la vie de la LLC change par petites touches plutôt que par grandes ruptures. Trois ajustements méritent d'être préparés à l'avance pour ne pas grever le quotidien.
+
+D'abord, les distributions deviennent un sujet trimestriel et plus seulement annuel : décider qui touche combien et quand exige une trace écrite courte mais régulière, validée par les deux associés. Ensuite, la comptabilité passe à un plan de comptes dual-member où chaque dépense porte sa quote-part ; nous fournissons un modèle Mercury-Wise prêt à l'emploi à nos mandants. Enfin, les communications externes — Stripe, fournisseurs, clients grands comptes — gagnent à intégrer les deux signataires officiels dans l'Operating Agreement, ce qui évite les surprises lors des audits KYC annuels.
 
 <!-- exentax:execution-v2 -->
 ## Single-member vs multi-member LLC: implications fiscales qui changent tout le setup
@@ -158,6 +192,39 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 ### 3. Acceptation formelle du nouveau membre
 
 Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
+
+
+<!-- exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-fr -->
+## Comment lire le choix LLC single-member vs multi-member comme une propriété structurelle stable plutôt que comme une optimisation fiscale
+
+Le choix LLC single-member vs multi-member se lit plus utilement comme une propriété structurelle stable du véhicule que comme une optimisation fiscale d'une année sur l'autre. Les deux configurations portent des classifications fédérales par défaut distinctes — disregarded entity pour le single-member, partnership pour le multi-member — et cette classification définit ensuite un ensemble spécifique d'obligations annuelles qui ne change pas avec le résultat opérationnel de l'année.
+
+Une courte note dans le dossier LLC qui consigne la configuration choisie, la date à laquelle elle a été fixée et les obligations annuelles correspondantes transforme ce choix en quelque chose de facile à relire à tout moment, au lieu de devoir le redériver chaque année depuis les déclarations.
+<!-- /exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-fr -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
+<!-- /exentax:calc-cta-v1 -->
+
+<!-- exentax:lote10-native-v1:single-member-multi-member-llc-implicaciones-fiscales -->
+## Une note finale sur la décision single vs multi-member
+
+Le bon choix entre single-member et multi-member ne dépend pas
+d'une règle universelle: il dépend du profil du ou des membres,
+de leur pays de résidence et de la dynamique opérationnelle
+réelle de la LLC. Discuter ce choix avec le conseiller, calmement
+et avant la constitution, évite les corrections coûteuses
+ultérieures.
+
+<!-- /exentax:lote10-native-v1:single-member-multi-member-llc-implicaciones-fiscales -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [D'une LLC unique à une structure holding : quand, comment, à quel coût](/fr/blog/dune-llc-unique-a-une-structure-holding-quand-comment-et)
+- [Holding d'entreprise : comment ça fonctionne vraiment](/fr/blog/holding-dentreprise-comment-ca-fonctionne)
+- [LLC vs Corporation, S-corp vs C-corp : le guide pratique](/fr/blog/difference-llc-vs-corporation-s-corp-c-corp-guide)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

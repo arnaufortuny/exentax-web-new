@@ -150,6 +150,14 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [LLC américaine pour développeurs et fondateurs SaaS : guide complet](/fr/blog/llc-americaine-pour-developpeurs-de-logiciels-et-fondateurs)
+- [LLC américaine pour agences marketing digital : structure et croissance](/fr/blog/llc-americaine-pour-agences-de-marketing-digital-structure)
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Pour%20un%20cr%C3%A9ateur%20fran%C3%A7ais%20qui%20vit%20d'AdSense%2C%20de%20Twitch%2C%20de%20Patreon%20et%20de%20deal%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

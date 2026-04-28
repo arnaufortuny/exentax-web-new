@@ -104,6 +104,12 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
+<!-- exentax:lote31-native-v1:amazon-ecommerce-llc-vender-online-fr -->
+## Comment lire la LLC pour ecommerce comme une carte opérationnelle stable plutôt que comme un raccourci marketing
+
+La LLC pour ecommerce se lit plus utilement comme une carte opérationnelle stable entre la marketplace, le bénéficiaire et le pays de résidence du bénéficiaire, plutôt que comme un raccourci marketing. Cette carte ne change pas avec la saison.
+<!-- /exentax:lote31-native-v1:amazon-ecommerce-llc-vender-online-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

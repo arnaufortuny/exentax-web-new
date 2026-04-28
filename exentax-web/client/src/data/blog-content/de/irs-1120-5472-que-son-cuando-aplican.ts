@@ -108,6 +108,30 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 
 Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
 
+<!-- exentax:lote25-native-v1:irs-1120-5472-que-son-cuando-aplican-de -->
+## Wie sich die Beziehung zwischen Form 1120 und Form 5472 als stabile jährliche Pflicht lesen lässt
+
+Die Beziehung zwischen Form 1120 und Form 5472 liest sich ruhiger, wenn sie als stabile jährliche Pflicht der LLC mit ausländischem wirtschaftlich Berechtigten und nicht als wiederkehrende Überraschung behandelt wird. Form 1120 dient als Trägerformular, Form 5472 als Anlage für die reportierbaren Transaktionen mit verbundenen Parteien — und die Pflicht ändert sich nicht von Jahr zu Jahr.
+
+## Wie sich die jährliche Vorbereitung der beiden Formulare in einer kurzen Notiz pflegen lässt
+
+Die jährliche Vorbereitung pflegt sich in einer kurzen, datierten Notiz, die die wiederkehrenden reportierbaren Transaktionen und die Frist auflistet.
+<!-- /exentax:lote25-native-v1:irs-1120-5472-que-son-cuando-aplican-de -->
+
+<!-- exentax:lote29-native-v1:irs-1120-5472-que-son-cuando-aplican-de -->
+## Wie sich Form 1120 und Form 5472 als stabile Pflichten­karte statt als Verwaltungs­überraschung lesen lassen
+
+Form 1120 und Form 5472 lesen sich nützlicher als stabile Pflichten­karte zwischen der Art der LLC (Single-Member oder Multi-Member), dem Status der Gesellschafter (US-Personen oder Nicht-Residenten) und der entsprechenden jährlichen Erklärungs­pflicht denn als Verwaltungs­überraschung. Diese Karte ändert sich nicht von Jahr zu Jahr — nur die Zahlen, die in jedes Formular eingetragen werden, ändern sich.
+
+Eine kurze, datierte Notiz im LLC-Ordner mit dem LLC-Typ, dem Gesellschafter­status und der entsprechenden Erklärungs­pflicht macht die Position jederzeit nachlesbar.
+<!-- /exentax:lote29-native-v1:irs-1120-5472-que-son-cuando-aplican-de -->
+
+<!-- exentax:lote29-native-v1-bis:irs-1120-5472-que-son-cuando-aplican-de -->
+## Warum die Notiz auf den LLC-Typ und nicht auf das Formular allein bezogen sein sollte
+
+Die Notiz bezieht sich auf den LLC-Typ und auf den Gesellschafter­status — nicht auf das Formular allein, weil die Erklärungs­pflicht aus diesen beiden Achsen folgt und nicht umgekehrt, und diese Sicht erlaubt eine schnelle Selbst­überprüfung.
+<!-- /exentax:lote29-native-v1-bis:irs-1120-5472-que-son-cuando-aplican-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -194,6 +218,93 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
   Die Sanktion bei Nichtabgabe oder verspäteter Abgabe beträgt **USD 25.000 pro Vorgang** (initial) nach **§6038A(d)(1)**, erhöht durch **Sec. 13301 des Tax Cuts and Jobs Act (Pub. L. 115-97 vom 22.12.2017)** — vor TCJA waren es nur USD 10.000. Bei Fortdauer nach 90-tägiger IRS-Aufforderung kommen **USD 25.000 pro 30-Tage-Periode** hinzu, ohne Höchstgrenze.
 
   Aus deutscher Sicht entsteht ein paralleler Pflichtenstack: die **Anzeigepflicht nach §138 Abs. 2 AO** für Beteiligungen ≥ 10 % an ausländischen Gesellschaften (Frist 14 Monate nach Ende des Wirtschaftsjahres), die **erhöhten Mitwirkungspflichten nach §90 Abs. 2 AO** bei Auslandssachverhalten und ggf. die **Hinzurechnungsbesteuerung nach §§7–14 AStG** (ATAD-Umsetzung BGBl. I 2021 S. 4147), wenn die LLC als passive Zwischengesellschaft mit Niedrigbesteuerung unter 15 % qualifiziert wird. In **Österreich** greifen die **§§109, 124–126 BAO** und das **WiEReG (BGBl. I Nr. 136/2017)** mit Sanktionen bis €200.000. In der **Schweiz** greift das **AIA-Gesetz (SR 653.1)** für den automatischen Informationsaustausch und das **FATCA-Abkommen Modell 2 (SR 0.672.933.63 vom 14.02.2013)**, das die schweizerischen Finanzinstitute zur direkten Meldung an den IRS verpflichtet.
+
+<!-- exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+## Was 1120 + Form 5472 tatsächlich melden (und was nicht)
+
+Für eine Single-Member LLC, die einer nicht-US Person gehört und für
+US-Steuerzwecke als disregarded behandelt wird, verlangt die IRS
+eine Pro-forma-1120-Hülle, die ausschliesslich als Träger für Form
+5472 dient. Dieses Paar erhebt keine US-Steuer auf eine
+ausländisch gehaltene disregarded LLC; es dokumentiert, dass
+bestimmte meldepflichtige Transaktionen zwischen der LLC und ihrem
+ausländischen Eigentümer (oder verbundenen Parteien) tatsächlich
+stattgefunden haben. Die IRS will Sichtbarkeit auf diese Flüsse,
+nicht zwingend Einnahmen.
+
+| Position         | Was sie meldet                                          |
+|------------------|---------------------------------------------------------|
+| Pro-forma 1120   | Identifikations-Hülle: LLC-Name, EIN, Adresse, Jahr     |
+| Form 5472        | Jede meldepflichtige Transaktion mit der ausländischen  |
+|                  | verbundenen Partei (Kapitaleinlagen, Ausschüttungen,    |
+|                  | Darlehen, Dienstleistungen usw.)                         |
+
+Hatte das Jahr keine meldepflichtigen Transaktionen, wird das Paar
+in der Regel trotzdem mit Werten auf null eingereicht, damit die IRS
+den Aktivitätsstatus ausdrücklich sieht. Das Auslassen der Meldung
+löst die bekannte Strafmassen-Exposition nach den Vorschriften aus.
+
+## Drei reale Einreichungsmuster, die wir umsetzen
+
+Eine Single-Member LLC mit einer Kapitaleinlage zur Gründung, einer
+kleinen monatlichen Entnahme an den ausländischen Eigentümer und
+keinen weiteren verbundenen Flüssen. Das 5472 meldet die Einlage und
+die Entnahmen; das Pro-forma-1120 trägt die Hülle. Die Saison
+dauert ein paar Stunden strukturierte Arbeit, einschliesslich
+Buchhaltungs-Abgleich.
+
+Eine Single-Member LLC, die einer verbundenen ausländischen
+Gesellschaft Geld geliehen hatte, später zurückgezahlt, mit
+marktüblichem Zins. Das 5472 meldet die Darlehensgewährung und die
+Rückzahlung; die Zinsabgrenzung ist Teil der LLC-Bücher und wird in
+der Heimaterklärung des Eigentümers gespiegelt. Dokumentation ist
+hier der Freund: der Darlehensvertrag und der Tilgungsplan liegen im
+Compliance-Ordner der LLC.
+
+Eine mehrjährige LLC ohne Aktivität im laufenden Jahr. Wir reichen
+trotzdem Pro-forma-1120 + 5472 mit Nullen ein, hängen ein kurzes
+internes Memo zur ruhenden Phase an und halten die Akte bereit für
+den Moment, in dem die LLC wieder aktiv wird.
+
+## Fehler, die zu Strafbriefen führen
+
+- Das Paar als Steuererklärung behandeln, die "nichts schuldet", und
+  überspringen. Es ist eine Meldung; das Fehlen einer Steuer
+  beseitigt die Pflicht nicht.
+- Persönliche Ausgaben des Eigentümers in die LLC-Bücher mischen
+  und dann zum Einreichungszeitpunkt abstimmen wollen. Die Grenze
+  monatlich sauber halten.
+- Vergessen, dass eine Entnahme an den ausländischen Eigentümer
+  eine meldepflichtige Transaktion ist. Sie ist es oft, je nach
+  ihrer Natur (Kapitalrückzahlung, Ausschüttung usw.).
+- Spät einreichen. Die Strafe für ein versäumtes Form 5472 ist
+  erheblich und gilt auch ohne fällige US-Steuer.
+
+## Checkliste vor der Einreichung
+
+- LLC-EIN stimmt mit dem IRS-Schreiben (CP575) überein.
+- Geschäftsjahr bestätigt (Kalenderjahr als Standard für eine
+  Single-Member disregarded LLC).
+- Buchhaltung abgeschlossen und mit Banken abgestimmt.
+- Verbundene-Parteien-Flüsse den 5472-Zeilenkategorien zugeordnet.
+- Identitätsdokument des Eigentümers in der Akte stimmt mit der
+  BOI-Meldung überein.
+- Einreichungskanal bereit (Papier oder E-File via autorisierten
+  Anbieter).
+
+Wir behandeln 1120 + 5472 als jährlichen Handschlag der LLC mit der
+IRS: ruhig, vorhersehbar, strukturiert. Eine saubere Einreichung in
+diesem Jahr macht das nächste Jahr noch ruhiger.
+
+<!-- /exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Was passiert, wenn Sie Form 5472 nicht einreichen: IRS-Strafen und Korrektur](/de/blog/was-passiert-wenn-sie-form-5472-nicht-einreichen-irs-strafen)
+- [W-8BEN und W-8BEN-E: ein vollständiger, ruhiger Leitfaden](/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden)
+- [Was ist der IRS und wie betrifft er Ihre US-LLC tatsächlich](/de/blog/was-ist-der-irs-und-wie-betrifft-er-ihre-us-llc)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Wir prüfen BOI, EIN, Registered Agent und Bundespflichten, damit Sie keine Strafe überrascht. <a href="/de/leistungen">Compliance-Check anfragen</a>.

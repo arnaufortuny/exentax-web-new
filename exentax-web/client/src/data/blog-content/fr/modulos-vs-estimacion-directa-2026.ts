@@ -27,9 +27,6 @@ Si votre activité est 100% numérique, internationale et avec clientèle majori
 
 La réglementation détaillée est dans le règlement IRPF (RD 439/2007) et dans l'arrêté annuel des modules publié chaque novembre au <a href="https://www.boe.es/">BOE</a>. Pour vérifier votre épigraphe IAE, consultez le <a href="https://sede.agenciatributaria.gob.es/">portail du fisc</a> avant de décider.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
-<!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.
 
@@ -84,6 +81,39 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+### Comment se déroule réellement une transition propre de modulos à estimation directe
+
+Le renoncement se dépose via le Modelo 036 en décembre pour prendre effet en janvier de l'année suivante, et une fois déposé il engage l'autónomo pour au moins trois ans avant de pouvoir revenir aux modulos. La première tâche pratique en janvier est de mettre en place le rythme comptable que l'estimation directe exige: un compte opérationnel séparé (dans notre pratique, un compte professionnel dédié évite l'essentiel de la friction de réconciliation), factures et notes de fournisseurs classées par mois avec sauvegarde électronique, et un Modelo 130 trimestriel qui prend le revenu net (revenus moins dépenses déductibles) comme base. La deuxième tâche pratique est de revoir la carte des déductions en début d'année afin d'utiliser pleinement la nouvelle visibilité: logiciels, formation, honoraires de conseil, proportion télétravail des charges, et toute autre dépense professionnelle qui n'était simplement pas pertinente sous modulos devient un levier calculable. La troisième tâche pratique est de planifier un quart d'heure trimestriel de revue de la projection IRPF cumulée afin de détecter tout changement de tramo ou approche de seuil avant qu'il ne devienne une surprise de fin d'année.
+
+### Quand ni modulos ni estimation directe ne convient plus
+
+Il existe un profil récurrent dans notre pratique pour qui les deux régimes deviennent étroits: un freelance avec la majorité des clients à l'étranger, une facturation mensuelle récurrente en devise étrangère et un catalogue de services numériques qui s'adapte mal aux codes d'activité IRPF conçus pour les métiers locaux. Dans ce profil, les modulos sont indisponibles (exclus par activité) et l'estimation directe donne l'impression de payer deux fois (cotisation RETA plus IRPF complet sur le net) pour une structure non conçue pour les flux numériques transfrontaliers. La conversation que nous ouvrons habituellement à ce moment-là compare deux alternatives structurelles: une SL espagnole (avec son impôt sur les sociétés et sa couche de dividende, valable quand une présence locale est nécessaire) et une LLC américaine détenue depuis l'Espagne (avec sa mécanique pass-through et sa charge déclarative, valable quand la majorité des clients et la trésorerie se trouvent hors Espagne). Aucune n'est un raccourci; toutes deux sont des décisions à horizon de trois ans avec leur coût de mise en place, et c'est précisément pour cela que la comparaison mérite une heure calme plutôt qu'une recherche rapide en ligne.
+<!-- /exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+### Un tableau de décision côte à côte que nous partageons avec les autónomos
+
+Nous recommandons rarement modulos versus estimation directe dans l'abstrait: la réponse dépend du profil d'activité et de la prévisibilité du revenu. Le tableau de décision que nous partageons avec les clients comporte quatre colonnes. Première colonne: secteur d'activité (la disponibilité des modulos est fixée par code d'activité; certains profils numériques et de conseil sont exclus par définition). Deuxième colonne: prévisibilité du revenu (les modulos donnent la même facture trimestrielle fixe indépendamment du revenu réel, ce qui protège le haut mais pénalise les années faibles). Troisième colonne: intensité des dépenses déductibles (l'estimation directe récompense les profils à fortes dépenses parce que la base IRPF est nette; les modulos ignorent les dépenses, ce qui favorise les activités à faibles dépenses). Quatrième colonne: la discipline pluriannuelle (changer de régime verrouille le nouveau choix pour au moins trois ans, donc la décision devrait être projetée contre un horizon de trois ans, pas une seule année). La recommandation propre vient du remplissage du tableau avec des chiffres réels et de la lecture du résultat, pas d'une règle d'une ligne.
+
+### Pièges fréquents lors d'un changement de régime
+
+Le premier piège est de changer de régime en cours d'année par erreur (par exemple, en franchissant le seuil d'exclusion par activité sans s'en rendre compte); l'AEAT réconciliera cela lors de la revue de fin d'année et le résultat est rarement favorable. L'approche propre consiste à vérifier l'éligibilité par activité à chaque clôture annuelle et à enregistrer tout changement anticipé via Modelo 036 en décembre pour l'année suivante. Le deuxième piège est de passer des modulos à l'estimation directe sans préparer le rythme comptable: l'autónomo se retrouve en mars sans grand livre des dépenses, sans dossier de Modelo 130 trimestriel et sans chiffre fiable de revenu net. L'approche propre consiste à mettre en place la comptabilité dans la première semaine de janvier, idéalement avec un compte professionnel dédié en place dès le premier jour. Le troisième piège est de passer de l'estimation directe aux modulos en pensant que cela simplifiera la vie: la simplification est réelle pour certains profils mais la perte de visibilité sur les dépenses est aussi réelle, et une fois que le régime est verrouillé pour trois ans il est délicat de le défaire. L'approche propre consiste à projeter les deux régimes pour les trois prochaines années avant le dépôt de décembre.
+<!-- /exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Cotisation autónomo en Espagne 2026 : ce que vous payez vraiment chaque mois](/fr/blog/cotisation-autonomo-espagne-2026-tranches)
+- [Dépenses déductibles pour les freelances espagnols en 2026 : guide clair](/fr/blog/depenses-deductibles-autonomo-espagne-2026)
+- [Pourquoi les freelances espagnols quittent en silence le statut d'autónomo](/fr/blog/pourquoi-les-freelancers-espagnols-quittent-le-statut-dauto)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.

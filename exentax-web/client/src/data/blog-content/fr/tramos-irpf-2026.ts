@@ -26,9 +26,6 @@ Trois erreurs font chaque année surpayer des contribuables aux profils très or
 Si votre base générale dépasse durablement 60 000 euros et que votre source de revenus est une activité économique facturable depuis une société, comparez l'IRPF d'indépendant (taux marginal 45-47%) à l'impôt sur les sociétés (Loi 7/2024 : micro-entreprises avec chiffre &lt;1 M€ taxées à 19% sur les premiers 50 000 € et 21% sur le reste en 2026 ; PME 1-10 M€ à 23% ; taux général 25%) plus le coût de rapatrier le bénéfice par dividende. Pour les profils 100% numériques avec des clients internationaux, il vaut aussi la peine de modéliser <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">l'alternative LLC américaine</a>, qui dans de nombreux cas réduit la charge combinée par rapport au maintien comme autónomo espagnol dans les tranches hautes de l'IRPF.
 Pour vérifier les taux, consultez le <a href="https://sede.agenciatributaria.gob.es/">portail de l'agence fiscale espagnole</a> et la <a href="https://www.boe.es/">Loi 35/2006 sur l'IRPF au BOE</a>. La vraie planification fiscale combine la connaissance du barème, l'ordonnancement des revenus entre base générale et épargne, l'épuisement des déductions légitimes et, lorsque les chiffres le justifient, l'évaluation d'un changement de structure.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
-<!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.
 
@@ -83,6 +80,55 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:tramos-irpf-2026 -->
+### Ce que les tranches donnent réellement en revenu net pour un freelance type
+
+Le barème se lit en marginal: chaque euro additionnel est taxé au taux de la tranche dans laquelle il tombe, jamais au taux moyen de l'ensemble du revenu. Concrètement, un freelance espagnol avec un revenu net annuel stable dans la tranche générale supérieure voit ses derniers euros facturés taxés au taux marginal combiné (étatique plus autonome) le plus élevé, alors que les premiers euros facturés bénéficient d'un taux plus faible. Lorsque nous modélisons le net pour des clients dans les bandes les plus courantes (entre environ 30 000 et 90 000 euros de revenu net), le taux IRPF effectif moyen se situe généralement plusieurs points en dessous du taux marginal supérieur, car la majeure partie de la base se trouve dans les tranches intermédiaires. Cette distinction compte pour planifier les décisions de fin d'année, la facturation différée ou les contributions à des instruments de retraite: le taux pertinent est toujours le marginal de la tranche suivante dans laquelle le revenu entrerait, pas le moyen.
+
+### Quand la tranche pousse à revoir la structure, pas seulement les déductions
+
+Il existe un seuil récurrent dans notre pratique où la conversation cesse de tourner autour de "quelle déduction puis-je ajouter" pour devenir "est-ce encore la bonne structure". Pour un freelance digital avec la majorité des clients à l'étranger, ce seuil apparaît lorsque le taux marginal grimpe dans la tranche générale supérieure et qu'en même temps la cotisation mensuelle d'autónomo se situe dans l'un des tramos hauts; dans ce scénario combiné, repenser la structure opérationnelle (par exemple en faisant passer une partie de l'activité par une LLC américaine détenue depuis l'Espagne, ou en évaluant une SL espagnole) commence à dominer la conversation. La décision n'est jamais automatique, car chaque structure a son coût de conformité et sa charge déclarative, mais la carte des tranches reste le point de départ naturel pour savoir si la conversation structurelle mérite une heure d'analyse ou non.
+<!-- /exentax:lote6-native-v1:tramos-irpf-2026 -->
+
+<!-- exentax:lote6-native-v1-bis:tramos-irpf-2026 -->
+### Un kit de documentation que nous gardons à portée pour chaque déclaration IRPF
+
+Lorsque nous clôturons la déclaration IRPF d'un client freelance, le dossier que nous voulons garder prêt pour les douze mois suivants est petit mais précis. Premièrement, le récapitulatif des revenus par client et par mois, avec devise et note de taux de change quand pertinent. Deuxièmement, le grand livre des dépenses déductibles avec catégorie, fournisseur, date, montant et justification d'une ligne par entrée. Troisièmement, l'ensemble des Modelo 130 trimestriels avec reçus de paiement. Quatrièmement, le Modelo 100 lui-même avec toutes les annexes. Cinquièmement, le certificat de retenue IRPF de chaque client espagnol (le cas échéant) plus le détail des revenus de source étrangère lorsque l'activité est transfrontalière. Sixièmement, les reçus de cotisation d'autónomo des douze mois. Ce dossier est revu une fois en fin d'année et reste disponible tout au long de l'année pour la clarification inévitable que l'AEAT peut demander. La discipline est légère si elle est intégrée dans le rythme de clôture mensuelle; elle ne devient pénible que lorsqu'elle est reconstruite de zéro la semaine précédant l'échéance.
+
+### Trois décisions de calendrier qui changent la tranche atteinte
+
+La première décision est de savoir s'il faut émettre une facture fin décembre ou début janvier lorsque le travail a été terminé mi-décembre: tirer la facture dans l'année suivante reporte le revenu à la déclaration IRPF de l'année suivante, ce qui peut maintenir le freelance sous un seuil de tranche si la projection montre que l'année en cours est déjà au bord. La deuxième décision est le moment d'enregistrer ou d'amortir une dépense significative (programme de formation, achat d'équipement): l'avancer dans l'année en cours réduit la base imposable courante. La troisième décision est le calendrier des cotisations volontaires aux instruments de retraite, qui se déduisent de la base générale dans les limites annuelles et peuvent maintenir le freelance dans une tranche marginale plus basse. Aucune de ces décisions n'est automatique, toutes exigent que la projection cumulée soit calculée correctement et toutes ont des effets secondaires (trésorerie, déductibilité future) qui méritent une conversation calme, pas un réflexe du 31 décembre.
+<!-- /exentax:lote6-native-v1-bis:tramos-irpf-2026 -->
+
+<!-- exentax:lote26-native-v1:tramos-irpf-2026-fr -->
+## Comment lire les tranches d'IRPF 2026 comme un mapping annuel stable plutôt que comme un débat récurrent
+
+Les tranches d'IRPF 2026 se lisent plus sereinement comme un mapping annuel stable entre le revenu imposable prévisionnel et le taux marginal correspondant, plutôt que comme un débat récurrent. Les tranches étatiques et régionales définissent ensemble une relation discrète qui ne change pas d'un mois à l'autre, et la seule pièce qui demande vraiment de l'attention chaque année est le revenu imposable prévisionnel utilisé pour ancrer la position en début d'exercice.
+<!-- /exentax:lote26-native-v1:tramos-irpf-2026-fr -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
+<!-- /exentax:calc-cta-v1 -->
+
+
+<!-- exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
+### Pourquoi la couche autonome change la conversation
+
+Le barème IRPF en Espagne est divisé en une moitié étatique et une moitié autonome, et la moitié autonome varie de manière significative entre communautés autonomes. Pour un freelance avec le même revenu nominal, le taux marginal dans deux communautés peut différer de plusieurs points de pourcentage dans la bande générale supérieure, ce qui suffit à renverser la réponse à la question "cette structure est-elle encore la bonne". Dans notre pratique, l'élément autonome compte surtout au moment d'un changement de résidence (un freelance qui déménage entre communautés, ou qui revient de l'étranger pour s'inscrire dans une communauté spécifique) et au moment d'une conception structurelle (lors de la comparaison des scénarios autónomo, SL ou LLC pour une résidence planifiée). L'approche propre consiste à regarder à la fois la moitié étatique et la moitié autonome de la carte des tranches pour la communauté où le freelance est ou sera inscrit, pas seulement le taux étatique de tête, et à répéter cet exercice chaque fois qu'un changement de résidence est sur la table.
+
+### Un modèle d'auto-revue trimestrielle qui évite les surprises de fin d'année
+
+Tous les trois mois nous menons une courte auto-revue avec nos clients autónomos qui prend environ quinze minutes. Première étape: tirer la projection IRPF cumulée à partir de la comptabilité (revenus moins dépenses déductibles, multipliés par quatre si le client est sur un rythme mensuel stable, ou projetés avec le motif saisonnier sinon). Deuxième étape: comparer la base projetée à la tranche marginale actuelle et à la tranche supérieure suivante. Troisième étape: si la projection se situe dans les dix pour cent d'une frontière de tranche, lister les décisions de calendrier qui pourraient maintenir le revenu du côté inférieur (facture différée, dépense avancée, cotisation volontaire). Quatrième étape: si la projection franchit confortablement la tranche suivante, accepter la tranche et recalibrer la trésorerie de fin d'année pour le solde d'IRPF à payer. La discipline évite le scénario le plus fréquent que nous voyons: un freelance qui découvre en mai, lors du dépôt de la déclaration annuelle, qu'il est solidement dans une tranche supérieure sans avoir eu aucune des conversations cumulées qui auraient pu changer l'atterrissage.
+<!-- /exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Cotisation autónomo en Espagne 2026 : ce que vous payez vraiment chaque mois](/fr/blog/cotisation-autonomo-espagne-2026-tranches)
+- [Dépenses déductibles pour les freelances espagnols en 2026 : guide clair](/fr/blog/depenses-deductibles-autonomo-espagne-2026)
+- [Autónomo en Espagne vs LLC américaine : une comparaison qui éclaire vraiment](/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.

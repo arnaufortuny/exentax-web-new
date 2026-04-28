@@ -85,10 +85,28 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
+<!-- exentax:lote20-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-de -->
+## Wie sich die zweite Runde der Mittelherkunftsprüfung als geordneter Vorgang statt als Krise lesen lässt
+
+Die zweite Runde der Mittelherkunftsprüfung liest sich ruhiger, wenn sie als geordneter Vorgang und nicht als Krise behandelt wird. Die Bank fordert in der zweiten Runde in der Regel nicht weniger, sondern besser strukturierte Belege: Verträge, Rechnungen, Kontoauszüge und eine kurze schriftliche Erläuterung der Bewegungen, alle aufeinander bezogen.
+
+Diese Lesart vermeidet, dass die Antwort hektisch zusammengestellt wird, und erhöht die Wahrscheinlichkeit, dass die Bank die Prüfung in dieser Runde abschliesst, ohne eine dritte zu öffnen.
+
+## Wie sich die zweite Runde dokumentarisch geordnet beantworten lässt
+
+Die geordnete Antwort auf die zweite Runde besteht aus einer kurzen Begleitnotiz, die jede Bewegung den entsprechenden Belegen zuordnet, und einem einzigen ZIP-Ordner mit den Dokumenten in der Reihenfolge der Notiz.
+<!-- /exentax:lote20-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
 Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich recent years bewegt; aktueller Stand:
+
+<!-- exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-de -->
+## Wie sich die zweite KYC-Runde der Bank als dokumentierte Prozedur statt als offene Bedrohung lesen lässt
+
+Die zweite KYC-Runde der Bank liest sich ruhiger als dokumentierte Prozedur — die Bank möchte das ergänzen, was zum Schließen der Akte fehlte — denn als offene Bedrohung der Beziehung. Eine kurze, datierte Notiz im Bankordner mit den übermittelten Unterlagen macht die zweite Runde schneller bearbeitbar.
+<!-- /exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-de -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
@@ -159,6 +177,112 @@ Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine
   Die deutschen und österreichischen Banken (Sparkassen, Volksbanken, Erste Bank, Raiffeisen) sind seit Inkrafttreten des **Geldwäschegesetzes 2017** verpflichtet, eine "verstärkte Sorgfaltspflicht" gegenüber komplexen internationalen Strukturen anzuwenden (§ 15 GwG). Dies bedeutet, dass die Erstdokumentation in Deutschland oft strenger ist als in den USA, was im Streitfall von Vorteil sein kann, weil die deutschen Belege bereits einem höheren Standard genügen.
 
   Eine bewährte Praxis ist, mit dem Steuerberater eine **schriftliche "Source of Funds Memo"** in englischer Sprache zu erstellen, die Einkommensentwicklung, Vermögensaufbau und alle Bankverbindungen der vergangenen drei Jahre zusammenfasst und vom Steuerberater unterzeichnet wird. Diese Memo beschleunigt fast alle KYC-Verfahren signifikant.
+
+<!-- exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+## Was eine zweite KYC-Runde wirklich prüft
+
+Eine zweite KYC-Runde ist selten die Bank, die persönlich an Ihnen
+zweifelt. Es ist ein periodischer Prozess des Compliance-Teams, der
+ausgelöst wird, wenn das Profil eines Kontos und seine tatsächlichen
+Bewegungen nicht mehr zusammenpassen: eine LLC, die mit dem
+deklarierten Zweck "Beratung, geringes Volumen" eröffnet wurde und
+nun Marktplatz-Auszahlungen empfängt, oder ein Mitglied, das als
+spanisch steuerlich ansässig gemeldet ist, dessen Kartenausgaben
+aber in einer anderen Jurisdiktion zentriert wirken. Die Bank
+aktualisiert ihr Modell des Kunden, und die angeforderten Unterlagen
+zielen darauf, zu bestätigen, dass dieses Modell weiterhin passt.
+
+Drei Familien decken die meisten Anfragen einer zweiten Runde ab:
+
+| Familie                  | Was die Bank wirklich will                            |
+|--------------------------|-------------------------------------------------------|
+| Mittelherkunft           | Woher das hereinkommende Geld tatsächlich stammt      |
+| Vermögensherkunft        | Wie das Mitglied das Vermögen aufgebaut hat, mit dem  |
+|                          | die LLC kapitalisiert wird                            |
+| Kontonutzung             | Was die LLC in den nächsten 12 Monaten konkret tut    |
+
+In diesen drei Familien gelesen wird die Antwort zu einem kurzen,
+strukturierten Papier statt zu einem Stapel zusammenhangloser Dateien.
+
+## Drei reale Fälle, die wir mit Mandanten begleitet haben
+
+Eine zweisprachige Designer-LLC erhielt eine Anfrage zweiter Runde
+nach einem Anstieg der EUR-Auszahlungen von einem Marktplatz. Die
+Bereinigung war eine einseitige Notiz, die den Marktplatz benannte,
+den typischen Länder-Mix der Kunden, die Auszahlungs-Kadenz und drei
+repräsentative Rechnungen. Keine neue Struktur, kein neues Konto,
+keine Aufregung. Das Compliance-Team markierte die Akte in weniger
+als zehn Geschäftstagen als vollständig.
+
+Eine Beratungs-LLC mit einem einzelnen grossen institutionellen
+Kunden erhielt einen Brief zweiter Runde in der Woche der ersten
+Rechnungsbegleichung. Die Antwort war eine Kopie des
+Rahmendienstleistungsvertrags, die zugehörige Überweisungsspur und
+eine kurze Notiz zur erwarteten quartalsweisen Fakturierung
+ähnlicher Grösse. Die Beziehung lief ohne Änderung weiter.
+
+Eine in Florida betriebene Dienstleistungs-LLC erhielt eine Anfrage
+nach einem grösseren internen Transfer zwischen Konten desselben
+Mitglieds. Wir haben diese Bewegung ausdrücklich als
+Mitgliederentnahme umtituliert, den entsprechenden Buchungseintrag
+beigefügt und eine vorausschauende Notiz zur künftigen Behandlung
+solcher Entnahmen ergänzt. Die Bank schloss die Anfrage, und der
+Mandant behielt seinen operativen Rhythmus.
+
+## Fehler, die eine ruhige Prüfung in eine hässliche verwandeln
+
+- PDFs ohne Anschreiben senden. Dokumente allein lesen sich als
+  Beweise für eine unausgesprochene These; Banken wollen erst die
+  These in einem Absatz, dann die Beweise.
+- Die LLC-Struktur von Grund auf neu erklären, wenn die Bank sie
+  bereits hat. Die Antwort an dem verankern, was sich seit dem
+  Onboarding geändert hat, nicht an dem, was schon vorliegt.
+- Persönliche und geschäftliche Unterlagen im selben Upload mischen.
+  Jeder Upload sollte ein straffes, benanntes Bündel sein.
+- Künftiges Verhalten versprechen und dann das Gegenteil tun. Banken
+  lesen die Akte erneut; Konsistenz verkürzt die nächste Prüfung.
+
+## Vorlage für ein einseitiges Mittelherkunfts-Papier
+
+- Hintergrund des Mitglieds: Nationalität, Steueransässigkeit,
+  beruflicher Werdegang (zwei Zeilen).
+- Zweck der LLC: deklarierte Tätigkeit, Länder-Mix der Kunden,
+  monatlicher erwarteter Umsatzbereich.
+- Kapitalisierung: wie die anfänglichen Mittel in die LLC kamen und
+  von wem.
+- Operativer Rhythmus: typische Eingangs- und Ausgangsmuster über
+  ein repräsentatives Quartal.
+- Vorausschauende Notiz: jede erwartete Veränderung in den nächsten
+  12 Monaten.
+
+Wir behandeln die zweite KYC-Runde als normales Hygiene-Ereignis,
+nicht als Bedrohung. Gut gemacht ist sie die einzige beste Stärkung
+der Bankhistorie der LLC und die billigste Versicherung gegen
+künftige Blockaden.
+
+<!-- /exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda -->
+
+<!-- exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-bis -->
+## Die zweite Runde als jährliches Ritual betrachten
+
+Wenn eine LLC zwei oder drei Jahre läuft, wird die zweite KYC-Runde
+weniger Ausnahme als planbares Ereignis. Wir empfehlen, sie wie eine
+jährliche steuerliche Pflicht zu behandeln: einen Termin im
+Kalender, ein vorbereiteter Ordner, eine kurze Aktualisierung des
+Mittelherkunfts-Papiers, die spiegelt, was sich in den letzten 12
+Monaten verändert hat. Mandanten, die so vorgehen, beantworten die
+nächste Anfrage in Stunden statt in Wochen, und das Compliance-Team
+der Bank merkt es; die Folgerunden werden leichter, nicht schwerer.
+
+<!-- /exentax:lote7-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Banking-Due-Diligence für Ihre US-LLC: was Banken prüfen, ruhig erklärt](/de/blog/banking-due-diligence-fur-ihre-us-llc-was-banken-prufen)
+- [AML-Compliance für Ihre LLC: was Sie wirklich wissen müssen](/de/blog/anti-geldwasche-compliance-fur-ihre-llc-was-sie-wissen)
+- [Traditionelle Banken vs Fintech für Ihre LLC: wo es wirklich Sinn ergibt zu eröffnen](/de/blog/traditionelle-banken-vs-fintech-fur-ihre-llc-wo-ihr-konto)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

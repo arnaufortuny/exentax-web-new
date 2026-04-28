@@ -160,7 +160,23 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
-At Exentax we structure the entity to fit the first scenario and document every step so your local return can be defended in case of review.<!-- exentax:execution-v2 -->
+At Exentax we structure the entity to fit the first scenario and document every step so your local return can be defended in case of review.
+
+## Common questions our DACH and LATAM clients ask first
+
+A holding is rarely the first structure a freelancer needs, but the questions that come up are remarkably consistent across countries. We answer the same five every week.
+
+**Does a holding pay less tax automatically?** No. A holding moves and protects flows; the tax saving comes from how operating subsidiaries are structured and where dividends land, not from the holding box itself. We always model the after-tax flow before recommending the step.
+
+**Can I migrate my existing LLC into a holding?** Yes, in most cases via a contribution of membership interests, with a clean Operating Agreement and a filed BOI update. The single-member to multi-member jump is the trickier moment, not the holding paperwork.
+
+**Does the holding need its own EIN, banking and Registered Agent?** Yes to the EIN and the Registered Agent. Mercury or Wise will onboard a holding only if the activity description is clear and the source of funds documented.
+
+**What about Form 5472 with several subsidiaries?** Each disregarded entity files its own 5472 plus pro-forma 1120; the holding files a consolidated reading on its own return when applicable. We coordinate the calendars so nothing falls between filings.
+
+**When is a holding overkill?** If yearly net profit stays below mid five figures USD and there is a single operating LLC, the holding adds cost without benefit. We say so honestly during the first call.
+
+<!-- exentax:execution-v2 -->
 ## Corporate holding: how it really works and when it saves you money (and when it does not)
 
 A holding is not an automatic tax trick: it is a corporate structure that centralises shareholdings to optimise intra-group dividends, capital gains on sale and succession planning. Well designed it saves real tax; poorly designed it only adds accounting. Here is what to know before setting one up.
@@ -183,6 +199,15 @@ At Exentax we model whether a holding actually saves you money in your specific 
 
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
+
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [From a single LLC to a holding structure: when, how, what it costs](/en/blog/from-a-single-llc-to-a-holding-structure-when-how-and-how)
+- [From single-member to multi-member LLC: real tax implications](/en/blog/from-single-member-to-multi-member-llc-real-tax-implications)
+- [LLC vs Corporation, S-corp vs C-corp: the practical guide](/en/blog/difference-llc-vs-corporation-s-corp-c-corp-guide)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

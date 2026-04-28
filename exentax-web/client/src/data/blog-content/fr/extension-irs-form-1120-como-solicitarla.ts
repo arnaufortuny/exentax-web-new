@@ -141,6 +141,14 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Rattraper une LLC avec BOI et 5472 en retard : procédure et priorités](/fr/blog/recuperer-une-llc-avec-boi-et-5472-en-retard-procedure)
+- [Si vous ne déposez pas le Form 5472 : sanctions IRS et comment corriger](/fr/blog/que-se-passe-t-il-si-vous-ne-deposez-pas-le-form-5472)
+- [Maintenance annuelle LLC : obligations que vous ne pouvez pas ignorer](/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

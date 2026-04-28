@@ -156,6 +156,14 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Form 5472: what it is, who must file it and how to comply](/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply)
+- [IRS Forms 1120 and 5472: what they are and when they apply to your LLC](/en/blog/irs-form-1120-and-5472-what-they-actually-are-and-when-they)
+- [EIN: what is your LLC's tax number and how to get it step by step](/en/blog/ein-tax-number-for-your-llc-how-to-get-it)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 

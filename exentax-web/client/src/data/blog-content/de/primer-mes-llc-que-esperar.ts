@@ -113,6 +113,18 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
+<!-- exentax:lote27-native-v1:primer-mes-llc-que-esperar-de -->
+## Wie sich der erste Monat der LLC als vorhersehbare Sequenz statt als Unsicherheitszeit lesen lässt
+
+Der erste Monat der LLC liest sich ruhiger als vorhersehbare Sequenz von Schritten — Erhalt des Gründungsdokuments, Eröffnung des Bankkontos, operative Einrichtung — denn als Unsicherheitszeit. Die Sequenz ändert sich nicht von einer Akte zur anderen, und eine kurze, datierte Notiz im LLC-Ordner mit jedem erreichten Schritt macht den Verlauf jederzeit nachlesbar.
+<!-- /exentax:lote27-native-v1:primer-mes-llc-que-esperar-de -->
+
+<!-- exentax:lote27-native-v1:primer-mes-llc-que-esperar-de-bis -->
+## Wie sich die Sequenz nach dem ersten Monat als pflegbares Dokument statt als abgeschlossener Schritt lesen lässt
+
+Die Sequenz nach dem ersten Monat liest sich nützlicher als pflegbares Dokument, das die erreichten Schritte und die noch ausstehenden Punkte mit jeweiligem Datum festhält, denn als abgeschlossener Schritt — und macht den Übergang zur regelmäßigen Betriebsphase zu einer geplanten Bewegung statt zu einer impliziten Annahme.
+<!-- /exentax:lote27-native-v1:primer-mes-llc-que-esperar-de-bis -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -126,6 +138,12 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
+<!-- exentax:lote19-native-v1:primer-mes-llc-que-esperar-de -->
+## Wie sich der erste Monat einer LLC ohne überhöhte Erwartungen lesen lässt
+
+Der erste Monat einer LLC liest sich am realistischsten, wenn er als Einrichtungs- und nicht als Skalierungsphase verstanden wird. In diesem Monat werden Konten eröffnet, Berechtigungen vergeben, die ersten wiederkehrenden Vorgänge eingerichtet und das interne Ablagesystem festgelegt. Erst danach beginnen die Wochen, in denen die Tätigkeit ihr endgültiges Tempo findet.
+<!-- /exentax:lote19-native-v1:primer-mes-llc-que-esperar-de -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
@@ -136,7 +154,13 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 -->
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+
+## Tag-30-Checkpoint: bin ich startbereit?
+
+Nach den ersten vier Wochen lohnt eine kurze Standortbestimmung mit fünf Fragen. Liegt die EIN als CP-575 oder 147C vor und ist sie sauber abgelegt? Ist das Mercury-Konto vollständig aktiviert und in Wise eine Empfangsadresse für USD eingerichtet? Ist die BOI-Erstmeldung mit aktuellen Pass- und Adressdaten geplant oder eingereicht? Liegt der Vertrag mit dem Registered Agent unterschrieben vor? Ist die erste echte Rechnung mit der LLC-Adresse versendet? Wer fünfmal Ja antwortet, kann den zweiten Monat ruhig angehen.
+
+<!-- exentax:execution-v2 -->
 ## Erster Monat mit Ihrer LLC: was Sie erwarten können (und nicht) in den ersten 30 Tagen
 
 Der erste Monat ist eine Mischung aus bürokratischem Warten und operativen Entscheidungen. Hier ist, was wirklich Woche für Woche passiert.
@@ -177,6 +201,28 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
   ### Erste 30 Tage einer US-LLC: DACH-spezifische Aufgaben
 
   Für deutsche, österreichische und schweizerische Gesellschafter kommen im ersten Monat zur US-Checkliste folgende **DACH-Pflichten** hinzu: (a) **Mitteilung nach §138 Abs. 2 Nr. 2 AO** beim deutschen Finanzamt innerhalb eines Monats nach Beteiligungserwerb (Frist beachten — §379 AO sanktioniert Verstöße mit bis zu €25.000); (b) **Eintragung im Transparenzregister nach §§19–20 GwG** (BGBl. I 2017 S. 1822) für die deutsche Holding-Ebene oder direkt für den wirtschaftlich Berechtigten; (c) **Anmeldung beim Bundeszentralamt für Steuern (BZSt)** für DAC6-Reporting bei grenzüberschreitenden Steuergestaltungen; (d) in **Österreich** Eintragung im **WiEReG (BGBl. I Nr. 136/2017)**; (e) in der **Schweiz** Eintragung der wirtschaftlich Berechtigten im **GwG-Register** nach Art. 4 GwG SR 955.0.
+
+<!-- exentax:lote14-native-v1:primer-mes-llc-que-esperar -->
+## Wie der erste Monat einer neuen LLC ruhig verläuft
+
+Der erste Monat einer neuen LLC besteht aus drei einfachen
+Teilen: die Gründungsdokumente sicher ablegen, das Banken-Setup
+abschliessen, und die Buchhaltungsroutine etablieren.
+<!-- /exentax:lote14-native-v1:primer-mes-llc-que-esperar -->
+
+<!-- exentax:lote19-native-v1:primer-mes-llc-que-esperar-de-bis -->
+## Wie sich die Erwartungen für den ersten Monat schriftlich verankern lassen
+
+Die Erwartungen für den ersten Monat lassen sich am ehrlichsten verankern, wenn sie in einer kurzen Notiz festgehalten werden, die die geplanten Einrichtungsschritte auflistet, ohne ihnen Skalierungsergebnisse zuzuordnen. Diese Notiz dient als Vergleich am Ende des Monats und vermeidet die spätere Enttäuschung.
+<!-- /exentax:lote19-native-v1:primer-mes-llc-que-esperar-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Ihre US-LLC Schritt für Schritt gründen: der komplette Leitfaden](/de/blog/us-llc-schritt-fur-schritt-grunden-vollstandiger)
+- [Ihre LLC im Alltag betreiben: praktischer Leitfaden für Nicht-Residenten](/de/blog/llc-im-alltag-betreiben-leitfaden-fur-nicht-residenten)
+- [Jährliche LLC-Pflege: die Pflichten, die Sie nicht ignorieren dürfen](/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Gründung, EIN, BOI, Banking und laufender Betrieb — ein Team, das Ihren Fall von Anfang bis Ende versteht. <a href="/de/leistungen">Alle Leistungen ansehen</a>.

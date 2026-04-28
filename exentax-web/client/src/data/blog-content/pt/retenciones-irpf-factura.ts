@@ -151,6 +151,34 @@ Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">p�
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:lote6-native-v1:retenciones-irpf-factura -->
+### Como a taxa reduzida de 7% termina na prática
+
+A taxa de 7% para novos autónomos profissionais aplica-se durante o ano de inscrição e os dois anos civis seguintes, e termina automaticamente; na nossa prática, o erro operativo mais comum é não actualizar a percentagem nas facturas em Janeiro do terceiro ano seguinte, mantendo 7% retidos quando já deveria aplicar-se 15%. A detecção vem habitualmente do cliente (que declara um código diferente no seu Modelo 111) e desencadeia uma factura rectificativa pelo montante em falta. Para evitar isso, marcamos um lembrete de calendário na data exacta da mudança, acordado por escrito com o cliente no início do ano, e mantemos ambos os modelos de factura prontos na ferramenta de facturação para que a alteração seja um único clique. Recomendamos também reconciliar trimestralmente o Modelo 130 acumulado com as facturas emitidas, porque um desvio de retenção só se torna um problema real de tesouraria quando se acumula durante quatro trimestres sem ser detectado.
+
+### Três padrões de facturação que vemos todos os trimestres
+
+O primeiro padrão é o freelancer que factura uma sociedade espanhola por serviços profissionais sem incluir a linha de retenção, porque o cliente não a solicitou; é um erro processual que a AEAT reconciliará no fim do ano através do resumo Modelo 190 e que habitualmente desencadeia uma factura rectificativa. O segundo padrão é o freelancer que factura um cliente estrangeiro e aplica retenção por reflexo, quando ela não se aplica (o cliente estrangeiro não pode apresentar um Modelo 111 espanhol). O terceiro padrão é o freelancer com carteira mista (sociedades espanholas mais clientes estrangeiros) que aplica o mesmo modelo a todos, misturando ambos os erros. A abordagem limpa nos três casos consiste em definir o modelo de factura por tipo de cliente no início do trabalho, manter dois modelos disponíveis e verificar a primeira factura com a equipa contabilística do cliente antes de emitir o resto do trimestre.
+<!-- /exentax:lote6-native-v1:retenciones-irpf-factura -->
+
+<!-- exentax:lote6-native-v1-ter:retenciones-irpf-factura -->
+### Mecânica do Modelo 130 para um trimestre recorrente típico
+
+O Modelo 130 é o adiantamento trimestral de IRPF para autónomos em estimativa directa, e a sua aritmética é simples: 20% do rendimento líquido (receitas menos despesas dedutíveis) do trimestre, menos a retenção de IRPF já aplicada sobre as facturas do trimestre, é igual ao montante a pagar. Num trimestre em que a maioria das facturas foi emitida a sociedades espanholas (com 15% retidos na fonte) e o autónomo manteve o seu perfil de despesa normal, o resultado do Modelo 130 é tipicamente modesto, por vezes nulo. Num trimestre em que a maioria das facturas foi emitida a clientes estrangeiros (sem retenção), o resultado do Modelo 130 é mais substancial porque o adiantamento completo de 20% cai sobre esta apresentação trimestral. O erro operativo mais frequente que vemos é o dos autónomos que saltam o Modelo 130 em trimestres modestos porque "não há nada a pagar", esquecendo que o modelo tem de ser apresentado mesmo com resultado zero; a AEAT trata a ausência de apresentação como incumprimento. A abordagem limpa consiste em apresentar o Modelo 130 todos os trimestres a tempo, sempre, mesmo a zero, e em manter o recibo no kit documental de fim de ano.
+
+### Por que razão a retenção certa desde o primeiro dia evita stress de fim de ano
+
+Quando o freelancer aplica a taxa correcta de retenção de IRPF em cada factura desde Janeiro, a reconciliação de fim de ano é essencialmente neutra: os montantes retidos mais os adiantamentos trimestrais do Modelo 130 estão muito próximos do IRPF anual devido, e a declaração de IRPF ou paga uma pequena diferença ou devolve um pequeno montante. Quando o freelancer aplicou a taxa errada (habitualmente 7% mantidos para além da sua expiração, ou 0% para um cliente espanhol que deveria ter tido 15%), a declaração anual revela a diferença como um pagamento à vista real em Maio ou Junho, por vezes substancial o suficiente para perturbar o planeamento de meio de ano. Temos uma regra simples que partilhamos com os clientes no primeiro mês de cada ano: verificar a taxa aplicável face à data de entrada no registo de autónomo, acordar a taxa por escrito com cada cliente espanhol no início do ano, e manter ambos os modelos de factura disponíveis para que a comutação de taxa (quando finalmente se aplica) não seja atrasada por trabalho de modelos. A leveza profissional da declaração de IRPF em Maio depende quase inteiramente do que foi montado em Janeiro.
+<!-- /exentax:lote6-native-v1-ter:retenciones-irpf-factura -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Escalões do IRPF 2026 em Espanha explicados sem ruído](/pt/blog/escaloes-irpf-2026-explicacao-espanha)
+- [Despesas dedutíveis para freelancers em Espanha em 2026: guia claro](/pt/blog/despesas-dedutiveis-autonomo-espanha-2026)
+- [Módulos vs estimativa direta em 2026: que regime se adapta ao seu caso](/pt/blog/modulos-vs-estimativa-direta-espanha-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->

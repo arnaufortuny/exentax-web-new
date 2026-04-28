@@ -67,6 +67,18 @@ En atterrissant sur les décisions concrètes que nous prenons chaque semaine av
 - **L'État de constitution compte pour des raisons opérationnelles, pas fiscales**. Wyoming et Nouveau-Mexique restent gagnants pour les profils freelance et services ; Delaware reste gagnant pour SaaS visant la levée de fonds ou pour des holdings ; la Floride convient aux résidents avec présence physique aux USA. Aucune décision ne dépend du CRS, toutes dépendent de comment votre activité et votre banque s'articulent avec la juridiction.
 - **Résidence fiscale du titulaire comme variable maîtresse**. La résidence ne se choisit pas, elle se constate (jours de présence, centre des intérêts économiques, foyer familial). Tenter de masquer la résidence réelle à l'abri de l'asymétrie FATCA-CRS est, au-delà d'une erreur technique, une infraction qualifiée dans la plupart des juridictions européennes et latino-américaines, avec des sanctions sévères.
 
+<!-- exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-fr -->
+## Pourquoi la position américaine sur CRS est structurelle plutôt que politique
+
+La raison pour laquelle les États-Unis n'ont pas rejoint CRS est structurelle, et non une question d'humeur politique susceptible de changer d'une administration à l'autre. Les États-Unis disposent déjà de leur propre régime d'information via FATCA et d'une infrastructure déclarative interne bâtie autour des mêmes identifiants que ceux utilisés par l'IRS. Adhérer à un échange multilatéral parallèle dupliquerait le travail sans ajouter de visibilité côté américain.
+<!-- /exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-fr -->
+
+<!-- exentax:lote34-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-fr -->
+## Comment lire la couverture de CRS 2.0 et de CARF comme une cartographie juridictionnelle stable plutôt que comme une cible mouvante
+
+La couverture de CRS 2.0 et de CARF se lit plus utilement comme une cartographie juridictionnelle stable entre le pays de l'institution financière, le pays de résidence du bénéficiaire et le cadre qui s'applique entre les deux, plutôt que comme une cible mouvante.
+<!-- /exentax:lote34-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -143,6 +155,14 @@ Ou écrivez-nous sur <a href="https://wa.me/34614916910">WhatsApp au +34 614 916
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [CRS et vos comptes bancaires LLC : ce qui est partagé avec votre pays de résidence](/fr/blog/crs-et-vos-comptes-bancaires-llc-ce-qui-est-partage-avec)
+- [DAC8 et cryptomonnaies : le nouveau reporting fiscal automatique en 2026](/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal)
+- [IBAN Wise avec votre LLC : ce qui est réellement déclaré au fisc](/fr/blog/wise-iban-et-llc-ce-qui-est-vraiment-declare-au-fisc)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.

@@ -69,6 +69,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
 
+<!-- exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-ca -->
+## Per què un historial documentat pesa més que una fotografia actual
+
+Un historial documentat de la separació entre fons personals i fons de la LLC pesa més, davant d'un tercer, que una fotografia presa a la data d'avui. La raó és simple: la fotografia mostra l'estat actual però no diu res sobre la coherència en el temps, mentre que l'historial respon precisament a la pregunta que qualsevol revisió o litigi planteja: la pràctica ha estat constant des de la constitució. Un fitxer que cobreix diversos anys amb la mateixa estructura de comptes, les mateixes categories de moviments i les mateixes contraparts identificades fa que aquesta pregunta sigui gairebé retòrica.
+<!-- /exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
@@ -80,24 +86,29 @@ Les obligacions davant la <a href="https://www.fincen.gov" target="_blank" rel="
 - **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
-## Com ho abordem a Exentax
 
-Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.
-### Propers passos
+<!-- exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-ca -->
+## Com llegir la documentació de la separació de fons com un mapatge anual estable
 
-Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
+La documentació de la separació de fons de la LLC es llegeix de manera més útil com un mapatge anual estable entre el compte bancari de la LLC, el compte personal del beneficiari i els moviments datats entre els dos, en lloc d'una tasca recurrent. Una nota curta i datada al dossier de la LLC amb la data de tall i el saldo de tancament de cada banda fa la separació defensable en pocs minuts.
+<!-- /exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-ca -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
-## Fets bancaris i fiscals que convé precisar
+<!-- exentax:legal-refs-v1 -->
+## Referències: normativa aplicable a la gestió operativa
 
-Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.
+L'operativa descrita es recolza en les obligacions formals i bones pràctiques actualment vigents:
 
-## Fets jurídics i de procediment
+- **Estats Units.** Treas. Reg. §301.7701-3 (classificació *check-the-box* de la LLC), IRC §6038A i Treas. Reg. §1.6038A-2 (Form 5472, sanció base de 25.000 USD per incompliment), 31 U.S.C. §5336 i FinCEN Reporting Rule sobre el BOI Report.
+- **Espanya / Catalunya.** Llei 35/2006 LIRPF (art. 100 sobre transparència fiscal internacional), Llei 27/2014 LIS (art. 100 CFC), Llei 58/2003 LGT (arts. 15 i 16 sobre conflicte i simulació, arts. 191-194 sobre sancions), RD 1065/2007 (Model 232 sobre operacions vinculades i Model 720), Ordre HFP/887/2023 (Model 721 sobre criptoactius), art. 30 del Codi de Comerç (conservació de llibres comptables 6 anys), art. 305 CP (delicte fiscal a partir de 120.000 €).
+- **Andorra.** Llei 95/2010 de l'Impost sobre Societats, art. 32 del Codi de Comerç andorrà (6 anys de conservació), Llei 14/2017 de prevenció del blanqueig (CDD reforçada per a transferències superiors a 15.000 €).
+- **Bones pràctiques comptables.** Recomanacions de l'AICPA per a LLCs amb activitat internacional i guia IRS Publication 583 (Starting a Business and Keeping Records).
+- **Banca i traçabilitat.** Termes generals de Mercury, Relay i Wise Business; obligacions KYC del Bank Secrecy Act (31 CFR Part 1010) i de la Directiva (UE) 2015/849, transposada a Espanya per la Llei 10/2010.
 
-El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
+<!-- /exentax:legal-refs-v1 -->
 
 <!-- exentax:execution-v2 -->
 ## Com construir un historial de separació que aguanti una revisió
@@ -143,6 +154,30 @@ Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple,
   **Sancions per confusió patrimonial:** la falta de documentació permet a l'AEAT aplicar el **conflicte en l'aplicació de la norma (art. 15 LGT)** o la **simulació (art. 16 LGT)**, amb sancions del 50-150 % de la quota defraudada nos termes dels **arts. 191-194 LGT**. En casos greus, s'aplica el **delicte fiscal de l'art. 305 CP** amb pena de presó d'1 a 5 anys per quotes superiors a €120.000.
 
   **Andorra:** per a residents fiscals andorrans, la **Llei 95/2010 de l'Impost sobre Societats** preveu obligacions de documentació anàlogues. Els llibres comptables han de conservar-se durant **6 anys** segons l'**art. 32 del Codi de Comerç andorrà**. La **Llei 14/2017 de prevenció del blanqueament** imposa CDD reforçada per a transferències superiors a **€15.000**, amb obligació de documentar la font de fons (Source-of-Funds) per a operacions amb estructures internacionals.
+
+<!-- exentax:lote9-native-v1:documentar-separacion-fondos-llc-historial -->
+## Una nota final
+
+L'historial documentat de la separació de fons és el que
+converteix la LLC en una estructura defensable davant qualsevol
+control. La rutina mensual val més que qualsevol intervenció
+puntual a fi d'any.
+
+<!-- /exentax:lote9-native-v1:documentar-separacion-fondos-llc-historial -->
+
+<!-- exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-ca-bis -->
+## Per què conservar els últims tres anys en un sol lloc sol bastar
+
+A la pràctica, conservar els últims tres anys en una sola carpeta digital amb la mateixa arborescència basta àmpliament per cobrir les qüestions habituals d'una revisió o d'una sol·licitud administrativa. Aquesta finestra permet veure tendència sense dispersar la informació en múltiples col·leccions separades.
+<!-- /exentax:lote16-native-v1:documentar-separacion-fondos-llc-historial-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+### Per continuar la lectura
+
+- [Separar diners personals i de la LLC: per què és important](/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important)
+- [Bookkeeping per a la teva LLC americana pas a pas](/ca/blog/bookkeeping-per-a-la-teva-llc-americana-pas-a-pas)
+- [Errors crítics si ja tens una LLC i ningú t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

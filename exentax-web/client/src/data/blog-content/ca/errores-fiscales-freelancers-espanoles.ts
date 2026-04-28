@@ -158,6 +158,12 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote34-native-v1:errores-fiscales-freelancers-espanoles-ca -->
+## Com llegir la qüestió dels errors fiscals dels freelancers espanyols com una checklist anual estable en lloc d'incidents aïllats
+
+La qüestió dels errors fiscals dels freelancers espanyols es llegeix de manera més útil com una checklist anual estable — llibres tancats per trimestre, despeses ben classificades, declaracions a termini, rendiments estrangers documentats — en lloc d'incidents aïllats.
+<!-- /exentax:lote34-native-v1:errores-fiscales-freelancers-espanoles-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -207,6 +213,14 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 ### Recordatori pràctic
 
 Cada situació fiscal depèn de la teva residència, de l'activitat exercida i dels contractes en vigor. La informació aquí presentada és general i no substitueix l'assessorament personalitzat; analitza el teu cas concret abans de prendre decisions estructurals.
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Despeses deduïbles per a freelancers espanyols el 2026: guia clara](/ca/blog/despeses-deduibles-autonoms-2026)
+- [Retencions d'IRPF a les factures espanyoles: com funciona a la pràctica](/ca/blog/retencions-irpf-a-la-factura-explicacio)
+- [Autònom a Espanya vs LLC americana: una comparació que t'ajuda de debò](/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

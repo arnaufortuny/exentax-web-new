@@ -93,6 +93,28 @@ Der Mieter (Autónomo oder Unternehmen) reicht das vierteljährliche Formular 11
 
 **Weiß die Steuerbehörde, was mir einbehalten wurde?** Ja. Jeder Kunde meldet die Quellensteuern auf vierteljährlichem Formular 111 mit Ihrer NIF. Vor Einreichung Ihrer Jahreserklärung laden Sie die Steuerdaten am AEAT-Sitz herunter und gleichen mit Ihren eigenen Aufzeichnungen ab: Bei Differenzen verlangen Sie die Korrektur des Kunden vor dem 30. Juni.
 
+<!-- exentax:lote24-native-v1:retenciones-irpf-factura-de -->
+## Wie sich die IRPF-Quellensteuer auf Rechnungen als stabile Mappingfrage statt als wiederkehrende Suche lesen lässt
+
+Die IRPF-Quellensteuer auf Rechnungen liest sich nützlicher, wenn sie als stabile Mappingfrage und nicht als wiederkehrende Suche nach neuen Sätzen behandelt wird. Die wirklich anwendbaren Sätze hängen vom Typ des Empfängers, der Eigenschaft des Lieferanten und dem Vorliegen besonderer Umstände (Beginn der Tätigkeit, bestimmte Berufsgruppen) ab — und diese drei Variablen ändern sich von Jahr zu Jahr selten genug, um das einmalige Festhalten der Antwort pro Empfängertyp zu rechtfertigen.
+
+## Wie sich die Antworten pro Empfängertyp in einer kurzen Tabelle pflegen lassen
+
+Die Antworten pro Empfängertyp pflegen sich in einer kurzen, datierten Tabelle, die einmal eingerichtet und einmal jährlich überprüft wird.
+<!-- /exentax:lote24-native-v1:retenciones-irpf-factura-de -->
+
+<!-- exentax:lote28-native-v1:retenciones-irpf-factura-de -->
+## Wie sich IRPF-Einbehalte auf der Rechnung als stabiles jährliches Mapping statt als wiederkehrende Debatte lesen lassen
+
+IRPF-Einbehalte auf der Rechnung lesen sich nützlicher als stabiles jährliches Mapping zwischen dem Aktivitätstyp, dem Zahlertyp und dem entsprechenden Einbehaltssatz denn als wiederkehrende Debatte. Das Mapping ändert sich nicht von Monat zu Monat, und eine kurze Notiz im Kundenordner mit dem gewählten Satz und einem Quellenverweis macht die Position in wenigen Minuten nachlesbar.
+<!-- /exentax:lote28-native-v1:retenciones-irpf-factura-de -->
+
+<!-- exentax:lote28-native-v1-bis:retenciones-irpf-factura-de -->
+## Warum die Notiz auf das Steuerjahr und nicht auf die einzelne Rechnung bezogen sein sollte
+
+Die Notiz bezieht sich auf das Steuerjahr und nicht auf die einzelne Rechnung — der gewählte Einbehaltssatz hängt vom Aktivitätstyp und vom Zahlertyp ab, und diese Achsen ändern sich nicht zwischen zwei Rechnungen desselben Kunden im selben Jahr, weshalb eine Jahresnotiz die korrekte Granularität trifft.
+<!-- /exentax:lote28-native-v1-bis:retenciones-irpf-factura-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -150,6 +172,40 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote6-native-v1:retenciones-irpf-factura -->
+### Wie der reduzierte Satz von 7% in der Praxis endet
+
+Der Satz von 7% für neu gemeldete professionelle Autónomos gilt im Jahr der Anmeldung und den beiden folgenden Kalenderjahren und endet automatisch; in unserer Praxis ist der häufigste operative Fehler, den Prozentsatz auf Rechnungen im Januar des dritten Folgejahres nicht zu aktualisieren, sodass weiterhin 7% einbehalten werden, obwohl bereits 15% gelten müssten. Die Erkennung erfolgt meist über den Kunden (der einen abweichenden Code in seinem Modelo 111 meldet) und führt zur Anforderung einer Korrekturrechnung über den fehlenden Betrag. Um das zu vermeiden, setzen wir eine Kalendererinnerung auf das genaue Umschaltdatum, schriftlich mit der Mandantin zu Jahresbeginn vereinbart, und halten beide Rechnungsvorlagen im Buchhaltungstool bereit, damit der Wechsel ein einziger Klick ist. Wir empfehlen außerdem, das laufende Modelo 130 quartalsweise mit den ausgestellten Rechnungen abzugleichen, denn eine Quellensteuerabweichung wird erst dann zum echten Liquiditätsproblem, wenn sie sich über vier Quartale unentdeckt aufbaut.
+
+### Drei Rechnungsmuster, die wir jedes Quartal sehen
+
+Das erste Muster ist der Freelancer, der einer spanischen Gesellschaft für professionelle Dienstleistungen Rechnungen ohne Quellensteuerzeile stellt, weil der Kunde sie nicht angefordert hat; das ist ein Verfahrensfehler, den die AEAT zum Jahresende über die Modelo-190-Zusammenfassung abgleicht und der typischerweise eine Korrekturrechnung auslöst. Das zweite Muster ist der Freelancer, der einer ausländischen Kundin Rechnung stellt und die Quellensteuer reflexhaft anwendet, obwohl sie überhaupt nicht greift (die ausländische Kundin kann kein spanisches Modelo 111 einreichen). Das dritte Muster ist der Freelancer mit gemischtem Portfolio (spanische Gesellschaften plus ausländische Kunden), der dieselbe Vorlage auf alle anwendet und beide Fehler mischt. Der saubere Ansatz in allen drei Fällen besteht darin, die Rechnungsvorlage zu Beginn des Mandats nach Kundentyp zu definieren, zwei Vorlagen verfügbar zu halten und die erste Rechnung mit dem Buchhaltungsteam des Kunden zu verifizieren, bevor der Rest des Quartals ausgestellt wird.
+<!-- /exentax:lote6-native-v1:retenciones-irpf-factura -->
+
+<!-- exentax:lote6-native-v1-ter:retenciones-irpf-factura -->
+### Mechanik des Modelo 130 für ein typisches wiederkehrendes Quartal
+
+Das Modelo 130 ist die quartalsweise IRPF-Vorauszahlung für Autónomos in direkter Schätzung, und seine Arithmetik ist einfach: 20% des Nettoeinkommens (Einnahmen minus absetzbare Ausgaben) des Quartals, abzüglich der bereits auf den Quartalsrechnungen einbehaltenen IRPF-Quellensteuer, ergibt den zu zahlenden Betrag. In einem Quartal, in dem die meisten Rechnungen an spanische Gesellschaften ausgestellt wurden (mit 15% an der Quelle einbehalten) und die Autónoma ihr normales Ausgabenprofil gehalten hat, ist das Modelo-130-Ergebnis typischerweise bescheiden, manchmal null. In einem Quartal, in dem die meisten Rechnungen an ausländische Kunden ausgestellt wurden (ohne Quellensteuer), ist das Modelo-130-Ergebnis substantieller, weil die volle 20%-Vorauszahlung auf diese Quartalseinreichung fällt. Der häufigste operative Fehler, den wir sehen, ist, dass Autónomos das Modelo 130 in bescheidenen Quartalen überspringen, weil "es nichts zu zahlen gibt", und vergessen, dass das Formular auch bei Null-Ergebnis eingereicht werden muss; die AEAT behandelt die fehlende Einreichung als Nichteinhaltung. Der saubere Ansatz besteht darin, das Modelo 130 jedes Quartal pünktlich einzureichen, immer, auch bei Null, und die Quittung im Jahresend-Dokumentationskit zu behalten.
+
+### Warum die richtige Quellensteuer ab Tag eins Jahresend-Stress verhindert
+
+Wenn die freiberufliche Person den richtigen IRPF-Quellensteuersatz auf jeder Rechnung ab Januar anwendet, ist die Jahresend-Abstimmung im Wesentlichen neutral: Die einbehaltenen Beträge plus die Modelo-130-Vorauszahlungen liegen sehr nahe am jährlich geschuldeten IRPF, und die IRPF-Erklärung zahlt entweder eine kleine Nachzahlung oder erstattet einen kleinen Betrag. Wenn die freiberufliche Person den falschen Satz angewandt hat (häufig 7% über das Ablaufdatum hinaus beibehalten, oder 0% für eine spanische Kundin, die 15% hätte haben sollen), zeigt die Jahreserklärung die Lücke als reale Cash-Zahlung im Mai oder Juni, manchmal substantiell genug, um die Mitte-Jahres-Planung zu stören. Wir haben eine einfache Regel, die wir mit Mandant:innen im ersten Monat jedes Jahres teilen: den anwendbaren Satz gegen das Eintragungsdatum im Autónomo-Register prüfen, den Satz schriftlich mit jeder spanischen Mandantin zu Jahresbeginn vereinbaren und beide Rechnungsvorlagen verfügbar halten, damit der Satzwechsel (wenn er irgendwann greift) nicht durch Vorlagen-Arbeit verzögert wird. Die professionelle Leichtigkeit der IRPF-Erklärung im Mai hängt fast vollständig davon ab, was im Januar eingerichtet wurde.
+<!-- /exentax:lote6-native-v1-ter:retenciones-irpf-factura -->
+
+<!-- exentax:lote6-native-v1-quat:retenciones-irpf-factura -->
+### Eine Praxis-Notiz zum Modelo 130 in einem Übergangsquartal
+
+Ein Übergangsquartal ist ein Quartal, in dem die Kundenstruktur wechselt: zum Beispiel von einer Mehrheit spanischer Kunden mit Quellensteuer zu einer Mehrheit ausländischer Kunden ohne Quellensteuer, oder umgekehrt. In einem solchen Quartal ist das Modelo-130-Ergebnis unproportional zum Vorquartal, was häufig zu Verwechslung führt. In unserer Praxis empfehlen wir, in einem Übergangsquartal die Berechnung manuell mit der Mandantin durchzugehen, das Ergebnis zu prüfen und einen Liquiditätspuffer für die Zahlung bereitzuhalten, bevor die Frist eintrifft. Der häufige Fehler ist, das Modelo 130 mechanisch nach der Vorlage des Vorquartals zu erstellen und das veränderte Profil zu übersehen, was eine Unterzahlung mit anschließender Berichtigung erzeugt. Eine fünfminütige manuelle Prüfung im Übergangsquartal vermeidet die Berichtigung im darauffolgenden.
+<!-- /exentax:lote6-native-v1-quat:retenciones-irpf-factura -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Spaniens IRPF-Tarifstufen 2026 ohne Lärm erklärt](/de/blog/irpf-tarifstufen-2026-spanien-erklart)
+- [Absetzbare Ausgaben für spanische Freelancer 2026: klarer Leitfaden](/de/blog/absetzbare-ausgaben-autonomo-spanien-2026)
+- [Modulos vs direkte Schätzung 2026: welches Regime zu Ihnen passt](/de/blog/modulos-vs-direkte-schatzung-spanien-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.

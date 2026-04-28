@@ -150,6 +150,18 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
+<!-- exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-ca -->
+## Com llegir la checklist de gestió d'una LLC com un mapa anual estable en lloc d'una llista esporàdica
+
+La checklist de gestió d'una LLC es llegeix de manera més útil com un mapa anual estable entre les obligacions recurrents (Form 5472, BOI, renovació del Registered Agent), els documents recurrents (Operating Agreement, separació de fons, comptabilitat bàsica) i les dates en què cadascun és degut, en lloc d'una llista esporàdica de tasques. El mapa no canvia d'any en any — només les dates es desplacen.
+<!-- /exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-ca -->
+
+<!-- exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-ca -->
+## Per què la nota s'organitza per obligació recurrent i no per mes de l'any
+
+La nota s'organitza per obligació recurrent i no per mes de l'any, perquè les obligacions es mantenen iguals d'un cicle al següent mentre les seves dates es desplacen, i aquesta visió manté el mapa reutilitzable d'un cicle al següent.
+<!-- /exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -181,6 +193,12 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-ca -->
+## Com convertir la configuració inicial en un ritme anual sostenible
+
+Una checklist funciona millor quan deixa de llegir-se com a llista i comença a llegir-se com a calendari. La configuració d'una LLC és el primer cicle, però els cicles següents són els que determinen si l'estructura continua sent lleugera d'operar o comença a acumular fricció silenciosa.
+<!-- /exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -235,6 +253,14 @@ Tenir LLC és tenir calendari; sense calendari, tard o d'hora cauen 5472 o BOI. 
 
 Si vols portar la teva LLC amb aquesta checklist o que l'operem per tu, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+- [Documentar la separació de fons en la teva LLC: procediment real](/ca/blog/documentar-be-la-separacio-de-fons-en-la-teva-llc-amb)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

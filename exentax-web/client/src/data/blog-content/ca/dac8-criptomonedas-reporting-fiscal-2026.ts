@@ -97,9 +97,101 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 
   Per a residents a **Andorra**, el panorama és diferent: el **Departament de Tributs i de Fronteres** no participa en l'intercanvi automàtic CRS sobre criptoactius en règim DAC 8 perquè Andorra no és Estat membre de la UE, però sí participa en el **Common Reporting Standard ampliat (CARF)** signat per Andorra el 10 de novembre de 2023. L'aplicació del CARF a Andorra es preveu per al **període impositiu 2027** (informació rebuda el 2028), segons les comunicacions oficials del Govern d'Andorra.
 
+<!-- exentax:lote34-native-v1:dac8-criptomonedas-reporting-fiscal-2026-ca -->
+## Com llegir l'abast del DAC8 com un mapatge entre operador de criptoactius i país de residència
+
+L'abast del DAC8 es llegeix com un mapatge estable entre l'operador, el país i el marc aplicable.
+<!-- /exentax:lote34-native-v1:dac8-criptomonedas-reporting-fiscal-2026-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
+
+<!-- exentax:lote7-native-v1:dac8-criptomonedas-reporting-fiscal-2026 -->
+## Què canvia realment la DAC8 per a tenidors de cripto a la UE
+
+La DAC8 amplia el règim d'intercanvi automàtic d'informació de la
+UE als prestadors de serveis sobre cripto-actius. Des del punt de
+vista del tenidor, el canvi pràctic és que el mateix tipus de
+resums ja intercanviats per a comptes bancaris (CRS) passa a ser
+produït per plataformes cripto reportables sobre els seus
+usuaris residents a la UE. Les plataformes identifiquen els
+usuaris, classifiquen els actius, i envien un cop l'any un registre
+definit a l'autoritat fiscal de l'usuari.
+
+| Camp reportat sota DAC8 (típic)          | Què veu l'autoritat fiscal             |
+|------------------------------------------|----------------------------------------|
+| Identitat de l'usuari                    | Nom, residència, NIF                   |
+| Proveïments bruts agregats               | Suma anual, per actiu quan aplica      |
+| Adquisicions brutes agregades            | Suma anual, per actiu quan aplica      |
+| Posicions a final d'any                  | Instantània, quan la plataforma té la  |
+|                                          | custòdia                               |
+
+Això vol dir que l'aparellament dels agregats reportats per la
+plataforma amb la declaració anual del tenidor passa a ser la base
+de qualsevol pla de compliance cripto en l'era DAC8. Si tots dos
+reconcilien, el report és de nou un no-event.
+
+## Tres patrons reals de reconciliació
+
+Un tenidor que feia servir una única plataforma UE regulada per a
+trading spot va tenir un any net perquè el report anual de la
+plataforma reflectia l'historial de trades exportat cada gener, i
+alimentava directament la declaració al país de residència. El
+registre DAC8 va arribar com s'esperava i va coincidir.
+
+Un usuari amb una mescla de plataformes UE i no-UE va produir un
+llibre mestre que consolidava tots els llocs, i després mapava cada
+línia a la seva font. La part reportada per DAC8 era una llesca del
+mestre; la resta era autodeclarada amb el mateix rigor. L'autoritat
+de residència va veure un únic número coherent.
+
+Un tenidor de llarg termini amb custòdia en plataforma UE regulada
+i una petita cua en DeFi va mantenir la cua DeFi com a secció
+documentada a part. La DAC8 va captar la part regulada; la secció
+DeFi tenia el seu propi paper (adreces de carteres, proves de
+transacció, metodologia de valoració) a punt per presentar si
+demanat.
+
+## Errors a evitar en el nou règim
+
+- Ignorar la petició d'actualització de dades d'usuari de la
+  plataforma. Si la teva residència fiscal a la plataforma està
+  desactualitzada, el report anirà al país equivocat.
+- Tractar "la plataforma reporta" com a "no he de declarar". El
+  contrari és cert: declarar, i deixar que el report de la
+  plataforma s'alineï.
+- Barrejar cripto personal i cripto en mans de la LLC. La cripto en
+  mans de la LLC seu en un silo de reporte diferent del personal;
+  barrejar-les causa reconciliacions doloroses.
+- Ignorar la base de cost. La DAC8 reporta fluxos bruts; la
+  declaració al país de residència necessita la base per calcular el
+  resultat imposable.
+
+## Checklist anual de reconciliació
+
+- Refrescar dades d'usuari a cada plataforma al gener.
+- Estirar els reports anuals tan aviat com estiguin disponibles.
+- Reconciliar totals de plataforma amb el teu llibre mestre, per
+  actiu.
+- Confirmar que la metodologia de base de cost és consistent any
+  rere any.
+- Guardar proves per a qualsevol posició fora de la DAC8
+  (carteres, validadors, etc.).
+
+Tractem la DAC8 com un simplificador estructural, no com una
+complicació. Quan la rutina és al lloc, la feina de final d'any
+s'encongeix, no creix.
+
+<!-- /exentax:lote7-native-v1:dac8-criptomonedas-reporting-fiscal-2026 -->
+
+<!-- exentax:cross-refs-v1 -->
+### Per continuar la lectura
+
+- [CRS 2.0 i CARF: per què els EUA no signaran mai — impacte sobre la LLC](/ca/blog/crs-2-0-carf-per-que-els-eua-no-signaran-mai-llc)
+- [CRS per a residents a Espanya i Llatinoamèrica: implicacions reals](/ca/blog/crs-per-a-residents-a-espanya-i-llatinoamerica-implicacions)
+- [Exit tax Espanya, LLC, cripto i Interactive Brokers](/ca/blog/exit-tax-espanya-llc-cripto-interactive-brokers)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

@@ -138,6 +138,18 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
+<!-- exentax:lote35-native-v1:empresa-bulgaria-10-tributacion-de -->
+## Wie sich die Frage einer bulgarischen Gesellschaft als stabile strukturelle Lesart statt als isolierte Steuersatz­zahl lesen lässt
+
+Die Frage einer bulgarischen Gesellschaft liest sich nützlicher als stabile strukturelle Lesart zwischen dem Vehikel, dem Wohnsitz­land des wirtschaftlich Berechtigten und der Behandlung von Geschäfts­ergebnissen und Ausschüttungen denn als isolierte Steuersatz­zahl. Diese Lesart bleibt unabhängig vom Jahres­ergebnis stabil und hängt nicht vom gerade aktiven Marketing-Diskurs ab.
+<!-- /exentax:lote35-native-v1:empresa-bulgaria-10-tributacion-de -->
+
+<!-- exentax:lote35-native-v1-bis:empresa-bulgaria-10-tributacion-de -->
+## Warum die Notiz die strukturelle Lesart und nicht eine isolierte Steuersatz­zahl festhält
+
+Die Notiz hält die strukturelle Lesart der Beziehung zwischen Vehikel, wirtschaftlich Berechtigtem und der Behandlung von Ergebnis und Ausschüttung fest und nicht eine isolierte Steuersatz­zahl, weil die Lesart über das Jahr stabil bleibt, während eine isolierte Zahl ohne Kontext nicht überprüfbar ist.
+<!-- /exentax:lote35-native-v1-bis:empresa-bulgaria-10-tributacion-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -170,6 +182,16 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Revolut Business**: in Verbindung mit einer **US-LLC** läuft es über **Revolut Technologies Inc.** mit **Lead Bank** als US-Bankpartner. Das ausgegebene Konto ist ein US-Konto (Routing + Account Number); **es wird kein europäischer IBAN** an eine LLC ausgegeben. Die europäischen IBANs (litauisch, BE) gehören zu **Revolut Bank UAB** und werden an europäische Kunden der Gruppe ausgegeben. Wird Ihnen ein europäischer IBAN für Ihre LLC angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
+<!-- exentax:lote24-native-v1:empresa-bulgaria-10-tributacion-de -->
+## Wie sich die bulgarische Gesellschaft als Profilfrage statt als universelle Empfehlung lesen lässt
+
+Die bulgarische Gesellschaft liest sich am ehrlichsten als Profilfrage und nicht als universelle Empfehlung. Ihre Eignung hängt vom tatsächlichen Wohnsitz des wirtschaftlich Berechtigten, der geografischen Verteilung der Kunden, dem Typ der Tätigkeit und den Substanzanforderungen vor Ort ab — und jede dieser vier Variablen kann die Antwort verändern, ohne dass die übrigen sich bewegen.
+
+## Wie sich die Eignungsprüfung in einer kurzen Notiz festhalten lässt
+
+Die Eignungsprüfung hält sich dauerhafter in einer kurzen, datierten Notiz fest, die die vier Variablen und die daraus folgende Schlussfolgerung auflistet, sodass die Eignungsfrage nicht von Grund auf neu gestellt werden muss, sobald sich eine der Variablen leicht verschiebt.
+<!-- /exentax:lote24-native-v1:empresa-bulgaria-10-tributacion-de -->
+
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Bulgarien zu 10%: was die Broschüre nicht sagt und was sich wirklich lohnt
 
@@ -200,6 +222,32 @@ Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
 
+
+<!-- exentax:lote14-native-v1:empresa-bulgaria-10-tributacion -->
+## Warum die 10-Prozent-Quote in Bulgarien selten so einfach ist
+
+Die viel beworbene 10-Prozent-Körperschaftssteuer in Bulgarien
+greift nur unter mehreren Voraussetzungen, die in
+internationalen Profilen oft übersehen werden: tatsächliche
+operative Substanz vor Ort, korrekte Behandlung der
+Doppelbesteuerung mit dem Wohnsitzland und realistischer
+Verwaltungsaufwand für eine Gesellschaft in einer anderen
+Jurisdiktion.
+<!-- /exentax:lote14-native-v1:empresa-bulgaria-10-tributacion -->
+
+<!-- exentax:lote24-native-v1:empresa-bulgaria-10-tributacion-de-bis -->
+## Wie sich die Bulgarien-Eignung ohne emotionale Bindung an einen Standortruf pflegen lässt
+
+Die Bulgarien-Eignung pflegt sich ohne emotionale Bindung an einen Standortruf, wenn die jährliche Überprüfung als rein operative Übung verstanden wird: vier Variablen, eine Notiz, eine Schlussfolgerung — der Ruf des Standorts taucht in dieser Sequenz schlicht nicht auf.
+<!-- /exentax:lote24-native-v1:empresa-bulgaria-10-tributacion-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [Estland Besteuerung: wie OÜ und e-Residency wirklich funktionieren](/de/blog/estland-besteuerung-wie-es-funktioniert)
+- [Warum kein estnisches Unternehmen: die US-LLC gewinnt meist](/de/blog/warum-kein-estnisches-unternehmen-eroffnen-die-us-llc)
+- [Warum 2026 eine US LLC eröffnen: die 5 Säulen des amerikanischen Vorteils](/de/blog/warum-2026-eine-us-llc-eroffnen-die-5-saulen-des)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

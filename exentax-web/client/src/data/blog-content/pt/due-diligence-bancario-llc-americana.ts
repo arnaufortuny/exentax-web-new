@@ -109,6 +109,18 @@ Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote17-native-v1:due-diligence-bancario-llc-americana-pt -->
+## Porque é que a due diligence bancária de uma LLC se prepara antes, e não durante a abertura
+
+A due diligence bancária de uma LLC prepara-se a montante da abertura de conta, e não durante. A razão é simples: na fase de abertura, a equipa de conformidade dispõe de um prazo curto e de uma grelha de critérios padrão; qualquer documento em falta ou resposta imprecisa prolonga mecanicamente o processo. Na prática, esta preparação resume-se a uma lista curta: um dossier de atividade claro, uma estrutura de propriedade coerente, uma morada oficial alinhada com os restantes documentos e uma descrição dos fluxos esperados que caiba num único parágrafo.
+<!-- /exentax:lote17-native-v1:due-diligence-bancario-llc-americana-pt -->
+
+<!-- exentax:lote30-native-v1:due-diligence-bancario-llc-americana-pt -->
+## Como ler a due diligence bancária da LLC como um procedimento documentado estável em vez de um teste imprevisível
+
+A due diligence bancária da LLC lê-se de forma mais útil como um procedimento documentado estável — identificação do beneficiário, origem dos fundos, contexto da atividade — em vez de um teste imprevisível. Uma nota curta e datada no ficheiro bancário com o que foi enviado torna a posição relevável em poucos minutos.
+<!-- /exentax:lote30-native-v1:due-diligence-bancario-llc-americana-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

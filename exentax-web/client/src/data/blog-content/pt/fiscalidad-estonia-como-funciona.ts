@@ -134,6 +134,26 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **CDT Espanha–EUA.** A convenção (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
 - **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Porque abrir uma empresa na Estónia raramente se ajusta a um perfil operacional real](/pt/blog/por-que-nao-abrir-uma-empresa-na-estonia-a-llc-americana)
+- [Desenhar uma estrutura fiscal internacional sólida passo a passo](/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro)
+- [LLC nos Estados Unidos: guia completo 2026](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:lote19-native-v1:fiscalidad-estonia-como-funciona-pt -->
+## Como usar as regras estónias como informação de contexto e não como ponto final de comparação
+
+As regras fiscais estónias tornam-se informação útil quando são tratadas como contexto que explica um regime específico, e não como ponto final de uma comparação destinada a decidir onde instalar uma actividade. A decisão sobre a jurisdição depende do perfil operacional e de uma série de factores práticos que vão além da taxa principal.
+<!-- /exentax:lote19-native-v1:fiscalidad-estonia-como-funciona-pt -->
+
+<!-- exentax:lote33-native-v1:fiscalidad-estonia-como-funciona-pt -->
+## Como ler a questão da fiscalidade estoniana como uma leitura estrutural estável em vez de um número isolado
+
+A questão da fiscalidade estoniana lê-se de forma mais útil como uma leitura estrutural estável entre o veículo, o país de residência do beneficiário e o tratamento dos resultados distribuídos e não distribuídos, em vez de um número isolado. Esta leitura mantém-se estável.
+<!-- /exentax:lote33-native-v1:fiscalidad-estonia-como-funciona-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

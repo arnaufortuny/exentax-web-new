@@ -99,6 +99,12 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 
+<!-- exentax:lote35-native-v1:extension-irs-form-1120-como-solicitarla-pt -->
+## Como ler o pedido de extensão do Form 1120 como um passo planeado do calendário fiscal em vez de uma reação improvisada
+
+O pedido de extensão do Form 1120 lê-se como um passo planeado do calendário fiscal anual.
+<!-- /exentax:lote35-native-v1:extension-irs-form-1120-como-solicitarla-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -140,6 +146,14 @@ Na Exentax apresentamos a 7004 sistematicamente cada Abril dentro do retainer e 
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Recuperar uma LLC com BOI e 5472 em atraso: procedimento real](/pt/blog/recuperar-uma-llc-com-boi-e-5472-em-atraso-procedimento-real)
+- [O que acontece se não apresentas o Form 5472: multas IRS e como corrigir](/pt/blog/o-que-acontece-se-nao-apresentar-o-form-5472-multas-irs-e)
+- [Manutenção anual da LLC: obrigações que não pode ignorar](/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

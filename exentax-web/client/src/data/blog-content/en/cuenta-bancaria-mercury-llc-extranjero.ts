@@ -313,6 +313,14 @@ All four platforms ask for: LLC Articles of Organization, EIN Confirmation Lette
 
 For a deeper view of full banking structure read <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">what US banks really report</a>, and if you want to delegate the opening <strong>book a session with Exentax</strong> and we coordinate it step by step from formation.
 
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Wise, banks and your LLC: the complete banking stack nobody explains](/en/blog/wise-banks-and-your-llc-the-complete-banking-stack-nobody)
+- [How to avoid account freezes at Mercury, Wise and Revolut](/en/blog/how-to-avoid-account-freezes-at-mercury-wise-and-revolut)
+- [Banking due diligence for your US LLC: what banks check and how to pass](/en/blog/banking-due-diligence-for-your-us-llc-what-banks-check-and)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Mercury%20used%20to%20be%20the%20default%20banking%20recommendation%20for%20non-resident%20LLC%20ow%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

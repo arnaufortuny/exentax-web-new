@@ -67,6 +67,18 @@ Aterrant l'anterior en decisions concretes que prenem cada setmana amb clients d
 - **L'estat de constitució importa per motius operatius, no fiscals**. Wyoming i Nou Mèxic continuen guanyant per a perfils freelance i serveis; Delaware continua guanyant per a SaaS amb vocació d'aixecar capital o per a holdings; Florida té encaix per a residents amb nexus físic als EUA. Cap decisió depèn del CRS.
 - **Residència fiscal del titular com a variable mestra**. La residència no s'escull, es determina per fets (dies de presència, centre d'interessos econòmics, nucli familiar). Pretendre amagar la residència real a l'empara de l'asimetria FATCA-CRS és, a més d'un error tècnic, una infracció tipificada a la majoria de jurisdiccions europees i llatinoamericanes amb sancions severes.
 
+<!-- exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-ca -->
+## Per què la posició dels EUA respecte al CRS és estructural i no política
+
+La raó per la qual els Estats Units no s'han adherit al CRS és estructural i no una qüestió d'humor polític que pugui canviar amb cada administració. Els EUA ja disposen del seu propi règim d'informació a través de FATCA i d'una infraestructura declarativa interna construïda al voltant dels mateixos identificadors que utilitza l'IRS. Adherir-se a un intercanvi multilateral paral·lel duplicaria la feina sense afegir visibilitat per al costat americà, i és precisament aquesta lògica que es manté estable entre administracions i fa que la posició americana sigui previsible.
+<!-- /exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-ca -->
+
+<!-- exentax:lote34-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-ca -->
+## Com llegir l'abast de CRS 2.0 i de CARF com un mapatge jurisdiccional estable en lloc d'un objectiu en moviment
+
+L'abast de CRS 2.0 i de CARF es llegeix de manera més útil com un mapatge jurisdiccional estable entre el país de la institució financera, el país de residència del beneficiari i el marc aplicable entre tots dos, en lloc d'un objectiu en moviment. El mapatge no canvia amb les tendències de màrqueting, i una nota curta i datada al dossier personal amb els tres eixos fa la posició consultable.
+<!-- /exentax:lote34-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -143,6 +155,20 @@ O escriu-nos per <a href="https://wa.me/34614916910">WhatsApp al +34 614 916 910
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-ca-bis -->
+## Com aprofitar aquesta estabilitat a la pràctica
+
+Per a un membre de LLC que opera des d'una jurisdicció CRS, aquesta estabilitat estructural significa que la planificació de la documentació pot recolzar-se en horitzons llargs, sense haver de reaccionar anualment a canvis de política. El mateix fitxer de treball serveix durant diversos anys consecutius sense necessitat de revisió profunda.
+<!-- /exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [CRS i els teus comptes bancaris LLC: el que es comparteix amb el teu país](/ca/blog/crs-i-els-teus-comptes-bancaris-llc-el-que-es-comparteix-amb)
+- [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
+- [IBAN Wise amb la teva LLC: el que es reporta realment a Hisenda](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.

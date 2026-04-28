@@ -110,6 +110,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / OCDE.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-ca -->
+## Com llegir la qüestió de comptes bancaris als EUA i reporting a la hisenda espanyola com un mapatge jurisdiccional estable en lloc d'una preocupació recurrent
+
+La qüestió de comptes bancaris als EUA i reporting a la hisenda espanyola es llegeix com un mapatge jurisdiccional estable entre el país del compte, el país de residència del beneficiari i el marc aplicable entre tots dos.
+<!-- /exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -193,6 +199,14 @@ Aquesta secció desmunta el mite "els bancs americans no reporten res" i descriu
 Mantén el W-8BEN-E coherent amb l'estructura real, factura i cobra sempre des del compte de la LLC, conserva els extractes mensuals en PDF i, si arriba un requeriment del 720, tindràs cinc dies hàbils per respondre. Passa el teu cas per la <strong>calculadora fiscal d'Exentax</strong> per veure el cost net de declarar net davant de quedar-te en una zona grisa.
 
 Per veure com aquestes dades es creuen amb la presentació del 720 segueix amb <a href="/ca/blog/model-720-i-model-721-guia-per-a-residents-a-espanya-amb">la guia pas a pas del Model 720 i 721</a>, i per a una auditoria completa del setup <strong>reserva una trucada amb l'equip Exentax</strong>.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
+- [Wise, IBAN i LLC: què es reporta realment a Hisenda i què no](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
+- [Visa i Mastercard: què veuen les hisendes del teu consum](/ca/blog/visa-mastercard-reporting-que-veu-hisenda-dels-pagaments-amb)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

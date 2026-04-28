@@ -165,6 +165,18 @@ This article relies on rules currently in force. Main sources for verification:
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
 
+<!-- exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-en -->
+## How to read the LLC management checklist as a stable annual map rather than as a sporadic to-do list
+
+The LLC management checklist reads more usefully when it's treated as a stable annual map between the recurring obligations (Form 5472, BOI, Registered Agent renewal), the recurring documents (Operating Agreement, separation of funds, basic accounting) and the dates when each is due, than as a sporadic to-do list. The map doesn't change year to year — only the dates shift.
+<!-- /exentax:lote30-native-v1:tengo-llc-checklist-gestion-correcta-en -->
+
+<!-- exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-en -->
+## Why the note is organized by recurring obligation rather than by month of the year
+
+The note is organized by recurring obligation rather than by month of the year, because the obligations remain the same each year while their dates shift, and this view keeps the map reusable from one cycle to the next.
+<!-- /exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -184,6 +196,12 @@ Fintech and CRS information evolves; here is the current state:
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-en -->
+## How to turn the initial setup into a sustainable annual rhythm
+
+A checklist works best when it stops being read as a list and starts being read as a calendar. The setup of an LLC is the first cycle, but the cycles that follow are the ones that determine whether the structure remains light to operate or starts accumulating quiet friction. The simplest way to make that transition is to copy the headings of the initial checklist into a recurring annual reminder and to attach to each heading the file or folder where the supporting evidence will live for that year.
+<!-- /exentax:lote16-native-v1:tengo-llc-checklist-gestion-correcta-en -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
@@ -233,6 +251,14 @@ Having an LLC means having a calendar; without one, sooner or later 5472 or BOI 
 
 If you want to run your LLC with this checklist or have us operate it for you, run the <strong>Exentax calculator</strong> or book thirty minutes.
 <!-- /exentax:execution-v2 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [Annual LLC maintenance: obligations you cannot ignore](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)
+- [Document fund separation in your LLC with history: real procedure](/en/blog/document-fund-separation-in-your-llc-with-history-real)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

@@ -116,6 +116,12 @@ Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-pt -->
+## Como ler a troca CRS em torno de contas bancárias LLC como um mapeamento estável em vez de uma surpresa de fim de ano
+
+A troca CRS em torno de contas bancárias LLC lê-se de forma mais útil como um mapeamento estável entre a instituição financeira reportante, o beneficiário identificado na conta e a administração fiscal recetora, em vez de uma surpresa de fim de ano. O mapeamento não muda entre ciclos.
+<!-- /exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -161,6 +167,14 @@ Na Exentax deixamos a arquitectura bancária desenhada com coerência entre o qu
 ## Montamos para si sem perder um fim de semana
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [Wise, IBAN e LLC: o que é realmente reportado às autoridades fiscais](/pt/blog/wise-iban-e-llc-o-que-realmente-e-reportado-as-autoridades)
+- [DAC8 e criptomoedas: o novo reporting fiscal automático em 2026](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
+- [Contas bancárias US: o que reporta cada entidade e como estruturar](/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?

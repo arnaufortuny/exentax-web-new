@@ -116,10 +116,22 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
+<!-- exentax:lote17-native-v1:que-es-irs-guia-duenos-llc-ca -->
+## Per què comprendre el paper de l'IRS ajuda a dimensionar correctament la documentació
+
+Comprendre què és l'IRS i el paper que exerceix en el cicle de vida d'una LLC ajuda a dimensionar correctament la documentació que es conserva. L'IRS no és una finestreta puntual a la qual s'acudeix un cop l'any; és la instància que centralitza els identificadors, les obligacions informatives i les eventuals sol·licituds posteriors d'aclariment. Aquesta naturalesa centralitzadora orienta la manera d'arxivar: una carpeta digital única per exercici, organitzada segons les subcategories que el mateix IRS utilitza, funciona millor que una successió de carpetes temàtiques sense coherència cronològica.
+<!-- /exentax:lote17-native-v1:que-es-irs-guia-duenos-llc-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
+
+<!-- exentax:lote32-native-v1:que-es-irs-guia-duenos-llc-ca -->
+## Com llegir la relació amb l'IRS com un mapatge estable d'obligacions en lloc d'una preocupació difusa
+
+La relació amb l'IRS es llegeix de manera més útil com un mapatge estable d'obligacions entre l'estatut fiscal de la LLC, el perfil del beneficiari i els formularis anuals corresponents, en lloc d'una preocupació difusa. Una nota curta i datada al dossier personal amb els tres eixos fa la posició consultable en pocs minuts en una conversa amb un assessor.
+<!-- /exentax:lote32-native-v1:que-es-irs-guia-duenos-llc-ca -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
@@ -153,6 +165,32 @@ A Exentax actuem com el teu interlocutor amb l'IRS.
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
+
+<!-- exentax:lote8-native-v1:que-es-irs-guia-duenos-llc -->
+## Una lectura pràctica de la relació LLC – IRS
+
+L'IRS no s'adreça a la LLC com a una persona física: l'entitat
+registra l'EIN, rep el Form 5472 quan s'aplica, i accepta el W-8
+del soci com a prova de residència fiscal. La relació es manté
+previsible mentre aquests tres documents siguin coherents entre si
+i amb el perfil bancari de la LLC. Quan la coherència es trenca,
+gairebé sempre comença allà la correspondència innecessària.
+
+<!-- /exentax:lote8-native-v1:que-es-irs-guia-duenos-llc -->
+
+<!-- exentax:lote17-native-v1:que-es-irs-guia-duenos-llc-ca-bis -->
+## Com estructurar la carpeta anual de forma pragmàtica
+
+Pragmàticament, la carpeta anual s'estructura en quatre subcarpetes: identificació, comunicacions informatives, correspondència i altres justificants. Aquests quatre títols cobreixen la majoria de les consultes i estalvien comentar cada fitxer individualment.
+<!-- /exentax:lote17-native-v1:que-es-irs-guia-duenos-llc-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Form 5472: què és, qui l'ha de presentar i com complir](/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir)
+- [IRS 1120 i 5472: què són realment i quan apliquen a la teva LLC](/ca/blog/irs-1120-i-5472-que-son-realment-i-quan-apliquen)
+- [EIN: què és el número fiscal de la teva LLC i com obtenir-lo](/ca/blog/ein-que-es-el-numero-fiscal-de-la-teva-llc-i-com-obtenir-lo)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

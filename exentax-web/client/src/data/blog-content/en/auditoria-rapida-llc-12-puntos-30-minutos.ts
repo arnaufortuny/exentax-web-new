@@ -90,6 +90,16 @@ Fintech and CRS information evolves; here is the current state:
 - **Revolut Business**: when paired with a **US LLC**, it operates under **Revolut Technologies Inc.** with **Lead Bank** as its US banking partner. The account delivered is a US account (routing + account number); **no European IBAN is issued** to a US LLC. The European IBANs (Lithuanian, Belgian) belong to **Revolut Bank UAB** and are issued to European clients of the group. If you are offered a European IBAN tied to your LLC, confirm exactly which legal entity holds that account and which regime it reports under.
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
+<!-- exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
+## How to integrate the 12-point audit into a quarterly rhythm without it becoming an extra task
+
+The 12-point audit reaches its full value when it stops being treated as a one-off check and becomes part of a quarterly rhythm. Tied to the close of each quarter and run in a fixed thirty-minute slot, it stops competing with operational work and starts producing useful comparisons across quarters.
+
+A practical way to anchor the audit in the quarterly rhythm is to schedule it the day after the quarterly bank reconciliation, so the figures it relies on are already up to date. The audit then operates on a stable base and doesn't require any preparatory data work of its own.
+
+When the same checklist is run quarter after quarter, the small drifts surface early: a permission that was added without being recorded, an unused account that was never closed, a recurring fee that no longer matches its original purpose. These drifts, caught quarterly, take a few minutes to correct; left for the year-end review, they often require half a day.
+<!-- /exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Legal & procedural facts
 
@@ -140,9 +150,23 @@ A useful audit is not a witch hunt: it tidies the LLC in under thirty minutes an
 To apply the same playbook now, run the <strong>Exentax calculator</strong> or book thirty minutes: you get the report with priorities and real closing cost, with no commitment.
 <!-- /exentax:execution-v2 -->
 
+<!-- exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
+## How to read the 12-point quick LLC audit as a recurring health check rather than as a one-off exercise
+
+The 12-point quick LLC audit reads more usefully as a recurring health check repeated each quarter than as a one-off exercise. The 12 points don't change between sessions; only the items that need attention move, and a short dated note in the LLC folder lets the next review pick up exactly where the previous one left off.
+<!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [I have a US LLC, am I managing it right? A real checklist](/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist)
+- [Critical mistakes if you already have a US LLC and no one told you](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
+- [Common LLC problems and how to avoid them: lessons from real clients](/en/blog/common-llc-problems-and-how-to-avoid-them-lessons-from-real)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

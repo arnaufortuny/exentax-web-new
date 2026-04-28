@@ -116,6 +116,12 @@ Ara que tens el context complet, el pas següent natural és contrastar-lo amb l
 
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
+<!-- exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-ca -->
+## Com llegir l'intercanvi CRS al voltant de comptes bancaris LLC com un mapatge estable en lloc d'una sorpresa de fi d'any
+
+L'intercanvi CRS al voltant de comptes bancaris LLC es llegeix com un mapatge estable entre la institució financera reportant, el beneficiari identificat al compte i l'administració fiscal receptora.
+<!-- /exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -161,6 +167,14 @@ A Exentax deixem dissenyada l'arquitectura bancària amb coherència entre el qu
 ## T'ho muntem sense que perdis un cap de setmana
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Wise, IBAN i LLC: què es reporta realment a Hisenda i què no](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
+- [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
+- [Comptes bancaris US: què reporta cada entitat i com estructurar-ho](/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

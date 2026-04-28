@@ -126,6 +126,12 @@ Se quiser saber o que encaixa no seu caso real, abra a <strong>calculadora Exent
 
   **No Brasil**, a alienação de quota numa LLC americana é tributada como ganho de capital pela **Lei 8.981/1995 (artigo 18)** e **Instrução Normativa SRF 84/2001**, com alíquotas progressivas de **15 % a 22,5 %** consoante o valor do ganho. A liquidação segue o regime da **Lei 14.754/2023** com tributação anual à alíquota fixa de 15 % regulamentada pela **IN RFB n.º 2.180/2024**.
 
+<!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-pt -->
+## Como ler a escolha entre vender ou encerrar a LLC como um mapeamento estável em vez de uma decisão emocional
+
+A escolha entre vender ou encerrar a LLC lê-se de forma mais útil como um mapeamento estável entre o estado atual do veículo, o perfil do comprador potencial e as obrigações residuais, em vez de uma decisão emocional. Uma nota curta e datada no ficheiro da LLC com os três pontos torna a comparação relevável em poucos minutos numa conversa com um consultor, em vez de a reconstruir de memória sob pressão.
+<!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -149,6 +155,90 @@ Se quiser saber o que encaixa no seu caso real, abra a <strong>calculadora Exent
 
   Na Exentax fechamos estas cinco frentes todos os anos em paralelo com o calendário federal americano (Form 5472, 1120 pro-forma, FBAR, Annual Report estadual, BOI Report quando aplicável). O objetivo é que nenhuma inspeção encontre uma ponta solta e que a estrutura aguente uma revisão retroativa a 5-7 anos.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+## Vender ou encerrar: escolher a pergunta antes da acção
+
+O primeiro passo útil é separar duas perguntas que muitas vezes
+chegam juntas: "quero continuar a operar com esta LLC?" e "esta LLC
+é um activo vendável por si só?". Muitas LLCs são excelentes
+cascos operacionais mas pobres activos vendáveis, e o inverso
+também acontece. Feita esta distinção, a decisão prática sai dos
+dados.
+
+| Sinal                                    | Aponta para vender          | Aponta para encerrar    |
+|------------------------------------------|-----------------------------|-------------------------|
+| Contratos recorrentes em nome da LLC     | sim                         | fraco                   |
+| Domínio, marca, PI detidos pela LLC      | sim                         | fraco                   |
+| Histórico bancário com instituições US   | sim (transferível com cuidado)| neutro                |
+| Single-member, baixo valor de marca      | fraco                       | sim                     |
+| Litígio em curso ou reclamação pendente  | pausa rigorosa              | pausa rigorosa          |
+
+Quando a tabela pende para vender, o trabalho é sobre documentação,
+livros limpos e uma narrativa credível. Quando pende para encerrar,
+o trabalho é sobre uma desactivação ordenada e uma saída limpa com
+o IRS, o estado e o banco.
+
+## Três histórias reais de clientes
+
+Uma consultora a operar com uma single-member LLC há três anos
+decidiu desactivá-la quando mudou de jurisdição. Encerrar era o
+certo: sem contratos transferíveis, o histórico bancário só lhe
+servia a ela, e o custo de venda excedia o preço realista. Corremos
+o encerramento ordenado em dois meses.
+
+Uma fundadora construiu um pequeno SaaS através da sua LLC com base
+recorrente de clientes. A LLC era vendável como unidade porque o
+produto, os contratos de clientes e as contas merchant estavam
+todos em nome da LLC. Corremos uma venda estruturada, o comprador
+assumiu a LLC, e a fundadora manteve a sua narrativa de saída
+limpa.
+
+Uma consultora com duas LLCs (uma operacional, uma dormente) fechou
+a dormente e manteve a activa. A LLC dormente não tinha activos e
+só acrescentava trabalho de compliance todos os anos. Fechá-la
+simplificou o ciclo 1120 + 5472 seguinte e reduziu o perímetro de
+manutenção do BOI.
+
+## Erros a evitar em ambas as direcções
+
+- Parar operações sem entregar a dissolução. O estado continua a
+  esperar as taxas anuais; sem dissolução a LLC acumula obrigações.
+- Vender sem resolver a EIN. As EINs não se transferem como
+  certificados de acções; estruturar o deal para que o comprador
+  mantenha a LLC intacta ou substitua a EIN de forma limpa.
+- Esquecer o perfil bancário. As contas bancárias devem ser fechadas
+  por ordem numa desactivação, não abandonadas; o abandono pode
+  deixar saldos residuais de comissões que complicam as últimas
+  entregas fiscais.
+- Ignorar o ciclo BOI. Uma LLC dissolvida precisa de uma
+  actualização BOI; uma LLC vendida precisa também de reporting de
+  actualização de propriedade.
+
+## Checklist de encerramento ou venda
+
+- Balancete e extractos bancários reconciliados a postos.
+- 1120 + 5472 finais preparados com antecedência para o ano de
+  encerramento.
+- Todos os contratos catalogados (cedíveis / não cedíveis).
+- Registo de PI confirmado (domínios, marcas, repositórios de
+  código).
+- Estado BOI actualizado imediatamente após a escritura.
+- Plano de retenção de registos a postos por 7 anos no mínimo.
+
+Tratamos a decisão vender-ou-encerrar como um dos momentos de maior
+alavancagem na vida da LLC. Uma saída limpa, em qualquer dos
+sentidos, é valor permanente para o sócio.
+
+<!-- /exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sobre o mesmo tema
+
+- [Como dissolver e encerrar uma LLC americana: um caminho calmo, passo a passo](/pt/blog/como-dissolver-e-encerrar-uma-llc-americana-passo-a-passo)
+- [Mudar de fornecedor de manutenção da LLC sem perder histórico](/pt/blog/mudar-de-fornecedor-de-manutencao-da-llc-sem-perder)
+- [Fiscalidade dos sócios de uma LLC em mudança de residência a meio do ano](/pt/blog/fiscalidade-dos-socios-de-uma-llc-em-mudanca-de-residencia-a)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

@@ -121,6 +121,14 @@ Eine US-amerikanische LLC ist ein legales und international anerkanntes Instrume
 - **Österreich (EStG / KStG).** Vergleichbare Analyse nach österreichischer Doktrin der „Mitunternehmerschaft" für ausländische Personengesellschaften. Optiert die LLC zur C-Corp und kontrolliert ein in Österreich Ansässiger mehr als 50 %, greift die **Hinzurechnungsbesteuerung (§ 10a KStG, Hinzurechnungsbesteuerung 2019)** für passive Einkünfte einer niedrigbesteuerten ausländischen Körperschaft. Ergänzend gelten die **§§ 21–23 BAO (wirtschaftliche Betrachtungsweise)** für die Beurteilung von Substanz und Gestaltungsmissbrauch sowie die laufende Praxis des österreichischen BMF in den **EAS-Auskünften**.
 - **Schweiz (DBG / StHG).** Die funktionale Qualifikation folgt dem Transparenzprinzip: Eine US-LLC vom Pass-Through-Typ wird in der Regel als transparente Personengesellschaft behandelt; die Erträge werden dem ansässigen Gesellschafter in seiner direkten Bundessteuer (DBG) sowie in der Kantons- und Gemeindesteuer (StHG) zugerechnet. Optiert die LLC zur C-Corp, ist das Regime der internationalen Transparenz weniger entwickelt, aber die Eidgenössische Steuerverwaltung (ESTV) bzw. die kantonale Steuerverwaltung kann unter dem Tatbestand der **Steuerumgehung** umqualifizieren, sofern die Substanz nichtig ist. Bei wirtschaftlicher Doppelansässigkeit greifen die Tie-Breaker-Regeln des Art. 4 DBA Schweiz–USA.
 
+<!-- exentax:cross-refs-v1 -->
+## Zum gleichen Thema
+
+- [Selbstständig in Spanien vs LLC in den USA: vollständiger Steuervergleich](/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger)
+- [Ihre LLC zahlt keine US-Steuer — was passiert dann in Ihrem Land](/de/blog/ihre-llc-zahlt-keine-us-steuer-was-passiert-dann-in-ihrem)
+- [US-LLC Besteuerung nach Wohnsitzland: was Sie wo zahlen](/de/blog/us-llc-besteuerung-nach-wohnsitzland-was-sie-wo-zahlen)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

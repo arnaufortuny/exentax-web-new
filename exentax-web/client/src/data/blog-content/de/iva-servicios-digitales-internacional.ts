@@ -82,6 +82,26 @@ Zum Abschluss einige verwandte Beiträge, die unmittelbar an diesen Text anschli
 4. **Nicht steuerbare Vorgänge nicht in der Umsatzsteuervoranmeldung deklarieren.** Auch wenn Sie keine Umsatzsteuer berechnen, müssen Sie die Bemessungsgrundlage in den entsprechenden Feldern deklarieren.
 5. **B2B mit B2C verwechseln.** Die Regeln sind völlig unterschiedlich. Wenn Sie an eine Privatperson in Frankreich verkaufen, ist es nicht dasselbe wie an eine französische SAS zu verkaufen.
 
+<!-- exentax:lote17-native-v1:iva-servicios-digitales-internacional-de -->
+## Warum die Mehrwertsteuer für digitale Dienstleistungen nach Profilen statt nach Einzelfällen behandelt wird
+
+Die Mehrwertsteuer auf internationale digitale Dienstleistungen wird effizienter nach Kundenprofilen als nach Einzeloperationen behandelt. Der Grund ist praktischer Natur: jedes Profil (Endverbraucher in der EU, Unternehmen ausserhalb der EU, Plattform in der Rolle eines fingierten Lieferanten) löst eine andere Rechnungs- und Meldelogik aus, und der Versuch, operationsweise zu denken, führt schnell zu inneren Widersprüchen in den Registern.
+
+Der stabilste Ansatz besteht darin, die Kundschaft bereits bei der Anlage im Rechnungssystem zu klassifizieren, den Klassifikationsgrund zu dokumentieren und nur eine begrenzte Anzahl von Profilen zuzulassen.
+<!-- /exentax:lote17-native-v1:iva-servicios-digitales-internacional-de -->
+
+<!-- exentax:lote35-native-v1:iva-servicios-digitales-internacional-de -->
+## Wie sich die Umsatz­steuer auf internationale digitale Dienst­leistungen als stabile Kartografie statt als rechnungs­weise Einzel­debatte lesen lässt
+
+Die Umsatz­steuer auf internationale digitale Dienst­leistungen liest sich nützlicher als stabile Kartografie zwischen dem Sitz­land des Leistenden, dem Status des Kunden (umsatz­steuer­registriertes Unternehmen oder Endverbraucher) und dem Land des Verbrauchs denn als rechnungs­weise Einzel­debatte.
+<!-- /exentax:lote35-native-v1:iva-servicios-digitales-internacional-de -->
+
+<!-- exentax:lote35-native-v1-bis:iva-servicios-digitales-internacional-de -->
+## Warum die Notiz pro Dienst­typ und nicht pro einzelner Rechnung organisiert sein sollte
+
+Die Notiz organisiert sich pro Dienst­typ und nicht pro einzelner Rechnung, weil die anwendbare Regel vom Dienst­typ und vom Kunden­status abhängt.
+<!-- /exentax:lote35-native-v1-bis:iva-servicios-digitales-internacional-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -141,6 +161,20 @@ Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprac
   **Österreich.** Das **UStG 1994 §3a Abs. 13** spiegelt das EU-Bestimmungslandprinzip für elektronisch erbrachte B2C-Dienstleistungen, mit derselben EU-weit harmonisierten **€10.000-Schwelle**. Die OSS-Anmeldung erfolgt über **FinanzOnline** beim <a href="https://www.bmf.gv.at" target="_blank" rel="noopener">BMF Österreich</a>. Praktische Klarstellungen zur Behandlung einer US-LLC im österreichischen IRS-Korrespondenzverkehr finden sich in den **EAS-Auskünften 3401 und 3422** (verfügbar in <a href="https://findok.bmf.gv.at" target="_blank" rel="noopener">findok.bmf.gv.at</a>): Eine SMLLC eines österreichischen Steueransässigen wird steuerlich transparent betrachtet, der Gewinn wird dem Gesellschafter im Anwendungsbereich des österreichischen EStG zugerechnet, und der Geschäftsbetrieb der LLC unterliegt nicht der österreichischen MwSt, solange keine umsatzsteuerliche Betriebsstätte in Österreich besteht.
 
   **Schweiz.** Die Schweizer **MWSTG Art. 10 Abs. 2 lit. a** koppelt die MWST-Pflicht an einen **weltweiten Jahresumsatz von CHF 100.000** aus mehrwertsteuerpflichtigen Leistungen (Normalsatz 8,1 % seit 2024). Wird diese Schwelle überschritten, gilt für ausländische Anbieter elektronischer Dienstleistungen an Schweizer Privatkunden die Registrierungspflicht beim <a href="https://www.estv.admin.ch" target="_blank" rel="noopener">ESTV</a>; ab dem Eintragungsdatum ist jede Schweizer B2C-Lieferung steuerbar — eine inländische Bagatellgrenze für die einzelne Leistung existiert nicht. Eine US-LLC mit weltweitem Umsatz unter CHF 100.000 bleibt also nicht steuerpflichtig; sobald die Schwelle weltweit überschritten wird, muss sie sich registrieren, **bevor** der nächste Schweizer Endkunde abgerechnet wird. Für deutsche oder österreichische Unternehmer mit US-LLC bedeutet das: Schweizer Endkunden lösen, ab Erreichen der weltweiten Schwelle, eine eigenständige Schweizer MWST-Registrierung aus, unabhängig von OSS oder deutschem UStG.
+
+<!-- exentax:lote17-native-v1:iva-servicios-digitales-internacional-de-bis -->
+## Wie sich die Profilliste auf einer einzigen Seite halten lässt
+
+Die Profilliste lässt sich gut auf einer einzigen Seite halten, mit drei oder vier Profilen, die jeweils einen kurzen Anwendungsfall illustrieren.
+<!-- /exentax:lote17-native-v1:iva-servicios-digitales-internacional-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [DAC7: das neue Reporting digitaler Plattformen für 2026](/de/blog/dac7-die-neue-meldung-digitaler-plattformen-die-ihr-geschaft)
+- [LLC nach Aktivität besteuert: Dienstleistungen, E-Commerce, SaaS, Trading](/de/blog/llc-besteuerung-nach-wirtschaftlicher-aktivitat)
+- [US LLC Besteuerung nach Wohnsitzland: Was Sie wo zahlen](/de/blog/us-llc-besteuerung-nach-wohnsitzland-was-sie-wo-zahlen)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

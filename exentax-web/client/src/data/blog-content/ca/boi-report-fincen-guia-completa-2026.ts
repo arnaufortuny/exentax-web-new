@@ -167,6 +167,14 @@ Si vols que ho gestionem de cap a cap o només verificar el teu, obre la <strong
 <!-- /exentax:execution-v2 -->
 
 
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Recuperar una LLC amb BOI i 5472 endarrerits: procediment real](/ca/blog/recuperar-una-llc-amb-boi-i-5472-endarrerits-procediment)
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 

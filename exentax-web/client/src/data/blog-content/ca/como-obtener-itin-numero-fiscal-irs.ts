@@ -107,6 +107,12 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (BOE 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
+<!-- exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-ca -->
+## Com llegir la sol·licitud d'ITIN com un procediment documentat estable en lloc d'un esdeveniment puntual
+
+La sol·licitud d'ITIN es llegeix de manera més serena com un procediment documentat estable que com un esdeveniment puntual. Les peces necessàries — un Form W-7 vàlid, un motiu de declaració federal que justifiqui la necessitat d'ITIN i un document d'identitat acceptat per l'IRS — defineixen un procés discret que no canvia d'any en any.
+<!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -173,6 +179,14 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [EIN vs ITIN vs SSN: els números d'identificació fiscal americans explicats](/ca/blog/ein-vs-itin-vs-ssn-els-numeros-didentificacio-fiscal)
+- [EIN: què és el número fiscal de la teva LLC i com obtenir-lo](/ca/blog/ein-que-es-el-numero-fiscal-de-la-teva-llc-i-com-obtenir-lo)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

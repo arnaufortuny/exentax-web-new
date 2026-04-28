@@ -192,6 +192,86 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 
   UK-resident sole members of US LLCs face a parallel reporting stack: HMRC requires disclosure of overseas income on the **SA106 (Foreign Pages)** of the Self Assessment return, and the **Companies House confirmation statement** (CS01) is the UK functional equivalent of the US 1120 informational filing. Where the LLC is treated as opaque under HMRC's check-the-box guidance (INTM180030), CFC charges under **Part 9A TIOPA 2010** may apply alongside the US §6038A reporting.
 
+<!-- exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+## What 1120 + Form 5472 actually report (and what they do not)
+
+For a single-member LLC owned by a non-US person and disregarded for
+US tax purposes, the IRS requires a pro-forma 1120 envelope used
+solely as the carrier for Form 5472. This pair does not assess US
+tax on a foreign-owned disregarded LLC; it documents that certain
+reportable transactions between the LLC and its foreign owner (or
+related parties) actually took place. The IRS wants visibility, not
+necessarily revenue, on these flows.
+
+| Item            | What it reports                                          |
+|-----------------|----------------------------------------------------------|
+| Pro-forma 1120  | Identifying envelope: LLC name, EIN, address, year       |
+| Form 5472       | Each reportable transaction with the foreign related     |
+|                 | party (capital contributions, distributions, loans,      |
+|                 | services, etc.)                                          |
+
+If the year had zero reportable transactions, the pair is still
+generally filed with values at zero so the IRS sees activity status
+explicitly. Skipping the filing is what triggers the well-known
+penalty exposure under the regulations.
+
+## Three real filing patterns we run
+
+A single-member LLC with one capital contribution at formation, a
+small monthly draw to the foreign owner, and no other related-party
+flows. The 5472 reports the contribution and the draws; the
+pro-forma 1120 carries the envelope. Filing season takes a couple of
+hours of structured work, including the bookkeeping reconciliation.
+
+A single-member LLC that lent money to a related foreign company,
+later repaid, with normal-rate interest. The 5472 reports the loan
+issuance and the repayment; the interest accrual is part of the LLC
+books and is mirrored in the home-country declaration of the owner.
+Documentation is the friend here: the loan agreement and the
+amortisation schedule sit in the LLC's compliance folder.
+
+A multi-year LLC with no activity in the current year. We still file
+the pro-forma 1120 + 5472 with zeros, attach a short internal
+memo explaining the dormant year, and keep the file ready for the
+moment the LLC reactivates.
+
+## Mistakes that lead to penalty letters
+
+- Treating the pair as a tax return that "owes nothing" and skipping
+  it. It is a reporting filing; the absence of tax does not remove
+  the duty.
+- Mixing personal owner expenses into the LLC books, then trying to
+  reconcile at filing time. Keep the boundary clean monthly.
+- Forgetting that a draw to the foreign owner is a reportable
+  transaction. It often is, depending on its character (return of
+  capital, distribution, etc.).
+- Filing late. The penalty for a missed Form 5472 is substantial and
+  applies even when no US tax is due.
+
+## Pre-filing checklist
+
+- LLC EIN matches the IRS letter (CP575).
+- Operating year confirmed (calendar year by default for a
+  single-member disregarded LLC).
+- Bookkeeping closed and reconciled with banks.
+- Related-party flows mapped to 5472 line categories.
+- Owner identification document on file matches the BOI submission.
+- Filing channel ready (paper or e-file with authorised provider).
+
+We treat 1120 + 5472 as the LLC's annual handshake with the IRS:
+quiet, predictable and structured. A clean filing this year makes
+the next year quieter still.
+
+<!-- /exentax:lote7-native-v1:irs-1120-5472-que-son-cuando-aplican -->
+
+<!-- exentax:cross-refs-v1 -->
+## On the same topic
+
+- [What happens if you don't file Form 5472: IRS penalties and how to fix it](/en/blog/what-happens-if-you-dont-file-form-5472-irs-penalties-and)
+- [W-8BEN and W-8BEN-E: a complete, calm guide](/en/blog/w8-ben-and-w8-ben-e-the-complete-guide)
+- [What is the IRS, and how does it actually affect your US LLC](/en/blog/what-is-the-irs-and-how-does-it-affect-your-us-llc)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 We review BOI, EIN, registered agent and federal obligations so a fine never catches you by surprise. <a href="/en/services">Request a compliance review</a>.
 <!-- /exentax:cta-v1 -->

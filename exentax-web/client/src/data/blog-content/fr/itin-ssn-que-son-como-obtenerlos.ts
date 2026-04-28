@@ -136,10 +136,22 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
 
+<!-- exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-fr -->
+## Comment choisir entre ITIN et SSN selon la situation réelle
+
+Le choix entre ITIN et SSN n'est pas un choix d'opportunité ; il dépend de la situation réelle de la personne. Le SSN est associé à des cas où existe un droit au travail aux États-Unis ou à certaines catégories de visa, tandis que l'ITIN est conçu précisément pour les personnes qui ont une obligation déclarative envers l'IRS sans être éligibles au SSN. Un membre de LLC non résident qui doit déposer un formulaire fédéral entre dans le second cas, et la demande d'ITIN devient alors la voie naturelle pour obtenir un identifiant utilisable dans la déclaration. Le calendrier de la demande d'ITIN compte presque autant que la demande elle-même : la déposer en parallèle de la première déclaration permet de synchroniser les deux pièces et d'éviter le va-et-vient qui apparaît lorsque l'identifiant arrive après l'échéance.
+<!-- /exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-fr -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
 Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+
+<!-- exentax:lote35-native-v1:itin-ssn-que-son-como-obtenerlos-fr -->
+## Comment lire la distinction ITIN et SSN comme une cartographie d'identifiants stables plutôt que comme un choix interchangeable
+
+La distinction ITIN et SSN se lit plus utilement comme une cartographie d'identifiants stables entre le statut migratoire ou fiscal de la personne, l'agence qui émet l'identifiant et l'usage prévu, plutôt que comme un choix interchangeable.
+<!-- /exentax:lote35-native-v1:itin-ssn-que-son-como-obtenerlos-fr -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Parlez à notre équipe</a>
@@ -188,6 +200,32 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos -->
+## Lire la différence entre ITIN, SSN et EIN sans confusion
+
+Beaucoup de membres de LLC arrivent avec ces trois identifiants
+mélangés dans la tête. La distinction utile au quotidien est
+simple : l'EIN identifie la LLC, l'ITIN identifie une personne
+physique non résidente avec une obligation déclarative aux
+États-Unis, et le SSN reste un identifiant des résidents et
+citoyens américains. Pour la majorité des membres non résidents,
+l'EIN suffit pour faire vivre la LLC ; l'ITIN n'est requis que
+dans les cas de figure spécifiques décrits plus haut.
+
+Cette clarté évite les démarches inutiles : demander un ITIN par
+prudence quand il n'est pas requis ralentit souvent l'ouverture
+bancaire au lieu de la faciliter.
+
+<!-- /exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Comment obtenir l'ITIN : numéro fiscal de l'IRS pour non-résidents](/fr/blog/comment-obtenir-un-itin-numero-fiscal-irs)
+- [EIN : qu'est-ce que le numéro fiscal de votre LLC et comment l'obtenir](/fr/blog/ein-quest-ce-que-le-numero-fiscal-de-votre-llc-et-comment)
+- [Guide des formulaires W-8BEN et W-8BEN-E pour LLC non-résidentes](/fr/blog/w8-ben-et-w8-ben-e-le-guide-complet)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Nous déposons votre demande d'ITIN auprès de l'IRS via un Certifying Acceptance Agent : votre passeport reste avec vous. <a href="/fr/services/obtiens-ton-itin">Obtenir mon ITIN</a>.

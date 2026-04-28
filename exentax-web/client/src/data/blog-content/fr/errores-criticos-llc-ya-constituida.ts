@@ -232,6 +232,14 @@ Plus de 70% des LLCs qui arrivent en audit ont le même profil: bien constituée
 Si votre LLC a des trous et vous voulez le coût réel pour les fermer, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes.
 <!-- /exentax:execution-v2 -->
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Problèmes courants LLC et comment les éviter : leçons de vrais clients](/fr/blog/problemes-courants-llc-et-comment-les-eviter-lecons-de-vrais)
+- [J'ai une LLC américaine : est-ce que je la gère bien ? Checklist](/fr/blog/jai-une-llc-est-ce-que-je-la-gere-correctement-checklist)
+- [Séparer argent personnel et LLC : pourquoi c'est essentiel](/fr/blog/separer-argent-personnel-et-llc-pourquoi-cest-essentiel)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Si%20vous%20avez%20d%C3%A9j%C3%A0%20une%20LLC%20am%C3%A9ricaine%2C%20cet%20article%20est%20pour%20vous%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>

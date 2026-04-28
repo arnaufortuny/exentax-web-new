@@ -80,6 +80,14 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote29-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-ca -->
+## Com llegir el canvi de proveïdor de manteniment de la LLC com un mapatge estable de transició en lloc d'una ruptura
+
+El canvi de proveïdor de manteniment de la LLC es llegeix de manera més útil com un mapatge estable de transició entre tres traspassos — Registered Agent, adreça postal, custòdia dels documents — que com una ruptura. Cada traspàs segueix un patró documentable independent del nou proveïdor.
+
+Una nota curta i datada al dossier de la LLC amb la data i la referència de cada traspàs fa la transició consultable en pocs minuts.
+<!-- /exentax:lote29-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -99,6 +107,14 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
 - **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
+
+<!-- exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-ca -->
+## Per què canviar de prestador de manteniment es prepara com una migració i no com una ruptura
+
+Canviar de prestador de manteniment d'una LLC sense perdre l'antiguitat es prepara com una migració i no com una ruptura. La diferència és concreta: una migració comença per un inventari dels elements a transferir (registered agent, dates de renovació, fitxer informatiu), defineix una finestra de commutació curta però anunciada explícitament, i reserva un període de superposició en què els dos prestadors estan alineats en els mateixos terminis.
+
+Aquesta preparació evita els dos problemes més freqüents: la pèrdua d'una notificació important durant la transició, i la divergència d'informació entre l'antic i el nou prestador després de la commutació. Un cop tancada la migració, l'antiguitat resta llegible perquè el fitxer informatiu resta continu.
+<!-- /exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-ca -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
@@ -155,6 +171,29 @@ Detall pràctic per fixar abans d'actuar. La major part del dany evitable que ve
 ### Pas 1. Diagnòstic del que està lligat al proveïdor actual
 
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
+
+<!-- exentax:lote8-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-bis -->
+## Una observació final
+
+Un canvi de proveïdor ben preparat és avorrit — i aquesta és la
+seva millor qualitat. Quan el dossier és complet, el traspàs es
+fa serè, sense fricció i sense pèrdua d'antiguitat de la LLC.
+
+<!-- /exentax:lote8-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-bis -->
+
+<!-- exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-ca-bis -->
+## Com dimensionar la finestra de superposició de forma realista
+
+La finestra de superposició s'estableix realísticament entre dues i quatre setmanes: prou curta per no generar duplicació de costos durant mesos, i prou llarga per permetre una transferència completa de la informació i de la correspondència en curs.
+<!-- /exentax:lote17-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-ca-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Operar la seva LLC al dia a dia: 45-60 min/mes vs 8-10 h](/ca/blog/com-gestionar-la-teva-llc-dia-a-dia-guia-practica-per-a-no)
+- [Tinc una LLC als EUA, la gestiono correctament? Checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real)
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

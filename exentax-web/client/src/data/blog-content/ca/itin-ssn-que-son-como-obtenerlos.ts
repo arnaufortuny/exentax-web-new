@@ -136,10 +136,22 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
+<!-- exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-ca -->
+## Com escollir entre ITIN i SSN segons la situació real
+
+L'elecció entre ITIN i SSN no és una elecció d'oportunitat; depèn de la situació real de la persona. El SSN està associat a casos en què existeix un dret al treball als Estats Units o a certes categories de visat, mentre que l'ITIN està concebut precisament per a persones que tenen obligació declarativa davant l'IRS sense ser elegibles per al SSN. Un membre de LLC no resident que hagi de presentar un formulari federal cau en el segon cas, i la sol·licitud d'ITIN es converteix així en la via natural per obtenir un identificador utilitzable a la declaració. El calendari de la sol·licitud d'ITIN compta gairebé tant com la mateixa sol·licitud: presentar-la en paral·lel amb la primera declaració permet sincronitzar les dues peces i evitar el va-i-ve que apareix quan l'identificador arriba després del termini.
+<!-- /exentax:lote16-native-v1:itin-ssn-que-son-como-obtenerlos-ca -->
+
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
+
+<!-- exentax:lote35-native-v1:itin-ssn-que-son-como-obtenerlos-ca -->
+## Com llegir la distinció ITIN i SSN com un mapatge d'identificadors estables en lloc d'una elecció intercanviable
+
+La distinció ITIN i SSN es llegeix com un mapatge estable entre l'estatut de la persona, l'agència emissora i l'ús previst.
+<!-- /exentax:lote35-native-v1:itin-ssn-que-son-como-obtenerlos-ca -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
@@ -192,6 +204,31 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
   ### ITIN per a residents a Espanya, Catalunya i Andorra
 
   A Espanya, l'equivalent nacional és el **NIE (Número d'Identificació d'Estrangers)** o el **NIF (DNI per a nacionals)** segons l'art. 206 del **RD 557/2011** que desenvolupa la LO 4/2000. A **Andorra**, el número fiscal és el **NRT (Número de Registre Tributari)** regulat per l'art. 106 de la **Llei 21/2014 de bases d'ordenament tributari**. L'ITIN ha de constar al **Modelo 720** (RD 1065/2007) per a residents fiscals espanyols amb participacions ≥ 50.000 € en LLCs americanes, i al **Modelo 232** per a operacions vinculades. El **conveni de doble imposició Espanya-EUA (BOE 22/12/1990) amb el Protocol de 27/11/2019 en vigor des de 27/11/2019** habilita el crèdit per impost pagat als EUA.
+
+<!-- exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos -->
+## Llegir la diferència entre ITIN, SSN i EIN sense confusió
+
+Molts socis de LLC arriben amb aquests tres identificadors
+barrejats. La distinció útil al dia a dia és simple: l'EIN
+identifica la LLC, l'ITIN identifica una persona física no resident
+amb obligació declarativa als US, i el SSN és la identificació dels
+residents i ciutadans americans. Per a la majoria de socis no
+residents, l'EIN n'hi ha prou per fer funcionar la LLC; l'ITIN
+només cal en els casos específics descrits més amunt.
+
+Aquesta claredat evita passos innecessaris: demanar un ITIN per
+prudència quan no és necessari endarrereix sovint l'obertura
+bancària en lloc de facilitar-la.
+
+<!-- /exentax:lote8-native-v1:itin-ssn-que-son-como-obtenerlos -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Com obtenir l'ITIN: número fiscal de l'IRS per a no residents](/ca/blog/com-obtenir-itin-numero-fiscal-irs)
+- [EIN: què és el número fiscal de la teva LLC i com obtenir-lo](/ca/blog/ein-que-es-el-numero-fiscal-de-la-teva-llc-i-com-obtenir-lo)
+- [Guia completa dels formularis W-8BEN i W-8BEN-E per a LLCs de no residents](/ca/blog/w8-ben-i-w8-ben-e-la-guia-completa)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Tramitem el teu ITIN davant l'IRS amb un Certifying Acceptance Agent: l'original es queda amb tu. <a href="/ca/serveis/obte-el-teu-itin">Tramitar el meu ITIN</a>.

@@ -104,6 +104,12 @@ Choisir entre **vendre** et **fermer** une LLC a des conséquences fiscales et o
 
 **Une SMLLC sans activité peut-elle être « abandonnée »?** Non. Sans Annual Report ni Registered Agent elle finit *Forfeited*, mais les obligations IRS (5472 si mouvements) restent vivantes avec sanctions en cascade.
 
+<!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-fr -->
+## Comment lire le choix vendre ou fermer la LLC comme une cartographie stable plutôt que comme une décision émotionnelle
+
+Le choix vendre ou fermer la LLC se lit plus utilement comme une cartographie stable entre l'état actuel du véhicule, le profil de l'acheteur potentiel et les obligations résiduelles, plutôt que comme une décision émotionnelle.
+<!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-fr -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -147,6 +153,91 @@ Pour savoir ce qui convient à votre cas réel, lancez la <strong>calculatrice E
 
   Chez Exentax, nous fermons ces cinq fronts chaque année en parallèle du calendrier fédéral américain (Form 5472, 1120 pro-forma, FBAR, Annual Report étatique, BOI Report quand il s'applique). L'objectif: qu'aucun contrôle ne trouve de bout libre et que la structure tienne une révision rétroactive sur 5 à 7 ans.
 <!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+## Vendre ou fermer : choisir la question avant l'action
+
+Le premier pas utile consiste à séparer deux questions qui arrivent
+souvent ensemble : "ai-je envie de continuer à opérer avec cette
+LLC ?" et "cette LLC est-elle un actif vendable en soi ?". Beaucoup
+de LLC sont d'excellentes coquilles d'exploitation mais de pauvres
+actifs vendables, et l'inverse est aussi possible. Une fois cette
+distinction claire, la décision pratique sort des données.
+
+| Signal                                   | Penche vers vendre          | Penche vers fermer      |
+|------------------------------------------|-----------------------------|-------------------------|
+| Contrats récurrents au nom de la LLC     | oui                         | faible                  |
+| Domaine, marque, PI détenus par la LLC   | oui                         | faible                  |
+| Historique bancaire avec des instits US  | oui (transférable avec soin)| neutre                  |
+| Single-member, faible valeur de marque   | faible                      | oui                     |
+| Litige en cours ou réclamation pendante  | pause stricte               | pause stricte           |
+
+Quand le tableau penche vers la vente, le travail porte sur la
+documentation, des livres propres et un récit crédible. Quand il
+penche vers la fermeture, le travail porte sur une mise en sommeil
+ordonnée et une sortie propre avec l'IRS, l'État et la banque.
+
+## Trois histoires réelles de clients
+
+Une consultante opérant à travers une single-member LLC depuis
+trois ans a décidé de la fermer en changeant de juridiction. La
+fermeture était le bon choix : pas de contrats transférables,
+l'historique bancaire ne servait qu'à elle, et le coût de la vente
+excédait le prix réaliste. Nous avons mené la fermeture ordonnée en
+deux mois.
+
+Une fondatrice a construit un petit SaaS à travers sa LLC avec une
+base récurrente. La LLC était vendable comme unité parce que le
+produit, les contrats clients et les comptes marchands étaient tous
+au nom de la LLC. Nous avons mené une vente structurée, l'acheteur
+a repris la LLC, et la fondatrice a conservé son récit de sortie
+propre.
+
+Une consultante avec deux LLC (une opérationnelle, une dormante) a
+fermé la dormante et conservé l'active. La LLC dormante ne portait
+aucun actif et n'ajoutait que du travail conformité chaque année.
+La fermer a simplifié le cycle 1120 + 5472 suivant et réduit le
+périmètre de maintenance BOI.
+
+## Erreurs à éviter dans les deux sens
+
+- Arrêter l'activité sans déposer la dissolution. L'État attend
+  toujours les frais annuels ; sans dissolution la LLC accumule des
+  obligations.
+- Vendre sans résoudre l'EIN. L'EIN ne se transfère pas comme un
+  certificat d'actions ; structurer le deal pour que l'acheteur
+  garde la LLC intacte ou substitue l'EIN proprement.
+- Oublier le profil bancaire. Les comptes bancaires doivent être
+  fermés dans l'ordre lors d'une mise en sommeil, pas abandonnés ;
+  l'abandon peut laisser des soldes résiduels de frais qui
+  compliquent les derniers dépôts fiscaux.
+- Ignorer le cycle BOI. Une LLC dissoute a besoin d'une mise à jour
+  BOI ; une LLC vendue a besoin d'un reporting de mise à jour de
+  propriété aussi.
+
+## Checklist de fermeture ou de vente
+
+- Balance de vérification et relevés bancaires réconciliés prêts.
+- Derniers 1120 + 5472 préparés en avance pour l'année de
+  fermeture.
+- Tous les contrats catalogués (cessibles / non cessibles).
+- Registre PI confirmé (domaines, marques, dépôts de code).
+- Statut BOI mis à jour juste après l'acte.
+- Plan de conservation des archives en place pour 7 ans minimum.
+
+Nous traitons la décision vendre-ou-fermer comme l'un des moments à
+plus fort effet de levier dans la vie de la LLC. Une sortie propre,
+des deux côtés, est une valeur permanente pour le membre.
+
+<!-- /exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
+
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Comment dissoudre et fermer une LLC américaine : un chemin posé, étape par étape](/fr/blog/comment-dissoudre-et-fermer-une-llc-americaine-etape-par)
+- [Changer de prestataire de maintenance LLC sans perdre l'historique](/fr/blog/changer-de-prestataire-de-maintenance-llc-sans-perdre)
+- [Fiscalité des membres de LLC en cas de changement de résidence en cours d'année](/fr/blog/fiscalite-des-membres-de-llc-en-cas-de-changement-de)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 

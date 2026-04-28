@@ -118,6 +118,14 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
+<!-- exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de -->
+## Wie sich die Frage des Visa- und Mastercard-Reportings als stabiles Mapping statt als wiederkehrendes Gerücht lesen lässt
+
+Die Frage des Visa- und Mastercard-Reportings an die spanische Steuerbehörde liest sich ruhiger als stabiles Mapping zwischen Kartentyp, Kartenemittent, Land des Emittenten und dem Kanal, über den die Information die Behörde erreichen kann, denn als wiederkehrendes Gerücht. Die Netzwerke Visa und Mastercard entscheiden selbst nicht, was an wen gemeldet wird — der rechtliche Kanal, der die Information tatsächlich trägt, wird durch die Jurisdiktion des Emittenten und die für ihn geltenden Abkommen bestimmt.
+
+Eine kurze Notiz im persönlichen Ordner, die den Kartentyp, den Emittenten, das Ausstellungsland und den rechtlichen Inhaber des zugrunde liegenden Kontos festhält, macht dieselbe Frage in wenigen Minuten nachlesbar.
+<!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -224,6 +232,67 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
   **Zweite Säule — DAC7 für digitale Plattformen:** Die **DAC7-Richtlinie (Richtlinie 2021/514/EU vom 22.03.2021)** wurde in Deutschland durch das **Plattformen-Steuertransparenzgesetz (PStTG, BGBl. I 2022 S. 2730)** umgesetzt und ist seit 01.01.2023 in Kraft. Sie verpflichtet digitale Plattformen (z.B. Stripe, Booking.com, Etsy, Uber) zur jährlichen Meldung der über sie vermittelten Umsätze an das BZSt — meldepflichtig wird ein Verkäufer ab **30 Transaktionen** oder **€2.000 Umsatz pro Jahr** auf einer Plattform.
 
   **Dritte Säule — Mitwirkungspflichten:** Bei Auslandssachverhalten greift §90 Abs. 2 AO mit erhöhten Mitwirkungspflichten des Steuerpflichtigen. Bei einer Betriebsprüfung kann das Finanzamt nach **§147a AO** die Vorlage sämtlicher Kreditkartenabrechnungen verlangen, sofern es konkrete Anhaltspunkte für eine Verkürzung gibt.
+
+<!-- exentax:lote9-native-v1:visa-mastercard-reporting-tarjetas-hacienda -->
+## Was Visa- und Mastercard-Reporting für die LLC tatsächlich bedeutet
+
+Das Kartenreporting wird oft mit dem CRS-Reporting verwechselt,
+ist aber technisch und rechtlich etwas anderes. Visa- und
+Mastercard-Transaktionen erzeugen einen sehr detaillierten
+Datenstrom — Händler, Land, Betrag, Zeitpunkt — der für interne
+Risikoanalysen, Streitfälle und Betrugsprävention verwendet wird.
+Dieser Datenstrom wird nicht automatisch an Steuerbehörden
+übertragen, anders als das, was viele Mitglieder annehmen.
+
+Was tatsächlich an Steuerbehörden übertragen werden kann, hängt
+vom Konto ab, an das die Karte angebunden ist, nicht von der
+Karte selbst. Eine Karte, die mit einem CRS-pflichtigen Konto in
+Europa verknüpft ist, fliesst in den jährlichen CRS-Bericht
+dieses Kontos ein. Eine Karte, die mit einem US-Konto der LLC
+verknüpft ist, folgt dem US-Regime, das nicht Teil des CRS-
+Mechanismus ist.
+
+## Eine kurze praktische Empfehlung
+
+Für die LLC heisst das: die Frage "wird meine Karte gemeldet?"
+ist die falsche Frage. Die richtige Frage lautet "an welches
+Konto ist diese Karte angebunden, und welchem Reportingregime
+unterliegt dieses Konto?". Wer diese Unterscheidung verinnerlicht,
+trifft Entscheidungen über Geschäftskarten ruhig und ohne
+unbegründete Sorge — und vermeidet die Fehlinterpretationen, die
+sonst regelmässig in Foren und Chats kursieren.
+
+## Eine Schlussnotiz
+
+Die Visa- und Mastercard-Datenströme bleiben bestehen, weil sie
+für das Funktionieren des Kartensystems notwendig sind. Sie
+verändern sich nicht durch die Wahl des Kontoanbieters; was sich
+verändert, ist der rechtliche Rahmen, in den diese Daten
+einfliessen.
+
+<!-- /exentax:lote9-native-v1:visa-mastercard-reporting-tarjetas-hacienda -->
+
+<!-- exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de -->
+## Wie Karteninformationen tatsächlich bei der spanischen Steuerverwaltung ankommen
+
+Der Informationsfluss von den Kartennetzwerken zur spanischen Steuerverwaltung ist konkreter, als er manchmal klingt. Ausgangspunkt ist die spanische Bank oder Zahlungsinstitution, die die Karte ausgibt oder verarbeitet; das Netzwerk selbst ist die Schiene, nicht die meldende Stelle. Spanische Emittenten und Acquirer übermitteln in regelmässigen Zyklen informative Erklärungen an die Agencia Tributaria, und diese Erklärungen enthalten aggregierte Bewegungen pro Karteninhaber, nicht die Zeile-für-Zeile-Aufschlüsselung von Restaurant- oder Geschäftsumsätzen, die Verbraucher auf ihren Auszügen sehen. Die übertragene Information ist also numerisch und strukturell: Summen, Gegenparteien auf der Ebene der Händler-Aggregatoren und Identifikatoren, die es erlauben, die Datensätze einer Person oder Gesellschaft zuzuordnen.
+
+Ein zweiter Fluss läuft über die internationalen Kanäle des Informationsaustauschs, in denen Daten zu im Ausland gehaltenen Konten in standardisierten Formaten einmal jährlich geteilt werden. Eine Karte, die mit einem ausländischen Konto verknüpft ist, nimmt indirekt am zweiten Fluss teil, weil das zugrunde liegende Konto meldepflichtig ist. Für ein in Spanien ansässiges LLC-Mitglied lautet die praktische Schlussfolgerung: Es existieren zwei parallele Kanäle, sie überschneiden sich bei derselben Person, und sie gleichen sich mittelfristig ab. Die einfachste Hygiene besteht darin, die Kartenauszüge der LLC bei der Buchhaltung des Jahres aufzubewahren, sodass jede spätere Frage mit einer gedruckten Seite und einer Zahl beantwortet werden kann, ohne den Vorgang aus dem Gedächtnis rekonstruieren zu müssen.
+<!-- /exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de -->
+
+<!-- exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de-bis -->
+## Wie sich die Karten der LLC sauber von privaten Karten trennen lassen
+
+Eine separate Karte ausschliesslich für die operativen Ausgaben der LLC ist die einzelne Massnahme mit dem grössten Effekt auf die spätere Nachvollziehbarkeit. Sie verhindert die häufigste Quelle für nachträglichen Aufwand: das gemischte Abrechnen privater und geschäftlicher Posten auf derselben Karte. Eine zweite, ebenfalls hilfreiche Gewohnheit besteht darin, die monatlichen Kartenauszüge im selben digitalen Ordner abzulegen wie die Bankauszüge der LLC, sodass beim jährlichen Abschluss alle Belege bereits an einer einzigen Stelle vorliegen und keine separate Rekonstruktion nötig ist.
+<!-- /exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de-bis -->
+
+<!-- exentax:cross-refs-v1 -->
+## Zum Weiterlesen
+
+- [US-Bankkonten: was gemeldet wird und wie Ihre LLC meldet](/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die)
+- [Wise, IBAN und LLC: was wirklich an die Steuerbehörde gemeldet wird](/de/blog/wise-iban-und-llc-was-wirklich-an-die-steuerbehoerde)
+- [DAC8 und Krypto: automatische steuerliche Meldung 2026](/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?

@@ -119,6 +119,14 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **Models informatius davant l'AEAT.** Comptes als EUA i comptes IBAN europeus a nom personal (Wise, Revolut, N26, Wallester) amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022; sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. La presentació es fa per la seu electrònica de l'AEAT amb certificat digital o Cl@ve.
 - **CDI Espanya–EUA.** El conveni (BOE 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a l'Estat espanyol no constitueix, per si sola, EP del soci, però la direcció efectiva sí que pot crear-lo si tota la gestió es fa des de Catalunya: oficina a Barcelona, contractació local, decisions estratègiques preses des de territori català sense cap presència material als EUA.
 
+<!-- exentax:cross-refs-v1 -->
+## Sobre el mateix tema
+
+- [Autònom a Espanya vs LLC als EUA: comparativa fiscal completa](/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa)
+- [La teva LLC no paga impostos als EUA — què passa al teu país](/ca/blog/la-teva-llc-no-paga-impostos-als-eua-que-passa-al-teu-pais)
+- [Fiscalitat LLC per país de residència: el que es paga i on es paga](/ca/blog/fiscalitat-llc-per-pais-de-residencia-el-que-es-paga-on-es)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

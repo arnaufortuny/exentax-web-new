@@ -143,6 +143,20 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
+<!-- exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-ca -->
+## Com llegir el tancament de la LLC com una seqüència documentada en lloc d'un final sobtat
+
+El tancament de la LLC es llegeix de manera més útil com una seqüència documentada — declaracions finals, dissolució davant l'Estat, arxivament dels registres — en lloc d'un final sobtat. La seqüència no canvia amb la mida de la LLC, i una nota curta i datada al dossier de la LLC que registri cada pas amb la seva referència de confirmació fa el tancament defensable en pocs minuts en una conversa posterior amb un assessor o en una interacció amb una administració.
+<!-- /exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-ca -->
+
+<!-- exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-ca -->
+## Per què la nota s'organitza per pas de la seqüència i no per la data de tancament
+
+La nota s'organitza per pas de la seqüència — declaracions finals, dissolució, arxivament — i no per la data de tancament, perquè la seqüència es manté igual independentment del calendari escollit, i aquesta visió fa cada pas verificable de manera independent.
+
+Una nota curta i datada per pas al dossier de la LLC n'hi ha prou per reconstruir el procés de tancament en pocs minuts.
+<!-- /exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -210,6 +224,14 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [Errors crítics si ja tens una LLC i ningú no t'ho ha explicat](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
+- [Manteniment anual de la LLC: obligacions que no pots ignorar](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+- [Canviar de proveïdor de manteniment de la LLC sense perdre històric](/ca/blog/canviar-de-proveidor-de-manteniment-de-la-llc-sense-perdre)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?

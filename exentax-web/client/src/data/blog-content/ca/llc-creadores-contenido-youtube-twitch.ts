@@ -95,6 +95,12 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
+<!-- exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-ca -->
+## Com llegir el perfil LLC d'un creador de contingut com un mapatge estable entre plataformes i ingressos
+
+El perfil LLC d'un creador de contingut a YouTube o Twitch es llegeix de manera més útil com un mapatge estable entre plataformes i tipus d'ingrés que com una improvisació mensual.
+<!-- /exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-ca -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -162,6 +168,14 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cross-refs-v1 -->
+## Per continuar la lectura
+
+- [LLC americana per a desenvolupadors de programari i SaaS: guia](/ca/blog/llc-americana-per-a-desenvolupadors-de-programari-i)
+- [LLC per a agències de màrqueting digital: estructura i creixement](/ca/blog/llc-americana-per-a-agencies-de-marqueting-digital)
+- [LLC als Estats Units: guia completa per a no residents el 2026](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.

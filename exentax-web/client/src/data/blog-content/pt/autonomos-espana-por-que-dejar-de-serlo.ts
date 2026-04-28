@@ -132,6 +132,12 @@ A aplicação concreta de qualquer destas normas ao seu caso depende da sua resi
 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
+<!-- exentax:lote36-native-v1:autonomos-espana-por-que-dejar-de-serlo-pt -->
+## Como ler a questão de sair do regime de autónomo em Espanha como uma decisão estrutural estável em vez de um desabafo mensal
+
+A questão de sair do regime de autónomo em Espanha lê-se de forma mais útil como uma decisão estrutural estável entre a atividade efetivamente exercida, a residência do beneficiário e o veículo que detém a atividade, em vez de um desabafo mensal sobre as contribuições sociais. A leitura não muda a cada recibo.
+<!-- /exentax:lote36-native-v1:autonomos-espana-por-que-dejar-de-serlo-pt -->
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -177,6 +183,14 @@ Na Exentax não propomos saída do RETA por defeito: fazemos a conta com os seus
 ## Montamos para si sem perder um fim de semana
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cross-refs-v1 -->
+## Para continuar a leitura
+
+- [LLC americana como alternativa real ao autónomo em Espanha](/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha)
+- [Tributação da LLC por país de residência: o que se paga onde se vive](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
+- [Por que abrir uma LLC americana em 2026: 5 pilares da vantagem](/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da)
+<!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

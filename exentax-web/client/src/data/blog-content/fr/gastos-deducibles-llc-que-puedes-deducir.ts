@@ -206,6 +206,14 @@ Chez Exentax nous mettons en place la comptabilité de votre LLC dès le premier
 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [Charges déductibles pour les autonomos en 2026 : la liste pratique](/fr/blog/depenses-deductibles-autonomo-espagne-2026)
+- [Imposition de la LLC par activité : services, e-commerce, SaaS, trading](/fr/blog/imposition-de-la-llc-selon-lactivite-economique-services)
+- [LLC aux États-Unis : guide complet pour non-résidents en 2026](/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

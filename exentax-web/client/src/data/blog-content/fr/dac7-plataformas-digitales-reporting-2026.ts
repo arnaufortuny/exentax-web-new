@@ -161,6 +161,14 @@ Des milliers d'auto-entrepreneurs et d'entrepreneurs opèrent déjà avec leur L
 Vous voulez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
 
 
+<!-- exentax:cross-refs-v1 -->
+## Sur le même sujet
+
+- [DAC8 et cryptos : reporting fiscal automatique des crypto-actifs en 2026](/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal)
+- [Vendre sur Amazon avec votre LLC : guide pour vendeurs internationaux](/fr/blog/vendre-sur-amazon-avec-votre-llc-guide-complet-pour-vendeurs)
+- [TVA sur les services numériques internationaux : quand elle s'applique](/fr/blog/tva-sur-les-services-numeriques-internationaux-quand-elle)
+<!-- /exentax:cross-refs-v1 -->
+
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 
