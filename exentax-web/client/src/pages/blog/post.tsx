@@ -782,6 +782,12 @@ export default function BlogPost() {
   // when absent we cascade socialDescription → metaDescription so previews
   // never go empty.
   const displayOgDesc = localized?.ogDescription || post.ogDescription || displaySocialDesc || displayMetaDesc;
+  // Per-article social card image. Cascades: localized override → post default
+  // → undefined (which lets SEOHead fall back to the global brand card).
+  const displayOgImage = localized?.ogImage || post.ogImage || undefined;
+  const resolvedOgImageUrl = displayOgImage
+    ? (displayOgImage.startsWith("http") ? displayOgImage : `${CONTACT.SITE_URL}${displayOgImage}`)
+    : `${CONTACT.SITE_URL}/og-image.png`;
   const displayKeywords = (localized?.keywords && localized.keywords.length
     ? localized.keywords
     : post.keywords && post.keywords.length
@@ -864,7 +870,7 @@ export default function BlogPost() {
       "@id": articleUrl,
     },
     "url": articleUrl,
-    "image": `${CONTACT.SITE_URL}/og-image.png`,
+    "image": resolvedOgImageUrl,
     "inLanguage": lang,
     "articleSection": post.category,
     ...(displayKeywords ? { "keywords": displayKeywords } : {}),
@@ -937,6 +943,7 @@ export default function BlogPost() {
         description={displayMetaDesc}
         ogTitle={displayOgTitle}
         ogDescription={displayOgDesc}
+        image={displayOgImage ? resolvedOgImageUrl : undefined}
         keywords={displayKeywords}
         path={`/${lang}/blog/${currentTranslatedSlug}`}
         ogType="article"

@@ -21,6 +21,7 @@ const I18N_LOC = join(REPO, "client/src/i18n/locales");
 const SUBPAGES_FILE = join(REPO, "client/src/i18n/data/subpages.ts");
 const BLOG_I18N = join(REPO, "client/src/data/blog-i18n");
 const BLOG_POSTS = join(REPO, "client/src/data/blog-posts.ts");
+const PUBLIC_DIR = join(REPO, "client/public");
 const OUT_DIR = join(REPO, "docs/audits");
 
 const LANGS = ["es", "en", "fr", "de", "pt", "ca"] as const;
@@ -54,12 +55,22 @@ type PageEntry = {
   effectiveOgDescription: string;
   twitterCard: "summary_large_image";
   ogImage: string;
+  ogImageOverride: boolean;
   issues: string[];
 };
 
 const DEFAULT_OG_IMAGE = "/og-image.png";
 
 const read = (file: string) => readFileSync(file, "utf8");
+
+// Resolve a public-path og:image to an absolute file inside client/public so
+// we can verify the asset is actually shipped. Skips remote URLs (those are
+// the publisher's responsibility — we just record them in the audit).
+function resolveOgImageFile(publicPath: string): string | null {
+  if (/^https?:\/\//i.test(publicPath)) return null;
+  const clean = publicPath.replace(/^\//, "").split("?")[0];
+  return join(PUBLIC_DIR, clean);
+}
 
 function buildEntry(
   scope: "static" | "subpage" | "blog",
@@ -70,9 +81,12 @@ function buildEntry(
   metaDescription: string,
   ogTitle: string | null,
   ogDescription: string | null,
+  ogImage?: string | null,
 ): PageEntry {
   const effectiveOgTitle = (ogTitle && ogTitle.trim()) || metaTitle;
   const effectiveOgDescription = (ogDescription && ogDescription.trim()) || metaDescription;
+  const ogImageOverride = !!(ogImage && ogImage.trim());
+  const effectiveOgImage = ogImageOverride ? ogImage!.trim() : DEFAULT_OG_IMAGE;
   const issues: string[] = [];
   if (!effectiveOgTitle) issues.push("missing-og-title");
   if (!effectiveOgDescription) issues.push("missing-og-description");
@@ -81,6 +95,16 @@ function buildEntry(
   if (effectiveOgDescription.length > OG_DESC_MAX) issues.push(`og-description-too-long(${effectiveOgDescription.length}>${OG_DESC_MAX})`);
   if (effectiveOgDescription.length > 0 && effectiveOgDescription.length < OG_DESC_MIN)
     issues.push(`og-description-short(${effectiveOgDescription.length}<${OG_DESC_MIN})`);
+  // Verify the og:image asset is shipped. Missing image breaks the social
+  // preview regardless of how good the copy is — flag it loudly.
+  if (!effectiveOgImage) {
+    issues.push("missing-og-image");
+  } else {
+    const localFile = resolveOgImageFile(effectiveOgImage);
+    if (localFile && !existsSync(localFile)) {
+      issues.push(`missing-og-image-asset(${effectiveOgImage})`);
+    }
+  }
   return {
     scope,
     ns,
@@ -94,7 +118,8 @@ function buildEntry(
     effectiveOgTitle,
     effectiveOgDescription,
     twitterCard: "summary_large_image",
-    ogImage: DEFAULT_OG_IMAGE,
+    ogImage: effectiveOgImage,
+    ogImageOverride,
     issues,
   };
 }
@@ -106,6 +131,10 @@ function extractStaticPages(lang: Lang): PageEntry[] {
   for (let i = 0; i < lines.length; i++) {
     const mt = lines[i].match(/(?:seoTitle)\s*:\s*"((?:[^"\\]|\\.)*)"/);
     if (!mt) continue;
+    // Static pages don't carry per-namespace ogImage today; they all rely on
+    // the global brand card. We still pass through the field so future
+    // overrides can be added without touching this extractor.
+    let ogImage: string | null = null;
     // Walk backwards tracking brace balance to find the immediately
     // enclosing namespace block. Each unmatched `}` raises depth and each
     // matching `xxx: {` we encounter lowers it; the candidate that brings
@@ -137,7 +166,7 @@ function extractStaticPages(lang: Lang): PageEntry[] {
       if (mod) ogDesc = mod[1];
       if (/^\s{0,4}\}/.test(lines[j])) break;
     }
-    out.push(buildEntry("static", ns, ns, lang, mt[1], metaDesc, ogTitle, ogDesc));
+    out.push(buildEntry("static", ns, ns, lang, mt[1], metaDesc, ogTitle, ogDesc, ogImage));
   }
   return out;
 }
@@ -179,7 +208,7 @@ function extractSubpages(): PageEntry[] {
       const mod = lines[j].match(/ogDescription\s*:\s*"((?:[^"\\]|\\.)*)"/);
       if (mod) ogDesc = mod[1];
     }
-    out.push(buildEntry("subpage", "subpages." + page, page, lang, title, desc, ogTitle, ogDesc));
+    out.push(buildEntry("subpage", "subpages." + page, page, lang, title, desc, ogTitle, ogDesc, null));
   }
   return out;
 }
@@ -191,6 +220,7 @@ type BlogMeta = {
   socialDescription: string | null;
   ogTitle: string | null;
   ogDescription: string | null;
+  ogImage: string | null;
 };
 
 function pickField(block: string, name: string): string | null {
@@ -218,6 +248,7 @@ function extractBlogEs(): BlogMeta[] {
       socialDescription: pickField(block, "socialDescription"),
       ogTitle: pickField(block, "ogTitle"),
       ogDescription: pickField(block, "ogDescription"),
+      ogImage: pickField(block, "ogImage"),
     });
   }
   return items;
@@ -243,6 +274,7 @@ function extractBlogI18n(lang: Exclude<Lang, "es">): BlogMeta[] {
       socialDescription: pickField(body, "socialDescription"),
       ogTitle: pickField(body, "ogTitle"),
       ogDescription: pickField(body, "ogDescription"),
+      ogImage: pickField(body, "ogImage"),
     });
   }
   return items;
@@ -259,13 +291,23 @@ for (const lang of LANGS) {
   const items = lang === "es" ? extractBlogEs() : extractBlogI18n(lang);
   for (const b of items) {
     allEntries.push(
-      buildEntry("blog", "blog", b.slug, lang, b.metaTitle, b.metaDescription, b.ogTitle, b.ogDescription || b.socialDescription),
+      buildEntry(
+        "blog",
+        "blog",
+        b.slug,
+        lang,
+        b.metaTitle,
+        b.metaDescription,
+        b.ogTitle,
+        b.ogDescription || b.socialDescription,
+        b.ogImage,
+      ),
     );
   }
 }
 
-type Sum = { total: number; static: number; subpages: number; blog: number; withExplicitOgTitle: number; withExplicitOgDescription: number; issues: number };
-const empty = (): Sum => ({ total: 0, static: 0, subpages: 0, blog: 0, withExplicitOgTitle: 0, withExplicitOgDescription: 0, issues: 0 });
+type Sum = { total: number; static: number; subpages: number; blog: number; withExplicitOgTitle: number; withExplicitOgDescription: number; withOgImageOverride: number; missingOgImage: number; issues: number };
+const empty = (): Sum => ({ total: 0, static: 0, subpages: 0, blog: 0, withExplicitOgTitle: 0, withExplicitOgDescription: 0, withOgImageOverride: 0, missingOgImage: 0, issues: 0 });
 const summary: Record<Lang, Sum> = { es: empty(), en: empty(), fr: empty(), de: empty(), pt: empty(), ca: empty() };
 
 for (const e of allEntries) {
@@ -276,6 +318,8 @@ for (const e of allEntries) {
   if (e.scope === "blog") s.blog++;
   if (e.ogTitle) s.withExplicitOgTitle++;
   if (e.ogDescription) s.withExplicitOgDescription++;
+  if (e.ogImageOverride) s.withOgImageOverride++;
+  if (e.issues.some((i) => i.startsWith("missing-og-image"))) s.missingOgImage++;
   if (e.issues.length) s.issues++;
 }
 
@@ -339,6 +383,11 @@ writeFileSync(join(OUT_DIR, "previews-optimizadas.json"), JSON.stringify(optimiz
 const totals = {
   totalEntries: allEntries.length,
   totalIssues: allEntries.reduce((n, e) => n + (e.issues.length ? 1 : 0), 0),
+  totalWithOgImageOverride: allEntries.reduce((n, e) => n + (e.ogImageOverride ? 1 : 0), 0),
+  totalMissingOgImage: allEntries.reduce(
+    (n, e) => n + (e.issues.some((i) => i.startsWith("missing-og-image")) ? 1 : 0),
+    0,
+  ),
 };
 console.log("Wrote", join(OUT_DIR, "previews-audit.json"));
 console.log("Wrote", join(OUT_DIR, "previews-optimizadas.json"));

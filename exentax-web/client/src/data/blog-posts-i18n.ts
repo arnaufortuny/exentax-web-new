@@ -15,6 +15,12 @@ export interface BlogPostMeta {
   ogTitle?: string;
   /** Persuasive Open Graph description (120–160). Falls back to socialDescription/metaDescription. */
   ogDescription?: string;
+  /**
+   * Optional per-article social card image (1200x630) for this language.
+   * When omitted, the SEO component falls back to the post's default
+   * `ogImage` and finally to the brand card at `/og-image.png`.
+   */
+  ogImage?: string;
   keywords?: string[];
 }
 

@@ -39,6 +39,12 @@ export interface BlogPost {
    * window required by Facebook / LinkedIn / X.
    */
   ogDescription?: string;
+  /**
+   * Optional per-article social card image (1200x630). When omitted, the
+   * SEO component falls back to the default Exentax brand card at
+   * `/og-image.png`. Must be a public path served from `client/public/`.
+   */
+  ogImage?: string;
   keywords?: string[];
   countries?: BlogCountryCode[];
   relatedSlugs?: string[];

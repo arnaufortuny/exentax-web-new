@@ -66,6 +66,22 @@ if (!OG_IMAGE_OK) {
   errors.push(`og:image asset missing at ${OG_IMAGE_FILE} (public path ${OG_IMAGE_PUBLIC_PATH})`);
 }
 
+// Per-entry og:image checks: when a static page, subpage or blog post opts
+// into a per-article image override, the audit script flags any unshipped
+// asset with `missing-og-image-asset(<path>)`. Mirror that signal into the
+// validator so CI fails when an override points at a missing file.
+const seenMissingOgImage = new Set();
+for (const e of audit.entries) {
+  for (const issue of e.issues || []) {
+    if (issue.startsWith("missing-og-image")) {
+      const key = `${e.scope}:${e.ns}:${e.page}:${e.lang}:${issue}`;
+      if (seenMissingOgImage.has(key)) continue;
+      seenMissingOgImage.add(key);
+      errors.push(`${e.scope} ${e.ns}/${e.page}/${e.lang}: ${issue}`);
+    }
+  }
+}
+
 // 1. og:locale mapping ---------------------------------------------------
 for (const [lang, expected] of Object.entries(REQUIRED_LOCALES)) {
   if (audit.rules.localeMap[lang] !== expected) {

@@ -27,6 +27,25 @@ Renderizado por los componentes de `client/src/components/seo/`:
 - Open Graph + Twitter Cards completos.
 - Canonical absoluto por URL en cada idioma.
 
+## Open Graph image
+
+- **Estrategia aprobada (Tarea #20):** un único `og:image` global de marca,
+  el "Exentax OG card" en `client/public/og-image.png` (1200×630 PNG, 91 KB).
+  No se generan variantes por idioma porque la tarjeta es bilingüe-neutra
+  (logo + claim "0% Federal Tax") y mantiene CTR uniforme entre ES/EN/FR/DE/PT/CA.
+- Cableado en `client/src/components/SEO.tsx` como default de `og:image` y
+  `twitter:image`; el prerender HTML (`server/static.ts`) inyecta el mismo
+  asset para los bots, y `index.html` lo declara para fetchers que no
+  ejecutan JS.
+- **Override por página soportado:** los posts de blog pueden declarar
+  `ogImage` en `client/src/data/blog-posts.ts` (default ES) o por idioma en
+  `client/src/data/blog-i18n/<lang>.ts`. Cuando está presente, se propaga a
+  `<SEO image>` y al `BlogPosting` JSON-LD. Sin override, cae al brand card.
+- **Garantía CI:** `scripts/seo/audit-social-previews.ts` verifica que cada
+  ruta pública declarada exista en `client/public/` y emite
+  `missing-og-image-asset(<path>)`; `scripts/seo/validate-social-previews.mjs`
+  convierte ese señal en error duro.
+
 ## Auditorías automáticas
 
 | Gate | Qué garantiza |
