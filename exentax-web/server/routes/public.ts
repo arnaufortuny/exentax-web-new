@@ -320,9 +320,9 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       case "ES":
         calculatorCountry = "espana"; currency = "EUR"; ccaaProfile = "medium"; break;
       case "MX":
-        calculatorCountry = "mexico"; currency = "MXN"; ccaaProfile = "medium"; break;
+        calculatorCountry = "mexico"; currency = "EUR"; ccaaProfile = "medium"; break;
       case "CL":
-        calculatorCountry = "chile"; currency = "CLP"; ccaaProfile = "medium"; break;
+        calculatorCountry = "chile"; currency = "EUR"; ccaaProfile = "medium"; break;
       case "GB":
       case "UK":
         calculatorCountry = "reino-unido"; currency = "GBP"; ccaaProfile = "medium"; break;

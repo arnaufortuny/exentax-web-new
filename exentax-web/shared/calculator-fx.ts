@@ -6,8 +6,6 @@ export const FX_RATES_PER_EUR = {
   EUR: 1,
   USD: 1.08,
   GBP: 0.86,
-  MXN: 22,
-  CLP: 1000,
 } as const;
 
 export type DisplayCurrencyCode = keyof typeof FX_RATES_PER_EUR;

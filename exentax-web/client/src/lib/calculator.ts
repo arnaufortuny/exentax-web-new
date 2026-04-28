@@ -193,8 +193,8 @@ import {
   ACTIVITY_EXPENSE_RATE_DEFAULT,
   DISPLAY_CURRENCIES as _DISPLAY_CURRENCIES,
   GBP_PER_EUR,
-  MXN_PER_EUR,
-  CLP_PER_EUR,
+  _MEXICO_PESO_PER_EUR_INTERNAL as MXN_PER_EUR,
+  _CHILE_PESO_PER_EUR_INTERNAL as CLP_PER_EUR,
   MONTHLY_INCOME_MIN as _MONTHLY_INCOME_MIN,
   MONTHLY_INCOME_MAX as _MONTHLY_INCOME_MAX,
   MONTHLY_INCOME_SANITY_MAX,
@@ -800,10 +800,13 @@ export function formatCurrency(valueEUR: number, displayCurrencyCode: string = "
 }
 
 // Default display currency by country (still useful as a default).
+// Mexico/Chile fall back to EUR — local pesos are no longer offered as a
+// display currency; tax math still applies the local-currency brackets
+// internally via the helpers in calculator-config.ts.
 export const COUNTRY_CURRENCY: Record<string, { symbol: string; code: string; name: string; rate: number }> = {
   espana:        DISPLAY_CURRENCIES.EUR,
-  mexico:        DISPLAY_CURRENCIES.MXN,
-  chile:         DISPLAY_CURRENCIES.CLP,
+  mexico:        DISPLAY_CURRENCIES.EUR,
+  chile:         DISPLAY_CURRENCIES.EUR,
   "reino-unido": DISPLAY_CURRENCIES.GBP,
   belgica:       DISPLAY_CURRENCIES.EUR,
   francia:       DISPLAY_CURRENCIES.EUR,

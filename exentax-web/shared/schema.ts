@@ -103,7 +103,7 @@ export const calculations = pgTable("calculations", {
   // Replay fingerprint: full input + result of the calculator submission.
   // Audit Task #8 (April 2026): persist the full input/result fingerprint
   // so support, fact-check and analytics can replay any past calculation.
-  displayCurrency: text("display_currency"),     // EUR | USD | GBP | MXN | CLP
+  displayCurrency: text("display_currency"),     // EUR | USD | GBP
   options: text("opciones"),                     // JSON: { tarifaPlana?, franceMicro? }
   bestStructureId: text("mejor_estructura"),     // autonomo | sociedad | llc
   llcVsAutonomo: text("ahorro_llc_vs_autonomo"), // signed delta (€/year)

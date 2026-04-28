@@ -29,7 +29,7 @@ export const calculatorLeadSchema = z.object({
   marketingAccepted: z.boolean().optional().default(false),
   language: z.string().max(10).optional().nullable(),
   // Optional fidelity fields (back-compat with older clients).
-  displayCurrency: z.enum(["EUR", "USD", "GBP", "MXN", "CLP"]).optional(),
+  displayCurrency: z.enum(["EUR", "USD", "GBP"]).optional(),
   bestStructureId: z.enum(["autonomo", "sociedad", "llc"]).optional(),
   llcVsAutonomo: z.number().min(-120_000_000).max(120_000_000).optional(),
   llcVsSociedad: z.number().min(-120_000_000).max(120_000_000).optional(),

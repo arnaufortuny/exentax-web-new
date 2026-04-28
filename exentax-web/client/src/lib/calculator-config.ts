@@ -440,14 +440,17 @@ export const DISPLAY_CURRENCIES: Record<string, { symbol: string; code: string; 
   EUR: { symbol: "€", code: "EUR", name: "Euro",          rate: FX_RATES_PER_EUR.EUR },
   USD: { symbol: "$", code: "USD", name: "US Dollar",     rate: FX_RATES_PER_EUR.USD },
   GBP: { symbol: "£", code: "GBP", name: "British Pound", rate: FX_RATES_PER_EUR.GBP },
-  MXN: { symbol: "$", code: "MXN", name: "Peso Mexicano", rate: FX_RATES_PER_EUR.MXN },
-  CLP: { symbol: "$", code: "CLP", name: "Peso Chileno",  rate: FX_RATES_PER_EUR.CLP },
 };
 
 // Convenience accessors so tax helpers don't read the rate map twice.
 export const GBP_PER_EUR = DISPLAY_CURRENCIES.GBP.rate;
-export const MXN_PER_EUR = DISPLAY_CURRENCIES.MXN.rate;
-export const CLP_PER_EUR = DISPLAY_CURRENCIES.CLP.rate;
+
+// Internal-only conversion factors for autónomo bracket math in countries
+// whose IRPF/ISR is denominated by law in the local currency. NOT exposed
+// as user-selectable display currencies — Mexico/Chile users see results
+// in EUR/USD/GBP. Stable approximations; update together with brackets.
+export const _MEXICO_PESO_PER_EUR_INTERNAL = 22;
+export const _CHILE_PESO_PER_EUR_INTERNAL = 1000;
 
 // --- Input safety bounds -----------------------------------------------------
 
