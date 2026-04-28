@@ -22,7 +22,7 @@
  * The lint operates on raw source — no test rig, no DB, no env — so it
  * runs in <100 ms inside `npm run check` and gates every PR.
  */
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -33,7 +33,23 @@ const REPO_ROOT = join(__dirname, "..", "..");
 const failures = [];
 function fail(msg) { failures.push(msg); }
 
-const emailSrc = readFileSync(join(REPO_ROOT, "server", "email.ts"), "utf8");
+// After T002 of #13, the monolithic `server/email.ts` was split into a
+// per-template directory `server/email/{transport,booking-confirmation,
+// booking-reminder,reschedule,cancellation,no-show,post-meeting,
+// incomplete-booking,calculator,drip,calc-drip,newsletter,index}.ts`.
+// The lint operates on the concatenation of every file in that directory
+// so the same regex-based rules continue to span the full transport
+// surface (sendEmail callsites, headerPolicy choices, ctaButton/withUtm
+// pairs, FROM_NAME_BY_FAMILY identity table, GUIDE_PDF placeholder
+// guard) without needing per-file rule wiring. Order is sorted-by-name
+// for deterministic line numbers in failure messages.
+const EMAIL_DIR = join(REPO_ROOT, "server", "email");
+const emailFiles = readdirSync(EMAIL_DIR)
+  .filter(f => f.endsWith(".ts"))
+  .sort();
+const emailSrc = emailFiles
+  .map(f => `// ── ${f} ──\n` + readFileSync(join(EMAIL_DIR, f), "utf8"))
+  .join("\n");
 const newsletterSrc = readFileSync(
   join(REPO_ROOT, "server", "scheduled", "newsletter-broadcast.ts"),
   "utf8",
