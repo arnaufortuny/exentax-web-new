@@ -154,6 +154,9 @@ async function cleanup() {
       eq(s.consentLog.source, "booking"),
       like(s.consentLog.email, "%@e2e.exentax.test"),
     ));
+    // Drain any orphan email-retry jobs spawned by these bookings so the
+    // dev worker doesn't keep retrying them every minute.
+    await db.delete(s.emailRetryQueue).where(like(s.emailRetryQueue.payload, "%@e2e.exentax.test%"));
     console.log(`\nCleanup: removed ${createdBookingIds.length} test booking(s).`);
   } catch (err) {
     console.error("Cleanup error:", err);

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-27T15:38:59.633Z",
-  "totalChunks": 711,
-  "totalKb": 18417.5,
-  "totalGzipKb": 7105.3,
+  "generatedAt": "2026-04-28T08:54:07.603Z",
+  "totalChunks": 712,
+  "totalKb": 18534.5,
+  "totalGzipKb": 7151.5,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -19,163 +19,163 @@
   "summary": {
     "page": {
       "count": 21,
-      "totalKb": 667.4,
-      "maxKb": 131.2,
-      "maxFile": "ExistingLlcCallout-DBIcXmyy.js"
+      "totalKb": 763.3,
+      "maxKb": 131.9,
+      "maxFile": "ExistingLlcCallout-BSRxKQyJ.js"
     },
     "blog-post": {
       "count": 672,
-      "totalKb": 14979.8,
+      "totalKb": 14979,
       "maxKb": 41.5,
       "maxFile": "blog-de-boe-febrero-2020-llc-doctrina-administrativa-BGBx7w5a.js"
     },
     "blog-shared": {
       "count": 2,
-      "totalKb": 175.1,
+      "totalKb": 175.5,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-DBKqjE25.js"
+      "maxFile": "blog-posts-content-47rNIl3I.js"
+    },
+    "css": {
+      "count": 2,
+      "totalKb": 120.5,
+      "maxKb": 112.5,
+      "maxFile": "index-BQ8XRT3b.css"
     },
     "locale": {
       "count": 10,
-      "totalKb": 1714.9,
-      "maxKb": 262.6,
-      "maxFile": "fr-DTBowC-q.js"
+      "totalKb": 1724.1,
+      "maxKb": 263.6,
+      "maxFile": "fr-C3bBcU6j.js"
     },
     "entry-index": {
       "count": 1,
-      "totalKb": 491.6,
-      "maxKb": 491.6,
-      "maxFile": "index-C3bCLD39.js"
-    },
-    "css": {
-      "count": 1,
-      "totalKb": 110.8,
-      "maxKb": 110.8,
-      "maxFile": "index-DnUm-HCG.css"
+      "totalKb": 494.1,
+      "maxKb": 494.1,
+      "maxFile": "index-DHpm24Hk.js"
     },
     "vendor-i18n": {
       "count": 1,
       "totalKb": 48.1,
       "maxKb": 48.1,
-      "maxFile": "vendor-i18n-DbA8zss3.js"
+      "maxFile": "vendor-i18n-BW4uwNrt.js"
     },
     "vendor-query": {
       "count": 1,
       "totalKb": 38.5,
       "maxKb": 38.5,
-      "maxFile": "vendor-query-CRcz9V_E.js"
+      "maxFile": "vendor-query-DuWKCaa3.js"
     },
     "vendor-react": {
       "count": 1,
       "totalKb": 188.4,
       "maxKb": 188.4,
-      "maxFile": "vendor-react-Dn3pgp6h.js"
+      "maxFile": "vendor-react-DcHID7EP.js"
     },
     "vendor-router": {
       "count": 1,
       "totalKb": 4,
       "maxKb": 4,
-      "maxFile": "vendor-router-DWWl8GXP.js"
+      "maxFile": "vendor-router-FTCqIhHL.js"
     }
   },
   "top": [
     {
-      "file": "index-C3bCLD39.js",
+      "file": "index-DHpm24Hk.js",
       "category": "entry-index",
-      "bytesKb": 491.6,
-      "gzipKb": 144.1
+      "bytesKb": 494.1,
+      "gzipKb": 145.3
     },
     {
-      "file": "fr-DTBowC-q.js",
+      "file": "fr-C3bBcU6j.js",
       "category": "locale",
-      "bytesKb": 262.6,
-      "gzipKb": 78.2
+      "bytesKb": 263.6,
+      "gzipKb": 78.5
     },
     {
-      "file": "de-B8OFJ42t.js",
+      "file": "de-s0ilue9e.js",
       "category": "locale",
-      "bytesKb": 256.5,
-      "gzipKb": 79.2
+      "bytesKb": 256.7,
+      "gzipKb": 79.4
     },
     {
-      "file": "pt-C6YIhNpI.js",
+      "file": "pt-DLBo2zTi.js",
       "category": "locale",
-      "bytesKb": 243.2,
-      "gzipKb": 73.7
+      "bytesKb": 243.3,
+      "gzipKb": 73.8
     },
     {
-      "file": "ca-BQ4gmcwY.js",
+      "file": "ca-UoQEzmzj.js",
       "category": "locale",
-      "bytesKb": 242.2,
-      "gzipKb": 74.5
+      "bytesKb": 242.3,
+      "gzipKb": 74.7
     },
     {
-      "file": "en-CfWUklsW.js",
+      "file": "en-D0ADIPzc.js",
       "category": "locale",
-      "bytesKb": 232.1,
-      "gzipKb": 71.5
+      "bytesKb": 232.3,
+      "gzipKb": 71.7
     },
     {
-      "file": "vendor-react-Dn3pgp6h.js",
+      "file": "vendor-react-DcHID7EP.js",
       "category": "vendor-react",
       "bytesKb": 188.4,
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-DBIcXmyy.js",
+      "file": "ExistingLlcCallout-BSRxKQyJ.js",
       "category": "page",
-      "bytesKb": 131.2,
-      "gzipKb": 28.8
+      "bytesKb": 131.9,
+      "gzipKb": 30.1
     },
     {
-      "file": "index-DnUm-HCG.css",
+      "file": "booking-CCjP4oks.js",
+      "category": "page",
+      "bytesKb": 115.8,
+      "gzipKb": 30.8
+    },
+    {
+      "file": "index-BQ8XRT3b.css",
       "category": "css",
-      "bytesKb": 110.8,
-      "gzipKb": 20.5
+      "bytesKb": 112.5,
+      "gzipKb": 20.7
     },
     {
-      "file": "fr-BxvYeDoF.js",
+      "file": "fr-DkgZeIlt.js",
       "category": "locale",
-      "bytesKb": 97.5,
-      "gzipKb": 22.4
+      "bytesKb": 99.1,
+      "gzipKb": 25.2
     },
     {
-      "file": "blog-posts-content-DBKqjE25.js",
+      "file": "en-Cr7l_9iN.js",
+      "category": "locale",
+      "bytesKb": 97,
+      "gzipKb": 24.8
+    },
+    {
+      "file": "de-CoPOH8EV.js",
+      "category": "locale",
+      "bytesKb": 96.9,
+      "gzipKb": 25.8
+    },
+    {
+      "file": "pt-CmspWeS7.js",
+      "category": "locale",
+      "bytesKb": 96.8,
+      "gzipKb": 24.5
+    },
+    {
+      "file": "blog-posts-content-47rNIl3I.js",
       "category": "blog-shared",
       "bytesKb": 96.3,
-      "gzipKb": 13
-    },
-    {
-      "file": "pt-DTi6PF6C.js",
-      "category": "locale",
-      "bytesKb": 95.6,
-      "gzipKb": 21.1
-    },
-    {
-      "file": "de-C41MzcfJ.js",
-      "category": "locale",
-      "bytesKb": 95.3,
-      "gzipKb": 22.4
-    },
-    {
-      "file": "en-CtgQ919_.js",
-      "category": "locale",
-      "bytesKb": 95.3,
-      "gzipKb": 22.7
-    },
-    {
-      "file": "ca-AL1NVp2-.js",
-      "category": "locale",
-      "bytesKb": 94.6,
-      "gzipKb": 21.3
+      "gzipKb": 12.9
     }
   ],
   "offenders": [],
   "hardBudget": {
-    "serverBytes": 0,
-    "publicBytes": 20192057,
-    "serverMb": 0,
-    "publicMb": 19.26,
+    "serverBytes": 5831527,
+    "publicBytes": 20326754,
+    "serverMb": 5.56,
+    "publicMb": 19.39,
     "serverBudgetMb": 7,
     "publicBudgetMb": 30,
     "serverOk": true,
