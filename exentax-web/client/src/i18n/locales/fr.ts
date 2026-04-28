@@ -87,7 +87,7 @@ const fr = {
 
 <div class="legal-hl"><p><strong>DECLARATION FINALE</strong></p><p>EN UTILISANT NOS SERVICES, EN EFFECTUANT UN PAIEMENT, EN REMPLISSANT LE CALCULATEUR, EN PLANIFIANT UN APPEL, OU EN NOUS CONTACTANT PAR QUELQUE MOYEN QUE CE SOIT, VOUS DECLAREZ ET CONFIRMEZ QUE :</p><ul><li>Vous avez lu ces Conditions dans leur intégralité</li><li>Vous les comprenez</li><li>Vous acceptez d'être légalement lie</li><li>Vous reconnaissez les limitations de responsabilité d'Exentax</li><li>Vous comprenez qu'Exentax NE fournit PAS de conseil juridique</li><li>Vous comprenez qu'Exentax NE fournit PAS de conseil fiscal professionnel</li><li>Vous vous engagez a obtenir un conseil professionnel indépendant</li><li>Vous acceptez la juridiction exclusive des tribunaux du New Mexico</li><li>Vous fournirez des informations véridiques</li><li>Vous n'utiliserez PAS les services a des fins illégales</li><li>Vous assumez l'entiere responsabilité de l'utilisation de la LLC</li></ul></div>
 
-<div class="legal-related"><h2>Documents associés</h2><ul><li><a href="/fr/legal/confidentialite">Politique de confidentialité</a></li></ul></div>
+
 <div class="legal-footer"><p>Dernière mise à jour : 21 février 2026</p><p>Version : 1.0 Exentax LLC - New Mexico, United States</p></div>`
     },
     privacidad: {
@@ -640,7 +640,7 @@ const fr = {
 <p>Pour des services spécifiques (marketing), nous demanderons un consentement expres supplémentaire.</p>
 </div>
 
-<div class="legal-related"><h2>Documents associés</h2><ul><li><a href="/fr/legal/cookies">Politique de cookies</a></li></ul></div>
+
 <div class="legal-footer">
 <p>Dernière mise à jour : 21 février 2026</p>
 <p>Version : 1.0 Exentax LLC - New Mexico, United States</p>
@@ -681,7 +681,7 @@ const fr = {
 
 <div><h2>11. Contact</h2><p>Pour toute question sur les cookies :</p><ul><li><strong>Email :</strong> <a href="mailto:legal@exentax.com" data-testid="link-email-cookies">legal@exentax.com</a></li><li><strong>Objet :</strong> "Question sur les cookies"</li><li><strong>Adresse :</strong> 1209 Mountain Road Place Northeast, STE R, Albuquerque, NM 87110, United States</li></ul></div>
 
-<div class="legal-related"><h2>Documents associés</h2><ul><li><a href="/fr/legal/confidentialite">Politique de confidentialité</a></li></ul></div>
+
 <div class="legal-footer"><p>Dernière mise à jour : 21 février 2026</p><p>Version : 1.0 Exentax LLC - New Mexico, United States</p></div>`
     },
     reembolsos: {

@@ -87,7 +87,7 @@ const en = {
 
 <div class="legal-hl"><p><strong>FINAL DECLARATION</strong></p><p>BY USING OUR SERVICES, MAKING A PAYMENT, COMPLETING THE CALCULATOR, SCHEDULING A CALL, OR CONTACTING US BY ANY MEANS, YOU DECLARE AND CONFIRM THAT:</p><ul><li>You have read these Terms completely</li><li>You understand them</li><li>You agree to be legally bound</li><li>You acknowledge Exentax's limitations of liability</li><li>You understand that Exentax does NOT provide legal advice</li><li>You understand that Exentax does NOT provide professional tax advice</li><li>You commit to obtaining independent professional advice</li><li>You accept the exclusive jurisdiction of New Mexico courts</li><li>You will provide truthful information</li><li>You will NOT use the services for illegal purposes</li><li>You assume full responsibility for the use of the LLC</li></ul></div>
 
-<div class="legal-related"><h2>Related documents</h2><ul><li><a href="/en/legal/privacy">Privacy Policy</a></li></ul></div>
+
 <div class="legal-footer"><p>Last updated: February 21, 2026</p><p>Version: 1.0 Exentax LLC - New Mexico, United States</p></div>`
     },
     privacidad: {
@@ -639,7 +639,7 @@ const en = {
 <p>For specific services (marketing), we will request additional express consent.</p>
 </div>
 
-<div class="legal-related"><h2>Related documents</h2><ul><li><a href="/en/legal/cookies">Cookie Policy</a></li></ul></div>
+
 <div class="legal-footer">
 <p>Last updated: February 21, 2026</p>
 <p>Version: 1.0 Exentax LLC - New Mexico, United States</p>
@@ -680,7 +680,7 @@ const en = {
 
 <div><h2>11. Contact</h2><p>For cookie inquiries:</p><ul><li><strong>Email:</strong> <a href="mailto:legal@exentax.com" data-testid="link-email-cookies">legal@exentax.com</a></li><li><strong>Subject:</strong> "Cookie Inquiry"</li><li><strong>Address:</strong> 1209 Mountain Road Place Northeast, STE R, Albuquerque, NM 87110, United States</li></ul></div>
 
-<div class="legal-related"><h2>Related documents</h2><ul><li><a href="/en/legal/privacy">Privacy Policy</a></li></ul></div>
+
 <div class="legal-footer"><p>Last updated: February 21, 2026</p><p>Version: 1.0 Exentax LLC - New Mexico, United States</p></div>`
     },
     reembolsos: {

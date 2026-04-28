@@ -91,7 +91,7 @@ const pt = {
 
 <div class="legal-hl"><p><strong>DECLARAÇÃO FINAL</strong></p><p>AO UTILIZAR OS NOSSOS SERVIÇOS, EFETUAR UM PAGAMENTO, COMPLETAR A CALCULADORA, AGENDAR UMA CHAMADA, OU CONTACTAR-NOS POR QUALQUER MEIO, DECLARA E CONFIRMA QUE:</p><ul><li>Leu estes Termos na totalidade</li><li>Compreende-os</li><li>Aceita ficar legalmente vinculado</li><li>Reconhece as limitações de responsabilidade da Exentax</li><li>Compreende que a Exentax NÃO proporciona aconselhamento jurídico</li><li>Compreende que a Exentax NÃO proporciona aconselhamento fiscal profissional</li><li>Compromete-se a obter aconselhamento profissional independente</li><li>Aceita a jurisdição exclusiva dos tribunais de New Mexico</li><li>Fornecerá informação verdadeira</li><li>NÃO utilizará os serviços para fins ilegais</li><li>Assume plena responsabilidade pela utilização da LLC</li></ul></div>
 
-<div class="legal-related"><h2>Documentos relacionados</h2><ul><li><a href="/pt/legal/privacidade">Política de privacidade</a></li></ul></div>
+
 <div class="legal-footer"><p>Última atualização: 21 de fevereiro de 2026</p><p>Versão: 1.0 Exentax LLC - New Mexico, United States</p></div>`
     },
     privacidad: {
@@ -643,7 +643,7 @@ const pt = {
 <p>Para serviços específicos (marketing), solicitaremos consentimento expresso adicional.</p>
 </div>
 
-<div class="legal-related"><h2>Documentos relacionados</h2><ul><li><a href="/pt/legal/cookies">Política de cookies</a></li></ul></div>
+
 <div class="legal-footer">
 <p>Última atualização: 21 de fevereiro de 2026</p>
 <p>Versão: 1.0 Exentax LLC - New Mexico, United States</p>
@@ -684,7 +684,7 @@ const pt = {
 
 <div><h2>11. Contacto</h2><p>Para questões sobre cookies:</p><ul><li><strong>Email:</strong> <a href="mailto:legal@exentax.com" data-testid="link-email-cookies">legal@exentax.com</a></li><li><strong>Assunto:</strong> "Consulta sobre Cookies"</li><li><strong>Morada:</strong> 1209 Mountain Road Place Northeast, STE R, Albuquerque, NM 87110, United States</li></ul></div>
 
-<div class="legal-related"><h2>Documentos relacionados</h2><ul><li><a href="/pt/legal/privacidade">Política de privacidade</a></li></ul></div>
+
 <div class="legal-footer"><p>Última atualização: 21 de fevereiro de 2026</p><p>Versão: 1.0 Exentax LLC - New Mexico, United States</p></div>`
     },
     reembolsos: {
