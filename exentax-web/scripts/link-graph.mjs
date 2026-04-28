@@ -33,6 +33,22 @@ function parseSlugMap() {
   return map;
 }
 
+export function parseLegacyMap() {
+  const src = readFile(path.join(DATA, "blog-posts-slugs.ts"));
+  const map = {};
+  const declStart = src.indexOf("BLOG_SLUG_LEGACY_I18N");
+  if (declStart < 0) return map;
+  const objStart = src.indexOf("{", declStart);
+  const objEnd = src.indexOf("};", objStart);
+  const body = src.slice(objStart, objEnd);
+  const rx = /"([^"]+)":\s*\{\s*es:\s*"([^"]+)",\s*lang:\s*"([a-z]{2})"\s*\}/g;
+  let m;
+  while ((m = rx.exec(body))) {
+    map[m[1]] = { es: m[2], lang: m[3] };
+  }
+  return map;
+}
+
 function buildReverseMap(slugMap) {
   const rev = {};
   for (const lang of LANGS) rev[lang] = {};

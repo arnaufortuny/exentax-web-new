@@ -26,6 +26,7 @@ import {
   computeGraph,
   articleFiles,
   parseArticleFile,
+  parseLegacyMap,
 } from "./link-graph.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -68,9 +69,10 @@ function relPath(p) {
   return path.relative(ROOT, p);
 }
 
-function checkBrokenLinks(graph) {
+function checkBrokenLinks(graph, legacyMap = {}) {
   const { reverse } = graph;
   const broken = [];
+  const legacy = [];
   for (const lang of LANGS) {
     const known = new Set(Object.keys(reverse[lang] || {}));
     for (const { slug, file } of articleFiles(lang)) {
@@ -80,20 +82,32 @@ function checkBrokenLinks(graph) {
         const targetKnown =
           (reverse[lk.linkLang] && reverse[lk.linkLang][lk.slug]) ||
           (lk.linkLang === lang && known.has(lk.slug));
-        if (!targetKnown) {
+        if (targetKnown) continue;
+        const legacyEntry = legacyMap[lk.slug];
+        if (legacyEntry && legacyEntry.lang === lk.linkLang) {
           const line = lineForOffset(src, bodyStart + lk.offset);
-          broken.push({
+          legacy.push({
             file: relPath(file),
             line,
             lang,
             sourceSlug: slug,
             href: `/${lk.linkLang}/blog/${lk.slug}`,
+            canonicalEs: legacyEntry.es,
           });
+          continue;
         }
+        const line = lineForOffset(src, bodyStart + lk.offset);
+        broken.push({
+          file: relPath(file),
+          line,
+          lang,
+          sourceSlug: slug,
+          href: `/${lk.linkLang}/blog/${lk.slug}`,
+        });
       }
     }
   }
-  return broken;
+  return { broken, legacy };
 }
 
 function checkUnderLinked(graph) {
@@ -109,7 +123,8 @@ function checkUnderLinked(graph) {
 
 function main() {
   const graph = computeGraph();
-  const broken = checkBrokenLinks(graph);
+  const legacyMap = parseLegacyMap();
+  const { broken, legacy } = checkBrokenLinks(graph, legacyMap);
   const under = checkUnderLinked(graph);
 
   let failed = false;
@@ -124,6 +139,19 @@ function main() {
     }
   } else {
     console.log("✓ No broken internal blog links.");
+  }
+
+  if (legacy.length) {
+    console.warn(
+      `\n⚠ ${legacy.length} link(s) resolve via legacy slug map (301 redirect — please update to canonical):\n`,
+    );
+    for (const l of legacy) {
+      console.warn(
+        `  ${l.file}:${l.line}  ${l.href}  → canonical es:/${l.canonicalEs}  (in ${l.lang}/${l.sourceSlug})`,
+      );
+    }
+  } else {
+    console.log("✓ No links resolve via legacy slug map.");
   }
 
   if (under.length) {

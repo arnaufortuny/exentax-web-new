@@ -90,6 +90,10 @@ console.log("end-to-end — guard exits 0 against the current repo");
     /have ≥ 3 incoming links/.test(r.stdout),
     "reports clean under-linked state",
   );
+  assert(
+    /legacy slug map/.test(r.stdout),
+    "reports legacy slug map status",
+  );
 }
 
 if (failed) {
