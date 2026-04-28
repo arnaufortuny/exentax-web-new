@@ -5,6 +5,59 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Unreleased] — 2026-04-28
 
+### Cleanup Task #3 — Limpieza estructural del repo (legacy, huérfanos, docs duplicados)
+- **Working-tree shrink: ~40 MB liberados, 212 ficheros eliminados.** El repo
+  queda con una sola fuente de verdad por tipo de doc y cero ficheros
+  legacy/huérfanos/sin referencia. Detalle:
+- **`exentax-web/scripts/archive/` borrada en su totalidad** (5 subcarpetas
+  `2026-04`, `2026-04-orphans`, `2026-04-task36`, `2026-04-task4`,
+  `2026-04-task5` · 86 ficheros · ~1.5 MB). Cero referencias runtime; las
+  menciones en `check-stray-reports.mjs`, `audit-conversion-112x6.mjs` y
+  `lint-banned-banking-entities.mjs` son comentarios docstring históricos.
+- **5 scripts huérfanos del root borrados**: `scripts/audit-blog-sources.mjs`,
+  `scripts/audit-slugs-paginas-2026-04.mjs`, `scripts/auditoria-multiidioma.mjs`,
+  `scripts/blog-acceptance.js`, `scripts/verify-backup.ts`. Cero referencias
+  desde `package.json` ni `scripts/post-merge.sh`. Se conserva
+  `scripts/post-merge.sh` (cableado en `[postMerge]` de `.replit`).
+- **`screenshots/` borrada** (38 MB · 31 jpgs raíz + `desktop-*`/`mobile-*`
+  PNGs + `crops/` + `qa/report.json`). El propio `report.json` se
+  autorreferenciaba; cero refs runtime; menciones en README/CHANGELOG ya
+  apuntaban a su eliminación previa como histórico.
+- **`attached_assets/Pasted-LOTE-5-...txt` borrado** (carpeta vacía también).
+  Cero referencias.
+- **`uploads/docs/` (vacía) borrada.** `uploads/` raíz queda fuera de tracking
+  hasta que `exentax-web/scripts/build.ts` la regenera idempotentemente
+  (`mkdir -p uploads/docs`) en cada build. Server (`/uploads` 403,
+  `INDEXING_REPORTS_DIR=process.cwd()/uploads/reports/indexing`) sigue
+  resilient via `existsSync`.
+- **`docs/internal/PENDING.md` borrado** (consolidación: era un puntero de 32
+  líneas a `PENDING-FINAL.md` raíz). El raíz `PENDING-FINAL.md` queda como
+  fuente única.
+- **`.git/index.lock` saneado** (no estaba presente; verificado).
+- **CONSERVADO intacto** (todo lo listado en `WHAT-NOT-TO-TOUCH.md`):
+  `dist/index.cjs` raíz (es deploy shim usado por `.replit`
+  `run = ["node", "./dist/index.cjs"]`); `migrations/` raíz (única copia,
+  apunta `drizzle.config.ts`); `reports/email/email-audit-2026-04.md` y
+  `reports/seo/orphan-urls-2026-04.md` (ambos referenciados por `replit.md`
+  + `seo-orphan-audit.mjs`); `exentax-web/README.md` (app-level docs,
+  diferente de root README de workspace); `WHAT-NOT-TO-TOUCH.md` raíz +
+  `docs/internal/WHAT-NOT-TO-TOUCH.md` (ambas reglas de diseño,
+  intactas); `replit.md`, `BASELINE.md`, `CHANGELOG.md`, `README.md`,
+  `PENDING-FINAL.md` raíz (las 5 únicas .md raíz por convención
+  documentada en `replit.md` line 100).
+- **No se tocó `package.json`** ni dependencias: ningún script apuntaba a
+  los ficheros borrados.
+- **Verificación post-cleanup (mismo verde que baseline):**
+  - `npx tsc --noEmit --strict` (desde `exentax-web/`): EXIT 0.
+  - `SKIP_BUILD_E2E=1 npm --workspace exentax-web run build`: EXIT 0,
+    bundle shape idéntico.
+  - `npm run dev` arranca; `GET /api/health/ready` → `{"status":"ready",
+    "ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},
+    "emailWorker":{"ok":true}}}` (200).
+  - `npm --workspace exentax-web run check`: EXIT 1 — mismos 6 errores
+    que baseline (homePage SEO desc >165c × 6 locales). NO regresión;
+    diferido a LOTE 1 (Task #4 SEO meta).
+
 ### Audit Task #2 — 9-block integral audit + consultoría → asesoría rename
 - **Cross-locale rename pass** in 6 languages aligned with
   `docs/i18n-glossary.md`:
