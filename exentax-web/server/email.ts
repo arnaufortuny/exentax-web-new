@@ -61,15 +61,21 @@ export function assertGuidePdfUrlReady(): void {
 }
 
 /**
- * Mailto-form `List-Unsubscribe` value used on every 1:1 transactional
- * email (booking confirmation, reminder, reschedule, cancellation,
- * no-show, follow-up, calculator result, incomplete-booking nudge). It
- * intentionally does NOT carry a `List-Unsubscribe-Post: One-Click`
- * companion — RFC 8058 one-click is reserved for genuine bulk content
- * (drip + newsletter), where the user's MUA can act without a click
- * round-trip. For 1:1 mail, the mailto form is enough to surface a
- * native "Unsubscribe" affordance in Gmail / Apple Mail and gives
- * Claudia a manual signal she can act on.
+ * Mailto-form `List-Unsubscribe` value used by the calculator result
+ * email (the only `marketing-1to1` family member that carries a
+ * `List-Unsubscribe` header). All other 1:1 transactional emails —
+ * booking confirmation, reminder, reschedule, cancellation, no-show,
+ * follow-up, incomplete-booking nudge — are operational notifications
+ * about the recipient's own booking and intentionally omit any
+ * unsubscribe header (there is no list to leave: receiving them is
+ * inherent to having an active reservation). The mailto form is used
+ * here (not an HTTPS one-click URL) because the calculator's report
+ * is a one-shot send with no token to revoke; the address simply
+ * surfaces the native "Unsubscribe" affordance in Gmail / Apple Mail
+ * and gives Claudia a manual signal she can act on. The companion
+ * `List-Unsubscribe-Post: One-Click` header is gated in `buildRaw()`
+ * to HTTPS URLs only (see comment there) so this mailto value does
+ * NOT trigger a one-click POST that no endpoint could service.
  */
 export const TRANSACTIONAL_UNSUB_MAILTO = `mailto:${SENDER_EMAIL}?subject=Unsubscribe`;
 
@@ -323,7 +329,17 @@ function buildRaw(to: string, subject: string, html: string, replyTo?: string, f
     if (safeReplyTo) lines.push(`Reply-To: ${safeReplyTo}`);
     if (safeListUnsub) {
       lines.push(`List-Unsubscribe: <${safeListUnsub}>`);
-      lines.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
+      // RFC 8058 one-click is HTTPS-POST oriented. Only emit the
+      // companion `List-Unsubscribe-Post` header when the unsub value
+      // is an HTTPS URL the public route layer can answer with a POST.
+      // Mailto-only unsub addresses (e.g. the calculator's transactional
+      // mailto) get the visible `List-Unsubscribe` header alone — there
+      // is no endpoint that could service a one-click POST in that case
+      // and emitting the header would break Gmail / Yahoo bulk-sender
+      // compliance signals.
+      if (/^https:\/\//i.test(safeListUnsub)) {
+        lines.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
+      }
     }
     if (safeAutoSubmitted) lines.push(`Auto-Submitted: ${safeAutoSubmitted}`);
     if (safePrecedence) lines.push(`Precedence: ${safePrecedence}`);
@@ -345,7 +361,12 @@ function buildRaw(to: string, subject: string, html: string, replyTo?: string, f
   if (safeReplyTo) headers.push(`Reply-To: ${safeReplyTo}`);
   if (safeListUnsub) {
     headers.push(`List-Unsubscribe: <${safeListUnsub}>`);
-    headers.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
+    // See `single-part` branch above: only emit the one-click POST
+    // companion when the unsub value is HTTPS — mailto-only addresses
+    // have no POST endpoint to service the request.
+    if (/^https:\/\//i.test(safeListUnsub)) {
+      headers.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
+    }
   }
   if (safeAutoSubmitted) headers.push(`Auto-Submitted: ${safeAutoSubmitted}`);
   if (safePrecedence) headers.push(`Precedence: ${safePrecedence}`);

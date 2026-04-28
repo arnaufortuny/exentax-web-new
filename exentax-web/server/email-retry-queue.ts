@@ -1,14 +1,27 @@
 /**
  * Persistent email retry queue.
  *
- * Buffers ALL transactional emails (booking confirmations, reminders,
+ * Buffers transactional emails (booking confirmations, reminders,
  * reschedule/cancel/no-show notices, post-meeting follow-ups, calculator
- * reports, incomplete-booking reminders, drip-sequence steps and the
- * weekly newsletter broadcast) that failed to send because Gmail was not
- * configured at the time of the event, or because the underlying
- * transport raised a transient error. The queue is durable
- * (Postgres-backed) so retries survive process restarts and rolling
- * deploys.
+ * reports, incomplete-booking reminders) and the drip-sequence steps
+ * that failed to send because Gmail was not configured at the time of
+ * the event, or because the underlying transport raised a transient
+ * error. The queue is durable (Postgres-backed) so retries survive
+ * process restarts and rolling deploys.
+ *
+ * The weekly newsletter broadcast is intentionally NOT routed through
+ * this queue: it has its own resumable job table
+ * (`newsletter_campaign_jobs`) that the broadcast worker uses to
+ * checkpoint per-recipient progress and a 2/sec throttle, so unifying
+ * here would double-retry. The drip-worker also does not enqueue: it
+ * uses the throwing `sendDripEmailOnce()` and re-claims the row on the
+ * next worker tick if the send failed (`next_send_at` is left
+ * unchanged on error so cadence is preserved). The retry queue
+ * therefore covers booking + calculator + incomplete-booking flows;
+ * `drip_step` and `newsletter_broadcast` types are kept in the schema
+ * so that ad-hoc callers (test scripts, future re-routing) can use the
+ * `withRetryQueue` wrapper without schema churn, but the production
+ * paths bypass this queue.
  *
  * The queue is intentionally tiny in surface area:
  *   - `enqueueEmail(type, payload)`         → persist a job
