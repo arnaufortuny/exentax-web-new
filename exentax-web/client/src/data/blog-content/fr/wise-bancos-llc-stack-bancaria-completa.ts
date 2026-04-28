@@ -118,7 +118,7 @@ PayPal Business: utile en complément, pas en canal unique.
 Si vous avez une LLC et voulez qu'on conçoive ensemble la bonne configuration bancaire pour votre volume et profil de risque, **on le voit ensemble** lors d'une consultation gratuite de 30 minutes. La monter bien dès le départ coûte peu. La monter à moitié et le découvrir le jour où Mercury envoie le premier email "your account is under review" coûte cher.
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation actuellement en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -130,7 +130,7 @@ L'application concrète de ces règles à votre cas dépend de votre résidence 
 <!-- exentax:bank-balance-v1 -->
 ## Configuration bancaire équilibrée: Mercury, Relay, Slash et Wise
 
-Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** appropriée, où chaque outil joue un rôle:
+Il n'existe pas de compte parfait pour une LLC. Il existe la **configuration** appropriée, où chaque outil joue un rôle:
 
 - **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
 - **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
@@ -143,14 +143,14 @@ Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** a
 
 La configuration bancaire de la LLC se lit plus utilement comme un mapping stable entre rôle opérationnel, titulaire du compte et pays de l'IBAN, que comme une comparaison ouverte de produits. Parmi les fournisseurs opérationnellement compatibles avec un profil LLC américaine — Mercury, Wise, Stripe et Relay — chacun occupe un rôle discret : Mercury et Relay comme compte d'exploitation US, Wise comme couche multidevises et Stripe comme ingest marchand le cas échéant.
 
-Une courte note dans le dossier LLC qui consigne quel prestataire joue quel rôla dans la configuration actuelle, avec la date où la configuration a été fixée, rend l'architecture relisible en quelques minutes dès qu'une contrepartie demande des coordonnées bancaires ou qu'un conseiller fiscal demande une réconciliation.
+Une courte note dans le dossier LLC qui consigne quel prestataire joue quel rôle dans la configuration actuelle, avec la date où la configuration a été fixée, rend l'architecture relisible en quelques minutes dès qu'une contrepartie demande des coordonnées bancaires ou qu'un conseiller fiscal demande une réconciliation.
 <!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-fr -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
-La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons cette configuration dans le cadre de la constitution.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous mettons en place cette configuration dans le cadre de la constitution.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser
@@ -177,7 +177,7 @@ Un schéma simple et durable consiste à attribuer à chaque rail une fonction c
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 
@@ -207,7 +207,7 @@ LLC Wyoming + EIN + Mercury + Wise Business + Stripe + Lemon Squeezy + PayPal. C
 
 **Brex/Ramp pour petite LLC?** Pas en dessous de 500k$/an typiquement.
 
-Chez Exentax nous montons la configuration complète en setup packagée.
+Chez Exentax, nous mettons en place la configuration complète sous forme de pack clé en main.
 <!-- /exentax:execution-v2 -->
 
 ## Comment nous travaillons chez Exentax

@@ -210,7 +210,7 @@ Bank vorhersehbar.
 - Die Mittelherkunftsnotiz beim ersten Transfer auslassen. Eine kurze
   schriftliche Erklärung in der Akte verhindert die meisten späteren
   KYC-Nachfragen.
-- Grosse ungenutzte Salden in vielen Währungen halten. Wise verzinst
+- Große ungenutzte Salden in vielen Währungen halten. Wise verzinst
   einige Salden, ist aber kein Treasury-Vehikel; Arbeitssalden halten
   und Überschuss zum Betriebskonto sweep.
 
@@ -227,7 +227,7 @@ Bank vorhersehbar.
 
 Wir behandeln Wise Business als die Multi-Währungs-Lunge der LLC: sie
 atmet Zahlungen von EU-Kunden ein, atmet Auszahlungen an das Mitglied
-aus, und der Rest die Architektur trägt die US-Schwerkraft.
+aus, und der Rest der Architektur trägt die US-Schwerkraft.
 
 <!-- /exentax:lote7-native-v1:wise-business-llc-guia -->
 
@@ -240,9 +240,9 @@ Die Eignung von Wise für eine LLC beurteilt sich am ehrlichsten, wenn sie an dr
 
 Die Wise-Wahl verankert sich schriftlich in einer kurzen Notiz, die die drei Eigenschaften erfasst und sie der konkreten Begründung der Wahl zuordnet. Diese Notiz dient später als Bezugspunkt, sobald sich eine der Eigenschaften wesentlich verändert.
 
-## Wie sich die jährliche Überprüfung ohne grosse Vorbereitung halten lässt
+## Wie sich die jährliche Überprüfung ohne große Vorbereitung halten lässt
 
-Die jährliche Überprüfung hält sich ohne grosse Vorbereitung, wenn sie strikt an die festgehaltenen drei Eigenschaften gebunden bleibt.
+Die jährliche Überprüfung hält sich ohne große Vorbereitung, wenn sie strikt an die festgehaltenen drei Eigenschaften gebunden bleibt.
 <!-- /exentax:lote22-native-v1:wise-business-llc-guia-de -->
 
 <!-- exentax:lote35-native-v1:wise-business-llc-guia-de -->
@@ -286,7 +286,7 @@ Fragen zweiter Runde auftauchen.
 
 Wenn die erste Cashflow-Spitze ankommt, typisch zwischen Monat
 sechs und zwölf, verschiebt sich die Priorität von der Identität
-zur Erzählung. Eine grössere eingehende Überweisung von einem neuen
+zur Erzählung. Eine größere eingehende Überweisung von einem neuen
 Kunden, eine Marktplatz-Auszahlung dreimal über dem Monatsmittel
 oder ein einzelner gebündelter Schwall kumulierter Rechnungen
 können alle eine sanfte Prüfung auslösen. Die Korrektur ist
@@ -315,7 +315,7 @@ des Mitglieds noch passt.
 | Jan-Feb       | Nutzerdaten aktualisieren; Wohnsitz bestätigen;       |
 |               | Vorjahresbericht exportieren                          |
 | Mär-Apr       | Salden je Währung mit dem Betriebsbuch abstimmen      |
-| Mai-Jun       | Anschreiben an grössere neue Kundenkohorten anhängen  |
+| Mai-Jun       | Anschreiben an größere neue Kundenkohorten anhängen   |
 | Jul-Aug       | Halbjahres-Review der FX-Politik; ungenutzte Salden   |
 |               | sweepen, falls vorhanden                              |
 | Sep-Okt       | Vor-Erneuerung der Belegsdokumente (Pässe usw.)       |
@@ -342,7 +342,7 @@ zog, aktualisierte den Wise-Business-Wohnsitz am ersten Tag des
 Umzugs, hängte ein kurzes Anschreiben mit der Erläuterung des
 Umzugs und der unveränderten LLC-Tätigkeit an und operierte ohne
 Re-Onboarding-Zyklus weiter. Die heimische Steuerverwaltung des
-neuen Landes erhielt den standardmässigen DAC2/CRS-Bericht zum
+neuen Landes erhielt den standardmäßigen DAC2/CRS-Bericht zum
 Jahresende und glich ihn mit der Jahreserklärung des Nutzers ab.
 
 ## Dinge, die man mit Wise Business nie tun sollte
@@ -353,7 +353,7 @@ Jahresende und glich ihn mit der Jahreserklärung des Nutzers ab.
 - Die persönliche Wise-App nutzen, um sich in Wise Business
   einzuloggen, oder umgekehrt, mit gemischten Identitätsdaten.
   Zwei Beziehungen, zwei Identitäten.
-- Grosse ungenutzte Salden parken und die Multi-Währungs-Haltung
+- Große ungenutzte Salden parken und die Multi-Währungs-Haltung
   als Treasury-Vehikel behandeln. Sie ist nicht für diese Rolle
   konzipiert.
 - Die Karte für Bargeldabhebungen über minimale Einzelbeträge
@@ -373,7 +373,7 @@ dem Weg bleibt, statt um seine Aufmerksamkeit zu konkurrieren.
 <!-- /exentax:lote7-native-v1:wise-business-llc-guia-bis -->
 
 <!-- exentax:lote7-native-v1:wise-business-llc-guia-bis2 -->
-## Eine tiefere Lesart des Wise-Business-Konfigurationen für LLCs
+## Eine tiefere Lesart der Wise-Business-Konfiguration für LLCs
 
 Drei strukturelle Eigenschaften von Wise Business prägen, wie die
 LLC mit der Zeit altert: das Partnerbank-Modell unter der Marke, der

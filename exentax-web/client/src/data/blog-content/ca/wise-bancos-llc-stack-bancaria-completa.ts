@@ -114,7 +114,7 @@ PayPal Business: complement sí, canal únic no.
 Si tens una LLC i vols que dissenyem amb tu l'arquitectura bancària correcta per al teu volum i perfil de risc, **ho veiem junts** en una assessoria gratuïta de 30 minuts. Muntar-la bé surt barat. Muntar-la a mitges i descobrir-ho el dia que Mercury envia el primer "under review" surt car.
 ## Referències legals i normatives
 
-Aquest article es basa en normativa vigents actualment. Citem les fonts principals per a verificació:
+Aquest article es basa en normativa vigent actualment. Citem les fonts principals per a verificació:
 
 - **EUA.** Treas. Reg. §301.7701-3 (classificació d'entitats / *check-the-box*); IRC §882 (impost sobre rendes d'estrangers connectades amb US trade or business); IRC §871 (FDAP i retencions a no residents); IRC §6038A i Treas. Reg. §1.6038A-2 (Form 5472 per a *25% foreign-owned* i *foreign-owned disregarded entities*); IRC §7701(b) (residència fiscal, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report a <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
 - **Espanya.** Llei 35/2006 (LIRPF), arts. 8, 9 (residència), 87 (atribució de rendes), 91 (transparència fiscal internacional per a persones físiques); Llei 27/2014 (LIS), art. 100 (transparència fiscal internacional per a societats); Llei 58/2003 (LGT), arts. 15 i 16; Llei 5/2022 (règim sancionador del Model 720 després de la STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Models 232 i 720); Ordre HFP/887/2023 (Model 721 cripto).
@@ -177,7 +177,7 @@ Un esquema simple i durador consisteix a assignar a cada carril una funció clar
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
-Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'han mogut els darrers anys; aquest és l'estat vigent:
 
 ### Punts clau
 
@@ -217,7 +217,7 @@ LLC Wyoming + EIN + Mercury + Wise Business + Stripe + Lemon Squeezy + PayPal. C
 
 **Brex/Ramp per a LLC petita?** Típicament no per sota de 500k$/any.
 
-A Exentax muntem l'arquitectura completa en setup paquetitzat.
+A Exentax muntem l'arquitectura completa com un paquet clau en mà.
 <!-- /exentax:execution-v2 -->
 
 ## El teu pròxim pas amb Exentax
@@ -233,7 +233,7 @@ Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode d
 
   **Obligacions declaratives a Espanya:**
 
-  La titularitat de comptes a institucions financeres estrangeres ha de comunicar-se a l'**AEAT** a través del **Modelo 720** (béns i drets a l'estranger) regulat pel **RD 1065/2007** i modificat per la **Ley 5/2022** que va eliminar les sancions desproporcionades després de la **STJUE C-788/19 de 27/01/2022**. El llindar de declaració és de **€50.000** per cada bloc patrimonial (comptes, valors, immobles). El **Modelo 721** específic per a criptoactius a l'estranger és obligatori des de l'1 de gener de 2024 nos termes de l'**OM HFP/886/2023**.
+  La titularitat de comptes a institucions financeres estrangeres ha de comunicar-se a l'**AEAT** a través del **Modelo 720** (béns i drets a l'estranger) regulat pel **RD 1065/2007** i modificat per la **Ley 5/2022** que va eliminar les sancions desproporcionades després de la **STJUE C-788/19 de 27/01/2022**. El llindar de declaració és de **€50.000** per cada bloc patrimonial (comptes, valors, immobles). El **Modelo 721** específic per a criptoactius a l'estranger és obligatori des de l'1 de gener de 2024 segons l'**OM HFP/886/2023**.
 
   Els rendiments de la LLC s'imputen segons el règim de **transparència fiscal internacional de l'art. 100 LIRPF** quan la LLC tingui més del 50 % dels seus ingressos en jurisdiccions de baixa tributació. La **doctrina de la DGT V0290-20** confirma el tractament transparent de les LLCs unipersonals des del punt de vista espanyol. El crèdit per impost pagat als EUA es declara al **Modelo 100** segons el **conveni Espanya-EUA (BOE 22/12/1990) amb el Protocol de 27/11/2019 en vigor des de 27/11/2019**.
 

@@ -177,7 +177,7 @@ Um esquema simples e duradouro consiste em atribuir a cada carril uma função c
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do IRS evoluíram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 
@@ -187,7 +187,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
 ## O que deve levar consigo
 
-Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
+Leia esta secção como uma checklist exigente: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
 
 ## Factos bancários e fiscais que convém precisar
 
@@ -215,7 +215,7 @@ LLC Wyoming + EIN + Mercury + Wise Business + Stripe + Lemon Squeezy + PayPal. C
 
 **Brex/Ramp para LLC pequena?** Tipicamente não abaixo de 500k$/ano.
 
-Na Exentax montamos a arquitetura completa em setup packageado.
+Na Exentax montamos a arquitetura completa como um pacote chave-na-mão.
 <!-- /exentax:execution-v2 -->
 
 ## O seu próximo passo com a Exentax

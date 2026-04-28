@@ -35,7 +35,7 @@ Was wir bei Exentax fast wöchentlich sehen:
 Hängt Ihre gesamte Operation an diesem Konto, können Sie wochenlang Team nicht zahlen, ACH-Kunden nicht fakturieren, kritische SaaS nicht aufrechterhalten. Ein vorab autorisiertes, operatives Sekundärkonto verwandelt eine **Geschäftskrise** in eine **48-Stunden-Belästigung**.
 ## Warum Wise allein nicht reicht
 
-Wise Business ist exzellent für Multi-Währung, EU-IBAN und FX-Konvertierung. Aber Wise **ist kein operatives US-Konto**. Routing und Kontonummer in USD sind technisch "details", kein US-bankisses Konto auf den Namen Ihrer LLC. Drei praktische Folgen:
+Wise Business ist exzellent für Multi-Währung, EU-IBAN und FX-Konvertierung. Aber Wise **ist kein operatives US-Konto**. Routing und Kontonummer in USD sind technisch "details", kein US-Bankkonto auf den Namen Ihrer LLC. Drei praktische Folgen:
 
 1. **Stripe US, Amazon US, gewisse Marketplaces und große Unternehmen** akzeptieren Wises USD-Details problemlos, andere (öffentliche Stellen, regulierte Broker, Partner mit ACH-Pflicht) lehnen ab, sobald sie erkennen, dass der Empfänger ein EMI ist.
 2. **Stripe → Wise → lokales IBAN** funktioniert, fügt aber einen Akteur in die Compliance-Kette. Bei Sperrung müssen Sie die Rückverfolgung gegenüber mehr als einer Entität nachweisen.
@@ -179,7 +179,7 @@ Ein einfaches und tragfähiges Schema besteht darin, jeder Schiene eine klare Fu
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren verändert; aktueller Stand:
 
 ### Kernpunkte
 

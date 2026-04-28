@@ -88,9 +88,9 @@ Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
 
 <!-- exentax:lote18-native-v1:reorganizar-banca-llc-mercury-relay-wise-de -->
-## Warum die Reorganisation der LLC-Bankstruktur als Transfer und nicht als Schliessung vorbereitet wird
+## Warum die Reorganisation der LLC-Bankstruktur als Transfer und nicht als Schließung vorbereitet wird
 
-Die Reorganisation der Bankstruktur einer LLC unter Einbeziehung von Mercury, Relay und Wise wird als Transfer von Operationen vorbereitet und nicht als Schliessung gefolgt von einer Wiedereröffnung. Der Unterschied ist konkret: ein Transfer hält die operativen Flüsse während des Übergangs aufrecht, während eine Schliessung sie unterbricht und zwingt, die Kette von Zahlungen und Empfängen von Grund auf neu aufzubauen.
+Die Reorganisation der Bankstruktur einer LLC unter Einbeziehung von Mercury, Relay und Wise wird als Transfer von Operationen vorbereitet und nicht als Schließung gefolgt von einer Wiedereröffnung. Der Unterschied ist konkret: ein Transfer hält die operativen Flüsse während des Übergangs aufrecht, während eine Schließung sie unterbricht und zwingt, die Kette von Zahlungen und Empfängen von Grund auf neu aufzubauen.
 <!-- /exentax:lote18-native-v1:reorganizar-banca-llc-mercury-relay-wise-de -->
 
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de -->
@@ -100,7 +100,7 @@ Die bankliche Reorganisation der LLC liest sich nützlicher als Update des Rolle
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de -->
 
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de-bis -->
-## Wie sich der Übergang zwischen altem und neuem Architektur als datierte Notiz statt als impliziter Wechsel lesen lässt
+## Wie sich der Übergang zwischen alter und neuer Architektur als datierte Notiz statt als impliziter Wechsel lesen lässt
 
 Der Übergang zwischen alter und neuer Architektur pflegt sich am ruhigsten als kurze, datierte Notiz, die das Datum der Umstellung und die Rolle jedes Anbieters vor und nach dem Wechsel festhält — und damit jede spätere Frage in wenigen Minuten beantwortbar macht.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de-bis -->
@@ -168,10 +168,10 @@ Die empfohlene Banking-Architektur für eine LLC aktuell hat sich auf drei Baust
 Wenn eine LLC ernsthafte Zahlungen erhält, reicht die initiale Architektur (manchmal nur Mercury) nicht: Limits, Sperren, ein einziges Gateway und null Backup. Die Exentax-Methode reorganisiert ihn ohne Downtime oder Kontoschließung.
 
 - **Haupt- und Spiegelkonto** parallel: Mercury oder Relay operativ, Wise als Multi-Währungs-Backup, Stripe + Paddle/DoDo als Gateways.
-- **Progressive Migration** von Lastschriften und Abos, damit kein Kunde während des Übergangs einen Fehlbuchung sieht.
+- **Progressive Migration** von Lastschriften und Abos, damit kein Kunde während des Übergangs eine Fehlbuchung sieht.
 - **Erweitertes KYC vorbereitet** mit Tätigkeitsbeschreibung, MCC und kohärenter Dokumentation über alle Konten, um Second-Line-Prüfungen zu bestehen.
 
-Wenn Ihr aktueller Architektur nicht mehr hält, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten: wir liefern den Migrationsplan schriftlich, bevor irgendetwas berührt wird.
+Wenn Ihre aktuelle Architektur nicht mehr hält, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten: wir liefern den Migrationsplan schriftlich, bevor irgendetwas berührt wird.
 <!-- /exentax:execution-v2 -->
 
 ## Der spezifische Fall des in Deutschland und Österreich Steuerpflichtigen
@@ -205,7 +205,7 @@ kleine Reibungen summieren sich: die Abstimmung wird langsamer, FX-
 Kosten werden unsichtbar, und KYC-Nachfragen landen bei dem zuletzt
 onboardierten Konto.
 
-Die Neuorganisation bedeutet selten, Konten zu schliessen. Sie
+Die Neuorganisation bedeutet selten, Konten zu schließen. Sie
 bedeutet meist, sie umzuwidmen, damit jedes eine einzige klare
 Aufgabe hat und die anderen saubere Backup-Rollen behalten.
 
@@ -233,7 +233,7 @@ Bewegung?" verschwindet.
   Wise-Multi-Währungs-Schicht für EUR-Rechnungen. Kosten gering.
   Nutzen: kein Single-Point-of-Failure mehr bei Lohn oder
   Lieferantenzahlungen.
-- Ausstieg aus "Stripe wird zur Bank". Mandant liess grosse Reserven
+- Ausstieg aus "Stripe wird zur Bank". Mandant ließ große Reserven
   bei Stripe und zog persönliche Mittel direkt aus Stripe. Täglich
   Stripe-Auszahlungen nach Mercury umgeleitet, Wise für
   EU-Kundenrechnungen behalten und Stripe rein als Eingangs-Rail
@@ -241,15 +241,15 @@ Bewegung?" verschwindet.
 - Ausstieg aus "die Wise-Karte ist die Firmenkarte". Mandant nutzte
   die Wise-Karte als Hauptkarte. Wiederkehrende SaaS und
   lohnnahe Ausgaben nach Mercury verschoben (wo die Audit-Spur
-  bankmässig ist), und die Wise-Karte eng für bezahlte Werbung
+  bankmäßig ist), und die Wise-Karte eng für bezahlte Werbung
   beibehalten.
 
 ## Fehler bei einer Neuorganisation
 
-- Erst das alte Konto schliessen. Immer das neue Rollen-Konto
+- Erst das alte Konto schließen. Immer das neue Rollen-Konto
   eröffnen und befüllen, bevor irgendetwas geschlossen wird;
   Kontohistorie ist Teil der Bankakte der LLC.
-- Grosse Salden in einer einzigen Überweisung verschieben. In
+- Große Salden in einer einzigen Überweisung verschieben. In
   normale operative Tranchen aufteilen; treasury-artige Bewegungen
   lösen oft eine KYC-Aktualisierung aus.
 - "Privat"-Karten sich vermischen lassen. Die Kartenliste der LLC
@@ -266,11 +266,11 @@ Bewegung?" verschwindet.
 - Wiederkehrende Ein- und Ausgänge in 30-tägigem Parallelbetrieb
   migrieren.
 - Wirklich Redundantes erst nach einem sauberen Monatsabschluss
-  schliessen.
+  schließen.
 
 Wir behandeln die Banking-Architektur als das Kreislaufsystem der LLC:
-jedes Gefäss hat eine Aufgabe, und Neuorganisieren bedeutet, das
-Layout zu reparieren, nicht die Gefässe herauszureissen.
+jedes Gefäß hat eine Aufgabe, und Neuorganisieren bedeutet, das
+Layout zu reparieren, nicht die Gefäße herauszureißen.
 
 <!-- /exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
 

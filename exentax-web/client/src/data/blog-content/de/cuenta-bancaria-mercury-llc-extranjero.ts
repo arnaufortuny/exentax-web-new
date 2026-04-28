@@ -204,15 +204,15 @@ Die Eignung von Mercury für eine LLC mit ausländischem wirtschaftlich Berechti
 
 Die Mercury-Wahl verankert sich schriftlich in einer kurzen, datierten Notiz, die die drei Eigenschaften erfasst und sie der konkreten Begründung der Wahl zuordnet. Diese Notiz dient später als Bezugspunkt, sobald sich eine der Eigenschaften wesentlich verändert.
 
-## Wie sich die jährliche Überprüfung der Bankenwahl ohne grosse Vorbereitung halten lässt
+## Wie sich die jährliche Überprüfung der Bankenwahl ohne große Vorbereitung halten lässt
 
-Die jährliche Überprüfung der Bankenwahl hält sich ohne grosse Vorbereitung, wenn sie strikt an die festgehaltenen drei Eigenschaften gebunden bleibt und nur dort wieder eröffnet wird, wo eine der drei Eigenschaften real abgewichen ist. Diese Methode erspart, die Bankendiskussion Jahr für Jahr neu zu führen, und reduziert die jährliche Übung auf das Eintragen einer kurzen Aktualisierung.
+Die jährliche Überprüfung der Bankenwahl hält sich ohne große Vorbereitung, wenn sie strikt an die festgehaltenen drei Eigenschaften gebunden bleibt und nur dort wieder eröffnet wird, wo eine der drei Eigenschaften real abgewichen ist. Diese Methode erspart, die Bankendiskussion Jahr für Jahr neu zu führen, und reduziert die jährliche Übung auf das Eintragen einer kurzen Aktualisierung.
 <!-- /exentax:lote23-native-v1:cuenta-bancaria-mercury-llc-extranjero-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren verändert; aktueller Stand:
 
 ### Kernpunkte
 
