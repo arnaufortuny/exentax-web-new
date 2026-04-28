@@ -44,17 +44,17 @@ Security + performance:
 Runtime smoke:
 - `Start application` workflow boots clean on `:5000` (Express + Vite).
 - `/es` homepage renders correctly (cookie banner, hero, nav, WhatsApp FAB).
+- `GET /api/health` → 200 `{"status":"ok","uptime":<n>}` (verified live).
+- `GET /api/health/ready` → 200 `{"status":"ready","ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},"emailWorker":{"ok":true,...}}}` (verified live).
 - DB connection established + column migrations applied at boot.
 - Newsletter broadcast worker + email retry worker started.
 - `email_retry_queue` drained of orphan E2E jobs (33 leftover `@e2e.exentax.test` jobs removed; `scripts/test-booking-e2e.ts` cleanup() now drains them on every run so they cannot re-accumulate).
 
-Production secret coverage — operator action required at deploy time. Names below are the EXACT env-var keys the runtime reads (verified against `process.env.*` in `server/`):
-- **Database / crypto (fail-fast if missing)**: `DATABASE_URL`, `FIELD_ENCRYPTION_KEY`.
-- **Google integrations (Meet, Calendar, Search Console, Indexing)**: `GOOGLE_SERVICE_ACCOUNT_KEY`, `GOOGLE_CALENDAR_ID`, `GOOGLE_SC_SITE_URL` (optional), `GOOGLE_INDEXING_API_ENABLE` (optional).
-- **Email (Gmail send-as the impersonated mailbox)**: `GMAIL_SENDER`.
-- **Discord bot + admin gating**: `DISCORD_BOT_TOKEN`, `DISCORD_PUBLIC_KEY`, `DISCORD_APP_ID`, `DISCORD_GUILD_ID`, `ADMIN_DISCORD_ROLE_ID`.
-- **Operational**: `ADMIN_EMAIL`, `CONTACT_EMAIL`, `LEGAL_EMAIL`, `SITE_URL`, `DOMAIN`, `WHATSAPP_NUMBER`, `COMPANY_ADDRESS_SHORT`, `ALLOWED_ORIGINS` (CORS), `INDEXNOW_KEY` (+ optional `INDEXNOW_KEY_LOCATION`), `METRICS_TOKEN` (optional, gates `/metrics`).
-- In dev these emit warning logs and the dependent feature is gracefully disabled (Discord bot, Google Calendar/Meet, Gmail send) — no crashes.
+Production-required secrets — single source of truth is the `REQUIRED_ENV_VARS` array in `server/index.ts` (the runtime fails fast on `NODE_ENV=production` if any prodOnly entry is missing). Operators must populate ALL of these before deploy:
+- **Always required (fail-fast in any env)**: `DATABASE_URL`.
+- **Prod-only fail-fast (11 keys)**: `FIELD_ENCRYPTION_KEY`, `GOOGLE_SERVICE_ACCOUNT_KEY`, `DISCORD_BOT_TOKEN`, `DISCORD_PUBLIC_KEY`, `DISCORD_APP_ID`, `DISCORD_GUILD_ID`, `ADMIN_DISCORD_ROLE_ID`, `DISCORD_CHANNEL_REGISTROS`, `DISCORD_CHANNEL_AGENDA`, `DISCORD_CHANNEL_CONSENTIMIENTOS`, plus the implicit Google config (`GOOGLE_CALENDAR_ID` for the booking flow).
+- **Optional / soft fallbacks**: `DISCORD_CHANNEL_ERRORES` (falls back to `DISCORD_CHANNEL_REGISTROS`), `DISCORD_CHANNEL_AUDITORIA`, `GOOGLE_SC_SITE_URL`, `GOOGLE_INDEXING_API_ENABLE`, `GMAIL_SENDER` (Google service account default if absent), `METRICS_TOKEN`, `INDEXNOW_KEY`, `INDEXNOW_KEY_LOCATION`, `ADMIN_EMAIL`, `CONTACT_EMAIL`, `LEGAL_EMAIL`, `SITE_URL`, `DOMAIN`, `WHATSAPP_NUMBER`, `COMPANY_ADDRESS_SHORT`, `ALLOWED_ORIGINS`.
+- **Dev behaviour**: missing prodOnly keys log `[env]` warnings (not fatal) and the dependent feature gracefully disables (no crash). Verified at boot in this pass.
 
 ## Repo conventions (post-cleanup 2026-04)
 - The repo is an npm workspace. Root `package.json` declares `"workspaces": ["exentax-web"]`; a single `npm install` at the repo root installs both root and `exentax-web` deps and hoists every binary to the root `node_modules/.bin`. There is no separate `exentax-web/package-lock.json` — the root lockfile is canonical. Do not run `npm install` inside `exentax-web/` and do not re-create a nested lockfile (Task #34).
