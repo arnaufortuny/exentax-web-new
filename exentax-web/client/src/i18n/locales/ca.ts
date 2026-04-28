@@ -901,6 +901,11 @@ const ca = {
     ratingLabel: "Com ens valoren els clients",
     pricingFrom: "Constitució completa des de",
     noCosts: "Costos ocults ni lletra petita",
+    support247: "Atenció humana 24/7",
+    experts: "Experts en LLC i fiscalitat",
+    online100: "100% en línia, sense desplaçar-te",
+    compliance: "Compliment normatiu",
+    itin: "Tramitem el teu ITIN",
     countriesLabel: "Jurisdiccions assessorades",
   },
   problem: {

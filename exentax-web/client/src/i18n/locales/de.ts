@@ -896,6 +896,11 @@ const de = {
     ratingLabel: "Wie uns Kunden bewerten",
     pricingFrom: "Vollständige Gründung ab",
     noCosts: "Versteckte Kosten oder Kleingedrucktes",
+    support247: "24/7 menschlicher Support",
+    experts: "LLC- und Steuerexperten",
+    online100: "100% online, ohne Reise",
+    compliance: "Vollständige Compliance",
+    itin: "Wir besorgen Ihre ITIN",
     countriesLabel: "Beratene Jurisdiktionen",
   },
   problem: {

@@ -900,6 +900,11 @@ const pt = {
     ratingLabel: "Como os clientes nos avaliam",
     pricingFrom: "Constituição completa a partir de",
     noCosts: "Custos ocultos ou letras miúdas",
+    support247: "Suporte humano 24/7",
+    experts: "Especialistas em LLC e fiscalidade",
+    online100: "100% online, sem deslocações",
+    compliance: "Cumprimento regulatório total",
+    itin: "Tratamos do seu ITIN",
     countriesLabel: "Jurisdições assessoradas",
   },
   problem: {

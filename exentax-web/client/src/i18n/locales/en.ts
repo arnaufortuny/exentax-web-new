@@ -895,6 +895,11 @@ const en = {
     ratingLabel: "How clients rate us",
     pricingFrom: "Full formation from",
     noCosts: "Hidden costs or fine print",
+    support247: "24/7 human support",
+    experts: "LLC & tax experts",
+    online100: "100% online, no travel",
+    compliance: "Full regulatory compliance",
+    itin: "We handle your ITIN",
     countriesLabel: "Jurisdictions advised"
   },
   problem: {

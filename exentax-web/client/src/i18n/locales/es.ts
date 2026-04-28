@@ -896,6 +896,11 @@ const es = {
  ratingLabel:"Cómo nos valoran los clientes",
  pricingFrom:"Constitución completa desde",
  noCosts:"Costes ocultos ni letra pequeña",
+ support247:"Atención humana 24/7",
+ experts:"Expertos en LLC y fiscalidad",
+ online100:"100% online, sin desplazarte",
+ compliance:"Cumplimiento normativo",
+ itin:"Tramitamos tu ITIN",
  countriesLabel:"Jurisdicciones asesoradas",
  },
  problem: {

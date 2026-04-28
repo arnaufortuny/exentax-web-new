@@ -897,6 +897,11 @@ const fr = {
     ratingLabel: "Comment nos clients nous évaluent",
     pricingFrom: "Constitution complète à partir de",
     noCosts: "Coûts cachés ni petits caractères",
+    support247: "Support humain 24/7",
+    experts: "Experts LLC et fiscalité",
+    online100: "100% en ligne, sans déplacement",
+    compliance: "Conformité réglementaire totale",
+    itin: "Nous gérons votre ITIN",
     countriesLabel: "Juridictions conseillées",
   },
   problem: {

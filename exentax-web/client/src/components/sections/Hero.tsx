@@ -8,15 +8,70 @@ import { trackCTA, trackWhatsAppClick } from "@/components/Tracking";
 
 const Calculator = lazy(() => import("@/components/calculator"));
 
+const iconProps = {
+  width: 18,
+  height: 18,
+  viewBox: "0 0 24 24",
+  fill: "none",
+  stroke: "currentColor",
+  strokeWidth: 2.2,
+  strokeLinecap: "round" as const,
+  strokeLinejoin: "round" as const,
+  "aria-hidden": true,
+};
+
+const IconHeadphones = () => (
+  <svg {...iconProps}>
+    <path d="M3 14v-2a9 9 0 0 1 18 0v2" />
+    <path d="M21 14v3a3 3 0 0 1-3 3h-1v-7h4Z" />
+    <path d="M3 14v3a3 3 0 0 0 3 3h1v-7H3Z" />
+  </svg>
+);
+const IconAward = () => (
+  <svg {...iconProps}>
+    <circle cx="12" cy="9" r="6" />
+    <path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5" />
+  </svg>
+);
+const IconGlobe = () => (
+  <svg {...iconProps}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M3 12h18" />
+    <path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18Z" />
+  </svg>
+);
+const IconShield = () => (
+  <svg {...iconProps}>
+    <path d="M12 3 4 6v6c0 5 3.5 8.5 8 9 4.5-.5 8-4 8-9V6l-8-3Z" />
+    <path d="m9 12 2 2 4-4" />
+  </svg>
+);
+const IconIdCard = () => (
+  <svg {...iconProps}>
+    <rect x="3" y="5" width="18" height="14" rx="2" />
+    <circle cx="9" cy="12" r="2.2" />
+    <path d="M14 11h5M14 14h4M6.5 16.5c.5-1.5 2-2 2.5-2s2 .5 2.5 2" />
+  </svg>
+);
+
+type StatItem =
+  | { kind: "value"; value: string; label: string; href?: string }
+  | { kind: "icon"; Icon: React.ComponentType; label: string };
+
 export default function Hero() {
   const { t } = useTranslation();
   const ref = useReveal();
   const lp = useLangPath();
 
-  const stats = [
-    { value: "0%", label: t("heroStats.reductionLabel") },
-    { value: "+50", label: t("heroStats.clientsLabel") },
-    { value: "5.0★", label: t("heroStats.ratingLabel"), href: SOCIAL.TRUSTPILOT },
+  const stats: StatItem[] = [
+    { kind: "value", value: "0%", label: t("heroStats.reductionLabel") },
+    { kind: "value", value: "+50", label: t("heroStats.clientsLabel") },
+    { kind: "value", value: "5.0★", label: t("heroStats.ratingLabel"), href: SOCIAL.TRUSTPILOT },
+    { kind: "icon", Icon: IconHeadphones, label: t("heroStats.support247") },
+    { kind: "icon", Icon: IconAward, label: t("heroStats.experts") },
+    { kind: "icon", Icon: IconGlobe, label: t("heroStats.online100") },
+    { kind: "icon", Icon: IconShield, label: t("heroStats.compliance") },
+    { kind: "icon", Icon: IconIdCard, label: t("heroStats.itin") },
   ];
 
   return (
@@ -79,32 +134,74 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="neon-strip mx-auto" data-testid="hero-stats" style={{ maxWidth: 760 }}>
-            <div className="grid grid-cols-3">
-              {stats.map((s, i) => {
-                const isLast = i === stats.length - 1;
-                const inner = (
-                  <div className="flex flex-col items-center justify-center py-6 sm:py-7 px-3 text-center">
-                    <span className="font-heading font-extrabold leading-none mb-1.5" style={{ fontSize: "clamp(28px, 3.5vw, 42px)", color: s.value.includes("★") ? "#FFD700" : "#00E510", letterSpacing: "-0.02em" }}>
+        </div>
+
+        <div className="neon-strip w-full mt-2" data-testid="hero-stats">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8">
+            {stats.map((s, i) => {
+              const isStarRating = s.kind === "value" && s.value.includes("★");
+              const inner = (
+                <div className="flex flex-col items-center justify-center py-5 sm:py-6 px-2 text-center h-full">
+                  {s.kind === "value" ? (
+                    <span
+                      className="font-heading font-extrabold leading-none mb-1.5"
+                      style={{
+                        fontSize: "clamp(24px, 2.6vw, 36px)",
+                        color: isStarRating ? "#FFD700" : "#00E510",
+                        letterSpacing: "-0.02em",
+                      }}
+                    >
                       {s.value}
                     </span>
-                    <span className="font-body text-[12px] sm:text-[13px] text-[var(--text-2)] font-medium leading-snug max-w-[160px]">
-                      {s.label}
+                  ) : (
+                    <span
+                      className="inline-flex items-center justify-center mb-2 rounded-full text-[#00C80E]"
+                      style={{
+                        width: 36,
+                        height: 36,
+                        background: "rgba(0,229,16,0.10)",
+                        border: "1px solid rgba(0,229,16,0.25)",
+                      }}
+                    >
+                      <s.Icon />
                     </span>
-                  </div>
+                  )}
+                  <span className="font-body text-[11px] sm:text-[12px] text-[var(--text-2)] font-medium leading-snug max-w-[150px]">
+                    {s.label}
+                  </span>
+                </div>
+              );
+              // Vertical separator for desktop only (8-col), horizontal for mobile rows handled separately
+              const borderCls = `${
+                i % 2 === 0 ? "border-r border-black/[0.06]" : ""
+              } ${i < stats.length - 4 ? "border-b border-black/[0.06] sm:border-b-0" : ""} sm:border-r sm:border-black/[0.06] ${
+                ((i + 1) % 4 === 0) ? "sm:border-r-0 lg:border-r lg:border-black/[0.06]" : ""
+              } ${i === stats.length - 1 ? "lg:border-r-0" : ""}`;
+
+              if (s.kind === "value" && s.href) {
+                return (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${borderCls} hover:bg-[rgba(0,229,16,0.04)] transition-colors`}
+                    data-testid={`stat-${i}`}
+                  >
+                    {inner}
+                  </a>
                 );
-                const cls = !isLast ? "border-r border-white/8" : "";
-                return s.href ? (
-                  <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" className={`${cls} hover:bg-white/[0.02] transition-colors`}>{inner}</a>
-                ) : (
-                  <div key={s.label} className={cls}>{inner}</div>
-                );
-              })}
-            </div>
+              }
+              return (
+                <div key={s.label} className={borderCls} data-testid={`stat-${i}`}>
+                  {inner}
+                </div>
+              );
+            })}
           </div>
         </div>
 
-        <div className="w-full max-w-[720px] mx-auto mt-20 lg:mt-24" data-testid="calculator-container">
+        <div className="w-full max-w-[720px] mx-auto mt-16 lg:mt-20" data-testid="calculator-container">
           <Suspense fallback={<div style={{ minHeight: 520 }} aria-hidden="true" />}>
             <Calculator compact />
           </Suspense>
