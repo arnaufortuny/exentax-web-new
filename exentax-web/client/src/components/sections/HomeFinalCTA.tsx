@@ -70,28 +70,28 @@ export default function HomeFinalCTA() {
               </a>
             </div>
 
-            <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl mx-auto pt-8 border-t border-[rgba(0,0,0,0.06)]">
-              <div className="text-center">
+            <div className="grid grid-cols-3 gap-3 sm:gap-5 max-w-2xl mx-auto pt-2">
+              <div className="text-center rounded-2xl bg-[var(--bg-1)] border border-[rgba(0,0,0,0.05)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_1px_2px_rgba(0,0,0,0.03)]">
                 <div className="font-heading font-bold text-2xl sm:text-3xl text-[var(--text-1)]">
                   100%
                 </div>
-                <div className="text-xs sm:text-sm text-[var(--text-3)] mt-1">
+                <div className="text-xs sm:text-sm text-[var(--text-3)] mt-1.5">
                   {t("homeFinalCta.stat1", { defaultValue: "Remoto" })}
                 </div>
               </div>
-              <div className="text-center">
+              <div className="text-center rounded-2xl bg-[var(--bg-1)] border border-[rgba(0,0,0,0.05)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_1px_2px_rgba(0,0,0,0.03)]">
                 <div className="font-heading font-bold text-2xl sm:text-3xl text-[var(--text-1)]">
                   7
                 </div>
-                <div className="text-xs sm:text-sm text-[var(--text-3)] mt-1">
+                <div className="text-xs sm:text-sm text-[var(--text-3)] mt-1.5">
                   {t("homeFinalCta.stat2", { defaultValue: "Países cubiertos" })}
                 </div>
               </div>
-              <div className="text-center">
+              <div className="text-center rounded-2xl bg-[var(--bg-1)] border border-[rgba(0,0,0,0.05)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_1px_2px_rgba(0,0,0,0.03)]">
                 <div className="font-heading font-bold text-2xl sm:text-3xl text-[var(--text-1)]">
                   {t("homeFinalCta.stat3Value", { defaultValue: "24h" })}
                 </div>
-                <div className="text-xs sm:text-sm text-[var(--text-3)] mt-1">
+                <div className="text-xs sm:text-sm text-[var(--text-3)] mt-1.5">
                   {t("homeFinalCta.stat3", { defaultValue: "Respuesta" })}
                 </div>
               </div>
