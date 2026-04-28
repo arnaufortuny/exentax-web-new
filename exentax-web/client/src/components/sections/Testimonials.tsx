@@ -56,27 +56,26 @@ function Avatar({ name }: { name: string }) {
 function FlagCircle({ code, label }: { code: string; label: string }) {
   const lower = code.toLowerCase();
   return (
-    <span
-      className="inline-flex items-center justify-center overflow-hidden flex-shrink-0"
+    <img
+      src={`https://flagcdn.com/w160/${lower}.png`}
+      srcSet={`https://flagcdn.com/w320/${lower}.png 2x`}
+      alt=""
+      width={18}
+      height={18}
       style={{
         width: 18,
         height: 18,
-        borderRadius: 999,
-        boxShadow: "inset 0 0 0 1px rgba(0,0,0,0.12)",
+        borderRadius: "50%",
+        objectFit: "cover",
+        objectPosition: "center",
+        flexShrink: 0,
+        display: "block",
+        border: "1px solid rgba(0,0,0,0.08)",
       }}
+      loading="lazy"
       role="img"
       aria-label={label}
-    >
-      <img
-        src={`https://flagcdn.com/w40/${lower}.png`}
-        srcSet={`https://flagcdn.com/w80/${lower}.png 2x`}
-        alt=""
-        width={26}
-        height={18}
-        loading="lazy"
-        className="w-[26px] h-[18px] object-cover"
-      />
-    </span>
+    />
   );
 }
 

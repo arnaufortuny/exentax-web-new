@@ -51,6 +51,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const handleCountryChange = useCallback((newCountry: string) => {
     setCountry(newCountry);
     setRegime("");
+    setShowExpensesSection(false);
     // Only auto-pick the country's default currency if the user has NOT
     // explicitly chosen one. Country and currency are independent, once
     // the user picks a currency we keep it across country changes.
@@ -73,6 +74,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [expensesStr, setExpensesStr] = useState("0");
   const [expensesFocused, setExpensesFocused] = useState(false);
   const [showExpenseDetails, setShowExpenseDetails] = useState(false);
+  const [showExpensesSection, setShowExpensesSection] = useState(false);
   const [expenseItems, setExpenseItems] = useState<ExpenseItem[]>([]);
   const [calcSpainIrpf, setCalcSpainIrpf] = useState(false);
   const [ccaaProfile, setCcaaProfile] = useState<"low" | "medium" | "high">("medium");
@@ -123,6 +125,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     setIncome(preset.monthlyIncome);
     setIncomeTouched(true);
     setShowExpenseDetails(true);
+    setShowExpensesSection(true);
     const items: ExpenseItem[] = Object.entries(preset.expenses).map(([id, monthly]) => {
       const cat = expenseCategories.find(c => c.id === id);
       if (!cat) return null;
@@ -526,21 +529,48 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
           </div>
         )}
 
-        {hasCountry && incomeTouched && (
+        {hasCountry && incomeTouched && !showExpensesSection && (
+          <div style={{ animation: "fadeSlideIn 0.4s ease-out" }}>
+            <button
+              type="button"
+              onClick={() => setShowExpensesSection(true)}
+              className={`inline-flex items-center gap-1.5 font-semibold text-[var(--green)] hover:text-[rgba(var(--green-rgb),0.8)] transition-colors bg-transparent border-0 p-0 ${compact ? "text-[11px]" : "text-xs sm:text-sm"}`}
+              data-testid="button-add-expenses"
+            >
+              <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+              {t("calculator.addExpensesCta", { defaultValue: t("calculator.deductibleExpenses") })}
+            </button>
+          </div>
+        )}
+
+        {hasCountry && incomeTouched && showExpensesSection && (
           <div style={{ animation: "fadeSlideIn 0.4s ease-out" }}>
             <div className="flex items-center justify-between mb-1">
               <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px]" : "text-xs sm:text-sm"}`}>
                 {t("calculator.deductibleExpenses")}
                 <span className="text-[var(--text-3)] font-normal ml-1">({cc.code})</span>
               </p>
-              <button
-                type="button"
-                data-testid="button-toggle-expense-details"
-                onClick={() => setShowExpenseDetails(!showExpenseDetails)}
-                className="text-[10px] font-semibold text-[var(--green)] hover:text-[var(--green)] transition-colors"
-              >
-                {showExpenseDetails ? t("calculator.useTotal") : t("calculator.breakdownByCategory")}
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  data-testid="button-toggle-expense-details"
+                  onClick={() => setShowExpenseDetails(!showExpenseDetails)}
+                  className="text-[10px] font-semibold text-[var(--green)] hover:text-[var(--green)] transition-colors"
+                >
+                  {showExpenseDetails ? t("calculator.useTotal") : t("calculator.breakdownByCategory")}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => { setShowExpensesSection(false); setExpenses(0); setExpensesStr("0"); setExpenseItems([]); }}
+                  className="text-[10px] font-semibold text-[var(--text-3)] hover:text-[var(--text-1)] transition-colors"
+                  aria-label={t("calculator.hideExpenses", { defaultValue: "Ocultar" })}
+                  data-testid="button-hide-expenses"
+                >
+                  ×
+                </button>
+              </div>
             </div>
             {!showExpenseDetails ? (
               <>

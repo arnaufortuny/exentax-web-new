@@ -63,7 +63,7 @@ export default function LanguageSwitcher() {
         <div
           role="listbox"
           aria-label={t("common.selectLanguage")}
-          className="absolute top-[calc(100%+8px)] right-0 bg-[var(--card-bg,#fff)] border border-[var(--border,rgba(0,0,0,0.08))] rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.12)] overflow-hidden z-[9999] w-[170px]"
+          className="absolute top-[calc(100%+8px)] right-0 bg-white border border-black/10 rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.12)] overflow-hidden z-[9999] w-[170px]"
         >
           {SUPPORTED_LANGS.map((lang) => (
             <button
@@ -75,7 +75,7 @@ export default function LanguageSwitcher() {
               className={`flex items-center gap-2.5 w-full px-3.5 py-2.5 border-none cursor-pointer font-body text-[13px] text-left transition-colors duration-100 ${
                 lang === current
                   ? "bg-[rgba(0,229,16,0.06)] font-bold text-[var(--green)]"
-                  : "bg-transparent font-medium text-[var(--text-1,#1A1A1A)] hover:bg-black/[0.03]"
+                  : "bg-white font-medium text-[#1A1A1A] hover:bg-black/[0.03]"
               }`}
             >
               <FlagImg lang={lang} size={18} />

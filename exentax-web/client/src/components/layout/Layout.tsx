@@ -5,6 +5,7 @@ import FloatingMobileCTA from "@/components/layout/FloatingMobileCTA";
 import FloatingWhatsApp from "@/components/layout/FloatingWhatsApp";
 import Tracking from "@/components/Tracking";
 import CookieBanner from "@/components/CookieBanner";
+import SubscribePopup from "@/components/SubscribePopup";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const { t } = useTranslation();
@@ -22,6 +23,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <FloatingMobileCTA />
       <FloatingWhatsApp />
       <CookieBanner />
+      <SubscribePopup />
     </div>
   );
 }

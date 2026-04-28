@@ -844,7 +844,7 @@ export const countries = [
   { id: "espana",       label: "España",      flag: "/img/flags/espana.png" },
   { id: "mexico",       label: "México",      flag: "/img/flags/mexico.png" },
   { id: "chile",        label: "Chile",        flag: "/img/flags/chile.png" },
-  { id: "reino-unido",  label: "Reino Unido",  flag: "/img/flags/reino-unido.png" },
+  { id: "reino-unido",  label: "UK",  flag: "/img/flags/reino-unido.png" },
   { id: "francia",      label: "Francia",      flag: "/img/flags/francia.png" },
   { id: "belgica",      label: "Bélgica",      flag: "/img/flags/belgica.png" },
   { id: "italia",       label: "Italia",       flag: "/img/flags/italia.png" },
