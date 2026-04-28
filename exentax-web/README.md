@@ -230,7 +230,7 @@ Resumen — auditoría completa en `docs/observability-audit.md`.
 | `npm run build` | Build prod (Vite cliente + esbuild server → `dist/`) |
 | `npm run start` | Run prod (`node dist/index.mjs`) |
 | `npm run check` | tsc + lint:typography + seo:check + seo:slash + seo:meta |
-| `npm run lint:typography` | Regla 0 tipográfica (allowlists en `scripts/check-typography-rule0.mjs`) |
+| `npm run lint:typography` | Regla 0 tipográfica (allowlists en `scripts/audit/check-typography-rule0.mjs`) |
 | `npm run lint:blog` | Lint contenido blog (Regla 0 + estructura) |
 | `npm run seo:check` | Enlaces internos blog + cross-refs |
 | `npm run seo:slash` | Slash-hygiene contra dev server |

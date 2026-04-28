@@ -153,7 +153,7 @@ function main() {
   findings.push({
     article: "(global)",
     affirmation: "Enlaces externos en cuerpo de artículos",
-    current_source: "Mixto — ver scripts/blog-verify-source-urls.mjs y scripts/seo-check-links.mjs",
+    current_source: "Mixto — ver scripts/blog/blog-verify-source-urls.mjs y scripts/seo/seo-check-links.mjs",
     problem: "El proyecto cuenta con verificadores automatizados de URLs (HTTP 2xx) en scripts/. Esta auditoría no ejecuta peticiones HTTP.",
     recommended_source: "Ejecutar `node exentax-web/scripts/blog-verify-source-urls.mjs` y `node exentax-web/scripts/seo-check-links.mjs` periódicamente.",
     priority: "baja",

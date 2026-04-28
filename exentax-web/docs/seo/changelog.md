@@ -22,7 +22,7 @@ Chronological log of SEO-affecting changes. Most recent first.
   `blog-verify-source-urls.mjs`): cache must exist, be < 14 days old,
   and report zero dead authority URLs (Cloudflare-gated 403s are treated
   as alive). Missing/stale cache or any dead URL is **CRITICAL** and
-  fails CI — refresh by running `node scripts/blog-verify-source-urls.mjs`.
+  fails CI — refresh by running `node scripts/blog/blog-verify-source-urls.mjs`.
 - `blog-validate-all.mjs` — single-entry orchestrator that runs the **10
   blog-quality steps** (consistency, content lint, internal links,
   locale link leak, CTA, data, sources, FAQ JSON-LD, sitemap,
@@ -46,7 +46,7 @@ Chronological log of SEO-affecting changes. Most recent first.
 
 ### Hooks + CI
 - `scripts/install-git-hooks.sh` pre-push now runs
-  `node scripts/blog-validate-all.mjs` after `npm run check`.
+  `node scripts/blog/blog-validate-all.mjs` after `npm run check`.
 - `package.json` adds `blog:validate-all` and wires it into the
   `npm run check` pipeline (between `seo:masterpiece-strict` and
   `i18n:check`).

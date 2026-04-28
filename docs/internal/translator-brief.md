@@ -42,10 +42,10 @@
 | Tool | Qué detecta | Comando |
 |---|---|---|
 | `validate-i18n.ts` | strings idénticos a ES, missing/extra keys, placeholder mismatches | `npm run i18n:check` |
-| `blog-translation-quality-extended.mjs` | low-ratio, MT-tells, register drift, leakage | `node scripts/blog-translation-quality-extended.mjs --check` |
+| `blog-translation-quality-extended.mjs` | low-ratio, MT-tells, register drift, leakage | `node scripts/blog/blog-translation-quality-extended.mjs --check` |
 | `audit-pt-pt.mjs` | brasileñismos en PT | `npm run lint:pt-pt` |
-| `lint-banned-banking-entities.mjs` | entidades bancarias prohibidas | `node scripts/lint-banned-banking-entities.mjs` |
-| `brand-casing-check.mjs` | forbidden brand casing variant | `node scripts/brand-casing-check.mjs` |
+| `lint-banned-banking-entities.mjs` | entidades bancarias prohibidas | `node scripts/audit/lint-banned-banking-entities.mjs` |
+| `brand-casing-check.mjs` | forbidden brand casing variant | `node scripts/audit/brand-casing-check.mjs` |
 | `find-hardcoded-strings.ts --strict` | hardcoded strings en JSX | step de `i18n:check` |
 | `audit-conversion-112x6.mjs --strict` | weak/generic CTAs | `npm run audit:conversion -- --strict` |
 
@@ -68,7 +68,7 @@ o de un freelancer puntual cuando se detecte un copy concreto que mover el needl
 - 0 fails en `npm run i18n:check`.
 - 0 fails en `npm run lint:pt-pt`.
 - 0 fails en `npm run audit:conversion -- --strict`.
-- 0 fails en `node scripts/blog-translation-quality-extended.mjs --check` (modo audit).
+- 0 fails en `node scripts/blog/blog-translation-quality-extended.mjs --check` (modo audit).
 - Subjetivo: si el owner lee un párrafo random en cualquier idioma y no le hace
   sangrar los oídos, el target Premium Pro está cumplido.
 

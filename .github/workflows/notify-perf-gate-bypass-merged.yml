@@ -17,7 +17,7 @@ name: Notify perf-gate bypass on merge
 #     elimina esa indirección y nos da `merged`/`labels` directos.
 #
 # Comportamiento existente preservado:
-#   - El notifier de bundle (`scripts/audit-bundle-diff-notify-discord.mjs`,
+#   - El notifier de bundle (`scripts/audit/audit-bundle-diff-notify-discord.mjs`,
 #     Task #50) sigue disparándose en `push` a main desde
 #     `quality-pipeline.yml`. Ambos avisos coexisten: el de bundle
 #     habla de regresiones reales en main; este habla de gates
@@ -71,4 +71,4 @@ jobs:
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
           PR_MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
-        run: node scripts/notify-perf-gate-bypass-discord.mjs
+        run: node scripts/audit/notify-perf-gate-bypass-discord.mjs

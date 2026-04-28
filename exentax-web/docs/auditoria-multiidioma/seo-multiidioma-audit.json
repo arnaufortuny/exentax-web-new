@@ -23,7 +23,7 @@
       "perLangCounts": { "es": 111, "en": 111, "fr": 111, "de": 111, "pt": 111, "ca": 111 },
       "httpStatusChecked": 768,
       "httpStatusFailures": 0,
-      "evidence": "scripts/seo-sitemap-check.mjs against http://localhost:5000 — \"OK — sitemap and hreflang checks passed.\" Hreflang reciprocity validated, no duplicate <loc>, every URL 2xx."
+      "evidence": "scripts/seo/seo-sitemap-check.mjs against http://localhost:5000 — \"OK — sitemap and hreflang checks passed.\" Hreflang reciprocity validated, no duplicate <loc>, every URL 2xx."
     },
     "metaLengths": {
       "status": "OK",
@@ -35,7 +35,7 @@
         "pt": { "metaTitle": 60, "metaDescription": 149 },
         "ca": { "metaTitle": 58, "metaDescription": 150 }
       },
-      "evidence": "scripts/seo-blog-i18n-meta-lengths.test.mjs — \"OK — blog-i18n meta lengths within limits (555 entries across 5 langs)\". scripts/seo-meta-audit.mjs — \"SEO META AUDIT — OK (111 posts × 6 langs, 22 public pages)\"."
+      "evidence": "scripts/seo-blog-i18n-meta-lengths.test.mjs — \"OK — blog-i18n meta lengths within limits (555 entries across 5 langs)\". scripts/seo/seo-meta-audit.mjs — \"SEO META AUDIT — OK (111 posts × 6 langs, 22 public pages)\"."
     },
     "ptLocaleTag": {
       "status": "FIXED",
@@ -52,7 +52,7 @@
   },
   "automatedChecks": [
     {
-      "name": "scripts/seo-sitemap-check.mjs",
+      "name": "scripts/seo/seo-sitemap-check.mjs",
       "purpose": "End-to-end sitemap + hreflang reciprocity + HTTP 2xx for every URL",
       "lastRun": "2026-04-22T08:10Z",
       "result": "PASS"
@@ -64,7 +64,7 @@
       "result": "PASS"
     },
     {
-      "name": "scripts/seo-meta-audit.mjs",
+      "name": "scripts/seo/seo-meta-audit.mjs",
       "purpose": "Public pages + blog meta audit",
       "lastRun": "2026-04-22T08:11Z",
       "result": "PASS"

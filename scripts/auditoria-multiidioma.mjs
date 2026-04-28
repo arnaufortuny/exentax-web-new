@@ -30,7 +30,7 @@ function statM(p) { try { return fs.statSync(p).mtime.toISOString().slice(0,10);
 // Locale loading via tsx eval is heavy. We read the JS source and walk keys
 // using a regex-based brace tracker that is good enough for our deeply-nested
 // but well-formed locale files. For robust parity we lean on the existing
-// `i18n-parity.json` artefact written by `scripts/validate-i18n.ts`.
+// `i18n-parity.json` artefact written by `scripts/i18n/validate-i18n.ts`.
 // ---------------------------------------------------------------------------
 
 function flattenKeysFromSource(src) {
@@ -241,7 +241,7 @@ function phase2Missing(p1) {
     counts: parity.counts,
     missing_by_lang: parity.missingByLang,
     missing_in_all_non_es: parity.missingInAllNonEs,
-    note: "Generado por scripts/validate-i18n.ts en la auditoría previa. 0 claves faltantes en todas las lenguas.",
+    note: "Generado por scripts/i18n/validate-i18n.ts en la auditoría previa. 0 claves faltantes en todas las lenguas.",
   } : null;
   if (keysSummary && parity) {
     for (const lang of NON_ES) {
@@ -404,7 +404,7 @@ function phase3Quality() {
     severity: "ok",
     original_es: "—",
     problematic_translation: "0 violaciones de glosario (LLC, EIN, ITIN, IRS, FinCEN, FATCA, BOI/BOIR, Form 1120, Form 5472, W-8BEN/E)",
-    reason: "scripts/i18n-glossary-lint.ts pasa en las 6 lenguas (Apéndice A deep-audit).",
+    reason: "scripts/i18n/i18n-glossary-lint.ts pasa en las 6 lenguas (Apéndice A deep-audit).",
     suggestion: "Mantener — añadir el lint a CI cuando se autorice editar package.json.",
   });
 
@@ -718,7 +718,7 @@ function phase6Glossary() {
     summary: {
       total_terms: glosario.length,
       total_variant_violations_in_locales: violations.length,
-      glossary_lint_status: "PASS (0/0/0/0/0/0) según scripts/i18n-glossary-lint.ts en deep-audit 2026-04",
+      glossary_lint_status: "PASS (0/0/0/0/0/0) según scripts/i18n/i18n-glossary-lint.ts en deep-audit 2026-04",
     },
     glossary: glosario,
     violations_in_locales: violations,
@@ -878,7 +878,7 @@ function phase8Seo() {
     issue: "No se ha verificado en esta auditoría que cada slug del blog tenga las 6 alternates URL apuntando a versiones realmente publicadas.",
     severity: "media",
     languages: LANGS,
-    recommendation: "Ejecutar `node scripts/seo-sitemap-check.mjs` y `node scripts/seo-related-validate.mjs` para garantizar que el sitemap multiidioma incluye las 6 variantes por slug.",
+    recommendation: "Ejecutar `node scripts/seo/seo-sitemap-check.mjs` y `node scripts/seo/seo-related-validate.mjs` para garantizar que el sitemap multiidioma incluye las 6 variantes por slug.",
   });
 
   writeJSON("seo-multiidioma-audit.json", {
@@ -1053,7 +1053,7 @@ function phase10TechnicalI18n() {
     area: "duplicate-and-empty-keys",
     status: "ok",
     detail: "Auditoría previa (i18n-deep-audit-2026-04, sección 1) reporta 0 claves duplicadas y 0 valores vacíos en las 6 lenguas.",
-    recommendation: "Mantener `scripts/validate-i18n.ts` como gate de CI.",
+    recommendation: "Mantener `scripts/i18n/validate-i18n.ts` como gate de CI.",
   });
 
   // Auto-generated types
@@ -1188,7 +1188,7 @@ const resumen = `# Auditoría multiidioma Exentax — RESUMEN
    - Refinar detector de «Spanish leaks» con allowlist romance para PT/CA.
 
 5. **Mantenimiento continuo:**
-   - Lint de glosario (\`scripts/i18n-glossary-lint.ts\`) en CI.
+   - Lint de glosario (\`scripts/i18n/i18n-glossary-lint.ts\`) en CI.
    - Revisión trimestral de cifras fiscales 2026.
    - Validador estructural \`npm run i18n:check\` como gate de merge.
 

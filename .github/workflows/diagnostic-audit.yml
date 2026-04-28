@@ -117,16 +117,16 @@ jobs:
           exit 1
 
       - name: Run diagnostic audit
-        run: node scripts/auditoria-rutas-componentes-discord-emails.mjs all
+        run: node scripts/audit/auditoria-rutas-componentes-discord-emails.mjs all
 
       - name: Verify hreflang BCP-47 region tags (static + live sitemaps)
         env:
           BASE_URL: http://127.0.0.1:5000
-        run: node scripts/seo-sitemap-bcp47.test.mjs
+        run: node scripts/seo/seo-sitemap-bcp47.test.mjs
 
       - name: Enforce regression gates
         id: gate
-        run: node scripts/auditoria-ci-gate.mjs
+        run: node scripts/audit/auditoria-ci-gate.mjs
 
       - name: Notify Discord on audit failure
         # Solo dispara cuando el gate de regresión falla explícitamente
@@ -140,7 +140,7 @@ jobs:
           GITHUB_SHA: ${{ github.sha }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF: ${{ github.ref }}
-        run: node scripts/auditoria-ci-notify-discord.mjs
+        run: node scripts/audit/auditoria-ci-notify-discord.mjs
 
       - name: Stop dev server
         if: always()

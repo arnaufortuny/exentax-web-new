@@ -25,7 +25,7 @@ The rule is enforced at two layers:
   301-redirects any inbound request whose path matches one of the three bug
   families above to its canonical form. This protects against external links
   and stale bookmarks that the source-code/sitemap scans cannot cover.
-- **CI gate (`scripts/seo-slash-hygiene.mjs`,** wired as `npm run seo:slash`,
+- **CI gate (`scripts/seo/seo-slash-hygiene.mjs`,** wired as `npm run seo:slash`,
   also part of `npm run check`**).** The script:
 
 1. Walks `client/src` for hard-coded hrefs / route literals that target a
@@ -54,7 +54,7 @@ The rule is enforced at two layers:
    blocks the deploy.
 
 The classifier and sitemap extractor are covered by
-`scripts/seo-slash-hygiene.test.mjs` (`npm run test:seo-slash`) — synthetic
+`scripts/seo/seo-slash-hygiene.test.mjs` (`npm run test:seo-slash`) — synthetic
 malformed sitemap input must produce findings; clean input must not.
 
 The report is referenced from the indexing audit

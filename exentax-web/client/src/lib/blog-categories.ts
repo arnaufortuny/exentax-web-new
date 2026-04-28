@@ -8,7 +8,7 @@
  *  1. Append the Spanish label to `BLOG_CATEGORIES`.
  *  2. Add the i18n translations under `blogPost.categories.<key>` in
  *     every locale bundle.
- *  3. Run `node scripts/blog-consistency-check.mjs` — the gate enforces
+ *  3. Run `node scripts/blog/blog-consistency-check.mjs` — the gate enforces
  *     that every `BLOG_POSTS[i].category` is in this list.
  *
  * The URL slug is the lowercased, ASCII-safe version of the Spanish

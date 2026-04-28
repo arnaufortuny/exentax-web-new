@@ -91,8 +91,8 @@ grep -c ']\(/es/' client/src/data/blog-posts.ts # should be ≥ 3 × post count
 
 ### 3.2 Link checker
 
-`scripts/seo-check-links.mjs` (run via `npm run seo:check`) reuses the graph
-from `scripts/link-graph.mjs` to enforce two invariants:
+`scripts/seo/seo-check-links.mjs` (run via `npm run seo:check`) reuses the graph
+from `scripts/seo/link-graph.mjs` to enforce two invariants:
 
 1. **No broken links** — every `/<lang>/blog/<slug>` href found in any per-
    article content file under `client/src/data/blog-content/<lang>/` must
@@ -103,7 +103,7 @@ from `scripts/link-graph.mjs` to enforce two invariants:
    three incoming contextual links from other Spanish articles (rule §1.4).
 
 The script exits non-zero if either check fails, with a human-readable list
-of every offender. Unit tests live in `scripts/seo-check-links.test.mjs`
+of every offender. Unit tests live in `scripts/seo/seo-check-links.test.mjs`
 (`npm run test:seo-check`).
 
 ### 3.3 CI enforcement

@@ -27,7 +27,7 @@ latinoamericanas. Documentado abajo en sección 6.
 
 ## 2. Metodología
 
-Se construyó un auditor en `scripts/i18n-quality-audit.ts` que extrae
+Se construyó un auditor en `scripts/i18n/i18n-quality-audit.ts` que extrae
 todas las claves en plano y aplica las siguientes verificaciones:
 
 1. **Balance de etiquetas HTML** dentro de cada valor que contiene `<`,
@@ -123,7 +123,7 @@ Los artefactos crudos quedan en `.local-audit/*.json` para reauditoría.
 ## 4. Coherencia terminológica
 
 Conteo de apariciones de los conceptos clave del dominio fiscal
-(`scripts/i18n-quality-audit.ts` → `term-stats.json`):
+(`scripts/i18n/i18n-quality-audit.ts` → `term-stats.json`):
 
 | Término          | ES   | EN   | FR   | DE   | PT   | CA   |
 |------------------|------|------|------|------|------|------|
@@ -202,9 +202,9 @@ acciones de manera accesible en cada idioma.
 | `npm run check` (TS + tipografía)      | PASS      |
 | `npm run lint:blog` (478 archivos)     | PASS      |
 | `npm run i18n:check`                   | PASS      |
-| `node scripts/seo-sitemap-check.mjs`   | PASS      |
+| `node scripts/seo/seo-sitemap-check.mjs`   | PASS      |
 | `node scripts/seo-blog-audit.mjs`      | PASS      |
-| `npx tsx scripts/i18n-quality-audit.ts`| PASS      |
+| `npx tsx scripts/i18n/i18n-quality-audit.ts`| PASS      |
 | App boot HTTP `/`                      | 200       |
 
 ## 10. Comandos para reauditar
@@ -212,7 +212,7 @@ acciones de manera accesible en cada idioma.
 ```bash
 cd exentax-web
 npm run i18n:check
-npx tsx scripts/i18n-quality-audit.ts
+npx tsx scripts/i18n/i18n-quality-audit.ts
 ls .local-audit/   # artefactos JSON crudos para reauditar
 ```
 

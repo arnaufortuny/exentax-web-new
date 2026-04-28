@@ -3,7 +3,7 @@
  *
  * Used by `pages/blog/post.tsx` to build a `FAQPage` JSON-LD on top of the
  * existing `BlogPosting` JSON-LD. The same parsing convention is used by
- * `scripts/blog-consistency-check.mjs` so that the SEO gate can verify the
+ * `scripts/blog/blog-consistency-check.mjs` so that the SEO gate can verify the
  * structured data matches the article body.
  *
  * Conventions (deterministic, locked across languages):

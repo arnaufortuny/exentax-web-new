@@ -3794,7 +3794,7 @@ export const FAQ_SCHEMA_ENTRIES = [
 // minimal <h1> entry in PAGE_SEO_CONTENT / PAGE_SEO_CONTENT_I18N derived
 // from PAGE_META.title. This mirrors the runtime fallback that
 // injectMeta() applies in server/static.ts and also lets the static
-// audit script (scripts/audit-system-seo-faqs.mjs) recognise a
+// audit script (scripts/audit/audit-system-seo-faqs.mjs) recognise a
 // rendered <h1> without having to crawl the production build.
 // ---------------------------------------------------------------------
 const _H1_BACKFILL_ROUTES: RouteKey[] = [

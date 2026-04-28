@@ -90,7 +90,7 @@
 - [x] `npm run i18n:check` → PASS (779 ficheros, 0 hardcoded user-visible strings).
 - [x] `npm run seo:meta` → 0 errors, **2 warnings aceptadas fuera de scope**: `como-operar-llc-dia-a-dia` ES desc=153ch (límite blando 150) y `que-es-irs-guia-duenos-llc` ES desc=155ch. Ambos slugs caen fuera de la lista de 4 del sprint y por restricción explícita "Out of scope: tocar slugs fuera de los 4 listados" no se modifican aquí; se trasladarán a un sprint posterior.
 - [x] `npm run audit:conversion` (audit-conversion-112x6) → 0 errores; gaps reportados son report-only de toda la cartera (171 agenda, 669 tel-WA, 672 LLC-subpage, 37 ITIN-subpage, 4 weak-copy) y no aplican a los 4 slugs del sprint.
-- [x] `node scripts/audit-conversion-es-2026-04.mjs` → **111/111 PASA**, FALLA: 0 (los 4 slugs del sprint incluidos).
+- [x] `node scripts/audit/audit-conversion-es-2026-04.mjs` → **111/111 PASA**, FALLA: 0 (los 4 slugs del sprint incluidos).
 
 #### Resultado
 - **WC promedio ES:** 2992 (residentes 2549, diferencia 2533, iva 2727, llc-EE.UU. 4160).

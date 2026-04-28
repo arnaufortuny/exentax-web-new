@@ -30,4 +30,4 @@ jobs:
           node-version: 20
 
       - name: Run PT-PT audit
-        run: node scripts/audit-pt-pt.mjs
+        run: node scripts/audit/audit-pt-pt.mjs

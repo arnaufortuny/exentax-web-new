@@ -26,7 +26,7 @@ async function buildAll() {
   console.log("running blog price-and-address guard (lint:blog)...");
   const lint = spawnSync(
     process.execPath,
-    [path.resolve(ROOT, "scripts/blog-content-lint.mjs")],
+    [path.resolve(ROOT, "scripts/blog/blog-content-lint.mjs")],
     { stdio: "inherit" },
   );
   if (lint.status !== 0) {
@@ -42,7 +42,7 @@ async function buildAll() {
   console.log("running blog guard unit tests (test:lint-blog)...");
   const lintTest = spawnSync(
     process.execPath,
-    [path.resolve(ROOT, "scripts/blog-content-lint.test.mjs")],
+    [path.resolve(ROOT, "scripts/blog/blog-content-lint.test.mjs")],
     { stdio: "inherit" },
   );
   if (lintTest.status !== 0) {
@@ -59,7 +59,7 @@ async function buildAll() {
   console.log("running orphan-detect unit tests (test:orphan-detect)...");
   const orphanTest = spawnSync(
     process.execPath,
-    [path.resolve(ROOT, "scripts/orphan-detect.test.mjs")],
+    [path.resolve(ROOT, "scripts/audit/orphan-detect.test.mjs")],
     { stdio: "inherit" },
   );
   if (orphanTest.status !== 0) {
@@ -79,8 +79,8 @@ async function buildAll() {
   // replit.md "Repo conventions"). The artefacts they produced
   // (ctas-changelog.md, ctas-rewrite.md) are frozen in docs/audits/2026-04/.
   for (const [label, file] of [
-    ["seo-meta-audit", "scripts/seo-meta-audit.mjs"],
-    ["seo-related-validate", "scripts/seo-related-validate.mjs"],
+    ["seo-meta-audit", "scripts/seo/seo-meta-audit.mjs"],
+    ["seo-related-validate", "scripts/seo/seo-related-validate.mjs"],
   ] as const) {
     console.log(`running ${label}...`);
     const r = spawnSync(process.execPath, [path.resolve(ROOT, file)], { stdio: "inherit" });
@@ -125,7 +125,7 @@ async function buildAll() {
     process.execPath,
     [
       path.resolve(WORKSPACE, "node_modules/.bin/tsx"),
-      path.resolve(ROOT, "scripts/run-newsletter-e2e.ts"),
+      path.resolve(ROOT, "scripts/e2e/run-newsletter-e2e.ts"),
     ],
     { stdio: "inherit", cwd: WORKSPACE },
   );
@@ -148,7 +148,7 @@ async function buildAll() {
     process.execPath,
     [
       path.resolve(WORKSPACE, "node_modules/.bin/tsx"),
-      path.resolve(ROOT, "scripts/run-booking-e2e.ts"),
+      path.resolve(ROOT, "scripts/e2e/run-booking-e2e.ts"),
     ],
     { stdio: "inherit", cwd: WORKSPACE },
   );

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-22T09:02:57.169Z",
+  "generatedAt": "2026-04-28T14:35:38.677Z",
   "files": {
-    "server/discord.ts": 1613,
-    "server/discord-bot.ts": 387,
-    "server/discord-bot-commands.ts": 863
+    "server/discord.ts": 1671,
+    "server/discord-bot.ts": 466,
+    "server/discord-bot-commands.ts": 958
   },
   "eventCatalog": [
     {
@@ -114,12 +114,9 @@
     "LEAD_NEW",
     "LEAD_CALCULATOR",
     "LEAD_NEWSLETTER",
-    "CONSENT_LOGGED",
     "USER_ACTIVITY",
     "VALIDATION_FAILED",
-    "SYSTEM_ERROR",
-    "SEO_INDEXING",
-    "ADMIN_ACTION"
+    "SYSTEM_ERROR"
   ],
   "retryConfig": {
     "maxRetries": 3,
@@ -167,10 +164,15 @@
     }
   ],
   "tests": {
-    "total": 1,
+    "total": 2,
     "files": [
+      "tests/discord-event-notifications.test.ts",
       "tests/discord-no-token-leak.test.ts"
     ],
-    "eventsCovered": []
+    "eventsCovered": [
+      "CONSENT_LOGGED",
+      "SEO_INDEXING",
+      "ADMIN_ACTION"
+    ]
   }
 }

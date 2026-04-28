@@ -113,7 +113,7 @@ cercano-técnico-persuasivo de Exentax.
 
 ## 6b. Patrones PT-BR vs PT-PT (descubiertos en sesión 2026-04)
 
-El lint `scripts/audit-pt-pt.mjs` bloquea una lista concreta de brasileñismos
+El lint `scripts/audit/audit-pt-pt.mjs` bloquea una lista concreta de brasileñismos
 pero **no captura todo**. Patrones adicionales que debe vigilar el revisor:
 
 | BR-style (prohibido) | PT-PT (correcto) | Dónde apareció |
@@ -159,7 +159,7 @@ está mal. Cambiar a infinitivo o imperativo.
 Antes de aprobar una locale:
 
 - [ ] Ninguna traducción idéntica a ES que no deba serlo (ver
-      `scripts/validate-i18n.ts` → sección "Possibly untranslated").
+      `scripts/i18n/validate-i18n.ts` → sección "Possibly untranslated").
 - [ ] Placeholders `{{var}}` coinciden 1:1 con ES (ya validado por el linter).
 - [ ] Tono cercano-técnico-persuasivo coherente en todo el fichero.
 - [ ] CTAs idiomáticos, no literales.
@@ -167,7 +167,7 @@ Antes de aprobar una locale:
 - [ ] Términos de §1 (LLC, Exentax, etc.) respetados literalmente.
 - [ ] Adaptaciones culturales donde `autónomo`/`IRPF` aparecen (usar §2-§3).
 - [ ] Ningún espacio doble, ninguna puntuación española en frase extranjera.
-- [ ] En PT: sin brasileñismos (`scripts/audit-pt-pt.mjs` lo bloquea).
+- [ ] En PT: sin brasileñismos (`scripts/audit/audit-pt-pt.mjs` lo bloquea).
 
 ---
 

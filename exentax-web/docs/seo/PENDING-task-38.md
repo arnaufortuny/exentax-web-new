@@ -7,7 +7,7 @@
 > **verify-meta:** 0 errors / 0 warnings / 0 duplicates × 6 idiomas
 > **Gate `--strict`:** activo en `npm run check` vía `seo:masterpiece-strict`
 > **Fuente única de reglas:** [`blog-editorial-rules-v2.md`](./blog-editorial-rules-v2.md)
-> **Medidor:** `node scripts/blog-masterpiece-audit.mjs --strict` → `reports/seo/baseline-606.{json,md}`
+> **Medidor:** `node scripts/blog/blog-masterpiece-audit.mjs --strict` → `reports/seo/baseline-606.{json,md}`
 
 ## Baseline final (2026-04-21)
 

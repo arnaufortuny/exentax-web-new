@@ -53,7 +53,7 @@ EXIT 0
 === SEO CHECK ===
 
 > exentax-web@1.0.0 seo:check
-> node scripts/seo-check-links.mjs
+> node scripts/seo/seo-check-links.mjs
 
 ✓ No broken internal blog links.
 ✓ All 112 articles have ≥ 3 incoming links.
@@ -77,13 +77,13 @@ EXIT 0
 EXIT 0
 === SEO SLASH (skip live) ===
 > exentax-web@1.0.0 seo:slash
-> node scripts/seo-slash-hygiene.mjs
+> node scripts/seo/seo-slash-hygiene.mjs
 
 SEO_SLASH_SKIP_LIVE=1 — skipping live sitemap scan (sources only).
 ✓ slash-hygiene: clean (report → reports/seo/slash-hygiene.md)
 EXIT 0
 === AUDIT:CONVERSION ===
-> node scripts/audit-conversion-112x6.mjs
+> node scripts/audit/audit-conversion-112x6.mjs
 
 audit-conversion-112x6: 0/672 fully conversion-grade · 175 agenda gaps · 669 tel-WA gaps · 654 LLC-subpage gaps · 37 ITIN-subpage gaps · 4 weak-copy hits
 EXIT 0

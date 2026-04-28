@@ -46,7 +46,7 @@ behaviour:
 | Surface                              | Before | After |
 | ------------------------------------ | ------ | ----- |
 | `parseMissingKeyHandler` returns raw key in production | yes | **no** — humanised label + server log |
-| Glossary canonical-spelling enforcement | none | **`scripts/i18n-glossary-lint.ts`** (CI-ready) |
+| Glossary canonical-spelling enforcement | none | **`scripts/i18n/i18n-glossary-lint.ts`** (CI-ready) |
 | Romance-cognate suppression in quality auditor | none | per-locale allowlist ⇒ noise dropped 93–99% |
 | Hardcoded JSX text scan              | absent | exploratory pass run, 0 real violations |
 
@@ -54,13 +54,13 @@ behaviour:
 
 ## 3. Tooling
 
-### 3.1 `scripts/validate-i18n.ts` (existing, unchanged)
+### 3.1 `scripts/i18n/validate-i18n.ts` (existing, unchanged)
 
 Structural parity, placeholders, empty values, hardcoded
 `aria/alt/title/placeholder`, string-concatenation patterns, dynamic-prefix-aware
 unused-key detection.
 
-### 3.2 `scripts/i18n-quality-audit.ts` (extended)
+### 3.2 `scripts/i18n/i18n-quality-audit.ts` (extended)
 
 Now includes a **per-locale cognate allowlist** that filters out
 brand/acronym/code-like strings AND universally valid latinate cognates
@@ -78,7 +78,7 @@ drops the false-positive count by 93–99%:
 
 The 13 residuals are catalogued in §5 and validated as legitimate.
 
-### 3.3 `scripts/i18n-glossary-lint.ts` (NEW)
+### 3.3 `scripts/i18n/i18n-glossary-lint.ts` (NEW)
 
 Enforces the canonical spelling defined in `docs/i18n-glossary.md` for
 literal-everywhere terms:
@@ -90,7 +90,7 @@ literal-everywhere terms:
 * `Form 1120`, `Form 5472`, `Form 1040-NR` (capital `Form`, never `form`).
 * `W-8BEN`, `W-8BEN-E` (preserve dashes).
 
-Run: `npx tsx scripts/i18n-glossary-lint.ts`. Exits non-zero on any
+Run: `npx tsx scripts/i18n/i18n-glossary-lint.ts`. Exits non-zero on any
 violation (CI-ready). Currently **0/0/0/0/0/0** across all locales.
 
 ---
@@ -143,7 +143,7 @@ No further action.
 
 ## 6. "Spanish leaks" detector — known limitation
 
-The Spanish-leaks heuristic in `scripts/i18n-quality-audit.ts` reports
+The Spanish-leaks heuristic in `scripts/i18n/i18n-quality-audit.ts` reports
 119 PT and 184 CA hits, but inspection shows ≥ 95% are **false
 positives** caused by latinate cognates that are valid in PT and CA:
 
@@ -187,10 +187,10 @@ touched.
 npm run i18n:check
 
 # Romance-cognate-aware quality audit (informational)
-npx tsx scripts/i18n-quality-audit.ts
+npx tsx scripts/i18n/i18n-quality-audit.ts
 
 # Canonical-spelling glossary lint (CI-blocking)
-npx tsx scripts/i18n-glossary-lint.ts
+npx tsx scripts/i18n/i18n-glossary-lint.ts
 ```
 
 Add the glossary lint to CI when the next package.json edit window
@@ -226,7 +226,7 @@ approval).
 
 ## Appendix A — Validator matrix (all 6 locales, post-fix)
 
-`scripts/validate-i18n.ts` runs eight independent checks against every
+`scripts/i18n/validate-i18n.ts` runs eight independent checks against every
 locale. The matrix below is the **final state** after this round's fixes
 (re-run on the date this doc was committed).
 
@@ -275,7 +275,7 @@ defects**.
 
 ## Appendix C — Hardcoded-string inventory
 
-`scripts/i18n-quality-audit.ts` scans every `client/src/**/*.tsx`
+`scripts/i18n/i18n-quality-audit.ts` scans every `client/src/**/*.tsx`
 component for string literals that look like user-facing text and are
 not wrapped in `t()`. The full inventory is written to
 `.local-audit/hardcoded-text-candidates.txt`.

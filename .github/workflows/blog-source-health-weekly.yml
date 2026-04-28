@@ -45,7 +45,7 @@ jobs:
 
       - name: Run blog-validate-all with external source ping
         id: validate
-        run: node scripts/blog-validate-all.mjs --with-external
+        run: node scripts/blog/blog-validate-all.mjs --with-external
 
       - name: Upload source-URL verification report
         if: always()
@@ -100,7 +100,7 @@ jobs:
               `The weekly external source-URL health check failed.`,
               ``,
               `- Workflow run: ${process.env.RUN_URL}`,
-              `- Script: \`node scripts/blog-validate-all.mjs --with-external\``,
+              `- Script: \`node scripts/blog/blog-validate-all.mjs --with-external\``,
               report
                 ? `- Sources checked: ${report.total} · OK: ${report.ok} · FAIL: ${report.fail}`
                 : `- Report file missing — see workflow logs for the failing step.`,
@@ -122,7 +122,7 @@ jobs:
               `1. Re-run the workflow once to rule out a transient outage (Cloudflare challenges count as alive, true 4xx/5xx do not).`,
               `2. If still dead, find the new canonical URL on the issuing authority's site and update \`exentax-web/scripts/blog-verify-source-urls.mjs\`.`,
               `3. If the citation is also referenced inline in any article body, update those links too (\`rg "<old-url>" exentax-web/client\`).`,
-              `4. Close this issue once \`node scripts/blog-validate-all.mjs --with-external\` is green locally.`,
+              `4. Close this issue once \`node scripts/blog/blog-validate-all.mjs --with-external\` is green locally.`,
               ``,
               `_Auto-filed by \`.github/workflows/blog-source-health-weekly.yml\`._`,
             ].join('\n');

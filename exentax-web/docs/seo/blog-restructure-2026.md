@@ -4,7 +4,7 @@
 
 - **Task #1** rewrote the 101-article ES master with a new H2/H3 structure (deeper sections, new headings).
 - **Task #3** cloned the ES master skeleton into the 5 non-ES locales (EN, FR, DE, PT, CA) without an LLM, so the non-ES files keep their previously translated bodies but reflect the *old* ES structure.
-- **Task #4** added `scripts/blog-final-qa.mjs`, which reports H2/H3 count parity per `(slug, lang)` against the ES master.
+- **Task #4** added `scripts/blog/blog-final-qa.mjs`, which reports H2/H3 count parity per `(slug, lang)` against the ES master.
 - **Task #15 (this one)** brings every non-ES article into structural parity with the ES master while keeping content native (idiomatic translation, not literal).
 
 ## Snapshot — before
@@ -45,7 +45,7 @@ Average delta per file: **3.66 headings**. All 101 ES slugs have at least one no
 
 ## Tooling
 
-### `scripts/blog-restructure-non-es.mjs`
+### `scripts/blog/blog-restructure-non-es.mjs`
 
 LLM-driven, idempotent restructurer. For each pending `(slug, lang)` it sends the LLM:
 
@@ -96,8 +96,8 @@ npm run blog:restructure -- --dry-run
 Added in `package.json`:
 
 ```jsonc
-"blog:final-qa":   "node scripts/blog-final-qa.mjs",
-"blog:restructure": "node scripts/blog-restructure-non-es.mjs"
+"blog:final-qa":   "node scripts/blog/blog-final-qa.mjs",
+"blog:restructure": "node scripts/blog/blog-restructure-non-es.mjs"
 ```
 
 ## Cost / scale

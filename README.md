@@ -17,10 +17,10 @@ Web pública de Exentax: landing, blog multilingüe, sistema de reservas de ases
 | Check | Resultado | Comando |
 |---|---|---|
 | TypeScript | EXIT 0 (0 errores) | `cd exentax-web && npx tsc --noEmit` |
-| Typography Regla 0 | 0 violaciones | `node scripts/check-typography-rule0.mjs` |
-| Brand casing | Clean | `node scripts/brand-casing-check.mjs` |
-| PT-PT lint (no brasileñismos) | 114 ficheros OK | `node scripts/audit-pt-pt.mjs` |
-| Slash hygiene SEO | Clean | `SEO_SLASH_SKIP_LIVE=1 node scripts/seo-slash-hygiene.mjs` |
+| Typography Regla 0 | 0 violaciones | `node scripts/audit/check-typography-rule0.mjs` |
+| Brand casing | Clean | `node scripts/audit/brand-casing-check.mjs` |
+| PT-PT lint (no brasileñismos) | 114 ficheros OK | `node scripts/audit/audit-pt-pt.mjs` |
+| Slash hygiene SEO | Clean | `SEO_SLASH_SKIP_LIVE=1 node scripts/seo/seo-slash-hygiene.mjs` |
 | Redirects 301 legacy | 9/9 | `npm run test:redirects` |
 | Geo middleware (IP→country) | 12/12 | `npm run test:geo` |
 | Blog validate-all | 10/11 (1 sandbox-egress) | `npm run blog:validate-all` |

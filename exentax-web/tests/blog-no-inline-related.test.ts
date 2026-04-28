@@ -12,7 +12,7 @@
  *
  * Run: `tsx exentax-web/tests/blog-no-inline-related.test.ts`
  * Also executed inline as the `no-inline-related` step of
- * `scripts/blog-validate-all.mjs` (→ `npm run check`).
+ * `scripts/blog/blog-validate-all.mjs` (→ `npm run check`).
  */
 // @ts-ignore - ESM script, no type declarations
 import { findOffenders } from "../scripts/blog-no-inline-related.mjs";

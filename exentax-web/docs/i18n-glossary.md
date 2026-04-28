@@ -101,5 +101,5 @@ original form in every locale.
   before merging.
 - When unsure about a translation, default to the form here rather
   than introducing a synonym.
-- The deep audit script (`scripts/i18n-quality-audit.ts`) checks that
+- The deep audit script (`scripts/i18n/i18n-quality-audit.ts`) checks that
   the term counts in §2 stay coherent across locales.

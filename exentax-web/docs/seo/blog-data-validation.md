@@ -1,6 +1,6 @@
 # Blog data validation contract
 
-Reference for `scripts/blog-data-validate.mjs` (Task #6 v2 — step 4). This
+Reference for `scripts/blog/blog-data-validate.mjs` (Task #6 v2 — step 4). This
 gate audits the **structured data** of every article (it does NOT read the
 body — bodies are covered by `blog-content-lint.mjs` and `seo-check-links.mjs`).
 
@@ -75,5 +75,5 @@ JS-literal evaluator).
    `checkUniqueness`, `checkSlug`, `checkShape`).
 2. Mirror the threshold or invariant in this document under the matching
    section.
-3. Run `node scripts/blog-data-validate.mjs` locally to ensure the corpus
+3. Run `node scripts/blog/blog-data-validate.mjs` locally to ensure the corpus
    passes (or surface debt as warnings before promoting to critical).

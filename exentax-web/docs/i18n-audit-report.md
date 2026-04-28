@@ -62,7 +62,7 @@ respect length limits and local search behavior.
 | Validator                              | Result |
 |----------------------------------------|--------|
 | `npm run i18n:check`                   | PASS   |
-| `npx tsx scripts/i18n-quality-audit.ts`| PASS   |
+| `npx tsx scripts/i18n/i18n-quality-audit.ts`| PASS   |
 | `npm run seo:meta`                     | PASS (0 errors) |
 | `npx tsc --noEmit`                     | PASS   |
 
@@ -159,7 +159,7 @@ and use the address form documented in §7. No changes required.
 ```bash
 cd exentax-web
 npm run i18n:check
-npx tsx scripts/i18n-quality-audit.ts
+npx tsx scripts/i18n/i18n-quality-audit.ts
 npm run seo:meta
 ls .local-audit/   # raw artifacts for reaudit
 ```

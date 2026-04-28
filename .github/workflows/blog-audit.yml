@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: Blog structure audit (single H1, section length, heading order, next-step closing)
-        run: node scripts/blog-structure-audit.mjs
+        run: node scripts/blog/blog-structure-audit.mjs
 
       - name: Blog i18n sync check (ES baseline vs EN/CA/DE/FR/PT)
         run: node scripts/blog-i18n-sync-check.mjs

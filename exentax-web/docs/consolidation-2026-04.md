@@ -66,7 +66,7 @@ Estado tras la limpieza:
 
 ## 3. Componentes y diseño
 
-- Sistema tipográfico documentado en `docs/audit-design-system.md` y enforced por `scripts/check-typography-rule0.mjs`.
+- Sistema tipográfico documentado en `docs/audit-design-system.md` y enforced por `scripts/audit/check-typography-rule0.mjs`.
 - Tokens de color/espaciado en `client/src/index.css` con variantes claro/oscuro (`ThemeProvider` + clase `dark` en `<html>`).
 - Componentes compartidos canónicos: `components/layout/{Layout,Navbar,Footer,...}`, `components/sections/*`, `components/ui/*` (shadcn).
 - Accesibilidad básica:
@@ -84,7 +84,7 @@ Antes del consolidado: `npm run lint:typography` reportaba **6 violaciones**:
 2. `components/sections/ExistingLlcCallout.tsx:85,153` — `uppercase + tracking-[0.14em]` en el "tag" pill verde y la categoría del rail de posts. **Resuelto** añadiendo el componente al allowlist `uppercase-tracking` con justificación: es un primitivo de design-system (eyebrow / tag), no copy editorial.
 3. `client/src/index.css` — bloques `.section-chip` y `.exentax-card-eyebrow`. **Resuelto** añadiendo `allowSelectors` a la regla CSS con esos dos selectores, con la misma justificación: son tokens del design-system, nunca usados dentro de `.blog-content`.
 
-Cambio implementado en `scripts/check-typography-rule0.mjs`. Las reglas
+Cambio implementado en `scripts/audit/check-typography-rule0.mjs`. Las reglas
 contra `uppercase + tracking` decorativo en blog/copy editorial siguen
 activas: cualquier nuevo uso fuera de los selectores allowlisted volvería
 a fallar el lint.
@@ -233,7 +233,7 @@ Sin deuda crítica detectada.
 
 ## 13. Cambios concretos aplicados en Task #5
 
-1. `scripts/check-typography-rule0.mjs` — extender allowlist a:
+1. `scripts/audit/check-typography-rule0.mjs` — extender allowlist a:
    - `pages/admin/agendas-list.tsx` (font-mono),
    - `components/sections/ExistingLlcCallout.tsx` (uppercase-tracking),
    - selectores CSS `.section-chip`, `.exentax-card-eyebrow` (uppercase-tracking en design tokens).

@@ -16,7 +16,7 @@ End-to-end housekeeping pass on the Exentax Web codebase: dead code removal, scr
 
 ### 2. Repo root tidied
 - `seo-meta-report.json` (generated artefact) → `reports/seo/seo-meta-report.json`. The generator (`scripts/seo/verify-meta.ts`) was also patched so future runs of `npm run seo:meta` write to the new location instead of recreating the file at the repo root.
-- **Guard rail (Task #37):** `scripts/check-stray-reports.mjs` (wired into `npm run check` as `npm run lint:stray-reports`) fails if any `*-report.json`, `*-report.md`, or `bundle-visualizer.html` ends up outside `reports/` or `docs/`. If a new audit/report script lands in the future, point its output at `reports/<area>/` from the start — the guard will catch drift before it ships.
+- **Guard rail (Task #37):** `scripts/audit/check-stray-reports.mjs` (wired into `npm run check` as `npm run lint:stray-reports`) fails if any `*-report.json`, `*-report.md`, or `bundle-visualizer.html` ends up outside `reports/` or `docs/`. If a new audit/report script lands in the future, point its output at `reports/<area>/` from the start — the guard will catch drift before it ships.
 - `EDITORIAL_GUIDE.md` (Spanish, 125 lines, the canonical editorial reference) → `docs/EDITORIAL_GUIDE.md`. Coexists with the shorter English `docs/seo/editorial-guide.md` (70 lines, voice/tone primer).
 - `docs/seo/bundle-visualizer.html` removed (build artefact). To regenerate it, run `npm run build` — `rollup-plugin-visualizer` writes a fresh copy as part of the production build (see `vite.config.ts`). The file is intentionally left out of version control.
 
@@ -27,7 +27,7 @@ Twenty-eight one-off scripts that completed their purpose during the Q1–Q2 202
 
 `republish-tier-a-fase1.mts`, `blog-emdash-cleanup.mjs`, `blog-stepwise-parent-fix.mjs`, `blog-strip-extra-cta.mjs`, `blog-strip-extra-recap.mjs`, `discord-restore-identity.mjs`, `redirect-hub-trims.mjs`, `cta-faq-rewrite.mjs`, `cta-rewrite.mjs`, `blog-fix-broken-links.mjs`, `blog-fix-missing-calc-cta.mjs`, `blog-inject-localized-cta.mjs`, `blog-inject-calculator-cta.mjs`, `blog-align-batch.mjs`, `blog-audit-2026.mjs`, `blog-audit-table.mjs`, `cleanup-blog-sources.mjs`, `rebalance-links.mjs`, `seo-add-cross-refs.mjs`, `seo-blog-audit.mjs`, `seo-fix-broken-links.mjs`, `seo-task4-check.mjs`, `seo-orphans.mjs`, `seo-indexing-publish.mjs`, `seo-indexing-audit.mjs`, `check-blog-links.ts`, `check-blog-sources.ts`.
 
-`scripts/link-graph.mjs` was kept (consumed at runtime by `seo-check-links.mjs`).
+`scripts/seo/link-graph.mjs` was kept (consumed at runtime by `seo-check-links.mjs`).
 
 `scripts/` root went from 65 → 37 entries (excluding `archive/` and `seo/`).
 

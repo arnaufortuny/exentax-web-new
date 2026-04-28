@@ -12,8 +12,8 @@
 | Check | Comando | Resultado |
 |-------|---------|-----------|
 | Enlaces internos del blog (rotos + huérfanos) | `npm run seo:check` | ✅ OK — 0 enlaces rotos, los 79 artículos tienen ≥ 3 enlaces entrantes |
-| Tests unitarios del checker | `node scripts/seo-check-links.test.mjs` | ✅ OK |
-| Sitemap + hreflang end-to-end (servidor en `:5000`) | `BASE_URL=http://localhost:5000 node scripts/seo-sitemap-check.mjs` | ✅ OK — 480 URLs verificadas, todas 2xx |
+| Tests unitarios del checker | `node scripts/seo/seo-check-links.test.mjs` | ✅ OK |
+| Sitemap + hreflang end-to-end (servidor en `:5000`) | `BASE_URL=http://localhost:5000 node scripts/seo/seo-sitemap-check.mjs` | ✅ OK — 480 URLs verificadas, todas 2xx |
 
 Salida resumida del checker oficial:
 

@@ -8,12 +8,12 @@ from the existing automated audits and is regenerated whenever any of the
 audits change. Every metric below is reproducible locally with the commands
 listed in the **How to reproduce** section.
 
-> Source of truth: `npm run i18n:check` + `npx tsx scripts/i18n-quality-audit.ts`
-> + `npx tsx scripts/i18n-glossary-lint.ts`. The calculator surface (regime
+> Source of truth: `npm run i18n:check` + `npx tsx scripts/i18n/i18n-quality-audit.ts`
+> + `npx tsx scripts/i18n/i18n-glossary-lint.ts`. The calculator surface (regime
 > labels, currency labels, period switchers) is intentionally kept in Spanish
 > across locales by product decision and is excluded from "untranslated" gates
 > via `scripts/i18n-intentional-identical.json` and the per-locale cognate
-> allowlists in `scripts/i18n-quality-audit.ts`.
+> allowlists in `scripts/i18n/i18n-quality-audit.ts`.
 
 ---
 
@@ -93,7 +93,7 @@ same reason.
 
 ## 4. Glossary discipline
 
-`npx tsx scripts/i18n-glossary-lint.ts` enforces, per locale, a small set of
+`npx tsx scripts/i18n/i18n-glossary-lint.ts` enforces, per locale, a small set of
 must-use / must-not-use terms (e.g. PT must say "trabalhador independente"
 not "autônomo", DE must say "LLC" not "GmbH" when referring to the US
 entity, etc.).
@@ -121,7 +121,7 @@ entity, etc.).
 
 ## 5. "Same-as-ES" surface (untranslated risk)
 
-`scripts/i18n-quality-audit.ts` produces a refined "same-as-ES" list per
+`scripts/i18n/i18n-quality-audit.ts` produces a refined "same-as-ES" list per
 locale that excludes numerics, URLs, brand strings, and per-locale
 cognates. The cognate allowlist is encoded as a regex per locale at the top
 of that script.
@@ -140,7 +140,7 @@ The 27 keys flagged at session start were resolved as follows:
   `pt:calculator.useTotal`.
 - **Generic brand / technical-literal cognates** (~20 keys):
   registered in the per-locale `cognateAllowlist` regex inside
-  `scripts/i18n-quality-audit.ts`. These are values that may legitimately
+  `scripts/i18n/i18n-quality-audit.ts`. These are values that may legitimately
   appear under several keys (`Florida`, `Google Meet`, `min de lectura`,
   `Reprogramada`, `Completada`, the ISR-Mexicano labels, `~26,8% sobre
   base neta`, `E-commerce / dropshipping`, etc.).
@@ -166,8 +166,8 @@ locales by product decision.
 | Gate                                | Command                                  | Status |
 |-------------------------------------|------------------------------------------|--------|
 | i18n schema + allowlist hygiene     | `npm run i18n:check`                     | PASS   |
-| Glossary discipline (6 locales)     | `npx tsx scripts/i18n-glossary-lint.ts`  | PASS   |
-| Quality audit (leaks/register/cognates) | `npx tsx scripts/i18n-quality-audit.ts` | PASS   |
+| Glossary discipline (6 locales)     | `npx tsx scripts/i18n/i18n-glossary-lint.ts`  | PASS   |
+| Quality audit (leaks/register/cognates) | `npx tsx scripts/i18n/i18n-quality-audit.ts` | PASS   |
 | Blog content + CTA copy lock        | `npm run lint:blog`                      | PASS   |
 | Full blog topology suite (13 steps) | `npm run blog:validate-all`              | PASS   |
 | TypeScript                          | `npx tsc --noEmit`                       | PASS   |
@@ -181,8 +181,8 @@ cd exentax-web
 
 # Quality + glossary
 npm run i18n:check
-npx tsx scripts/i18n-quality-audit.ts
-npx tsx scripts/i18n-glossary-lint.ts
+npx tsx scripts/i18n/i18n-quality-audit.ts
+npx tsx scripts/i18n/i18n-glossary-lint.ts
 
 # Blog + topology + types
 npm run lint:blog
@@ -214,12 +214,12 @@ the regex stays for value-shaped patterns that are reusable across keys.
   whose value is **intentionally identical to ES** (calculator surface,
   brand literals, etc.). Consumed by:
   - `npm run i18n:check` (silences the "Possibly untranslated" gate).
-  - `npx tsx scripts/i18n-quality-audit.ts` (silences refined-same-as-ES
+  - `npx tsx scripts/i18n/i18n-quality-audit.ts` (silences refined-same-as-ES
     for those exact keys; integrated this cycle for auditability).
   Stale entries (no longer identical to ES) are surfaced by the script's
   "Allowlist Hygiene" section and must be removed.
 - **`cognateAllowlist`** (regex per locale, inside
-  `scripts/i18n-quality-audit.ts`) — per-locale list of value-shaped
+  `scripts/i18n/i18n-quality-audit.ts`) — per-locale list of value-shaped
   patterns (brands, technical literals, registry labels) that exist with
   the same form in both ES and the target locale. Use this only when the
   value can legitimately appear under several keys; for unique strings

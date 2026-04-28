@@ -4,9 +4,9 @@ El comando `npm run i18n:check` (definido en `exentax-web/package.json`)
 ejecuta dos pasos sobre los bundles de traducción ubicados en
 `exentax-web/client/src/i18n/locales/`:
 
-1. `tsx scripts/generate-i18n-types.ts` — regenera el tipado a partir del
+1. `tsx scripts/i18n/generate-i18n-types.ts` — regenera el tipado a partir del
    bundle español (idioma fuente).
-2. `tsx scripts/validate-i18n.ts` — comprueba que los seis idiomas
+2. `tsx scripts/i18n/validate-i18n.ts` — comprueba que los seis idiomas
    (`es`, `en`, `fr`, `de`, `pt`, `ca`) tengan exactamente las mismas
    claves y, en el caso de los arrays, la misma forma interna.
 

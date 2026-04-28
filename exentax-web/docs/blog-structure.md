@@ -97,8 +97,8 @@ French and Catalan prose (`Null-Steuer`, `null Steuern`).
 ```bash
 # from exentax-web/
 npx tsx scripts/check-blog-links.ts        # editorial integrity (Task #7)
-node scripts/blog-content-lint.mjs         # forbidden price/fee mentions (Task #8)
-node scripts/blog-link-locale-lint.mjs     # cross-language link guard
+node scripts/blog/blog-content-lint.mjs         # forbidden price/fee mentions (Task #8)
+node scripts/blog/blog-link-locale-lint.mjs     # cross-language link guard
 ```
 
 All three exit non-zero on findings and are safe to wire into CI.

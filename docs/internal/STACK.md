@@ -94,15 +94,15 @@ tsc → lint:typography → lint:stray-reports → lint:brand-casing → lint:pt
 - `client/src/data/blog-mid-cta-copy.ts` (CTAs mid-article)
 - `client/src/i18n/locales/<lang>.ts` (FAQs banking_*, etc.)
 
-**Drift detection**: `node scripts/blog-cta-channel-lint.mjs` lee canonical de
+**Drift detection**: `node scripts/blog/blog-cta-channel-lint.mjs` lee canonical de
 `constants.ts` y verifica que TODAS las URLs `wa.me/<digits>` coincidan. Exit
 1 si detecta drift.
 
 **Mass update** si cambia el número:
 1. Editar `WHATSAPP_NUMBER` en `client/src/lib/constants.ts`
-2. `node scripts/blog-cta-channel-update.mjs` (dry-run)
-3. `node scripts/blog-cta-channel-update.mjs --apply`
-4. `node scripts/blog-cta-channel-lint.mjs` para confirmar 0 drift
+2. `node scripts/blog/blog-cta-channel-update.mjs` (dry-run)
+3. `node scripts/blog/blog-cta-channel-update.mjs --apply`
+4. `node scripts/blog/blog-cta-channel-lint.mjs` para confirmar 0 drift
 5. Run full `npm run blog:validate-all` para verificar 0 regresiones
 
 **Razón de la arquitectura**: las URLs WhatsApp están embebidas en HTML estático

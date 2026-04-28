@@ -181,7 +181,7 @@ jobs:
           GITHUB_SHA: ${{ github.sha }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF: ${{ github.ref }}
-        run: node scripts/audit-bundle-diff-notify-discord.mjs
+        run: node scripts/audit/audit-bundle-diff-notify-discord.mjs
 
       - name: Comment bundle regression on PR
         # En pull_request publicamos (o actualizamos) un comentario con el
@@ -248,7 +248,7 @@ jobs:
               }
               lines.push('');
             }
-            lines.push('Si la regresión está justificada, documenta el motivo en `docs/auditoria-2026-04/RESUMEN.md` y, si procede, sube el presupuesto en `scripts/audit-bundle.mjs` (`BUDGETS_KB`).');
+            lines.push('Si la regresión está justificada, documenta el motivo en `docs/auditoria-2026-04/RESUMEN.md` y, si procede, sube el presupuesto en `scripts/audit/audit-bundle.mjs` (`BUDGETS_KB`).');
             const body = lines.join('\n');
             try {
               // Buscar comentario previo del bot (paginado).

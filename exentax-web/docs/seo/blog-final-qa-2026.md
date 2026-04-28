@@ -1,6 +1,6 @@
 # Blog final QA — Task #4 (2026-04-21)
 
-Auto-generado por `scripts/blog-final-qa.mjs`. JSON de respaldo en `reports/seo/blog-final-qa.json`.
+Auto-generado por `scripts/blog/blog-final-qa.mjs`. JSON de respaldo en `reports/seo/blog-final-qa.json`.
 
 Universo: **110 artículos × 6 idiomas = 660 ficheros**.
 
@@ -120,9 +120,9 @@ Endpoints servidos por `server/routes/public.ts` (verificados en runtime):
 Comprobaciones automatizadas (gates ya cableados en `npm run check`):
 - `scripts/seo-task4-check.mjs` — invariantes de aiSummary, JSON-LD Article, hreflang en SEO.tsx, sitemap routes.
 - `scripts/seo-blog-audit.mjs` — heuristics de calidad por artículo.
-- `scripts/seo-sitemap-check.mjs` — pega `/sitemap*.xml` en runtime contra el catálogo de URLs.
-- `scripts/seo-check-links.mjs` — internal-link graph (≥3 inbound contextual links/post).
-- `scripts/blog-link-locale-lint.mjs` — locale leakage en `<a href=>` dentro de blog-content.
+- `scripts/seo/seo-sitemap-check.mjs` — pega `/sitemap*.xml` en runtime contra el catálogo de URLs.
+- `scripts/seo/seo-check-links.mjs` — internal-link graph (≥3 inbound contextual links/post).
+- `scripts/blog/blog-link-locale-lint.mjs` — locale leakage en `<a href=>` dentro de blog-content.
 
 ## 11. Pasos de indexación (ejecutar en producción)
 

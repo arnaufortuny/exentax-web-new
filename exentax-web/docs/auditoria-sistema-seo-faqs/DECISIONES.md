@@ -8,7 +8,7 @@ aunque el script vuelva a ejecutarse y sobrescriba `RESUMEN.md`.
 
 ### FAQ language-leak (PT y CA) — 28 falsos positivos
 - **Hallazgo previo**: 28 issues `area: language-leak` en `faqs-audit.json` (14 FAQs × 2 idiomas).
-- **Causa raíz**: el regex `SPANISH_TELLS` de `scripts/audit-system-seo-faqs.mjs`
+- **Causa raíz**: el regex `SPANISH_TELLS` de `scripts/audit/audit-system-seo-faqs.mjs`
   incluía la palabra `empresa`, que es estándar tanto en portugués como en catalán
   (cognado), no exclusiva del castellano.
 - **Verificación manual**: revisión nativa de las 14 FAQs (`fit_2`, `llc_0`, `llc_5`,
@@ -42,7 +42,7 @@ aunque el script vuelva a ejecutarse y sobrescriba `RESUMEN.md`.
 
 ### Riesgo identificado
 - La Task #38 sustituyó el regex global por un mapa por idioma
-  (`SPANISH_TELLS_BY_LANG` en `scripts/audit-system-seo-faqs.mjs`). Como cada
+  (`SPANISH_TELLS_BY_LANG` en `scripts/audit/audit-system-seo-faqs.mjs`). Como cada
   set se endurece manualmente, una FAQ traducida con descuido puede pasar la
   auditoría sin alarma si el término residual no está en el mapa, o puede
   empezar a generar falsos positivos si alguien añade un cognado nativo
@@ -50,9 +50,9 @@ aunque el script vuelva a ejecutarse y sobrescriba `RESUMEN.md`.
 
 ### Decisión
 - El mapa `SPANISH_TELLS_BY_LANG` y el helper `matchesSpanishTells` se extraen
-  a `scripts/audit-system-seo-faqs.lib.mjs` para que sean importables sin
+  a `scripts/audit/audit-system-seo-faqs.lib.mjs` para que sean importables sin
   disparar la auditoría completa. El audit script las consume vía import.
-- Se añade `scripts/audit-system-seo-faqs.test.mjs` con 57 fixtures (positivos
+- Se añade `scripts/audit/audit-system-seo-faqs.test.mjs` con 57 fixtures (positivos
   + negativos) que verifican, por cada idioma destino (pt, ca, fr, de, en):
   - que el regex marca los términos castellanos esperados,
   - que NO marca los cognados/grafías nativas conocidas
@@ -64,7 +64,7 @@ aunque el script vuelva a ejecutarse y sobrescriba `RESUMEN.md`.
 
 ### Integración en CI
 - Nuevo script `npm run test:audit-faqs` (alias de
-  `node scripts/audit-system-seo-faqs.test.mjs`).
+  `node scripts/audit/audit-system-seo-faqs.test.mjs`).
 - Encadenado en `npm run check` justo después de `test:lint-blog`, para que
   cualquier modificación del mapa rompa el pipeline si no se actualizan las
   fixtures.
@@ -88,9 +88,9 @@ aunque el script vuelva a ejecutarse y sobrescriba `RESUMEN.md`.
 ### Decisión
 - `BLOG_FAQ_HEADINGS`, `extractBlogFaqQAs(src, lang)` y
   `findBlogFaqSpanishTells(src, lang)` se mueven/añaden a
-  `scripts/audit-system-seo-faqs.lib.mjs` (mismo módulo sin side-effects que ya
+  `scripts/audit/audit-system-seo-faqs.lib.mjs` (mismo módulo sin side-effects que ya
   expone `SPANISH_TELLS_BY_LANG` y `matchesSpanishTells`).
-- `scripts/audit-system-seo-faqs.mjs` consume el extractor compartido en su
+- `scripts/audit/audit-system-seo-faqs.mjs` consume el extractor compartido en su
   inventario blog-FAQ. Para evitar leer cada archivo dos veces, los hallazgos
   por celda se precomputan en `BLOG_FAQ_INVENTORY[slug][lang].spanishTells`
   durante el escaneo. En `auditFaqs()` se recorre cada (slug × lang ≠ es) y se
@@ -103,7 +103,7 @@ aunque el script vuelva a ejecutarse y sobrescriba `RESUMEN.md`.
   a nivel de archivo. Mantenerla en un solo sitio evita divergir el mapa.
 
 ### Test de regresión
-- `scripts/audit-system-seo-faqs.test.mjs` se extiende con 11 fixtures blog
+- `scripts/audit/audit-system-seo-faqs.test.mjs` se extiende con 11 fixtures blog
   (`BLOG_FIXTURES`) que construyen un post sintético por idioma con un bloque
   `### Preguntas frecuentes` localizado y verifican:
   - el extractor encuentra exactamente los pares Q/A esperados,

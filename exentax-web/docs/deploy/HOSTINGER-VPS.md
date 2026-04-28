@@ -26,9 +26,9 @@ Ya verificado y OK en esta revisión:
 - ✅ `npm run i18n:check` → PASS (1.552 claves × 6 idiomas, 0 missing, 0 phantom, 0 placeholder mismatch).
 - ✅ `npm run seo:meta` → 0 errors, 0 warnings en 6 idiomas.
 - ✅ `npm run seo:check` → 0 enlaces rotos (111 artículos, ≥3 enlaces entrantes c/u).
-- ✅ `node scripts/audit-pt-pt.mjs` → 113 ficheros PT-PT limpios.
-- ✅ `node scripts/blog-content-lint.mjs` → 670 ficheros OK, 0 menciones prohibidas.
-- ✅ `node scripts/audit-system-seo-faqs.mjs` → `faqs-audit.json` 0 issues (79 FAQs × 6 idiomas) y `### Preguntas frecuentes` presente en 20/20 artículos × 6 idiomas.
+- ✅ `node scripts/audit/audit-pt-pt.mjs` → 113 ficheros PT-PT limpios.
+- ✅ `node scripts/blog/blog-content-lint.mjs` → 670 ficheros OK, 0 menciones prohibidas.
+- ✅ `node scripts/audit/audit-system-seo-faqs.mjs` → `faqs-audit.json` 0 issues (79 FAQs × 6 idiomas) y `### Preguntas frecuentes` presente en 20/20 artículos × 6 idiomas.
 
 Pendientes documentados (no bloquean deploy, ver `PENDING.md`):
 

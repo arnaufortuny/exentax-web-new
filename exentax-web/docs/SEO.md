@@ -9,7 +9,7 @@
 ## Hreflang
 
 - Formato BCP-47 emitido por el servidor: `es-ES`, `en-US`, `fr-FR`, `de-DE`, `pt-PT`, `ca-ES`, más `x-default` apuntando a la URL ES.
-- `scripts/seo-sitemap-check.mjs` normaliza el `hreflang` declarado a su sub-tag primario antes de comparar contra `LANGS`, así cualquier región alterna (`es-419`) seguiría pasando sin tocar la lista.
+- `scripts/seo/seo-sitemap-check.mjs` normaliza el `hreflang` declarado a su sub-tag primario antes de comparar contra `LANGS`, así cualquier región alterna (`es-419`) seguiría pasando sin tocar la lista.
 - Cuando no haya traducción real, el alterno cae a la URL ES (recomendación interna de Google). Hoy la cobertura es 100%.
 
 ## JSON-LD

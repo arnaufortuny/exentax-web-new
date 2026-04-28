@@ -8,8 +8,8 @@ Out of scope: blog body content, blog `metaDescription`, email templates.
 ```
 cd exentax-web
 npm run i18n:check                       # generate-i18n-types + validate-i18n
-tsx scripts/i18n-quality-audit.ts        # refined same-as-ES + register + leaks
-tsx scripts/i18n-glossary-lint.ts        # LLC / EIN / ITIN / IRS / FinCEN / Form-N
+tsx scripts/i18n/i18n-quality-audit.ts        # refined same-as-ES + register + leaks
+tsx scripts/i18n/i18n-glossary-lint.ts        # LLC / EIN / ITIN / IRS / FinCEN / Form-N
 ```
 
 ## Glossary applied
@@ -38,7 +38,7 @@ LLC, EIN, ITIN, IRS, FinCEN and IRS form numbers are never translated and never 
 | Quality audit — HTML balance issues | 0 | **0** |
 | Glossary lint violations | 0 | **0** |
 
-The audit's refined-same-as-ES collapses to 0 by combining real translation fixes with brand/proper-noun classification in `brandsRe` and the per-locale `cognateAllowlist` regex inside `scripts/i18n-quality-audit.ts`. Items where the translation is a proper noun, brand, calendar token, or canonical fiscal label (e.g. `Florida`, `LLC USA`, `Europe/Madrid (CET/CEST)`, `Sozialversicherung (SVS)`) are treated as intentional and listed in `scripts/i18n-intentional-identical.json`.
+The audit's refined-same-as-ES collapses to 0 by combining real translation fixes with brand/proper-noun classification in `brandsRe` and the per-locale `cognateAllowlist` regex inside `scripts/i18n/i18n-quality-audit.ts`. Items where the translation is a proper noun, brand, calendar token, or canonical fiscal label (e.g. `Florida`, `LLC USA`, `Europe/Madrid (CET/CEST)`, `Sozialversicherung (SVS)`) are treated as intentional and listed in `scripts/i18n-intentional-identical.json`.
 
 ## Real translation edits applied
 
@@ -51,7 +51,7 @@ Only keys flagged by the scripts were touched.
 | `calculator.bd.espana.irpf_note` | CA | `Mínimo personal` | `Mínim personal` |
 | `calculator.bd.austria.svs_note` | CA | `~26.8% sobre la base neta` | `~26,8% sobre la base neta` |
 
-EN, FR, DE: every key that `i18n-quality-audit.ts` initially flagged turned out, on inspection of the Spanish source, to be a proper noun (US state name, German fiscal label) or a fixed brand/code that must remain identical across locales. They are documented as "kept identical — proper noun / brand" with a per-locale entry in `scripts/i18n-intentional-identical.json` and matched by `cognateAllowlist` in `scripts/i18n-quality-audit.ts`. No literal translation was forced.
+EN, FR, DE: every key that `i18n-quality-audit.ts` initially flagged turned out, on inspection of the Spanish source, to be a proper noun (US state name, German fiscal label) or a fixed brand/code that must remain identical across locales. They are documented as "kept identical — proper noun / brand" with a per-locale entry in `scripts/i18n-intentional-identical.json` and matched by `cognateAllowlist` in `scripts/i18n/i18n-quality-audit.ts`. No literal translation was forced.
 
 ## Three before/after examples per language
 
@@ -110,6 +110,6 @@ For locales with fewer than three real edits, the remaining slots document allow
 
 ```
 npm run i18n:check               → PASS ✓ (1553 keys per locale, 0 missing/extra/empty/placeholder/structure/possibly-untranslated)
-tsx scripts/i18n-quality-audit.ts → refined same-as-ES = {EN:0, FR:0, DE:0, PT:0, CA:0}; HTML balance issues = 0; Spanish leaks = 0
-tsx scripts/i18n-glossary-lint.ts → PASS ✓ (0 violations across ES/EN/FR/DE/PT/CA)
+tsx scripts/i18n/i18n-quality-audit.ts → refined same-as-ES = {EN:0, FR:0, DE:0, PT:0, CA:0}; HTML balance issues = 0; Spanish leaks = 0
+tsx scripts/i18n/i18n-glossary-lint.ts → PASS ✓ (0 violations across ES/EN/FR/DE/PT/CA)
 ```

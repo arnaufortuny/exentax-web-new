@@ -258,17 +258,17 @@ npm run i18n:check
 npm run seo:meta
 npm run seo:check
 npm run seo:slash
-node scripts/audit-pt-pt.mjs
-node scripts/blog-content-lint.mjs
-node scripts/blog-cta-position-check.mjs
-node scripts/blog-translation-quality-audit.mjs --check
+node scripts/audit/audit-pt-pt.mjs
+node scripts/blog/blog-content-lint.mjs
+node scripts/blog/blog-cta-position-check.mjs
+node scripts/blog/blog-translation-quality-audit.mjs --check
 
 # Tests (calculator sin DB; E2E requieren Postgres)
 DATABASE_URL=postgresql://test:test@localhost/test \
   npx tsx client/src/lib/calculator.test.ts
 
 # Audit SEO
-node scripts/audit-system-seo-faqs.mjs
+node scripts/audit/audit-system-seo-faqs.mjs
 
 # Build reproducible
 cd /home/user/exentax-web-new
@@ -351,7 +351,7 @@ Reglas obligatorias para cada sesión:
      FinCEN, Form 5472, W-7, W-8BEN, Mercury, Stripe.
 6. **Target ratio palabras ≥ 0.85** vs ES. Verificar con:
    ```
-   node scripts/blog-translation-quality-audit.mjs
+   node scripts/blog/blog-translation-quality-audit.mjs
    ```
 7. **Nunca inventar datos factuales** que no estén en ES. Ante duda,
    traducir más literal que añadir.
@@ -359,10 +359,10 @@ Reglas obligatorias para cada sesión:
    timeouts de agents y mantiene calidad.
 9. **Linters obligatorios tras cada artículo**:
    ```
-   node scripts/blog-content-lint.mjs
-   node scripts/audit-pt-pt.mjs   # si tocaste PT
-   node scripts/blog-cta-position-check.mjs
-   node scripts/blog-translation-quality-audit.mjs --check
+   node scripts/blog/blog-content-lint.mjs
+   node scripts/audit/audit-pt-pt.mjs   # si tocaste PT
+   node scripts/blog/blog-cta-position-check.mjs
+   node scripts/blog/blog-translation-quality-audit.mjs --check
    npx tsc --noEmit
    ```
 10. **Commit por artículo completado** con slug + ratios antes/después
@@ -450,8 +450,8 @@ Aplicable a cualquier edición de contenido destinado a usuarios finales:
      CFC / imputación en España.
 7. **Cada edición de contenido blog/page**:
    ```
-   node scripts/blog-content-lint.mjs       # precios/address prohibidos
-   node scripts/blog-cta-position-check.mjs # CTAs en posición válida
+   node scripts/blog/blog-content-lint.mjs       # precios/address prohibidos
+   node scripts/blog/blog-cta-position-check.mjs # CTAs en posición válida
    ```
 
 ### D. No nuevas funciones sin solicitud explícita

@@ -1,6 +1,6 @@
 # Auditoría conversión — 111 artículos ES (2026-04)
 
-Generado: 2026-04-26 · Script: `scripts/audit-conversion-es-2026-04.mjs` · Read-only.
+Generado: 2026-04-26 · Script: `scripts/audit/audit-conversion-es-2026-04.mjs` · Read-only.
 
 Aplica el test de conversión del brief editorial: un artículo **PASA** sólo si la conclusión natural del lector al terminar es contactar Exentax. Cualquier "tal vez" cuenta como **FALLA**.
 

@@ -79,7 +79,7 @@ Está permitido (y recomendado) tono firme y consecuencias reales sobre:
 
 ### 4.3. Vocabulario prohibido por el linter
 
-`scripts/blog-content-lint.mjs` bloquea automáticamente:
+`scripts/blog/blog-content-lint.mjs` bloquea automáticamente:
 
 - **Emocional, siempre prohibido**: `te van a pillar`, `sustos`, `pánico` (en cualquier idioma — `panic`, `panique`, `Panik`).
 - **Prison/cárcel/jail/Gefängnis/prisão/presó/prisión**, salvo que la misma línea cite un marcador legal (penalty/multa/Strafe/amende + IRC/FinCEN/BOI/Form/§ + duración en años + art.). Para describir consecuencias penales sin tropezar con el linter, usar fórmulas como:
@@ -125,7 +125,7 @@ El linter solo deja pasar estas cifras en USD dentro de contextos de servicio LL
 node .local/blog-overhaul/sweep-2026.mjs
 
 # 2. Lint editorial (cifras, direcciones, miedo)
-cd exentax-web && node scripts/blog-content-lint.mjs
+cd exentax-web && node scripts/blog/blog-content-lint.mjs
 
 # 3. Build (verifica que ningún .ts roto rompe el bundle)
 cd exentax-web && npm run build
@@ -140,7 +140,7 @@ Si cualquier paso falla, **no se cierra el trabajo**. Se vuelve al source mjs en
 1. **Batch source** en `.local/blog-overhaul/batchN/blocks-X-Y.mjs` con N slugs × 6 idiomas, marcador `exentax:execution-v2`.
 2. **`node .local/blog-overhaul/apply-v2.mjs .local/blog-overhaul/batchN`** — idempotente, sustituye bloques v1/v2 in-place.
 3. **`node .local/blog-overhaul/sweep-2026.mjs`** — limpia años residuales en prosa.
-4. **`cd exentax-web && node scripts/blog-content-lint.mjs`** — debe terminar `OK`.
+4. **`cd exentax-web && node scripts/blog/blog-content-lint.mjs`** — debe terminar `OK`.
 5. **`cd exentax-web && npm run build`** — debe pasar.
 6. **Actualizar `docs/seo/blog-overhaul-2026.md`** con los slugs tocados y la fecha.
 

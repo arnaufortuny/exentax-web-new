@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-04-22T09:02:57.158Z",
+  "generatedAt": "2026-04-28T14:35:38.651Z",
   "totals": {
-    "components": 42,
-    "pages": 24,
-    "total": 66,
-    "missingTestIds": 2,
+    "components": 48,
+    "pages": 25,
+    "total": 73,
+    "missingTestIds": 0,
     "ariaIssues": 0,
     "i18nIssues": 0,
     "anyTypes": 0,
     "duplicateNames": 1,
-    "lazyLoadingCandidates": 18
+    "lazyLoadingCandidates": 21
   },
   "duplicates": [
     {
@@ -20,30 +20,29 @@
       ]
     }
   ],
-  "missingTestIds": [
-    {
-      "file": "client/src/components/layout/Layout.tsx",
-      "interactiveTags": 1
-    },
-    {
-      "file": "client/src/components/sections/faq-data.tsx",
-      "interactiveTags": 1
-    }
-  ],
+  "missingTestIds": [],
   "i18nIssues": [],
   "ariaIssues": [],
   "lazyLoadingCandidates": [
     {
       "file": "client/src/components/BookingCalendar.tsx",
-      "lines": 943
+      "lines": 798
+    },
+    {
+      "file": "client/src/components/PhoneInput.tsx",
+      "lines": 252
     },
     {
       "file": "client/src/components/SEO.tsx",
-      "lines": 294
+      "lines": 316
+    },
+    {
+      "file": "client/src/components/SubscribePopup.tsx",
+      "lines": 271
     },
     {
       "file": "client/src/components/Tracking.tsx",
-      "lines": 270
+      "lines": 391
     },
     {
       "file": "client/src/components/calculator/CalculatorResults.tsx",
@@ -51,7 +50,7 @@
     },
     {
       "file": "client/src/components/calculator/index.tsx",
-      "lines": 679
+      "lines": 760
     },
     {
       "file": "client/src/components/layout/Footer.tsx",
@@ -59,7 +58,7 @@
     },
     {
       "file": "client/src/components/layout/Navbar.tsx",
-      "lines": 500
+      "lines": 496
     },
     {
       "file": "client/src/components/sections/FAQ.tsx",
@@ -67,43 +66,47 @@
     },
     {
       "file": "client/src/components/sections/Testimonials.tsx",
-      "lines": 275
+      "lines": 274
     },
     {
       "file": "client/src/pages/about-llc.tsx",
-      "lines": 412
+      "lines": 409
+    },
+    {
+      "file": "client/src/pages/abrir-llc.tsx",
+      "lines": 1001
     },
     {
       "file": "client/src/pages/blog/index.tsx",
-      "lines": 451
+      "lines": 437
     },
     {
       "file": "client/src/pages/blog/post.tsx",
-      "lines": 988
+      "lines": 1084
     },
     {
       "file": "client/src/pages/book.tsx",
-      "lines": 464
+      "lines": 485
     },
     {
       "file": "client/src/pages/booking.tsx",
-      "lines": 419
+      "lines": 466
     },
     {
       "file": "client/src/pages/how-we-work.tsx",
-      "lines": 602
+      "lines": 625
     },
     {
       "file": "client/src/pages/services/ServiceSubpage.tsx",
-      "lines": 555
+      "lines": 618
     },
     {
       "file": "client/src/pages/services-sections.tsx",
-      "lines": 510
+      "lines": 507
     },
     {
       "file": "client/src/pages/start.tsx",
-      "lines": 367
+      "lines": 372
     }
   ],
   "anyTypes": [],
@@ -111,19 +114,37 @@
     {
       "file": "client/src/components/BookingCalendar.tsx",
       "name": "BookingCalendar",
-      "lines": 943,
+      "lines": 798,
       "usesI18n": true,
-      "buttonsOrInputs": 29,
-      "dataTestIds": 34,
+      "buttonsOrInputs": 20,
+      "dataTestIds": 23,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/Calendar.tsx",
+      "name": "Calendar",
+      "lines": 127,
+      "usesI18n": true,
+      "buttonsOrInputs": 3,
+      "dataTestIds": 4,
       "anyTypes": 0
     },
     {
       "file": "client/src/components/CookieBanner.tsx",
       "name": "CookieBanner",
-      "lines": 227,
+      "lines": 232,
       "usesI18n": true,
       "buttonsOrInputs": 5,
-      "dataTestIds": 4,
+      "dataTestIds": 5,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/CountryFlagImg.tsx",
+      "name": "CountryFlagImg",
+      "lines": 46,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 1,
       "anyTypes": 0
     },
     {
@@ -147,7 +168,7 @@
     {
       "file": "client/src/components/LanguageSwitcher.tsx",
       "name": "LanguageSwitcher",
-      "lines": 95,
+      "lines": 97,
       "usesI18n": true,
       "buttonsOrInputs": 2,
       "dataTestIds": 2,
@@ -156,7 +177,7 @@
     {
       "file": "client/src/components/PhoneInput.tsx",
       "name": "PhoneInput",
-      "lines": 249,
+      "lines": 252,
       "usesI18n": true,
       "buttonsOrInputs": 4,
       "dataTestIds": 4,
@@ -165,25 +186,43 @@
     {
       "file": "client/src/components/SEO.tsx",
       "name": "SEO",
-      "lines": 294,
+      "lines": 316,
       "usesI18n": true,
       "buttonsOrInputs": 0,
       "dataTestIds": 0,
       "anyTypes": 0
     },
     {
+      "file": "client/src/components/SubscribePopup.tsx",
+      "name": "SubscribePopup",
+      "lines": 271,
+      "usesI18n": true,
+      "buttonsOrInputs": 7,
+      "dataTestIds": 13,
+      "anyTypes": 0
+    },
+    {
       "file": "client/src/components/ThemeProvider.tsx",
       "name": "ThemeProvider",
-      "lines": 17,
+      "lines": 30,
       "usesI18n": false,
       "buttonsOrInputs": 0,
       "dataTestIds": 0,
       "anyTypes": 0
     },
     {
+      "file": "client/src/components/Toast.tsx",
+      "name": "Toast",
+      "lines": 110,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 2,
+      "anyTypes": 0
+    },
+    {
       "file": "client/src/components/Tracking.tsx",
       "name": "Tracking",
-      "lines": 270,
+      "lines": 391,
       "usesI18n": false,
       "buttonsOrInputs": 0,
       "dataTestIds": 0,
@@ -201,7 +240,7 @@
     {
       "file": "client/src/components/blog/ArticleCTA.tsx",
       "name": "ArticleCTA",
-      "lines": 111,
+      "lines": 197,
       "usesI18n": true,
       "buttonsOrInputs": 1,
       "dataTestIds": 5,
@@ -214,6 +253,15 @@
       "usesI18n": true,
       "buttonsOrInputs": 0,
       "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/blog/CountryDropdown.tsx",
+      "name": "CountryDropdown",
+      "lines": 192,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 3,
       "anyTypes": 0
     },
     {
@@ -246,10 +294,10 @@
     {
       "file": "client/src/components/calculator/EmailGateForm.tsx",
       "name": "EmailGateForm",
-      "lines": 163,
+      "lines": 140,
       "usesI18n": true,
-      "buttonsOrInputs": 6,
-      "dataTestIds": 9,
+      "buttonsOrInputs": 4,
+      "dataTestIds": 8,
       "anyTypes": 0
     },
     {
@@ -264,16 +312,16 @@
     {
       "file": "client/src/components/calculator/index.tsx",
       "name": "index",
-      "lines": 679,
+      "lines": 760,
       "usesI18n": true,
-      "buttonsOrInputs": 13,
-      "dataTestIds": 19,
+      "buttonsOrInputs": 15,
+      "dataTestIds": 22,
       "anyTypes": 0
     },
     {
       "file": "client/src/components/icons.tsx",
       "name": "icons",
-      "lines": 120,
+      "lines": 131,
       "usesI18n": false,
       "buttonsOrInputs": 0,
       "dataTestIds": 0,
@@ -309,16 +357,16 @@
     {
       "file": "client/src/components/layout/Layout.tsx",
       "name": "Layout",
-      "lines": 26,
-      "usesI18n": false,
+      "lines": 30,
+      "usesI18n": true,
       "buttonsOrInputs": 1,
-      "dataTestIds": 0,
+      "dataTestIds": 1,
       "anyTypes": 0
     },
     {
       "file": "client/src/components/layout/LegalLayout.tsx",
       "name": "LegalLayout",
-      "lines": 42,
+      "lines": 70,
       "usesI18n": true,
       "buttonsOrInputs": 1,
       "dataTestIds": 1,
@@ -327,7 +375,7 @@
     {
       "file": "client/src/components/layout/Navbar.tsx",
       "name": "Navbar",
-      "lines": 500,
+      "lines": 496,
       "usesI18n": true,
       "buttonsOrInputs": 7,
       "dataTestIds": 19,
@@ -424,6 +472,15 @@
       "anyTypes": 0
     },
     {
+      "file": "client/src/components/sections/HomeFinalCTA.tsx",
+      "name": "HomeFinalCTA",
+      "lines": 105,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 3,
+      "anyTypes": 0
+    },
+    {
       "file": "client/src/components/sections/HowItWorks.tsx",
       "name": "HowItWorks",
       "lines": 196,
@@ -462,7 +519,7 @@
     {
       "file": "client/src/components/sections/Testimonials.tsx",
       "name": "Testimonials",
-      "lines": 275,
+      "lines": 274,
       "usesI18n": true,
       "buttonsOrInputs": 4,
       "dataTestIds": 8,
@@ -480,34 +537,43 @@
     {
       "file": "client/src/components/sections/faq-data.tsx",
       "name": "faq-data",
-      "lines": 330,
+      "lines": 337,
       "usesI18n": true,
       "buttonsOrInputs": 1,
-      "dataTestIds": 0,
+      "dataTestIds": 1,
       "anyTypes": 0
     },
     {
       "file": "client/src/pages/about-llc.tsx",
       "name": "about-llc",
-      "lines": 412,
+      "lines": 409,
       "usesI18n": true,
       "buttonsOrInputs": 1,
       "dataTestIds": 7,
       "anyTypes": 0
     },
     {
+      "file": "client/src/pages/abrir-llc.tsx",
+      "name": "abrir-llc",
+      "lines": 1001,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 23,
+      "anyTypes": 0
+    },
+    {
       "file": "client/src/pages/blog/index.tsx",
       "name": "index",
-      "lines": 451,
+      "lines": 437,
       "usesI18n": true,
-      "buttonsOrInputs": 6,
-      "dataTestIds": 15,
+      "buttonsOrInputs": 5,
+      "dataTestIds": 13,
       "anyTypes": 0
     },
     {
       "file": "client/src/pages/blog/post.tsx",
       "name": "post",
-      "lines": 988,
+      "lines": 1084,
       "usesI18n": true,
       "buttonsOrInputs": 10,
       "dataTestIds": 20,
@@ -516,7 +582,7 @@
     {
       "file": "client/src/pages/book.tsx",
       "name": "book",
-      "lines": 464,
+      "lines": 485,
       "usesI18n": true,
       "buttonsOrInputs": 7,
       "dataTestIds": 10,
@@ -525,16 +591,16 @@
     {
       "file": "client/src/pages/booking.tsx",
       "name": "booking",
-      "lines": 419,
+      "lines": 466,
       "usesI18n": true,
-      "buttonsOrInputs": 13,
+      "buttonsOrInputs": 12,
       "dataTestIds": 25,
       "anyTypes": 0
     },
     {
       "file": "client/src/pages/faq-page.tsx",
       "name": "faq-page",
-      "lines": 44,
+      "lines": 47,
       "usesI18n": true,
       "buttonsOrInputs": 0,
       "dataTestIds": 0,
@@ -543,7 +609,7 @@
     {
       "file": "client/src/pages/go.tsx",
       "name": "go",
-      "lines": 232,
+      "lines": 218,
       "usesI18n": true,
       "buttonsOrInputs": 15,
       "dataTestIds": 17,
@@ -552,7 +618,7 @@
     {
       "file": "client/src/pages/home.tsx",
       "name": "home",
-      "lines": 127,
+      "lines": 149,
       "usesI18n": true,
       "buttonsOrInputs": 0,
       "dataTestIds": 0,
@@ -561,7 +627,7 @@
     {
       "file": "client/src/pages/how-we-work.tsx",
       "name": "how-we-work",
-      "lines": 602,
+      "lines": 625,
       "usesI18n": true,
       "buttonsOrInputs": 2,
       "dataTestIds": 10,
@@ -624,10 +690,10 @@
     {
       "file": "client/src/pages/services/ServiceSubpage.tsx",
       "name": "ServiceSubpage",
-      "lines": 555,
+      "lines": 618,
       "usesI18n": true,
       "buttonsOrInputs": 2,
-      "dataTestIds": 27,
+      "dataTestIds": 32,
       "anyTypes": 0
     },
     {
@@ -678,7 +744,7 @@
     {
       "file": "client/src/pages/services-sections.tsx",
       "name": "services-sections",
-      "lines": 510,
+      "lines": 507,
       "usesI18n": true,
       "buttonsOrInputs": 4,
       "dataTestIds": 8,
@@ -687,7 +753,7 @@
     {
       "file": "client/src/pages/services.tsx",
       "name": "services",
-      "lines": 137,
+      "lines": 147,
       "usesI18n": true,
       "buttonsOrInputs": 1,
       "dataTestIds": 6,
@@ -696,10 +762,10 @@
     {
       "file": "client/src/pages/start.tsx",
       "name": "start",
-      "lines": 367,
+      "lines": 372,
       "usesI18n": true,
       "buttonsOrInputs": 3,
-      "dataTestIds": 9,
+      "dataTestIds": 10,
       "anyTypes": 0
     }
   ]

@@ -427,7 +427,7 @@ Ninguna afecta indexación ni ranking de forma severa hoy: header y footer cubre
 
 ### 13.1 Script automatizado
 
-`scripts/seo-sitemap-check.mjs` realiza una auditoría end-to-end del sitemap servido por el dev server y comprueba en una sola pasada:
+`scripts/seo/seo-sitemap-check.mjs` realiza una auditoría end-to-end del sitemap servido por el dev server y comprueba en una sola pasada:
 
 1. **Cardinalidad.** Cuenta las URLs `/<lang>/blog/<slug>` por idioma y exige que cada idioma exponga el mismo número de posts (es decir, cada slug presente en los 6 idiomas).
 2. **Hreflang completo.** Cada URL de post debe declarar `hreflang` para los 5 idiomas hermanos (la convención actual del sitemap incluye además el self-alternate, también verificado), más un `x-default` apuntando a la versión `/es/`.
@@ -439,10 +439,10 @@ Ninguna afecta indexación ni ranking de forma severa hoy: header y footer cubre
 
 ```bash
 # Con el dev server activo (puerto 5000 por defecto):
-node scripts/seo-sitemap-check.mjs
+node scripts/seo/seo-sitemap-check.mjs
 
 # Apuntando a otra base:
-BASE_URL=https://exentax.com node scripts/seo-sitemap-check.mjs
+BASE_URL=https://exentax.com node scripts/seo/seo-sitemap-check.mjs
 ```
 
 Sale con código 0 si todos los checks pasan, 1 en caso contrario. La salida imprime los conteos por idioma, las advertencias y los errores.

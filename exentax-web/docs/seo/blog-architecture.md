@@ -8,11 +8,11 @@ gates and surfaced through the public site, the sitemap and the
 
 Single ground truth: the **Spanish base slug** (kebab-case ASCII, ≤ 80
 chars). Every registry below must agree on the exact same set of base slugs
-(101 today). Parity is enforced by `scripts/blog-consistency-check.mjs`.
+(101 today). Parity is enforced by `scripts/blog/blog-consistency-check.mjs`.
 
 | Registry                                              | Role                                                   | Edited by                                |
 |-------------------------------------------------------|--------------------------------------------------------|------------------------------------------|
-| `client/src/data/blog-posts.ts` → `BLOG_POSTS[]`      | Editorial metadata (ES baseline): title, excerpt, dates, category, keywords, related slugs. | Hand + `scripts/blog-new-article.mjs`. |
+| `client/src/data/blog-posts.ts` → `BLOG_POSTS[]`      | Editorial metadata (ES baseline): title, excerpt, dates, category, keywords, related slugs. | Hand + `scripts/blog/blog-new-article.mjs`. |
 | `client/src/data/blog-content/es/<slug>.ts`           | Long-form Spanish body (Markdown-with-HTML).           | Hand.                                    |
 | `client/src/data/blog-content/<lang>/<slug>.ts`       | Per-locale long-form body (en, fr, de, pt, ca).        | Hand + translation pipeline.             |
 | `client/src/data/blog-posts-slugs.ts` → `BLOG_SLUG_I18N` | Per-locale URL slug for each base slug (allows non-ES URL hygiene). | Hand + `blog-new-article.mjs`. |
@@ -60,23 +60,23 @@ Article`) and the `?category=<slug>` filter on `/<lang>/blog`.
 children). The `news:news` block is gated to ≤ 48 h (Google News spec): only
 articles whose `publishedAt` is within the last 48 h emit a news entry.
 
-`scripts/seo-sitemap-check.mjs` HEAD-pings every URL.
+`scripts/seo/seo-sitemap-check.mjs` HEAD-pings every URL.
 
 ## Validation gates
 
 Eight orchestrated steps (see `docs/seo/blog-validation.md`). `pre-push`
-runs the full `npm run check` pipeline plus `node scripts/blog-validate-all.mjs`.
+runs the full `npm run check` pipeline plus `node scripts/blog/blog-validate-all.mjs`.
 
 ## Authoring flow
 
-1. `node scripts/blog-new-article.mjs --slug=<kebab> --category=<closed>`
+1. `node scripts/blog/blog-new-article.mjs --slug=<kebab> --category=<closed>`
    - Validates slug shape (≤ 80, kebab-case ASCII).
    - Cross-checks BLOG_SLUG_I18N for collisions across all 6 langs.
    - Scaffolds 6 content files (es, en, fr, de, pt, ca) + meta entries.
    - Runs `blog-consistency-check.mjs` post-scaffold; aborts if it fails.
 2. Author the ES body, fill out citations in `SOURCES_BY_SLUG`.
 3. Translate via the i18n pipeline (each locale gets its own meta + body).
-4. `node scripts/blog-validate-all.mjs` (or `git push` to trigger the hook).
+4. `node scripts/blog/blog-validate-all.mjs` (or `git push` to trigger the hook).
 
 ## Files referenced
 

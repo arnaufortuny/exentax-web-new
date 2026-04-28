@@ -14,7 +14,7 @@
 | Tier-A 6 owner slugs × 6 idiomas con bloque enriquecido | ✅ | 36 inserciones en `client/src/data/blog-content/{lang}/{slug}.ts` (marcador `exentax:overhaul-2026-v1`). |
 | Tier-C 81 slugs × 6 idiomas con bloque conversion-first | ✅ | 486 archivos con marcador `exentax:execution-v2` (H2 integrado + 4 bullets specifics-rich + FAQ + cierre Exentax). |
 | Cero referencias a año en prosa (slugs URL históricos exentos) | ✅ | `node .local/blog-overhaul/sweep-2026.mjs` → 246 ocurrencias `2026` restantes son URL slugs (intocables por canónicos). |
-| Cero vocabulario prohibido (precios LLC bloqueados, miedo emocional, prison/cárcel sin marcador legal) | ✅ | `cd exentax-web && node scripts/blog-content-lint.mjs` → `OK — scanned 610 files, no forbidden mentions`. |
+| Cero vocabulario prohibido (precios LLC bloqueados, miedo emocional, prison/cárcel sin marcador legal) | ✅ | `cd exentax-web && node scripts/blog/blog-content-lint.mjs` → `OK — scanned 610 files, no forbidden mentions`. |
 | Pipeline de checks pasa end-to-end (tsc + typography + stray-reports + blog lint + SEO links + slash + meta + i18n + 6 tests) | ✅ | `cd exentax-web && npm run check` → 14/14 verde tras mover `seo-meta-report.json` a `reports/seo/`. |
 | Build de producción sin regresiones | ✅ | `cd exentax-web && npm run build` → `✓ built in 12.46s`. |
 | Reglas editoriales documentadas para futuros trabajos | ✅ | [`blog-editorial-rules-v2.md`](./blog-editorial-rules-v2.md) cubre voz, estructura, miedo permitido, vocabulario, cifras, multilingüe, workflow y anti-drift. |
@@ -61,7 +61,7 @@ Tier-B (14 pilares) sigue su propio task #29 con criterios de longitud y profund
 - **Source manifests:** `.local/blog-overhaul/batch{1..5}/blocks-*.mjs` — uno por slug × 6 idiomas. Editar aquí, nunca el `.ts` directamente.
 - **Aplicador idempotente:** `node .local/blog-overhaul/apply-v2.mjs .local/blog-overhaul/batch{N}` — detecta marcador v1/v2 y reemplaza in-place.
 - **Sweep años:** `node .local/blog-overhaul/sweep-2026.mjs` — limpia menciones residuales de "2026" en prosa.
-- **Lint editorial:** `cd exentax-web && node scripts/blog-content-lint.mjs` — bloquea precios LLC no permitidos, direcciones físicas, vocabulario de miedo emocional, y cárcel/prison sin marcador legal.
+- **Lint editorial:** `cd exentax-web && node scripts/blog/blog-content-lint.mjs` — bloquea precios LLC no permitidos, direcciones físicas, vocabulario de miedo emocional, y cárcel/prison sin marcador legal.
 - **Pipeline completo:** `cd exentax-web && npm run check` — 14 checks (tsc + lint typography + lint stray-reports + lint blog + seo:check + seo:slash + seo:meta + i18n:check + 6 tests).
 
 ---
@@ -98,7 +98,7 @@ Los 6 slugs `FEATURED_OWNER_SLUGS` en `client/src/data/blog-posts.ts`:
 - **NUNCA editar `.ts` directamente** para cambios de copy. Siempre vía `batchN/blocks.mjs` + `apply-v2.mjs`. Razón: idempotencia, trazabilidad, re-aplicabilidad multi-idioma.
 - El bloque v2 se inyecta **antes** del cierre de la *template literal* en cada `blog-content/<lang>/<slug>.ts`, sin tocar el resto del contenido. Markdown puro renderizado por `markdownToHtml`.
 - El marcador `<!-- exentax:execution-v2 -->` permite a futuros scripts retirar el bloque, regenerar otra versión o migrar a v3 sin contaminar el contenido base.
-- Reportes generados por scripts (`seo-meta-report.json`, etc.) **deben** vivir en `reports/<area>/`. El root del repo está vetado por `scripts/check-stray-reports.mjs`.
+- Reportes generados por scripts (`seo-meta-report.json`, etc.) **deben** vivir en `reports/<area>/`. El root del repo está vetado por `scripts/audit/check-stray-reports.mjs`.
 - Para futuros refuerzos conversion-first sobre los 81 tier-C, **leer primero** [`blog-editorial-rules-v2.md`](./blog-editorial-rules-v2.md). Es la fuente única de verdad.
 
 ---
@@ -120,7 +120,7 @@ Los 6 slugs `FEATURED_OWNER_SLUGS` en `client/src/data/blog-posts.ts`:
 Primer checkpoint de la Task #38 (multi-sesión por diseño). Esta sesión deja:
 
 1. **Anexo §9 en `docs/EDITORIAL_GUIDE.md`** apuntando a `blog-editorial-rules-v2.md` como fuente única — sin duplicar reglas. Documenta reglas extra que asume el auditor (marcadores v2, calc-CTA, longitud mínima, sin años, sources, autoridad).
-2. **`scripts/blog-masterpiece-audit.mjs`** — auditor de 6 reglas con score ponderado (100 pts). Genera `reports/seo/baseline-606.{json,md}`. **No fail del pipeline** mientras el blog está en migración hacia v2; Step 9 lo conectará a `npm run check` con `--strict` cuando el score medio alcance ≥ 90.
+2. **`scripts/blog/blog-masterpiece-audit.mjs`** — auditor de 6 reglas con score ponderado (100 pts). Genera `reports/seo/baseline-606.{json,md}`. **No fail del pipeline** mientras el blog está en migración hacia v2; Step 9 lo conectará a `npm run check` con `--strict` cuando el score medio alcance ≥ 90.
 3. **CTAs canónicos polish v2 §4.4** — `blogPost.ctaBook` cambiado en los 6 idiomas a "Agenda 30 minutos con Exentax" (variantes), única edición justificada por la regla. Resto del copy (`ctaTitle/ctaDesc/ctaWhatsappMsg`) ya era conversacional y se conservó.
 
 ### Baseline cuantitativo (run 2026-04-20)
@@ -159,8 +159,8 @@ Trabajo entregado en esta sesión (no es el cierre de Task #38; es el segundo hi
 **Andamiaje y reglas**
 - `client/src/data/blog-sources.ts`: `SOURCES_LABEL` rebrandeado por idioma a "Fuentes Exentax / Exentax Sources / Les sources Exentax / Exentax-Quellen / Fontes Exentax / Fonts Exentax".
 - `client/src/index.css` `.article-sources__heading`: tipografía editorial real (1.125 rem, weight 600, sin uppercase, sin tracking) y color `var(--text-1)`. Antes era 12 px monoespaciado uppercase con `letter-spacing: 0.12em`.
-- `scripts/blog-content-lint.mjs`: nueva regla bare-URL (`[dominio.tld](https://dominio.tld)`). Cazó 18 ocurrencias de FinCEN BOI portal (3 slugs × 6 idiomas), todas sustituidas por etiqueta humana localizada.
-- `scripts/blog-masterpiece-audit.mjs` v2:
+- `scripts/blog/blog-content-lint.mjs`: nueva regla bare-URL (`[dominio.tld](https://dominio.tld)`). Cazó 18 ocurrencias de FinCEN BOI portal (3 slugs × 6 idiomas), todas sustituidas por etiqueta humana localizada.
+- `scripts/blog/blog-masterpiece-audit.mjs` v2:
   - `findYearsInProse` con whitelist estricta de citas legales (Ley X/AAAA, Orden HFP/887/AAAA, IRC §6038A, ejercicio fiscal AAAA, BOE-A-…, fechas completas). Patrones temporales genéricos ("a partir de YYYY", "since YYYY") quedan FUERA de la whitelist por riesgo de ocultar uso editorial real.
   - `hasSourcesBlock` reconoce inyección runtime vía `SOURCES_BY_SLUG` (≥ 3 refs) además del marcador inline. El parser resuelve constantes (`BANKING_STACK`, `BOI_5472`, etc.) y spreads, no solo refs inline.
   - `hasAuthorityBlock` reconoce v2 marker + cierres editoriales canónicos por idioma.

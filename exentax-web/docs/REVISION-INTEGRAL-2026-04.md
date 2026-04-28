@@ -32,7 +32,7 @@ Reescrituras manuales de alta calidad para cada `metaDescription` con warning so
 Todas las descripciones quedan ≤150 chars sin cortes a media frase, manteniendo intención SEO y CTAs.
 
 ### 2. Tipografía — `abrir-llc.tsx` y `blog/post.tsx`
-Extendido el allowlist de `scripts/check-typography-rule0.mjs` para incluir las dos primitivas de "eyebrow kicker" (uppercase + tracking) que forman parte intencionada del sistema de diseño (no son texto de cuerpo). Documentado en el comentario del propio script.
+Extendido el allowlist de `scripts/audit/check-typography-rule0.mjs` para incluir las dos primitivas de "eyebrow kicker" (uppercase + tracking) que forman parte intencionada del sistema de diseño (no son texto de cuerpo). Documentado en el comentario del propio script.
 
 ### 3. Stray reports
 `TRANSLATION-QUALITY-REPORT.md` se movió de la raíz a `docs/` (es un informe histórico, no un *runtime artifact*).

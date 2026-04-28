@@ -41,7 +41,7 @@ Por orden de impacto SEO + gravedad:
 ### P0 (44 celdas críticas, ~22 h)
 
 Lista completa en `docs/auditoria-multiidioma/blog-translation-quality.md`
-(regenerar con `node scripts/blog-translation-quality-audit.mjs`). Los 15
+(regenerar con `node scripts/blog/blog-translation-quality-audit.mjs`). Los 15
 peores:
 
 | Slug | Idioma | Ratio |
@@ -112,10 +112,10 @@ Ejecuta para cada idioma:
 6. Verificar internal links: al menos 3 por artículo (si ES los tiene).
 7. Correr los linters locales:
    npm run i18n:check
-   node scripts/blog-content-lint.mjs
-   node scripts/audit-pt-pt.mjs  (solo si tocaste pt)
-   node scripts/blog-cta-position-check.mjs
-   node scripts/blog-translation-quality-audit.mjs --check
+   node scripts/blog/blog-content-lint.mjs
+   node scripts/audit/audit-pt-pt.mjs  (solo si tocaste pt)
+   node scripts/blog/blog-cta-position-check.mjs
+   node scripts/blog/blog-translation-quality-audit.mjs --check
 8. Hacer 1 commit por artículo (los 5 idiomas juntos):
    git commit -m "Blog <SLUG>: paridad estructural + SEO polish EN/FR/DE/PT/CA"
 9. Push y pasar al siguiente.
@@ -132,14 +132,14 @@ Reglas de parada:
 | Script | Uso |
 |---|---|
 | `npm run i18n:check` | Integridad claves i18n 6 × idioma |
-| `node scripts/blog-content-lint.mjs` | 670 ficheros: precios/direcciones prohibidas |
-| `node scripts/audit-pt-pt.mjs` | PT-BR leakage (113 ficheros PT) |
-| `node scripts/blog-cta-position-check.mjs` | CTAs en posiciones válidas |
-| `node scripts/blog-translation-quality-audit.mjs` | Regenera ratios y dup-paragraphs; report en `docs/auditoria-multiidioma/` |
-| `node scripts/blog-translation-quality-audit.mjs --check` | Idem en modo fail-if-regression |
+| `node scripts/blog/blog-content-lint.mjs` | 670 ficheros: precios/direcciones prohibidas |
+| `node scripts/audit/audit-pt-pt.mjs` | PT-BR leakage (113 ficheros PT) |
+| `node scripts/blog/blog-cta-position-check.mjs` | CTAs en posiciones válidas |
+| `node scripts/blog/blog-translation-quality-audit.mjs` | Regenera ratios y dup-paragraphs; report en `docs/auditoria-multiidioma/` |
+| `node scripts/blog/blog-translation-quality-audit.mjs --check` | Idem en modo fail-if-regression |
 | `npm run seo:meta` | Title/description length por página × idioma |
 | `npm run seo:check` | Enlaces internos (111 artículos, ≥3 inbound c/u) |
-| `node scripts/audit-system-seo-faqs.mjs` | Audit FAQ schema y blog FAQ sections |
+| `node scripts/audit/audit-system-seo-faqs.mjs` | Audit FAQ schema y blog FAQ sections |
 | `npx tsc --noEmit` | Tipos OK |
 
 ## 5. Checklist por artículo (marcar antes de commit)
@@ -173,7 +173,7 @@ Registra cada artículo completado en `docs/blog/content-improvement-log.md`
 Al mes se puede graficar progreso con:
 
 ```bash
-node scripts/blog-translation-quality-audit.mjs
+node scripts/blog/blog-translation-quality-audit.mjs
 # abre docs/auditoria-multiidioma/blog-translation-quality.md
 ```
 

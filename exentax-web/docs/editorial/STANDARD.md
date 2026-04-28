@@ -126,7 +126,7 @@ Antes de cerrar un slug, deben pasar:
 - `npm run i18n:check` — glosario por idioma.
 - `npm run lint:pt-pt` — sin brasileñismos.
 - `npm run seo:meta` — límites de mt/md/og.
-- `node scripts/audit-conversion-es-2026-04.mjs` filtrado al slug → PASA.
+- `node scripts/audit/audit-conversion-es-2026-04.mjs` filtrado al slug → PASA.
 
 ## 11. Cómo se priorizan las pasadas
 

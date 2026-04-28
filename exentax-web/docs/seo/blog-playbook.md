@@ -69,7 +69,7 @@ After the scaffolder is green:
   Keep the FAQ heading exactly as the scaffolder writes it (per language)
   so `blog-faq-extract.ts` can find it. Each FAQ question must be wrapped
   in `**…?**` and end with a question mark.
-- Re-run `node scripts/blog-masterpiece-audit.mjs` until you see
+- Re-run `node scripts/blog/blog-masterpiece-audit.mjs` until you see
   `mean score: 100/100, critical=0, warning=0` for every language.
 - Open a draft commit and let the pre-push hook fire `npm run check`.
 
@@ -84,7 +84,7 @@ The Spanish file is the authoritative source. To translate:
 3. Mirror the FAQ block: same questions, same order. The FAQPage JSON-LD
    is generated from this body, so missing translations silently lose the
    rich result in that language.
-4. Run `node scripts/blog-masterpiece-audit.mjs` and verify the language
+4. Run `node scripts/blog/blog-masterpiece-audit.mjs` and verify the language
    you touched is at score 100 with no warnings.
 5. If the article slug is different in your language, update
    `BLOG_SLUG_I18N` accordingly. Do **not** add a translated slug that
@@ -135,13 +135,13 @@ spec). Older articles still appear with `lastmod` taken from `updatedAt`.
 |--------------------|------------------------------------------------------|------------------------------------|
 | pre-commit         | `npm run i18n:check` (auto when locales change)      | Installed by `install-git-hooks.sh`|
 | pre-push           | `npm run check` (full pipeline)                      | Installed by `install-git-hooks.sh`|
-| Per-corpus health  | `node scripts/blog-masterpiece-audit.mjs`            | Must show 100/100 across 6 langs.  |
-| Per-corpus parity  | `node scripts/blog-consistency-check.mjs`            | Must show ✅ across 5 registries.   |
+| Per-corpus health  | `node scripts/blog/blog-masterpiece-audit.mjs`            | Must show 100/100 across 6 langs.  |
+| Per-corpus parity  | `node scripts/blog/blog-consistency-check.mjs`            | Must show ✅ across 5 registries.   |
 | Per-article smoke  | Scaffolder runs both above, scoped to the new slug.  | Built into `blog-new-article.mjs`. |
-| Sitemap matrix     | `node scripts/seo-sitemap-check.mjs`                 | Hreflang reciprocity + counts.     |
-| Internal links     | `node scripts/seo-check-links.mjs`                   | No broken anchors / orphan posts.  |
-| Slash hygiene      | `node scripts/seo-slash-hygiene.mjs`                 | No double slashes / wrong prefixes.|
-| Source URL liveness| `node scripts/blog-verify-source-urls.mjs`           | External regulatory links 2xx.     |
+| Sitemap matrix     | `node scripts/seo/seo-sitemap-check.mjs`                 | Hreflang reciprocity + counts.     |
+| Internal links     | `node scripts/seo/seo-check-links.mjs`                   | No broken anchors / orphan posts.  |
+| Slash hygiene      | `node scripts/seo/seo-slash-hygiene.mjs`                 | No double slashes / wrong prefixes.|
+| Source URL liveness| `node scripts/blog/blog-verify-source-urls.mjs`           | External regulatory links 2xx.     |
 
 ## 7. Conventions you must not break
 
@@ -173,8 +173,8 @@ node exentax-web/scripts/blog-new-article.mjs my-new-slug "Mi título en españo
 
 # 2. Edit the six files, then verify
 cd exentax-web
-node scripts/blog-consistency-check.mjs
-node scripts/blog-masterpiece-audit.mjs
+node scripts/blog/blog-consistency-check.mjs
+node scripts/blog/blog-masterpiece-audit.mjs
 
 # 3. Push (pre-push runs the full quality pipeline)
 git push
@@ -249,7 +249,7 @@ gate **requires** that cache: it must exist, be < 14 days old, and
 report zero dead authority URLs (Cloudflare-gated 403s are treated as
 alive, matching the verifier's convention). A missing, stale, or
 dead-URL-bearing cache is **CRITICAL** and fails CI — refresh by running
-`node scripts/blog-verify-source-urls.mjs`. This is what enforces
+`node scripts/blog/blog-verify-source-urls.mjs`. This is what enforces
 external-source liveness on every `npm run check` without paying the
 network round-trip on each invocation.
 

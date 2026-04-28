@@ -62,7 +62,7 @@ decrypted  = "+34 600 123 456"   // identity restored
 ### 1.2 Test execution
 
 ```bash
-$ npx tsx scripts/test-field-encryption.ts
+$ npx tsx scripts/e2e/test-field-encryption.ts
 === Field Encryption E2E Test ===
 [1] Setup                  ✓ isFieldEncryptionEnabled returns true
 [2] Round-trip             ✓ 6 distinct plaintexts encrypt+decrypt cleanly
@@ -445,7 +445,7 @@ all form-error labels surfaced from the backend reach the user via the
 
 | Check | Command | Result |
 |---|---|---|
-| Field-encryption E2E | `npx tsx scripts/test-field-encryption.ts` | ✅ **45/45** assertions, EXIT 0 |
+| Field-encryption E2E | `npx tsx scripts/e2e/test-field-encryption.ts` | ✅ **45/45** assertions, EXIT 0 |
 | IndexNow / endpoint test | `npx tsx server/indexnow.test.ts` | ✅ **10/10**, EXIT 0 |
 | Full project typecheck | `npx tsc -p tsconfig.json --noEmit` | ✅ EXIT 0 |
 | CSP header on `GET /` | `curl -sI http://localhost:5000/` | ✅ all 14 directives present, no missing host |

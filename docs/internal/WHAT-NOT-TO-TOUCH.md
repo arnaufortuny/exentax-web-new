@@ -40,10 +40,10 @@ idénticas al ES (tecnicismos, marca, etc.) — están documentadas en
 
 | Directorio | Comando | Output |
 |---|---|---|
-| `exentax-web/client/src/data/blog-content/**/*.ts` | `cd exentax-web && node scripts/blog-content-lint.mjs` | `[blog-content-lint] OK — scanned 670 files, no forbidden mentions.` |
-| idem | `cd exentax-web && node scripts/audit-pt-pt.mjs` | `✓ Sin brasileñismos en pt: 113 ficheros + bloques pt de 1 fichero(s) multi-locale.` |
-| idem | `cd exentax-web && node scripts/blog-cta-position-check.mjs` | `blog-cta-position-audit --check: OK (0 allowlisted positional warnings)` |
-| idem | `cd exentax-web && node scripts/blog-translation-quality-audit.mjs --check` | `PT-BR hits: 0 in 0 files; duplicate paragraphs: 0 in 0 files` |
+| `exentax-web/client/src/data/blog-content/**/*.ts` | `cd exentax-web && node scripts/blog/blog-content-lint.mjs` | `[blog-content-lint] OK — scanned 670 files, no forbidden mentions.` |
+| idem | `cd exentax-web && node scripts/audit/audit-pt-pt.mjs` | `✓ Sin brasileñismos en pt: 113 ficheros + bloques pt de 1 fichero(s) multi-locale.` |
+| idem | `cd exentax-web && node scripts/blog/blog-cta-position-check.mjs` | `blog-cta-position-audit --check: OK (0 allowlisted positional warnings)` |
+| idem | `cd exentax-web && node scripts/blog/blog-translation-quality-audit.mjs --check` | `PT-BR hits: 0 in 0 files; duplicate paragraphs: 0 in 0 files` |
 | idem | `cd exentax-web && npm run seo:check` | `✓ No broken internal blog links. ✓ All 111 articles have ≥ 3 incoming links.` |
 
 **Importante**: artículos marcados como <70% ratio vs ES (44 casos,
@@ -56,7 +56,7 @@ aditivo, no reescribe lo que ya pasa los linters. Fuera de esa lista,
 | Archivo | Comando | Output |
 |---|---|---|
 | `exentax-web/server/seo-content.ts` → `PAGE_META`, `PAGE_META_I18N`, `PAGE_SCHEMAS`, `PAGE_KEYWORDS`, `buildI18nMeta()` | `cd exentax-web && npm run seo:meta` | `[verify-meta] PASS: 0 error(s), 0 warning(s) across 6 languages` |
-| `exentax-web/server/faq-schema-i18n.ts` (79 Q/A × 6 idiomas) | `cd exentax-web && node scripts/audit-system-seo-faqs.mjs` → `faqs-audit.json` | `0 issues across 79 FAQs × 6 idiomas` |
+| `exentax-web/server/faq-schema-i18n.ts` (79 Q/A × 6 idiomas) | `cd exentax-web && node scripts/audit/audit-system-seo-faqs.mjs` → `faqs-audit.json` | `0 issues across 79 FAQs × 6 idiomas` |
 | `exentax-web/client/src/components/SEO.tsx` | incluido en seo:meta | PASS |
 | `exentax-web/client/src/pages/faq-page.tsx` + `exentax-web/client/src/components/sections/FAQ.tsx` | tsc + audit | OK |
 | `exentax-web/client/src/pages/services/*.tsx` (5 subpáginas + ServiceSubpage) | tsc + audit | OK |
@@ -74,9 +74,9 @@ aditivo, no reescribe lo que ya pasa los linters. Fuera de esa lista,
 | Script | Comando de verificación | Output |
 |---|---|---|
 | `exentax-web/scripts/build.ts` | `cd /home/user/exentax-web-new && SKIP_BUILD_E2E=1 DATABASE_URL=postgresql://dummy:dummy@localhost/dummy npm run build` | exit 0, `dist/index.mjs` 5.9 MB + `dist/public/` 24 MB |
-| `exentax-web/scripts/seo-meta-audit.mjs` | `cd exentax-web && node scripts/seo-meta-audit.mjs` | `SEO META AUDIT — OK (111 posts × 6 langs, 22 public pages).` |
+| `exentax-web/scripts/seo-meta-audit.mjs` | `cd exentax-web && node scripts/seo/seo-meta-audit.mjs` | `SEO META AUDIT — OK (111 posts × 6 langs, 22 public pages).` |
 | `exentax-web/scripts/seo-slash-hygiene.mjs` | `cd exentax-web && npm run seo:slash` | `✓ slash-hygiene: clean` (graceful-degrade si no hay DB/server) |
-| `exentax-web/scripts/audit-system-seo-faqs.mjs` | `cd exentax-web && node scripts/audit-system-seo-faqs.mjs` | exit 0, JSONs escritos a `docs/auditoria-sistema-seo-faqs/` |
+| `exentax-web/scripts/audit-system-seo-faqs.mjs` | `cd exentax-web && node scripts/audit/audit-system-seo-faqs.mjs` | exit 0, JSONs escritos a `docs/auditoria-sistema-seo-faqs/` |
 | `exentax-web/scripts/blog-content-lint.mjs` | idem sección 3 | OK |
 | `exentax-web/scripts/audit-pt-pt.mjs` | idem sección 3 | 113 OK |
 | `exentax-web/scripts/check-typography-rule0.mjs` | `cd exentax-web && npm run lint:typography` | `Regla 0 OK · 0 violaciones decorativas` |

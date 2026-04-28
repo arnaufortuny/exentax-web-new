@@ -55,7 +55,7 @@
     },
     {
       "id": "CO-007",
-      "hallazgo": "PhoneInput y BookingCalendar son los componentes mas complejos: bien aislados, con pruebas e2e en scripts/run-booking-e2e.ts y scripts/run-newsletter-e2e.ts.",
+      "hallazgo": "PhoneInput y BookingCalendar son los componentes mas complejos: bien aislados, con pruebas e2e en scripts/e2e/run-booking-e2e.ts y scripts/run-newsletter-e2e.ts.",
       "prioridad": "alta",
       "estado": "verificado"
     }

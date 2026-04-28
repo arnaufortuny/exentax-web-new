@@ -408,7 +408,7 @@ commands without a handler:
    propagates global commands within ~1h.
 6. **Tests** — add an assertion block to
    `exentax-web/scripts/test-discord-bot-e2e.ts` (signature, response
-   shape, audit row, side effect). Run `tsx scripts/test-discord-bot-e2e.ts`.
+   shape, audit row, side effect). Run `tsx scripts/discord/test-discord-bot-e2e.ts`.
 
 Buttons and select options follow the same pattern — register the
 custom ID under `bookingActionRows()` in `server/discord.ts`, add a

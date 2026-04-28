@@ -48,7 +48,7 @@ Importes de ejemplo en **EUR**.
 - La línea de cierre dentro de cada bloque `cta-v1` debe coincidir
   literalmente con la patrón `book_consultation` (u otro) de
   `client/src/data/blog-cta-library.ts`, según valida
-  `scripts/blog-cta-validate.mjs`.
+  `scripts/blog/blog-cta-validate.mjs`.
 
 ## 4. Validación canónica
 
@@ -188,7 +188,7 @@ cd exentax-web && npm run blog:validate-all
 
 - **Cache de fuentes:** `reports/seo/source-url-verification.json` muestra
   33/33 OK desde este entorno. No tocar salvo regeneración explícita.
-- **PT-BR lint:** `scripts/audit-pt-pt.mjs` bloquea brasileñismos; usar
+- **PT-BR lint:** `scripts/audit/audit-pt-pt.mjs` bloquea brasileñismos; usar
   enclisis europea ("dizem-lhe", "marque-a", "pode-se").
 - **CA — uso de "vostè":** la línea de `cta-v1` debe usar la copia
   estandarizada de `blog-cta-library.ts` (que utiliza "tu/teu/et"). El resto

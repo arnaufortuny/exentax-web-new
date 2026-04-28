@@ -46,6 +46,6 @@ npm run blog:validate-all                     # → "OK (15 steps)"
 npm run seo:meta                              # → PASS, 6 langs, 0 errors
 SEO_SLASH_SKIP_LIVE=1 npm run seo:slash       # → clean
 npm run test:redirects && npm run test:geo    # → 9/9 + 12/12
-node scripts/audit-conversion-112x6.mjs --strict  # → 672/672
+node scripts/audit/audit-conversion-112x6.mjs --strict  # → 672/672
 npm audit                                     # → 0 vulnerabilities
 ```

@@ -6,7 +6,7 @@ End-to-end quality gate for the Exentax blog corpus (101 base slugs × 6 langs
 ```bash
 npm run blog:validate-all                          # 10 local steps (offline)
 npm run blog:validate-all -- --with-external       # adds source-URL ping
-node scripts/blog-validate-all.mjs --with-external # equivalent
+node scripts/blog/blog-validate-all.mjs --with-external # equivalent
 ```
 
 The orchestrator runs every step in sequence as a child process, prints a
@@ -20,22 +20,22 @@ wired into:
 
 | #  | Step id            | Script                                  | What it guarantees                                                                                          |
 |---:|--------------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------------|
-|  1 | `consistency`      | `scripts/blog-consistency-check.mjs`    | 5-registry parity (BLOG_POSTS ↔ es files ↔ BLOG_SLUG_I18N ↔ SOURCES_BY_SLUG ↔ per-locale content), kebab-case ≤80, closed taxonomy. |
-|  2 | `content-lint`     | `scripts/blog-content-lint.mjs`         | No forbidden price/address mentions; no fear-of-Hacienda phrasing; allow-list (IRS $25K, BOI $591/d, FDIC $250K, Stripe 2.9%, $0 editorial). |
-|  3 | `internal-links`   | `scripts/seo-check-links.mjs`           | Zero broken `/<lang>/blog/<slug>` links; every ES article has ≥3 incoming contextual links.                  |
-|  4 | `locale-link-leak` | `scripts/blog-link-locale-lint.mjs`     | No FR article links to `/es/blog/...`, etc. Cross-language leak inside the body is a hard fail.              |
-|  5 | `cta`              | `scripts/blog-cta-validate.mjs`         | Every article carries `/<lang>#calculadora`; no cross-language CTA leak; no legacy paths; React surface intact (`ArticleCTA` rendered exactly once with `data-testid="article-cta-final"`). |
-|  6 | `data`             | `scripts/blog-data-validate.mjs`        | Date integrity, meta-length budget (`metaTitle ≤ 60`, `metaDescription` 70–155), per-locale + cross-locale uniqueness, orphan-year detection in SERP-visible meta, category↔keywords coherence, slug hygiene, shape sanity. |
-|  7 | `sources`          | `scripts/blog-sources-validate.mjs`     | Every ES slug declared in `SOURCES_BY_SLUG`, each entry ≥ 3 refs, every `{doc, section}` resolves to `DOC_REGISTRY`. |
-|  8 | `faq-jsonld`       | `scripts/seo-faq-jsonld-check.mjs`      | FAQPage JSON-LD wires correctly to the rendered tree, every Q/A is translated (no byte-identical ES leakage). |
-|  9 | `sitemap`          | `scripts/seo-sitemap-check.mjs`         | Sitemap shape (101 × 6 + index + pages), hreflang round-trip, every URL responds 2xx/3xx.                    |
-| 10 | `masterpiece-audit`| `scripts/blog-masterpiece-audit.mjs`    | v2 editorial rules (calc-cta marker, sources block, year-in-prose, length, authority block). Strict variant `seo:masterpiece-strict` is run earlier in `npm run check`. |
+|  1 | `consistency`      | `scripts/blog/blog-consistency-check.mjs`    | 5-registry parity (BLOG_POSTS ↔ es files ↔ BLOG_SLUG_I18N ↔ SOURCES_BY_SLUG ↔ per-locale content), kebab-case ≤80, closed taxonomy. |
+|  2 | `content-lint`     | `scripts/blog/blog-content-lint.mjs`         | No forbidden price/address mentions; no fear-of-Hacienda phrasing; allow-list (IRS $25K, BOI $591/d, FDIC $250K, Stripe 2.9%, $0 editorial). |
+|  3 | `internal-links`   | `scripts/seo/seo-check-links.mjs`           | Zero broken `/<lang>/blog/<slug>` links; every ES article has ≥3 incoming contextual links.                  |
+|  4 | `locale-link-leak` | `scripts/blog/blog-link-locale-lint.mjs`     | No FR article links to `/es/blog/...`, etc. Cross-language leak inside the body is a hard fail.              |
+|  5 | `cta`              | `scripts/blog/blog-cta-validate.mjs`         | Every article carries `/<lang>#calculadora`; no cross-language CTA leak; no legacy paths; React surface intact (`ArticleCTA` rendered exactly once with `data-testid="article-cta-final"`). |
+|  6 | `data`             | `scripts/blog/blog-data-validate.mjs`        | Date integrity, meta-length budget (`metaTitle ≤ 60`, `metaDescription` 70–155), per-locale + cross-locale uniqueness, orphan-year detection in SERP-visible meta, category↔keywords coherence, slug hygiene, shape sanity. |
+|  7 | `sources`          | `scripts/blog/blog-sources-validate.mjs`     | Every ES slug declared in `SOURCES_BY_SLUG`, each entry ≥ 3 refs, every `{doc, section}` resolves to `DOC_REGISTRY`. |
+|  8 | `faq-jsonld`       | `scripts/seo/seo-faq-jsonld-check.mjs`      | FAQPage JSON-LD wires correctly to the rendered tree, every Q/A is translated (no byte-identical ES leakage). |
+|  9 | `sitemap`          | `scripts/seo/seo-sitemap-check.mjs`         | Sitemap shape (101 × 6 + index + pages), hreflang round-trip, every URL responds 2xx/3xx.                    |
+| 10 | `masterpiece-audit`| `scripts/blog/blog-masterpiece-audit.mjs`    | v2 editorial rules (calc-cta marker, sources block, year-in-prose, length, authority block). Strict variant `seo:masterpiece-strict` is run earlier in `npm run check`. |
 
 ## Optional step (`--with-external`)
 
 | Step id            | Script                                | Notes                                                                                              |
 |--------------------|---------------------------------------|----------------------------------------------------------------------------------------------------|
-| `external-sources` | `scripts/blog-verify-source-urls.mjs` | HEAD/GET ping against the 27 canonical authority URLs (IRS, FinCEN, OECD, EUR-Lex, BOE, AEAT, …). Excluded from the default suite because it depends on third-party availability. Cloudflare-gated 403s are accepted as alive. |
+| `external-sources` | `scripts/blog/blog-verify-source-urls.mjs` | HEAD/GET ping against the 27 canonical authority URLs (IRS, FinCEN, OECD, EUR-Lex, BOE, AEAT, …). Excluded from the default suite because it depends on third-party availability. Cloudflare-gated 403s are accepted as alive. |
 
 ### Weekly scheduled run
 
@@ -45,7 +45,7 @@ week so link-rot in citations is caught before users (or auditors) hit it.
 - **Workflow:** `.github/workflows/blog-source-health-weekly.yml`
 - **Schedule:** every Monday at 06:00 UTC (cron `0 6 * * 1`); also exposed
   via `workflow_dispatch` for ad-hoc reruns from the Actions tab.
-- **Command:** `node scripts/blog-validate-all.mjs --with-external` (run
+- **Command:** `node scripts/blog/blog-validate-all.mjs --with-external` (run
   inside `exentax-web/`).
 - **Artifact:** `source-url-verification` (90 d retention) — contains
   `reports/seo/source-url-verification.json` and the regenerated
@@ -56,7 +56,7 @@ week so link-rot in citations is caught before users (or auditors) hit it.
   URL (citation, status, error) and the remediation checklist:
     1. Re-run the workflow once to rule out a transient outage.
     2. Find the new canonical URL on the issuing authority's site and
-       update `scripts/blog-verify-source-urls.mjs`.
+       update `scripts/blog/blog-verify-source-urls.mjs`.
     3. Update any inline references in article bodies that cite the same
        URL (`rg "<old-url>" client`).
     4. Close the issue once `--with-external` is green locally.

@@ -1,7 +1,7 @@
 # Blog translation triage — PT-BR + duplicated paragraphs
 
 Date: 2026-04-26 · Maintainer: Exentax web team
-Source: `node scripts/blog-translation-quality-audit.mjs --check`
+Source: `node scripts/blog/blog-translation-quality-audit.mjs --check`
 Logged at: `/tmp/blog-tq-audit.log`
 Generated report: `docs/auditoria-multiidioma/blog-translation-quality.{json,md}`
 
@@ -10,7 +10,7 @@ Generated report: `docs/auditoria-multiidioma/blog-translation-quality.{json,md}
 ## 0. Audit run output (current)
 
 ```
-$ cd exentax-web && node scripts/blog-translation-quality-audit.mjs --check
+$ cd exentax-web && node scripts/blog/blog-translation-quality-audit.mjs --check
 blog-translation-quality-audit --check: REPORT-ONLY
   (PT-BR hits: 0 in 0 files;
    duplicate paragraphs: 0 in 0 files)
@@ -20,7 +20,7 @@ The audit is **clean as of this run** (2026-04-26). The historical
 counts referenced in `docs/internal/PENDING.md §10` (4 PT-BR hits, 93
 duplicate paragraphs in 52 files) were closed by:
 
-- Duplicate paragraphs: `scripts/dedup-consecutive-paragraphs.mjs`
+- Duplicate paragraphs: `scripts/blog/dedup-consecutive-paragraphs.mjs`
   in commit `8a63855` and follow-up — see PENDING.md §1 (Alta).
   Final state: 0 dups in 0 files.
 - PT-BR hits: cleared during the LOG-BATCH-3 editorial pass on the
@@ -49,7 +49,7 @@ Historical reference (4 hits in 3 files, per
 The exact file:line per hit is no longer recoverable from the audit
 output (the report is regenerated in place and the previous JSON was
 overwritten with a clean run). The substitution rules above cover
-every hit the lint catches; see `scripts/audit-pt-pt.mjs` for the
+every hit the lint catches; see `scripts/audit/audit-pt-pt.mjs` for the
 authoritative pattern set.
 
 ## 2. Duplicated paragraphs
@@ -89,7 +89,7 @@ apply to any future hits.
 | **PT-BR hit** in a `pt/*` blog file or in `pt.ts` SEO blurb | `FIX — replace with PT-PT equivalent` | All 4 historical: **FIXED** in LOG-BATCH-3 |
 
 For the dedup CTA-buffer-aware logic, the script
-`scripts/dedup-consecutive-paragraphs.mjs` distinguishes a real
+`scripts/blog/dedup-consecutive-paragraphs.mjs` distinguishes a real
 editorial duplicate from a deliberate CTA echo by looking for the
 inline `<!-- exentax:cta-* -->` markers; the buffer protects them
 automatically. New duplicates introduced inside CTA buffers are
@@ -103,7 +103,7 @@ automatically. New duplicates introduced inside CTA buffers are
 The audit is currently green, so the next session is **preventive**
 rather than corrective: the PT reviewer (per the translator-brief)
 re-runs the audit, validates the PT-PT substitution rules in
-`scripts/audit-pt-pt.mjs` are still aligned with the editorial
+`scripts/audit/audit-pt-pt.mjs` are still aligned with the editorial
 register, and reviews the dedup CTA-buffer rules for false positives.
 Effort: 2 hours, single PT reviewer, no code changes expected
 beyond pattern tuning if any new PT-BR variant is found in the wild.

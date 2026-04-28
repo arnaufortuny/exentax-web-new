@@ -146,4 +146,4 @@ Antes de cada sprint, ejecutar HEAD-check sobre las URLs que se vayan a citar (v
 - Word count se mide sobre el template literal sin HTML/code/markdown.
 - Tráfico = `signals.trafficScore` del audit (escala interna 0-100, no clicks reales).
 - Las categorías de fallo y los planes detallados por slug viven en `docs/audits/2026-04/conversion/audit-es.md`.
-- Re-ejecutar `scripts/audit-conversion-es-2026-04.mjs` después de cada sprint para refrescar la cola; los slugs cerrados pasan a PASA y entran en pasada de polish posterior.
+- Re-ejecutar `scripts/audit/audit-conversion-es-2026-04.mjs` después de cada sprint para refrescar la cola; los slugs cerrados pasan a PASA y entran en pasada de polish posterior.

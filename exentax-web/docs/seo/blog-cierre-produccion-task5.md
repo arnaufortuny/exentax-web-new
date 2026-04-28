@@ -104,7 +104,7 @@ Cada uno de los 660 artículos cumple:
 
 ## 6. Higiene de contenido
 
-- 0 menciones prohibidas (lista en `scripts/blog-content-lint.mjs`).
+- 0 menciones prohibidas (lista en `scripts/blog/blog-content-lint.mjs`).
 - 0 referencias temporales rotas: el sweep
   `scripts/task5-strip-years.mjs` deja headings limpios y prosa coherente
   ("actualmente", "currently", "actuellement", "aktuell", "atualmente",
@@ -112,7 +112,7 @@ Cada uno de los 660 artículos cumple:
 - 0 enlaces a localizaciones distintas (un artículo `/en/blog/...` no
   enlaza a `/es/...`).
 - 20 fuentes externas únicas, todas verificadas
-  (`scripts/blog-verify-source-urls.mjs` con caché en
+  (`scripts/blog/blog-verify-source-urls.mjs` con caché en
   `reports/seo/source-url-verification.json`).
 
 ## 7. Hreflang y canonical
@@ -148,8 +148,8 @@ Scripts incorporados al repo para futuras incorporaciones:
 | `scripts/task5-articles-remaining.mjs` | Banco de contenido para A3–A9 (consumido por el generator) |
 | `scripts/task5-add-incoming-links.mjs` | Inserta el bloque "Lecturas relacionadas" en artículos ES existentes para garantizar ≥3 entrantes hacia los nuevos slugs |
 | `scripts/task5-strip-years.mjs` | Sweep seguro (`[ \t]+`, nunca `\s+`) que elimina referencias temporales en headings y prosa por idioma |
-| `scripts/blog-validate-all.mjs` | Orquestador de los 10 gates (CI) |
-| `scripts/blog-final-qa.mjs` | Reporte detallado por idioma (`docs/seo/blog-final-qa-2026.md`) |
+| `scripts/blog/blog-validate-all.mjs` | Orquestador de los 10 gates (CI) |
+| `scripts/blog/blog-final-qa.mjs` | Reporte detallado por idioma (`docs/seo/blog-final-qa-2026.md`) |
 
 ## 10. Riesgos residuales y seguimiento
 

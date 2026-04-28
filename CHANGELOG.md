@@ -31,7 +31,7 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - **Low-ratio false positive → 0**: los 5 artículos low-ratio (DE/PT/CA/FR)
   tenían MÁS secciones que ES (restructuración audiencia-local), no contenido
   faltante. Audit ahora exime artículos restructurados.
-- **CTA refactor seguro**: `scripts/blog-cta-channel-lint.mjs` +
+- **CTA refactor seguro**: `scripts/blog/blog-cta-channel-lint.mjs` +
   `blog-cta-channel-update.mjs` para drift detection del número WhatsApp
   canonical en 666 artículos.
 - **Phone CTA eliminado**: 657 artículos blog (6 idiomas) ahora solo tienen

@@ -58,7 +58,7 @@ AI engines weigh **brand mentions** even when un-linked. Google still weighs **d
 
 Some engines have explicit submission endpoints; we ship them all.
 
-- [ ] **Bing IndexNow** — already automated in `scripts/blog-ping-sitemaps.mjs` (verify `/api/indexnow` runs on each deploy).
+- [ ] **Bing IndexNow** — already automated in `scripts/blog/blog-ping-sitemaps.mjs` (verify `/api/indexnow` runs on each deploy).
 - [ ] **Google Search Console** — submit the new pillar sitemap entries for all 6 locales the day they ship. Confirm `Indexed` within 14 days; if not, request indexing manually.
 - [ ] **Perplexity submit** — `https://www.perplexity.ai/feedback` → "I want Perplexity to learn about my brand"; submit the homepage and the pillar URL.
 - [ ] **Common Crawl** — already crawled (CCBot is allow-listed in robots.txt). No action; just verify CC-MAIN-2026-* corpus contains `exentax.com`.

@@ -32,8 +32,8 @@
  *   - CA is Catalan, "tu" form.
  *
  * The `BLOG_MID_CTA_COPY` constant and the `PATTERN_TO_VARIANT` map are
- * parsed from this file by `scripts/blog-mid-cta-rewrite.mjs` (rewriter)
- * and `scripts/blog-mid-cta-check.mjs` (CI guard). Keep the literal shape
+ * parsed from this file by `scripts/blog/blog-mid-cta-rewrite.mjs` (rewriter)
+ * and `scripts/blog/blog-mid-cta-check.mjs` (CI guard). Keep the literal shape
  * intact: nested `{` / `}` blocks per variant and per language with
  * double-quoted string fields. Any drift will trip the parser.
  * ---------------------------------------------------------------------------

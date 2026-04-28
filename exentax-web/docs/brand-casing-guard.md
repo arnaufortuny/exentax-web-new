@@ -8,7 +8,7 @@ This guard does.
 
 ## What it checks
 
-`scripts/brand-casing-check.mjs` walks the following directories and fails
+`scripts/audit/brand-casing-check.mjs` walks the following directories and fails
 if any file contains the forbidden form (capital `E` + capital `T` in the
 middle of the brand):
 
@@ -35,6 +35,6 @@ It is also wired into `npm run check`, so CI fails on regressions.
 There are currently **zero** intentional occurrences. If a future case
 genuinely needs the wrong casing (e.g. quoting an external article
 verbatim), add the file's repo-relative path to the `ALLOWLIST` `Set`
-near the top of `scripts/brand-casing-check.mjs` and leave a comment
+near the top of `scripts/audit/brand-casing-check.mjs` and leave a comment
 explaining why. Keep the list as short as possible — prefer rewording
 over allow-listing whenever possible.

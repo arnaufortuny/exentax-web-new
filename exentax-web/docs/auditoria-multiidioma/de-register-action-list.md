@@ -4,7 +4,7 @@ Generated: 2026-04-26T11:00:28.782Z
 Total articles flagged: **87**
 Total hits to fix: **488**
 
-> Run `node scripts/blog-translation-quality-extended.mjs` after each batch to track progress.
+> Run `node scripts/blog/blog-translation-quality-extended.mjs` after each batch to track progress.
 
 ---
 
