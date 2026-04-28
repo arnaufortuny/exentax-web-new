@@ -125,11 +125,11 @@ export default function SubscribePopup() {
         type="button"
         aria-label={t("popup.close", { defaultValue: "Cerrar" })}
         onClick={close}
-        className="absolute inset-0 bg-black/90 backdrop-blur-md !rounded-none"
+        className="absolute inset-0 bg-black/40 backdrop-blur-xl backdrop-saturate-150 !rounded-none"
         data-testid="button-popup-backdrop"
       />
       <div
-        className="relative w-full max-w-md bg-white rounded-2xl shadow-[0_24px_64px_-12px_rgba(0,0,0,0.4)] overflow-hidden"
+        className="relative w-full max-w-md rounded-2xl overflow-hidden bg-white/70 dark:bg-white/10 backdrop-blur-2xl backdrop-saturate-150 border border-white/50 dark:border-white/15 shadow-[0_24px_64px_-12px_rgba(0,0,0,0.45),inset_0_1px_0_0_rgba(255,255,255,0.6)] dark:shadow-[0_24px_64px_-12px_rgba(0,0,0,0.6),inset_0_1px_0_0_rgba(255,255,255,0.12)]"
         style={{ animation: "fadeSlideIn 0.35s ease-out" }}
       >
         <button
