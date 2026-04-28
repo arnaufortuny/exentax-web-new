@@ -17,7 +17,11 @@
  *   7. seo-faq-jsonld-check.mjs      (FAQPage schema sanity)
  *   8. seo-sitemap-check.mjs         (sitemap shape)
  *   9. seo-sitemap-bcp47.test.mjs    (hreflang BCP-47 region tags, static + live)
- *  10. audit-conversion-112x6.mjs --strict  (post-Task #53 conversion-grade
+ *  10. seo-orphan-audit-ci.mjs       (Task #23 — fail-fast orphan/ghost-URL
+ *      gate; live cross-check of app-canonical vs sitemap vs reachable-from-home
+ *      ≤3 clicks. Boots a background dev server on :5000 if needed; skips
+ *      cleanly when CI cannot bring the server up.)
+ *  11. audit-conversion-112x6.mjs --strict  (post-Task #53 conversion-grade
  *      gate: any new article or rewrite that drops a CTA contract — calc,
  *      agenda link, tel+WhatsApp row, LLC sub-link, ITIN sub-link — breaks
  *      `npm run check` before it can reach production).
@@ -58,6 +62,16 @@ const STEPS = [
   { id: "faq-jsonld", file: "scripts/seo/seo-faq-jsonld-check.mjs", node: "node" },
   { id: "sitemap", file: "scripts/seo/seo-sitemap-check.mjs", node: "node" },
   { id: "sitemap-bcp47", file: "scripts/seo/seo-sitemap-bcp47.test.mjs", node: "node" },
+  // Task #23 — fail-fast orphan / ghost-URL gate. Cross-checks app-canonical
+  // URLs (from `shared/routes.ts` + blog availability) against the live
+  // `/sitemap.xml` tree AND a BFS reachability map (≤3 clicks from `/{lang}`),
+  // and live-probes every sitemap entry for 4xx / 3xx / `noindex`. The CI
+  // wrapper boots a background dev server on :5000 if one isn't already there;
+  // when the port is unreachable in CI it skips with a clear log line so this
+  // step never produces false negatives in sandboxed runners. The audit
+  // script itself was not moved into `scripts/seo/` by Task #5 cleanup, so
+  // both files live at `scripts/seo-orphan-audit*.mjs` (top-level).
+  { id: "orphan-audit", file: "scripts/seo-orphan-audit-ci.mjs", node: "node" },
   // Masterpiece audit reports a baseline score; we run it here so the
   // orchestrator surfaces any regression in scope (year-in-prose,
   // sources-block, calc-cta marker presence, etc.). Non-strict by default

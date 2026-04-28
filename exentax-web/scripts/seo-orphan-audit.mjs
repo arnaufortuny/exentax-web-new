@@ -24,10 +24,18 @@
  *   - noindex via `<meta name="robots">` or `X-Robots-Tag`
  *
  * Output: <repo-root>/reports/seo/orphan-urls-2026-04.md
- * Exit code: 0 always (audit, not gate).
+ * Exit code: 0 by default (audit). With `--strict` (or env ORPHAN_AUDIT_STRICT=1)
+ * the script exits 1 if any of the following counts is > 0:
+ *   - orphans-toward (in app & reachable but not in sitemap)
+ *   - orphans-on-site (in sitemap but unreachable ≤ MAX_DEPTH clicks)
+ *   - ghost URLs (sitemap entries returning 4xx / 3xx / noindex / network err)
+ * Hreflang reciprocity is intentionally NOT part of the strict gate because
+ * it is already covered by the dedicated `seo-sitemap-bcp47.test.mjs` step
+ * earlier in `blog-validate-all.mjs`.
  *
  * Usage:
  *   BASE_URL=http://localhost:5000 node exentax-web/scripts/seo-orphan-audit.mjs
+ *   BASE_URL=http://localhost:5000 node exentax-web/scripts/seo-orphan-audit.mjs --strict
  * ----------------------------------------------------------------------------
  */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -725,6 +733,16 @@ async function main() {
   writeFileSync(REPORT_PATH, lines.join("\n"));
   console.log(`[seo-orphan-audit] wrote ${relative(REPO_ROOT, REPORT_PATH)}`);
   console.log(`[seo-orphan-audit] summary: orphans-toward=${totalOrphansToward} orphans-on-site=${totalOrphansOnSite} ghost=${totalGhost}`);
+
+  const strict = process.argv.includes("--strict") || process.env.ORPHAN_AUDIT_STRICT === "1";
+  if (strict) {
+    const failures = totalOrphansToward + totalOrphansOnSite + totalGhost;
+    if (failures > 0) {
+      console.error(`[seo-orphan-audit] STRICT FAIL: ${totalOrphansToward} orphans-toward, ${totalOrphansOnSite} orphans-on-site, ${totalGhost} ghost URL(s). See ${relative(REPO_ROOT, REPORT_PATH)}`);
+      process.exit(1);
+    }
+    console.log(`[seo-orphan-audit] STRICT OK (0 orphans, 0 ghost URLs)`);
+  }
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
