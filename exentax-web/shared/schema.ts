@@ -358,3 +358,39 @@ export const agendaAdminActions = pgTable("agenda_admin_actions", {
 export const insertAgendaAdminActionSchema = createInsertSchema(agendaAdminActions).omit({ createdAt: true });
 export type InsertAgendaAdminAction = z.infer<typeof insertAgendaAdminActionSchema>;
 export type AgendaAdminAction = typeof agendaAdminActions.$inferSelect;
+
+/**
+ * Captura "draft" del flujo de reserva: se crea cuando el visitante introduce
+ * su email en el formulario de booking pero todavía no ha completado la
+ * reserva. Un cron periódico (`server/scheduled/incomplete-bookings.ts`)
+ * recoge los drafts con cierta antigüedad sin completar y dispara el email
+ * "Reserva incompleta" a esa dirección.
+ *
+ * - `completedAt` se sella cuando se confirma una reserva (POST
+ *   /api/bookings/book) con el mismo email — sirve de freno para no enviar
+ *   el recordatorio si el usuario sí terminó.
+ * - `reminderSentAt` se sella cuando el cron envía con éxito el correo —
+ *   garantiza unicidad y evita reenvíos.
+ * - Sin PII más allá del email + idioma; phone/name no se capturan en este
+ *   paso porque pueden no estar disponibles en el momento del blur.
+ */
+export const bookingDrafts = pgTable("booking_drafts", {
+  id: varchar("id", { length: 64 }).primaryKey(),
+  email: text("email").notNull(),
+  name: text("nombre"),
+  language: text("idioma"),
+  ip: text("ip"),
+  userAgent: text("user_agent"),
+  reminderSentAt: text("reminder_sent_at"),
+  completedAt: text("completed_at"),
+  createdAt: timestamp("fecha_creacion").defaultNow(),
+}, (table) => [
+  index("booking_drafts_email_idx").on(table.email),
+  index("booking_drafts_created_at_idx").on(table.createdAt),
+  index("booking_drafts_reminder_sent_at_idx").on(table.reminderSentAt),
+  index("booking_drafts_completed_at_idx").on(table.completedAt),
+]);
+
+export const insertBookingDraftSchema = createInsertSchema(bookingDrafts).omit({ createdAt: true });
+export type InsertBookingDraft = z.infer<typeof insertBookingDraftSchema>;
+export type BookingDraft = typeof bookingDrafts.$inferSelect;

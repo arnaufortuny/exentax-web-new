@@ -233,6 +233,34 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
   };
 
   const [phoneError, setPhoneError] = useState(false);
+  const [draftFiredFor, setDraftFiredFor] = useState<string | null>(null);
+
+  /**
+   * Captura "draft" del booking: en cuanto el usuario rellena un email
+   * válido (y opcionalmente nombre), avisamos al backend para que pueda
+   * recordárselo por correo si no completa la reserva. Best-effort y
+   * silencioso: no bloquea el flujo si la red falla.
+   *
+   * Solo se dispara una vez por email para evitar spam de requests.
+   */
+  const fireBookingDraft = (email: string, name?: string) => {
+    const cleanEmail = email.trim().toLowerCase();
+    if (!cleanEmail || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleanEmail)) return;
+    const cleanName = (name || "").trim();
+    const key = `${cleanEmail}|${cleanName}`;
+    if (draftFiredFor === key) return;
+    setDraftFiredFor(key);
+    fetch("/api/bookings/draft", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+      body: JSON.stringify({
+        email: cleanEmail,
+        name: cleanName || null,
+        language: i18n.language,
+      }),
+    }).catch(() => {/* silencioso */});
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -613,6 +641,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  onBlur={(e) => fireBookingDraft(formData.email, e.target.value)}
                   className="w-full rounded-full py-2.5 px-5 text-sm text-[var(--text-1)] placeholder:text-[var(--text-3)] bg-[var(--bg-1)] border border-[var(--border)] focus:outline-none focus:border-[var(--green)] transition-colors"
                   placeholder={t("booking.firstNamePlaceholder")}
                   data-testid="input-name"
@@ -638,6 +667,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 required
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                onBlur={(e) => fireBookingDraft(e.target.value, formData.name)}
                 className="w-full rounded-full py-2.5 px-5 text-sm text-[var(--text-1)] placeholder:text-[var(--text-3)] bg-[var(--bg-1)] border border-[var(--border)] focus:outline-none focus:border-[var(--green)] transition-colors"
                 placeholder={t("booking.emailPlaceholder")}
                 data-testid="input-email"

@@ -780,6 +780,66 @@ export async function sendNewsletterWelcomeEmail(data: NewsletterWelcomeEmailDat
   }
 }
 
+/**
+ * Recordatorio "Reserva incompleta": se envía a quien empezó el flujo de
+ * booking (introdujo email + opcionalmente nombre) pero no llegó a
+ * confirmar la cita. Disparado por el cron `incomplete-bookings.ts` a partir
+ * de los drafts almacenados en la tabla `booking_drafts`.
+ *
+ * Tono: amistoso, sin urgencia, firmado por Arnau personalmente.
+ * CTA: vuelve a la página localizada de reserva.
+ */
+export interface IncompleteBookingEmailData {
+  clientEmail: string;
+  clientName?: string | null;
+  language: string | null;
+}
+export async function sendIncompleteBookingEmail(data: IncompleteBookingEmailData) {
+  const lang = resolveEmailLang(data.language);
+  const t = getEmailTranslations(lang);
+  const ib = t.incompleteBooking;
+  const gmail = getGmailClient();
+
+  const rawFirstName = (data.clientName || "").trim().split(/\s+/)[0] || "";
+  const firstName = rawFirstName ? escapeHtml(rawFirstName) : "";
+
+  const subject = ib.subject;
+
+  const clientBody = `
+    ${heading(ib.heading(firstName || null))}
+
+    ${bodyText(ib.intro1)}
+
+    ${bodyText(ib.intro2)}
+
+    ${bodyText(ib.intro3)}
+
+    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ib.ctaLabel)}
+
+    ${bodyText(ib.replyNote)}
+
+    ${brandSignature(lang, ib.closing)}
+    ${unsubNote(ib.unsubNote)}
+  `;
+  const html = emailHtml(clientBody, subject, lang);
+
+  if (gmail) {
+    try {
+      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      logger.info(`Incomplete-booking sent → ${maskEmail(data.clientEmail)}`, "email");
+      logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: "enviado", clientName: data.clientName || undefined, clientLanguage: lang });
+    } catch (err) {
+      logger.error("Incomplete-booking send failed:", "email", err);
+      logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName || undefined });
+      throw err;
+    }
+  } else {
+    logger.debug("INCOMPLETE BOOKING (no Gmail): " + JSON.stringify({ email: data.clientEmail, lang }), "email");
+    logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: "fallido", error: "Gmail not configured", clientLanguage: lang });
+    throw new Error("Gmail not configured");
+  }
+}
+
 export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);

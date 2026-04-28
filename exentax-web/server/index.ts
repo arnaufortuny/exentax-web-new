@@ -776,6 +776,16 @@ httpServer.listen(
       logger.warn(`Newsletter broadcast worker failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "newsletter");
     }
 
+    // Recordatorio "Reserva incompleta": cada 5 min recoge drafts del flujo
+    // de booking que no se llegaron a confirmar y manda el email de rescate.
+    try {
+      const { startIncompleteBookingsScheduler } = await import("./scheduled/incomplete-bookings");
+      activeIntervals.push(startIncompleteBookingsScheduler());
+      logger.info("Incomplete-booking reminder scheduler started (sweep every 5 min)", "incomplete-booking");
+    } catch (err) {
+      logger.warn(`Incomplete-booking scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "incomplete-booking");
+    }
+
   } catch (err) {
     logger.error(`Fatal startup error: ${(err as Error).message}`, "express");
     process.exit(1);

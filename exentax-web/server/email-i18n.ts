@@ -114,6 +114,17 @@ interface EmailTranslations {
     closing: string;
     unsubNote: string;
   };
+  incompleteBooking: {
+    subject: string;
+    heading: (firstName?: string | null) => string;
+    intro1: string;
+    intro2: string;
+    intro3: string;
+    ctaLabel: string;
+    replyNote: string;
+    closing: string;
+    unsubNote: string;
+  };
   newsletterWelcome: {
     subject: string;
     heading: string;
@@ -269,6 +280,17 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaLabel: "Reservar otra sesión",
       closing: "Quedamos atentos.",
       unsubNote: "Has recibido este email porque contactaste con exentax.com.",
+    },
+    incompleteBooking: {
+      subject: "¿Todo bien? Tu asesoría se quedó a medias.",
+      heading: (firstName) => firstName ? `Hola ${firstName},` : "Hola,",
+      intro1: "Hace un momento empezaste a reservar tu asesoría gratuita con Exentax y no llegaste a completarla.",
+      intro2: "Sin problema. Puede pasar.",
+      intro3: "Puedes completar tu reserva cuando quieras.",
+      ctaLabel: "Completar mi reserva →",
+      replyNote: "Si prefieres escribirme directamente, responde a este email. Estoy aquí.",
+      closing: "Arnau",
+      unsubNote: "Has recibido este email porque empezaste una reserva en exentax.com.",
     },
     newsletterWelcome: {
       subject: "Bienvenido a Exentax — empezamos contigo",
@@ -430,6 +452,17 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "We'll be here.",
       unsubNote: "You received this email because you contacted exentax.com.",
     },
+    incompleteBooking: {
+      subject: "Everything okay? Your advisory session was left incomplete.",
+      heading: (firstName) => firstName ? `Hi ${firstName},` : "Hi,",
+      intro1: "A moment ago you started booking your free advisory session with Exentax but didn't quite finish it.",
+      intro2: "No worries at all. It happens.",
+      intro3: "You can complete your booking whenever you're ready.",
+      ctaLabel: "Complete my booking →",
+      replyNote: "If you'd rather just write to me directly, reply to this email. I'm here.",
+      closing: "Arnau",
+      unsubNote: "You received this email because you started a booking on exentax.com.",
+    },
     newsletterWelcome: {
       subject: "Welcome to Exentax — let's get started",
       heading: "Hi,",
@@ -589,6 +622,17 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaLabel: "Réserver une autre session",
       closing: "Nous restons à votre disposition.",
       unsubNote: "Vous avez reçu cet email car vous avez contacté exentax.com.",
+    },
+    incompleteBooking: {
+      subject: "Tout va bien ? Ta séance de conseil est restée incomplète.",
+      heading: (firstName) => firstName ? `Bonjour ${firstName},` : "Bonjour,",
+      intro1: "Il y a quelques instants tu as commencé à réserver ta séance de conseil gratuite avec Exentax sans aller jusqu'au bout.",
+      intro2: "Pas de problème. Ça arrive.",
+      intro3: "Tu peux finaliser ta réservation quand tu veux.",
+      ctaLabel: "Finaliser ma réservation →",
+      replyNote: "Si tu préfères m'écrire directement, réponds à cet email. Je suis là.",
+      closing: "Arnau",
+      unsubNote: "Tu as reçu cet email parce que tu as commencé une réservation sur exentax.com.",
     },
     newsletterWelcome: {
       subject: "Bienvenue chez Exentax — on démarre avec vous",
@@ -750,6 +794,17 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Wir sind für Sie da.",
       unsubNote: "Sie haben diese E-Mail erhalten, weil Sie exentax.com kontaktiert haben.",
     },
+    incompleteBooking: {
+      subject: "Alles in Ordnung? Deine Beratung wurde nicht abgeschlossen.",
+      heading: (firstName) => firstName ? `Hallo ${firstName},` : "Hallo,",
+      intro1: "Vor kurzem hast du angefangen, deine kostenlose Beratung bei Exentax zu buchen, aber nicht zu Ende gebracht.",
+      intro2: "Kein Problem. Das kann passieren.",
+      intro3: "Du kannst deine Buchung jederzeit abschließen.",
+      ctaLabel: "Meine Buchung abschließen →",
+      replyNote: "Wenn du mir lieber direkt schreiben möchtest, antworte auf diese E-Mail. Ich bin da.",
+      closing: "Arnau",
+      unsubNote: "Du hast diese E-Mail erhalten, weil du auf exentax.com mit einer Buchung begonnen hast.",
+    },
     newsletterWelcome: {
       subject: "Willkommen bei Exentax — wir starten mit Ihnen",
       heading: "Hallo,",
@@ -910,6 +965,17 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Ficamos atentos.",
       unsubNote: "Recebeu este email porque contactou exentax.com.",
     },
+    incompleteBooking: {
+      subject: "Está tudo bem? A tua assessoria ficou incompleta.",
+      heading: (firstName) => firstName ? `Olá ${firstName},` : "Olá,",
+      intro1: "Há pouco começaste a reservar a tua assessoria gratuita com o Exentax mas não chegaste a terminar.",
+      intro2: "Sem problema. Acontece.",
+      intro3: "Podes completar a tua reserva quando quiseres.",
+      ctaLabel: "Completar a minha reserva →",
+      replyNote: "Se preferires escrever-me diretamente, responde a este email. Estou aqui.",
+      closing: "Arnau",
+      unsubNote: "Recebeste este email porque começaste uma reserva em exentax.com.",
+    },
     newsletterWelcome: {
       subject: "Bem-vindo à Exentax — começamos consigo",
       heading: "Olá,",
@@ -1069,6 +1135,17 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaLabel: "Reservar una nova sessió",
       closing: "Quedem atents.",
       unsubNote: "Has rebut aquest email perquè has contactat amb exentax.com.",
+    },
+    incompleteBooking: {
+      subject: "Tot bé? La teva assessoria es va quedar a mitges.",
+      heading: (firstName) => firstName ? `Hola ${firstName},` : "Hola,",
+      intro1: "Fa uns moments has començat a reservar la teva assessoria gratuïta amb Exentax i no has acabat de completar-la.",
+      intro2: "Cap problema. Passa.",
+      intro3: "Pots completar la teva reserva quan vulguis.",
+      ctaLabel: "Completar la meva reserva →",
+      replyNote: "Si prefereixes escriure'm directament, respon a aquest email. Sóc aquí.",
+      closing: "Arnau",
+      unsubNote: "Has rebut aquest email perquè has començat una reserva a exentax.com.",
     },
     newsletterWelcome: {
       subject: "Benvingut a Exentax — comencem amb tu",

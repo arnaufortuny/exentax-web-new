@@ -239,3 +239,156 @@ export async function logAdminAction(entry: {
     throw wrapStorageError("logAdminAction", err);
   }
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Booking drafts (incomplete-booking reminder email)
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Crea un draft de reserva la primera vez que el visitante introduce su
+ * email en el formulario de booking. Idempotente: si ya existe un draft
+ * abierto reciente (creado en las últimas 24h, sin completar ni recordar)
+ * para el mismo email, no inserta otro — solo refresca idioma/IP/UA.
+ */
+export async function upsertBookingDraft(input: {
+  email: string;
+  name?: string | null;
+  language?: string | null;
+  ip?: string | null;
+  userAgent?: string | null;
+}): Promise<s.BookingDraft | null> {
+  try {
+    const email = normalizeEmail(input.email);
+    const cleanName = (input.name ?? "").trim() || null;
+    const language = input.language ?? null;
+    const ip = input.ip ?? null;
+    const userAgent = input.userAgent ?? null;
+
+    // Look for an open draft created within the last 24h.
+    const cutoffMs = Date.now() - 24 * 60 * 60_000;
+    const cutoffIso = new Date(cutoffMs).toISOString();
+    const open = await db.select().from(s.bookingDrafts).where(
+      and(
+        eq(s.bookingDrafts.email, email),
+        sql`${s.bookingDrafts.completedAt} IS NULL`,
+        sql`${s.bookingDrafts.reminderSentAt} IS NULL`,
+        sql`${s.bookingDrafts.createdAt} >= ${cutoffIso}`,
+      ),
+    ).limit(1);
+
+    if (open[0]) {
+      const [updated] = await db.update(s.bookingDrafts)
+        .set({
+          name: cleanName ?? open[0].name,
+          language: language ?? open[0].language,
+          ip: ip ?? open[0].ip,
+          userAgent: userAgent ?? open[0].userAgent,
+        })
+        .where(eq(s.bookingDrafts.id, open[0].id))
+        .returning();
+      return updated ?? open[0];
+    }
+
+    const [row] = await db.insert(s.bookingDrafts).values({
+      id: crypto.randomUUID(),
+      email,
+      name: cleanName,
+      language,
+      ip,
+      userAgent,
+    }).returning();
+    return row ?? null;
+  } catch (err) { throw wrapStorageError("upsertBookingDraft", err); }
+}
+
+/**
+ * Sella `completedAt` en todos los drafts abiertos (sin completar y sin
+ * recordatorio enviado) que coincidan con el email indicado. Se llama
+ * justo después de confirmar una reserva (POST /api/bookings/book).
+ */
+export async function markBookingDraftCompleted(email: string): Promise<number> {
+  try {
+    const normalized = normalizeEmail(email);
+    const nowIso = new Date().toISOString();
+    const rows = await db.update(s.bookingDrafts)
+      .set({ completedAt: nowIso })
+      .where(and(
+        eq(s.bookingDrafts.email, normalized),
+        sql`${s.bookingDrafts.completedAt} IS NULL`,
+      ))
+      .returning({ id: s.bookingDrafts.id });
+    return rows.length;
+  } catch (err) { throw wrapStorageError("markBookingDraftCompleted", err); }
+}
+
+/**
+ * Devuelve drafts elegibles para enviar el recordatorio "Reserva incompleta":
+ *   - Creados hace ≥ `minAgeMs` (por defecto 30 minutos)
+ *   - Creados hace ≤ `maxAgeMs` (por defecto 24h — más viejos se descartan)
+ *   - Sin `reminderSentAt`
+ *   - Sin `completedAt`
+ *   - Email no coincide con ninguna agenda activa (defensa en profundidad por
+ *     si `markBookingDraftCompleted` no se llamó por alguna razón).
+ */
+export async function getBookingDraftsForReminder(opts?: {
+  minAgeMs?: number;
+  maxAgeMs?: number;
+  limit?: number;
+}): Promise<s.BookingDraft[]> {
+  try {
+    const minAgeMs = opts?.minAgeMs ?? 30 * 60_000;
+    const maxAgeMs = opts?.maxAgeMs ?? 24 * 60 * 60_000;
+    const limit = Math.min(Math.max(opts?.limit ?? 50, 1), 500);
+    const now = Date.now();
+    const minIso = new Date(now - minAgeMs).toISOString();
+    const maxIso = new Date(now - maxAgeMs).toISOString();
+    const rows = await db.select().from(s.bookingDrafts).where(and(
+      sql`${s.bookingDrafts.reminderSentAt} IS NULL`,
+      sql`${s.bookingDrafts.completedAt} IS NULL`,
+      sql`${s.bookingDrafts.createdAt} <= ${minIso}`,
+      sql`${s.bookingDrafts.createdAt} >= ${maxIso}`,
+      sql`NOT EXISTS (
+        SELECT 1 FROM ${s.agenda} a
+        WHERE a.email = ${s.bookingDrafts.email}
+          AND (a.estado IS NULL OR a.estado NOT IN ('cancelled','no_show'))
+      )`,
+    ))
+    .orderBy(asc(s.bookingDrafts.createdAt))
+    .limit(limit);
+    return rows;
+  } catch (err) { throw wrapStorageError("getBookingDraftsForReminder", err); }
+}
+
+/**
+ * Reclamo atómico: sella `reminderSentAt` solo si todavía estaba a NULL.
+ * Devuelve la fila si el caller "ganó" la carrera, null en caso contrario.
+ * Úsalo ANTES de enviar el email para que sweeps solapados no provoquen
+ * recordatorios duplicados.
+ */
+export async function claimBookingDraftReminder(id: string): Promise<s.BookingDraft | null> {
+  try {
+    const nowIso = new Date().toISOString();
+    const [row] = await db.update(s.bookingDrafts)
+      .set({ reminderSentAt: nowIso })
+      .where(and(
+        eq(s.bookingDrafts.id, id),
+        sql`${s.bookingDrafts.reminderSentAt} IS NULL`,
+        sql`${s.bookingDrafts.completedAt} IS NULL`,
+      ))
+      .returning();
+    return row ?? null;
+  } catch (err) { throw wrapStorageError("claimBookingDraftReminder", err); }
+}
+
+/**
+ * Revierte el reclamo cuando el envío del email ha fallado, para que el
+ * próximo barrido pueda intentarlo de nuevo. Seguro de llamar aunque la
+ * fila ya no exista.
+ */
+export async function unclaimBookingDraftReminder(id: string): Promise<void> {
+  try {
+    await db.update(s.bookingDrafts)
+      .set({ reminderSentAt: null })
+      .where(eq(s.bookingDrafts.id, id));
+  } catch (err) { throw wrapStorageError("unclaimBookingDraftReminder", err); }
+}

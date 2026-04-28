@@ -13,10 +13,11 @@ import {
   getAgendaByIdAndToken, updateAgenda,
   findNewsletterByUnsubToken, updateNewsletterSubscriber,
   insertConsentLog,
+  upsertBookingDraft, markBookingDraftCompleted,
   SlotConflictError,
 } from "../storage";
 import { encryptField } from "../field-encryption";
-import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, sendNewsletterWelcomeEmail, renderCalculatorEmailHtml } from "../email";
+import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, sendNewsletterWelcomeEmail, renderCalculatorEmailHtml, maskEmail } from "../email";
 import { enqueueEmail, triggerEmailDrain } from "../email-retry-queue";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL, HREFLANG_BCP47 } from "../server-constants";
 import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
@@ -426,6 +427,46 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     language: z.string().max(10).optional().nullable(),
   }).strict();
 
+  /**
+   * Captura "draft" cuando el visitante introduce su email en el formulario
+   * de booking pero todavía no ha confirmado la cita. Si en N minutos no
+   * llega la confirmación (POST /api/bookings/book), un cron envía el email
+   * "Reserva incompleta" como rescate.
+   *
+   * Idempotente y barato: si ya hay un draft abierto reciente para el mismo
+   * email, solo refresca nombre/idioma/IP. Tasa limitada con el bucket
+   * público estándar.
+   */
+  const bookingDraftSchema = z.object({
+    email: z.string().email("zodInvalidEmail").max(254, "zodEmailTooLong").transform(e => e.trim().toLowerCase()),
+    name: z.string().max(100, "zodNameTooLong").transform(sanitizeInput).optional().nullable(),
+    language: z.string().max(10).optional().nullable(),
+  }).strict();
+
+  app.post("/api/bookings/draft", asyncHandler(async (req, res) => {
+    const ip = getClientIp(req);
+    if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
+    const parsed = bookingDraftSchema.safeParse(req.body);
+    if (!parsed.success) return apiValidationFail(res, parsed.error);
+    const { email, name, language } = parsed.data;
+    const userAgent = (req.headers["user-agent"] as string | undefined) || null;
+
+    // No-op si el email ya tiene una agenda activa: el usuario ya reservó
+    // (o reservó previamente) y no debemos volver a "engancharlo".
+    if (await hasExistingBooking(email)) {
+      return apiOk(res, { tracked: false, reason: "already_booked" });
+    }
+
+    try {
+      await upsertBookingDraft({ email, name: name || null, language: language || null, ip, userAgent });
+      return apiOk(res, { tracked: true });
+    } catch (err) {
+      logger.warn(`Booking draft upsert failed: ${err instanceof Error ? err.message : String(err)}`, "booking-draft");
+      // Falla silenciosamente para no entorpecer el flujo del usuario.
+      return apiOk(res, { tracked: false });
+    }
+  }));
+
   app.post("/api/bookings/book", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
     if (!(await checkBookingRateLimit(ip))) {
@@ -586,6 +627,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         // Best-effort: kick the worker so the email goes out on the next
         // tick instead of waiting for the regular polling interval.
         triggerEmailDrain();
+
+        // Cierra cualquier draft abierto para este email — evita que el cron
+        // de "reserva incompleta" envíe el recordatorio cuando el usuario sí
+        // ha terminado. Best-effort: errores no bloquean la respuesta OK.
+        markBookingDraftCompleted(email).catch((err) => {
+          logger.warn(`markBookingDraftCompleted failed for ${maskEmail(email)}: ${err instanceof Error ? err.message : String(err)}`, "booking-draft");
+        });
 
         scheduleReminderEmail({
           clientName: name,
