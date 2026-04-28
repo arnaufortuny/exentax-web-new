@@ -35,7 +35,16 @@ export default function HomeFinalCTA() {
       data-testid="section-home-final-cta"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="reveal glass-accent p-8 sm:p-12 lg:p-16 text-center relative">
+        <div
+          className="reveal p-8 sm:p-12 lg:p-16 text-center relative overflow-hidden rounded-3xl backdrop-blur-2xl backdrop-saturate-150"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(247,244,238,0.78) 100%)",
+            border: "1.5px solid rgba(11,13,12,0.08)",
+            boxShadow:
+              "0 22px 56px -24px rgba(11,13,12,0.18), 0 8px 22px -10px rgba(11,13,12,0.08), inset 0 1.5px 0 rgba(255,255,255,0.85)",
+          }}
+        >
           <div className="relative z-10 max-w-3xl mx-auto">
             <span className="section-chip mb-5 inline-block">
               {t("homeFinalCta.kicker", { defaultValue: "ÚLTIMO PASO" })}
@@ -74,7 +83,7 @@ export default function HomeFinalCTA() {
             </div>
 
             <div className="grid grid-cols-3 gap-3 sm:gap-5 max-w-2xl mx-auto pt-2">
-              <div className="text-center rounded-2xl bg-[var(--bg-1)] border border-[rgba(0,0,0,0.05)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_1px_2px_rgba(0,0,0,0.03)]">
+              <div className="text-center rounded-2xl bg-white/70 backdrop-blur-md backdrop-saturate-150 border border-[rgba(11,13,12,0.06)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_2px_8px_-2px_rgba(11,13,12,0.06)]">
                 <div className="font-heading font-bold text-2xl sm:text-3xl text-[var(--text-1)]">
                   100%
                 </div>
@@ -82,7 +91,7 @@ export default function HomeFinalCTA() {
                   {t("homeFinalCta.stat1", { defaultValue: "Remoto" })}
                 </div>
               </div>
-              <div className="text-center rounded-2xl bg-[var(--bg-1)] border border-[rgba(0,0,0,0.05)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_1px_2px_rgba(0,0,0,0.03)]">
+              <div className="text-center rounded-2xl bg-white/70 backdrop-blur-md backdrop-saturate-150 border border-[rgba(11,13,12,0.06)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_2px_8px_-2px_rgba(11,13,12,0.06)]">
                 <div className="font-heading font-bold text-2xl sm:text-3xl text-[var(--text-1)]">
                   7
                 </div>
@@ -90,7 +99,7 @@ export default function HomeFinalCTA() {
                   {t("homeFinalCta.stat2", { defaultValue: "Países cubiertos" })}
                 </div>
               </div>
-              <div className="text-center rounded-2xl bg-[var(--bg-1)] border border-[rgba(0,0,0,0.05)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_1px_2px_rgba(0,0,0,0.03)]">
+              <div className="text-center rounded-2xl bg-white/70 backdrop-blur-md backdrop-saturate-150 border border-[rgba(11,13,12,0.06)] py-5 px-3 sm:py-7 sm:px-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_2px_8px_-2px_rgba(11,13,12,0.06)]">
                 <div className="font-heading font-bold text-2xl sm:text-3xl text-[var(--text-1)]">
                   {t("homeFinalCta.stat3Value", { defaultValue: "24h" })}
                 </div>
