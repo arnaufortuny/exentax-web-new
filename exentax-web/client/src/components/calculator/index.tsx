@@ -315,12 +315,10 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
 
   const pad = compact ? "p-4 sm:p-5" : "p-7 sm:p-9 md:p-10 lg:p-12";
 
-  const SectionLabel = ({ step, children }: { step: string; children: React.ReactNode }) => (
-    <div className={`flex items-baseline ${compact ? "gap-2 mb-2" : "gap-2.5 mb-3"}`}>
-      <span className={`font-bold tabular-nums text-[var(--green)] tracking-[0.1em] ${compact ? "text-[9px]" : "text-[10px]"}`}>
-        {step}
-      </span>
-      <span className={`uppercase font-bold text-[var(--text-1)] whitespace-nowrap ${compact ? "text-[10px] tracking-[0.14em]" : "text-[11px] tracking-[0.16em]"}`}>
+  const SectionLabel = ({ children }: { step?: string; children: React.ReactNode }) => (
+    <div className={`flex items-center ${compact ? "gap-2.5 mb-2" : "gap-3 mb-3"}`}>
+      <span className={`block bg-[var(--green)] rounded-full flex-shrink-0 ${compact ? "w-1 h-3" : "w-1 h-4"}`} />
+      <span className={`font-heading font-semibold text-[var(--text-1)] whitespace-nowrap ${compact ? "text-[12px]" : "text-[13px] lg:text-[14px]"}`}>
         {children}
       </span>
       <span className="flex-1 h-px self-center bg-gradient-to-r from-[rgba(0,229,16,0.4)] via-[rgba(0,229,16,0.12)] to-transparent" />
@@ -396,8 +394,17 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                       data-testid={`button-currency-${c.code}`}
                       aria-pressed={displayCurrency === c.code}
                     >
-                      <span className={`font-bold ${compact ? "text-[14px]" : "text-[16px]"} ${displayCurrency === c.code ? "text-[var(--green)]" : "opacity-70"}`}>{c.symbol}</span>
-                      <span className="tabular-nums tracking-wider">{c.code}</span>
+                      <img
+                        src={c.flag}
+                        alt=""
+                        width={20}
+                        height={20}
+                        className={`rounded-full flex-shrink-0 ring-1 ring-black/5 object-cover ${compact ? "w-4 h-4" : "w-5 h-5"}`}
+                        loading="lazy"
+                        decoding="async"
+                        aria-hidden="true"
+                      />
+                      <span>{c.code}</span>
                     </button>
                   ))}
                 </div>

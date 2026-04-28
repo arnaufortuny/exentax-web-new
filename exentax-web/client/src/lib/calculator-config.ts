@@ -436,10 +436,10 @@ export const ACTIVITY_EXPENSE_RATE_DEFAULT = 0.20;
 // requires re-running `npm run test:calculator`.
 import { FX_RATES_PER_EUR } from "@shared/calculator-fx";
 
-export const DISPLAY_CURRENCIES: Record<string, { symbol: string; code: string; name: string; rate: number }> = {
-  EUR: { symbol: "€", code: "EUR", name: "Euro",          rate: FX_RATES_PER_EUR.EUR },
-  USD: { symbol: "$", code: "USD", name: "US Dollar",     rate: FX_RATES_PER_EUR.USD },
-  GBP: { symbol: "£", code: "GBP", name: "British Pound", rate: FX_RATES_PER_EUR.GBP },
+export const DISPLAY_CURRENCIES: Record<string, { symbol: string; code: string; name: string; rate: number; flag: string }> = {
+  EUR: { symbol: "€", code: "EUR", name: "Euro",          rate: FX_RATES_PER_EUR.EUR, flag: "/img/flags/eu.png" },
+  USD: { symbol: "$", code: "USD", name: "US Dollar",     rate: FX_RATES_PER_EUR.USD, flag: "/img/flags/us.png" },
+  GBP: { symbol: "£", code: "GBP", name: "British Pound", rate: FX_RATES_PER_EUR.GBP, flag: "/img/flags/reino-unido.png" },
 };
 
 // Convenience accessors so tax helpers don't read the rate map twice.
