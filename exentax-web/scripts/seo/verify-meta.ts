@@ -64,23 +64,73 @@ type PageOG = { ns: string; line: number; ogTitle: string; ogDesc: string };
 type BlogItem = { slug: string; metaTitle: string; metaDescription: string };
 type BlogOG = { slug: string; ogTitle: string; ogDescription: string };
 
-// ===== Task 17: OG/Twitter anglicism gate (FR/DE/PT/CA) =====
+// ===== Task 17 + Task 21: OG/Twitter anglicism gate (FR/DE/PT/CA) =====
 // Twitter Cards default to summary_large_image and fall back to OG when no
 // dedicated twitter:* tags are set, so checking OG copy covers both surfaces.
-// The denylist intentionally targets the high-signal English borrowings
-// flagged in the social-preview audit ("founders", "low-cost") that erode
-// the premium native-language brand voice when content is shared.
+// The denylist targets English borrowings that erode the premium
+// native-language brand voice when content is shared. Task 17 covered the
+// two terms surfaced by the original audit ("founders", "low-cost"). Task
+// 21 broadens the scan to the next wave of leaks ("stack", "freemium",
+// "early-bird", "mindset", "scale-up", "growth hack"), keeps the original
+// token list intact, and adds an allowlist for legitimate technical
+// acronyms (FATCA, EIN, BOI, ...) and product/brand names (Mercury, Wise,
+// Brand Registry, ...) so the broader patterns cannot create false
+// positives. The report JSON now exports per-term hit counts so
+// regressions are easy to triage at PR time.
 const ANGLICISM_LANGS: Lang[] = ["fr", "de", "pt", "ca"];
-const ANGLICISM_PATTERNS: { token: string; re: RegExp }[] = [
+
+type AnglicismRule = { token: string; re: RegExp; langs?: Lang[] };
+const ANGLICISM_PATTERNS: AnglicismRule[] = [
+  // Task 17 — original social-preview audit findings.
   { token: "founders", re: /\bfounders\b/i },
   { token: "founder", re: /\bfounder\b/i },
-  { token: "low-cost", re: /\blow[-\s]?cost\b/i },
+  { token: "low-cost", re: /\blow[-\s]cost\b/i },
   { token: "lowcost", re: /\blowcost\b/i },
+  // Task 21 — newer borrowings observed leaking into FR/DE/PT/CA OG copy.
+  // Each has natural native equivalents (configuration / arquitetura,
+  // gratuit à durée limitée, mentalité, ...). Apply across all four
+  // ANGLICISM_LANGS by default; per-language scoping is supported via
+  // `langs` if a future term is only problematic in some locales.
+  { token: "stack", re: /\bstack\b/i },
+  { token: "freemium", re: /\bfreemium\b/i },
+  { token: "early-bird", re: /\bearly[-\s]bird\b/i },
+  { token: "mindset", re: /\bmindsets?\b/i },
+  { token: "scale-up", re: /\bscale[-\s]?ups?\b/i },
+  { token: "growth-hack", re: /\bgrowth[-\s]?hack(s|ing|er|ers)?\b/i },
 ];
-function findAnglicisms(text: string): string[] {
+
+// Allowlist: tokens that look anglicist but are legitimate technical
+// acronyms, regulatory references, or product/brand names. These are
+// stripped from the text BEFORE denylist matching so a false positive in
+// "Brand Registry", "tax buffer" or "S-Corp" cannot trigger a hit when
+// future patterns are added (e.g. a "brand" or "buffer" rule).
+const ANGLICISM_ALLOWLIST: RegExp[] = [
+  // Technical acronyms / regulatory references frequently used in tax copy.
+  /\bFATCA\b/g, /\bEIN\b/g, /\bITIN\b/g, /\bFBAR\b/g, /\bFinCEN\b/g, /\bIRS\b/g,
+  /\bBOI\b/g, /\bFBA\b/g, /\bFBM\b/g, /\bKYC\b/g, /\bAML\b/g, /\bCRS\b/g,
+  /\bDAC[0-9]+\b/g, /\bIBAN\b/g, /\bACH\b/g, /\bEMI\b/g, /\bFDIC\b/g,
+  /\bCFC\b/g, /\bCPA\b/g, /\bEA\b/g, /\bLLC\b/gi, /\bSaaS\b/g,
+  /\bUS\b/g, /\bUSA\b/g, /\bEU\b/g, /\bUE\b/g, /\bEUA\b/g, /\bUK\b/g,
+  /\bW-?8BEN-?E\b/gi, /\bS-Corp\b/gi, /\bC-Corp\b/gi, /\bREIT\b/g, /\bETF\b/g,
+  // Product / brand names that legitimately appear in OG copy.
+  /\bBrand Registry\b/gi, /\bMercury\b/g, /\bWise\b/g, /\bRevolut\b/g,
+  /\bRelay\b/g, /\bStripe\b/g, /\bPayPal\b/g, /\bWallester\b/g,
+  /\bKraken\b/g, /\bTradovate\b/g, /\bInteractive Brokers\b/g,
+  /\bAmazon\b/g, /\bEtsy\b/g, /\bAirbnb\b/g, /\bVinted\b/g,
+  /\bShopify\b/g, /\bSlash\b/g, /\bChase\b/g, /\bBoA\b/g,
+];
+
+function findAnglicisms(text: string, lang: Lang): string[] {
   if (!text) return [];
+  // Strip allowlisted product/acronym tokens before matching the denylist
+  // so legitimate technical terms cannot create false positives.
+  let scrubbed = text;
+  for (const re of ANGLICISM_ALLOWLIST) scrubbed = scrubbed.replace(re, " ");
   const hits: string[] = [];
-  for (const { token, re } of ANGLICISM_PATTERNS) if (re.test(text)) hits.push(token);
+  for (const rule of ANGLICISM_PATTERNS) {
+    if (rule.langs && !rule.langs.includes(lang)) continue;
+    if (rule.re.test(scrubbed)) hits.push(rule.token);
+  }
   return hits;
 }
 type Violation = {
@@ -405,16 +455,26 @@ for (const lang of LANGS) {
   }
 }
 
-// ===== Task 17: OG/Twitter anglicism scan (FR/DE/PT/CA) =====
+// ===== Task 17 + Task 21: OG/Twitter anglicism scan (FR/DE/PT/CA) =====
 const anglicismCounts: Record<Lang, number> = { es: 0, en: 0, ca: 0, fr: 0, de: 0, pt: 0 };
 const anglicismScanned: Record<Lang, number> = { es: 0, en: 0, ca: 0, fr: 0, de: 0, pt: 0 };
+// Per-term hit counts (task 21): exposed in the JSON report so we can
+// diff which specific borrowing regressed between two runs.
+const anglicismByToken: Record<string, number> = Object.fromEntries(
+  ANGLICISM_PATTERNS.map((r) => [r.token, 0]),
+);
+const bumpToken = (hits: string[]) => {
+  for (const t of hits) anglicismByToken[t] = (anglicismByToken[t] || 0) + 1;
+};
 for (const lang of ANGLICISM_LANGS) {
   const pages = extractPageOG(lang);
   const blog = extractBlogOG(lang);
   anglicismScanned[lang] = pages.length + blog.length;
   for (const p of pages) {
-    const tHits = findAnglicisms(p.ogTitle);
-    const dHits = findAnglicisms(p.ogDesc);
+    const tHits = findAnglicisms(p.ogTitle, lang);
+    const dHits = findAnglicisms(p.ogDesc, lang);
+    bumpToken(tHits);
+    bumpToken(dHits);
     if (tHits.length) {
       violations.push({
         scope: "page", lang, key: `${p.ns}@L${p.line}`, field: "title",
@@ -437,8 +497,10 @@ for (const lang of ANGLICISM_LANGS) {
     }
   }
   for (const b of blog) {
-    const tHits = findAnglicisms(b.ogTitle);
-    const dHits = findAnglicisms(b.ogDescription);
+    const tHits = findAnglicisms(b.ogTitle, lang);
+    const dHits = findAnglicisms(b.ogDescription, lang);
+    bumpToken(tHits);
+    bumpToken(dHits);
     if (tHits.length) {
       violations.push({
         scope: "blog", lang, key: b.slug, field: "title",
@@ -538,9 +600,11 @@ const report = {
   blogContent: blogContentByLang,
   anglicismScan: {
     languages: ANGLICISM_LANGS,
-    patterns: ANGLICISM_PATTERNS.map((p) => p.token),
+    patterns: ANGLICISM_PATTERNS.map((p) => ({ token: p.token, langs: p.langs ?? ANGLICISM_LANGS })),
+    allowlistSize: ANGLICISM_ALLOWLIST.length,
     scannedByLang: anglicismScanned,
     flagsByLang: anglicismCounts,
+    flagsByToken: anglicismByToken,
   },
   violations,
   warnings,
@@ -560,6 +624,11 @@ console.log(`[verify-meta] OG/Twitter anglicism scan (${ANGLICISM_LANGS.join("/"
 for (const lang of ANGLICISM_LANGS) {
   console.log(`  ${lang}: scanned=${anglicismScanned[lang]} entries, anglicism flags=${anglicismCounts[lang]}`);
 }
+const tokenCountSummary = Object.entries(anglicismByToken)
+  .filter(([, n]) => n > 0)
+  .map(([t, n]) => `${t}=${n}`)
+  .join(", ");
+console.log(`[verify-meta] Anglicism flags by term: ${tokenCountSummary || "none"}`);
 console.log(`[verify-meta] Report written to ${OUT}`);
 
 if (totals.errors > 0) {
