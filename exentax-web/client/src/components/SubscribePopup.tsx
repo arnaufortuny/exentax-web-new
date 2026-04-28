@@ -193,9 +193,7 @@ export default function SubscribePopup() {
                     value={email}
                     onChange={(e) => { setEmail(e.target.value); setErrors(prev => ({ ...prev, email: undefined })); }}
                     placeholder={t("popup.emailPlaceholder")}
-                    className={`w-full rounded-full px-4 py-3 text-sm bg-[var(--bg-1)] border border-transparent focus:outline-none transition-colors placeholder:text-[var(--text-3)] text-[var(--text-1)] ${
-                      errors.email ? "border-[var(--error)] focus:border-[var(--error)]" : "focus:border-[var(--green)]"
-                    }`}
+                    className="w-full rounded-full px-4 py-3 text-sm bg-[var(--bg-1)] border-0 focus:outline-none focus:ring-0 transition-colors placeholder:text-[var(--text-3)] text-[var(--text-1)]"
                     data-testid="input-popup-email"
                   />
                   {errors.email && (
