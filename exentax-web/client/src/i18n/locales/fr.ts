@@ -1956,6 +1956,7 @@ errors: {
 },
   calculator: {
     placeholderZero: "0",
+    eyebrow: "Diagnostic fiscal",
     title: "Combien payez-vous trop d'impôts en ce moment ?",
     subtitle: "Configurez votre situation et obtenez une estimation claire en moins de 30 secondes.",
     selectCountry: "Où résidez-vous actuellement ?",

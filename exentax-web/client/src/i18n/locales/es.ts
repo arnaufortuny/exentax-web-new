@@ -2141,6 +2141,7 @@ const es = {
  },
  calculator: {
     placeholderZero: "0",
+    eyebrow: "Diagnóstico fiscal",
  title:"¿Cuánto estás pagando de más en impuestos ahora mismo?",
  subtitle:"Configura tu situación y obtén una estimación clara en menos de 30 segundos.",
  selectCountry:"¿Dónde resides actualmente?",

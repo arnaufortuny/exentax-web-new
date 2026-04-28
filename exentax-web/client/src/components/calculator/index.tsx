@@ -315,6 +315,18 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
 
   const pad = compact ? "p-4 sm:p-5" : "p-7 sm:p-9 md:p-10 lg:p-12";
 
+  const SectionLabel = ({ step, children }: { step: string; children: React.ReactNode }) => (
+    <div className={`flex items-baseline ${compact ? "gap-2 mb-2" : "gap-2.5 mb-3"}`}>
+      <span className={`font-bold tabular-nums text-[var(--green)] tracking-[0.1em] ${compact ? "text-[9px]" : "text-[10px]"}`}>
+        {step}
+      </span>
+      <span className={`uppercase font-bold text-[var(--text-1)] whitespace-nowrap ${compact ? "text-[10px] tracking-[0.14em]" : "text-[11px] tracking-[0.16em]"}`}>
+        {children}
+      </span>
+      <span className="flex-1 h-px self-center bg-gradient-to-r from-[rgba(0,229,16,0.4)] via-[rgba(0,229,16,0.12)] to-transparent" />
+    </div>
+  );
+
   return (
     <div
       className={`neon-card is-green rounded-3xl ${pad}`}
@@ -322,18 +334,25 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       data-testid="calculator"
       style={{ background: 'var(--card-bg)' }}
     >
+      <div className="flex items-center justify-center gap-2 mb-3">
+        <span className="h-px w-8 bg-gradient-to-r from-transparent to-[rgba(0,229,16,0.6)]" />
+        <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--green)]">
+          {t("calculator.eyebrow", { defaultValue: "Diagnóstico fiscal" })}
+        </span>
+        <span className="h-px w-8 bg-gradient-to-l from-transparent to-[rgba(0,229,16,0.6)]" />
+      </div>
       <h3 className={`font-heading font-bold text-[var(--text-1)] text-center leading-[1.05] tracking-[-0.025em] ${compact ? "text-[22px] sm:text-[26px]" : "text-3xl sm:text-4xl lg:text-[42px]"}`}>
         {t("calculator.title")}
       </h3>
-      <p className={`text-[var(--text-2)] mt-2 text-center mx-auto leading-relaxed ${compact ? "text-[13px] max-w-[440px]" : "text-[15px] lg:text-[17px] max-w-[520px]"}`}>
+      <p className={`text-[var(--text-2)] mt-3 text-center mx-auto leading-relaxed ${compact ? "text-[13px] max-w-[440px]" : "text-[15px] lg:text-[17px] max-w-[520px]"}`}>
         {t("calculator.subtitle")}
       </p>
 
-      <div className={`h-px bg-gradient-to-r from-transparent via-[rgba(var(--green-rgb),0.2)] to-transparent border-0 ${compact ? "my-2.5" : "my-5 lg:my-7"}`} />
+      <div className={`h-px bg-gradient-to-r from-transparent via-[rgba(var(--green-rgb),0.25)] to-transparent border-0 ${compact ? "my-3" : "my-6 lg:my-8"}`} />
 
       <div className={`flex flex-col ${compact ? "gap-2.5 mb-2.5" : "gap-4 lg:gap-6 mb-4"}`}>
         <div>
-          <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm lg:text-[15px] mb-2 lg:mb-3"}`}>{t("calculator.selectCountry")}</p>
+          <SectionLabel step="01">{t("calculator.selectCountry")}</SectionLabel>
           <div
             className={`grid grid-cols-2 sm:grid-cols-4 ${compact ? "gap-1" : "gap-2 lg:gap-3"}`}
             data-testid="geo-prefill-applied"
@@ -362,33 +381,33 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
           <div style={{ animation: "fadeSlideIn 0.4s ease-out" }}>
             <div className={`flex flex-col ${compact ? "gap-2.5" : "gap-4"}`}>
               <div>
-                <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>
+                <SectionLabel step="02">
                   {t("calculator.displayCurrency", { defaultValue: "Divisa de visualización" })}
-                </p>
-                <div className="flex flex-wrap gap-1.5">
+                </SectionLabel>
+                <div className={`flex flex-wrap ${compact ? "gap-1.5" : "gap-2"}`}>
                   {Object.values(DISPLAY_CURRENCIES).map(c => (
                     <button
                       key={c.code}
                       onClick={() => setDisplayCurrency(c.code)}
-                      className={`group inline-flex items-center gap-1 text-[12px] sm:text-[13px] font-semibold leading-none rounded-full px-3 py-1.5 border-2 backdrop-blur-2xl backdrop-saturate-150 transition-all duration-200 ${displayCurrency === c.code
+                      className={`group inline-flex items-center font-semibold leading-none rounded-full border-2 backdrop-blur-2xl backdrop-saturate-150 transition-all duration-200 ${compact ? "gap-1.5 text-[12px] px-3 py-2" : "gap-2 text-[13px] sm:text-[14px] px-4 py-2.5"} ${displayCurrency === c.code
                         ? "bg-[rgba(0,229,16,0.18)] text-[var(--text-1)] border-[#00E510] shadow-[inset_0_1px_0_rgba(255,255,255,0.55),inset_0_0_0_1px_rgba(0,229,16,0.35),0_10px_24px_-12px_rgba(0,229,16,0.55),0_0_18px_-8px_rgba(0,229,16,0.5)]"
                         : "bg-[var(--glass-bg)] text-[var(--text-2)] border-[rgba(0,229,16,0.35)] shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_6px_14px_-10px_rgba(11,13,12,0.18)] hover:border-[#00E510] hover:bg-[rgba(0,229,16,0.08)] hover:text-[var(--text-1)] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_10px_22px_-12px_rgba(0,229,16,0.4)] hover:-translate-y-0.5"
                       }`}
                       data-testid={`button-currency-${c.code}`}
                       aria-pressed={displayCurrency === c.code}
                     >
-                      <span className={displayCurrency === c.code ? "opacity-90" : "opacity-65"}>{c.symbol}</span>
-                      <span>{c.code}</span>
+                      <span className={`font-bold ${compact ? "text-[14px]" : "text-[16px]"} ${displayCurrency === c.code ? "text-[var(--green)]" : "opacity-70"}`}>{c.symbol}</span>
+                      <span className="tabular-nums tracking-wider">{c.code}</span>
                     </button>
                   ))}
                 </div>
               </div>
               <div>
-                <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>{t("calculator.currentRegime")}</p>
+                <SectionLabel step="03">{t("calculator.currentRegime")}</SectionLabel>
                 <select
                   value={regime}
                   onChange={(e) => setRegime(e.target.value)}
-                  className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[rgba(var(--green-rgb),0.55)] focus:outline-none transition-colors ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
+                  className={`calc-select-chevron w-full rounded-full px-5 font-semibold text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border-2 border-[rgba(var(--green-rgb),0.3)] hover:border-[rgba(var(--green-rgb),0.5)] focus:border-[rgba(var(--green-rgb),0.65)] focus:outline-none focus:shadow-[0_0_0_4px_rgba(0,229,16,0.12)] transition-all ${compact ? "py-2.5 text-xs" : "py-3.5 text-sm"}`}
                   data-testid="select-regime"
                 >
                   <option value="" disabled>{t("calculator.selectRegime")}</option>
@@ -401,11 +420,11 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
               </div>
 
               <div>
-                <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>{t("calculator.activityType")}</p>
+                <SectionLabel step="04">{t("calculator.activityType")}</SectionLabel>
                 <select
                   value={activity}
                   onChange={(e) => setActivity(e.target.value)}
-                  className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[rgba(var(--green-rgb),0.55)] focus:outline-none transition-colors ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
+                  className={`calc-select-chevron w-full rounded-full px-5 font-semibold text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border-2 border-[rgba(var(--green-rgb),0.3)] hover:border-[rgba(var(--green-rgb),0.5)] focus:border-[rgba(var(--green-rgb),0.65)] focus:outline-none focus:shadow-[0_0_0_4px_rgba(0,229,16,0.12)] transition-all ${compact ? "py-2.5 text-xs" : "py-3.5 text-sm"}`}
                   data-testid="select-activity"
                 >
                   {activities.map((a) => (
@@ -416,13 +435,13 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
 
               {country === "espana" && (
                 <div>
-                  <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>
+                  <SectionLabel step="05">
                     {t("calculator.ccaaProfile", { defaultValue: "Comunidad autónoma" })}
-                  </p>
+                  </SectionLabel>
                   <select
                     value={ccaaProfile}
                     onChange={(e) => setCcaaProfile(e.target.value as "low" | "medium" | "high")}
-                    className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[rgba(var(--green-rgb),0.55)] focus:outline-none transition-colors ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
+                    className={`calc-select-chevron w-full rounded-full px-5 font-semibold text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border-2 border-[rgba(var(--green-rgb),0.3)] hover:border-[rgba(var(--green-rgb),0.5)] focus:border-[rgba(var(--green-rgb),0.65)] focus:outline-none focus:shadow-[0_0_0_4px_rgba(0,229,16,0.12)] transition-all ${compact ? "py-2.5 text-xs" : "py-3.5 text-sm"}`}
                     data-testid="select-ccaa-profile"
                   >
                     <option value="medium">{t("calculator.ccaaMedium", { defaultValue: "Escala media (default)" })}</option>

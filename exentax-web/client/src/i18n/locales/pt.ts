@@ -1959,6 +1959,7 @@ errors: {
 },
   calculator: {
     placeholderZero: "0",
+    eyebrow: "Diagnóstico fiscal",
     title: "Quanto está a pagar a mais em impostos agora mesmo?",
     subtitle: "Configure sua situação e obtenha uma estimativa clara em menos de 30 segundos.",
     selectCountry: "Onde reside atualmente?",
