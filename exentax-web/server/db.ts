@@ -165,6 +165,31 @@ export async function runColumnMigrations(): Promise<void> {
         WHERE estado IS NULL OR estado NOT IN ('cancelled','no_show')
     `);
 
+    // Discord outbound queue (shipped post-baseline). Idempotent so existing
+    // production DBs auto-migrate at boot without operator intervention. The
+    // canonical schema lives in `migrations/0001_discord_outbound_queue.sql`.
+    await client.query(`
+      CREATE TABLE IF NOT EXISTS discord_outbound_queue (
+        id varchar(64) PRIMARY KEY NOT NULL,
+        channel_id text NOT NULL,
+        payload text NOT NULL,
+        attempts integer DEFAULT 0 NOT NULL,
+        max_attempts integer DEFAULT 3 NOT NULL,
+        last_error text,
+        next_attempt_at text NOT NULL,
+        claimed_at text,
+        fecha_creacion timestamp DEFAULT now()
+      )
+    `);
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS discord_outbound_next_attempt_idx
+        ON discord_outbound_queue (next_attempt_at)
+    `);
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS discord_outbound_created_at_idx
+        ON discord_outbound_queue (fecha_creacion)
+    `);
+
     logger.debug("Column migrations applied.", "db");
   } catch (err) {
     // Slot uniqueness is the only mechanism preventing double-booking, so

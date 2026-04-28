@@ -347,6 +347,44 @@ export type InsertEmailRetryJob = z.infer<typeof insertEmailRetryJobSchema>;
 export type EmailRetryJob = typeof emailRetryQueue.$inferSelect;
 
 /**
+ * Persistent outbound queue for Discord bot REST messages.
+ *
+ * The previous implementation kept the outbound queue purely in memory: any
+ * message awaiting send (including a payload that was being retried after a
+ * 429/5xx) was lost on process restart and only mirrored to the structured
+ * fallback log line in `server/discord.ts`. This table is the durable
+ * source-of-truth for `enqueueItem` so deploys / crashes / autoscaling
+ * restarts no longer drop admin notifications.
+ *
+ * `payload` is the JSON-encoded `DiscordPayload` (already validated against
+ * `discordPayloadSchema`) — we avoid re-validating on dequeue. `attempts`
+ * mirrors the in-memory `attempt` field (0-based) and `next_attempt_at` is
+ * the ISO timestamp at which the row becomes eligible for the next send,
+ * computed using the existing exponential-backoff schedule. `claimed_at`
+ * lets a worker mark a row in-flight so a second worker (or the same
+ * worker after a transient burst) does not double-send the same payload;
+ * stale claims are reclaimed exactly like `email_retry_queue`.
+ */
+export const discordOutboundQueue = pgTable("discord_outbound_queue", {
+  id: varchar("id", { length: 64 }).primaryKey(),
+  channelId: text("channel_id").notNull(),
+  payload: text("payload").notNull(),
+  attempts: integer("attempts").notNull().default(0),
+  maxAttempts: integer("max_attempts").notNull().default(3),
+  lastError: text("last_error"),
+  nextAttemptAt: text("next_attempt_at").notNull(),
+  claimedAt: text("claimed_at"),
+  createdAt: timestamp("fecha_creacion").defaultNow(),
+}, (table) => [
+  index("discord_outbound_next_attempt_idx").on(table.nextAttemptAt),
+  index("discord_outbound_created_at_idx").on(table.createdAt),
+]);
+
+export const insertDiscordOutboundJobSchema = createInsertSchema(discordOutboundQueue).omit({ createdAt: true });
+export type InsertDiscordOutboundJob = z.infer<typeof insertDiscordOutboundJobSchema>;
+export type DiscordOutboundJob = typeof discordOutboundQueue.$inferSelect;
+
+/**
  * Audit trail for every agenda action triggered from the Discord bot
  * (slash command or button). Persists who did what, when, and on which
  * booking — so the historical context survives even when the original

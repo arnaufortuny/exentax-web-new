@@ -516,36 +516,246 @@ function partitionEmbeds(input: PartitionInput): DiscordEmbed[] {
 }
 
 // ─── Queue system ────────────────────────────────────────────────────────────
+//
+// Outbound payloads are persisted to the `discord_outbound_queue` Postgres
+// table before any send attempt, so a process restart (deploy, crash,
+// autoscaling event) cannot silently drop admin notifications. Items are
+// claimed by a single worker per process using SELECT … FOR UPDATE SKIP
+// LOCKED — identical semantics to `email_retry_queue` — so multiple
+// instances cannot double-send the same row, and a worker that crashes
+// mid-send releases the row after `STALE_CLAIM_MS` for another worker
+// (or the next restart of this one) to retry.
+//
+// In environments where a Postgres connection is not available (unit tests
+// that import discord.ts directly without DATABASE_URL) the persistence
+// layer disables itself on first failure and the queue degrades to the
+// pre-existing in-memory FIFO. The fallback log line is emitted ONLY when
+// a row was acceptable for persistence (i.e. DB is available) but the
+// insert / update itself failed.
 
 const QUEUE_MAX = 80;
 const DRAIN_INTERVAL_MS = 1_500;
 const MAX_RETRIES = 3;
 const FETCH_TIMEOUT_MS = 8_000;
+// A claim older than this is treated as abandoned (worker crashed after
+// claiming but before the fetch completed) and becomes re-claimable. Must
+// be safely larger than `FETCH_TIMEOUT_MS + worst-case retry backoff` so
+// a slow Discord API call is never yanked out from under an in-flight
+// handler. 5 minutes is conservative; raise if Discord rate-limit retries
+// ever push beyond it.
+const STALE_CLAIM_MS = 5 * 60_000;
+const CLAIM_BATCH_SIZE = 8;
 
 interface QueueItem { channelId: string; payload: DiscordPayload; attempt: number }
 
-const _queue: QueueItem[] = [];
+// In-memory mirror used as fallback when persistence is disabled (tests),
+// and as the working set of currently-claimed rows when persistence is on.
+const _memoryQueue: QueueItem[] = [];
 let _drainTimer: NodeJS.Timeout | null = null;
+// Cheap synchronous gauge — read by `/api/metrics`, scripts, and tests.
+// Tracks pending+inflight items regardless of backend.
+let _pendingCount = 0;
+let _draining = false;
+// Resolves to "db" or "memory" exactly once per process.
+let _backendPromise: Promise<"db" | "memory"> | null = null;
+
+type DiscordDbModule = typeof import("./db");
+type DiscordSchemaModule = typeof import("../shared/schema");
+let _dbCached: DiscordDbModule | null = null;
+let _schemaCached: DiscordSchemaModule | null = null;
+
+async function loadBackend(): Promise<"db" | "memory"> {
+  // Skip persistence entirely when explicitly opted out (tests, scripts).
+  if (process.env.DISCORD_QUEUE_BACKEND === "memory") return "memory";
+  try {
+    // `./db` throws synchronously at import time if DATABASE_URL is missing,
+    // so dynamic import is the cheapest probe — no extra DB round-trip.
+    _dbCached = await import("./db");
+    _schemaCached = await import("../shared/schema");
+    // Best-effort: rehydrate the gauge from the DB so /api/metrics reports
+    // an accurate queue size even before the first drain tick after boot.
+    try {
+      const { sql } = await import("drizzle-orm");
+      const r = await _dbCached.db.execute(
+        sql`SELECT count(*)::int AS n FROM discord_outbound_queue WHERE attempts < max_attempts`,
+      );
+      const rows = (r as unknown as { rows: { n: number }[] }).rows ?? [];
+      _pendingCount = rows[0]?.n ?? 0;
+      try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
+      logger.info(`Discord queue: persistence enabled (${_pendingCount} pending row(s) recovered)`, "discord");
+    } catch (err) {
+      logger.warn(`Discord queue: rehydrate failed (table missing?): ${err instanceof Error ? err.message : String(err)}`, "discord");
+    }
+    return "db";
+  } catch {
+    logger.info("Discord queue: persistence disabled (no DATABASE_URL) — using in-memory FIFO", "discord");
+    return "memory";
+  }
+}
+
+function getBackend(): Promise<"db" | "memory"> {
+  if (!_backendPromise) _backendPromise = loadBackend();
+  return _backendPromise;
+}
+
+/**
+ * Boot-time entrypoint. Probes the persistence backend, rehydrates the
+ * gauge and starts the drain timer. Idempotent — safe to call from both
+ * `server/index.ts` startup and the discord-bot route registration path.
+ */
+export async function startDiscordQueueWorker(): Promise<void> {
+  await getBackend();
+  ensureDrainTimer();
+}
 
 function ensureDrainTimer(): void {
   if (_drainTimer) return;
-  _drainTimer = setInterval(drainQueue, DRAIN_INTERVAL_MS);
+  _drainTimer = setInterval(() => { void drainTick(); }, DRAIN_INTERVAL_MS);
   _drainTimer.unref();
 }
 
-function drainQueue(): void {
-  const item = _queue.shift();
-  if (!item) return;
-  sendPayload(item);
+async function drainTick(): Promise<void> {
+  if (_draining) return;
+  _draining = true;
+  try {
+    const backend = await getBackend();
+    if (backend === "db") {
+      await drainDb();
+    } else {
+      await drainMemory();
+    }
+  } catch (err) {
+    logger.warn(`Discord queue drain error: ${err instanceof Error ? err.message : String(err)}`, "discord");
+  } finally {
+    _draining = false;
+  }
 }
 
-async function sendPayload(item: QueueItem): Promise<void> {
+async function drainMemory(): Promise<void> {
+  const item = _memoryQueue.shift();
+  if (!item) return;
+  // _pendingCount already accounts for in-memory items — leave it; we'll
+  // decrement on success / fallback.
+  await attemptSendOnce(item, /* persistedId */ null);
+}
+
+async function drainDb(): Promise<void> {
+  const claimed = await claimDueRows();
+  if (claimed.length === 0) return;
+  // Process sequentially to preserve historical FIFO behaviour and avoid
+  // bursting the Discord rate limit from a single host.
+  for (const row of claimed) {
+    let payload: DiscordPayload;
+    try {
+      payload = JSON.parse(row.payload) as DiscordPayload;
+    } catch {
+      logger.warn(`Discord queue: corrupt payload row ${row.id}, removing`, "discord");
+      await deleteRow(row.id).catch(() => { /* swallow */ });
+      decPending();
+      continue;
+    }
+    const item: QueueItem = {
+      channelId: row.channelId,
+      payload,
+      attempt: row.attempts ?? 0,
+    };
+    await attemptSendOnce(item, row.id);
+  }
+}
+
+interface ClaimedRow {
+  id: string;
+  channelId: string;
+  payload: string;
+  attempts: number;
+  maxAttempts: number;
+}
+
+async function claimDueRows(): Promise<ClaimedRow[]> {
+  if (!_dbCached) return [];
+  try {
+    const { sql } = await import("drizzle-orm");
+    const staleSeconds = Math.floor(STALE_CLAIM_MS / 1000);
+    const result = await _dbCached.db.execute(sql`
+      UPDATE discord_outbound_queue AS q
+         SET claimed_at = to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"')
+       WHERE q.id IN (
+         SELECT id FROM discord_outbound_queue
+          WHERE next_attempt_at <= to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"')
+            AND attempts < max_attempts
+            AND (
+              claimed_at IS NULL
+              OR claimed_at < to_char((now() - (${staleSeconds} || ' seconds')::interval) AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"')
+            )
+          ORDER BY next_attempt_at, fecha_creacion
+          LIMIT ${CLAIM_BATCH_SIZE}
+          FOR UPDATE SKIP LOCKED
+       )
+      RETURNING q.id,
+                q.channel_id   AS "channelId",
+                q.payload,
+                q.attempts,
+                q.max_attempts AS "maxAttempts"
+    `);
+    const rows = (result as unknown as { rows: ClaimedRow[] }).rows ?? [];
+    return rows;
+  } catch (err) {
+    logger.warn(`Discord queue: claim failed: ${err instanceof Error ? err.message : String(err)}`, "discord");
+    return [];
+  }
+}
+
+async function deleteRow(id: string): Promise<void> {
+  if (!_dbCached || !_schemaCached) return;
+  const { eq } = await import("drizzle-orm");
+  await _dbCached.db
+    .delete(_schemaCached.discordOutboundQueue)
+    .where(eq(_schemaCached.discordOutboundQueue.id, id));
+}
+
+async function rescheduleRow(id: string, attempts: number, backoffMs: number, error: string): Promise<void> {
+  if (!_dbCached || !_schemaCached) return;
+  const { eq } = await import("drizzle-orm");
+  await _dbCached.db
+    .update(_schemaCached.discordOutboundQueue)
+    .set({
+      attempts,
+      lastError: error.slice(0, 500),
+      nextAttemptAt: new Date(Date.now() + backoffMs).toISOString(),
+      // Release the claim so the row becomes eligible again at next_attempt_at.
+      claimedAt: null,
+    })
+    .where(eq(_schemaCached.discordOutboundQueue.id, id));
+}
+
+function backoffForAttempt(attempt: number): number {
+  // Same schedule as the previous in-memory retries: 1.5s, 3s, 6s capped at 30s.
+  return Math.min(DRAIN_INTERVAL_MS * 2 ** attempt, 30_000);
+}
+
+function decPending(): void {
+  if (_pendingCount > 0) _pendingCount--;
+  try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
+}
+
+function incPending(): void {
+  _pendingCount++;
+  try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
+}
+
+/**
+ * Single send attempt. On retryable failure the row is rescheduled (DB) or
+ * re-queued (memory). On terminal failure (non-retryable HTTP, exhausted
+ * retries) the row is deleted and the operational fallback alert fires.
+ * On success the row is deleted.
+ */
+async function attemptSendOnce(item: QueueItem, persistedId: string | null): Promise<void> {
   const token = getBotToken();
   if (!token) {
-    // Bot token missing — same fallback behaviour as a missing channel ID:
-    // log alert (so infra alerting catches the outage) and drop.
     logger.warn("Discord bot token missing — payload dropped", "discord");
     emitFallbackAlert(item, "DISCORD_BOT_TOKEN missing");
+    if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
+    decPending();
     return;
   }
   try {
@@ -565,43 +775,76 @@ async function sendPayload(item: QueueItem): Promise<void> {
     } finally {
       clearTimeout(timeout);
     }
-    if (!res.ok) {
-      const body = await res.text().catch(() => "");
-      const isRetryable = res.status === 429 || res.status >= 500;
-      if (isRetryable && item.attempt < MAX_RETRIES) {
-        const backoff = Math.min(DRAIN_INTERVAL_MS * 2 ** item.attempt, 30_000);
-        logger.warn(`Discord HTTP ${res.status} — retry ${item.attempt + 1}/${MAX_RETRIES} in ${backoff}ms`, "discord");
-        setTimeout(() => enqueueItem({ ...item, attempt: item.attempt + 1 }), backoff);
-      } else {
-        logger.warn(`Discord bot HTTP ${res.status}: ${body.slice(0, 300)}`, "discord");
-        emitFallbackAlert(item, `HTTP ${res.status}: ${body.slice(0, 200)}`);
-      }
+    if (res.ok) {
+      if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
+      decPending();
+      return;
     }
-    try { setDiscordQueueSize(_queue.length); } catch { /* noop */ }
+    const body = await res.text().catch(() => "");
+    const isRetryable = res.status === 429 || res.status >= 500;
+    const nextAttempt = item.attempt + 1;
+    if (isRetryable && nextAttempt < MAX_RETRIES) {
+      const backoff = backoffForAttempt(item.attempt);
+      logger.warn(`Discord HTTP ${res.status} — retry ${nextAttempt}/${MAX_RETRIES} in ${backoff}ms`, "discord");
+      await scheduleRetry(item, persistedId, nextAttempt, backoff, `HTTP ${res.status}: ${body.slice(0, 200)}`);
+      return;
+    }
+    logger.warn(`Discord bot HTTP ${res.status}: ${body.slice(0, 300)}`, "discord");
+    emitFallbackAlert({ ...item, attempt: nextAttempt - 1 }, `HTTP ${res.status}: ${body.slice(0, 200)}`);
+    if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
+    decPending();
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
-    if (item.attempt < MAX_RETRIES) {
-      const backoff = Math.min(DRAIN_INTERVAL_MS * 2 ** item.attempt, 30_000);
-      setTimeout(() => enqueueItem({ ...item, attempt: item.attempt + 1 }), backoff);
-    } else {
-      logger.warn(`Discord send failed after ${MAX_RETRIES} retries: ${msg}`, "discord");
-      emitFallbackAlert(item, msg);
+    const nextAttempt = item.attempt + 1;
+    if (nextAttempt < MAX_RETRIES) {
+      const backoff = backoffForAttempt(item.attempt);
+      await scheduleRetry(item, persistedId, nextAttempt, backoff, msg);
+      return;
     }
+    logger.warn(`Discord send failed after ${MAX_RETRIES} retries: ${msg}`, "discord");
+    emitFallbackAlert({ ...item, attempt: nextAttempt - 1 }, msg);
+    if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
+    decPending();
   }
 }
 
+async function scheduleRetry(
+  item: QueueItem, persistedId: string | null, nextAttempt: number, backoffMs: number, reason: string,
+): Promise<void> {
+  if (persistedId) {
+    // DB-backed retry: bump attempts + push next_attempt_at into the future.
+    // The row stays in the queue until success or exhaustion, so a restart
+    // before the timer fires still picks it up.
+    await rescheduleRow(persistedId, nextAttempt, backoffMs, reason).catch((err) => {
+      logger.warn(`Discord queue: reschedule failed for ${persistedId}: ${err instanceof Error ? err.message : String(err)}`, "discord");
+      // Persistence broken mid-flight — last-resort fallback so the alert
+      // is not silently lost. The row may still be in the table with its
+      // claim cleared on the next stale sweep.
+      emitFallbackAlert({ ...item, attempt: nextAttempt - 1 }, `reschedule failed: ${err instanceof Error ? err.message : String(err)}`);
+      decPending();
+    });
+    return;
+  }
+  // Memory-only fallback: re-queue after the backoff using a timer.
+  setTimeout(() => {
+    _memoryQueue.unshift({ ...item, attempt: nextAttempt });
+    ensureDrainTimer();
+  }, backoffMs).unref?.();
+}
+
 /**
- * Last-resort alert: Discord delivery is permanently broken for this message.
- * We must not let the operational alert disappear silently — emit a
- * structured ALERT log line that infra-level log alerting can route on.
- * Title and event type are extracted from the embed when available so the
- * fallback retains the most actionable context, never any PII fields.
+ * Last-resort alert: Discord delivery is permanently broken for this message
+ * OR persistence itself failed. We must not let the operational alert
+ * disappear silently — emit a structured ALERT log line that infra-level
+ * log alerting can route on. Title and event type are extracted from the
+ * embed when available so the fallback retains the most actionable context,
+ * never any PII fields.
  */
 function emitFallbackAlert(item: QueueItem, reason: string): void {
   try { incDiscordSendFailure(); incAlertFallback(); } catch { /* noop */ }
   const embed = item.payload.embeds?.[0];
   const title = embed?.title?.slice(0, 200) ?? "discord-delivery-failed";
-  const tipoField = embed?.fields?.find(f => f.name === "Tipo");
+  const tipoField = embed?.fields?.find(f => f.name === "Tipo" || f.name === "Type");
   const eventType = tipoField?.value ?? "unknown";
   logger.alert(`Discord delivery failed: ${title}`, "discord-fallback", {
     eventType,
@@ -610,19 +853,105 @@ function emitFallbackAlert(item: QueueItem, reason: string): void {
   });
 }
 
+/**
+ * Persist a new outbound payload. The synchronous part of this function
+ * just bumps the gauge and starts the drain timer; the actual DB INSERT
+ * (or memory push) happens in the background so the calling notify*
+ * site stays fire-and-forget.
+ */
 function enqueueItem(item: QueueItem): void {
-  if (_queue.length >= QUEUE_MAX) {
-    _queue.shift();
-    logger.warn("Discord queue full — oldest message dropped", "discord");
-    try { incDiscordDropped(); } catch { /* metrics never break the path */ }
-  }
-  _queue.push(item);
-  try { setDiscordQueueSize(_queue.length); } catch { /* noop */ }
+  // Optimistically reserve a slot in the gauge so /api/metrics shows back
+  // pressure immediately. If persistence fails we still emit the fallback
+  // alert and decrement.
+  incPending();
   ensureDrainTimer();
+  void persistAndQueue(item);
+}
+
+async function persistAndQueue(item: QueueItem): Promise<void> {
+  const backend = await getBackend();
+  if (backend === "memory") {
+    if (_memoryQueue.length >= QUEUE_MAX) {
+      _memoryQueue.shift();
+      logger.warn("Discord queue full — oldest message dropped", "discord");
+      try { incDiscordDropped(); } catch { /* metrics never break the path */ }
+      decPending();
+    }
+    _memoryQueue.push(item);
+    return;
+  }
+  try {
+    if (!_dbCached || !_schemaCached) throw new Error("db not initialized");
+    const { sql } = await import("drizzle-orm");
+    // Bound the queue: if we're already at capacity, drop the OLDEST
+    // unclaimed row. `discord_dropped_total` only counts genuine overflow
+    // — restart loss is handled by persistence and never reaches this path.
+    const sizeRes = await _dbCached.db.execute(
+      sql`SELECT count(*)::int AS n FROM discord_outbound_queue WHERE attempts < max_attempts`,
+    );
+    const sizeRows = (sizeRes as unknown as { rows: { n: number }[] }).rows ?? [];
+    const currentSize = sizeRows[0]?.n ?? 0;
+    if (currentSize >= QUEUE_MAX) {
+      const dropRes = await _dbCached.db.execute(sql`
+        DELETE FROM discord_outbound_queue
+         WHERE id = (
+           SELECT id FROM discord_outbound_queue
+            WHERE claimed_at IS NULL
+            ORDER BY fecha_creacion ASC
+            LIMIT 1
+         )
+        RETURNING id
+      `);
+      const dropped = (dropRes as unknown as { rows: { id: string }[] }).rows ?? [];
+      if (dropped.length > 0) {
+        logger.warn("Discord queue full — oldest persisted message dropped", "discord");
+        try { incDiscordDropped(); } catch { /* noop */ }
+        decPending();
+      }
+    }
+    const { randomUUID } = await import("crypto");
+    const row: import("../shared/schema").InsertDiscordOutboundJob = {
+      id: randomUUID(),
+      channelId: item.channelId,
+      payload: JSON.stringify(item.payload),
+      attempts: item.attempt,
+      maxAttempts: MAX_RETRIES,
+      lastError: null,
+      nextAttemptAt: new Date().toISOString(),
+      claimedAt: null,
+    };
+    await _dbCached.db.insert(_schemaCached.discordOutboundQueue).values(row);
+  } catch (err) {
+    // Persistence itself failed (DB outage, schema drift, full disk, …).
+    // Per the queue contract this is the ONLY scenario in which we drop to
+    // the fallback log line — the in-memory queue would otherwise also be
+    // wiped by the same restart that motivated persistence in the first
+    // place, so retrying in memory only would re-introduce the original
+    // bug. Emit a structured alert so infra paging picks it up.
+    const msg = err instanceof Error ? err.message : String(err);
+    logger.warn(`Discord queue: persist failed: ${msg}`, "discord");
+    emitFallbackAlert(item, `persistence failed: ${msg.slice(0, 200)}`);
+    decPending();
+  }
 }
 
 export function getDiscordQueueSize(): number {
-  return _queue.length;
+  return _pendingCount;
+}
+
+/**
+ * Test-only: reset internal queue state and force a fresh backend probe.
+ * Required by `tests/discord-queue-persistence.test.ts` which constructs
+ * different DB scenarios within a single process.
+ */
+export function _resetDiscordQueueForTests(): void {
+  _memoryQueue.length = 0;
+  _pendingCount = 0;
+  _backendPromise = null;
+  _dbCached = null;
+  _schemaCached = null;
+  if (_drainTimer) { clearInterval(_drainTimer); _drainTimer = null; }
+  try { setDiscordQueueSize(0); } catch { /* noop */ }
 }
 
 // ─── Core send ───────────────────────────────────────────────────────────────

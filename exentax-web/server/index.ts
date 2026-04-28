@@ -11,7 +11,7 @@ import { startEmailRetryWorker } from "./email-retry-queue";
 import { startDripWorker } from "./scheduled/drip-worker";
 import { startDiscordAlertWorker } from "./discord-alerts";
 import { backendLabel, resolveRequestLang } from "./routes/shared";
-import { notifyCriticalError } from "./discord";
+import { notifyCriticalError, startDiscordQueueWorker } from "./discord";
 import { SITE_URL } from "./server-constants";
 import { correlationMiddleware } from "./correlation";
 import { recordHttpRequest } from "./metrics";
@@ -534,6 +534,16 @@ activeIntervals.push(startDripWorker(60_000));
 // `DISCORD_ALERT_THRESHOLD_*`, `DISCORD_ALERT_WINDOW_SECONDS` and
 // `DISCORD_ALERT_REMINDER_MINUTES` env vars.
 activeIntervals.push(startDiscordAlertWorker(60_000));
+
+// Start the persistent Discord outbound worker. Probes the persistence
+// backend (Postgres → memory fallback for envs without DATABASE_URL),
+// rehydrates the queue gauge from any rows that survived a previous
+// restart, and starts the drain timer so deferred sends resume
+// automatically. Fire-and-forget — the worker registers its own
+// setInterval (with .unref()) and any startup error is logged inside.
+void startDiscordQueueWorker().catch((err) => {
+  logger.warn(`Discord queue worker startup failed: ${err instanceof Error ? err.message : String(err)}`, "discord");
+});
 
 
 app.use((req, res, next) => {
