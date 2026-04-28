@@ -381,16 +381,17 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                 <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>
                   {t("calculator.displayCurrency", { defaultValue: "Divisa de visualización" })}
                 </p>
-                <div className="flex flex-wrap gap-1">
+                <div className="flex flex-wrap gap-1.5">
                   {Object.values(DISPLAY_CURRENCIES).map(c => (
                     <button
                       key={c.code}
                       onClick={() => setDisplayCurrency(c.code)}
-                      className={`text-[11px] font-semibold rounded-full px-3 py-1.5 border transition-colors ${displayCurrency === c.code ? "bg-[var(--green)] text-[#0B0D0C] border-[var(--green)]" : "bg-[var(--bg-1)] text-[var(--text-2)] border-[rgba(var(--green-rgb),0.18)] hover:border-[rgba(var(--green-rgb),0.4)]"}`}
+                      className={`inline-flex items-center gap-1 text-[12px] sm:text-[13px] font-semibold leading-none rounded-full px-2.5 py-1 border transition-colors ${displayCurrency === c.code ? "bg-[var(--green)] text-[#0B0D0C] border-[var(--green)]" : "bg-[var(--bg-1)] text-[var(--text-2)] border-[rgba(var(--green-rgb),0.18)] hover:border-[rgba(var(--green-rgb),0.4)]"}`}
                       data-testid={`button-currency-${c.code}`}
                       aria-pressed={displayCurrency === c.code}
                     >
-                      {c.symbol} {c.code}
+                      <span className="opacity-70">{c.symbol}</span>
+                      <span>{c.code}</span>
                     </button>
                   ))}
                 </div>
@@ -399,12 +400,12 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                 <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>
                   {t("calculator.useCasePreset", { defaultValue: "¿Quieres precargar un caso típico?" })}
                 </p>
-                <div className="flex flex-wrap gap-1">
+                <div className="flex flex-wrap gap-1.5">
                   {USE_CASE_PRESETS.map(p => (
                     <button
                       key={p.id}
                       onClick={() => applyPreset(p.id)}
-                      className="text-[11px] font-medium rounded-full px-3 py-1.5 border border-[rgba(var(--green-rgb),0.18)] bg-[var(--bg-1)] text-[var(--text-2)] hover:border-[rgba(var(--green-rgb),0.4)] transition-colors"
+                      className="text-[12px] sm:text-[13px] font-medium leading-none rounded-full px-2.5 py-1 border border-[rgba(var(--green-rgb),0.18)] bg-[var(--bg-1)] text-[var(--text-2)] hover:border-[rgba(var(--green-rgb),0.4)] hover:text-[var(--text-1)] transition-colors"
                       data-testid={`button-preset-${p.id}`}
                     >
                       {t(`calculator.presetLabels.${p.id}`, { defaultValue: p.label })}
