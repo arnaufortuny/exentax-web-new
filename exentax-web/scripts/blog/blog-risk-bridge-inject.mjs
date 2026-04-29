@@ -58,8 +58,17 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
-const CONTENT = path.join(ROOT, "client/src/data/blog-content");
-const REPORT_PATH = path.join(ROOT, "reports/seo/lote6b-risk-bridge.md");
+// Test hooks (Task #45): the unit-test suite spins up an isolated
+// fixture corpus in a temp dir to exercise --check end-to-end without
+// touching the real 672-article tree or its report. These env-var
+// overrides default to the production paths so normal runs are
+// unchanged.
+const CONTENT = process.env.BLOG_RISK_BRIDGE_CONTENT_DIR
+  ? path.resolve(process.env.BLOG_RISK_BRIDGE_CONTENT_DIR)
+  : path.join(ROOT, "client/src/data/blog-content");
+const REPORT_PATH = process.env.BLOG_RISK_BRIDGE_REPORT_PATH
+  ? path.resolve(process.env.BLOG_RISK_BRIDGE_REPORT_PATH)
+  : path.join(ROOT, "reports/seo/lote6b-risk-bridge.md");
 
 const LANGS = ["es", "en", "fr", "de", "pt", "ca"];
 
@@ -929,3 +938,24 @@ function main() {
 const invokedAsScript =
   process.argv[1] && path.resolve(process.argv[1]) === path.resolve(__dirname, "blog-risk-bridge-inject.mjs");
 if (invokedAsScript) main();
+
+// Test hooks (Task #45): expose the pure helpers and catalogs so the
+// unit-test suite (`blog-risk-bridge-inject.test.mjs`) can exercise the
+// regex catalog, protected-set computation, bridge picker, line
+// splicer, and per-file processor without spawning a subprocess.
+export {
+  RISK,
+  BRIDGES,
+  LEGACY_BRIDGES,
+  NON_NARRATIVE_BLOCK_NAMES,
+  HEADING_RE,
+  HTML_COMMENT_ONLY_RE,
+  TERMINAL_PUNCT_RE,
+  hashSeed,
+  pickBridgeForKey,
+  pickBridge,
+  computeProtectedSet,
+  isNonNarrativeManaged,
+  appendBridgeToLine,
+  processFile,
+};
