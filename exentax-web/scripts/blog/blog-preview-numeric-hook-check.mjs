@@ -99,7 +99,7 @@ function leadsWithDigit(text) {
 }
 
 /**
- * Task #41 — "awkward-numeric-opener" rule for previews.
+ * Task #41 / Task #54 — "awkward-numeric-opener" rule for previews.
  *
  * After LOTE 38 prepended a digit-led opener to every preview snippet, a
  * subset of localized entries ended up with a bare 4-digit YEAR followed by
@@ -107,10 +107,24 @@ function leadsWithDigit(text) {
  * What your bank reports..."). On a SERP/social card this reads as a
  * dangling label rather than a sentence.
  *
+ * Task #41 covered the bare-year-with-period case. Task #54 extends the
+ * same intent to the near-variants that produce the same awkward leading
+ * label in a Google snippet:
+ *
+ *   - "YYYY:"   (colon, optionally with French-style space-before-colon)
+ *   - "YYYY -"  (hyphen-minus surrounded by whitespace)
+ *   - "YYYY \u2013" (en-dash surrounded by whitespace)
+ *   - "YYYY \u2014" (em-dash surrounded by whitespace)
+ *
+ * In every case the soft separator must be followed by visible content (so
+ * we never collapse a "2014-2024" range — which writes the dash without
+ * surrounding spaces — into a false positive).
+ *
  * This rule flags meta/social/og previews whose first sentence (as recovered
- * by `firstSentence` above) is JUST a bare year in the 1900-2099 range, with
- * no accompanying noun/clause. The existing strict "must lead with digit"
- * rule (`leadsWithDigit`) is preserved untouched; this rule is additive.
+ * by `firstSentence` above) is JUST a bare year in the 1900-2099 range, OR
+ * whose leading non-whitespace fragment is "YYYY" closed by one of the soft
+ * separators listed above. The existing strict "must lead with digit" rule
+ * (`leadsWithDigit`) is preserved untouched; this rule is additive.
  *
  * Spanish (master) is intentionally exempt — Task #41 explicitly forbids
  * touching `client/src/data/blog-posts.ts` (the master copy). The rewrite
@@ -128,12 +142,27 @@ const AWKWARD_NUMERIC_OPENER_FIELDS = new Set([
 ]);
 const AWKWARD_NUMERIC_OPENER_LANG_EXEMPT = new Set(["es"]);
 
+// Task #54 — soft separators that turn a leading bare year into a dangling
+// SERP label. Colon may sit flush to the year ("2014:") or carry the French
+// thin-space convention ("2014 :"); the dashes must have whitespace on both
+// sides so legitimate ranges like "2014-2024" stay safe.
+const AWKWARD_LEADING_YEAR_COLON_RE = /^(19|20)\d{2}\s*:\s+\S/u;
+const AWKWARD_LEADING_YEAR_DASH_RE = /^(19|20)\d{2}\s+[-\u2013\u2014]\s+\S/u;
+
 function isAwkwardNumericOpener(text) {
   if (typeof text !== "string") return false;
-  const first = firstSentence(text);
-  if (!first) return false;
-  const inner = first.replace(/[.!?]+$/u, "").trim();
-  return /^(19|20)\d{2}$/.test(inner);
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  // Task #41 — bare year forming the entire first sentence.
+  const first = firstSentence(trimmed);
+  if (first) {
+    const inner = first.replace(/[.!?]+$/u, "").trim();
+    if (/^(19|20)\d{2}$/.test(inner)) return true;
+  }
+  // Task #54 — bare year followed by a soft SERP-awkward separator.
+  if (AWKWARD_LEADING_YEAR_COLON_RE.test(trimmed)) return true;
+  if (AWKWARD_LEADING_YEAR_DASH_RE.test(trimmed)) return true;
+  return false;
 }
 
 /**
