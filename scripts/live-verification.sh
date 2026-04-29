@@ -12,35 +12,28 @@
 # Exit codes:
 #   0  — all automatable checks PASS
 #   1  — at least one check FAIL
-#   2  — usage error
+#   2  — usage error (incluye `--only` con clave desconocida — Task #65)
 #
 # --only KEY[,KEY...]
-#   Run only the listed check keys. Useful para tener un segundo cron
-#   "HTTP-only / sin backend" (Task #60) que vigile las cabeceras de
-#   seguridad y la superficie SEO incluso mientras el VPS aún sirve el
-#   mirror estático y `/api/health` devuelve 404.
+#   Run only the listed check keys. Útil para tener un segundo cron
+#   "HTTP-only / sin backend" (Task #60) que vigile cabeceras de
+#   seguridad y SEO incluso mientras el VPS aún sirve el mirror
+#   estático y `/api/health` devuelve 404.
 #
-#   Keys soportadas (orden de aparición):
-#     F1-health          — GET /api/health + /api/health/ready
-#     F1-headers         — HSTS / CSP / XFO / Referrer-Policy / no unsafe-eval
-#     F2-sitemap         — /sitemap.xml debe ser <sitemapindex>
-#     F2-sitemap-blog    — /sitemap-blog.xml ≥600 <loc> entries
-#     F2-robots          — /robots.txt declara sitemaps + bloquea /api,/admin
-#     F2-indexnow        — /<INDEXNOW_KEY>.txt devuelve la key (si flag set)
-#     F2-hreflang        — 3 alternates de la home → 200
-#     F3-csrf            — POST sin Origin → 403
-#     F3-rate-limit      — 220 GETs /api/health → algún 429
-#     F3-encryption      — SKIP (manual psql)
-#     F4 / F5 / F6       — bloques SKIP (DB E2E, Discord runtime, Meet/Email)
-#     F7-metrics         — /api/metrics?token=… formato Prometheus
-#     F7-uptimerobot     — SKIP (dashboard externo)
-#     F8-lang            — /es /en /fr /de /pt /ca → 200
-#     F8-responsive      — SKIP (manual DevTools)
-#     F8-calculator      — SKIP (submit con email real)
-#     F9                 — SKIP (Lighthouse autorun)
+#   La lista canónica de claves vive en el array bash LEGAL_KEYS más
+#   abajo, junto con LEGAL_KEY_DESCRIPTIONS. Tanto `--help` como el
+#   validador de `--only` consumen ese array, así que no pueden
+#   divergir (Task #65). Hasta Task #65 una clave mal escrita como
+#   `--only F1-header` (sin la `s` final) o `--only F22` producía un
+#   reporte vacío `PASS=0 FAIL=0 SKIP=0 TOTAL=0` con exit 0, y los
+#   crons de monitorización lo reportaban como todo en verde sin haber
+#   chequeado nada. Ahora una clave desconocida aborta con exit 2 y un
+#   mensaje que enumera las claves válidas.
 #
 #   Prefix-match: `--only F2` activa todas las F2-*, `--only F1-headers,F2`
 #   activa el subset SEO+headers que pide Task #60 sin tocar /api/health.
+#   Una clave es válida si encaja exactamente con una entrada de
+#   LEGAL_KEYS o si alguna entrada de LEGAL_KEYS empieza por `${KEY}-`.
 #
 # Notes:
 #   * F-4 (DB-backed E2E specs), F-5 (Discord runtime), F-6 (Calendar/Meet/Email),
@@ -51,6 +44,76 @@
 #     Read-only: no POST that mutates state beyond CSRF probing with empty bodies.
 
 set -uo pipefail
+
+# ─── Single source of truth for `--only` validation y `--help` ──────────
+# Si añades un nuevo `should_run` abajo, añade aquí su KEY (y, en el
+# mismo índice, su descripción en LEGAL_KEY_DESCRIPTIONS) — si no, el
+# filtro y la ayuda divergirán. Bash 3 no tiene assoc arrays portables,
+# así que mantenemos dos arrays paralelos indexados por el mismo orden.
+LEGAL_KEYS=(
+  F1-health
+  F1-headers
+  F2-sitemap
+  F2-sitemap-blog
+  F2-robots
+  F2-indexnow
+  F2-hreflang
+  F3-csrf
+  F3-rate-limit
+  F3-encryption
+  F4
+  F5
+  F6
+  F7-metrics
+  F7-uptimerobot
+  F8-lang
+  F8-responsive
+  F8-calculator
+  F9
+)
+LEGAL_KEY_DESCRIPTIONS=(
+  "GET /api/health + /api/health/ready"
+  "HSTS / CSP / XFO / Referrer-Policy / no unsafe-eval"
+  "/sitemap.xml debe ser <sitemapindex>"
+  "/sitemap-blog.xml >=600 <loc> entries"
+  "/robots.txt declara sitemaps + bloquea /api,/admin"
+  "/<INDEXNOW_KEY>.txt devuelve la key (si --indexnow-key set)"
+  "3 alternates de la home -> 200"
+  "POST sin Origin -> 403"
+  "220 GETs /api/health -> algun 429"
+  "SKIP (manual psql, requiere DB read access)"
+  "SKIP bloque (DB E2E, requiere VPS shell)"
+  "SKIP bloque (Discord runtime, manual)"
+  "SKIP bloque (Calendar / Meet / Email transaccional, manual)"
+  "/api/metrics?token=... en formato Prometheus"
+  "SKIP (dashboard externo UptimeRobot)"
+  "/es /en /fr /de /pt /ca -> 200"
+  "SKIP (responsive manual DevTools)"
+  "SKIP (calculadora submit con email real)"
+  "SKIP (Lighthouse autorun manual)"
+)
+
+print_legal_keys() {
+  local i
+  echo ""
+  echo "Claves --only soportadas (orden de aparición):"
+  for i in "${!LEGAL_KEYS[@]}"; do
+    printf "  %-18s %s\n" "${LEGAL_KEYS[$i]}" "${LEGAL_KEY_DESCRIPTIONS[$i]:-}"
+  done
+}
+
+# is_legal_only_key TOKEN → 0 si TOKEN matchea exactamente o por prefijo
+# alguna entrada de LEGAL_KEYS, 1 si no. Mantiene la misma semántica
+# prefix-match que `should_run` (Task #60).
+is_legal_only_key() {
+  local token="$1"
+  local k
+  for k in "${LEGAL_KEYS[@]}"; do
+    [[ "$k" == "$token" ]] && return 0
+    [[ "$k" == "$token"-* ]] && return 0
+  done
+  return 1
+}
 
 BASE_URL="${1:-}"
 if [[ -z "${BASE_URL}" || "${BASE_URL}" == --* ]]; then
@@ -71,10 +134,45 @@ while [[ $# -gt 0 ]]; do
     --report)        REPORT_PATH="$2";   shift 2 ;;
     --only)          ONLY="$2";          shift 2 ;;
     -h|--help)
-      sed -n '2,51p' "$0"; exit 0 ;;
+      # Imprime el bloque de cabecera (sin el shebang) hasta `set -uo
+      # pipefail`, despoja el prefijo `# ` y luego añade la lista
+      # auto-generada de LEGAL_KEYS. Así --help y el validador de
+      # --only nunca pueden divergir (Task #65).
+      awk '/^set -uo pipefail$/ {exit} NR>1' "$0" | sed 's/^# \{0,1\}//'
+      print_legal_keys
+      exit 0 ;;
     *) echo "Unknown option: $1" >&2; exit 2 ;;
   esac
 done
+
+# Validar `--only`: cada token debe encajar (exact o prefix) con
+# LEGAL_KEYS. Sin esto, un typo (`--only F1-header` sin la `s` final, o
+# `--only F22`) pasaba silenciosamente: el runner ejecutaba cero
+# chequeos, escribía un reporte `PASS=0 FAIL=0 SKIP=0 TOTAL=0`, salía
+# 0, y el carril de monitorización SEO+headers (Task #60) reportaba
+# "todo verde" sin haber chequeado nada. Task #65: exit 2 con mensaje
+# que enumera las claves válidas.
+if [[ -n "${ONLY}" ]]; then
+  IFS=',' read -r -a __ONLY_TOKENS <<< "${ONLY}"
+  __unknown_only_keys=()
+  for __raw in "${__ONLY_TOKENS[@]}"; do
+    __token="${__raw// /}"
+    [[ -z "$__token" ]] && continue
+    if ! is_legal_only_key "$__token"; then
+      __unknown_only_keys+=("$__token")
+    fi
+  done
+  if (( ${#__unknown_only_keys[@]} > 0 )); then
+    {
+      printf 'Unknown --only key: %s (legal keys: %s)\n' \
+        "${__unknown_only_keys[*]}" \
+        "$(IFS=', '; echo "${LEGAL_KEYS[*]}")"
+      echo "Run 'bash $0 --help' for the full list with descriptions."
+    } >&2
+    exit 2
+  fi
+  unset __ONLY_TOKENS __unknown_only_keys __raw __token
+fi
 
 # should_run KEY → 0 si KEY pasa el filtro `--only` (o si no hay filtro).
 # Acepta match exacto o por prefijo: `--only F2` activa F2-sitemap,

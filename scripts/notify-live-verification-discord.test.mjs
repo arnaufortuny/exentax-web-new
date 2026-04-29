@@ -908,6 +908,82 @@ test("main: warn ::warning:: cuando schedule + secrets ausentes y down", async (
   }
 });
 
+// ──────────────── Task #65: live-verification.sh --only typo guard ────────────────
+// Black-box: invocamos directamente el runner bash con una clave que no
+// existe en LEGAL_KEYS y comprobamos que aborta con exit 2 en vez de
+// producir el reporte vacío "PASS=0 FAIL=0 SKIP=0 TOTAL=0" que antes
+// pasaba como verde por los carriles de monitorización (Task #60).
+test("scripts/live-verification.sh --only F1-typo aborta con exit 2 (Task #65)", async () => {
+  const { spawnSync } = await import("node:child_process");
+  const path = await import("node:path");
+  const { fileURLToPath } = await import("node:url");
+  const here = path.dirname(fileURLToPath(import.meta.url));
+  const runner = path.join(here, "live-verification.sh");
+
+  const result = spawnSync(
+    "bash",
+    [runner, "https://example.invalid", "--only", "F1-typo"],
+    { encoding: "utf8", timeout: 30_000 },
+  );
+
+  assert.equal(
+    result.status,
+    2,
+    `Esperaba exit 2 ('usage error') con clave desconocida; recibido status=${result.status}\nstdout=${result.stdout}\nstderr=${result.stderr}`,
+  );
+  assert.match(
+    result.stderr,
+    /Unknown --only key:\s*F1-typo/,
+    "El mensaje de error debe identificar la clave desconocida",
+  );
+  // El mensaje debe enumerar las claves legales para que el operador
+  // sepa cuál usar — sin esto el remedio es leer el script.
+  assert.match(result.stderr, /F1-health/);
+  assert.match(result.stderr, /F1-headers/);
+  assert.match(result.stderr, /F2-sitemap/);
+  // El runner NO debe haber escrito un summary "PASS=0 FAIL=0 SKIP=0".
+  assert.equal(
+    /PASS=0 .* FAIL=0 .* SKIP=0/.test(result.stdout),
+    false,
+    "El runner no debe haber producido un resumen vacío silencioso",
+  );
+});
+
+test("scripts/live-verification.sh --only F1-headers,F2 sigue siendo válido (no regresión Task #60)", async () => {
+  // Sanity: las dos invocaciones reales que hace CI
+  // (live-verification.yml usa --only nada, y
+  // live-verification-seo-headers.yml usa --only F1-headers,F2) deben
+  // seguir pasando la validación.
+  const { spawnSync } = await import("node:child_process");
+  const path = await import("node:path");
+  const { fileURLToPath } = await import("node:url");
+  const here = path.dirname(fileURLToPath(import.meta.url));
+  const runner = path.join(here, "live-verification.sh");
+
+  // --help debe enumerar las claves desde el array (single source of truth).
+  const help = spawnSync("bash", [runner, "--help"], {
+    encoding: "utf8",
+    timeout: 10_000,
+  });
+  assert.equal(help.status, 0);
+  assert.match(help.stdout, /Claves --only soportadas/);
+  // Cada KEY usada por los workflows debe aparecer en la ayuda.
+  for (const k of [
+    "F1-headers",
+    "F2-sitemap",
+    "F2-sitemap-blog",
+    "F2-robots",
+    "F2-indexnow",
+    "F2-hreflang",
+  ]) {
+    assert.match(
+      help.stdout,
+      new RegExp(`\\b${k}\\b`),
+      `--help debe listar la clave ${k}`,
+    );
+  }
+});
+
 await chain;
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed > 0) process.exit(1);
