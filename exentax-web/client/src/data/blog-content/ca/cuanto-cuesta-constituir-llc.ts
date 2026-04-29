@@ -228,7 +228,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut recentment; aquest és l'es
 
 **L'OCDE Pillar Two encareix la LLC?** No per a LLC unipersonals amb facturació normal. GloBE només s'aplica a grups consolidats ≥ 750 M EUR.
 
-**Quant triga realment la constitució de cap a cap?** El filing al Secretary of State del Nou Mèxic o del Wyoming es resol en 24-72 hores hàbils; Delaware en 24-48 hores si paga expedició. L'EIN triga 7-15 dies hàbils per fax a l'IRS si té ITIN, i entre 4 i 8 setmanes si només aporta passaport. El compte bancari a Mercury o Relay s'obre normalment en 5-10 dies hàbils des de l'EIN. Realista: la seva LLC operativa amb compte corrent en **3-5 setmanes**, no en 24 hores com prometen els serveis low-cost.
+**Quant triga realment la constitució de cap a cap?** El filing al Secretary of State del Nou Mèxic o del Wyoming es resol en 24-72 hores hàbils; Delaware en 24-48 hores si paga expedició. L'EIN triga 7-15 dies hàbils per fax a l'IRS si té ITIN, i entre 4 i 8 setmanes si només aporta passaport. El compte bancari a Mercury o Relay s'obre normalment en 5-10 dies hàbils des de l'EIN. Realista: la seva LLC operativa amb compte corrent en **3-5 setmanes**, no en 24 hores com prometen els serveis barats.
 
 **Puc canviar de Wyoming a Nou Mèxic (o a la inversa) si se’n penedeix?** Sí, via *domestication* o *conversion*: la LLC migra d'estat conservant l'EIN, l'historial bancari i els contractes. No és trivial (filings als dos estats, actualització de l'Operating Agreement i notificació a l'IRS), però es fa. És més net que dissoldre i reconstituir, que trenca l'historial.
 

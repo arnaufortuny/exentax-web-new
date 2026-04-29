@@ -131,7 +131,7 @@ Passos típics d'una regularització:
 5. **Reordenació bancària i operativa** per no seguir generant errors
 6. **Coordinació amb el teu assessor local** per alinear declaracions
 
-A Exentax acompanyem persones que vénen de gestories genèriques o de serveis "low cost" de constitució que no incloïen gestió real. No jutgem: ordenem. Més detalls sobre el <a href="/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar">manteniment anual real d'una LLC</a> i sobre la diferència entre <a href="/ca/blog/resident-eua-vs-no-resident-llc-les-diferencies-fiscals-clau">resident i no resident</a> a efectes de LLC.
+A Exentax acompanyem persones que vénen de gestories genèriques o de serveis de constitució "barats" que no incloïen gestió real. No jutgem: ordenem. Més detalls sobre el <a href="/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar">manteniment anual real d'una LLC</a> i sobre la diferència entre <a href="/ca/blog/resident-eua-vs-no-resident-llc-les-diferencies-fiscals-clau">resident i no resident</a> a efectes de LLC.
 ### Què hauries d'endur-te d'aquest article
 
 Tenir una LLC no és el mateix que tenir-la ben gestionada. La diferència es mesura en sancions evitables, fricció innecessària amb Hisenda i oportunitats d'optimització perdudes.

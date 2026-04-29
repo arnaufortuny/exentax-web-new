@@ -131,7 +131,7 @@ D'abord: **ne paniquez pas et ne laissez pas filer le temps**. La majorité des 
 5. **Réorganisation bancaire et opérationnelle** pour cesser d'accumuler des erreurs
 6. **Coordination avec votre conseiller local** pour aligner vos déclarations
 
-Chez Exentax, nous accompagnons des personnes venant de cabinets génériques ou de services "low cost" de constitution qui n'incluaient pas de gestion réelle. Nous ne jugeons pas, nous remettons en ordre. Plus de détails sur <a href="/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas">la maintenance annuelle réelle d'une LLC</a> et sur la différence entre <a href="/fr/blog/resident-vs-non-resident-aux-usa-les-differences-fiscales">résident et non-résident</a> du point de vue de la LLC.
+Chez Exentax, nous accompagnons des personnes venant de cabinets génériques ou de services de constitution "à bas coût" qui n'incluaient pas de gestion réelle. Nous ne jugeons pas, nous remettons en ordre. Plus de détails sur <a href="/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas">la maintenance annuelle réelle d'une LLC</a> et sur la différence entre <a href="/fr/blog/resident-vs-non-resident-aux-usa-les-differences-fiscales">résident et non-résident</a> du point de vue de la LLC.
 ### Ce que vous devez retenir
 
 Avoir une LLC n'est pas la même chose que l'avoir bien gérée. La différence se mesure en sanctions évitables, en stress avec votre administration fiscale et en opportunités d'optimisation manquées.

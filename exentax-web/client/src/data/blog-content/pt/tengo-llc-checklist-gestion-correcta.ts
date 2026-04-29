@@ -131,7 +131,7 @@ Passos típicos de uma regularização:
 5. **Reorganização bancária e operacional** para não continuar a gerar erros
 6. **Coordenação com o seu consultor local** para alinhar declarações
 
-Na Exentax acompanhamos pessoas que vêm de gabinetes genéricos ou de serviços "low cost" de constituição que não incluíam gestão real. Não julgamos: organizamos. Mais detalhe sobre a <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual real de uma LLC</a> e a diferença entre <a href="/pt/blog/residente-eua-vs-nao-residente-llc-as-diferencas-fiscais">residente e não residente</a> para efeitos de LLC.
+Na Exentax acompanhamos pessoas que vêm de gabinetes genéricos ou de serviços de constituição "baratos" que não incluíam gestão real. Não julgamos: organizamos. Mais detalhe sobre a <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual real de uma LLC</a> e a diferença entre <a href="/pt/blog/residente-eua-vs-nao-residente-llc-as-diferencas-fiscais">residente e não residente</a> para efeitos de LLC.
 ## O que deve levar deste artigo
 
 Ter uma LLC não é o mesmo que tê-la bem gerida. A diferença mede-se em sanções evitáveis, fricção desnecessária com a Autoridade Tributária e oportunidades de optimização perdidas.

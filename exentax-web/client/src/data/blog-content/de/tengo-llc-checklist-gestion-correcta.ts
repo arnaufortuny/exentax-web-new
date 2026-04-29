@@ -131,7 +131,7 @@ Typische Schritte einer Bereinigung:
 5. **Bank- und Operations-Reorganisation**, um keine neuen Fehler zu erzeugen
 6. **Koordination mit Ihrem lokalen Berater**, um lokale Erklärungen anzugleichen
 
-Bei Exentax begleiten wir Personen aus generischen Kanzleien oder "Low-Cost"-Gründungsdiensten ohne reale laufende Verwaltung. Wir urteilen nicht, wir ordnen. Mehr zur <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren">tatsächlichen jährlichen Pflege einer LLC</a> und zum Unterschied zwischen <a href="/de/blog/us-resident-vs-nicht-resident-llc-die-wichtigsten">US-Resident und Nicht-Resident</a>.
+Bei Exentax begleiten wir Personen aus generischen Kanzleien oder Billig-Gründungsdiensten ohne reale laufende Verwaltung. Wir urteilen nicht, wir ordnen. Mehr zur <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren">tatsächlichen jährlichen Pflege einer LLC</a> und zum Unterschied zwischen <a href="/de/blog/us-resident-vs-nicht-resident-llc-die-wichtigsten">US-Resident und Nicht-Resident</a>.
 ### Was Sie aus diesem Artikel mitnehmen sollten
 
 Eine LLC zu haben ist nicht dasselbe, wie sie gut zu führen. Die Differenz misst sich in vermeidbaren Sanktionen, Stress mit Behörden und verlorenen Optimierungschancen.

@@ -231,7 +231,7 @@ Cada situação fiscal depende da sua residência, da actividade exercida e dos 
 
 **Pillar Two da OCDE encarece a LLC?** Não para LLC unipessoais com facturação normal. GloBE aplica-se apenas a grupos consolidados ≥ 750 M EUR.
 
-**Quanto tempo demora realmente a constituição de ponta a ponta?** O filing ao Secretary of State do Novo México ou do Wyoming resolve-se em 24-72 horas úteis; Delaware em 24-48 horas com expedição paga. O EIN demora 7-15 dias úteis por fax junto do IRS se tiver ITIN, e 4-8 semanas se só apresentar passaporte. A conta bancária na Mercury ou Relay abre-se normalmente em 5-10 dias úteis após o EIN. Realista: a sua LLC operacional com conta bancária activa em **3-5 semanas**, não em 24 horas como prometem os serviços low-cost.
+**Quanto tempo demora realmente a constituição de ponta a ponta?** O filing ao Secretary of State do Novo México ou do Wyoming resolve-se em 24-72 horas úteis; Delaware em 24-48 horas com expedição paga. O EIN demora 7-15 dias úteis por fax junto do IRS se tiver ITIN, e 4-8 semanas se só apresentar passaporte. A conta bancária na Mercury ou Relay abre-se normalmente em 5-10 dias úteis após o EIN. Realista: a sua LLC operacional com conta bancária activa em **3-5 semanas**, não em 24 horas como prometem os serviços baratos.
 
 **Posso mudar de Wyoming para Novo México (ou ao contrário) se me arrepender?** Sim, via *domestication* ou *conversion*: a LLC migra de estado mantendo o EIN, o histórico bancário e os contratos. Não é trivial (filings nos dois estados, actualização do Operating Agreement e notificação ao IRS), mas é viável. É bem mais limpo do que dissolver e reconstituir, o que parte o histórico.
 
