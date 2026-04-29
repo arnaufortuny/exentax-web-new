@@ -99,6 +99,44 @@ function leadsWithDigit(text) {
 }
 
 /**
+ * Task #41 — "awkward-numeric-opener" rule for previews.
+ *
+ * After LOTE 38 prepended a digit-led opener to every preview snippet, a
+ * subset of localized entries ended up with a bare 4-digit YEAR followed by
+ * a period and a fragment that no longer references the year (e.g. "1970.
+ * What your bank reports..."). On a SERP/social card this reads as a
+ * dangling label rather than a sentence.
+ *
+ * This rule flags meta/social/og previews whose first sentence (as recovered
+ * by `firstSentence` above) is JUST a bare year in the 1900-2099 range, with
+ * no accompanying noun/clause. The existing strict "must lead with digit"
+ * rule (`leadsWithDigit`) is preserved untouched; this rule is additive.
+ *
+ * Spanish (master) is intentionally exempt — Task #41 explicitly forbids
+ * touching `client/src/data/blog-posts.ts` (the master copy). The rewrite
+ * lives in `client/src/data/blog-i18n/{en,fr,de,pt,ca}.ts`.
+ *
+ * `excerpt` is NOT in scope for this rule (the LOTE 38 numeric-hook anchor
+ * is allowed to ride at the very head of the article teaser); only the
+ * SERP/social copy fields are audited. Excerpt is still covered by the
+ * strict-leads-with-digit invariant above.
+ */
+const AWKWARD_NUMERIC_OPENER_FIELDS = new Set([
+  "metaDescription",
+  "socialDescription",
+  "ogDescription",
+]);
+const AWKWARD_NUMERIC_OPENER_LANG_EXEMPT = new Set(["es"]);
+
+function isAwkwardNumericOpener(text) {
+  if (typeof text !== "string") return false;
+  const first = firstSentence(text);
+  if (!first) return false;
+  const inner = first.replace(/[.!?]+$/u, "").trim();
+  return /^(19|20)\d{2}$/.test(inner);
+}
+
+/**
  * Parse the Spanish blog-posts.ts. We extract per-slug objects by walking
  * `slug: "..."` markers and grabbing the surrounding object literal text.
  * We then read the small set of string fields we care about with a regex.
@@ -164,7 +202,9 @@ function parseI18nFile(filePath) {
 }
 
 const offenders = [];
+const awkwardOffenders = [];
 let totalChecks = 0;
+let awkwardChecks = 0;
 
 function audit(lang, slug, fields) {
   for (const f of FIELDS) {
@@ -173,6 +213,22 @@ function audit(lang, slug, fields) {
     totalChecks++;
     if (!leadsWithDigit(v)) {
       offenders.push({ lang, slug, field: f, sentence: v.slice(0, 80) });
+    }
+    // Task #41 — awkward-numeric-opener (additive). Only checks meta/social/og,
+    // and skips ES (master is exempt per task scope).
+    if (
+      AWKWARD_NUMERIC_OPENER_FIELDS.has(f) &&
+      !AWKWARD_NUMERIC_OPENER_LANG_EXEMPT.has(lang)
+    ) {
+      awkwardChecks++;
+      if (isAwkwardNumericOpener(v)) {
+        awkwardOffenders.push({
+          lang,
+          slug,
+          field: f,
+          sentence: v.slice(0, 100),
+        });
+      }
     }
   }
 }
@@ -203,11 +259,31 @@ for (const o of offenders) {
 console.log("By language:", JSON.stringify(byLang));
 console.log("By field:   ", JSON.stringify(byField));
 
+console.log(
+  `\nAwkward-numeric-opener checks (meta/social/og, ES exempt): ${awkwardChecks}`,
+);
+console.log(`Awkward-numeric-opener offenders:                     ${awkwardOffenders.length}`);
+const awkByLang = {};
+const awkByField = {};
+for (const o of awkwardOffenders) {
+  awkByLang[o.lang] = (awkByLang[o.lang] || 0) + 1;
+  awkByField[o.field] = (awkByField[o.field] || 0) + 1;
+}
+if (awkwardOffenders.length > 0) {
+  console.log("Awkward by language:", JSON.stringify(awkByLang));
+  console.log("Awkward by field:   ", JSON.stringify(awkByField));
+}
+
 if (wantList) {
   for (const o of offenders) {
-    console.log(`\n[${o.lang}/${o.slug}] ${o.field}`);
+    console.log(`\n[no-digit-lead | ${o.lang}/${o.slug}] ${o.field}`);
+    console.log(`  ${o.sentence}`);
+  }
+  for (const o of awkwardOffenders) {
+    console.log(`\n[awkward-numeric-opener | ${o.lang}/${o.slug}] ${o.field}`);
     console.log(`  ${o.sentence}`);
   }
 }
 
-process.exit(offenders.length > 0 ? 1 : 0);
+const failed = offenders.length > 0 || awkwardOffenders.length > 0;
+process.exit(failed ? 1 : 0);
