@@ -1,6 +1,6 @@
 export default `
 
-Las 15 acciones BEPS de la OCDE, lanzadas en 2015 y reforzadas con BEPS 2.0 en 2024, han desactivado el 80 % de las estructuras offshore que funcionaban hace una década.
+Las 15 acciones BEPS de la OCDE, con BEPS 2.0 ya en despliegue, han desactivado cerca del 80 % de las estructuras offshore que funcionaban hace una década.
 
 La palabra "offshore" arrastra un peso enorme: para algunos significa libertad financiera y planificación inteligente, para otros evasión y opacidad. La realidad es más prosaica. Una estructura offshore no es ilegal por definición ni mágica por sí sola: es simplemente una sociedad o conjunto de sociedades constituidas en una jurisdicción distinta de aquella donde reside el propietario. Lo que la convierte en buena o mala idea es cómo se usa, qué se declara y qué riesgos se asumen.
 

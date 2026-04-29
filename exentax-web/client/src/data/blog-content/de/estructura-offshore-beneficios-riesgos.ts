@@ -1,4 +1,4 @@
-export default `Die 15 BEPS-Aktionen der OECD, 2015 gestartet und 2024 mit BEPS 2.0 verstärkt, haben rund 80 % der Offshore-Strukturen ausgehebelt, die vor zehn Jahren funktionierten.
+export default `Die 15 BEPS-Aktionen der OECD, mit BEPS 2.0 inzwischen im Rollout, haben rund 80 % der Offshore-Strukturen ausgehebelt, die vor zehn Jahren funktionierten.
 
 Das Wort "offshore" trägt eine schwere Last: Für die einen bedeutet es finanzielle Freiheit und kluge Planung, für die anderen Hinterziehung und Opazität. Die Realität ist nüchterner. Eine Offshore-Struktur ist weder per Definition illegal noch an sich magisch: Sie ist schlicht eine Gesellschaft oder eine Reihe von Gesellschaften, die in einer anderen Jurisdiktion gegründet wurden als der Wohnsitzstaat des Eigentümers. Was sie zu einer guten oder schlechten Idee macht, ist die Nutzung, die Erklärung und die übernommenen Risiken.
 
