@@ -1680,19 +1680,10 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL }
       ]
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": BRAND_NAME,
-      "url": BASE_URL,
-      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": `${BASE_URL}/blog?q={search_term_string}`,
-        "query-input": "required name=search_term_string"
-      }
-    }
+    // WebSite is intentionally NOT redeclared here — the canonical WebSite
+    // node lives in `client/index.html` (id `#website`) with publisher →
+    // /#organization and a SearchAction. Keeping a single WebSite node on
+    // the home page (LOTE 8 dedupe) prevents ambiguous entity graphs.
   ],
   "about_llc": [
     {
@@ -1709,8 +1700,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "LLC en Estados Unidos para no residentes: Guía completa 2026",
       "description": "Todo lo que necesitas saber sobre LLC en EE.UU.: ventajas fiscales, mejores estados, proceso de constitución paso a paso y obligaciones fiscales anuales.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/es/sobre-las-llc`,
@@ -1845,7 +1836,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "ProfessionalService",
       "name": "Exentax: Constitución y gestión de LLC en EE.UU.",
       "description": "Servicio integral de constitución de LLC en Estados Unidos para autónomos, freelancers y emprendedores digitales. Incluye EIN, Operating Agreement, cuenta bancaria Mercury, compliance fiscal y soporte continuo.",
-      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
       "serviceType": "Constitución y gestión de LLC",
       "areaServed": "Worldwide",
       "hasOfferCatalog": {
@@ -1884,7 +1875,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Service",
       "name": "Asesoría Fiscal Estratégica: 30 Minutos",
       "description": "Videollamada de 30 minutos con un asesor fiscal de Exentax. Analizamos tu situación fiscal y te indicamos si una LLC en Estados Unidos es la mejor opción para tu negocio.",
-      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
       "serviceType": "Asesoría fiscal",
       "areaServed": [
         { "@type": "Country", "name": "España" },
@@ -1924,7 +1915,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "name": "Blog: Fiscalidad internacional y LLC en Estados Unidos",
       "description": "Artículos sobre optimización fiscal, LLC en Estados Unidos, compliance y estrategias legales para freelancers y emprendedores digitales.",
       "url": `${BASE_URL}/blog`,
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
       "inLanguage": "es"
     }
   ],
@@ -1944,8 +1935,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "LLC en Estados Unidos: guía completa para no residentes en 2026",
       "description": "Guía completa para constituir una LLC en EE.UU. siendo extranjero. Estados, costes, fiscalidad, errores frecuentes y cómo elegir la mejor opción.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/llc-estados-unidos-guia-completa-2026`,
@@ -1970,8 +1961,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Form 5472: qué es y cómo presentarlo correctamente",
       "description": "El Form 5472 es obligatorio para LLCs con dueños extranjeros. Aprende qué transacciones reportar, plazos de presentación y cómo cumplir sin complicaciones.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/form-5472-que-es-como-presentarlo`,
@@ -1996,8 +1987,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Nuevo México vs Wyoming vs Delaware: qué estado elegir para tu LLC",
       "description": "Comparativa completa de los 4 mejores estados (Nuevo México, Wyoming, Delaware y Florida) para constituir una LLC como no residente. Costes, privacidad, burocracia y para quién encaja cada uno.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/nuevo-mexico-vs-wyoming-vs-delaware`,
       "inLanguage": "es",
@@ -2021,8 +2012,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso",
       "description": "El EIN es el número fiscal que el IRS asigna a tu LLC. Aprende cómo obtenerlo paso a paso siendo no residente, plazos, coste y errores frecuentes.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/ein-numero-fiscal-llc-como-obtenerlo`,
       "inLanguage": "es",
@@ -2046,8 +2037,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Cómo abrir una cuenta Mercury para tu LLC desde cualquier país",
       "description": "Guía paso a paso para abrir una cuenta bancaria en Mercury con tu LLC americana siendo no residente. Requisitos, plazos, documentos y alternativas.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/cuenta-bancaria-mercury-llc-extranjero`,
       "inLanguage": "es",
@@ -2071,8 +2062,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Autónomo en España vs LLC en EE.UU.: comparativa fiscal completa",
       "description": "Comparamos la carga fiscal de un autónomo en España (30-40%) con una LLC en Estados Unidos (hasta 0%). Números reales, ventajas y para quién tiene sentido.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/autonomo-espana-vs-llc-estados-unidos`,
       "inLanguage": "es",
@@ -2096,8 +2087,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Impuestos si tienes clientes internacionales en España: lo que nadie te cuenta",
       "description": "Si facturas a clientes internacionales desde España, puedes reducir tu carga fiscal del 40% hasta un 0% legalmente. IVA, fiscalidad internacional y LLC explicados.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/impuestos-clientes-internacionales-espana`,
@@ -2122,8 +2113,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "¿Se puede pagar 0% de impuestos legalmente? La verdad sobre la optimización fiscal",
       "description": "¿Es posible pagar cero impuestos de forma legal? Analizamos los 3 escenarios reales: LLC + residencia fiscal en país sin IRPF, Ley Beckham y régimen territorial.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/pagar-cero-impuestos-legalmente-llc`,
       "inLanguage": "es",
@@ -2147,8 +2138,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Nómada digital: dónde tributar y cómo elegir tu residencia fiscal",
       "description": "Guía fiscal para nómadas digitales: regla de los 183 días, mejores países para tributar y cómo cambiar tu residencia fiscal.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/nomada-digital-residencia-fiscal`,
       "inLanguage": "es",
@@ -2172,8 +2163,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Criptomonedas y trading con LLC: fiscalidad completa para traders",
       "description": "Fiscalidad completa para traders de criptomonedas. Cómo tributar en España, ventajas de operar con LLC, Modelo 721, setup ideal y errores frecuentes.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/criptomonedas-trading-llc-impuestos`,
       "inLanguage": "es",
@@ -2197,8 +2188,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "IVA en servicios digitales internacionales: cuándo aplica y cuándo no",
       "description": "Cuándo cobrar IVA en servicios digitales a clientes internacionales. Reglas B2B/B2C, operaciones intracomunitarias, Modelo 303/349, OSS.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/iva-servicios-digitales-internacional`,
       "inLanguage": "es",
@@ -2222,8 +2213,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Registered Agent: qué es y por qué es obligatorio para tu LLC",
       "description": "El Registered Agent es obligatorio para tu LLC. Qué hace, cuánto cuesta, qué pasa sin él y cómo elegir el mejor servicio.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/registered-agent-que-es-por-que-necesitas`,
       "inLanguage": "es",
@@ -2247,8 +2238,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "7 errores fiscales que cometen los freelancers españoles (y cómo evitarlos)",
       "description": "Los 7 errores fiscales más costosos que cometen los freelancers en España. Deducciones, IVA internacional, pagos fraccionados y cómo evitar perder hasta 30.000€/año.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/errores-fiscales-freelancers-espanoles`,
       "inLanguage": "es",
@@ -2262,7 +2253,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Cómo operar tu LLC", "item": `${BASE_URL}/blog/como-operar-llc-dia-a-dia` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo operar tu LLC en el día a día: guía práctica", "description": "Guía práctica para operar tu LLC americana: facturación, cobros, gastos, retiros y contabilidad.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/como-operar-llc-dia-a-dia`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo operar tu LLC en el día a día: guía práctica", "description": "Guía práctica para operar tu LLC americana: facturación, cobros, gastos, retiros y contabilidad.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/como-operar-llc-dia-a-dia`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1100 }
   ],
   "/blog/operating-agreement-llc-que-es": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2270,7 +2261,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Operating Agreement LLC", "item": `${BASE_URL}/blog/operating-agreement-llc-que-es` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Operating Agreement: qué es y por qué tu LLC lo necesita", "description": "El Operating Agreement define las reglas internas de tu LLC. Qué incluye, por qué es imprescindible y cuándo actualizarlo.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/operating-agreement-llc-que-es`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Operating Agreement: qué es y por qué tu LLC lo necesita", "description": "El Operating Agreement define las reglas internas de tu LLC. Qué incluye, por qué es imprescindible y cuándo actualizarlo.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/operating-agreement-llc-que-es`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/documentos-llc-cuales-necesitas": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2278,7 +2269,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Documentos de tu LLC", "item": `${BASE_URL}/blog/documentos-llc-cuales-necesitas` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno", "description": "Articles of Organization, EIN, Operating Agreement, BOI Report... Todos los documentos de tu LLC explicados.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/documentos-llc-cuales-necesitas`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno", "description": "Articles of Organization, EIN, Operating Agreement, BOI Report... Todos los documentos de tu LLC explicados.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/documentos-llc-cuales-necesitas`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/mantenimiento-anual-llc-obligaciones": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2286,7 +2277,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Mantenimiento anual LLC", "item": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes", "description": "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes", "description": "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1200 }
   ],
   "/blog/wise-business-llc-guia": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2294,7 +2285,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Wise Business LLC", "item": `${BASE_URL}/blog/wise-business-llc-guia` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Wise Business para tu LLC: guía completa", "description": "Wise Business para tu LLC: recibir pagos en múltiples divisas, convertir moneda y enviar dinero.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/wise-business-llc-guia`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Wise Business para tu LLC: guía completa", "description": "Wise Business para tu LLC: recibir pagos en múltiples divisas, convertir moneda y enviar dinero.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/wise-business-llc-guia`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1000 }
   ],
   "/blog/pasarelas-pago-llc-stripe-paypal-dodo": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2302,7 +2293,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Pasarelas de pago LLC", "item": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas", "description": "Compara Stripe, PayPal y Dodo Payments para tu LLC americana.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas", "description": "Compara Stripe, PayPal y Dodo Payments para tu LLC americana.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
   ],
   "/blog/amazon-ecommerce-llc-vender-online": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2310,7 +2301,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Amazon y ecommerce con LLC", "item": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Amazon y ecommerce con LLC: cómo vender online desde cualquier país", "description": "Vende en Amazon, Shopify y Etsy con tu LLC americana sin restricciones.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Amazon y ecommerce con LLC: cómo vender online desde cualquier país", "description": "Vende en Amazon, Shopify y Etsy con tu LLC americana sin restricciones.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/gastos-deducibles-llc-que-puedes-deducir": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2318,7 +2309,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Gastos deducibles LLC", "item": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir", "description": "Guía completa de gastos deducibles en tu LLC: tecnología, servicios, marketing, viajes, formación.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir", "description": "Guía completa de gastos deducibles en tu LLC: tecnología, servicios, marketing, viajes, formación.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
   ],
   "/blog/residentes-no-residentes-llc-diferencias": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2326,7 +2317,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Residentes vs no residentes LLC", "item": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC para residentes y no residentes de EE.UU.: diferencias clave", "description": "Las diferencias fiscales entre tener una LLC como residente y no residente de EE.UU.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC para residentes y no residentes de EE.UU.: diferencias clave", "description": "Las diferencias fiscales entre tener una LLC como residente y no residente de EE.UU.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
   ],
   "/blog/cambiar-divisas-llc-mejores-opciones": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2334,7 +2325,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Cambiar divisas LLC", "item": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo cambiar divisas en tu LLC: las mejores opciones", "description": "Compara Wise, Mercury, bancos tradicionales y PayPal para cambiar divisas en tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo cambiar divisas en tu LLC: las mejores opciones", "description": "Compara Wise, Mercury, bancos tradicionales y PayPal para cambiar divisas en tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/constituir-llc-proceso-paso-a-paso": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2342,7 +2333,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Constituir LLC paso a paso", "item": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Constituir tu LLC: el proceso paso a paso", "description": "El proceso completo para constituir una LLC americana como no residente: elegir estado, nombre, Registered Agent, EIN, cuenta bancaria.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Constituir tu LLC: el proceso paso a paso", "description": "El proceso completo para constituir una LLC americana como no residente: elegir estado, nombre, Registered Agent, EIN, cuenta bancaria.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
   "/blog/autonomos-espana-por-que-dejar-de-serlo": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2350,7 +2341,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Dejar de ser autónomo en España", "item": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Por qué dejar de ser autónomo en España (y qué alternativas tienes)", "description": "Si eres autónomo en España y facturas al extranjero, puedes estar pagando hasta un 47%. Hay alternativas legales como la LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Por qué dejar de ser autónomo en España (y qué alternativas tienes)", "description": "Si eres autónomo en España y facturas al extranjero, puedes estar pagando hasta un 47%. Hay alternativas legales como la LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
   ],
   "/blog/bancos-vs-fintech-llc-donde-abrir-cuenta": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2358,7 +2349,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Bancos vs Fintech para LLC", "item": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC", "description": "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC", "description": "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
   ],
   "/blog/tiempos-pagos-ach-wire-transfer": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2366,7 +2357,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Tiempos ACH y Wire Transfer", "item": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales", "description": "Tiempos reales de pago: ACH (1-3 días), Wire doméstico (horas), Wire internacional (1-5 días), Wise (1-2 días).", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales", "description": "Tiempos reales de pago: ACH (1-3 días), Wire doméstico (horas), Wire internacional (1-5 días), Wise (1-2 días).", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/iban-swift-routing-number-que-son": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2374,7 +2365,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "IBAN, SWIFT y Routing Number", "item": `${BASE_URL}/blog/iban-swift-routing-number-que-son` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos", "description": "IBAN, SWIFT/BIC y Routing Number explicados: qué son, cuándo usar cada uno, qué datos dar a clientes.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/iban-swift-routing-number-que-son`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos", "description": "IBAN, SWIFT/BIC y Routing Number explicados: qué son, cuándo usar cada uno, qué datos dar a clientes.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/iban-swift-routing-number-que-son`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/cuanto-cuesta-constituir-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2382,7 +2373,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Cuánto cuesta constituir LLC", "item": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto cuesta constituir una LLC? Costes reales", "description": "Costes reales de constituir una LLC en Nuevo México, Wyoming, Delaware y Florida. Filing fees, Registered Agent, EIN, mantenimiento anual.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto cuesta constituir una LLC? Costes reales", "description": "Costes reales de constituir una LLC en Nuevo México, Wyoming, Delaware y Florida. Filing fees, Registered Agent, EIN, mantenimiento anual.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
   "/blog/ventajas-desventajas-llc-no-residentes": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2390,7 +2381,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Ventajas y desventajas LLC", "item": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros", "description": "Las ventajas reales (fiscalidad, protección, banca) y las desventajas reales (costes, compliance, complejidad) de una LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes`, "inLanguage": "es", "articleSection": "Comparativas", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros", "description": "Las ventajas reales (fiscalidad, protección, banca) y las desventajas reales (costes, compliance, complejidad) de una LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes`, "inLanguage": "es", "articleSection": "Comparativas", "wordCount": 1200 }
   ],
   "/blog/evitar-bloqueos-mercury-wise-revolut": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2398,7 +2389,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Evitar bloqueos Mercury Wise Revolut", "item": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo evitar bloqueos en Mercury, Wise y Revolut Business", "description": "Por qué bloquean cuentas de LLC en Mercury, Wise y Revolut. Cómo prevenirlo y qué hacer si te bloquean.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo evitar bloqueos en Mercury, Wise y Revolut Business", "description": "Por qué bloquean cuentas de LLC en Mercury, Wise y Revolut. Cómo prevenirlo y qué hacer si te bloquean.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1200 }
   ],
   "/blog/que-es-irs-guia-duenos-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2406,7 +2397,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Qué es el IRS", "item": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el IRS? Guía completa para dueños de LLC", "description": "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el IRS? Guía completa para dueños de LLC", "description": "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
   ],
   "/blog/llc-seguridad-juridica-proteccion-patrimonial": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2414,7 +2405,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "LLC seguridad jurídica", "item": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
 
   // Service subpages — one Service schema each. All five delegate the UI to

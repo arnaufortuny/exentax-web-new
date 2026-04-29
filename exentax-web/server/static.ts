@@ -83,6 +83,22 @@ const HREFLANG_STRIP_RE = new RegExp(
 // `server/server-constants.ts::HREFLANG_BCP47`. Re-imported above so
 // `injectMeta` cannot drift from the sitemap generator or the dev middleware.
 
+// Facebook Open Graph locale codes (underscore form, e.g. `es_ES`). One per
+// supported language. Used to rewrite the hardcoded `og:locale` shipped in
+// `client/index.html` and to emit exactly five `og:locale:alternate` tags per
+// page (the five non-current supported languages). Validated by
+// `scripts/seo/lote8-schema-og-validate.mjs`.
+const FB_OG_LOCALE: Record<SupportedLang, string> = {
+  es: "es_ES",
+  en: "en_US",
+  fr: "fr_FR",
+  de: "de_DE",
+  pt: "pt_PT",
+  ca: "ca_ES",
+};
+const OG_LOCALE_STRIP_RE =
+  /\s*<meta property="og:locale(?::alternate)?" content="[^"]*"\s*\/?>(?:\r?\n)?/g;
+
 const ARTICLE_META_I18N: Record<SupportedLang, { section: string; tagLLC: string; tagOptimization: string; tagFreelancers: string }> = {
   es: { section: "Fiscalidad Internacional", tagLLC: "LLC Estados Unidos", tagOptimization: "Optimización Fiscal", tagFreelancers: "Freelancers" },
   en: { section: "International Taxation", tagLLC: "LLC United States", tagOptimization: "Tax Optimization", tagFreelancers: "Freelancers" },
@@ -192,6 +208,29 @@ export function injectMeta(html: string, reqPath: string): string {
     /<meta property="og:url" content="[^"]*"/,
     `<meta property="og:url" content="${meta.canonical}"`
   );
+
+  // OG locale rewrite — replaces the hardcoded es_ES + 8 alternates that
+  // ship in `client/index.html` with the canonical 6-language matrix
+  // (one og:locale + five og:locale:alternate). Resolved language uses
+  // the same routeKey/lang resolution as the JSON-LD pipeline below.
+  {
+    const ogResolved = resolveServerRoute(cleanPath);
+    const ogLang: SupportedLang =
+      (ogResolved?.lang as SupportedLang | undefined) ??
+      ((cleanPath.match(/^\/(es|en|fr|de|pt|ca)(?:\/|$)/)?.[1] as SupportedLang | undefined)) ??
+      "es";
+    const localeTag = `<meta property="og:locale" content="${FB_OG_LOCALE[ogLang]}" />`;
+    const altTags = (SUPPORTED_LANGS as readonly string[])
+      .filter((l) => l !== ogLang)
+      .map((l) => `<meta property="og:locale:alternate" content="${FB_OG_LOCALE[l as SupportedLang]}" />`)
+      .join("\n    ");
+    html = html.replace(OG_LOCALE_STRIP_RE, "");
+    html = html.replace(
+      "</head>",
+      `    ${localeTag}\n    ${altTags}\n  </head>`,
+    );
+  }
+
   html = html.replace(
     /<meta name="twitter:title" content="[^"]*"/,
     `<meta name="twitter:title" content="${meta.title}"`
@@ -378,18 +417,11 @@ export function injectMeta(html: string, reqPath: string): string {
         "availableLanguage": ["Spanish", "English", "French", "German", "Portuguese", "Catalan"]
       }
     });
-    // WebSite schema — identifies the site to search engines and clusters
-    // language alternates. We intentionally do not claim a SearchAction /
-    // sitelinks-search-box because the blog does not yet implement a
-    // query-param-driven search endpoint; asserting it would be misleading.
-    allJsonLd.push({
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": BRAND_NAME,
-      "url": BASE_URL,
-      "inLanguage": [prerenderLang, ...SUPPORTED_LANGS.filter(l => l !== prerenderLang)],
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-    });
+    // WebSite schema is intentionally NOT emitted dynamically here: the
+    // static block in `client/index.html` (id `#website`) already declares
+    // publisher → /#organization and a SearchAction. Emitting another
+    // WebSite would create two nodes with the same role on the home page,
+    // which is valid JSON-LD but ambiguous for crawlers (LOTE 8 dedupe).
   }
 
   // Task #14 (GEO): prefer the per-language schema bucket when present,
@@ -401,6 +433,26 @@ export function injectMeta(html: string, reqPath: string): string {
     const i18nBucket = PAGE_SCHEMAS_I18N[routeKey];
     pageSchemas = (i18nBucket?.[prerenderLang as SupportedLang] as JsonLdSchema[] | undefined)
       ?? (PAGE_SCHEMAS[routeKey] as JsonLdSchema[] | undefined);
+  }
+  if (!pageSchemas) {
+    const blogIndexMatch = cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/);
+    if (blogIndexMatch || cleanPath === "/blog") {
+      const idxLang = (blogIndexMatch?.[1] || "es") as SupportedLang;
+      const homeLabel =
+        idxLang === "es" ? "Inicio" : idxLang === "en" ? "Home" :
+        idxLang === "fr" ? "Accueil" : idxLang === "de" ? "Startseite" :
+        idxLang === "pt" ? "Início" : "Inici";
+      pageSchemas = [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": homeLabel, "item": `${BASE_URL}/${idxLang}` },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/${idxLang}/blog` },
+          ],
+        },
+      ];
+    }
   }
   if (!pageSchemas && isBlogArticle && blogSlug) {
     const post = BLOG_POSTS.find(p => p.slug === blogSlug);
@@ -425,8 +477,8 @@ export function injectMeta(html: string, reqPath: string): string {
           "headline": (blogLang !== "es" && BLOG_I18N[post.slug]?.[blogLang]?.title) || post.title,
           "description": (blogLang !== "es" && BLOG_I18N[post.slug]?.[blogLang]?.metaDescription) || post.metaDescription || post.excerpt,
           "image": `${BASE_URL}/og-image.png`,
-          "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-          "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+          "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+          "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
           "datePublished": publishedTime,
           "dateModified": modifiedTime,
           "mainEntityOfPage": articleUrl,
