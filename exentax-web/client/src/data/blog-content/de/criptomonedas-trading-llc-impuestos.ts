@@ -13,7 +13,7 @@ In Deutschland werden Gewinne aus Kryptowährungen als private Veräußerungsges
 - Mehr als 300.000€: **28%**
 
 Dies gilt für jede Transaktion, die einen Gewinn erzeugt: Verkauf von Krypto gegen Fiat, Tausch zwischen Kryptowährungen (Swap), Bezahlung von Waren oder Dienstleistungen mit Krypto und Staking Rewards.
-## Das Modelo 721: Meldung von Kryptoassets im Ausland Seit der jüngsten Reform müssen Sie, wenn Sie Kryptowährungen an Börsen außerhalb Spaniens im Wert von mehr als **50.000€ zum 31. Dezember** halten, das Modelo 721 bis zum 31. März des Folgejahres einreichen. Die Nichtabgabe kann erhebliche Sanktionen nach sich ziehen. Für deutsche Steuerpflichtige gelten vergleichbare Meldepflichten im Rahmen der Anlage SO und gegebenenfalls der Anlage KAP. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
+## Das Modelo 721: Meldung von Kryptoassets im Ausland Seit der jüngsten Reform müssen Sie, wenn Sie Kryptowährungen an Börsen außerhalb Spaniens im Wert von mehr als **50.000€ zum 31. Dezember** halten, das Modelo 721 bis zum 31. März des Folgejahres einreichen. Die Nichtabgabe kann erhebliche Sanktionen nach sich ziehen. Für deutsche Steuerpflichtige gelten vergleichbare Meldepflichten im Rahmen der Anlage SO und gegebenenfalls der Anlage KAP. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart Ihnen fünf Stellen.
 ## Wie hilft eine LLC beim Kryptowährungshandel?
 
 ### Vorteile des Tradings über eine LLC
@@ -43,7 +43,7 @@ Die Single-Member LLC eines Nicht-Residenten (Disregarded Entity) zahlt keine Bu
 2. **Airdrops und Staking Rewards ignorieren.** Sie haben im Moment des Empfangs einen Wert und werden als Einkommen besteuert.
 3. **Keine Aufzeichnung der Anschaffungspreise führen.** Ohne eine Kaufhistorie können Sie Gewinne/Verluste nicht korrekt berechnen.
 4. **Glauben, dass DeFi für die Finanzbehörden "unsichtbar" ist.** Blockchain-Transaktionen sind öffentlich und nachverfolgbar. Die Analysetools, die die Finanzbehörden verwenden, werden immer ausgefeilter.
-5. **Die Meldepflichten für Kryptoassets im Ausland nicht erfüllen.** Wenn Sie mehr als 50.000€ in Krypto an ausländischen Börsen halten, zieht die Nichtmeldung Sanktionen nach sich. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
+5. **Die Meldepflichten für Kryptoassets im Ausland nicht erfüllen.** Wenn Sie mehr als 50.000€ in Krypto an ausländischen Börsen halten, zieht die Nichtmeldung Sanktionen nach sich. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt Ihre Antwort bereits fertig.
 ### Zusätzliche Vorteile der LLC für Trader
 
 - **Zugang zu US-Dollar-Bankkonten**: Mercury ermöglicht es Ihnen, Gelder ohne Überweisungsgebühren zu empfangen und zu senden ($0 für internationale und inländische Überweisungen), Ihre Gelder werden bei den Partnerbanken von Mercury (Choice Financial Group / Evolve Bank & Trust) mit FDIC-Versicherung über Sweep-Netzwerk bis $250K verwahrt.

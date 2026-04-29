@@ -113,7 +113,7 @@ Nur bei offenen Altsachverhalten. Für Zukunftsplanung sind Amnestien kein Werkz
 
 **Lohnt sich Beratung vor dem Handeln?**
 
-Immer. Eine Stunde professioneller Beratung vor der Gründung spart Jahre an Problemen und Tausende Euro an Strafen. Anfangsstrukturfehler sind die teuersten und am schwersten zu korrigieren. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
+Immer. Eine Stunde professioneller Beratung vor der Gründung spart Jahre an Problemen und Tausende Euro an Strafen. Anfangsstrukturfehler sind die teuersten und am schwersten zu korrigieren. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt Ihre Antwort bereits fertig.
 
 **Besteht das Risiko einer Regeländerung, die meine Planung entwertet?**
 

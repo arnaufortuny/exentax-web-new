@@ -28,7 +28,7 @@ Pourquoi cet ordre: pour bien déposer 5472, la LLC doit exister légalement; po
 Cherchez votre LLC sur le site du Secretary of State:
 
 - **Active**: passer à l'étape 2.
-- **Delinquent / Not in Good Standing**: payer l'Annual Report ou Franchise Tax manquant. Coût standard: 50-300 USD plus pénalité. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+- **Delinquent / Not in Good Standing**: payer l'Annual Report ou Franchise Tax manquant. Coût standard: 50-300 USD plus pénalité. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 - **Forfeited / Dissolved Administratively**: déposer **Reinstatement**. Coût: 100-500 USD par État, traité en 2-6 semaines.
 
 Tant que ceci n'est pas réglé, ne déposez ni BOI ni 5472.
@@ -40,14 +40,14 @@ Trois scénarios:
 - **Déposé mais données obsolètes**: déposer un BOI mis à jour.
 - **Déposé et à jour**: passer à l'étape 3.
 
-La sanction pour BOI non déposé est élevée (jusqu'à 591 USD/jour selon les règles actuelles), mais la régularisation volontaire est généralement acceptée sans sanction quand la LLC n'a reçu aucune notification. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+La sanction pour BOI non déposé est élevée (jusqu'à 591 USD/jour selon les règles actuelles), mais la régularisation volontaire est généralement acceptée sans sanction quand la LLC n'a reçu aucune notification. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 ### Étape 3. Arriérés de 5472 + 1120 pro-forma
 
-Ici ça devient sérieux. Chaque année de 5472 manquant supporte une sanction de **25 000 USD par an** selon les règles actuelles. Avec trois années manquantes: 75 000 USD d'exposition théorique. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
+Ici ça devient sérieux. Chaque année de 5472 manquant supporte une sanction de **25 000 USD par an** selon les règles actuelles. Avec trois années manquantes: 75 000 USD d'exposition théorique. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 
 ### Cas A. 1-2 années de retard et AUCUNE notification <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>
 
-Déposer en **late filing** avec déclaration jointe expliquant l'omission. L'IRS a une pratique discrétionnaire de réduire ou annuler la sanction en régularisation volontaire sans antécédents. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+Déposer en **late filing** avec déclaration jointe expliquant l'omission. L'IRS a une pratique discrétionnaire de réduire ou annuler la sanction en régularisation volontaire sans antécédents. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.
 
 ### Cas B. 3 années ou plus et AUCUNE notification IRS
 
@@ -78,7 +78,7 @@ Si vous êtes dans cette situation, réservez une session initiale gratuite via 
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).

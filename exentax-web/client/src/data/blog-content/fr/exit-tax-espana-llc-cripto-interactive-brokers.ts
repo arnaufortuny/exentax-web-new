@@ -130,7 +130,7 @@ Les positions IBKR sont des actifs financiers personnels et déclenchent l'artic
 
 **Erreur 3 : déposer la demande de report trop tard.** Le départ vers UE/EEE ouvre un report automatique ; vers hors UE, il faut une demande conditionnelle avec sa propre date limite. La manquer revient à payer la plus-value latente cash dans la fenêtre standard.
 
-**Erreur 4 : oublier le Modelo 720 l'année du départ.** L'obligation déclarative continue sur la fraction d'année de résidence espagnole. La sauter ajoute des pénalités à un processus déjà chargé. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+**Erreur 4 : oublier le Modelo 720 l'année du départ.** L'obligation déclarative continue sur la fraction d'année de résidence espagnole. La sauter ajoute des pénalités à un processus déjà chargé. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 
 ## Calendrier pratique 12-6-3 mois avant le départ
 

@@ -19,7 +19,7 @@ Le **Form 5472, Information Return of a 25% Foreign-Owned U.S. Corporation or a 
 
 Pour la plupart de nos clients chez Exentax, cette "entité américaine" est une **Single-Member LLC** détenue par un non-résident, et la "partie liée étrangère" est **le propriétaire lui-même**. Les "transactions" sont tout mouvement d'argent entre vous et la LLC: apports initiaux, virements de la LLC vers votre compte personnel, paiements ponctuels, prêts.
 
-Pourquoi est-ce important? Parce que depuis 2017 les **disregarded entities détenues par des étrangers** sont traitées comme des corporations pour les besoins du 5472. Cela veut dire que même si votre LLC ne paie pas d'impôt fédéral, **elle est obligée de reporter qui la possède et comment l'argent a circulé entre vous deux**. Sans dépôt, la sanction de base est de **25 000 USD par formulaire et par an**. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
+Pourquoi est-ce important? Parce que depuis 2017 les **disregarded entities détenues par des étrangers** sont traitées comme des corporations pour les besoins du 5472. Cela veut dire que même si votre LLC ne paie pas d'impôt fédéral, **elle est obligée de reporter qui la possède et comment l'argent a circulé entre vous deux**. Sans dépôt, la sanction de base est de **25 000 USD par formulaire et par an**. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 ### Le piège du "1120 pro-forma"
 
 C'est là où l'on se perd. Votre Single-Member LLC de non-résident:
@@ -62,7 +62,7 @@ Dans la plupart des démarrages, un seul apport initial (le virement de fondatio
 - **Mode de dépôt:** une LLC de non-résident sans obligation d'e-file l'envoie habituellement par **courrier certifié à l'IRS Service Center d'Ogden, Utah** ou par **fax** au numéro spécifique publié par l'IRS pour les foreign-owned DEs. Toujours confirmer adresse/fax en vigueur l'année concernée.
 - **EIN obligatoire:** sans EIN, pas de dépôt possible. À obtenir au préalable (Form SS-4).
 
-Les retards coûtent cher. La sanction de 25 000 USD pour 5472 non déposé **s'applique aussi pour information incomplète ou inexacte**, pas seulement pour absence de dépôt. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
+Les retards coûtent cher. La sanction de 25 000 USD pour 5472 non déposé **s'applique aussi pour information incomplète ou inexacte**, pas seulement pour absence de dépôt. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, votre réponse est déjà sur le bureau.
 ### Erreurs typiques en préparant 1120 + 5472
 
 1. **Remplir le 1120 pro-forma comme un 1120 réel.** Vous mettez chiffres, bilans, dépenses. L'IRS le traite comme une C-Corp et le chaos s'installe.
@@ -77,7 +77,7 @@ Les retards coûtent cher. La sanction de 25 000 USD pour 5472 non déposé **s'
 - Vous êtes résident fiscal US et votre Single-Member LLC déclare directement en Schedule C du 1040. Pas de "foreign-owned DE".
 - Votre LLC a opté pour **C-Corp** et dépose un 1120 réel, sans transactions avec parties liées étrangères (rare si votre activité passe par la LLC).
 
-Hors de ces cas, présumer l'exemption est un pari qui ne paie pas: le coût d'une bonne préparation est **bien inférieur** à la sanction minimale. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+Hors de ces cas, présumer l'exemption est un pari qui ne paie pas: le coût d'une bonne préparation est **bien inférieur** à la sanction minimale. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.
 ### Comment cela s'inscrit dans votre quotidien
 
 Si vous tenez correctement l'opérationnel de la LLC pendant l'année (compte séparé, registre des apports et retraits, Operating Agreement signé, comptabilité minimale), préparer le 1120 pro-forma + 5472 en fin d'année est tranquille. Si vous arrivez au 31 décembre avec compte LLC mélangé au personnel, sans documentation et sans savoir quels mouvements sont reportables, le coût et le risque explosent.
@@ -91,13 +91,13 @@ Chez Exentax nous traitons ces formulaires comme un **sous-produit naturel** d'u
 - **Aucun impôt n'est payé** avec ces formulaires, mais **ne pas les déposer coûte 25 000 USD par an**.
 - L'erreur la plus chère est de mal les remplir ou d'arriver à la clôture sans la documentation qui appuie ce qui est reporté.
 
-Pour vérifier que votre cas est bien posé, sur les exercices passés ou pour régulariser des dépôts en retard, **nous le revoyons avec vous** lors d'une consultation gratuite de 30 minutes. Mieux vaut bien comprendre une fois que payer des sanctions évitables chaque année. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
+Pour vérifier que votre cas est bien posé, sur les exercices passés ou pour régulariser des dépôts en retard, **nous le revoyons avec vous** lors d'une consultation gratuite de 30 minutes. Mieux vaut bien comprendre une fois que payer des sanctions évitables chaque année. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 ## Références légales et réglementaires
 
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
@@ -117,7 +117,7 @@ Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#cal
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
 ## Faits bancaires et fiscaux à préciser
@@ -143,7 +143,7 @@ La combinaison 1120 + 5472 est l'obligation déclarative centrale de toute singl
 - **Form 1120 (pro-forma).** Pas la 1120 corporative classique: une version simplifiée utilisée par la LLC disregarded comme "véhicule" pour accompagner le 5472. Seules les données identifiantes (EIN, adresse, exercice). Pas de calcul d'impôt. Délai: 15 avril (ou 15 octobre avec extension 7004).
 - **Form 5472.** Le formulaire informatif réel. Rapporte toute "reportable transaction" entre la LLC et son associé étranger (25%+ ownership): apports de capital, distributions, prêts intercompagnies, paiements pour services rendus ou reçus, ventes de biens. Le montant ne génère pas d'impôt mais permet à l'IRS de tracer les flux transfrontaliers.
 - **Quand ça s'applique.** Single-member LLC détenue par un non-résident (personne ou entité étrangère) avec au moins une transaction reportable dans l'exercice. Pas de mouvement = techniquement pas de 5472 - mais il vaut mieux déposer à "0" pour garder un historique propre.
-- **Amende pour omission.** 25 000 USD par exercice et entité omise. 25 000 USD supplémentaires si après avis IRS pas corrigé sous 90 jours. L'amende informative la plus chère pour LLC de non-résident et la plus facile à prévenir. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+- **Amende pour omission.** 25 000 USD par exercice et entité omise. 25 000 USD supplémentaires si après avis IRS pas corrigé sous 90 jours. L'amende informative la plus chère pour LLC de non-résident et la plus facile à prévenir. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.
 
 ### Ce qu'on nous demande le plus
 
@@ -218,7 +218,7 @@ visibilité sur ces flux, pas nécessairement des recettes.
 Si l'année n'a comporté aucune transaction déclarable, le duo se
 dépose en général tout de même avec des montants à zéro afin que
 l'IRS voie le statut d'activité explicitement. Ne pas déposer est ce
-qui déclenche l'exposition aux pénalités bien connues prévues par la. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+qui déclenche l'exposition aux pénalités bien connues prévues par la. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.
 réglementation.
 
 ## Trois schémas réels de dépôt que nous suivons
@@ -253,7 +253,7 @@ le moment où la LLC se réactivera.
 - Oublier qu'un retrait au propriétaire étranger est une transaction
   déclarable. Il l'est souvent, selon sa nature (retour de capital,
   distribution, etc.).
-- Déposer tard. La pénalité pour un Form 5472 manqué est. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
+- Déposer tard. La pénalité pour un Form 5472 manqué est. C'est exactement pour cela que chez Exentax on garde votre calendrier carré — vous ne pensez plus aux échéances, on les clôt avant qu'elles ne mordent.
   substantielle et s'applique même sans impôt US dû.
 
 ## Checklist de pré-dépôt

@@ -11,7 +11,7 @@ Cela s'applique à chaque opération générant une plus-value: vente de crypto 
 
 ### La déclaration des comptes d'actifs numériques à l'étranger
 
-Si vous détenez des cryptomonnaies sur des plateformes situées hors de France, vous devez déclarer ces comptes via le **formulaire 3916-bis**. La non-déclaration peut entraîner des sanctions importantes (1 500€ par compte non déclaré, voire 10 000€ pour les comptes dans des États non coopératifs). C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+Si vous détenez des cryptomonnaies sur des plateformes situées hors de France, vous devez déclarer ces comptes via le **formulaire 3916-bis**. La non-déclaration peut entraîner des sanctions importantes (1 500€ par compte non déclaré, voire 10 000€ pour les comptes dans des États non coopératifs). C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 ## Comment une LLC aide-t-elle pour le trading de cryptomonnaies?
 
 ### Avantages d'opérer le trading via une LLC
@@ -41,7 +41,7 @@ La LLC à membre unique de non-résident (Disregarded Entity) ne paie pas d'imp�
 2. **Ignorer les airdrops et les récompenses de staking.** Ils ont une valeur au moment de la réception et sont imposables en tant que revenu.
 3. **Ne pas tenir de registre des prix d'acquisition.** Sans historique d'achats, vous ne pouvez pas calculer correctement les plus-values/moins-values.
 4. **Croire que la DeFi est "invisible" pour les autorités fiscales.** Les opérations sur la blockchain sont publiques et traçables. Les outils d'analyse utilisés par les autorités fiscales sont de plus en plus sophistiqués.
-5. **Ne pas déclarer ses comptes d'actifs numériques à l'étranger.** Si vous détenez des crypto sur des plateformes étrangères, la non-déclaration entraîne des sanctions. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+5. **Ne pas déclarer ses comptes d'actifs numériques à l'étranger.** Si vous détenez des crypto sur des plateformes étrangères, la non-déclaration entraîne des sanctions. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.
 ## Avantages supplémentaires de la LLC pour les traders
 
 - **Accès à des comptes bancaires en USD**: Mercury vous permet de recevoir et d'envoyer des fonds sans frais de virement ($0 sur les virements internationaux et domestiques). Vos fonds sont déposés chez les partner banks de Mercury (Choice Financial Group / Evolve Bank & Trust) avec assurance FDIC jusqu'à $250K.
@@ -64,7 +64,7 @@ Chez Exentax on voit toutes les semaines des traders français, belges et suisse
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). C'est exactement pour cela que chez Exentax on garde votre calendrier carré — vous ne pensez plus aux échéances, on les clôt avant qu'elles ne mordent.
 - **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / OCDE.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).

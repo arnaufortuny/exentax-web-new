@@ -1,4 +1,4 @@
-export default `Die IRS verlangt, die Buchhaltung einer LLC mindestens 7 Jahre aufzubewahren; ein Form 5472 ohne Belege beginnt bei 25.000 USD Strafe. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
+export default `Die IRS verlangt, die Buchhaltung einer LLC mindestens 7 Jahre aufzubewahren; ein Form 5472 ohne Belege beginnt bei 25.000 USD Strafe. Bleiben Sie ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in Ihrem Postfach landet.
 
 Die Buchhaltung einer US-LLC macht den meisten mehr Angst als nötig. Die meisten nicht ansässigen Inhaber kennen ein Modell, in dem ein Steuerberater Unterlagen anfordert, jedes Quartal Erklärungen einreicht und man selbst kaum etwas anfassen muss. Bei einer US-LLC läuft es anders: das Tagesgeschäft erledigen Sie selbst mit modernen Tools und am Jahresende führt eine ordentliche Buchhaltung zu einer sauberen Erklärung ohne Überraschungen.
 
@@ -95,7 +95,7 @@ Multi-Währungs- und Multi-Gateway-Komplexität erfordert A2X oder Synder zur Im
 
 **Brauche ich Buchhaltungssoftware, wenn meine LLC wenig fakturiert?**
 
-Ja. Selbst bei geringem Volumen erhöht eine manuelle Tabellenkalkulation das Risiko von Fehlern auf Form 5472 und erschwert es, Ausgaben gegenüber dem IRS bei einer Prüfung zu belegen. Wave (kostenlos) oder Xero für 15 USD/Monat lösen das Problem. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
+Ja. Selbst bei geringem Volumen erhöht eine manuelle Tabellenkalkulation das Risiko von Fehlern auf Form 5472 und erschwert es, Ausgaben gegenüber dem IRS bei einer Prüfung zu belegen. Wave (kostenlos) oder Xero für 15 USD/Monat lösen das Problem. Genau deshalb halten wir bei Exentax Ihren Kalender bündig — Sie müssen nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 **Wie kategorisiere ich Krypto-Zahlungen?**
 
@@ -131,7 +131,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 ### Nach Rechtsordnung
 
 - **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
-- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Atmen Sie durch: bei Exentax ist das Routine, wir bringen Sie auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 - **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
@@ -207,7 +207,7 @@ Die Buchhaltung einer US-LLC braucht kein Team: Sie braucht Disziplin, das richt
 
 - **Schicht 1 - Ein einziges Betriebskonto.** Jede LLC-Bewegung läuft über Mercury, Relay oder Wise Business. Null Privatkarten auf dem LLC-Konto und null Privatentnahmen ohne Buchung. Diese eine Regel verhindert 80 % späterer Prüfungsprobleme.
 - **Schicht 2 - Angeschlossene Buchhaltungssoftware.** Wave, QuickBooks Online oder Xero, per Bank Feed an das LLC-Konto angebunden. Automatische Abstimmung lässt unter 5 % der Transaktionen zur Handprüfung übrig, wenn der Feed sauber läuft. Vorkonfigurierte Kategorien nach Tätigkeit, damit der Monatsabschluss Minuten statt Stunden dauert.
-- **Schicht 3 - Belegdokumentation.** Digitaler Ordner monatlich gegliedert mit ausgestellter Rechnung, Zahlungsbeleg und Bankabstimmung. Bei erweitertem KYC oder Prüfung ist das, was übergeben wird; ohne diese Schicht hält die Buchhaltung keinem zweiten Blick stand. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
+- **Schicht 3 - Belegdokumentation.** Digitaler Ordner monatlich gegliedert mit ausgestellter Rechnung, Zahlungsbeleg und Bankabstimmung. Bei erweitertem KYC oder Prüfung ist das, was übergeben wird; ohne diese Schicht hält die Buchhaltung keinem zweiten Blick stand. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt Ihre Antwort bereits fertig.
 - **Jahresabschluss und 5472.** Zum 31. Dezember Hauptbuchexport und Endabstimmung mit Kontoauszügen. Form 5472 + 1120 pro forma speist sich direkt aus dem Hauptbuch; saubere Bücher sparen im April 4 bis 12 Arbeitsstunden.
 
 ### Was wir am häufigsten gefragt werden

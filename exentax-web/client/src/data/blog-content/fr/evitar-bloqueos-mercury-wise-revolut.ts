@@ -8,7 +8,7 @@ Les banques et fintechs ont des obligations de **KYC** (Know Your Customer) et *
 ## Les raisons les plus courantes de blocage:
 
 1. **Mouvements incohérents avec votre profil**: si vous avez déclaré que votre LLC facture $5K/mois et que vous recevez soudainement $50K, le système alerte
-2. **Virements vers des pays à haut risque**: certains pays figurent sur des listes de sanctions (OFAC) On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+2. **Virements vers des pays à haut risque**: certains pays figurent sur des listes de sanctions (OFAC) On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.
 3. **Mélange de fonds personnels et professionnels**: c'est un signal d'alerte important
 4. **Documentation non en ordre**: si on vous demande une vérification supplémentaire et que vous ne répondez pas à temps
 5. **Comptes multiples suspects**: ouvrir plusieurs comptes sans justification
@@ -41,14 +41,14 @@ Les banques et fintechs ont des obligations de **KYC** (Know Your Customer) et *
 - **Ne faites pas de virements entre plusieurs comptes Revolut** sans justification
 ### Que faire en cas de blocage?
 
-1. **Ne paniquez pas**: un blocage ne signifie pas que vous avez fait quelque chose de mal. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
+1. **Ne paniquez pas**: un blocage ne signifie pas que vous avez fait quelque chose de mal. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 2. **Vérifiez vos emails**: normalement on vous indique quels documents sont nécessaires
 3. **Répondez rapidement et avec tout**: factures, contrats, explication de l'activité
 4. **Soyez professionnel et clair**: expliquez votre activité de manière simple
 5. **Ayez un plan B**: c'est pourquoi nous recommandons d'avoir au moins deux comptes (Mercury + Wise au minimum)
 ### La règle d'or: la transparence
 
-Les blocages surviennent presque toujours par manque d'information, pas parce que vous avez fait quelque chose de mal. Si votre LLC opère de manière légitime, que vous maintenez une documentation ordonnée et que votre activité est cohérente avec ce que vous avez déclaré à l'ouverture du compte, les probabilités de blocage sont minimes. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+Les blocages surviennent presque toujours par manque d'information, pas parce que vous avez fait quelque chose de mal. Si votre LLC opère de manière légitime, que vous maintenez une documentation ordonnée et que votre activité est cohérente avec ce que vous avez déclaré à l'ouverture du compte, les probabilités de blocage sont minimes. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.
 
 Le problème survient quand les gens essaient d'opérer « sous les radars », et c'est là que les choses se compliquent.
 ### Diversifiez vos comptes

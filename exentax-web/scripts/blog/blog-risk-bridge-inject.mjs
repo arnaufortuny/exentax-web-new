@@ -93,24 +93,24 @@ const BRIDGES = {
     "And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.",
   ],
   fr: [
-    "C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.",
-    "On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.",
-    "C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.",
-    "Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.",
-    "On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.",
-    "C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.",
-    "Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.",
-    "Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.",
+    "C'est exactement pour cela que chez Exentax on garde votre calendrier carré — vous ne pensez plus aux échéances, on les clôt avant qu'elles ne mordent.",
+    "On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.",
+    "C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, votre réponse est déjà sur le bureau.",
+    "Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.",
+    "On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.",
+    "C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.",
+    "Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.",
+    "Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.",
   ],
   de: [
-    "Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.",
-    "Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.",
-    "Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.",
-    "Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.",
-    "Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.",
-    "Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.",
-    "Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.",
-    "Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.",
+    "Genau deshalb halten wir bei Exentax Ihren Kalender bündig — Sie müssen nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.",
+    "Bleiben Sie ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in Ihrem Postfach landet.",
+    "Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt Ihre Antwort bereits fertig.",
+    "Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart Ihnen fünf Stellen.",
+    "Wir schließen es mit Ihnen von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.",
+    "Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für Sie.",
+    "Atmen Sie durch: bei Exentax ist das Routine, wir bringen Sie auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.",
+    "Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, Sie antworten in Stunden, nicht in Wochen.",
   ],
   pt: [
     "É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.",
@@ -165,11 +165,37 @@ const LEGACY_BRIDGES = {
     // is on the fear-of-Hacienda emotional forbidden list — with
     // "On reste calme", same warm reassurance, lint-clean.
     "Pas de panique : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.",
+    // v2.1 register migration: the v2 catalog used informal tu/ta/ton/te;
+    // strict translation-quality lint requires formal vous/votre. The
+    // original 8 v2 variants are kept here so the migration sweep
+    // detects them in the corpus and replaces each with the formal
+    // counterpart from the active catalog (same hash slot).
+    "C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.",
+    "On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.",
+    "C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.",
+    "Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.",
+    "On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.",
+    "C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.",
+    "Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.",
+    "Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.",
   ],
   de: [
     "Bei Exentax verhindern wir das, indem wir jedes Formular fristgerecht einreichen und Belege von IRS, FinCEN und deiner lokalen Steuerbehörde aufbewahren, damit das Risiko gar nicht erst eintritt.",
     "Bei Exentax vermeiden wir diese Strafe, indem wir deinen Steuerkalender aktuell halten und jeden Vorfall mit IRS, FinCEN oder deiner Behörde regeln, bevor er eskaliert.",
     "Bei Exentax decken wir diesen Punkt mit einem Verteidigungsdossier ab: vollständige Dokumentation und vorbereitete Antworten, falls eine Aufforderung oder Prüfung eingeht.",
+    // v2.1 register migration: the v2 catalog used informal du/dein/dir/dich;
+    // strict translation-quality lint requires formal Sie/Ihr. The
+    // original 8 v2 variants are kept here so the migration sweep
+    // detects them in the corpus and replaces each with the formal
+    // counterpart from the active catalog (same hash slot).
+    "Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.",
+    "Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.",
+    "Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.",
+    "Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.",
+    "Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.",
+    "Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.",
+    "Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.",
+    "Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.",
   ],
   pt: [
     "Na Exentax prevenimos isto apresentando cada formulário no prazo e guardando o comprovativo do IRS, do FinCEN e da tua administração para que o risco não se materialize.",

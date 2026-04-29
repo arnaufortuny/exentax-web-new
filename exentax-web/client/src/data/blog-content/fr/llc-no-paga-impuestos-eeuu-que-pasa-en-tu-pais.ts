@@ -50,7 +50,7 @@ Quand le fisc reçoit ces rapports et croise les soldes contre votre déclaratio
 - Vous avez bien déclaré (A): ça matche. Rien.
 - Vous n'avez pas déclaré ou mal (B/C): **incohérence automatique**. Plus le solde ou le flux est élevé, plus vite la procédure s'ouvre.
 
-Le piège: quand l'inspection arrive, elle ne porte pas que sur la dernière année mais sur les **années non prescrites** (variable selon le pays). Ce qui semblait "économiser quelques milliers" devient plusieurs années d'impôt non payé + intérêts + pénalités 50–150 %. Plus pénalités spécifiques pour avoirs/comptes non déclarés à l'étranger. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
+Le piège: quand l'inspection arrive, elle ne porte pas que sur la dernière année mais sur les **années non prescrites** (variable selon le pays). Ce qui semblait "économiser quelques milliers" devient plusieurs années d'impôt non payé + intérêts + pénalités 50–150 %. Plus pénalités spécifiques pour avoirs/comptes non déclarés à l'étranger. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 ### Et la convention contre la double imposition?
 
 Question légitime: "mais les US et mon pays ont une convention, ça ne me couvre pas?"
@@ -99,7 +99,7 @@ Si vous arrivez déjà avec la LLC et des années sans déclarer, on évalue:
 
 1. Années ouvertes.
 2. Montants en jeu.
-3. **Régularisation volontaire** (déclarations rectificatives avant notification), qui réduit fortement les pénalités. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
+3. **Régularisation volontaire** (déclarations rectificatives avant notification), qui réduit fortement les pénalités. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 4. Rectifier aussi les obligations 3916 / déclarations crypto en retard.
 5. Si la structure tient encore la route ou doit être redessinée.
 
@@ -113,7 +113,7 @@ Conclusion presque toujours: **régulariser volontairement coûte moins cher** q
 - Voie économique: **bien déclarer dès la première année**. Voie chère: régulariser après ouverture.
 - Changer de résidence fiscale peut être une option, seulement si réel et complet.
 
-Si vous avez une LLC et n'êtes pas 100 % sûr de la fiscalité chez vous, ou si vous accumulez des années non déclarées et voulez connaître l'exposition et la régularisation au coût minimal, **on le voit ensemble** lors d'une consultation gratuite de 30 minutes. Mieux vaut voir toute la carte une fois que la découvrir pénalité après pénalité. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
+Si vous avez une LLC et n'êtes pas 100 % sûr de la fiscalité chez vous, ou si vous accumulez des années non déclarées et voulez connaître l'exposition et la régularisation au coût minimal, **on le voit ensemble** lors d'une consultation gratuite de 30 minutes. Mieux vaut voir toute la carte une fois que la découvrir pénalité après pénalité. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 ## Conformité fiscale dans votre pays: CFC, transparence fiscale et attribution des revenus
 
 Une LLC américaine est un outil légal reconnu internationalement. Mais la conformité ne s'arrête pas à la constitution: en tant que propriétaire résident fiscal d'un autre pays, votre administration locale conserve le droit d'imposer ce que la LLC génère. L'essentiel est de savoir **sous quel régime**.
@@ -121,7 +121,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 ### Par juridiction
 
 - **Espagne (LIRPF/LIS).** Si la LLC est une *Single-Member Disregarded Entity* opérationnelle (services réels, sans passivité significative), le fisc la traite généralement par **attribution de revenus (art. 87 LIRPF)**: les bénéfices nets sont attribués à l'associé l'année où ils naissent et intégrés dans la base générale de l'IRPF. Si la LLC opte pour la fiscalité de *corporation* (Form 8832) et qu'elle est contrôlée par un résident espagnol avec des revenus majoritairement passifs, le **régime de transparence fiscale internationale (art. 91 LIRPF pour les personnes physiques, art. 100 LIS pour les sociétés)** peut s'appliquer. Le choix n'est pas optionnel: il dépend de la substance économique, pas du nom.
-- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
+- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, votre réponse est déjà sur le bureau.
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
@@ -148,7 +148,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.
 - **Convention Espagne–USA.** BOE du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).

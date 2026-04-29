@@ -4,9 +4,9 @@ L'objectif n'est pas de vous faire peur, c'est de vous donner une carte. Si vous
 
 ## Pourquoi faire cet audit maintenant
 
-Une LLC bien gérée la première année tend à le rester. Une LLC qui traîne des erreurs les accumule avec intérêts: pénalités qui croissent mois après mois, formulaires plus chers à régulariser, banque plus difficile à conserver quand arrivent les revues KYC. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
+Une LLC bien gérée la première année tend à le rester. Une LLC qui traîne des erreurs les accumule avec intérêts: pénalités qui croissent mois après mois, formulaires plus chers à régulariser, banque plus difficile à conserver quand arrivent les revues KYC. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, votre réponse est déjà sur le bureau.
 
-L'audit rapide a un objectif concret: transformer le diffus ("je crois que tout va bien") en quelque chose de vérifiable. Si vous détectez deux ou trois points rouges, le plan d'action est bien moins coûteux que de les découvrir lors d'une inspection. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
+L'audit rapide a un objectif concret: transformer le diffus ("je crois que tout va bien") en quelque chose de vérifiable. Si vous détectez deux ou trois points rouges, le plan d'action est bien moins coûteux que de les découvrir lors d'une inspection. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 ## Les 12 points
 
 ### 1. Statut légal de la LLC
@@ -15,7 +15,7 @@ Allez sur le site du Secretary of State de l'État de constitution et cherchez v
 
 ### 2. Registered Agent à jour
 
-Avez-vous payé le renouvellement du Registered Agent cette année? L'adresse figurant à l'État est-elle correcte? Un RA expiré entraîne du courrier perdu de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ou de FinCEN, et donc des pénalités qui arrivent sans préavis. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+Avez-vous payé le renouvellement du Registered Agent cette année? L'adresse figurant à l'État est-elle correcte? Un RA expiré entraîne du courrier perdu de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ou de FinCEN, et donc des pénalités qui arrivent sans préavis. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.
 
 ### 3. Annual Report ou Franchise Tax déposé
 
@@ -51,7 +51,7 @@ Avez-vous imputé les revenus de la LLC dans votre déclaration personnelle loca
 
 ### 11. Modelo 720/721 si vous résidez en Espagne
 
-Si vous résidez en Espagne et que la somme de comptes, valeurs ou crypto hors d'Espagne dépasse 50 000 €, vous avez obligation déclarative. L'arrêt de la CJUE a borné la sanction disproportionnée, mais l'obligation reste en vigueur et se croise automatiquement. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+Si vous résidez en Espagne et que la somme de comptes, valeurs ou crypto hors d'Espagne dépasse 50 000 €, vous avez obligation déclarative. L'arrêt de la CJUE a borné la sanction disproportionnée, mais l'obligation reste en vigueur et se croise automatiquement. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 
 ### 12. Calendrier et prestataire pour l'an prochain
 
@@ -63,7 +63,7 @@ Enfin: savez-vous qui dépose votre 5472 en avril prochain? Qui renouvelle le RA
 - **6 points ou plus:** vous êtes en zone de risque. Régulariser volontairement coûte peu; attendre une lettre de l'IRS, FinCEN ou de votre fisc coûte cher.
 ## Que faire du résultat
 
-Si l'audit ressort propre, classez l'exercice dans votre dossier LLC avec date. Refaites-le tous les six mois; ça prend vingt minutes. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
+Si l'audit ressort propre, classez l'exercice dans votre dossier LLC avec date. Refaites-le tous les six mois; ça prend vingt minutes. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, votre réponse est déjà sur le bureau.
 
 Si vous trouvez des points rouges, l'ordre raisonnable est: légal d'abord (État, RA, BOI), puis fiscal IRS (5472 en retard avec la bonne stratégie), puis pays (régularisation si nécessaire), et opérationnel en dernier (banque et plateformes). Tout faire d'un coup est rarement une bonne idée; séquencer sur 60-90 jours presque toujours.
 
@@ -85,7 +85,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr -->
 ## Comment lire l'audit rapide LLC en 12 points comme un contrôle de santé récurrent plutôt que comme un exercice ponctuel
 
-C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
+C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, votre réponse est déjà sur le bureau.
 
 L'audit rapide LLC en 12 points se lit plus utilement comme un contrôle de santé récurrent répété chaque trimestre que comme un exercice ponctuel. Les 12 points ne changent pas d'une session à l'autre, seuls les éléments qui demandent attention bougent, et une note courte et datée dans le dossier LLC permet à la révision suivante de reprendre exactement là où la précédente s'est arrêtée.
 <!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr -->
@@ -127,7 +127,7 @@ Notre équipe est spécialisée dans les structures fiscales internationales pou
 Trois changements concrets de l'année passée modifient la notation de cet audit:
 
 - **BOI Report (FinCEN).** **Non exigé pour les LLC formées aux US détenues par des non-résidents** depuis l'interim final rule de FinCEN de mars 2025 qui a restreint le champ aux **foreign reporting companies** (entités constituées hors des US et enregistrées dans un État). Si votre entité y entre, elle identifie le bénéficiaire effectif (toute personne détenant **≥ 25 %** de participation ou exerçant un **contrôle substantiel**), se dépose gratuitement sur [le portail officiel BOI E-Filing de FinCEN](https://boiefiling.fincen.gov) en **10-15 minutes** et doit être dans les délais : **30 jours** depuis l'enregistrement et **30 jours** pour tout changement d'adresse, de document ou de bénéficiaire. Sanction civile jusqu'à **591 USD/jour** et pénale jusqu'à **10 000 USD et 2 ans de prison** (31 U.S.C. §5336). Validez le point 6 avec le **BOIR Confirmation Number** archivé (ou avec la trace que votre LLC est hors champ).
-- **Form 5472 + 1120 pro forma.** La sanction pour défaut reste à **25 000 USD par formulaire et par année** (IRC §6038A). Pour l'exercice 2025, l'échéance est le **15 avril**, prorogeable via **Form 7004** jusqu'au **15 octobre**. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
+- **Form 5472 + 1120 pro forma.** La sanction pour défaut reste à **25 000 USD par formulaire et par année** (IRC §6038A). Pour l'exercice 2025, l'échéance est le **15 avril**, prorogeable via **Form 7004** jusqu'au **15 octobre**. C'est exactement pour cela que chez Exentax on garde votre calendrier carré — vous ne pensez plus aux échéances, on les clôt avant qu'elles ne mordent.
 - **Annual Report d'État.** Wyoming maintient la taxe minimale de 60 USD; Delaware conserve une Franchise Tax de 300 USD au 1er juin; New Mexico ne demande toujours pas d'Annual Report. Pour les autres États, confirmez les dates sur le portail du Secretary of State.
 
 ### Comment prioriser si vous échouez à trois points ou plus
@@ -138,7 +138,7 @@ Trois changements concrets de l'année passée modifient la notation de cet audi
 
 ### FAQ
 
-**Cet audit remplace-t-il une revue professionnelle?** Non. Il couvre 90 % des problèmes opérationnels visibles mais ne détecte pas les expositions fiscales fines (PE, ECI, résidence économique) qui exigent une analyse cas par cas. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
+**Cet audit remplace-t-il une revue professionnelle?** Non. Il couvre 90 % des problèmes opérationnels visibles mais ne détecte pas les expositions fiscales fines (PE, ECI, résidence économique) qui exigent une analyse cas par cas. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 
 **À quelle fréquence le refaire?** Une fois par an, idéalement en janvier puis avant le 15 mars (échéance 1042-S si vous l'émettez). À refaire le mois où vous changez de banque, d'adresse ou d'associés.
 
@@ -147,7 +147,7 @@ Trois changements concrets de l'année passée modifient la notation de cet audi
 <!-- exentax:execution-v2 -->
 ## Comment nous menons l'audit rapide chez Exentax
 
-Un audit utile ne cherche pas de coupables: il met la LLC en ordre en moins de trente minutes et clarifie l'urgent avant la prochaine déclaration. Nous traitons des centaines de checklists chaque semaine et les douze points qui comptent ne changent jamais. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+Un audit utile ne cherche pas de coupables: il met la LLC en ordre en moins de trente minutes et clarifie l'urgent avant la prochaine déclaration. Nous traitons des centaines de checklists chaque semaine et les douze points qui comptent ne changent jamais. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.
 
 - **EIN, BOI et 5472 à jour** avec copies accessibles depuis n'importe quel appareil, pas enterrées dans la boîte du fondateur.
 - **Banking cohérent**: titularité, adresse et description d'activité alignées sur Mercury, Wise ou Relay pour passer le premier KYC étendu.
@@ -159,7 +159,7 @@ Pour appliquer le même protocole maintenant, lancez la <strong>calculatrice Exe
 <!-- exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr-bis -->
 ## Comment fixer la fenêtre trimestrielle de l'audit dans le calendrier
 
-La fenêtre trimestrielle de l'audit gagne à être inscrite dans le calendrier au même titre qu'une réunion régulière, avec une heure de début et une durée de trente minutes, plutôt que d'être planifiée à la dernière minute. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+La fenêtre trimestrielle de l'audit gagne à être inscrite dans le calendrier au même titre qu'une réunion régulière, avec une heure de début et une durée de trente minutes, plutôt que d'être planifiée à la dernière minute. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 <!-- /exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr-bis -->
 
 <!-- exentax:cross-refs-v1 -->

@@ -45,7 +45,7 @@ La partie qu'on raconte le moins. Les coûts annuels typiques pour une Free Zone
 - **Bureau ou flexi-desk obligatoire**: 5 000-25 000 AED/an.
 - **Visa familial (conjoint et enfants)**: 4 000-7 000 AED par personne.
 - **Renouvellement annuel de visa** (tous les 2-3 ans): coût similaire.
-- **Audit obligatoire** dans beaucoup de Free Zones depuis juin 2023: 1 500-5 000 USD/an. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+- **Audit obligatoire** dans beaucoup de Free Zones depuis juin 2023: 1 500-5 000 USD/an. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Corporate Tax registration et déclaration**: gestion annuelle 500-2 000 USD.
 - **Comptabilité**: 2 000-5 000 USD/an si vous externalisez.
 
@@ -111,7 +111,7 @@ Les EAU n'ont pas de sens quand:
 Les EAU sont rentables. Résidence réelle avec visa d'investisseur, FZCO opérationnelle, banque émiratie accessible et charge personnelle nulle. L'investissement initial élevé est amorti la première année.
 
 **Cas 2: entrepreneur européen qui veut "acheter" la résidence sans vraiment déménager.**
-Les EAU sont un mauvais choix. Sans présence minimale de 90 jours/an et liens rompus à l'origine, votre fisc local ne reconnaît pas la résidence EAU. Risque élevé d'inspection et de requalification. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+Les EAU sont un mauvais choix. Sans présence minimale de 90 jours/an et liens rompus à l'origine, votre fisc local ne reconnaît pas la résidence EAU. Risque élevé d'inspection et de requalification. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 
 **Cas 3: professionnel qui veut accéder au Moyen-Orient et à l'Afrique.**
 Les EAU sont une excellente plateforme. Connectivité aérienne, réputation régionale, banque multidevise et régime commercial ouvert. Même si la fiscalité n'est que raisonnable (pas zéro), l'accès au marché compense.
@@ -119,7 +119,7 @@ Les EAU sont une excellente plateforme. Connectivité aérienne, réputation ré
 
 **Est-ce que je paie vraiment 0 % à Dubai?**
 
-Pas tout à fait. Depuis juin 2023, il y a un Corporate Tax de 9 % sur les bénéfices supérieurs à 375 000 AED (~102 000 USD). En dessous, 0 % mais avec compliance: comptabilité auditée, dépôt annuel et démonstration de substance. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
+Pas tout à fait. Depuis juin 2023, il y a un Corporate Tax de 9 % sur les bénéfices supérieurs à 375 000 AED (~102 000 USD). En dessous, 0 % mais avec compliance: comptabilité auditée, dépôt annuel et démonstration de substance. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 
 **Dois-je vivre à Dubai pour maintenir la free zone?**
 
@@ -127,7 +127,7 @@ Pour éviter la requalification par votre pays d'origine, oui. Sans résidence E
 
 **Quel est le coût annuel réel d'une FZCO?**
 
-Entre 8 000 et 18 000 USD: licence free zone, bureau flexi-desk, visa d'investisseur, comptabilité auditée et renouvellements. Très supérieur à une LLC américaine à 600 USD/an. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+Entre 8 000 et 18 000 USD: licence free zone, bureau flexi-desk, visa d'investisseur, comptabilité auditée et renouvellements. Très supérieur à une LLC américaine à 600 USD/an. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 
 **La banque émiratie est-elle accessible?**
 
@@ -148,7 +148,7 @@ Chez Exentax nous pouvons comparer votre cas concret avec des chiffres réels av
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 - **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).

@@ -38,7 +38,7 @@ Une holding n'est pas pour tout le monde. Cela n'a pas de sens si:
 - Vous n'avez pas de raison réelle au-delà du "parce que ça sonne bien".
 - Votre situation se résoudrait mieux avec une bonne planification personnelle.
 
-Constituer une holding par mode ajoute comptabilité, déclarations, coûts et exposition à inspection, sans contrepartie. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
+Constituer une holding par mode ajoute comptabilité, déclarations, coûts et exposition à inspection, sans contrepartie. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 ## Comment se structure une holding classique (cas France)
 
 La structure typique pour un entrepreneur ayant plusieurs activités en France:
@@ -84,7 +84,7 @@ Une holding a un coût récurrent qu'il convient de budgétiser:
 - Constitution: 500-3 000 EUR selon juridiction.
 - Domicile social et secrétariat: 500-2 000 EUR/an.
 - Comptabilité et comptes annuels: 1 500-5 000 EUR/an.
-- Audit si dépassement de seuils: 3 000-10 000 EUR/an. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
+- Audit si dépassement de seuils: 3 000-10 000 EUR/an. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.
 - Conseil fiscal spécialisé: 2 000-8 000 EUR/an.
 
 Plancher annuel réaliste: 4 000-12 000 EUR pour une holding internationale bien gérée. La holding ne se justifie que si l'économie fiscale ou le contrôle additionnel dépasse largement ce coût.
@@ -92,7 +92,7 @@ Plancher annuel réaliste: 4 000-12 000 EUR pour une holding internationale bien
 
 - **Holding sans substance**: si la holding n'a pas de bureau, de décisions et de personnel réel, les administrations fiscales peuvent refuser le régime favorable et réclamer les impôts.
 - **Appliquer Participation Exemption sans remplir les conditions**: pourcentage, ancienneté, nature de la filiale. Les erreurs de qualification sont sanctionnées.
-- **Mélanger patrimoine personnel et holding**: casse la protection et complique les audits. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+- **Mélanger patrimoine personnel et holding**: casse la protection et complique les audits. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Ne pas déclarer la holding dans votre pays de résidence**: titularité, contrôle, comptes et revenus. Le CRS et les registres de bénéficiaires effectifs rendent impossible de la garder cachée.
 - **Holding par mode**: la pire raison pour la constituer. Si elle ne résout pas un problème concret, elle est superflue.
 ### Quand envisager une holding
@@ -182,7 +182,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 ### Par juridiction
 
 - **Espagne (LIRPF/LIS).** Si la LLC est une *Single-Member Disregarded Entity* opérationnelle (services réels, sans passivité significative), le fisc la traite généralement par **attribution de revenus (art. 87 LIRPF)**: les bénéfices nets sont attribués à l'associé l'année où ils naissent et intégrés dans la base générale de l'IRPF. Si la LLC opte pour la fiscalité de *corporation* (Form 8832) et qu'elle est contrôlée par un résident espagnol avec des revenus majoritairement passifs, le **régime de transparence fiscale internationale (art. 91 LIRPF pour les personnes physiques, art. 100 LIS pour les sociétés)** peut s'appliquer. Le choix n'est pas optionnel: il dépend de la substance économique, pas du nom.
-- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
+- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans votre boîte.
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 

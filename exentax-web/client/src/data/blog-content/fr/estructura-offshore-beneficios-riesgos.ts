@@ -38,7 +38,7 @@ Une structure mal conçue ou mal utilisée peut générer plus de problèmes que
 - **Siège de direction effective (POEM)**: si la société est réellement administrée depuis votre pays de résidence, ce pays peut la traiter comme résidente locale et réclamer impôt sur les sociétés, intérêts et sanctions.
 - **Transparence fiscale internationale (CFC)**: beaucoup de pays (France, Allemagne, Espagne, Mexique, Argentine) imputent les bénéfices de sociétés étrangères contrôlées si certaines conditions sont remplies (pourcentage de participation, faible imposition, revenus passifs).
 - **Fermetures bancaires**: les juridictions perçues comme problématiques (BVI, Belize, Seychelles) génèrent des fermetures préventives dans les banques européennes et américaines.
-- **Coût récurrent disproportionné**: une société offshore mal choisie peut consommer 5 000-15 000 USD/an en domiciles, agents, comptabilité obligatoire et audits sans apporter de bénéfice fiscal réel. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+- **Coût récurrent disproportionné**: une société offshore mal choisie peut consommer 5 000-15 000 USD/an en domiciles, agents, comptabilité obligatoire et audits sans apporter de bénéfice fiscal réel. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 - **Réputation**: dans certains secteurs et marchés, avoir une société dans une juridiction "exotique" ferme des portes auprès de clients corporate.
 - **Changements réglementaires**: BEPS Pillar Two, liste UE de juridictions non coopératives, registres de bénéficiaires effectifs, changements constants des exigences de substance économique. Ce qui fonctionne aujourd'hui peut ne pas fonctionner dans trois ans.
 ## Juridictions réelles et à quoi elles servent
@@ -70,13 +70,13 @@ Pour les freelances, consultants, agences numériques, SaaS, e-commerce et créa
 - Banque opérationnelle en ligne (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments accessibles.
 - Réputation neutre et professionnelle sur tout marché.
-- Sans audit obligatoire. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
+- Sans audit obligatoire. C'est exactement pour cela que chez Exentax on garde votre calendrier carré — vous ne pensez plus aux échéances, on les clôt avant qu'elles ne mordent.
 
 Pour des profils plus complexes (patrimoine important, plusieurs associés, différents pays), la réponse peut être une combinaison de juridictions, pas une seule société.
 ### Cas typiques où cela s'applique
 
 **Cas 1: professionnel sans structure, résident dans un pays <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.**
-Commencer avec une LLC américaine correctement déclarée. C'est le meilleur rapport coût/bénéfice/légitimité. Les structures offshore pures n'apportent rien et exposent à des sanctions graves. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
+Commencer avec une LLC américaine correctement déclarée. C'est le meilleur rapport coût/bénéfice/légitimité. Les structures offshore pures n'apportent rien et exposent à des sanctions graves. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 
 **Cas 2: entrepreneur consolidé avec des actifs à protéger.**
 Holding dans une juridiction raisonnable (France, Pays-Bas, Luxembourg selon le profil) avec opérationnelle locale. Protection patrimoniale réelle, optimisation fiscale et acceptation bancaire sans les drapeaux rouges de l'offshore pur.
@@ -95,7 +95,7 @@ Oui, tant qu'elle est déclarée dans votre pays de résidence. L'illégalité n
 
 **Que se passe-t-il si mon pays détecte la structure offshore?**
 
-Si vous l'avez déclarée correctement, rien d'extraordinaire: elle sera imposée selon les règles de TFI de votre pays. Si vous ne l'avez pas déclarée, sanctions de 50 % à 200 % plus majorations, intérêts et possible délit. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+Si vous l'avez déclarée correctement, rien d'extraordinaire: elle sera imposée selon les règles de TFI de votre pays. Si vous ne l'avez pas déclarée, sanctions de 50 % à 200 % plus majorations, intérêts et possible délit. On le clôt avec vous depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 
 **Les offshores servent-elles à éviter les saisies?**
 
@@ -178,7 +178,7 @@ Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noo
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
+- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
 

@@ -11,7 +11,7 @@ Pour facturer sans TVA à un client UE, vous devez être inscrit au Registre esp
 
 ## Comment remplir la facture sans TVA
 
-La facture doit comporter votre NIF-TVA espagnol (préfixe ES), le NIF-TVA du client, le montant hors TVA et la mention obligatoire de l'article 84 de la loi espagnole sur la TVA (opération en autoliquidation) ou son équivalent en anglais (reverse charge). Aucune base TVA ni montant ne sont inclus ; seul le total. Certains clients européens exigent aussi la référence à la Directive 2006/112/CE. Conservez toujours une preuve électronique de l'envoi et de la livraison du service (mails, contrats, livrables) car en inspection l'agence fiscale exige des traces documentaires complètes, pas seulement la facture. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+La facture doit comporter votre NIF-TVA espagnol (préfixe ES), le NIF-TVA du client, le montant hors TVA et la mention obligatoire de l'article 84 de la loi espagnole sur la TVA (opération en autoliquidation) ou son équivalent en anglais (reverse charge). Aucune base TVA ni montant ne sont inclus ; seul le total. Certains clients européens exigent aussi la référence à la Directive 2006/112/CE. Conservez toujours une preuve électronique de l'envoi et de la livraison du service (mails, contrats, livrables) car en inspection l'agence fiscale exige des traces documentaires complètes, pas seulement la facture. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 ## Modèle 349 et modèle 303 conciliés
 
@@ -41,7 +41,7 @@ Le cadre juridique se trouve dans la <a href="https://www.boe.es/buscar/act.php?
 |---|---|
 | Facturer sans VIES valide du client | AEAT requalifie en B2C → TVA espagnole + sanction |
 | Ne pas déclarer une opération de 5 000€ sur le 349 | Sanction pour omission + majoration |
-| Formulaires 303 et 349 avec chiffres différents | Évaluation parallèle immédiate, souvent inspection |. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+| Formulaires 303 et 349 avec chiffres différents | Évaluation parallèle immédiate, souvent inspection |. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 | Oublier la mention « reverse charge » sur la facture | Le client UE rejette la facture, retard de paiement |
 | Confondre B2C avec B2B sur plateformes numériques | OSS mal renseigné → corrections avec majorations |
 

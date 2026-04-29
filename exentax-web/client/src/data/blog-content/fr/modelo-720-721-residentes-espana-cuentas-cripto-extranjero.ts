@@ -35,14 +35,14 @@ Sont tenus de déposer le 720 et/ou le 721:
 Après la première déclaration, il faut redéposer **uniquement** si, dans le bloc concerné, l'on observe une **augmentation supérieure à 20 000 €** par rapport au dernier solde déclaré, ou si vous avez perdu la titularité ou annulé un élément précédemment déclaré.
 ## L'arrêt CJUE C-788/19 et le régime de sanctions actuel
 
-Le régime de sanctions initial du 720 était l'un des plus sévères de l'UE: 5 000 € par donnée omise (minimum 10 000 €), imprescriptibilité des revenus non déclarés requalifiés en gain patrimonial non justifié (art. 39.2 LIRPF) et sanction de 150 % sur la cotisation. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+Le régime de sanctions initial du 720 était l'un des plus sévères de l'UE: 5 000 € par donnée omise (minimum 10 000 €), imprescriptibilité des revenus non déclarés requalifiés en gain patrimonial non justifié (art. 39.2 LIRPF) et sanction de 150 % sur la cotisation. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
-L'**arrêt de la CJUE du 27 janvier 2022, affaire C-788/19**, l'a déclaré contraire au droit de l'Union pour disproportion et atteinte à la libre circulation des capitaux. La loi 5/2022 du 9 mars a supprimé ces sanctions spécifiques. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+L'**arrêt de la CJUE du 27 janvier 2022, affaire C-788/19**, l'a déclaré contraire au droit de l'Union pour disproportion et atteinte à la libre circulation des capitaux. La loi 5/2022 du 9 mars a supprimé ces sanctions spécifiques. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 
 Cela **ne signifie pas** qu'il n'y a plus de sanctions. Aujourd'hui s'appliquent:
 
 - La **sanction ordinaire** de l'art. 198 LGT pour non-dépôt d'une déclaration informative: 20 € par donnée, minimum 300 €, maximum 20 000 €. Réduite de moitié en cas de dépôt spontané sans mise en demeure préalable.
-- Le **régime général LGT** pour les cotisations dues au titre de l'IRPF si des revenus non déclarés sont découverts: art. 191 (sanction de 50 à 150 % de la cotisation), avec **prescription de 4 ans**. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
+- Le **régime général LGT** pour les cotisations dues au titre de l'IRPF si des revenus non déclarés sont découverts: art. 191 (sanction de 50 à 150 % de la cotisation), avec **prescription de 4 ans**. C'est exactement pour cela que chez Exentax on garde votre calendrier carré — vous ne pensez plus aux échéances, on les clôt avant qu'elles ne mordent.
 - La **voie pénale** (art. 305 du Code pénal) si la fraude dans un exercice dépasse 120 000 €.
 
 L'arrêt européen a adouci le régime, mais il n'a pas supprimé l'obligation de déclarer. Ne pas déposer le 720 reste une infraction fiscale.
@@ -102,7 +102,7 @@ Notre processus pour le 720/721 lorsqu'un client arrive avec LLC + fintechs euro
 6. **Intégration** avec le reste de la planification: <a href="/fr/blog/conception-dune-structure-fiscale-internationale-solide">conception de structure internationale</a>, <a href="/fr/blog/imposition-de-la-llc-selon-lactivite-economique-services">imposition LLC par activité</a> et <a href="/fr/blog/crs-pour-residents-en-espagne-et-latam-implications-reelles">CRS pour résidents espagnols</a>.
 ### En résumé
 
-Le Modelo 720 et le Modelo 721 sont des obligations informatives, pas des impôts. Elles ne coûtent rien en elles-mêmes, mais leur omission, oui: sanction de l'art. 198 LGT, régularisation des cotisations avec les majorations de l'art. 191 et, sur les soldes non justifiés, le levier classique de l'art. 39 LIRPF (atténué par la CJUE mais pas supprimé). Le recoupement avec CRS et, à partir du 1er janvier 2026, avec DAC8, rend l'empreinte de plus en plus visible pour l'AEAT. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+Le Modelo 720 et le Modelo 721 sont des obligations informatives, pas des impôts. Elles ne coûtent rien en elles-mêmes, mais leur omission, oui: sanction de l'art. 198 LGT, régularisation des cotisations avec les majorations de l'art. 191 et, sur les soldes non justifiés, le levier classique de l'art. 39 LIRPF (atténué par la CJUE mais pas supprimé). Le recoupement avec CRS et, à partir du 1er janvier 2026, avec DAC8, rend l'empreinte de plus en plus visible pour l'AEAT. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 Si vous avez Wise, Mercury, Revolut, brokers étrangers ou crypto hors d'Espagne et n'êtes pas 100 % sûr de votre position vis-à-vis du 720/721, nous l'examinons avec vous et nettoyons votre situation avant la prochaine campagne.
 ## Conformité fiscale dans votre pays: CFC, transparence fiscale et attribution des revenus
@@ -112,7 +112,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 ### Par juridiction
 
 - **Espagne (LIRPF/LIS).** Si la LLC est une *Single-Member Disregarded Entity* opérationnelle (services réels, sans passivité significative), le fisc la traite généralement par **attribution de revenus (art. 87 LIRPF)**: les bénéfices nets sont attribués à l'associé l'année où ils naissent et intégrés dans la base générale de l'IRPF. Si la LLC opte pour la fiscalité de *corporation* (Form 8832) et qu'elle est contrôlée par un résident espagnol avec des revenus majoritairement passifs, le **régime de transparence fiscale internationale (art. 91 LIRPF pour les personnes physiques, art. 100 LIS pour les sociétés)** peut s'appliquer. Le choix n'est pas optionnel: il dépend de la substance économique, pas du nom.
-- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
+- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour vous.
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
@@ -166,7 +166,7 @@ Les modèles 720 (biens à l'étranger) et 721 (cryptos à l'étranger) sont les
 
 - **Modèle 720: ce qui se déclare.** Comptes bancaires à l'étranger, valeurs et participations dans entités étrangères, immeubles à l'étranger, quand le solde agrégé dans chaque bloc dépasse 50 000 EUR au 31 décembre ou est le plus haut de l'année.
 - **Modèle 721: cryptos.** Spécifique aux soldes crypto chez exchanges étrangers (Binance, Coinbase, Kraken). Seuil: 50 000 EUR au 31 décembre ou plus haut de l'année. Dépôt: janvier-mars suivants.
-- **Régime sanctionnateur actuel.** Après l'arrêt CJUE de janvier 2022 (C-788/19) et la réforme, l'ancien régime spécifique 720 fut déclaré contraire au droit UE. Sanctions actuelles: régime général LGT. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+- **Régime sanctionnateur actuel.** Après l'arrêt CJUE de janvier 2022 (C-788/19) et la réforme, l'ancien régime spécifique 720 fut déclaré contraire au droit UE. Sanctions actuelles: régime général LGT. Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Ce qu'il faut savoir.** Une LLC américaine dont l'associé est résident espagnol oblige à déclarer la participation (modèle 720, bloc "valeurs et participations") au-delà du seuil. Les comptes bancaires de la LLC (Mercury, Wise) ne se déclarent pas comme du résident, mais peuvent être demandés en contrôle.
 
 ### Ce qu'on nous demande le plus
@@ -189,7 +189,7 @@ Au-delà du cadre légal, la question revient chaque semaine en consultation: "j
 
 ### Accès et seuil d'obligation
 
-Le Modelo 720 se dépose uniquement en ligne sur la Sede Electrónica de l'AEAT avec certificat numérique, DNIe ou Cl@ve PIN. L'obligation naît lorsque, au 31 décembre, le **bloc des comptes bancaires à l'étranger** dépasse **50 000 EUR**, avec la même règle appliquée de manière indépendante au **bloc des valeurs, assurances et rentes** et au **bloc des biens immobiliers**. Les années suivantes, une hausse de plus de 20 000 EUR dans un bloc déjà déclaré rouvre l'obligation. La doctrine en vigueur découle de la Ley 7/2012 et de l'arrêt CJUE C-788/19 du 27 janvier 2022, qui a abrogé le régime de sanctions disproportionné tout en maintenant l'obligation informative. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
+Le Modelo 720 se dépose uniquement en ligne sur la Sede Electrónica de l'AEAT avec certificat numérique, DNIe ou Cl@ve PIN. L'obligation naît lorsque, au 31 décembre, le **bloc des comptes bancaires à l'étranger** dépasse **50 000 EUR**, avec la même règle appliquée de manière indépendante au **bloc des valeurs, assurances et rentes** et au **bloc des biens immobiliers**. Les années suivantes, une hausse de plus de 20 000 EUR dans un bloc déjà déclaré rouvre l'obligation. La doctrine en vigueur découle de la Ley 7/2012 et de l'arrêt CJUE C-788/19 du 27 janvier 2022, qui a abrogé le régime de sanctions disproportionné tout en maintenant l'obligation informative. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça vous épargne cinq chiffres.
 
 ### Cases qui génèrent le plus d'erreurs
 
@@ -204,7 +204,7 @@ Freelance résidant à Madrid avec: Wise EUR solde 18 400 EUR, Mercury Personal 
 
 ### Erreurs qui produisent le plus de sanctions
 
-Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
+Respirez : chez Exentax c'est de la routine, on vous remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 1. Oublier les comptes Wise Business et Mercury de la LLC quand le bénéficiaire effectif est le dirigeant.
 2. Ne pas redéclarer après une hausse supérieure à 20 000 EUR par rapport au dernier 720.
