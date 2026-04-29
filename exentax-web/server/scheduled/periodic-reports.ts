@@ -499,13 +499,11 @@ export async function runYearlyHookAudit(now: Date): Promise<void> {
   try {
     // Dynamic import keeps the auditor's eager file IO (HOOKS, VERACITY,
     // snapshot, ...) lazy: it only loads when the once-yearly branch fires
-    // (or QA forces it via HOOK_AUDIT_FORCE), never at server boot.
-    // The .mjs file lives outside the TS project (no .d.ts), so we coerce
-    // through `unknown` and the explicit `YearlyAuditModule` shape above.
-    const mod = (await import(
-      // @ts-expect-error — auditor is a plain ESM script, no type declarations
+    // (or QA forces it via HOOK_AUDIT_FORCE), never at server boot. Types
+    // come from the sibling `blog-numeric-hook-yearly-refresh.d.mts`.
+    const mod = await import(
       "../../scripts/blog/blog-numeric-hook-yearly-refresh.mjs"
-    )) as unknown as YearlyAuditModule;
+    );
     result = mod.runAudit({
       referenceYear: year,
       write: false,

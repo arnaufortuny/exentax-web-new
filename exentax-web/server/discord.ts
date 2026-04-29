@@ -853,10 +853,30 @@ async function scheduleRetry(
     return;
   }
   // Memory-only fallback: re-queue after the backoff using a timer.
-  setTimeout(() => {
+  // The timer is tracked in `_pendingRetryTimers` so a graceful shutdown
+  // can clear it (otherwise the event loop stays awake until backoffMs
+  // expires). `.unref?.()` keeps it from blocking process exit even if
+  // shutdown forgets to call `clearPendingDiscordTimers()`.
+  const handle = setTimeout(() => {
+    _pendingRetryTimers.delete(handle);
     _memoryQueue.unshift({ ...item, attempt: nextAttempt });
     ensureDrainTimer();
-  }, backoffMs).unref?.();
+  }, backoffMs);
+  handle.unref?.();
+  _pendingRetryTimers.add(handle);
+}
+
+const _pendingRetryTimers = new Set<NodeJS.Timeout>();
+
+/**
+ * Clear all in-memory Discord retry timers. Safe to call multiple times.
+ * Invoked by `gracefulShutdown` so SIGTERM doesn't leave timers awake.
+ * The DB-backed retry path is unaffected — those rows survive the restart
+ * and the next instance picks them up via the normal claim sweep.
+ */
+export function clearPendingDiscordTimers(): void {
+  for (const t of _pendingRetryTimers) clearTimeout(t);
+  _pendingRetryTimers.clear();
 }
 
 /**
@@ -978,6 +998,11 @@ export function _resetDiscordQueueForTests(): void {
   _dbCached = null;
   _schemaCached = null;
   if (_drainTimer) { clearInterval(_drainTimer); _drainTimer = null; }
+  // Also clear any in-flight memory-only retry timers so the next test
+  // starts from a fully quiescent state. Without this, a backoff timer
+  // armed by the previous test would re-enqueue a stale item in the
+  // middle of an unrelated assertion.
+  clearPendingDiscordTimers();
   try { setDiscordQueueSize(0); } catch { /* noop */ }
 }
 

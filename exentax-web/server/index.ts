@@ -12,8 +12,8 @@ import { assertGuidePdfUrlReady } from "./email";
 import { startDripWorker } from "./scheduled/drip-worker";
 import { startDiscordAlertWorker } from "./discord-alerts";
 import { backendLabel, resolveRequestLang } from "./routes/shared";
-import { notifyCriticalError, startDiscordQueueWorker } from "./discord";
-import { SITE_URL } from "./server-constants";
+import { notifyCriticalError, startDiscordQueueWorker, clearPendingDiscordTimers } from "./discord";
+import { SITE_URL, getBrandingEnvFallbacks } from "./server-constants";
 import { correlationMiddleware } from "./correlation";
 import { recordHttpRequest } from "./metrics";
 import { registerObservabilityRoutes } from "./routes/observability";
@@ -41,6 +41,7 @@ const REQUIRED_ENV_VARS: Array<{ name: string; prodOnly?: boolean; hint: string 
 ];
 
 const isProd = process.env.NODE_ENV === "production";
+const isDev = process.env.NODE_ENV === "development";
 const missingVars: string[] = [];
 for (const v of REQUIRED_ENV_VARS) {
   if (v.prodOnly && !isProd) continue;
@@ -397,20 +398,24 @@ app.use(legacyRedirects);
 
 app.use((req, res, next) => {
   const url = req.path.toLowerCase();
+  // Cache policy: in dev we want hot-reload-friendly headers (no-cache);
+  // in any non-development env (production OR staging) we cache for 24h.
+  // `isProd` (declared above) covers production explicitly; here we use
+  // `isDev` semantics — the same constant is reused for the static-serve
+  // branch below to keep the policy consistent across the file.
+  const cacheable = !isDev;
   if (url.match(/\.(ico|png|svg|webp)$/) && (url.includes("favicon") || url.includes("icon") || url.includes("apple-touch") || url === "/og-image.png")) {
-    if (process.env.NODE_ENV === "development") {
+    if (cacheable) {
+      res.setHeader("Cache-Control", "public, max-age=86400, must-revalidate");
+    } else {
       res.setHeader("Cache-Control", "no-cache, must-revalidate");
       res.setHeader("Pragma", "no-cache");
-    } else {
-      res.setHeader("Cache-Control", "public, max-age=86400, must-revalidate");
     }
   }
   if (url === "/site.webmanifest") {
-    if (process.env.NODE_ENV === "development") {
-      res.setHeader("Cache-Control", "no-cache, must-revalidate");
-    } else {
-      res.setHeader("Cache-Control", "public, max-age=86400, must-revalidate");
-    }
+    res.setHeader("Cache-Control", cacheable
+      ? "public, max-age=86400, must-revalidate"
+      : "no-cache, must-revalidate");
     res.setHeader("Content-Type", "application/manifest+json");
   }
   next();
@@ -644,8 +649,10 @@ httpServer.listen(
     await runColumnMigrations();
     await registerRoutes(httpServer, app, activeIntervals);
 
-    const isProduction = process.env.NODE_ENV !== "development";
-    if (isProduction) {
+    // Static-serve branch fires whenever we're NOT in dev. This covers
+    // both real `production` deploys and any non-development env (e.g.
+    // staging) where the Vite dev server should NOT be mounted.
+    if (!isDev) {
       await serveStatic(app);
 
       // Sitemap-level ping. Detects real changes in /sitemap.xml between
@@ -815,6 +822,19 @@ httpServer.listen(
     serverReady = true;
     logger.info("fully initialized", "express");
 
+    // Branding env audit: in PRODUCTION every contact / social URL must be
+    // explicitly set so a config drift on one channel (Instagram handle
+    // changed, ADMIN_EMAIL rotated, etc.) doesn't silently fall back to
+    // the dev defaults. In dev / staging missing vars are expected and
+    // we stay quiet.
+    const fallbacks = getBrandingEnvFallbacks();
+    if (isProd && fallbacks.length > 0) {
+      logger.warn(
+        `[branding] ${fallbacks.length} env var(s) using hard-coded fallback in production: ${fallbacks.join(", ")} — set these in the production environment`,
+        "startup",
+      );
+    }
+
     import("./storage").then(({ seedInitialLegalVersions }) => {
       seedInitialLegalVersions().then(() => logger.info("Legal document versions seeded.", "startup")).catch(e => logger.error("legal version seed failed", "startup", e));
     });
@@ -965,6 +985,10 @@ function gracefulShutdown(signal: string) {
   for (const iv of activeIntervals) clearInterval(iv);
   activeIntervals.length = 0;
   clearActiveTimers();
+  // Discord retry timers live in their own module-local Set (memory-only
+  // backoff). Clear them so SIGTERM doesn't leave the event loop awake
+  // for up to backoffMs after every other interval has been cancelled.
+  clearPendingDiscordTimers();
   httpServer.close(async () => {
     try { await closePool(); logger.info("DB pool closed.", "shutdown"); } catch (e) { logger.error("Pool close error", "shutdown", e); }
     logger.info("HTTP server closed.", "shutdown");
@@ -980,19 +1004,55 @@ function gracefulShutdown(signal: string) {
 process.on("SIGTERM", () => gracefulShutdown("SIGTERM"));
 process.on("SIGINT", () => gracefulShutdown("SIGINT"));
 
-process.on("unhandledRejection", (reason: any) => {
+/**
+ * Process-level error policy — DOCUMENTED, not improvised.
+ *
+ * `unhandledRejection`: log + notify Discord, then keep running.
+ *   For an Express web app a single mishandled promise (e.g. a route that
+ *   forgot `await` on a side-effect) must NOT tear down the pod and drop
+ *   every in-flight request. The alert goes to #sistema-errores so an
+ *   operator sees it within a minute and can decide whether the offending
+ *   handler needs a hotfix; the pod keeps serving traffic in the meantime.
+ *
+ * `uncaughtException`: split by error code.
+ *   - Network-level transient codes (ECONNRESET / EPIPE / ENOTFOUND /
+ *     ECONNREFUSED / ETIMEDOUT / EAI_AGAIN) almost always come from a
+ *     downstream socket dying mid-request and are NOT a sign that local
+ *     state is corrupt → keep running, log a warn.
+ *   - Anything else might mean local invariants are broken (e.g. a
+ *     ReferenceError in a hot path) → notify and gracefully shutdown.
+ *
+ * This is the SAME policy used by booking, drip and email retry workers
+ * (see header of each). Centralised here so any future change touches
+ * one place.
+ */
+function handleUnhandledRejection(reason: any): void {
+  // Mirrors the legacy inline handler: truthy `reason.message` (any type) is
+  // preferred, with `String(reason)` as fallback. `reason.code` is forwarded
+  // verbatim — Discord's notifyCriticalError tolerates any JSON-serialisable
+  // shape there. Tightening the type checks would silently change the alert
+  // payload for non-Error rejections (e.g. plain object throws).
   const message = reason?.message || String(reason);
+  const code = reason?.code || null;
   logger.error(`Unhandled promise rejection: ${message}`, "process");
-  notifyCriticalError({ context: "unhandledRejection", message, code: reason?.code || null });
-});
+  notifyCriticalError({ context: "unhandledRejection", message, code });
+}
 
-process.on("uncaughtException", (err: Error) => {
+const RECOVERABLE_NET_CODES = ["ECONNRESET", "EPIPE", "ENOTFOUND", "ECONNREFUSED", "ETIMEDOUT", "EAI_AGAIN"] as const;
+
+function handleUncaughtException(err: Error): void {
   logger.error(`Uncaught exception: ${err.message}`, "process", err);
-  const recoverable = ["ECONNRESET", "EPIPE", "ENOTFOUND", "ECONNREFUSED", "ETIMEDOUT", "EAI_AGAIN"];
-  if (recoverable.some(code => err.message?.includes(code) || (err as NodeJS.ErrnoException).code === code)) {
+  const errCode = (err as NodeJS.ErrnoException).code;
+  const isRecoverable = RECOVERABLE_NET_CODES.some(code =>
+    err.message?.includes(code) || errCode === code
+  );
+  if (isRecoverable) {
     logger.warn("Recoverable network error — continuing.", "process");
     return;
   }
-  notifyCriticalError({ context: "uncaughtException", message: err.message, code: (err as NodeJS.ErrnoException).code || null });
+  notifyCriticalError({ context: "uncaughtException", message: err.message, code: errCode || null });
   gracefulShutdown("uncaughtException");
-});
+}
+
+process.on("unhandledRejection", handleUnhandledRejection);
+process.on("uncaughtException", handleUncaughtException);

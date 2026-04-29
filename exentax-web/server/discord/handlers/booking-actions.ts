@@ -381,13 +381,27 @@ export async function handleCreateBooking(
     return { error: false as const };
   });
 
+  // Compensating cleanup: if the booking failed AFTER the Meet event was
+  // already created (slot race / duplicate), best-effort delete the orphan
+  // Calendar event. We log the failure as a warn (not error) — the daily
+  // reconcile-zombies sweep will retry deletion of any orphan event the
+  // next morning.
+  const cleanupOrphanMeet = (eventId: string, why: string): void => {
+    deleteGoogleMeetEvent(eventId).catch((err) => {
+      logger.warn(
+        `[booking-actions] orphan Meet cleanup failed (${why}, eventId=${eventId}): ${err instanceof Error ? err.message : String(err)} — reconcile-zombies will retry`,
+        "discord-bot",
+      );
+    });
+  };
+
   if (result.error === "SLOT_TAKEN") {
-    if (meetEventId) deleteGoogleMeetEvent(meetEventId).catch(() => {});
+    if (meetEventId) cleanupOrphanMeet(meetEventId, "slot_taken");
     await followupEphemeral(interaction.token, "Error: Ese slot ya está ocupado.");
     return;
   }
   if (result.error === "DUPLICATE") {
-    if (meetEventId) deleteGoogleMeetEvent(meetEventId).catch(() => {});
+    if (meetEventId) cleanupOrphanMeet(meetEventId, "duplicate_email");
     await followupEphemeral(interaction.token, "Error: Ya existe una reserva activa para ese email.");
     return;
   }
