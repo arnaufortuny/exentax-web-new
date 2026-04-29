@@ -78,7 +78,10 @@ export async function runIncompleteBookingsSweep(): Promise<{ scanned: number; s
 
 export function startIncompleteBookingsScheduler(): NodeJS.Timeout {
   // Primera pasada con un pequeño delay para dejar que arranque el resto.
-  setTimeout(() => { void runIncompleteBookingsSweep(); }, 30_000);
+  // `.unref()` para que este timer no impida que el proceso salga si
+  // recibe SIGTERM dentro de los primeros 30 s (mismo patrón que
+  // drip-worker, email-retry-queue, reconcile-zombies y periodic-reports).
+  setTimeout(() => { void runIncompleteBookingsSweep(); }, 30_000).unref();
   const handle = setInterval(() => { void runIncompleteBookingsSweep(); }, SWEEP_INTERVAL_MS);
   return handle;
 }

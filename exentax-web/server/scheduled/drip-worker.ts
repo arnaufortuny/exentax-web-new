@@ -200,7 +200,16 @@ export async function sendImmediateStep1(args: {
     });
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
-    await markDripEnrollmentError({ id: args.id, error: message }).catch(() => {});
+    // No dejar el fallo de marcado en silencio: si la fila no se puede
+    // marcar como errónea, registramos el motivo para que el operador
+    // sepa que la próxima pasada del worker la verá con el `currentStep`
+    // intacto y la reintentará igualmente (fail-soft).
+    await markDripEnrollmentError({ id: args.id, error: message }).catch((markErr) => {
+      logger.warn(
+        `Drip immediate step 1: markDripEnrollmentError failed for ${args.id}: ${markErr instanceof Error ? markErr.message : String(markErr)}`,
+        "drip-worker",
+      );
+    });
     logger.warn(
       `Drip immediate step 1 failed for ${args.id} (worker will retry): ${message.slice(0, 200)}`,
       "drip-worker",
