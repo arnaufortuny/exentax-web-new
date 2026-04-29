@@ -20520,7 +20520,7 @@
         "passiveReference": 8,
         "fix": 0
       },
-      "sourcesCount": 2,
+      "sourcesCount": 3,
       "status": "✓",
       "statusDetail": "pillar OK ×2 · menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×8 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
@@ -35536,7 +35536,7 @@
         "passiveReference": 7,
         "fix": 0
       },
-      "sourcesCount": 2,
+      "sourcesCount": 3,
       "status": "✓",
       "statusDetail": "pillar OK ×2 · menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
@@ -50472,7 +50472,7 @@
         "passiveReference": 7,
         "fix": 0
       },
-      "sourcesCount": 1,
+      "sourcesCount": 2,
       "status": "✓",
       "statusDetail": "pillar OK ×2 · menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
@@ -65448,7 +65448,7 @@
         "passiveReference": 8,
         "fix": 0
       },
-      "sourcesCount": 1,
+      "sourcesCount": 2,
       "status": "✓",
       "statusDetail": "pillar OK ×2 · menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×8 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
@@ -80760,7 +80760,7 @@
         "passiveReference": 11,
         "fix": 0
       },
-      "sourcesCount": 1,
+      "sourcesCount": 2,
       "status": "✓",
       "statusDetail": "pillar OK ×2 · menció secundaria con afirmación canónica ×6 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
