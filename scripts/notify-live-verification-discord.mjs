@@ -148,17 +148,40 @@ function envOrEmpty(name) {
 }
 
 /**
+ * Lista por defecto de triggers "privilegiados" para el cron
+ * `live-verification.yml` — es decir, los que tienen acceso a
+ * `secrets.*` en el repo canónico y donde la ausencia de token NO es
+ * esperada (sería un secret rotado / borrado por accidente).
+ *
+ * Otros workflows que reutilizan el manager de sticky issue (Task #63 —
+ * `auditoria-ci-notify-discord.mjs` y `notify-perf-gate-bypass-discord.mjs`)
+ * disparan en `push` a main o `pull_request: closed`, así que pasan su
+ * propia lista vía `privilegedTriggers` o via env
+ * `MONITORING_PRIVILEGED_TRIGGERS`.
+ */
+const DEFAULT_PRIVILEGED_TRIGGERS = ["schedule", "workflow_dispatch"];
+
+/**
  * `true` cuando el evento de GitHub Actions corresponde a un trigger
  * "privilegiado" — es decir, uno con acceso a `secrets.*` en el repo
- * canónico. Coincide con la lista de triggers que configuramos en
- * `.github/workflows/live-verification.yml` (`schedule` + `workflow_dispatch`).
+ * canónico. Por defecto coincide con la lista del cron de
+ * `.github/workflows/live-verification.yml` (`schedule` +
+ * `workflow_dispatch`); se puede pasar una lista alternativa cuando
+ * el helper se reutiliza desde otros workflows (Task #63).
  *
  * En PRs de fork, `github.event_name === "pull_request"` y los secrets
  * NO están disponibles, por lo que la ausencia de token es esperada y
- * NO debe abrir issue.
+ * NO debe abrir issue. La excepción es `pull_request: closed && merged`
+ * en `notify-perf-gate-bypass-merged.yml`: ese workflow ya filtra a
+ * nivel de job que el PR fue mergeado al repo canónico, por lo que
+ * pasa explícitamente `["pull_request"]` como privilegiado.
  */
-export function isPrivilegedTrigger(eventName) {
-  return eventName === "schedule" || eventName === "workflow_dispatch";
+export function isPrivilegedTrigger(eventName, privilegedTriggers) {
+  const triggers =
+    Array.isArray(privilegedTriggers) && privilegedTriggers.length > 0
+      ? privilegedTriggers
+      : DEFAULT_PRIVILEGED_TRIGGERS;
+  return triggers.includes(eventName);
 }
 
 /**
@@ -205,12 +228,16 @@ export function secretsMissing(env) {
  * Esta función es pura y por eso vive en este módulo: los tests cubren
  * la rama "secrets ausentes en schedule" sin tener que tocar la red.
  */
-export function decideStickyIssueAction({ eventName, env }) {
-  if (!isPrivilegedTrigger(eventName)) {
+export function decideStickyIssueAction({
+  eventName,
+  env,
+  privilegedTriggers,
+}) {
+  if (!isPrivilegedTrigger(eventName, privilegedTriggers)) {
     return {
       action: "skip",
       reason:
-        "Trigger no privilegiado (pull_request / push). Los runs de fork no tienen acceso a secrets — silencio esperado.",
+        "Trigger no privilegiado para este workflow. Los runs sin acceso a secrets (p. ej. PRs de fork) producen silencio esperado.",
       missing: [],
     };
   }
@@ -225,7 +252,7 @@ export function decideStickyIssueAction({ eventName, env }) {
   }
   return {
     action: "open-or-update",
-    reason: `Faltan secrets en el repo canónico: ${missing.join(", ")}. La cron sigue verde pero las alertas Discord no llegan.`,
+    reason: `Faltan secrets en el repo canónico: ${missing.join(", ")}. El workflow sigue corriendo pero las alertas Discord no llegan.`,
     missing,
   };
 }

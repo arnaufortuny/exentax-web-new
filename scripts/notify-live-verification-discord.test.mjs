@@ -779,6 +779,89 @@ test("decideStickyIssueAction: push + secrets ausentes → skip (no PR ni cron)"
   assert.equal(d.action, "skip");
 });
 
+// ──────── Task #63: privilegedTriggers override por workflow ────────
+test("isPrivilegedTrigger: lista custom respeta workflows distintos al cron", () => {
+  // diagnostic-audit pasa ["push"]; el cron por defecto NO trata push
+  // como privilegiado (y eso no debe cambiar para los workflows que
+  // no opten in).
+  assert.equal(isPrivilegedTrigger("push", ["push"]), true);
+  assert.equal(isPrivilegedTrigger("push", ["pull_request"]), false);
+  // Lista vacía / falsy → cae al default histórico.
+  assert.equal(isPrivilegedTrigger("schedule", []), true);
+  assert.equal(isPrivilegedTrigger("schedule", undefined), true);
+  assert.equal(isPrivilegedTrigger("push", null), false);
+});
+
+test("decideStickyIssueAction: push + privilegedTriggers=['push'] + secrets ausentes → open-or-update", () => {
+  // Modela el step de Task #63 en `diagnostic-audit.yml`: cuando un
+  // push a main fallido al gate intenta notificar pero los secrets
+  // están ausentes, el sticky "Auditoria CI monitoring is offline"
+  // debe abrirse.
+  const d = decideStickyIssueAction({
+    eventName: "push",
+    env: {},
+    privilegedTriggers: ["push"],
+  });
+  assert.equal(d.action, "open-or-update");
+  assert.deepEqual(
+    d.missing.sort(),
+    ["DISCORD_BOT_TOKEN", "DISCORD_CHANNEL_ERRORES"].sort(),
+  );
+});
+
+test("decideStickyIssueAction: pull_request + privilegedTriggers=['pull_request'] + secrets ausentes → open-or-update", () => {
+  // Modela el step de Task #63 en `notify-perf-gate-bypass-merged.yml`:
+  // el job ya filtró merged + label, así que pull_request cuenta como
+  // privilegiado para este workflow concreto.
+  const d = decideStickyIssueAction({
+    eventName: "pull_request",
+    env: { DISCORD_BOT_TOKEN: "tok" },
+    privilegedTriggers: ["pull_request"],
+  });
+  assert.equal(d.action, "open-or-update");
+  assert.deepEqual(d.missing, ["DISCORD_CHANNEL_ERRORES"]);
+});
+
+test("decideStickyIssueAction: pull_request + privilegedTriggers=['pull_request'] + secrets presentes → close-if-open", () => {
+  const d = decideStickyIssueAction({
+    eventName: "pull_request",
+    env: {
+      DISCORD_BOT_TOKEN: "abc.def.ghi",
+      DISCORD_CHANNEL_ERRORES: "1234567890",
+    },
+    privilegedTriggers: ["pull_request"],
+  });
+  assert.equal(d.action, "close-if-open");
+});
+
+test("decideStickyIssueAction: trigger fuera de la lista custom → skip", () => {
+  // Si pasamos privilegedTriggers=['push'] y llega un schedule, el
+  // helper debe seguir tratándolo como NO privilegiado para ese
+  // workflow (el cron tiene su propia copia con su propia lista).
+  const d = decideStickyIssueAction({
+    eventName: "schedule",
+    env: {},
+    privilegedTriggers: ["push"],
+  });
+  assert.equal(d.action, "skip");
+});
+
+test("decideStickyIssueAction: privilegedTriggers no afecta el comportamiento por defecto", () => {
+  // Sanity: omitir privilegedTriggers debe mantener el comportamiento
+  // exacto que esperan los tests pre-Task-#63 (live-verification cron).
+  const d1 = decideStickyIssueAction({
+    eventName: "schedule",
+    env: { DISCORD_BOT_TOKEN: "", DISCORD_CHANNEL_ERRORES: "" },
+  });
+  assert.equal(d1.action, "open-or-update");
+
+  const d2 = decideStickyIssueAction({
+    eventName: "push",
+    env: {},
+  });
+  assert.equal(d2.action, "skip");
+});
+
 test("main: warn ::warning:: cuando schedule + secrets ausentes y down", async () => {
   // Cubre la rama nueva en main(): si el trigger es privilegiado y los
   // secrets faltan en una transición real (down), tiene que dejar

@@ -31,6 +31,19 @@
  * Si faltan token o channel, el script sale 0 sin enviar nada (no
  * queremos que la falta de credenciales rompa más el job ya fallido).
  *
+ * ─── DETECCIÓN DE MISCONFIG (Task #61 / #63) ───────────────────────
+ * El patrón "exit 0 cuando faltan secrets" tiene un blind spot: si un
+ * operador rota o borra `DISCORD_BOT_TOKEN` / `DISCORD_CHANNEL_ERRORES`
+ * en el repo canónico, este notifier sale silente y la alerta de
+ * Discord nunca llega — el `gate` aparece en rojo en la UI, pero
+ * `#exentax-errores` se queda mudo. El workflow
+ * `.github/workflows/diagnostic-audit.yml` mitiga ese silencio
+ * llamando a `scripts/notify-monitoring-offline-issue.mjs` justo
+ * después de este step (con título sticky "Auditoria CI monitoring is
+ * offline" y `MONITORING_PRIVILEGED_TRIGGERS=push`). Ver Task #61 para
+ * el patrón original (live-verification cron) y Task #63 para la
+ * extensión a este notifier y al de perf-gate-bypass.
+ *
  * Lee, si existe, `docs/auditoria-2026-04/calidad-global-report.json`
  * para resumir los top bloqueantes en el mensaje. Si no existe (porque
  * la auditoría falló antes de generarlo), publica un mensaje genérico

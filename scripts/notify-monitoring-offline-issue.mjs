@@ -39,8 +39,30 @@
  *     DISCORD_BOT_TOKEN           — para detectar ausencia.
  *     DISCORD_CHANNEL_ERRORES     — idem.
  *     GITHUB_API_URL              — base API (por defecto api.github.com).
- *     MONITORING_ISSUE_TITLE      — override del título sticky (tests).
+ *     MONITORING_ISSUE_TITLE      — override del título sticky (Task #63
+ *                                   reutiliza este script desde otros
+ *                                   workflows con títulos distintos —
+ *                                   "Auditoria CI monitoring is offline" /
+ *                                   "Perf-gate monitoring is offline" —
+ *                                   y los tests también lo overridean).
  *     MONITORING_ISSUE_LABEL      — override de la label (tests).
+ *     MONITORING_PRIVILEGED_TRIGGERS — lista CSV de triggers que se
+ *                                   consideran "privilegiados" (con
+ *                                   acceso a secrets). Por defecto:
+ *                                   `schedule,workflow_dispatch` (cron de
+ *                                   live-verification). Task #63 lo
+ *                                   sobrescribe a `push` (auditoría CI)
+ *                                   o `pull_request` (perf-gate bypass)
+ *                                   para que el helper considere su
+ *                                   propio trigger como con acceso a
+ *                                   secrets en el repo canónico.
+ *     MONITORING_BODY_CONTEXT     — texto humano corto que describe qué
+ *                                   notifier está afectado (Task #63 —
+ *                                   p. ej. "auditoría CI" / "perf-gate
+ *                                   bypass"). Se inserta en la primera
+ *                                   línea del body para que el operador
+ *                                   identifique de qué pipeline viene
+ *                                   el sticky sin abrir el código.
  */
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -105,17 +127,24 @@ async function findStickyIssue({ apiBase, token, repo, title }) {
   );
 }
 
-function buildIssueBody({ missing, runUrl, repo }) {
+function buildIssueBody({ missing, runUrl, repo, bodyContext }) {
   const lines = [];
+  // `bodyContext` permite que workflows distintos (Task #63) personalicen
+  // el sujeto de la primera línea sin tener que re-implementar el body
+  // entero. Si no se provee, usamos el texto histórico del cron de
+  // live-verification para no romper la copia existente.
+  const subject = bodyContext
+    ? `El notifier de Discord para **${bodyContext}**`
+    : "El cron `live-verification`";
   lines.push(
-    "El cron `live-verification` está corriendo pero **no puede notificar a Discord** porque faltan secrets en el repo canónico.",
+    `${subject} está corriendo pero **no puede notificar a Discord** porque faltan secrets en el repo canónico.`,
   );
   lines.push("");
   lines.push("**Secrets ausentes:**");
   for (const m of missing) lines.push(`- \`${m}\``);
   lines.push("");
   lines.push(
-    "Mientras este issue siga abierto, cualquier degradación de la web pública detectada por el cron pasará silenciosa: el job aparecerá en rojo en la UI de Actions pero no llegará alerta a `#exentax-errores`.",
+    "Mientras este issue siga abierto, cualquier evento detectado por este pipeline pasará silencioso: el job aparecerá en rojo en la UI de Actions pero no llegará alerta a `#exentax-errores`.",
   );
   lines.push("");
   lines.push("**Cómo resolver:**");
@@ -128,7 +157,7 @@ function buildIssueBody({ missing, runUrl, repo }) {
       ").",
   );
   lines.push(
-    "3. El próximo run del cron (cada 20 min) cerrará automáticamente este issue al detectar los secrets de nuevo.",
+    "3. El próximo run del workflow cerrará automáticamente este issue al detectar los secrets de nuevo (live-verification cada 20 min; auditoría CI en el próximo push a `main` con fallo de gate; perf-gate en el próximo merge con label `bypass-perf-gate`).",
   );
   if (runUrl) {
     lines.push("");
@@ -136,7 +165,7 @@ function buildIssueBody({ missing, runUrl, repo }) {
   }
   lines.push("");
   lines.push(
-    "_Issue sticky gestionado automáticamente por `scripts/notify-monitoring-offline-issue.mjs` (Task #61)._",
+    "_Issue sticky gestionado automáticamente por `scripts/notify-monitoring-offline-issue.mjs` (Task #61, ampliado a más notifiers en Task #63)._",
   );
   return lines.join("\n");
 }
@@ -149,6 +178,7 @@ export async function manageStickyIssue({
   title,
   label,
   runUrl,
+  bodyContext,
 }) {
   if (decision.action === "skip") {
     console.log(
@@ -173,13 +203,20 @@ export async function manageStickyIssue({
       );
       return { result: "noop-already-closed" };
     }
+    // Mensaje de auto-resolve: usa `bodyContext` cuando está presente
+    // para que el comentario refleje qué workflow restauró los secrets
+    // (auditoría CI / perf-gate / live-verification). Sin contexto
+    // mantenemos el texto histórico del cron de live-verification.
+    const closeSubject = bodyContext
+      ? `el workflow de **${bodyContext}**`
+      : "el cron `live-verification`";
     await ghFetch({
       apiBase,
       token,
       method: "POST",
       pathSuffix: `/repos/${repo}/issues/${existing.number}/comments`,
       body: {
-        body: `Auto-resolución: el cron \`live-verification\` detectó que los secrets de Discord están de nuevo presentes. Cerrando issue.${runUrl ? `\n\nRun: ${runUrl}` : ""}`,
+        body: `Auto-resolución: ${closeSubject} detectó que los secrets de Discord están de nuevo presentes. Cerrando issue.${runUrl ? `\n\nRun: ${runUrl}` : ""}`,
       },
     });
     await ghFetch({
@@ -200,6 +237,7 @@ export async function manageStickyIssue({
     missing: decision.missing,
     runUrl,
     repo,
+    bodyContext,
   });
 
   if (existing) {
@@ -242,15 +280,28 @@ export async function manageStickyIssue({
   return { result: "created", issueNumber: created?.number };
 }
 
+function parsePrivilegedTriggers(raw) {
+  if (typeof raw !== "string") return undefined;
+  const list = raw
+    .split(",")
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0);
+  return list.length > 0 ? list : undefined;
+}
+
 export async function main() {
   const eventName = envOrEmpty("GITHUB_EVENT_NAME");
+  const privilegedTriggers = parsePrivilegedTriggers(
+    envOrEmpty("MONITORING_PRIVILEGED_TRIGGERS"),
+  );
   const decision = decideStickyIssueAction({
     eventName,
     env: process.env,
+    privilegedTriggers,
   });
 
   console.log(
-    `[monitoring-offline-issue] event=${eventName || "(none)"} action=${decision.action} reason="${decision.reason}"`,
+    `[monitoring-offline-issue] event=${eventName || "(none)"} privileged=[${(privilegedTriggers || ["schedule", "workflow_dispatch"]).join(",")}] action=${decision.action} reason="${decision.reason}"`,
   );
 
   // Si estamos en trigger privilegiado y faltan secrets, escupimos un
@@ -258,9 +309,16 @@ export async function main() {
   // cuando el notifier Discord salió en silent porque el cron está
   // verde) y queremos que la misconfiguración sea visible en la UI de
   // Actions sin depender del estado del runner.
+  const title = envOrEmpty("MONITORING_ISSUE_TITLE") || DEFAULT_TITLE;
+  const bodyContext = envOrEmpty("MONITORING_BODY_CONTEXT");
+
   if (decision.action === "open-or-update") {
+    // El title del ::warning:: refleja el sticky issue concreto para
+    // que la UI de Actions agrupe por workflow (live-verification,
+    // auditoría CI, perf-gate) en lugar de mezclarlos todos bajo el
+    // label histórico "Live-verification monitoring is offline".
     console.warn(
-      `::warning title=Live-verification monitoring is offline::Faltan secrets en el repo canónico (${decision.missing.join(", ")}). El cron sigue corriendo pero ninguna alerta de Discord llegará. Revisa la configuración de secrets.`,
+      `::warning title=${title}::Faltan secrets en el repo canónico (${decision.missing.join(", ")}). El workflow sigue corriendo pero ninguna alerta de Discord llegará. Revisa la configuración de secrets.`,
     );
   }
 
@@ -270,7 +328,6 @@ export async function main() {
   const repo = envOrEmpty("GITHUB_REPOSITORY");
   const apiBase = envOrEmpty("GITHUB_API_URL") || "https://api.github.com";
   const runUrl = envOrEmpty("GITHUB_RUN_URL");
-  const title = envOrEmpty("MONITORING_ISSUE_TITLE") || DEFAULT_TITLE;
   const label = envOrEmpty("MONITORING_ISSUE_LABEL") || DEFAULT_LABEL;
 
   try {
@@ -282,6 +339,7 @@ export async function main() {
       title,
       label,
       runUrl,
+      bodyContext,
     });
   } catch (err) {
     // Defensivo: jamás romper el job por un fallo en la API de Issues.

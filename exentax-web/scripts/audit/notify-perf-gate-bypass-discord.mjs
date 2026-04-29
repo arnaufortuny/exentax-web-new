@@ -38,6 +38,21 @@
  * (mismo patrón que el notifier de bundle-diff). Errores de red o de
  * la API se logean como warning para no convertir un fallo de
  * notificación en un fallo de pipeline.
+ *
+ * ─── DETECCIÓN DE MISCONFIG (Task #61 / #63) ───────────────────────
+ * El patrón "exit 0 cuando faltan secrets" tiene un blind spot: si un
+ * operador rota o borra `DISCORD_BOT_TOKEN` / `DISCORD_CHANNEL_ERRORES`
+ * en el repo canónico, este notifier sale silente y la alerta de
+ * perf-gate bypass nunca llega a `#exentax-errores`. El workflow
+ * `.github/workflows/notify-perf-gate-bypass-merged.yml` mitiga ese
+ * silencio llamando a `scripts/notify-monitoring-offline-issue.mjs`
+ * justo después de este step (con título sticky "Perf-gate monitoring
+ * is offline" y `MONITORING_PRIVILEGED_TRIGGERS=pull_request`). El job
+ * ya filtra `merged == true` + label `bypass-perf-gate` antes de correr,
+ * por lo que el `pull_request: closed` que llega aquí siempre viene del
+ * repo canónico (no de un fork). Ver Task #61 para el patrón original
+ * (live-verification cron) y Task #63 para la extensión a este notifier
+ * y al de auditoría CI.
  */
 import path from "node:path";
 import { fileURLToPath } from "node:url";

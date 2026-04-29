@@ -32,10 +32,15 @@ on:
     branches: [main]
 
 # Permisos mínimos: lectura del PR para descubrir labels/eventos/comentarios
-# vía API. No necesitamos `write` porque no editamos el PR ni el repo.
+# vía API. `issues: write` lo necesita el step "Sync sticky monitoring
+# issue" (Task #63) para abrir / actualizar / cerrar el issue sticky
+# "Perf-gate monitoring is offline" cuando los secrets de Discord faltan
+# en el repo canónico (mismo patrón que añadió Task #61 para el cron de
+# live-verification, extendido aquí). No editamos el PR.
 permissions:
   contents: read
   pull-requests: read
+  issues: write
 
 jobs:
   notify:
@@ -72,3 +77,31 @@ jobs:
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
           PR_MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
         run: node scripts/audit/notify-perf-gate-bypass-discord.mjs
+
+      # Task #63 — sticky issue para cuando los secrets de Discord
+      # faltan en el repo canónico y el notifier de perf-gate sale 0
+      # silente. Reutiliza el mismo manager que escribió Task #61 para
+      # el cron de live-verification. El job ya filtra `merged == true`
+      # + label `bypass-perf-gate` antes de levantar el runner, por lo
+      # que cuando este step corre sabemos que la notificación debió
+      # haber llegado, y tiene sentido auto-cerrar un sticky abierto.
+      # `MONITORING_PRIVILEGED_TRIGGERS=pull_request` le dice al helper
+      # que `pull_request` cuenta como "trigger con acceso a secrets"
+      # para este workflow (en `live-verification.yml` la lista por
+      # defecto es `schedule,workflow_dispatch`); seguro porque el job
+      # ya descartó forks vía `merged == true`. Se referencia el manager
+      # con `../scripts/...` desde la raíz del repo (el job tiene
+      # working-directory `exentax-web`).
+      - name: Sync sticky monitoring issue (Task #63)
+        if: always()
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          MONITORING_ISSUE_TITLE: "Perf-gate monitoring is offline"
+          MONITORING_PRIVILEGED_TRIGGERS: "pull_request"
+          MONITORING_BODY_CONTEXT: "perf-gate bypass (PR mergeado con label bypass-perf-gate)"
+        run: node ../scripts/notify-monitoring-offline-issue.mjs

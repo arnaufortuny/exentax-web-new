@@ -26,6 +26,15 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# `issues: write` lo necesita el step "Sync sticky monitoring issue"
+# (Task #63) para abrir / actualizar / cerrar el issue sticky
+# "Auditoria CI monitoring is offline" cuando los secrets de Discord
+# faltan en el repo canónico. Misma protección que añadió Task #61
+# para el cron de live-verification, extendida a este notifier.
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   diagnostic-audit:
     name: Routes / components / Discord / emails audit
@@ -141,6 +150,34 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF: ${{ github.ref }}
         run: node scripts/audit/auditoria-ci-notify-discord.mjs
+
+      # Task #63 — sticky issue para cuando los secrets de Discord
+      # faltan en el repo canónico y el notifier de auditoría CI sale
+      # 0 silente. Reutiliza el mismo manager que escribió Task #61
+      # para el cron de live-verification. Corre con la MISMA
+      # condición que el notifier de Discord (gate.outcome == 'failure'
+      # && push a main): solo entonces sabemos que la notificación
+      # debió haber llegado, y solo entonces tiene sentido auto-cerrar
+      # un sticky abierto. `MONITORING_PRIVILEGED_TRIGGERS=push` le
+      # dice al helper que `push` cuenta como "trigger con acceso a
+      # secrets" para este workflow (en `live-verification.yml` la
+      # lista por defecto es `schedule,workflow_dispatch`). El script
+      # corre desde `exentax-web/` (working-directory por defecto del
+      # job) — referenciado con `../scripts/...` desde la raíz del
+      # repo donde vive el manager genérico.
+      - name: Sync sticky monitoring issue (Task #63)
+        if: always() && steps.gate.outcome == 'failure' && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          MONITORING_ISSUE_TITLE: "Auditoria CI monitoring is offline"
+          MONITORING_PRIVILEGED_TRIGGERS: "push"
+          MONITORING_BODY_CONTEXT: "auditoría CI (diagnostic-audit)"
+        run: node ../scripts/notify-monitoring-offline-issue.mjs
 
       - name: Stop dev server
         if: always()
