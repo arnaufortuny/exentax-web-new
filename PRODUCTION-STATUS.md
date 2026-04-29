@@ -1,6 +1,6 @@
 # PRODUCTION-STATUS — Exentax Web
 
-> **Última actualización:** 2026-04-29 · **Tag de referencia:** `exentax-3.0` (snapshot consolidado tras revisión integral 10 lotes — Task #11 LOTE 10) **+ Task #77** (revisión integral masiva 2026-04-29, [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md)).
+> **Última actualización:** 2026-04-29 · **Tag de referencia:** `exentax-3.0` (snapshot consolidado tras revisión integral 10 lotes — Task #11 LOTE 10) **+ Task #77** (revisión integral masiva 2026-04-29, [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md)) **+ Task #78** (cierre a producción · idiomas, rutas y validadores 2026-04-29, [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md)).
 >
 > Este fichero es el **estado real verificado** de cada área del sistema en el momento de cierre de la revisión integral. Cada sección declara: estado (`✓` / `⚠` / `✗`), última verificación (fecha + comando exacto), referencia al reporte del LOTE correspondiente bajo `exentax-web/reports/`. Es la fuente de verdad operativa para la decisión "¿está listo para deploy?".
 >
@@ -22,16 +22,18 @@
 | Schema markup · Open Graph · Twitter Cards | ✓ | LOTE 8 | `npm run seo:llm-readiness` PASS · `npm run seo:serp-previews` 108 cards / 0 errors |
 | Calculadora · Leads · Discord embed · CSP · CSRF · Rate-limit · Field encryption | ✓ | LOTE 9 | `curl /api/health/ready` 200 · `npm run test:calculator` 116/116 · `test-field-encryption` 45/45 |
 | Documentación raíz consolidada | ✓ | LOTE 10 (Task #11) + Task #77 | Ver [§Documentación](#documentación) |
-| Quality gate paralelo (33 gates) | ✓ | Task #66 + Task #77 | `cd exentax-web && npm run check` → **EXIT 0 · 33/33 · wall 53,4 s** |
+| Quality gate paralelo (33 gates) | ✓ | Task #66 + Task #77 + Task #78 | `cd exentax-web && npm run check` → **EXIT 0 · 33/33 · wall 64,0 s** |
+| Cierre a producción · idiomas + rutas + validadores | ✓ | Task #78 | `i18n:check` 1.558×6 PASS · 17 RouteKeys × 6 langs canónicos · 28 endpoints públicos inventariados (path×método) — 8 POST body Zod + 2 GET query Zod + 4 tokens en path · `npm run check` 33/33 — ver [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md) |
 | Auditoría de seguridad de dependencias | ✓ | Task #77 | `npm audit --omit=dev` → **0 vulnerabilities** |
 | Dependencias muertas | ✓ | Task #77 | `npx depcheck --json` → 0 reales (postcss falso positivo, lo carga `postcss.config.mjs`) |
 | Cross-browser / cross-device (Playwright matrix Chromium / Firefox / WebKit × 360 / 768 / 1280) | ⚠ deferida | `PENDING-FINAL.md #5` | **No ejecutada en Task #77.** La suite Playwright requiere browsers instalados + workflow CI sostenido y queda pendiente. Como sustituto operativo se ejecutó un smoke server-side de 102 rutas (17 RouteKeys × 6 langs) = **102/102 · 200**, que valida rendering, hreflang, headers y status — pero **no** sustituye la matriz de browsers reales |
 
-**Estado real tras Task #77 (2026-04-29)**: **12 / 13 áreas en verde sin reservas + 1 ⚠ deferida** (cross-browser Playwright matrix — pendiente operativo, no de código; ver `PENDING-FINAL.md #5`). `npm run check` consolidado EXIT 0 (33/33). Sin drift de código detectado contra el snapshot `exentax-3.0`. Las dos correcciones aplicadas se documentan en `CHANGELOG.md` ([Unreleased] — 2026-04-29 — Revisión integral masiva): race del worker de cola Discord sin token (silent-drain que pisaba la suite e2e bajo el runner paralelo) y timeout corto de drain en `bloquear/desbloquear` bajo carga.
+**Estado real tras Task #78 (2026-04-29)**: **13 / 14 áreas en verde sin reservas + 1 ⚠ deferida** (cross-browser Playwright matrix — pendiente operativo, no de código; ver `PENDING-FINAL.md #5`). `npm run check` consolidado EXIT 0 (33/33 · wall 64,0 s). Sin drift de código contra el snapshot `exentax-3.0` + Task #77. La auditoría de cierre Task #78 verifica las tres dimensiones críticas (idiomas, rutas, validadores) sin requerir cambios — todo el trabajo es verificación documentada y propagación a documentos raíz.
 
 **Decisión go/no-go**:
 
-- **Branch Task #77 (estado actual)**: 12 verde + 1 ⚠ deferida (operativa) → **integración a `main` aprobada** (la única ⚠ es la matriz Playwright, cuya cobertura no es de código y se planifica en `PENDING-FINAL.md #5`). Cambios contenidos a `server/discord.ts` (1 guard early-return, comentado in-line), un test e2e (timeout default 25 s) y documentación.
+- **Branch Task #78 (cierre actual)**: 13 verde + 1 ⚠ deferida (operativa) → **integración a `main` aprobada** y **deploy a Hostinger VPS aprobado** condicionado a los pasos de `PENDING-FINAL.md #1`. Cero cambios de código en este branch (sólo verificación + documentación: nuevo reporte en `docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md` y actualización de `PRODUCTION-STATUS.md` / `PRODUCTION-CHECKLIST.md` / `CHANGELOG.md`).
+- **Branch Task #77 (snapshot anterior)**: integración aprobada — cambios contenidos a `server/discord.ts` (1 guard early-return) + un test e2e (timeout default 25 s) + documentación.
 - **Para deploy a Hostinger VPS** quedan exclusivamente los pasos operativos descritos en [`PENDING-FINAL.md #1`](PENDING-FINAL.md#1):
   1. `npm run check` EXIT 0 confirmado en main consolidado (✓ ya en este branch).
   2. Secrets de producción cargados en `.env` del VPS (ver [`PRODUCTION-CHECKLIST.md §B`](PRODUCTION-CHECKLIST.md#b-variables-de-entorno-resumen)).

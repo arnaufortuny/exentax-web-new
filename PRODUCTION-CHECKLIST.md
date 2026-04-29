@@ -6,6 +6,23 @@
 
 ---
 
+## Pre-flight (gate consolidado · Task #66 + #77 + #78)
+
+Ejecutar **antes** de cualquier deploy o re-deploy. Si alguno falla, no continuar a §C-K.
+
+- [ ] `cd exentax-web && npm run check` → **EXIT 0 · 33/33 gates verde** (último run verificado: 2026-04-29 · wall 64,0 s).
+- [ ] `cd exentax-web && npm audit --omit=dev` → **0 vulnerabilities**.
+- [ ] `cd exentax-web && npx tsc --noEmit` → 0 errores.
+- [ ] **Idiomas + rutas + validadores** verificados en cierre Task #78 (2026-04-29):
+  - `npm run i18n:check` → 1.558 keys × 6 langs · 0 missing/extra/empty · 0 hardcoded strings (783 ficheros).
+  - `npm run lint:i18n-extended` / `lint:pt-pt` (115 ficheros) / `lint:brand-casing` → 0 hits.
+  - `npm run seo:check` / `seo:slash` / `seo:icons` / `serp-previews` (108 cards) → clean.
+  - 17 RouteKeys × 6 idiomas con hreflang BCP-47 + x-default (`shared/routes.ts:ROUTE_SLUGS`).
+  - 28 endpoints públicos inventariados (path × método): 8 POST con body Zod + 2 GET con query Zod + 4 con tokens en path validados (longitud + regex) + 1 con firma Ed25519 (Discord); el resto son GET sin body. Inventario completo en [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md §4`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md).
+- [ ] Suites de regresión por endpoint: `test:calculator` 123/123 · `test:booking` 54/54 · `test:newsletter` 55/55 · `test:discord-regression` 6/6.
+
+---
+
 ## A. Recursos externos a tener listos antes de tocar el VPS
 
 - [ ] **Hostinger VPS KVM 2** contratado — Ubuntu 22.04 LTS, ≥ 2 vCPU, ≥ 4 GB RAM, ≥ 50 GB SSD (8 GB / 100 GB recomendado). Otros planes Hostinger NO sirven (Shared/Cloud sin Node + Postgres nativos).

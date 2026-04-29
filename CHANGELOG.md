@@ -3,7 +3,30 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
-## [Unreleased] — 2026-04-29 — Revisión integral masiva (Task #77)
+## [Unreleased] — 2026-04-29 — Cierre a producción · idiomas, rutas y validadores (Task #78)
+
+> Auditoría de cierre senior-engineer enfocada en las **tres dimensiones críticas para deploy seguro**: (1) catálogos i18n alineados en los 6 idiomas soportados (es/en/fr/de/pt/ca), (2) sistema de rutas y slugs canónico con `hreflang` bidireccional y `x-default`, y (3) cobertura completa de validadores Zod sobre `server/routes` con tests verdes. **Sin cambios de código** — todo el trabajo es verificación cruzada documentada y propagación a documentos raíz. Reporte ejecutivo: [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md).
+
+### Decisión
+
+**GO** — apto para integración a `main` y deploy a Hostinger VPS (con los pasos operativos de `PENDING-FINAL.md #1`).
+
+### Verificación (entorno Replit, dev server `:5000`)
+
+- **i18n**: `npm run i18n:check` → **1.558 keys × 6 langs · 0 missing · 0 extra · 0 empty · 0 placeholder mismatches · 0 hardcoded strings** (783 ficheros escaneados). `lint:i18n-extended` 0 hits · `lint:pt-pt` 115 ficheros OK · `lint:brand-casing` 0 ocurrencias `ExenTax`.
+- **Rutas / slugs / hreflang**: 17 RouteKeys × 6 idiomas canónicos en `shared/routes.ts:ROUTE_SLUGS` con `hreflang` BCP-47 (es-ES, en-US, fr-FR, de-DE, pt-PT, ca-ES) + `x-default` apuntando a `es`. `seo:check` 0 broken links · `seo:slash` clean · `seo:serp-previews` 108 cards / 0 errors · `test:redirects` 9/9 PASS · `test:geo` 12/12 PASS.
+- **Validadores Zod**: inventario completo de **28 endpoints públicos** por par único (path × método): 23 en `server/routes/public.ts` + 1 en `server/index.ts` + 3 en `server/routes/observability.ts` + 1 en `server/discord-bot.ts` — **8 POST con body validado por Zod**, **2 GET con query Zod**, **4 con tokens en path validados por longitud + regex**, **1 con verificación Ed25519** (Discord). Patrón uniforme `safeParse + apiValidationFail`. Cobertura por suite: `test:calculator` 123/123 · `test:booking` 54/54 · `test:newsletter` 55/55 · `test:discord-regression` 6/6 · `test:indexnow` 10/10. Criterio de conteo y tabla detallada en §4 del reporte.
+- **Quality gate consolidado**: `cd exentax-web && npm run check` → **EXIT 0 · 33/33 gates verde · wall 64,0 s**.
+- **Seguridad de dependencias**: `npm audit --omit=dev` → **0 vulnerabilities**.
+- **TypeScript estricto**: `npx tsc --noEmit` → 0 errores.
+
+### Documentos actualizados
+
+- `PRODUCTION-STATUS.md` — añadida fila "Cierre a producción · idiomas + rutas + validadores" en el resumen ejecutivo y bloque go/no-go actualizado a Task #78 (13/14 áreas en verde + 1 ⚠ deferida operativa).
+- `PRODUCTION-CHECKLIST.md` — añadida sección "Pre-flight (gate consolidado · Task #66 + #77 + #78)" con los comandos canónicos y umbrales verificados a ejecutar antes de cualquier deploy.
+- `docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md` — reporte ejecutivo (nuevo, 250+ líneas) con tabla 17 × 6 de slugs canónicos, inventario completo `endpoint → schema → test`, decisiones documentadas y comandos verificados.
+
+## [Snapshot anterior] — 2026-04-29 — Revisión integral masiva (Task #77)
 
 > Pasada de auditoría completa sobre todo el sistema (estructura, código, web, SEO, performance, funciones, idiomas, URLs, indexing, Discord, agenda, gestión, diseño, UX, tipografías, emails, copy, seguridad, encriptación, cross-browser y cross-device) sin drift respecto al snapshot `exentax-3.0`. Sin cambios en `package.json`, `vite.config.ts`, `server/vite.ts` ni `drizzle.config.ts`. Áreas en verde inmovilizadas según `WHAT-NOT-TO-TOUCH.md`. Reporte ejecutivo: [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md).
 
