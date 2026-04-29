@@ -1,4 +1,4 @@
-export default `Les États-Unis n'ont jamais signé le CRS de 2014, et FATCA n'échange avec l'Espagne, via le Model 1 IGA, qu'une information partielle sur les comptes de personnes physiques, pas sur le compte opérationnel de ta LLC.
+export default `Les États-Unis n'ont jamais signé le CRS de 2014, et FATCA n'échange avec l'Espagne, via le Model 1 IGA, qu'une information partielle sur les comptes de personnes physiques, pas sur le compte opérationnel de votre LLC.
 
 C'est la question qui revient le plus souvent quand un client constitue sa LLC avec nous: « Mercury, Wise ou Slash transmettent-ils à mon administration fiscale ce que je détiens? ». Personne ne donne en général une réponse claire. La voici: **un compte financier ouvert aux États-Unis par une LLC de non-résident n'est pas échangé automatiquement avec votre administration fiscale locale**. Et ce point, bien compris, est l'un des piliers qui font qu'une structure LLC bien conçue fonctionne avec la discrétion professionnelle et l'ordre qu'on en attend.
 

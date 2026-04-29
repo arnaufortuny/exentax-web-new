@@ -1,4 +1,4 @@
-export default `Un autónomo espagnol qui facture 100 % à des clients internationaux paie quand même jusqu'à 47 % d'IRPF et la cotisation RETA en Espagne, car la source du client ne change pas ta résidence fiscale.
+export default `Un autónomo espagnol qui facture 100 % à des clients internationaux paie quand même jusqu'à 47 % d'IRPF et la cotisation RETA en Espagne, car la source du client ne change pas votre résidence fiscale.
 
 L'article d'origine cible l'Espagne, mais le schéma est calqué pour la France: dès qu'un auto-entrepreneur ou micro-BNC facture des clients hors UE, la TVA et les retenues deviennent un sport de haut niveau. Et quand la LLC entre dans l'équation, il faut arbitrer entre facturation France / facturation LLC avec une précision que peu de comptables maîtrisent.
 

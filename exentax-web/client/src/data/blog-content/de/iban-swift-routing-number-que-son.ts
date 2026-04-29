@@ -1,4 +1,4 @@
-export default `Die US-Routing-Number hat 9 Stellen, die spanische IBAN 24 Zeichen und der SWIFT-Code 8 bis 11 — alle drei werden bei jeder internationalen Überweisung mit deiner LLC gleichzeitig verlangt.
+export default `Die US-Routing-Number hat 9 Stellen, die spanische IBAN 24 Zeichen und der SWIFT-Code 8 bis 11 — alle drei werden bei jeder internationalen Überweisung mit Ihrer LLC gleichzeitig verlangt.
 
 Wer von IBAN und BIC auf das US-Bankingsystem umsteigt, stellt plötzlich fest: Die LLC liefert keinen IBAN, sondern eine Kombination aus Routing Number und Account Number, und das SWIFT kommt erst bei internationalen Zahlungen ins Spiel. Solange dieser Unterschied unklar ist, scheitern Überweisungen oder landen mit versteckten Gebühren.
 

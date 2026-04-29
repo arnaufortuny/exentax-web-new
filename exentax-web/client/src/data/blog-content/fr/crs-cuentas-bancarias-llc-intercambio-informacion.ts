@@ -1,4 +1,4 @@
-export default `Plus de 120 juridictions échangent les soldes bancaires sous CRS, mais les États-Unis n'ont jamais signé le standard OCDE de 2014, raison pour laquelle Mercury n'envoie pas de données automatiques à ton fisc.
+export default `Plus de 120 juridictions échangent les soldes bancaires sous CRS, mais les États-Unis n'ont jamais signé le standard OCDE de 2014, raison pour laquelle Mercury n'envoie pas de données automatiques à votre fisc.
 
 Le CRS (Common Reporting Standard) de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> est ce mécanisme qui fait qu'une banque à Singapour envoie automatiquement vos soldes à la DGFiP chaque année. Vu de France, c'est une évidence, mais dès qu'on parle LLC américaine, les idées fausses pullulent: non, les États-Unis n'appliquent pas le CRS, et non, ce n'est pas pour autant un trou noir fiscal.
 

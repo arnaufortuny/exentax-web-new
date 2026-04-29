@@ -1,4 +1,4 @@
-export default `La convention fiscale entre l'Espagne et les États-Unis du 22 février 1990, complétée par le protocole d'amendement en vigueur depuis le 27 novembre 2019, fixe les règles qui évitent de payer deux fois sur le même revenu de ta LLC.
+export default `La convention fiscale entre l'Espagne et les États-Unis du 22 février 1990, complétée par le protocole d'amendement en vigueur depuis le 27 novembre 2019, fixe les règles qui évitent de payer deux fois sur le même revenu de votre LLC.
 
 Quand quelqu'un voit pour la première fois la combinaison "LLC aux États-Unis" et "résident fiscal en Espagne", la question immédiate est toujours la même: **"alors où est-ce que je paie mes impôts?"**. La réponse est claire: **en Espagne**, sur le bénéfice net, grâce à la **convention fiscale entre les USA et l'Espagne**. La LLC n'est pas utilisée pour "ne pas payer", elle est utilisée pour **ne pas payer deux fois** et pour optimiser dans le cadre légal.
 

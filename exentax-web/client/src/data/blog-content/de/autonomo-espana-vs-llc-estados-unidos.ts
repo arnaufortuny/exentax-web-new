@@ -1,4 +1,4 @@
-export default `Ein spanischer Autónomo in mittlerer Stufe gibt zwischen 35 % und 47 % seines Einkommens an IRPF und RETA-Beitrag ab (200 bis 1.600 € pro Monat); eine US-Pass-through-LLC zahlt 0 % föderal und verlagert die Berechnung in deine lokale Erklärung.
+export default `Ein spanischer Autónomo in mittlerer Stufe gibt zwischen 35 % und 47 % seines Einkommens an IRPF und RETA-Beitrag ab (200 bis 1.600 € pro Monat); eine US-Pass-through-LLC zahlt 0 % föderal und verlagert die Berechnung in Ihre lokale Erklärung.
 
 Dieser Artikel stellt den spanischen „autónomo" direkt der US-LLC gegenüber, weil das die historische Vergleichsbasis unserer Kanzlei ist. Wenn Sie aus Deutschland, Österreich oder der Schweiz lesen, ist die Schlussfolgerung jedoch dieselbe: Ein klassisches Freiberufler- oder Gewerbe-Setup im DACH-Raum kostet ab einer gewissen Einkommenshöhe deutlich mehr als eine sauber aufgesetzte US-LLC, sobald Krankenversicherung, Einkommensteuer, Soli und gegebenenfalls Gewerbesteuer zusammenkommen.
 

@@ -3,7 +3,7 @@
     "es": "Amazon US movió más de 600.000 millones de dólares en ventas brutas en 2024, y el 100 % de esos cobros pasa por un proveedor que te exige un EIN y una cuenta bancaria americana antes de pagarte.",
     "en": "Amazon US moved more than 600 billion dollars in gross sales in 2024, and 100% of those payouts run through a provider that asks for an EIN and a US bank account before sending you a single dollar.",
     "fr": "Amazon US a généré plus de 600 milliards de dollars de ventes brutes en 2024, et 100 % de ces versements passent par un prestataire qui exige un EIN et un compte bancaire américain avant de te payer.",
-    "de": "Amazon US wickelte 2024 über 600 Milliarden US-Dollar Bruttoumsatz ab, und 100 % dieser Auszahlungen laufen über einen Dienstleister, der eine EIN und ein US-Bankkonto verlangt, bevor du auch nur einen Dollar siehst.",
+    "de": "Amazon US wickelte 2024 über 600 Milliarden US-Dollar Bruttoumsatz ab, und 100 % dieser Auszahlungen laufen über einen Dienstleister, der eine EIN und ein US-Bankkonto verlangt, bevor Sie auch nur einen Dollar sehen.",
     "pt": "A Amazon US movimentou mais de 600 mil milhões de dólares em vendas brutas em 2024, e 100 % desses pagamentos passam por um operador que exige um EIN e uma conta bancária americana antes de te pagar.",
     "ca": "Amazon US va moure més de 600.000 milions de dòlars en vendes brutes el 2024, i el 100 % d'aquests pagaments passa per un operador que t'exigeix un EIN i un compte bancari americà abans de pagar-te."
   },
@@ -18,8 +18,8 @@
   "autonomo-espana-vs-llc-estados-unidos": {
     "es": "Un autónomo español en tramo medio entrega entre el 35 % y el 47 % de su renta entre IRPF y cuota RETA (de 200 € a 1.600 € al mes); una LLC pass-through paga 0 % federal en EE.UU. y traslada el cómputo a tu IRPF.",
     "en": "A Spanish autónomo in a mid bracket hands over 35% to 47% of income between IRPF and the RETA fee (200 to 1,600 euros a month); a US pass-through LLC pays 0% federal and shifts the calculation to your local return.",
-    "fr": "Un autónomo espagnol en tranche moyenne reverse 35 à 47 % de son revenu entre IRPF et cotisation RETA (de 200 à 1 600 € par mois) ; une LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur ta déclaration locale.",
-    "de": "Ein spanischer Autónomo in mittlerer Stufe gibt zwischen 35 % und 47 % seines Einkommens an IRPF und RETA-Beitrag ab (200 bis 1.600 € pro Monat); eine US-Pass-through-LLC zahlt 0 % föderal und verlagert die Berechnung in deine lokale Erklärung.",
+    "fr": "Un autónomo espagnol en tranche moyenne reverse 35 à 47 % de son revenu entre IRPF et cotisation RETA (de 200 à 1 600 € par mois) ; une LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur votre déclaration locale.",
+    "de": "Ein spanischer Autónomo in mittlerer Stufe gibt zwischen 35 % und 47 % seines Einkommens an IRPF und RETA-Beitrag ab (200 bis 1.600 € pro Monat); eine US-Pass-through-LLC zahlt 0 % föderal und verlagert die Berechnung in Ihre lokale Erklärung.",
     "pt": "Um autónomo espanhol num escalão médio entrega entre 35 % e 47 % do rendimento entre IRPF e quota RETA (de 200 € a 1.600 € por mês); uma LLC pass-through paga 0 % federal nos EUA e empurra o cálculo para a tua declaração local.",
     "ca": "Un autònom espanyol en tram mitjà entrega entre el 35 % i el 47 % de la renda entre IRPF i quota RETA (de 200 € a 1.600 € al mes); una LLC pass-through paga 0 % federal als EUA i trasllada el càlcul a la teva declaració local."
   },
@@ -122,8 +122,8 @@
   "convenio-doble-imposicion-usa-espana-llc": {
     "es": "El Convenio entre España y Estados Unidos de 22 de febrero de 1990, con su protocolo de enmienda en vigor desde el 27 de noviembre de 2019, fija las reglas que evitan pagar dos veces sobre la misma renta de tu LLC.",
     "en": "The US-Spain tax treaty signed on February 22, 1990, plus the amending protocol in force since November 27, 2019, sets the rules that stop you from paying twice on the same LLC income.",
-    "fr": "La convention fiscale entre l'Espagne et les États-Unis du 22 février 1990, complétée par le protocole d'amendement en vigueur depuis le 27 novembre 2019, fixe les règles qui évitent de payer deux fois sur le même revenu de ta LLC.",
-    "de": "Das DBA zwischen Spanien und den USA vom 22. Februar 1990 samt dem seit dem 27. November 2019 in Kraft befindlichen Änderungsprotokoll legt die Regeln fest, die verhindern, dass du dasselbe LLC-Einkommen zweimal versteuerst.",
+    "fr": "La convention fiscale entre l'Espagne et les États-Unis du 22 février 1990, complétée par le protocole d'amendement en vigueur depuis le 27 novembre 2019, fixe les règles qui évitent de payer deux fois sur le même revenu de votre LLC.",
+    "de": "Das DBA zwischen Spanien und den USA vom 22. Februar 1990 samt dem seit dem 27. November 2019 in Kraft befindlichen Änderungsprotokoll legt die Regeln fest, die verhindern, dass Sie dasselbe LLC-Einkommen zweimal versteuern.",
     "pt": "A convenção entre Espanha e Estados Unidos de 22 de fevereiro de 1990, com o protocolo de alteração em vigor desde 27 de novembro de 2019, fixa as regras que evitam pagar duas vezes sobre o mesmo rendimento da tua LLC.",
     "ca": "El Conveni entre Espanya i Estats Units de 22 de febrer de 1990, amb el protocol d'esmena en vigor des del 27 de novembre de 2019, fixa les regles que eviten pagar dues vegades sobre la mateixa renda de la teva LLC."
   },
@@ -154,8 +154,8 @@
   "crs-cuentas-bancarias-llc-intercambio-informacion": {
     "es": "Más de 120 jurisdicciones intercambian saldos de cuentas bancarias bajo CRS, pero Estados Unidos no firmó el estándar OCDE de 2014 y por eso Mercury no envía datos automáticos a Hacienda.",
     "en": "More than 120 jurisdictions exchange bank-account balances under CRS, but the United States never signed the OECD's 2014 standard, which is why Mercury does not send automatic data to your local tax office.",
-    "fr": "Plus de 120 juridictions échangent les soldes bancaires sous CRS, mais les États-Unis n'ont jamais signé le standard OCDE de 2014, raison pour laquelle Mercury n'envoie pas de données automatiques à ton fisc.",
-    "de": "Über 120 Jurisdiktionen tauschen Kontosalden unter CRS aus, doch die USA haben den OECD-Standard von 2014 nie unterzeichnet — deshalb meldet Mercury keine automatischen Daten an dein Finanzamt.",
+    "fr": "Plus de 120 juridictions échangent les soldes bancaires sous CRS, mais les États-Unis n'ont jamais signé le standard OCDE de 2014, raison pour laquelle Mercury n'envoie pas de données automatiques à votre fisc.",
+    "de": "Über 120 Jurisdiktionen tauschen Kontosalden unter CRS aus, doch die USA haben den OECD-Standard von 2014 nie unterzeichnet — deshalb meldet Mercury keine automatischen Daten an Ihr Finanzamt.",
     "pt": "Mais de 120 jurisdições trocam saldos de contas bancárias ao abrigo do CRS, mas os Estados Unidos nunca assinaram o standard OCDE de 2014, e por isso a Mercury não envia dados automáticos à tua autoridade fiscal.",
     "ca": "Més de 120 jurisdiccions intercanvien saldos de comptes bancaris sota CRS, però els Estats Units no van signar l'estàndard OCDE del 2014 i per això Mercury no envia dades automàtiques a la teva agència tributària."
   },
@@ -186,8 +186,8 @@
   "cuentas-bancarias-usa-reportan-hacienda-verdad": {
     "es": "Estados Unidos no firmó el CRS de 2014, y FATCA solo intercambia con España bajo el Modelo 1 IGA información parcial sobre cuentas de personas físicas, no sobre la cuenta operativa de tu LLC.",
     "en": "The US never signed the 2014 CRS, and FATCA only exchanges with Spain — under Model 1 IGA — partial information on individual accounts, not on your LLC's operating account.",
-    "fr": "Les États-Unis n'ont jamais signé le CRS de 2014, et FATCA n'échange avec l'Espagne, via le Model 1 IGA, qu'une information partielle sur les comptes de personnes physiques, pas sur le compte opérationnel de ta LLC.",
-    "de": "Die USA haben das CRS von 2014 nie unterzeichnet, und FATCA tauscht mit Spanien — unter dem Model 1 IGA — nur Teilinformationen zu Konten natürlicher Personen aus, nicht zum Geschäftskonto deiner LLC.",
+    "fr": "Les États-Unis n'ont jamais signé le CRS de 2014, et FATCA n'échange avec l'Espagne, via le Model 1 IGA, qu'une information partielle sur les comptes de personnes physiques, pas sur le compte opérationnel de votre LLC.",
+    "de": "Die USA haben das CRS von 2014 nie unterzeichnet, und FATCA tauscht mit Spanien — unter dem Model 1 IGA — nur Teilinformationen zu Konten natürlicher Personen aus, nicht zum Geschäftskonto Ihrer LLC.",
     "pt": "Os Estados Unidos nunca assinaram o CRS de 2014, e o FATCA só troca com Espanha — ao abrigo do Modelo 1 IGA — informação parcial sobre contas de pessoas singulares, não sobre a conta operacional da tua LLC.",
     "ca": "Els Estats Units no van signar el CRS del 2014, i FATCA només intercanvia amb Espanya — sota el Model 1 IGA — informació parcial de comptes de persones físiques, no del compte operatiu de la teva LLC."
   },
@@ -450,15 +450,15 @@
   "iban-swift-routing-number-que-son": {
     "es": "El routing number americano tiene 9 dígitos, el IBAN español 24 caracteres y el código SWIFT entre 8 y 11; los tres se piden a la vez en cualquier transferencia internacional con tu LLC.",
     "en": "The US routing number has 9 digits, the Spanish IBAN has 24 characters, and the SWIFT code runs 8 to 11 — all three are needed at once on any international transfer with your LLC.",
-    "fr": "Le routing number américain compte 9 chiffres, l'IBAN espagnol 24 caractères et le code SWIFT entre 8 et 11 ; les trois sont demandés en même temps sur tout virement international avec ta LLC.",
-    "de": "Die US-Routing-Number hat 9 Stellen, die spanische IBAN 24 Zeichen und der SWIFT-Code 8 bis 11 — alle drei werden bei jeder internationalen Überweisung mit deiner LLC gleichzeitig verlangt.",
+    "fr": "Le routing number américain compte 9 chiffres, l'IBAN espagnol 24 caractères et le code SWIFT entre 8 et 11 ; les trois sont demandés en même temps sur tout virement international avec votre LLC.",
+    "de": "Die US-Routing-Number hat 9 Stellen, die spanische IBAN 24 Zeichen und der SWIFT-Code 8 bis 11 — alle drei werden bei jeder internationalen Überweisung mit Ihrer LLC gleichzeitig verlangt.",
     "pt": "O routing number americano tem 9 dígitos, o IBAN espanhol 24 caracteres e o código SWIFT entre 8 e 11; os três são pedidos ao mesmo tempo em qualquer transferência internacional com a tua LLC.",
     "ca": "El routing number americà té 9 dígits, l'IBAN espanyol 24 caràcters i el codi SWIFT entre 8 i 11; els tres es demanen alhora en qualsevol transferència internacional amb la teva LLC."
   },
   "impuestos-clientes-internacionales-espana": {
     "es": "Un autónomo español que factura el 100 % a clientes internacionales sigue tributando hasta el 47 % por IRPF más cuota RETA en España, porque la fuente del cliente no cambia tu residencia fiscal.",
     "en": "A Spanish autónomo billing 100% to international clients still pays up to 47% IRPF plus the RETA fee in Spain, because the client's location does not change your tax residency.",
-    "fr": "Un autónomo espagnol qui facture 100 % à des clients internationaux paie quand même jusqu'à 47 % d'IRPF et la cotisation RETA en Espagne, car la source du client ne change pas ta résidence fiscale.",
+    "fr": "Un autónomo espagnol qui facture 100 % à des clients internationaux paie quand même jusqu'à 47 % d'IRPF et la cotisation RETA en Espagne, car la source du client ne change pas votre résidence fiscale.",
     "de": "Ein spanischer Autónomo, der 100 % an internationale Kunden fakturiert, zahlt in Spanien weiterhin bis zu 47 % IRPF plus RETA-Beitrag, weil die Kundenquelle deinen Steuersitz nicht ändert.",
     "pt": "Um autónomo espanhol que factura 100 % a clientes internacionais continua a tributar até 47 % de IRPF mais quota RETA em Espanha, porque a fonte do cliente não altera a tua residência fiscal.",
     "ca": "Un autònom espanyol que factura el 100 % a clients internacionals continua tributant fins al 47 % per IRPF més quota RETA a Espanya, perquè la font del client no canvia la teva residència fiscal."
@@ -498,8 +498,8 @@
   "justificar-origen-fondos-kyc-bancario-segunda-ronda": {
     "es": "Una segunda ronda de KYC en Mercury, Wise o Relay se resuelve favorablemente en el 75 % de los casos cuando aportas extractos de los últimos 6 meses y un contrato de servicios firmado con cliente.",
     "en": "A second KYC round at Mercury, Wise or Relay is resolved favourably in 75% of cases when you provide statements covering the last 6 months and a signed service contract with a client.",
-    "fr": "Un second tour de KYC chez Mercury, Wise ou Relay se résout favorablement dans 75 % des cas si tu fournis les relevés des 6 derniers mois et un contrat de prestation signé avec un client.",
-    "de": "Eine zweite KYC-Runde bei Mercury, Wise oder Relay endet in 75 % der Fälle positiv, wenn du Auszüge der letzten 6 Monate und einen unterzeichneten Dienstleistungsvertrag mit einem Kunden vorlegst.",
+    "fr": "Un second tour de KYC chez Mercury, Wise ou Relay se résout favorablement dans 75 % des cas si vous fournissez les relevés des 6 derniers mois et un contrat de prestation signé avec un client.",
+    "de": "Eine zweite KYC-Runde bei Mercury, Wise oder Relay endet in 75 % der Fälle positiv, wenn Sie Auszüge der letzten 6 Monate und einen unterzeichneten Dienstleistungsvertrag mit einem Kunden vorlegst.",
     "pt": "Uma segunda ronda de KYC na Mercury, Wise ou Relay resolve-se favoravelmente em 75 % dos casos quando entregas extratos dos últimos 6 meses e um contrato de serviços assinado com cliente.",
     "ca": "Una segona ronda de KYC a Mercury, Wise o Relay es resol favorablement en el 75 % dels casos quan aportes extractes dels últims 6 mesos i un contracte de serveis signat amb client."
   },
