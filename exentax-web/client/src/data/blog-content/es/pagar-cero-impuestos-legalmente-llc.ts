@@ -1,5 +1,7 @@
 export default `
 
+Una LLC pass-through paga 0 % federal en EE.UU., pero conseguir un 0 % real exige residir en una jurisdicción de tipo cero como Bahamas, Mónaco o Emiratos en su tramo exento por debajo de 102.000 $ anuales.
+
 El titular suena agresivo, pero la pregunta es legítima: ¿existe alguna forma legal de pagar cero impuestos sobre tus ingresos como freelancer o emprendedor digital? La respuesta corta es sí, pero con matices importantes que nadie te cuenta en los vídeos de YouTube. Vamos a desmontarlo con honestidad. Antes de seguir, asegúrate de que entiendes cómo funciona la <a href="/es/blog/tributacion-pass-through-llc-como-funciona">tributación pass-through de una LLC</a>, porque es la base de todo.
 
 ## Lo primero: entendamos el pass-through taxation

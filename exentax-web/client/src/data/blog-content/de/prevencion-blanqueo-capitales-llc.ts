@@ -1,4 +1,6 @@
-export default `Die deutsche und österreichische GwG-Compliance wurde in den letzten Jahren massiv verschärft, und auf US-Seite zwingt der Corporate Transparency Act jede LLC zum BOI Report. Für einen DACH-Unternehmer kumulieren sich beide Regime, und einen davon zu ignorieren öffnet die Tür zu ernsthaften Sanktionen.
+export default `Das US-Geldwäschegesetz (Bank Secrecy Act, 1970, ergänzt durch den Patriot Act 2001) verpflichtet Mercury, Wise und Relay zu dokumentarischen KYC-Prozessen vor der ersten Überweisung.
+
+Die deutsche und österreichische GwG-Compliance wurde in den letzten Jahren massiv verschärft, und auf US-Seite zwingt der Corporate Transparency Act jede LLC zum BOI Report. Für einen DACH-Unternehmer kumulieren sich beide Regime, und einen davon zu ignorieren öffnet die Tür zu ernsthaften Sanktionen.
 
 Die gute Nachricht: Die Einhaltung dieser Vorschriften ist einfach, wenn Sie verstehen, was von Ihnen erwartet wird, und von Anfang an gute Praktiken beibehalten.
 

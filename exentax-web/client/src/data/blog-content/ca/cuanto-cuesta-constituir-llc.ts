@@ -1,5 +1,7 @@
 export default `
 
+Constituir una LLC costa de 0 $ a 50 $ de taxa estatal a Nou Mèxic, 100 $ a Wyoming i 90 $ a Delaware; amb servei professional el cost total del primer any queda entre 400 $ i 1.500 $.
+
 Comencem aclarint una cosa que ens fa mal a les orelles als qui treballem en aquest sector: una LLC no es "crea". Es **constitueix**.
 
 Es crea un perfil d'Instagram o un compte de Netflix. Es constitueix una entitat legal reconeguda per un estat sobirà dels Estats Units, amb obligacions fiscals, un número d'identificació federal i deures de comunicació davant l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>. Diferència subtil — fins que l'Agència Estatal d'Administració Tributària (AEAT), l'**Agència Tributària de Catalunya (ATC)** o el Departament de Tributs d'Andorra estiren del fil.

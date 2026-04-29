@@ -1,5 +1,7 @@
 export default `
 
+El Modelo 991 obliga a Visa, Mastercard y American Express a reportar a la AEAT todo cobro o pago con tarjeta superior a 25.000 € por titular y año, así como las cuentas asociadas en el extranjero.
+
 Cuando alguien pregunta "¿Hacienda ve lo que pago con la tarjeta?" la respuesta corta es: depende de quién emite la tarjeta, dónde está domiciliado el comercio y en qué país eres residente fiscal. La respuesta larga obliga a entender cómo funciona por debajo el ecosistema de tarjetas y qué declaraciones informativas existen realmente. Hay mucho mito alrededor de Visa y Mastercard, y conviene separarlo de lo que sí ocurre con tu <a href="/es/blog/wise-iban-llc-que-reporta-hacienda">tarjeta Wise asociada a una LLC</a>, con tu tarjeta de un banco español o con la <a href="/es/blog/revolut-business-crs-reporting-fiscal">tarjeta Revolut</a>.
 
 Este artículo recorre quién es quién en una transacción con tarjeta, qué reporta cada actor a las autoridades fiscales y cuáles son las declaraciones informativas país por país que afectan al consumo y al saldo de tarjetas (Modelo 196 y 171 en España, DAS2 en Francia, Modelo 38 en Portugal, entre otras).

@@ -1,4 +1,6 @@
-export default `Pour un entrepreneur français, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> est l'équivalent américain de la DGFiP, sauf qu'il fonctionne très différemment: notifications par courrier papier depuis Austin, Texas, numéros de dossier par transaction, et une vraie possibilité de parler à un agent par téléphone (ce qui étonne toujours nos clients). Comprendre comment l'IRS raisonne est la moitié du travail quand on possède une LLC.
+export default `L'IRS gère plus de 240 millions de déclarations par an avec environ 80 000 employés, et pour une LLC unipersonnelle de non-résident son attention se concentre sur 2 formulaires : le Form 1120 et le Form 5472.
+
+Pour un entrepreneur français, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> est l'équivalent américain de la DGFiP, sauf qu'il fonctionne très différemment: notifications par courrier papier depuis Austin, Texas, numéros de dossier par transaction, et une vraie possibilité de parler à un agent par téléphone (ce qui étonne toujours nos clients). Comprendre comment l'IRS raisonne est la moitié du travail quand on possède une LLC.
 
 ## Qu'est-ce que l'IRS?
 

@@ -1,4 +1,6 @@
-export default `"A Dubai no es paguen impostos." És probablement la frase més repetida als vídeos virals sobre fiscalitat internacional dels darrers anys. Com gairebé totes les simplificacions, conté una part de veritat i una part important que convé conèixer abans de prendre decisions que costen molt de revertir.
+export default `Des de l'1 de juny de 2023, els Emirats Àrabs Units apliquen un Corporate Tax del 9 % sobre beneficis superiors a 375.000 AED (uns 102.000 $), cosa que liquida el mite del 0 %.
+
+"A Dubai no es paguen impostos." És probablement la frase més repetida als vídeos virals sobre fiscalitat internacional dels darrers anys. Com gairebé totes les simplificacions, conté una part de veritat i una part important que convé conèixer abans de prendre decisions que costen molt de revertir.
 
 A Exentax rebem consultes setmanals de persones que estan a punt de mudar-se als Emirats Àrabs Units o constituir una companyia allà. Aquesta guia repassa la fiscalitat real actualment, els costos ocults i quan té sentit (i quan no) davant d'una LLC americana.
 

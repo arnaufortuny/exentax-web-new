@@ -1,5 +1,7 @@
 export default `
 
+Usar testaferros para ocultar la titularidad de una LLC es delito de simulación contractual y fiscal en España (art. 305 CP), con penas de 1 a 5 años de prisión y multas de hasta 6 veces la cuota defraudada.
+
 De vez en cuando recibimos consultas del tipo "¿puedo poner la LLC a nombre de mi primo que vive en Miami?" o "¿y si mi hermano es el owner oficial?". La respuesta es siempre la misma: no.
 
 Usar un testaferro (prestanombre, front man, nominee) como propietario ficticio de tu LLC mientras tú eres quien realmente controla el negocio es fraude. No es una zona gris. No es una "estrategia". Es ilegal. Te explicamos por qué y cuáles son las alternativas legales.

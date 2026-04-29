@@ -1,5 +1,7 @@
 export default `
 
+Mixing personal and LLC money for just 12 months is enough for a judge to declare piercing the corporate veil and have the member's personal assets answer for the debts directly.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC</a>.</p>
 One of the most critical rules of operating a US LLC is maintaining strict separation between your personal finances and your business finances. This isn't bureaucratic formality; it's what makes your LLC work legally and financially.
 

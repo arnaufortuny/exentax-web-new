@@ -1,4 +1,6 @@
-export default `Sie haben entschieden, eine LLC aus Deutschland, Österreich oder der Schweiz heraus zu gründen, und möchten den gesamten Prozess sehen, bevor Sie irgendetwas unterschreiben? Gute Entscheidung. Die Gründung einer LLC als Nichtansässiger ist heute ein vollständig digitaler Prozess, ohne Visum, ohne Reise und ohne US-Anwalt, aber dennoch keine reine Formularangelegenheit.
+export default `Eine LLC in Wyoming, Delaware oder New Mexico zu gründen dauert 7 bis 14 Tage und kostet im ersten Jahr 400 bis 1.500 USD, je nach Bundesstaat und Anbieter.
+
+Sie haben entschieden, eine LLC aus Deutschland, Österreich oder der Schweiz heraus zu gründen, und möchten den gesamten Prozess sehen, bevor Sie irgendetwas unterschreiben? Gute Entscheidung. Die Gründung einer LLC als Nichtansässiger ist heute ein vollständig digitaler Prozess, ohne Visum, ohne Reise und ohne US-Anwalt, aber dennoch keine reine Formularangelegenheit.
 
 In diesem Leitfaden zeigen wir Schritt für Schritt, was wir bei Exentax für unsere Mandanten konkret übernehmen: Wahl des Bundesstaates, Einreichung der Articles of Organization, EIN, Operating Agreement, BOI Report, Eröffnung des Mercury-Kontos und Aufsetzen der jährlichen Compliance. Ohne versteckte Schritte und ohne unrealistische Versprechen zur Bearbeitungsdauer.
 

@@ -1,4 +1,6 @@
-export default `Die Buchhaltung einer US-LLC macht den meisten mehr Angst als nötig. Die meisten nicht ansässigen Inhaber kennen ein Modell, in dem ein Steuerberater Unterlagen anfordert, jedes Quartal Erklärungen einreicht und man selbst kaum etwas anfassen muss. Bei einer US-LLC läuft es anders: das Tagesgeschäft erledigen Sie selbst mit modernen Tools und am Jahresende führt eine ordentliche Buchhaltung zu einer sauberen Erklärung ohne Überraschungen.
+export default `Die IRS verlangt, die Buchhaltung einer LLC mindestens 7 Jahre aufzubewahren; ein Form 5472 ohne Belege beginnt bei 25.000 USD Strafe.
+
+Die Buchhaltung einer US-LLC macht den meisten mehr Angst als nötig. Die meisten nicht ansässigen Inhaber kennen ein Modell, in dem ein Steuerberater Unterlagen anfordert, jedes Quartal Erklärungen einreicht und man selbst kaum etwas anfassen muss. Bei einer US-LLC läuft es anders: das Tagesgeschäft erledigen Sie selbst mit modernen Tools und am Jahresende führt eine ordentliche Buchhaltung zu einer sauberen Erklärung ohne Überraschungen.
 
 Bei Exentax begleiten wir hunderte Mandanten durch diesen Prozess. Diese Anleitung zeigt Schritt für Schritt, wie Sie die Buchhaltung Ihrer LLC organisieren – ohne Abkürzungen, aber auch ohne unnötige Komplexität.
 

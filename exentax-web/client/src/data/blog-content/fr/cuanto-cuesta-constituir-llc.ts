@@ -1,5 +1,7 @@
 export default `
 
+Créer une LLC coûte 0 à 50 $ de droit d'État au Nouveau-Mexique, 100 $ au Wyoming et 90 $ au Delaware ; avec un prestataire pro, le coût total de la première année se situe entre 400 $ et 1 500 $.
+
 Commençons par tirer au clair une chose qui nous fait grincer des dents dans le métier : une LLC ne se « crée » pas. Elle se **constitue**.
 
 On crée un profil Instagram ou un compte Netflix. On constitue une entité légale reconnue par un État souverain des États-Unis, avec ses obligations fiscales, son numéro fédéral d'identification et ses devoirs de déclaration auprès de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>. Différence subtile, jusqu'à ce que la <a href="https://www.impots.gouv.fr" target="_blank" rel="noopener">DGFiP</a>, le SPF Finances belge ou l'AED luxembourgeoise tirent le fil.

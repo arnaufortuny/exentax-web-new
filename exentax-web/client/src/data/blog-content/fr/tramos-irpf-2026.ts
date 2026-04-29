@@ -1,5 +1,7 @@
 export default `
 
+Les tranches de l'IRPF 2026 en Espagne vont de 19 % jusqu'à 12 450 € de base imposable à 47 % au-delà de 300 000 €, sur une échelle progressive de 6 tranches.
+
 L'impôt sur le revenu des personnes physiques (IRPF) reste, actuellement, le prélèvement qui pèse le plus sur votre salaire, votre facturation d'autoentrepreneur et vos revenus du capital en Espagne. Connaître le barème en vigueur et comprendre comment la cotisation se calcule vraiment est la base de toute décision patrimoniale : passer à une société, abonder un plan de retraite, déplacer des dividendes ou envisager une structure internationale comme la LLC américaine. Ce guide pose le barème d'État et sa combinaison avec celui de la communauté autonome, avec un exemple concret et des conseils pour éviter de payer plus que nécessaire au fisc espagnol.
 
 ## Le barème d'État de l'IRPF

@@ -1,4 +1,6 @@
-export default `Having the right payment gateways connected to your LLC makes the difference between smooth cash flow and constant friction. Here's a complete comparison of your options.
+export default `Stripe US charges 2.9% + 0.30 dollar per domestic transaction, PayPal Business hovers around 3.49%, and Dodo Payments drops to 2.4% above 50,000 dollars processed monthly with a US LLC.
+
+Having the right payment gateways connected to your LLC makes the difference between smooth cash flow and constant friction. Here's a complete comparison of your options.
 
 ## Stripe US: the developer's choice
 

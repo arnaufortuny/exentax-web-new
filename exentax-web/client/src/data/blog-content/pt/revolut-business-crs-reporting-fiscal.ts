@@ -1,4 +1,6 @@
-export default `A Revolut Business é operada a partir da Lituânia para a UE e aplica o CRS por defeito: os teus saldos e movimentos chegam às Finanças todos os anos. Muitos clientes lusófonos abrem Revolut Business para a LLC sem perceber que com isso anulam parte do que julgavam ter ganhado do lado dos EUA.
+export default `Desde 2018, sob o CRS, são reportados saldos da Revolut Business a mais de 120 jurisdições, e a informação chega à AEAT espanhola antes de 30 de setembro de cada ano.
+
+A Revolut Business é operada a partir da Lituânia para a UE e aplica o CRS por defeito: os teus saldos e movimentos chegam às Finanças todos os anos. Muitos clientes lusófonos abrem Revolut Business para a LLC sem perceber que com isso anulam parte do que julgavam ter ganhado do lado dos EUA.
 
 ## Que entidades Revolut e onde reportam
 

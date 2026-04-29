@@ -1,4 +1,6 @@
-export default `Pourquoi une LLC américaine plutôt que de rester en SASU, en micro-entreprise ou sous EURL? La réponse courte: parce que la combinaison « protection du patrimoine + fiscalité pass-through + compte Mercury en USD » n'a pas d'équivalent côté France. La réponse longue, c'est cet article.
+export default `Une LLC aux États-Unis se met en place en 7 à 14 jours, paie 0 % fédéral en pass-through et encaisse Stripe, PayPal ou Mercury sans les retenues de 19 à 30 % subies par un freelance européen.
+
+Pourquoi une LLC américaine plutôt que de rester en SASU, en micro-entreprise ou sous EURL? La réponse courte: parce que la combinaison « protection du patrimoine + fiscalité pass-through + compte Mercury en USD » n'a pas d'équivalent côté France. La réponse longue, c'est cet article.
 
 Dans cet article, nous allons passer en revue tous les avantages réels, sans artifice, sans exagérations, avec des données et des exemples pratiques. Si à la fin de votre lecture vous décidez que cela a du sens pour vous, chez Exentax nous nous occupons de tout le processus.
 

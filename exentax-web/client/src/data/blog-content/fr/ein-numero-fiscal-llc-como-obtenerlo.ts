@@ -1,5 +1,7 @@
 export default `
 
+L'IRS délivre l'EIN d'une LLC en 4 à 6 semaines après l'envoi du Form SS-4 par fax au 855-641-6935 lorsque le demandeur est non-résident sans SSN ni ITIN.
+
 <p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis</a>.</p>
 L'EIN (Employer Identification Number) est l'équivalent américain du numéro SIREN/SIRET pour votre LLC. C'est l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> qui le délivre, et sans lui, votre société existe sur le papier mais ne peut rien faire concrètement: pas de compte Mercury, pas de Stripe US, pas de déclaration annuelle, pas de paiement par virement de vos clients américains.
 

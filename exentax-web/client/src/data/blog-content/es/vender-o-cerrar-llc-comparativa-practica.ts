@@ -1,5 +1,7 @@
 export default `
 
+Cerrar una LLC bien hecha lleva 30 a 60 días y exige Form 1120 + 5472 final; venderla cuesta normalmente entre 0 $ y 5.000 $ en honorarios y permite preservar el EIN y la antigüedad bancaria.
+
 Llega un momento en muchas LLCs en el que la pregunta es la misma: ¿la cierro o la vendo? Las dos opciones son legítimas, pero el coste, el calendario y el resultado fiscal son completamente distintos. Este artículo compara ambas vías con datos concretos y te ayuda a decidir cuál encaja con tu situación.
 
 No es un artículo para abandonar. Es un artículo para terminar bien.

@@ -1,4 +1,6 @@
-export default `Using a nominee owner for your LLC is tempting for some, but it's illegal, risky, and increasingly ineffective. Here's why you should never do it, and what legitimate alternatives exist.
+export default `Using nominees to hide the ownership of an LLC is a crime of contractual and tax simulation in Spain (Penal Code art. 305), with prison from 1 to 5 years and fines of up to 6 times the defrauded amount.
+
+Using a nominee owner for your LLC is tempting for some, but it's illegal, risky, and increasingly ineffective. Here's why you should never do it, and what legitimate alternatives exist.
 
 From time to time we receive inquiries like "can I put the LLC in my cousin's name in Miami?" or "what if my brother is the official owner?" The answer is always the same: no.
 

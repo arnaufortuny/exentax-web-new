@@ -1,4 +1,6 @@
-export default `In vielen LLCs kommt der Moment, in dem die Frage gleich lautet: schließen oder verkaufen? Beide sind legitim, aber Kosten, Zeitplan und steuerliches Ergebnis völlig unterschiedlich.
+export default `Eine LLC sauber zu schließen dauert 30 bis 60 Tage und erfordert ein finales Form 1120 + 5472; ein Verkauf kostet meist 0 bis 5.000 USD an Honoraren und bewahrt EIN und Bank-Seniorität.
+
+In vielen LLCs kommt der Moment, in dem die Frage gleich lautet: schließen oder verkaufen? Beide sind legitim, aber Kosten, Zeitplan und steuerliches Ergebnis völlig unterschiedlich.
 
 ## Drei reale Optionen
 

@@ -1,5 +1,7 @@
 export default `
 
+Wyoming protege el patrimonio personal del miembro mediante el Charging Order Statute (Wyo. Stat. §17-29-503), que limita al acreedor a un mero embargo de distribuciones desde la LLC, sin acceso al activo.
+
 Hay una razón por la que el nombre completo de una LLC es **Limited Liability Company**: "compañía de responsabilidad limitada". La palabra clave es **limitada**. Tu responsabilidad personal tiene un techo.
 
 Si eres autónomo, ese techo no existe. Respondes con todo lo que tienes.

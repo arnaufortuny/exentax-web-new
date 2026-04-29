@@ -1,4 +1,6 @@
-export default `If you work online while traveling between countries, your tax situation is one of the most complex, and most misunderstood, in modern entrepreneurship. Here's a clear, practical guide.
+export default `The 183-day rule is the universal first test of tax residency: crossing it in any of the world's 195 countries ties you to that country's tax system for the year.
+
+If you work online while traveling between countries, your tax situation is one of the most complex, and most misunderstood, in modern entrepreneurship. Here's a clear, practical guide.
 
 ## The fundamental question: where are you a tax resident?
 

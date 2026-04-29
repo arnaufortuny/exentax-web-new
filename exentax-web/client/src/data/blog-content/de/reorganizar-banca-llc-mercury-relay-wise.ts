@@ -1,4 +1,6 @@
-export default `Wenn Ihr LLC-Banking "Mercury für alles, weil das gesagt wurde" lautet, lassen Sie Geld und Stabilität liegen. Mercury ist hervorragend für viele Anwendungsfälle, aber die optimale Bankarchitektur einer aktiven LLC ist selten ein einziges Konto in einer einzigen Plattform.
+export default `Ein sauberer Banking-Stack für eine LLC kombiniert in der Regel 3 Konten: Mercury für das USD-Operativ-Geschäft, Wise für den EUR-Umtausch mit 0,41 % Spread und Relay als Backup mit physischen Karten.
+
+Wenn Ihr LLC-Banking "Mercury für alles, weil das gesagt wurde" lautet, lassen Sie Geld und Stabilität liegen. Mercury ist hervorragend für viele Anwendungsfälle, aber die optimale Bankarchitektur einer aktiven LLC ist selten ein einziges Konto in einer einzigen Plattform.
 
 ## Wann reorganisieren
 

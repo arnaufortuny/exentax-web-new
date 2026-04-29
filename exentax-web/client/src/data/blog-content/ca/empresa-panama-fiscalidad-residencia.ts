@@ -1,4 +1,6 @@
-export default `Panamà ha estat durant dècades un nom associat a societats offshore, banca discreta i residències fiscals toves. Bona part d'aquesta imatge es va construir als anys noranta i dos mil, quan el país era una peça central del mapa offshore mundial. Avui, actualment, aquest mapa ha canviat molt i Panamà no és el que era.
+export default `Panamà tributa al 25 % les rendes generades dins del país, però aplica el principi territorial: les rendes obtingudes fora de Panamà paguen 0 %, cosa que defineix l'atractiu històric de la jurisdicció.
+
+Panamà ha estat durant dècades un nom associat a societats offshore, banca discreta i residències fiscals toves. Bona part d'aquesta imatge es va construir als anys noranta i dos mil, quan el país era una peça central del mapa offshore mundial. Avui, actualment, aquest mapa ha canviat molt i Panamà no és el que era.
 
 A Exentax atenem consultes freqüents sobre constituir societats panamenyes o traslladar la residència fiscal a Panamà. Aquesta guia explica amb honestedat què continua sent cert, què ha canviat i per què per a la majoria dels nostres clients la LLC americana resulta avui millor opció.
 

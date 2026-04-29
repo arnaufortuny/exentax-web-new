@@ -1,5 +1,7 @@
 export default `
 
+Passer du taux marginal de 47 % en Espagne au taux corporate de 9 % aux Émirats arabes unis est légal, mais cela exige de changer réellement de résidence fiscale, pas juste d'adresse postale.
+
 Payer peu d'impôts de manière légale est possible. Payer zéro, presque jamais. La différence entre les deux approches marque la frontière entre la planification fiscale sérieuse et la fantaisie qui circule sur les réseaux sociaux. Ce guide parcourt les voies légales réelles pour minimiser votre facture fiscale sans franchir la ligne, en mettant l'accent sur des profils habituels: freelances, consultants, e-commerce, SaaS, créateurs de contenu et entrepreneurs numériques.
 
 Chez Exentax nous travaillons depuis des années avec des personnes qui fuient l'impôt sur le revenu et les charges sociales. La bonne nouvelle est qu'il existe des chemins honnêtes. La moins bonne, c'est qu'aucun ne consiste à "ne pas déclarer".

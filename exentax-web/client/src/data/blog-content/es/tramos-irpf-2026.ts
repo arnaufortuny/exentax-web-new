@@ -1,5 +1,7 @@
 export default `
 
+Los tramos del IRPF 2026 en España van del 19 % hasta 12.450 € de base liquidable al 47 % por encima de 300.000 €, en una escala progresiva de 6 tramos.
+
 El Impuesto sobre la Renta de las Personas Físicas (IRPF) sigue siendo, actualmente, el tributo que más impacta tu nómina, tu factura como autónomo y tu rendimiento de capital en España. Conocer la tabla de tramos vigente y entender cómo se calcula realmente la cuota es la base para tomar cualquier decisión patrimonial: si pasar a sociedad limitada, si meter más a un plan de pensiones, si mover dividendos a otro ejercicio o si valorar una estructura internacional como la LLC americana. Esta guía aterriza la tarifa estatal y la combinación con la autonómica, con un ejemplo concreto y consejos para no entregar a Hacienda más de lo necesario.
 
 ## Tarifa estatal del IRPF

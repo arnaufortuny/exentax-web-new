@@ -1,4 +1,6 @@
-export default `When opening a bank account for your US LLC, you have two main options: traditional banks and fintech companies. Here's an honest, detailed comparison.
+export default `Mercury charges 0 dollars a month and onboards online in 5 days; a traditional bank like Bank of America requires physical presence in the US and 25 to 50 dollars in monthly maintenance.
+
+When opening a bank account for your US LLC, you have two main options: traditional banks and fintech companies. Here's an honest, detailed comparison.
 
 ## Traditional banks for US LLCs
 

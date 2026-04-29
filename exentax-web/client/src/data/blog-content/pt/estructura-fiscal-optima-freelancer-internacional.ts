@@ -1,4 +1,6 @@
-export default `Falar de „estrutura fiscal ótima” a partir de Portugal sem mencionar <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> progressivo, Segurança Social, exit tax e o novo IFICI é vender fumo. A estrutura certa para um freelancer em Lisboa não é a mesma que para quem roda entre Porto, Madeira e Bali seis meses por ano, e o que aparece no YouTube raramente passa nas Finanças.
+export default `Um freelancer em Espanha que factura a clientes internacionais pode passar do escalão marginal de 47 % IRPF mais quota RETA para um esquema LLC pass-through a 0 % federal, alinhando a tributação com o país real de residência.
+
+Falar de „estrutura fiscal ótima” a partir de Portugal sem mencionar <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> progressivo, Segurança Social, exit tax e o novo IFICI é vender fumo. A estrutura certa para um freelancer em Lisboa não é a mesma que para quem roda entre Porto, Madeira e Bali seis meses por ano, e o que aparece no YouTube raramente passa nas Finanças.
 
 Neste artigo explicamos-te as opções disponíveis e ajudamos-te a identificar qual se adapta melhor à tua situação.
 

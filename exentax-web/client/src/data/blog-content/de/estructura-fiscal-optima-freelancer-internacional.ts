@@ -1,4 +1,6 @@
-export default `Von „optimaler Steuerstruktur” aus DACH-Sicht zu reden, ohne Einkommensteuer, Solidaritätszuschlag, Wegzugsbesteuerung und AStG zu erwähnen, ist Augenwischerei. Die richtige Struktur für einen Freelancer mit Wohnsitz in Hamburg ist eine andere als für jemanden, der zwischen Wien, Lissabon und Tiflis rotiert, und was auf YouTube kursiert, hält selten dem deutschen Finanzamt stand.
+export default `Ein in Spanien ansässiger Freelancer mit internationalen Kunden kann vom 47-%-Spitzensteuersatz plus RETA-Beitrag auf eine Pass-through-LLC mit 0 % föderal wechseln und die Besteuerung am tatsächlichen Wohnsitzland ausrichten.
+
+Von „optimaler Steuerstruktur” aus DACH-Sicht zu reden, ohne Einkommensteuer, Solidaritätszuschlag, Wegzugsbesteuerung und AStG zu erwähnen, ist Augenwischerei. Die richtige Struktur für einen Freelancer mit Wohnsitz in Hamburg ist eine andere als für jemanden, der zwischen Wien, Lissabon und Tiflis rotiert, und was auf YouTube kursiert, hält selten dem deutschen Finanzamt stand.
 
 In diesem Artikel erklären wir Ihnen die verfügbaren Optionen und helfen Ihnen zu identifizieren, welche am besten zu Ihrer Situation passt.
 

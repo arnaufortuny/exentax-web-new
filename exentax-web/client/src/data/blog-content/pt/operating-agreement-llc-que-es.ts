@@ -1,4 +1,6 @@
-export default `Para um empreendedor em Portugal habituado ao pacto social da Lda registado na conservatória, o Operating Agreement pode parecer quase informal, documento privado, não registado, sem escritura. É um erro de leitura clássico: perante um juiz americano, o Operating Agreement pesa mais do que os próprios Articles of Organization.
+export default `O Operating Agreement é juridicamente exigido apenas em 5 estados (Califórnia, Delaware, Maine, Missouri e Nova Iorque), mas na prática todo o banco sério o pede para abrir conta a uma LLC.
+
+Para um empreendedor em Portugal habituado ao pacto social da Lda registado na conservatória, o Operating Agreement pode parecer quase informal, documento privado, não registado, sem escritura. É um erro de leitura clássico: perante um juiz americano, o Operating Agreement pesa mais do que os próprios Articles of Organization.
 
 E aqui vem uma das coisas mais interessantes: **o Operating Agreement é um documento privado.** Não se regista perante nenhuma autoridade estatal, não é de acesso público, e ninguém exceto tu (e as entidades que tu decidires) pode vê-lo. Esta privacidade é uma vantagem enorme para a tua estrutura empresarial.
 

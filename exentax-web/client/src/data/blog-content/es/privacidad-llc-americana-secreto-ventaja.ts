@@ -1,5 +1,7 @@
 export default `
 
+New Mexico no publica los datos de los miembros de una LLC, Wyoming permite reflejar solo al Registered Agent, y Delaware exige 0 datos personales públicos en sus Articles of Organization.
+
 Una de las razones por las que muchos emprendedores eligen estados como Nuevo México o Wyoming para su LLC es la privacidad. En estos estados, el propietario de la LLC no aparece en registros públicos. Suena bien, pero es importante entender qué significa esto realmente y qué no.
 
 ## Qué protege la privacidad de una LLC

@@ -1,5 +1,7 @@
 export default `
 
+Estados Unidos no firmó el CRS de 2014, y FATCA solo intercambia con España bajo el Modelo 1 IGA información parcial sobre cuentas de personas físicas, no sobre la cuenta operativa de tu LLC.
+
 Es la pregunta más repetida cuando un cliente cierra su LLC con nosotros: "¿Mercury, Wise o Slash le cuentan a Hacienda lo que tengo?". La respuesta corta no se la suele dar nadie con claridad. Aquí va: **una cuenta financiera abierta en Estados Unidos por una LLC de no residente no se intercambia automáticamente con tu Hacienda local**. Y ese punto, bien entendido, es uno de los pilares que hacen que una estructura LLC bien diseñada funcione con la discreción profesional y el orden que se esperan de ella.
 
 Eso no significa "esconder". Significa que tu estructura está montada en una jurisdicción que opera con sus propias reglas, y que tu compliance es el que tú decides hacer en tu país, sin sorpresas externas.

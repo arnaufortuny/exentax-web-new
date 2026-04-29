@@ -1,4 +1,6 @@
-export default `Changing your country of tax residence mid-year while you are a member of a US LLC is one of the trickiest scenarios to manage well. Not so much because of the US side (the LLC stays what it was), but because of how income gets allocated between two jurisdictions in the same year.
+export default `Switching tax residency mid-year forces you to split LLC income between the two countries using the 183-day rule and each treaty's split-year treatment.
+
+Changing your country of tax residence mid-year while you are a member of a US LLC is one of the trickiest scenarios to manage well. Not so much because of the US side (the LLC stays what it was), but because of how income gets allocated between two jurisdictions in the same year.
 
 This article covers the real framework: how to determine where you tax, how to split the year between two countries, and what typical errors are avoided with prior planning.
 

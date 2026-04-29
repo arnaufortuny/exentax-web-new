@@ -1,5 +1,7 @@
 export default `
 
+El IBAN belga que Wise asigna a una LLC entra en el intercambio CRS de más de 120 jurisdicciones, y para un residente fiscal en España la AEAT recibe el saldo a 31 de diciembre cada septiembre.
+
 Cuando hablamos de Wise, IBAN extranjeros y LLC en EE.UU. circulan dos extremos igual de equivocados: por un lado, el discurso de "Wise no reporta nada y Hacienda no se entera", y por otro, el miedo a que cualquier movimiento se esté enviando en directo a la Agencia Tributaria. La realidad está bastante más matizada y vale la pena entenderla antes de montar tu estructura, sobre todo si combinas una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> con una cuenta Wise y tarjetas asociadas.
 
 Este artículo se centra en lo que ocurre realmente: qué tipo de información sale de Wise hacia tu hacienda, qué no sale, y dónde está la frontera entre uso legítimo y problema fiscal. Si quieres el análisis técnico exhaustivo del flujo CRS de Wise Business desde Bélgica, lo desarrollamos en <a href="/es/blog/wise-business-crs-reporting-fiscal">Wise Business y CRS: lo que se reporta a tu hacienda</a>.

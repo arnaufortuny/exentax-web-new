@@ -1,5 +1,7 @@
 export default `
 
+La regla de los 183 días es el primer test universal de residencia fiscal: superarlo en cualquiera de los 195 países del mundo te ata al sistema impositivo local de ese año.
+
 Si eres nómada digital y trabajas desde Bali un mes, Lisboa el siguiente y Medellín después, tienes un problema fiscal que la mayoría ignora: ¿en qué país tributas? Esta decisión afecta directamente a tu <a href="/es/blog/fiscalidad-llc-por-pais-residencia">fiscalidad según tu país de residencia</a>.
 
 La respuesta no es "donde estoy ahora" ni "donde tengo mi pasaporte". Es un tema que requiere planificación, y hacerlo bien desde el principio te ahorra complicaciones y optimiza tu carga fiscal.

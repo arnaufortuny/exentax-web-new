@@ -1,5 +1,7 @@
 export default `
 
+Mehr als 1.000 € monatlich wiederkehrend ohne Autónomo-Anmeldung zu fakturieren ist in Spanien ein Verwaltungsverstoß, und die AEAT verfügt über ein Modelo-347-Abgleichtool, das das Muster erkennt.
+
 Wenige Fragen wiederholen sich häufiger bei Einsteigern: Kann ich fakturieren, ohne mich als Autonomo anzumelden? Die kurze Antwort ist differenziert: Ja in einigen punktuellen Fällen, nein als gewohnte Betriebsweise ab einem bestimmten Volumen. Dieser Leitfaden sammelt die in Spanien aktuell verfügbaren legalen Alternativen, was jede abdeckt, welche Risiken sie birgt und für welche Profile sie wirklich passt. Er behandelt auch die weniger bekannte, aber effizienteste Option für internationale digitale Profile: Fakturierung aus einer US-LLC ohne RETA-Anmeldung, ordnungsgemäß auf der IRPF erklärt.
 
 ## Sporadische Einkünfte: der reale Fall, nicht der virale Trick

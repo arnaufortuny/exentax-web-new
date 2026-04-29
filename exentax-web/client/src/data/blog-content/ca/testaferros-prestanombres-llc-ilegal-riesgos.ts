@@ -1,4 +1,6 @@
-export default `Posar la LLC a nom d'un amic, d'un germà o d'un testaferro és una de les idees que més circulen a grups de Telegram catalans. També una de les més perilloses: per a l'AEAT i per a l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el beneficiari efectiu segueixes sent tu, i el BOI Report demana explícitament qui té realment les participacions.
+export default `Fer servir homes de palla per ocultar la titularitat d'una LLC és delicte de simulació contractual i fiscal a Espanya (art. 305 CP), amb penes d'1 a 5 anys de presó i multes de fins a 6 vegades la quota defraudada.
+
+Posar la LLC a nom d'un amic, d'un germà o d'un testaferro és una de les idees que més circulen a grups de Telegram catalans. També una de les més perilloses: per a l'AEAT i per a l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el beneficiari efectiu segueixes sent tu, i el BOI Report demana explícitament qui té realment les participacions.
 
 Utilitzar un testaferro (prestanoms, front man, nominee) com a propietari fictici de la teva LLC mentre tu ets qui realment controla el negoci és frau. No és una zona grisa. No és una "estratègia". És il·legal. T'expliquem per què i quines són les alternatives legals.
 

@@ -1,4 +1,6 @@
-export default `Pass-through taxation is the core of why US LLCs are so efficient for non-residents. Here's a clear explanation of how it works and why it matters.
+export default `An LLC's pass-through regime sets the federal tax at 0% and pushes 100% of the profit to the owner, who is taxed under the personal income tax of their country (up to 47% in Spain).
+
+Pass-through taxation is the core of why US LLCs are so efficient for non-residents. Here's a clear explanation of how it works and why it matters.
 
 ## What is pass-through taxation?
 

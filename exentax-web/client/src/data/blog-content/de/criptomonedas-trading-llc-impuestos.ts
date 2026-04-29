@@ -1,4 +1,6 @@
-export default `Wer aus Deutschland heraus Krypto handelt, kennt die Spielregeln: ein Jahr Haltefrist, sonst Einkommensteuer zum persönlichen Grenzsteuersatz, und jede DeFi-Operation ist potenziell ein steuerpflichtiges Ereignis. Eine LLC als Vehikel für Krypto macht das Thema nicht magisch weg, aber sie verändert das Bild grundlegend, wenn sauber strukturiert.
+export default `Krypto-Kapitalerträge werden in Spanien gestaffelt mit 19 % bis 30 % besteuert, und das Modelo 721 verpflichtet zur Meldung von Beständen auf ausländischen Exchanges ab 50.000 €.
+
+Wer aus Deutschland heraus Krypto handelt, kennt die Spielregeln: ein Jahr Haltefrist, sonst Einkommensteuer zum persönlichen Grenzsteuersatz, und jede DeFi-Operation ist potenziell ein steuerpflichtiges Ereignis. Eine LLC als Vehikel für Krypto macht das Thema nicht magisch weg, aber sie verändert das Bild grundlegend, wenn sauber strukturiert.
 
 ## Wie werden Kryptowährungen in Deutschland besteuert?
 

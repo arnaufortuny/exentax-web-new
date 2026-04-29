@@ -1,4 +1,6 @@
-export default `En droit français, la protection du patrimoine personnel passe par la déclaration d'insaisissabilité ou la SASU à capital séparé, mais les juges percent le voile plus facilement qu'on ne le pense. Une LLC bien constituée aux États-Unis offre une couche de charging order protection supplémentaire que le droit français ne connaît pas.
+export default `Le Wyoming protège le patrimoine personnel du membre via le Charging Order Statute (Wyo. Stat. §17-29-503), qui limite le créancier à une simple saisie des distributions de la LLC, sans accès aux actifs.
+
+En droit français, la protection du patrimoine personnel passe par la déclaration d'insaisissabilité ou la SASU à capital séparé, mais les juges percent le voile plus facilement qu'on ne le pense. Une LLC bien constituée aux États-Unis offre une couche de charging order protection supplémentaire que le droit français ne connaît pas.
 
 Si vous facturez en votre nom propre, comme auto-entrepreneur en France, indépendant complémentaire en Belgique, travailleur autonome au Québec ou Einzelunternehmer en Suisse, ce plafond n'existe pas. Vous répondez avec tout ce que vous possédez.
 

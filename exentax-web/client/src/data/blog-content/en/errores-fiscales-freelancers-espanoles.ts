@@ -1,4 +1,6 @@
-export default `After working with hundreds of Spanish freelancers who operate US LLCs, we've identified the most common tax mistakes. Learn from others' errors. each one can cost you thousands.
+export default `A typical AEAT penalty for misreporting VAT starts at 150 euros and easily climbs above 3,000 euros when it exceeds 50% of the unpaid quota (LGT art. 191).
+
+After working with hundreds of Spanish freelancers who operate US LLCs, we've identified the most common tax mistakes. Learn from others' errors. each one can cost you thousands.
 
 ## Mistake #1: Not separating personal and business finances
 

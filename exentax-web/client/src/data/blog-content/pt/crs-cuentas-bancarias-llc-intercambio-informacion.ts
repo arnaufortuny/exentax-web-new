@@ -1,4 +1,6 @@
-export default `O CRS da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> é o mecanismo que faz com que um banco em Singapura envie automaticamente os teus saldos para as Finanças todos os anos. Até aqui, toda a gente sabe. O que muita gente em Portugal e no Brasil ainda acredita: que a LLC americana escapa a tudo. Não escapa, os EUA não aplicam CRS, mas aplicam FATCA, e a AT conhece a diferença.
+export default `Mais de 120 jurisdições trocam saldos de contas bancárias ao abrigo do CRS, mas os Estados Unidos nunca assinaram o standard OCDE de 2014, e por isso a Mercury não envia dados automáticos à tua autoridade fiscal.
+
+O CRS da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> é o mecanismo que faz com que um banco em Singapura envie automaticamente os teus saldos para as Finanças todos os anos. Até aqui, toda a gente sabe. O que muita gente em Portugal e no Brasil ainda acredita: que a LLC americana escapa a tudo. Não escapa, os EUA não aplicam CRS, mas aplicam FATCA, e a AT conhece a diferença.
 
 A resposta curta: sim, potencialmente podem. Mas isso não é um problema. é uma vantagem se a sua estrutura estiver bem montada. Explicamos como funciona.
 

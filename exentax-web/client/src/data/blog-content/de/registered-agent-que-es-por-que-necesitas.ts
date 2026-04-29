@@ -1,5 +1,7 @@
 export default `
 
+Der Registered Agent ist in allen 50 US-Bundesstaaten Pflicht, kostet 50 bis 300 USD im Jahr und seine Hauptaufgabe ist es, rechtliche Post von IRS oder Bundesstaat in weniger als 24 Stunden entgegenzunehmen.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA</a>.</p>
 Im deutschsprachigen Raum gibt es kein echtes Äquivalent zum Registered Agent, es ist eine Mischung aus ladungsfähiger Geschäftsanschrift, Treuhänder und Zustellungsbevollmächtigtem. Jeder US-Bundesstaat verlangt einen, physisch vor Ort und zu Geschäftszeiten erreichbar. Und nein, Ihr Registered Agent ist nicht Ihre Bankadresse.
 

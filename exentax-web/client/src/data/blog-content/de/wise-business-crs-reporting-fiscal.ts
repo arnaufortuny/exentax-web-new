@@ -1,5 +1,7 @@
 export default `
 
+Wise Business meldet Kontosalden an über 120 Jurisdiktionen unter CRS und übermittelt die Daten für einen spanischen Steueransässigen jährlich bis zum 30. September an die AEAT.
+
 Wise Business (früher TransferWise) ist die Multi-Währungs-Fintech, die die meisten Inhaberinnen und Inhaber einer <a href="/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten">US-amerikanischen LLC</a> als erste eröffnen, neben jeder international tätigen Unternehmerin oder jedem Unternehmer, die oder der Geld über Grenzen hinweg bewegen muss. Das Versprechen ist eindeutig: Mid-Market-Wechselkurse, lokale IBANs in EUR, GBP, USD und einem Dutzend weiteren Währungen, und so niedrige Gebühren, dass man sie kaum bemerkt. Was viele übersehen: Wise ist auch ein voll regulierter europäischer Finanzakteur und unterliegt damit dem **Common Reporting Standard (CRS)**. Genau dieses Detail hat sehr konkrete Auswirkungen, die Sie kennen sollten, bevor Sie Wise in die Struktur Ihrer LLC einbauen.
 
 ## Welche Wise-Einheit Ihr Konto tatsächlich führt und wo sie meldet

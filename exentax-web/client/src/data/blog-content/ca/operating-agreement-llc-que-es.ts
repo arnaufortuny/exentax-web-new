@@ -1,4 +1,6 @@
-export default `Per a un empresari català habituat a l'escriptura de constitució de la SL davant notari, l'Operating Agreement pot semblar gairebé informal: document privat, sense registre, sense escriptura. Error d'interpretació: davant d'un jutge americà, l'Operating Agreement pesa més que els Articles of Organization.
+export default `L'Operating Agreement és exigible legalment només a 5 estats (Califòrnia, Delaware, Maine, Missouri i Nova York), però a la pràctica tot banc seriós el demana per obrir compte a una LLC.
+
+Per a un empresari català habituat a l'escriptura de constitució de la SL davant notari, l'Operating Agreement pot semblar gairebé informal: document privat, sense registre, sense escriptura. Error d'interpretació: davant d'un jutge americà, l'Operating Agreement pesa més que els Articles of Organization.
 
 I aquí ve una de les coses més interessants: **l'Operating Agreement és un document privat.** No es registra davant cap autoritat estatal, no és d'accés públic, i ningú excepte tu (i les entitats que tu decideixis) pot veure'l. Aquesta privacitat és un avantatge enorme per a la teva estructura empresarial.
 

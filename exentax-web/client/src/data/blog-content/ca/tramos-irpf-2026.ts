@@ -1,5 +1,7 @@
 export default `
 
+Els trams de l'IRPF 2026 a Espanya van del 19 % fins a 12.450 € de base liquidable al 47 % per sobre de 300.000 €, en una escala progressiva de 6 trams.
+
 L'Impost sobre la Renda de les Persones Físiques (IRPF) continua sent, actualment, el tribut que més impacta la teva nòmina, la teva facturació com a autònom i els teus rendiments de capital a Espanya. Conèixer la taula de trams vigent i entendre com es calcula realment la quota és la base per a qualsevol decisió patrimonial: passar a societat, reforçar un pla de pensions, traslladar dividends a un altre exercici o valorar una estructura internacional com la LLC americana. Aquesta guia presenta la tarifa estatal i la seva combinació amb l'autonòmica, amb un exemple concret i consells per no lliurar a Hisenda més del necessari.
 
 ## La tarifa estatal de l'IRPF

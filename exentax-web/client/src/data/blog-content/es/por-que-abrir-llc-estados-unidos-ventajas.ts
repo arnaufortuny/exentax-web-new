@@ -1,5 +1,7 @@
 export default `
 
+Una LLC en Estados Unidos se constituye en 7 a 14 días, paga 0 % federal en régimen pass-through y cobra de Stripe, PayPal o Mercury sin las retenciones del 19-30 % que sufre un freelance europeo.
+
 Hay muchos artículos en internet que te dicen "abre una LLC" como si fuera la solución mágica a todos tus problemas. Nosotros preferimos ser directos: una LLC no es magia, pero sí es la mejor estructura legal y fiscal disponible para emprendedores digitales que operan internacionalmente. Y las razones son muy concretas.
 
 En este artículo vamos a repasar todas las ventajas reales, sin humo, sin exageraciones, con datos y ejemplos prácticos. Si al terminar de leer decides que tiene sentido para ti, en Exentax nos encargamos de todo el proceso.

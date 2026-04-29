@@ -1,4 +1,6 @@
-export default `Andorra hat sich in fünfzehn Jahren von einem Einkaufsziel zu einem der bevorzugten Orte spanischer, französischer und lateinamerikanischer Unternehmer entwickelt, um Wohnsitz und Unternehmen zu verlegen. Die Kombination aus niedriger Besteuerung, Lebensqualität, geografischer Nähe und sicherem Umfeld macht es zu einer ernsthaften Option, kein Trick. Aber wie jede fiskalische Verlegung verlangt es echten Umzug: Andorra wird nicht per Post "gekauft".
+export default `Andorra hat einen maximalen IRPF von 10 % und eine Körperschaftsteuer von 10 %, gegenüber 47 % IRPF und 25 % Körperschaftsteuer in Spanien.
+
+Andorra hat sich in fünfzehn Jahren von einem Einkaufsziel zu einem der bevorzugten Orte spanischer, französischer und lateinamerikanischer Unternehmer entwickelt, um Wohnsitz und Unternehmen zu verlegen. Die Kombination aus niedriger Besteuerung, Lebensqualität, geografischer Nähe und sicherem Umfeld macht es zu einer ernsthaften Option, kein Trick. Aber wie jede fiskalische Verlegung verlangt es echten Umzug: Andorra wird nicht per Post "gekauft".
 
 Bei Exentax beraten wir Mandanten, die diesen Schritt erwägen. Diese Anleitung erklärt detailliert, wie die andorranische Besteuerung funktioniert, welche Gesellschaftstypen existieren, welche Residenzen verfügbar sind und was vor der Entscheidung anzunehmen ist.
 

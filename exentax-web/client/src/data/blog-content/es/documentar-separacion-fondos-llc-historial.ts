@@ -1,5 +1,7 @@
 export default `
 
+El IRS exige conservar 7 años de extractos bancarios y justificantes para demostrar que el dinero de la LLC y el personal nunca se mezclaron, condición indispensable para mantener el escudo del corporate veil.
+
 Si llevas tiempo con tu LLC y en algún momento mezclaste cobros, gastos personales o transferencias sin documentar, este artículo te interesa. La pregunta no es "¿cómo evito que pase?", sino "¿cómo documento la separación de fondos hacia atrás de forma que aguante una revisión?".
 
 La buena noticia: se puede. La realista: cuanto antes se haga, más barato y más creíble será.

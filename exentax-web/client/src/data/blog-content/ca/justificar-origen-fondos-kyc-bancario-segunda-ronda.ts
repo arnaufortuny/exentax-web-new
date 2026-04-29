@@ -1,4 +1,6 @@
-export default `Si fa temps que tens la teva LLC i Mercury, Wise o la teva passarel·la et demanen de sobte documentació addicional sobre l'origen dels fons, no estàs sol. És una de les peticions que més ansietat genera i quasi sempre una de les més fàcils de resoldre bé si s'aborda amb ordre.
+export default `Una segona ronda de KYC a Mercury, Wise o Relay es resol favorablement en el 75 % dels casos quan aportes extractes dels últims 6 mesos i un contracte de serveis signat amb client.
+
+Si fa temps que tens la teva LLC i Mercury, Wise o la teva passarel·la et demanen de sobte documentació addicional sobre l'origen dels fons, no estàs sol. És una de les peticions que més ansietat genera i quasi sempre una de les més fàcils de resoldre bé si s'aborda amb ordre.
 
 Clau: no és sospita. És procés regulat de revisió periòdica. El que decideix el desenllaç no és el que tens, és **com ho presentes**.
 

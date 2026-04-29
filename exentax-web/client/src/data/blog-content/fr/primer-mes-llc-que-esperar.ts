@@ -1,4 +1,6 @@
-export default `Le premier mois d'une LLC, pour un entrepreneur français qui n'a connu que la micro-entreprise ou la SASU, ressemble à un concert de notifications inconnues: EIN reçu, BOI à déposer, Mercury qui demande des documents, Stripe qui veut une vérification, et le Registered Agent qui envoie un premier courrier. Normal, mais stressant si on ne sait pas dans quel ordre répondre.
+export default `Les 30 premiers jours après la création d'une LLC couvrent 4 jalons critiques : recevoir les Articles of Organization, obtenir l'EIN, ouvrir un compte Mercury et signer l'Operating Agreement.
+
+Le premier mois d'une LLC, pour un entrepreneur français qui n'a connu que la micro-entreprise ou la SASU, ressemble à un concert de notifications inconnues: EIN reçu, BOI à déposer, Mercury qui demande des documents, Stripe qui veut une vérification, et le Registered Agent qui envoie un premier courrier. Normal, mais stressant si on ne sait pas dans quel ordre répondre.
 
 Cet article vous explique exactement ce qui se passe durant votre premier mois avec une LLC, étape par étape, sans jargon technique inutile.
 

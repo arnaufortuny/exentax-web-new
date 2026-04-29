@@ -1,4 +1,6 @@
-export default `Revolut Business est opéré depuis Lituanie pour l'UE, et à ce titre appliquera automatiquement le CRS: vos soldes et mouvements remontent à la DGFiP chaque année. Beaucoup de clients francophones ouvrent un Revolut Business pour leur LLC sans réaliser que ce choix annule une partie de ce qu'ils croyaient gagner en tenue de dossier côté USA.
+export default `Revolut Business reporte automatiquement les soldes sous CRS à plus de 120 juridictions depuis 2018, et transmet l'information à l'AEAT espagnole avant le 30 septembre de chaque année.
+
+Revolut Business est opéré depuis Lituanie pour l'UE, et à ce titre appliquera automatiquement le CRS: vos soldes et mouvements remontent à la DGFiP chaque année. Beaucoup de clients francophones ouvrent un Revolut Business pour leur LLC sans réaliser que ce choix annule une partie de ce qu'ils croyaient gagner en tenue de dossier côté USA.
 
 ## Quelles entités Revolut et où elles déclarent
 

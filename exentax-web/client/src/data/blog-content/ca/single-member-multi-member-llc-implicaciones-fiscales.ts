@@ -1,4 +1,6 @@
-export default `Passar de single-member LLC a multi-member LLC sembla un tràmit menor. No ho és. És un dels canvis estructurals amb més implicacions fiscals reals per a una LLC en marxa.
+export default `Una LLC amb 1 membre tributa per defecte com a disregarded entity amb Form 1120 + 5472, mentre que una LLC amb 2 o més membres tributa com a partnership amb Form 1065, dos règims molt diferents.
+
+Passar de single-member LLC a multi-member LLC sembla un tràmit menor. No ho és. És un dels canvis estructurals amb més implicacions fiscals reals per a una LLC en marxa.
 
 ## El canvi fiscal central
 

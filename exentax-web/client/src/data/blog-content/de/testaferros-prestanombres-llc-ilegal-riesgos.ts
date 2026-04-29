@@ -1,4 +1,6 @@
-export default `Die LLC auf einen Freund, Bruder oder Strohmann laufen zu lassen ist eine der Ideen, die in deutschsprachigen Telegram-Gruppen am häufigsten auftauchen. Sie ist auch eine der gefährlichsten: Für Finanzamt wie <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> bleibt der wirtschaftlich Berechtigte Sie, und der BOI Report verlangt inzwischen explizit, wer die Anteile wirklich hält.
+export default `Strohmänner zur Verschleierung der Inhaberschaft einer LLC einzusetzen ist in Spanien ein Vertrags- und Steuerverkürzungstatbestand (Art. 305 CP) — mit 1 bis 5 Jahren Haft und Geldstrafen bis zum 6-Fachen der hinterzogenen Summe.
+
+Die LLC auf einen Freund, Bruder oder Strohmann laufen zu lassen ist eine der Ideen, die in deutschsprachigen Telegram-Gruppen am häufigsten auftauchen. Sie ist auch eine der gefährlichsten: Für Finanzamt wie <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> bleibt der wirtschaftlich Berechtigte Sie, und der BOI Report verlangt inzwischen explizit, wer die Anteile wirklich hält.
 
 Einen Strohmann (Treuhänder, Front Man, Nominee) als fiktiven Eigentümer Ihrer LLC einzusetzen, während Sie derjenige sind, der das Geschäft tatsächlich kontrolliert, ist Betrug. Es ist keine Grauzone. Es ist keine „Strategie". Es ist illegal. Wir erklären Ihnen, warum und welche legalen Alternativen es gibt.
 

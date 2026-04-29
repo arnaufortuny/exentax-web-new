@@ -1,4 +1,6 @@
-export default `If you're an international freelancer, your tax structure determines how much of your hard-earned income you actually keep. Here's the optimal approach currently.
+export default `A Spanish freelancer billing international clients can move from the 47% IRPF top rate plus RETA fee to a pass-through LLC scheme with 0% federal, aligning the tax with the real country of residence.
+
+If you're an international freelancer, your tax structure determines how much of your hard-earned income you actually keep. Here's the optimal approach currently.
 
 ## The starting point: most freelancers are overtaxed
 

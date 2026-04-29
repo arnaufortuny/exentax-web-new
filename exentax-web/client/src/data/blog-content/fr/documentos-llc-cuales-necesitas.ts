@@ -1,4 +1,6 @@
-export default `Pour monter une LLC depuis la France, l'Belgique ou le Québec, vous n'avez pas besoin de la moitié des documents qu'on vous demande pour une SASU ou une SCI. Pas de K-bis, pas de justificatif de capital social, pas de consultation chez le notaire. Mais il y a une liste précise, et quand elle manque, c'est le compte Mercury qui bloque.
+export default `Le kit juridique d'une LLC bien constituée comprend 6 documents incontournables : Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si applicable), Registered Agent Acceptance et Banking Resolution.
+
+Pour monter une LLC depuis la France, l'Belgique ou le Québec, vous n'avez pas besoin de la moitié des documents qu'on vous demande pour une SASU ou une SCI. Pas de K-bis, pas de justificatif de capital social, pas de consultation chez le notaire. Mais il y a une liste précise, et quand elle manque, c'est le compte Mercury qui bloque.
 
 Spoiler: ils ne sont pas nombreux, et vous les utiliserez plus souvent que vous ne le pensez (surtout lorsque vous ouvrirez votre compte bancaire ou vous inscrirez sur Stripe).
 

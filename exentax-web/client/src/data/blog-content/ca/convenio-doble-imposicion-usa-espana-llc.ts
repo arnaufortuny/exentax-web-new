@@ -1,4 +1,6 @@
-export default `Quan algú veu per primera vegada la combinació "LLC als Estats Units" i "resident fiscal a Espanya", la pregunta immediata és sempre la mateixa: **"i llavors on pago impostos?"**. La resposta és clara: **a Espanya**, sobre el benefici net, gràcies al **conveni de doble imposició entre els EUA i Espanya**. La LLC no s'utilitza per "no pagar", s'utilitza per **no pagar dues vegades** i per optimitzar dins el que és legal.
+export default `El Conveni entre Espanya i Estats Units de 22 de febrer de 1990, amb el protocol d'esmena en vigor des del 27 de novembre de 2019, fixa les regles que eviten pagar dues vegades sobre la mateixa renda de la teva LLC.
+
+Quan algú veu per primera vegada la combinació "LLC als Estats Units" i "resident fiscal a Espanya", la pregunta immediata és sempre la mateixa: **"i llavors on pago impostos?"**. La resposta és clara: **a Espanya**, sobre el benefici net, gràcies al **conveni de doble imposició entre els EUA i Espanya**. La LLC no s'utilitza per "no pagar", s'utilitza per **no pagar dues vegades** i per optimitzar dins el que és legal.
 
 Aquesta guia explica el conveni pas a pas, en llenguatge clar, aplicat al cas concret d'una LLC de no resident amb propietari resident a Espanya. Amb articles, tipus, exemples numèrics, formularis i referències a l'AEAT.
 

@@ -1,4 +1,6 @@
-export default `Wer von IBAN und BIC auf das US-Bankingsystem umsteigt, stellt plötzlich fest: Die LLC liefert keinen IBAN, sondern eine Kombination aus Routing Number und Account Number, und das SWIFT kommt erst bei internationalen Zahlungen ins Spiel. Solange dieser Unterschied unklar ist, scheitern Überweisungen oder landen mit versteckten Gebühren.
+export default `Die US-Routing-Number hat 9 Stellen, die spanische IBAN 24 Zeichen und der SWIFT-Code 8 bis 11 — alle drei werden bei jeder internationalen Überweisung mit deiner LLC gleichzeitig verlangt.
+
+Wer von IBAN und BIC auf das US-Bankingsystem umsteigt, stellt plötzlich fest: Die LLC liefert keinen IBAN, sondern eine Kombination aus Routing Number und Account Number, und das SWIFT kommt erst bei internationalen Zahlungen ins Spiel. Solange dieser Unterschied unklar ist, scheitern Überweisungen oder landen mit versteckten Gebühren.
 
 Wir erklären jeden einzelnen klar und verständlich, damit Sie nie wieder denken müssen: „Welchen Code soll ich diesem Kunden geben?"
 

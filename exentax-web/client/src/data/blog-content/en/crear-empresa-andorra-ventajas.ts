@@ -1,5 +1,7 @@
 export default `
 
+Andorra applies a top personal income tax of 10% and a corporate tax of 10%, versus Spain's 47% personal rate and 25% corporate rate.
+
 In fifteen years Andorra has gone from being a shopping destination to becoming one of the favorite places for Spanish, French and Latin American entrepreneurs to move residency and company. Its combination of low taxation, quality of life, geographic proximity and a safe environment makes it a serious option, not a trick. But like any fiscal relocation, it requires actually moving: Andorra cannot be "bought" by mail.
 
 At Exentax we work with clients considering the step. This guide explains in detail how Andorran taxation works, what corporate types exist, what residency options are available and what must be assumed before deciding.

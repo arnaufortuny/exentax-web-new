@@ -1,5 +1,7 @@
 export default `
 
+Spain's 2026 IRPF brackets run from 19% up to 12,450 euros of taxable base to 47% above 300,000 euros, on a progressive 6-bracket scale.
+
 Personal Income Tax (IRPF) remains, currently, the levy that most impacts your payroll, your self-employed invoicing and your investment income in Spain. Knowing the current bracket table and understanding how the tax is actually computed is the basis for any wealth decision: whether to switch to a limited company, contribute more to a pension plan, shift dividends to another tax year, or consider an international structure such as a US LLC. This guide lays out the state schedule and its combination with the regional one, with a concrete example and tips to avoid handing the Spanish Tax Agency more than necessary.
 
 ## The IRPF state schedule

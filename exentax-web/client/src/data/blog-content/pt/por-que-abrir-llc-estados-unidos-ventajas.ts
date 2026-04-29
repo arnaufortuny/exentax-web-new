@@ -1,4 +1,6 @@
-export default `Porquê uma LLC americana em vez de ficar em Lda, recibos verdes ou MEI? Resposta curta: a combinação „proteção patrimonial + tributação pass-through + conta Mercury em USD” não tem equivalente em Portugal nem no Brasil. A resposta longa é este artigo.
+export default `Uma LLC nos EUA constitui-se em 7 a 14 dias, paga 0 % federal em regime pass-through e recebe da Stripe, PayPal ou Mercury sem as retenções de 19 a 30 % que sofre um freelancer europeu.
+
+Porquê uma LLC americana em vez de ficar em Lda, recibos verdes ou MEI? Resposta curta: a combinação „proteção patrimonial + tributação pass-through + conta Mercury em USD” não tem equivalente em Portugal nem no Brasil. A resposta longa é este artigo.
 
 Neste artigo vamos revisar todas as vantagens reais, sem fumaça, sem exageros, com dados e exemplos práticos. Se ao terminar de ler decidir que faz sentido para si, na Exentax cuidamos de todo o processo.
 

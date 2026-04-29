@@ -1,5 +1,7 @@
 export default `
 
+The US offers 4 main business vehicles: the pass-through LLC at 0% federal, the S-Corp restricted to US residents, the C-Corp at 21% federal, and the sole proprietorship with no legal shield.
+
 When someone says "American company", most people picture an LLC; others, a "corporation". The reality is that the United States has four main vehicles for doing business: **LLC**, **Corporation**, **S-Corporation** and **C-Corporation**. Each one has its own federal and state tax regime, ownership restrictions and use cases. For a non-US founder living in the UK, Ireland, Australia or Canada, not all of them are accessible or convenient. This guide nails down the real difference between the four entities, what fits each profile and why an LLC is still, today, the default choice for freelancers, agencies and digital projects that are not chasing institutional investors.
 
 ## LLC: the flexible default option for non-residents

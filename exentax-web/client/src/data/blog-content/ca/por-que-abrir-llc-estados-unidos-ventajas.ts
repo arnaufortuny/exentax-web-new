@@ -1,4 +1,6 @@
-export default `Per què una LLC americana i no quedar-se en SL, autònom o cooperativa? Resposta curta: la combinació „protecció patrimonial + tributació pass-through + compte Mercury en USD” no té equivalent a Catalunya. La resposta llarga és aquest article.
+export default `Una LLC als EUA es constitueix en 7 a 14 dies, paga 0 % federal en règim pass-through i cobra d'Stripe, PayPal o Mercury sense les retencions del 19-30 % que pateix un autònom europeu.
+
+Per què una LLC americana i no quedar-se en SL, autònom o cooperativa? Resposta curta: la combinació „protecció patrimonial + tributació pass-through + compte Mercury en USD” no té equivalent a Catalunya. La resposta llarga és aquest article.
 
 En aquest article repassarem tots els avantatges reals, sense fum, sense exageracions, amb dades i exemples pràctics. Si en acabar de llegir decideixes que té sentit per a tu, a Exentax ens encarreguem de tot el procés.
 

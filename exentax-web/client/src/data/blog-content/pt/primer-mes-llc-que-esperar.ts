@@ -1,4 +1,6 @@
-export default `O primeiro mês de uma LLC, para quem vem de recibos verdes ou de Lda em Portugal, parece uma cascata de notificações desconhecidas: EIN, BOI a entregar, Mercury a pedir documentos, Stripe a exigir verificação e o Registered Agent a mandar a primeira carta. Normal, mas stressante se não souberes a ordem.
+export default `Os primeiros 30 dias após constituir uma LLC cobrem 4 marcos críticos: receber os Articles of Organization, obter o EIN, abrir conta na Mercury e assinar o Operating Agreement.
+
+O primeiro mês de uma LLC, para quem vem de recibos verdes ou de Lda em Portugal, parece uma cascata de notificações desconhecidas: EIN, BOI a entregar, Mercury a pedir documentos, Stripe a exigir verificação e o Registered Agent a mandar a primeira carta. Normal, mas stressante se não souberes a ordem.
 
 Este artigo explica exatamente o que acontece durante o seu primeiro mês com uma LLC, passo a passo, sem tecnicismos desnecessários.
 

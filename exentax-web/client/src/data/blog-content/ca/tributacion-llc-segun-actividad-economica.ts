@@ -1,5 +1,7 @@
 export default `
 
+Una LLC pass-through tributa al 0 % federal als EUA tant si l'activitat és serveis professionals, ecommerce, SaaS o trading; el càlcul real només canvia a l'IRPF del país de residència, que a Espanya arriba al 47 %.
+
 Parlar de «fiscalitat de la LLC» en abstracte porta a errors greus: la fiscalitat real depèn molt estretament del **tipus d'activitat econòmica** que la LLC desenvolupa, perquè cada activitat activa regles diferents d'IVA, qualificació de rendes, font de la renda, conveni de doble imposició aplicable i, sobretot, exposició a la transparència fiscal internacional i a les regles antielusió. Vegem les cinc grans famílies que veiem a Exentax.
 
 ## Punts clau

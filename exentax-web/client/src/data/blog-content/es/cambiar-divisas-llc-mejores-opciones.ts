@@ -1,5 +1,7 @@
 export default `
 
+Wise convierte USD a EUR con un spread medio de 0,41 %, Mercury aplica cerca del 1 % y un banco español tradicional puede comerse entre el 2 % y el 4 % en cada operación.
+
 Si operas una LLC en Estados Unidos y vives en España, México, Colombia o cualquier otro país fuera de EE.UU. el cambio de divisas es una parte esencial de tu día a día financiero. Cobras en dólares, pero tus gastos personales son en euros, pesos u otra moneda local.
 
 La forma en que conviertes esas divisas puede costarte cientos o miles de dólares al año, o prácticamente nada, si usas las herramientas correctas. Si aún no tienes claro qué plataformas usar, consulta nuestra comparativa de <a href="/es/blog/bancos-vs-fintech-llc-donde-abrir-cuenta">bancos vs fintech para tu LLC</a>.

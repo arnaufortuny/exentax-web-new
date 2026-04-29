@@ -1,4 +1,6 @@
-export default `Pôr a LLC em nome de um amigo, irmão ou „testa de ferro” é uma das ideias que mais circulam em grupos de Telegram lusófonos. É também uma das mais perigosas: para as Finanças, para a Receita Federal e para o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> americano, o beneficiário efetivo continuas a ser tu, e o BOI Report pede explicitamente quem realmente detém as quotas.
+export default `Usar testas-de-ferro para ocultar a titularidade de uma LLC é crime de simulação contratual e fiscal em Espanha (art. 305 CP), com penas de 1 a 5 anos de prisão e multas até 6 vezes o valor defraudado.
+
+Pôr a LLC em nome de um amigo, irmão ou „testa de ferro” é uma das ideias que mais circulam em grupos de Telegram lusófonos. É também uma das mais perigosas: para as Finanças, para a Receita Federal e para o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> americano, o beneficiário efetivo continuas a ser tu, e o BOI Report pede explicitamente quem realmente detém as quotas.
 
 Usar um testa-de-ferro (prestanome, front man, nominee) como proprietário fictício da sua LLC enquanto é quem realmente controla o negócio é fraude. Não é uma zona cinzenta. Não é uma "estratégia". É ilegal. Explicamos porquê e quais são as alternativas legais.
 

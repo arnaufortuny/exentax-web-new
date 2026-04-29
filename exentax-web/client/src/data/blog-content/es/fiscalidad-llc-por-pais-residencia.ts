@@ -1,5 +1,7 @@
 export default `
 
+Una LLC pass-through paga 0 % federal en Estados Unidos, pero tributa hasta el 47 % en IRPF si el dueño reside en España, hasta el 45 % en Francia, hasta el 45 % en Alemania o hasta el 22 % en Portugal con NHR.
+
 Una de las grandes ventajas de una Single-Member LLC americana es que no paga impuesto federal sobre la renta en Estados Unidos. El IRS la clasifica como "Disregarded Entity", una entidad transparente fiscalmente. Los beneficios pasan directamente al propietario.
 
 Pero aquí viene la parte que muchos olvidan: **esos beneficios los declaras en tu país de residencia fiscal.** No desaparecen. No se vuelven invisibles. Tu LLC optimiza tu estructura, pero no te exime de las obligaciones fiscales donde vives.

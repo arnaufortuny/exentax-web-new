@@ -1,4 +1,6 @@
-export default `Treballes dos mesos des de Lisboa, un mes des de Bali, tornes a veure la família a Barcelona i te'n vas a Mèxic DF? Vius el somni del nòmada digital català i tens un problema fiscal que es cou en silenci: mentre no tinguis la residència fiscal ben definida, l'AEAT et pot continuar tractant com a resident, amb tot el que això comporta.
+export default `La regla dels 183 dies és el primer test universal de residència fiscal: superar-la en qualsevol dels 195 països del món et lliga al sistema impositiu local d'aquell any.
+
+Treballes dos mesos des de Lisboa, un mes des de Bali, tornes a veure la família a Barcelona i te'n vas a Mèxic DF? Vius el somni del nòmada digital català i tens un problema fiscal que es cou en silenci: mentre no tinguis la residència fiscal ben definida, l'AEAT et pot continuar tractant com a resident, amb tot el que això comporta.
 
 En aquest article t'expliquem com funciona realment la residència fiscal per a un nòmada digital, com sortir d'Espanya de manera neta i quins destins tenen sentit de debò actualment.
 

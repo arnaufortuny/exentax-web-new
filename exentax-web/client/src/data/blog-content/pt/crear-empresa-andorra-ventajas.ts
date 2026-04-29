@@ -1,4 +1,6 @@
-export default `Andorra passou em quinze anos de ser um destino de compras a converter-se num dos lugares preferidos de empreendedores espanhóis, franceses e latino-americanos para transferir residência e empresa. A sua combinação de fiscalidade baixa, qualidade de vida, proximidade geográfica e ambiente seguro torna-a uma opção séria, não um truque. Mas como toda mudança fiscal, exige mudar-se a sério: Andorra não se "compra" por correio.
+export default `Andorra aplica um IRPF máximo de 10 % e um IRC de 10 %, contra os 47 % de IRPF e 25 % de IRC em Espanha.
+
+Andorra passou em quinze anos de ser um destino de compras a converter-se num dos lugares preferidos de empreendedores espanhóis, franceses e latino-americanos para transferir residência e empresa. A sua combinação de fiscalidade baixa, qualidade de vida, proximidade geográfica e ambiente seguro torna-a uma opção séria, não um truque. Mas como toda mudança fiscal, exige mudar-se a sério: Andorra não se "compra" por correio.
 
 Na Exentax atendemos clientes que estão a considerar o passo. Este guia explica em detalhe como funciona a fiscalidade andorrana, que tipos de sociedade existem, quais são as residências disponíveis e o que há que assumir antes de tomar a decisão.
 

@@ -1,4 +1,6 @@
-export default `Quem vem do Regime Simplificado em Portugal ou do MEI no Brasil conhece a frustração: nada é realmente deduzido, é tudo por coeficiente ou por alíquota fixa. Uma LLC funciona ao contrário: cada despesa de negócio legítima reduz o resultado. Mas „legítima” tem uma definição <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> muito concreta, não a dos grupos de Telegram.
+export default `Uma LLC pass-through pode deduzir ao abrigo da §162 do IRC 100 % das despesas ordinárias e necessárias à atividade, sem tecto numérico predefinido mas com limites qualitativos estritos.
+
+Quem vem do Regime Simplificado em Portugal ou do MEI no Brasil conhece a frustração: nada é realmente deduzido, é tudo por coeficiente ou por alíquota fixa. Uma LLC funciona ao contrário: cada despesa de negócio legítima reduz o resultado. Mas „legítima” tem uma definição <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> muito concreta, não a dos grupos de Telegram.
 
 ## A regra de ouro: ordinário e necessário
 

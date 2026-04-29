@@ -1,4 +1,6 @@
-export default `Going from single-member LLC to multi-member LLC sounds like a minor procedure. It is not. It is one of the structural changes with the most actual tax implications for an operating LLC, and it is rarely explained in the depth it deserves before being executed.
+export default `A 1-member LLC defaults to taxation as a disregarded entity filing Form 1120 + 5472, while a 2-or-more-member LLC is taxed as a partnership filing Form 1065 — two very different regimes.
+
+Going from single-member LLC to multi-member LLC sounds like a minor procedure. It is not. It is one of the structural changes with the most actual tax implications for an operating LLC, and it is rarely explained in the depth it deserves before being executed.
 
 This article covers what really changes, what does not change, and what you must have resolved before adding a second member.
 

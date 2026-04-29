@@ -1,4 +1,6 @@
-export default `Il arrive un moment dans beaucoup de LLC où la question est la même: je la ferme ou je la vends? Les deux options sont légitimes, mais coût, calendrier et résultat fiscal sont totalement différents.
+export default `Bien fermer une LLC prend 30 à 60 jours et impose un Form 1120 + 5472 final ; la vendre coûte généralement entre 0 $ et 5 000 $ d'honoraires et permet de préserver l'EIN et l'ancienneté bancaire.
+
+Il arrive un moment dans beaucoup de LLC où la question est la même: je la ferme ou je la vends? Les deux options sont légitimes, mais coût, calendrier et résultat fiscal sont totalement différents.
 
 ## Trois options réelles
 

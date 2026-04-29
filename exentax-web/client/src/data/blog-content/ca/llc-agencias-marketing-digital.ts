@@ -1,4 +1,6 @@
-export default `Per a una agència catalana de màrqueting digital que factura a clients americans, britànics o dels emirats, la combinació SL + IVA intracomunitari + retencions acaba escanyant el marge. Una LLC permet facturar directament en dòlars sense retencions i simplifica dràsticament els deals amb agències dels EUA que sovint ni signen sota entitat espanyola.
+export default `Una agència de màrqueting digital amb LLC pass-through paga 0 % federal als EUA i trasllada el càlcul a la declaració local de cada soci: fins al 47 % a Espanya, 10 % a Andorra.
+
+Per a una agència catalana de màrqueting digital que factura a clients americans, britànics o dels emirats, la combinació SL + IVA intracomunitari + retencions acaba escanyant el marge. Una LLC permet facturar directament en dòlars sense retencions i simplifica dràsticament els deals amb agències dels EUA que sovint ni signen sota entitat espanyola.
 
 ### Per què les agències trien una LLC
 

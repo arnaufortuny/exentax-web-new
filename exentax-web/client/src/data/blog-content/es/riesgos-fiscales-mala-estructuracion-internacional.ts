@@ -1,5 +1,7 @@
 export default `
 
+Una mala estructuración internacional choca con las 15 acciones BEPS de la OCDE, con multas que en España pueden alcanzar el 150 % de la cuota dejada de ingresar bajo el art. 191 LGT.
+
 Una estructura internacional bien diseñada es una herramienta extraordinaria. Una mal diseñada es una bomba de relojería que estalla cuando menos te lo esperas, normalmente con un requerimiento de la AEAT, SAT, DIAN o AFIP que te pide explicar todo lo que has hecho los últimos cuatro años. En Exentax vemos casos cada semana, y los problemas se repiten. Te contamos los seis riesgos principales y cómo evitarlos.
 
 ## Riesgo 1: Simulación

@@ -1,4 +1,6 @@
-export default `Siguem directes des de la primera línia: „zero impostos” sent resident fiscal a Catalunya és matemàticament impossible. El que sí que es pot, i és completament legal, és baixar la càrrega fiscal global a un nivell que ni l'AEAT ni la Seguretat Social permeten en els seus formularis estàndard. Però passa per condicions molt precises.
+export default `Una LLC pass-through paga 0 % federal als EUA, però aconseguir un 0 % real exigeix residir en una jurisdicció de tipus zero com Bahames, Mònaco o els Emirats en el seu tram exempt per sota de 102.000 $ anuals.
+
+Siguem directes des de la primera línia: „zero impostos” sent resident fiscal a Catalunya és matemàticament impossible. El que sí que es pot, i és completament legal, és baixar la càrrega fiscal global a un nivell que ni l'AEAT ni la Seguretat Social permeten en els seus formularis estàndard. Però passa per condicions molt precises.
 
 ## El primer: entenguem el pass-through taxation
 

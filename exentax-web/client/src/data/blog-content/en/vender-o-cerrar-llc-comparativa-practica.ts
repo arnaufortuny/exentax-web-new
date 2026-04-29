@@ -1,4 +1,6 @@
-export default `There comes a moment in many LLCs when the question is the same: do I close it or sell it? Both are legitimate options, but the cost, calendar, and tax outcome are entirely different. This article compares the two paths with concrete data and helps you decide which fits your situation.
+export default `Closing an LLC properly takes 30 to 60 days and requires a final Form 1120 + 5472; selling it usually costs 0 to 5,000 dollars in fees and lets you preserve the EIN and the bank seniority.
+
+There comes a moment in many LLCs when the question is the same: do I close it or sell it? Both are legitimate options, but the cost, calendar, and tax outcome are entirely different. This article compares the two paths with concrete data and helps you decide which fits your situation.
 
 This is not an article about quitting. It is an article about ending well.
 

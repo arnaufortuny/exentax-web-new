@@ -1,4 +1,6 @@
-export default `Per constituir una LLC des de Catalunya no necessites la meitat dels documents que et demanarien per a una SL: ni notari, ni capital social, ni certificat de denominació social. Però sí que hi ha una llista concreta, i si en falta qualsevol peça, el compte Mercury es queda encallat.
+export default `El kit legal d'una LLC ben constituïda conté 6 documents imprescindibles: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si escau), Registered Agent Acceptance i Banking Resolution.
+
+Per constituir una LLC des de Catalunya no necessites la meitat dels documents que et demanarien per a una SL: ni notari, ni capital social, ni certificat de denominació social. Però sí que hi ha una llista concreta, i si en falta qualsevol peça, el compte Mercury es queda encallat.
 
 Spoiler: no són gaires, i els faràs servir més del que penses (sobretot quan obris el teu compte bancari o et registris a Stripe).
 

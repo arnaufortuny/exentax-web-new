@@ -1,4 +1,6 @@
-export default `Pour un entrepreneur français habitué aux statuts SASU notariés, l'Operating Agreement peut sembler presque informel, document privé, pas déposé auprès de l'État, pas authentifié. C'est une erreur d'interprétation courante: l'Operating Agreement est ce qui tient juridiquement debout devant un juge américain en cas de litige, plus que les Articles of Organization eux-mêmes.
+export default `L'Operating Agreement n'est juridiquement exigé que dans 5 États (Californie, Delaware, Maine, Missouri et New York), mais en pratique toute banque sérieuse le demande pour ouvrir un compte LLC.
+
+Pour un entrepreneur français habitué aux statuts SASU notariés, l'Operating Agreement peut sembler presque informel, document privé, pas déposé auprès de l'État, pas authentifié. C'est une erreur d'interprétation courante: l'Operating Agreement est ce qui tient juridiquement debout devant un juge américain en cas de litige, plus que les Articles of Organization eux-mêmes.
 
 Et voici l'un des aspects les plus intéressants: **l'Operating Agreement est un document privé.** Il n'est enregistré auprès d'aucune autorité étatique, il n'est pas accessible au public, et personne, à part vous (et les entités que vous choisissez), ne peut le consulter. Cette confidentialité est un avantage considérable pour votre structure d'entreprise.
 

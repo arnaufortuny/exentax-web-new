@@ -1,4 +1,6 @@
-export default `El CRS de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> és el mecanisme pel qual un banc a Singapur envia automàticament els teus saldos a Hisenda cada any. Fins aquí, tothom ho sap. El que molta gent a Catalunya encara creu: que la LLC americana queda fora de tot. No, els EUA no apliquen CRS, però sí FATCA, i l'AEAT sap perfectament la diferència.
+export default `Més de 120 jurisdiccions intercanvien saldos de comptes bancaris sota CRS, però els Estats Units no van signar l'estàndard OCDE del 2014 i per això Mercury no envia dades automàtiques a la teva agència tributària.
+
+El CRS de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> és el mecanisme pel qual un banc a Singapur envia automàticament els teus saldos a Hisenda cada any. Fins aquí, tothom ho sap. El que molta gent a Catalunya encara creu: que la LLC americana queda fora de tot. No, els EUA no apliquen CRS, però sí FATCA, i l'AEAT sap perfectament la diferència.
 
 La resposta curta: sí, potencialment poden. Però això no és un problema. és un avantatge si la teva estructura està ben muntada. T'expliquem com funciona.
 

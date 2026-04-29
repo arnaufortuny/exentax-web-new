@@ -1,4 +1,6 @@
-export default `Sobald die LLC gegründet ist, verschiebt sich die eigentliche Frage von „wie gründe ich sie” zu „wie betreibe ich sie, ohne Fehler zu machen”. Genau hier stolpern die meisten DACH-Neugründer: Vermischung von Konten, Rechnungen im Freiberufler-Stil, private Ausgaben auf der Mercury-Karte.
+export default `Eine gut geführte LLC zu betreiben kostet 2 bis 5 Stunden Verwaltung pro Monat: Rechnungen auf ein Drive laden, Mercury abgleichen und einmal jährlich Form 1120 + 5472 einreichen.
+
+Sobald die LLC gegründet ist, verschiebt sich die eigentliche Frage von „wie gründe ich sie” zu „wie betreibe ich sie, ohne Fehler zu machen”. Genau hier stolpern die meisten DACH-Neugründer: Vermischung von Konten, Rechnungen im Freiberufler-Stil, private Ausgaben auf der Mercury-Karte.
 
 Der tägliche Betrieb einer LLC ist nicht kompliziert. tatsächlich läuft es fast auf Autopilot, sobald Sie die richtigen Gewohnheiten etabliert haben. Aber es gibt Spielregeln, die man vom ersten Tag an kennen sollte. Los geht's.
 

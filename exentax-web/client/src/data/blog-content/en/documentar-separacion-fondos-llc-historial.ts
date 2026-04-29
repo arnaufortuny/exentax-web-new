@@ -1,4 +1,6 @@
-export default `If your LLC has been operating for a while and the separation between your personal money and the LLC's money is not perfectly documented, you have a problem in waiting. It does not show today; it shows the day a bank does an in-depth review, the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> asks for documentation, or your country's tax authority requests a trace of capital flows.
+export default `The IRS requires you to keep 7 years of bank statements and receipts to prove that LLC money and personal money never mixed — a hard condition to preserve the corporate veil.
+
+If your LLC has been operating for a while and the separation between your personal money and the LLC's money is not perfectly documented, you have a problem in waiting. It does not show today; it shows the day a bank does an in-depth review, the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> asks for documentation, or your country's tax authority requests a trace of capital flows.
 
 This article is the procedure to reconstruct and document fund separation when the history is messy.
 

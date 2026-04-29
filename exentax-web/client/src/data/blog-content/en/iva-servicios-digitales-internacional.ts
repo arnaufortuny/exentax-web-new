@@ -1,4 +1,6 @@
-export default `VAT (IVA) on international digital services is one of the most confusing areas of international tax law. Here's a practical guide for digital service providers, including the Merchant of Record solution.
+export default `A B2C digital service inside the EU is taxed at the consumer country's VAT rate (between Luxembourg's 17% and Hungary's 27%) and is reported via the OSS one-stop shop.
+
+VAT (IVA) on international digital services is one of the most confusing areas of international tax law. Here's a practical guide for digital service providers, including the Merchant of Record solution.
 
 ## The basic rule: where is the customer?
 

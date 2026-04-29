@@ -1,4 +1,6 @@
-export default `A l'estat espanyol, qualsevol persona pot entrar al Registre Mercantil i veure la teva SL, els comptes i l'adreça en tres clics. Als EUA, als estats adequats (New Mexico al capdavant), els membres d'una LLC simplement no apareixen als registres públics. La diferència no és cosmètica: canvia la teva exposició al scraping, al cold-call i al stalking.
+export default `Nou Mèxic no publica les dades dels membres d'una LLC, Wyoming permet reflectir només el Registered Agent i Delaware exigeix 0 dades personals públiques als Articles of Organization.
+
+A l'estat espanyol, qualsevol persona pot entrar al Registre Mercantil i veure la teva SL, els comptes i l'adreça en tres clics. Als EUA, als estats adequats (New Mexico al capdavant), els membres d'una LLC simplement no apareixen als registres públics. La diferència no és cosmètica: canvia la teva exposició al scraping, al cold-call i al stalking.
 
 ## Què protegeix la privacitat d'una LLC
 

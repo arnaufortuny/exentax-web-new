@@ -1,4 +1,6 @@
-export default `Tem uma LLC nos EUA e tudo parece funcionar: factura aos seus clientes, movimenta dinheiro, paga as suas despesas. Até aqui, perfeito. Mas há uma pergunta incómoda que poucos se fazem a tempo: **está realmente bem gerida?**
+export default `Ter uma LLC bem gerida resume-se a um checklist com 12 pontos verificáveis em 30 minutos, alinhado com os 4 pontos críticos do IRS e os 4 pontos críticos do estado de constituição.
+
+Tem uma LLC nos EUA e tudo parece funcionar: factura aos seus clientes, movimenta dinheiro, paga as suas despesas. Até aqui, perfeito. Mas há uma pergunta incómoda que poucos se fazem a tempo: **está realmente bem gerida?**
 
 Na Exentax atendemos todas as semanas pessoas com LLC activa que descobrem, quando o problema já está em cima da mesa, que passaram anos a operar com uma estrutura mal fechada. Não por má fé, mas por desinformação. A constituição foi vendida como "pronta a operar" e ninguém voltou para explicar que obrigações reais existiam por trás.
 

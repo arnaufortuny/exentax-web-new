@@ -1,5 +1,7 @@
 export default `
 
+Una sanción tipo de la AEAT por declarar mal el IVA arranca en 150 € y escala fácilmente por encima de 3.000 € si supera el 50 % de la cuota dejada de ingresar (art. 191 LGT).
+
 Después de asesorar a cientos de freelancers españoles, hemos identificado un patrón claro: los mismos errores fiscales se repiten una y otra vez. Y no son errores menores, estamos hablando de miles de euros perdidos cada año por desconocimiento o mala asesoría.
 
 ## Errores frecuentes

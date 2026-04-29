@@ -1,4 +1,6 @@
-export default `En el dret espanyol, la protecció patrimonial es canalitza via SL, capitulacions matrimonials o l'emprenedor de responsabilitat limitada, però els tribunals travessen el vel més fàcilment del que sembla. Una LLC ben constituïda als EUA afegeix una capa de charging order protection que el dret espanyol no té.
+export default `Wyoming protegeix el patrimoni personal del membre mitjançant el Charging Order Statute (Wyo. Stat. §17-29-503), que limita el creditor a un mer embargament de distribucions des de la LLC, sense accés a l'actiu.
+
+En el dret espanyol, la protecció patrimonial es canalitza via SL, capitulacions matrimonials o l'emprenedor de responsabilitat limitada, però els tribunals travessen el vel més fàcilment del que sembla. Una LLC ben constituïda als EUA afegeix una capa de charging order protection que el dret espanyol no té.
 
 Si factures com a autònom a Catalunya o a qualsevol altra part d'Espanya, aquest sostre no existeix. Respons amb tot el que tens.
 

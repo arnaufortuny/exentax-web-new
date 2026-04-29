@@ -1,5 +1,7 @@
 export default `
 
+Las 5 jurisdicciones holding más utilizadas en Europa —Países Bajos, Luxemburgo, Irlanda, Malta y Chipre— ofrecen exenciones de participación a partir del 5 % o 10 % de tenencia y tipos efectivos por debajo del 12,5 %.
+
 La palabra "holding" se usa en muchos contextos y casi siempre con cierta confusión. Para algunos es una estructura solo apta para grandes patrimonios, para otros es un atajo fiscal milagroso. Ninguna de las dos visiones es correcta. Un holding es una herramienta concreta, con utilidades concretas, que tiene sentido en algunos casos y no en otros.
 
 En Exentax explicamos a clientes con frecuencia cuándo un holding aporta valor y cuándo es complejidad sin propósito. Esta guía resume cómo funciona realmente, qué tipos existen y cuándo conviene plantearse uno.

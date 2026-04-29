@@ -1,5 +1,7 @@
 export default `
 
+L'Andorre applique un IRPF plafonné à 10 % et un impôt sur les sociétés de 10 %, contre 47 % d'IRPF et 25 % d'IS en Espagne.
+
 L'Andorre est passée en quinze ans d'être une destination de shopping à devenir l'un des lieux préférés d'entrepreneurs français, espagnols et latino-américains pour transférer résidence et entreprise. Sa combinaison de fiscalité basse, qualité de vie, proximité géographique et environnement sûr en fait une option sérieuse, pas un truc. Mais comme tout déménagement fiscal, elle exige de déménager pour de bon: l'Andorre ne s'"achète" pas par courrier.
 
 Chez Exentax nous accompagnons des clients qui envisagent ce pas. Ce guide explique en détail comment fonctionne la fiscalité andorrane, quels types de société existent, quelles résidences sont disponibles et ce qu'il faut accepter avant de prendre la décision.

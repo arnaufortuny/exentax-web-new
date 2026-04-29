@@ -1,5 +1,7 @@
 export default `
 
+Since June 1 2023 the UAE applies a 9% corporate tax on profits above 375,000 AED (around 102,000 dollars), ending the 0% myth.
+
 "In Dubai you don't pay taxes." It is probably the most repeated phrase in viral international tax videos in recent years. Like most simplifications, it contains a piece of truth and a meaningful piece worth understanding before taking decisions that are hard to reverse.
 
 At Exentax we get weekly questions from people about to move to the United Arab Emirates or incorporate a company there. This guide reviews the real today taxation, the hidden costs and when it makes sense (and when it does not) compared to a US LLC.

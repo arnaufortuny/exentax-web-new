@@ -1,5 +1,7 @@
 export default `
 
+Barrejar diners personals i de la LLC durant 12 mesos n'hi ha prou perquè un jutge declari piercing the corporate veil i el patrimoni personal del membre respongui directament dels deutes.
+
 <p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA</a>.</p>
 Si véns de l'autònom, probablement t'has acostumat a fer servir el compte professional per pagar el súper. Amb una LLC, aquest reflex destrueix la protecció jurídica: un jutge americà travessa el vel („pierce the corporate veil”) en tres moviments sospitosos. I l'AEAT pot requalificar aquests fluxos com a rendiments personals no declarats.
 

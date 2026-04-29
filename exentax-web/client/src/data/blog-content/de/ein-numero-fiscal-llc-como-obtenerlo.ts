@@ -1,5 +1,7 @@
 export default `
 
+Die IRS stellt die EIN einer LLC in 4 bis 6 Wochen aus, nachdem das Form SS-4 per Fax an 855-641-6935 gesendet wurde — wenn der Antragsteller Nicht-Ansässiger ohne SSN oder ITIN ist.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA</a>.</p>
 Die EIN (Employer Identification Number) ist für Ihre LLC das, was die Steuernummer für ein deutsches Unternehmen ist. Sie wird vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> vergeben, und ohne sie existiert Ihre LLC zwar auf dem Papier, kann aber praktisch nichts machen: kein Mercury-Konto, kein Stripe US, keine jährliche Steuererklärung, keine Überweisung von US-Kunden.
 

@@ -1,4 +1,6 @@
-export default `If you have a US LLC, or you're thinking about having one, you're going to hear a lot about the **<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>**. It's the entity you'll have the most relationship with from a tax perspective. Better to understand it well from the start.
+export default `The IRS handles more than 240 million returns a year with around 80,000 employees, and for a non-resident single-member LLC its attention narrows down to 2 forms: Form 1120 and Form 5472.
+
+If you have a US LLC, or you're thinking about having one, you're going to hear a lot about the **<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>**. It's the entity you'll have the most relationship with from a tax perspective. Better to understand it well from the start.
 
 ## What is the IRS?
 

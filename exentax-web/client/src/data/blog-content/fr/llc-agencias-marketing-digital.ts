@@ -1,4 +1,6 @@
-export default `Pour une agence française de marketing digital qui facture des clients américains, britanniques ou saoudiens, le couple SASU + retenues + TVA intracom finit par étouffer la rentabilité. Monter une LLC permet de facturer directement en dollars, sans retenues, et de simplifier radicalement les deals avec agences US qui refusent de signer sous entité française.
+export default `Une agence de marketing digital en LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur la déclaration locale de chaque associé : jusqu'à 47 % en Espagne, 10 % en Andorre.
+
+Pour une agence française de marketing digital qui facture des clients américains, britanniques ou saoudiens, le couple SASU + retenues + TVA intracom finit par étouffer la rentabilité. Monter une LLC permet de facturer directement en dollars, sans retenues, et de simplifier radicalement les deals avec agences US qui refusent de signer sous entité française.
 
 ## Pourquoi les agences choisissent une LLC
 

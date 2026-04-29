@@ -1,4 +1,6 @@
-export default `Warum eine US-LLC und nicht eine GmbH, UG oder Einzelunternehmen mit Gewerbe? Die kurze Antwort: Die Kombination „Haftungsschutz + Pass-Through-Besteuerung + Mercury-Konto in USD” hat im deutschsprachigen Raum schlicht keine Entsprechung. Die lange Antwort ist dieser Artikel.
+export default `Eine US-LLC ist in 7 bis 14 Tagen errichtet, zahlt 0 % föderal im Pass-through und kassiert von Stripe, PayPal oder Mercury ohne die 19-30-%-Quellensteuer, die ein europäischer Freelancer erleidet.
+
+Warum eine US-LLC und nicht eine GmbH, UG oder Einzelunternehmen mit Gewerbe? Die kurze Antwort: Die Kombination „Haftungsschutz + Pass-Through-Besteuerung + Mercury-Konto in USD” hat im deutschsprachigen Raum schlicht keine Entsprechung. Die lange Antwort ist dieser Artikel.
 
 In diesem Artikel gehen wir alle echten Vorteile durch, ohne Nebel, ohne Übertreibungen, mit Daten und praktischen Beispielen. Wenn Sie nach dem Lesen entscheiden, dass es für Sie Sinn ergibt, kümmert sich Exentax um den gesamten Prozess.
 

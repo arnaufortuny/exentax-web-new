@@ -1,4 +1,6 @@
-export default `Parler de « structure fiscale optimale » depuis la France sans citer URSSAF, flat tax et exit tax, c'est vendre du vent. La bonne structure pour un freelance qui vit à Paris n'est pas la même que pour celui qui tourne entre Bruxelles, Lisbonne et Tbilissi six mois par an, et ce qu'on voit dans les vidéos YouTube est rarement ce qui tient devant la DGFiP.
+export default `Un freelance en Espagne qui facture à l'international peut passer du taux marginal IRPF de 47 % et de la cotisation RETA à un schéma LLC pass-through à 0 % fédéral, en alignant la fiscalité sur le pays réel de résidence.
+
+Parler de « structure fiscale optimale » depuis la France sans citer URSSAF, flat tax et exit tax, c'est vendre du vent. La bonne structure pour un freelance qui vit à Paris n'est pas la même que pour celui qui tourne entre Bruxelles, Lisbonne et Tbilissi six mois par an, et ce qu'on voit dans les vidéos YouTube est rarement ce qui tient devant la DGFiP.
 
 Dans cet article, nous vous expliquons les options disponibles et nous vous aidons à identifier celle qui s'adapte le mieux à votre situation.
 

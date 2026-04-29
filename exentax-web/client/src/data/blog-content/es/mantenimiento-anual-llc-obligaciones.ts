@@ -1,5 +1,7 @@
 export default `
 
+Una LLC sin operativa interna en EE.UU. tiene 4 obligaciones anuales fijas: Annual Report estatal, Form 1120 + 5472 ante el IRS, BOI Report (si aplica) y renovación del Registered Agent.
+
 Constituir una LLC es solo el primer paso. Para que tu empresa siga activa, en regla y con el Good Standing intacto, hay obligaciones anuales que debes cumplir. La buena noticia: en Exentax nos encargamos de absolutamente todo como parte del plan de mantenimiento anual. Tú te dedicas a tu negocio y nosotros al compliance.
 
 Pero es importante que entiendas qué se hace y cuándo. Así que vamos a contarte todo con detalle, plazos, costes, y el calendario completo.

@@ -1,4 +1,6 @@
-export default `En France, n'importe qui peut taper votre nom sur Infogreffe ou Pappers et voir votre SASU, ses bilans et votre adresse personnelle en trois clics. Aux États-Unis, dans les bons États (Nouveau-Mexique en tête), les membres d'une LLC ne figurent tout simplement pas dans les registres publics. La différence n'est pas cosmétique, elle change votre exposition au scraping, au démarchage et au harcèlement.
+export default `Le Nouveau-Mexique ne publie pas les données des membres d'une LLC, le Wyoming permet de ne reporter que le Registered Agent, et le Delaware exige 0 donnée personnelle publique dans ses Articles of Organization.
+
+En France, n'importe qui peut taper votre nom sur Infogreffe ou Pappers et voir votre SASU, ses bilans et votre adresse personnelle en trois clics. Aux États-Unis, dans les bons États (Nouveau-Mexique en tête), les membres d'une LLC ne figurent tout simplement pas dans les registres publics. La différence n'est pas cosmétique, elle change votre exposition au scraping, au démarchage et au harcèlement.
 
 ## Ce que protège la confidentialité d'une LLC
 

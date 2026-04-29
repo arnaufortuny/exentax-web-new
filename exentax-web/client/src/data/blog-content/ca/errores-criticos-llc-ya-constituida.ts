@@ -1,4 +1,6 @@
-export default `Si ja tens una LLC als Estats Units, aquest article t'interessa. No és per a algú que està pensant a constituir-la: és per a qui ja n'opera una i comença a sospitar que no li ho van explicar tot.
+export default `Al voltant del 80 % de les LLCs amb problemes que arriben a Exentax arrosseguen el mateix top 5: BOI fora de termini, Form 5472 sense presentar, Annual Report caducat, Registered Agent perdut i barreja de fons personals.
+
+Si ja tens una LLC als Estats Units, aquest article t'interessa. No és per a algú que està pensant a constituir-la: és per a qui ja n'opera una i comença a sospitar que no li ho van explicar tot.
 
 A Exentax atenem cada setmana persones amb LLC activa que descobreixen errors crítics anys després de la constitució. No per mala fe, sinó perquè el model de molts proveïdors és "te l'obro i desaparec". Aquí van els deu errors més freqüents, què costen realment i com es corregeixen.
 

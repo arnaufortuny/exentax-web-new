@@ -1,5 +1,7 @@
 export default `
 
+Billing more than 1,000 euros a month on a recurring basis without registering as autónomo amounts to administrative trespass in Spain, and the AEAT runs a Modelo 347 cross-check tool that spots the pattern.
+
 Few questions are repeated more by those starting out: can I invoice without registering as autonomo? The short answer is nuanced: yes in some specific cases, no as a habitual operating mode beyond a certain volume. This guide compiles the legal alternatives currently available in Spain, what each covers, what risks it carries and which profiles it really fits. It also covers the lesser-known but most efficient option for international digital profiles: invoicing from a US LLC without RETA registration, properly declared on IRPF.
 
 ## Sporadic income: the real case, not the viral trick

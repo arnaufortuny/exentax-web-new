@@ -1,5 +1,7 @@
 export default `
 
+Die verbindliche Auskunft V0290-20 der spanischen DGT vom 11. Februar 2020 ist das Dokument, das die Besteuerung einer US-LLC in den Händen eines spanischen Steueransässigen regelt.
+
 Wenn Sie steuerlich in Spanien ansässig sind und eine <a href="/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten">US-amerikanische LLC</a> halten, ist die entscheidende Frage nicht, was der IRS sagt, sondern was die **spanische Verwaltungsdoktrin** zu Ihrer LLC sagt. Hier existiert ein konsolidierter Korpus verbindlicher Auskünfte der Generaldirektion für Steuern (DGT) sowie Beschlüsse des Tribunal Económico-Administrativo Central (TEAC), der absolut entscheidend ist. Auch für in Deutschland, Österreich oder der Schweiz ansässige Personen ist diese Doktrin relevant: Finanzämter im DACH-Raum orientieren sich international aneinander, deutsche Betriebsprüferinnen und Betriebsprüfer kennen die ibero-spanischen Kriterien, und die Argumentationslinien lassen sich in vielen Punkten auf die deutsche, österreichische und schweizerische Praxis übertragen. Wir analysieren das im Folgenden präzise und ordnen jeden Schritt für die DACH-Realität ein.
 
 ## Das steuerliche Grundproblem

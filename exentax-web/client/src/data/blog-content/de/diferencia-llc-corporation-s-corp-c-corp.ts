@@ -1,5 +1,7 @@
 export default `
 
+Die USA bieten 4 Hauptvehikel: die Pass-through-LLC mit 0 % föderal, die nur für Residents zugängliche S-Corp, die C-Corp mit 21 % föderal und die Sole Proprietorship ohne Haftungsschutz.
+
 Wenn jemand „amerikanisches Unternehmen" sagt, denken die meisten an eine LLC; andere an eine „Corporation". Tatsächlich gibt es in den USA vier Hauptvehikel für unternehmerische Tätigkeit: **LLC**, **Corporation**, **S-Corporation** und **C-Corporation**. Jede hat ihr eigenes föderales und bundesstaatliches Steuerregime, eigene Eigentumsbeschränkungen und Anwendungsfälle. Für einen deutschsprachigen Unternehmer (Deutschland, Österreich, Schweiz) sind nicht alle zugänglich oder zweckmäßig. Diese Anleitung legt den realen Unterschied zwischen den vier Figuren fest, was zu jedem Profil passt und warum die LLC heute weiterhin die Standardwahl für Freiberufler, Agenturen und digitale Projekte ist, die keine institutionellen Investoren suchen.
 
 ## LLC: die flexible Standardoption für Nichtansässige

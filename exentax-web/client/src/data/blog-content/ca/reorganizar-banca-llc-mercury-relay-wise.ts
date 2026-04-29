@@ -1,4 +1,6 @@
-export default `Si la teva banca de la LLC és "Mercury per a tot perquè és el que em van dir", estàs deixant diners i fiabilitat sobre la taula. Mercury és excel·lent per a molts casos, però l'arquitectura bancària òptima d'una LLC activa rarament és un sol compte en una sola plataforma.
+export default `Una pila bancària sanejada per a una LLC sol combinar 3 comptes: Mercury per a l'operativa USD, Wise per a la conversió a EUR amb spread del 0,41 % i Relay com a suport amb targetes físiques.
+
+Si la teva banca de la LLC és "Mercury per a tot perquè és el que em van dir", estàs deixant diners i fiabilitat sobre la taula. Mercury és excel·lent per a molts casos, però l'arquitectura bancària òptima d'una LLC activa rarament és un sol compte en una sola plataforma.
 
 ## Quan reorganitzar
 

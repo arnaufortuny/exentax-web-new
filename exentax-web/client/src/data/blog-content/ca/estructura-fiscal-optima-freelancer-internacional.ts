@@ -1,4 +1,6 @@
-export default `Parlar d'„estructura fiscal òptima” des de Catalunya sense esmentar la quota d'autònoms, el tram autonòmic de l'IRPF i l'exit tax és vendre fum. L'estructura correcta per a un freelance a Barcelona no és la mateixa que per a qui roda entre Girona, Lisboa i Tbilissi mig any, i el que surt a YouTube rarament aguanta davant l'AEAT.
+export default `Un freelance a Espanya que factura a clients internacionals pot passar del 47 % marginal IRPF més quota RETA a un esquema LLC pass-through amb 0 % federal, ajustant la tributació al país real de residència.
+
+Parlar d'„estructura fiscal òptima” des de Catalunya sense esmentar la quota d'autònoms, el tram autonòmic de l'IRPF i l'exit tax és vendre fum. L'estructura correcta per a un freelance a Barcelona no és la mateixa que per a qui roda entre Girona, Lisboa i Tbilissi mig any, i el que surt a YouTube rarament aguanta davant l'AEAT.
 
 En aquest article t'expliquem les opcions disponibles i t'ajudem a identificar quina s'adapta millor a la teva situació.
 

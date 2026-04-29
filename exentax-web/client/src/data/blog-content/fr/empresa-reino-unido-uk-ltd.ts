@@ -1,5 +1,7 @@
 export default `
 
+Après la hausse de 2023, une UK Ltd paie 19 % de Corporation Tax sur le palier small profits et jusqu'à 25 % au-delà de 250 000 £ de bénéfice annuel.
+
 Le Royaume-Uni reste, après le Brexit, l'une des juridictions les plus utilisées au monde pour créer des entreprises. La combinaison de constitution rapide et bon marché, transparence réglementaire, banque solvable et réputation internationale demeure intacte. Cependant, sa fiscalité a changé ces dernières années et il convient de comprendre quand une UK Limited (UK Ltd) est l'option adéquate et quand elle ne l'est pas.
 
 Chez Exentax, nous recevons des questions fréquentes sur la création d'une société britannique face à une LLC américaine. Ce guide explique de façon honnête les exigences, coûts, fiscalité réelle et cas où chaque option s'inscrit le mieux.

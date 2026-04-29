@@ -1,4 +1,6 @@
-export default `A well-designed international structure is an extraordinary tool. A poorly designed one is a ticking bomb that explodes when you least expect, usually with a notice from the tax authority asking you to explain everything you've done over the last four years. At Exentax we see cases every week, and the problems repeat. Here are the six main risks and how to avoid them.
+export default `Poor international structuring collides with the OECD's 15 BEPS actions, and in Spain penalties can reach 150% of the unpaid quota under LGT art. 191.
+
+A well-designed international structure is an extraordinary tool. A poorly designed one is a ticking bomb that explodes when you least expect, usually with a notice from the tax authority asking you to explain everything you've done over the last four years. At Exentax we see cases every week, and the problems repeat. Here are the six main risks and how to avoid them.
 
 ## Risk 1: Simulation
 

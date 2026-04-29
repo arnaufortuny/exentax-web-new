@@ -1,5 +1,7 @@
 export default `
 
+El CRS lleva más de 120 países intercambiando saldos bancarios desde 2017, y un residente fiscal en España con cuenta en Andorra, Suiza o México verá esos datos llegar a Hacienda cada septiembre.
+
 El Common Reporting Standard (CRS) es la pieza más importante de la fiscalidad internacional de la última década, y muy poca gente entiende qué significa para alguien que tiene una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> o cuentas fuera de su país de residencia. Vamos a desmontar el tema con precisión técnica y sin alarmismos.
 
 ## Qué es el CRS y por qué existe

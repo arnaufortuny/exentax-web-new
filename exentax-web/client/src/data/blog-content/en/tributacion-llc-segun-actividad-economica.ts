@@ -1,4 +1,6 @@
-export default `Talking about "LLC taxation" in the abstract leads to serious mistakes: real taxation depends closely on the **type of economic activity** the LLC carries out, because each activity triggers different rules of VAT, income classification, source of income, applicable DTT and, above all, exposure to controlled foreign company (CFC) or anti-avoidance rules. Let's break down the five major families we see at Exentax.
+export default `A pass-through LLC is taxed at 0% federal in the US whether the activity is professional services, ecommerce, SaaS or trading; the real math only changes in the local income tax, which reaches 47% in Spain.
+
+Talking about "LLC taxation" in the abstract leads to serious mistakes: real taxation depends closely on the **type of economic activity** the LLC carries out, because each activity triggers different rules of VAT, income classification, source of income, applicable DTT and, above all, exposure to controlled foreign company (CFC) or anti-avoidance rules. Let's break down the five major families we see at Exentax.
 
 ## Key points
 

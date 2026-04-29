@@ -1,4 +1,6 @@
-export default `Ao saltar do IBAN português ou do PIX brasileiro para o ecossistema bancário americano, falta-te metade do vocabulário: a tua LLC não te dá um IBAN, dá um routing number e um account number, e o SWIFT só aparece no internacional. Enquanto não fixares esta diferença, as transferências vão ou chegam com comissões escondidas.
+export default `O routing number americano tem 9 dígitos, o IBAN espanhol 24 caracteres e o código SWIFT entre 8 e 11; os três são pedidos ao mesmo tempo em qualquer transferência internacional com a tua LLC.
+
+Ao saltar do IBAN português ou do PIX brasileiro para o ecossistema bancário americano, falta-te metade do vocabulário: a tua LLC não te dá um IBAN, dá um routing number e um account number, e o SWIFT só aparece no internacional. Enquanto não fixares esta diferença, as transferências vão ou chegam com comissões escondidas.
 
 Vamos explicar cada um de forma clara para que nunca mais fiques a pensar "qual dou a este cliente?"
 

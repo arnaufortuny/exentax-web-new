@@ -1,4 +1,6 @@
-export default `Un cop constituïda la LLC, la pregunta deixa de ser „com es crea” i passa a ser „com s'opera sense equivocar-se”. És just aquí on ensopeguen la majoria de nous propietaris catalans: barrejar comptes, facturar com si encara fossin autònoms, passar despeses personals per la targeta Mercury.
+export default `Operar una LLC ben portada consumeix entre 2 i 5 hores de gestió al mes: pujar factures a un drive, conciliar Mercury i entregar el Form 1120 + 5472 un cop l'any.
+
+Un cop constituïda la LLC, la pregunta deixa de ser „com es crea” i passa a ser „com s'opera sense equivocar-se”. És just aquí on ensopeguen la majoria de nous propietaris catalans: barrejar comptes, facturar com si encara fossin autònoms, passar despeses personals per la targeta Mercury.
 
 L'operativa diària d'una LLC no és complicada. de fet, un cop estableixes els hàbits correctes, funciona gairebé en pilot automàtic. Però hi ha regles de joc que convé conèixer des del primer dia. Anem-hi.
 

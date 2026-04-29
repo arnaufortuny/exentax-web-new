@@ -1,4 +1,6 @@
-export default `Für eine deutschsprachige Digitalagentur, die US-, UK- oder Golf-Kunden bedient, erstickt die Kombination GmbH + Umsatzsteuer + Reverse Charge irgendwann die Marge. Eine LLC erlaubt direkte USD-Fakturierung ohne Quellensteuern und vereinfacht Deals mit US-Agenturen radikal, die unter deutschem Vehikel oft gar nicht erst unterschreiben.
+export default `Eine Digital-Marketing-Agentur in einer Pass-through-LLC zahlt 0 % föderal in den USA und verlagert die Rechnung auf die lokale Erklärung jedes Partners: bis zu 47 % in Spanien, 10 % in Andorra.
+
+Für eine deutschsprachige Digitalagentur, die US-, UK- oder Golf-Kunden bedient, erstickt die Kombination GmbH + Umsatzsteuer + Reverse Charge irgendwann die Marge. Eine LLC erlaubt direkte USD-Fakturierung ohne Quellensteuern und vereinfacht Deals mit US-Agenturen radikal, die unter deutschem Vehikel oft gar nicht erst unterschreiben.
 
 ## Warum Agenturen sich für eine LLC entscheiden
 

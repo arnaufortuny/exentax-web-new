@@ -1,4 +1,6 @@
-export default `Soyons honnêtes dès la première ligne: « zéro impôt » en étant résident fiscal français, c'est mathématiquement impossible. Ce qui est en revanche très possible, et parfaitement légal, c'est de ramener la charge fiscale globale à un niveau que ni l'URSSAF ni la DGFiP ne permettent dans leurs cases standards. Mais ça passe par des conditions très précises.
+export default `Une LLC pass-through paie 0 % fédéral aux États-Unis, mais atteindre un 0 % réel exige de résider dans une juridiction à taux zéro comme les Bahamas, Monaco ou les EAU dans leur tranche exonérée sous 102 000 $ par an.
+
+Soyons honnêtes dès la première ligne: « zéro impôt » en étant résident fiscal français, c'est mathématiquement impossible. Ce qui est en revanche très possible, et parfaitement légal, c'est de ramener la charge fiscale globale à un niveau que ni l'URSSAF ni la DGFiP ne permettent dans leurs cases standards. Mais ça passe par des conditions très précises.
 
 ## Commençons par comprendre le pass-through taxation
 

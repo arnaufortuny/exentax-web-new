@@ -1,4 +1,6 @@
-export default `"In Dubai zahlt man keine Steuern." Das ist wahrscheinlich der meistwiederholte Satz in viralen Videos über internationale Besteuerung der letzten Jahre. Wie die meisten Vereinfachungen enthält er einen wahren Kern und einen wesentlichen Teil, den Sie kennen sollten, bevor Sie schwer rückgängig zu machende Entscheidungen treffen.
+export default `Seit dem 1. Juni 2023 erheben die VAE eine Körperschaftsteuer von 9 % auf Gewinne über 375.000 AED (rund 102.000 USD) — das beendet den 0-%-Mythos.
+
+"In Dubai zahlt man keine Steuern." Das ist wahrscheinlich der meistwiederholte Satz in viralen Videos über internationale Besteuerung der letzten Jahre. Wie die meisten Vereinfachungen enthält er einen wahren Kern und einen wesentlichen Teil, den Sie kennen sollten, bevor Sie schwer rückgängig zu machende Entscheidungen treffen.
 
 Bei Exentax erhalten wir wöchentlich Anfragen von Personen, die kurz davor stehen, in die Vereinigten Arabischen Emirate zu ziehen oder dort eine Gesellschaft zu gründen. Diese Anleitung beschreibt die reale Besteuerung aktuell, die versteckten Kosten und wann es im Vergleich zur US-LLC sinnvoll ist (und wann nicht).
 

@@ -1,4 +1,6 @@
-export default `Digital marketing agencies are natural candidates for the LLC structure. Here's how to set up and optimize your agency through a US LLC.
+export default `A digital marketing agency under a pass-through LLC pays 0% federal in the US and shifts the math to each partner's local return: up to 47% in Spain, 10% in Andorra.
+
+Digital marketing agencies are natural candidates for the LLC structure. Here's how to set up and optimize your agency through a US LLC.
 
 ## Why agencies particularly benefit
 

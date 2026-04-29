@@ -1,4 +1,6 @@
-export default `Si vous avez une LLC et que votre banque est "Mercury pour tout parce qu'on me l'a dit", vous laissez de l'argent et de la fiabilité sur la table. Mercury est excellent pour beaucoup de cas, mais l'architecture bancaire optimale pour une LLC active est rarement un seul compte sur une seule plateforme.
+export default `Une pile bancaire saine pour une LLC combine généralement 3 comptes : Mercury pour l'opérationnel USD, Wise pour la conversion EUR à 0,41 % de spread, et Relay en backup avec des cartes physiques.
+
+Si vous avez une LLC et que votre banque est "Mercury pour tout parce qu'on me l'a dit", vous laissez de l'argent et de la fiabilité sur la table. Mercury est excellent pour beaucoup de cas, mais l'architecture bancaire optimale pour une LLC active est rarement un seul compte sur une seule plateforme.
 
 ## Quand réorganiser
 

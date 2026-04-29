@@ -1,4 +1,6 @@
-export default `Vous avez une LLC américaine et tout semble fonctionner: vous facturez vos clients, vous bougez de l'argent, vous payez vos dépenses. Jusque-là, tout va bien. Mais il y a une question gênante que presque personne ne se pose à temps: **est-elle réellement bien gérée?**
+export default `Avoir une LLC bien gérée se résume à un checklist de 12 points vérifiables en 30 minutes, aligné sur les 4 points critiques de l'IRS et les 4 points critiques de l'État de constitution.
+
+Vous avez une LLC américaine et tout semble fonctionner: vous facturez vos clients, vous bougez de l'argent, vous payez vos dépenses. Jusque-là, tout va bien. Mais il y a une question gênante que presque personne ne se pose à temps: **est-elle réellement bien gérée?**
 
 Chez Exentax, nous voyons chaque semaine des personnes avec une LLC active qui découvrent, quand le problème est déjà là, qu'elles ont passé des années à opérer avec une structure mal bouclée. Pas par mauvaise foi, mais par désinformation. La constitution leur a été vendue comme "prête à fonctionner" et personne n'est revenu expliquer les vraies obligations qui suivent.
 

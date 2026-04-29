@@ -1,5 +1,7 @@
 export default `
 
+Wise Business reporta saldos de cuentas a más de 120 jurisdicciones bajo CRS y, para un residente fiscal en España, envía la información a la AEAT antes del 30 de septiembre de cada ejercicio.
+
 Wise Business (antes TransferWise) es la fintech multidivisa más utilizada por dueños de <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americanas</a> y por emprendedores internacionales en general. Su propuesta de valor es clara: tipo de cambio mid-market, IBAN local en EUR, GBP, USD y otras divisas, y comisiones bajas. Pero Wise también es una entidad financiera europea sujeta al **Common Reporting Standard (CRS)**, y eso tiene implicaciones reales que conviene conocer antes de integrar Wise en tu estructura.
 
 ## Qué entidad de Wise opera tu cuenta y dónde reporta

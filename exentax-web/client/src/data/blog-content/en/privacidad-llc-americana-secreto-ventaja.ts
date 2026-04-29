@@ -1,4 +1,6 @@
-export default `Some US states don't publish the owner's name on LLC records. But privacy doesn't mean anonymity. Here's the realistic picture. what you get, what you don't, and why it matters.
+export default `New Mexico does not publish LLC member data, Wyoming lets you list only the Registered Agent, and Delaware requires 0 personal public data in its Articles of Organization.
+
+Some US states don't publish the owner's name on LLC records. But privacy doesn't mean anonymity. Here's the realistic picture. what you get, what you don't, and why it matters.
 
 ## What privacy a US LLC actually provides
 

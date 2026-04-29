@@ -1,5 +1,7 @@
 export default `
 
+Una LLC pass-through puede deducir bajo la sección §162 del IRC el 100 % de los gastos ordinarios y necesarios de la actividad, sin techo numérico predefinido pero con límites cualitativos estrictos.
+
 Una de las preguntas más frecuentes de los propietarios de LLCs es: "¿qué gastos puedo deducir?" La respuesta del IRS es clara: todo gasto que sea **ordinario y necesario** para tu negocio es deducible. Pero la línea entre lo deducible y lo personal no siempre es obvia.
 
 ## La regla de oro: ordinario y necesario

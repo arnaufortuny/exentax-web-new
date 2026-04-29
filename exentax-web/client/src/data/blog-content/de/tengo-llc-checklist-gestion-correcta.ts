@@ -1,4 +1,6 @@
-export default `Sie haben eine US-LLC und alles scheint zu funktionieren: Sie stellen Rechnungen, bewegen Geld, zahlen Ihre Kosten. So weit, so gut. Aber es gibt eine unangenehme Frage, die kaum jemand rechtzeitig stellt: **Wird sie wirklich richtig verwaltet?**
+export default `Eine gut geführte LLC zu haben läuft auf eine Checkliste von 12 in 30 Minuten überprüfbaren Punkten hinaus, abgestimmt auf die 4 kritischen Punkte der IRS und die 4 kritischen Punkte des Gründungsstaats.
+
+Sie haben eine US-LLC und alles scheint zu funktionieren: Sie stellen Rechnungen, bewegen Geld, zahlen Ihre Kosten. So weit, so gut. Aber es gibt eine unangenehme Frage, die kaum jemand rechtzeitig stellt: **Wird sie wirklich richtig verwaltet?**
 
 Bei Exentax sehen wir wöchentlich Personen mit aktiver LLC, die, meist erst, wenn das Problem schon auf dem Tisch liegt, feststellen, dass sie jahrelang mit einer schlecht abgeschlossenen Struktur operiert haben. Nicht aus bösem Willen, sondern aus Fehlinformation. Die Gründung wurde als "betriebsbereit" verkauft und niemand hat erklärt, welche laufenden Pflichten dahinterstehen.
 

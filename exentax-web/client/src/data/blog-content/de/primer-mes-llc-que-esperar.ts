@@ -1,4 +1,6 @@
-export default `Der erste Monat mit einer LLC fühlt sich für einen DACH-Unternehmer, der nur Gewerbe oder GmbH kennt, an wie ein Dauerfeuer unbekannter Benachrichtigungen: EIN erhalten, BOI fällig, Mercury fragt Dokumente ab, Stripe verlangt Verifizierung, und der Registered Agent schickt den ersten Brief. Völlig normal, aber stressig, wenn man die Reihenfolge nicht kennt.
+export default `Die ersten 30 Tage nach Gründung einer LLC umfassen 4 kritische Meilensteine: die Articles of Organization erhalten, die EIN bekommen, ein Mercury-Konto eröffnen und das Operating Agreement unterzeichnen.
+
+Der erste Monat mit einer LLC fühlt sich für einen DACH-Unternehmer, der nur Gewerbe oder GmbH kennt, an wie ein Dauerfeuer unbekannter Benachrichtigungen: EIN erhalten, BOI fällig, Mercury fragt Dokumente ab, Stripe verlangt Verifizierung, und der Registered Agent schickt den ersten Brief. Völlig normal, aber stressig, wenn man die Reihenfolge nicht kennt.
 
 Dieser Artikel erklärt Ihnen genau, was während Ihres ersten Monats mit einer LLC passiert, Schritt für Schritt, ohne unnötige Fachbegriffe.
 

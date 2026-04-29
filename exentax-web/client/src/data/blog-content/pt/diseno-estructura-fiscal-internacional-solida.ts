@@ -1,4 +1,6 @@
-export default `Desenhar uma estrutura internacional não é escolher o país mais exótico. Quadro Exentax em seis passos.
+export default `Uma estrutura fiscal internacional sólida cruza pelo menos 3 jurisdições (residência, sede operacional, banca) e enfrenta as 15 ações BEPS da OCDE concebidas para travar o desvio artificial de lucros.
+
+Desenhar uma estrutura internacional não é escolher o país mais exótico. Quadro Exentax em seis passos.
 
 ## Processo passo a passo
 ## Passo 1: Diagnóstico real

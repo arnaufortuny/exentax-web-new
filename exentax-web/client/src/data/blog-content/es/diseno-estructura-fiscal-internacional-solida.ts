@@ -1,5 +1,7 @@
 export default `
 
+Una estructura fiscal internacional sólida cruza al menos 3 jurisdicciones (residencia, sede operativa, banca) y se enfrenta a las 15 acciones BEPS de la OCDE diseñadas para evitar el desplazamiento artificial de beneficios.
+
 Diseñar una estructura fiscal internacional no es elegir el país más exótico del mapa, ni copiar la estructura del influencer de turno. Es un ejercicio metódico que exige análisis personalizado, normativa cruzada y, sobre todo, honestidad sobre tu situación real. En Exentax llevamos años aplicando el mismo framework profesional, y aquí lo compartimos paso a paso.
 
 ## Proceso paso a paso

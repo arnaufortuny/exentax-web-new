@@ -1,5 +1,7 @@
 export default `
 
+Els mòduls 2026 queden limitats a activitats concretes amb facturació inferior a 250.000 € anuals i compres inferiors a 150.000 €, davant de l'estimació directa que admet qualsevol volum.
+
 El règim de tributació que esculls com a autònom determina com calcules l'IRPF i l'IVA, quina documentació has de portar i, sobretot, quant pagues al final de l'any. A Espanya coexisteixen dues grans opcions: mòduls (estimació objectiva) i estimació directa (en la versió simplificada o normal). Actualment els mòduls continuen vigents però cada vegada més restringits a activitats concretes. Aquesta guia explica quina encaixa amb cada perfil, els llindars vigents, les renúncies estratègiques i quan convé canviar d'un règim a un altre.
 
 ## Mòduls: com funciona l'estimació objectiva

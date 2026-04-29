@@ -1,4 +1,6 @@
-export default `Este artigo compara diretamente o autónomo espanhol com a LLC americana, porque foi o ponto de partida histórico da nossa firma. Mas se estás a ler isto a partir de Portugal ou do Brasil, a conclusão é exatamente a mesma: um trabalhador independente clássico (atividade aberta categoria B em Portugal, MEI ou autónomo no Brasil) acaba, a partir de um certo nível de faturação, por pagar muito mais do que uma LLC americana bem estruturada.
+export default `Um autónomo espanhol num escalão médio entrega entre 35 % e 47 % do rendimento entre IRPF e quota RETA (de 200 € a 1.600 € por mês); uma LLC pass-through paga 0 % federal nos EUA e empurra o cálculo para a tua declaração local.
+
+Este artigo compara diretamente o autónomo espanhol com a LLC americana, porque foi o ponto de partida histórico da nossa firma. Mas se estás a ler isto a partir de Portugal ou do Brasil, a conclusão é exatamente a mesma: um trabalhador independente clássico (atividade aberta categoria B em Portugal, MEI ou autónomo no Brasil) acaba, a partir de um certo nível de faturação, por pagar muito mais do que uma LLC americana bem estruturada.
 
 Nesta análise pomos números reais em cima da mesa: o que sobra de facto depois de IRS, derrama, Segurança Social ou DAS, comparado com o que sobraria com uma LLC. Vais ter a fotografia clara para decidir.
 

@@ -1,5 +1,7 @@
 export default `
 
+Mercury, Relay y Wise resuelven el due diligence bancario en 5 a 10 días laborables, pero rechazan en la primera ronda alrededor del 25 % de las solicitudes por documentación incompleta.
+
 Cuando solicitas una cuenta bancaria empresarial para tu LLC en Estados Unidos, el banco no simplemente te abre una cuenta. Realiza un proceso de due diligence (debida diligencia) para verificar que tu empresa es legítima y que tú eres quien dices ser.
 
 Entender este proceso te ayuda a prepararte mejor y acelerar la apertura de tu cuenta.

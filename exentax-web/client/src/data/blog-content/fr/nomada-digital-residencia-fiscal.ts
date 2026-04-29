@@ -1,4 +1,6 @@
-export default `Vous travaillez deux mois depuis Lisbonne, un mois depuis Bali, puis vous revenez voir vos parents à Lyon avant de filer à Mexico? Vous vivez le rêve du nomade digital francophone… et vous avez un vrai problème fiscal qui se prépare en silence: tant que vous n'avez pas clairement défini votre résidence fiscale, l'administration française (ou belge, ou suisse) peut très bien continuer à vous considérer comme résident, avec tout ce que cela implique.
+export default `La règle des 183 jours est le premier test universel de résidence fiscale : la franchir dans n'importe lequel des 195 pays du monde te rattache au système fiscal local de l'année.
+
+Vous travaillez deux mois depuis Lisbonne, un mois depuis Bali, puis vous revenez voir vos parents à Lyon avant de filer à Mexico? Vous vivez le rêve du nomade digital francophone… et vous avez un vrai problème fiscal qui se prépare en silence: tant que vous n'avez pas clairement défini votre résidence fiscale, l'administration française (ou belge, ou suisse) peut très bien continuer à vous considérer comme résident, avec tout ce que cela implique.
 
 Dans cet article, nous expliquons comment fonctionne réellement la résidence fiscale pour un nomade digital, comment l'on quitte proprement la France ou la Belgique, et quelles destinations sont réalistes actuellement.
 

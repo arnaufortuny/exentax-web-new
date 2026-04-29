@@ -1,5 +1,7 @@
 export default `
 
+Mercury cobra 0 $ al mes y abre online en 5 días; un banco tradicional como Bank of America pide presencia física en EE.UU. y entre 25 $ y 50 $ de mantenimiento mensual.
+
 Cuando abres tu LLC, una de las primeras decisiones es dónde abrir la cuenta bancaria. Y aquí es donde empieza la confusión: Mercury no es un banco. Wise tampoco. Relay tampoco. Pero todos te ofrecen una cuenta, una tarjeta y un routing number.
 
 ¿Entonces qué son? ¿Es seguro? ¿Dónde está tu dinero realmente?

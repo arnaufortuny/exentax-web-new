@@ -1,4 +1,6 @@
-export default `Many entrepreneurs think of the US LLC purely as a tax tool. It's much more than that. it's a platform for scaling your digital business globally.
+export default `A pass-through LLC pays 0% federal in the US whether you bill 50,000 dollars or 1,000,000 dollars a year, which makes it the most efficient vehicle for scaling a digital business.
+
+Many entrepreneurs think of the US LLC purely as a tax tool. It's much more than that. it's a platform for scaling your digital business globally.
 
 ## From local to global in one structure
 

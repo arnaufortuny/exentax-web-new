@@ -1,4 +1,6 @@
-export default `IBAN, SWIFT, and Routing numbers. international payment systems use different identifiers in different countries. Understanding them prevents payment errors and ensures your money arrives quickly. Here's what each one is and when you need which.
+export default `The US routing number has 9 digits, the Spanish IBAN has 24 characters, and the SWIFT code runs 8 to 11 — all three are needed at once on any international transfer with your LLC.
+
+IBAN, SWIFT, and Routing numbers. international payment systems use different identifiers in different countries. Understanding them prevents payment errors and ensures your money arrives quickly. Here's what each one is and when you need which.
 
 ## Routing Number (ABA Number)
 

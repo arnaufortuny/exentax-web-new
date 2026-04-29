@@ -1,4 +1,6 @@
-export default `Changer de prestataire de maintenance de votre LLC est l'une des décisions qui font le plus peur et qui ont le moins de conséquences quand on les exécute bien. La grande majorité des propriétaires de LLC qui arrivent chez Exentax pour changer partagent la même crainte: "vais-je perdre de l'antériorité?", "quelque chose se réinitialise-t-il?", "l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> va-t-il le remarquer?".
+export default `Une migration de prestataire de maintenance d'une LLC prend en général 7 à 14 jours et ne modifie pas la date de constitution d'origine, qui reste intacte au Secretary of State.
+
+Changer de prestataire de maintenance de votre LLC est l'une des décisions qui font le plus peur et qui ont le moins de conséquences quand on les exécute bien. La grande majorité des propriétaires de LLC qui arrivent chez Exentax pour changer partagent la même crainte: "vais-je perdre de l'antériorité?", "quelque chose se réinitialise-t-il?", "l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> va-t-il le remarquer?".
 
 Réponse courte: non, non et presque non. Réponse longue: ce guide.
 

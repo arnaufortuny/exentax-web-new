@@ -1,5 +1,7 @@
 export default `
 
+Eine spanische SL verlangt 3.000 € Mindeststammkapital, zahlt 25 % Körperschaftsteuer (15 % in den ersten 2 Jahren) und schreibt vierteljährliche Handelsbücher im Handelsregister vor.
+
 Eine spanische GmbH (SL) zu gründen ist immer noch der natürliche Schritt, wenn ein Autonomo wächst und das persönliche Regime zu eng wird. Aber die SL ist nicht immer die beste Antwort: sie bringt Fixkosten, Handelsbuchführung, jährliche Bilanzhinterlegung und vor allem Doppelbesteuerung beim Gewinnentnehmen mit sich. Heute gibt es sehr ernstzunehmende Alternativen, besonders die US-LLC für rein international tätige digitale Profile. Dieser Leitfaden legt die realen Kosten der SL, ihre ehrlichen Vorteile, ihre Grenzen und den Zeitpunkt dar, sie mit anderen Strukturen zu vergleichen, bevor man entscheidet.
 
 ## Reale Kosten der SL-Gründung

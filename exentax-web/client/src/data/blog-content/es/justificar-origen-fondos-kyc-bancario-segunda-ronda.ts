@@ -1,5 +1,7 @@
 export default `
 
+Una segunda ronda de KYC en Mercury, Wise o Relay se resuelve favorablemente en el 75 % de los casos cuando aportas extractos de los últimos 6 meses y un contrato de servicios firmado con cliente.
+
 Si llevas tiempo con tu LLC y de pronto Mercury, Wise o tu pasarela de pago te piden documentación adicional sobre el origen de los fondos, no estás solo. Es una de las solicitudes que más ansiedad genera y, casi siempre, una de las más fáciles de resolver bien si se aborda con orden.
 
 La clave: no es una sospecha de nada. Es un proceso reglado de revisión periódica que toda institución financiera regulada aplica a sus clientes activos. Lo que decide cómo termina la revisión no es lo que tienes, es **cómo lo presentas**.

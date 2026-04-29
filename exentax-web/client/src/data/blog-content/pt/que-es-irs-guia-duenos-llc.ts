@@ -1,4 +1,6 @@
-export default `Para um empreendedor em Portugal, o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> americano é o equivalente às Finanças, mas funciona de forma muito diferente: notificações em carta desde Austin, Texas, números de processo por transação, e a possibilidade real de falar com um agente por telefone (o que deixa os nossos clientes sempre espantados). Entender como o IRS raciocina é metade do trabalho de ter uma LLC.
+export default `O IRS gere mais de 240 milhões de declarações por ano com cerca de 80.000 funcionários, e para uma LLC unipessoal de não residente foca a atenção em 2 formulários: o Form 1120 e o Form 5472.
+
+Para um empreendedor em Portugal, o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> americano é o equivalente às Finanças, mas funciona de forma muito diferente: notificações em carta desde Austin, Texas, números de processo por transação, e a possibilidade real de falar com um agente por telefone (o que deixa os nossos clientes sempre espantados). Entender como o IRS raciocina é metade do trabalho de ter uma LLC.
 
 ## O que é o IRS?
 

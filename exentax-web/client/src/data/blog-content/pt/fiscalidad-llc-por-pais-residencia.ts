@@ -1,4 +1,6 @@
-export default `Uma Single-Member LLC americana não paga imposto federal nos Estados Unidos se o sócio for não residente e os rendimentos não tiverem origem americana: o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> trata-a como "Disregarded Entity" e os lucros vão diretamente para o sócio. Até aí, ninguém discute.
+export default `Uma LLC pass-through paga 0 % federal nos EUA, mas tributa até 47 % de IRPF se o dono residir em Espanha, até 45 % em França, até 45 % na Alemanha ou até 22 % em Portugal sob NHR.
+
+Uma Single-Member LLC americana não paga imposto federal nos Estados Unidos se o sócio for não residente e os rendimentos não tiverem origem americana: o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> trata-a como "Disregarded Entity" e os lucros vão diretamente para o sócio. Até aí, ninguém discute.
 
 A verdadeira pergunta é o que acontece a seguir no teu país de residência. E aí a resposta muda radicalmente consoante vives em Portugal, no Brasil ou noutro país: convenção fiscal, tratamento da LLC como transparente ou opaca, IRS categoria B, Segurança Social, IFICI… Este artigo arruma o tema país a país para o mundo lusófono.
 

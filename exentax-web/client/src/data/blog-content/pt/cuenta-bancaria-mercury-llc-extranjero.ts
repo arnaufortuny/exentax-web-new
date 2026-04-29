@@ -1,5 +1,7 @@
 export default `
 
+A Mercury cobra 0 $ de manutenção mensal e aprova 70 a 80 % dos pedidos legítimos de não residentes em menos de 5 dias úteis.
+
 <p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> para o fluxo completo passo a passo, consulta o nosso <a href="/pt/abrir-llc-eua">guia definitivo para abrir uma LLC nos EUA</a>.</p>
 Se acabaste de constituir a tua LLC a partir de Portugal ou do Brasil, a próxima pergunta é quase sempre a mesma: "como é que abro uma conta bancária americana sem pôr os pés nos Estados Unidos?" Durante anos a resposta por defeito era a Mercury. **atualmente, a Exentax já não recomenda a Mercury como conta principal quando toda a tua operação acontece fora dos EUA.** A razão é muito concreta: quando a Mercury fecha uma conta no âmbito de uma revisão de compliance, cada vez mais frequente, **devolve os fundos através de um cheque físico em USD em nome da LLC, enviado por correio postal para a morada registada da empresa**. Para um residente fiscal em Portugal, no Brasil ou em LATAM, depositar esse cheque é lento, caro e, em muitos bancos europeus, simplesmente impossível.
 

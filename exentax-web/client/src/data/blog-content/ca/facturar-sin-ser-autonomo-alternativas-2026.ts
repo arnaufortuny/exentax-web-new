@@ -1,5 +1,7 @@
 export default `
 
+Facturar més de 1.000 € recurrents al mes sense alta d'autònom és delicte d'intrusisme administratiu a Espanya, i l'AEAT compta amb una eina de creuament del Model 347 que detecta el patró.
+
 Poques preguntes es repeteixen més entre qui comença: puc facturar sense donar-me d'alta com a autònom? La resposta curta és matisada: sí en alguns supòsits puntuals, no com a manera habitual d'operar a partir de cert volum. Aquesta guia recull les alternatives legals actualment disponibles a Espanya, què cobreix cada una, quins riscos comporta i per a quins perfils encaixa realment. També aterra l'opció menys coneguda però més eficient per a perfils digitals internacionals: facturar des d'una LLC americana sense alta de RETA, degudament declarada a l'IRPF.
 
 ## Ingressos esporàdics: el cas real, no el truc viral

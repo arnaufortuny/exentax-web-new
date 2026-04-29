@@ -1,5 +1,7 @@
 export default `
 
+The IRS issues an LLC's EIN in 4 to 6 weeks after the Form SS-4 is faxed to 855-641-6935, when the applicant is a non-resident without SSN or ITIN.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC</a>.</p>
 The EIN (Employer Identification Number) is the tax identification number for your US LLC. Without it, you can't open a bank account, file taxes, or set up payment processors. Here's everything you need to know.
 

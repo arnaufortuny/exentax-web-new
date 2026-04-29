@@ -1,4 +1,6 @@
 export default `
+CRS has been moving bank balances between more than 120 countries since 2017, and a Spanish tax resident with an account in Andorra, Switzerland or Mexico will see that data land at the tax office every September.
+
 The Common Reporting Standard (CRS) is the most important piece of international tax compliance of the last decade, and very few people understand what it actually means for someone who owns a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> or holds bank accounts outside their country of residence. Let's break it down with technical precision and without alarmism.
 
 ## What CRS is and why it exists

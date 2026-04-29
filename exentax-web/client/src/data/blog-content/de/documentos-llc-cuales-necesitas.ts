@@ -1,4 +1,6 @@
-export default `Um aus Deutschland, Österreich oder der Schweiz eine LLC aufzusetzen, brauchen Sie nicht die Hälfte der Dokumente, die für eine GmbH verlangt werden. Keine notarielle Beurkundung, kein Handelsregisterauszug, keine Stammkapital-Bestätigung. Aber es gibt eine konkrete Liste, und wenn sie fehlt, blockiert am Ende das Mercury-Konto.
+export default `Das Rechts-Kit einer korrekt gegründeten LLC enthält 6 Pflichtdokumente: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (sofern anwendbar), Registered Agent Acceptance und Banking Resolution.
+
+Um aus Deutschland, Österreich oder der Schweiz eine LLC aufzusetzen, brauchen Sie nicht die Hälfte der Dokumente, die für eine GmbH verlangt werden. Keine notarielle Beurkundung, kein Handelsregisterauszug, keine Stammkapital-Bestätigung. Aber es gibt eine konkrete Liste, und wenn sie fehlt, blockiert am Ende das Mercury-Konto.
 
 Spoiler: Es sind nicht viele, und Sie werden sie häufiger brauchen als Sie denken (besonders wenn Sie Ihr Bankkonto eröffnen oder sich bei Stripe registrieren).
 

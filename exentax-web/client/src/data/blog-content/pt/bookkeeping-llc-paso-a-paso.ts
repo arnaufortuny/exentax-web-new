@@ -1,4 +1,6 @@
-export default `Manter a contabilidade de uma LLC americana assusta mais do que deveria. A maioria dos proprietários não residentes vem habituada ao modelo português ou brasileiro, em que um contador pede papéis, apresenta declarações trimestrais e quase não toca em nada. Com uma LLC o modelo é diferente: a operação do dia a dia é sua, com ferramentas modernas, e no final do ano uma contabilidade organizada traduz-se numa declaração limpa e tranquila.
+export default `O IRS exige conservar os registos contabilísticos de uma LLC durante pelo menos 7 anos, e um Form 5472 sem livros por trás arranca com 25.000 $ de sanção.
+
+Manter a contabilidade de uma LLC americana assusta mais do que deveria. A maioria dos proprietários não residentes vem habituada ao modelo português ou brasileiro, em que um contador pede papéis, apresenta declarações trimestrais e quase não toca em nada. Com uma LLC o modelo é diferente: a operação do dia a dia é sua, com ferramentas modernas, e no final do ano uma contabilidade organizada traduz-se numa declaração limpa e tranquila.
 
 Na Exentax acompanhamos centenas de clientes neste processo. Este guia resume como organizar o bookkeeping da sua LLC passo a passo, sem atalhos mas sem o complicar mais do que necessário.
 

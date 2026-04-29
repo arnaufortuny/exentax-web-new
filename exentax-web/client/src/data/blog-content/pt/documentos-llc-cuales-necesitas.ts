@@ -1,4 +1,6 @@
-export default `Para montar uma LLC a partir de Portugal ou do Brasil, não precisas de metade da papelada exigida para uma Lda ou um MEI escalado. Sem escritura notarial, sem certidão permanente, sem prova de capital. Mas há uma lista concreta, e quando falta qualquer peça, é a conta Mercury que fica parada.
+export default `O kit legal de uma LLC bem constituída contém 6 documentos imprescindíveis: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (se aplicável), Registered Agent Acceptance e Banking Resolution.
+
+Para montar uma LLC a partir de Portugal ou do Brasil, não precisas de metade da papelada exigida para uma Lda ou um MEI escalado. Sem escritura notarial, sem certidão permanente, sem prova de capital. Mas há uma lista concreta, e quando falta qualquer peça, é a conta Mercury que fica parada.
 
 Spoiler: não são muitos, e vais usá-los mais do que pensas (sobretudo quando abrires a tua conta bancária ou te registares no Stripe).
 

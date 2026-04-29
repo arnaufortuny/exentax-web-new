@@ -1,5 +1,7 @@
 export default `
 
+El autónomo español típico arrastra entre 200 € y 590 € de cuota mínima 2026 más un IRPF que llega al 47 %, y eso se paga factures o no factures cada mes.
+
 Vamos a ser directos: si eres autónomo en España y la mayoría de tus ingresos vienen de fuera, clientes en EE.UU. UK, Alemania o cualquier otro país, probablemente estás pagando mucho más de lo necesario. Y no poco.
 
 El sistema de autónomos en España fue diseñado para un panadero de barrio, no para un diseñador UX que trabaja con startups de San Francisco. Y sin embargo, miles de freelancers digitales siguen pagándolo todo como si vendieran pan.

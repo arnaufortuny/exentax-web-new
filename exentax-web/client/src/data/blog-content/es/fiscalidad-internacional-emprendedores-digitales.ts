@@ -1,5 +1,7 @@
 export default `
 
+Más de 100 países compiten hoy por captar emprendedores digitales con tipos efectivos que oscilan entre el 0 % de Bahamas y el 47 % de España, según jurisdicción y residencia.
+
 La fiscalidad internacional es uno de los temas más importantes, y más malentendidos, para emprendedores digitales. Si vendes servicios o productos digitales a clientes de varios países, necesitas entender cómo funciona el sistema fiscal global para tomar las mejores decisiones para tu negocio.
 
 ## Los fundamentos de la fiscalidad internacional

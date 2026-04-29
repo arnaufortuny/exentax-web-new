@@ -1,5 +1,7 @@
 export default `
 
+Facturar más de 1.000 € recurrentes al mes sin alta de autónomo es delito de intrusismo administrativo, y la AEAT cuenta con una herramienta de cruce de Modelo 347 que detecta el patrón.
+
 Pocas preguntas se repiten más entre quienes empiezan: ¿puedo facturar sin darme de alta como autónomo? La respuesta corta es matizada: sí en algunos supuestos puntuales, no como modo habitual de operar a partir de cierto volumen. Esta guía recoge las alternativas legales que existen actualmente en España, qué cubre cada una, qué riesgos lleva aparejados y para qué perfiles encaja realmente. También aterriza la opción menos conocida pero más eficiente para perfiles digitales internacionales: facturar desde una LLC americana sin alta de RETA, debidamente declarado en el IRPF.
 
 ## Ingresos esporádicos: el caso real, no el truco viral

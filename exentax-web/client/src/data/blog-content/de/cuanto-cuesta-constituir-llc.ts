@@ -1,5 +1,7 @@
 export default `
 
+Eine LLC zu gründen kostet 0 bis 50 USD Staatsgebühr in New Mexico, 100 USD in Wyoming und 90 USD in Delaware; mit einem professionellen Dienstleister landen die Gesamtkosten des ersten Jahres bei 400 bis 1.500 USD.
+
 Beginnen wir mit einer Klarstellung, bei der es jedem Profi der Branche graust: Eine LLC wird nicht „erstellt". Sie wird **gegründet**.
 
 Erstellt wird ein Instagram-Profil oder ein Netflix-Konto. Gegründet wird eine von einem souveränen US-Bundesstaat anerkannte juristische Person mit Steuerpflichten, einer bundesweiten Steuer-Identifikationsnummer und Meldepflichten gegenüber dem <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>. Subtiler Unterschied — bis das deutsche **Finanzamt**, das österreichische **Finanzamt für Großbetriebe**, die Schweizer **Eidgenössische Steuerverwaltung (ESTV)** oder die Liechtensteiner **Steuerverwaltung** den Faden aufnehmen.

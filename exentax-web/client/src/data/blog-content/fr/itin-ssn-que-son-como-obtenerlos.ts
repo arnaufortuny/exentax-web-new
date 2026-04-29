@@ -1,4 +1,6 @@
-export default `Pour un résident français qui monte sa première LLC, la différence entre ITIN et SSN est source de confusion massive. Le SSN, vous ne l'aurez jamais sans visa US. L'ITIN, en revanche, est parfaitement à portée, mais l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> est devenu nettement plus strict ces dernières années, et les refus sur dossier mal préparé sont fréquents.
+export default `L'ITIN compte 9 chiffres et est délivré en 7 à 11 semaines, tandis que le SSN compte 9 chiffres et n'est attribué qu'aux résidents légaux des États-Unis.
+
+Pour un résident français qui monte sa première LLC, la différence entre ITIN et SSN est source de confusion massive. Le SSN, vous ne l'aurez jamais sans visa US. L'ITIN, en revanche, est parfaitement à portée, mais l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> est devenu nettement plus strict ces dernières années, et les refus sur dossier mal préparé sont fréquents.
 
 Décortiquons tout cela sans détour.
 

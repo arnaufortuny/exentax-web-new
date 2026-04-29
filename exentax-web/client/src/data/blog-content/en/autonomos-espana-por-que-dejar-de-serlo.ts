@@ -1,4 +1,6 @@
-export default `Let's be direct: if you're autónomo in Spain and most of your income comes from outside the country. clients in the US, UK, Germany, or anywhere else. you're probably paying much more than necessary. And not just a little.
+export default `The typical Spanish autónomo carries a 2026 minimum monthly fee between 200 and 590 euros plus an IRPF that climbs to 47%, payable whether you invoice or not.
+
+Let's be direct: if you're autónomo in Spain and most of your income comes from outside the country. clients in the US, UK, Germany, or anywhere else. you're probably paying much more than necessary. And not just a little.
 
 The autónomo system in Spain was designed for a neighborhood baker, not for a UX designer working with San Francisco startups. Yet thousands of digital freelancers keep paying everything as if they were selling bread.
 

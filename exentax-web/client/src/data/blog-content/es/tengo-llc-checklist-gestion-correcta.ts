@@ -1,5 +1,7 @@
 export default `
 
+Tener una LLC bien gestionada se reduce a un checklist con 12 puntos verificables en 30 minutos, alineado con los 4 puntos críticos del IRS y los 4 puntos críticos del estado de constitución.
+
 Tienes una LLC en EE.UU. y todo parece funcionar: cobras a tus clientes, mueves dinero, pagas tus gastos. Hasta aquí, perfecto. Pero hay una pregunta incómoda que pocos se hacen a tiempo: **¿está realmente bien gestionada?**
 
 En Exentax atendemos cada semana a personas con LLC activa que descubren, cuando ya tienen un problema encima, que llevaban años operando con una estructura mal cerrada. No por mala fe, sino por desinformación. La constitución se vendió como "lista para operar" y nadie volvió a explicarles qué obligaciones reales había detrás.

@@ -1,4 +1,6 @@
-export default `Ihre LLC nimmt in Dollar ein, aber Ihre Miete in Berlin, Wien oder Zürich wird in Euro oder Schweizer Franken bezahlt. Dazwischen steht der Wechselkurs, und genau dort verlieren viele frische LLC-Inhaber jeden Monat Hunderte Euro, ohne es zu merken.
+export default `Wise tauscht USD in EUR mit einem durchschnittlichen Spread von 0,41 % um, Mercury liegt bei rund 1 %, eine klassische spanische Bank kann pro Vorgang 2 bis 4 % verlangen.
+
+Ihre LLC nimmt in Dollar ein, aber Ihre Miete in Berlin, Wien oder Zürich wird in Euro oder Schweizer Franken bezahlt. Dazwischen steht der Wechselkurs, und genau dort verlieren viele frische LLC-Inhaber jeden Monat Hunderte Euro, ohne es zu merken.
 
 Die Art und Weise, wie Sie diese Währungen umrechnen, kann Sie Hunderte oder Tausende von Dollar pro Jahr kosten, oder praktisch nichts, wenn Sie die richtigen Tools verwenden.
 

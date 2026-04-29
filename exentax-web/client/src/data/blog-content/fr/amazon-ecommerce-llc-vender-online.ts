@@ -1,4 +1,6 @@
-export default `Vendre sur Amazon, Shopify ou Etsy depuis la France, la Belgique ou la Suisse reste un parcours d'obstacles: comptes vendeurs bridés, retenues en dollars, TVA intracommunautaire partout, et une micro-entreprise qui plafonne en CA dès qu'on commence à scaler. Avec une LLC américaine, vous changez carrément de ligue.
+export default `Amazon US a généré plus de 600 milliards de dollars de ventes brutes en 2024, et 100 % de ces versements passent par un prestataire qui exige un EIN et un compte bancaire américain avant de te payer.
+
+Vendre sur Amazon, Shopify ou Etsy depuis la France, la Belgique ou la Suisse reste un parcours d'obstacles: comptes vendeurs bridés, retenues en dollars, TVA intracommunautaire partout, et une micro-entreprise qui plafonne en CA dès qu'on commence à scaler. Avec une LLC américaine, vous changez carrément de ligue.
 
 ## Pourquoi une LLC pour le e-commerce?
 

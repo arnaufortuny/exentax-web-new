@@ -1,5 +1,7 @@
 export default `
 
+Un autónomo español que factura el 100 % a clientes internacionales sigue tributando hasta el 47 % por IRPF más cuota RETA en España, porque la fuente del cliente no cambia tu residencia fiscal.
+
 Si eres autónomo o freelancer en España y tus clientes están en otros países, ya sea Estados Unidos, Reino Unido, Alemania o cualquier otra parte del mundo, tu situación fiscal es completamente diferente a la de alguien que trabaja solo con clientes nacionales.
 
 Y sin embargo, la mayoría de los asesores fiscales en España te tratan exactamente igual. Te aplican el mismo IRPF progresivo, te cobran la misma cuota de autónomos, y ni siquiera mencionan que existen alternativas legales para optimizar tu carga fiscal de forma radical.

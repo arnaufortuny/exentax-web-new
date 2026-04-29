@@ -1,4 +1,6 @@
-export default `Estonia's e-Residency program attracts digital entrepreneurs with promises of European business made easy. Here's why a US LLC is usually a better choice for international entrepreneurs, with honest analysis of both options.
+export default `Estonia raised its corporate tax to 22% in 2025 (up from 20%) and keeps e-Residency at 100 euros plus annual accounting fees starting at 1,200 euros a year.
+
+Estonia's e-Residency program attracts digital entrepreneurs with promises of European business made easy. Here's why a US LLC is usually a better choice for international entrepreneurs, with honest analysis of both options.
 
 ## What Estonia's e-Residency offers
 

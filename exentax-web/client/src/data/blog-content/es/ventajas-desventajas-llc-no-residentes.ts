@@ -1,5 +1,7 @@
 export default `
 
+Una LLC pass-through paga 0 % federal en EE.UU. y se constituye en 7 a 14 días, pero arrastra 4 obligaciones anuales no negociables: Form 1120 + 5472, BOI Report (si aplica), Annual Report y Registered Agent.
+
 Te vamos a contar algo que la mayoría de empresas de formación de LLCs no te cuentan: una LLC **no es para todo el mundo**. Tiene ventajas enormes si tu perfil encaja, pero también tiene costes, obligaciones y situaciones donde no tiene sentido.
 
 Aquí van las dos caras de la moneda. Sin filtros.

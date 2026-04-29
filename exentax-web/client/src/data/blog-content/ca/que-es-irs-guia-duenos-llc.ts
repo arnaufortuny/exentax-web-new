@@ -1,4 +1,6 @@
-export default `Per a un empresari català, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> americà és l'equivalent a l'AEAT, però funciona de manera molt diferent: notificacions en carta des d'Austin, Texas, números de cas per transacció, i la possibilitat real de parlar amb un agent per telèfon (cosa que sorprèn sempre els nostres clients). Entendre com raona l'IRS és mitja feina quan tens una LLC.
+export default `L'IRS gestiona més de 240 milions de declaracions a l'any amb prop de 80.000 empleats, i per a una LLC unipersonal de no resident concentra la seva atenció en 2 formularis: el Form 1120 i el Form 5472.
+
+Per a un empresari català, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> americà és l'equivalent a l'AEAT, però funciona de manera molt diferent: notificacions en carta des d'Austin, Texas, números de cas per transacció, i la possibilitat real de parlar amb un agent per telèfon (cosa que sorprèn sempre els nostres clients). Entendre com raona l'IRS és mitja feina quan tens una LLC.
 
 ## Què és l'IRS?
 

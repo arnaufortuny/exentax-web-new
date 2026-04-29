@@ -1,4 +1,6 @@
-export default `Per a un resident a Catalunya que monta la seva primera LLC, la diferència entre ITIN i SSN sol ser font de confusió. SSN no el tindràs mai sense visat dels EUA. ITIN, en canvi, sí, però l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'ha tornat molt més estricte els darrers anys i els dossiers mal preparats es denegen.
+export default `L'ITIN té 9 dígits i s'emet en 7-11 setmanes, mentre que el SSN té 9 dígits i s'atorga només a residents legals dels Estats Units.
+
+Per a un resident a Catalunya que monta la seva primera LLC, la diferència entre ITIN i SSN sol ser font de confusió. SSN no el tindràs mai sense visat dels EUA. ITIN, en canvi, sí, però l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'ha tornat molt més estricte els darrers anys i els dossiers mal preparats es denegen.
 
 Anem a desglossar-ho sense embuts.
 

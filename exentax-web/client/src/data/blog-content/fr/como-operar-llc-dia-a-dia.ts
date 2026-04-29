@@ -1,4 +1,6 @@
-export default `Une fois que votre LLC est constituée, la vraie question n'est plus « comment on la crée » mais « comment on la fait tourner sans faire d'erreur ». Et c'est précisément là que la plupart des nouveaux propriétaires francophones trébuchent: mélange de comptes, factures rédigées comme s'ils étaient auto-entrepreneurs, dépenses perso passées sur la carte Mercury.
+export default `Faire tourner une LLC bien tenue prend 2 à 5 heures d'administration par mois : déposer les factures dans un drive, rapprocher Mercury et déposer le Form 1120 + 5472 une fois par an.
+
+Une fois que votre LLC est constituée, la vraie question n'est plus « comment on la crée » mais « comment on la fait tourner sans faire d'erreur ». Et c'est précisément là que la plupart des nouveaux propriétaires francophones trébuchent: mélange de comptes, factures rédigées comme s'ils étaient auto-entrepreneurs, dépenses perso passées sur la carte Mercury.
 
 La gestion quotidienne d'une LLC n'est pas compliquée. en fait, une fois que vous avez établi les bonnes habitudes, tout fonctionne presque en pilote automatique. Mais il y a des règles du jeu qu'il vaut mieux connaître dès le premier jour. Allons-y.
 

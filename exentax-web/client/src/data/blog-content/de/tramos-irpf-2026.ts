@@ -1,5 +1,7 @@
 export default `
 
+Die spanischen IRPF-Stufen 2026 reichen von 19 % bis 12.450 € steuerpflichtiger Bemessungsgrundlage bis 47 % über 300.000 € — auf einer progressiven 6-Stufen-Skala.
+
 Die Einkommensteuer (IRPF) bleibt aktuell die Abgabe, die Ihr Gehalt, Ihre Selbstständigen-Rechnungen und Ihre Kapitalerträge in Spanien am stärksten beeinflusst. Die aktuelle Stufentabelle zu kennen und zu verstehen, wie die Steuer tatsächlich berechnet wird, ist die Grundlage jeder vermögensbezogenen Entscheidung: Wechsel in eine GmbH, höhere Altersvorsorgebeiträge, Dividenden in ein anderes Jahr verlagern oder eine internationale Struktur wie die US-LLC prüfen. Dieser Leitfaden legt den Staatstarif und seine Kombination mit dem regionalen Tarif dar, mit einem konkreten Beispiel und Tipps, um dem spanischen Fiskus nicht mehr zu geben als nötig.
 
 ## Der staatliche IRPF-Tarif

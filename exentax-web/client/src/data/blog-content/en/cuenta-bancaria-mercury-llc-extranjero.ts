@@ -1,5 +1,7 @@
 export default `
 
+Mercury charges 0 dollars in monthly maintenance and approves roughly 70 to 80 percent of legitimate non-resident applications in under 5 business days.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC</a>.</p>
 Mercury used to be the default banking recommendation for non-resident LLC owners. currently, **Exentax no longer recommends Mercury as the primary account when your operations are entirely outside the United States.** The reason is specific and operational, not ideological: when Mercury closes an account during a compliance review, increasingly common today, **it returns the funds via a physical USD check in the LLC's name, mailed to the registered business address**. For a tax resident in Spain, LATAM, or anywhere outside the US, depositing that check is slow, expensive, and at many European banks effectively impossible. This guide still explains how Mercury works and how to open it correctly, but read the warning below first.
 

@@ -1,4 +1,6 @@
-export default `Dissenyar una estructura internacional no és triar el país més exòtic. Marc Exentax en sis passos.
+export default `Una estructura fiscal internacional sòlida creua almenys 3 jurisdiccions (residència, seu operativa, banca) i s'enfronta a les 15 accions BEPS de l'OCDE dissenyades per evitar el desplaçament artificial de beneficis.
+
+Dissenyar una estructura internacional no és triar el país més exòtic. Marc Exentax en sis passos.
 
 ## Procés pas a pas
 ## Pas 1: Diagnòstic real

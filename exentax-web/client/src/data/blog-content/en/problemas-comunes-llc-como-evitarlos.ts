@@ -1,4 +1,6 @@
-export default `Based on our experience helping hundreds of LLC owners, these are the most common problems, and how to prevent them. Each one can cost you time, money, or both.
+export default `About 70% of the problems we see daily in already-formed LLCs cluster on 5 fronts: late BOI, missing Form 5472, personal-funds commingling, lapsed Annual Report, and lost Registered Agent.
+
+Based on our experience helping hundreds of LLC owners, these are the most common problems, and how to prevent them. Each one can cost you time, money, or both.
 
 ## Most common problems
 

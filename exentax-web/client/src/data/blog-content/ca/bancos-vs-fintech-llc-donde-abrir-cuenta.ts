@@ -1,4 +1,6 @@
-export default `Quan obres la teva primera LLC des de Catalunya, la pregunta que sempre torna no és fiscal, és bancària: Chase o Mercury? Bank of America o Relay? És a dir, banc tradicional americà contra fintech. Tots dos mons funcionen, però serveixen perfils molt diferents.
+export default `Mercury cobra 0 $ al mes i obre en línia en 5 dies; un banc tradicional com Bank of America demana presència física als EUA i entre 25 $ i 50 $ de manteniment mensual.
+
+Quan obres la teva primera LLC des de Catalunya, la pregunta que sempre torna no és fiscal, és bancària: Chase o Mercury? Bank of America o Relay? És a dir, banc tradicional americà contra fintech. Tots dos mons funcionen, però serveixen perfils molt diferents.
 
 Llavors, què són? És segur? On són els teus diners realment?
 

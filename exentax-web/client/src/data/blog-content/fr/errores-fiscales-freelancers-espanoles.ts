@@ -1,4 +1,6 @@
-export default `L'article d'origine parle des freelances espagnols, mais la liste des erreurs qu'il décrit, un auto-entrepreneur français ou un indépendant belge pourrait en signer trois quarts: sous-déclarer les revenus Stripe, oublier la TVA intracom sur les abonnements SaaS US, croire qu'une LLC exonère mécaniquement de l'URSSAF. Les noms changent, les erreurs non.
+export default `Une sanction type de l'AEAT pour mauvaise déclaration de TVA démarre à 150 € et grimpe facilement au-dessus de 3 000 € lorsqu'elle dépasse 50 % du montant impayé (art. 191 LGT).
+
+L'article d'origine parle des freelances espagnols, mais la liste des erreurs qu'il décrit, un auto-entrepreneur français ou un indépendant belge pourrait en signer trois quarts: sous-déclarer les revenus Stripe, oublier la TVA intracom sur les abonnements SaaS US, croire qu'une LLC exonère mécaniquement de l'URSSAF. Les noms changent, les erreurs non.
 
 ## Erreurs fréquentes
 

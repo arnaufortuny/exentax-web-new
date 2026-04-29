@@ -1,4 +1,6 @@
-export default `Von Single-Member-LLC zur Multi-Member-LLC zu wechseln klingt nach Kleinformalität. Ist es nicht. Es ist eine der strukturellen Veränderungen mit den meisten tatsächlichen steuerlichen Implikationen für eine laufende LLC.
+export default `Eine LLC mit 1 Mitglied wird standardmäßig als Disregarded Entity über Form 1120 + 5472 besteuert, während eine LLC mit 2 oder mehr Mitgliedern als Partnership über Form 1065 besteuert wird — zwei sehr unterschiedliche Regime.
+
+Von Single-Member-LLC zur Multi-Member-LLC zu wechseln klingt nach Kleinformalität. Ist es nicht. Es ist eine der strukturellen Veränderungen mit den meisten tatsächlichen steuerlichen Implikationen für eine laufende LLC.
 
 ## Der zentrale steuerliche Wechsel
 

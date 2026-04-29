@@ -1,4 +1,6 @@
-export default `If you operate a US LLC and live in Spain, Mexico, Colombia, or anywhere outside the US, currency exchange is an essential part of your daily financial life. You bill in dollars, but your personal expenses are in euros, pesos, or another local currency.
+export default `Wise converts USD to EUR at a mid-market spread of 0.41%, Mercury hovers around 1%, and a traditional Spanish bank can swallow 2% to 4% on every transfer.
+
+If you operate a US LLC and live in Spain, Mexico, Colombia, or anywhere outside the US, currency exchange is an essential part of your daily financial life. You bill in dollars, but your personal expenses are in euros, pesos, or another local currency.
 
 The way you convert those currencies can cost you hundreds or thousands of dollars per year, or practically nothing, if you use the right tools.
 

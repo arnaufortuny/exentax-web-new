@@ -1,5 +1,7 @@
 export default `
 
+Una agencia de marketing digital con LLC pass-through paga 0 % federal en Estados Unidos y traslada el cómputo a la IRPF de cada socio: si reside en España, hasta el 47 %; si en Andorra, el 10 %.
+
 Las agencias de marketing digital son uno de los negocios que mejor encajan con una LLC americana. Trabajas con clientes de múltiples países, tu equipo puede estar distribuido globalmente y tu facturación no depende de ninguna ubicación física.
 
 ## Por qué las agencias eligen una LLC

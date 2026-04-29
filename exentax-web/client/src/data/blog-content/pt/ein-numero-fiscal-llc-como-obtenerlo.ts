@@ -1,5 +1,7 @@
 export default `
 
+O IRS emite o EIN de uma LLC em 4 a 6 semanas depois do Form SS-4 ser enviado por fax para 855-641-6935 quando o requerente é não residente sem SSN nem ITIN.
+
 <p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> para o fluxo completo passo a passo, consulta o nosso <a href="/pt/abrir-llc-eua">guia definitivo para abrir uma LLC nos EUA</a>.</p>
 O EIN (Employer Identification Number) é, para a tua LLC, o equivalente ao NIF da empresa em Portugal ou ao CNPJ no Brasil. É o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> que o emite e, sem ele, a tua LLC existe no papel mas não pode fazer absolutamente nada na prática: nem conta Mercury, nem Stripe US, nem declaração anual, nem receber transferências de clientes americanos.
 

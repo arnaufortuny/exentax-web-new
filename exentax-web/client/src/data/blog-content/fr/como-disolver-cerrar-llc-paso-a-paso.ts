@@ -1,5 +1,7 @@
 export default `
 
+Bien dissoudre une LLC prend 30 à 60 jours et impose de déposer un dernier Form 1120 + 5472 marqué final return ; sauter cette étape transforme la LLC en accumulateur d'amendes de 25 000 $ par an.
+
 Bien fermer une LLC est aussi important que de l'ouvrir. La majorité des contenus sur les LLC parle de constitution, de choix d'État, d'ouverture chez Mercury ou Wise Business... mais presque personne n'explique comment on la **ferme** correctement. Or une LLC mal dissoute continue de générer des obligations, des sanctions, des frais et, au pire, une ombre fiscale aux États-Unis qui peut vous suivre des années.
 
 Ce guide raconte le processus réel et complet pour **dissoudre et fermer votre LLC américaine**: quand cela a du sens, comment ordonner la fermeture État par État, quelles déclarations finales attend l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, ce qui se passe avec votre EIN, ce que l'on fait du BOI Report, comment annuler les comptes bancaires et pourquoi il existe un ordre strict à ne pas modifier. Si vous n'opérez plus avec votre LLC et voulez l'oublier sans surprises à trois ans, voici la voie.

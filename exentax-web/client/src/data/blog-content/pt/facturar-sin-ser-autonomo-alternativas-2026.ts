@@ -1,5 +1,7 @@
 export default `
 
+Faturar mais de 1.000 € recorrentes por mês sem inscrição como autónomo é crime de intrusismo administrativo em Espanha, e a AEAT dispõe de uma ferramenta de cruzamento do Modelo 347 que deteta o padrão.
+
 Poucas perguntas se repetem mais entre quem começa: posso faturar sem me inscrever como autónomo? A resposta curta é matizada: sim em alguns casos pontuais, não como modo habitual de operar a partir de certo volume. Este guia reúne as alternativas legais atualmente disponíveis em Espanha, o que cada uma cobre, que riscos comporta e para que perfis encaixa realmente. Também aborda a opção menos conhecida mas mais eficiente para perfis digitais internacionais: faturar a partir de uma LLC americana sem inscrição no RETA, devidamente declarada no IRPF.
 
 ## Rendimentos esporádicos: o caso real, não o truque viral

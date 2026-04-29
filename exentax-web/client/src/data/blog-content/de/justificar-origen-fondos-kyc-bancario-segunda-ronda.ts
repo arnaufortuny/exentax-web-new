@@ -1,4 +1,6 @@
-export default `Wenn Sie Ihre LLC seit einer Weile haben und Mercury, Wise oder Ihr Zahlungsanbieter plötzlich zusätzliche Unterlagen zur Mittelherkunft verlangt, sind Sie nicht allein. Es ist eine der angstauslösendsten Anfragen und fast immer eine der am einfachsten gut lösbaren, wenn man geordnet vorgeht.
+export default `Eine zweite KYC-Runde bei Mercury, Wise oder Relay endet in 75 % der Fälle positiv, wenn du Auszüge der letzten 6 Monate und einen unterzeichneten Dienstleistungsvertrag mit einem Kunden vorlegst.
+
+Wenn Sie Ihre LLC seit einer Weile haben und Mercury, Wise oder Ihr Zahlungsanbieter plötzlich zusätzliche Unterlagen zur Mittelherkunft verlangt, sind Sie nicht allein. Es ist eine der angstauslösendsten Anfragen und fast immer eine der am einfachsten gut lösbaren, wenn man geordnet vorgeht.
 
 Schlüssel: kein Verdacht. Reguliertes periodisches Review. Was den Ausgang entscheidet, ist nicht was Sie haben, sondern **wie Sie es präsentieren**.
 

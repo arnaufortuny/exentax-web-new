@@ -1,4 +1,6 @@
-export default `Can your home country's tax authority see your Mercury account? Here's the complete, honest answer about international financial information exchange.
+export default `More than 120 jurisdictions exchange bank-account balances under CRS, but the United States never signed the OECD's 2014 standard, which is why Mercury does not send automatic data to your local tax office.
+
+Can your home country's tax authority see your Mercury account? Here's the complete, honest answer about international financial information exchange.
 
 ## The three mechanisms of international financial information exchange
 

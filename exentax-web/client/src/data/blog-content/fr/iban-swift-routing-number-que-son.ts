@@ -1,4 +1,6 @@
-export default `Quand vous passez de l'IBAN français à l'écosystème bancaire américain, il vous manque soudain la moitié du vocabulaire: votre LLC ne donne pas un IBAN, elle donne un routing number plus un account number, et le SWIFT apparaît seulement pour l'international. Tant que vous ne saisissez pas la différence, les virements ne partent pas ou arrivent avec frais cachés.
+export default `Le routing number américain compte 9 chiffres, l'IBAN espagnol 24 caractères et le code SWIFT entre 8 et 11 ; les trois sont demandés en même temps sur tout virement international avec ta LLC.
+
+Quand vous passez de l'IBAN français à l'écosystème bancaire américain, il vous manque soudain la moitié du vocabulaire: votre LLC ne donne pas un IBAN, elle donne un routing number plus un account number, et le SWIFT apparaît seulement pour l'international. Tant que vous ne saisissez pas la différence, les virements ne partent pas ou arrivent avec frais cachés.
 
 Nous allons expliquer chacun d'entre eux de manière claire pour que vous ne vous demandiez plus jamais « lequel dois-je donner à ce client? »
 

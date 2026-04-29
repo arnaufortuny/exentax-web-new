@@ -1,4 +1,6 @@
-export default `Once your LLC is formed and your bank account is open, what does daily operation look like? Here's a practical guide to the day-to-day.
+export default `Running a well-kept LLC takes 2 to 5 hours of admin a month: uploading invoices to a drive, reconciling Mercury, and filing Form 1120 + 5472 once a year.
+
+Once your LLC is formed and your bank account is open, what does daily operation look like? Here's a practical guide to the day-to-day.
 
 ## Your financial hub: Mercury
 

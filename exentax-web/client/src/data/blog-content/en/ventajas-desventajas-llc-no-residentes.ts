@@ -1,4 +1,6 @@
-export default `We're going to tell you something most LLC formation companies don't: an LLC **is not for everyone.** It has enormous advantages if your profile fits, but it also has costs, obligations, and situations where it doesn't make sense.
+export default `A pass-through LLC pays 0% federal in the US and is set up in 7 to 14 days, but carries 4 non-negotiable annual obligations: Form 1120 + 5472, BOI Report (if applicable), Annual Report, and Registered Agent.
+
+We're going to tell you something most LLC formation companies don't: an LLC **is not for everyone.** It has enormous advantages if your profile fits, but it also has costs, obligations, and situations where it doesn't make sense.
 
 Here are both sides of the coin. No filters.
 

@@ -1,5 +1,7 @@
 export default `
 
+Os módulos 2026 ficam limitados a atividades concretas com facturação inferior a 250.000 € anuais e compras inferiores a 150.000 €, contra a estimativa direta que admite qualquer volume.
+
 O regime de tributação que escolhe como autónomo determina como calcula o IRPF e o IVA, que documentação tem de manter e, sobretudo, quanto paga no fim do ano. Em Espanha coexistem duas grandes opções: módulos (estimativa objetiva) e estimativa direta (versão simplificada ou normal). Atualmente os módulos continuam vigentes mas cada vez mais restritos a atividades concretas. Este guia explica qual encaixa em cada perfil, os limites em vigor, as renúncias estratégicas e quando convém mudar.
 
 ## Módulos: como funciona a estimativa objetiva

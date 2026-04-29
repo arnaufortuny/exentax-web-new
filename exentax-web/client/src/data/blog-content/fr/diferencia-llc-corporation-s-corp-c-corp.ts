@@ -1,5 +1,7 @@
 export default `
 
+Les États-Unis proposent 4 véhicules principaux : la LLC pass-through à 0 % fédéral, la S-Corp réservée aux résidents, la C-Corp à 21 % fédéral et la sole proprietorship sans bouclier juridique.
+
 Quand on parle d'« entreprise américaine », la plupart des gens pensent à une LLC ; d'autres, à une « corporation ». La réalité est qu'aux États-Unis il existe quatre véhicules principaux pour faire des affaires : **LLC**, **Corporation**, **S-Corporation** et **C-Corporation**. Chacun a son propre régime fiscal fédéral et étatique, ses restrictions de propriété et ses cas d'usage. Pour un entrepreneur français résident fiscal en France (ou dans un autre pays francophone : Belgique, Suisse, Luxembourg, Québec, Maroc, Tunisie), tous ne sont ni accessibles ni opportuns. Ce guide pose la véritable différence entre les quatre figures, ce qui correspond à chaque profil et pourquoi la LLC reste, aujourd'hui, le choix par défaut pour les freelances, agences et projets numériques qui ne cherchent pas d'investisseurs institutionnels.
 
 ## LLC : l'option flexible et par défaut pour les non-résidents

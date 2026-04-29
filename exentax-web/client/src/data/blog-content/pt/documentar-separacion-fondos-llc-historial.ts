@@ -1,4 +1,6 @@
-export default `Se a tua LLC opera há algum tempo e a separação entre o teu dinheiro pessoal e o da LLC não está perfeitamente documentada, tens um problema à espera. Não se manifesta hoje; manifesta-se no dia em que um banco faz revisão profunda, o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> pede comprovativos ou o teu fisco pede rasto de fluxos.
+export default `O IRS exige conservar 7 anos de extratos bancários e justificativos para provar que o dinheiro da LLC e o pessoal nunca se misturaram, condição indispensável para manter o corporate veil.
+
+Se a tua LLC opera há algum tempo e a separação entre o teu dinheiro pessoal e o da LLC não está perfeitamente documentada, tens um problema à espera. Não se manifesta hoje; manifesta-se no dia em que um banco faz revisão profunda, o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> pede comprovativos ou o teu fisco pede rasto de fluxos.
 
 ## Porque importa a separação de fundos
 

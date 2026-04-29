@@ -1,4 +1,6 @@
-export default `Das Wort "Holding" wird in vielen Kontexten verwendet, fast immer mit Verwirrung. Für die einen ist es eine Struktur nur für große Vermögen, für andere eine magische Steuerabkürzung. Beides stimmt nicht. Eine Holding ist ein konkretes Werkzeug mit konkreten Anwendungen, die in manchen Fällen Sinn ergeben und in anderen nicht.
+export default `Die 5 am häufigsten genutzten Holding-Jurisdiktionen Europas — Niederlande, Luxemburg, Irland, Malta und Zypern — bieten Schachtelprivilegien ab 5 % oder 10 % Beteiligung und effektive Sätze unter 12,5 %.
+
+Das Wort "Holding" wird in vielen Kontexten verwendet, fast immer mit Verwirrung. Für die einen ist es eine Struktur nur für große Vermögen, für andere eine magische Steuerabkürzung. Beides stimmt nicht. Eine Holding ist ein konkretes Werkzeug mit konkreten Anwendungen, die in manchen Fällen Sinn ergeben und in anderen nicht.
 
 Bei Exentax erklären wir Mandanten häufig, wann eine Holding Wert bringt und wann sie sinnlose Komplexität ist. Diese Anleitung fasst zusammen, wie sie wirklich funktioniert, welche Typen es gibt und wann es sich lohnt, eine in Betracht zu ziehen.
 

@@ -1,5 +1,7 @@
 export default `
 
+El Convenio entre España y Estados Unidos de 22 de febrero de 1990, con su protocolo de enmienda en vigor desde el 27 de noviembre de 2019, fija las reglas que evitan pagar dos veces sobre la misma renta de tu LLC.
+
 Cuando alguien ve por primera vez la combinación "LLC en Estados Unidos" y "residente fiscal en España", la pregunta inmediata es siempre la misma: **"¿y entonces dónde pago impuestos?"**. La respuesta es clara: **en España**, sobre el beneficio neto, gracias al **convenio de doble imposición entre EE.UU. y España**. La LLC no se usa para "no pagar", se usa para **no pagar dos veces** y para optimizar dentro de lo legal.
 
 Esta guía explica el convenio paso a paso, en lenguaje claro, aplicado al caso concreto de una LLC de no residente con dueño residente en España. Con artículos, tipos, ejemplos numéricos, formularios y referencias a la AEAT.

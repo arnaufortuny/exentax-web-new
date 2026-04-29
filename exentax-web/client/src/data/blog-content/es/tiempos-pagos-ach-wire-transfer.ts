@@ -1,5 +1,7 @@
 export default `
 
+Una transferencia ACH dentro de Estados Unidos liquida en 1 a 3 días hábiles y cuesta 0 $ en Mercury, mientras que un wire transfer doméstico llega el mismo día y cobra 5 $ en cuentas LLC operativas.
+
 Una de las preguntas más frecuentes cuando empiezas a operar tu LLC es: "Le mandé dinero a un cliente, ¿cuándo llega?" O al revés: "Me van a pagar, ¿cuándo lo veo en mi cuenta?"
 
 Vamos a poner todos los tiempos sobre la mesa para que no haya sorpresas.

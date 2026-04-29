@@ -1,5 +1,7 @@
 export default `
 
+Une mauvaise structuration internationale se heurte aux 15 actions BEPS de l'OCDE, avec des amendes qui en Espagne peuvent atteindre 150 % du montant impayé en vertu de l'art. 191 LGT.
+
 Une structure internationale bien conçue est un outil remarquable. Une structure mal conçue est une bombe à retardement qui finit toujours par exploser, le plus souvent au moment d'une demande d'information de la DGFiP, de l'AEAT, du SAT, de la DIAN ou de l'AFIP qui vous oblige à expliquer en détail ce que vous avez fait pendant les quatre dernières années. Chez Exentax, nous voyons ces dossiers chaque semaine, et les erreurs se répètent. Voici les six risques principaux et la manière concrète de les éviter.
 
 ## Risque 1: Simulation

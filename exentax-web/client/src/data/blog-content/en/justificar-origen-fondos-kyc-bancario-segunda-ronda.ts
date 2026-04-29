@@ -1,4 +1,6 @@
-export default `If you have had your LLC for a while and Mercury, Wise or your payment processor suddenly asks for additional documentation on the origin of funds, you are not alone. It is one of the requests that generates the most anxiety, and almost always one of the easiest to resolve well if approached with order.
+export default `A second KYC round at Mercury, Wise or Relay is resolved favourably in 75% of cases when you provide statements covering the last 6 months and a signed service contract with a client.
+
+If you have had your LLC for a while and Mercury, Wise or your payment processor suddenly asks for additional documentation on the origin of funds, you are not alone. It is one of the requests that generates the most anxiety, and almost always one of the easiest to resolve well if approached with order.
 
 The key: it is not a suspicion of anything. It is a regulated periodic review every regulated financial institution applies to active clients. What decides how the review ends is not what you have, it is **how you present it**.
 

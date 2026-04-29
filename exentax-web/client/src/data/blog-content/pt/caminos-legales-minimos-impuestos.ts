@@ -1,4 +1,6 @@
-export default `Pagar poucos impostos de forma legal é possível. Pagar zero, quase nunca. A diferença entre as duas abordagens marca a fronteira entre o planeamento fiscal sério e a fantasia que circula nas redes sociais. Este guia percorre os caminhos legais reais para minimizar a sua fatura fiscal sem cruzar a linha, com foco em perfis habituais: freelancers, consultores, e-commerce, SaaS, criadores de conteúdo e empreendedores digitais.
+export default `Passar do escalão marginal de 47 % em Espanha para os 9 % corporativos dos Emirados Árabes Unidos é legal, mas exige mudar realmente de residência fiscal, não apenas de morada postal.
+
+Pagar poucos impostos de forma legal é possível. Pagar zero, quase nunca. A diferença entre as duas abordagens marca a fronteira entre o planeamento fiscal sério e a fantasia que circula nas redes sociais. Este guia percorre os caminhos legais reais para minimizar a sua fatura fiscal sem cruzar a linha, com foco em perfis habituais: freelancers, consultores, e-commerce, SaaS, criadores de conteúdo e empreendedores digitais.
 
 Na Exentax trabalhamos há anos com pessoas que vêm a fugir do IRS e da Segurança Social. A boa notícia é que existem caminhos honestos. A menos boa é que nenhum consiste em "não declarar".
 

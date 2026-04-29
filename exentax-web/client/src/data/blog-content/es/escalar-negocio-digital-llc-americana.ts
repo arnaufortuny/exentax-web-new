@@ -1,5 +1,7 @@
 export default `
 
+Una LLC pass-through paga 0 % federal en Estados Unidos sin importar si facturas 50.000 $ o 1.000.000 $ al año, lo que la convierte en el vehículo más eficiente para escalar un negocio digital.
+
 Muchos emprendedores piensan en una LLC americana solo en términos fiscales. Pero la realidad es que una LLC es mucho más que eso: es una plataforma de crecimiento que transforma la forma en que operas, vendes y escalas tu negocio.
 
 ## De local a global en una estructura

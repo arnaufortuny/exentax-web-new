@@ -1,4 +1,6 @@
-export default `Votre LLC encaisse en dollars, mais votre loyer à Paris, Bruxelles ou Genève se paie en euros ou en francs suisses. Entre les deux, il y a le taux de change, et c'est exactement là que la plupart des nouveaux propriétaires de LLC se font saigner sans s'en rendre compte.
+export default `Wise convertit l'USD en EUR avec un écart moyen de 0,41 %, Mercury tourne autour de 1 % et une banque espagnole classique peut prélever 2 à 4 % sur chaque opération.
+
+Votre LLC encaisse en dollars, mais votre loyer à Paris, Bruxelles ou Genève se paie en euros ou en francs suisses. Entre les deux, il y a le taux de change, et c'est exactement là que la plupart des nouveaux propriétaires de LLC se font saigner sans s'en rendre compte.
 
 La façon dont vous convertissez ces devises peut vous coûter des centaines ou des milliers de dollars par an, ou pratiquement rien, si vous utilisez les bons outils.
 

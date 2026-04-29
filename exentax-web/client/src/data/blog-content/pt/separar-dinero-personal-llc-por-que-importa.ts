@@ -1,5 +1,7 @@
 export default `
 
+Misturar dinheiro pessoal e da LLC durante 12 meses basta para que um juiz declare piercing the corporate veil e o património pessoal do membro responda diretamente pelas dívidas.
+
 <p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> para o fluxo completo passo a passo, consulta o nosso <a href="/pt/abrir-llc-eua">guia definitivo para abrir uma LLC nos EUA</a>.</p>
 Se vens de recibos verdes ou de MEI, provavelmente habituaste-te a usar a conta profissional para pagar o supermercado. Com uma LLC, este reflexo destrói a proteção jurídica: um juiz americano fura o véu („pierce the corporate veil”) em três movimentos suspeitos. E as Finanças, por outro lado, podem requalificar esses fluxos como rendimentos pessoais não declarados.
 

@@ -1,4 +1,6 @@
-export default `La normativa antiblanqueig espanyola (SEPBLAC, AEAT, Banc d'Espanya) s'ha endurit molt els darrers anys, i del cantó americà el Corporate Transparency Act obliga cada LLC al BOI Report. Per a un empresari català, els dos règims se sumen, i ignorar-ne un obre la porta a sancions dures.
+export default `El règim nord-americà de PBC (Bank Secrecy Act, 1970, complementat pel Patriot Act del 2001) imposa a Mercury, Wise i Relay processos de KYC documental abans de la primera transferència.
+
+La normativa antiblanqueig espanyola (SEPBLAC, AEAT, Banc d'Espanya) s'ha endurit molt els darrers anys, i del cantó americà el Corporate Transparency Act obliga cada LLC al BOI Report. Per a un empresari català, els dos règims se sumen, i ignorar-ne un obre la porta a sancions dures.
 
 La bona notícia: complir amb aquestes regulacions és senzill si entens què s'espera de tu i mantens bones pràctiques des del primer dia.
 

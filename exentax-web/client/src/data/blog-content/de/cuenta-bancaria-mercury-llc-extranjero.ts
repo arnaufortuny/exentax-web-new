@@ -1,5 +1,7 @@
 export default `
 
+Mercury verlangt 0 USD monatliche Gebühr und genehmigt rund 70 bis 80 % der legitimen Anträge von Nicht-Ansässigen in weniger als 5 Arbeitstagen.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA</a>.</p>
 Wenn Sie Ihre LLC gerade gegründet haben, ist die nächste Frage fast immer dieselbe: „Wie eröffne ich ein US-Bankkonto, ohne nach New York zu fliegen?" Jahrelang war Mercury die Standardantwort. **Im Jahr aktuell empfiehlt Exentax Mercury jedoch nicht mehr als Hauptkonto, wenn Ihre gesamte Geschäftstätigkeit außerhalb der USA stattfindet.** Der Grund ist sehr konkret: Wenn Mercury ein Konto im Rahmen einer Compliance-Prüfung schließt, was aktuell immer häufiger vorkommt, **erstattet Mercury die Guthaben per physischem USD-Scheck auf den Namen der LLC, per Post an die registrierte Geschäftsadresse**. Für einen Steuerresidenten in Deutschland, Österreich, der Schweiz oder LATAM ist das Einlösen dieses Schecks langsam, teuer und in vielen europäischen Banken faktisch unmöglich.
 

@@ -1,4 +1,6 @@
-export default `You have a US LLC and everything seems to work: you invoice clients, move money, pay your expenses. So far so good. But there's an uncomfortable question very few people ask in time: **is it actually being managed correctly?**
+export default `Running a well-kept LLC boils down to a checklist of 12 verifiable items in 30 minutes, aligned with the IRS's 4 critical checkpoints and the formation state's 4 critical checkpoints.
+
+You have a US LLC and everything seems to work: you invoice clients, move money, pay your expenses. So far so good. But there's an uncomfortable question very few people ask in time: **is it actually being managed correctly?**
 
 At Exentax we deal every week with people whose LLC is fully active and who only realise, once a problem is already on the table, that they have spent years operating with a half-closed structure. Not out of bad faith, but out of misinformation. The formation was sold as "ready to operate" and nobody bothered to explain the real ongoing obligations.
 

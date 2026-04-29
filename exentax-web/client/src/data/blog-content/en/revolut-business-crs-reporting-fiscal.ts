@@ -1,4 +1,6 @@
-export default `Revolut Business is one of the most widely used European neobanks among entrepreneurs running international structures, and particularly among owners of <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLCs</a> who need to operate in EUR, GBP and other currencies with European cards. But Revolut is also a European financial institution subject to the **Common Reporting Standard (CRS)**, with very specific consequences that almost nobody explains before opening the account.
+export default `Revolut Business automatically reports balances under CRS to more than 120 jurisdictions since 2018, and pushes information to Spain's AEAT before September 30 every year.
+
+Revolut Business is one of the most widely used European neobanks among entrepreneurs running international structures, and particularly among owners of <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLCs</a> who need to operate in EUR, GBP and other currencies with European cards. But Revolut is also a European financial institution subject to the **Common Reporting Standard (CRS)**, with very specific consequences that almost nobody explains before opening the account.
 
 ## Which Revolut entities operate and where they report
 

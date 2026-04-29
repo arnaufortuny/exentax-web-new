@@ -1,5 +1,7 @@
 export default `
 
+The 5 most-used European holding jurisdictions — the Netherlands, Luxembourg, Ireland, Malta and Cyprus — offer participation exemptions from 5% or 10% ownership and effective rates below 12.5%.
+
 The word "holding" is used in many contexts and almost always with some confusion. For some it is a structure only suitable for large fortunes; for others it is a magical fiscal shortcut. Neither view is correct. A holding is a concrete tool, with concrete uses, that makes sense in some cases and not in others.
 
 At Exentax we frequently explain to clients when a holding adds value and when it is complexity without purpose. This guide summarizes how it really works, what types exist and when it is worth considering one.

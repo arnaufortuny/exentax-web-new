@@ -1,4 +1,6 @@
-export default `É a pergunta que mais se repete quando um cliente fecha a sua LLC connosco: "será que a Mercury, a Wise ou a Slash contam à Autoridade Tributária aquilo que tenho?". A resposta curta poucos a dão com clareza. Aqui vai: **uma conta financeira aberta nos Estados Unidos por uma LLC de não residente não é trocada automaticamente com a tua autoridade fiscal local**. E esse ponto, bem entendido, é um dos pilares que faz com que uma estrutura LLC bem desenhada funcione com o silêncio operativo que se espera dela.
+export default `Os Estados Unidos nunca assinaram o CRS de 2014, e o FATCA só troca com Espanha — ao abrigo do Modelo 1 IGA — informação parcial sobre contas de pessoas singulares, não sobre a conta operacional da tua LLC.
+
+É a pergunta que mais se repete quando um cliente fecha a sua LLC connosco: "será que a Mercury, a Wise ou a Slash contam à Autoridade Tributária aquilo que tenho?". A resposta curta poucos a dão com clareza. Aqui vai: **uma conta financeira aberta nos Estados Unidos por uma LLC de não residente não é trocada automaticamente com a tua autoridade fiscal local**. E esse ponto, bem entendido, é um dos pilares que faz com que uma estrutura LLC bem desenhada funcione com o silêncio operativo que se espera dela.
 
 Isto não significa "esconder". Significa que a tua estrutura está montada numa jurisdição que opera com regras próprias, e que o teu compliance é o que tu decides cumprir no teu país, sem surpresas externas.
 

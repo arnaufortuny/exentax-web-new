@@ -1,4 +1,6 @@
-export default `Tens una LLC als EUA i tot sembla funcionar: factures als teus clients, mous diners, pagues les despeses. Fins aquí, perfecte. Però hi ha una pregunta incòmoda que pocs es fan a temps: **està realment ben gestionada?**
+export default `Tenir una LLC ben gestionada es redueix a un checklist amb 12 punts verificables en 30 minuts, alineat amb els 4 punts crítics de l'IRS i els 4 punts crítics de l'estat de constitució.
+
+Tens una LLC als EUA i tot sembla funcionar: factures als teus clients, mous diners, pagues les despeses. Fins aquí, perfecte. Però hi ha una pregunta incòmoda que pocs es fan a temps: **està realment ben gestionada?**
 
 A Exentax atenem cada setmana persones amb LLC activa que descobreixen, quan ja tenen un problema a sobre, que han operat durant anys amb una estructura mal tancada. No per mala fe, sinó per desinformació. La constitució es va vendre com a "llesta per operar" i ningú no va tornar a explicar quines obligacions reals hi havia al darrere.
 

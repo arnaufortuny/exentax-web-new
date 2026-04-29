@@ -1,5 +1,7 @@
 export default `
 
+YouTube retiene por defecto el 30 % de los ingresos US a un creador no residente sin W-8BEN; con LLC pass-through y W-8BEN-E el tratamiento se ordena bajo el convenio de doble imposición de turno.
+
 Si eres creador de contenido, ya sea en YouTube, Twitch, TikTok, podcasts o cualquier plataforma digital, probablemente estés generando ingresos desde múltiples países sin una estructura pensada para eso.
 
 YouTube te paga desde Irlanda. Twitch desde San Francisco. Los sponsors pueden estar en cualquier parte del mundo. Y tú estás intentando encajar todo eso en un régimen fiscal local que no fue diseñado para tu realidad.

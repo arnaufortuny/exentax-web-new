@@ -1,5 +1,7 @@
 export default `
 
+The IRS requires you to keep an LLC's bookkeeping records for at least 7 years, and a Form 5472 with no books behind it starts at a 25,000-dollar penalty.
+
 Keeping the books for a US LLC scares people more than it should. Most non-resident owners come from a model where an accountant asks for paperwork, files quarterly returns and you barely touch anything. With a US LLC the model is different: day to day operations are run by you with modern tools, and at year end an orderly bookkeeping translates into a clean filing with no surprises.
 
 At Exentax we walk hundreds of clients through this every year. This guide summarizes how to organize the bookkeeping of your LLC step by step, without shortcuts but without making it more complicated than it needs to be.

@@ -1,4 +1,6 @@
-export default `Sie arbeiten zwei Monate aus Lissabon, einen Monat aus Bali, fliegen für die Geburtstagsfeier wieder nach Berlin und ziehen dann nach Mexiko-Stadt weiter? Sie leben den Traum des deutschsprachigen Digital Nomad und haben ein steuerliches Problem, das sich leise aufbaut: Solange Ihr steuerlicher Wohnsitz nicht sauber geklärt ist, kann das deutsche, österreichische oder schweizerische Finanzamt Sie weiterhin als unbeschränkt steuerpflichtig behandeln, mit allen Konsequenzen.
+export default `Die 183-Tage-Regel ist der universelle erste Test der Steueransässigkeit: Wer sie in einem der 195 Länder der Welt überschreitet, ist dort für das Jahr steuerpflichtig.
+
+Sie arbeiten zwei Monate aus Lissabon, einen Monat aus Bali, fliegen für die Geburtstagsfeier wieder nach Berlin und ziehen dann nach Mexiko-Stadt weiter? Sie leben den Traum des deutschsprachigen Digital Nomad und haben ein steuerliches Problem, das sich leise aufbaut: Solange Ihr steuerlicher Wohnsitz nicht sauber geklärt ist, kann das deutsche, österreichische oder schweizerische Finanzamt Sie weiterhin als unbeschränkt steuerpflichtig behandeln, mit allen Konsequenzen.
 
 In diesem Artikel erklären wir, wie steuerliche Ansässigkeit für einen Digital Nomad wirklich funktioniert, wie ein sauberer Wegzug aus Deutschland oder Österreich aussieht und welche Zielländer aktuell realistisch sind.
 

@@ -1,5 +1,7 @@
 export default `
 
+El 80 % de las LLCs que llegan a Exentax con problemas arrastra el mismo top 5: BOI fuera de plazo, Form 5472 sin presentar, Annual Report caducado, Registered Agent perdido y mezcla de fondos personales.
+
 Si ya tienes una LLC en Estados Unidos, este artículo te interesa. No es para alguien que está pensando en constituirla: es para quien ya está operando con una y empieza a sospechar que no se la explicaron del todo.
 
 En Exentax atendemos cada semana a personas con LLC activa que descubren errores críticos años después de la constitución. No por mala fe, sino porque el modelo de muchos servicios es "te la abro y desaparezco". Aquí van los diez errores que más se repiten, qué consecuencias tienen y cómo se corrigen.

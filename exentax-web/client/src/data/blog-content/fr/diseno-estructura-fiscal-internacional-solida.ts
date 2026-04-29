@@ -1,4 +1,6 @@
-export default `Concevoir une structure fiscale internationale n'est pas choisir le pays le plus exotique sur la carte: c'est un exercice méthodique. Cadre Exentax en six étapes.
+export default `Une structure fiscale internationale solide croise au moins 3 juridictions (résidence, siège opérationnel, banque) et se heurte aux 15 actions BEPS de l'OCDE conçues pour empêcher le transfert artificiel de bénéfices.
+
+Concevoir une structure fiscale internationale n'est pas choisir le pays le plus exotique sur la carte: c'est un exercice méthodique. Cadre Exentax en six étapes.
 
 ## Étape 1: Diagnostic réel
 

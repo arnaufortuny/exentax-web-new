@@ -1,5 +1,7 @@
 export default `
 
+El Registered Agent es obligatorio en los 50 estados de EE.UU., cuesta entre 50 $ y 300 $ al año y su función primaria es recibir el correo legal del IRS o del estado en menos de 24 horas.
+
 <p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos</a>.</p>
 
 Si estás constituyendo una LLC en Estados Unidos, uno de los requisitos obligatorios es designar un Registered Agent (agente registrado). No es opcional, sin él, no puedes constituir ni mantener tu LLC en ningún estado. Pero tranquilo: en Exentax el Registered Agent viene incluido en todos nuestros planes. No tienes que buscarlo, contratarlo ni renovarlo. Nos encargamos de todo.

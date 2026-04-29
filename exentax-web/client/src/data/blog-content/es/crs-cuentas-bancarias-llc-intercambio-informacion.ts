@@ -1,5 +1,7 @@
 export default `
 
+Más de 120 jurisdicciones intercambian saldos de cuentas bancarias bajo CRS, pero Estados Unidos no firmó el estándar OCDE de 2014 y por eso Mercury no envía datos automáticos a Hacienda.
+
 Si tienes una LLC en Estados Unidos y una cuenta en Mercury, Wise o Relay, es natural preguntarse: ¿puede Hacienda en mi país ver esa cuenta? ¿Saben cuánto dinero tengo allí?
 
 La respuesta corta: sí, potencialmente pueden. Pero eso no es un problema, es una ventaja si tu estructura está bien montada. Te explicamos cómo funciona.

@@ -1,4 +1,6 @@
-export default `When you open a US bank account for your LLC, the bank conducts due diligence on both your entity and you personally. Understanding this process helps you prepare and succeed. the difference between approval and rejection often comes down to preparation.
+export default `Mercury, Relay and Wise close bank due diligence in 5 to 10 business days, but reject roughly 25% of applications in the first round for incomplete paperwork.
+
+When you open a US bank account for your LLC, the bank conducts due diligence on both your entity and you personally. Understanding this process helps you prepare and succeed. the difference between approval and rejection often comes down to preparation.
 
 ## What is banking due diligence?
 

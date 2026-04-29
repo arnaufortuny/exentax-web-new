@@ -1,4 +1,6 @@
-export default `If you already have a US LLC, this article is for you. It's not for someone thinking about forming one: it's for someone who is already operating with one and starting to suspect they weren't told the full story.
+export default `About 80% of the troubled LLCs that reach Exentax carry the same top 5 problems: late BOI, missing Form 5472, lapsed Annual Report, dropped Registered Agent, and personal-funds commingling.
+
+If you already have a US LLC, this article is for you. It's not for someone thinking about forming one: it's for someone who is already operating with one and starting to suspect they weren't told the full story.
 
 At Exentax we deal every week with people whose LLC is fully active and who only discover critical mistakes years after formation. Not out of bad faith, but because the model of many providers is "I open it for you and disappear". Here are the ten mistakes we see most often, what they actually cost, and how to fix them.
 

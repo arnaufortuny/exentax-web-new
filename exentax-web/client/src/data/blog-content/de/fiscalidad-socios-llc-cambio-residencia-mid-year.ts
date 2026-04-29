@@ -1,4 +1,6 @@
-export default `Mitten im Jahr das Land der Steueransässigkeit zu wechseln, während Sie Mitglied einer US-LLC sind, ist eines der schwierigsten Szenarien. Nicht so sehr wegen des US-Teils (die LLC bleibt, was sie war), sondern wegen der Verteilung von Einkünften auf zwei Jurisdiktionen im selben Jahr.
+export default `Ein Wechsel der Steueransässigkeit mitten im Jahr zwingt dazu, das LLC-Einkommen zwischen beiden Ländern mit der 183-Tage-Regel und dem Split-Year-Treatment des jeweiligen DBA aufzuteilen.
+
+Mitten im Jahr das Land der Steueransässigkeit zu wechseln, während Sie Mitglied einer US-LLC sind, ist eines der schwierigsten Szenarien. Nicht so sehr wegen des US-Teils (die LLC bleibt, was sie war), sondern wegen der Verteilung von Einkünften auf zwei Jurisdiktionen im selben Jahr.
 
 ## Ausgangspunkt: die LLC bewegt sich nicht
 

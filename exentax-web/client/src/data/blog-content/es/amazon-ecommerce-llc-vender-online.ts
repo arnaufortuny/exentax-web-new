@@ -1,5 +1,7 @@
 export default `
 
+Amazon US movió más de 600.000 millones de dólares en ventas brutas en 2024, y el 100 % de esos cobros pasa por un proveedor que te exige un EIN y una cuenta bancaria americana antes de pagarte.
+
 Si quieres vender productos (físicos o digitales) en Amazon, Shopify, Etsy o cualquier plataforma de ecommerce, tener una <a href="/es/blog/constituir-llc-proceso-paso-a-paso">LLC en Estados Unidos</a> te abre puertas que desde tu país probablemente están cerradas, o limitadas con restricciones y retenciones.
 
 ## ¿Por qué una LLC para ecommerce?

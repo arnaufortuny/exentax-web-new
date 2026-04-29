@@ -1,4 +1,6 @@
-export default `Para uma agência digital em Portugal que factura clientes americanos, britânicos ou do Médio Oriente, a combinação Lda + IVA intracomunitário + retenções acaba por sufocar a margem. Uma LLC permite faturar diretamente em USD sem retenções e simplifica radicalmente deals com agências norte-americanas que muitas vezes nem assinam sob entidade portuguesa.
+export default `Uma agência de marketing digital com LLC pass-through paga 0 % federal nos EUA e empurra o cálculo para a declaração local de cada sócio: até 47 % em Espanha, 10 % em Andorra.
+
+Para uma agência digital em Portugal que factura clientes americanos, britânicos ou do Médio Oriente, a combinação Lda + IVA intracomunitário + retenções acaba por sufocar a margem. Uma LLC permite faturar diretamente em USD sem retenções e simplifica radicalmente deals com agências norte-americanas que muitas vezes nem assinam sob entidade portuguesa.
 
 ## Por que as agências escolhem uma LLC
 

@@ -1,5 +1,7 @@
 export default `
 
+Cambiar de residencia fiscal a mitad de año fiscal obliga a prorratear la renta de la LLC entre los dos países usando la regla de los 183 días y el split-year treatment de cada convenio.
+
 Cambiar de país de residencia fiscal a mitad de un ejercicio mientras eres miembro de una LLC americana es uno de los escenarios más complicados de gestionar bien. No tanto por lo americano (la LLC sigue siendo lo que era), sino por cómo se imputan los ingresos a dos jurisdicciones distintas durante el mismo año.
 
 Este artículo cubre el marco real: cómo se determina dónde tributas, cómo se reparte el ejercicio entre dos países, y qué errores típicos se evitan con planificación previa.

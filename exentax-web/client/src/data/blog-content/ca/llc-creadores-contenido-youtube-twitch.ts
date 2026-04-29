@@ -1,4 +1,6 @@
-export default `Per a un creador català que viu d'AdSense, Twitch, Patreon i patrocinis, l'equació fiscal se'n va ràpidament: IRPF amb tram autonòmic, quota d'autònoms, IVA sobre subs i la withholding tax que Google reté. Una LLC canvia aquest escenari radicalment.
+export default `YouTube reté per defecte el 30 % dels ingressos US d'un creador no resident sense W-8BEN; amb LLC pass-through i W-8BEN-E el tractament s'ordena sota el conveni de doble imposició aplicable.
+
+Per a un creador català que viu d'AdSense, Twitch, Patreon i patrocinis, l'equació fiscal se'n va ràpidament: IRPF amb tram autonòmic, quota d'autònoms, IVA sobre subs i la withholding tax que Google reté. Una LLC canvia aquest escenari radicalment.
 
 YouTube et paga des d'Irlanda. Twitch des de San Francisco. Els sponsors poden estar a qualsevol part del món. I tu estàs intentant encaixar tot això en un règim fiscal local que no va ser dissenyat per a la teva realitat.
 

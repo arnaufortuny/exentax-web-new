@@ -1,4 +1,6 @@
-export default `Anti-Money Laundering (AML) regulations are increasingly strict worldwide. Understanding how they affect your LLC helps you operate without problems. If you have a US LLC, these regulations affect you directly, even though your business is completely legitimate.
+export default `The US AML regime (Bank Secrecy Act, 1970, plus the Patriot Act of 2001) requires Mercury, Wise and Relay to run documentary KYC processes before processing the first transfer.
+
+Anti-Money Laundering (AML) regulations are increasingly strict worldwide. Understanding how they affect your LLC helps you operate without problems. If you have a US LLC, these regulations affect you directly, even though your business is completely legitimate.
 
 The good news: complying with these regulations is straightforward if you understand what's expected and maintain good practices from day one.
 

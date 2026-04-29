@@ -1,4 +1,6 @@
-export default `Les banques et fintechs américaines mènent aujourd'hui une due diligence plus serrée que ce à quoi les entrepreneurs français sont habitués chez BNP ou Boursorama Pro. Un simple passeport et une adresse Registered Agent ne suffisent plus: il faut une histoire cohérente entre votre activité déclarée à la DGFiP, votre site, vos factures et la provenance des fonds.
+export default `Mercury, Relay et Wise bouclent la due diligence bancaire en 5 à 10 jours ouvrés, mais rejettent environ 25 % des demandes au premier tour pour dossier incomplet.
+
+Les banques et fintechs américaines mènent aujourd'hui une due diligence plus serrée que ce à quoi les entrepreneurs français sont habitués chez BNP ou Boursorama Pro. Un simple passeport et une adresse Registered Agent ne suffisent plus: il faut une histoire cohérente entre votre activité déclarée à la DGFiP, votre site, vos factures et la provenance des fonds.
 
 Comprendre ce processus vous aide à mieux vous préparer et à accélérer l'ouverture de votre compte.
 

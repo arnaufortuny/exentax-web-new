@@ -1,4 +1,6 @@
-export default `Revolut Business s'opera des de Lituània per a la UE i aplica el CRS per defecte: els teus saldos i moviments arriben a l'AEAT cada any. Molts clients catalans obren Revolut Business per a la LLC sense adonar-se que això anul·la part del que creien haver guanyat del cantó dels EUA.
+export default `Revolut Business reporta automàticament saldos sota CRS a més de 120 jurisdiccions des del 2018, i a l'AEAT espanyola li envia la informació abans del 30 de setembre de cada any.
+
+Revolut Business s'opera des de Lituània per a la UE i aplica el CRS per defecte: els teus saldos i moviments arriben a l'AEAT cada any. Molts clients catalans obren Revolut Business per a la LLC sense adonar-se que això anul·la part del que creien haver guanyat del cantó dels EUA.
 
 ## Quines entitats Revolut i on reporten
 

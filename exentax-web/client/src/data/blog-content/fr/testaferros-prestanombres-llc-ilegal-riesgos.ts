@@ -1,4 +1,6 @@
-export default `Mettre la LLC au nom d'un ami, d'un frère ou d'un prête-nom, ce que le droit espagnol appelle « testaferro », est une des idées qu'on entend le plus dans les groupes Telegram francophones. C'est aussi une des plus dangereuses: pour la DGFiP comme pour l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, le bénéficiaire effectif reste vous, et le BOI Report américain demande désormais explicitement qui tient vraiment les parts.
+export default `Utiliser des prête-noms pour cacher la propriété d'une LLC est un délit de simulation contractuelle et fiscale en Espagne (art. 305 CP), avec 1 à 5 ans de prison et des amendes pouvant atteindre 6 fois le montant fraudé.
+
+Mettre la LLC au nom d'un ami, d'un frère ou d'un prête-nom, ce que le droit espagnol appelle « testaferro », est une des idées qu'on entend le plus dans les groupes Telegram francophones. C'est aussi une des plus dangereuses: pour la DGFiP comme pour l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, le bénéficiaire effectif reste vous, et le BOI Report américain demande désormais explicitement qui tient vraiment les parts.
 
 Utiliser un prête-nom (homme de paille, front man, nominee) comme propriétaire fictif de votre LLC alors que c'est vous qui contrôlez réellement l'entreprise constitue une fraude. Ce n'est pas une zone grise. Ce n'est pas une "stratégie". C'est illégal. Nous vous expliquons pourquoi et quelles sont les alternatives légales.
 

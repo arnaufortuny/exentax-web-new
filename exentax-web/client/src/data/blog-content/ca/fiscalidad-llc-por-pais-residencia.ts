@@ -1,4 +1,6 @@
-export default `Una Single-Member LLC americana no paga impost federal als Estats Units si el soci és no resident i els ingressos no tenen origen americà: l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> la tracta com a "Disregarded Entity" i els beneficis van directament al soci. Fins aquí, ningú no ho discuteix.
+export default `Una LLC pass-through paga 0 % federal als EUA, però tributa fins al 47 % en IRPF si l'amo resideix a Espanya, fins al 45 % a França, fins al 45 % a Alemanya o fins al 22 % a Portugal amb NHR.
+
+Una Single-Member LLC americana no paga impost federal als Estats Units si el soci és no resident i els ingressos no tenen origen americà: l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> la tracta com a "Disregarded Entity" i els beneficis van directament al soci. Fins aquí, ningú no ho discuteix.
 
 La pregunta real és què passa després al teu país de residència. I aquí la resposta canvia radicalment segons si vius a Catalunya o a un altre país: conveni fiscal, tractament de la LLC com a transparent o opaca, IRPF amb tram autonòmic, quota d'autònoms… Aquest article ho ordena país per país posant el focus al cas català.
 

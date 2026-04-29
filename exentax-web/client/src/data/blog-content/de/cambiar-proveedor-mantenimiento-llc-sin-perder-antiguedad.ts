@@ -1,4 +1,6 @@
-export default `Den Wartungsanbieter Ihrer LLC zu wechseln ist eine der Entscheidungen, die am meisten Angst machen und am wenigsten Folgen haben, wenn man es richtig macht. Die meisten LLC-Inhaber, die zu Exentax kommen, um zu wechseln, haben dieselbe Sorge: "Verliere ich Bestandszeit?", "Wird etwas zurückgesetzt?", "Merkt es der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>?".
+export default `Den Maintenance-Anbieter einer LLC zu wechseln dauert in der Regel 7 bis 14 Tage und berührt das ursprüngliche Gründungsdatum nicht, das beim Secretary of State unverändert bleibt.
+
+Den Wartungsanbieter Ihrer LLC zu wechseln ist eine der Entscheidungen, die am meisten Angst machen und am wenigsten Folgen haben, wenn man es richtig macht. Die meisten LLC-Inhaber, die zu Exentax kommen, um zu wechseln, haben dieselbe Sorge: "Verliere ich Bestandszeit?", "Wird etwas zurückgesetzt?", "Merkt es der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>?".
 
 Kurze Antwort: nein, nein und fast nein. Lange Antwort ist dieser Leitfaden.
 

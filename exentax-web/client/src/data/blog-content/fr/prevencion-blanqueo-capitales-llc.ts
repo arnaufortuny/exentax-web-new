@@ -1,4 +1,6 @@
-export default `La réglementation anti-blanchiment française (Tracfin, DGFiP, Banque de France) a été considérablement durcie ces dernières années, et côté américain, la CTA (Corporate Transparency Act) impose désormais à chaque LLC le BOI Report. Pour un entrepreneur français, les deux régimes se cumulent, et ignorer l'un des deux, c'est ouvrir la porte à des sanctions sérieuses.
+export default `Le régime américain LCB-FT (Bank Secrecy Act, 1970, complété par le Patriot Act de 2001) impose à Mercury, Wise et Relay des processus KYC documentaires avant le premier virement.
+
+La réglementation anti-blanchiment française (Tracfin, DGFiP, Banque de France) a été considérablement durcie ces dernières années, et côté américain, la CTA (Corporate Transparency Act) impose désormais à chaque LLC le BOI Report. Pour un entrepreneur français, les deux régimes se cumulent, et ignorer l'un des deux, c'est ouvrir la porte à des sanctions sérieuses.
 
 La bonne nouvelle: se conformer à ces réglementations est simple si vous comprenez ce qui est attendu de vous et si vous maintenez de bonnes pratiques dès le premier jour.
 

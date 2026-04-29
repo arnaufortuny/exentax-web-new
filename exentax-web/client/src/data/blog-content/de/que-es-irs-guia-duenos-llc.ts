@@ -1,4 +1,6 @@
-export default `Für einen DACH-Unternehmer ist die <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> das US-Pendant zum Finanzamt, funktioniert aber deutlich anders: Benachrichtigungen per Briefpost aus Austin, Texas, eigene Fallnummern pro Transaktion, und eine echte Möglichkeit, einen Agent telefonisch zu erreichen (was unsere Kunden regelmäßig überrascht). Zu verstehen, wie die IRS tickt, ist halbe Miete beim Betrieb einer LLC.
+export default `Die IRS bearbeitet jährlich über 240 Millionen Steuererklärungen mit rund 80.000 Beschäftigten und konzentriert sich bei einer Single-Member-LLC eines Nicht-Ansässigen auf 2 Formulare: Form 1120 und Form 5472.
+
+Für einen DACH-Unternehmer ist die <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> das US-Pendant zum Finanzamt, funktioniert aber deutlich anders: Benachrichtigungen per Briefpost aus Austin, Texas, eigene Fallnummern pro Transaktion, und eine echte Möglichkeit, einen Agent telefonisch zu erreichen (was unsere Kunden regelmäßig überrascht). Zu verstehen, wie die IRS tickt, ist halbe Miete beim Betrieb einer LLC.
 
 ## Was ist der IRS?
 

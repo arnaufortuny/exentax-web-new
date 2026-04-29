@@ -1,4 +1,6 @@
-export default `Si vens de mòduls o d'estimació objectiva, ja coneixes la frustració: les despeses reals no compten, només el coeficient. Una LLC funciona al revés: qualsevol despesa de negoci legítima redueix el resultat. Però „legítima” té una definició molt concreta a l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, no la dels grups de Telegram.
+export default `Una LLC pass-through pot deduir, segons la secció §162 de l'IRC, el 100 % de les despeses ordinàries i necessàries de l'activitat, sense sostre numèric predefinit però amb límits qualitatius estrictes.
+
+Si vens de mòduls o d'estimació objectiva, ja coneixes la frustració: les despeses reals no compten, només el coeficient. Una LLC funciona al revés: qualsevol despesa de negoci legítima redueix el resultat. Però „legítima” té una definició molt concreta a l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, no la dels grups de Telegram.
 
 ## La regla d'or: ordinària i necessària
 

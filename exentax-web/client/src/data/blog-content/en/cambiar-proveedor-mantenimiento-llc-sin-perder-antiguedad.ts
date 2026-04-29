@@ -1,4 +1,6 @@
-export default `Switching your LLC maintenance provider is one of the decisions that scares people most and has the fewest consequences when done right. The vast majority of LLC owners who come to Exentax wanting to switch share the same fear: "am I going to lose seniority?", "does anything reset?", "will the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> notice?".
+export default `Switching the maintenance provider of an LLC typically takes 7 to 14 days and never touches the original formation date, which stays untouched on the Secretary of State record.
+
+Switching your LLC maintenance provider is one of the decisions that scares people most and has the fewest consequences when done right. The vast majority of LLC owners who come to Exentax wanting to switch share the same fear: "am I going to lose seniority?", "does anything reset?", "will the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> notice?".
 
 Short answer: no, no and almost no. Long answer is this guide.
 

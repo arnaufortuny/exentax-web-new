@@ -1,4 +1,6 @@
-export default `O Reino Unido continua a ser, depois do Brexit, uma das jurisdições mais utilizadas do mundo para criar empresas. A combinação de constituição rápida e barata, transparência regulatória, banca solvente e reputação internacional permanece intacta. No entanto, a sua fiscalidade mudou nos últimos anos e convém entender quando uma UK Limited (UK Ltd) é a opção adequada e quando não é.
+export default `Após a subida de 2023, uma UK Ltd paga 19 % de Corporation Tax no escalão small profits e até 25 % acima de 250.000 £ de lucro anual.
+
+O Reino Unido continua a ser, depois do Brexit, uma das jurisdições mais utilizadas do mundo para criar empresas. A combinação de constituição rápida e barata, transparência regulatória, banca solvente e reputação internacional permanece intacta. No entanto, a sua fiscalidade mudou nos últimos anos e convém entender quando uma UK Limited (UK Ltd) é a opção adequada e quando não é.
 
 Na Exentax recebemos perguntas frequentes sobre constituir uma sociedade britânica em comparação com uma LLC americana. Este guia explica de forma honesta os requisitos, custos, fiscalidade real e casos em que cada opção encaixa melhor.
 

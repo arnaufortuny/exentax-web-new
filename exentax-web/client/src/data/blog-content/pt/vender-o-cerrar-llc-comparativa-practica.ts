@@ -1,4 +1,6 @@
-export default `Chega um momento em muitas LLCs em que a pergunta é a mesma: fecho-a ou vendo-a? As duas opções são legítimas, mas custo, calendário e resultado fiscal são totalmente diferentes.
+export default `Fechar uma LLC bem feita leva 30 a 60 dias e exige Form 1120 + 5472 final; vendê-la custa normalmente entre 0 $ e 5.000 $ em honorários e permite preservar o EIN e a antiguidade bancária.
+
+Chega um momento em muitas LLCs em que a pergunta é a mesma: fecho-a ou vendo-a? As duas opções são legítimas, mas custo, calendário e resultado fiscal são totalmente diferentes.
 
 ## As três opções reais
 

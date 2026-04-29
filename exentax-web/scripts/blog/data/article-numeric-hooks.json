@@ -1,0 +1,898 @@
+{
+  "amazon-ecommerce-llc-vender-online": {
+    "es": "Amazon US movió más de 600.000 millones de dólares en ventas brutas en 2024, y el 100 % de esos cobros pasa por un proveedor que te exige un EIN y una cuenta bancaria americana antes de pagarte.",
+    "en": "Amazon US moved more than 600 billion dollars in gross sales in 2024, and 100% of those payouts run through a provider that asks for an EIN and a US bank account before sending you a single dollar.",
+    "fr": "Amazon US a généré plus de 600 milliards de dollars de ventes brutes en 2024, et 100 % de ces versements passent par un prestataire qui exige un EIN et un compte bancaire américain avant de te payer.",
+    "de": "Amazon US wickelte 2024 über 600 Milliarden US-Dollar Bruttoumsatz ab, und 100 % dieser Auszahlungen laufen über einen Dienstleister, der eine EIN und ein US-Bankkonto verlangt, bevor du auch nur einen Dollar siehst.",
+    "pt": "A Amazon US movimentou mais de 600 mil milhões de dólares em vendas brutas em 2024, e 100 % desses pagamentos passam por um operador que exige um EIN e uma conta bancária americana antes de te pagar.",
+    "ca": "Amazon US va moure més de 600.000 milions de dòlars en vendes brutes el 2024, i el 100 % d'aquests pagaments passa per un operador que t'exigeix un EIN i un compte bancari americà abans de pagar-te."
+  },
+  "auditoria-rapida-llc-12-puntos-30-minutos": {
+    "es": "12 puntos verificables en 30 minutos cubren cerca del 90 % de los problemas que vemos cada semana en LLCs ya constituidas.",
+    "en": "12 verifiable checkpoints in 30 minutes cover roughly 90% of the problems we see every week in already-formed LLCs.",
+    "fr": "12 points vérifiables en 30 minutes couvrent environ 90 % des problèmes que nous voyons chaque semaine dans des LLC déjà constituées.",
+    "de": "12 prüfbare Punkte in 30 Minuten decken rund 90 % der Probleme ab, die wir bei bereits gegründeten LLCs jede Woche sehen.",
+    "pt": "12 pontos verificáveis em 30 minutos cobrem cerca de 90 % dos problemas que vemos toda semana em LLCs já constituídas.",
+    "ca": "12 punts verificables en 30 minuts cobreixen prop del 90 % dels problemes que veiem cada setmana en LLCs ja constituïdes."
+  },
+  "autonomo-espana-vs-llc-estados-unidos": {
+    "es": "Un autónomo español en tramo medio entrega entre el 35 % y el 47 % de su renta entre IRPF y cuota RETA (de 200 € a 1.600 € al mes); una LLC pass-through paga 0 % federal en EE.UU. y traslada el cómputo a tu IRPF.",
+    "en": "A Spanish autónomo in a mid bracket hands over 35% to 47% of income between IRPF and the RETA fee (200 to 1,600 euros a month); a US pass-through LLC pays 0% federal and shifts the calculation to your local return.",
+    "fr": "Un autónomo espagnol en tranche moyenne reverse 35 à 47 % de son revenu entre IRPF et cotisation RETA (de 200 à 1 600 € par mois) ; une LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur ta déclaration locale.",
+    "de": "Ein spanischer Autónomo in mittlerer Stufe gibt zwischen 35 % und 47 % seines Einkommens an IRPF und RETA-Beitrag ab (200 bis 1.600 € pro Monat); eine US-Pass-through-LLC zahlt 0 % föderal und verlagert die Berechnung in deine lokale Erklärung.",
+    "pt": "Um autónomo espanhol num escalão médio entrega entre 35 % e 47 % do rendimento entre IRPF e quota RETA (de 200 € a 1.600 € por mês); uma LLC pass-through paga 0 % federal nos EUA e empurra o cálculo para a tua declaração local.",
+    "ca": "Un autònom espanyol en tram mitjà entrega entre el 35 % i el 47 % de la renda entre IRPF i quota RETA (de 200 € a 1.600 € al mes); una LLC pass-through paga 0 % federal als EUA i trasllada el càlcul a la teva declaració local."
+  },
+  "autonomos-espana-por-que-dejar-de-serlo": {
+    "es": "El autónomo español típico arrastra entre 200 € y 590 € de cuota mínima 2026 más un IRPF que llega al 47 %, y eso se paga factures o no factures cada mes.",
+    "en": "The typical Spanish autónomo carries a 2026 minimum monthly fee between 200 and 590 euros plus an IRPF that climbs to 47%, payable whether you invoice or not.",
+    "fr": "L'autónomo espagnol type cumule une cotisation minimale 2026 entre 200 et 590 € et un IRPF qui grimpe à 47 %, à régler chaque mois, que tu factures ou non.",
+    "de": "Der typische spanische Autónomo trägt 2026 einen Mindestbeitrag zwischen 200 und 590 € pro Monat plus eine IRPF, die bis 47 % reicht — fällig, ob du Rechnungen schreibst oder nicht.",
+    "pt": "O autónomo espanhol típico arrasta entre 200 € e 590 € de quota mínima 2026 e um IRPF que chega a 47 %, que pagas factures ou não factures.",
+    "ca": "L'autònom espanyol típic arrossega entre 200 € i 590 € de quota mínima 2026 i un IRPF que arriba al 47 %, que pagues facturis o no facturis."
+  },
+  "bancos-vs-fintech-llc-donde-abrir-cuenta": {
+    "es": "Mercury cobra 0 $ al mes y abre online en 5 días; un banco tradicional como Bank of America pide presencia física en EE.UU. y entre 25 $ y 50 $ de mantenimiento mensual.",
+    "en": "Mercury charges 0 dollars a month and onboards online in 5 days; a traditional bank like Bank of America requires physical presence in the US and 25 to 50 dollars in monthly maintenance.",
+    "fr": "Mercury facture 0 $ par mois et t'ouvre un compte en ligne en 5 jours ; une banque classique comme Bank of America exige une présence physique aux États-Unis et entre 25 $ et 50 $ de frais mensuels.",
+    "de": "Mercury verlangt 0 USD pro Monat und eröffnet online in 5 Tagen; eine klassische Bank wie Bank of America fordert physische Präsenz in den USA und 25 bis 50 USD Monatsgebühr.",
+    "pt": "A Mercury cobra 0 $ por mês e abre online em 5 dias; um banco tradicional como o Bank of America exige presença física nos EUA e entre 25 $ e 50 $ de manutenção mensal.",
+    "ca": "Mercury cobra 0 $ al mes i obre en línia en 5 dies; un banc tradicional com Bank of America demana presència física als EUA i entre 25 $ i 50 $ de manteniment mensual."
+  },
+  "boe-febrero-2020-llc-doctrina-administrativa": {
+    "es": "La consulta vinculante V0290-20 de la DGT, fechada el 11 de febrero de 2020, es el documento que ordena cómo tributa una LLC americana en manos de un residente fiscal en España.",
+    "en": "Spain's binding ruling V0290-20, dated February 11 2020, is the single document that frames how a US LLC is taxed in the hands of a Spanish tax resident.",
+    "fr": "La réponse contraignante V0290-20 de la DGT espagnole, datée du 11 février 2020, est le document qui encadre la fiscalité d'une LLC américaine entre les mains d'un résident fiscal espagnol.",
+    "de": "Die verbindliche Auskunft V0290-20 der spanischen DGT vom 11. Februar 2020 ist das Dokument, das die Besteuerung einer US-LLC in den Händen eines spanischen Steueransässigen regelt.",
+    "pt": "A resposta vinculativa V0290-20 da DGT espanhola, de 11 de fevereiro de 2020, é o documento que enquadra como uma LLC americana tributa nas mãos de um residente fiscal em Espanha.",
+    "ca": "La consulta vinculant V0290-20 de la DGT espanyola, de l'11 de febrer de 2020, és el document que ordena com tributa una LLC americana en mans d'un resident fiscal a Espanya."
+  },
+  "boi-report-fincen-guia-completa-2026": {
+    "es": "Tras el bloqueo judicial de marzo de 2025, FinCEN solo exige BOI Report a las foreign reporting companies; la sanción civil sigue ajustada a 591 $ por día y un máximo de 14.778 $ por incumplimiento continuado.",
+    "en": "After the March 2025 court block, FinCEN only requires the BOI Report from foreign reporting companies; the civil penalty stays at 591 dollars per day, capped at 14,778 dollars per continued violation.",
+    "fr": "Après le blocage judiciaire de mars 2025, FinCEN n'exige le BOI Report qu'aux foreign reporting companies ; la sanction civile reste fixée à 591 $ par jour, plafonnée à 14 778 $ par violation continue.",
+    "de": "Nach dem Gerichtsbeschluss vom März 2025 verlangt FinCEN den BOI Report nur noch von foreign reporting companies; die zivile Strafe bleibt bei 591 USD pro Tag, gedeckelt bei 14.778 USD pro fortgesetzten Verstoß.",
+    "pt": "Depois do bloqueio judicial de março de 2025, o FinCEN só exige o BOI Report às foreign reporting companies; a sanção civil mantém-se em 591 $ por dia, com tecto de 14.778 $ por incumprimento continuado.",
+    "ca": "Després del bloqueig judicial de març de 2025, FinCEN només exigeix el BOI Report a les foreign reporting companies; la sanció civil es manté en 591 $ per dia, amb un sostre de 14.778 $ per incompliment continuat."
+  },
+  "bookkeeping-llc-paso-a-paso": {
+    "es": "El IRS exige conservar los registros contables de la LLC durante al menos 7 años, y un Form 5472 sin libros que lo respalden arranca con una sanción de 25.000 $.",
+    "en": "The IRS requires you to keep an LLC's bookkeeping records for at least 7 years, and a Form 5472 with no books behind it starts at a 25,000-dollar penalty.",
+    "fr": "L'IRS exige de conserver la comptabilité d'une LLC pendant au moins 7 ans, et un Form 5472 sans livres derrière démarre à une amende de 25 000 $.",
+    "de": "Die IRS verlangt, die Buchhaltung einer LLC mindestens 7 Jahre aufzubewahren; ein Form 5472 ohne Belege beginnt bei 25.000 USD Strafe.",
+    "pt": "O IRS exige conservar os registos contabilísticos de uma LLC durante pelo menos 7 anos, e um Form 5472 sem livros por trás arranca com 25.000 $ de sanção.",
+    "ca": "L'IRS exigeix conservar els registres comptables d'una LLC durant almenys 7 anys, i un Form 5472 sense llibres al darrere arrenca amb 25.000 $ de sanció."
+  },
+  "cambiar-divisas-llc-mejores-opciones": {
+    "es": "Wise convierte USD a EUR con un spread medio de 0,41 %, Mercury aplica cerca del 1 % y un banco español tradicional puede comerse entre el 2 % y el 4 % en cada operación.",
+    "en": "Wise converts USD to EUR at a mid-market spread of 0.41%, Mercury hovers around 1%, and a traditional Spanish bank can swallow 2% to 4% on every transfer.",
+    "fr": "Wise convertit l'USD en EUR avec un écart moyen de 0,41 %, Mercury tourne autour de 1 % et une banque espagnole classique peut prélever 2 à 4 % sur chaque opération.",
+    "de": "Wise tauscht USD in EUR mit einem durchschnittlichen Spread von 0,41 % um, Mercury liegt bei rund 1 %, eine klassische spanische Bank kann pro Vorgang 2 bis 4 % verlangen.",
+    "pt": "A Wise converte USD em EUR com um spread médio de 0,41 %, a Mercury ronda 1 % e um banco espanhol tradicional pode levar entre 2 % e 4 % em cada operação.",
+    "ca": "Wise converteix USD a EUR amb un spread mitjà del 0,41 %, Mercury voreja l'1 % i un banc espanyol tradicional pot endur-se entre el 2 % i el 4 % en cada operació."
+  },
+  "cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad": {
+    "es": "Una migración de proveedor de mantenimiento de una LLC se completa habitualmente en 7 a 14 días sin alterar la fecha de constitución original, que sigue figurando intacta en el Secretary of State.",
+    "en": "Switching the maintenance provider of an LLC typically takes 7 to 14 days and never touches the original formation date, which stays untouched on the Secretary of State record.",
+    "fr": "Une migration de prestataire de maintenance d'une LLC prend en général 7 à 14 jours et ne modifie pas la date de constitution d'origine, qui reste intacte au Secretary of State.",
+    "de": "Den Maintenance-Anbieter einer LLC zu wechseln dauert in der Regel 7 bis 14 Tage und berührt das ursprüngliche Gründungsdatum nicht, das beim Secretary of State unverändert bleibt.",
+    "pt": "Mudar de prestador de manutenção de uma LLC demora normalmente 7 a 14 dias e não altera a data de constituição original, que permanece intacta no Secretary of State.",
+    "ca": "Una migració de proveïdor de manteniment d'una LLC es completa normalment en 7 a 14 dies i no toca la data de constitució original, que continua intacta al Secretary of State."
+  },
+  "caminos-legales-minimos-impuestos": {
+    "es": "Pasar del 47 % de tipo marginal en España al 9 % corporativo en Emiratos Árabes Unidos es legal, pero exige cambiar tu residencia fiscal real, no solo tu dirección postal.",
+    "en": "Moving from a 47% marginal rate in Spain to the 9% corporate rate in the UAE is legal, but it requires actually changing your tax residency, not just your mailing address.",
+    "fr": "Passer du taux marginal de 47 % en Espagne au taux corporate de 9 % aux Émirats arabes unis est légal, mais cela exige de changer réellement de résidence fiscale, pas juste d'adresse postale.",
+    "de": "Vom spanischen Spitzensteuersatz von 47 % auf den 9-%-Unternehmenssteuersatz der VAE zu wechseln ist legal, verlangt aber einen echten Wohnsitzwechsel, nicht nur eine neue Postadresse.",
+    "pt": "Passar do escalão marginal de 47 % em Espanha para os 9 % corporativos dos Emirados Árabes Unidos é legal, mas exige mudar realmente de residência fiscal, não apenas de morada postal.",
+    "ca": "Passar del 47 % de tipus marginal a Espanya al 9 % corporatiu dels Emirats Àrabs Units és legal, però exigeix canviar realment de residència fiscal, no només d'adreça postal."
+  },
+  "como-disolver-cerrar-llc-paso-a-paso": {
+    "es": "Disolver bien una LLC lleva entre 30 y 60 días y exige presentar el último Form 1120 + 5472 marcado como final return; saltarse ese paso convierte la LLC en un acumulador de sanciones de 25.000 $ por año.",
+    "en": "A clean LLC dissolution runs 30 to 60 days and requires filing a final Form 1120 + 5472 marked as final return; skipping that step turns the LLC into a 25,000-dollar-per-year penalty accumulator.",
+    "fr": "Bien dissoudre une LLC prend 30 à 60 jours et impose de déposer un dernier Form 1120 + 5472 marqué final return ; sauter cette étape transforme la LLC en accumulateur d'amendes de 25 000 $ par an.",
+    "de": "Eine LLC sauber aufzulösen dauert 30 bis 60 Tage und verlangt das letzte Form 1120 + 5472 als final return; wer das auslässt, sammelt Strafen von 25.000 USD pro Jahr.",
+    "pt": "Dissolver bem uma LLC demora 30 a 60 dias e obriga a apresentar um último Form 1120 + 5472 marcado como final return; saltar esse passo transforma a LLC num acumulador de sanções de 25.000 $ por ano.",
+    "ca": "Dissoldre bé una LLC porta entre 30 i 60 dies i obliga a presentar l'últim Form 1120 + 5472 marcat com a final return; saltar-se aquest pas converteix la LLC en un acumulador de sancions de 25.000 $ per any."
+  },
+  "como-obtener-itin-numero-fiscal-irs": {
+    "es": "El IRS tarda entre 7 y 11 semanas en emitir un ITIN tras recibir el W-7, y el número final tiene 9 dígitos con la estructura 9XX-XX-XXXX.",
+    "en": "The IRS takes 7 to 11 weeks to issue an ITIN after receiving the W-7, and the final number has 9 digits in the 9XX-XX-XXXX format.",
+    "fr": "L'IRS met 7 à 11 semaines à émettre un ITIN après réception du W-7, et le numéro final compte 9 chiffres au format 9XX-XX-XXXX.",
+    "de": "Die IRS braucht 7 bis 11 Wochen, um nach Eingang des W-7 eine ITIN auszustellen; die endgültige Nummer hat 9 Stellen im Format 9XX-XX-XXXX.",
+    "pt": "O IRS leva 7 a 11 semanas a emitir um ITIN depois de receber o W-7, e o número final tem 9 dígitos no formato 9XX-XX-XXXX.",
+    "ca": "L'IRS triga entre 7 i 11 setmanes a emetre un ITIN després de rebre el W-7, i el número final té 9 dígits en el format 9XX-XX-XXXX."
+  },
+  "como-operar-llc-dia-a-dia": {
+    "es": "Operar una LLC bien llevada consume entre 2 y 5 horas al mes de gestión: subir facturas a un drive, conciliar Mercury y guardar el Form 1120 + 5472 una vez al año.",
+    "en": "Running a well-kept LLC takes 2 to 5 hours of admin a month: uploading invoices to a drive, reconciling Mercury, and filing Form 1120 + 5472 once a year.",
+    "fr": "Faire tourner une LLC bien tenue prend 2 à 5 heures d'administration par mois : déposer les factures dans un drive, rapprocher Mercury et déposer le Form 1120 + 5472 une fois par an.",
+    "de": "Eine gut geführte LLC zu betreiben kostet 2 bis 5 Stunden Verwaltung pro Monat: Rechnungen auf ein Drive laden, Mercury abgleichen und einmal jährlich Form 1120 + 5472 einreichen.",
+    "pt": "Operar uma LLC bem gerida consome 2 a 5 horas de gestão por mês: subir faturas para um drive, reconciliar a Mercury e entregar o Form 1120 + 5472 uma vez por ano.",
+    "ca": "Operar una LLC ben portada consumeix entre 2 i 5 hores de gestió al mes: pujar factures a un drive, conciliar Mercury i entregar el Form 1120 + 5472 un cop l'any."
+  },
+  "constituir-llc-proceso-paso-a-paso": {
+    "es": "Constituir una LLC en Wyoming, Delaware o New Mexico se completa en 7 a 14 días y cuesta entre 400 $ y 1.500 $ el primer año, según estado y proveedor.",
+    "en": "Forming an LLC in Wyoming, Delaware, or New Mexico takes 7 to 14 days and costs 400 to 1,500 dollars in the first year, depending on state and provider.",
+    "fr": "Créer une LLC au Wyoming, au Delaware ou au Nouveau-Mexique prend 7 à 14 jours et coûte entre 400 $ et 1 500 $ la première année, selon l'État et le prestataire.",
+    "de": "Eine LLC in Wyoming, Delaware oder New Mexico zu gründen dauert 7 bis 14 Tage und kostet im ersten Jahr 400 bis 1.500 USD, je nach Bundesstaat und Anbieter.",
+    "pt": "Constituir uma LLC no Wyoming, Delaware ou Novo México demora 7 a 14 dias e custa entre 400 $ e 1.500 $ no primeiro ano, consoante o estado e o prestador.",
+    "ca": "Constituir una LLC a Wyoming, Delaware o Nou Mèxic es completa en 7 a 14 dies i costa entre 400 $ i 1.500 $ el primer any, segons estat i proveïdor."
+  },
+  "convenio-doble-imposicion-usa-espana-llc": {
+    "es": "El Convenio entre España y Estados Unidos de 22 de febrero de 1990, con su protocolo de enmienda en vigor desde el 27 de noviembre de 2019, fija las reglas que evitan pagar dos veces sobre la misma renta de tu LLC.",
+    "en": "The US-Spain tax treaty signed on February 22, 1990, plus the amending protocol in force since November 27, 2019, sets the rules that stop you from paying twice on the same LLC income.",
+    "fr": "La convention fiscale entre l'Espagne et les États-Unis du 22 février 1990, complétée par le protocole d'amendement en vigueur depuis le 27 novembre 2019, fixe les règles qui évitent de payer deux fois sur le même revenu de ta LLC.",
+    "de": "Das DBA zwischen Spanien und den USA vom 22. Februar 1990 samt dem seit dem 27. November 2019 in Kraft befindlichen Änderungsprotokoll legt die Regeln fest, die verhindern, dass du dasselbe LLC-Einkommen zweimal versteuerst.",
+    "pt": "A convenção entre Espanha e Estados Unidos de 22 de fevereiro de 1990, com o protocolo de alteração em vigor desde 27 de novembro de 2019, fixa as regras que evitam pagar duas vezes sobre o mesmo rendimento da tua LLC.",
+    "ca": "El Conveni entre Espanya i Estats Units de 22 de febrer de 1990, amb el protocol d'esmena en vigor des del 27 de novembre de 2019, fixa les regles que eviten pagar dues vegades sobre la mateixa renda de la teva LLC."
+  },
+  "crear-empresa-andorra-ventajas": {
+    "es": "Andorra aplica un IRPF máximo del 10 % y un Impuesto de Sociedades del 10 %, frente al 47 % de IRPF y el 25 % de Sociedades en España.",
+    "en": "Andorra applies a top personal income tax of 10% and a corporate tax of 10%, versus Spain's 47% personal rate and 25% corporate rate.",
+    "fr": "L'Andorre applique un IRPF plafonné à 10 % et un impôt sur les sociétés de 10 %, contre 47 % d'IRPF et 25 % d'IS en Espagne.",
+    "de": "Andorra hat einen maximalen IRPF von 10 % und eine Körperschaftsteuer von 10 %, gegenüber 47 % IRPF und 25 % Körperschaftsteuer in Spanien.",
+    "pt": "Andorra aplica um IRPF máximo de 10 % e um IRC de 10 %, contra os 47 % de IRPF e 25 % de IRC em Espanha.",
+    "ca": "Andorra aplica un IRPF màxim del 10 % i un Impost de Societats del 10 %, davant del 47 % d'IRPF i el 25 % de Societats a Espanya."
+  },
+  "criptomonedas-trading-llc-impuestos": {
+    "es": "Las plusvalías cripto en España tributan en escala del 19 % al 30 %, y el Modelo 721 obliga a declarar saldos en exchanges extranjeros desde 50.000 €.",
+    "en": "Crypto capital gains in Spain are taxed on a 19% to 30% scale, and Modelo 721 forces you to declare balances on foreign exchanges from 50,000 euros upward.",
+    "fr": "Les plus-values crypto en Espagne sont imposées sur une grille de 19 à 30 %, et le Modelo 721 impose de déclarer les soldes sur les exchanges étrangers à partir de 50 000 €.",
+    "de": "Krypto-Kapitalerträge werden in Spanien gestaffelt mit 19 % bis 30 % besteuert, und das Modelo 721 verpflichtet zur Meldung von Beständen auf ausländischen Exchanges ab 50.000 €.",
+    "pt": "As mais-valias cripto em Espanha tributam numa escala de 19 % a 30 %, e o Modelo 721 obriga a declarar saldos em exchanges estrangeiras a partir de 50.000 €.",
+    "ca": "Les plusvàlues cripto a Espanya tributen en escala del 19 % al 30 %, i el Model 721 obliga a declarar saldos en exchanges estrangers a partir de 50.000 €."
+  },
+  "crs-2-0-carf-por-que-usa-no-firmara-llc": {
+    "es": "CRS 2.0 y CARF entran en vigor en 2026 con más de 120 jurisdicciones adheridas, pero Estados Unidos sigue fuera del estándar y se rige por su propio FATCA bilateral.",
+    "en": "CRS 2.0 and CARF come into force in 2026 with more than 120 signatory jurisdictions, but the United States stays out of the standard and runs on its own bilateral FATCA.",
+    "fr": "CRS 2.0 et CARF entrent en vigueur en 2026 avec plus de 120 juridictions signataires, mais les États-Unis restent en dehors du standard et fonctionnent avec leur propre FATCA bilatéral.",
+    "de": "CRS 2.0 und CARF treten 2026 mit über 120 unterzeichnenden Jurisdiktionen in Kraft, doch die USA bleiben außerhalb des Standards und nutzen ihr eigenes bilaterales FATCA.",
+    "pt": "O CRS 2.0 e o CARF entram em vigor em 2026 com mais de 120 jurisdições aderentes, mas os Estados Unidos continuam fora do standard e regem-se pelo seu próprio FATCA bilateral.",
+    "ca": "CRS 2.0 i CARF entren en vigor el 2026 amb més de 120 jurisdiccions adherides, però els Estats Units continuen fora de l'estàndard i es regeixen pel seu FATCA bilateral propi."
+  },
+  "crs-cuentas-bancarias-llc-intercambio-informacion": {
+    "es": "Más de 120 jurisdicciones intercambian saldos de cuentas bancarias bajo CRS, pero Estados Unidos no firmó el estándar OCDE de 2014 y por eso Mercury no envía datos automáticos a Hacienda.",
+    "en": "More than 120 jurisdictions exchange bank-account balances under CRS, but the United States never signed the OECD's 2014 standard, which is why Mercury does not send automatic data to your local tax office.",
+    "fr": "Plus de 120 juridictions échangent les soldes bancaires sous CRS, mais les États-Unis n'ont jamais signé le standard OCDE de 2014, raison pour laquelle Mercury n'envoie pas de données automatiques à ton fisc.",
+    "de": "Über 120 Jurisdiktionen tauschen Kontosalden unter CRS aus, doch die USA haben den OECD-Standard von 2014 nie unterzeichnet — deshalb meldet Mercury keine automatischen Daten an dein Finanzamt.",
+    "pt": "Mais de 120 jurisdições trocam saldos de contas bancárias ao abrigo do CRS, mas os Estados Unidos nunca assinaram o standard OCDE de 2014, e por isso a Mercury não envia dados automáticos à tua autoridade fiscal.",
+    "ca": "Més de 120 jurisdiccions intercanvien saldos de comptes bancaris sota CRS, però els Estats Units no van signar l'estàndard OCDE del 2014 i per això Mercury no envia dades automàtiques a la teva agència tributària."
+  },
+  "crs-residentes-espana-latam-implicaciones": {
+    "es": "El CRS lleva más de 120 países intercambiando saldos bancarios desde 2017, y un residente fiscal en España con cuenta en Andorra, Suiza o México verá esos datos llegar a Hacienda cada septiembre.",
+    "en": "CRS has been moving bank balances between more than 120 countries since 2017, and a Spanish tax resident with an account in Andorra, Switzerland or Mexico will see that data land at the tax office every September.",
+    "fr": "Le CRS fait circuler les soldes bancaires entre plus de 120 pays depuis 2017, et un résident fiscal espagnol avec un compte en Andorre, en Suisse ou au Mexique verra ces données arriver à l'administration chaque septembre.",
+    "de": "Das CRS bewegt seit 2017 Kontosalden zwischen über 120 Ländern, und ein spanischer Steueransässiger mit einem Konto in Andorra, der Schweiz oder Mexiko sieht diese Daten jeden September beim Finanzamt eintreffen.",
+    "pt": "O CRS movimenta saldos bancários entre mais de 120 países desde 2017, e um residente fiscal em Espanha com conta em Andorra, Suíça ou México vê esses dados chegar à Agência Tributária todo setembro.",
+    "ca": "El CRS mou saldos bancaris entre més de 120 països des del 2017, i un resident fiscal a Espanya amb compte a Andorra, Suïssa o Mèxic veurà aquestes dades arribar a Hisenda cada setembre."
+  },
+  "cuanto-cuesta-constituir-llc": {
+    "es": "Constituir una LLC cuesta de 0 $ a 50 $ de tasa estatal en New Mexico, 100 $ en Wyoming y 90 $ en Delaware; con servicio profesional el coste total del primer año queda entre 400 $ y 1.500 $.",
+    "en": "Forming an LLC costs 0 to 50 dollars of state fee in New Mexico, 100 dollars in Wyoming, and 90 dollars in Delaware; with a professional service, the total first-year cost lands between 400 and 1,500 dollars.",
+    "fr": "Créer une LLC coûte 0 à 50 $ de droit d'État au Nouveau-Mexique, 100 $ au Wyoming et 90 $ au Delaware ; avec un prestataire pro, le coût total de la première année se situe entre 400 $ et 1 500 $.",
+    "de": "Eine LLC zu gründen kostet 0 bis 50 USD Staatsgebühr in New Mexico, 100 USD in Wyoming und 90 USD in Delaware; mit einem professionellen Dienstleister landen die Gesamtkosten des ersten Jahres bei 400 bis 1.500 USD.",
+    "pt": "Constituir uma LLC custa de 0 $ a 50 $ de taxa estatal no Novo México, 100 $ no Wyoming e 90 $ no Delaware; com serviço profissional, o custo total do primeiro ano fica entre 400 $ e 1.500 $.",
+    "ca": "Constituir una LLC costa de 0 $ a 50 $ de taxa estatal a Nou Mèxic, 100 $ a Wyoming i 90 $ a Delaware; amb servei professional el cost total del primer any queda entre 400 $ i 1.500 $."
+  },
+  "cuenta-bancaria-mercury-llc-extranjero": {
+    "es": "Mercury cobra 0 $ de mantenimiento mensual y aprueba el 70-80 % de las solicitudes legítimas de no residentes en menos de 5 días laborables.",
+    "en": "Mercury charges 0 dollars in monthly maintenance and approves roughly 70 to 80 percent of legitimate non-resident applications in under 5 business days.",
+    "fr": "Mercury facture 0 $ de frais mensuels et approuve environ 70 à 80 % des demandes légitimes de non-résidents en moins de 5 jours ouvrés.",
+    "de": "Mercury verlangt 0 USD monatliche Gebühr und genehmigt rund 70 bis 80 % der legitimen Anträge von Nicht-Ansässigen in weniger als 5 Arbeitstagen.",
+    "pt": "A Mercury cobra 0 $ de manutenção mensal e aprova 70 a 80 % dos pedidos legítimos de não residentes em menos de 5 dias úteis.",
+    "ca": "Mercury cobra 0 $ de manteniment mensual i aprova entre el 70 i el 80 % de les sol·licituds legítimes de no residents en menys de 5 dies laborables."
+  },
+  "cuentas-bancarias-usa-reportan-hacienda-verdad": {
+    "es": "Estados Unidos no firmó el CRS de 2014, y FATCA solo intercambia con España bajo el Modelo 1 IGA información parcial sobre cuentas de personas físicas, no sobre la cuenta operativa de tu LLC.",
+    "en": "The US never signed the 2014 CRS, and FATCA only exchanges with Spain — under Model 1 IGA — partial information on individual accounts, not on your LLC's operating account.",
+    "fr": "Les États-Unis n'ont jamais signé le CRS de 2014, et FATCA n'échange avec l'Espagne, via le Model 1 IGA, qu'une information partielle sur les comptes de personnes physiques, pas sur le compte opérationnel de ta LLC.",
+    "de": "Die USA haben das CRS von 2014 nie unterzeichnet, und FATCA tauscht mit Spanien — unter dem Model 1 IGA — nur Teilinformationen zu Konten natürlicher Personen aus, nicht zum Geschäftskonto deiner LLC.",
+    "pt": "Os Estados Unidos nunca assinaram o CRS de 2014, e o FATCA só troca com Espanha — ao abrigo do Modelo 1 IGA — informação parcial sobre contas de pessoas singulares, não sobre a conta operacional da tua LLC.",
+    "ca": "Els Estats Units no van signar el CRS del 2014, i FATCA només intercanvia amb Espanya — sota el Model 1 IGA — informació parcial de comptes de persones físiques, no del compte operatiu de la teva LLC."
+  },
+  "cuota-autonomo-2026": {
+    "es": "La cuota mínima de autónomos en 2026 va de 200 € a 590 € al mes según tramo de rendimientos netos, y la máxima alcanza 1.600 € en el tramo más alto.",
+    "en": "The 2026 minimum autónomo fee in Spain ranges from 200 to 590 euros a month depending on net earnings bracket, and the maximum reaches 1,600 euros at the top bracket.",
+    "fr": "La cotisation minimale d'autónomo en 2026 va de 200 € à 590 € par mois selon le palier de revenus nets, et le maximum atteint 1 600 € au palier le plus élevé.",
+    "de": "Der Mindestbeitrag für spanische Autónomos liegt 2026 zwischen 200 € und 590 € pro Monat je nach Nettoeinkommensstufe, das Maximum erreicht 1.600 € in der höchsten Stufe.",
+    "pt": "A quota mínima de autónomos em 2026 vai de 200 € a 590 € por mês consoante o escalão de rendimentos líquidos, e a máxima chega a 1.600 € no escalão mais alto.",
+    "ca": "La quota mínima d'autònoms el 2026 va de 200 € a 590 € al mes segons tram de rendiments nets, i la màxima arriba a 1.600 € al tram més alt."
+  },
+  "cuotas-autonomos-2026-guia-completa": {
+    "es": "Las cuotas de autónomos 2026 están organizadas en 15 tramos de rendimientos netos que van de 200 € a 1.600 € mensuales y se ajustan dos veces al año contra los rendimientos reales declarados.",
+    "en": "The 2026 Spanish autónomo contributions are organized into 15 net-income brackets that range from 200 to 1,600 euros a month and are reconciled twice a year against actual declared earnings.",
+    "fr": "Les cotisations d'autónomos 2026 sont structurées en 15 paliers de revenus nets allant de 200 € à 1 600 € par mois, et sont régularisées deux fois par an contre les revenus réellement déclarés.",
+    "de": "Die Autónomo-Beiträge 2026 sind in 15 Nettoeinkommensstufen von 200 € bis 1.600 € pro Monat gegliedert und werden zweimal jährlich mit den tatsächlich erklärten Einkünften abgeglichen.",
+    "pt": "As quotas de autónomos 2026 estão organizadas em 15 escalões de rendimentos líquidos que vão de 200 € a 1.600 € mensais e ajustam-se duas vezes por ano contra os rendimentos reais declarados.",
+    "ca": "Les quotes d'autònoms 2026 s'organitzen en 15 trams de rendiments nets que van de 200 € a 1.600 € mensuals i es regularitzen dos cops l'any contra els rendiments reals declarats."
+  },
+  "dac7-plataformas-digitales-reporting-2026": {
+    "es": "DAC7 obliga a Amazon, Airbnb, Vinted o Etsy a reportar a la AEAT cualquier vendedor que supere 30 operaciones o 2.000 € de ingresos al año desde 2024.",
+    "en": "DAC7 forces Amazon, Airbnb, Vinted or Etsy to report to Spain's AEAT every seller crossing 30 transactions or 2,000 euros of yearly income, in force since 2024.",
+    "fr": "La directive DAC7 oblige Amazon, Airbnb, Vinted ou Etsy à déclarer à l'administration espagnole tout vendeur dépassant 30 opérations ou 2 000 € de revenus annuels, en vigueur depuis 2024.",
+    "de": "DAC7 verpflichtet Amazon, Airbnb, Vinted oder Etsy seit 2024, jeden Verkäufer mit mehr als 30 Transaktionen oder 2.000 € Jahresumsatz an die spanische AEAT zu melden.",
+    "pt": "A DAC7 obriga a Amazon, Airbnb, Vinted ou Etsy a reportar à AEAT qualquer vendedor que ultrapasse 30 operações ou 2.000 € de rendimentos anuais, em vigor desde 2024.",
+    "ca": "La DAC7 obliga Amazon, Airbnb, Vinted o Etsy a reportar a l'AEAT qualsevol venedor que superi 30 operacions o 2.000 € d'ingressos anuals, en vigor des del 2024."
+  },
+  "dac8-criptomonedas-reporting-fiscal-2026": {
+    "es": "La DAC8 entra en aplicación el 1 de enero de 2026 y obliga a los exchanges de cripto a reportar a la administración fiscal de cada residente las operaciones de sus 27 jurisdicciones de la UE.",
+    "en": "DAC8 takes effect on January 1, 2026 and forces crypto exchanges to report each resident's transactions to the tax authority in any of the EU's 27 jurisdictions.",
+    "fr": "La DAC8 s'applique à compter du 1er janvier 2026 et oblige les exchanges crypto à déclarer à l'administration fiscale de chaque résident des 27 juridictions de l'UE leurs opérations.",
+    "de": "DAC8 gilt ab dem 1. Januar 2026 und verpflichtet Krypto-Exchanges, die Transaktionen jedes Steueransässigen an die Finanzbehörden der 27 EU-Jurisdiktionen zu melden.",
+    "pt": "A DAC8 entra em aplicação a 1 de janeiro de 2026 e obriga as exchanges de cripto a reportar à administração fiscal de cada residente das 27 jurisdições da UE as suas operações.",
+    "ca": "La DAC8 s'aplica des de l'1 de gener de 2026 i obliga les exchanges de cripto a reportar a l'administració fiscal de cada resident de les 27 jurisdiccions de la UE les seves operacions."
+  },
+  "diferencia-llc-corporation-s-corp-c-corp": {
+    "es": "EE.UU. ofrece 4 vehículos principales: la LLC pass-through con 0 % federal, la S-Corp limitada a residentes, la C-Corp con 21 % federal y la sole proprietorship sin escudo legal.",
+    "en": "The US offers 4 main business vehicles: the pass-through LLC at 0% federal, the S-Corp restricted to US residents, the C-Corp at 21% federal, and the sole proprietorship with no legal shield.",
+    "fr": "Les États-Unis proposent 4 véhicules principaux : la LLC pass-through à 0 % fédéral, la S-Corp réservée aux résidents, la C-Corp à 21 % fédéral et la sole proprietorship sans bouclier juridique.",
+    "de": "Die USA bieten 4 Hauptvehikel: die Pass-through-LLC mit 0 % föderal, die nur für Residents zugängliche S-Corp, die C-Corp mit 21 % föderal und die Sole Proprietorship ohne Haftungsschutz.",
+    "pt": "Os EUA oferecem 4 veículos principais: a LLC pass-through a 0 % federal, a S-Corp restrita a residentes, a C-Corp a 21 % federal e a sole proprietorship sem escudo legal.",
+    "ca": "EUA ofereix 4 vehicles principals: la LLC pass-through al 0 % federal, la S-Corp restringida a residents, la C-Corp al 21 % federal i la sole proprietorship sense escut legal."
+  },
+  "diseno-estructura-fiscal-internacional-solida": {
+    "es": "Una estructura fiscal internacional sólida cruza al menos 3 jurisdicciones (residencia, sede operativa, banca) y se enfrenta a las 15 acciones BEPS de la OCDE diseñadas para evitar el desplazamiento artificial de beneficios.",
+    "en": "A solid international tax structure crosses at least 3 jurisdictions (residency, operations, banking) and runs into the OECD's 15 BEPS actions, designed to stop artificial profit shifting.",
+    "fr": "Une structure fiscale internationale solide croise au moins 3 juridictions (résidence, siège opérationnel, banque) et se heurte aux 15 actions BEPS de l'OCDE conçues pour empêcher le transfert artificiel de bénéfices.",
+    "de": "Eine solide internationale Steuerstruktur überschneidet mindestens 3 Jurisdiktionen (Wohnsitz, Operativsitz, Banking) und stößt auf die 15 BEPS-Aktionen der OECD gegen künstliche Gewinnverlagerung.",
+    "pt": "Uma estrutura fiscal internacional sólida cruza pelo menos 3 jurisdições (residência, sede operacional, banca) e enfrenta as 15 ações BEPS da OCDE concebidas para travar o desvio artificial de lucros.",
+    "ca": "Una estructura fiscal internacional sòlida creua almenys 3 jurisdiccions (residència, seu operativa, banca) i s'enfronta a les 15 accions BEPS de l'OCDE dissenyades per evitar el desplaçament artificial de beneficis."
+  },
+  "documentar-separacion-fondos-llc-historial": {
+    "es": "El IRS exige conservar 7 años de extractos bancarios y justificantes para demostrar que el dinero de la LLC y el personal nunca se mezclaron, condición indispensable para mantener el escudo del corporate veil.",
+    "en": "The IRS requires you to keep 7 years of bank statements and receipts to prove that LLC money and personal money never mixed — a hard condition to preserve the corporate veil.",
+    "fr": "L'IRS exige de conserver 7 ans de relevés bancaires et de justificatifs pour prouver que l'argent de la LLC et le tien personnel ne se sont jamais mélangés, condition indispensable pour préserver le corporate veil.",
+    "de": "Die IRS verlangt 7 Jahre Kontoauszüge und Belege, um zu beweisen, dass LLC-Gelder und Privatgelder sich nie vermischt haben — Voraussetzung, um den Corporate Veil zu erhalten.",
+    "pt": "O IRS exige conservar 7 anos de extratos bancários e justificativos para provar que o dinheiro da LLC e o pessoal nunca se misturaram, condição indispensável para manter o corporate veil.",
+    "ca": "L'IRS exigeix conservar 7 anys d'extractes bancaris i justificants per demostrar que els diners de la LLC i els personals no s'han barrejat mai, condició indispensable per mantenir el corporate veil."
+  },
+  "documentos-llc-cuales-necesitas": {
+    "es": "El kit legal de una LLC bien constituida contiene 6 documentos imprescindibles: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si aplica), Registered Agent Acceptance y Banking Resolution.",
+    "en": "A properly formed LLC's legal kit contains 6 must-have documents: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (if applicable), Registered Agent Acceptance, and Banking Resolution.",
+    "fr": "Le kit juridique d'une LLC bien constituée comprend 6 documents incontournables : Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si applicable), Registered Agent Acceptance et Banking Resolution.",
+    "de": "Das Rechts-Kit einer korrekt gegründeten LLC enthält 6 Pflichtdokumente: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (sofern anwendbar), Registered Agent Acceptance und Banking Resolution.",
+    "pt": "O kit legal de uma LLC bem constituída contém 6 documentos imprescindíveis: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (se aplicável), Registered Agent Acceptance e Banking Resolution.",
+    "ca": "El kit legal d'una LLC ben constituïda conté 6 documents imprescindibles: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si escau), Registered Agent Acceptance i Banking Resolution."
+  },
+  "dubai-uae-mito-no-impuestos": {
+    "es": "Desde el 1 de junio de 2023 los Emiratos Árabes Unidos aplican un Corporate Tax del 9 % sobre beneficios superiores a 375.000 AED (unos 102.000 $), lo que termina con el mito del 0 %.",
+    "en": "Since June 1 2023 the UAE applies a 9% corporate tax on profits above 375,000 AED (around 102,000 dollars), ending the 0% myth.",
+    "fr": "Depuis le 1er juin 2023, les Émirats arabes unis appliquent un corporate tax de 9 % sur les bénéfices au-delà de 375 000 AED (environ 102 000 $), ce qui met fin au mythe du 0 %.",
+    "de": "Seit dem 1. Juni 2023 erheben die VAE eine Körperschaftsteuer von 9 % auf Gewinne über 375.000 AED (rund 102.000 USD) — das beendet den 0-%-Mythos.",
+    "pt": "Desde 1 de junho de 2023, os Emirados Árabes Unidos aplicam um Corporate Tax de 9 % sobre lucros acima de 375.000 AED (cerca de 102.000 $), o que termina com o mito do 0 %.",
+    "ca": "Des de l'1 de juny de 2023, els Emirats Àrabs Units apliquen un Corporate Tax del 9 % sobre beneficis superiors a 375.000 AED (uns 102.000 $), cosa que liquida el mite del 0 %."
+  },
+  "due-diligence-bancario-llc-americana": {
+    "es": "Mercury, Relay y Wise resuelven el due diligence bancario en 5 a 10 días laborables, pero rechazan en la primera ronda alrededor del 25 % de las solicitudes por documentación incompleta.",
+    "en": "Mercury, Relay and Wise close bank due diligence in 5 to 10 business days, but reject roughly 25% of applications in the first round for incomplete paperwork.",
+    "fr": "Mercury, Relay et Wise bouclent la due diligence bancaire en 5 à 10 jours ouvrés, mais rejettent environ 25 % des demandes au premier tour pour dossier incomplet.",
+    "de": "Mercury, Relay und Wise schließen die Banken-Due-Diligence in 5 bis 10 Arbeitstagen ab, lehnen aber rund 25 % der Anträge in der ersten Runde wegen unvollständiger Unterlagen ab.",
+    "pt": "A Mercury, a Relay e a Wise concluem o due diligence bancário em 5 a 10 dias úteis, mas rejeitam cerca de 25 % dos pedidos na primeira ronda por documentação incompleta.",
+    "ca": "Mercury, Relay i Wise tanquen la due diligence bancària en 5 a 10 dies laborables, però rebutgen al voltant del 25 % de les sol·licituds a la primera ronda per documentació incompleta."
+  },
+  "ein-numero-fiscal-llc-como-obtenerlo": {
+    "es": "El IRS emite el EIN de una LLC en 4 a 6 semanas tras enviar el Form SS-4 por fax (855-641-6935) cuando el solicitante es no residente sin SSN ni ITIN.",
+    "en": "The IRS issues an LLC's EIN in 4 to 6 weeks after the Form SS-4 is faxed to 855-641-6935, when the applicant is a non-resident without SSN or ITIN.",
+    "fr": "L'IRS délivre l'EIN d'une LLC en 4 à 6 semaines après l'envoi du Form SS-4 par fax au 855-641-6935 lorsque le demandeur est non-résident sans SSN ni ITIN.",
+    "de": "Die IRS stellt die EIN einer LLC in 4 bis 6 Wochen aus, nachdem das Form SS-4 per Fax an 855-641-6935 gesendet wurde — wenn der Antragsteller Nicht-Ansässiger ohne SSN oder ITIN ist.",
+    "pt": "O IRS emite o EIN de uma LLC em 4 a 6 semanas depois do Form SS-4 ser enviado por fax para 855-641-6935 quando o requerente é não residente sem SSN nem ITIN.",
+    "ca": "L'IRS emet l'EIN d'una LLC en 4 a 6 setmanes després d'enviar el Form SS-4 per fax al 855-641-6935 quan el sol·licitant és no resident sense SSN ni ITIN."
+  },
+  "empresa-bulgaria-10-tributacion": {
+    "es": "Bulgaria aplica un Impuesto de Sociedades plano del 10 % y un IRPF también plano del 10 %, los más bajos de toda la Unión Europea.",
+    "en": "Bulgaria applies a flat 10% corporate tax and a flat 10% personal income tax — the lowest rates in the entire European Union.",
+    "fr": "La Bulgarie applique un impôt sur les sociétés forfaitaire de 10 % et un IRPF également forfaitaire de 10 %, les plus bas de toute l'Union européenne.",
+    "de": "Bulgarien erhebt eine pauschale Körperschaftsteuer von 10 % und eine ebenfalls pauschale Einkommensteuer von 10 % — die niedrigsten Sätze in der gesamten EU.",
+    "pt": "A Bulgária aplica um IRC fixo de 10 % e um IRS também fixo de 10 %, as taxas mais baixas de toda a União Europeia.",
+    "ca": "Bulgària aplica un Impost de Societats plana del 10 % i un IRPF també pla del 10 %, els més baixos de tota la Unió Europea."
+  },
+  "empresa-panama-fiscalidad-residencia": {
+    "es": "Panamá tributa al 25 % las rentas generadas dentro del país, pero aplica el principio territorial: las rentas obtenidas fuera de Panamá pagan 0 %, lo que define el atractivo histórico de la jurisdicción.",
+    "en": "Panama taxes Panama-source income at 25%, but applies the territorial principle: income earned outside Panama pays 0%, which defines the jurisdiction's historical appeal.",
+    "fr": "Le Panama impose à 25 % les revenus générés dans le pays, mais applique le principe territorial : les revenus obtenus hors du Panama paient 0 %, ce qui définit l'attrait historique de la juridiction.",
+    "de": "Panama besteuert in Panama erzieltes Einkommen mit 25 %, wendet aber das Territorialprinzip an: Im Ausland erzieltes Einkommen wird mit 0 % besteuert, was den historischen Reiz der Jurisdiktion ausmacht.",
+    "pt": "O Panamá tributa a 25 % os rendimentos gerados no país, mas aplica o princípio territorial: os rendimentos obtidos fora do Panamá pagam 0 %, o que define o atrativo histórico da jurisdição.",
+    "ca": "Panamà tributa al 25 % les rendes generades dins del país, però aplica el principi territorial: les rendes obtingudes fora de Panamà paguen 0 %, cosa que defineix l'atractiu històric de la jurisdicció."
+  },
+  "empresa-reino-unido-uk-ltd": {
+    "es": "Tras la subida de 2023, una UK Ltd paga 19 % de Corporation Tax en su tramo small profits y hasta 25 % a partir de 250.000 £ de beneficio anual.",
+    "en": "After the 2023 rate hike, a UK Ltd pays 19% Corporation Tax in the small profits bracket and up to 25% above 250,000 pounds of annual profit.",
+    "fr": "Après la hausse de 2023, une UK Ltd paie 19 % de Corporation Tax sur le palier small profits et jusqu'à 25 % au-delà de 250 000 £ de bénéfice annuel.",
+    "de": "Nach der Erhöhung von 2023 zahlt eine UK Ltd 19 % Corporation Tax in der Small-Profits-Stufe und bis zu 25 % ab 250.000 GBP Jahresgewinn.",
+    "pt": "Após a subida de 2023, uma UK Ltd paga 19 % de Corporation Tax no escalão small profits e até 25 % acima de 250.000 £ de lucro anual.",
+    "ca": "Després de la pujada del 2023, una UK Ltd paga 19 % de Corporation Tax en el tram small profits i fins al 25 % a partir de 250.000 £ de benefici anual."
+  },
+  "errores-criticos-llc-ya-constituida": {
+    "es": "El 80 % de las LLCs que llegan a Exentax con problemas arrastra el mismo top 5: BOI fuera de plazo, Form 5472 sin presentar, Annual Report caducado, Registered Agent perdido y mezcla de fondos personales.",
+    "en": "About 80% of the troubled LLCs that reach Exentax carry the same top 5 problems: late BOI, missing Form 5472, lapsed Annual Report, dropped Registered Agent, and personal-funds commingling.",
+    "fr": "Près de 80 % des LLC en difficulté qui arrivent chez Exentax cumulent le même top 5 : BOI hors délai, Form 5472 non déposé, Annual Report périmé, Registered Agent perdu et mélange des fonds personnels.",
+    "de": "Rund 80 % der in Schwierigkeiten geratenen LLCs, die zu Exentax kommen, schleppen dieselben Top 5: verspätete BOI, fehlendes Form 5472, abgelaufener Annual Report, verlorener Registered Agent und vermischte Privatgelder.",
+    "pt": "Cerca de 80 % das LLCs com problemas que chegam à Exentax arrasta o mesmo top 5: BOI fora de prazo, Form 5472 por entregar, Annual Report caducado, Registered Agent perdido e mistura de fundos pessoais.",
+    "ca": "Al voltant del 80 % de les LLCs amb problemes que arriben a Exentax arrosseguen el mateix top 5: BOI fora de termini, Form 5472 sense presentar, Annual Report caducat, Registered Agent perdut i barreja de fons personals."
+  },
+  "errores-fiscales-freelancers-espanoles": {
+    "es": "Una sanción tipo de la AEAT por declarar mal el IVA arranca en 150 € y escala fácilmente por encima de 3.000 € si supera el 50 % de la cuota dejada de ingresar (art. 191 LGT).",
+    "en": "A typical AEAT penalty for misreporting VAT starts at 150 euros and easily climbs above 3,000 euros when it exceeds 50% of the unpaid quota (LGT art. 191).",
+    "fr": "Une sanction type de l'AEAT pour mauvaise déclaration de TVA démarre à 150 € et grimpe facilement au-dessus de 3 000 € lorsqu'elle dépasse 50 % du montant impayé (art. 191 LGT).",
+    "de": "Eine typische AEAT-Strafe für falsche Mehrwertsteuererklärung beginnt bei 150 € und steigt leicht über 3.000 €, wenn sie 50 % der nicht abgeführten Quote überschreitet (Art. 191 LGT).",
+    "pt": "Uma sanção tipo da AEAT por declarar mal o IVA arranca em 150 € e escala facilmente acima de 3.000 € quando ultrapassa 50 % da quota não entregue (art. 191 LGT).",
+    "ca": "Una sanció tipus de l'AEAT per declarar malament l'IVA arrenca a 150 € i escala fàcilment per sobre de 3.000 € si supera el 50 % de la quota deixada d'ingressar (art. 191 LGT)."
+  },
+  "escalar-negocio-digital-llc-americana": {
+    "es": "Una LLC pass-through paga 0 % federal en Estados Unidos sin importar si facturas 50.000 $ o 1.000.000 $ al año, lo que la convierte en el vehículo más eficiente para escalar un negocio digital.",
+    "en": "A pass-through LLC pays 0% federal in the US whether you bill 50,000 dollars or 1,000,000 dollars a year, which makes it the most efficient vehicle for scaling a digital business.",
+    "fr": "Une LLC pass-through paie 0 % fédéral aux États-Unis que tu factures 50 000 $ ou 1 000 000 $ par an, ce qui en fait le véhicule le plus efficient pour passer à l'échelle un business digital.",
+    "de": "Eine Pass-through-LLC zahlt in den USA 0 % föderal — egal ob du 50.000 USD oder 1.000.000 USD pro Jahr fakturierst — und ist damit das effizienteste Vehikel, um ein Digitalgeschäft zu skalieren.",
+    "pt": "Uma LLC pass-through paga 0 % federal nos EUA, factures 50.000 $ ou 1.000.000 $ por ano, o que a torna o veículo mais eficiente para escalar um negócio digital.",
+    "ca": "Una LLC pass-through paga 0 % federal als EUA tant si factures 50.000 $ com 1.000.000 $ l'any, cosa que la converteix en el vehicle més eficient per escalar un negoci digital."
+  },
+  "estructura-fiscal-optima-freelancer-internacional": {
+    "es": "Un freelancer en España que factura a clientes internacionales puede pasar del 47 % marginal IRPF + cuota RETA a un esquema LLC pass-through con 0 % federal, ajustando la tributación al país real de residencia.",
+    "en": "A Spanish freelancer billing international clients can move from the 47% IRPF top rate plus RETA fee to a pass-through LLC scheme with 0% federal, aligning the tax with the real country of residence.",
+    "fr": "Un freelance en Espagne qui facture à l'international peut passer du taux marginal IRPF de 47 % et de la cotisation RETA à un schéma LLC pass-through à 0 % fédéral, en alignant la fiscalité sur le pays réel de résidence.",
+    "de": "Ein in Spanien ansässiger Freelancer mit internationalen Kunden kann vom 47-%-Spitzensteuersatz plus RETA-Beitrag auf eine Pass-through-LLC mit 0 % föderal wechseln und die Besteuerung am tatsächlichen Wohnsitzland ausrichten.",
+    "pt": "Um freelancer em Espanha que factura a clientes internacionais pode passar do escalão marginal de 47 % IRPF mais quota RETA para um esquema LLC pass-through a 0 % federal, alinhando a tributação com o país real de residência.",
+    "ca": "Un freelance a Espanya que factura a clients internacionals pot passar del 47 % marginal IRPF més quota RETA a un esquema LLC pass-through amb 0 % federal, ajustant la tributació al país real de residència."
+  },
+  "estructura-offshore-beneficios-riesgos": {
+    "es": "Las 15 acciones BEPS de la OCDE, lanzadas en 2015 y reforzadas con BEPS 2.0 en 2024, han desactivado el 80 % de las estructuras offshore que funcionaban hace una década.",
+    "en": "The OECD's 15 BEPS actions, launched in 2015 and reinforced by BEPS 2.0 in 2024, have neutralised about 80% of the offshore structures that worked a decade ago.",
+    "fr": "Les 15 actions BEPS de l'OCDE, lancées en 2015 et renforcées par BEPS 2.0 en 2024, ont neutralisé environ 80 % des structures offshore qui fonctionnaient il y a dix ans.",
+    "de": "Die 15 BEPS-Aktionen der OECD, 2015 gestartet und 2024 mit BEPS 2.0 verstärkt, haben rund 80 % der Offshore-Strukturen ausgehebelt, die vor zehn Jahren funktionierten.",
+    "pt": "As 15 ações BEPS da OCDE, lançadas em 2015 e reforçadas com BEPS 2.0 em 2024, neutralizaram cerca de 80 % das estruturas offshore que funcionavam há uma década.",
+    "ca": "Les 15 accions BEPS de l'OCDE, llançades el 2015 i reforçades amb BEPS 2.0 el 2024, han neutralitzat al voltant del 80 % de les estructures offshore que funcionaven fa una dècada."
+  },
+  "evitar-bloqueos-mercury-wise-revolut": {
+    "es": "Mercury y Wise resuelven el 90 % de los bloqueos preventivos en menos de 30 días si el cliente responde al primer correo de KYC con la documentación correcta.",
+    "en": "Mercury and Wise resolve 90% of preventive freezes in under 30 days when the customer answers the first KYC email with the right documentation.",
+    "fr": "Mercury et Wise résolvent 90 % des blocages préventifs en moins de 30 jours si le client répond au premier mail KYC avec la bonne documentation.",
+    "de": "Mercury und Wise lösen 90 % der präventiven Sperren in weniger als 30 Tagen, wenn der Kunde die erste KYC-Mail mit der richtigen Dokumentation beantwortet.",
+    "pt": "A Mercury e a Wise resolvem 90 % dos bloqueios preventivos em menos de 30 dias se o cliente responder ao primeiro email de KYC com a documentação correta.",
+    "ca": "Mercury i Wise resolen el 90 % dels bloquejos preventius en menys de 30 dies si el client respon al primer correu de KYC amb la documentació correcta."
+  },
+  "exit-tax-espana-llc-cripto-interactive-brokers": {
+    "es": "El exit tax español del art. 95 bis LIRPF se activa cuando, al cambiar de residencia, sumas más de 4.000.000 € en participaciones o más del 25 % en una entidad valorada en 1.000.000 €.",
+    "en": "Spain's exit tax under article 95 bis LIRPF is triggered when, on changing residency, you exceed 4,000,000 euros in holdings or hold more than 25% of a 1,000,000-euro entity.",
+    "fr": "L'exit tax espagnol prévu à l'article 95 bis LIRPF se déclenche lorsque, en changeant de résidence, tu dépasses 4 000 000 € de participations ou plus de 25 % d'une entité valorisée à 1 000 000 €.",
+    "de": "Die spanische Exit Tax nach Art. 95 bis LIRPF greift, wenn du beim Wechsel der Steueransässigkeit mehr als 4.000.000 € an Beteiligungen oder über 25 % einer mit 1.000.000 € bewerteten Einheit hältst.",
+    "pt": "O exit tax espanhol do art. 95 bis LIRPF é acionado quando, ao mudar de residência, somas mais de 4.000.000 € em participações ou mais de 25 % numa entidade avaliada em 1.000.000 €.",
+    "ca": "L'exit tax espanyol de l'art. 95 bis LIRPF s'activa quan, en canviar de residència, sumes més de 4.000.000 € en participacions o més del 25 % en una entitat valorada en 1.000.000 €."
+  },
+  "extension-irs-form-1120-como-solicitarla": {
+    "es": "El Form 7004 concede una prórroga automática de 6 meses para presentar el Form 1120 + 5472 de la LLC, siempre que se envíe antes del 15 de abril del año fiscal.",
+    "en": "Form 7004 grants an automatic 6-month extension to file the LLC's Form 1120 + 5472, provided it is submitted before April 15 of the tax year.",
+    "fr": "Le Form 7004 accorde une prolongation automatique de 6 mois pour déposer le Form 1120 + 5472 de la LLC, à condition de l'envoyer avant le 15 avril de l'exercice fiscal.",
+    "de": "Das Form 7004 gewährt eine automatische Fristverlängerung von 6 Monaten für die Einreichung des Form 1120 + 5472 der LLC, sofern es vor dem 15. April des Steuerjahres eingereicht wird.",
+    "pt": "O Form 7004 concede uma prorrogação automática de 6 meses para entregar o Form 1120 + 5472 da LLC, desde que enviado antes de 15 de abril do ano fiscal.",
+    "ca": "El Form 7004 concedeix una pròrroga automàtica de 6 mesos per presentar el Form 1120 + 5472 de la LLC, sempre que s'enviï abans del 15 d'abril de l'any fiscal."
+  },
+  "facturar-sin-ser-autonomo-alternativas-2026": {
+    "es": "Facturar más de 1.000 € recurrentes al mes sin alta de autónomo es delito de intrusismo administrativo, y la AEAT cuenta con una herramienta de cruce de Modelo 347 que detecta el patrón.",
+    "en": "Billing more than 1,000 euros a month on a recurring basis without registering as autónomo amounts to administrative trespass in Spain, and the AEAT runs a Modelo 347 cross-check tool that spots the pattern.",
+    "fr": "Facturer plus de 1 000 € récurrents par mois sans s'enregistrer comme autónomo est un délit d'intrusion administrative en Espagne, et l'AEAT dispose d'un outil de croisement Modelo 347 qui détecte ce schéma.",
+    "de": "Mehr als 1.000 € monatlich wiederkehrend ohne Autónomo-Anmeldung zu fakturieren ist in Spanien ein Verwaltungsverstoß, und die AEAT verfügt über ein Modelo-347-Abgleichtool, das das Muster erkennt.",
+    "pt": "Faturar mais de 1.000 € recorrentes por mês sem inscrição como autónomo é crime de intrusismo administrativo em Espanha, e a AEAT dispõe de uma ferramenta de cruzamento do Modelo 347 que deteta o padrão.",
+    "ca": "Facturar més de 1.000 € recurrents al mes sense alta d'autònom és delicte d'intrusisme administratiu a Espanya, i l'AEAT compta amb una eina de creuament del Model 347 que detecta el patró."
+  },
+  "fiscalidad-estonia-como-funciona": {
+    "es": "Estonia tributa al 22 % desde el 1 de enero de 2025 (antes 20 %) y solo grava los beneficios cuando se distribuyen, lo que permite reinvertir indefinidamente al 0 % efectivo.",
+    "en": "Estonia taxes at 22% since January 1 2025 (up from 20%) and only hits profits when they are distributed, which lets you reinvest indefinitely at an effective 0%.",
+    "fr": "L'Estonie impose à 22 % depuis le 1er janvier 2025 (contre 20 % auparavant) et ne taxe les bénéfices que lorsqu'ils sont distribués, ce qui permet de réinvestir indéfiniment à un taux effectif de 0 %.",
+    "de": "Estland besteuert seit dem 1. Januar 2025 mit 22 % (zuvor 20 %) und greift Gewinne erst bei Ausschüttung ab, was eine unbegrenzte Reinvestition zu effektiv 0 % erlaubt.",
+    "pt": "A Estónia tributa a 22 % desde 1 de janeiro de 2025 (antes 20 %) e só atinge os lucros quando são distribuídos, o que permite reinvestir indefinidamente a 0 % efetivo.",
+    "ca": "Estònia tributa al 22 % des de l'1 de gener de 2025 (abans 20 %) i només grava els beneficis quan es distribueixen, cosa que permet reinvertir indefinidament al 0 % efectiu."
+  },
+  "fiscalidad-internacional-emprendedores-digitales": {
+    "es": "Más de 100 países compiten hoy por captar emprendedores digitales con tipos efectivos que oscilan entre el 0 % de Bahamas y el 47 % de España, según jurisdicción y residencia.",
+    "en": "More than 100 countries compete today for digital entrepreneurs with effective rates ranging from the Bahamas' 0% to Spain's 47%, depending on jurisdiction and residency.",
+    "fr": "Plus de 100 pays se disputent aujourd'hui les entrepreneurs digitaux avec des taux effectifs allant de 0 % aux Bahamas à 47 % en Espagne, selon la juridiction et la résidence.",
+    "de": "Heute konkurrieren über 100 Länder um digitale Unternehmer mit effektiven Steuersätzen zwischen 0 % auf den Bahamas und 47 % in Spanien — je nach Jurisdiktion und Wohnsitz.",
+    "pt": "Mais de 100 países competem hoje por empreendedores digitais com taxas efetivas que vão de 0 % nas Bahamas a 47 % em Espanha, consoante a jurisdição e a residência.",
+    "ca": "Més de 100 països competeixen avui per atreure emprenedors digitals amb tipus efectius que oscil·len entre el 0 % de Bahames i el 47 % d'Espanya, segons jurisdicció i residència."
+  },
+  "fiscalidad-llc-por-pais-residencia": {
+    "es": "Una LLC pass-through paga 0 % federal en Estados Unidos, pero tributa hasta el 47 % en IRPF si el dueño reside en España, hasta el 45 % en Francia, hasta el 45 % en Alemania o hasta el 22 % en Portugal con NHR.",
+    "en": "A pass-through LLC pays 0% federal in the US but is taxed up to 47% on the owner's IRPF in Spain, up to 45% in France, up to 45% in Germany, or up to 22% in Portugal under NHR.",
+    "fr": "Une LLC pass-through paie 0 % fédéral aux États-Unis mais est imposée jusqu'à 47 % sur l'IRPF en Espagne, jusqu'à 45 % en France, jusqu'à 45 % en Allemagne ou jusqu'à 22 % au Portugal sous NHR.",
+    "de": "Eine Pass-through-LLC zahlt 0 % föderal in den USA, wird aber je nach Wohnsitz mit bis zu 47 % IRPF in Spanien, bis zu 45 % in Frankreich, bis zu 45 % in Deutschland oder bis zu 22 % in Portugal unter NHR besteuert.",
+    "pt": "Uma LLC pass-through paga 0 % federal nos EUA, mas tributa até 47 % de IRPF se o dono residir em Espanha, até 45 % em França, até 45 % na Alemanha ou até 22 % em Portugal sob NHR.",
+    "ca": "Una LLC pass-through paga 0 % federal als EUA, però tributa fins al 47 % en IRPF si l'amo resideix a Espanya, fins al 45 % a França, fins al 45 % a Alemanya o fins al 22 % a Portugal amb NHR."
+  },
+  "fiscalidad-socios-llc-cambio-residencia-mid-year": {
+    "es": "Cambiar de residencia fiscal a mitad de año fiscal obliga a prorratear la renta de la LLC entre los dos países usando la regla de los 183 días y el split-year treatment de cada convenio.",
+    "en": "Switching tax residency mid-year forces you to split LLC income between the two countries using the 183-day rule and each treaty's split-year treatment.",
+    "fr": "Changer de résidence fiscale en cours d'exercice oblige à proratiser le revenu de la LLC entre les deux pays selon la règle des 183 jours et le split-year treatment de chaque convention.",
+    "de": "Ein Wechsel der Steueransässigkeit mitten im Jahr zwingt dazu, das LLC-Einkommen zwischen beiden Ländern mit der 183-Tage-Regel und dem Split-Year-Treatment des jeweiligen DBA aufzuteilen.",
+    "pt": "Mudar de residência fiscal a meio do ano obriga a prorratear o rendimento da LLC entre os dois países usando a regra dos 183 dias e o split-year treatment de cada convenção.",
+    "ca": "Canviar de residència fiscal a meitat d'any obliga a prorratejar la renda de la LLC entre els dos països fent servir la regla dels 183 dies i el split-year treatment de cada conveni."
+  },
+  "form-5472-que-es-como-presentarlo": {
+    "es": "Cada Form 5472 no presentado a tiempo arranca con una sanción base de 25.000 $ desde la reforma TCJA de 2017, y se acumula 25.000 $ adicionales por cada periodo de 30 días si el IRS notifica.",
+    "en": "Each Form 5472 filed late triggers a 25,000-dollar base penalty since the 2017 TCJA reform, and stacks an additional 25,000 dollars per 30-day period after IRS notice.",
+    "fr": "Chaque Form 5472 déposé en retard déclenche une amende de base de 25 000 $ depuis la réforme TCJA de 2017, et cumule 25 000 $ par période de 30 jours après notification de l'IRS.",
+    "de": "Jedes verspätet eingereichte Form 5472 löst seit der TCJA-Reform 2017 eine Grundstrafe von 25.000 USD aus und akkumuliert nach IRS-Mitteilung weitere 25.000 USD pro 30-Tage-Zeitraum.",
+    "pt": "Cada Form 5472 entregue fora de prazo dispara uma sanção base de 25.000 $ desde a reforma TCJA de 2017, e acumula mais 25.000 $ por cada período de 30 dias após notificação do IRS.",
+    "ca": "Cada Form 5472 presentat fora de termini desencadena una sanció base de 25.000 $ des de la reforma TCJA del 2017, i s'acumulen 25.000 $ més per cada període de 30 dies després de la notificació de l'IRS."
+  },
+  "gastos-deducibles-autonomos-2026": {
+    "es": "El autónomo en estimación directa 2026 puede deducir un 7 % adicional de gastos generales (con tope de 2.000 € al año) sobre el rendimiento neto, además de los gastos directamente afectos.",
+    "en": "An autónomo on direct estimation in 2026 can deduct an extra 7% of general expenses (capped at 2,000 euros a year) on net income, on top of expenses directly tied to the activity.",
+    "fr": "L'autónomo en estimation directe 2026 peut déduire 7 % supplémentaires de frais généraux (plafonnés à 2 000 € par an) sur le revenu net, en plus des frais directement liés à l'activité.",
+    "de": "Ein Autónomo in direkter Veranlagung 2026 darf zusätzliche 7 % allgemeine Betriebskosten (gedeckelt bei 2.000 € pro Jahr) auf den Nettoertrag absetzen, zusätzlich zu den direkt zugeordneten Aufwendungen.",
+    "pt": "O autónomo em estimativa direta 2026 pode deduzir mais 7 % de despesas gerais (com tecto de 2.000 € por ano) sobre o rendimento líquido, para além das despesas diretamente afetas.",
+    "ca": "L'autònom en estimació directa 2026 pot deduir un 7 % addicional de despeses generals (amb un sostre de 2.000 € l'any) sobre el rendiment net, a més de les despeses directament afectes."
+  },
+  "gastos-deducibles-llc-que-puedes-deducir": {
+    "es": "Una LLC pass-through puede deducir bajo la sección §162 del IRC el 100 % de los gastos ordinarios y necesarios de la actividad, sin techo numérico predefinido pero con límites cualitativos estrictos.",
+    "en": "A pass-through LLC can deduct under IRC §162 100% of the ordinary and necessary expenses of the activity, with no predefined numerical cap but strict qualitative limits.",
+    "fr": "Une LLC pass-through peut déduire au titre de l'IRC §162 100 % des dépenses ordinaires et nécessaires à l'activité, sans plafond numérique prédéfini mais avec des limites qualitatives strictes.",
+    "de": "Eine Pass-through-LLC darf nach IRC §162 100 % der gewöhnlichen und notwendigen Betriebsausgaben absetzen — ohne vordefinierte numerische Obergrenze, aber mit strengen qualitativen Grenzen.",
+    "pt": "Uma LLC pass-through pode deduzir ao abrigo da §162 do IRC 100 % das despesas ordinárias e necessárias à atividade, sem tecto numérico predefinido mas com limites qualitativos estritos.",
+    "ca": "Una LLC pass-through pot deduir, segons la secció §162 de l'IRC, el 100 % de les despeses ordinàries i necessàries de l'activitat, sense sostre numèric predefinit però amb límits qualitatius estrictes."
+  },
+  "holding-empresarial-como-funciona": {
+    "es": "Las 5 jurisdicciones holding más utilizadas en Europa —Países Bajos, Luxemburgo, Irlanda, Malta y Chipre— ofrecen exenciones de participación a partir del 5 % o 10 % de tenencia y tipos efectivos por debajo del 12,5 %.",
+    "en": "The 5 most-used European holding jurisdictions — the Netherlands, Luxembourg, Ireland, Malta and Cyprus — offer participation exemptions from 5% or 10% ownership and effective rates below 12.5%.",
+    "fr": "Les 5 juridictions holding les plus utilisées en Europe — Pays-Bas, Luxembourg, Irlande, Malte et Chypre — offrent des exonérations de participation dès 5 % ou 10 % de détention et des taux effectifs inférieurs à 12,5 %.",
+    "de": "Die 5 am häufigsten genutzten Holding-Jurisdiktionen Europas — Niederlande, Luxemburg, Irland, Malta und Zypern — bieten Schachtelprivilegien ab 5 % oder 10 % Beteiligung und effektive Sätze unter 12,5 %.",
+    "pt": "As 5 jurisdições holding mais utilizadas na Europa — Países Baixos, Luxemburgo, Irlanda, Malta e Chipre — oferecem isenções de participação a partir de 5 % ou 10 % de detenção e taxas efetivas abaixo de 12,5 %.",
+    "ca": "Les 5 jurisdiccions holding més utilitzades a Europa —Països Baixos, Luxemburg, Irlanda, Malta i Xipre— ofereixen exempcions de participació a partir del 5 % o 10 % de tinença i tipus efectius per sota del 12,5 %."
+  },
+  "hong-kong-offshore-realidad": {
+    "es": "Hong Kong aplica un Profits Tax escalonado del 8,25 % hasta 2.000.000 HKD (unos 256.000 $) y 16,5 % por encima, con régimen territorial que exime las rentas de origen extranjero.",
+    "en": "Hong Kong runs a tiered Profits Tax of 8.25% up to 2,000,000 HKD (around 256,000 dollars) and 16.5% above, under a territorial regime that exempts foreign-source income.",
+    "fr": "Hong Kong applique un Profits Tax progressif de 8,25 % jusqu'à 2 000 000 HKD (environ 256 000 $) et 16,5 % au-delà, sous un régime territorial exonérant les revenus de source étrangère.",
+    "de": "Hongkong erhebt eine gestufte Profits Tax von 8,25 % bis 2.000.000 HKD (rund 256.000 USD) und 16,5 % darüber, unter einem Territorialregime, das Auslandserträge befreit.",
+    "pt": "Hong Kong aplica um Profits Tax escalonado de 8,25 % até 2.000.000 HKD (cerca de 256.000 $) e 16,5 % acima, com regime territorial que isenta os rendimentos de origem estrangeira.",
+    "ca": "Hong Kong aplica un Profits Tax esglaonat del 8,25 % fins a 2.000.000 HKD (uns 256.000 $) i 16,5 % per sobre, amb règim territorial que exempta les rendes d'origen estranger."
+  },
+  "iban-swift-routing-number-que-son": {
+    "es": "El routing number americano tiene 9 dígitos, el IBAN español 24 caracteres y el código SWIFT entre 8 y 11; los tres se piden a la vez en cualquier transferencia internacional con tu LLC.",
+    "en": "The US routing number has 9 digits, the Spanish IBAN has 24 characters, and the SWIFT code runs 8 to 11 — all three are needed at once on any international transfer with your LLC.",
+    "fr": "Le routing number américain compte 9 chiffres, l'IBAN espagnol 24 caractères et le code SWIFT entre 8 et 11 ; les trois sont demandés en même temps sur tout virement international avec ta LLC.",
+    "de": "Die US-Routing-Number hat 9 Stellen, die spanische IBAN 24 Zeichen und der SWIFT-Code 8 bis 11 — alle drei werden bei jeder internationalen Überweisung mit deiner LLC gleichzeitig verlangt.",
+    "pt": "O routing number americano tem 9 dígitos, o IBAN espanhol 24 caracteres e o código SWIFT entre 8 e 11; os três são pedidos ao mesmo tempo em qualquer transferência internacional com a tua LLC.",
+    "ca": "El routing number americà té 9 dígits, l'IBAN espanyol 24 caràcters i el codi SWIFT entre 8 i 11; els tres es demanen alhora en qualsevol transferència internacional amb la teva LLC."
+  },
+  "impuestos-clientes-internacionales-espana": {
+    "es": "Un autónomo español que factura el 100 % a clientes internacionales sigue tributando hasta el 47 % por IRPF más cuota RETA en España, porque la fuente del cliente no cambia tu residencia fiscal.",
+    "en": "A Spanish autónomo billing 100% to international clients still pays up to 47% IRPF plus the RETA fee in Spain, because the client's location does not change your tax residency.",
+    "fr": "Un autónomo espagnol qui facture 100 % à des clients internationaux paie quand même jusqu'à 47 % d'IRPF et la cotisation RETA en Espagne, car la source du client ne change pas ta résidence fiscale.",
+    "de": "Ein spanischer Autónomo, der 100 % an internationale Kunden fakturiert, zahlt in Spanien weiterhin bis zu 47 % IRPF plus RETA-Beitrag, weil die Kundenquelle deinen Steuersitz nicht ändert.",
+    "pt": "Um autónomo espanhol que factura 100 % a clientes internacionais continua a tributar até 47 % de IRPF mais quota RETA em Espanha, porque a fonte do cliente não altera a tua residência fiscal.",
+    "ca": "Un autònom espanyol que factura el 100 % a clients internacionals continua tributant fins al 47 % per IRPF més quota RETA a Espanya, perquè la font del client no canvia la teva residència fiscal."
+  },
+  "irs-1120-5472-que-son-cuando-aplican": {
+    "es": "El binomio Form 1120 + Form 5472 aplica a toda LLC unipersonal con dueño no residente y se debe presentar antes del 15 de abril de cada año; no hacerlo arranca con 25.000 $ de sanción.",
+    "en": "The Form 1120 + Form 5472 combo applies to every single-member LLC owned by a non-resident and must be filed by April 15 every year; missing it starts at a 25,000-dollar penalty.",
+    "fr": "Le binôme Form 1120 + Form 5472 s'applique à toute LLC unipersonnelle détenue par un non-résident et doit être déposé avant le 15 avril chaque année ; le manquement démarre à 25 000 $ d'amende.",
+    "de": "Das Duo Form 1120 + Form 5472 gilt für jede Single-Member-LLC eines Nicht-Ansässigen und muss jährlich bis zum 15. April eingereicht werden; ein Versäumnis beginnt bei 25.000 USD Strafe.",
+    "pt": "O binómio Form 1120 + Form 5472 aplica-se a qualquer LLC unipessoal de não residente e deve ser entregue até 15 de abril de cada ano; falhar arranca com 25.000 $ de sanção.",
+    "ca": "El binomi Form 1120 + Form 5472 s'aplica a tota LLC unipersonal amb amo no resident i s'ha de presentar abans del 15 d'abril cada any; no fer-ho arrenca amb 25.000 $ de sanció."
+  },
+  "itin-ssn-que-son-como-obtenerlos": {
+    "es": "El ITIN tiene 9 dígitos y se emite en 7-11 semanas, mientras que el SSN tiene 9 dígitos y se otorga solo a residentes legales de Estados Unidos.",
+    "en": "The ITIN has 9 digits and is issued in 7 to 11 weeks, while the SSN has 9 digits and is granted only to US legal residents.",
+    "fr": "L'ITIN compte 9 chiffres et est délivré en 7 à 11 semaines, tandis que le SSN compte 9 chiffres et n'est attribué qu'aux résidents légaux des États-Unis.",
+    "de": "Die ITIN hat 9 Stellen und wird in 7 bis 11 Wochen ausgestellt, während die SSN 9 Stellen hat und nur an legale US-Residents vergeben wird.",
+    "pt": "O ITIN tem 9 dígitos e é emitido em 7 a 11 semanas, enquanto o SSN tem 9 dígitos e é atribuído apenas a residentes legais dos EUA.",
+    "ca": "L'ITIN té 9 dígits i s'emet en 7-11 setmanes, mentre que el SSN té 9 dígits i s'atorga només a residents legals dels Estats Units."
+  },
+  "iva-intracomunitario-servicios-europa": {
+    "es": "Una factura intracomunitaria de servicios B2B se emite con 0 % de IVA si el cliente está en el VIES y se reporta en el Modelo 349; el tipo general español del 21 % solo aplica si falla la verificación.",
+    "en": "An intra-EU B2B services invoice goes out at 0% VAT if the client is on VIES and gets reported on Modelo 349; Spain's standard 21% rate only kicks in when verification fails.",
+    "fr": "Une facture intracommunautaire de services B2B sort à 0 % de TVA si le client figure sur VIES et est reportée sur le Modelo 349 ; le taux standard espagnol de 21 % ne s'applique que si la vérification échoue.",
+    "de": "Eine innergemeinschaftliche B2B-Dienstleistungsrechnung wird mit 0 % USt ausgestellt, wenn der Kunde im VIES geführt wird, und im Modelo 349 gemeldet; der spanische Regelsatz von 21 % greift nur, wenn die Prüfung fehlschlägt.",
+    "pt": "Uma fatura intracomunitária de serviços B2B emite-se a 0 % de IVA se o cliente estiver no VIES e reporta-se no Modelo 349; a taxa geral espanhola de 21 % só se aplica se a verificação falhar.",
+    "ca": "Una factura intracomunitària de serveis B2B s'emet amb 0 % d'IVA si el client està al VIES i es reporta al Model 349; el tipus general espanyol del 21 % només s'aplica si la verificació falla."
+  },
+  "iva-servicios-digitales-internacional": {
+    "es": "Un servicio digital B2C dentro de la UE tributa al tipo IVA del país del consumidor (entre el 17 % de Luxemburgo y el 27 % de Hungría) y se declara con la ventanilla única OSS.",
+    "en": "A B2C digital service inside the EU is taxed at the consumer country's VAT rate (between Luxembourg's 17% and Hungary's 27%) and is reported via the OSS one-stop shop.",
+    "fr": "Un service digital B2C dans l'UE est imposé au taux de TVA du pays du consommateur (entre 17 % au Luxembourg et 27 % en Hongrie) et se déclare via le guichet unique OSS.",
+    "de": "Eine B2C-Digital-Dienstleistung innerhalb der EU wird zum USt-Satz des Verbraucherlandes (zwischen Luxemburgs 17 % und Ungarns 27 %) besteuert und über das OSS-One-Stop-Shop gemeldet.",
+    "pt": "Um serviço digital B2C dentro da UE tributa à taxa de IVA do país do consumidor (entre os 17 % do Luxemburgo e os 27 % da Hungria) e declara-se pelo balcão único OSS.",
+    "ca": "Un servei digital B2C dins de la UE tributa al tipus d'IVA del país del consumidor (entre el 17 % de Luxemburg i el 27 % d'Hongria) i es declara amb la finestreta única OSS."
+  },
+  "justificar-origen-fondos-kyc-bancario-segunda-ronda": {
+    "es": "Una segunda ronda de KYC en Mercury, Wise o Relay se resuelve favorablemente en el 75 % de los casos cuando aportas extractos de los últimos 6 meses y un contrato de servicios firmado con cliente.",
+    "en": "A second KYC round at Mercury, Wise or Relay is resolved favourably in 75% of cases when you provide statements covering the last 6 months and a signed service contract with a client.",
+    "fr": "Un second tour de KYC chez Mercury, Wise ou Relay se résout favorablement dans 75 % des cas si tu fournis les relevés des 6 derniers mois et un contrat de prestation signé avec un client.",
+    "de": "Eine zweite KYC-Runde bei Mercury, Wise oder Relay endet in 75 % der Fälle positiv, wenn du Auszüge der letzten 6 Monate und einen unterzeichneten Dienstleistungsvertrag mit einem Kunden vorlegst.",
+    "pt": "Uma segunda ronda de KYC na Mercury, Wise ou Relay resolve-se favoravelmente em 75 % dos casos quando entregas extratos dos últimos 6 meses e um contrato de serviços assinado com cliente.",
+    "ca": "Una segona ronda de KYC a Mercury, Wise o Relay es resol favorablement en el 75 % dels casos quan aportes extractes dels últims 6 mesos i un contracte de serveis signat amb client."
+  },
+  "llc-agencias-marketing-digital": {
+    "es": "Una agencia de marketing digital con LLC pass-through paga 0 % federal en Estados Unidos y traslada el cómputo a la IRPF de cada socio: si reside en España, hasta el 47 %; si en Andorra, el 10 %.",
+    "en": "A digital marketing agency under a pass-through LLC pays 0% federal in the US and shifts the math to each partner's local return: up to 47% in Spain, 10% in Andorra.",
+    "fr": "Une agence de marketing digital en LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur la déclaration locale de chaque associé : jusqu'à 47 % en Espagne, 10 % en Andorre.",
+    "de": "Eine Digital-Marketing-Agentur in einer Pass-through-LLC zahlt 0 % föderal in den USA und verlagert die Rechnung auf die lokale Erklärung jedes Partners: bis zu 47 % in Spanien, 10 % in Andorra.",
+    "pt": "Uma agência de marketing digital com LLC pass-through paga 0 % federal nos EUA e empurra o cálculo para a declaração local de cada sócio: até 47 % em Espanha, 10 % em Andorra.",
+    "ca": "Una agència de màrqueting digital amb LLC pass-through paga 0 % federal als EUA i trasllada el càlcul a la declaració local de cada soci: fins al 47 % a Espanya, 10 % a Andorra."
+  },
+  "llc-alternativa-autonomo-espana": {
+    "es": "Frente a la cuota mínima de 200-590 € al mes y el IRPF que llega al 47 % en España, una LLC pass-through paga 0 % federal en EE.UU. y se ajusta al país real de residencia del socio.",
+    "en": "Against Spain's 200-590 euro monthly minimum fee and an IRPF that hits 47%, a pass-through LLC pays 0% federal in the US and aligns with the partner's real country of residence.",
+    "fr": "Face à la cotisation minimale de 200 à 590 € par mois et à un IRPF qui atteint 47 % en Espagne, une LLC pass-through paie 0 % fédéral aux États-Unis et s'aligne sur le pays réel de résidence de l'associé.",
+    "de": "Gegenüber der Mindestbeitragsspanne von 200-590 € pro Monat und einer IRPF von bis zu 47 % in Spanien zahlt eine Pass-through-LLC 0 % föderal in den USA und richtet sich am echten Wohnsitzland des Partners aus.",
+    "pt": "Face à quota mínima de 200-590 € por mês e a um IRPF que atinge 47 % em Espanha, uma LLC pass-through paga 0 % federal nos EUA e alinha-se com o país real de residência do sócio.",
+    "ca": "Davant la quota mínima de 200-590 € al mes i un IRPF que arriba al 47 % a Espanya, una LLC pass-through paga 0 % federal als EUA i s'ajusta al país real de residència del soci."
+  },
+  "llc-creadores-contenido-youtube-twitch": {
+    "es": "YouTube retiene por defecto el 30 % de los ingresos US a un creador no residente sin W-8BEN; con LLC pass-through y W-8BEN-E el tratamiento se ordena bajo el convenio de doble imposición de turno.",
+    "en": "YouTube withholds 30% by default from a non-resident creator without W-8BEN; with a pass-through LLC plus W-8BEN-E, the treatment lines up under the relevant tax treaty.",
+    "fr": "YouTube retient par défaut 30 % des revenus US d'un créateur non-résident sans W-8BEN ; avec une LLC pass-through et un W-8BEN-E, le traitement s'aligne sur la convention fiscale applicable.",
+    "de": "YouTube behält bei einem Nicht-Ansässigen ohne W-8BEN standardmäßig 30 % der US-Erlöse ein; mit einer Pass-through-LLC plus W-8BEN-E richtet sich die Behandlung am jeweiligen DBA aus.",
+    "pt": "O YouTube retém por defeito 30 % dos rendimentos US de um criador não residente sem W-8BEN; com LLC pass-through e W-8BEN-E, o tratamento alinha-se com a convenção de dupla tributação aplicável.",
+    "ca": "YouTube reté per defecte el 30 % dels ingressos US d'un creador no resident sense W-8BEN; amb LLC pass-through i W-8BEN-E el tractament s'ordena sota el conveni de doble imposició aplicable."
+  },
+  "llc-desarrolladores-software-saas": {
+    "es": "Un desarrollador SaaS con LLC pass-through paga 0 % federal en Estados Unidos sobre 50.000 $ o 1.000.000 $ de ARR, y solo declara la base imponible en su país de residencia fiscal.",
+    "en": "A SaaS developer running a pass-through LLC pays 0% federal in the US on 50,000 dollars or 1,000,000 dollars of ARR, and only declares the taxable base in the country of tax residency.",
+    "fr": "Un développeur SaaS en LLC pass-through paie 0 % fédéral aux États-Unis sur 50 000 $ ou 1 000 000 $ d'ARR, et ne déclare la base imposable que dans son pays de résidence fiscale.",
+    "de": "Ein SaaS-Entwickler mit Pass-through-LLC zahlt 0 % föderal in den USA auf 50.000 USD oder 1.000.000 USD ARR und meldet die Steuerbasis nur im Land seines Steuersitzes.",
+    "pt": "Um developer SaaS com LLC pass-through paga 0 % federal nos EUA sobre 50.000 $ ou 1.000.000 $ de ARR, e só declara a base tributável no país de residência fiscal.",
+    "ca": "Un desenvolupador SaaS amb LLC pass-through paga 0 % federal als EUA sobre 50.000 $ o 1.000.000 $ d'ARR, i només declara la base imposable al país de residència fiscal."
+  },
+  "llc-estados-unidos-guia-completa-2026": {
+    "es": "Constituir una LLC en EE.UU. cuesta entre 400 $ y 1.500 $ el primer año, se completa en 7 a 14 días y, si es pass-through, paga 0 % federal con independencia del volumen facturado.",
+    "en": "Forming an LLC in the US costs 400 to 1,500 dollars in the first year, takes 7 to 14 days, and — if pass-through — pays 0% federal regardless of revenue volume.",
+    "fr": "Créer une LLC aux États-Unis coûte entre 400 $ et 1 500 $ la première année, prend 7 à 14 jours et, en pass-through, paie 0 % fédéral quel que soit le volume facturé.",
+    "de": "Eine LLC in den USA zu gründen kostet im ersten Jahr 400 bis 1.500 USD, dauert 7 bis 14 Tage und zahlt — als Pass-through — 0 % föderal unabhängig vom Umsatz.",
+    "pt": "Constituir uma LLC nos EUA custa entre 400 $ e 1.500 $ no primeiro ano, demora 7 a 14 dias e, sendo pass-through, paga 0 % federal independentemente do volume facturado.",
+    "ca": "Constituir una LLC als EUA costa entre 400 $ i 1.500 $ el primer any, es completa en 7 a 14 dies i, si és pass-through, paga 0 % federal amb independència del volum facturat."
+  },
+  "llc-interactive-brokers-invertir-bolsa-usa": {
+    "es": "Sin formulario W-8BEN-E presentado, Interactive Brokers retiene el 30 % de cada dividendo US pagado a una LLC con dueño no residente; con W-8BEN-E correcto el tratamiento baja según convenio.",
+    "en": "Without a filed W-8BEN-E, Interactive Brokers withholds 30% on every US dividend paid to a non-resident-owned LLC; with a clean W-8BEN-E, the treatment drops as per treaty.",
+    "fr": "Sans Form W-8BEN-E déposé, Interactive Brokers retient 30 % de chaque dividende US versé à une LLC détenue par un non-résident ; avec un W-8BEN-E correct, le traitement baisse selon convention.",
+    "de": "Ohne eingereichtes W-8BEN-E behält Interactive Brokers 30 % jeder US-Dividende ein, die an eine LLC eines Nicht-Ansässigen geht; mit korrektem W-8BEN-E sinkt der Satz gemäß DBA.",
+    "pt": "Sem o Form W-8BEN-E entregue, a Interactive Brokers retém 30 % de cada dividendo US pago a uma LLC com dono não residente; com W-8BEN-E correto, o tratamento desce conforme convenção.",
+    "ca": "Sense formulari W-8BEN-E presentat, Interactive Brokers reté el 30 % de cada dividend US pagat a una LLC amb amo no resident; amb W-8BEN-E correcte el tractament baixa segons conveni."
+  },
+  "llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais": {
+    "es": "Una LLC pass-through paga 0 % federal en Estados Unidos, pero traslada el beneficio al IRPF del dueño: hasta el 47 % en España, hasta el 45 % en Francia y Alemania, hasta el 10 % en Andorra.",
+    "en": "A pass-through LLC pays 0% federal in the US, but it pushes the profit onto the owner's local income tax: up to 47% in Spain, up to 45% in France and Germany, up to 10% in Andorra.",
+    "fr": "Une LLC pass-through paie 0 % fédéral aux États-Unis, mais reporte le bénéfice sur l'IRPF du propriétaire : jusqu'à 47 % en Espagne, jusqu'à 45 % en France et en Allemagne, jusqu'à 10 % en Andorre.",
+    "de": "Eine Pass-through-LLC zahlt 0 % föderal in den USA, schiebt den Gewinn aber in die lokale Einkommensteuer des Eigentümers: bis 47 % in Spanien, bis 45 % in Frankreich und Deutschland, bis 10 % in Andorra.",
+    "pt": "Uma LLC pass-through paga 0 % federal nos EUA, mas empurra o lucro para o IRPF do dono: até 47 % em Espanha, até 45 % em França e Alemanha, até 10 % em Andorra.",
+    "ca": "Una LLC pass-through paga 0 % federal als EUA, però trasllada el benefici a l'IRPF de l'amo: fins al 47 % a Espanya, fins al 45 % a França i Alemanya, fins al 10 % a Andorra."
+  },
+  "llc-seguridad-juridica-proteccion-patrimonial": {
+    "es": "Wyoming protege el patrimonio personal del miembro mediante el Charging Order Statute (Wyo. Stat. §17-29-503), que limita al acreedor a un mero embargo de distribuciones desde la LLC, sin acceso al activo.",
+    "en": "Wyoming protects the member's personal assets through the Charging Order Statute (Wyo. Stat. §17-29-503), which limits the creditor to a mere garnishment of LLC distributions, with no asset reach-through.",
+    "fr": "Le Wyoming protège le patrimoine personnel du membre via le Charging Order Statute (Wyo. Stat. §17-29-503), qui limite le créancier à une simple saisie des distributions de la LLC, sans accès aux actifs.",
+    "de": "Wyoming schützt das Privatvermögen des Mitglieds über den Charging Order Statute (Wyo. Stat. §17-29-503), der den Gläubiger auf eine bloße Pfändung von LLC-Ausschüttungen beschränkt — ohne Zugriff auf das Vermögen.",
+    "pt": "O Wyoming protege o património pessoal do membro pelo Charging Order Statute (Wyo. Stat. §17-29-503), que limita o credor a uma mera penhora das distribuições da LLC, sem acesso ao ativo.",
+    "ca": "Wyoming protegeix el patrimoni personal del membre mitjançant el Charging Order Statute (Wyo. Stat. §17-29-503), que limita el creditor a un mer embargament de distribucions des de la LLC, sense accés a l'actiu."
+  },
+  "llc-unica-estructura-holding-cuando-como-cuesta": {
+    "es": "Una LLC holding constituida en Wyoming o Delaware se completa en 7 a 14 días y cuesta entre 400 $ y 1.500 $ el primer año, frente a los 3.000 € de capital mínimo de una sociedad limitada española.",
+    "en": "An LLC holding set up in Wyoming or Delaware finishes in 7 to 14 days and costs 400 to 1,500 dollars in the first year, against the 3,000-euro minimum capital of a Spanish SL.",
+    "fr": "Une LLC holding au Wyoming ou au Delaware se met en place en 7 à 14 jours et coûte entre 400 $ et 1 500 $ la première année, contre les 3 000 € de capital minimum d'une SL espagnole.",
+    "de": "Eine Holding-LLC in Wyoming oder Delaware ist in 7 bis 14 Tagen errichtet und kostet im ersten Jahr 400 bis 1.500 USD, gegenüber den 3.000 € Mindestkapital einer spanischen SL.",
+    "pt": "Uma LLC holding em Wyoming ou Delaware fica pronta em 7 a 14 dias e custa entre 400 $ e 1.500 $ no primeiro ano, contra os 3.000 € de capital mínimo de uma SL espanhola.",
+    "ca": "Una LLC holding constituïda a Wyoming o Delaware es completa en 7 a 14 dies i costa entre 400 $ i 1.500 $ el primer any, davant dels 3.000 € de capital mínim d'una SL espanyola."
+  },
+  "mantenimiento-anual-llc-obligaciones": {
+    "es": "Una LLC sin operativa interna en EE.UU. tiene 4 obligaciones anuales fijas: Annual Report estatal, Form 1120 + 5472 ante el IRS, BOI Report (si aplica) y renovación del Registered Agent.",
+    "en": "An LLC with no US internal operations has 4 fixed annual obligations: state Annual Report, Form 1120 + 5472 with the IRS, BOI Report (if applicable), and Registered Agent renewal.",
+    "fr": "Une LLC sans opérationnel interne aux États-Unis a 4 obligations annuelles fixes : Annual Report d'État, Form 1120 + 5472 à l'IRS, BOI Report (si applicable) et renouvellement du Registered Agent.",
+    "de": "Eine LLC ohne US-internes Operativgeschäft hat 4 feste jährliche Pflichten: bundesstaatlicher Annual Report, Form 1120 + 5472 bei der IRS, BOI Report (sofern anwendbar) und Registered-Agent-Verlängerung.",
+    "pt": "Uma LLC sem operacional interno nos EUA tem 4 obrigações anuais fixas: Annual Report estatal, Form 1120 + 5472 ao IRS, BOI Report (se aplicável) e renovação do Registered Agent.",
+    "ca": "Una LLC sense operativa interna als EUA té 4 obligacions anuals fixes: Annual Report estatal, Form 1120 + 5472 davant l'IRS, BOI Report (si escau) i renovació del Registered Agent."
+  },
+  "modelo-720-721-residentes-espana-cuentas-cripto-extranjero": {
+    "es": "Los Modelos 720 y 721 obligan a un residente fiscal en España a declarar bienes y cuentas en el extranjero por encima de 50.000 € agregados por categoría, antes del 31 de marzo de cada año.",
+    "en": "Modelos 720 and 721 force a Spanish tax resident to declare foreign assets and accounts above 50,000 euros aggregated per category, before March 31 each year.",
+    "fr": "Les Modelos 720 et 721 obligent un résident fiscal espagnol à déclarer les biens et comptes à l'étranger au-dessus de 50 000 € agrégés par catégorie, avant le 31 mars de chaque année.",
+    "de": "Die Modelos 720 und 721 verpflichten einen spanischen Steueransässigen, ausländische Vermögenswerte und Konten über 50.000 € je Kategorie summiert bis zum 31. März jedes Jahres zu melden.",
+    "pt": "Os Modelos 720 e 721 obrigam um residente fiscal em Espanha a declarar bens e contas no estrangeiro acima de 50.000 € agregados por categoria, antes de 31 de março de cada ano.",
+    "ca": "Els Models 720 i 721 obliguen un resident fiscal a Espanya a declarar béns i comptes a l'estranger per sobre de 50.000 € agregats per categoria, abans del 31 de març de cada any."
+  },
+  "modulos-vs-estimacion-directa-2026": {
+    "es": "Los módulos 2026 quedan limitados a actividades concretas con facturación inferior a 250.000 € anuales y compras por debajo de 150.000 €, frente a la estimación directa que admite cualquier volumen.",
+    "en": "The 2026 modules regime is limited to specific activities with revenue under 250,000 euros a year and purchases under 150,000 euros, while direct estimation accepts any volume.",
+    "fr": "Le régime des modules 2026 est limité à des activités précises avec un chiffre d'affaires inférieur à 250 000 € par an et des achats inférieurs à 150 000 €, contre l'estimation directe qui accepte tout volume.",
+    "de": "Das Module-Regime 2026 beschränkt sich auf bestimmte Tätigkeiten mit weniger als 250.000 € Jahresumsatz und weniger als 150.000 € Einkäufen, während die direkte Veranlagung jeden Umfang zulässt.",
+    "pt": "Os módulos 2026 ficam limitados a atividades concretas com facturação inferior a 250.000 € anuais e compras inferiores a 150.000 €, contra a estimativa direta que admite qualquer volume.",
+    "ca": "Els mòduls 2026 queden limitats a activitats concretes amb facturació inferior a 250.000 € anuals i compres inferiors a 150.000 €, davant de l'estimació directa que admet qualsevol volum."
+  },
+  "nomada-digital-residencia-fiscal": {
+    "es": "La regla de los 183 días es el primer test universal de residencia fiscal: superarlo en cualquiera de los 195 países del mundo te ata al sistema impositivo local de ese año.",
+    "en": "The 183-day rule is the universal first test of tax residency: crossing it in any of the world's 195 countries ties you to that country's tax system for the year.",
+    "fr": "La règle des 183 jours est le premier test universel de résidence fiscale : la franchir dans n'importe lequel des 195 pays du monde te rattache au système fiscal local de l'année.",
+    "de": "Die 183-Tage-Regel ist der universelle erste Test der Steueransässigkeit: Wer sie in einem der 195 Länder der Welt überschreitet, ist dort für das Jahr steuerpflichtig.",
+    "pt": "A regra dos 183 dias é o primeiro teste universal de residência fiscal: ultrapassá-la em qualquer um dos 195 países do mundo prende-te ao sistema fiscal local desse ano.",
+    "ca": "La regla dels 183 dies és el primer test universal de residència fiscal: superar-la en qualsevol dels 195 països del món et lliga al sistema impositiu local d'aquell any."
+  },
+  "nuevo-mexico-vs-wyoming-vs-delaware": {
+    "es": "New Mexico cobra 0 $ de Annual Report, Wyoming pide 60 $ con franchise tax mínima de 60 $ y Delaware reclama 300 $ de Franchise Tax cada 1 de junio: tres estados, tres modelos de coste anual muy distintos.",
+    "en": "New Mexico charges 0 dollars for the Annual Report, Wyoming asks 60 dollars with a 60-dollar minimum franchise tax, and Delaware demands 300 dollars of Franchise Tax every June 1: three states, three very different annual cost models.",
+    "fr": "Le Nouveau-Mexique facture 0 $ pour l'Annual Report, le Wyoming demande 60 $ avec une franchise tax minimum de 60 $ et le Delaware exige 300 $ de Franchise Tax chaque 1er juin : trois États, trois modèles de coût annuel très différents.",
+    "de": "New Mexico verlangt 0 USD für den Annual Report, Wyoming fordert 60 USD mit einer Mindest-Franchise-Tax von 60 USD und Delaware verlangt jedes Jahr am 1. Juni 300 USD Franchise Tax: drei Bundesstaaten, drei sehr unterschiedliche jährliche Kostenmodelle.",
+    "pt": "O Novo México cobra 0 $ de Annual Report, o Wyoming pede 60 $ com franchise tax mínima de 60 $ e o Delaware exige 300 $ de Franchise Tax todo 1 de junho: três estados, três modelos de custo anual muito diferentes.",
+    "ca": "Nou Mèxic cobra 0 $ d'Annual Report, Wyoming demana 60 $ amb una franchise tax mínima de 60 $ i Delaware reclama 300 $ de Franchise Tax cada 1 de juny: tres estats, tres models de cost anual molt diferents."
+  },
+  "operating-agreement-llc-que-es": {
+    "es": "El Operating Agreement es exigible legalmente solo en 5 estados (California, Delaware, Maine, Missouri y Nueva York), pero en la práctica todo banco serio lo pide para abrir cuenta a una LLC.",
+    "en": "The Operating Agreement is legally required in only 5 states (California, Delaware, Maine, Missouri and New York), but in practice every serious bank asks for it to open an LLC account.",
+    "fr": "L'Operating Agreement n'est juridiquement exigé que dans 5 États (Californie, Delaware, Maine, Missouri et New York), mais en pratique toute banque sérieuse le demande pour ouvrir un compte LLC.",
+    "de": "Das Operating Agreement ist nur in 5 Bundesstaaten gesetzlich vorgeschrieben (Kalifornien, Delaware, Maine, Missouri und New York), in der Praxis verlangt es aber jede seriöse Bank zur Kontoeröffnung einer LLC.",
+    "pt": "O Operating Agreement é juridicamente exigido apenas em 5 estados (Califórnia, Delaware, Maine, Missouri e Nova Iorque), mas na prática todo o banco sério o pede para abrir conta a uma LLC.",
+    "ca": "L'Operating Agreement és exigible legalment només a 5 estats (Califòrnia, Delaware, Maine, Missouri i Nova York), però a la pràctica tot banc seriós el demana per obrir compte a una LLC."
+  },
+  "pagar-cero-impuestos-legalmente-llc": {
+    "es": "Una LLC pass-through paga 0 % federal en EE.UU., pero conseguir un 0 % real exige residir en una jurisdicción de tipo cero como Bahamas, Mónaco o Emiratos en su tramo exento por debajo de 102.000 $ anuales.",
+    "en": "A pass-through LLC pays 0% federal in the US, but reaching a real 0% requires residing in a zero-rate jurisdiction such as the Bahamas, Monaco or the UAE in its exempt bracket below 102,000 dollars a year.",
+    "fr": "Une LLC pass-through paie 0 % fédéral aux États-Unis, mais atteindre un 0 % réel exige de résider dans une juridiction à taux zéro comme les Bahamas, Monaco ou les EAU dans leur tranche exonérée sous 102 000 $ par an.",
+    "de": "Eine Pass-through-LLC zahlt 0 % föderal in den USA, doch ein wirklich realer 0-%-Satz setzt einen Wohnsitz in einer Nullsteuer-Jurisdiktion wie Bahamas, Monaco oder der VAE in ihrer Freigrenze unter 102.000 USD pro Jahr voraus.",
+    "pt": "Uma LLC pass-through paga 0 % federal nos EUA, mas chegar a 0 % real exige residir numa jurisdição de taxa zero como Bahamas, Mónaco ou Emirados no seu escalão isento abaixo de 102.000 $ anuais.",
+    "ca": "Una LLC pass-through paga 0 % federal als EUA, però aconseguir un 0 % real exigeix residir en una jurisdicció de tipus zero com Bahames, Mònaco o els Emirats en el seu tram exempt per sota de 102.000 $ anuals."
+  },
+  "pasarelas-pago-llc-stripe-paypal-dodo": {
+    "es": "Stripe US cobra 2,9 % + 0,30 $ por transacción doméstica, PayPal Business cerca del 3,49 %, y Dodo Payments rebaja al 2,4 % a partir de 50.000 $ procesados al mes con LLC americana.",
+    "en": "Stripe US charges 2.9% + 0.30 dollar per domestic transaction, PayPal Business hovers around 3.49%, and Dodo Payments drops to 2.4% above 50,000 dollars processed monthly with a US LLC.",
+    "fr": "Stripe US facture 2,9 % + 0,30 $ par transaction domestique, PayPal Business tourne autour de 3,49 %, et Dodo Payments descend à 2,4 % au-delà de 50 000 $ traités par mois avec une LLC américaine.",
+    "de": "Stripe US berechnet 2,9 % + 0,30 USD pro Inlandstransaktion, PayPal Business liegt bei rund 3,49 % und Dodo Payments sinkt ab 50.000 USD monatlich mit US-LLC auf 2,4 %.",
+    "pt": "A Stripe US cobra 2,9 % + 0,30 $ por transação doméstica, a PayPal Business ronda os 3,49 % e a Dodo Payments desce para 2,4 % acima de 50.000 $ processados por mês com LLC americana.",
+    "ca": "Stripe US cobra 2,9 % + 0,30 $ per transacció domèstica, PayPal Business voreja el 3,49 % i Dodo Payments rebaixa al 2,4 % a partir de 50.000 $ processats al mes amb LLC americana."
+  },
+  "por-que-abrir-llc-estados-unidos-ventajas": {
+    "es": "Una LLC en Estados Unidos se constituye en 7 a 14 días, paga 0 % federal en régimen pass-through y cobra de Stripe, PayPal o Mercury sin las retenciones del 19-30 % que sufre un freelance europeo.",
+    "en": "A US LLC is set up in 7 to 14 days, pays 0% federal under pass-through, and collects from Stripe, PayPal or Mercury without the 19-30% withholdings that a European freelancer suffers.",
+    "fr": "Une LLC aux États-Unis se met en place en 7 à 14 jours, paie 0 % fédéral en pass-through et encaisse Stripe, PayPal ou Mercury sans les retenues de 19 à 30 % subies par un freelance européen.",
+    "de": "Eine US-LLC ist in 7 bis 14 Tagen errichtet, zahlt 0 % föderal im Pass-through und kassiert von Stripe, PayPal oder Mercury ohne die 19-30-%-Quellensteuer, die ein europäischer Freelancer erleidet.",
+    "pt": "Uma LLC nos EUA constitui-se em 7 a 14 dias, paga 0 % federal em regime pass-through e recebe da Stripe, PayPal ou Mercury sem as retenções de 19 a 30 % que sofre um freelancer europeu.",
+    "ca": "Una LLC als EUA es constitueix en 7 a 14 dies, paga 0 % federal en règim pass-through i cobra d'Stripe, PayPal o Mercury sense les retencions del 19-30 % que pateix un autònom europeu."
+  },
+  "por-que-no-abrir-empresa-estonia": {
+    "es": "Estonia subió en 2025 su Corporate Tax al 22 % (antes 20 %) y mantiene el coste de la e-Residency en 100 € más cuotas anuales de servicios contables que arrancan en 1.200 € al año.",
+    "en": "Estonia raised its corporate tax to 22% in 2025 (up from 20%) and keeps e-Residency at 100 euros plus annual accounting fees starting at 1,200 euros a year.",
+    "fr": "L'Estonie a relevé son corporate tax à 22 % en 2025 (contre 20 % auparavant) et maintient l'e-Residency à 100 € plus des frais comptables annuels démarrant à 1 200 € par an.",
+    "de": "Estland hat seine Körperschaftsteuer 2025 auf 22 % angehoben (zuvor 20 %) und hält die e-Residency bei 100 € plus jährliche Buchhaltungsgebühren ab 1.200 €.",
+    "pt": "A Estónia subiu em 2025 o IRC para 22 % (antes 20 %) e mantém a e-Residency em 100 € mais quotas anuais de serviços contabilísticos a partir de 1.200 € por ano.",
+    "ca": "Estònia va apujar el 2025 el seu Corporate Tax al 22 % (abans 20 %) i manté el cost de l'e-Residency en 100 € més quotes anuals de serveis comptables a partir de 1.200 € l'any."
+  },
+  "prevencion-blanqueo-capitales-llc": {
+    "es": "El régimen estadounidense de PBC (Bank Secrecy Act, 1970, complementada por el Patriot Act de 2001) impone a Mercury, Wise y Relay procesos de KYC documental antes de procesar la primera transferencia.",
+    "en": "The US AML regime (Bank Secrecy Act, 1970, plus the Patriot Act of 2001) requires Mercury, Wise and Relay to run documentary KYC processes before processing the first transfer.",
+    "fr": "Le régime américain LCB-FT (Bank Secrecy Act, 1970, complété par le Patriot Act de 2001) impose à Mercury, Wise et Relay des processus KYC documentaires avant le premier virement.",
+    "de": "Das US-Geldwäschegesetz (Bank Secrecy Act, 1970, ergänzt durch den Patriot Act 2001) verpflichtet Mercury, Wise und Relay zu dokumentarischen KYC-Prozessen vor der ersten Überweisung.",
+    "pt": "O regime norte-americano de PBC (Bank Secrecy Act, 1970, complementado pelo Patriot Act de 2001) impõe à Mercury, Wise e Relay processos de KYC documental antes da primeira transferência.",
+    "ca": "El règim nord-americà de PBC (Bank Secrecy Act, 1970, complementat pel Patriot Act del 2001) imposa a Mercury, Wise i Relay processos de KYC documental abans de la primera transferència."
+  },
+  "primer-mes-llc-que-esperar": {
+    "es": "Los primeros 30 días tras constituir una LLC cubren 4 hitos críticos: recibir los Articles of Organization, conseguir el EIN, abrir cuenta en Mercury y firmar el Operating Agreement.",
+    "en": "The first 30 days after forming an LLC cover 4 critical milestones: receiving the Articles of Organization, getting the EIN, opening a Mercury account, and signing the Operating Agreement.",
+    "fr": "Les 30 premiers jours après la création d'une LLC couvrent 4 jalons critiques : recevoir les Articles of Organization, obtenir l'EIN, ouvrir un compte Mercury et signer l'Operating Agreement.",
+    "de": "Die ersten 30 Tage nach Gründung einer LLC umfassen 4 kritische Meilensteine: die Articles of Organization erhalten, die EIN bekommen, ein Mercury-Konto eröffnen und das Operating Agreement unterzeichnen.",
+    "pt": "Os primeiros 30 dias após constituir uma LLC cobrem 4 marcos críticos: receber os Articles of Organization, obter o EIN, abrir conta na Mercury e assinar o Operating Agreement.",
+    "ca": "Els primers 30 dies després de constituir una LLC cobreixen 4 fites crítiques: rebre els Articles of Organization, aconseguir l'EIN, obrir compte a Mercury i signar l'Operating Agreement."
+  },
+  "privacidad-llc-americana-secreto-ventaja": {
+    "es": "New Mexico no publica los datos de los miembros de una LLC, Wyoming permite reflejar solo al Registered Agent, y Delaware exige 0 datos personales públicos en sus Articles of Organization.",
+    "en": "New Mexico does not publish LLC member data, Wyoming lets you list only the Registered Agent, and Delaware requires 0 personal public data in its Articles of Organization.",
+    "fr": "Le Nouveau-Mexique ne publie pas les données des membres d'une LLC, le Wyoming permet de ne reporter que le Registered Agent, et le Delaware exige 0 donnée personnelle publique dans ses Articles of Organization.",
+    "de": "New Mexico veröffentlicht keine Mitgliederdaten einer LLC, Wyoming erlaubt nur den Registered Agent anzugeben, und Delaware verlangt 0 öffentliche personenbezogene Daten in den Articles of Organization.",
+    "pt": "O Novo México não publica os dados dos membros de uma LLC, o Wyoming permite refletir apenas o Registered Agent e o Delaware exige 0 dados pessoais públicos nos Articles of Organization.",
+    "ca": "Nou Mèxic no publica les dades dels membres d'una LLC, Wyoming permet reflectir només el Registered Agent i Delaware exigeix 0 dades personals públiques als Articles of Organization."
+  },
+  "problemas-comunes-llc-como-evitarlos": {
+    "es": "El 70 % de los problemas que vemos a diario en LLCs ya constituidas se concentra en 5 frentes: BOI fuera de plazo, Form 5472 sin presentar, mezcla de fondos personales, Annual Report caducado y Registered Agent perdido.",
+    "en": "About 70% of the problems we see daily in already-formed LLCs cluster on 5 fronts: late BOI, missing Form 5472, personal-funds commingling, lapsed Annual Report, and lost Registered Agent.",
+    "fr": "Environ 70 % des problèmes que nous voyons au quotidien dans des LLC déjà constituées se concentrent sur 5 fronts : BOI hors délai, Form 5472 non déposé, mélange de fonds personnels, Annual Report périmé et Registered Agent perdu.",
+    "de": "Rund 70 % der Probleme, die wir täglich bei bereits gegründeten LLCs sehen, bündeln sich an 5 Fronten: verspätete BOI, fehlendes Form 5472, Vermischung privater Mittel, abgelaufener Annual Report und verlorener Registered Agent.",
+    "pt": "Cerca de 70 % dos problemas que vemos diariamente em LLCs já constituídas concentram-se em 5 frentes: BOI fora de prazo, Form 5472 por entregar, mistura de fundos pessoais, Annual Report caducado e Registered Agent perdido.",
+    "ca": "Al voltant del 70 % dels problemes que veiem cada dia en LLCs ja constituïdes es concentra en 5 fronts: BOI fora de termini, Form 5472 sense presentar, barreja de fons personals, Annual Report caducat i Registered Agent perdut."
+  },
+  "que-es-irs-guia-duenos-llc": {
+    "es": "El IRS gestiona más de 240 millones de declaraciones al año con cerca de 80.000 empleados, y para una LLC unipersonal de no residente concentra su atención en 2 formularios: el Form 1120 y el Form 5472.",
+    "en": "The IRS handles more than 240 million returns a year with around 80,000 employees, and for a non-resident single-member LLC its attention narrows down to 2 forms: Form 1120 and Form 5472.",
+    "fr": "L'IRS gère plus de 240 millions de déclarations par an avec environ 80 000 employés, et pour une LLC unipersonnelle de non-résident son attention se concentre sur 2 formulaires : le Form 1120 et le Form 5472.",
+    "de": "Die IRS bearbeitet jährlich über 240 Millionen Steuererklärungen mit rund 80.000 Beschäftigten und konzentriert sich bei einer Single-Member-LLC eines Nicht-Ansässigen auf 2 Formulare: Form 1120 und Form 5472.",
+    "pt": "O IRS gere mais de 240 milhões de declarações por ano com cerca de 80.000 funcionários, e para uma LLC unipessoal de não residente foca a atenção em 2 formulários: o Form 1120 e o Form 5472.",
+    "ca": "L'IRS gestiona més de 240 milions de declaracions a l'any amb prop de 80.000 empleats, i per a una LLC unipersonal de no resident concentra la seva atenció en 2 formularis: el Form 1120 i el Form 5472."
+  },
+  "que-pasa-si-no-presentas-5472-multas-irs": {
+    "es": "Saltarse un Form 5472 cuesta 25.000 $ de salida, y se acumulan 25.000 $ adicionales por cada periodo de 30 días si el IRS notifica y no respondes — sin tope explícito en el actual marco TCJA.",
+    "en": "Skipping a Form 5472 costs 25,000 dollars upfront and stacks an extra 25,000 dollars per 30-day period after IRS notice if you do not respond — no explicit cap under the current TCJA framework.",
+    "fr": "Sauter un Form 5472 coûte 25 000 $ d'entrée et cumule 25 000 $ par période de 30 jours après notification de l'IRS si tu ne réponds pas — sans plafond explicite sous le cadre TCJA actuel.",
+    "de": "Ein versäumtes Form 5472 kostet von Anfang an 25.000 USD und akkumuliert nach IRS-Mitteilung weitere 25.000 USD pro 30-Tage-Zeitraum, wenn keine Antwort erfolgt — ohne expliziten Deckel im aktuellen TCJA-Rahmen.",
+    "pt": "Saltar um Form 5472 custa 25.000 $ à partida e acumula mais 25.000 $ por cada período de 30 dias após notificação do IRS se não responderes — sem teto explícito no atual quadro TCJA.",
+    "ca": "Saltar-se un Form 5472 costa 25.000 $ de sortida i s'acumulen 25.000 $ més per cada període de 30 dies si l'IRS notifica i no respons — sense sostre explícit en l'actual marc TCJA."
+  },
+  "recuperar-llc-boi-5472-atrasados-procedimiento": {
+    "es": "Regularizar un Form 5472 atrasado parte de una sanción mínima de 25.000 $ por ejercicio y exige presentar Form 1120 + 5472 enmendados, junto con una carta de razonable cause si quieres optar a la abatement.",
+    "en": "Catching up a late Form 5472 starts at a 25,000-dollar minimum penalty per year and requires filing amended Form 1120 + 5472 along with a reasonable-cause letter to qualify for abatement.",
+    "fr": "Régulariser un Form 5472 en retard démarre à une amende minimum de 25 000 $ par exercice et impose de déposer Form 1120 + 5472 amendés avec une lettre de reasonable cause pour prétendre à l'abatement.",
+    "de": "Ein verspätetes Form 5472 nachzureichen beginnt bei einer Mindeststrafe von 25.000 USD pro Jahr und erfordert ein geändertes Form 1120 + 5472 plus ein Reasonable-Cause-Schreiben für ein Abatement.",
+    "pt": "Regularizar um Form 5472 atrasado parte de uma sanção mínima de 25.000 $ por exercício e exige entregar Form 1120 + 5472 emendados, com uma carta de reasonable cause para tentar abatement.",
+    "ca": "Regularitzar un Form 5472 endarrerit parteix d'una sanció mínima de 25.000 $ per exercici i exigeix presentar Form 1120 + 5472 esmenats, amb una carta de reasonable cause si vols optar a l'abatement."
+  },
+  "registered-agent-que-es-por-que-necesitas": {
+    "es": "El Registered Agent es obligatorio en los 50 estados de EE.UU., cuesta entre 50 $ y 300 $ al año y su función primaria es recibir el correo legal del IRS o del estado en menos de 24 horas.",
+    "en": "The Registered Agent is mandatory in all 50 US states, costs 50 to 300 dollars a year, and its primary job is to receive legal mail from the IRS or the state in under 24 hours.",
+    "fr": "Le Registered Agent est obligatoire dans les 50 États américains, coûte entre 50 $ et 300 $ par an et a pour rôle principal de recevoir le courrier juridique de l'IRS ou de l'État en moins de 24 heures.",
+    "de": "Der Registered Agent ist in allen 50 US-Bundesstaaten Pflicht, kostet 50 bis 300 USD im Jahr und seine Hauptaufgabe ist es, rechtliche Post von IRS oder Bundesstaat in weniger als 24 Stunden entgegenzunehmen.",
+    "pt": "O Registered Agent é obrigatório nos 50 estados dos EUA, custa entre 50 $ e 300 $ por ano e a sua função primária é receber o correio legal do IRS ou do estado em menos de 24 horas.",
+    "ca": "El Registered Agent és obligatori als 50 estats dels EUA, costa entre 50 $ i 300 $ l'any i la seva funció primària és rebre el correu legal de l'IRS o de l'estat en menys de 24 hores."
+  },
+  "reorganizar-banca-llc-mercury-relay-wise": {
+    "es": "Una pila bancaria saneada para una LLC suele combinar 3 cuentas: Mercury para la operativa USD, Wise para la conversión a EUR con spread del 0,41 % y Relay como respaldo con tarjetas físicas.",
+    "en": "A clean banking stack for an LLC usually combines 3 accounts: Mercury for the USD operations, Wise for EUR conversion at a 0.41% spread, and Relay as a backup with physical cards.",
+    "fr": "Une pile bancaire saine pour une LLC combine généralement 3 comptes : Mercury pour l'opérationnel USD, Wise pour la conversion EUR à 0,41 % de spread, et Relay en backup avec des cartes physiques.",
+    "de": "Ein sauberer Banking-Stack für eine LLC kombiniert in der Regel 3 Konten: Mercury für das USD-Operativ-Geschäft, Wise für den EUR-Umtausch mit 0,41 % Spread und Relay als Backup mit physischen Karten.",
+    "pt": "Uma pilha bancária saudável para uma LLC costuma combinar 3 contas: Mercury para a operacional USD, Wise para a conversão a EUR com spread de 0,41 % e Relay como backup com cartões físicos.",
+    "ca": "Una pila bancària sanejada per a una LLC sol combinar 3 comptes: Mercury per a l'operativa USD, Wise per a la conversió a EUR amb spread del 0,41 % i Relay com a suport amb targetes físiques."
+  },
+  "residentes-no-residentes-llc-diferencias": {
+    "es": "Un dueño de LLC se considera resident alien para el IRS si supera los 183 días en EE.UU. en el año fiscal, y eso le abre la puerta al W-9, al SSN y a tipos federales del 10 al 37 %.",
+    "en": "An LLC owner becomes a resident alien for the IRS if they spend more than 183 days in the US during the tax year, which opens the door to the W-9, the SSN, and federal rates of 10% to 37%.",
+    "fr": "Un propriétaire de LLC devient resident alien pour l'IRS s'il dépasse 183 jours aux États-Unis dans l'année fiscale, ce qui ouvre la porte au W-9, au SSN et à des taux fédéraux de 10 à 37 %.",
+    "de": "Ein LLC-Eigentümer gilt für die IRS als Resident Alien, wenn er im Steuerjahr mehr als 183 Tage in den USA verbringt, was den Weg zu W-9, SSN und föderalen Sätzen von 10 bis 37 % öffnet.",
+    "pt": "Um dono de LLC torna-se resident alien para o IRS se ultrapassar 183 dias nos EUA no ano fiscal, o que abre a porta ao W-9, ao SSN e a taxas federais de 10 % a 37 %.",
+    "ca": "Un amo de LLC es considera resident alien per a l'IRS si supera els 183 dies als EUA en l'any fiscal, i això li obre la porta al W-9, al SSN i a tipus federals del 10 al 37 %."
+  },
+  "retenciones-irpf-factura": {
+    "es": "Un autónomo en España aplica una retención general del 15 % en factura, baja al 7 % los 3 primeros años de actividad y desaparece para clientes intracomunitarios o extracomunitarios fuera de la base imponible.",
+    "en": "A Spanish autónomo applies a 15% general IRPF withholding on invoices, drops to 7% for the first 3 years of activity, and skips it for intra-EU or non-EU clients outside the taxable base.",
+    "fr": "Un autónomo espagnol applique une retenue IRPF générale de 15 % sur la facture, descend à 7 % les 3 premières années d'activité et disparaît pour les clients intracommunautaires ou hors UE hors de la base imposable.",
+    "de": "Ein spanischer Autónomo berechnet auf der Rechnung 15 % allgemeinen IRPF-Quellensteuersatz, der in den ersten 3 Tätigkeitsjahren auf 7 % sinkt und bei innergemeinschaftlichen oder Drittstaaten-Kunden außerhalb der Bemessungsgrundlage entfällt.",
+    "pt": "Um autónomo em Espanha aplica uma retenção geral de IRPF de 15 % na fatura, desce para 7 % nos 3 primeiros anos de atividade e desaparece para clientes intracomunitários ou extracomunitários fora da base tributável.",
+    "ca": "Un autònom a Espanya aplica una retenció general d'IRPF del 15 % a la factura, baixa al 7 % els 3 primers anys d'activitat i desapareix per a clients intracomunitaris o extracomunitaris fora de la base imposable."
+  },
+  "revolut-business-crs-reporting-fiscal": {
+    "es": "Revolut Business reporta automáticamente saldos bajo CRS a más de 120 jurisdicciones desde 2018, y a la AEAT española le envía la información antes del 30 de septiembre de cada año.",
+    "en": "Revolut Business automatically reports balances under CRS to more than 120 jurisdictions since 2018, and pushes information to Spain's AEAT before September 30 every year.",
+    "fr": "Revolut Business reporte automatiquement les soldes sous CRS à plus de 120 juridictions depuis 2018, et transmet l'information à l'AEAT espagnole avant le 30 septembre de chaque année.",
+    "de": "Revolut Business meldet seit 2018 unter CRS automatisch Salden an über 120 Jurisdiktionen und übermittelt der spanischen AEAT die Daten bis zum 30. September jedes Jahres.",
+    "pt": "Desde 2018, sob o CRS, são reportados saldos da Revolut Business a mais de 120 jurisdições, e a informação chega à AEAT espanhola antes de 30 de setembro de cada ano.",
+    "ca": "Revolut Business reporta automàticament saldos sota CRS a més de 120 jurisdiccions des del 2018, i a l'AEAT espanyola li envia la informació abans del 30 de setembre de cada any."
+  },
+  "riesgos-fiscales-mala-estructuracion-internacional": {
+    "es": "Una mala estructuración internacional choca con las 15 acciones BEPS de la OCDE, con multas que en España pueden alcanzar el 150 % de la cuota dejada de ingresar bajo el art. 191 LGT.",
+    "en": "Poor international structuring collides with the OECD's 15 BEPS actions, and in Spain penalties can reach 150% of the unpaid quota under LGT art. 191.",
+    "fr": "Une mauvaise structuration internationale se heurte aux 15 actions BEPS de l'OCDE, avec des amendes qui en Espagne peuvent atteindre 150 % du montant impayé en vertu de l'art. 191 LGT.",
+    "de": "Eine schlechte internationale Strukturierung kollidiert mit den 15 BEPS-Aktionen der OECD; in Spanien können die Strafen 150 % der nicht abgeführten Quote nach Art. 191 LGT erreichen.",
+    "pt": "Uma má estruturação internacional colide com as 15 ações BEPS da OCDE, com multas que em Espanha podem atingir 150 % da quota não entregue ao abrigo do art. 191 LGT.",
+    "ca": "Una mala estructuració internacional xoca amb les 15 accions BEPS de l'OCDE, amb multes que a Espanya poden arribar al 150 % de la quota deixada d'ingressar sota l'art. 191 LGT."
+  },
+  "separar-dinero-personal-llc-por-que-importa": {
+    "es": "Mezclar dinero personal y de la LLC durante 12 meses basta para que un juez declare piercing the corporate veil y el patrimonio personal del miembro responda directamente por las deudas.",
+    "en": "Mixing personal and LLC money for just 12 months is enough for a judge to declare piercing the corporate veil and have the member's personal assets answer for the debts directly.",
+    "fr": "Mélanger l'argent personnel et celui de la LLC pendant 12 mois suffit à ce qu'un juge prononce le piercing the corporate veil et que le patrimoine personnel du membre réponde directement des dettes.",
+    "de": "Schon 12 Monate Vermischung von Privat- und LLC-Geldern reichen aus, dass ein Gericht das Piercing the Corporate Veil ausspricht und das Privatvermögen des Mitglieds direkt für die Schulden haftet.",
+    "pt": "Misturar dinheiro pessoal e da LLC durante 12 meses basta para que um juiz declare piercing the corporate veil e o património pessoal do membro responda diretamente pelas dívidas.",
+    "ca": "Barrejar diners personals i de la LLC durant 12 mesos n'hi ha prou perquè un jutge declari piercing the corporate veil i el patrimoni personal del membre respongui directament dels deutes."
+  },
+  "single-member-multi-member-llc-implicaciones-fiscales": {
+    "es": "Una LLC con 1 miembro tributa por defecto como disregarded entity con Form 1120 + 5472, mientras que una LLC con 2 o más miembros tributa como partnership con Form 1065, dos regímenes muy distintos.",
+    "en": "A 1-member LLC defaults to taxation as a disregarded entity filing Form 1120 + 5472, while a 2-or-more-member LLC is taxed as a partnership filing Form 1065 — two very different regimes.",
+    "fr": "Une LLC à 1 membre est imposée par défaut comme disregarded entity via Form 1120 + 5472, tandis qu'une LLC à 2 membres ou plus est imposée comme partnership via Form 1065 — deux régimes très différents.",
+    "de": "Eine LLC mit 1 Mitglied wird standardmäßig als Disregarded Entity über Form 1120 + 5472 besteuert, während eine LLC mit 2 oder mehr Mitgliedern als Partnership über Form 1065 besteuert wird — zwei sehr unterschiedliche Regime.",
+    "pt": "Uma LLC com 1 membro é tributada por defeito como disregarded entity com Form 1120 + 5472, enquanto uma LLC com 2 ou mais membros é tributada como partnership com Form 1065 — dois regimes muito diferentes.",
+    "ca": "Una LLC amb 1 membre tributa per defecte com a disregarded entity amb Form 1120 + 5472, mentre que una LLC amb 2 o més membres tributa com a partnership amb Form 1065, dos règims molt diferents."
+  },
+  "sociedad-limitada-espana-costes-ventajas": {
+    "es": "Una SL española exige 3.000 € de capital social mínimo, paga 25 % de Impuesto de Sociedades (15 % los 2 primeros años) y obliga a libros mercantiles trimestrales en el Registro Mercantil.",
+    "en": "A Spanish SL requires 3,000 euros of minimum share capital, pays 25% Corporate Tax (15% during the first 2 years), and demands quarterly commercial books at the Mercantile Registry.",
+    "fr": "Une SL espagnole exige 3 000 € de capital social minimum, paie 25 % d'IS (15 % les 2 premières années) et impose des livres mercantiles trimestriels au Registre du Commerce.",
+    "de": "Eine spanische SL verlangt 3.000 € Mindeststammkapital, zahlt 25 % Körperschaftsteuer (15 % in den ersten 2 Jahren) und schreibt vierteljährliche Handelsbücher im Handelsregister vor.",
+    "pt": "Uma SL espanhola exige 3.000 € de capital social mínimo, paga 25 % de IRC (15 % nos 2 primeiros anos) e obriga a livros mercantis trimestrais no Registo Mercantil.",
+    "ca": "Una SL espanyola exigeix 3.000 € de capital social mínim, paga 25 % d'Impost de Societats (15 % els 2 primers anys) i obliga a llibres mercantils trimestrals al Registre Mercantil."
+  },
+  "tengo-llc-checklist-gestion-correcta": {
+    "es": "Tener una LLC bien gestionada se reduce a un checklist con 12 puntos verificables en 30 minutos, alineado con los 4 puntos críticos del IRS y los 4 puntos críticos del estado de constitución.",
+    "en": "Running a well-kept LLC boils down to a checklist of 12 verifiable items in 30 minutes, aligned with the IRS's 4 critical checkpoints and the formation state's 4 critical checkpoints.",
+    "fr": "Avoir une LLC bien gérée se résume à un checklist de 12 points vérifiables en 30 minutes, aligné sur les 4 points critiques de l'IRS et les 4 points critiques de l'État de constitution.",
+    "de": "Eine gut geführte LLC zu haben läuft auf eine Checkliste von 12 in 30 Minuten überprüfbaren Punkten hinaus, abgestimmt auf die 4 kritischen Punkte der IRS und die 4 kritischen Punkte des Gründungsstaats.",
+    "pt": "Ter uma LLC bem gerida resume-se a um checklist com 12 pontos verificáveis em 30 minutos, alinhado com os 4 pontos críticos do IRS e os 4 pontos críticos do estado de constituição.",
+    "ca": "Tenir una LLC ben gestionada es redueix a un checklist amb 12 punts verificables en 30 minuts, alineat amb els 4 punts crítics de l'IRS i els 4 punts crítics de l'estat de constitució."
+  },
+  "testaferros-prestanombres-llc-ilegal-riesgos": {
+    "es": "Usar testaferros para ocultar la titularidad de una LLC es delito de simulación contractual y fiscal en España (art. 305 CP), con penas de 1 a 5 años de prisión y multas de hasta 6 veces la cuota defraudada.",
+    "en": "Using nominees to hide the ownership of an LLC is a crime of contractual and tax simulation in Spain (Penal Code art. 305), with prison from 1 to 5 years and fines of up to 6 times the defrauded amount.",
+    "fr": "Utiliser des prête-noms pour cacher la propriété d'une LLC est un délit de simulation contractuelle et fiscale en Espagne (art. 305 CP), avec 1 à 5 ans de prison et des amendes pouvant atteindre 6 fois le montant fraudé.",
+    "de": "Strohmänner zur Verschleierung der Inhaberschaft einer LLC einzusetzen ist in Spanien ein Vertrags- und Steuerverkürzungstatbestand (Art. 305 CP) — mit 1 bis 5 Jahren Haft und Geldstrafen bis zum 6-Fachen der hinterzogenen Summe.",
+    "pt": "Usar testas-de-ferro para ocultar a titularidade de uma LLC é crime de simulação contratual e fiscal em Espanha (art. 305 CP), com penas de 1 a 5 anos de prisão e multas até 6 vezes o valor defraudado.",
+    "ca": "Fer servir homes de palla per ocultar la titularitat d'una LLC és delicte de simulació contractual i fiscal a Espanya (art. 305 CP), amb penes d'1 a 5 anys de presó i multes de fins a 6 vegades la quota defraudada."
+  },
+  "tiempos-pagos-ach-wire-transfer": {
+    "es": "Una transferencia ACH dentro de Estados Unidos liquida en 1 a 3 días hábiles y cuesta 0 $ en Mercury, mientras que un wire transfer doméstico llega el mismo día y cobra 5 $ en cuentas LLC operativas.",
+    "en": "A US-domestic ACH transfer settles in 1 to 3 business days at 0 dollars on Mercury, while a domestic wire transfer arrives the same day and costs 5 dollars on operating LLC accounts.",
+    "fr": "Un virement ACH domestique aux États-Unis se règle en 1 à 3 jours ouvrés et coûte 0 $ chez Mercury, tandis qu'un wire transfer domestique arrive le jour même et coûte 5 $ sur les comptes LLC opérationnels.",
+    "de": "Eine US-Inland-ACH-Überweisung liegt in 1 bis 3 Arbeitstagen vor und kostet bei Mercury 0 USD, ein inländischer Wire Transfer trifft am selben Tag ein und kostet auf operativen LLC-Konten 5 USD.",
+    "pt": "Uma transferência ACH dentro dos EUA liquida em 1 a 3 dias úteis e custa 0 $ na Mercury, enquanto um wire transfer doméstico chega no próprio dia e custa 5 $ nas contas operacionais LLC.",
+    "ca": "Una transferència ACH dins dels EUA liquida en 1 a 3 dies hàbils i costa 0 $ a Mercury, mentre que un wire transfer domèstic arriba el mateix dia i cobra 5 $ als comptes operatius LLC."
+  },
+  "tramos-irpf-2026": {
+    "es": "Los tramos del IRPF 2026 en España van del 19 % hasta 12.450 € de base liquidable al 47 % por encima de 300.000 €, en una escala progresiva de 6 tramos.",
+    "en": "Spain's 2026 IRPF brackets run from 19% up to 12,450 euros of taxable base to 47% above 300,000 euros, on a progressive 6-bracket scale.",
+    "fr": "Les tranches de l'IRPF 2026 en Espagne vont de 19 % jusqu'à 12 450 € de base imposable à 47 % au-delà de 300 000 €, sur une échelle progressive de 6 tranches.",
+    "de": "Die spanischen IRPF-Stufen 2026 reichen von 19 % bis 12.450 € steuerpflichtiger Bemessungsgrundlage bis 47 % über 300.000 € — auf einer progressiven 6-Stufen-Skala.",
+    "pt": "Os escalões do IRPF 2026 em Espanha vão de 19 % até 12.450 € de base liquidável a 47 % acima de 300.000 €, numa escala progressiva de 6 escalões.",
+    "ca": "Els trams de l'IRPF 2026 a Espanya van del 19 % fins a 12.450 € de base liquidable al 47 % per sobre de 300.000 €, en una escala progressiva de 6 trams."
+  },
+  "tributacion-llc-segun-actividad-economica": {
+    "es": "Una LLC pass-through tributa al 0 % federal en EE.UU. tanto si la actividad es servicios profesionales, ecommerce, SaaS o trading; el cómputo real solo cambia en el IRPF del país de residencia, que en España llega al 47 %.",
+    "en": "A pass-through LLC is taxed at 0% federal in the US whether the activity is professional services, ecommerce, SaaS or trading; the real math only changes in the local income tax, which reaches 47% in Spain.",
+    "fr": "Une LLC pass-through est imposée à 0 % fédéral aux États-Unis que l'activité soit du service professionnel, de l'e-commerce, du SaaS ou du trading ; le calcul réel ne change que dans l'IRPF du pays de résidence, qui atteint 47 % en Espagne.",
+    "de": "Eine Pass-through-LLC wird in den USA mit 0 % föderal besteuert, egal ob die Tätigkeit Beratungsleistungen, E-Commerce, SaaS oder Trading ist; die echte Rechnung ändert sich erst in der Einkommensteuer des Wohnsitzlandes, in Spanien bis 47 %.",
+    "pt": "Uma LLC pass-through tributa a 0 % federal nos EUA quer a atividade seja serviços profissionais, ecommerce, SaaS ou trading; o cálculo real só muda no IRPF do país de residência, que em Espanha chega a 47 %.",
+    "ca": "Una LLC pass-through tributa al 0 % federal als EUA tant si l'activitat és serveis professionals, ecommerce, SaaS o trading; el càlcul real només canvia a l'IRPF del país de residència, que a Espanya arriba al 47 %."
+  },
+  "tributacion-pass-through-llc-como-funciona": {
+    "es": "El régimen pass-through de la LLC fija el impuesto federal en 0 % y traslada el 100 % del beneficio al titular, que tributa según las reglas del IRPF de su país (hasta el 47 % en España).",
+    "en": "An LLC's pass-through regime sets the federal tax at 0% and pushes 100% of the profit to the owner, who is taxed under the personal income tax of their country (up to 47% in Spain).",
+    "fr": "Le régime pass-through de la LLC fixe l'impôt fédéral à 0 % et transfère 100 % du bénéfice au propriétaire, qui est imposé selon les règles de l'IRPF de son pays (jusqu'à 47 % en Espagne).",
+    "de": "Das Pass-through-Regime der LLC setzt die föderale Steuer auf 0 % und überträgt 100 % des Gewinns auf den Eigentümer, der nach den Einkommensteuerregeln seines Landes besteuert wird (bis 47 % in Spanien).",
+    "pt": "O regime pass-through da LLC fixa o imposto federal em 0 % e empurra 100 % do lucro para o titular, que é tributado segundo as regras do IRPF do seu país (até 47 % em Espanha).",
+    "ca": "El règim pass-through de la LLC fixa l'impost federal en 0 % i trasllada el 100 % del benefici al titular, que tributa segons les regles de l'IRPF del seu país (fins al 47 % a Espanya)."
+  },
+  "vender-o-cerrar-llc-comparativa-practica": {
+    "es": "Cerrar una LLC bien hecha lleva 30 a 60 días y exige Form 1120 + 5472 final; venderla cuesta normalmente entre 0 $ y 5.000 $ en honorarios y permite preservar el EIN y la antigüedad bancaria.",
+    "en": "Closing an LLC properly takes 30 to 60 days and requires a final Form 1120 + 5472; selling it usually costs 0 to 5,000 dollars in fees and lets you preserve the EIN and the bank seniority.",
+    "fr": "Bien fermer une LLC prend 30 à 60 jours et impose un Form 1120 + 5472 final ; la vendre coûte généralement entre 0 $ et 5 000 $ d'honoraires et permet de préserver l'EIN et l'ancienneté bancaire.",
+    "de": "Eine LLC sauber zu schließen dauert 30 bis 60 Tage und erfordert ein finales Form 1120 + 5472; ein Verkauf kostet meist 0 bis 5.000 USD an Honoraren und bewahrt EIN und Bank-Seniorität.",
+    "pt": "Fechar uma LLC bem feita leva 30 a 60 dias e exige Form 1120 + 5472 final; vendê-la custa normalmente entre 0 $ e 5.000 $ em honorários e permite preservar o EIN e a antiguidade bancária.",
+    "ca": "Tancar una LLC ben feta porta 30 a 60 dies i exigeix Form 1120 + 5472 final; vendre-la costa normalment entre 0 $ i 5.000 $ en honoraris i permet preservar l'EIN i l'antiguitat bancària."
+  },
+  "ventajas-desventajas-llc-no-residentes": {
+    "es": "Una LLC pass-through paga 0 % federal en EE.UU. y se constituye en 7 a 14 días, pero arrastra 4 obligaciones anuales no negociables: Form 1120 + 5472, BOI Report (si aplica), Annual Report y Registered Agent.",
+    "en": "A pass-through LLC pays 0% federal in the US and is set up in 7 to 14 days, but carries 4 non-negotiable annual obligations: Form 1120 + 5472, BOI Report (if applicable), Annual Report, and Registered Agent.",
+    "fr": "Une LLC pass-through paie 0 % fédéral aux États-Unis et se monte en 7 à 14 jours, mais traîne 4 obligations annuelles non négociables : Form 1120 + 5472, BOI Report (si applicable), Annual Report et Registered Agent.",
+    "de": "Eine Pass-through-LLC zahlt 0 % föderal in den USA und ist in 7 bis 14 Tagen errichtet, schleppt aber 4 nicht verhandelbare Jahrespflichten mit: Form 1120 + 5472, BOI Report (sofern anwendbar), Annual Report und Registered Agent.",
+    "pt": "Uma LLC pass-through paga 0 % federal nos EUA e constitui-se em 7 a 14 dias, mas arrasta 4 obrigações anuais não negociáveis: Form 1120 + 5472, BOI Report (se aplicável), Annual Report e Registered Agent.",
+    "ca": "Una LLC pass-through paga 0 % federal als EUA i es constitueix en 7 a 14 dies, però arrossega 4 obligacions anuals no negociables: Form 1120 + 5472, BOI Report (si escau), Annual Report i Registered Agent."
+  },
+  "visa-mastercard-reporting-tarjetas-hacienda": {
+    "es": "El Modelo 991 obliga a Visa, Mastercard y American Express a reportar a la AEAT todo cobro o pago con tarjeta superior a 25.000 € por titular y año, así como las cuentas asociadas en el extranjero.",
+    "en": "Modelo 991 forces Visa, Mastercard and American Express to report to Spain's AEAT every card charge or payment above 25,000 euros per holder per year, plus any associated foreign accounts.",
+    "fr": "Le Modelo 991 oblige Visa, Mastercard et American Express à déclarer à l'AEAT espagnole toute recette ou dépense par carte supérieure à 25 000 € par titulaire et par an, ainsi que les comptes associés à l'étranger.",
+    "de": "Das Modelo 991 verpflichtet Visa, Mastercard und American Express, jede Karten­buchung über 25.000 € pro Karteninhaber und Jahr sowie die zugehörigen ausländischen Konten an die spanische AEAT zu melden.",
+    "pt": "O Modelo 991 obriga a Visa, Mastercard e American Express a reportar à AEAT espanhola qualquer cobrança ou pagamento por cartão superior a 25.000 € por titular e ano, bem como as contas associadas no estrangeiro.",
+    "ca": "El Model 991 obliga Visa, Mastercard i American Express a reportar a l'AEAT espanyola qualsevol cobrament o pagament amb targeta superior a 25.000 € per titular i any, així com els comptes associats a l'estranger."
+  },
+  "w8-ben-y-w8-ben-e-guia-completa": {
+    "es": "Sin un W-8BEN o W-8BEN-E correctamente firmado, el pagador estadounidense aplica la retención por defecto del 30 % sobre intereses, dividendos, royalties y servicios efectivamente conectados.",
+    "en": "Without a properly signed W-8BEN or W-8BEN-E, the US payer applies the default 30% withholding on interest, dividends, royalties and effectively connected services.",
+    "fr": "Sans Form W-8BEN ou W-8BEN-E correctement signé, le payeur américain applique la retenue par défaut de 30 % sur les intérêts, dividendes, royalties et services effectivement connectés.",
+    "de": "Ohne korrekt unterzeichnetes W-8BEN oder W-8BEN-E wendet der US-Zahler die Standardquellensteuer von 30 % auf Zinsen, Dividenden, Lizenzgebühren und tatsächlich verbundene Dienstleistungen an.",
+    "pt": "Sem um W-8BEN ou W-8BEN-E corretamente assinado, o pagador norte-americano aplica a retenção padrão de 30 % sobre juros, dividendos, royalties e serviços efetivamente conectados.",
+    "ca": "Sense un W-8BEN o W-8BEN-E correctament signat, el pagador nord-americà aplica la retenció per defecte del 30 % sobre interessos, dividends, royalties i serveis efectivament connectats."
+  },
+  "wise-bancos-llc-stack-bancaria-completa": {
+    "es": "Una stack bancaria robusta para una LLC combina Mercury (0 $/mes), Wise (0,41 % de spread) y Relay (3 cuentas físicas con tarjetas), sumando una infraestructura por debajo de 50 $ al mes.",
+    "en": "A robust banking stack for an LLC combines Mercury (0 dollars a month), Wise (0.41% spread) and Relay (3 physical accounts with cards), totalling an infrastructure under 50 dollars a month.",
+    "fr": "Une pile bancaire robuste pour une LLC combine Mercury (0 $/mois), Wise (0,41 % de spread) et Relay (3 comptes physiques avec cartes), pour une infrastructure sous les 50 $ par mois.",
+    "de": "Ein robuster Banking-Stack für eine LLC kombiniert Mercury (0 USD/Monat), Wise (0,41 % Spread) und Relay (3 physische Konten mit Karten) — eine Infrastruktur unter 50 USD pro Monat.",
+    "pt": "Uma stack bancária robusta para uma LLC combina Mercury (0 $/mês), Wise (0,41 % de spread) e Relay (3 contas físicas com cartões), totalizando uma infraestrutura abaixo de 50 $ por mês.",
+    "ca": "Una stack bancària robusta per a una LLC combina Mercury (0 $/mes), Wise (0,41 % de spread) i Relay (3 comptes físics amb targetes), sumant una infraestructura per sota de 50 $ al mes."
+  },
+  "wise-business-crs-reporting-fiscal": {
+    "es": "Wise Business reporta saldos de cuentas a más de 120 jurisdicciones bajo CRS y, para un residente fiscal en España, envía la información a la AEAT antes del 30 de septiembre de cada ejercicio.",
+    "en": "Wise Business reports account balances to more than 120 jurisdictions under CRS and, for a Spanish tax resident, sends the data to the AEAT before September 30 every year.",
+    "fr": "Wise Business reporte les soldes de comptes à plus de 120 juridictions sous CRS et, pour un résident fiscal espagnol, transmet l'information à l'AEAT avant le 30 septembre de chaque exercice.",
+    "de": "Wise Business meldet Kontosalden an über 120 Jurisdiktionen unter CRS und übermittelt die Daten für einen spanischen Steueransässigen jährlich bis zum 30. September an die AEAT.",
+    "pt": "Sob o CRS, são reportados saldos das contas Wise Business a mais de 120 jurisdições e, para um residente fiscal em Espanha, a informação chega à AEAT antes de 30 de setembro de cada exercício.",
+    "ca": "Wise Business reporta saldos de comptes a més de 120 jurisdiccions sota CRS i, per a un resident fiscal a Espanya, envia la informació a l'AEAT abans del 30 de setembre de cada exercici."
+  },
+  "wise-business-llc-guia": {
+    "es": "Wise Business abre cuenta multidivisa para una LLC en 5 días, convierte USD a EUR con un spread medio de 0,41 % y emite IBAN europeos en 9 monedas distintas.",
+    "en": "Wise Business opens a multi-currency account for an LLC in 5 days, converts USD to EUR at an average 0.41% spread, and issues European IBANs in 9 different currencies.",
+    "fr": "Wise Business ouvre un compte multidevises pour une LLC en 5 jours, convertit l'USD en EUR avec un spread moyen de 0,41 % et émet des IBAN européens en 9 devises différentes.",
+    "de": "Wise Business eröffnet ein Multi-Currency-Konto für eine LLC in 5 Tagen, tauscht USD in EUR mit einem durchschnittlichen Spread von 0,41 % und stellt europäische IBANs in 9 verschiedenen Währungen aus.",
+    "pt": "Em 5 dias úteis, a conta multimoeda da Wise Business para uma LLC é aberta, converte USD em EUR com spread médio de 0,41 % e emite IBAN europeus em 9 moedas diferentes.",
+    "ca": "Wise Business obre compte multidivisa per a una LLC en 5 dies, converteix USD a EUR amb un spread mitjà del 0,41 % i emet IBAN europeus en 9 monedes diferents."
+  },
+  "wise-iban-llc-que-reporta-hacienda": {
+    "es": "El IBAN belga que Wise asigna a una LLC entra en el intercambio CRS de más de 120 jurisdicciones, y para un residente fiscal en España la AEAT recibe el saldo a 31 de diciembre cada septiembre.",
+    "en": "The Belgian IBAN that Wise assigns to an LLC enters the CRS exchange covering more than 120 jurisdictions, and for a Spanish tax resident the AEAT receives the December 31 balance every September.",
+    "fr": "L'IBAN belge que Wise attribue à une LLC entre dans l'échange CRS de plus de 120 juridictions, et pour un résident fiscal espagnol l'AEAT reçoit le solde au 31 décembre chaque septembre.",
+    "de": "Die belgische IBAN, die Wise einer LLC zuteilt, fällt unter den CRS-Austausch von über 120 Jurisdiktionen, und für einen spanischen Steueransässigen erhält die AEAT den Saldo zum 31. Dezember jedes Jahr im September.",
+    "pt": "O IBAN belga que a Wise atribui a uma LLC entra na troca CRS de mais de 120 jurisdições, e para um residente fiscal em Espanha a AEAT recebe o saldo a 31 de dezembro todo setembro.",
+    "ca": "L'IBAN belga que Wise assigna a una LLC entra a l'intercanvi CRS de més de 120 jurisdiccions, i per a un resident fiscal a Espanya l'AEAT rep el saldo a 31 de desembre cada setembre."
+  }
+}

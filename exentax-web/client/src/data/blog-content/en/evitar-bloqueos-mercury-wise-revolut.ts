@@ -1,4 +1,6 @@
-export default `Account freezes are the biggest fear of any LLC owner. One day you log into Mercury or Wise and see: "Your account has been restricted." Without warning, without clear explanation, and with your money trapped.
+export default `Mercury and Wise resolve 90% of preventive freezes in under 30 days when the customer answers the first KYC email with the right documentation.
+
+Account freezes are the biggest fear of any LLC owner. One day you log into Mercury or Wise and see: "Your account has been restricted." Without warning, without clear explanation, and with your money trapped.
 
 The good news: the vast majority of freezes can be prevented. The bad news: if you don't know the rules of the game, you can stumble into one unknowingly.
 

@@ -1,5 +1,7 @@
 export default `
 
+EE.UU. ofrece 4 vehículos principales: la LLC pass-through con 0 % federal, la S-Corp limitada a residentes, la C-Corp con 21 % federal y la sole proprietorship sin escudo legal.
+
 Cuando alguien dice "empresa americana", la mayoría imagina una LLC; otros, una "corporation". La realidad es que en EE. UU. existen cuatro vehículos principales para hacer negocios: **LLC**, **Corporation**, **S-Corporation** y **C-Corporation**. Cada uno tiene su propio régimen fiscal federal y estatal, sus restricciones de propiedad y sus casos de uso. Para un emprendedor extranjero no residente, no todas son accesibles ni convenientes. Esta guía aterriza la diferencia real entre las cuatro figuras, qué encaja con cada perfil y por qué la LLC sigue siendo, hoy, la elección por defecto para freelancers, agencias y proyectos digitales que no buscan inversores institucionales.
 
 ## LLC: la opción flexible y por defecto para no residentes

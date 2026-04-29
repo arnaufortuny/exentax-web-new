@@ -1,5 +1,7 @@
 export default `
 
+Eine LLC sauber aufzulösen dauert 30 bis 60 Tage und verlangt das letzte Form 1120 + 5472 als final return; wer das auslässt, sammelt Strafen von 25.000 USD pro Jahr.
+
 Eine LLC ordentlich zu schließen ist genauso wichtig wie sie zu eröffnen. Die meisten LLC-Inhalte erklären die Gründung, die Wahl des Bundesstaates, die Eröffnung von Mercury oder Wise Business... aber kaum jemand erklärt, wie man sie korrekt **schließt**. Eine schlecht aufgelöste LLC erzeugt jedoch weiter Pflichten, Strafen, Gebühren und im schlimmsten Fall einen US-steuerlichen Schatten, der Sie über Jahre verfolgen kann.
 
 Dieser Leitfaden beschreibt den realen, vollständigen Prozess, um Ihre **US-LLC aufzulösen und zu schließen**: wann es sinnvoll ist, wie der Ablauf bundesstaatlich strukturiert wird, welche Schlusserklärungen der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> erwartet, was mit Ihrer EIN passiert, was mit dem BOI Report zu tun ist, wie Sie Bankkonten kündigen und warum es eine strikte Reihenfolge gibt, die nicht verändert werden sollte. Wenn Sie Ihre LLC nicht mehr betreiben und in drei Jahren keine Überraschungen wollen, ist das der Weg.

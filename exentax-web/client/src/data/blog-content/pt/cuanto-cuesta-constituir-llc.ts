@@ -1,5 +1,7 @@
 export default `
 
+Constituir uma LLC custa de 0 $ a 50 $ de taxa estatal no Novo México, 100 $ no Wyoming e 90 $ no Delaware; com serviço profissional, o custo total do primeiro ano fica entre 400 $ e 1.500 $.
+
 Comecemos por esclarecer uma coisa que faz ranger os ouvidos a quem trabalha nisto: uma LLC não se "cria". **Constitui-se**.
 
 Cria-se um perfil no Instagram ou uma conta da Netflix. Constitui-se uma entidade legal reconhecida por um estado soberano dos Estados Unidos, com obrigações fiscais, um número de identificação federal e deveres de comunicação ao <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>. Diferença subtil — até a **Autoridade Tributária e Aduaneira (AT)** em Portugal, ou a **Receita Federal** no Brasil, puxarem o fio à meada.

@@ -1,4 +1,6 @@
-export default `Eine Single-Member LLC zahlt in den USA keine Bundessteuer, wenn der Inhaber nicht in den USA ansässig ist und die Einkünfte keine US-Quelle haben: Der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> behandelt sie als „Disregarded Entity", und die Gewinne fließen direkt an den Inhaber. So weit, so unstrittig.
+export default `Eine Pass-through-LLC zahlt 0 % föderal in den USA, wird aber je nach Wohnsitz mit bis zu 47 % IRPF in Spanien, bis zu 45 % in Frankreich, bis zu 45 % in Deutschland oder bis zu 22 % in Portugal unter NHR besteuert.
+
+Eine Single-Member LLC zahlt in den USA keine Bundessteuer, wenn der Inhaber nicht in den USA ansässig ist und die Einkünfte keine US-Quelle haben: Der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> behandelt sie als „Disregarded Entity", und die Gewinne fließen direkt an den Inhaber. So weit, so unstrittig.
 
 Die eigentliche Frage ist, was anschließend in Ihrem Wohnsitzland passiert. Und genau da ändert sich die Antwort radikal, je nachdem, ob Sie in Deutschland, Österreich oder der Schweiz wohnen: Doppelbesteuerungsabkommen, Einordnung der LLC als transparent oder intransparent, Krankenkasse, Soli… Dieser Artikel sortiert das Land für Land im DACH-Raum.
 

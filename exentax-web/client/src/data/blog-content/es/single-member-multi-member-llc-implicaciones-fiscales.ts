@@ -1,5 +1,7 @@
 export default `
 
+Una LLC con 1 miembro tributa por defecto como disregarded entity con Form 1120 + 5472, mientras que una LLC con 2 o más miembros tributa como partnership con Form 1065, dos regímenes muy distintos.
+
 Pasar de single-member LLC a multi-member LLC suena a trámite menor. No lo es. Es uno de los cambios estructurales con más implicaciones fiscales reales para una LLC en marcha, y casi nunca se explica con la profundidad que merece antes de ejecutarlo.
 
 Este artículo cubre lo que de verdad cambia, lo que no cambia, y qué tienes que tener resuelto antes de incorporar a un segundo miembro.

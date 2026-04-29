@@ -1,4 +1,6 @@
-export default `One of the most valuable aspects of operating through a US LLC is the ability to deduct legitimate business expenses before calculating your taxable profit. Every dollar you deduct is a dollar you don't pay income tax on. Here's what qualifies.
+export default `A pass-through LLC can deduct under IRC §162 100% of the ordinary and necessary expenses of the activity, with no predefined numerical cap but strict qualitative limits.
+
+One of the most valuable aspects of operating through a US LLC is the ability to deduct legitimate business expenses before calculating your taxable profit. Every dollar you deduct is a dollar you don't pay income tax on. Here's what qualifies.
 
 ## How LLC deductions work
 

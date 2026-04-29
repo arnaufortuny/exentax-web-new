@@ -1,4 +1,6 @@
-export default `Forming an LLC is just the first step. To keep your company active, in good standing, and compliant, there are annual obligations you must meet. The good news: at Exentax we handle absolutely everything as part of the annual maintenance plan. You focus on your business and we handle compliance.
+export default `An LLC with no US internal operations has 4 fixed annual obligations: state Annual Report, Form 1120 + 5472 with the IRS, BOI Report (if applicable), and Registered Agent renewal.
+
+Forming an LLC is just the first step. To keep your company active, in good standing, and compliant, there are annual obligations you must meet. The good news: at Exentax we handle absolutely everything as part of the annual maintenance plan. You focus on your business and we handle compliance.
 
 But it's important you understand what gets done and when.
 

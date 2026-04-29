@@ -1,4 +1,6 @@
-export default `Canviar de proveïdor de manteniment de la teva LLC és una de les decisions que més por fan i menys conseqüències té si es fa bé. La immensa majoria de propietaris de LLC que arriben a Exentax volent canviar arrosseguen la mateixa por: "perdré antiguitat?", "es reinicia alguna cosa?", "l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ho nota?".
+export default `Una migració de proveïdor de manteniment d'una LLC es completa normalment en 7 a 14 dies i no toca la data de constitució original, que continua intacta al Secretary of State.
+
+Canviar de proveïdor de manteniment de la teva LLC és una de les decisions que més por fan i menys conseqüències té si es fa bé. La immensa majoria de propietaris de LLC que arriben a Exentax volent canviar arrosseguen la mateixa por: "perdré antiguitat?", "es reinicia alguna cosa?", "l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ho nota?".
 
 Resposta curta: no, no i pràcticament no. Resposta llarga és aquesta guia.
 

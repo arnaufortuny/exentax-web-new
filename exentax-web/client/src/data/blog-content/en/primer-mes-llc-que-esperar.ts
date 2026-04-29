@@ -1,4 +1,6 @@
-export default `You've formed your LLC. Now what? Here's exactly what happens during your first month. week by week.
+export default `The first 30 days after forming an LLC cover 4 critical milestones: receiving the Articles of Organization, getting the EIN, opening a Mercury account, and signing the Operating Agreement.
+
+You've formed your LLC. Now what? Here's exactly what happens during your first month. week by week.
 
 ## Week 1: Bank account setup
 

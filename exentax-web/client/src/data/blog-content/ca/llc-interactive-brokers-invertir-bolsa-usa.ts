@@ -1,4 +1,6 @@
-export default `Una de les preguntes més freqüents que fan els clients d'Exentax: "puc obrir Interactive Brokers a nom de la meva LLC per invertir des dels Estats Units?". La resposta és **sí, es fa, i ben estructurat té sentit**. En aquest article t'expliquem com funciona de veritat, quins brokers estan disponibles per a una LLC de no residents, què canvia fiscalment i com es dissenya una operativa d'inversió neta des de la teva LLC.
+export default `Sense formulari W-8BEN-E presentat, Interactive Brokers reté el 30 % de cada dividend US pagat a una LLC amb amo no resident; amb W-8BEN-E correcte el tractament baixa segons conveni.
+
+Una de les preguntes més freqüents que fan els clients d'Exentax: "puc obrir Interactive Brokers a nom de la meva LLC per invertir des dels Estats Units?". La resposta és **sí, es fa, i ben estructurat té sentit**. En aquest article t'expliquem com funciona de veritat, quins brokers estan disponibles per a una LLC de no residents, què canvia fiscalment i com es dissenya una operativa d'inversió neta des de la teva LLC.
 
 ## El punt de partida
 

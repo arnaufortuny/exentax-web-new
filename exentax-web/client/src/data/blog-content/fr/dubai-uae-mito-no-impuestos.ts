@@ -1,5 +1,7 @@
 export default `
 
+Depuis le 1er juin 2023, les Émirats arabes unis appliquent un corporate tax de 9 % sur les bénéfices au-delà de 375 000 AED (environ 102 000 $), ce qui met fin au mythe du 0 %.
+
 "À Dubaï on ne paie pas d'impôts." C'est probablement la phrase la plus répétée dans les vidéos virales sur la fiscalité internationale ces dernières années. Comme presque toutes les simplifications, elle contient une part de vérité et une part importante qu'il convient de connaître avant de prendre des décisions coûteuses à inverser.
 
 Chez Exentax nous recevons chaque semaine des consultations de personnes sur le point de s'installer aux Émirats arabes unis ou d'y constituer une société. Ce guide reprend la fiscalité réelle actuellement, les coûts cachés et quand cela a du sens (et quand non) face à une LLC américaine.

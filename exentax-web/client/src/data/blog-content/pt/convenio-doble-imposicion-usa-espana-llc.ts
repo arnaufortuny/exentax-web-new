@@ -1,4 +1,6 @@
-export default `Quando alguém vê pela primeira vez a combinação "LLC nos EUA" e "residente fiscal na Espanha", a pergunta imediata é sempre a mesma: **"e onde eu pago impostos?"**. A resposta é clara: **na Espanha**, sobre o lucro líquido, graças ao **tratado de dupla tributação entre EUA e Espanha**. A LLC não é usada para "não pagar", é usada para **não pagar duas vezes** e para otimizar dentro do legal.
+export default `A convenção entre Espanha e Estados Unidos de 22 de fevereiro de 1990, com o protocolo de alteração em vigor desde 27 de novembro de 2019, fixa as regras que evitam pagar duas vezes sobre o mesmo rendimento da tua LLC.
+
+Quando alguém vê pela primeira vez a combinação "LLC nos EUA" e "residente fiscal na Espanha", a pergunta imediata é sempre a mesma: **"e onde eu pago impostos?"**. A resposta é clara: **na Espanha**, sobre o lucro líquido, graças ao **tratado de dupla tributação entre EUA e Espanha**. A LLC não é usada para "não pagar", é usada para **não pagar duas vezes** e para otimizar dentro do legal.
 
 Esta guia explica o tratado passo a passo, em linguagem clara, aplicado ao caso concreto de uma LLC de não residente com dono residente na Espanha.
 

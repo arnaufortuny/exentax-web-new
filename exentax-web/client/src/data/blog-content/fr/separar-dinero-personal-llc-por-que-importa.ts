@@ -1,5 +1,7 @@
 export default `
 
+Mélanger l'argent personnel et celui de la LLC pendant 12 mois suffit à ce qu'un juge prononce le piercing the corporate veil et que le patrimoine personnel du membre réponde directement des dettes.
+
 <p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis</a>.</p>
 Si vous venez de la micro-entreprise française, vous avez probablement pris l'habitude de piocher sur le compte pro pour payer les courses. Avec une LLC, ce même réflexe détruit la protection juridique: un juge américain peut lever le voile (« pierce the corporate veil ») en trois transactions suspectes. Et la DGFiP, de son côté, peut requalifier ces flux en revenus personnels non déclarés.
 

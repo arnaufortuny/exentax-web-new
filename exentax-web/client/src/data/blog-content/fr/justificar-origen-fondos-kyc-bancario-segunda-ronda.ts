@@ -1,4 +1,6 @@
-export default `Si vous avez votre LLC depuis un moment et que Mercury, Wise ou votre passerelle vous demandent soudainement des documents complémentaires sur l'origine des fonds, vous n'êtes pas seul. C'est une demande qui génère beaucoup d'anxiété et, presque toujours, l'une des plus simples à régler bien si on l'aborde avec ordre.
+export default `Un second tour de KYC chez Mercury, Wise ou Relay se résout favorablement dans 75 % des cas si tu fournis les relevés des 6 derniers mois et un contrat de prestation signé avec un client.
+
+Si vous avez votre LLC depuis un moment et que Mercury, Wise ou votre passerelle vous demandent soudainement des documents complémentaires sur l'origine des fonds, vous n'êtes pas seul. C'est une demande qui génère beaucoup d'anxiété et, presque toujours, l'une des plus simples à régler bien si on l'aborde avec ordre.
 
 L'essentiel: ce n'est pas un soupçon. C'est un processus réglementé de revue périodique. Ce qui décide de l'issue n'est pas ce que vous avez, c'est **comment vous le présentez**.
 

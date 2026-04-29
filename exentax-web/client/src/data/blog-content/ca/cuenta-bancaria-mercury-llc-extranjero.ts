@@ -1,5 +1,7 @@
 export default `
 
+Mercury cobra 0 $ de manteniment mensual i aprova entre el 70 i el 80 % de les sol·licituds legítimes de no residents en menys de 5 dies laborables.
+
 <p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA</a>.</p>
 Si acabes de constituir la teva LLC des de Catalunya, la pregunta següent gairebé sempre és la mateixa: "com obro un compte bancari americà sense trepitjar els Estats Units?" Durant anys la resposta per defecte era Mercury. **A avui, però, a Exentax ja no recomanem Mercury com a compte principal si tota la teva operativa passa fora dels EUA.** El motiu és molt concret: quan Mercury tanca un compte per una revisió de compliance, cada cop més freqüent, **retorna els fons mitjançant un xec físic en USD a nom de la LLC, enviat per correu postal a l'adreça registrada**. Per a un resident fiscal a Catalunya, Espanya o LATAM, dipositar aquell xec és lent, car i, en molts bancs europeus, directament impossible.
 

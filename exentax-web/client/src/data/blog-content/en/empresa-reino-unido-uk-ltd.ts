@@ -1,5 +1,7 @@
 export default `
 
+After the 2023 rate hike, a UK Ltd pays 19% Corporation Tax in the small profits bracket and up to 25% above 250,000 pounds of annual profit.
+
 The United Kingdom remains, after Brexit, one of the world's most used jurisdictions for company formation. The combination of fast and cheap incorporation, regulatory transparency, solid banking and international reputation is intact. However, its taxation has changed in recent years and it is worth understanding when a UK Limited (UK Ltd) is the right choice and when it is not.
 
 At Exentax we receive frequent questions about setting up a British company versus a US LLC. This guide explains honestly the requirements, costs, real taxation and cases where each option fits best.

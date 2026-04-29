@@ -1,4 +1,6 @@
-export default `EIN, ITIN, SSN. US tax identification numbers can be confusing. Here's a clear guide to what each one is, whether you need them, and how to get them.
+export default `The ITIN has 9 digits and is issued in 7 to 11 weeks, while the SSN has 9 digits and is granted only to US legal residents.
+
+EIN, ITIN, SSN. US tax identification numbers can be confusing. Here's a clear guide to what each one is, whether you need them, and how to get them.
 
 ## Social Security Number (SSN)
 

@@ -1,4 +1,6 @@
-export default `If you have an LLC and your banking is "Mercury for everything because that is what they told me", you are leaving money and reliability on the table. Mercury is excellent for many use cases, but the optimal banking architecture for an active LLC is rarely a single account in a single platform. Most often it is a thoughtful combination of two or three.
+export default `A clean banking stack for an LLC usually combines 3 accounts: Mercury for the USD operations, Wise for EUR conversion at a 0.41% spread, and Relay as a backup with physical cards.
+
+If you have an LLC and your banking is "Mercury for everything because that is what they told me", you are leaving money and reliability on the table. Mercury is excellent for many use cases, but the optimal banking architecture for an active LLC is rarely a single account in a single platform. Most often it is a thoughtful combination of two or three.
 
 This article is the diagnostic and reorganization framework we apply at Exentax for LLCs that have grown out of their original setup.
 

@@ -1,4 +1,6 @@
-export default `A tua LLC fatura em dólares, mas a tua renda em Lisboa, Porto ou São Paulo paga-se em euros ou em reais. Entre as duas moedas existe o câmbio, e é aí que a maioria dos donos novatos de LLC perde dinheiro todos os meses sem dar por ela.
+export default `A Wise converte USD em EUR com um spread médio de 0,41 %, a Mercury ronda 1 % e um banco espanhol tradicional pode levar entre 2 % e 4 % em cada operação.
+
+A tua LLC fatura em dólares, mas a tua renda em Lisboa, Porto ou São Paulo paga-se em euros ou em reais. Entre as duas moedas existe o câmbio, e é aí que a maioria dos donos novatos de LLC perde dinheiro todos os meses sem dar por ela.
 
 A forma como converte essas divisas pode custar-lhe centenas ou milhares de dólares por ano, ou praticamente nada, se usar as ferramentas corretas.
 

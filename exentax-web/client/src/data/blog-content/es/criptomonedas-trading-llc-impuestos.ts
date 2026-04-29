@@ -1,5 +1,7 @@
 export default `
 
+Las plusvalías cripto en España tributan en escala del 19 % al 30 %, y el Modelo 721 obliga a declarar saldos en exchanges extranjeros desde 50.000 €.
+
 El trading de criptomonedas genera obligaciones fiscales que muchos traders ignoran, hasta que las autoridades fiscales llaman a la puerta. Si operas con Bitcoin, Ethereum, stablecoins o cualquier otro criptoactivo, necesitas entender cómo funciona la tributación y qué opciones tienes para optimizarla.
 
 ## ¿Cómo tributan las criptomonedas en España?

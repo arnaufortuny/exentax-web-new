@@ -1,4 +1,6 @@
-export default `Wer in Deutschland mit der Kleinunternehmerregelung oder als Freiberufler angefangen hat, kennt die Einschränkungen bei Betriebsausgaben. Eine LLC funktioniert nach dem umgekehrten Prinzip: Jede legitime Geschäftsausgabe mindert das Ergebnis. Aber „legitim” hat eine exakte <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Definition, nicht die aus Telegram-Gruppen.
+export default `Eine Pass-through-LLC darf nach IRC §162 100 % der gewöhnlichen und notwendigen Betriebsausgaben absetzen — ohne vordefinierte numerische Obergrenze, aber mit strengen qualitativen Grenzen.
+
+Wer in Deutschland mit der Kleinunternehmerregelung oder als Freiberufler angefangen hat, kennt die Einschränkungen bei Betriebsausgaben. Eine LLC funktioniert nach dem umgekehrten Prinzip: Jede legitime Geschäftsausgabe mindert das Ergebnis. Aber „legitim” hat eine exakte <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Definition, nicht die aus Telegram-Gruppen.
 
 ## Die goldene Regel: gewöhnlich und notwendig
 

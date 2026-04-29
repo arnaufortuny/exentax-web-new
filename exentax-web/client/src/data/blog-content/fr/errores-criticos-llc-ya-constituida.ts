@@ -1,4 +1,6 @@
-export default `Si vous avez déjà une LLC américaine, cet article est pour vous. Il ne s'adresse pas à quelqu'un qui envisage d'en créer une: il s'adresse à celui qui en exploite déjà une et commence à soupçonner qu'on ne lui a pas tout dit.
+export default `Près de 80 % des LLC en difficulté qui arrivent chez Exentax cumulent le même top 5 : BOI hors délai, Form 5472 non déposé, Annual Report périmé, Registered Agent perdu et mélange des fonds personnels.
+
+Si vous avez déjà une LLC américaine, cet article est pour vous. Il ne s'adresse pas à quelqu'un qui envisage d'en créer une: il s'adresse à celui qui en exploite déjà une et commence à soupçonner qu'on ne lui a pas tout dit.
 
 Chez Exentax, nous voyons chaque semaine des personnes avec une LLC active qui découvrent des erreurs critiques des années après la constitution. Pas par mauvaise foi, mais parce que le modèle de beaucoup de prestataires est "je te l'ouvre et je disparais". Voici les dix erreurs les plus fréquentes, ce qu'elles coûtent vraiment et comment les corriger.
 

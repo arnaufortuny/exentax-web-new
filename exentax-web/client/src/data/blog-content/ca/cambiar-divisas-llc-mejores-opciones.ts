@@ -1,4 +1,6 @@
-export default `La teva LLC factura en dòlars, però el lloguer a Barcelona, Girona o Tarragona es paga en euros. Entre les dues monedes hi ha el canvi, i és just aquí on la majoria de nous propietaris de LLC perden diners cada mes sense adonar-se'n.
+export default `Wise converteix USD a EUR amb un spread mitjà del 0,41 %, Mercury voreja l'1 % i un banc espanyol tradicional pot endur-se entre el 2 % i el 4 % en cada operació.
+
+La teva LLC factura en dòlars, però el lloguer a Barcelona, Girona o Tarragona es paga en euros. Entre les dues monedes hi ha el canvi, i és just aquí on la majoria de nous propietaris de LLC perden diners cada mes sense adonar-se'n.
 
 La forma en què converteixes aquestes divises pot costar-te centenars o milers de dòlars a l'any, o pràcticament res, si uses les eines correctes.
 

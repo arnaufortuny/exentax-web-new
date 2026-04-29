@@ -1,4 +1,6 @@
-export default `Depois de constituída a LLC, a pergunta deixa de ser „como se cria” e passa a ser „como se opera sem cometer erros”. É precisamente aqui que tropeçam os novos donos em Portugal e no Brasil: misturar contas, emitir faturas com mentalidade de freelancer, passar despesas pessoais no cartão Mercury.
+export default `Operar uma LLC bem gerida consome 2 a 5 horas de gestão por mês: subir faturas para um drive, reconciliar a Mercury e entregar o Form 1120 + 5472 uma vez por ano.
+
+Depois de constituída a LLC, a pergunta deixa de ser „como se cria” e passa a ser „como se opera sem cometer erros”. É precisamente aqui que tropeçam os novos donos em Portugal e no Brasil: misturar contas, emitir faturas com mentalidade de freelancer, passar despesas pessoais no cartão Mercury.
 
 A operativa diária de uma LLC não é complicada. na verdade, uma vez que estabeleces os hábitos corretos, funciona quase em piloto automático. Mas há regras do jogo que convém conhecer desde o primeiro dia. Vamos a isso.
 

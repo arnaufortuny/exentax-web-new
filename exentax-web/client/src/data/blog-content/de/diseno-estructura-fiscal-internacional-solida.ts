@@ -1,4 +1,6 @@
-export default `Eine internationale Steuerstruktur zu gestalten ist nicht das exotischste Land auf der Karte zu wählen, es ist methodisch. Exentax-Rahmen in sechs Schritten.
+export default `Eine solide internationale Steuerstruktur überschneidet mindestens 3 Jurisdiktionen (Wohnsitz, Operativsitz, Banking) und stößt auf die 15 BEPS-Aktionen der OECD gegen künstliche Gewinnverlagerung.
+
+Eine internationale Steuerstruktur zu gestalten ist nicht das exotischste Land auf der Karte zu wählen, es ist methodisch. Exentax-Rahmen in sechs Schritten.
 
 ## Schritt-für-Schritt-Prozess
 

@@ -1,5 +1,7 @@
 export default `
 
+Una pila bancaria saneada para una LLC suele combinar 3 cuentas: Mercury para la operativa USD, Wise para la conversión a EUR con spread del 0,41 % y Relay como respaldo con tarjetas físicas.
+
 Llega un momento en la vida de muchas LLCs en el que la banca con la que arrancaron deja de encajar. Mercury fue suficiente para empezar; ahora hace falta más sub-cuentas, otra divisa, otra tarjeta corporativa, otro nivel de control de roles. La pregunta es cómo reorganizar la stack bancaria sin cortar la operativa ni quemar relaciones.
 
 Esta guía explica cómo se hace bien la transición desde Mercury hacia una combinación con Relay y/o Wise (o entre cualquier par equivalente), sin perder un día de cobros y sin disparar revisiones de KYC en ninguna de las plataformas.

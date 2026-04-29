@@ -1,4 +1,6 @@
-export default `Revolut Business wird für die EU aus Litauen betrieben und wendet CRS voll an: Ihre Salden und Bewegungen landen jährlich beim Bundeszentralamt für Steuern. Viele DACH-Kunden öffnen Revolut Business für ihre LLC, ohne zu merken, dass sie damit einen Teil dessen aufheben, was sie auf US-Seite gewonnen zu haben glaubten.
+export default `Revolut Business meldet seit 2018 unter CRS automatisch Salden an über 120 Jurisdiktionen und übermittelt der spanischen AEAT die Daten bis zum 30. September jedes Jahres.
+
+Revolut Business wird für die EU aus Litauen betrieben und wendet CRS voll an: Ihre Salden und Bewegungen landen jährlich beim Bundeszentralamt für Steuern. Viele DACH-Kunden öffnen Revolut Business für ihre LLC, ohne zu merken, dass sie damit einen Teil dessen aufheben, was sie auf US-Seite gewonnen zu haben glaubten.
 
 ## Welche Revolut-Einheiten und wo sie melden
 

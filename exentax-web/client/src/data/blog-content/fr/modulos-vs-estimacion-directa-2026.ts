@@ -1,5 +1,7 @@
 export default `
 
+Le régime des modules 2026 est limité à des activités précises avec un chiffre d'affaires inférieur à 250 000 € par an et des achats inférieurs à 150 000 €, contre l'estimation directe qui accepte tout volume.
+
 Le régime fiscal que vous choisissez en tant qu'autonomo détermine comment vous calculez l'IRPF et la TVA, quelle documentation vous devez tenir et surtout combien vous payez en fin d'année. En Espagne coexistent deux grandes options : modules (estimation objective) et estimation directe (versions simplifiée ou normale). Actuellement, les modules subsistent mais sont de plus en plus restreints à certaines activités. Ce guide explique laquelle convient à chaque profil, les seuils en vigueur, les renonciations stratégiques et quand changer.
 
 ## Modules : comment fonctionne l'estimation objective

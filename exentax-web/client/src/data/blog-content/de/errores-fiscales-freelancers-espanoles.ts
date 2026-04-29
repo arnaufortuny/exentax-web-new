@@ -1,4 +1,6 @@
-export default `Der Ursprungsartikel wurde für spanische Freelancer geschrieben, aber drei Viertel der darin beschriebenen Fehler unterschreibt ein deutscher Freiberufler oder österreichischer Einzelunternehmer sofort mit: Stripe-Einnahmen unterdeklarieren, OSS-Meldung auf US-SaaS-Abos vergessen, glauben, eine LLC befreie automatisch von Einkommensteuer und Solidaritätszuschlag.
+export default `Eine typische AEAT-Strafe für falsche Mehrwertsteuererklärung beginnt bei 150 € und steigt leicht über 3.000 €, wenn sie 50 % der nicht abgeführten Quote überschreitet (Art. 191 LGT).
+
+Der Ursprungsartikel wurde für spanische Freelancer geschrieben, aber drei Viertel der darin beschriebenen Fehler unterschreibt ein deutscher Freiberufler oder österreichischer Einzelunternehmer sofort mit: Stripe-Einnahmen unterdeklarieren, OSS-Meldung auf US-SaaS-Abos vergessen, glauben, eine LLC befreie automatisch von Einkommensteuer und Solidaritätszuschlag.
 
 ## Häufige Fehler
 

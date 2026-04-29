@@ -1,5 +1,7 @@
 export default `
 
+New Mexico verlangt 0 USD für den Annual Report, Wyoming fordert 60 USD mit einer Mindest-Franchise-Tax von 60 USD und Delaware verlangt jedes Jahr am 1. Juni 300 USD Franchise Tax: drei Bundesstaaten, drei sehr unterschiedliche jährliche Kostenmodelle.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA</a>.</p>
 Wenn Sie aus Deutschland, Österreich oder der Schweiz eine LLC gründen wollen, stoßen Sie sehr schnell auf dieselbe Frage in allen Foren: New Mexico, Wyoming oder Delaware? Spoiler: Der „beste Bundesstaat" aus YouTube-Videos ist für deutschsprachige Nichtansässige in den meisten Fällen die falsche Wahl. Delaware ergibt zum Beispiel nur dann Sinn, wenn Sie US-Investoren ins Boot holen wollen, und das ist meist nicht der Fall, wenn Sie Ihre Kunden ohnehin aus München, Wien oder Zürich heraus betreuen.
 

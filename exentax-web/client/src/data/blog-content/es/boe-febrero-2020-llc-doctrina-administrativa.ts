@@ -1,5 +1,7 @@
 export default `
 
+La consulta vinculante V0290-20 de la DGT, fechada el 11 de febrero de 2020, es el documento que ordena cómo tributa una LLC americana en manos de un residente fiscal en España.
+
 Si eres residente fiscal en España y tienes una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a>, la pregunta clave no es qué dice el IRS sino qué dice la **doctrina administrativa española** sobre tu LLC. Y aquí hay un cuerpo de consultas vinculantes de la Dirección General de Tributos (DGT) y resoluciones del Tribunal Económico-Administrativo Central (TEAC) que es absolutamente determinante. Vamos a analizarlo con precisión.
 
 ## El problema fiscal de fondo

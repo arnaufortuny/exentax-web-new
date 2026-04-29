@@ -1,5 +1,7 @@
 export default `
 
+Mercury cobra 0 $ de mantenimiento mensual y aprueba el 70-80 % de las solicitudes legítimas de no residentes en menos de 5 días laborables.
+
 <p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos</a>.</p>
 
 Mercury fue durante años la respuesta por defecto cuando un no residente preguntaba dónde abrir la cuenta operativa de su LLC. Hoy, en Exentax **ya no la recomendamos como cuenta principal cuando toda tu operativa ocurre fuera de EE. UU.** El motivo es muy concreto y operativo, no ideológico: cuando Mercury cierra una cuenta tras una revisión de compliance —algo cada vez más frecuente—, **devuelve los fondos mediante un cheque físico en USD a nombre de la LLC, enviado por correo postal a la dirección registrada**. Para un residente fiscal en España, LATAM o cualquier país que no sea EE. UU. depositar ese cheque es lento, caro y, en muchos bancos europeos, directamente imposible. Si aún estás decidiendo entre bancos y fintechs, consulta nuestra <a href="/es/blog/bancos-vs-fintech-llc-donde-abrir-cuenta">comparativa de bancos vs fintech para tu LLC</a>.

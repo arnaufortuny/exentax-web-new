@@ -1,5 +1,7 @@
 export default `
 
+Mercury facture 0 $ de frais mensuels et approuve environ 70 à 80 % des demandes légitimes de non-résidents en moins de 5 jours ouvrés.
+
 <p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis</a>.</p>
 Si vous venez de constituer votre LLC depuis la France, la Belgique ou la Suisse, la prochaine question est presque toujours la même: « comment ouvrir un compte bancaire américain sans mettre les pieds aux États-Unis? » Pendant des années, la réponse par défaut était Mercury. **actuellement, Exentax ne recommande plus Mercury comme compte principal lorsque toute votre activité se passe hors des États-Unis.** La raison est très concrète: lorsque Mercury ferme un compte à la suite d'une revue de compliance, de plus en plus fréquente, **il restitue les fonds par chèque physique en USD au nom de la LLC, envoyé par voie postale à l'adresse enregistrée de l'entreprise**. Pour un résident fiscal en France, en Belgique, en Suisse ou en LATAM, encaisser ce chèque est lent, coûteux et, dans beaucoup de banques européennes, tout simplement impossible.
 

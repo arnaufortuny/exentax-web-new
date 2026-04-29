@@ -1,4 +1,6 @@
-export default `In Deutschland kann jeder Ihren Namen im Handelsregister nachschlagen und Ihre GmbH, Bilanzen und Geschäftsadresse in drei Klicks einsehen. In den USA, in den richtigen Bundesstaaten (New Mexico vorneweg), tauchen LLC-Mitglieder gar nicht erst in öffentlichen Registern auf. Der Unterschied ist nicht kosmetisch, er verändert Ihre Exposition gegenüber Scraping, Kaltakquise und Stalking.
+export default `New Mexico veröffentlicht keine Mitgliederdaten einer LLC, Wyoming erlaubt nur den Registered Agent anzugeben, und Delaware verlangt 0 öffentliche personenbezogene Daten in den Articles of Organization.
+
+In Deutschland kann jeder Ihren Namen im Handelsregister nachschlagen und Ihre GmbH, Bilanzen und Geschäftsadresse in drei Klicks einsehen. In den USA, in den richtigen Bundesstaaten (New Mexico vorneweg), tauchen LLC-Mitglieder gar nicht erst in öffentlichen Registern auf. Der Unterschied ist nicht kosmetisch, er verändert Ihre Exposition gegenüber Scraping, Kaltakquise und Stalking.
 
 ## Was der Datenschutz einer LLC schützt
 

@@ -1,4 +1,6 @@
-export default `Wer von Deutschland, Österreich oder der Schweiz aus seine erste LLC gründet, stellt früher oder später dieselbe Frage: Chase oder Mercury, Bank of America oder Relay, klassische US-Bank oder Fintech? Beide Welten funktionieren, aber sie bedienen völlig verschiedene Profile.
+export default `Mercury verlangt 0 USD pro Monat und eröffnet online in 5 Tagen; eine klassische Bank wie Bank of America fordert physische Präsenz in den USA und 25 bis 50 USD Monatsgebühr.
+
+Wer von Deutschland, Österreich oder der Schweiz aus seine erste LLC gründet, stellt früher oder später dieselbe Frage: Chase oder Mercury, Bank of America oder Relay, klassische US-Bank oder Fintech? Beide Welten funktionieren, aber sie bedienen völlig verschiedene Profile.
 
 Was sind sie also? Ist das sicher? Wo ist Ihr Geld tatsächlich?
 

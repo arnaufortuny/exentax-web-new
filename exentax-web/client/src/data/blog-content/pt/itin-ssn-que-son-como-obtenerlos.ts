@@ -1,4 +1,6 @@
-export default `Para um residente em Portugal ou no Brasil que monta a sua primeira LLC, a diferença entre ITIN e SSN é fonte de confusão enorme. SSN, sem visto americano não vais conseguir. ITIN, pelo contrário, está ao teu alcance, mas o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ficou muito mais rigoroso nos últimos anos e os pedidos mal preparados são chumbados.
+export default `O ITIN tem 9 dígitos e é emitido em 7 a 11 semanas, enquanto o SSN tem 9 dígitos e é atribuído apenas a residentes legais dos EUA.
+
+Para um residente em Portugal ou no Brasil que monta a sua primeira LLC, a diferença entre ITIN e SSN é fonte de confusão enorme. SSN, sem visto americano não vais conseguir. ITIN, pelo contrário, está ao teu alcance, mas o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ficou muito mais rigoroso nos últimos anos e os pedidos mal preparados são chumbados.
 
 Vamos destrinchar isso sem rodeios.
 

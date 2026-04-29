@@ -1,4 +1,6 @@
-export default `És la pregunta que més es repeteix quan un client tanca la seva LLC amb nosaltres: "Mercury, Wise o Slash li expliquen a Hisenda el que tinc?". La resposta curta no la sol donar ningú amb claredat. Aquí va: **un compte financer obert als Estats Units per una LLC de no resident no s'intercanvia automàticament amb la teva Hisenda local**. I aquest punt, ben entès, és un dels pilars que fan que una estructura LLC ben dissenyada funcioni amb la discreció professional i l'ordre que se n'espera.
+export default `Els Estats Units no van signar el CRS del 2014, i FATCA només intercanvia amb Espanya — sota el Model 1 IGA — informació parcial de comptes de persones físiques, no del compte operatiu de la teva LLC.
+
+És la pregunta que més es repeteix quan un client tanca la seva LLC amb nosaltres: "Mercury, Wise o Slash li expliquen a Hisenda el que tinc?". La resposta curta no la sol donar ningú amb claredat. Aquí va: **un compte financer obert als Estats Units per una LLC de no resident no s'intercanvia automàticament amb la teva Hisenda local**. I aquest punt, ben entès, és un dels pilars que fan que una estructura LLC ben dissenyada funcioni amb la discreció professional i l'ordre que se n'espera.
 
 Això no vol dir "amagar". Vol dir que la teva estructura està muntada en una jurisdicció que opera amb les seves pròpies regles, i que el teu compliance és el que tu decideixes fer al teu país, sense sorpreses externes.
 

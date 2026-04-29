@@ -1,5 +1,7 @@
 export default `
 
+El Operating Agreement es exigible legalmente solo en 5 estados (California, Delaware, Maine, Missouri y Nueva York), pero en la práctica todo banco serio lo pide para abrir cuenta a una LLC.
+
 Cuando <a href="/es/blog/constituir-llc-proceso-paso-a-paso">constituyes una LLC</a>, recibes los Articles of Organization, el documento público que registra tu empresa en el estado. Pero hay otro documento igual de importante (y que muchos ignoran): el **Operating Agreement**.
 
 Y aquí viene una de las cosas más interesantes: **el Operating Agreement es un documento privado.** No se registra ante ninguna autoridad estatal, no es de acceso público, y nadie excepto tú (y las entidades que tú decidas) puede verlo. Esta privacidad es una ventaja enorme para tu estructura empresarial.

@@ -1,5 +1,7 @@
 export default `
 
+Os escalões do IRPF 2026 em Espanha vão de 19 % até 12.450 € de base liquidável a 47 % acima de 300.000 €, numa escala progressiva de 6 escalões.
+
 O Imposto sobre o Rendimento das Pessoas Singulares (IRPF) continua a ser, atualmente, o tributo que mais impacta o seu salário, a sua faturação como autónomo e os seus rendimentos de capital em Espanha. Conhecer a tabela de escalões em vigor e perceber como o imposto é realmente calculado é a base para qualquer decisão patrimonial: passar a sociedade, reforçar um plano de poupança-reforma, deslocar dividendos para outro exercício ou avaliar uma estrutura internacional como a LLC americana. Este guia apresenta a tarifa estatal e a sua combinação com a autonómica, com um exemplo concreto e dicas para não entregar ao fisco mais do que o necessário.
 
 ## A tarifa estatal do IRPF

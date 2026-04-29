@@ -1,4 +1,6 @@
-export default `O Panamá foi durante décadas um nome associado a sociedades offshore, banca discreta e residências fiscais brandas. Boa parte dessa imagem construiu-se nos anos noventa e dois mil, quando o país era uma peça central do mapa offshore mundial. Hoje, atualmente, esse mapa mudou muito e o Panamá não é o que era.
+export default `O Panamá tributa a 25 % os rendimentos gerados no país, mas aplica o princípio territorial: os rendimentos obtidos fora do Panamá pagam 0 %, o que define o atrativo histórico da jurisdição.
+
+O Panamá foi durante décadas um nome associado a sociedades offshore, banca discreta e residências fiscais brandas. Boa parte dessa imagem construiu-se nos anos noventa e dois mil, quando o país era uma peça central do mapa offshore mundial. Hoje, atualmente, esse mapa mudou muito e o Panamá não é o que era.
 
 Na Exentax atendemos consultas frequentes sobre constituir sociedades panamenhas ou transferir a residência fiscal para o Panamá. Este guia explica com honestidade o que continua a ser verdade, o que mudou e por que para a maioria dos nossos clientes a LLC americana é hoje a melhor opção.
 

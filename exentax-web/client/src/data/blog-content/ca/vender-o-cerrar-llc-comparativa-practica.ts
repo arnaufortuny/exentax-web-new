@@ -1,4 +1,6 @@
-export default `Arriba un moment en moltes LLCs en què la pregunta és la mateixa: la tanco o la venc? Les dues opcions són legítimes, però el cost, el calendari i el resultat fiscal són totalment diferents.
+export default `Tancar una LLC ben feta porta 30 a 60 dies i exigeix Form 1120 + 5472 final; vendre-la costa normalment entre 0 $ i 5.000 $ en honoraris i permet preservar l'EIN i l'antiguitat bancària.
+
+Arriba un moment en moltes LLCs en què la pregunta és la mateixa: la tanco o la venc? Les dues opcions són legítimes, però el cost, el calendari i el resultat fiscal són totalment diferents.
 
 ## Les tres opcions reals
 

@@ -1,5 +1,7 @@
 export default `
 
+The 2026 modules regime is limited to specific activities with revenue under 250,000 euros a year and purchases under 150,000 euros, while direct estimation accepts any volume.
+
 The tax regime you choose as an autonomo determines how you calculate IRPF and VAT, what documentation you must keep and, above all, how much you pay at year end. Two main options coexist in Spain: modulos (objective estimation) and direct estimation (in simplified or normal versions). Currently modulos remain in force but are increasingly restricted to specific activities. This guide explains which fits each profile, the thresholds in force, strategic waivers and when to switch from one regime to another.
 
 ## Modulos: how objective estimation works

@@ -1,5 +1,7 @@
 export default `
 
+Una LLC pass-through paga 0 % federal en Estados Unidos, pero traslada el beneficio al IRPF del dueño: hasta el 47 % en España, hasta el 45 % en Francia y Alemania, hasta el 10 % en Andorra.
+
 "Mi LLC no paga impuestos en EE. UU." es una afirmación correcta para la inmensa mayoría de Single-Member LLCs de no residentes. El problema no está en la afirmación. Está en cómo se ordena después en tu país de residencia. Y ese orden, bien diseñado, es lo que convierte una LLC en una herramienta de optimización fiscal real, legal y sostenible.
 
 En este artículo te contamos cómo funciona de verdad esa segunda parte: cuándo, cómo y por quién se tributa la renta de tu LLC en tu país, y cómo Exentax estructura el flujo para que el resultado sea coherente, documentado y a tu favor.

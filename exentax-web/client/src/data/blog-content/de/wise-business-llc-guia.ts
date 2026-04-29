@@ -1,4 +1,6 @@
-export default `Wise Business ist keine US-Bank: Es ist ein europäisches E-Geld-Institut mit USD-, EUR- und GBP-Kontodaten. Für einen DACH-Unternehmer mit LLC ist es ein starkes Werkzeug für FX und Mehrwährungs-Rechnungsstellung, aber kein Mercury-Ersatz. Diese Nuance zu verstehen verändert, wie Sie Ihr Banking aufbauen.
+export default `Wise Business eröffnet ein Multi-Currency-Konto für eine LLC in 5 Tagen, tauscht USD in EUR mit einem durchschnittlichen Spread von 0,41 % und stellt europäische IBANs in 9 verschiedenen Währungen aus.
+
+Wise Business ist keine US-Bank: Es ist ein europäisches E-Geld-Institut mit USD-, EUR- und GBP-Kontodaten. Für einen DACH-Unternehmer mit LLC ist es ein starkes Werkzeug für FX und Mehrwährungs-Rechnungsstellung, aber kein Mercury-Ersatz. Diese Nuance zu verstehen verändert, wie Sie Ihr Banking aufbauen.
 
 Ein wichtiger Hinweis: **Wise ist keine Bank.** Es ist ein EMI (E-Geld-Institut), in den USA operiert es als Money Transmitter. Das bedeutet, dass Ihr Geld nicht durch die FDIC abgesichert ist, aber Wise nutzt Safeguarding (Trennung der Kundengelder), um es zu schützen. Für die meisten Umrechnungs- und internationalen Zahlungsvorgänge ist dies mehr als ausreichend. Für Ihre Hauptkasse verwenden Sie Mercury.
 

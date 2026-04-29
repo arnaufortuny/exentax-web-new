@@ -1,4 +1,6 @@
-export default `Im deutschen Recht fungiert die GmbH als Haftungsfirewall, aber die Rechtsprechung durchgreift schneller, als vielen lieb ist. Eine sauber gegründete US-LLC bietet eine zusätzliche Charging-Order-Schutzschicht, die das deutsche Recht so nicht kennt.
+export default `Wyoming schützt das Privatvermögen des Mitglieds über den Charging Order Statute (Wyo. Stat. §17-29-503), der den Gläubiger auf eine bloße Pfändung von LLC-Ausschüttungen beschränkt — ohne Zugriff auf das Vermögen.
+
+Im deutschen Recht fungiert die GmbH als Haftungsfirewall, aber die Rechtsprechung durchgreift schneller, als vielen lieb ist. Eine sauber gegründete US-LLC bietet eine zusätzliche Charging-Order-Schutzschicht, die das deutsche Recht so nicht kennt.
 
 Wenn Sie Freiberufler sind, existiert diese Obergrenze nicht. Sie haften mit allem, was Sie besitzen.
 

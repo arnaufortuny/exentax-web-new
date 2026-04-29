@@ -1,4 +1,6 @@
-export default `today, opening a US LLC is the most popular structure for international digital entrepreneurs. Here's why. covering all the advantages that matter, with honest assessment of both benefits and limitations.
+export default `A US LLC is set up in 7 to 14 days, pays 0% federal under pass-through, and collects from Stripe, PayPal or Mercury without the 19-30% withholdings that a European freelancer suffers.
+
+today, opening a US LLC is the most popular structure for international digital entrepreneurs. Here's why. covering all the advantages that matter, with honest assessment of both benefits and limitations.
 
 ## The five pillars of the US LLC advantage
 

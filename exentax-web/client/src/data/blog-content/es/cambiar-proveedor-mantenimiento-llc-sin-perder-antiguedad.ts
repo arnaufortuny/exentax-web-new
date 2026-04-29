@@ -1,5 +1,7 @@
 export default `
 
+Una migración de proveedor de mantenimiento de una LLC se completa habitualmente en 7 a 14 días sin alterar la fecha de constitución original, que sigue figurando intacta en el Secretary of State.
+
 Cambiar de proveedor de mantenimiento de tu LLC es una de las decisiones que más miedo dan y menos consecuencias tiene si se hace bien. La inmensa mayoría de dueños de LLC que llegan a Exentax queriendo cambiar arrastran el mismo temor: "¿voy a perder antigüedad?", "¿se reinicia algo?", "¿el IRS lo nota?".
 
 La respuesta corta: no, no y prácticamente no. La respuesta larga es esta guía.

@@ -1,4 +1,6 @@
-export default `Mudar de fornecedor de manutenção da tua LLC é uma das decisões que mais medo dão e menos consequências tem se for bem feita. A grande maioria dos donos de LLC que chegam à Exentax a querer mudar arrasta o mesmo receio: "vou perder antiguidade?", "alguma coisa se reinicia?", "o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> vai notar?".
+export default `Mudar de prestador de manutenção de uma LLC demora normalmente 7 a 14 dias e não altera a data de constituição original, que permanece intacta no Secretary of State.
+
+Mudar de fornecedor de manutenção da tua LLC é uma das decisões que mais medo dão e menos consequências tem se for bem feita. A grande maioria dos donos de LLC que chegam à Exentax a querer mudar arrasta o mesmo receio: "vou perder antiguidade?", "alguma coisa se reinicia?", "o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> vai notar?".
 
 Resposta curta: não, não e quase não. Resposta longa é este guia.
 

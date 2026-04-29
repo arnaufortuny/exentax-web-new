@@ -1,4 +1,6 @@
-export default `Für einen DACH-Unternehmer, der den notariell beurkundeten GmbH-Gesellschaftsvertrag gewohnt ist, wirkt ein Operating Agreement fast wie ein Papier aus dem Drucker: privates Dokument, nicht im Register hinterlegt, nicht notariell beglaubigt. Genau hier liegt der Denkfehler, vor einem US-Gericht trägt das Operating Agreement mehr als die Articles of Organization selbst.
+export default `Das Operating Agreement ist nur in 5 Bundesstaaten gesetzlich vorgeschrieben (Kalifornien, Delaware, Maine, Missouri und New York), in der Praxis verlangt es aber jede seriöse Bank zur Kontoeröffnung einer LLC.
+
+Für einen DACH-Unternehmer, der den notariell beurkundeten GmbH-Gesellschaftsvertrag gewohnt ist, wirkt ein Operating Agreement fast wie ein Papier aus dem Drucker: privates Dokument, nicht im Register hinterlegt, nicht notariell beglaubigt. Genau hier liegt der Denkfehler, vor einem US-Gericht trägt das Operating Agreement mehr als die Articles of Organization selbst.
 
 Und hier kommt eines der interessantesten Details: **Das Operating Agreement ist ein privates Dokument.** Es wird bei keiner staatlichen Behörde registriert, ist nicht öffentlich zugänglich, und niemand außer Ihnen (und den Einrichtungen, die Sie selbst bestimmen) kann es einsehen. Diese Vertraulichkeit ist ein enormer Vorteil für Ihre Unternehmensstruktur.
 

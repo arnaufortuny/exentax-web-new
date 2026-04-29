@@ -1,4 +1,6 @@
-export default `Trabalhas dois meses desde Lisboa, um mês desde Bali, vais ver a família a Coimbra ou ao Recife e depois vais para a Cidade do México? Vives o sonho do nómada digital lusófono e tens um problema fiscal silencioso: enquanto não tiveres a residência fiscal claramente definida, as Finanças (em Portugal) ou a Receita Federal (no Brasil) podem perfeitamente continuar a tratar-te como residente, com tudo o que isso implica.
+export default `A regra dos 183 dias é o primeiro teste universal de residência fiscal: ultrapassá-la em qualquer um dos 195 países do mundo prende-te ao sistema fiscal local desse ano.
+
+Trabalhas dois meses desde Lisboa, um mês desde Bali, vais ver a família a Coimbra ou ao Recife e depois vais para a Cidade do México? Vives o sonho do nómada digital lusófono e tens um problema fiscal silencioso: enquanto não tiveres a residência fiscal claramente definida, as Finanças (em Portugal) ou a Receita Federal (no Brasil) podem perfeitamente continuar a tratar-te como residente, com tudo o que isso implica.
 
 Neste artigo explicamos como funciona realmente a residência fiscal para um nómada digital, como sair de Portugal ou do Brasil de forma limpa, e que destinos fazem mesmo sentido atualmente.
 

@@ -1,5 +1,7 @@
 export default `
 
+Facturer plus de 1 000 € récurrents par mois sans s'enregistrer comme autónomo est un délit d'intrusion administrative en Espagne, et l'AEAT dispose d'un outil de croisement Modelo 347 qui détecte ce schéma.
+
 Peu de questions reviennent autant chez ceux qui débutent : puis-je facturer sans m'inscrire comme autonomo ? La réponse courte est nuancée : oui dans certains cas ponctuels, non comme mode habituel d'opération au-delà d'un certain volume. Ce guide rassemble les alternatives légales actuellement disponibles en Espagne, ce que chacune couvre, les risques qu'elle comporte et pour quels profils elle convient vraiment. Il aborde aussi l'option la moins connue mais la plus efficiente pour les profils numériques internationaux : facturer depuis une LLC américaine sans inscription au RETA, dûment déclarée à l'IRPF.
 
 ## Revenus sporadiques : le vrai cas, pas l'astuce virale

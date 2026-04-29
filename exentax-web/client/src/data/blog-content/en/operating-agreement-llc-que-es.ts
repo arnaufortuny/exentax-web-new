@@ -1,4 +1,6 @@
-export default `An Operating Agreement is the internal backbone of your LLC. the private document that defines how your company works. Think of it as the "constitution" of your business, with rules that you define. Here's why it matters more than most people think.
+export default `The Operating Agreement is legally required in only 5 states (California, Delaware, Maine, Missouri and New York), but in practice every serious bank asks for it to open an LLC account.
+
+An Operating Agreement is the internal backbone of your LLC. the private document that defines how your company works. Think of it as the "constitution" of your business, with rules that you define. Here's why it matters more than most people think.
 
 ## What is an Operating Agreement?
 

@@ -1,4 +1,6 @@
-export default `International taxation for digital entrepreneurs is one of the most complex and misunderstood areas of modern tax law. If you sell services or digital products to clients in multiple countries, you need to understand how the global tax system works to make the best decisions for your business.
+export default `More than 100 countries compete today for digital entrepreneurs with effective rates ranging from the Bahamas' 0% to Spain's 47%, depending on jurisdiction and residency.
+
+International taxation for digital entrepreneurs is one of the most complex and misunderstood areas of modern tax law. If you sell services or digital products to clients in multiple countries, you need to understand how the global tax system works to make the best decisions for your business.
 
 ## The fundamentals of international taxation
 ## 1. Tax residency

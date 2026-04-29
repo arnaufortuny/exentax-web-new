@@ -1,5 +1,7 @@
 export default `
 
+Stripe US cobra 2,9 % + 0,30 $ por transacción doméstica, PayPal Business cerca del 3,49 %, y Dodo Payments rebaja al 2,4 % a partir de 50.000 $ procesados al mes con LLC americana.
+
 Una de las mayores ventajas de tener una LLC en Estados Unidos es el acceso a las mejores pasarelas de pago del mundo. Mientras que muchos países tienen restricciones o comisiones elevadas, con una LLC americana puedes cobrar en prácticamente cualquier divisa con las herramientas más avanzadas.
 
 ## Stripe

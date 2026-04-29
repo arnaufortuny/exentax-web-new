@@ -1,5 +1,7 @@
 export default `
 
+Los módulos 2026 quedan limitados a actividades concretas con facturación inferior a 250.000 € anuales y compras por debajo de 150.000 €, frente a la estimación directa que admite cualquier volumen.
+
 El régimen de tributación que escoges como autónomo determina cómo calculas tu IRPF y tu IVA, qué documentación tienes que llevar y, sobre todo, cuánto pagas al final del año. En España coexisten dos grandes opciones: módulos (estimación objetiva) y estimación directa (en su versión simplificada o normal). Actualmente los módulos siguen vigentes pero cada vez más restringidos a actividades concretas. Esta guía explica cuál encaja con cada perfil, los umbrales vigentes, las renuncias estratégicas y cuándo conviene cambiar de un régimen a otro.
 
 ## Módulos: cómo funciona la estimación objetiva

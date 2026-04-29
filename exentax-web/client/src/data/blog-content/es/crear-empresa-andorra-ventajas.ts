@@ -1,5 +1,7 @@
 export default `
 
+Andorra aplica un IRPF máximo del 10 % y un Impuesto de Sociedades del 10 %, frente al 47 % de IRPF y el 25 % de Sociedades en España.
+
 Andorra ha pasado en quince años de ser un destino de compras a convertirse en uno de los lugares favoritos de emprendedores españoles, franceses y latinoamericanos para trasladar residencia y empresa. Su combinación de fiscalidad baja, calidad de vida, proximidad geográfica y entorno seguro la convierte en una opción seria, no en un truco. Pero como toda mudanza fiscal, exige mudarse de verdad: Andorra no se "compra" por correo.
 
 En Exentax atendemos a clientes que están considerando el paso. Esta guía explica con detalle cómo funciona la fiscalidad andorrana, qué tipos de sociedad existen, cuáles son las residencias disponibles y qué hay que asumir antes de tomar la decisión.

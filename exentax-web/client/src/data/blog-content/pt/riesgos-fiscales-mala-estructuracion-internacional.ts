@@ -1,5 +1,7 @@
 export default `
 
+Uma má estruturação internacional colide com as 15 ações BEPS da OCDE, com multas que em Espanha podem atingir 150 % da quota não entregue ao abrigo do art. 191 LGT.
+
 Uma estrutura internacional bem desenhada é uma ferramenta extraordinária. Uma estrutura mal desenhada é uma bomba-relógio que rebenta no momento em que menos espera, normalmente com uma notificação da Autoridade Tributária portuguesa, da AEAT espanhola, do SAT mexicano, da DIAN colombiana ou da AFIP argentina, a pedir que explique tudo o que fez nos últimos quatro anos. Na Exentax vemos casos como estes todas as semanas, e os erros repetem-se. Apresentamos os seis riscos principais e como evitá-los na prática.
 
 ## Risco 1: Simulação

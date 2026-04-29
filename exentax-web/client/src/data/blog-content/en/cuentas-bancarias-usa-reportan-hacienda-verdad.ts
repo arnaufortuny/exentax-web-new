@@ -1,4 +1,6 @@
-export default `"Does Mercury tell my tax authority how much money I have?" This is the question we receive most often. Here's the complete, honest answer. no sugarcoating, no fear-mongering.
+export default `The US never signed the 2014 CRS, and FATCA only exchanges with Spain — under Model 1 IGA — partial information on individual accounts, not on your LLC's operating account.
+
+"Does Mercury tell my tax authority how much money I have?" This is the question we receive most often. Here's the complete, honest answer. no sugarcoating, no fear-mongering.
 
 ## The three mechanisms of international financial reporting
 

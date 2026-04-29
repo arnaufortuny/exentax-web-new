@@ -1,4 +1,6 @@
-export default `O artigo original fala dos freelancers espanhóis, mas três quartos dos erros que descreve qualquer trabalhador independente em Portugal ou MEI no Brasil assina sem hesitar: subdeclarar receitas de Stripe, esquecer IVA intracomunitário em SaaS dos EUA, achar que a LLC isenta automaticamente de <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e Segurança Social.
+export default `Uma sanção tipo da AEAT por declarar mal o IVA arranca em 150 € e escala facilmente acima de 3.000 € quando ultrapassa 50 % da quota não entregue (art. 191 LGT).
+
+O artigo original fala dos freelancers espanhóis, mas três quartos dos erros que descreve qualquer trabalhador independente em Portugal ou MEI no Brasil assina sem hesitar: subdeclarar receitas de Stripe, esquecer IVA intracomunitário em SaaS dos EUA, achar que a LLC isenta automaticamente de <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e Segurança Social.
 
 ## Erros frequentes
 

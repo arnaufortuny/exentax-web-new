@@ -1,5 +1,7 @@
 export default `
 
+Das Module-Regime 2026 beschränkt sich auf bestimmte Tätigkeiten mit weniger als 250.000 € Jahresumsatz und weniger als 150.000 € Einkäufen, während die direkte Veranlagung jeden Umfang zulässt.
+
 Das Steuerregime, das Sie als Autonomo wählen, bestimmt, wie Sie IRPF und MwSt berechnen, welche Unterlagen Sie führen müssen und vor allem, wie viel Sie am Jahresende zahlen. In Spanien koexistieren zwei Hauptoptionen: Module (Schätzung nach Objektmaßstäben) und direkte Schätzung (vereinfacht oder normal). Aktuell bleiben Module bestehen, aber zunehmend auf konkrete Tätigkeiten beschränkt. Dieser Leitfaden erklärt, welche zu welchem Profil passt, die geltenden Schwellen, strategische Verzichte und wann ein Wechsel sinnvoll ist.
 
 ## Module: wie die objektive Schätzung funktioniert

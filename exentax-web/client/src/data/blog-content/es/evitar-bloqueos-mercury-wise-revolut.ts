@@ -1,5 +1,7 @@
 export default `
 
+Mercury y Wise resuelven el 90 % de los bloqueos preventivos en menos de 30 días si el cliente responde al primer correo de KYC con la documentación correcta.
+
 El bloqueo de cuenta es la pesadilla de todo propietario de LLC. Un día entras a Mercury o Wise y ves: "Tu cuenta ha sido restringida." Sin previo aviso, sin explicación clara, y con tu dinero atrapado.
 
 La buena noticia: la inmensa mayoría de bloqueos se pueden prevenir. La mala: si no conoces las reglas del juego, puedes caer en uno sin querer.

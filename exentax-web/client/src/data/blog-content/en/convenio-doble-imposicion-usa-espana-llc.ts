@@ -1,4 +1,6 @@
-export default `When someone first sees the combo "US LLC" and "Spanish tax resident", the immediate question is always the same: **"so where do I pay taxes?"**. The answer is clear: **in Spain**, on the net profit, thanks to the **US-Spain double-taxation treaty**. The LLC is not used to "not pay", it is used to **not pay twice** and to optimize within what's legal.
+export default `The US-Spain tax treaty signed on February 22, 1990, plus the amending protocol in force since November 27, 2019, sets the rules that stop you from paying twice on the same LLC income.
+
+When someone first sees the combo "US LLC" and "Spanish tax resident", the immediate question is always the same: **"so where do I pay taxes?"**. The answer is clear: **in Spain**, on the net profit, thanks to the **US-Spain double-taxation treaty**. The LLC is not used to "not pay", it is used to **not pay twice** and to optimize within what's legal.
 
 This guide walks through the treaty step by step, in plain language, applied to the specific case of a non-resident-owned LLC with a Spanish-resident owner. With articles, rates, numerical examples, forms and AEAT references.
 

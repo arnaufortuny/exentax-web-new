@@ -1,4 +1,6 @@
-export default `Working with international clients while based in Spain creates a complex tax situation. Here's what you need to understand and how a US LLC can simplify things dramatically.
+export default `A Spanish autónomo billing 100% to international clients still pays up to 47% IRPF plus the RETA fee in Spain, because the client's location does not change your tax residency.
+
+Working with international clients while based in Spain creates a complex tax situation. Here's what you need to understand and how a US LLC can simplify things dramatically.
 
 ## The challenge for Spanish freelancers with international clients
 

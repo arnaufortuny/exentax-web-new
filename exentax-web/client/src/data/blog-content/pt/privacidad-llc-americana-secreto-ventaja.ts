@@ -1,4 +1,6 @@
-export default `Em Portugal, qualquer pessoa pode ir à certidão permanente e ver a tua Lda, contas e morada em três cliques. Nos EUA, nos estados certos (New Mexico à cabeça), os membros de uma LLC simplesmente não aparecem nos registos públicos. A diferença não é cosmética, muda a tua exposição a scraping, cold-calls e perseguição.
+export default `O Novo México não publica os dados dos membros de uma LLC, o Wyoming permite refletir apenas o Registered Agent e o Delaware exige 0 dados pessoais públicos nos Articles of Organization.
+
+Em Portugal, qualquer pessoa pode ir à certidão permanente e ver a tua Lda, contas e morada em três cliques. Nos EUA, nos estados certos (New Mexico à cabeça), os membros de uma LLC simplesmente não aparecem nos registos públicos. A diferença não é cosmética, muda a tua exposição a scraping, cold-calls e perseguição.
 
 ## O que protege a privacidade de uma LLC
 

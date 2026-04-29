@@ -1,5 +1,7 @@
 export default `
 
+El kit legal de una LLC bien constituida contiene 6 documentos imprescindibles: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si aplica), Registered Agent Acceptance y Banking Resolution.
+
 Cuando constituyes una LLC en Estados Unidos, recibes un "kit legal" completo, varios documentos, cada uno con una función concreta. En Exentax los preparamos y entregamos todos como parte del servicio de constitución. Pero es bueno que sepas qué es cada uno y para qué lo vas a necesitar.
 
 Spoiler: no son muchos, y los vas a usar más de lo que piensas (sobre todo cuando abras tu <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">cuenta bancaria en Mercury</a> o te registres en <a href="/es/blog/pasarelas-pago-llc-stripe-paypal-dodo">Stripe</a>).

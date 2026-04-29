@@ -1,4 +1,6 @@
-export default `Portar la comptabilitat d'una LLC americana fa més por del que hauria. La majoria de propietaris no residents vénen acostumats al model espanyol o llatinoamericà, on un assessor et demana papers, presenta models cada trimestre i tu gairebé no toques res. Amb una LLC el model és diferent: l'operativa la portes tu amb eines modernes, i al final de l'any la comptabilitat ordenada es tradueix en una declaració neta i sense sobresalts.
+export default `L'IRS exigeix conservar els registres comptables d'una LLC durant almenys 7 anys, i un Form 5472 sense llibres al darrere arrenca amb 25.000 $ de sanció.
+
+Portar la comptabilitat d'una LLC americana fa més por del que hauria. La majoria de propietaris no residents vénen acostumats al model espanyol o llatinoamericà, on un assessor et demana papers, presenta models cada trimestre i tu gairebé no toques res. Amb una LLC el model és diferent: l'operativa la portes tu amb eines modernes, i al final de l'any la comptabilitat ordenada es tradueix en una declaració neta i sense sobresalts.
 
 A Exentax acompanyem centenars de clients en aquest procés. Aquesta guia resumeix com organitzar el bookkeeping de la teva LLC pas a pas, sense dreceres però sense complicar-ho més del necessari.
 

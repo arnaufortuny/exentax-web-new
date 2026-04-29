@@ -1,5 +1,7 @@
 export default `
 
+Revolut Business reporta automáticamente saldos bajo CRS a más de 120 jurisdicciones desde 2018, y a la AEAT española le envía la información antes del 30 de septiembre de cada año.
+
 Revolut Business es uno de los neobancos europeos más utilizados por emprendedores con estructuras internacionales, y en particular por dueños de <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americanas</a> que necesitan operar en EUR, GBP y otras divisas con tarjetas físicas y virtuales europeas. Pero Revolut también es una entidad financiera europea sujeta al **Common Reporting Standard (CRS)**, y eso tiene consecuencias muy concretas que casi nadie te cuenta antes de abrir la cuenta.
 
 ## Qué entidades de Revolut son y dónde reportan

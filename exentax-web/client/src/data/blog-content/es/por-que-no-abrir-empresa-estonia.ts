@@ -1,5 +1,7 @@
 export default `
 
+Estonia subió en 2025 su Corporate Tax al 22 % (antes 20 %) y mantiene el coste de la e-Residency en 100 € más cuotas anuales de servicios contables que arrancan en 1.200 € al año.
+
 Si estás pensando en optimizar tu fiscalidad como freelancer o emprendedor digital, seguramente hayas oído hablar de la e-Residency de Estonia. El programa se ha viralizado en YouTube, Twitter y LinkedIn como "la solución definitiva para nómadas digitales". Y entendemos el atractivo: un país europeo, digitalización total, una tarjeta bonita con tu foto.
 
 Pero cuando rascas la superficie, la realidad es muy diferente. Hablemos con datos, sin rodeos. Porque en Exentax creemos que las decisiones fiscales no se toman por tendencia sino por números.

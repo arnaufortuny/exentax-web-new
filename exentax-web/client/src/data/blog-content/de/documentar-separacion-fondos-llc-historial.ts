@@ -1,4 +1,6 @@
-export default `Wenn Ihre LLC eine Weile läuft und die Trennung zwischen Ihrem persönlichen Geld und dem LLC-Geld nicht perfekt dokumentiert ist, haben Sie ein Problem in Wartestellung. Es zeigt sich heute nicht; es zeigt sich an dem Tag, an dem eine Bank eine Tiefenprüfung macht, der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> Belege verlangt oder Ihr Finanzamt Geldfluss-Nachweise anfordert.
+export default `Die IRS verlangt 7 Jahre Kontoauszüge und Belege, um zu beweisen, dass LLC-Gelder und Privatgelder sich nie vermischt haben — Voraussetzung, um den Corporate Veil zu erhalten.
+
+Wenn Ihre LLC eine Weile läuft und die Trennung zwischen Ihrem persönlichen Geld und dem LLC-Geld nicht perfekt dokumentiert ist, haben Sie ein Problem in Wartestellung. Es zeigt sich heute nicht; es zeigt sich an dem Tag, an dem eine Bank eine Tiefenprüfung macht, der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> Belege verlangt oder Ihr Finanzamt Geldfluss-Nachweise anfordert.
 
 ## Warum Mittel-Trennung zählt
 

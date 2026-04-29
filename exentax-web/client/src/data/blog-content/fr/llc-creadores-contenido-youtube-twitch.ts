@@ -1,4 +1,6 @@
-export default `Pour un créateur français qui vit d'AdSense, de Twitch, de Patreon et de deals de sponsoring, l'équation fiscale devient vite intenable: URSSAF qui gratte sur les revenus artiste-auteur, TVA sur les subs, Google qui retient la withholding tax US, et une micro-entreprise qui sature dès six chiffres. Une LLC change ce décor complètement.
+export default `YouTube retient par défaut 30 % des revenus US d'un créateur non-résident sans W-8BEN ; avec une LLC pass-through et un W-8BEN-E, le traitement s'aligne sur la convention fiscale applicable.
+
+Pour un créateur français qui vit d'AdSense, de Twitch, de Patreon et de deals de sponsoring, l'équation fiscale devient vite intenable: URSSAF qui gratte sur les revenus artiste-auteur, TVA sur les subs, Google qui retient la withholding tax US, et une micro-entreprise qui sature dès six chiffres. Une LLC change ce décor complètement.
 
 YouTube vous paie depuis l'Irlande. Twitch depuis San Francisco. Les sponsors peuvent se trouver n'importe où dans le monde. Et vous essayez de faire rentrer tout cela dans un régime fiscal local qui n'a pas été conçu pour votre réalité.
 

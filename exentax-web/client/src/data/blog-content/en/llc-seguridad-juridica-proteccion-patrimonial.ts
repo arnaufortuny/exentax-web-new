@@ -1,4 +1,6 @@
-export default `One of the most underrated advantages of a US LLC is its legal security and personal asset protection. If you're freelancing as a US sole proprietor, a UK or Canadian sole trader, an Australian sole trader, or a Spanish autónomo (in other words, invoicing clients in your own name rather than through a company), your personal assets are on the line every single day. A properly run LLC changes that. Here's how.
+export default `Wyoming protects the member's personal assets through the Charging Order Statute (Wyo. Stat. §17-29-503), which limits the creditor to a mere garnishment of LLC distributions, with no asset reach-through.
+
+One of the most underrated advantages of a US LLC is its legal security and personal asset protection. If you're freelancing as a US sole proprietor, a UK or Canadian sole trader, an Australian sole trader, or a Spanish autónomo (in other words, invoicing clients in your own name rather than through a company), your personal assets are on the line every single day. A properly run LLC changes that. Here's how.
 
 ## What "limited liability" actually means
 

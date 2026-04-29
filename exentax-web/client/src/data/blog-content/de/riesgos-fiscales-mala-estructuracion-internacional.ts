@@ -1,5 +1,7 @@
 export default `
 
+Eine schlechte internationale Strukturierung kollidiert mit den 15 BEPS-Aktionen der OECD; in Spanien können die Strafen 150 % der nicht abgeführten Quote nach Art. 191 LGT erreichen.
+
 Eine gut entworfene internationale Struktur ist ein außergewöhnliches Werkzeug. Eine schlecht entworfene ist eine Zeitbombe, die immer dann hochgeht, wenn Sie es am wenigsten erwarten — meist mit einer Anfrage des deutschen Finanzamts, der spanischen AEAT, der mexikanischen SAT, der kolumbianischen DIAN oder der argentinischen AFIP, die Sie auffordert, alles zu erklären, was Sie in den letzten vier Jahren getan haben. Bei Exentax sehen wir solche Fälle jede Woche, und die Fehler wiederholen sich. Wir zeigen Ihnen die sechs wichtigsten Risiken und wie Sie sie konkret vermeiden.
 
 ## Risiko 1: Simulation

@@ -1,5 +1,7 @@
 export default `
 
+Panamá tributa al 25 % las rentas generadas dentro del país, pero aplica el principio territorial: las rentas obtenidas fuera de Panamá pagan 0 %, lo que define el atractivo histórico de la jurisdicción.
+
 Panamá ha sido durante décadas un nombre asociado a sociedades offshore, banca discreta y residencias fiscales blandas. Buena parte de esa imagen se construyó en los años noventa y dos mil, cuando el país era una pieza central del mapa offshore mundial. Hoy, actualmente, ese mapa ha cambiado mucho y Panamá no es lo que era.
 
 En Exentax atendemos consultas frecuentes sobre constituir sociedades panameñas o trasladar la residencia fiscal a Panamá. Esta guía explica con honestidad qué sigue siendo cierto, qué ha cambiado y por qué para la mayoría de nuestros clientes la LLC americana resulta hoy mejor opción.

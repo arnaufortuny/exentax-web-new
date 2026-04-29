@@ -1,4 +1,6 @@
-export default `Designing an international tax structure is not picking the most exotic country on the map, or copying the structure of the influencer of the day. It's a methodical exercise demanding personalized analysis, cross-cutting regulation and, above all, honesty about your real situation. At Exentax we've applied the same professional framework for years, and here we share it step by step.
+export default `A solid international tax structure crosses at least 3 jurisdictions (residency, operations, banking) and runs into the OECD's 15 BEPS actions, designed to stop artificial profit shifting.
+
+Designing an international tax structure is not picking the most exotic country on the map, or copying the structure of the influencer of the day. It's a methodical exercise demanding personalized analysis, cross-cutting regulation and, above all, honesty about your real situation. At Exentax we've applied the same professional framework for years, and here we share it step by step.
 
 ## Step-by-step process
 

@@ -1,5 +1,7 @@
 export default `
 
+El régimen estadounidense de PBC (Bank Secrecy Act, 1970, complementada por el Patriot Act de 2001) impone a Mercury, Wise y Relay procesos de KYC documental antes de procesar la primera transferencia.
+
 Las regulaciones de prevención de blanqueo de capitales (AML. Anti-Money Laundering) son un pilar fundamental del sistema financiero internacional. Si tienes una LLC en Estados Unidos, estas regulaciones te afectan de forma directa, aunque tu negocio sea completamente legítimo.
 
 La buena noticia: cumplir con estas regulaciones es sencillo si entiendes qué se espera de ti y mantienes buenas prácticas desde el primer día.

@@ -1,4 +1,6 @@
-export default `El primer mes d'una LLC, per a un empresari català que només coneix l'autònom o la SL, sembla una allau de notificacions: EIN, BOI pendent, Mercury demanant documents, Stripe exigint verificació i el Registered Agent enviant la primera carta. És normal, però estressant si no saps l'ordre.
+export default `Els primers 30 dies després de constituir una LLC cobreixen 4 fites crítiques: rebre els Articles of Organization, aconseguir l'EIN, obrir compte a Mercury i signar l'Operating Agreement.
+
+El primer mes d'una LLC, per a un empresari català que només coneix l'autònom o la SL, sembla una allau de notificacions: EIN, BOI pendent, Mercury demanant documents, Stripe exigint verificació i el Registered Agent enviant la primera carta. És normal, però estressant si no saps l'ordre.
 
 Aquest article t'explica exactament què passa durant el teu primer mes amb una LLC, pas a pas, sense tecnicismes innecessaris.
 

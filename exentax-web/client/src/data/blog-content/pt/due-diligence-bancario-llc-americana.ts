@@ -1,4 +1,6 @@
-export default `Os bancos e fintechs dos EUA fazem hoje uma due diligence muito mais apertada do que um português ou brasileiro está habituado com o Millennium, o Santander ou o Nubank. Passaporte e morada do Registered Agent já não chegam: querem uma história coerente entre a tua situação nas Finanças, o teu site, as tuas faturas e a origem dos fundos.
+export default `A Mercury, a Relay e a Wise concluem o due diligence bancário em 5 a 10 dias úteis, mas rejeitam cerca de 25 % dos pedidos na primeira ronda por documentação incompleta.
+
+Os bancos e fintechs dos EUA fazem hoje uma due diligence muito mais apertada do que um português ou brasileiro está habituado com o Millennium, o Santander ou o Nubank. Passaporte e morada do Registered Agent já não chegam: querem uma história coerente entre a tua situação nas Finanças, o teu site, as tuas faturas e a origem dos fundos.
 
 Entender este processo ajuda-te a preparar-te melhor e a acelerar a abertura da tua conta.
 

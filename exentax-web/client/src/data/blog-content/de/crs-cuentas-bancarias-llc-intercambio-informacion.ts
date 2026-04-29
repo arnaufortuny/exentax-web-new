@@ -1,4 +1,6 @@
-export default `Der CRS-Standard der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> sorgt dafür, dass eine Bank in Singapur Ihre Salden jährlich ans Bundeszentralamt für Steuern meldet. Bis hierhin ist das unter deutschsprachigen Unternehmern bekannt. Bei der US-LLC beginnt dann die Mythenbildung: nein, die USA wenden CRS nicht an, und nein, das macht Ihre LLC trotzdem nicht zum steuerlichen Schwarzen Loch.
+export default `Über 120 Jurisdiktionen tauschen Kontosalden unter CRS aus, doch die USA haben den OECD-Standard von 2014 nie unterzeichnet — deshalb meldet Mercury keine automatischen Daten an dein Finanzamt.
+
+Der CRS-Standard der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> sorgt dafür, dass eine Bank in Singapur Ihre Salden jährlich ans Bundeszentralamt für Steuern meldet. Bis hierhin ist das unter deutschsprachigen Unternehmern bekannt. Bei der US-LLC beginnt dann die Mythenbildung: nein, die USA wenden CRS nicht an, und nein, das macht Ihre LLC trotzdem nicht zum steuerlichen Schwarzen Loch.
 
 Die kurze Antwort: Ja, potenziell können sie das. Aber das ist kein Problem, es ist ein Vorteil, wenn Ihre Struktur richtig aufgebaut ist. Wir erklären Ihnen, wie es funktioniert.
 

@@ -1,5 +1,7 @@
 export default `
 
+New Mexico cobra 0 $ de Annual Report, Wyoming pide 60 $ con franchise tax mínima de 60 $ y Delaware reclama 300 $ de Franchise Tax cada 1 de junio: tres estados, tres modelos de coste anual muy distintos.
+
 <p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos</a>.</p>
 
 Elegir el estado de constitución de tu LLC es una de las decisiones más importantes, y una de las que más confusión genera. Internet está lleno de vídeos diciendo "Delaware es el mejor" o "Wyoming es obligatorio". La realidad es más matizada, y aquí te la contamos sin humo.

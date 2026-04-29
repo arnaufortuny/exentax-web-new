@@ -1,5 +1,7 @@
 export default `
 
+El routing number americano tiene 9 dígitos, el IBAN español 24 caracteres y el código SWIFT entre 8 y 11; los tres se piden a la vez en cualquier transferencia internacional con tu LLC.
+
 Cuando empiezas a mover dinero con tu LLC, te vas a encontrar con tres siglas que aparecen una y otra vez: **IBAN**, **SWIFT** (o BIC) y **Routing Number**. Son como la dirección postal de tu cuenta bancaria, pero para el dinero.
 
 Vamos a explicar cada uno de forma clara para que nunca más te quedes pensando "¿cuál le doy a este cliente?"

@@ -1,5 +1,7 @@
 export default `
 
+The OECD's 15 BEPS actions, launched in 2015 and reinforced by BEPS 2.0 in 2024, have neutralised about 80% of the offshore structures that worked a decade ago.
+
 The word "offshore" carries a heavy weight: for some it means financial freedom and clever planning, for others evasion and opacity. The reality is more mundane. An offshore structure is not illegal by definition nor magical by itself: it is simply a company or set of companies incorporated in a jurisdiction other than the one where the owner resides. What makes it a good or bad idea is how it is used, what is declared and what risks are taken on.
 
 At Exentax we receive people who arrive with a preconceived idea about offshore, usually exaggerated in one direction or the other. This guide explains honestly what it is, what real benefits it brings today and what risks are not told in the viral videos.

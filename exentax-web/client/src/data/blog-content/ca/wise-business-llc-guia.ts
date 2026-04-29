@@ -1,4 +1,6 @@
-export default `Wise Business no és un banc americà: és una EMI europea amb coordenades USD, EUR i GBP. Per a un empresari català amb LLC, és una eina potent de canvi de divises i facturació multimoneda, però no substitueix Mercury. Entendre aquest matís canvia com dissenyes el banking.
+export default `Wise Business obre compte multidivisa per a una LLC en 5 dies, converteix USD a EUR amb un spread mitjà del 0,41 % i emet IBAN europeus en 9 monedes diferents.
+
+Wise Business no és un banc americà: és una EMI europea amb coordenades USD, EUR i GBP. Per a un empresari català amb LLC, és una eina potent de canvi de divises i facturació multimoneda, però no substitueix Mercury. Entendre aquest matís canvia com dissenyes el banking.
 
 Un matís important: **Wise no és un banc.** És una EMI (Institució de Diners Electrònics), als EUA opera com a Money Transmitter. Això significa que els teus diners no tenen cobertura FDIC, però Wise usa safeguarding (separació de fons del client) per protegir-los. Per a la majoria d'operacions de conversió i pagaments internacionals, això és més que suficient. Per a la teva tresoreria principal, usa Mercury.
 

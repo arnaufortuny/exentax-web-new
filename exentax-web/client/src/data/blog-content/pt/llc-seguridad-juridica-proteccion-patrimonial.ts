@@ -1,4 +1,6 @@
-export default `Em Portugal, a proteção patrimonial passa pela Lda, pela doação com reserva de usufruto ou pelo regime de separação de bens, mas os tribunais furam o véu mais facilmente do que se pensa. Uma LLC bem constituída nos EUA acrescenta uma camada de charging order protection que o direito português não conhece.
+export default `O Wyoming protege o património pessoal do membro pelo Charging Order Statute (Wyo. Stat. §17-29-503), que limita o credor a uma mera penhora das distribuições da LLC, sem acesso ao ativo.
+
+Em Portugal, a proteção patrimonial passa pela Lda, pela doação com reserva de usufruto ou pelo regime de separação de bens, mas os tribunais furam o véu mais facilmente do que se pensa. Uma LLC bem constituída nos EUA acrescenta uma camada de charging order protection que o direito português não conhece.
 
 Se factura como trabalhador independente em Portugal (atividade aberta, categoria B) ou como MEI ou autónomo no Brasil, esse teto não existe. responde com tudo o que tem.
 

@@ -1,4 +1,6 @@
-export default `Aquest article compara directament l'autònom a Espanya amb la LLC americana, perquè és el punt de partida històric de la nostra firma. Però si ho llegeixes des de Catalunya, la conclusió és exactament la mateixa que veuràs aquí: a partir d'un cert nivell de facturació, l'autònom (especialment amb el tram autonòmic català de l'IRPF i la quota mensual) acaba pagant molt més que una LLC ben estructurada.
+export default `Un autònom espanyol en tram mitjà entrega entre el 35 % i el 47 % de la renda entre IRPF i quota RETA (de 200 € a 1.600 € al mes); una LLC pass-through paga 0 % federal als EUA i trasllada el càlcul a la teva declaració local.
+
+Aquest article compara directament l'autònom a Espanya amb la LLC americana, perquè és el punt de partida històric de la nostra firma. Però si ho llegeixes des de Catalunya, la conclusió és exactament la mateixa que veuràs aquí: a partir d'un cert nivell de facturació, l'autònom (especialment amb el tram autonòmic català de l'IRPF i la quota mensual) acaba pagant molt més que una LLC ben estructurada.
 
 En aquesta anàlisi posem números reals sobre la taula: què et queda de debò després de quota d'autònoms, IRPF i IVA, davant del que et quedaria amb una LLC. Tindràs la foto clara per decidir.
 

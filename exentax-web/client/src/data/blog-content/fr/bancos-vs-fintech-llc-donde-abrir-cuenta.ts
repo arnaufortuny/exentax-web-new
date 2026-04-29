@@ -1,4 +1,6 @@
-export default `Quand vous montez votre première LLC depuis la France, la question qui revient systématiquement en consultation n'est pas fiscale, c'est bancaire: Chase ou Mercury? Bank of America ou Relay? Autrement dit, banque traditionnelle américaine ou fintech. Les deux mondes fonctionnent, mais pas du tout pour le même profil.
+export default `Mercury facture 0 $ par mois et t'ouvre un compte en ligne en 5 jours ; une banque classique comme Bank of America exige une présence physique aux États-Unis et entre 25 $ et 50 $ de frais mensuels.
+
+Quand vous montez votre première LLC depuis la France, la question qui revient systématiquement en consultation n'est pas fiscale, c'est bancaire: Chase ou Mercury? Bank of America ou Relay? Autrement dit, banque traditionnelle américaine ou fintech. Les deux mondes fonctionnent, mais pas du tout pour le même profil.
 
 Alors que sont-ils? Est-ce sûr? Où est réellement votre argent?
 

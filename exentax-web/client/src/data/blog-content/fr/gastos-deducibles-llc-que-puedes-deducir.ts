@@ -1,4 +1,6 @@
-export default `Si vous avez été auto-entrepreneur en France, vous connaissez la frustration: le régime micro ne permet aucune déduction, juste un abattement forfaitaire. Une LLC opère exactement à l'inverse, tout dépense business légitime vient réduire le résultat. Mais « légitime » a une définition <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> très précise, pas celle des groupes Telegram.
+export default `Une LLC pass-through peut déduire au titre de l'IRC §162 100 % des dépenses ordinaires et nécessaires à l'activité, sans plafond numérique prédéfini mais avec des limites qualitatives strictes.
+
+Si vous avez été auto-entrepreneur en France, vous connaissez la frustration: le régime micro ne permet aucune déduction, juste un abattement forfaitaire. Une LLC opère exactement à l'inverse, tout dépense business légitime vient réduire le résultat. Mais « légitime » a une définition <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> très précise, pas celle des groupes Telegram.
 
 ## La règle d'or: ordinaire et nécessaire
 

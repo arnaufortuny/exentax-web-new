@@ -1,4 +1,6 @@
-export default `Cet article compare directement le statut d'auto-entrepreneur espagnol avec une LLC américaine, parce que c'est le point de comparaison historique de notre cabinet. Mais si vous lisez ceci depuis la France, la Belgique ou le Québec, la conclusion est en réalité identique: un statut européen classique d'indépendant (auto-entrepreneur français, indépendant complémentaire belge, travailleur autonome québécois) finit toujours, à partir d'un certain seuil de revenus, par coûter beaucoup plus cher qu'une LLC américaine bien structurée.
+export default `Un autónomo espagnol en tranche moyenne reverse 35 à 47 % de son revenu entre IRPF et cotisation RETA (de 200 à 1 600 € par mois) ; une LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur ta déclaration locale.
+
+Cet article compare directement le statut d'auto-entrepreneur espagnol avec une LLC américaine, parce que c'est le point de comparaison historique de notre cabinet. Mais si vous lisez ceci depuis la France, la Belgique ou le Québec, la conclusion est en réalité identique: un statut européen classique d'indépendant (auto-entrepreneur français, indépendant complémentaire belge, travailleur autonome québécois) finit toujours, à partir d'un certain seuil de revenus, par coûter beaucoup plus cher qu'une LLC américaine bien structurée.
 
 Dans cette analyse, nous mettons des chiffres réels sur la table: ce qu'il vous reste réellement après URSSAF, prélèvements sociaux, IRPF / IS et TVA, face à ce qu'il vous resterait avec une LLC. Vous aurez la photo claire pour décider.
 

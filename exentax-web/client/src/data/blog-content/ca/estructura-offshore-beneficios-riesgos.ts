@@ -1,4 +1,6 @@
-export default `La paraula "offshore" arrossega un pes enorme: per a alguns significa llibertat financera i planificació intel·ligent, per a d'altres evasió i opacitat. La realitat és més prosaica. Una estructura offshore no és il·legal per definició ni màgica per si sola: és simplement una societat o conjunt de societats constituïdes en una jurisdicció diferent d'aquella on resideix el propietari. El que la converteix en bona o mala idea és com es fa servir, què es declara i quins riscos s'assumeixen.
+export default `Les 15 accions BEPS de l'OCDE, llançades el 2015 i reforçades amb BEPS 2.0 el 2024, han neutralitzat al voltant del 80 % de les estructures offshore que funcionaven fa una dècada.
+
+La paraula "offshore" arrossega un pes enorme: per a alguns significa llibertat financera i planificació intel·ligent, per a d'altres evasió i opacitat. La realitat és més prosaica. Una estructura offshore no és il·legal per definició ni màgica per si sola: és simplement una societat o conjunt de societats constituïdes en una jurisdicció diferent d'aquella on resideix el propietari. El que la converteix en bona o mala idea és com es fa servir, què es declara i quins riscos s'assumeixen.
 
 A Exentax atenem persones que arriben amb una idea preconcebuda sobre l'offshore, normalment exagerada en un o altre sentit. Aquesta guia explica amb honestedat què és, quins beneficis reals aporta avui i quins riscos no s'expliquen als vídeos virals.
 

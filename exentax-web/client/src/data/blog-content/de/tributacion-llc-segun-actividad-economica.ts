@@ -1,5 +1,7 @@
 export default `
 
+Eine Pass-through-LLC wird in den USA mit 0 % föderal besteuert, egal ob die Tätigkeit Beratungsleistungen, E-Commerce, SaaS oder Trading ist; die echte Rechnung ändert sich erst in der Einkommensteuer des Wohnsitzlandes, in Spanien bis 47 %.
+
 Über die „Besteuerung der LLC" abstrakt zu sprechen führt zu schweren Fehlern: Die tatsächliche Besteuerung hängt sehr eng von der **Art der wirtschaftlichen Tätigkeit** ab, die die LLC ausübt, weil jede Tätigkeit unterschiedliche Regeln zur Umsatzsteuer, zur Einkunftsqualifikation, zur Einkunftsquelle, zum anwendbaren Doppelbesteuerungsabkommen und vor allem zur Gefährdung durch internationale Hinzurechnungsbesteuerung und Anti-Missbrauchsregeln auslöst. Schauen wir uns die fünf großen Familien an, die wir bei Exentax sehen.
 
 ## Wesentliche Punkte

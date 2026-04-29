@@ -1,5 +1,7 @@
 export default `
 
+Schon 12 Monate Vermischung von Privat- und LLC-Geldern reichen aus, dass ein Gericht das Piercing the Corporate Veil ausspricht und das Privatvermögen des Mitglieds direkt für die Schulden haftet.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA</a>.</p>
 Wer aus dem Einzelunternehmen oder der Kleinunternehmerregelung kommt, nutzt das Geschäftskonto oft wie das Private. Bei einer LLC zerstört genau dieses Verhalten den Haftungsschutz: ein US-Gericht hebt in drei auffälligen Bewegungen den Schleier („pierce the corporate veil”), und das Finanzamt kann die Flüsse zugleich als nicht erklärtes privates Einkommen umqualifizieren.
 

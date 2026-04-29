@@ -1,5 +1,7 @@
 export default `
 
+Los primeros 30 días tras constituir una LLC cubren 4 hitos críticos: recibir los Articles of Organization, conseguir el EIN, abrir cuenta en Mercury y firmar el Operating Agreement.
+
 Has dado el paso: tu LLC está constituida, tienes tu EIN y estás listo para empezar. Pero ahora viene la pregunta que todos se hacen: ¿y ahora qué?
 
 Este artículo te explica exactamente qué pasa durante tu primer mes con una LLC, paso a paso, sin tecnicismos innecesarios.

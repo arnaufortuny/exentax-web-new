@@ -1,5 +1,7 @@
 export default `
 
+Les 5 juridictions holding les plus utilisées en Europe — Pays-Bas, Luxembourg, Irlande, Malte et Chypre — offrent des exonérations de participation dès 5 % ou 10 % de détention et des taux effectifs inférieurs à 12,5 %.
+
 Le mot "holding" s'utilise dans beaucoup de contextes et presque toujours avec une certaine confusion. Pour certains c'est une structure réservée aux gros patrimoines, pour d'autres c'est un raccourci fiscal miraculeux. Aucune des deux visions n'est correcte. Une holding est un outil concret, avec des utilités concrètes, qui a du sens dans certains cas et pas dans d'autres.
 
 Chez Exentax nous expliquons souvent à nos clients quand une holding apporte de la valeur et quand c'est de la complexité sans propos. Ce guide résume comment elle fonctionne réellement, quels types existent et quand il convient d'en envisager une.

@@ -1,4 +1,6 @@
-export default `Quan saltes de l'IBAN espanyol a l'ecosistema bancari nord-americà, et falta la meitat del vocabulari: la teva LLC no et dóna un IBAN, et dóna un routing number i un account number, i el SWIFT només apareix en l'internacional. Fins que no encaixis aquesta diferència, les transferències no surten o arriben amb comissions amagades.
+export default `El routing number americà té 9 dígits, l'IBAN espanyol 24 caràcters i el codi SWIFT entre 8 i 11; els tres es demanen alhora en qualsevol transferència internacional amb la teva LLC.
+
+Quan saltes de l'IBAN espanyol a l'ecosistema bancari nord-americà, et falta la meitat del vocabulari: la teva LLC no et dóna un IBAN, et dóna un routing number i un account number, i el SWIFT només apareix en l'internacional. Fins que no encaixis aquesta diferència, les transferències no surten o arriben amb comissions amagades.
 
 Anem a explicar cadascun de forma clara perquè mai més et quedis pensant "quin li dono a aquest client?"
 

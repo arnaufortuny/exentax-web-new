@@ -1,4 +1,6 @@
-export default `Si votre LLC opère depuis un certain temps et que la séparation entre votre argent personnel et celui de la LLC n'est pas parfaitement documentée, vous avez un problème en attente. Il n'apparaît pas aujourd'hui; il apparaît le jour où une banque fait une revue approfondie, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demande des justificatifs, ou votre fisc demande une traçabilité des flux.
+export default `L'IRS exige de conserver 7 ans de relevés bancaires et de justificatifs pour prouver que l'argent de la LLC et le tien personnel ne se sont jamais mélangés, condition indispensable pour préserver le corporate veil.
+
+Si votre LLC opère depuis un certain temps et que la séparation entre votre argent personnel et celui de la LLC n'est pas parfaitement documentée, vous avez un problème en attente. Il n'apparaît pas aujourd'hui; il apparaît le jour où une banque fait une revue approfondie, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demande des justificatifs, ou votre fisc demande une traçabilité des flux.
 
 ## Pourquoi la séparation des fonds compte
 

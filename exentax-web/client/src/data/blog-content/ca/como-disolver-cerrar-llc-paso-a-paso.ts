@@ -1,5 +1,7 @@
 export default `
 
+Dissoldre bé una LLC porta entre 30 i 60 dies i obliga a presentar l'últim Form 1120 + 5472 marcat com a final return; saltar-se aquest pas converteix la LLC en un acumulador de sancions de 25.000 $ per any.
+
 Tancar una LLC ben fet és tan important com obrir-la. La majoria d'informació que circula sobre LLCs parla de com constituir-la, com triar estat, com obrir compte a Mercury o Wise Business... però gairebé ningú explica com es **tanca** correctament. I, tanmateix, una LLC mal dissolta segueix generant obligacions, sancions, comissions i, en el pitjor dels casos, una ombra fiscal als EUA que pot perseguir-te durant anys.
 
 Aquesta guia explica el procés real i complet per **dissoldre i tancar la teva LLC americana**: quan convé fer-ho, com s'ordena el tancament estat per estat, quines declaracions finals presenta l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, què passa amb el teu EIN, què es fa amb el teu BOI Report, com es cancel·len els teus comptes bancaris i per què hi ha un ordre estricte que no s'ha d'alterar. Si ja no operes amb la teva LLC i vols oblidar-te'n sense ensurts a tres anys vista, aquest és el camí.

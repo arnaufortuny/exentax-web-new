@@ -1,4 +1,6 @@
-export default `Content creators are one of the profiles that benefit most from a US LLC. If you have a YouTube, Twitch, or other digital media presence with international audiences, this guide is for you.
+export default `YouTube withholds 30% by default from a non-resident creator without W-8BEN; with a pass-through LLC plus W-8BEN-E, the treatment lines up under the relevant tax treaty.
+
+Content creators are one of the profiles that benefit most from a US LLC. If you have a YouTube, Twitch, or other digital media presence with international audiences, this guide is for you.
 
 ## Why content creators need a US LLC
 

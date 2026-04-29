@@ -1,4 +1,6 @@
-export default `Sejamos diretos desde a primeira linha: „zero impostos” sendo residente fiscal em Portugal é matematicamente impossível. O que é possível, e completamente legal, é baixar a carga fiscal global para um nível que nem as Finanças nem a Segurança Social permitem nos formulários padrão. Mas passa por condições muito precisas.
+export default `Uma LLC pass-through paga 0 % federal nos EUA, mas chegar a 0 % real exige residir numa jurisdição de taxa zero como Bahamas, Mónaco ou Emirados no seu escalão isento abaixo de 102.000 $ anuais.
+
+Sejamos diretos desde a primeira linha: „zero impostos” sendo residente fiscal em Portugal é matematicamente impossível. O que é possível, e completamente legal, é baixar a carga fiscal global para um nível que nem as Finanças nem a Segurança Social permitem nos formulários padrão. Mas passa por condições muito precisas.
 
 ## O primeiro passo: entender o pass-through taxation
 

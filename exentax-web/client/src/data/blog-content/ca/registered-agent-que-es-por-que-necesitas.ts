@@ -1,5 +1,7 @@
 export default `
 
+El Registered Agent és obligatori als 50 estats dels EUA, costa entre 50 $ i 300 $ l'any i la seva funció primària és rebre el correu legal de l'IRS o de l'estat en menys de 24 hores.
+
 <p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA</a>.</p>
 A Catalunya no hi ha un equivalent directe al Registered Agent: és una barreja de domicili social, representant fiscal i procurador. Cada estat dels EUA exigeix que la LLC en nomeni un, físicament a l'estat, disponible en horari comercial. I no, el teu Registered Agent no és la teva adreça bancària.
 

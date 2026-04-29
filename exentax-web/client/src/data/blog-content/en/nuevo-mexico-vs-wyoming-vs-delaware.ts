@@ -1,5 +1,7 @@
 export default `
 
+New Mexico charges 0 dollars for the Annual Report, Wyoming asks 60 dollars with a 60-dollar minimum franchise tax, and Delaware demands 300 dollars of Franchise Tax every June 1: three states, three very different annual cost models.
+
 <p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC</a>.</p>
 When forming a US LLC as a non-resident, one of the first decisions you'll face is which state to choose. New Mexico, Wyoming, and Delaware are the three most popular options. Here's an honest comparison with real numbers.
 

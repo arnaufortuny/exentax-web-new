@@ -1,4 +1,6 @@
-export default `Seien wir von der ersten Zeile an ehrlich: „Null Steuern” mit Wohnsitz in Deutschland oder Österreich ist mathematisch unmöglich. Was aber sehr wohl möglich, und voll legal, ist: die Gesamtsteuerlast auf ein Niveau zu drücken, das Finanzamt und Sozialversicherung in ihren Standardformularen schlicht nicht vorsehen. Das setzt jedoch sehr konkrete Bedingungen voraus.
+export default `Eine Pass-through-LLC zahlt 0 % föderal in den USA, doch ein wirklich realer 0-%-Satz setzt einen Wohnsitz in einer Nullsteuer-Jurisdiktion wie Bahamas, Monaco oder der VAE in ihrer Freigrenze unter 102.000 USD pro Jahr voraus.
+
+Seien wir von der ersten Zeile an ehrlich: „Null Steuern” mit Wohnsitz in Deutschland oder Österreich ist mathematisch unmöglich. Was aber sehr wohl möglich, und voll legal, ist: die Gesamtsteuerlast auf ein Niveau zu drücken, das Finanzamt und Sozialversicherung in ihren Standardformularen schlicht nicht vorsehen. Das setzt jedoch sehr konkrete Bedingungen voraus.
 
 ## Zunächst: Verstehen Sie die Pass-Through-Besteuerung
 

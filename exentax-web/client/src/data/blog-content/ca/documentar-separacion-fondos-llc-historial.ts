@@ -1,4 +1,6 @@
-export default `Si la teva LLC opera des de fa un temps i la separació entre els teus diners personals i els de la LLC no està perfectament documentada, tens un problema a l'espera. No es manifesta avui; es manifesta el dia que un banc fa una revisió profunda, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demana justificants o el teu fisc demana traç de fluxos.
+export default `L'IRS exigeix conservar 7 anys d'extractes bancaris i justificants per demostrar que els diners de la LLC i els personals no s'han barrejat mai, condició indispensable per mantenir el corporate veil.
+
+Si la teva LLC opera des de fa un temps i la separació entre els teus diners personals i els de la LLC no està perfectament documentada, tens un problema a l'espera. No es manifesta avui; es manifesta el dia que un banc fa una revisió profunda, l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demana justificants o el teu fisc demana traç de fluxos.
 
 ## Per què importa la separació de fons
 

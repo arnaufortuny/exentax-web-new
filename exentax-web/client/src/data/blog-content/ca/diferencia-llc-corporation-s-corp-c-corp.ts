@@ -1,5 +1,7 @@
 export default `
 
+EUA ofereix 4 vehicles principals: la LLC pass-through al 0 % federal, la S-Corp restringida a residents, la C-Corp al 21 % federal i la sole proprietorship sense escut legal.
+
 Quan algú diu "empresa americana", la majoria imagina una LLC; d'altres, una "corporation". La realitat és que als EUA existeixen quatre vehicles principals per fer negocis: **LLC**, **Corporation**, **S-Corporation** i **C-Corporation**. Cadascun té el seu propi règim fiscal federal i estatal, restriccions de propietat i casos d'ús. Per a un emprenedor català resident fiscal a Catalunya o a la resta d'Espanya, no totes són accessibles ni convenients. Aquesta guia aterra la diferència real entre les quatre figures, què encaixa amb cada perfil i per què la LLC continua sent, avui, l'elecció per defecte per a freelancers, agències i projectes digitals que no busquen inversors institucionals.
 
 ## LLC: l'opció flexible i per defecte per a no residents

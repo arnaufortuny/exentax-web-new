@@ -1,4 +1,6 @@
-export default `When you form a US LLC, you receive a complete "legal kit". several documents, each with a specific function. At Exentax we prepare and deliver all of them as part of the formation service. But it's good to know what each one is and when you'll need it.
+export default `A properly formed LLC's legal kit contains 6 must-have documents: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (if applicable), Registered Agent Acceptance, and Banking Resolution.
+
+When you form a US LLC, you receive a complete "legal kit". several documents, each with a specific function. At Exentax we prepare and deliver all of them as part of the formation service. But it's good to know what each one is and when you'll need it.
 
 ## Key points
 

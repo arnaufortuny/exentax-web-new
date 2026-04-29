@@ -1,4 +1,6 @@
-export default `Wise Business n'est pas une banque américaine: c'est un EMI européen qui offre des coordonnées USD, EUR et GBP. Pour un entrepreneur français possédant une LLC, c'est un outil de conversion de devises et de facturation multi-devises puissant, mais ce n'est pas un remplacement de Mercury. Comprendre cette nuance change la façon dont vous architecturez votre banking.
+export default `Wise Business ouvre un compte multidevises pour une LLC en 5 jours, convertit l'USD en EUR avec un spread moyen de 0,41 % et émet des IBAN européens en 9 devises différentes.
+
+Wise Business n'est pas une banque américaine: c'est un EMI européen qui offre des coordonnées USD, EUR et GBP. Pour un entrepreneur français possédant une LLC, c'est un outil de conversion de devises et de facturation multi-devises puissant, mais ce n'est pas un remplacement de Mercury. Comprendre cette nuance change la façon dont vous architecturez votre banking.
 
 Une nuance importante: **Wise n'est pas une banque.** C'est un EMI (Établissement de Monnaie Électronique), aux États-Unis, il opère en tant que Money Transmitter. Cela signifie que votre argent n'est pas couvert par la FDIC, mais Wise utilise le safeguarding (séparation des fonds des clients) pour le protéger. Pour la plupart des opérations de conversion et de paiements internationaux, c'est plus que suffisant. Pour votre trésorerie principale, utilisez Mercury.
 

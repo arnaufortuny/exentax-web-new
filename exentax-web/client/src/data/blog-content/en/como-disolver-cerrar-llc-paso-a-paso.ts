@@ -1,5 +1,7 @@
 export default `
 
+A clean LLC dissolution runs 30 to 60 days and requires filing a final Form 1120 + 5472 marked as final return; skipping that step turns the LLC into a 25,000-dollar-per-year penalty accumulator.
+
 Closing an LLC properly is as important as opening it. Most LLC content out there talks about how to form one, how to choose the state, how to open Mercury or Wise Business... but almost no one explains how to **shut it down** correctly. And yet a poorly dissolved LLC keeps generating obligations, penalties, fees and, in the worst case, a US tax shadow that can chase you for years.
 
 This guide tells the real, complete process to **dissolve and close your US LLC**: when it makes sense, how to sequence the closure state by state, which final returns the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> expects, what happens to your EIN, what to do with your BOI Report, how to cancel your bank accounts and why there is a strict order that should not be altered. If you are no longer operating your LLC and want to forget about it without surprises three years from now, this is the path.

@@ -1,4 +1,6 @@
-export default `Wenn jemand zum ersten Mal die Kombination "US-LLC" und "spanischer Steuerresident" sieht, ist die unmittelbare Frage immer dieselbe: **"und wo zahle ich Steuern?"**. Die Antwort ist klar: **in Spanien**, auf den Nettogewinn, dank des **Doppelbesteuerungsabkommens zwischen den USA und Spanien**. Die LLC wird nicht verwendet, um "nicht zu zahlen", sondern um **nicht zweimal zu zahlen** und um innerhalb des Legalen zu optimieren.
+export default `Das DBA zwischen Spanien und den USA vom 22. Februar 1990 samt dem seit dem 27. November 2019 in Kraft befindlichen Änderungsprotokoll legt die Regeln fest, die verhindern, dass du dasselbe LLC-Einkommen zweimal versteuerst.
+
+Wenn jemand zum ersten Mal die Kombination "US-LLC" und "spanischer Steuerresident" sieht, ist die unmittelbare Frage immer dieselbe: **"und wo zahle ich Steuern?"**. Die Antwort ist klar: **in Spanien**, auf den Nettogewinn, dank des **Doppelbesteuerungsabkommens zwischen den USA und Spanien**. Die LLC wird nicht verwendet, um "nicht zu zahlen", sondern um **nicht zweimal zu zahlen** und um innerhalb des Legalen zu optimieren.
 
 Dieser Leitfaden erklärt das Abkommen Schritt für Schritt, in klarer Sprache, angewandt auf den konkreten Fall einer LLC eines Nichtansässigen mit spanisch-ansässigem Eigentümer.
 

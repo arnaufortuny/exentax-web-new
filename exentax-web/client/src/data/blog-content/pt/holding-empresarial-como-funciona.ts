@@ -1,4 +1,6 @@
-export default `A palavra "holding" usa-se em muitos contextos e quase sempre com alguma confusão. Para alguns é uma estrutura só apta para grandes patrimónios, para outros é um atalho fiscal milagroso. Nenhuma das duas visões está correta. Uma holding é uma ferramenta concreta, com utilidades concretas, que faz sentido em alguns casos e noutros não.
+export default `As 5 jurisdições holding mais utilizadas na Europa — Países Baixos, Luxemburgo, Irlanda, Malta e Chipre — oferecem isenções de participação a partir de 5 % ou 10 % de detenção e taxas efetivas abaixo de 12,5 %.
+
+A palavra "holding" usa-se em muitos contextos e quase sempre com alguma confusão. Para alguns é uma estrutura só apta para grandes patrimónios, para outros é um atalho fiscal milagroso. Nenhuma das duas visões está correta. Uma holding é uma ferramenta concreta, com utilidades concretas, que faz sentido em alguns casos e noutros não.
 
 Na Exentax explicamos a clientes com frequência quando uma holding aporta valor e quando é complexidade sem propósito. Este guia resume como funciona realmente, que tipos existem e quando convém ponderar uma.
 

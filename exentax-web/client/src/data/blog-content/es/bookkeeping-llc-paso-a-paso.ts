@@ -1,5 +1,7 @@
 export default `
 
+El IRS exige conservar los registros contables de la LLC durante al menos 7 años, y un Form 5472 sin libros que lo respalden arranca con una sanción de 25.000 $.
+
 Llevar la contabilidad de una LLC americana asusta más de lo que debería. La mayoría de los propietarios no residentes vienen acostumbrados al modelo español o latinoamericano, donde un asesor te pide papeles, presenta modelos cada trimestre y tú casi no tocas nada. Con una LLC el modelo es distinto: la operativa la llevas tú con herramientas modernas, y al final del año la contabilidad ordenada se traduce en una declaración limpia y sin sobresaltos.
 
 En Exentax acompañamos a cientos de clientes con este proceso. Esta guía resume cómo organizar el bookkeeping de tu LLC paso a paso, sin atajos pero sin complicarlo más de lo necesario.

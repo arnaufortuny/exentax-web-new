@@ -1,4 +1,6 @@
-export default `Cryptocurrency trading through a US LLC is one of the more complex areas of LLC taxation. Here's a clear guide for crypto traders and investors.
+export default `Crypto capital gains in Spain are taxed on a 19% to 30% scale, and Modelo 721 forces you to declare balances on foreign exchanges from 50,000 euros upward.
+
+Cryptocurrency trading through a US LLC is one of the more complex areas of LLC taxation. Here's a clear guide for crypto traders and investors.
 
 ## Does a US LLC make sense for crypto trading?
 

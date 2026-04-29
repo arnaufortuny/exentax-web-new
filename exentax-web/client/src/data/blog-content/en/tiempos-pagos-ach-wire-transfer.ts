@@ -1,4 +1,6 @@
-export default `Understanding payment timing helps you manage cash flow effectively. Here's a complete guide to how long different payment methods take with your LLC.
+export default `A US-domestic ACH transfer settles in 1 to 3 business days at 0 dollars on Mercury, while a domestic wire transfer arrives the same day and costs 5 dollars on operating LLC accounts.
+
+Understanding payment timing helps you manage cash flow effectively. Here's a complete guide to how long different payment methods take with your LLC.
 
 ## ACH payment timelines
 

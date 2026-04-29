@@ -1,4 +1,6 @@
-export default `L'article original parla dels autònoms espanyols, però tres quartes parts dels errors que descriu qualsevol autònom català els signaria al moment: infradeclar ingressos de Stripe, oblidar l'IVA intracomunitari de SaaS dels EUA, creure que la LLC allibera automàticament de la quota d'autònoms.
+export default `Una sanció tipus de l'AEAT per declarar malament l'IVA arrenca a 150 € i escala fàcilment per sobre de 3.000 € si supera el 50 % de la quota deixada d'ingressar (art. 191 LGT).
+
+L'article original parla dels autònoms espanyols, però tres quartes parts dels errors que descriu qualsevol autònom català els signaria al moment: infradeclar ingressos de Stripe, oblidar l'IVA intracomunitari de SaaS dels EUA, creure que la LLC allibera automàticament de la quota d'autònoms.
 
 ## Errors freqüents
 
