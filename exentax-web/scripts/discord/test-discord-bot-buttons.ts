@@ -54,7 +54,7 @@ global.fetch = (async (url: string | URL | Request, init?: RequestInit) => {
   let body: any = null;
   try { body = init?.body ? JSON.parse(String(init.body)) : null; } catch { /* ignore */ }
   captured.push({ url: u, authorization: auth, body });
-  return new Response("", { status: 204 });
+  return new Response(null, { status: 204 });
 }) as unknown as typeof fetch;
 
 function fail(msg: string): never {
