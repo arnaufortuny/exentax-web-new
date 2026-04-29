@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-29T13:55:13.039Z",
+  "generatedAt": "2026-04-29T14:15:44.837Z",
   "totalChunks": 712,
-  "totalKb": 20728.1,
-  "totalGzipKb": 7860.7,
+  "totalKb": 20733.5,
+  "totalGzipKb": 7862.6,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -21,7 +21,7 @@
       "count": 21,
       "totalKb": 777.8,
       "maxKb": 142.9,
-      "maxFile": "ExistingLlcCallout-9jBrV_B1.js"
+      "maxFile": "ExistingLlcCallout-C4gPjXB_.js"
     },
     "blog-post": {
       "count": 672,
@@ -33,7 +33,7 @@
       "count": 2,
       "totalKb": 145.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-DgJf4YY6.js"
+      "maxFile": "blog-posts-content-DSydcfmE.js"
     },
     "css": {
       "count": 2,
@@ -43,15 +43,15 @@
     },
     "locale": {
       "count": 10,
-      "totalKb": 1808,
-      "maxKb": 270.1,
-      "maxFile": "fr-j7hAUlpA.js"
+      "totalKb": 1812.4,
+      "maxKb": 271,
+      "maxFile": "fr-BJ-yIjyy.js"
     },
     "entry-index": {
       "count": 1,
-      "totalKb": 511.4,
-      "maxKb": 511.4,
-      "maxFile": "index-DCxF6wVn.js"
+      "totalKb": 512.3,
+      "maxKb": 512.3,
+      "maxFile": "index-ydYhwUAi.js"
     },
     "vendor-i18n": {
       "count": 1,
@@ -80,40 +80,40 @@
   },
   "top": [
     {
-      "file": "index-DCxF6wVn.js",
+      "file": "index-ydYhwUAi.js",
       "category": "entry-index",
-      "bytesKb": 511.4,
-      "gzipKb": 150.5
+      "bytesKb": 512.3,
+      "gzipKb": 150.8
     },
     {
-      "file": "fr-j7hAUlpA.js",
+      "file": "fr-BJ-yIjyy.js",
       "category": "locale",
-      "bytesKb": 270.1,
-      "gzipKb": 80.5
+      "bytesKb": 271,
+      "gzipKb": 80.9
     },
     {
-      "file": "de-CX9ofV3D.js",
+      "file": "de-Ckkk8vGt.js",
       "category": "locale",
-      "bytesKb": 262.7,
-      "gzipKb": 81.5
+      "bytesKb": 263.7,
+      "gzipKb": 81.8
     },
     {
-      "file": "pt-CZA6m9lp.js",
+      "file": "pt-Cn14siUv.js",
       "category": "locale",
-      "bytesKb": 248.7,
-      "gzipKb": 75.7
+      "bytesKb": 249.6,
+      "gzipKb": 76
     },
     {
-      "file": "ca-vOkWuzIv.js",
+      "file": "ca-BdZj9X4e.js",
       "category": "locale",
-      "bytesKb": 247.8,
-      "gzipKb": 76.6
+      "bytesKb": 248.6,
+      "gzipKb": 76.9
     },
     {
-      "file": "en-CoeFUpid.js",
+      "file": "en-DWBrgvac.js",
       "category": "locale",
-      "bytesKb": 237.7,
-      "gzipKb": 73.5
+      "bytesKb": 238.5,
+      "gzipKb": 73.8
     },
     {
       "file": "vendor-react-CK-D59fK.js",
@@ -122,7 +122,7 @@
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-9jBrV_B1.js",
+      "file": "ExistingLlcCallout-C4gPjXB_.js",
       "category": "page",
       "bytesKb": 142.9,
       "gzipKb": 31
@@ -134,7 +134,7 @@
       "gzipKb": 21.4
     },
     {
-      "file": "booking-B0CexWxl.js",
+      "file": "booking-mCLaw2jk.js",
       "category": "page",
       "bytesKb": 116.3,
       "gzipKb": 31
@@ -173,7 +173,7 @@
   "offenders": [],
   "hardBudget": {
     "serverBytes": 5892629,
-    "publicBytes": 22574817,
+    "publicBytes": 22580324,
     "serverMb": 5.62,
     "publicMb": 21.53,
     "serverBudgetMb": 7,
