@@ -7,7 +7,7 @@ import { eq } from "drizzle-orm";
 import * as schema from "../../shared/schema";
 import {
   generateId, getAllBlockedDays, getBlockedDay, getBookedSlots, isSlotBooked,
-  hasExistingBooking, insertAgenda, insertLead,
+  hasExistingBooking, insertAgenda, insertLead, upsertLeadOnBooking,
   insertVisit,
   upsertNewsletterSubscriber,
   getAgendaByIdAndToken, updateAgenda,
@@ -29,7 +29,7 @@ import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
   checkBookingRateLimit, checkBookingEmailRateLimit, checkBookingDraftEmailRateLimit, checkBookingManageRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
-  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, truncateIp, withSlotLock, withBookingLock,
+  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, truncateIp, withSlotLock, withBookingLock, withLeadEmailLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
 import { backendLabel, resolveRequestLang, escapeHtml } from "./shared";
@@ -610,8 +610,14 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         };
 
+        let leadCreated = false;
+        let resolvedLeadId = bookingLeadId;
         try {
-        await withTransaction(async (tx) => {
+        // Race-safety belt around the lead upsert: see `withLeadEmailLock`
+        // docstring for why this is needed even though `leads.email` is
+        // not UNIQUE at the DB level. The lock spans the whole booking
+        // transaction so the agenda+lead writes still commit atomically.
+        await withLeadEmailLock(email, () => withTransaction(async (tx) => {
           await insertAgenda({
             id: bookingLeadId,
             name,
@@ -638,7 +644,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             language: language || null,
           }, tx);
 
-          await insertLead({
+          // Audit Task #18: avoid duplicate `leads` rows when the visitor
+          // already has a lead from the calculator (or a prior cancelled
+          // booking). `upsertLeadOnBooking` updates by email when a row
+          // exists (forcing scheduledCall=true and refreshing booking
+          // fields) and inserts otherwise. Both paths run inside the same
+          // transaction as the agenda insert.
+          const upsertResult = await upsertLeadOnBooking({
             id: bookingLeadId,
             firstName: name,
             lastName: lastName || "",
@@ -655,6 +667,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             ip,
             date: todayMadridISO(),
           }, tx);
+          leadCreated = upsertResult.created;
+          resolvedLeadId = upsertResult.row.id;
 
           // Atomicity: enqueue the confirmation email INSIDE the transaction
           // so it commits together with the agenda+lead rows. If anything
@@ -666,7 +680,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             immediate: true,
             tx,
           });
-        });
+        }));
         } catch (err) {
           if (err instanceof SlotConflictError) {
             return { error: true as const, status: 409 as const, message: backendLabel("slotAlreadyBooked", resolveRequestLang(req)), code: "SLOT_TAKEN" };
@@ -718,7 +732,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         }
 
         notifyBookingCreated({ bookingId: bookingLeadId, name, lastName, email, phone, date, startTime, endTime, meetLink, meetingType, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
-        notifyNewLead({ leadId: bookingLeadId, name: `${name}${lastName ? " " + lastName : ""}`, email, phone, source: LEAD_SOURCES.BOOKING_WEB, language, ip, activity, bookingId: bookingLeadId });
+        // Only fire "new lead" Discord card when we actually inserted a
+        // fresh row (not when we just upserted scheduledCall onto an
+        // existing calculator/cancellation lead) — the booking card
+        // above already covers the operational signal in that case.
+        if (leadCreated) {
+          notifyNewLead({ leadId: resolvedLeadId, name: `${name}${lastName ? " " + lastName : ""}`, email, phone, source: LEAD_SOURCES.BOOKING_WEB, language, ip, activity, bookingId: bookingLeadId });
+        }
         const bookingConsentIp = truncateIp(ip);
         const bookingConsentUa = (req.headers["user-agent"] as string | undefined) || null;
         getCachedPrivacyVersion().then(async (privacyVersion) => {
@@ -985,7 +1005,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const monthlyIncome = parsed.data.incomeMode === "annual" ? Math.round(parsed.data.income / 12) : parsed.data.income;
     const breakdownStr = parsed.data.breakdown.map(b => `${b.label}: ${b.amount}€`).join(" | ");
 
-    await withTransaction(async (tx) => {
+    // Race-safety belt around the lead upsert (same rationale as the
+    // booking handler — see `withLeadEmailLock` docstring). Without
+    // this, two simultaneous calculator submissions for the same email
+    // could both pass the SELECT and both INSERT.
+    await withLeadEmailLock(normalizedEmail, () => withTransaction(async (tx) => {
       const [existingLead] = await tx.select().from(schema.leads).where(eq(schema.leads.email, normalizedEmail)).limit(1);
       if (existingLead) {
         const newPhone = parsed.data.phone;
@@ -1053,7 +1077,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         locale: calcLocale,
         date: todayMadridISO(),
       });
-    }).catch((err) => {
+    })).catch((err) => {
       logger.error("Calculator lead+row transaction failed:", "db", err);
       throw err;
     });

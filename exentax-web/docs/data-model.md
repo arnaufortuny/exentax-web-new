@@ -229,3 +229,45 @@ DATABASE_URL=postgres://… npm run dev
 psql "$DATABASE_URL" -c "EXPLAIN SELECT * FROM newsletter_subscribers WHERE unsubscribed_at IS NULL LIMIT 10;"
 # → debe mostrar "Index Scan using newsletter_subs_active_idx"
 ```
+
+## 10. Sincronización lead ↔ agenda (Task #18, abril 2026)
+
+`leads` no tiene **UNIQUE** sobre `email` (la calculadora puede tocar
+varias veces sin que cada simulación cree fila nueva — usa
+select-then-update vía `usedCalculator=true`). El flujo de booking,
+hasta abril 2026, hacía un `INSERT` ciego con `id = bookingLeadId`,
+duplicando la fila cuando el visitante ya tenía un lead previo (caso
+típico: calculó primero, reservó después).
+
+**Comportamiento actual** — `upsertLeadOnBooking()` en
+`server/storage/marketing.ts`:
+
+1. Busca lead por `email` normalizado dentro de la transacción del
+   booking.
+2. Si existe → **UPDATE** del row existente:
+   - `scheduledCall = true`
+   - refresca `firstName`, `source`, consentimientos, IP, `date`
+   - preserva `usedCalculator=true` si ya estaba marcado
+   - el teléfono se re-encripta sólo si llega uno nuevo
+3. Si no existe → `INSERT` con `id = bookingLeadId` (mismo
+   comportamiento que antes; el booking E2E sigue verde porque sus
+   emails de prueba son siempre nuevos).
+
+**Notificación Discord**: `notifyNewLead()` se dispara **sólo** cuando
+realmente insertamos una fila nueva. En el camino upsert, la tarjeta
+`notifyBookingCreated()` ya cubre la señal operativa para el operador.
+
+**Race-safety**: el upsert se envuelve en `withLeadEmailLock(email,
+…)` (`server/route-helpers.ts`), un lock distribuido por email
+backed por Redis (`SET NX PX`) en producción y por una promise chain
+in-memory en dev. El mismo lock se aplica al handler de calculadora,
+así que dos POSTs simultáneos del mismo email — incluso desde flujos
+distintos (calculadora + booking) — se serializan y la segunda ve la
+fila creada por la primera.
+
+**Implicación para retención**: el lead "sobrevive" a la cancelación
+de la reserva (la fila de `leads` no se borra cuando `agenda.estado =
+cancelled`), así que un visitante que cancele y vuelva a reservar
+dispara también el camino upsert. Es el comportamiento esperado: la
+fila de `leads` es el ledger histórico del prospecto, no un mirror del
+estado de `agenda`.

@@ -67,6 +67,65 @@ export async function insertLead(data: s.InsertLead, txDb?: DbOrTx) {
   } catch (err) { throw wrapStorageError("insertLead", err); }
 }
 
+/**
+ * Audit Task #18 (April 2026): "agenda + leads sincronizados — cuando se
+ * crea agenda, se actualiza `lead.scheduledCall=true` si existe lead
+ * matching; si no, no se duplica."
+ *
+ * `leads` has only a non-unique index on `email` (because the calculator
+ * flow already started its own dedup via `usedCalculator=true` updates),
+ * so the booking handler used to blindly insert a fresh row on every
+ * confirmation — producing two leads for the same address whenever a
+ * visitor calculated first and booked second. This helper centralises
+ * the upsert: if an active lead row exists for `data.email` we update
+ * it (forcing `scheduledCall=true`, refreshing booking-relevant fields)
+ * and return the resolved row; otherwise we insert with the supplied
+ * id.
+ *
+ * The select+update path lives inside the caller's transaction so the
+ * agenda + lead writes stay atomic. Phone is encrypted at the DB layer
+ * exactly like `insertLead`.
+ *
+ * Returns `{ row, created }` so callers can decide whether to fire a
+ * "new lead" Discord notification or stay quiet on the upsert path.
+ */
+export async function upsertLeadOnBooking(data: s.InsertLead, txDb?: DbOrTx): Promise<{ row: s.Lead; created: boolean }> {
+  try {
+    const conn = txDb || db;
+    const email = normalizeEmail(data.email);
+    const existingRows = await conn.select().from(s.leads).where(eq(s.leads.email, email)).limit(1);
+    const existing = existingRows[0];
+    if (existing) {
+      // Refresh booking-relevant fields. Keep `usedCalculator` if it was
+      // already true so we never lose the audit fact that the visitor
+      // also ran the simulator. Phone is encrypted in place; if no new
+      // phone was supplied, the existing (already-encrypted) value is
+      // preserved verbatim — never re-wrap or it would double-encrypt.
+      const updates: Partial<Record<string, unknown>> = {
+        firstName: data.firstName,
+        scheduledCall: true,
+        source: data.source ?? existing.source,
+        privacyAccepted: data.privacyAccepted ?? existing.privacyAccepted,
+        termsAccepted: data.termsAccepted ?? existing.termsAccepted,
+        marketingAccepted: data.marketingAccepted ?? existing.marketingAccepted,
+        consentDateTime: data.consentDateTime ?? existing.consentDateTime,
+        economicActivity: data.economicActivity ?? existing.economicActivity,
+        ip: data.ip ?? existing.ip,
+        date: data.date ?? existing.date,
+      };
+      if (data.lastName) updates.lastName = data.lastName;
+      if (existing.usedCalculator === true) updates.usedCalculator = true;
+      if (data.phone) updates.phone = data.phone;
+      const encryptedUpdates = encryptSensitiveFields(updates as Record<string, unknown>, LEAD_SENSITIVE);
+      const [row] = await conn.update(s.leads).set(encryptedUpdates as Record<string, unknown>).where(eq(s.leads.id, existing.id)).returning();
+      return { row: decryptLead(row as unknown as Record<string, unknown>) as unknown as s.Lead, created: false };
+    }
+    const encrypted = encryptSensitiveFields(data as unknown as Record<string, unknown>, LEAD_SENSITIVE) as unknown as s.InsertLead;
+    const [row] = await conn.insert(s.leads).values(encrypted).returning();
+    return { row: decryptLead(row as unknown as Record<string, unknown>) as unknown as s.Lead, created: true };
+  } catch (err) { throw wrapStorageError("upsertLeadOnBooking", err); }
+}
+
 export async function insertVisit(data: s.InsertVisit) {
   try {
     const [row] = await db.insert(s.visits).values(data).returning();

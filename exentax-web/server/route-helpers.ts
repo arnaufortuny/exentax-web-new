@@ -434,6 +434,32 @@ export function withSlotLock<T>(slotKey: string, fn: () => Promise<T>): Promise<
   return withLockReady("slot", slotKey, SLOT_LOCK_TTL_MS, SLOT_LOCK_WAIT_MS, fn);
 }
 
+/**
+ * Per-email lock used by `upsertLeadOnBooking` and the calculator
+ * `upsertCalculatorLead` paths. `leads.email` is intentionally NOT
+ * UNIQUE at the database level (the calculator flow needs select-then-
+ * update semantics, and a hard UNIQUE would fail on legacy production
+ * rows that have known historical duplicates). Without this lock, two
+ * simultaneous POSTs from the same email — for example a calculator
+ * submission and a booking confirmation arriving within the same
+ * millisecond — could both pass the SELECT and both INSERT, producing
+ * the very duplicate row Task #18 set out to eliminate.
+ *
+ * Backed by the same Redis (production) / in-memory (dev) store as the
+ * slot/booking locks, so the guarantee holds across multiple Node
+ * instances. TTL matches the slot lock budget (booking flow can do
+ * external Calendar/Meet calls inside the critical section).
+ *
+ * The helper re-normalizes the email locally (lowercase + trim) so the
+ * lock key is invariant to caller bugs — even if a future refactor of
+ * the booking/calculator schemas drops the upstream normalization, two
+ * case variants of the same address still share the lock key.
+ */
+export function withLeadEmailLock<T>(email: string, fn: () => Promise<T>): Promise<T> {
+  const key = email.trim().toLowerCase();
+  return withLockReady("lead-email", key, SLOT_LOCK_TTL_MS, SLOT_LOCK_WAIT_MS, fn);
+}
+
 export function isBotVisitor(req: { headers: Record<string, string | string[] | undefined>; ip?: string }): boolean {
   const ua = (req.headers["user-agent"] || "") as string;
   return ua.includes("UptimeRobot") || ua.includes("HealthCheck") || ua.includes("Replit");
