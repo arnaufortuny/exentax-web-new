@@ -902,7 +902,7 @@ httpServer.listen(
     try {
       const { startPeriodicReportsScheduler } = await import("./scheduled/periodic-reports");
       activeIntervals.push(startPeriodicReportsScheduler());
-      logger.info("Periodic reports scheduler started (weekly Mon 09:00, monthly day 1 09:00)", "reports");
+      logger.info("Periodic reports scheduler started (weekly Mon 09:00, monthly day 1 09:00, yearly hook audit Jan 15 09:00)", "reports");
     } catch (err) {
       logger.warn(`Periodic reports scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "reports");
     }

@@ -19,6 +19,8 @@
 
 import { db } from "../db";
 import { sql } from "drizzle-orm";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import { logger } from "../logger";
 import { notifyEvent } from "../discord";
 
@@ -353,12 +355,271 @@ export async function generateAndSendPeriodReport(
   logger.info(`[periodic-reports] ${type} report sent for ${range.label} — ${m.visits.total} visits, ${m.agenda.total} bookings`, "reports");
 }
 
+// ─── Task #44 — Yearly hook audit branch ──────────────────────────────────
+// Cierre del ciclo de inyección -> snapshot (T#42) -> mapeo canónico (T#43)
+// -> auditoría programada (este módulo). El scheduler in-process ejecuta el
+// auditor `scripts/blog/blog-numeric-hook-yearly-refresh.mjs` cada 15 de
+// enero a las 09:00 server-local en modo dry-run (sin escribir cambios en
+// los artículos), captura `summary` + `exitCode` y publica una tarjeta en
+// el canal Discord `actividad`. En ejecución limpia la tarjeta es
+// informativa; con drift real / inyecciones pendientes se escala a
+// criticidad `warning` con el comando sugerido para resolver.
+
+interface YearlyAuditResult {
+  summary: {
+    slugs: number;
+    hooks: number;
+    injectedAndCurrent: number;
+    dormantNativeLead: number;
+    needsInjection: number;
+    driftReal: number;
+    heuristicCandidate: number;
+    staleYearAnchors: number;
+    snapshotEntries: number;
+    snapshotConfirmed: number;
+  };
+  exitCode: number;
+  reportPath: string | null;
+}
+
+interface YearlyAuditModule {
+  runAudit: (opts: {
+    referenceYear?: number;
+    write?: boolean;
+    json?: boolean;
+    log?: boolean;
+  }) => YearlyAuditResult;
+}
+
+// Durable cross-restart idempotency: in-memory `notifyEvent` dedup is a
+// 5-minute TTL only, so a server restart in the 09:00 hour on Jan 15 would
+// re-fire the audit and post a duplicate Discord card. We persist the last
+// completed year to `data/yearly-hook-audit-state.json` (same convention as
+// `data/indexnow-pinged.json` and `data/sitemap-ping-state.json`) and skip
+// any re-invocation that targets a year already marked complete.
+const YEARLY_AUDIT_STATE_FILE = path.resolve(
+  process.cwd(),
+  "data",
+  "yearly-hook-audit-state.json",
+);
+
+interface YearlyAuditState {
+  lastCompletedYear: number | null;
+  completedAt: string | null;
+  exitCode: number | null;
+}
+
+function readYearlyAuditState(): YearlyAuditState {
+  try {
+    if (!fs.existsSync(YEARLY_AUDIT_STATE_FILE)) {
+      return { lastCompletedYear: null, completedAt: null, exitCode: null };
+    }
+    const raw = fs.readFileSync(YEARLY_AUDIT_STATE_FILE, "utf8");
+    const parsed = JSON.parse(raw) as Partial<YearlyAuditState>;
+    return {
+      lastCompletedYear:
+        typeof parsed.lastCompletedYear === "number"
+          ? parsed.lastCompletedYear
+          : null,
+      completedAt:
+        typeof parsed.completedAt === "string" ? parsed.completedAt : null,
+      exitCode:
+        typeof parsed.exitCode === "number" ? parsed.exitCode : null,
+    };
+  } catch (err) {
+    logger.warn(
+      `[yearly-hook-audit] could not read state file at ${YEARLY_AUDIT_STATE_FILE}: ${err instanceof Error ? err.message : String(err)} — treating as never run`,
+      "reports",
+    );
+    return { lastCompletedYear: null, completedAt: null, exitCode: null };
+  }
+}
+
+function writeYearlyAuditState(state: YearlyAuditState): void {
+  try {
+    const dir = path.dirname(YEARLY_AUDIT_STATE_FILE);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(
+      YEARLY_AUDIT_STATE_FILE,
+      JSON.stringify(state, null, 2) + "\n",
+      "utf8",
+    );
+  } catch (err) {
+    // Persistence failure should not block the audit — the in-memory
+    // `notifyEvent` dedup still protects within the 5-minute window. Log
+    // loudly so an operator can fix the disk issue before next year.
+    logger.error(
+      `[yearly-hook-audit] failed to persist state file at ${YEARLY_AUDIT_STATE_FILE} (next restart in same hour COULD duplicate)`,
+      "reports",
+      err,
+    );
+  }
+}
+
+export async function runYearlyHookAudit(now: Date): Promise<void> {
+  const year = now.getFullYear();
+  const startedAt = Date.now();
+
+  // Durable guard: if THIS year's audit already completed (any restart
+  // in the same calendar year), skip and log. We compare with `===`, not
+  // `>=`, on purpose: a `HOOK_AUDIT_FORCE` set to a future date would
+  // otherwise stamp `lastCompletedYear` ahead of real time and silently
+  // suppress real audits for several Januarys (code review caveat #1).
+  // Both the natural Jan-15 branch and the QA override go through this
+  // gate, so to re-run for the same year an operator must delete the
+  // state file or roll `lastCompletedYear` back.
+  const state = readYearlyAuditState();
+  if (state.lastCompletedYear !== null && state.lastCompletedYear === year) {
+    logger.info(
+      `[yearly-hook-audit] year=${year} already completed at ${state.completedAt} (lastCompletedYear=${state.lastCompletedYear}) — skipping`,
+      "reports",
+    );
+    return;
+  }
+
+  let result: YearlyAuditResult;
+  try {
+    // Dynamic import keeps the auditor's eager file IO (HOOKS, VERACITY,
+    // snapshot, ...) lazy: it only loads when the once-yearly branch fires
+    // (or QA forces it via HOOK_AUDIT_FORCE), never at server boot.
+    // The .mjs file lives outside the TS project (no .d.ts), so we coerce
+    // through `unknown` and the explicit `YearlyAuditModule` shape above.
+    const mod = (await import(
+      // @ts-expect-error — auditor is a plain ESM script, no type declarations
+      "../../scripts/blog/blog-numeric-hook-yearly-refresh.mjs"
+    )) as unknown as YearlyAuditModule;
+    result = mod.runAudit({
+      referenceYear: year,
+      write: false,
+      json: false,
+      log: false,
+    });
+  } catch (err) {
+    logger.error(
+      `[yearly-hook-audit] auditor invocation failed (year=${year}, non-fatal)`,
+      "reports",
+      err,
+    );
+    notifyEvent({
+      type: "system_error",
+      criticality: "error",
+      title: `Auditoría anual de cifras (${year}) — ejecución fallida`,
+      description:
+        "El scheduler intentó ejecutar `blog-numeric-hook-yearly-refresh.mjs` pero la importación o la auditoría lanzó una excepción. Revisar logs del servidor.",
+      fields: [
+        {
+          name: "Detalle",
+          value: `\`\`\`${(err instanceof Error ? err.message : String(err)).slice(0, 900)}\`\`\``,
+          inline: false,
+        },
+      ],
+      channel: "errores",
+      origin: "scheduler/yearly-hook-audit",
+      dedupKey: `yearly_hooks_${year}_failure`,
+    });
+    return;
+  }
+
+  const { summary, exitCode } = result;
+  const elapsedMs = Date.now() - startedAt;
+  const isClean = exitCode === 0;
+
+  // Title carries the year + verdict so a single-line Discord notification
+  // already tells the on-call which audit and what state without opening it.
+  const title = isClean
+    ? `Auditoría anual de cifras (${year}) — sin drift detectado`
+    : `Auditoría anual de cifras (${year}) — acción requerida`;
+
+  // Description contains the operator-facing summary. On `warning` we also
+  // embed the literal command the editorial responsable must run to resolve
+  // the drift / pending injections, so the card is self-contained.
+  const description = isClean
+    ? `Auditoría dry-run del 15 de enero ejecutada limpiamente. Los hooks numéricos siguen alineados con el snapshot — no se requiere acción humana. La próxima auditoría se programará automáticamente para el 15 de enero de ${year + 1}.`
+    : `La auditoría detectó **${summary.driftReal}** drift real y **${summary.needsInjection}** entradas que requieren inyección. Resolver con:\n\`node scripts/blog/blog-add-numeric-hook.mjs --replace-existing\`\n\nDespués re-ejecutar el auditor con \`--write-report\` para sellar la nueva fecha en \`reports/seo/lote6-numeric-hook.md\`.`;
+
+  // Mirror the `summary` object the .mjs returns. Kept short and inline so
+  // the embed stays under Discord's 25-field / 6000-char ceiling even with
+  // future counter additions.
+  const fields = [
+    { name: "Hooks (slug × lang)", value: String(summary.hooks), inline: true },
+    {
+      name: "Inyectados y vigentes",
+      value: String(summary.injectedAndCurrent),
+      inline: true,
+    },
+    {
+      name: "Latentes (lead nativo)",
+      value: String(summary.dormantNativeLead),
+      inline: true,
+    },
+    {
+      name: "Anclas con año stale",
+      value: String(summary.staleYearAnchors),
+      inline: true,
+    },
+    // Spec wording: el field se llama "mismatched" en task-44.md. Aquí
+    // mantenemos esa etiqueta para alinear la tarjeta Discord con la
+    // terminología acordada y añadimos entre paréntesis el término técnico
+    // que aparece en el log del auditor (`drift_real`) para que el on-call
+    // pueda hacer grep directo en logs sin traducir mentalmente.
+    { name: "Mismatched (drift real)", value: String(summary.driftReal), inline: true },
+    {
+      name: "Falta inyectar",
+      value: String(summary.needsInjection),
+      inline: true,
+    },
+    {
+      name: "Heurístico (informativo)",
+      value: String(summary.heuristicCandidate),
+      inline: true,
+    },
+    {
+      name: "Snapshot footprints",
+      value: `${summary.snapshotEntries} (${summary.snapshotConfirmed} match)`,
+      inline: true,
+    },
+    { name: "Exit code", value: String(exitCode), inline: true },
+  ];
+
+  notifyEvent({
+    type: "user_activity",
+    criticality: isClean ? "info" : "warning",
+    title,
+    description,
+    fields,
+    channel: "actividad",
+    origin: "scheduler/yearly-hook-audit",
+    // dedupKey en notifyEvent es defensa secundaria (TTL 5 min en memoria)
+    // — la idempotencia real cross-restart la garantiza el state file
+    // `data/yearly-hook-audit-state.json` chequeado al inicio de esta
+    // función. Para re-disparar el aviso del mismo año (p. ej. en QA),
+    // borrar el state file o bajar `lastCompletedYear` a < year.
+    dedupKey: `yearly_hooks_${year}`,
+  });
+
+  // Persist the durable guard ONLY after the audit ran AND we enqueued
+  // the Discord notification successfully. If we wrote it earlier, a crash
+  // between the audit and the notification would silently swallow the
+  // year. The order is: audit -> notify -> persist.
+  writeYearlyAuditState({
+    lastCompletedYear: year,
+    completedAt: new Date().toISOString(),
+    exitCode,
+  });
+
+  logger.info(
+    `[yearly-hook-audit] year=${year} exitCode=${exitCode} hooks=${summary.hooks} injected=${summary.injectedAndCurrent} drift=${summary.driftReal} needsInjection=${summary.needsInjection} staleYears=${summary.staleYearAnchors} elapsedMs=${elapsedMs}`,
+    "reports",
+  );
+}
+
 /**
  * Programa los reportes periódicos en el scheduler de la app.
  * Llamar una sola vez al arrancar; idempotente vía dedupKey.
  *
  * - Semanal: cada lunes 09:00 hora local server (con check de fecha real)
  * - Mensual: día 1 de cada mes 09:00 hora local server
+ * - Auditoría anual de cifras: 15 de enero 09:00 hora local server
  *
  * Internamente usa `setInterval` cada 1 hora y comprueba si toca enviar.
  * Robusto a reinicios: dedupKey por período impide duplicados aunque el
@@ -367,11 +628,58 @@ export async function generateAndSendPeriodReport(
 export function startPeriodicReportsScheduler(): NodeJS.Timeout {
   const HOUR_MS = 60 * 60 * 1000;
 
+  // QA override (Task #44 step 5): cuando `HOOK_AUDIT_FORCE=YYYY-MM-DD` está
+  // definida, el scheduler dispara la auditoría anual una sola vez por
+  // proceso usando esa fecha como `now`. Esto permite verificar la tarjeta
+  // Discord end-to-end sin esperar al 15 de enero. El flag se setea en el
+  // primer disparo para que sucesivos ticks no spammeen Discord (la dedupKey
+  // sólo cubre 5 min; el flag cubre toda la vida del proceso).
+  let forcedYearlyAuditFired = false;
+
   const tick = async () => {
-    const now = new Date();
-    const dow = now.getDay();         // 0 = domingo, 1 = lunes
-    const dom = now.getDate();        // día del mes
-    const hour = now.getHours();      // 0-23
+    const realNow = new Date();
+    const dow = realNow.getDay();         // 0 = domingo, 1 = lunes
+    const dom = realNow.getDate();        // día del mes
+    const month = realNow.getMonth();     // 0 = enero
+    const hour = realNow.getHours();      // 0-23
+
+    // Override QA: dispara la auditoría con la fecha forzada,
+    // independientemente de la hora real. Una sola vez por proceso.
+    let yearlyRanThisTick = false;
+    const forceISO = process.env.HOOK_AUDIT_FORCE;
+    if (forceISO && !forcedYearlyAuditFired) {
+      const forced = new Date(forceISO);
+      if (Number.isNaN(forced.getTime())) {
+        // Don't consume the one-shot on an invalid value: log and continue
+        // so an operator can fix the env var without restarting the
+        // process (the next tick will retry parsing). Code review caveat
+        // #2: el flag se setea sólo tras parseo exitoso.
+        logger.warn(
+          `[yearly-hook-audit] HOOK_AUDIT_FORCE='${forceISO}' is not a valid ISO date; ignoring override`,
+          "reports",
+        );
+      } else {
+        forcedYearlyAuditFired = true;
+        logger.info(
+          `[yearly-hook-audit] HOOK_AUDIT_FORCE override active -> running audit with forced date ${forced.toISOString()}`,
+          "reports",
+        );
+        try {
+          await runYearlyHookAudit(forced);
+          // Si la fecha real también es el 15 de enero a las 09:00, evitamos
+          // disparar la rama natural en el mismo tick (la dedupKey suprimiría
+          // la tarjeta Discord duplicada, pero seguiría duplicando el trabajo
+          // de la auditoría — caveat #1 del primer code review).
+          yearlyRanThisTick = true;
+        } catch (err) {
+          logger.error(
+            "[yearly-hook-audit] forced run failed (non-fatal)",
+            "reports",
+            err,
+          );
+        }
+      }
+    }
 
     // Solo en hora 9:00 (cualquier minuto, ejecuta una vez por hora)
     if (hour !== 9) return;
@@ -379,13 +687,18 @@ export function startPeriodicReportsScheduler(): NodeJS.Timeout {
     try {
       // Reporte semanal: lunes 09:00
       if (dow === 1) {
-        const range = lastCompletedWeekRange(now);
+        const range = lastCompletedWeekRange(realNow);
         await generateAndSendPeriodReport(range, "weekly");
       }
       // Reporte mensual: día 1 del mes 09:00 (también ejecuta el lunes si coincide)
       if (dom === 1) {
-        const range = lastCompletedMonthRange(now);
+        const range = lastCompletedMonthRange(realNow);
         await generateAndSendPeriodReport(range, "monthly");
+      }
+      // Auditoría anual de cifras (Task #44): 15 de enero 09:00.
+      // Skipped si el forzado ya corrió en este mismo tick.
+      if (month === 0 && dom === 15 && !yearlyRanThisTick) {
+        await runYearlyHookAudit(realNow);
       }
     } catch (err) {
       logger.error("[periodic-reports] scheduler tick failed (non-fatal)", "reports", err);
