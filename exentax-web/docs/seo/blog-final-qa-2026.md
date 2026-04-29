@@ -10,24 +10,29 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 
 | Lang | Presentes | Faltan | <3000c | em-dash | CTAs ≠2 | Links rotos | meta title KO | meta desc KO | Largo medio | Min | Max | Duplicados |
 |------|----------:|-------:|-------:|--------:|--------:|------------:|--------------:|-------------:|------------:|----:|----:|-----------:|
-| es | 112 | 0 | 0 | 24 | 96 | 0 | 0 | 0 | 24739 | 17560 | 37495 | 0 |
-| en | 112 | 0 | 0 | 89 | 78 | 0 | 0 | 0 | 24958 | 17395 | 40722 | 0 |
-| fr | 112 | 0 | 0 | 77 | 77 | 0 | 0 | 0 | 25728 | 18399 | 39483 | 0 |
-| de | 112 | 0 | 0 | 111 | 78 | 0 | 0 | 0 | 29269 | 20966 | 44706 | 0 |
-| pt | 112 | 0 | 0 | 84 | 79 | 0 | 0 | 0 | 24890 | 17609 | 38025 | 0 |
-| ca | 112 | 0 | 0 | 84 | 79 | 0 | 0 | 0 | 24800 | 17161 | 38016 | 0 |
+| es | 112 | 0 | 0 | 33 | 96 | 0 | 0 | 0 | 24790 | 17560 | 38025 | 0 |
+| en | 112 | 0 | 0 | 89 | 78 | 0 | 0 | 0 | 25009 | 17395 | 40722 | 0 |
+| fr | 112 | 0 | 0 | 79 | 77 | 0 | 0 | 0 | 25779 | 18399 | 39483 | 0 |
+| de | 112 | 0 | 0 | 111 | 78 | 0 | 0 | 0 | 29321 | 20966 | 45249 | 0 |
+| pt | 112 | 0 | 0 | 85 | 79 | 0 | 0 | 0 | 24941 | 17609 | 38552 | 0 |
+| ca | 112 | 0 | 0 | 85 | 79 | 0 | 0 | 0 | 24850 | 17161 | 38543 | 0 |
 
 ## 2. Em-dashes residuales
 
-### es (24)
+### es (33)
 - `boi-report-fincen-guia-completa-2026` — 2 ocurrencia(s)
 - `como-operar-llc-dia-a-dia` — 1 ocurrencia(s)
 - `criptomonedas-trading-llc-impuestos` — 4 ocurrencia(s)
 - `crs-2-0-carf-por-que-usa-no-firmara-llc` — 2 ocurrencia(s)
+- `crs-cuentas-bancarias-llc-intercambio-informacion` — 3 ocurrencia(s)
+- `crs-residentes-espana-latam-implicaciones` — 3 ocurrencia(s)
 - `cuanto-cuesta-constituir-llc` — 4 ocurrencia(s)
 - `cuenta-bancaria-mercury-llc-extranjero` — 2 ocurrencia(s)
+- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 3 ocurrencia(s)
 - `cuota-autonomo-2026` — 7 ocurrencia(s)
 - `cuotas-autonomos-2026-guia-completa` — 2 ocurrencia(s)
+- `dac7-plataformas-digitales-reporting-2026` — 3 ocurrencia(s)
+- `dac8-criptomonedas-reporting-fiscal-2026` — 3 ocurrencia(s)
 - `empresa-bulgaria-10-tributacion` — 7 ocurrencia(s)
 - `empresa-panama-fiscalidad-residencia` — 4 ocurrencia(s)
 - `empresa-reino-unido-uk-ltd` — 2 ocurrencia(s)
@@ -37,13 +42,17 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `gastos-deducibles-autonomos-2026` — 7 ocurrencia(s)
 - `holding-empresarial-como-funciona` — 46 ocurrencia(s)
 - `iva-intracomunitario-servicios-europa` — 7 ocurrencia(s)
+- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 3 ocurrencia(s)
 - `modulos-vs-estimacion-directa-2026` — 7 ocurrencia(s)
 - `que-es-irs-guia-duenos-llc` — 1 ocurrencia(s)
 - `retenciones-irpf-factura` — 12 ocurrencia(s)
+- `revolut-business-crs-reporting-fiscal` — 3 ocurrencia(s)
 - `sociedad-limitada-espana-costes-ventajas` — 13 ocurrencia(s)
 - `tramos-irpf-2026` — 12 ocurrencia(s)
-- `wise-business-crs-reporting-fiscal` — 10 ocurrencia(s)
+- `visa-mastercard-reporting-tarjetas-hacienda` — 3 ocurrencia(s)
+- `wise-business-crs-reporting-fiscal` — 13 ocurrencia(s)
 - `wise-business-llc-guia` — 12 ocurrencia(s)
+- `wise-iban-llc-que-reporta-hacienda` — 3 ocurrencia(s)
 
 ### en (89)
 - `auditoria-rapida-llc-12-puntos-30-minutos` — 3 ocurrencia(s)
@@ -60,13 +69,13 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `constituir-llc-proceso-paso-a-paso` — 2 ocurrencia(s)
 - `criptomonedas-trading-llc-impuestos` — 5 ocurrencia(s)
 - `crs-2-0-carf-por-que-usa-no-firmara-llc` — 5 ocurrencia(s)
-- `crs-cuentas-bancarias-llc-intercambio-informacion` — 3 ocurrencia(s)
-- `crs-residentes-espana-latam-implicaciones` — 4 ocurrencia(s)
+- `crs-cuentas-bancarias-llc-intercambio-informacion` — 6 ocurrencia(s)
+- `crs-residentes-espana-latam-implicaciones` — 7 ocurrencia(s)
 - `cuanto-cuesta-constituir-llc` — 8 ocurrencia(s)
-- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 7 ocurrencia(s)
+- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 10 ocurrencia(s)
 - `cuotas-autonomos-2026-guia-completa` — 3 ocurrencia(s)
-- `dac7-plataformas-digitales-reporting-2026` — 6 ocurrencia(s)
-- `dac8-criptomonedas-reporting-fiscal-2026` — 2 ocurrencia(s)
+- `dac7-plataformas-digitales-reporting-2026` — 9 ocurrencia(s)
+- `dac8-criptomonedas-reporting-fiscal-2026` — 5 ocurrencia(s)
 - `diferencia-llc-corporation-s-corp-c-corp` — 2 ocurrencia(s)
 - `diseno-estructura-fiscal-internacional-solida` — 1 ocurrencia(s)
 - `documentar-separacion-fondos-llc-historial` — 3 ocurrencia(s)
@@ -104,7 +113,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `llc-seguridad-juridica-proteccion-patrimonial` — 1 ocurrencia(s)
 - `llc-unica-estructura-holding-cuando-como-cuesta` — 4 ocurrencia(s)
 - `mantenimiento-anual-llc-obligaciones` — 2 ocurrencia(s)
-- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 4 ocurrencia(s)
+- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 7 ocurrencia(s)
 - `modulos-vs-estimacion-directa-2026` — 2 ocurrencia(s)
 - `nuevo-mexico-vs-wyoming-vs-delaware` — 1 ocurrencia(s)
 - `operating-agreement-llc-que-es` — 1 ocurrencia(s)
@@ -119,7 +128,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `reorganizar-banca-llc-mercury-relay-wise` — 1 ocurrencia(s)
 - `residentes-no-residentes-llc-diferencias` — 1 ocurrencia(s)
 - `retenciones-irpf-factura` — 5 ocurrencia(s)
-- `revolut-business-crs-reporting-fiscal` — 1 ocurrencia(s)
+- `revolut-business-crs-reporting-fiscal` — 4 ocurrencia(s)
 - `riesgos-fiscales-mala-estructuracion-internacional` — 6 ocurrencia(s)
 - `separar-dinero-personal-llc-por-que-importa` — 4 ocurrencia(s)
 - `single-member-multi-member-llc-implicaciones-fiscales` — 4 ocurrencia(s)
@@ -129,14 +138,14 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `tributacion-llc-segun-actividad-economica` — 4 ocurrencia(s)
 - `tributacion-pass-through-llc-como-funciona` — 1 ocurrencia(s)
 - `ventajas-desventajas-llc-no-residentes` — 1 ocurrencia(s)
-- `visa-mastercard-reporting-tarjetas-hacienda` — 4 ocurrencia(s)
+- `visa-mastercard-reporting-tarjetas-hacienda` — 7 ocurrencia(s)
 - `w8-ben-y-w8-ben-e-guia-completa` — 2 ocurrencia(s)
 - `wise-bancos-llc-stack-bancaria-completa` — 2 ocurrencia(s)
-- `wise-business-crs-reporting-fiscal` — 5 ocurrencia(s)
+- `wise-business-crs-reporting-fiscal` — 8 ocurrencia(s)
 - `wise-business-llc-guia` — 9 ocurrencia(s)
-- `wise-iban-llc-que-reporta-hacienda` — 1 ocurrencia(s)
+- `wise-iban-llc-que-reporta-hacienda` — 4 ocurrencia(s)
 
-### fr (77)
+### fr (79)
 - `auditoria-rapida-llc-12-puntos-30-minutos` — 3 ocurrencia(s)
 - `autonomo-espana-vs-llc-estados-unidos` — 2 ocurrencia(s)
 - `autonomos-espana-por-que-dejar-de-serlo` — 1 ocurrencia(s)
@@ -150,11 +159,13 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `convenio-doble-imposicion-usa-espana-llc` — 3 ocurrencia(s)
 - `criptomonedas-trading-llc-impuestos` — 5 ocurrencia(s)
 - `crs-2-0-carf-por-que-usa-no-firmara-llc` — 3 ocurrencia(s)
-- `crs-residentes-espana-latam-implicaciones` — 4 ocurrencia(s)
+- `crs-cuentas-bancarias-llc-intercambio-informacion` — 3 ocurrencia(s)
+- `crs-residentes-espana-latam-implicaciones` — 7 ocurrencia(s)
 - `cuanto-cuesta-constituir-llc` — 6 ocurrencia(s)
-- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 2 ocurrencia(s)
+- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 5 ocurrencia(s)
 - `cuotas-autonomos-2026-guia-completa` — 3 ocurrencia(s)
-- `dac8-criptomonedas-reporting-fiscal-2026` — 2 ocurrencia(s)
+- `dac7-plataformas-digitales-reporting-2026` — 3 ocurrencia(s)
+- `dac8-criptomonedas-reporting-fiscal-2026` — 5 ocurrencia(s)
 - `diferencia-llc-corporation-s-corp-c-corp` — 3 ocurrencia(s)
 - `diseno-estructura-fiscal-internacional-solida` — 2 ocurrencia(s)
 - `documentar-separacion-fondos-llc-historial` — 1 ocurrencia(s)
@@ -185,7 +196,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `llc-interactive-brokers-invertir-bolsa-usa` — 1 ocurrencia(s)
 - `llc-seguridad-juridica-proteccion-patrimonial` — 1 ocurrencia(s)
 - `mantenimiento-anual-llc-obligaciones` — 1 ocurrencia(s)
-- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 3 ocurrencia(s)
+- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 6 ocurrencia(s)
 - `nomada-digital-residencia-fiscal` — 1 ocurrencia(s)
 - `nuevo-mexico-vs-wyoming-vs-delaware` — 2 ocurrencia(s)
 - `pagar-cero-impuestos-legalmente-llc` — 1 ocurrencia(s)
@@ -200,7 +211,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `recuperar-llc-boi-5472-atrasados-procedimiento` — 3 ocurrencia(s)
 - `reorganizar-banca-llc-mercury-relay-wise` — 1 ocurrencia(s)
 - `retenciones-irpf-factura` — 5 ocurrencia(s)
-- `revolut-business-crs-reporting-fiscal` — 1 ocurrencia(s)
+- `revolut-business-crs-reporting-fiscal` — 4 ocurrencia(s)
 - `separar-dinero-personal-llc-por-que-importa` — 2 ocurrencia(s)
 - `single-member-multi-member-llc-implicaciones-fiscales` — 9 ocurrencia(s)
 - `sociedad-limitada-espana-costes-ventajas` — 3 ocurrencia(s)
@@ -208,12 +219,12 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `testaferros-prestanombres-llc-ilegal-riesgos` — 4 ocurrencia(s)
 - `tributacion-pass-through-llc-como-funciona` — 1 ocurrencia(s)
 - `ventajas-desventajas-llc-no-residentes` — 1 ocurrencia(s)
-- `visa-mastercard-reporting-tarjetas-hacienda` — 2 ocurrencia(s)
+- `visa-mastercard-reporting-tarjetas-hacienda` — 5 ocurrencia(s)
 - `w8-ben-y-w8-ben-e-guia-completa` — 1 ocurrencia(s)
 - `wise-bancos-llc-stack-bancaria-completa` — 4 ocurrencia(s)
-- `wise-business-crs-reporting-fiscal` — 5 ocurrencia(s)
+- `wise-business-crs-reporting-fiscal` — 8 ocurrencia(s)
 - `wise-business-llc-guia` — 6 ocurrencia(s)
-- `wise-iban-llc-que-reporta-hacienda` — 1 ocurrencia(s)
+- `wise-iban-llc-que-reporta-hacienda` — 4 ocurrencia(s)
 
 ### de (111)
 - `amazon-ecommerce-llc-vender-online` — 3 ocurrencia(s)
@@ -235,14 +246,14 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `crear-empresa-andorra-ventajas` — 3 ocurrencia(s)
 - `criptomonedas-trading-llc-impuestos` — 8 ocurrencia(s)
 - `crs-2-0-carf-por-que-usa-no-firmara-llc` — 10 ocurrencia(s)
-- `crs-cuentas-bancarias-llc-intercambio-informacion` — 7 ocurrencia(s)
-- `crs-residentes-espana-latam-implicaciones` — 5 ocurrencia(s)
+- `crs-cuentas-bancarias-llc-intercambio-informacion` — 10 ocurrencia(s)
+- `crs-residentes-espana-latam-implicaciones` — 8 ocurrencia(s)
 - `cuanto-cuesta-constituir-llc` — 13 ocurrencia(s)
 - `cuenta-bancaria-mercury-llc-extranjero` — 3 ocurrencia(s)
-- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 5 ocurrencia(s)
+- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 8 ocurrencia(s)
 - `cuotas-autonomos-2026-guia-completa` — 5 ocurrencia(s)
-- `dac7-plataformas-digitales-reporting-2026` — 3 ocurrencia(s)
-- `dac8-criptomonedas-reporting-fiscal-2026` — 5 ocurrencia(s)
+- `dac7-plataformas-digitales-reporting-2026` — 6 ocurrencia(s)
+- `dac8-criptomonedas-reporting-fiscal-2026` — 8 ocurrencia(s)
 - `diferencia-llc-corporation-s-corp-c-corp` — 6 ocurrencia(s)
 - `diseno-estructura-fiscal-internacional-solida` — 5 ocurrencia(s)
 - `documentar-separacion-fondos-llc-historial` — 5 ocurrencia(s)
@@ -288,7 +299,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `llc-seguridad-juridica-proteccion-patrimonial` — 5 ocurrencia(s)
 - `llc-unica-estructura-holding-cuando-como-cuesta` — 6 ocurrencia(s)
 - `mantenimiento-anual-llc-obligaciones` — 1 ocurrencia(s)
-- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 17 ocurrencia(s)
+- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 20 ocurrencia(s)
 - `modulos-vs-estimacion-directa-2026` — 4 ocurrencia(s)
 - `nomada-digital-residencia-fiscal` — 8 ocurrencia(s)
 - `nuevo-mexico-vs-wyoming-vs-delaware` — 3 ocurrencia(s)
@@ -308,7 +319,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `reorganizar-banca-llc-mercury-relay-wise` — 4 ocurrencia(s)
 - `residentes-no-residentes-llc-diferencias` — 2 ocurrencia(s)
 - `retenciones-irpf-factura` — 7 ocurrencia(s)
-- `revolut-business-crs-reporting-fiscal` — 7 ocurrencia(s)
+- `revolut-business-crs-reporting-fiscal` — 10 ocurrencia(s)
 - `riesgos-fiscales-mala-estructuracion-internacional` — 4 ocurrencia(s)
 - `separar-dinero-personal-llc-por-que-importa` — 4 ocurrencia(s)
 - `single-member-multi-member-llc-implicaciones-fiscales` — 14 ocurrencia(s)
@@ -321,14 +332,14 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `tributacion-pass-through-llc-como-funciona` — 5 ocurrencia(s)
 - `vender-o-cerrar-llc-comparativa-practica` — 5 ocurrencia(s)
 - `ventajas-desventajas-llc-no-residentes` — 1 ocurrencia(s)
-- `visa-mastercard-reporting-tarjetas-hacienda` — 11 ocurrencia(s)
+- `visa-mastercard-reporting-tarjetas-hacienda` — 14 ocurrencia(s)
 - `w8-ben-y-w8-ben-e-guia-completa` — 2 ocurrencia(s)
 - `wise-bancos-llc-stack-bancaria-completa` — 12 ocurrencia(s)
-- `wise-business-crs-reporting-fiscal` — 8 ocurrencia(s)
+- `wise-business-crs-reporting-fiscal` — 11 ocurrencia(s)
 - `wise-business-llc-guia` — 11 ocurrencia(s)
-- `wise-iban-llc-que-reporta-hacienda` — 8 ocurrencia(s)
+- `wise-iban-llc-que-reporta-hacienda` — 11 ocurrencia(s)
 
-### pt (84)
+### pt (85)
 - `auditoria-rapida-llc-12-puntos-30-minutos` — 1 ocurrencia(s)
 - `autonomo-espana-vs-llc-estados-unidos` — 3 ocurrencia(s)
 - `boe-febrero-2020-llc-doctrina-administrativa` — 7 ocurrencia(s)
@@ -343,15 +354,15 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `convenio-doble-imposicion-usa-espana-llc` — 6 ocurrencia(s)
 - `criptomonedas-trading-llc-impuestos` — 6 ocurrencia(s)
 - `crs-2-0-carf-por-que-usa-no-firmara-llc` — 4 ocurrencia(s)
-- `crs-cuentas-bancarias-llc-intercambio-informacion` — 2 ocurrencia(s)
-- `crs-residentes-espana-latam-implicaciones` — 5 ocurrencia(s)
+- `crs-cuentas-bancarias-llc-intercambio-informacion` — 5 ocurrencia(s)
+- `crs-residentes-espana-latam-implicaciones` — 8 ocurrencia(s)
 - `cuanto-cuesta-constituir-llc` — 14 ocurrencia(s)
 - `cuenta-bancaria-mercury-llc-extranjero` — 2 ocurrencia(s)
-- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 4 ocurrencia(s)
+- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 7 ocurrencia(s)
 - `cuota-autonomo-2026` — 1 ocurrencia(s)
 - `cuotas-autonomos-2026-guia-completa` — 3 ocurrencia(s)
-- `dac7-plataformas-digitales-reporting-2026` — 1 ocurrencia(s)
-- `dac8-criptomonedas-reporting-fiscal-2026` — 2 ocurrencia(s)
+- `dac7-plataformas-digitales-reporting-2026` — 4 ocurrencia(s)
+- `dac8-criptomonedas-reporting-fiscal-2026` — 5 ocurrencia(s)
 - `diferencia-llc-corporation-s-corp-c-corp` — 6 ocurrencia(s)
 - `diseno-estructura-fiscal-internacional-solida` — 3 ocurrencia(s)
 - `documentar-separacion-fondos-llc-historial` — 3 ocurrencia(s)
@@ -385,7 +396,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `llc-interactive-brokers-invertir-bolsa-usa` — 2 ocurrencia(s)
 - `llc-seguridad-juridica-proteccion-patrimonial` — 2 ocurrencia(s)
 - `mantenimiento-anual-llc-obligaciones` — 3 ocurrencia(s)
-- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 7 ocurrencia(s)
+- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 10 ocurrencia(s)
 - `nomada-digital-residencia-fiscal` — 2 ocurrencia(s)
 - `nuevo-mexico-vs-wyoming-vs-delaware` — 1 ocurrencia(s)
 - `pasarelas-pago-llc-stripe-paypal-dodo` — 1 ocurrencia(s)
@@ -400,7 +411,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `reorganizar-banca-llc-mercury-relay-wise` — 1 ocurrencia(s)
 - `residentes-no-residentes-llc-diferencias` — 1 ocurrencia(s)
 - `retenciones-irpf-factura` — 5 ocurrencia(s)
-- `revolut-business-crs-reporting-fiscal` — 2 ocurrencia(s)
+- `revolut-business-crs-reporting-fiscal` — 5 ocurrencia(s)
 - `riesgos-fiscales-mala-estructuracion-internacional` — 2 ocurrencia(s)
 - `single-member-multi-member-llc-implicaciones-fiscales` — 11 ocurrencia(s)
 - `sociedad-limitada-espana-costes-ventajas` — 3 ocurrencia(s)
@@ -408,13 +419,14 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `tiempos-pagos-ach-wire-transfer` — 2 ocurrencia(s)
 - `tramos-irpf-2026` — 2 ocurrencia(s)
 - `vender-o-cerrar-llc-comparativa-practica` — 1 ocurrencia(s)
-- `visa-mastercard-reporting-tarjetas-hacienda` — 4 ocurrencia(s)
+- `visa-mastercard-reporting-tarjetas-hacienda` — 7 ocurrencia(s)
 - `w8-ben-y-w8-ben-e-guia-completa` — 2 ocurrencia(s)
 - `wise-bancos-llc-stack-bancaria-completa` — 7 ocurrencia(s)
-- `wise-business-crs-reporting-fiscal` — 6 ocurrencia(s)
+- `wise-business-crs-reporting-fiscal` — 9 ocurrencia(s)
 - `wise-business-llc-guia` — 8 ocurrencia(s)
+- `wise-iban-llc-que-reporta-hacienda` — 3 ocurrencia(s)
 
-### ca (84)
+### ca (85)
 - `auditoria-rapida-llc-12-puntos-30-minutos` — 2 ocurrencia(s)
 - `autonomo-espana-vs-llc-estados-unidos` — 1 ocurrencia(s)
 - `autonomos-espana-por-que-dejar-de-serlo` — 1 ocurrencia(s)
@@ -429,15 +441,15 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `convenio-doble-imposicion-usa-espana-llc` — 4 ocurrencia(s)
 - `criptomonedas-trading-llc-impuestos` — 5 ocurrencia(s)
 - `crs-2-0-carf-por-que-usa-no-firmara-llc` — 5 ocurrencia(s)
-- `crs-cuentas-bancarias-llc-intercambio-informacion` — 2 ocurrencia(s)
-- `crs-residentes-espana-latam-implicaciones` — 5 ocurrencia(s)
+- `crs-cuentas-bancarias-llc-intercambio-informacion` — 5 ocurrencia(s)
+- `crs-residentes-espana-latam-implicaciones` — 8 ocurrencia(s)
 - `cuanto-cuesta-constituir-llc` — 9 ocurrencia(s)
 - `cuenta-bancaria-mercury-llc-extranjero` — 1 ocurrencia(s)
-- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 4 ocurrencia(s)
+- `cuentas-bancarias-usa-reportan-hacienda-verdad` — 7 ocurrencia(s)
 - `cuota-autonomo-2026` — 1 ocurrencia(s)
 - `cuotas-autonomos-2026-guia-completa` — 3 ocurrencia(s)
-- `dac7-plataformas-digitales-reporting-2026` — 1 ocurrencia(s)
-- `dac8-criptomonedas-reporting-fiscal-2026` — 2 ocurrencia(s)
+- `dac7-plataformas-digitales-reporting-2026` — 4 ocurrencia(s)
+- `dac8-criptomonedas-reporting-fiscal-2026` — 5 ocurrencia(s)
 - `diferencia-llc-corporation-s-corp-c-corp` — 1 ocurrencia(s)
 - `diseno-estructura-fiscal-internacional-solida` — 3 ocurrencia(s)
 - `documentar-separacion-fondos-llc-historial` — 2 ocurrencia(s)
@@ -470,7 +482,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `llc-interactive-brokers-invertir-bolsa-usa` — 1 ocurrencia(s)
 - `llc-unica-estructura-holding-cuando-como-cuesta` — 1 ocurrencia(s)
 - `mantenimiento-anual-llc-obligaciones` — 3 ocurrencia(s)
-- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 9 ocurrencia(s)
+- `modelo-720-721-residentes-espana-cuentas-cripto-extranjero` — 12 ocurrencia(s)
 - `nomada-digital-residencia-fiscal` — 2 ocurrencia(s)
 - `nuevo-mexico-vs-wyoming-vs-delaware` — 1 ocurrencia(s)
 - `operating-agreement-llc-que-es` — 1 ocurrencia(s)
@@ -485,7 +497,7 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `recuperar-llc-boi-5472-atrasados-procedimiento` — 3 ocurrencia(s)
 - `reorganizar-banca-llc-mercury-relay-wise` — 2 ocurrencia(s)
 - `retenciones-irpf-factura` — 6 ocurrencia(s)
-- `revolut-business-crs-reporting-fiscal` — 5 ocurrencia(s)
+- `revolut-business-crs-reporting-fiscal` — 8 ocurrencia(s)
 - `riesgos-fiscales-mala-estructuracion-internacional` — 2 ocurrencia(s)
 - `separar-dinero-personal-llc-por-que-importa` — 1 ocurrencia(s)
 - `single-member-multi-member-llc-implicaciones-fiscales` — 11 ocurrencia(s)
@@ -494,11 +506,12 @@ Umbrales: longitud ≥ 3000 caracteres · em-dashes = 0 · CTAs = 2 (link a `/{l
 - `testaferros-prestanombres-llc-ilegal-riesgos` — 3 ocurrencia(s)
 - `tramos-irpf-2026` — 2 ocurrencia(s)
 - `vender-o-cerrar-llc-comparativa-practica` — 1 ocurrencia(s)
-- `visa-mastercard-reporting-tarjetas-hacienda` — 2 ocurrencia(s)
+- `visa-mastercard-reporting-tarjetas-hacienda` — 5 ocurrencia(s)
 - `w8-ben-y-w8-ben-e-guia-completa` — 2 ocurrencia(s)
 - `wise-bancos-llc-stack-bancaria-completa` — 5 ocurrencia(s)
-- `wise-business-crs-reporting-fiscal` — 6 ocurrencia(s)
+- `wise-business-crs-reporting-fiscal` — 9 ocurrencia(s)
 - `wise-business-llc-guia` — 7 ocurrencia(s)
+- `wise-iban-llc-que-reporta-hacienda` — 3 ocurrencia(s)
 
 
 ## 3. Longitud < 3000 caracteres
@@ -572,18 +585,18 @@ Cero pares con solapamiento > 70 % en los 6 idiomas. ✔
 
 ## 9. Fuentes externas citadas
 
-709 URLs únicas referenciadas a través del blog.
+715 URLs únicas referenciadas a través del blog.
 
 | Dominio | Citas |
 |---------|------:|
 | wa.me | 667 |
-| boe.es | 8 |
-| eur-lex.europa.eu | 6 |
-| irs.gov | 3 |
+| boe.es | 10 |
+| eur-lex.europa.eu | 7 |
+| irs.gov | 4 |
+| oecd.org | 4 |
 | petete.tributos.hacienda.gob.es | 2 |
 | sede.agenciatributaria.gob.es | 2 |
 | fincen.gov | 2 |
-| oecd.org | 2 |
 | seg-social.es | 2 |
 | atc.gencat.cat | 1 |
 | bofip.impots.gouv.fr | 1 |
