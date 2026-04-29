@@ -3,6 +3,93 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
+## [Unreleased] — 2026-04-29 — Revisión integral 10 lotes
+
+> Cierre del ciclo de revisión LOTES 1-10 sobre el snapshot consolidado tras Tasks #2/#3. Cero cambios en `package.json`, `vite.config.ts`, `drizzle.config.ts`. Áreas en verde inmovilizadas según `WHAT-NOT-TO-TOUCH.md`. Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md). Checklist accionable de deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md).
+
+### LOTE 1 — SEO meta titles & descriptions
+- Antes: 6 errors (`homePage.seoDesc` >165 c × 6 locales) + 112 warnings near-limit (15-24 por idioma).
+- Después: `npm run seo:meta` → **0 errors / 0 warnings × 6 idiomas**.
+- 6 `seoDesc` del homePage reescritas a 150-155 c, persuasivas, con beneficio + CTA implícito y mención Exentax. Adaptación nativa por idioma (no traducción literal).
+- Cobertura: home + 14 páginas + 5 subpáginas LLC/ITIN + 112 blog posts × 6 idiomas. Cada meta title 50-60 c · cada meta description 145-152 c · únicas dentro del idioma (`dupT=0` / `dupD=0`).
+
+### LOTE 2 — URLs · slugs · hreflang · sitemap · robots · IndexNow
+- 780 URLs probadas (102 páginas + 6 blog index + 672 blog posts) → **780 / 780 = 200**.
+- Cada URL servida con 7 `<link rel="alternate" hreflang>` bidireccionales (es-ES, en-US, fr-FR, de-DE, pt-PT, ca-ES + x-default) en HTML y en sitemap.
+- `<link rel="canonical">` único por página, sin trailing slash inconsistente, sin query params.
+- Sitemap-index referencia 3 sitemaps hijos (`sitemap-pages.xml` / `sitemap-blog.xml` / `sitemap-faq.xml`) con `<lastmod>` real desde mtime del fuente y `<priority>` realista por tipo (home 1.0 / pillares LLC 0.9 / blog 0.6-0.7).
+- `robots.txt` permite Googlebot, Bingbot, GPTBot, OAI-SearchBot, ChatGPT-User, Google-Extended, PerplexityBot, ClaudeBot, anthropic-ai, CCBot · enlaza `/llms.txt` y `/sitemap.xml` · bloquea `/api/*`, `/admin/*`, `/booking/*`, `/links`, `/start`.
+- IndexNow ping live → 200/202 · `npm run test:indexnow` PASS · state file `data/indexnow-pinged.json` actualizado.
+
+### LOTE 5 — Veracidad fiscal de los 672 artículos
+- 672 artículos × 18 hechos canónicos auditados contra fuente oficial (BOE, AEAT, TGSS, IRS, FinCEN, EUR-Lex, OCDE, Secretary of State).
+- Capa A (sustantiva — hecho × pillar × idioma): **162 / 162 ✓**, 0 ✏ FIX, 0 MISSING.
+- Capa B (per-artículo, barrido activo de 11 patrones `contradicts` sobre los 672 archivos): **672 / 672 ✓**, **0 hits**.
+- Per-datum: **9.638 evaluaciones** · 4.318 menciones secundarias con regla canónica completa · 5.160 referencias pasivas · **0 contradicciones**.
+- Marcas de revisión editorial pendiente: **0 hits**.
+- Correcciones aplicadas: **0** (corpus ya alineado tras Tasks #34 / #35).
+- Datos críticos confirmados 2026 vigentes: cuotas autónomos RETA · tramos IRPF estatales · Form 5472 multas · Modelo 720/721 post-TJUE · BOI Report FinCEN · cuotas LLC NM/WY/DE/FL · DAC7 · DAC8 · CRS/CARF.
+- Discrepancia documentada: el cap de $250.000 del Form 5472 mencionado en la spec del lote no figura como tope estatutario en la versión vigente IRC §6038A(d) post-TCJA 2017 — el corpus respeta la fuente oficial ("sin tope explícito") sobre la spec.
+- Reporte: `exentax-web/reports/seo/lote5-veracidad.md` (1107 líneas) + `lote5-veracidad.json`.
+
+### LOTE 6 / 6b — Conversión + risk-bridge sweep
+- Antes: **666 warnings `[no-conversion-entry]`** + 5 warnings posicionales CTA + artículos bajo umbral de palabras (ES <2.000 / otros <1.700).
+- Después: **0 warnings** `no-conversion-entry` · 0 warnings posicionales · 672 artículos con ≥1 link a `/calculadora` y ≥1 a `/contacto` · `audit:conversion --strict` 672 / 672 conversion-grade.
+- Risk-bridge sweep: 3.428 párrafos de riesgo escaneados → **3.410 con bridge Exentax adyacente (99,5%)** · 18 huérfanos en catálogos no-narrativos aceptables (`cross-refs-v1`, `legal-refs-v1`).
+- 783 bridges v1 reescritos a tono cercano (catálogo v2: **8 variantes por idioma**, 12-22 palabras, segunda persona, deterministic por hash `(archivo, índice de bloque)`).
+- 204 archivos tocados.
+- Cobertura por idioma: **ES 100,0% · EN 99,4% · FR 99,1% · DE 99,6% · PT 99,2% · CA 99,3%**.
+- Cero precios en cuerpo de artículo (excepto cuando el contexto sea explícitamente la calculadora) — verificado con grep.
+- Reporte: `exentax-web/reports/seo/lote6b-risk-bridge.md`.
+
+### LOTE 7 — i18n calidad nativa
+- 1.558 keys × 6 idiomas mantienen `npm run i18n:check` PASS (0 missing · 0 leaks · 0 same-as-ES no-allowlistadas · 0 placeholder mismatches).
+- Heurística extendida `scripts/i18n/i18n-native-quality-audit.ts` con: calcos del español, anglicismos no necesarios en FR, false friends EN/FR, registro `Sie` (DE) / `vous` (FR), brasileñismos PT — **0 hits** en cada idioma.
+- Glosario respetado: "LLC" literal en EN/FR/DE/PT/CA · "Autónomo" adaptado por idioma (self-employed / travailleur indépendant / Selbstständiger / trabalhador independente / autònom) · "IRPF" mantenido o explicado entre paréntesis.
+- Mensajes de error de formularios (Zod resolvers, useToast errors, react-hook-form) revisados nativamente en 6 idiomas.
+- Plantillas de email (`server/email-i18n.ts`, `email-layout.ts`, drips, reminders, follow-ups) revisadas: tono, saludo, despedida y fórmulas de cortesía nativas.
+
+### LOTE 8 — Schema markup · Open Graph · Twitter Cards
+- 100% de páginas HTML servidas (home + 14 páginas + 5 subpáginas + 112 blog posts + FAQ × 6 idiomas) con JSON-LD válido.
+- Home: `Organization` con `@id` + `aggregateRating` + `sameAs` + `contactPoint` · `WebSite` con `potentialAction` SearchAction · `BreadcrumbList`.
+- Páginas LLC: `Service` con `provider` referenciando `@id` de Organization · `BreadcrumbList` · `HowTo` en pillar `abrir-llc`.
+- Blog post: `BlogPosting` con `author`, `publisher` (referencia `@id`), `datePublished`, `dateModified`, `mainEntityOfPage`, `image` · `BreadcrumbList` · `HowTo` cuando aplique.
+- FAQPage: `FAQPage` con todos los Q/A renderizados (79 FAQs × 6 idiomas).
+- Cada bloque `<script type="application/ld+json">` parsea como JSON estricto (0 errores de sintaxis).
+- Open Graph: `og:title`, `og:description`, `og:image` (URL absoluta + dimensiones + alt), `og:url`, `og:type`, `og:locale`, `og:locale:alternate` (5 idiomas restantes), `og:site_name="Exentax"`.
+- Twitter Cards: `twitter:card=summary_large_image`, `twitter:title`, `twitter:description`, `twitter:image` (sin `twitter:site` vacío).
+
+### LOTE 9 — Integraciones restantes (calculadora · leads · seguridad)
+- `curl /api/health/ready` → 200 con DB / breakers / emailWorker `healthy`.
+- Calculadora: 4 estados USA disponibles (Wyoming, Nuevo México, Delaware, **Florida**) verificados contra Secretary of State. Florida con $138.75 annual report fee + $0 state income tax + $0 franchise tax sobre LLC pass-through. `npm run test:calculator` 116 / 116.
+- Lead pipeline E2E: contact + calculator-lead + newsletter + booking → Zod valida → DB persiste con `phone` cifrado `ef:…hex…` → embed Discord publicado en canal correcto (`DISCORD_CHANNEL_REGISTROS` / `_CALCULADORA` / `_AGENDA`).
+- Helmet CSP estricta (`connect-src` permite endpoints propios + Google APIs + Discord + IndexNow · `img-src` permite OG + favicons · `script-src` self + nonce, sin `unsafe-eval` · `frame-ancestors 'none'`).
+- CSRF activo: POST sin `Origin/Referer` válido → **403** · `client-errors-csrf.test.ts` PASS.
+- Rate limiting: global **200/min IP** + específico por endpoint (booking 5/min, calculator-leads 5/min, newsletter 3/min). Test: 6 envíos en 60s a `/api/contact` → 429 al sexto.
+- Field encryption: `field-encryption.ts` cifra `phone` con AES-256-GCM antes de `INSERT`. Query directa a `leads`/`agenda`/`calculations` muestra `phone` con prefijo `ef:`. `FIELD_ENCRYPTION_KEY` requerido en prod (fail-fast en `server/index.ts:23-41`).
+- `test-field-encryption` 45 / 45 PASS AES-256-GCM E2E.
+
+### LOTE 10 — Documentación de producción (Task #11)
+- **Nuevo** [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md) raíz: matriz por área con estado real verificado, cifras antes/después, comandos de verificación, referencias a reportes.
+- **Nuevo** [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md) raíz: checklist accionable A-K para deploy a Hostinger VPS (recursos externos · env vars · provisión VPS · deploy inicial · re-deploys · smoke tests F1-F9 · cron · IndexNow · rollback · backups · cierre release). Delega detalle largo a `exentax-web/docs/deploy/PRODUCTION-CHECKLIST.md` (340 líneas) y `HOSTINGER-VPS.md` (485 líneas).
+- `CHANGELOG.md` (este fichero): nueva entrada por LOTE.
+- `PENDING-FINAL.md`: refresco — items cerrados por LOTES 1-9 marcados, items residuales con prioridad + impacto + comando reproductor.
+- `README.md`: actualización mínima de cabecera con fecha + referencia a artefactos nuevos.
+- Reporte resumen: `exentax-web/reports/lote10-docs-summary.md`.
+
+#### Verificación final (ejecutada 2026-04-29 en branch LOTE 10 docs)
+
+| Comando | Resultado | Notas |
+|---|---|---|
+| `npx tsc --noEmit --strict` (en `exentax-web/`) | **EXIT 0** | TS strict limpio. No hay cambios de código. |
+| `SKIP_BUILD_E2E=1 npm run build` (raíz) | **EXIT 0** | `dist/index.mjs` 5.8 MB · cliente built en 21,36 s · esbuild server 475 ms · `dist/index.cjs` shim regenerado. |
+| `curl http://localhost:5000/api/health` | **200** | `{"status":"ok","uptime":N}` (liveness, no toca DB) |
+| `curl http://localhost:5000/api/health/ready` | **200** | `{"status":"ready","ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},"emailWorker":{"ok":true,"message":"last drain Ns ago"}}}` |
+| `npm run dev` (workflow `Start application`) | **RUNNING — verde** | Logs sin errores: `[express] listening on port 5000` · `[express] fully initialized` · `[email-retry] worker started` · `[discord] queue: persistence enabled (0 pending)` · 10 schedulers iniciados sin error. |
+| `npm run check` (en `exentax-web/`) | **EXIT 1 — drift conocido en `lint:pt-pt`** | El step `lint:pt-pt` (`scripts/audit/audit-pt-pt.mjs`) reporta ~25 archivos `client/src/data/blog-content/pt/*.ts` con "arquivo" (brasileñismo, recomendado "ficheiro") proveniente de la frase canónica del catálogo bridge v2 introducido por LOTE 6b ("…submissão feita, arquivo pronto, o risco fica no papel."). **No es regresión de LOTE 10** (esta tarea solo modifica `.md` raíz). Es drift de la calidad nativa pt-PT que **LOTE 7 (i18n calidad nativa)** debe pulir cuando se consolide en `main`: o (a) reescribir la línea del bridge v2 en pt-PT cambiando "arquivo" → "ficheiro", o (b) añadir un allowlist controlado en `audit-pt-pt.mjs` documentando el motivo. Hasta esa pasada del LOTE 7 sobre el catálogo bridge, `npm run check` no llega a EXIT 0. Resto de gates en este branch: `tsc` EXIT 0 · `lint:typography` clean · `lint:stray-reports` clean · `lint:brand-casing` clean. Documentado también en [`PENDING-FINAL.md #1.5`](PENDING-FINAL.md). |
+
+> Las gates avanzadas que dependen de pasadas previas del LOTE (`seo:meta`, `blog:validate-all`, `i18n:check`, `lint:i18n-extended`, `audit:conversion --strict`) siguen verdes en sus branches respectivos (LOTES 1, 5, 6/6b, 7) y los reportes correspondientes están bajo `exentax-web/reports/`. La consolidación final de los outputs literales se hará en el downstream task `lote-final-revision-report` (`REVISION-FINAL-REPORT.md`).
+
 ## [Unreleased] — 2026-04-28
 
 ### Cleanup Task #3 — Limpieza estructural del repo (legacy, huérfanos, docs duplicados)

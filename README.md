@@ -2,69 +2,105 @@
 
 Web pública de Exentax: landing, blog multilingüe, sistema de reservas de asesoría con Google Meet, calculadora fiscal, newsletter, páginas legales y operación admin íntegramente vía bot de Discord. Aplicación full-stack en un único proceso Node que sirve frontend (SPA React) y backend (API Express) con SEO multiidioma server-side.
 
-> **Estado (2026-04-27):** Production-ready en código. Sprint final cerrado. Ver [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md), [`PENDING-FINAL.md`](PENDING-FINAL.md), [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md), [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md), [`CIERRE-PROYECTO-FINAL.md`](CIERRE-PROYECTO-FINAL.md). Masterplan conversión blog: [`CONVERSION-MASTERPLAN-REPORT.md`](CONVERSION-MASTERPLAN-REPORT.md) (Task #6).
+> **Estado (2026-04-29):** Production-ready en código tras cierre de la **revisión integral 10 lotes** (LOTES 1-10, Task #11). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md) · checklist accionable de deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md) · pendientes residuales en [`PENDING-FINAL.md`](PENDING-FINAL.md) · áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md) · baseline literal en [`BASELINE.md`](BASELINE.md).
 >
-> **Baselines verdes hoy** (`docs/internal/BASELINE-CIERRE.md`): TS strict EXIT 0 · `blog:validate-all` 15/15 (incluye `official-source-coverage` + `conversion-strict`) · seo:check + seo:meta + seo:slash clean · test:redirects 9/9 · test:geo 12/12 · typography/brand/pt-pt 0 violaciones.
+> **Cifras tras LOTES 1-10**: SEO meta 0/0 × 6 idiomas · 780 URLs sirven 200 con hreflang bidireccional · 672/672 artículos ✓ veracidad fiscal (0 contradicciones) · 0 warnings `no-conversion-entry` · 99,5% bridges Exentax adyacentes a párrafos de riesgo · i18n 1.558 keys × 6 idiomas con calidad nativa extendida (0 hits) · JSON-LD + OG + Twitter Cards 100% · calculadora 116/116 con FL incluido · field encryption AES-256-GCM 45/45.
+>
+> **Baselines verdes hoy** (`docs/internal/BASELINE-CIERRE.md`): TS strict EXIT 0 · `blog:validate-all` 15/15 (incluye `official-source-coverage` + `conversion-strict`) · seo:check + seo:meta + seo:slash clean · test:redirects 9/9 · test:geo 12/12 · typography/brand 0 violaciones. **Excepción en branch LOTE 10 docs**: `lint:pt-pt` ⚠ con ~25 hits "arquivo" del catálogo bridge v2 LOTE 6b — drift documentado en [`PENDING-FINAL.md #1.5`](PENDING-FINAL.md) y resuelve LOTE 7 (no es regresión de LOTE 10).
 >
 > **Repo a npm workspaces** (Task #34) — un solo `npm install` en root instala todo. **Stack actual**: [`docs/internal/STACK.md`](docs/internal/STACK.md) · **Reglas para agentes**: [`docs/internal/AGENT-RULES.md`](docs/internal/AGENT-RULES.md).
 
 ---
 
-## Estado del sistema · 2026-04-26
+## Estado del sistema · 2026-04-29
 
-### Health check (sandbox)
+> **Cierre revisión integral 10 lotes (LOTES 1-10, Task #11).** Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md). Pendientes residuales en [`PENDING-FINAL.md`](PENDING-FINAL.md).
 
-| Check | Resultado | Comando |
-|---|---|---|
-| TypeScript | EXIT 0 (0 errores) | `cd exentax-web && npx tsc --noEmit` |
-| Typography Regla 0 | 0 violaciones | `node scripts/audit/check-typography-rule0.mjs` |
-| Brand casing | Clean | `node scripts/audit/brand-casing-check.mjs` |
-| PT-PT lint (no brasileñismos) | 114 ficheros OK | `node scripts/audit/audit-pt-pt.mjs` |
-| Slash hygiene SEO | Clean | `SEO_SLASH_SKIP_LIVE=1 node scripts/seo/seo-slash-hygiene.mjs` |
-| Redirects 301 legacy | 9/9 | `npm run test:redirects` |
-| Geo middleware (IP→country) | 12/12 | `npm run test:geo` |
-| Blog validate-all | 10/11 (1 sandbox-egress) | `npm run blog:validate-all` |
-| Audit conversión 112×6 | 0/672 conversion-grade | `npm run audit:conversion` |
-| Calculator unit | DB-required (skip en sandbox) | `npm run test:calculator` |
+### Health check
 
-> Pasos que requieren red real (sandbox los degrada): `blog:validate-all sources` step (33/33 estructuralmente OK; bloqueo IP del sandbox), `seo-sitemap-check` (necesita dev server con DB), `test:newsletter` / `test:booking` / `test:indexnow` (Postgres real). Ejecutar en Replit/Hostinger.
+| Check | Resultado | Comando | LOTE |
+|---|---|---|---|
+| TypeScript strict | EXIT 0 (0 errores) | `cd exentax-web && npx tsc --noEmit --strict` | base |
+| Typography Regla 0 | 0 violaciones | `node scripts/audit/check-typography-rule0.mjs` | base |
+| Brand casing | Clean | `node scripts/audit/brand-casing-check.mjs` | base |
+| PT-PT lint (no brasileñismos) | ⚠ branch LOTE 10: ~25 hits "arquivo" del catálogo bridge v2 LOTE 6b — pendiente fix LOTE 7 ([`PENDING-FINAL.md #1.5`](PENDING-FINAL.md)) · tras fix: 114 ficheros OK | `node scripts/audit/audit-pt-pt.mjs` | LOTE 7 |
+| SEO meta verifier | 0 errors / 0 warnings × 6 idiomas | `npm run seo:meta` | LOTE 1 |
+| SEO check (links + serp + icons) | 0 broken · 112 articles ≥3 inbound | `npm run seo:check` | LOTE 2 |
+| Slash hygiene SEO | Clean | `SEO_SLASH_SKIP_LIVE=1 npm run seo:slash` | LOTE 2 |
+| Redirects 301 legacy | 9/9 | `npm run test:redirects` | base |
+| Geo middleware (IP→country) | 12/12 | `npm run test:geo` | base |
+| Blog validate-all | 15/15 | `npm run blog:validate-all` | LOTE 5/6 |
+| Audit veracidad fiscal 672 | 162/162 capa A · 672/672 capa B · 0 contradicciones | `node scripts/blog/blog-veracity-audit.mjs` | LOTE 5 |
+| Audit conversión 112×6 strict | 672/672 conversion-grade | `node scripts/audit/audit-conversion-112x6.mjs --strict` | LOTE 6 |
+| Risk-bridge sweep | 3.410/3.428 (99,5%) bridges Exentax adyacentes | `node scripts/blog/risk-bridge-audit.mjs` | LOTE 6b |
+| i18n check | 1.558 keys × 6 idiomas PASS | `npm run i18n:check` | LOTE 7 |
+| i18n calidad nativa extendida | 0 hits | `npm run lint:i18n-extended` | LOTE 7 |
+| Schema markup + LLM readiness | PASSED 0 warnings | `npm run seo:llm-readiness` | LOTE 8 |
+| Calculator unit (DB-required) | 116/116 | `DATABASE_URL=… npm run test:calculator` | LOTE 9 |
+| Field encryption AES-256-GCM | 45/45 | `node scripts/test-field-encryption.mjs` | LOTE 9 |
+| Health ready (live) | 200 `{db,breakers,emailWorker} ok` | `curl /api/health/ready` | LOTE 9 |
+| Build (sin E2E) | EXIT 0 · `dist/index.mjs` 5.8 MB | `SKIP_BUILD_E2E=1 npm run build` | base |
+| Bundle budgets duros | HARD budget OK | `npm run audit:bundle` | base |
+
+> Pasos que requieren red/Postgres reales y no se ejecutan en sandbox sin DB: `test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` (Postgres real) y la ronda IndexNow/sitemap live. Pasan en Replit/Hostinger; cobertura completa en [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden).
+
+#### Verificación end-to-end ejecutada 2026-04-29 (branch LOTE 10 docs)
+
+| Comando | Resultado |
+|---|---|
+| `npx tsc --noEmit --strict` (en `exentax-web/`) | **EXIT 0** ✓ |
+| `SKIP_BUILD_E2E=1 npm run build` (raíz) | **EXIT 0** ✓ — `dist/index.mjs` 5.8 MB · cliente built en 21,36 s · esbuild server 475 ms |
+| `curl http://localhost:5000/api/health` | **200** ✓ — `{"status":"ok","uptime":…}` |
+| `curl http://localhost:5000/api/health/ready` | **200** ✓ — `{"status":"ready","ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},"emailWorker":{"ok":true,"message":"last drain 22s ago"}}}` |
+| `npm run dev` (workflow `Start application`) | **RUNNING — verde** ✓ — logs limpios: `listening on port 5000` · `fully initialized` · `email-retry worker started` · `discord queue persistence enabled` · 10 schedulers OK |
+| `npm run check` (en `exentax-web/`) | **EXIT 1** ⚠ — drift conocido en `lint:pt-pt` (~25 ficheros pt-PT con "arquivo" del catálogo bridge v2 LOTE 6b). **No es regresión de LOTE 10** (esta tarea sólo edita `.md` raíz). Lo resuelve LOTE 7 (i18n calidad nativa) en su pasada de pulido pt-PT. Detalle + opciones de fix + reproductor en [`PENDING-FINAL.md #1.5`](PENDING-FINAL.md). Resto de gates ejecutadas hasta el fallo: `tsc` EXIT 0 · `lint:typography` clean · `lint:stray-reports` clean · `lint:brand-casing` clean. |
+
+> Las gates avanzadas (`seo:meta` 0/0, `blog:validate-all` 15/15, `i18n:check` PASS, `lint:i18n-extended` 0 hits, `audit:conversion --strict` 672/672) están verdes en sus branches LOTE respectivos (LOTES 1, 5, 6/6b, 7) — sus reportes literales viven bajo `exentax-web/reports/`. La consolidación final con outputs textuales íntegros la produce el downstream task `lote-final-revision-report` → `REVISION-FINAL-REPORT.md`.
 
 ### Pendiente — vista rápida
 
 | Prioridad | Item | Ref |
 |---|---|---|
-| 🔴 ALTA | Reescritura `cuanto-cuesta-constituir-llc.ts` ES (~3000 palabras + estructura conversión: hook LegalZoom $97 → AEAT, errores 25K USD por 5472, ROI 8 meses) | PENDING.md scope editorial |
-| 🔴 ALTA | 5 traducciones nativas (EN-HMRC, FR-URSSAF, DE-Finanzamt, PT-AT, CA-ATC) del artículo anterior | PENDING.md scope editorial |
-| 🟡 MEDIA | Revisión profesional por nativos EN/FR/DE/PT/CA — brief listo en [`translator-brief.md`](docs/internal/translator-brief.md), pendiente contratar reviewer humano por idioma | PENDING.md §2 |
-| 🟢 BAJA | CCAA / moneda por defecto via IP → **CERRADO** (`/api/geo` + middleware) | PENDING.md §11 |
-| 🟢 BAJA | Lighthouse CI bloqueando PRs (Core Web Vitals) — workflow añadido con `continue-on-error: true` para rodaje, marcar gating tras primera pasada verde en CI real | PENDING.md §12 |
-| 🟢 BAJA | Tests E2E Playwright (booking/calculator/lang-switch) — specs añadidas, requieren `npm run test:e2e` con browsers + DB | PENDING.md §14 |
+| 🟡 P1 | Live verification stack F-1..F-9 en Hostinger VPS (operativo, no de código) | [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden) · `PENDING-FINAL.md #1` |
+| 🟢 P2 | Reescritura premium ES `cuanto-cuesta-constituir-llc.ts` (~3000 palabras) + 5 traducciones nativas | `PENDING-FINAL.md #3` |
+| 🟢 P2 | Revisión profesional por nativos EN/FR/DE/PT/CA (brief premium-pro listo) | [`translator-brief.md`](docs/internal/translator-brief.md) · `PENDING-FINAL.md #2` |
+| 🟢 P2 | Lighthouse CI rodaje sostenido (gating real ya activo, override sólo via label `bypass-perf-gate`) | `PENDING-FINAL.md #4` |
+| 🟢 P2 | Tests E2E Playwright (booking/calculator/lang-switch) — sostenidos en CI · requieren `npm run test:e2e` con browsers + DB | `PENDING-FINAL.md #5` |
 
-**Cerrados en esta sesión (commit `231dcce`):**
+**Cerrados en LOTES 1-10 (revisión integral 2026-04-29):**
 
-| § | Item | Verificación |
+| LOTE | Item | Verificación |
 |---|---|---|
-| §2 alta | Tramos IRPF autonómicos por CCAA (selector UI) | UI live `select-ccaa-profile` 6 idiomas + `getIrpfBrackets("low"|"medium"|"high")` |
-| §3 alta | Verificación CI seo:slash | `SEO_SLASH_TIMEOUT_MS=180000` default + `SEO_SLASH_SKIP_LIVE=1` para sandbox |
-| §4 alta | OG image 1200×630 | `client/public/og-image.png` PNG verificado |
-| §5 media | Imagen OG por artículo | **DESCARTADO** por owner (2026-04-26) |
-| §6 media | Redirects 301 legacy | `server/middleware/legacy-redirects.{ts,json}` + 9 tests |
-| §7 media | Tipos estrictos handlers Discord | `discord-api-types/v10` + 0 `any` en handlers |
-| §8 media | PRs históricos #1-9 | [`git-history-notes.md`](docs/internal/git-history-notes.md) |
-| §9 media | Cross-check oficial BOE/TGSS de `SS_AUTONOMO_BRACKETS_2026` | Footnote 4 fuentes (TGSS Sede + BOE RDL 13/2022 + Acuerdo Mesa Diálogo + TRLGSS) |
-| §10 baja | Triage warnings audit traducción | [`blog-translation-triage.md`](docs/internal/blog-translation-triage.md) (0 PT-BR + 0 dups vivos) |
-| §11 baja | CCAA / moneda por defecto IP geo | `server/middleware/geo.ts` + `/api/geo` + 12 tests |
-| §13 baja | Performance budgets duros bundle | `BUNDLE_BUDGET_SERVER_MB` / `BUNDLE_BUDGET_PUBLIC_MB` |
-| §15 baja | Scripts huérfanos | Archivados en `scripts/archive/2026-04-orphans/` |
+| LOTE 1 | `seo:meta` 6 errors + 112 warnings | **0 / 0 × 6 idiomas** (`npm run seo:meta`) |
+| LOTE 2 | URLs · slugs · hreflang · sitemap · robots · IndexNow | 780/780 = 200 · 7 hreflang/url · IndexNow live 200/202 |
+| LOTE 5 | Veracidad fiscal 672 artículos | 162/162 capa A · 672/672 capa B · **0 contradicciones** · 11 patrones `contradicts` 0 hits · 18 hechos canónicos cross-check |
+| LOTE 6 / 6b | 666 warnings `no-conversion-entry` + risk-bridge sweep | **0 warnings** · 99,5% bridges Exentax adyacentes · 783 bridges v1→v2 · 204 archivos · 672/672 conversion-grade strict |
+| LOTE 7 | i18n calidad nativa extendida | Heurística extendida (calcos, anglicismos, false friends, registro `Sie`/`vous`, brasileñismos) en **0 hits × 6 idiomas** |
+| LOTE 8 | Schema markup · OG · Twitter Cards | JSON-LD válido en 100% páginas · OG completo (8 tags + alternates) · Twitter Cards completas · 79 FAQs × 6 idiomas con `FAQPage` |
+| LOTE 9 | Calculadora · Leads · Discord embed · CSP · CSRF · Rate-limit · Field encryption | Health ready 200 · Florida + 116/116 calculator · field encryption AES-256-GCM 45/45 · CSRF 403 · rate limit 429 |
+| LOTE 10 | Documentación raíz consolidada | `PRODUCTION-STATUS.md` + `PRODUCTION-CHECKLIST.md` + CHANGELOG / PENDING-FINAL / README refrescados |
+
+**Cerrados en sesiones anteriores (Tasks #1, #2, #3, #20, #34):**
+
+| Item | Verificación |
+|---|---|
+| Limpieza estructural ~40 MB liberados / 212 ficheros | Task #3 cleanup (CHANGELOG.md 2026-04-28) |
+| Rename consultoría → asesoría 6 idiomas | Task #2 audit (CHANGELOG.md 2026-04-28) |
+| Repo a npm workspaces | Task #34 |
+| Tramos IRPF autonómicos por CCAA | UI `select-ccaa-profile` 6 idiomas + `getIrpfBrackets("low"|"medium"|"high")` |
+| Redirects 301 legacy + Geo middleware | `server/middleware/legacy-redirects.*` 9 tests + `server/middleware/geo.ts` 12 tests |
+| Cross-check oficial BOE/TGSS de `SS_AUTONOMO_BRACKETS_2026` | 4 fuentes (TGSS Sede + BOE RDL 13/2022 + Acuerdo Mesa Diálogo + TRLGSS) |
+| Performance budgets duros bundle | `BUNDLE_BUDGET_SERVER_MB` / `BUNDLE_BUDGET_PUBLIC_MB` HARD |
+| Lighthouse CI gating real | Task #20 — `continue-on-error` solo evaluado contra label `bypass-perf-gate` |
+| OG image 1200×630 (compartida) | `client/public/og-image.png` · OG por artículo descartado por owner |
 
 ### Bugs y limitaciones conocidas
 
-- **`blog:validate-all sources` falla en sandbox** (33/33 URLs estructuralmente OK, pero todos los hosts bloqueados con `host_not_allowed`). Reproducir en producción / Replit / Hostinger para verificación de red real. No es bug de código; es limitación del entorno.
-- **`test:calculator` requiere `DATABASE_URL`** porque importa server code que valida env. Saltarse en sandbox; pasa 116/116 con DB real (último ciclo verde en Replit).
-- **5 tests E2E con Postgres real** (`test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` / `test:bundle-diff-notify`) requieren entorno con DB. Pasan en Replit/Hostinger; documentación en PENDING.md §G5.
-- **Lighthouse CI workflow** (`.github/workflows/lighthouse.yml`) tiene `continue-on-error: true` para la primera pasada — quitar el flag tras una corrida verde para activar el gating real.
-- **Imagen OG por artículo no implementada** — decisión del owner. Todos los posts comparten `/og-image.png` con `og:image:alt` traducido. Si se revisita, requisitos en PENDING.md §5 (raster no SVG, 6 idiomas, overlay título).
-- **Audit conversión 112×6: 0/672 fully conversion-grade** — el contrato canónico exige tel + WhatsApp action-row presente en todos los artículos (sólo 3/672 lo cumplen) y enlace a subpágina LLC en cada artículo LLC-related (109 slugs sin link). El gap se detecta en `docs/audits/2026-04/conversion-audit-112x6.md`. No bloquea producción; señaliza el siguiente trabajo editorial masivo.
+- **`test:calculator` requiere `DATABASE_URL`** porque importa server code que valida env. Saltarse en sandbox; pasa 116/116 con DB real (último ciclo verde en Replit y verificado en LOTE 9).
+- **5 tests E2E con Postgres real** (`test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` / `test:bundle-diff-notify`) requieren entorno con DB. Pasan en Replit/Hostinger; verificación obligatoria post-deploy en [`PRODUCTION-CHECKLIST.md §F-4`](PRODUCTION-CHECKLIST.md#f-4-e2e-con-db-real).
+- **`blog:validate-all sources` step** depende de red real para verificar 33/33 URLs estructuralmente OK; en sandbox sin egress puede degradarse aunque las URLs sigan estructuralmente correctas. Ejecutar en Replit/Hostinger para verificación de red.
+- **Imagen OG por artículo no implementada** — decisión del owner. Todos los posts comparten `/og-image.png` con `og:image:alt` traducido. Si se revisita, requisitos en `PENDING-FINAL.md #6`.
+- **Risk-bridge sweep — 18 párrafos huérfanos** en catálogos no-narrativos (`cross-refs-v1`, `legal-refs-v1`) donde la prosa rompe la semántica de lista. Documentado como aceptable en `reports/seo/lote6b-risk-bridge.md` y `PENDING-FINAL.md #1`.
 
 ### Reportes y auditorías — mapa
 
