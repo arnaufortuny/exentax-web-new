@@ -14,10 +14,34 @@ import { maybeInjectE2eTrackingHook } from "./e2e-hook";
 import { prepareSpaHtml } from "./spa-html";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_CONTENT_ES } from "../client/src/data/blog-content/es-all";
+import { BLOG_CONTENT_EN } from "../client/src/data/blog-content/en-all";
+import { BLOG_CONTENT_FR } from "../client/src/data/blog-content/fr-all";
+import { BLOG_CONTENT_DE } from "../client/src/data/blog-content/de-all";
+import { BLOG_CONTENT_PT } from "../client/src/data/blog-content/pt-all";
+import { BLOG_CONTENT_CA } from "../client/src/data/blog-content/ca-all";
 import { BLOG_I18N } from "../client/src/data/blog-i18n-all";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
 import { getRelatedPosts } from "../client/src/data/blog-related";
 import { SITE_URL, SUPPORTED_LANGS, BRAND_NAME, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, CONTACT_EMAIL, HREFLANG_BCP47 } from "./server-constants";
+
+// Per-language content map for the SEO prerender block. Keys are the canonical
+// Spanish slug (the same key used inside each <lang>-all.ts bundle). Used to
+// emit a body that matches the URL's <html lang> so crawlers see localized
+// content for /en/blog/..., /de/blog/..., etc. — not Spanish for every locale.
+const BLOG_CONTENT_BY_LANG: Record<SupportedLang, Record<string, string>> = {
+  es: BLOG_CONTENT_ES,
+  en: BLOG_CONTENT_EN,
+  fr: BLOG_CONTENT_FR,
+  de: BLOG_CONTENT_DE,
+  pt: BLOG_CONTENT_PT,
+  ca: BLOG_CONTENT_CA,
+};
+
+function getLocalizedBlogContent(slug: string, lang: SupportedLang): string {
+  const localized = BLOG_CONTENT_BY_LANG[lang]?.[slug];
+  if (localized && localized.trim().length > 0) return localized;
+  return BLOG_CONTENT_ES[slug] || "";
+}
 
 const RELATED_HEADING: Record<SupportedLang, string> = {
   es: "Artículos relacionados",
@@ -280,7 +304,7 @@ export function injectMeta(html: string, reqPath: string): string {
       const i18nPost = blogLang !== "es" ? BLOG_I18N[post.slug]?.[blogLang] : undefined;
       const prerenderTitle = i18nPost?.title || post.title;
       const prerenderExcerpt = i18nPost?.excerpt || post.excerpt;
-      const prerenderContent = BLOG_CONTENT_ES[post.slug] || "";
+      const prerenderContent = getLocalizedBlogContent(post.slug, blogLang);
       const related = getRelatedPosts(post.slug, blogLang, 3);
       const relatedHtml = related.length > 0
         ? `<aside><h2>${RELATED_HEADING[blogLang] || RELATED_HEADING.es}</h2><ul>${related.map(r => `<li><a href="${r.href}">${r.title}</a></li>`).join("")}</ul></aside>`
@@ -484,7 +508,7 @@ export function injectMeta(html: string, reqPath: string): string {
           "mainEntityOfPage": articleUrl,
           "inLanguage": blogLang,
           "articleSection": post.category || (ARTICLE_META_I18N[blogLang] || ARTICLE_META_I18N.es).section,
-          "wordCount": Math.round((BLOG_CONTENT_ES[post.slug] || "").split(/\s+/).length)
+          "wordCount": Math.round(getLocalizedBlogContent(post.slug, blogLang).split(/\s+/).length)
         }
       ];
     }

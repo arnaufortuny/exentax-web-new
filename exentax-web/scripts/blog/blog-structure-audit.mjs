@@ -34,29 +34,46 @@ const NEXT_STEP_CUES = [
   "en resumen", "checklist final", "cómo seguir", "lecturas relacionadas",
   "en exentax nos encargamos", "en exentax montamos", "en exentax te ayudamos",
   "cómo te ayudamos", "cómo seguimos", "cómo proceder",
+  // ES — canonical headings/CTAs from cross-refs-v1 / cta-conv-v1 used across the
+  // corpus; adding them as cues so the audit reflects what articles actually emit.
+  "reserva una sesión", "más lecturas relacionadas", "en este mismo tema",
   // EN
   "next step", "next steps", "what to do next", "what to do now", "what to do with",
   "in summary", "talk to us", "book a call", "we handle this for you",
   "how to proceed", "how we help you", "related reading", "further reading",
   "at exentax we handle", "at exentax we set", "at exentax we help",
+  // EN — canonical headings/CTAs from cross-refs-v1 / cta-conv-v1
+  "book a free session", "on the same topic", "to continue reading",
   // FR
   "prochaine étape", "prochaines étapes", "que faire maintenant", "que faire ensuite",
   "en résumé", "parlez-nous", "nous nous en occupons", "nous vous aidons",
   "chez exentax", "lectures associées", "comment procéder",
+  // FR — canonical headings/CTAs from cross-refs-v1 / cta-conv-v1
+  "réservez une session gratuite", "sur le même sujet", "pour continuer la lecture",
+  "lectures complémentaires",
   // DE
   "nächster schritt", "nächste schritte", "was als nächstes", "was tun mit",
   "zusammenfassung", "sprechen sie mit uns", "wir kümmern uns", "wir helfen ihnen",
   "bei exentax", "weiterführende lektüre", "wie es weitergeht",
+  // DE — canonical headings/CTAs from cross-refs-v1 / cta-conv-v1
+  "buchen sie ein kostenloses gespräch", "zum weiterlesen", "zum gleichen thema",
+  "vertiefung",
   // PT
   "próximo passo", "próximos passos", "o que fazer a seguir", "o que fazer agora",
   "em resumo", "fale connosco", "fale conosco", "ajudamos",
   "na exentax tratamos", "na exentax montamos", "na exentax ajudamos",
   "leituras relacionadas", "como proceder",
+  // PT — canonical headings/CTAs from cross-refs-v1 / cta-conv-v1
+  "marca uma sessão gratuita", "para continuar a leitura",
+  "leituras complementares", "leituras adicionais",
   // CA
   "següent pas", "següents passos", "pròxim pas", "pròxims passos",
   "què fer ara", "què fer a continuació", "en resum", "parla amb nosaltres",
   "t'ajudem", "et ajudem", "a exentax ens encarreguem", "a exentax muntem",
   "a exentax tajudem", "lectures relacionades", "com procedir",
+  // CA — canonical headings/CTAs from cross-refs-v1 / cta-conv-v1
+  "reserva una sessió gratuïta", "per continuar la lectura",
+  "lectures complementàries", "sobre el mateix tema",
 ];
 
 function extractBody(src) {

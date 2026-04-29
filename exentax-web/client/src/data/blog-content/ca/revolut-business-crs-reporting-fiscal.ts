@@ -2,6 +2,18 @@ export default `Revolut Business reporta automàticament saldos sota CRS a més 
 
 Revolut Business s'opera des de Lituània per a la UE i aplica el CRS per defecte: els teus saldos i moviments arriben a l'AEAT cada any. Molts clients catalans obren Revolut Business per a la LLC sense adonar-se que això anul·la part del que creien haver guanyat del cantó dels EUA.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualització CRS 2.0, CARF i DAC8 (paquet OCDE)
+
+Revolut Bank UAB és una entitat de crèdit lituana plenament subjecta al CRS des del primer dia; el que canvia per al compte de Revolut Business de la seva LLC amb el paquet OCDE és el reforç de la due diligence sobre controlling persons i la integració explícita dels productes de diner electrònic en el nou perímetre CRS 2.0.
+
+L'OCDE va aprovar el paquet integrat format per **CRS 2.0** (la revisió del Common Reporting Standard, que incorpora les EMI i els productes especificats de diner electrònic dins del perímetre i reforça la due diligence sobre les controlling persons) i **CARF** (Crypto-Asset Reporting Framework, que estén l'intercanvi automàtic a exchanges, custodis i plataformes de derivats cripto). La Unió Europea ho ha transposat mitjançant la **Directiva (UE) 2023/2226 (DAC8)**, aprovada el 17 d'octubre de 2023, que modifica la 2011/16/UE per incorporar les dues peces. La data d'aplicació material és l'**1 de gener de 2026** i el **primer intercanvi efectiu** arriba el **gener de 2027 sobre dades de l'exercici 2026**.
+
+Fonts oficials: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+El missatge a retenir és el de sempre: **els EUA queden fora del perímetre CRS per arquitectura, no per opacitat**. Washington té el seu propi règim (FATCA), no va signar el CRS 1.0 i no signarà el 2.0, i és precisament per això que la seva LLC nord-americana continua sent una estructura plenament declarable al seu país de residència. Ho desenvolupem a fons a <a href="/ca/blog/crs-2-0-carf-per-que-els-eua-no-signaran-mai-llc">CRS 2.0 i CARF: per què els EUA no signaran mai i què canvia per a la seva LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Quines entitats Revolut i on reporten
 
 **Revolut Bank UAB** (Lituània, banc llicenciat per Lietuvos Bankas, entitat principal EEE des de 2021, reporta CRS al **VMI** lituà), que reenvía a l'AEAT/SAT/DIAN/AFIP. **Revolut Ltd** (UK, EMI FCA), **Revolut Payments UAB**. **Revolut Technologies Inc.** (entitat nord-americana del grup sota la qual s'ofereix **Revolut Business als clients amb LLC dels EUA**, amb **Lead Bank** com a banc partner als EUA — Lead Bank és un banc amb llicència federal dels EUA i, com a tal, queda **fora del CRS**, perímetre FATCA).

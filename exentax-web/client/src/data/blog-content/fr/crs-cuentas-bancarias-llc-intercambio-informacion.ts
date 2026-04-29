@@ -4,6 +4,18 @@ Le CRS (Common Reporting Standard) de l'<a href="https://www.oecd.org" target="_
 
 La réponse courte: oui, potentiellement. Mais ce n'est pas un problème, c'est un avantage si votre structure est bien en place. Nous vous expliquons comment cela fonctionne.
 
+<!-- exentax:crs2-update-v1 -->
+## Mise à jour CRS 2.0, CARF et DAC8 (paquet OCDE)
+
+Le tableau du CRS appliqué aux comptes bancaires de votre LLC est mis à jour par le paquet OCDE : les EMI et les produits de monnaie électronique entrent pleinement dans le périmètre et la due diligence sur les controlling persons se durcit. Ce que Wise Europe SA ou Revolut Bank UAB déclaraient déjà reste là, avec des critères plus stricts et une granularité accrue dans chaque autocertification.
+
+L'OCDE a adopté le paquet intégré formé par **CRS 2.0** (la révision du Common Reporting Standard, qui fait entrer les EMI et les produits de monnaie électronique spécifiés dans le périmètre et renforce la due diligence sur les controlling persons) et **CARF** (Crypto-Asset Reporting Framework, qui étend l'échange automatique aux exchanges, dépositaires et plateformes de dérivés crypto). L'Union européenne l'a transposé par la **Directive (UE) 2023/2226 (DAC8)**, adoptée le 17 octobre 2023, qui modifie la directive 2011/16/UE pour intégrer les deux pièces. La date d'application matérielle est le **1er janvier 2026** et le **premier échange effectif** arrive en **janvier 2027 sur les données de l'exercice 2026**.
+
+Sources officielles : <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directive (UE) 2023/2226 (DAC8)</a>.
+
+Le message à retenir reste inchangé : **les États-Unis restent hors du périmètre CRS par architecture, pas par opacité**. Washington dispose de son propre régime (FATCA), n'a pas signé le CRS 1.0 et ne signera pas non plus le CRS 2.0, et c'est précisément pour cela que votre LLC américaine demeure une structure parfaitement déclarable dans votre pays de résidence. Nous le détaillons dans <a href="/fr/blog/crs-2-0-carf-pourquoi-les-usa-ne-signeront-jamais-llc">CRS 2.0 et CARF : pourquoi les USA ne signeront jamais et ce que cela change pour votre LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Qu'est-ce que le CRS et pourquoi existe-t-il
 
 Le CRS (Common Reporting Standard) est un système d'échange automatique d'informations fiscales entre plus de 100 pays. Il a été créé par l'OCDE pour lutter contre l'évasion fiscale. Le principe est simple: les institutions financières de chaque pays participant déclarent les informations sur les comptes de non-résidents aux autorités fiscales, qui les partagent ensuite avec le pays de résidence du titulaire.

@@ -4,6 +4,18 @@ El CRS de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</
 
 La resposta curta: sí, potencialment poden. Però això no és un problema. és un avantatge si la teva estructura està ben muntada. T'expliquem com funciona.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualització CRS 2.0, CARF i DAC8 (paquet OCDE)
+
+El quadre del CRS aplicat als comptes bancaris de la seva LLC s'actualitza amb el paquet OCDE: les EMI i els productes de diner electrònic entren de ple en el perímetre i la due diligence sobre controlling persons es reforça. El que Wise Europe SA o Revolut Bank UAB ja reportaven es manté, amb criteris més estrictes i més granularitat en cada autodeclaració.
+
+L'OCDE va aprovar el paquet integrat format per **CRS 2.0** (la revisió del Common Reporting Standard, que incorpora les EMI i els productes especificats de diner electrònic dins del perímetre i reforça la due diligence sobre les controlling persons) i **CARF** (Crypto-Asset Reporting Framework, que estén l'intercanvi automàtic a exchanges, custodis i plataformes de derivats cripto). La Unió Europea ho ha transposat mitjançant la **Directiva (UE) 2023/2226 (DAC8)**, aprovada el 17 d'octubre de 2023, que modifica la 2011/16/UE per incorporar les dues peces. La data d'aplicació material és l'**1 de gener de 2026** i el **primer intercanvi efectiu** arriba el **gener de 2027 sobre dades de l'exercici 2026**.
+
+Fonts oficials: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+El missatge a retenir és el de sempre: **els EUA queden fora del perímetre CRS per arquitectura, no per opacitat**. Washington té el seu propi règim (FATCA), no va signar el CRS 1.0 i no signarà el 2.0, i és precisament per això que la seva LLC nord-americana continua sent una estructura plenament declarable al seu país de residència. Ho desenvolupem a fons a <a href="/ca/blog/crs-2-0-carf-per-que-els-eua-no-signaran-mai-llc">CRS 2.0 i CARF: per què els EUA no signaran mai i què canvia per a la seva LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Què és el CRS i per què existeix
 
 El CRS (Common Reporting Standard) és un sistema d'intercanvi automàtic d'informació fiscal entre més de 100 països. Va ser creat per l'OCDE per combatre l'evasió fiscal. La idea és simple: les institucions financeres de cada país participant reporten informació sobre els comptes de no residents a les autoritats fiscals, que després la comparteixen amb el país de residència del titular.

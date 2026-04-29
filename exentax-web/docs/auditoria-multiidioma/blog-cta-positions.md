@@ -1,36 +1,35 @@
 # Blog CTA position audit (Task #52)
 
-Generated: 2026-04-28T21:56:18.383Z
+Generated: 2026-04-29T15:56:20.495Z
 
 Total files audited: 672
 
-Files with at least one violation: 3
+Files with at least one violation: 2
 
-Total violations: 3
+Total violations: 2
 
 
 ## Per language
 
 | Lang | Files | Violations | calc-cta avg %pos | cta avg %pos |
 |------|------:|-----------:|------------------:|-------------:|
-| es | 112 | 0 | 51.5 | 99 |
-| en | 112 | 0 | 51.4 | 97.4 |
-| fr | 112 | 0 | 51.2 | 97.3 |
-| de | 112 | 2 | 49.8 | 97.7 |
-| pt | 112 | 0 | 51.4 | 97.5 |
-| ca | 112 | 1 | 50.9 | 97.5 |
+| es | 112 | 0 | 51.9 | 99.1 |
+| en | 112 | 0 | 52.2 | 97.5 |
+| fr | 112 | 0 | 51.9 | 97.3 |
+| de | 112 | 2 | 50.2 | 97.8 |
+| pt | 112 | 0 | 51.7 | 97.5 |
+| ca | 112 | 0 | 51.3 | 97.6 |
 
 ## Violations by category
 
 | Category | Count |
 |----------|------:|
-| too_early | 3 |
+| too_early | 2 |
 
 ## Worst 20 files
 
 - `de/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad` — 1 violations: calc_cta:too_early
 - `de/recuperar-llc-boi-5472-atrasados-procedimiento` — 1 violations: calc_cta:too_early
-- `ca/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad` — 1 violations: calc_cta:too_early
 
 ## Whitelist rationale (POSITIONAL_ALLOWLIST)
 

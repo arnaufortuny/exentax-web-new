@@ -1,5 +1,17 @@
 export default `A DAC 8 é a versão cripto da DAC 7: a partir de hoje, todas as plataformas de ativos digitais (Binance, Coinbase, Kraken, Revolut, até DEX regulados) reportam automaticamente as tuas operações às Finanças. Se até agora tradeaste em silêncio através da tua LLC, essa janela fecha.
 
+<!-- exentax:crs2-update-v1 -->
+## Atualização CRS 2.0, CARF e DAC8 (pacote OCDE)
+
+A DAC8 não é um texto isolado: é a transposição europeia do CARF aprovado pela OCDE dentro do pacote integrado com o CRS 2.0. Por isso, o calendário e o alcance da peça cripto são os do pacote completo e não os de uma diretiva avulsa.
+
+A OCDE aprovou o pacote integrado de **CRS 2.0** (a revisão do Common Reporting Standard, que traz as EMI e os produtos especificados de moeda eletrónica para dentro do perímetro e reforça a due diligence sobre as controlling persons) e **CARF** (Crypto-Asset Reporting Framework, que estende a troca automática a exchanges, custodiantes e plataformas de derivados cripto). A União Europeia transpô-lo através da **Diretiva (UE) 2023/2226 (DAC8)**, aprovada a 17 de outubro de 2023, que altera a 2011/16/UE para incorporar ambas as peças. A data de aplicação material é **1 de janeiro de 2026** e a **primeira troca efetiva** ocorre em **janeiro de 2027, sobre dados do exercício de 2026**.
+
+Fontes oficiais: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Diretiva (UE) 2023/2226 (DAC8)</a>.
+
+A narrativa a reter é a de sempre: **os EUA ficam fora do perímetro CRS por arquitetura, não por opacidade**. Washington tem o seu próprio regime (FATCA), não assinou o CRS 1.0 nem irá assinar o 2.0, e é precisamente por isso que a sua LLC norte-americana continua a ser uma estrutura plenamente declarável no seu país de residência. Desenvolvemos o tema em <a href="/pt/blog/crs-2-0-carf-por-que-os-eua-nunca-vao-assinar-llc">CRS 2.0 e CARF: porque os EUA nunca irão assinar e o que muda para a sua LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## O que é DAC8
 
 Oitava alteração da Diretiva 2011/16/UE: **Diretiva (UE) 2023/2226 de 17/10/2023**, integrando o **CARF** (Crypto-Asset Reporting Framework) da OCDE. Aplicação a partir de 1 de janeiro de 2026, primeiro reporte em janeiro de 2027 sobre o exercício fiscal de referência.

@@ -1,5 +1,17 @@
 export default `La DAC 8 és la versió cripto de la DAC 7: a partir de l'1 de gener de 2026, totes les plataformes d'actius digitals (Binance, Coinbase, Kraken, Bitpanda, Revolut, fins i tot DEX regulats) reporten automàticament les teves operacions a l'AEAT. Si fins ara tradejaves silenciosament via la teva LLC, aquesta finestra es tanca.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualització CRS 2.0, CARF i DAC8 (paquet OCDE)
+
+DAC8 no és un text aïllat: és la transposició europea del CARF aprovat per l'OCDE dins del paquet integrat amb el CRS 2.0. Per això el calendari i l'abast de la peça cripto són els del paquet complet i no els d'una directiva solta.
+
+L'OCDE va aprovar el paquet integrat format per **CRS 2.0** (la revisió del Common Reporting Standard, que incorpora les EMI i els productes especificats de diner electrònic dins del perímetre i reforça la due diligence sobre les controlling persons) i **CARF** (Crypto-Asset Reporting Framework, que estén l'intercanvi automàtic a exchanges, custodis i plataformes de derivats cripto). La Unió Europea ho ha transposat mitjançant la **Directiva (UE) 2023/2226 (DAC8)**, aprovada el 17 d'octubre de 2023, que modifica la 2011/16/UE per incorporar les dues peces. La data d'aplicació material és l'**1 de gener de 2026** i el **primer intercanvi efectiu** arriba el **gener de 2027 sobre dades de l'exercici 2026**.
+
+Fonts oficials: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+El missatge a retenir és el de sempre: **els EUA queden fora del perímetre CRS per arquitectura, no per opacitat**. Washington té el seu propi règim (FATCA), no va signar el CRS 1.0 i no signarà el 2.0, i és precisament per això que la seva LLC nord-americana continua sent una estructura plenament declarable al seu país de residència. Ho desenvolupem a fons a <a href="/ca/blog/crs-2-0-carf-per-que-els-eua-no-signaran-mai-llc">CRS 2.0 i CARF: per què els EUA no signaran mai i què canvia per a la seva LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Què és DAC8
 
 Vuitena modificació de la Directiva 2011/16/UE: **Directiva (UE) 2023/2226 de 17/10/2023**, integrant el **CARF** de l'OCDE. Aplicació a partir de l'1 de gener de 2026, primer reporte el gener de 2027 sobre l'exercici fiscal de referència.

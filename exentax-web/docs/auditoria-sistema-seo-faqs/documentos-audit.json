@@ -1,12 +1,16 @@
 {
-  "generatedAt": "2026-04-25T13:43:10.580Z",
+  "generatedAt": "2026-04-29T18:10:29.384Z",
   "summary": {
     "docsExpected": 5,
     "languagesExpected": 6,
     "cellsExpected": 30,
-    "issuesByCriticality": {},
-    "issuesByArea": {},
-    "totalIssues": 0
+    "issuesByCriticality": {
+      "P2": 17
+    },
+    "issuesByArea": {
+      "legal-cross-link-missing": 17
+    },
+    "totalIssues": 17
   },
   "matrix": {
     "es": {
@@ -14,10 +18,10 @@
         "present": true,
         "title": "Términos y condiciones",
         "seoTitle": "Términos y condiciones | Exentax",
-        "seoDescription": "Términos y condiciones de Exentax. Constitución y gestión de LLC en EE.UU., planificación fiscal internacional y asesoría continua para autónomos.",
+        "seoDescription": "Condiciones de uso de los servicios de Exentax: alcance, responsabilidades, pagos, cancelaciones y resolución de disputas. Léelos antes de contratar.",
         "seoKeywords": "términos condiciones Exentax, condiciones servicio LLC, constitución LLC términos, gestión LLC términos, Exentax legal",
-        "bodyLen": 32708,
-        "h2Count": 28,
+        "bodyLen": 32568,
+        "h2Count": 27,
         "h2Titles": [
           "1. Identificación del prestador",
           "2. Definiciones",
@@ -45,8 +49,7 @@
           "24. No asignación",
           "25. Fuerza mayor",
           "26. Idioma",
-          "27. Contacto",
-          "Documentos relacionados"
+          "27. Contacto"
         ],
         "lastUpdate": "21 de febrero de 2026",
         "refsExpected": 1,
@@ -61,10 +64,10 @@
         "present": true,
         "title": "Política de privacidad y protección de datos",
         "seoTitle": "Política de privacidad | Exentax",
-        "seoDescription": "Política de privacidad de Exentax. Cómo recopilamos, usamos y protegemos tus datos personales en los servicios de optimización fiscal.",
+        "seoDescription": "Cómo tratamos tus datos personales en Exentax: bases legales, finalidades, cesiones, plazos de conservación y tus derechos como usuario.",
         "seoKeywords": "política privacidad Exentax, protección datos LLC, privacidad constitución LLC, Exentax privacidad",
-        "bodyLen": 18034,
-        "h2Count": 17,
+        "bodyLen": 17900,
+        "h2Count": 16,
         "h2Titles": [
           "1. Responsable del tratamiento",
           "2. Ámbito de aplicación",
@@ -81,8 +84,7 @@
           "13. Enlaces a terceros",
           "14. Cambios a esta política",
           "15. Contacto",
-          "16. Consentimiento",
-          "Documentos relacionados"
+          "16. Consentimiento"
         ],
         "lastUpdate": "21 de febrero de 2026",
         "refsExpected": 3,
@@ -90,16 +92,18 @@
         "crossLinksExpected": [
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_cookies (legal/cookies)"
+        ]
       },
       "cookies": {
         "present": true,
         "title": "Política de Cookies",
         "seoTitle": "Política de cookies | Exentax",
-        "seoDescription": "Información sobre el uso de cookies en el sitio web de Exentax, asesoría especializada en optimización fiscal legal para autónomos y freelancers.",
+        "seoDescription": "Qué cookies usamos en exentax.com, para qué sirven y cómo gestionarlas o desactivarlas desde tu navegador. Política transparente y actualizada.",
         "seoKeywords": "política cookies Exentax, cookies LLC, Exentax cookies",
-        "bodyLen": 9840,
-        "h2Count": 12,
+        "bodyLen": 9700,
+        "h2Count": 11,
         "h2Titles": [
           "1. Qué Son las Cookies",
           "2. Tipos de Cookies que Usamos",
@@ -111,8 +115,7 @@
           "8. Actualizaciones",
           "9. Legislación Aplicable",
           "10. Preguntas Frecuentes",
-          "11. Contacto",
-          "Documentos relacionados"
+          "11. Contacto"
         ],
         "lastUpdate": "21 de febrero de 2026",
         "refsExpected": 2,
@@ -120,15 +123,17 @@
         "crossLinksExpected": [
           "legal_privacy"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/privacidad)"
+        ]
       },
       "reembolsos": {
         "present": true,
         "title": "Política de reembolsos",
         "seoTitle": "Política de reembolsos | Exentax",
-        "seoDescription": "Política de reembolsos de Exentax. Cancelaciones, devoluciones y garantías en los servicios de constitución LLC y optimización fiscal.",
+        "seoDescription": "Cuándo puedes solicitar un reembolso, plazos, supuestos cubiertos y cómo iniciar el proceso. Condiciones claras, sin letra pequeña.",
         "seoKeywords": "política reembolsos Exentax, garantía constitución LLC, reembolso LLC, cancelación servicio LLC, Exentax reembolsos",
-        "bodyLen": 11657,
+        "bodyLen": 11665,
         "h2Count": 12,
         "h2Titles": [
           "Principio general",
@@ -153,8 +158,8 @@
       "disclaimer": {
         "present": true,
         "title": "Disclaimer legal y fiscal",
-        "seoTitle": "Disclaimer legal y fiscal | Exentax",
-        "seoDescription": "Disclaimer legal y fiscal de Exentax: naturaleza de los servicios, limitaciones de responsabilidad y obligaciones del cliente.",
+        "seoTitle": "Aviso legal y disclaimer | Exentax",
+        "seoDescription": "Limitación de responsabilidad y aviso legal sobre la información publicada en exentax.com. La información no sustituye un asesoramiento personalizado.",
         "seoKeywords": "disclaimer Exentax, disclaimer legal fiscal, limitaciones responsabilidad, servicios LLC disclaimer",
         "bodyLen": 24281,
         "h2Count": 20,
@@ -192,10 +197,10 @@
         "present": true,
         "title": "Terms and Conditions",
         "seoTitle": "Terms and Conditions | Exentax",
-        "seoDescription": "Terms and conditions of Exentax. US LLC formation and management, international tax planning, and ongoing advisory for freelancers and entrepreneurs.",
+        "seoDescription": "Terms of use for Exentax services: scope, responsibilities, payments, cancellations and dispute resolution. Read them before engaging us.",
         "seoKeywords": "Exentax terms conditions, LLC service terms, LLC formation terms, Exentax legal",
-        "bodyLen": 26841,
-        "h2Count": 28,
+        "bodyLen": 26718,
+        "h2Count": 27,
         "h2Titles": [
           "1. Service provider identification",
           "2. Definitions",
@@ -223,8 +228,7 @@
           "24. Non-assignment",
           "25. Force majeure",
           "26. Language",
-          "27. Contact",
-          "Related documents"
+          "27. Contact"
         ],
         "lastUpdate": "February 21",
         "refsExpected": 1,
@@ -233,16 +237,18 @@
           "legal_privacy",
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/privacy)"
+        ]
       },
       "privacidad": {
         "present": true,
         "title": "Privacy Policy and Data Protection",
         "seoTitle": "Privacy Policy | Exentax",
-        "seoDescription": "Exentax privacy policy. How we collect, use, and protect your personal data in our tax optimization services.",
+        "seoDescription": "How Exentax processes your personal data: legal bases, purposes, data sharing, retention periods and your rights as a user.",
         "seoKeywords": "Exentax privacy policy, LLC data protection, privacy LLC formation, Exentax privacy",
-        "bodyLen": 16352,
-        "h2Count": 17,
+        "bodyLen": 16230,
+        "h2Count": 16,
         "h2Titles": [
           "1. Data controller",
           "2. Scope of application",
@@ -259,8 +265,7 @@
           "13. Third-party links",
           "14. Changes to this policy",
           "15. Contact",
-          "16. Consent",
-          "Related documents"
+          "16. Consent"
         ],
         "lastUpdate": "February 21",
         "refsExpected": 1,
@@ -268,16 +273,18 @@
         "crossLinksExpected": [
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_cookies (legal/cookies)"
+        ]
       },
       "cookies": {
         "present": true,
         "title": "Cookie Policy",
         "seoTitle": "Cookie Policy | Exentax",
-        "seoDescription": "Information about the use of cookies on exentax.com. Specialized advisory on legal tax optimization for freelancers.",
+        "seoDescription": "Which cookies we use on exentax.com, what they do and how to manage or disable them from your browser. Transparent, up-to-date policy.",
         "seoKeywords": "Exentax cookie policy, cookies LLC, Exentax cookies",
-        "bodyLen": 9430,
-        "h2Count": 12,
+        "bodyLen": 9307,
+        "h2Count": 11,
         "h2Titles": [
           "1. What Are Cookies",
           "2. Types of Cookies We Use",
@@ -289,8 +296,7 @@
           "8. Updates",
           "9. Applicable Legislation",
           "10. Frequently Asked Questions",
-          "11. Contact",
-          "Related documents"
+          "11. Contact"
         ],
         "lastUpdate": "February 21",
         "refsExpected": 1,
@@ -298,21 +304,23 @@
         "crossLinksExpected": [
           "legal_privacy"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/privacy)"
+        ]
       },
       "reembolsos": {
         "present": true,
         "title": "Refund Policy",
         "seoTitle": "Refund Policy | Exentax",
-        "seoDescription": "Exentax refund policy. Cancellations, refunds, and guarantees for LLC formation and tax optimization services.",
+        "seoDescription": "When you can request a refund, deadlines, covered cases and how to start the process. Clear terms, no fine print.",
         "seoKeywords": "Exentax refund policy, LLC formation guarantee, LLC refund, service cancellation LLC, Exentax refunds",
-        "bodyLen": 11278,
+        "bodyLen": 11282,
         "h2Count": 12,
         "h2Titles": [
           "General principle",
           "1. LLC formation services",
           "2. Annual maintenance services",
-          "3. Free consultation",
+          "3. Free advisory session",
           "4. Special cases",
           "5. Procedure to request a refund",
           "6. Refund timelines",
@@ -331,10 +339,10 @@
       "disclaimer": {
         "present": true,
         "title": "Legal and Tax Disclaimer",
-        "seoTitle": "Legal and Tax Disclaimer | Exentax",
-        "seoDescription": "Exentax legal and tax disclaimer. Information about the nature of our services, liability limitations, and client obligations.",
+        "seoTitle": "Legal Notice and Disclaimer | Exentax",
+        "seoDescription": "Limitation of liability and legal notice on the information published on exentax.com. The content does not replace personalised professional advice.",
         "seoKeywords": "Exentax disclaimer, legal tax disclaimer, liability limitations, LLC services disclaimer",
-        "bodyLen": 23276,
+        "bodyLen": 23278,
         "h2Count": 20,
         "h2Titles": [
           "1. Nature of service",
@@ -370,10 +378,10 @@
         "present": true,
         "title": "Conditions générales",
         "seoTitle": "Conditions générales | Exentax",
-        "seoDescription": "Conditions générales d'Exentax : constitution et gestion de LLC aux États-Unis, planification fiscale et conseil continu pour indépendants.",
+        "seoDescription": "Conditions d'utilisation des services Exentax : périmètre, responsabilités, paiements, annulations et règlement des litiges. À lire avant de nous engager.",
         "seoKeywords": "conditions générales Exentax, conditions service LLC, constitution LLC conditions, Exentax légal",
-        "bodyLen": 29682,
-        "h2Count": 28,
+        "bodyLen": 29536,
+        "h2Count": 27,
         "h2Titles": [
           "1. Identification du prestataire",
           "2. Definitions",
@@ -381,28 +389,27 @@
           "4. Prix et services",
           "5. Acceptation et formation du contrat",
           "6. Obligations du Client",
-          "7. Delais d'execution",
-          "8. Confidentialite et protection des donnees",
-          "9. Limitation de responsabilite",
+          "7. Délais d'exécution",
+          "8. Confidentialité et protection des données",
+          "9. Limitation de responsabilité",
           "10. Comptes bancaires",
           "11. Droit d'annulation et de refus",
           "12. Maintenance annuelle",
-          "13. Conformite reglementaire (KYC/AML)",
+          "13. Conformité réglementaire (KYC/AML)",
           "14. Juridiction et droit applicable",
           "15. Droits des consommateurs (UE/Espagne)",
           "16. Indemnisation par le Client",
-          "17. Limitation temporelle des reclamations",
-          "18. Divisibilite",
+          "17. Limitation temporelle des réclamations",
+          "18. Divisibilité",
           "19. Modifications",
-          "20. Communications electroniques",
-          "21. Integralite de l'accord",
+          "20. Communications électroniques",
+          "21. Intégralité de l'accord",
           "22. Survie des clauses",
           "23. Renonciation",
           "24. Non-cession",
           "25. Force majeure",
           "26. Langue",
-          "27. Contact",
-          "Documents associés"
+          "27. Contact"
         ],
         "lastUpdate": "21 février 2026",
         "refsExpected": 1,
@@ -411,34 +418,35 @@
           "legal_privacy",
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/confidentialite)"
+        ]
       },
       "privacidad": {
         "present": true,
         "title": "Politique de confidentialité et protection des données",
         "seoTitle": "Politique de confidentialité | Exentax",
-        "seoDescription": "Politique de confidentialité d'Exentax : comment nous collectons, utilisons et protégeons vos données personnelles dans nos services fiscaux.",
+        "seoDescription": "Comment Exentax traite vos données personnelles : bases légales, finalités, transferts, durées de conservation et vos droits en tant qu'utilisateur.",
         "seoKeywords": "politique confidentialité Exentax, protection données LLC, confidentialité constitution LLC, Exentax confidentialité",
-        "bodyLen": 19102,
-        "h2Count": 17,
+        "bodyLen": 18972,
+        "h2Count": 16,
         "h2Titles": [
           "1. Responsable du traitement",
           "2. Champ d'application",
-          "3. Donnees personnelles que nous collectons",
-          "4. Comment nous collectons les donnees",
+          "3. Données personnelles que nous collectons",
+          "4. Comment nous collectons les données",
           "5. Finalites du traitement",
-          "6. Conservation des donnees",
-          "7. Avec qui nous partageons vos donnees",
+          "6. Conservation des données",
+          "7. Avec qui nous partageons vos données",
           "8. Transferts internationaux",
-          "9. Securite des donnees",
+          "9. Sécurité des données",
           "10. Vos droits",
           "11. Cookies",
           "12. Mineurs",
           "13. Liens vers des tiers",
           "14. Modifications de cette politique",
           "15. Contact",
-          "16. Consentement",
-          "Documents associés"
+          "16. Consentement"
         ],
         "lastUpdate": "21 février 2026",
         "refsExpected": 2,
@@ -446,29 +454,30 @@
         "crossLinksExpected": [
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_cookies (legal/cookies)"
+        ]
       },
       "cookies": {
         "present": true,
         "title": "Politique de cookies",
         "seoTitle": "Politique de cookies | Exentax",
-        "seoDescription": "Informations sur l'utilisation des cookies sur le site Exentax, conseil spécialisé en optimisation fiscale légale pour freelances.",
+        "seoDescription": "Quels cookies nous utilisons sur exentax.com, à quoi ils servent et comment les gérer ou les désactiver depuis votre navigateur. Politique transparente.",
         "seoKeywords": "politique cookies Exentax, cookies LLC, Exentax cookies",
-        "bodyLen": 10593,
-        "h2Count": 12,
+        "bodyLen": 10447,
+        "h2Count": 11,
         "h2Titles": [
           "1. Que sont les cookies",
           "2. Types de cookies que nous utilisons",
           "3. Cookies de tiers",
           "4. Votre consentement",
-          "5. Comment controler et supprimer les cookies",
-          "6. Consequences de la desactivation des cookies",
+          "5. Comment contrôler et supprimer les cookies",
+          "6. Conséquences de la desactivation des cookies",
           "7. Tableau recapitulatif des cookies",
           "8. Mises a jour",
-          "9. Legislation applicable",
-          "10. Questions frequentes",
-          "11. Contact",
-          "Documents associés"
+          "9. Législation applicable",
+          "10. Questions fréquentes",
+          "11. Contact"
         ],
         "lastUpdate": "21 février 2026",
         "refsExpected": 1,
@@ -476,24 +485,26 @@
         "crossLinksExpected": [
           "legal_privacy"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/confidentialite)"
+        ]
       },
       "reembolsos": {
         "present": true,
         "title": "Politique de remboursement",
         "seoTitle": "Politique de remboursement | Exentax",
-        "seoDescription": "Politique de remboursement d'Exentax. Annulations, remboursements et garanties pour les services de constitution LLC et d'optimisation fiscale.",
+        "seoDescription": "Quand demander un remboursement, délais, cas couverts et comment lancer la procédure. Conditions claires, sans petits caractères.",
         "seoKeywords": "politique remboursement Exentax, garantie constitution LLC, remboursement LLC, Exentax remboursements",
         "bodyLen": 12738,
         "h2Count": 12,
         "h2Titles": [
-          "Principe general",
+          "Principe général",
           "1. Services de constitution de LLC",
           "2. Services de maintenance annuelle",
           "3. Consultation gratuite",
           "4. Cas particuliers",
           "5. Procedure pour demander un remboursement",
-          "6. Delais de remboursement",
+          "6. Délais de remboursement",
           "7. Ce que cette politique ne couvre pas",
           "8. Garanties que nous offrons",
           "9. Modifications de cette politique",
@@ -509,31 +520,31 @@
       "disclaimer": {
         "present": true,
         "title": "Avertissement juridique et fiscal",
-        "seoTitle": "Avertissement juridique et fiscal | Exentax",
-        "seoDescription": "Avertissement juridique et fiscal d'Exentax. Informations sur la nature de nos services, limitations de responsabilité et obligations du client.",
+        "seoTitle": "Mentions légales et disclaimer | Exentax",
+        "seoDescription": "Limitation de responsabilité et mentions légales sur les informations publiées sur exentax.com. Le contenu ne remplace pas un conseil personnalisé.",
         "seoKeywords": "avertissement Exentax, avertissement juridique fiscal, limitations responsabilité, services LLC avertissement",
         "bodyLen": 25716,
         "h2Count": 20,
         "h2Titles": [
           "1. Nature du service",
-          "2. Disclaimer IRS Circular 230 (exigence federale USA)",
+          "2. Disclaimer IRS Circular 230 (exigence fédérale USA)",
           "3. Pas de conseil juridique ni fiscal",
           "4. Calculateur fiscal et simulateurs",
-          "5. Resultats et estimations",
+          "5. Résultats et estimations",
           "6. Informations fournies par le client",
           "7. Services bancaires et de tiers",
-          "8. Conformite fiscale du client",
+          "8. Conformité fiscale du client",
           "9. Interdiction d'utilisation abusive",
-          "10. Limitation de responsabilite",
-          "11. Changements reglementaires et legislatifs",
-          "12. Document Preparation Service",
-          "13. Vie privee et protection des donnees",
+          "10. Limitation de responsabilité",
+          "11. Changements réglementaires et législatifs",
+          "12. Document Préparation Service",
+          "13. Vie privée et protection des données",
           "14. Recommandation professionnelle expresse",
           "15. Droit applicable et juridiction",
           "16. Acceptation",
           "17. Modifications",
           "18. Langue",
-          "19. Divisibilite",
+          "19. Divisibilité",
           "20. Contact"
         ],
         "lastUpdate": "21 février 2026",
@@ -548,10 +559,10 @@
         "present": true,
         "title": "Allgemeine Geschäftsbedingungen",
         "seoTitle": "Allgemeine Geschäftsbedingungen | Exentax",
-        "seoDescription": "AGB von Exentax. Gründung und Verwaltung von US-LLCs, internationale Steuerplanung und laufende Beratung für Freiberufler und Unternehmer.",
+        "seoDescription": "Nutzungsbedingungen der Exentax-Services: Leistungsumfang, Verantwortlichkeiten, Zahlungen, Stornierungen und Streitbeilegung. Vor Beauftragung lesen.",
         "seoKeywords": "AGB Exentax, Geschäftsbedingungen LLC, LLC Gründung Bedingungen, Exentax rechtlich",
-        "bodyLen": 30222,
-        "h2Count": 28,
+        "bodyLen": 30086,
+        "h2Count": 27,
         "h2Titles": [
           "1. Identifikation des Dienstleisters",
           "2. Definitionen",
@@ -579,8 +590,7 @@
           "24. Keine Abtretung",
           "25. Höhere Gewalt",
           "26. Sprache",
-          "27. Kontakt",
-          "Verwandte Dokumente"
+          "27. Kontakt"
         ],
         "lastUpdate": "21. Februar 2026",
         "refsExpected": 1,
@@ -589,16 +599,18 @@
           "legal_privacy",
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/datenschutz)"
+        ]
       },
       "privacidad": {
         "present": true,
         "title": "Datenschutzerklärung",
         "seoTitle": "Datenschutzerklärung | Exentax",
-        "seoDescription": "Datenschutzerklärung von Exentax. Wie wir Ihre personenbezogenen Daten in unseren Steueroptimierungsdiensten erheben, verwenden und schützen.",
+        "seoDescription": "Wie Exentax Ihre personenbezogenen Daten verarbeitet: Rechtsgrundlagen, Zwecke, Weitergabe, Aufbewahrungsfristen und Ihre Rechte als Nutzer.",
         "seoKeywords": "Datenschutz Exentax, Datenschutz LLC, Datenschutzerklärung LLC Gründung, Exentax Datenschutz",
-        "bodyLen": 18297,
-        "h2Count": 17,
+        "bodyLen": 18169,
+        "h2Count": 16,
         "h2Titles": [
           "1. Verantwortlicher",
           "2. Anwendungsbereich",
@@ -615,8 +627,7 @@
           "13. Links zu Dritten",
           "14. Änderungen dieser Richtlinie",
           "15. Kontakt",
-          "16. Einwilligung",
-          "Verwandte Dokumente"
+          "16. Einwilligung"
         ],
         "lastUpdate": "21. Februar 2026",
         "refsExpected": 1,
@@ -624,16 +635,18 @@
         "crossLinksExpected": [
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_cookies (legal/cookies)"
+        ]
       },
       "cookies": {
         "present": true,
         "title": "Cookie-Richtlinie",
         "seoTitle": "Cookie-Richtlinie | Exentax",
-        "seoDescription": "Informationen zur Verwendung von Cookies auf exentax.com. Spezialisierte Beratung zur legalen Steueroptimierung für Freiberufler.",
+        "seoDescription": "Welche Cookies wir auf exentax.com einsetzen, wozu sie dienen und wie Sie sie im Browser verwalten oder deaktivieren. Transparent und aktuell.",
         "seoKeywords": "Cookie-Richtlinie Exentax, Cookies LLC, Exentax Cookies",
-        "bodyLen": 10357,
-        "h2Count": 12,
+        "bodyLen": 10221,
+        "h2Count": 11,
         "h2Titles": [
           "1. Was sind Cookies",
           "2. Arten von Cookies, die wir verwenden",
@@ -645,8 +658,7 @@
           "8. Aktualisierungen",
           "9. Anwendbares Recht",
           "10. Häufig gestellte Fragen",
-          "11. Kontakt",
-          "Verwandte Dokumente"
+          "11. Kontakt"
         ],
         "lastUpdate": "21. Februar 2026",
         "refsExpected": 1,
@@ -654,13 +666,15 @@
         "crossLinksExpected": [
           "legal_privacy"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/datenschutz)"
+        ]
       },
       "reembolsos": {
         "present": true,
         "title": "Erstattungsrichtlinie",
-        "seoTitle": "Erstattungsrichtlinie | Exentax",
-        "seoDescription": "Erstattungsrichtlinie von Exentax. Stornierungen, Erstattungen und Garantien für LLC-Gründungs- und Steueroptimierungsdienste.",
+        "seoTitle": "Rückerstattungsrichtlinie | Exentax",
+        "seoDescription": "Wann Sie eine Rückerstattung anfordern können, Fristen, abgedeckte Fälle und wie Sie den Prozess starten. Klare Bedingungen, kein Kleingedrucktes.",
         "seoKeywords": "Erstattungsrichtlinie Exentax, Garantie LLC Gründung, LLC Erstattung, Exentax Erstattungen",
         "bodyLen": 12975,
         "h2Count": 12,
@@ -687,8 +701,8 @@
       "disclaimer": {
         "present": true,
         "title": "Rechts- und Steuerhaftungsausschluss",
-        "seoTitle": "Rechts- und Steuerhaftungsausschluss | Exentax",
-        "seoDescription": "Rechts- und Steuerhaftungsausschluss von Exentax: Art unserer Dienstleistungen, Haftungsbeschränkungen und Pflichten des Kunden.",
+        "seoTitle": "Rechtlicher Hinweis und Disclaimer | Exentax",
+        "seoDescription": "Haftungsbeschränkung und rechtlicher Hinweis zu den auf exentax.com veröffentlichten Informationen. Der Inhalt ersetzt keine persönliche Beratung.",
         "seoKeywords": "Haftungsausschluss Exentax, rechtlicher steuerlicher Haftungsausschluss, Haftungsbeschränkungen, LLC Dienste Haftungsausschluss",
         "bodyLen": 25698,
         "h2Count": 20,
@@ -726,10 +740,10 @@
         "present": true,
         "title": "Termos e condições",
         "seoTitle": "Termos e condições | Exentax",
-        "seoDescription": "Termos e condições da Exentax. Constituição e gestão de LLC nos EUA, planeamento fiscal internacional e assessoria contínua para freelancers.",
+        "seoDescription": "Condições de utilização dos serviços Exentax: âmbito, responsabilidades, pagamentos, cancelamentos e resolução de litígios. Leia antes de contratar.",
         "seoKeywords": "termos condições Exentax, condições serviço LLC, constituição LLC termos, Exentax legal",
-        "bodyLen": 27782,
-        "h2Count": 28,
+        "bodyLen": 27640,
+        "h2Count": 27,
         "h2Titles": [
           "1. Identificação do prestador",
           "2. Definições",
@@ -757,8 +771,7 @@
           "24. Não cessão",
           "25. Força maior",
           "26. Idioma",
-          "27. Contacto",
-          "Documentos relacionados"
+          "27. Contacto"
         ],
         "lastUpdate": "21 de fevereiro de 2026",
         "refsExpected": 1,
@@ -767,16 +780,18 @@
           "legal_privacy",
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/privacidade)"
+        ]
       },
       "privacidad": {
         "present": true,
         "title": "Política de privacidade e proteção de dados",
         "seoTitle": "Política de privacidade | Exentax",
-        "seoDescription": "Política de privacidade da Exentax. Como recolhemos, utilizamos e protegemos os seus dados pessoais nos serviços de otimização fiscal.",
+        "seoDescription": "Como a Exentax trata os seus dados pessoais: bases legais, finalidades, partilhas, prazos de conservação e os seus direitos como utilizador.",
         "seoKeywords": "política privacidade Exentax, proteção dados LLC, privacidade constituição LLC, Exentax privacidade",
-        "bodyLen": 17529,
-        "h2Count": 17,
+        "bodyLen": 17395,
+        "h2Count": 16,
         "h2Titles": [
           "1. Responsável pelo tratamento",
           "2. Âmbito de aplicação",
@@ -793,8 +808,7 @@
           "13. Ligações a terceiros",
           "14. Alterações a esta política",
           "15. Contacto",
-          "16. Consentimento",
-          "Documentos relacionados"
+          "16. Consentimento"
         ],
         "lastUpdate": "21 de fevereiro de 2026",
         "refsExpected": 2,
@@ -802,16 +816,18 @@
         "crossLinksExpected": [
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_cookies (legal/cookies)"
+        ]
       },
       "cookies": {
         "present": true,
         "title": "Política de cookies",
-        "seoTitle": "Política de cookies do site | Exentax",
-        "seoDescription": "Informações sobre o uso de cookies no site da Exentax, assessoria especializada em otimização fiscal legal para freelancers.",
+        "seoTitle": "Política de cookies | Exentax",
+        "seoDescription": "Que cookies usamos em exentax.com, para que servem e como geri-las ou desativá-las no seu navegador. Política transparente e atualizada.",
         "seoKeywords": "política cookies Exentax, cookies LLC, Exentax cookies",
-        "bodyLen": 9970,
-        "h2Count": 12,
+        "bodyLen": 9828,
+        "h2Count": 11,
         "h2Titles": [
           "1. O que são Cookies",
           "2. Tipos de Cookies que Utilizamos",
@@ -823,8 +839,7 @@
           "8. Atualizações",
           "9. Legislação Aplicável",
           "10. Perguntas Frequentes",
-          "11. Contacto",
-          "Documentos relacionados"
+          "11. Contacto"
         ],
         "lastUpdate": "21 de fevereiro de 2026",
         "refsExpected": 1,
@@ -832,13 +847,15 @@
         "crossLinksExpected": [
           "legal_privacy"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/privacidade)"
+        ]
       },
       "reembolsos": {
         "present": true,
         "title": "Política de reembolso",
-        "seoTitle": "Política de reembolso | Exentax",
-        "seoDescription": "Política de reembolso da Exentax. Cancelamentos, reembolsos e garantias nos serviços de constituição LLC e otimização fiscal.",
+        "seoTitle": "Política de reembolsos | Exentax",
+        "seoDescription": "Quando pode pedir um reembolso, prazos, situações cobertas e como iniciar o processo. Condições claras, sem letras pequenas.",
         "seoKeywords": "política reembolso Exentax, garantia constituição LLC, reembolso LLC, Exentax reembolsos",
         "bodyLen": 11543,
         "h2Count": 12,
@@ -865,8 +882,8 @@
       "disclaimer": {
         "present": true,
         "title": "Aviso legal e fiscal",
-        "seoTitle": "Aviso legal e fiscal | Exentax",
-        "seoDescription": "Aviso legal e fiscal da Exentax. Informações sobre a natureza dos nossos serviços, limitações de responsabilidade e obrigações do cliente.",
+        "seoTitle": "Aviso legal e disclaimer | Exentax",
+        "seoDescription": "Limitação de responsabilidade e aviso legal sobre as informações publicadas em exentax.com. O conteúdo não substitui aconselhamento personalizado.",
         "seoKeywords": "aviso Exentax, aviso legal fiscal, limitações responsabilidade, serviços LLC aviso",
         "bodyLen": 24095,
         "h2Count": 20,
@@ -904,10 +921,10 @@
         "present": true,
         "title": "Termes i condicions",
         "seoTitle": "Termes i condicions | Exentax",
-        "seoDescription": "Termes i condicions d'Exentax. Constitució i gestió de LLC als EUA, planificació fiscal internacional i assessoria contínua per a autònoms.",
+        "seoDescription": "Condicions d'ús dels serveis d'Exentax: abast, responsabilitats, pagaments, cancel·lacions i resolució de disputes. Llegeix-los abans de contractar.",
         "seoKeywords": "termes condicions Exentax, condicions servei LLC, constitució LLC termes, Exentax legal",
-        "bodyLen": 27704,
-        "h2Count": 28,
+        "bodyLen": 27566,
+        "h2Count": 27,
         "h2Titles": [
           "1. Identificació del prestador",
           "2. Definicions",
@@ -935,8 +952,7 @@
           "24. No assignació",
           "25. Força major",
           "26. Idioma",
-          "27. Contacte",
-          "Documents relacionats"
+          "27. Contacte"
         ],
         "lastUpdate": "21 de febrer de 2026",
         "refsExpected": 1,
@@ -945,16 +961,18 @@
           "legal_privacy",
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/privacitat)"
+        ]
       },
       "privacidad": {
         "present": true,
         "title": "Política de privacitat i protecció de dades",
         "seoTitle": "Política de privacitat | Exentax",
-        "seoDescription": "Política de privacitat d'Exentax. Com recopilem, utilitzem i protegim les teves dades personals als serveis d'optimització fiscal.",
+        "seoDescription": "Com tractem les teves dades personals a Exentax: bases legals, finalitats, cessions, terminis de conservació i els teus drets com a usuari.",
         "seoKeywords": "política privacitat Exentax, protecció dades LLC, privacitat constitució LLC, Exentax privacitat",
-        "bodyLen": 17721,
-        "h2Count": 17,
+        "bodyLen": 17589,
+        "h2Count": 16,
         "h2Titles": [
           "1. Responsable del tractament",
           "2. Àmbit d'aplicació",
@@ -971,8 +989,7 @@
           "13. Enllaços a tercers",
           "14. Canvis a aquesta política",
           "15. Contacte",
-          "16. Consentiment",
-          "Documents relacionats"
+          "16. Consentiment"
         ],
         "lastUpdate": "21 de febrer de 2026",
         "refsExpected": 3,
@@ -980,16 +997,18 @@
         "crossLinksExpected": [
           "legal_cookies"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_cookies (legal/cookies)"
+        ]
       },
       "cookies": {
         "present": true,
         "title": "Política de galetes",
-        "seoTitle": "Política de galetes | Exentax",
-        "seoDescription": "Informació sobre l'ús de galetes al lloc web d'Exentax, assessoria especialitzada en optimització fiscal legal per a autònoms i freelancers.",
+        "seoTitle": "Política de cookies | Exentax",
+        "seoDescription": "Quines cookies fem servir a exentax.com, per a què serveixen i com gestionar-les o desactivar-les des del navegador. Política transparent i actualitzada.",
         "seoKeywords": "política galetes Exentax, galetes LLC, Exentax galetes",
-        "bodyLen": 9748,
-        "h2Count": 12,
+        "bodyLen": 9610,
+        "h2Count": 11,
         "h2Titles": [
           "1. Què són les galetes",
           "2. Tipus de galetes que usem",
@@ -1001,8 +1020,7 @@
           "8. Actualitzacions",
           "9. Legislació aplicable",
           "10. Preguntes freqüents",
-          "11. Contacte",
-          "Documents relacionats"
+          "11. Contacte"
         ],
         "lastUpdate": "21 de febrer de 2026",
         "refsExpected": 2,
@@ -1010,13 +1028,15 @@
         "crossLinksExpected": [
           "legal_privacy"
         ],
-        "crossLinksMissing": []
+        "crossLinksMissing": [
+          "legal_privacy (legal/privacitat)"
+        ]
       },
       "reembolsos": {
         "present": true,
         "title": "Política de reemborsament",
-        "seoTitle": "Política de reemborsament | Exentax",
-        "seoDescription": "Política de reemborsament d'Exentax. Cancel·lacions, devolucions i garanties als serveis de constitució LLC i optimització fiscal.",
+        "seoTitle": "Política de reemborsaments | Exentax",
+        "seoDescription": "Quan pots demanar un reemborsament, terminis, supòsits coberts i com iniciar el procés. Condicions clares, sense lletra petita.",
         "seoKeywords": "política reemborsament Exentax, garantia constitució LLC, reemborsament LLC, Exentax reemborsaments",
         "bodyLen": 11647,
         "h2Count": 12,
@@ -1043,8 +1063,8 @@
       "disclaimer": {
         "present": true,
         "title": "Avís legal i fiscal",
-        "seoTitle": "Avís legal i fiscal | Exentax",
-        "seoDescription": "Avís legal i fiscal d'Exentax. Informació sobre la naturalesa dels nostres serveis, limitacions de responsabilitat i obligacions del client.",
+        "seoTitle": "Avís legal i disclaimer | Exentax",
+        "seoDescription": "Limitació de responsabilitat i avís legal sobre la informació publicada a exentax.com. El contingut no substitueix un assessorament personalitzat.",
         "seoKeywords": "avís Exentax, avís legal fiscal, limitacions responsabilitat, serveis LLC avís",
         "bodyLen": 23737,
         "h2Count": 20,
@@ -1078,5 +1098,193 @@
       }
     }
   },
-  "issues": []
+  "issues": [
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/es.ts:93 › legal.privacidad.body",
+      "description": "Política de Privacidad (es): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_cookies (legal/cookies)\"]}",
+      "suggestion": "Añadir enlace interno a legal_cookies (legal/cookies)",
+      "languages": [
+        "es"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/es.ts:649 › legal.cookies.body",
+      "description": "Política de Cookies (es): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/privacidad)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/privacidad)",
+      "languages": [
+        "es"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/en.ts:25 › legal.terminos.body",
+      "description": "Términos y Condiciones (en): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/privacy)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/privacy)",
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/en.ts:93 › legal.privacidad.body",
+      "description": "Política de Privacidad (en): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_cookies (legal/cookies)\"]}",
+      "suggestion": "Añadir enlace interno a legal_cookies (legal/cookies)",
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/en.ts:648 › legal.cookies.body",
+      "description": "Política de Cookies (en): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/privacy)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/privacy)",
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/fr.ts:25 › legal.terminos.body",
+      "description": "Términos y Condiciones (fr): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/confidentialite)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/confidentialite)",
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/fr.ts:93 › legal.privacidad.body",
+      "description": "Política de Privacidad (fr): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_cookies (legal/cookies)\"]}",
+      "suggestion": "Añadir enlace interno a legal_cookies (legal/cookies)",
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/fr.ts:649 › legal.cookies.body",
+      "description": "Política de Cookies (fr): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/confidentialite)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/confidentialite)",
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/de.ts:25 › legal.terminos.body",
+      "description": "Términos y Condiciones (de): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/datenschutz)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/datenschutz)",
+      "languages": [
+        "de"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/de.ts:93 › legal.privacidad.body",
+      "description": "Política de Privacidad (de): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_cookies (legal/cookies)\"]}",
+      "suggestion": "Añadir enlace interno a legal_cookies (legal/cookies)",
+      "languages": [
+        "de"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/de.ts:648 › legal.cookies.body",
+      "description": "Política de Cookies (de): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/datenschutz)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/datenschutz)",
+      "languages": [
+        "de"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/pt.ts:29 › legal.terminos.body",
+      "description": "Términos y Condiciones (pt): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/privacidade)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/privacidade)",
+      "languages": [
+        "pt"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/pt.ts:97 › legal.privacidad.body",
+      "description": "Política de Privacidad (pt): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_cookies (legal/cookies)\"]}",
+      "suggestion": "Añadir enlace interno a legal_cookies (legal/cookies)",
+      "languages": [
+        "pt"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/pt.ts:652 › legal.cookies.body",
+      "description": "Política de Cookies (pt): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/privacidade)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/privacidade)",
+      "languages": [
+        "pt"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/ca.ts:29 › legal.terminos.body",
+      "description": "Términos y Condiciones (ca): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/privacitat)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/privacitat)",
+      "languages": [
+        "ca"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/ca.ts:97 › legal.privacidad.body",
+      "description": "Política de Privacidad (ca): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_cookies (legal/cookies)\"]}",
+      "suggestion": "Añadir enlace interno a legal_cookies (legal/cookies)",
+      "languages": [
+        "ca"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "legal-cross-link-missing",
+      "location": "client/src/i18n/locales/ca.ts:653 › legal.cookies.body",
+      "description": "Política de Cookies (ca): no enlaza a documento(s) relacionado(s)",
+      "evidence": "{\"missing\":[\"legal_privacy (legal/privacitat)\"]}",
+      "suggestion": "Añadir enlace interno a legal_privacy (legal/privacitat)",
+      "languages": [
+        "ca"
+      ]
+    }
+  ]
 }

@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-04-25T13:43:10.595Z",
+  "generatedAt": "2026-04-29T18:10:29.404Z",
   "summary": {
     "routes": 16,
     "languages": 6,
     "pageCells": 96,
     "pagesFetched": 96,
     "schemaTypesObserved": [
+      "Article",
+      "BreadcrumbList",
+      "FAQPage",
+      "HowTo",
       "ItemList",
       "Organization",
+      "Product",
       "ProfessionalService",
+      "Service",
       "SiteNavigationElement",
       "WebApplication",
       "WebSite"
@@ -21,9 +27,15 @@
     ],
     "keywordPositioningRollupAvailable": true,
     "robotsAuditRollupAvailable": true,
-    "issuesByCriticality": {},
-    "issuesByArea": {},
-    "totalIssues": 0
+    "issuesByCriticality": {
+      "P1": 4,
+      "P2": 5
+    },
+    "issuesByArea": {
+      "meta-description-too-long": 4,
+      "keyword-positioning": 5
+    },
+    "totalIssues": 9
   },
   "pages": [
     {
@@ -34,20 +46,19 @@
       "sotPresent": true,
       "title": "Paga menos impuestos legalmente con LLC en EE.UU. | Exentax",
       "titleLength": 59,
-      "metaDescription": "LLC Estados Unidos para freelancers y autónomos: paga menos impuestos legalmente. Constitución en 2 días, EIN sin viajar, Mercury y compliance incluido.",
-      "metaDescriptionLength": 152,
+      "metaDescription": "Una LLC americana bien estructurada paga hasta 0% en IRS federal. EIN sin viajar, cuenta USA (Slash, Wise, Relay, Mercury) y compliance incluidos. Para freelancers y autónomos.",
+      "metaDescriptionLength": 176,
       "canonical": "https://exentax.com/es",
       "sotKeywords": "paga, impuestos, LLC Estados Unidos, paga menos impuestos legalmente, optimización fiscal autónomos, LLC para freelancers, asesoría fiscal LLC, fiscalidad internacional, EIN sin viajar, Mercury cuenta empresa",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList",
-        "WebSite"
+        "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Paga hasta 0% federal con una LLC americana | Exentax",
+      "ogDescription": "Una LLC bien estructurada paga hasta 0% en IRS federal. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -64,9 +75,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Exentax: Paga menos impuestos legalmente",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -77,7 +88,10 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "Organization",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -88,13 +102,14 @@
         "optimización fiscal autónomos"
       ],
       "keywordTokensMissingInTitleOrDesc": [
+        "llc estados unidos",
         "optimización fiscal autónomos"
       ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "WebSite",
         "ProfessionalService",
+        "WebSite",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -108,20 +123,19 @@
       "sotPresent": true,
       "title": "Pay less taxes legally with your US LLC | Exentax",
       "titleLength": 49,
-      "metaDescription": "US LLC for non-residents and freelancers: legally pay less tax. Formation in 2 days, EIN without travel, Mercury business account and full compliance included.",
-      "metaDescriptionLength": 159,
+      "metaDescription": "A well-structured US LLC pays up to 0% federal IRS. EIN without travel, US bank account (Slash, Wise, Relay, Mercury) and full compliance included. Built for freelancers.",
+      "metaDescriptionLength": 170,
       "canonical": "https://exentax.com/en",
       "sotKeywords": "less, taxes, US LLC for non-residents, legally pay less tax, freelancer LLC formation, international tax optimization, EIN without travel, Mercury business account, US LLC for digital nomads, foreign-owned LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList",
-        "WebSite"
+        "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Pay up to 0% US federal tax with a US LLC | Exentax",
+      "ogDescription": "A well-structured US LLC pays up to 0% federal IRS. Setup in 2 days: EIN, US bank account (Slash, Wise, Relay, Mercury) and full compliance. Free 30-min consult.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -138,9 +152,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Pay less tax legally with a US LLC: Exentax",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -151,7 +165,10 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "Organization",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -162,13 +179,15 @@
         "freelancer llc formation"
       ],
       "keywordTokensMissingInTitleOrDesc": [
+        "us llc for non-residents",
+        "legally pay less tax",
         "freelancer llc formation"
       ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "WebSite",
         "ProfessionalService",
+        "WebSite",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -182,20 +201,19 @@
       "sotPresent": true,
       "title": "Payez moins d'impôts avec votre LLC aux USA | Exentax",
       "titleLength": 53,
-      "metaDescription": "LLC États-Unis pour freelances et nomades numériques : payer moins d'impôts légalement. Constitution en 2 jours, EIN sans déplacement, Mercury inclus.",
-      "metaDescriptionLength": 150,
+      "metaDescription": "Une LLC américaine bien structurée paie jusqu'à 0% d'impôt fédéral US. EIN sans déplacement, compte US (Slash, Wise, Relay, Mercury) et compliance inclus. Pour freelances.",
+      "metaDescriptionLength": 171,
       "canonical": "https://exentax.com/fr",
       "sotKeywords": "payez, moins, LLC États-Unis, payer moins d'impôts légalement, LLC pour freelances, optimisation fiscale internationale, EIN sans déplacement, compte Mercury, LLC nomades numériques, fiscalité freelances",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList",
-        "WebSite"
+        "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC américaine: jusqu",
+      "ogDescription": "Une LLC bien structurée paie jusqu",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -212,9 +230,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Payez moins d'impôts légalement avec une LLC américaine: Exentax",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -225,7 +243,10 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "Organization",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -236,13 +257,15 @@
         "llc pour freelances"
       ],
       "keywordTokensMissingInTitleOrDesc": [
+        "llc états-unis",
+        "payer moins d'impôts légalement",
         "llc pour freelances"
       ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "WebSite",
         "ProfessionalService",
+        "WebSite",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -256,20 +279,19 @@
       "sotPresent": true,
       "title": "Zahlen Sie legal weniger Steuern mit Ihrer US-LLC | Exentax",
       "titleLength": 59,
-      "metaDescription": "US LLC für Nicht-Residenten und Freelancer: legal weniger Steuern zahlen. Gründung in 2 Tagen, EIN ohne Reise, Mercury Geschäftskonto und Compliance inklusive.",
-      "metaDescriptionLength": 159,
+      "metaDescription": "Eine gut strukturierte US-LLC zahlt bis zu 0% US-Bundessteuer. EIN ohne Reise, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Für Freelancer.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/de",
       "sotKeywords": "zahlen, legal, US LLC für Nicht-Residenten, legal weniger Steuern zahlen, LLC für Freelancer, internationale Steueroptimierung, EIN ohne Reise, Mercury Geschäftskonto, US LLC digitale Nomaden",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList",
-        "WebSite"
+        "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "US-LLC: bis zu 0% US-Bundessteuer zahlen | Exentax",
+      "ogDescription": "Eine gut strukturierte US-LLC zahlt bis zu 0% US-Bundessteuer. EIN, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Kostenlose Beratung.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -286,9 +308,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Zahlen Sie legal weniger Steuern mit einer US-LLC: Exentax",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -299,7 +321,10 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "Organization",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -310,13 +335,15 @@
         "llc für freelancer"
       ],
       "keywordTokensMissingInTitleOrDesc": [
+        "us llc für nicht-residenten",
+        "legal weniger steuern zahlen",
         "llc für freelancer"
       ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "WebSite",
         "ProfessionalService",
+        "WebSite",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -330,20 +357,19 @@
       "sotPresent": true,
       "title": "Pague menos impostos com sua LLC nos EUA | Exentax",
       "titleLength": 50,
-      "metaDescription": "LLC Estados Unidos para freelancers: pagar menos impostos legalmente. Constituição em 2 dias, EIN sem viajar, conta Mercury e compliance incluídos.",
-      "metaDescriptionLength": 147,
+      "metaDescription": "Uma LLC americana bem estruturada paga até 0% de imposto federal US. EIN sem viajar, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Para freelancers.",
+      "metaDescriptionLength": 166,
       "canonical": "https://exentax.com/pt",
       "sotKeywords": "pague, impostos, LLC Estados Unidos, pagar menos impostos legalmente, LLC para freelancers, otimização fiscal internacional, EIN sem viajar, conta Mercury, LLC nômades digitais, LLC estrangeiros",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList",
-        "WebSite"
+        "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC americana: até 0% de imposto federal US | Exentax",
+      "ogDescription": "Uma LLC bem estruturada paga até 0% de imposto federal US. EIN, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Consulta grátis 30 min.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -360,9 +386,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Pague menos impostos legalmente com uma LLC americana: Exentax",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -373,7 +399,10 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "Organization",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -384,13 +413,15 @@
         "llc para freelancers"
       ],
       "keywordTokensMissingInTitleOrDesc": [
+        "llc estados unidos",
+        "pagar menos impostos legalmente",
         "llc para freelancers"
       ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "WebSite",
         "ProfessionalService",
+        "WebSite",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -404,20 +435,19 @@
       "sotPresent": true,
       "title": "Paga menys impostos amb la teva LLC als EUA | Exentax",
       "titleLength": 53,
-      "metaDescription": "LLC Estats Units per a autònoms: pagar menys impostos legalment. Constitució en 2 dies, EIN sense viatjar, compte Mercury i compliance inclòs.",
-      "metaDescriptionLength": 142,
+      "metaDescription": "Una LLC americana ben estructurada paga fins a 0% d'impost federal US. EIN sense viatjar, compte USA (Slash, Wise, Relay, Mercury) i compliance inclosos.",
+      "metaDescriptionLength": 153,
       "canonical": "https://exentax.com/ca",
       "sotKeywords": "paga, menys, LLC Estats Units, pagar menys impostos legalment, LLC per a autònoms, optimització fiscal internacional, EIN sense viatjar, compte Mercury, LLC nòmades digitals",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList",
-        "WebSite"
+        "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC americana: fins a 0% d",
+      "ogDescription": "Una LLC ben estructurada paga fins a 0% d",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -434,9 +464,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Paga menys impostos legalment amb una LLC als EUA: Exentax",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -447,7 +477,10 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "Organization",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -458,13 +491,15 @@
         "llc per a autònoms"
       ],
       "keywordTokensMissingInTitleOrDesc": [
+        "llc estats units",
+        "pagar menys impostos legalment",
         "llc per a autònoms"
       ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "WebSite",
         "ProfessionalService",
+        "WebSite",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -489,8 +524,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Cómo funciona: tu LLC lista en 4 pasos | Exentax",
+      "ogDescription": "Asesoría estratégica → estructura personalizada → constitución en 2-4 días → compliance anual. Proceso claro, sin letra pequeña.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -507,9 +542,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Así Trabajamos: Optimización fiscal paso a paso",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -520,7 +555,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "HowTo"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -550,10 +587,10 @@
       "sotPresent": true,
       "title": "How It Works: Your LLC Ready in 4 Steps | Exentax",
       "titleLength": 49,
-      "metaDescription": "LLC formation process: strategic tax consultation, personalized LLC plan and formation in 2-4 days with annual LLC compliance. No surprises or fine print.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "LLC formation process: strategic tax advisory session, personalized LLC plan and formation in 2-4 days with annual LLC compliance. No surprises or fine print.",
+      "metaDescriptionLength": 158,
       "canonical": "https://exentax.com/en/how-we-work",
-      "sotKeywords": "works, ready, LLC formation process, strategic tax consultation, personalized LLC plan, annual LLC compliance, ongoing LLC support",
+      "sotKeywords": "works, ready, LLC formation process, strategic tax advisory session, personalized LLC plan, annual LLC compliance, ongoing LLC support",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -561,8 +598,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "How it works: your LLC ready in 4 steps | Exentax",
+      "ogDescription": "Strategic advisory → personalized structure → formation in 2-4 days → annual compliance. Clear process, no fine print. Over 127 satisfied clients.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -579,9 +616,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "How We Work: step-by-step tax optimization",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -592,14 +629,16 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "HowTo"
       ],
       "slashHygiene": true,
       "keywordTokens": [
         "works",
         "ready",
         "llc formation process",
-        "strategic tax consultation",
+        "strategic tax advisory session",
         "personalized llc plan"
       ],
       "keywordTokensMissingInTitleOrDesc": [],
@@ -633,8 +672,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Comment ça marche : votre LLC prête en 4 étapes | Exentax",
+      "ogDescription": "Conseil stratégique → structure personnalisée → constitution en 2-4 jours → compliance annuel. Processus clair, sans petits caractères.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -651,9 +690,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Comment nous travaillons: optimisation fiscale étape par étape",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -664,7 +703,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "HowTo"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -705,8 +746,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "So funktioniert",
+      "ogDescription": "Strategische Beratung → individuelle Struktur → Gründung in 2-4 Tagen → jährliche Compliance. Klarer Prozess, ohne Kleingedrucktes.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -723,9 +764,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Wie wir arbeiten: Steueroptimierung Schritt für Schritt",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -736,7 +777,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "HowTo"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -766,10 +809,10 @@
       "sotPresent": true,
       "title": "Como funciona: sua LLC pronta em 4 passos | Exentax",
       "titleLength": 51,
-      "metaDescription": "Processo constituição LLC: consultoria fiscal estratégica, plano LLC personalizado e constituição em 2-4 dias com compliance anual. Sem surpresas.",
-      "metaDescriptionLength": 146,
+      "metaDescription": "Processo constituição LLC: assessoria fiscal estratégica, plano LLC personalizado e constituição em 2-4 dias com compliance anual. Sem surpresas.",
+      "metaDescriptionLength": 145,
       "canonical": "https://exentax.com/pt/como-trabalhamos",
-      "sotKeywords": "funciona, pronta, processo constituição LLC, consultoria fiscal estratégica, plano LLC personalizado, compliance anual LLC, suporte LLC",
+      "sotKeywords": "funciona, pronta, processo constituição LLC, assessoria fiscal estratégica, plano LLC personalizado, compliance anual LLC, suporte LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -777,8 +820,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Como funciona: sua LLC pronta em 4 passos | Exentax",
+      "ogDescription": "Consultoria estratégica → estrutura personalizada → constituição em 2-4 dias → compliance anual. Processo claro, sem letras miúdas.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -795,9 +838,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Como trabalhamos: otimização fiscal passo a passo",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -808,14 +851,16 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "HowTo"
       ],
       "slashHygiene": true,
       "keywordTokens": [
         "funciona",
         "pronta",
         "processo constituição llc",
-        "consultoria fiscal estratégica",
+        "assessoria fiscal estratégica",
         "plano llc personalizado"
       ],
       "keywordTokensMissingInTitleOrDesc": [],
@@ -849,8 +894,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Com funciona: la teva LLC llesta en 4 passos | Exentax",
+      "ogDescription": "Assessoria estratègica → estructura personalitzada → constitució en 2-4 dies → compliance anual. Procés clar, sense lletra petita.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -867,9 +912,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Com treballem: optimització fiscal pas a pas",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -880,7 +925,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "HowTo"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -910,8 +957,8 @@
       "sotPresent": true,
       "title": "Constitución y gestión de LLC en EE.UU. | Exentax",
       "titleLength": 49,
-      "metaDescription": "Servicios LLC Estados Unidos: constitución LLC, mantenimiento LLC, EIN, Operating Agreement, Mercury y compliance LLC. Planes para no residentes.",
-      "metaDescriptionLength": 145,
+      "metaDescription": "Servicios LLC Estados Unidos: constitución, EIN, Operating Agreement, cuenta USA (Slash, Wise, Relay, Mercury) y compliance LLC. Planes para no residentes.",
+      "metaDescriptionLength": 155,
       "canonical": "https://exentax.com/es/servicios",
       "sotKeywords": "constitución, gestión, servicios LLC Estados Unidos, constitución LLC, mantenimiento LLC, EIN, Operating Agreement, Mercury, compliance LLC, planes constitución LLC",
       "sotNoindex": false,
@@ -924,8 +971,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Servicios de constitución LLC en EE.UU. | Exentax",
+      "ogDescription": "LLC en Nuevo México, Wyoming o Delaware. Incluye EIN, Operating Agreement, cuenta USA (Slash, Wise, Relay, Mercury) y compliance 12 meses.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -942,9 +989,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Estructuración fiscal internacional: LLC en Estados Unidos",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -955,7 +1002,12 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Product",
+        "Product",
+        "Product",
+        "ProfessionalService"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -965,7 +1017,10 @@
         "constitución llc",
         "mantenimiento llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [],
+      "keywordTokensMissingInTitleOrDesc": [
+        "constitución llc",
+        "mantenimiento llc"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -985,8 +1040,8 @@
       "sotPresent": true,
       "title": "US LLC Formation & Management for Non-Residents | Exentax",
       "titleLength": 57,
-      "metaDescription": "US LLC services: LLC formation and LLC maintenance with EIN, Operating Agreement, Mercury bank and full LLC compliance. Plans for non-residents.",
-      "metaDescriptionLength": 144,
+      "metaDescription": "US LLC services: formation, EIN, Operating Agreement, US bank account (Slash, Wise, Relay, Mercury) and full LLC compliance. Plans for non-residents.",
+      "metaDescriptionLength": 149,
       "canonical": "https://exentax.com/en/services",
       "sotKeywords": "formation, management, US LLC services, LLC formation, LLC maintenance, EIN, Operating Agreement, Mercury bank, LLC compliance, LLC plans non-residents",
       "sotNoindex": false,
@@ -999,8 +1054,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "US LLC formation services | Exentax",
+      "ogDescription": "LLC in New Mexico, Wyoming or Delaware. Includes EIN, Operating Agreement, US bank account (Slash, Wise, Relay, Mercury) and 12-month compliance.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1017,9 +1072,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "International tax structuring: US LLC services",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1030,7 +1085,12 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Product",
+        "Product",
+        "Product",
+        "ProfessionalService"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1040,7 +1100,9 @@
         "llc formation",
         "llc maintenance"
       ],
-      "keywordTokensMissingInTitleOrDesc": [],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc maintenance"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1060,8 +1122,8 @@
       "sotPresent": true,
       "title": "Constitution et gestion de LLC aux USA | Exentax",
       "titleLength": 48,
-      "metaDescription": "Services LLC USA : constitution LLC et maintenance LLC avec EIN, Operating Agreement, Mercury et conformité LLC. Forfaits LLC non-résidents.",
-      "metaDescriptionLength": 140,
+      "metaDescription": "Services LLC USA : constitution, EIN, Operating Agreement, compte US (Slash, Wise, Relay, Mercury) et conformité LLC. Forfaits non-résidents.",
+      "metaDescriptionLength": 141,
       "canonical": "https://exentax.com/fr/services",
       "sotKeywords": "constitution, gestion, services LLC USA, constitution LLC, maintenance LLC, EIN, Operating Agreement, Mercury, conformité LLC, forfaits LLC non-résidents",
       "sotNoindex": false,
@@ -1074,8 +1136,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Services de constitution de LLC aux États-Unis | Exentax",
+      "ogDescription": "LLC au Nouveau-Mexique, Wyoming ou Delaware. EIN, Operating Agreement, compte US (Slash, Wise, Relay, Mercury) et compliance 12 mois.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1092,9 +1154,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Structuration fiscale internationale: services LLC américaine",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1105,7 +1167,12 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Product",
+        "Product",
+        "Product",
+        "ProfessionalService"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1115,7 +1182,10 @@
         "constitution llc",
         "maintenance llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [],
+      "keywordTokensMissingInTitleOrDesc": [
+        "constitution llc",
+        "maintenance llc"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1135,8 +1205,8 @@
       "sotPresent": true,
       "title": "US-LLC Gründung & Verwaltung für Nicht-Residenten | Exentax",
       "titleLength": 59,
-      "metaDescription": "US-LLC Dienstleistungen: LLC Gründung, LLC Verwaltung mit EIN, Operating Agreement, Mercury und LLC Compliance. Pakete für Nicht-Residenten.",
-      "metaDescriptionLength": 140,
+      "metaDescription": "US-LLC Dienstleistungen: Gründung, EIN, Operating Agreement, US-Bankkonto (Slash, Wise, Relay, Mercury), LLC Compliance. Pakete für Nicht-Residenten.",
+      "metaDescriptionLength": 149,
       "canonical": "https://exentax.com/de/leistungen",
       "sotKeywords": "us-llc, gründung, US-LLC Dienstleistungen, LLC Gründung, LLC Verwaltung, EIN, Operating Agreement, Mercury, LLC Compliance, LLC Pakete Nicht-Residenten",
       "sotNoindex": false,
@@ -1149,8 +1219,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC-Gründungsservices in den USA | Exentax",
+      "ogDescription": "LLC in New Mexico, Wyoming oder Delaware. EIN, Operating Agreement, US-Bankkonto (Slash, Wise, Relay, Mercury), 12 Monate Compliance.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1167,9 +1237,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Internationale Steuerstruktur: US-LLC-Leistungen",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1180,7 +1250,12 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Product",
+        "Product",
+        "Product",
+        "ProfessionalService"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1190,7 +1265,9 @@
         "llc gründung",
         "llc verwaltung"
       ],
-      "keywordTokensMissingInTitleOrDesc": [],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc verwaltung"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1210,8 +1287,8 @@
       "sotPresent": true,
       "title": "Constituição e gestão de LLC nos EUA | Exentax",
       "titleLength": 46,
-      "metaDescription": "Serviços LLC EUA: constituição LLC e manutenção LLC com EIN, Operating Agreement, Mercury e compliance LLC. Planos LLC para não residentes.",
-      "metaDescriptionLength": 139,
+      "metaDescription": "Serviços LLC EUA: constituição, EIN, Operating Agreement, conta USA (Slash, Wise, Relay, Mercury) e compliance LLC. Planos para não residentes.",
+      "metaDescriptionLength": 143,
       "canonical": "https://exentax.com/pt/servicos",
       "sotKeywords": "constituição, gestão, serviços LLC EUA, constituição LLC, manutenção LLC, EIN, Operating Agreement, Mercury, compliance LLC, planos LLC não residentes",
       "sotNoindex": false,
@@ -1224,8 +1301,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Serviços de constituição de LLC nos EUA | Exentax",
+      "ogDescription": "LLC no Novo México, Wyoming ou Delaware. EIN, Operating Agreement, conta USA (Slash, Wise, Relay, Mercury) e compliance 12 meses.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1242,9 +1319,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Estruturação fiscal internacional: serviços de LLC americana",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1255,7 +1332,12 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Product",
+        "Product",
+        "Product",
+        "ProfessionalService"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1265,7 +1347,10 @@
         "constituição llc",
         "manutenção llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [],
+      "keywordTokensMissingInTitleOrDesc": [
+        "constituição llc",
+        "manutenção llc"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1285,8 +1370,8 @@
       "sotPresent": true,
       "title": "Constitució i gestió de LLC als EUA | Exentax",
       "titleLength": 45,
-      "metaDescription": "Serveis LLC EUA: constitució LLC i manteniment LLC amb EIN, Operating Agreement, Mercury i compliance LLC. Plans LLC no residents.",
-      "metaDescriptionLength": 130,
+      "metaDescription": "Serveis LLC EUA: constitució, EIN, Operating Agreement, compte USA (Slash, Wise, Relay, Mercury) i compliance LLC. Plans LLC no residents.",
+      "metaDescriptionLength": 138,
       "canonical": "https://exentax.com/ca/serveis",
       "sotKeywords": "constitució, gestió, serveis LLC EUA, constitució LLC, manteniment LLC, EIN, Operating Agreement, Mercury, compliance LLC, plans LLC no residents",
       "sotNoindex": false,
@@ -1299,8 +1384,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Serveis de constitució de LLC als EUA | Exentax",
+      "ogDescription": "LLC a Nou Mèxic, Wyoming o Delaware. EIN, Operating Agreement, compte USA (Slash, Wise, Relay, Mercury) i compliance 12 mesos.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1317,9 +1402,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Estructuració fiscal internacional: serveis de LLC als EUA",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1330,7 +1415,12 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Product",
+        "Product",
+        "Product",
+        "ProfessionalService"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1340,7 +1430,10 @@
         "constitució llc",
         "manteniment llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [],
+      "keywordTokensMissingInTitleOrDesc": [
+        "constitució llc",
+        "manteniment llc"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1371,8 +1464,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC en EE.UU. para no residentes: Guía 2026 | Exentax",
+      "ogDescription": "Todo sobre LLC en Estados Unidos: ventajas fiscales, cómo constituirla paso a paso, banca en dólares, Stripe, obligaciones IRS y errores a evitar.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1389,9 +1482,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC en Estados Unidos para no residentes: Guía completa 2026",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1402,7 +1495,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Article"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1443,8 +1538,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "US LLC for non-residents: Complete guide 2026 | Exentax",
+      "ogDescription": "Everything about US LLCs: tax advantages, step-by-step formation, dollar banking, Stripe, IRS obligations and mistakes to avoid.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1461,9 +1556,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "US LLC for non-residents: the complete 2026 guide",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1474,7 +1569,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Article"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1515,8 +1612,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC aux USA pour non-résidents: Guide 2026 | Exentax",
+      "ogDescription": "Tout sur les LLC aux États-Unis : avantages fiscaux, constitution étape par étape, banque en dollars, Stripe, obligations IRS et erreurs à éviter.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1533,9 +1630,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC américaine pour non-résidents: guide complet 2026",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1546,7 +1643,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Article"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1587,8 +1686,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "US-LLC für Nicht-Residenten: Leitfaden 2026 | Exentax",
+      "ogDescription": "Alles über US-LLCs: Steuervorteile, Schritt-für-Schritt-Gründung, Dollar-Banking, Stripe, IRS-Pflichten und Fehler die man vermeiden sollte.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1605,9 +1704,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "US-LLC für Nicht-Residenten: vollständiger Leitfaden 2026",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1618,7 +1717,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Article"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1659,8 +1760,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC nos EUA para não residentes: Guia 2026 | Exentax",
+      "ogDescription": "Tudo sobre LLC nos Estados Unidos: vantagens fiscais, como constituir passo a passo, banco em dólares, Stripe, obrigações IRS e erros a evitar.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1677,9 +1778,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC americana para não residentes: guia completo 2026",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1690,7 +1791,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Article"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1731,8 +1834,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC als EUA per a no residents: Guia 2026 | Exentax",
+      "ogDescription": "Tot sobre LLC als Estats Units: avantatges fiscals, com constituir-la pas a pas, banca en dòlars, Stripe, obligacions IRS i errors a evitar.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1749,9 +1852,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC als EUA per a no residents: guia completa 2026",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1762,7 +1865,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Article"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1802,8 +1907,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Preguntas frecuentes sobre LLC en EE.UU. | Exentax",
+      "ogDescription": "¿Es legal? ¿Cuánto cuesta? ¿Qué impuestos pago? Respondemos todas las dudas sobre LLC en Estados Unidos para freelancers y autónomos.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1820,9 +1925,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Preguntas Frecuentes: LLC y Fiscalidad Internacional",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1833,7 +1938,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "FAQPage",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1875,8 +1982,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Frequently asked questions about US LLCs | Exentax",
+      "ogDescription": "Is it legal? How much does it cost? What taxes do I pay? We answer all questions about US LLCs for freelancers and self-employed professionals.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1893,9 +2000,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Frequently asked questions: US LLC and international tax",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1906,7 +2013,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "FAQPage",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -1948,8 +2057,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Questions fréquentes sur les LLC aux USA | Exentax",
+      "ogDescription": "Est-ce légal ? Combien ça coûte ? Quels impôts je paie ? Toutes les réponses sur les LLC aux États-Unis pour freelances et indépendants.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -1966,9 +2075,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Questions fréquentes: LLC américaine et fiscalité internationale",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -1979,7 +2088,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "FAQPage",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2021,8 +2132,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Häufige Fragen zu US-LLCs | Exentax",
+      "ogDescription": "Ist es legal? Was kostet es? Welche Steuern zahle ich? Alle Antworten zu LLCs in den USA für Freelancer und Selbständige.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2039,9 +2150,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Häufige Fragen: US-LLC und internationale Besteuerung",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2052,7 +2163,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "FAQPage",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2094,8 +2207,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Perguntas frequentes sobre LLC nos EUA | Exentax",
+      "ogDescription": "É legal? Quanto custa? Quais impostos pago? Respondemos todas as dúvidas sobre LLC nos Estados Unidos para freelancers e autônomos.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2112,9 +2225,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Perguntas frequentes: LLC americana e tributação internacional",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2125,7 +2238,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "FAQPage",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2167,8 +2282,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Preguntes freqüents sobre LLC als EUA | Exentax",
+      "ogDescription": "És legal? Quant costa? Quins impostos pago? Responem tots els dubtes sobre LLC als Estats Units per a freelancers i autònoms.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2185,9 +2300,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Preguntes freqüents: LLC als EUA i fiscalitat internacional",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2198,7 +2313,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "FAQPage",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2230,10 +2347,10 @@
       "sotPresent": true,
       "title": "Asesoría fiscal estratégica 30 min | Exentax",
       "titleLength": 44,
-      "metaDescription": "Agendar asesoría fiscal Exentax: llamada estratégica LLC de 30 minutos. Analizamos tu consultoría fiscal 30 minutos y calculamos el ahorro con una LLC.",
-      "metaDescriptionLength": 151,
+      "metaDescription": "Agendar asesoría fiscal Exentax: llamada estratégica LLC de 30 minutos. Analizamos tu asesoría fiscal 30 minutos y calculamos el ahorro con una LLC.",
+      "metaDescriptionLength": 148,
       "canonical": "https://exentax.com/es/agendar",
-      "sotKeywords": "asesoría, fiscal, agendar asesoría fiscal, llamada estratégica LLC, consultoría fiscal 30 minutos, asesoría LLC gratis, reservar llamada Exentax",
+      "sotKeywords": "asesoría, fiscal, agendar asesoría fiscal, llamada estratégica LLC, asesoría fiscal 30 minutos, asesoría LLC gratis, reservar llamada Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2241,8 +2358,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Asesoría fiscal estratégica 30 min | Exentax",
+      "ogDescription": "Reserva tu asesoría fiscal estratégica. En 30 minutos analizamos tu situación fiscal real y calculamos cuánto puedes ahorrar con una LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2259,9 +2376,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Asesoría Fiscal Estratégica: 30 Minutos por Videollamada",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2272,7 +2389,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Service"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2280,7 +2399,7 @@
         "fiscal",
         "agendar asesoría fiscal",
         "llamada estratégica llc",
-        "consultoría fiscal 30 minutos"
+        "asesoría fiscal 30 minutos"
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
@@ -2300,12 +2419,12 @@
       "path": "/en/book",
       "canonicalExpected": "https://exentax.com/en/book",
       "sotPresent": true,
-      "title": "30-min strategic tax consultation | Exentax",
-      "titleLength": 43,
-      "metaDescription": "Book tax consultation Exentax: strategic LLC call of 30 min. We deliver a 30-min tax consultation and calculate your savings with a US LLC.",
-      "metaDescriptionLength": 139,
+      "title": "30-min strategic tax advisory session | Exentax",
+      "titleLength": 47,
+      "metaDescription": "Book tax advisory session Exentax: strategic LLC call of 30 min. We deliver a 30-min tax advisory session and calculate your savings with a US LLC.",
+      "metaDescriptionLength": 147,
       "canonical": "https://exentax.com/en/book",
-      "sotKeywords": "strategic, consultation, book tax consultation, strategic LLC call, 30-min tax consultation, free LLC advisory, book Exentax call",
+      "sotKeywords": "strategic, advisory, book tax advisory session, strategic LLC call, 30-min tax advisory session, free LLC advisory, book Exentax call",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2313,8 +2432,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "30-min strategic tax advisory session | Exentax",
+      "ogDescription": "Book your strategic tax advisory session. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2331,9 +2450,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Strategic tax advisory session: 30 minutes over video",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2344,15 +2463,17 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Service"
       ],
       "slashHygiene": true,
       "keywordTokens": [
         "strategic",
-        "consultation",
-        "book tax consultation",
+        "advisory",
+        "book tax advisory session",
         "strategic llc call",
-        "30-min tax consultation"
+        "30-min tax advisory session"
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
@@ -2385,8 +2506,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Consultation fiscale stratégique 30 min | Exentax",
+      "ogDescription": "Réservez votre consultation fiscale stratégique. En 30 minutes nous analysons votre situation fiscale et calculons vos économies avec une LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2403,9 +2524,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Consultation fiscale stratégique: 30 minutes en visioconférence",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2416,7 +2537,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Service"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2457,8 +2580,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "30-min strategische Steuerberatung | Exentax",
+      "ogDescription": "Buchen Sie Ihre strategische Steuerberatung. In 30 Minuten analysieren wir Ihre Steuersituation und berechnen Ihre Ersparnis mit einer LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2475,9 +2598,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Strategische Steuerberatung: 30 Minuten per Videocall",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2488,7 +2611,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Service"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2518,10 +2643,10 @@
       "sotPresent": true,
       "title": "Consultoria fiscal gratuita 30 min | Exentax",
       "titleLength": 44,
-      "metaDescription": "Agendar consultoria fiscal Exentax: chamada estratégica LLC de 30 min. Fazemos a consultoria fiscal 30 min e calculamos a economia com uma LLC.",
-      "metaDescriptionLength": 143,
+      "metaDescription": "Agendar assessoria fiscal Exentax: chamada estratégica LLC de 30 min. Fazemos a assessoria fiscal 30 min e calculamos a economia com uma LLC.",
+      "metaDescriptionLength": 141,
       "canonical": "https://exentax.com/pt/agendar",
-      "sotKeywords": "consultoria, fiscal, agendar consultoria fiscal, chamada estratégica LLC, consultoria fiscal 30 min, consultoria LLC grátis, reservar Exentax",
+      "sotKeywords": "consultoria, fiscal, agendar assessoria fiscal, chamada estratégica LLC, assessoria fiscal 30 min, assessoria LLC grátis, reservar Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2529,8 +2654,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Consultoria fiscal estratégica 30 min | Exentax",
+      "ogDescription": "Agende sua assessoria fiscal estratégica. Em 30 minutos analisamos sua situação fiscal real e calculamos quanto você pode economizar com uma LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2547,9 +2672,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Consultoria fiscal estratégica: 30 minutos por videochamada",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2560,15 +2685,17 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Service"
       ],
       "slashHygiene": true,
       "keywordTokens": [
         "consultoria",
         "fiscal",
-        "agendar consultoria fiscal",
+        "agendar assessoria fiscal",
         "chamada estratégica llc",
-        "consultoria fiscal 30 min"
+        "assessoria fiscal 30 min"
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
@@ -2593,7 +2720,7 @@
       "metaDescription": "Reservar assessoria fiscal Exentax: trucada estratègica LLC de 30 min. Fem l'assessoria fiscal 30 min i calculem l'estalvi amb una LLC als EUA.",
       "metaDescriptionLength": 143,
       "canonical": "https://exentax.com/ca/agendar",
-      "sotKeywords": "assessoria, fiscal, reservar assessoria fiscal, trucada estratègica LLC, assessoria fiscal 30 min, consultoria LLC gratuïta, reservar Exentax",
+      "sotKeywords": "assessoria, fiscal, reservar assessoria fiscal, trucada estratègica LLC, assessoria fiscal 30 min, assessoria LLC gratuïta, reservar Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2601,8 +2728,8 @@
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Assessoria fiscal estratègica 30 min | Exentax",
+      "ogDescription": "Reserva la teva assessoria fiscal estratègica. En 30 minuts analitzem la teva situació fiscal real i calculem quant pots estalviar amb una LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2619,9 +2746,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Assessoria fiscal estratègica: 30 minuts per videotrucada",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2632,7 +2759,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "BreadcrumbList",
+        "Service"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2668,13 +2797,13 @@
       "sotKeywords": "nuevo, méxico, LLC Nuevo México, LLC New Mexico no residentes, NM LLC sin informe anual, NM LLC privacidad, LLC barata Estados Unidos",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Nuevo México: 0% impuesto estatal para tu LLC | Exentax",
+      "ogDescription": "LLC en Nuevo México para no residentes: cero impuesto estatal, NM LLC sin informe anual y anonimato real. EIN, Mercury y BOI incluidos. Reserva tu llamada.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2691,9 +2820,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Nuevo México: 0% impuesto estatal para tu LLC",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2704,7 +2833,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2719,9 +2850,8 @@
         "llc new mexico no residentes"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -2743,13 +2873,13 @@
       "sotKeywords": "mexico, low-cost, New Mexico LLC, NM LLC non-resident, low-cost US LLC, no annual report LLC, NM LLC privacy, NM LLC formation",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "New Mexico LLC: low-cost privacy for solo founders | Exentax",
+      "ogDescription": "New Mexico LLC for non-residents: low-cost US LLC with no annual report, no franchise tax and full member anonymity. EIN, US bank and BOI included. Get started.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2766,9 +2896,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "New Mexico LLC: low-cost privacy for solo founders",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2779,7 +2909,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2793,9 +2925,8 @@
         "nm llc non-resident"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -2817,13 +2948,13 @@
       "sotKeywords": "nouveau-mexique, zéro, LLC Nouveau-Mexique, NM LLC non-résident, LLC US bas coût, LLC sans rapport annuel, NM LLC confidentialité",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC au Nouveau-Mexique : zéro paperasse annuelle | Exentax",
+      "ogDescription": "LLC Nouveau-Mexique pour non-résidents : LLC US bas coût, NM LLC sans rapport annuel ni franchise tax, anonymat total. EIN, banque et BOI inclus. Réservez.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2840,9 +2971,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC au Nouveau-Mexique : zéro paperasse annuelle",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2853,7 +2984,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2867,9 +3000,8 @@
         "nm llc non-résident"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -2891,13 +3023,13 @@
       "sotKeywords": "mexico, steueroptimiert, New Mexico LLC, NM LLC Nicht-Residenten, günstige US-LLC, LLC ohne Jahresbericht, NM LLC Anonymität",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "New Mexico LLC: steueroptimiert für Selbstständige | Exentax",
+      "ogDescription": "New Mexico LLC für Nicht-Residenten: günstige US-LLC ohne Jahresbericht, ohne Franchise Tax und mit voller Anonymität. EIN, Bank und BOI inklusive.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2914,9 +3046,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "New Mexico LLC: steueroptimiert für Selbstständige",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -2927,7 +3059,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -2941,9 +3075,8 @@
         "nm llc nicht-residenten"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -2965,13 +3098,13 @@
       "sotKeywords": "novo, méxico, LLC Novo México, NM LLC não residentes, LLC EUA baixo custo, LLC sem relatório anual, NM LLC privacidade",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC no Novo México: estrutura enxuta e barata | Exentax",
+      "ogDescription": "LLC Novo México para não residentes: LLC EUA baixo custo, sem relatório anual, sem franchise tax e com anonimato real. EIN, banco e BOI inclusos. Comece hoje.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -2988,9 +3121,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC no Novo México: estrutura enxuta e barata",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3001,7 +3134,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3015,9 +3150,8 @@
         "nm llc não residentes"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3039,13 +3173,13 @@
       "sotKeywords": "mèxic, cost, LLC Nou Mèxic, NM LLC no residents, LLC EUA baix cost, LLC sense informe anual, NM LLC privacitat",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC a Nou Mèxic: cost mínim i sense paperasses | Exentax",
+      "ogDescription": "LLC Nou Mèxic per a no residents: LLC EUA baix cost, NM LLC sense informe anual ni franchise tax i anonimat. EIN, banc i BOI inclosos. Comença avui.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3062,9 +3196,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC a Nou Mèxic: cost mínim i sense paperasses",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3075,7 +3209,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3089,9 +3225,8 @@
         "nm llc no residents"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3113,13 +3248,13 @@
       "sotKeywords": "wyoming, blindaje, LLC Wyoming, Wyoming LLC blindaje patrimonial, WY LLC anonimato, charging order Wyoming, LLC Wyoming no residentes",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Wyoming: blindaje patrimonial líder en EE. UU. | Exentax",
+      "ogDescription": "LLC Wyoming para no residentes: blindaje patrimonial con charging order exclusiva del país y WY LLC con anonimato real. Caso law sólido. Habla con un experto.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3136,9 +3271,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Wyoming: blindaje patrimonial líder en EE. UU.",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3149,7 +3284,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3164,9 +3301,8 @@
         "wy llc anonimato"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3188,13 +3324,13 @@
       "sotKeywords": "wyoming, gold-standard, Wyoming LLC, WY LLC asset protection, WY LLC anonymity, Wyoming charging order, Wyoming LLC for non-residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Wyoming LLC: gold-standard U.S. asset protection | Exentax",
+      "ogDescription": "Wyoming LLC for non-residents: WY LLC asset protection with the strongest charging-order statute in the US and full member anonymity. Talk to an expert.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3211,9 +3347,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Wyoming LLC: gold-standard U.S. asset protection",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3224,7 +3360,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3238,9 +3376,8 @@
         "wy llc anonymity"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3262,13 +3399,13 @@
       "sotKeywords": "wyoming, bouclier, LLC Wyoming, WY LLC protection patrimoniale, WY LLC anonymat, charging order Wyoming, LLC Wyoming non-résidents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC au Wyoming : bouclier patrimonial américain | Exentax",
+      "ogDescription": "LLC Wyoming non-résidents : WY LLC protection patrimoniale avec la charging order la plus solide des USA et anonymat. Jurisprudence solide. À discuter.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3285,9 +3422,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC au Wyoming : bouclier patrimonial américain",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3298,7 +3435,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3312,9 +3451,8 @@
         "wy llc anonymat"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3336,13 +3474,13 @@
       "sotKeywords": "wyoming, vermögensschutz, Wyoming LLC, WY LLC Vermögensschutz, WY LLC Anonymität, Wyoming Charging Order, Wyoming LLC Nicht-Residenten",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Wyoming LLC: Vermögensschutz nach US-Standard | Exentax",
+      "ogDescription": "Wyoming LLC für Nicht-Residenten: WY LLC Vermögensschutz mit exklusiver Charging Order und voller Anonymität. Solide Rechtsprechung. Jetzt anfragen.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3359,9 +3497,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Wyoming LLC: Vermögensschutz nach US-Standard",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3372,7 +3510,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3386,9 +3526,8 @@
         "wy llc anonymität"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3410,13 +3549,13 @@
       "sotKeywords": "wyoming, blindagem, LLC Wyoming, WY LLC blindagem patrimonial, WY LLC anonimato, charging order Wyoming, LLC Wyoming não residentes",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC no Wyoming: blindagem patrimonial premium | Exentax",
+      "ogDescription": "LLC Wyoming não residentes: WY LLC blindagem patrimonial com charging order exclusiva dos EUA e anonimato societário. Jurisprudência sólida. Fale connosco.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3433,9 +3572,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC no Wyoming: blindagem patrimonial premium",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3446,7 +3585,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3460,9 +3601,8 @@
         "wy llc anonimato"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3484,13 +3624,13 @@
       "sotKeywords": "wyoming, blindatge, LLC Wyoming, WY LLC blindatge patrimonial, WY LLC anonimat, charging order Wyoming, LLC Wyoming no residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC a Wyoming: el blindatge patrimonial dels EUA | Exentax",
+      "ogDescription": "LLC Wyoming no residents: WY LLC blindatge patrimonial amb charging order exclusiva dels EUA i anonimat. Jurisprudència sòlida. Parla amb un expert.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3507,9 +3647,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC a Wyoming: el blindatge patrimonial dels EUA",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3520,7 +3660,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3534,9 +3676,8 @@
         "wy llc anonimat"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3558,13 +3699,13 @@
       "sotKeywords": "delaware, favorita, LLC Delaware, Delaware LLC inversores, DE LLC startup, Delaware LLC venture capital, LLC Delaware no residentes",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Delaware: la LLC favorita de los inversores | Exentax",
+      "ogDescription": "LLC Delaware para no residentes y startups: la jurisdicción que exigen DE LLC inversores, VC, business angels y B2B. Court of Chancery y series LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3581,9 +3722,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Delaware: la LLC favorita de los inversores",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3594,7 +3735,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3609,9 +3752,8 @@
         "de llc startup"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3633,13 +3775,13 @@
       "sotKeywords": "delaware, choice, Delaware LLC, Delaware LLC for startups, DE LLC investors, Delaware LLC venture capital, Delaware LLC non-residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Delaware LLC: the choice of VCs and B2B buyers | Exentax",
+      "ogDescription": "Delaware LLC for non-residents and startups: the jurisdiction DE LLC investors, VCs and Fortune 500 buyers expect, with Court of Chancery on your side.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3656,9 +3798,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Delaware LLC: the choice of VCs and B2B buyers",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3669,7 +3811,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3683,9 +3827,8 @@
         "delaware llc for startups"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3707,13 +3850,13 @@
       "sotKeywords": "delaware, prête, LLC Delaware, Delaware LLC startup, DE LLC investisseurs, Delaware LLC capital-risque, LLC Delaware non-résidents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC au Delaware : prête pour la levée de fonds | Exentax",
+      "ogDescription": "LLC Delaware startup non-résidents : la structure attendue par DE LLC investisseurs, VC et acheteurs B2B. Court of Chancery et séries LLC. Rendez-vous.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3730,9 +3873,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC au Delaware : prête pour la levée de fonds",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3743,7 +3886,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3757,9 +3902,8 @@
         "delaware llc startup"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3781,13 +3925,13 @@
       "sotKeywords": "delaware, rechtssicherheit, Delaware LLC, Delaware LLC für Startups, DE LLC Investoren, Delaware LLC Venture Capital, Delaware LLC Nicht-Residenten",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Delaware LLC: Rechtssicherheit für Investoren | Exentax",
+      "ogDescription": "Delaware LLC für Startups und Nicht-Residenten: die Struktur, die DE LLC Investoren, VCs und Fortune-500-Käufer erwarten. Court of Chancery, Series LLC.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3804,9 +3948,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Delaware LLC: Rechtssicherheit für Investoren",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3817,7 +3961,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3829,9 +3975,8 @@
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3853,13 +3998,13 @@
       "sotKeywords": "delaware, pronta, LLC Delaware, Delaware LLC startups, DE LLC investidores, Delaware LLC venture capital, LLC Delaware não residentes",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC em Delaware: pronta para investidores e M&A | Exentax",
+      "ogDescription": "LLC Delaware startups não residentes: a jurisdição esperada por DE LLC investidores, VCs e B2B nos EUA. Court of Chancery e Series LLC. Fale connosco.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3876,9 +4021,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC em Delaware: pronta para investidores e M&amp;A",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3889,7 +4034,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3903,9 +4050,8 @@
         "delaware llc startups"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -3927,13 +4073,13 @@
       "sotKeywords": "delaware, pensada, LLC Delaware, Delaware LLC startups, DE LLC inversors, Delaware LLC venture capital, LLC Delaware no residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC a Delaware: pensada per aixecar capital VC | Exentax",
+      "ogDescription": "LLC Delaware startups no residents: la jurisdicció que demanen DE LLC inversors, VC i B2B als EUA. Court of Chancery i series LLC. Reserva la trucada.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -3950,9 +4096,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC a Delaware: pensada per aixecar capital VC",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -3963,7 +4109,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -3977,9 +4125,8 @@
         "delaware llc startups"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4001,13 +4148,13 @@
       "sotKeywords": "florida, puerta, LLC Florida, Florida LLC mercado hispano, Miami LLC, FL LLC e-commerce, LLC Florida no residentes",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Florida LLC: tu puerta al mercado hispano de Miami | Exentax",
+      "ogDescription": "LLC Florida para no residentes: tu puerta al Florida LLC mercado hispano de Miami LLC con presencia real, banca en español y 0% de impuesto estatal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4024,9 +4171,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Florida LLC: tu puerta al mercado hispano de Miami",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4037,7 +4184,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4049,9 +4198,8 @@
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4073,13 +4221,13 @@
       "sotKeywords": "florida, gateway, Florida LLC, Florida LLC Latin market, Miami LLC, FL LLC e-commerce, Florida LLC non-residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Florida LLC: your gateway to Miami",
+      "ogDescription": "Florida LLC for non-residents: a real Miami LLC footprint with bilingual banking, 0% state income tax and direct access to the Florida LLC Latin market.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4096,9 +4244,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Florida LLC: your gateway to Miami's Latin market",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4109,7 +4257,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4121,9 +4271,8 @@
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4145,13 +4294,13 @@
       "sotKeywords": "floride, accès, LLC Floride, Floride LLC marché latino, Miami LLC, FL LLC e-commerce, LLC Floride non-résidents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC en Floride : accès direct au marché latino | Exentax",
+      "ogDescription": "LLC Floride non-résidents : Miami LLC avec vraie présence américaine, banque francophone et accès au Floride LLC marché latino. Avec EIN et BOI inclus.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4168,9 +4317,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC en Floride : accès direct au marché latino",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4181,7 +4330,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4193,9 +4344,8 @@
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4217,13 +4367,13 @@
       "sotKeywords": "florida, lateinamerikanischen, Florida LLC, Florida LLC lateinamerikanischer Markt, Miami LLC, FL LLC E-Commerce, Florida LLC Nicht-Residenten",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Florida LLC: Tor zum lateinamerikanischen Markt | Exentax",
+      "ogDescription": "Florida LLC für Nicht-Residenten: Miami LLC mit physischer Präsenz, spanischsprachigem Banking und Zugang zum Florida LLC lateinamerikanischen Markt.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4240,9 +4390,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "Florida LLC: Tor zum lateinamerikanischen Markt",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4253,7 +4403,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4267,9 +4419,8 @@
         "florida llc lateinamerikanischer markt"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4291,13 +4442,13 @@
       "sotKeywords": "flórida, ponte, LLC Flórida, Flórida LLC mercado latino, Miami LLC, FL LLC e-commerce, LLC Flórida não residentes",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC na Flórida: ponte para o mercado de Miami | Exentax",
+      "ogDescription": "LLC Flórida não residentes: Miami LLC com presença real, banco em português e acesso ao Flórida LLC mercado latino. Inclui EIN e BOI. Agende sua chamada.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4314,9 +4465,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC na Flórida: ponte para o mercado de Miami",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4327,7 +4478,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4339,9 +4492,8 @@
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4363,13 +4515,13 @@
       "sotKeywords": "florida, pont, LLC Florida, Florida LLC mercat llatí, Miami LLC, FL LLC e-commerce, LLC Florida no residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "LLC a Florida: pont català cap al mercat llatí | Exentax",
+      "ogDescription": "LLC Florida no residents: Miami LLC amb presència real, banca en castellà i accés al Florida LLC mercat llatí. Inclou EIN i BOI. Reserva la teva trucada.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4386,9 +4538,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "LLC a Florida: pont català cap al mercat llatí",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4399,7 +4551,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4411,9 +4565,8 @@
       ],
       "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4429,19 +4582,19 @@
       "sotPresent": true,
       "title": "ITIN sin viajar a EE. UU.: lo gestionamos por ti | Exentax",
       "titleLength": 58,
-      "metaDescription": "ITIN sin viajar para no residentes: olvídate del consulado y del pasaporte. Obtener ITIN remoto con Certifying Acceptance Agent ante el IRS y W-7 incluido.",
+      "metaDescription": "ITIN sin viajar para no residentes: olvídate del consulado y del pasaporte. Obtener ITIN online con Certifying Acceptance Agent ante el IRS y W-7 incluido.",
       "metaDescriptionLength": 155,
       "canonical": "https://exentax.com/es/servicios/obten-tu-itin",
-      "sotKeywords": "itin, viajar, ITIN sin viajar, ITIN no residentes, obtener ITIN remoto, ITIN para LLC, ITIN W-7 gestión, ITIN IRS",
+      "sotKeywords": "itin, viajar, ITIN sin viajar, ITIN no residentes, obtener ITIN online, ITIN para LLC, ITIN W-7 gestión, ITIN IRS",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "ITIN sin viajar a EE. UU.: lo gestionamos por ti | Exentax",
+      "ogDescription": "ITIN sin viajar para no residentes: olvídate del consulado y del pasaporte. Obtener ITIN online con Certifying Acceptance Agent ante el IRS y W-7 incluido.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4458,9 +4611,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "ITIN sin viajar a EE. UU.: lo gestionamos por ti",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4471,7 +4624,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4479,15 +4634,14 @@
         "viajar",
         "itin sin viajar",
         "itin no residentes",
-        "obtener itin remoto"
+        "obtener itin online"
       ],
       "keywordTokensMissingInTitleOrDesc": [
         "itin no residentes"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4503,19 +4657,19 @@
       "sotPresent": true,
       "title": "ITIN without leaving home: skip the IRS in person | Exentax",
       "titleLength": 59,
-      "metaDescription": "ITIN without travel for non-residents: skip the IRS office and embassy queue. Get ITIN remotely with our Certifying Acceptance Agent and W-7 ITIN service.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "ITIN without travel for non-residents: skip the IRS office and embassy queue. Get ITIN online with our Certifying Acceptance Agent and W-7 ITIN service.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/en/services/get-your-itin",
-      "sotKeywords": "itin, leaving, ITIN without travel, ITIN for non-residents, get ITIN remotely, ITIN for LLC, W-7 ITIN service, IRS ITIN",
+      "sotKeywords": "itin, leaving, ITIN without travel, ITIN for non-residents, get ITIN online, ITIN for LLC, W-7 ITIN service, IRS ITIN",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "ITIN without leaving home: skip the IRS in person | Exentax",
+      "ogDescription": "ITIN without travel for non-residents: skip the IRS office and embassy queue. Get ITIN online with our Certifying Acceptance Agent and W-7 ITIN service.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4532,9 +4686,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "ITIN without leaving home: skip the IRS in person",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4545,7 +4699,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4553,15 +4709,14 @@
         "leaving",
         "itin without travel",
         "itin for non-residents",
-        "get itin remotely"
+        "get itin online"
       ],
       "keywordTokensMissingInTitleOrDesc": [
         "itin for non-residents"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4575,21 +4730,21 @@
       "path": "/fr/services/obtiens-ton-itin",
       "canonicalExpected": "https://exentax.com/fr/services/obtiens-ton-itin",
       "sotPresent": true,
-      "title": "ITIN sans ambassade : nous le gérons à distance | Exentax",
-      "titleLength": 57,
-      "metaDescription": "ITIN sans voyager pour non-résidents : évitez l'ambassade et le passeport. Obtenir ITIN à distance avec notre Certifying Acceptance Agent et service W-7.",
-      "metaDescriptionLength": 153,
+      "title": "ITIN sans ambassade : nous le gérons en ligne | Exentax",
+      "titleLength": 55,
+      "metaDescription": "ITIN sans voyager pour non-résidents : évitez l'ambassade et le passeport. Obtenir ITIN en ligne avec notre Certifying Acceptance Agent et service W-7.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/fr/services/obtiens-ton-itin",
-      "sotKeywords": "itin, ambassade, ITIN sans voyager, ITIN non-résidents, obtenir ITIN à distance, ITIN pour LLC, service ITIN W-7, IRS ITIN",
+      "sotKeywords": "itin, ambassade, ITIN sans voyager, ITIN non-résidents, obtenir ITIN en ligne, ITIN pour LLC, service ITIN W-7, IRS ITIN",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "ITIN sans ambassade : nous le gérons en ligne | Exentax",
+      "ogDescription": "ITIN sans voyager pour non-résidents : évitez l",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4606,9 +4761,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "ITIN sans ambassade : nous le gérons en ligne",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4619,7 +4774,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4627,15 +4784,14 @@
         "ambassade",
         "itin sans voyager",
         "itin non-résidents",
-        "obtenir itin à distance"
+        "obtenir itin en ligne"
       ],
       "keywordTokensMissingInTitleOrDesc": [
         "itin non-résidents"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4651,19 +4807,19 @@
       "sotPresent": true,
       "title": "ITIN ohne Botschaft: alles aus einer Hand erledigt | Exentax",
       "titleLength": 60,
-      "metaDescription": "ITIN ohne Reise für Nicht-Residenten: kein Botschaftstermin nötig. ITIN remote beantragen mit unserem Certifying Acceptance Agent und W-7 ITIN Service.",
+      "metaDescription": "ITIN ohne Reise für Nicht-Residenten: kein Botschaftstermin nötig. ITIN online beantragen mit unserem Certifying Acceptance Agent und W-7 ITIN Service.",
       "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/de/leistungen/hol-deine-itin",
-      "sotKeywords": "itin, botschaft, ITIN ohne Reise, ITIN für Nicht-Residenten, ITIN remote beantragen, ITIN für LLC, W-7 ITIN Service, IRS ITIN",
+      "sotKeywords": "itin, botschaft, ITIN ohne Reise, ITIN für Nicht-Residenten, ITIN online beantragen, ITIN für LLC, W-7 ITIN Service, IRS ITIN",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "ITIN ohne Botschaft: alles aus einer Hand erledigt | Exentax",
+      "ogDescription": "ITIN ohne Reise für Nicht-Residenten: kein Botschaftstermin nötig. ITIN online beantragen mit unserem Certifying Acceptance Agent und W-7 ITIN Service.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4680,9 +4836,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "ITIN ohne Botschaft: alles aus einer Hand erledigt",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4693,7 +4849,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4701,15 +4859,14 @@
         "botschaft",
         "itin ohne reise",
         "itin für nicht-residenten",
-        "itin remote beantragen"
+        "itin online beantragen"
       ],
       "keywordTokensMissingInTitleOrDesc": [
         "itin für nicht-residenten"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4725,19 +4882,19 @@
       "sotPresent": true,
       "title": "ITIN sem viajar aos EUA: tudo gerenciado por nós | Exentax",
       "titleLength": 58,
-      "metaDescription": "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN remotamente com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN online com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
+      "metaDescriptionLength": 149,
       "canonical": "https://exentax.com/pt/servicos/obtenha-seu-itin",
-      "sotKeywords": "itin, viajar, ITIN sem viajar, ITIN não residentes, obter ITIN remotamente, ITIN para LLC, serviço ITIN W-7, IRS ITIN",
+      "sotKeywords": "itin, viajar, ITIN sem viajar, ITIN não residentes, obter ITIN online, ITIN para LLC, serviço ITIN W-7, IRS ITIN",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "ITIN sem viajar aos EUA: tudo gerenciado por nós | Exentax",
+      "ogDescription": "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN online com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4754,9 +4911,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "ITIN sem viajar aos EUA: tudo gerenciado por nós",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4767,7 +4924,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4775,15 +4934,14 @@
         "viajar",
         "itin sem viajar",
         "itin não residentes",
-        "obter itin remotamente"
+        "obter itin online"
       ],
       "keywordTokensMissingInTitleOrDesc": [
         "itin não residentes"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4799,19 +4957,19 @@
       "sotPresent": true,
       "title": "ITIN sense viatjar als EUA: ho gestionem nosaltres | Exentax",
       "titleLength": 60,
-      "metaDescription": "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN remotament amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN online amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/ca/serveis/obte-el-teu-itin",
-      "sotKeywords": "itin, viatjar, ITIN sense viatjar, ITIN no residents, obtenir ITIN remotament, ITIN per a LLC, servei ITIN W-7, IRS ITIN",
+      "sotKeywords": "itin, viatjar, ITIN sense viatjar, ITIN no residents, obtenir ITIN online, ITIN per a LLC, servei ITIN W-7, IRS ITIN",
       "sotNoindex": false,
       "sotJsonLdTypes": [
-        "Service",
+        "ProfessionalService",
         "BreadcrumbList"
       ],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "ITIN sense viatjar als EUA: ho gestionem nosaltres | Exentax",
+      "ogDescription": "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN online amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4828,9 +4986,9 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
-      "jsonLdCount": 6,
+      "h1CountLive": 1,
+      "h1First": "ITIN sense viatjar als EUA: ho gestionem nosaltres",
+      "jsonLdCount": 7,
       "jsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4841,7 +4999,9 @@
         "SiteNavigationElement",
         "SiteNavigationElement",
         "SiteNavigationElement",
-        "SiteNavigationElement"
+        "SiteNavigationElement",
+        "ProfessionalService",
+        "BreadcrumbList"
       ],
       "slashHygiene": true,
       "keywordTokens": [
@@ -4849,15 +5009,14 @@
         "viatjar",
         "itin sense viatjar",
         "itin no residents",
-        "obtenir itin remotament"
+        "obtenir itin online"
       ],
       "keywordTokensMissingInTitleOrDesc": [
         "itin no residents"
       ],
       "effectiveJsonLdTypes": [
-        "Service",
-        "BreadcrumbList",
         "ProfessionalService",
+        "BreadcrumbList",
         "Organization",
         "WebSite",
         "ItemList",
@@ -4881,8 +5040,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Términos y condiciones | Exentax",
+      "ogDescription": "Términos y condiciones de Exentax. Constitución y gestión de LLC en EE.UU., planificación fiscal internacional y asesoría continua para autónomos.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4899,8 +5058,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Términos y condiciones",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -4948,8 +5107,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Terms and Conditions | Exentax",
+      "ogDescription": "Exentax terms and conditions: LLC service terms and LLC terms for US LLC formation, management and international tax advisory services.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -4966,8 +5125,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Terms and Conditions",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5015,8 +5174,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Conditions générales | Exentax",
+      "ogDescription": "Conditions générales Exentax : conditions de service LLC et termes LLC pour la constitution et gestion de LLC aux États-Unis et conseil fiscal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5033,8 +5192,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Conditions générales",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5082,8 +5241,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Allgemeine Geschäftsbedingungen | Exentax",
+      "ogDescription": "Exentax AGB: LLC Dienstleistungsbedingungen und LLC Bedingungen für die Gründung, Verwaltung von US-LLCs und internationale Steuerberatung.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5100,8 +5259,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Allgemeine Geschäftsbedingungen",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5149,8 +5308,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Termos e condições | Exentax",
+      "ogDescription": "Termos e condições Exentax: condições serviço LLC e termos LLC para constituição e gestão de LLC nos EUA e assessoria fiscal internacional.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5167,8 +5326,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Termos e condições",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5216,8 +5375,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Termes i condicions | Exentax",
+      "ogDescription": "Termes i condicions Exentax: condicions servei LLC i termes LLC per a la constitució i gestió de LLC als EUA i assessoria fiscal internacional.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5234,8 +5393,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Termes i condicions",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5283,8 +5442,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de privacidad | Exentax",
+      "ogDescription": "Política de privacidad de Exentax. Cómo recopilamos, usamos y protegemos tus datos personales en los servicios de optimización fiscal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5301,8 +5460,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de privacidad",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5350,8 +5509,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Privacy Policy | Exentax",
+      "ogDescription": "Exentax privacy policy: GDPR Exentax and LLC data protection. How we collect, use, and protect your personal data in our tax advisory services.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5368,8 +5527,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Privacy Policy",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5417,8 +5576,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Politique de confidentialité | Exentax",
+      "ogDescription": "Politique confidentialité Exentax : RGPD Exentax et protection données LLC. Comment nous collectons et protégeons vos données en conseil fiscal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5435,8 +5594,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Politique de confidentialité",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5484,8 +5643,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Datenschutzrichtlinie | Exentax",
+      "ogDescription": "Exentax Datenschutz: DSGVO Exentax und LLC Datenschutz. Wie wir personenbezogene Daten in der internationalen Steuerberatung verarbeiten.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5502,8 +5661,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Datenschutzrichtlinie",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5551,8 +5710,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de privacidade | Exentax",
+      "ogDescription": "Política privacidade Exentax: RGPD Exentax e proteção dados LLC. Como recolhemos, usamos e protegemos os seus dados na assessoria fiscal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5569,8 +5728,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de privacidade",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5618,8 +5777,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de privacitat | Exentax",
+      "ogDescription": "Política privacitat Exentax: RGPD Exentax i protecció dades LLC. Com recopilem, utilitzem i protegim les teves dades en l",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5636,8 +5795,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de privacitat",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5685,8 +5844,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de cookies | Exentax",
+      "ogDescription": "Información sobre el uso de cookies en exentax.com. Asesoría especializada en optimización fiscal legal para autónomos y freelancers.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5703,8 +5862,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de cookies",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5752,8 +5911,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Cookie Policy | Exentax",
+      "ogDescription": "Exentax cookie policy: LLC cookie management at cookies exentax.com. Which cookies we use and how to configure them in our tax advisory services.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5770,8 +5929,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Cookie Policy",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5819,8 +5978,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Politique de cookies | Exentax",
+      "ogDescription": "Politique cookies Exentax : gestion cookies LLC sur cookies exentax.com. Quels cookies nous utilisons et comment les configurer en conseil fiscal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5837,8 +5996,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Politique de cookies",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5886,8 +6045,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Cookie-Richtlinie | Exentax",
+      "ogDescription": "Exentax Cookie-Richtlinie: LLC Cookie-Verwaltung auf cookies exentax.com. Welche Cookies wir verwenden und wie Sie sie in der Steuerberatung steuern.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5904,8 +6063,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Cookie-Richtlinie",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -5953,8 +6112,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de cookies | Exentax",
+      "ogDescription": "Política cookies Exentax: gestão cookies LLC em cookies exentax.com. Quais cookies usamos e como configurá-los na assessoria fiscal internacional.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -5971,8 +6130,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de cookies",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6020,8 +6179,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de galetes | Exentax",
+      "ogDescription": "Política galetes Exentax: gestió galetes LLC a galetes exentax.com. Quines galetes usem i com configurar-les a l",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6038,8 +6197,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de galetes",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6087,8 +6246,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de reembolsos | Exentax",
+      "ogDescription": "Política de reembolsos de Exentax. Cancelaciones, devoluciones y garantías en los servicios de constitución LLC y optimización fiscal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6105,8 +6264,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de reembolsos",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6154,8 +6313,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Refund Policy | Exentax",
+      "ogDescription": "Exentax refund policy: LLC refunds and LLC service cancellation with Exentax guarantee. Clear terms for LLC formation and tax optimization services.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6172,8 +6331,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Refund Policy",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6221,8 +6380,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Politique de remboursement | Exentax",
+      "ogDescription": "Politique remboursement Exentax : remboursements LLC et annulation service LLC avec garantie Exentax. Conditions claires pour constitution LLC et fiscalité.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6239,8 +6398,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Politique de remboursement",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6288,8 +6447,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Erstattungsrichtlinie | Exentax",
+      "ogDescription": "Exentax Erstattungsrichtlinie: LLC Erstattungen und LLC Servicekündigung mit Exentax Garantie. Klare Bedingungen für LLC-Gründung und Steueroptimierung.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6306,8 +6465,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Erstattungsrichtlinie",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6355,8 +6514,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de reembolso | Exentax",
+      "ogDescription": "Política reembolso Exentax: reembolsos LLC e cancelamento serviço LLC com garantia Exentax. Termos claros na constituição LLC e otimização fiscal.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6373,8 +6532,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de reembolso",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6422,8 +6581,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Política de reemborsament | Exentax",
+      "ogDescription": "Política reemborsament Exentax: reemborsaments LLC i cancel·lació servei LLC amb garantia Exentax. Termes clars en constitució LLC i fiscalitat.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6440,8 +6599,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Política de reemborsament",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6489,8 +6648,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Disclaimer legal y fiscal | Exentax",
+      "ogDescription": "Disclaimer legal y fiscal de Exentax. Información sobre la naturaleza de nuestros servicios, limitaciones de responsabilidad y obligaciones del cliente.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6507,8 +6666,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Disclaimer legal y fiscal",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6556,8 +6715,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Legal and Tax Disclaimer | Exentax",
+      "ogDescription": "Exentax disclaimer: LLC legal disclaimer and Exentax liability limitations. This is not legal advice without signed engagement or prior fact analysis.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6574,8 +6733,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Legal and Tax Disclaimer",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6623,8 +6782,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Avertissement juridique et fiscal | Exentax",
+      "ogDescription": "Avertissement Exentax : disclaimer LLC et limitations responsabilité Exentax. Pas de conseil juridique sans contrat signé ni analyse de faits préalable.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6641,8 +6800,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Avertissement juridique et fiscal",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6690,8 +6849,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Rechts- und Steuerhaftungsausschluss | Exentax",
+      "ogDescription": "Exentax Haftungsausschluss: LLC Disclaimer und Exentax Haftungsbeschränkungen. Keine Rechtsberatung ohne Mandat und vorherige Sachverhaltsanalyse.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6708,8 +6867,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Rechts- und Steuerhaftungsausschluss",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6757,8 +6916,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Aviso legal e fiscal | Exentax",
+      "ogDescription": "Aviso Exentax: disclaimer LLC e limitações responsabilidade Exentax. Não é aconselhamento jurídico sem contrato assinado e análise prévia dos factos.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6775,8 +6934,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Aviso legal e fiscal",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6824,8 +6983,8 @@
       "sotJsonLdTypes": [],
       "fetched": true,
       "httpStatus": 200,
-      "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
-      "ogDescription": "Asesores fiscales expertos constituyen tu LLC americana en 48 horas. Reduce tu carga fiscal del 40% al 8-12% legalmente. Fiscalidad premium y asesoría gratuita 30 min.",
+      "ogTitle": "Avís legal i fiscal | Exentax",
+      "ogDescription": "Avís Exentax: disclaimer LLC i limitacions responsabilitat Exentax. No és assessorament jurídic sense contracte signat i anàlisi prèvia dels fets.",
       "ogType": "website",
       "ogImage": "https://exentax.com/og-image.png?v=2026c",
       "twitterCard": "summary_large_image",
@@ -6842,8 +7001,8 @@
       ],
       "h1Count": 1,
       "h1CountSot": 1,
-      "h1CountLive": 0,
-      "h1First": null,
+      "h1CountLive": 1,
+      "h1First": "Avís legal i fiscal",
       "jsonLdCount": 6,
       "jsonLdTypes": [
         "ProfessionalService",
@@ -6876,7 +7035,107 @@
       ]
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "criticality": "P1",
+      "area": "meta-description-too-long",
+      "location": "/es",
+      "description": "Meta description de 176 (>160)",
+      "evidence": "Una LLC americana bien estructurada paga hasta 0% en IRS federal. EIN sin viajar, cuenta USA (Slash, Wise, Relay, Mercury) y compliance incluidos. Para freelancers y autónomos.",
+      "suggestion": "Acortar a ≤160",
+      "languages": [
+        "es"
+      ]
+    },
+    {
+      "criticality": "P1",
+      "area": "meta-description-too-long",
+      "location": "/en",
+      "description": "Meta description de 170 (>160)",
+      "evidence": "A well-structured US LLC pays up to 0% federal IRS. EIN without travel, US bank account (Slash, Wise, Relay, Mercury) and full compliance included. Built for freelancers.",
+      "suggestion": "Acortar a ≤160",
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "keyword-positioning",
+      "location": "/en",
+      "description": "3/5 keywords sin presencia en title o description",
+      "evidence": "{\"missing\":[\"us llc for non-residents\",\"legally pay less tax\",\"freelancer llc formation\"],\"presentTokens\":[\"less\",\"taxes\"]}",
+      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "criticality": "P1",
+      "area": "meta-description-too-long",
+      "location": "/fr",
+      "description": "Meta description de 171 (>160)",
+      "evidence": "Une LLC américaine bien structurée paie jusqu'à 0% d'impôt fédéral US. EIN sans déplacement, compte US (Slash, Wise, Relay, Mercury) et compliance inclus. Pour freelances.",
+      "suggestion": "Acortar a ≤160",
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "keyword-positioning",
+      "location": "/fr",
+      "description": "3/5 keywords sin presencia en title o description",
+      "evidence": "{\"missing\":[\"llc états-unis\",\"payer moins d'impôts légalement\",\"llc pour freelances\"],\"presentTokens\":[\"payez\",\"moins\"]}",
+      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "keyword-positioning",
+      "location": "/de",
+      "description": "3/5 keywords sin presencia en title o description",
+      "evidence": "{\"missing\":[\"us llc für nicht-residenten\",\"legal weniger steuern zahlen\",\"llc für freelancer\"],\"presentTokens\":[\"zahlen\",\"legal\"]}",
+      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
+      "languages": [
+        "de"
+      ]
+    },
+    {
+      "criticality": "P1",
+      "area": "meta-description-too-long",
+      "location": "/pt",
+      "description": "Meta description de 166 (>160)",
+      "evidence": "Uma LLC americana bem estruturada paga até 0% de imposto federal US. EIN sem viajar, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Para freelancers.",
+      "suggestion": "Acortar a ≤160",
+      "languages": [
+        "pt"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "keyword-positioning",
+      "location": "/pt",
+      "description": "3/5 keywords sin presencia en title o description",
+      "evidence": "{\"missing\":[\"llc estados unidos\",\"pagar menos impostos legalmente\",\"llc para freelancers\"],\"presentTokens\":[\"pague\",\"impostos\"]}",
+      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
+      "languages": [
+        "pt"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "keyword-positioning",
+      "location": "/ca",
+      "description": "3/5 keywords sin presencia en title o description",
+      "evidence": "{\"missing\":[\"llc estats units\",\"pagar menys impostos legalment\",\"llc per a autònoms\"],\"presentTokens\":[\"paga\",\"menys\"]}",
+      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
+      "languages": [
+        "ca"
+      ]
+    }
+  ],
   "keywordPositioning": {
     "note": "Mapa keyword→página objetivo declarado en server/seo-content.ts vía PAGE_META.keywords. Auditoría cruza tokens contra title+description del SSR.",
     "byLang": {
@@ -6884,48 +7143,48 @@
         "routesTotal": 16,
         "routesWithKeywordsDeclared": 16,
         "routesWithoutKeywords": 0,
-        "routesWithFullKeywordCoverage": 10,
-        "routesWithPartialKeywordCoverage": 6,
+        "routesWithFullKeywordCoverage": 9,
+        "routesWithPartialKeywordCoverage": 7,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "en": {
         "routesTotal": 16,
         "routesWithKeywordsDeclared": 16,
         "routesWithoutKeywords": 0,
-        "routesWithFullKeywordCoverage": 10,
-        "routesWithPartialKeywordCoverage": 6,
+        "routesWithFullKeywordCoverage": 9,
+        "routesWithPartialKeywordCoverage": 7,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "fr": {
         "routesTotal": 16,
         "routesWithKeywordsDeclared": 16,
         "routesWithoutKeywords": 0,
-        "routesWithFullKeywordCoverage": 10,
-        "routesWithPartialKeywordCoverage": 6,
+        "routesWithFullKeywordCoverage": 9,
+        "routesWithPartialKeywordCoverage": 7,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "de": {
         "routesTotal": 16,
         "routesWithKeywordsDeclared": 16,
         "routesWithoutKeywords": 0,
-        "routesWithFullKeywordCoverage": 10,
-        "routesWithPartialKeywordCoverage": 6,
+        "routesWithFullKeywordCoverage": 9,
+        "routesWithPartialKeywordCoverage": 7,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "pt": {
         "routesTotal": 16,
         "routesWithKeywordsDeclared": 16,
         "routesWithoutKeywords": 0,
-        "routesWithFullKeywordCoverage": 10,
-        "routesWithPartialKeywordCoverage": 6,
+        "routesWithFullKeywordCoverage": 9,
+        "routesWithPartialKeywordCoverage": 7,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "ca": {
         "routesTotal": 16,
         "routesWithKeywordsDeclared": 16,
         "routesWithoutKeywords": 0,
-        "routesWithFullKeywordCoverage": 10,
-        "routesWithPartialKeywordCoverage": 6,
+        "routesWithFullKeywordCoverage": 9,
+        "routesWithPartialKeywordCoverage": 7,
         "routesWithNoKeywordInTitleOrDesc": 0
       }
     }
@@ -6949,7 +7208,7 @@
     "userAgentGroups": [
       {
         "agent": "*",
-        "allowCount": 11,
+        "allowCount": 13,
         "disallowCount": 23,
         "disallow": [
           "/api/",
@@ -6975,6 +7234,386 @@
           "/*?fbclid=",
           "/*?mc_cid=",
           "/*?mc_eid="
+        ]
+      },
+      {
+        "agent": "GPTBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "OAI-SearchBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "ChatGPT-User",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "ClaudeBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "Claude-Web",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "anthropic-ai",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "PerplexityBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "Perplexity-User",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "Google-Extended",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "Applebot-Extended",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "CCBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "FacebookBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "Bytespider",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "Amazonbot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "DuckAssistBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "Diffbot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "MistralAI-User",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "cohere-ai",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
+        ]
+      },
+      {
+        "agent": "YouBot",
+        "allowCount": 13,
+        "disallowCount": 13,
+        "disallow": [
+          "/api/",
+          "/internal/",
+          "/private/",
+          "/booking/",
+          "/start",
+          "/go/",
+          "/links",
+          "/thank-you",
+          "/thanks",
+          "/preview/",
+          "/staging/",
+          "/dev/",
+          "/__mockup/"
         ]
       }
     ],

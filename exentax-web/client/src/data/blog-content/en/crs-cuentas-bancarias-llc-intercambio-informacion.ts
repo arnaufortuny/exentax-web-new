@@ -2,6 +2,18 @@ export default `More than 120 jurisdictions exchange bank-account balances under
 
 Can your home country's tax authority see your Mercury account? Here's the complete, honest answer about international financial information exchange.
 
+<!-- exentax:crs2-update-v1 -->
+## CRS 2.0, CARF and DAC8 update (OECD package)
+
+The CRS picture for your LLC's bank accounts is updated by the OECD package: EMIs and electronic-money products are squarely inside the perimeter and due diligence on controlling persons becomes tighter. What Wise Europe SA or Revolut Bank UAB already reported keeps flowing, only with stricter criteria and more granular self-certifications at onboarding.
+
+The OECD adopted an integrated package combining **CRS 2.0** (the revised Common Reporting Standard, which brings EMIs and specified electronic-money products into the perimeter and tightens due diligence on controlling persons) and **CARF** (the Crypto-Asset Reporting Framework, which extends automatic exchange to crypto exchanges, custodians and crypto-derivative platforms). The European Union transposed it through **Directive (EU) 2023/2226 (DAC8)**, adopted on 17 October 2023, which amends Directive 2011/16/EU to incorporate both components. The substantive application date is **1 January 2026** and the **first effective exchange** lands in **January 2027, on 2026 reporting-year data**.
+
+Official sources: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OECD — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OECD — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directive (EU) 2023/2226 (DAC8)</a>.
+
+The takeaway to remember is the same as always: **the United States stays outside the CRS perimeter by architecture, not by opacity**. Washington runs its own regime (FATCA), did not sign CRS 1.0 and will not sign CRS 2.0 — which is exactly why your US LLC remains a fully declarable structure in your country of residence. We unpack the full picture in <a href="/en/blog/crs-2-0-carf-why-the-us-will-never-sign-llc-impact">CRS 2.0 and CARF: why the US will never sign and what it means for your LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## The three mechanisms of international financial information exchange
 
 **1. CRS (Common Reporting Standard):** The <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard used by 100+ countries for automatic exchange of financial account information. Financial institutions in participating countries automatically report non-resident account holders to their country of tax residence.

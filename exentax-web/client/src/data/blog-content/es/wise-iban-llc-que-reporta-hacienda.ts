@@ -6,6 +6,18 @@ Cuando hablamos de Wise, IBAN extranjeros y LLC en EE.UU. circulan dos extremos 
 
 Este artículo se centra en lo que ocurre realmente: qué tipo de información sale de Wise hacia tu hacienda, qué no sale, y dónde está la frontera entre uso legítimo y problema fiscal. Si quieres el análisis técnico exhaustivo del flujo CRS de Wise Business desde Bélgica, lo desarrollamos en <a href="/es/blog/wise-business-crs-reporting-fiscal">Wise Business y CRS: lo que se reporta a tu hacienda</a>.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualización CRS 2.0, CARF y DAC8 (paquete OCDE)
+
+El IBAN belga de tu cuenta Wise para la LLC ya estaba dentro del perímetro CRS de origen, pero el paquete OCDE refuerza el detalle y la due diligence: con CRS 2.0 vigente, lo que sale de Bélgica hacia tu hacienda llega más completo y con menor margen para una clasificación laxa de la entidad.
+
+La OCDE aprobó el paquete integrado **CRS 2.0** (revisión del Common Reporting Standard, con EMIs y dinero electrónico dentro del perímetro y due diligence reforzada sobre controlling persons) y **CARF** (Crypto-Asset Reporting Framework, que extiende el intercambio automático a exchanges, custodios y plataformas de derivados cripto). La Unión Europea lo transpuso mediante la **Directiva (UE) 2023/2226 (DAC8)**, aprobada el 17 de octubre de 2023, que modifica la 2011/16/UE para incorporar ambas piezas. La fecha de aplicación material es el **1 de enero de 2026** y el **primer intercambio efectivo** llega en **enero de 2027 sobre datos del ejercicio 2026**.
+
+Fuentes oficiales: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+La narrativa que conviene fijar es la misma de siempre: **EE. UU. queda fuera del perímetro CRS por arquitectura, no por opacidad**. Washington tiene su propio régimen (FATCA), no firmó el CRS 1.0 y no firmará el 2.0, y por eso tu LLC americana sigue siendo declarable en residencia con normalidad. Lo desplegamos a fondo en <a href="/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc">CRS 2.0 y CARF: por qué EE. UU. no firmará y qué cambia para tu LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Cómo funciona Wise por debajo
 
 Wise no es un banco tradicional, ni una pasarela opaca, ni una cuenta offshore. Es un grupo de entidades reguladas que opera en jurisdicciones distintas:

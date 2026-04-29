@@ -1,39 +1,48 @@
 # Auditoría sistema, SEO, sitemap y FAQs — Resumen ejecutivo
 
-Generado: 2026-04-25T13:43:11.759Z
+Generado: 2026-04-29T18:10:30.803Z
 Servidor analizado: http://localhost:5000 (origin sitemap: https://exentax.com)
 
 ## Conteos por área
 | Área | Total | P0 | P1 | P2 |
 |---|---:|---:|---:|---:|
-| Sistema (consistencia) | 0 | 0 | 0 | 0 |
-| Documentos legales | 0 | 0 | 0 | 0 |
-| SEO técnico | 0 | 0 | 0 | 0 |
+| Sistema (consistencia) | 1 | 0 | 0 | 1 |
+| Documentos legales | 17 | 0 | 0 | 17 |
+| SEO técnico | 9 | 0 | 4 | 5 |
 | Sitemap | 0 | 0 | 0 | 0 |
-| FAQs (contenido) | 0 | 0 | 0 | 0 |
-| FAQs indexación | 0 | 0 | 0 | 0 |
-| **Total** | **0** | **0** | **0** | **0** |
+| FAQs (contenido) | 2 | 0 | 0 | 2 |
+| FAQs indexación | 6 | 6 | 0 | 0 |
+| **Total** | **35** | **6** | **4** | **25** |
 
 ## Inventario de URLs (sitemap real)
-- sitemap-pages.xml: 96 URLs
+- sitemap-pages.xml: 102 URLs
 - sitemap-faq.xml:   6 URLs
-- sitemap-blog.xml:  666 URLs
-- Total catalogado en `sitemap-completo.json`: 768 (incluye blog posts y blog index)
+- sitemap-blog.xml:  672 URLs
+- Total catalogado en `sitemap-completo.json`: 774 (incluye blog posts y blog index)
 
 ## Estado de indexación de FAQs por idioma
 | Idioma | FAQs | OK | Necesita atención |
 |---|---:|---:|---:|
-| ES | 79 | 79 | 0 |
-| EN | 79 | 79 | 0 |
-| FR | 79 | 79 | 0 |
-| DE | 79 | 79 | 0 |
-| PT | 79 | 79 | 0 |
-| CA | 79 | 79 | 0 |
+| ES | 83 | 79 | 4 |
+| EN | 83 | 79 | 4 |
+| FR | 83 | 79 | 4 |
+| DE | 83 | 79 | 4 |
+| PT | 83 | 79 | 4 |
+| CA | 83 | 79 | 4 |
 
-> Nota arquitectónica: el JSON-LD FAQPage se construye **client-side** en `client/src/pages/faq-page.tsx` y agrupa todas las `useFaqSections()` en `mainEntity`. Una única URL por idioma (`/xx/faq`) cubre las 79 Q/A; los anchors `#id` son fragments SPA. El estado por celda se valida cruzando la traducción i18n, la presencia en `mainEntity` del JSON-LD renderizado, la presencia en `sitemap-faq.xml`, las reglas de `robots.txt`, el `canonical` real y los enlaces internos entrantes.
+> Nota arquitectónica: el JSON-LD FAQPage se construye **client-side** en `client/src/pages/faq-page.tsx` y agrupa todas las `useFaqSections()` en `mainEntity`. Una única URL por idioma (`/xx/faq`) cubre las 83 Q/A; los anchors `#id` son fragments SPA. El estado por celda se valida cruzando la traducción i18n, la presencia en `mainEntity` del JSON-LD renderizado, la presencia en `sitemap-faq.xml`, las reglas de `robots.txt`, el `canonical` real y los enlaces internos entrantes.
 
 ## Top 10 hallazgos
-
+1. **[P0] faq-indexation-ssr-coverage** — FAQ/es: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/es/preguntas-frecuentes (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
+2. **[P0] faq-indexation-ssr-coverage** — FAQ/en: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/en/faq (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
+3. **[P0] faq-indexation-ssr-coverage** — FAQ/fr: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/fr/questions-frequentes (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
+4. **[P0] faq-indexation-ssr-coverage** — FAQ/de: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/de/haufige-fragen (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
+5. **[P0] faq-indexation-ssr-coverage** — FAQ/pt: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/pt/perguntas-frequentes (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
+6. **[P0] faq-indexation-ssr-coverage** — FAQ/ca: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/ca/preguntes-frequents (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
+7. **[P1] meta-description-too-long** — Meta description de 176 (>160) _(`/es`)_
+8. **[P1] meta-description-too-long** — Meta description de 170 (>160) _(`/en`)_
+9. **[P1] meta-description-too-long** — Meta description de 171 (>160) _(`/fr`)_
+10. **[P1] meta-description-too-long** — Meta description de 166 (>160) _(`/pt`)_
 
 ## Plan de corrección priorizado
 

@@ -2,6 +2,18 @@ export default `
 
 La **DAC7** es una de las normativas más importantes de los últimos años para cualquier persona o empresa que venda a través de plataformas digitales europeas, y es probablemente la regulación que más se ignora a día de hoy. Si vendes en Amazon, Etsy, eBay, Vinted, Airbnb, Booking, Uber, Cabify, Wallapop o cualquier marketplace europeo, te afecta. Y si tienes una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> que opera en estas plataformas como vendedor, también.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualización CRS 2.0, CARF y DAC8 (paquete OCDE)
+
+DAC7 cubre desde su entrada en vigor el reporting de plataformas digitales (Airbnb, Vinted, Etsy, Amazon, Wallapop) hacia las haciendas europeas; con DAC8 entrando en vigor el 1 de enero de 2026 sobre criptoactivos y el CRS 2.0 actualizado, el paquete OCDE cierra el círculo digital y fija la fotografía completa de lo que tu hacienda recibe automáticamente cada año.
+
+La OCDE aprobó el paquete integrado **CRS 2.0** (revisión del Common Reporting Standard, con EMIs y dinero electrónico dentro del perímetro y due diligence reforzada sobre controlling persons) y **CARF** (Crypto-Asset Reporting Framework, que extiende el intercambio automático a exchanges, custodios y plataformas de derivados cripto). La Unión Europea lo transpuso mediante la **Directiva (UE) 2023/2226 (DAC8)**, aprobada el 17 de octubre de 2023, que modifica la 2011/16/UE para incorporar ambas piezas. La fecha de aplicación material es el **1 de enero de 2026** y el **primer intercambio efectivo** llega en **enero de 2027 sobre datos del ejercicio 2026**.
+
+Fuentes oficiales: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+La narrativa que conviene fijar es la misma de siempre: **EE. UU. queda fuera del perímetro CRS por arquitectura, no por opacidad**. Washington tiene su propio régimen (FATCA), no firmó el CRS 1.0 y no firmará el 2.0, y por eso tu LLC americana sigue siendo declarable en residencia con normalidad. Lo desplegamos a fondo en <a href="/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc">CRS 2.0 y CARF: por qué EE. UU. no firmará y qué cambia para tu LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Qué es la DAC7
 
 La **DAC7** es la sexta modificación de la Directiva 2011/16/UE de cooperación administrativa en el ámbito de la fiscalidad (DAC). Formalmente: **Directiva (UE) 2021/514** del Consejo, de 22 de marzo de 2021. Establece la obligación para las **plataformas digitales** (operador de plataforma) de identificar a sus vendedores activos, recopilar información sobre sus ingresos y reportar anualmente esos datos a la administración tributaria del Estado miembro donde la plataforma esté registrada o tenga su lugar de dirección efectiva.

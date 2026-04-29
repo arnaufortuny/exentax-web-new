@@ -3,6 +3,18 @@ CRS has been moving bank balances between more than 120 countries since 2017, an
 
 The Common Reporting Standard (CRS) is the most important piece of international tax compliance of the last decade, and very few people understand what it actually means for someone who owns a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> or holds bank accounts outside their country of residence. Let's break it down with technical precision and without alarmism.
 
+<!-- exentax:crs2-update-v1 -->
+## CRS 2.0, CARF and DAC8 update (OECD package)
+
+For residents of Spain and Latin America, the first concrete impact lands through DAC8: Directive (EU) 2023/2226 transposes CRS 2.0 + CARF into EU law and cascades down into the AEAT's Modelo 289 and the equivalent Latin American regimes that subscribe the updated MCAA.
+
+The OECD adopted an integrated package combining **CRS 2.0** (the revised Common Reporting Standard, which brings EMIs and specified electronic-money products into the perimeter and tightens due diligence on controlling persons) and **CARF** (the Crypto-Asset Reporting Framework, which extends automatic exchange to crypto exchanges, custodians and crypto-derivative platforms). The European Union transposed it through **Directive (EU) 2023/2226 (DAC8)**, adopted on 17 October 2023, which amends Directive 2011/16/EU to incorporate both components. The substantive application date is **1 January 2026** and the **first effective exchange** lands in **January 2027, on 2026 reporting-year data**.
+
+Official sources: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OECD — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OECD — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directive (EU) 2023/2226 (DAC8)</a>.
+
+The takeaway to remember is the same as always: **the United States stays outside the CRS perimeter by architecture, not by opacity**. Washington runs its own regime (FATCA), did not sign CRS 1.0 and will not sign CRS 2.0 — which is exactly why your US LLC remains a fully declarable structure in your country of residence. We unpack the full picture in <a href="/en/blog/crs-2-0-carf-why-the-us-will-never-sign-llc-impact">CRS 2.0 and CARF: why the US will never sign and what it means for your LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## What CRS is and why it exists
 
 The **Common Reporting Standard** was approved by the OECD Council in July 2014 in response to the G20 mandate after the financial crisis and the major tax-evasion scandals (LuxLeaks, Panama Papers). The objective is straightforward: tax authorities of adhering countries automatically exchange information about financial accounts held by non-residents.

@@ -4,6 +4,18 @@ export default `Els Estats Units no van signar el CRS del 2014, i FATCA només i
 
 Això no vol dir "amagar". Vol dir que la teva estructura està muntada en una jurisdicció que opera amb les seves pròpies regles, i que el teu compliance és el que tu decideixes fer al teu país, sense sorpreses externes.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualització CRS 2.0, CARF i DAC8 (paquet OCDE)
+
+La veritat sobre el que reporten els bancs americans no es mou amb el paquet OCDE: el CRS 2.0 amplia el perímetre fora dels Estats Units, però el sistema bancari domèstic americà segueix sense reportar a la seva hisenda de residència per la simple raó que els EUA no són —ni seran— jurisdicció CRS.
+
+L'OCDE va aprovar el paquet integrat format per **CRS 2.0** (la revisió del Common Reporting Standard, que incorpora les EMI i els productes especificats de diner electrònic dins del perímetre i reforça la due diligence sobre les controlling persons) i **CARF** (Crypto-Asset Reporting Framework, que estén l'intercanvi automàtic a exchanges, custodis i plataformes de derivats cripto). La Unió Europea ho ha transposat mitjançant la **Directiva (UE) 2023/2226 (DAC8)**, aprovada el 17 d'octubre de 2023, que modifica la 2011/16/UE per incorporar les dues peces. La data d'aplicació material és l'**1 de gener de 2026** i el **primer intercanvi efectiu** arriba el **gener de 2027 sobre dades de l'exercici 2026**.
+
+Fonts oficials: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+El missatge a retenir és el de sempre: **els EUA queden fora del perímetre CRS per arquitectura, no per opacitat**. Washington té el seu propi règim (FATCA), no va signar el CRS 1.0 i no signarà el 2.0, i és precisament per això que la seva LLC nord-americana continua sent una estructura plenament declarable al seu país de residència. Ho desenvolupem a fons a <a href="/ca/blog/crs-2-0-carf-per-que-els-eua-no-signaran-mai-llc">CRS 2.0 i CARF: per què els EUA no signaran mai i què canvia per a la seva LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## El que la gent es pensa que passa (i no passa)
 
 > "Si Mercury és americà i jo sóc europeu, els meus saldos acaben a l'AEAT per algun acord automàtic."

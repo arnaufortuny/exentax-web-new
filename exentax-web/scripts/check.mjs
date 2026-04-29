@@ -83,13 +83,21 @@ const STEPS = [
   { name: "test:perf-gate-bypass-notify", weight: 1 },
   { name: "test:seo-slash",               weight: 1 },
   { name: "lint:email-deliverability",    weight: 1 },
+  { name: "blog:bundle-sync",             weight: 1 },
 ];
 
 // `tsc` is special — it isn't a package.json script, it's invoked directly
 // by the original `check` chain. We dispatch it through a small shim below
 // so the loop above can stay uniform.
+//
+// `blog:bundle-sync` runs the localized blog-content bundle generator in
+// --check mode so the gate fails (non-zero exit) when any of the six
+// `client/src/data/blog-content/<lang>-all.ts` bundles drifts out of sync
+// with the on-disk article files. Drift would silently fall the SSR SEO
+// prerender back to Spanish content for affected slugs.
 const DIRECT = new Map([
   ["tsc", { cmd: "npx", args: ["tsc"] }],
+  ["blog:bundle-sync", { cmd: "node", args: ["scripts/blog/generate-content-bundles.mjs", "--check"] }],
 ]);
 
 const args = new Set(process.argv.slice(2));

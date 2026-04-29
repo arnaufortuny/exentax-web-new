@@ -4,6 +4,18 @@ Revolut Business reporta automáticamente saldos bajo CRS a más de 120 jurisdic
 
 Revolut Business es uno de los neobancos europeos más utilizados por emprendedores con estructuras internacionales, y en particular por dueños de <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americanas</a> que necesitan operar en EUR, GBP y otras divisas con tarjetas físicas y virtuales europeas. Pero Revolut también es una entidad financiera europea sujeta al **Common Reporting Standard (CRS)**, y eso tiene consecuencias muy concretas que casi nadie te cuenta antes de abrir la cuenta.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualización CRS 2.0, CARF y DAC8 (paquete OCDE)
+
+Revolut Bank UAB es entidad de crédito lituana plenamente sujeta a CRS desde el día uno; con el paquete OCDE lo que cambia para la cuenta de Revolut Business de tu LLC es el endurecimiento de la due diligence sobre controlling persons y la integración explícita de los productos de dinero electrónico bajo el nuevo perímetro CRS 2.0.
+
+La OCDE aprobó el paquete integrado **CRS 2.0** (revisión del Common Reporting Standard, con EMIs y dinero electrónico dentro del perímetro y due diligence reforzada sobre controlling persons) y **CARF** (Crypto-Asset Reporting Framework, que extiende el intercambio automático a exchanges, custodios y plataformas de derivados cripto). La Unión Europea lo transpuso mediante la **Directiva (UE) 2023/2226 (DAC8)**, aprobada el 17 de octubre de 2023, que modifica la 2011/16/UE para incorporar ambas piezas. La fecha de aplicación material es el **1 de enero de 2026** y el **primer intercambio efectivo** llega en **enero de 2027 sobre datos del ejercicio 2026**.
+
+Fuentes oficiales: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+La narrativa que conviene fijar es la misma de siempre: **EE. UU. queda fuera del perímetro CRS por arquitectura, no por opacidad**. Washington tiene su propio régimen (FATCA), no firmó el CRS 1.0 y no firmará el 2.0, y por eso tu LLC americana sigue siendo declarable en residencia con normalidad. Lo desplegamos a fondo en <a href="/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc">CRS 2.0 y CARF: por qué EE. UU. no firmará y qué cambia para tu LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Qué entidades de Revolut son y dónde reportan
 
 Revolut no es una sola empresa. El grupo opera mediante varias entidades reguladas según geografía y producto:

@@ -5,6 +5,18 @@ O Common Reporting Standard (CRS) é a peça mais importante da fiscalidade inte
 
 Este artigo foi pensado a partir de Espanha e América Latina, mas toca numa ferida que afeta diretamente quem vive em **Portugal** ou no **Brasil**: a partir do momento em que tem uma LLC com conta em USD ou uma conta aberta fora do seu país de residência, surgem obrigações acessórias que muita gente só descobre com o primeiro aviso. Em Portugal são, no mínimo, o **Anexo J do IRS** (rendimentos obtidos no estrangeiro, incluindo juros, dividendos e mais-valias da LLC), o **Modelo 58 do Banco de Portugal** (comunicação de operações e posições com o exterior), a indicação obrigatória das contas de depósito ou de títulos abertas em entidades não residentes no Anexo J e, conforme o caso, a inclusão de criptoativos detidos no estrangeiro. Para quem reside no **Brasil**, soma-se a Declaração de Capitais Brasileiros no Exterior (DCBE) do Banco Central, a Declaração do Imposto sobre a Renda da Pessoa Física com a ficha de Bens e Direitos no exterior e o regime e-Financeira/DIRF nos casos aplicáveis. A lógica CRS que descrevemos aqui é a mesma; o que muda é o formulário local que tem de preencher para estar em ordem.
 
+<!-- exentax:crs2-update-v1 -->
+## Atualização CRS 2.0, CARF e DAC8 (pacote OCDE)
+
+Para residentes em Espanha e na América Latina, o primeiro impacto prático chega por via da DAC8: a Diretiva (UE) 2023/2226 transpõe o CRS 2.0 e o CARF para o direito europeu e cai em cascata no Modelo 289 da AEAT e nos regimes latino-americanos equivalentes que subscrevem o MCAA atualizado.
+
+A OCDE aprovou o pacote integrado de **CRS 2.0** (a revisão do Common Reporting Standard, que traz as EMI e os produtos especificados de moeda eletrónica para dentro do perímetro e reforça a due diligence sobre as controlling persons) e **CARF** (Crypto-Asset Reporting Framework, que estende a troca automática a exchanges, custodiantes e plataformas de derivados cripto). A União Europeia transpô-lo através da **Diretiva (UE) 2023/2226 (DAC8)**, aprovada a 17 de outubro de 2023, que altera a 2011/16/UE para incorporar ambas as peças. A data de aplicação material é **1 de janeiro de 2026** e a **primeira troca efetiva** ocorre em **janeiro de 2027, sobre dados do exercício de 2026**.
+
+Fontes oficiais: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Diretiva (UE) 2023/2226 (DAC8)</a>.
+
+A narrativa a reter é a de sempre: **os EUA ficam fora do perímetro CRS por arquitetura, não por opacidade**. Washington tem o seu próprio regime (FATCA), não assinou o CRS 1.0 nem irá assinar o 2.0, e é precisamente por isso que a sua LLC norte-americana continua a ser uma estrutura plenamente declarável no seu país de residência. Desenvolvemos o tema em <a href="/pt/blog/crs-2-0-carf-por-que-os-eua-nunca-vao-assinar-llc">CRS 2.0 e CARF: porque os EUA nunca irão assinar e o que muda para a sua LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## O que é o CRS e porque existe
 
 O **Common Reporting Standard** foi aprovado pelo Conselho da OCDE em julho de 2014, em resposta ao G20, depois da crise financeira e dos grandes escândalos de evasão fiscal (LuxLeaks, Panama Papers). O objetivo é claro: as administrações fiscais dos países aderentes trocam automaticamente informação sobre contas financeiras de não residentes.

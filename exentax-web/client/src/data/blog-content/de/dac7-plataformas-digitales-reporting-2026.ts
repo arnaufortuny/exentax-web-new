@@ -2,6 +2,18 @@ export default `
 
 Die **DAC7** ist eine der prägendsten europäischen Regelungen der letzten Jahre für jede Person und jedes Unternehmen, das über europäische digitale Plattformen verkauft, und vermutlich die Vorschrift, die heute am häufigsten ignoriert wird. Wenn Sie auf Amazon, Etsy, eBay, Vinted, Kleinanzeigen, Airbnb, Booking, Uber, Bolt, Wallapop oder einem anderen europäischen Marktplatz verkaufen, sind Sie betroffen. Und wenn Sie über eine <a href="/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten">US-LLC</a> als Verkäufer auf diesen Plattformen operieren, ebenfalls.
 
+<!-- exentax:crs2-update-v1 -->
+## CRS 2.0, CARF und DAC8: Aktualisierung (OECD-Paket)
+
+Seit ihrem Inkrafttreten deckt DAC7 die Meldung digitaler Plattformen (Airbnb, Vinted, Etsy, Amazon, Wallapop) gegenüber den europäischen Steuerbehörden ab; mit DAC8, das am 1. Januar 2026 für Kryptowerte in Kraft tritt, und dem überarbeiteten CRS 2.0 schließt das OECD-Paket den digitalen Kreis und fixiert das vollständige Bild dessen, was Ihr Finanzamt jedes Jahr automatisch erhält.
+
+Die OECD hat das integrierte Paket aus **CRS 2.0** (die Revision des Common Reporting Standard, die EMIs und spezifizierte E-Geld-Produkte in den Meldeumfang aufnimmt und die Sorgfaltspflichten gegenüber controlling persons verschärft) und **CARF** (Crypto-Asset Reporting Framework, das den automatischen Informationsaustausch auf Krypto-Börsen, Verwahrer und Plattformen für Krypto-Derivate ausdehnt) verabschiedet. Die Europäische Union hat das Paket mit der **Richtlinie (EU) 2023/2226 (DAC8)** vom 17. Oktober 2023 in das Unionsrecht überführt; sie ändert die Richtlinie 2011/16/EU und führt beide Bausteine ein. Maßgebliches Anwendungsdatum ist der **1. Januar 2026**, der **erste tatsächliche Datenaustausch** erfolgt im **Januar 2027 über die Daten des Geschäftsjahres 2026**.
+
+Offizielle Quellen: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OECD — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OECD — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Richtlinie (EU) 2023/2226 (DAC8)</a>.
+
+Die Botschaft bleibt unverändert: **Die USA stehen aus architektonischen Gründen außerhalb des CRS-Perimeters, nicht aus Intransparenz**. Washington betreibt sein eigenes Regime (FATCA), hat den CRS 1.0 nicht unterzeichnet und wird auch den CRS 2.0 nicht unterzeichnen — weshalb Ihre US-LLC eine in Ihrem Wohnsitzstaat sauber erklärbare Struktur bleibt. Den vollständigen Hintergrund finden Sie in <a href="/de/blog/crs-2-0-carf-warum-die-usa-niemals-unterzeichnen-llc">CRS 2.0 und CARF: warum die USA niemals unterzeichnen werden und was das für Ihre LLC bedeutet</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Was DAC7 ist
 
 Die **DAC7** ist die sechste Änderung der Richtlinie 2011/16/EU über die Zusammenarbeit der Verwaltungsbehörden im Bereich der Besteuerung (DAC). Formell: **Richtlinie (EU) 2021/514** des Rates vom 22. März 2021. Sie verpflichtet **digitale Plattformen** (Plattformbetreiber), ihre aktiven Verkäufer zu identifizieren, Informationen über deren Einkünfte zu erheben und diese Daten jährlich an die Steuerbehörde des Mitgliedstaats zu melden, in dem die Plattform eingetragen ist oder ihren Ort der tatsächlichen Geschäftsleitung hat.

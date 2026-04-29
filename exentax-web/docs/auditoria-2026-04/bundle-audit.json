@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-29T15:31:26.596Z",
+  "generatedAt": "2026-04-29T18:50:08.564Z",
   "totalChunks": 712,
-  "totalKb": 20733.5,
-  "totalGzipKb": 7862.6,
+  "totalKb": 20866.3,
+  "totalGzipKb": 7909.4,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -19,21 +19,21 @@
   "summary": {
     "page": {
       "count": 21,
-      "totalKb": 777.8,
+      "totalKb": 778.4,
       "maxKb": 142.9,
-      "maxFile": "ExistingLlcCallout-C4gPjXB_.js"
+      "maxFile": "ExistingLlcCallout-FsDAh5z6.js"
     },
     "blog-post": {
       "count": 672,
-      "totalKb": 17079,
-      "maxKb": 43.1,
-      "maxFile": "blog-de-boe-febrero-2020-llc-doctrina-administrativa-C7bauytI.js"
+      "totalKb": 17210.8,
+      "maxKb": 44.8,
+      "maxFile": "blog-de-visa-mastercard-reporting-tarjetas-hacienda-Dmb4PlFQ.js"
     },
     "blog-shared": {
       "count": 2,
       "totalKb": 145.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-DSydcfmE.js"
+      "maxFile": "blog-posts-content-DPjlDP39.js"
     },
     "css": {
       "count": 2,
@@ -43,15 +43,15 @@
     },
     "locale": {
       "count": 10,
-      "totalKb": 1812.4,
+      "totalKb": 1812.8,
       "maxKb": 271,
-      "maxFile": "fr-BJ-yIjyy.js"
+      "maxFile": "fr-DEKkIrPt.js"
     },
     "entry-index": {
       "count": 1,
       "totalKb": 512.3,
       "maxKb": 512.3,
-      "maxFile": "index-ydYhwUAi.js"
+      "maxFile": "index-Bs6u7qLg.js"
     },
     "vendor-i18n": {
       "count": 1,
@@ -80,37 +80,37 @@
   },
   "top": [
     {
-      "file": "index-ydYhwUAi.js",
+      "file": "index-Bs6u7qLg.js",
       "category": "entry-index",
       "bytesKb": 512.3,
       "gzipKb": 150.8
     },
     {
-      "file": "fr-BJ-yIjyy.js",
+      "file": "fr-DEKkIrPt.js",
       "category": "locale",
       "bytesKb": 271,
       "gzipKb": 80.9
     },
     {
-      "file": "de-Ckkk8vGt.js",
+      "file": "de-BzIn_7CO.js",
       "category": "locale",
       "bytesKb": 263.7,
       "gzipKb": 81.8
     },
     {
-      "file": "pt-Cn14siUv.js",
+      "file": "pt-D1j2Gp5f.js",
       "category": "locale",
       "bytesKb": 249.6,
       "gzipKb": 76
     },
     {
-      "file": "ca-BdZj9X4e.js",
+      "file": "ca-CQirLQiz.js",
       "category": "locale",
       "bytesKb": 248.6,
       "gzipKb": 76.9
     },
     {
-      "file": "en-DWBrgvac.js",
+      "file": "en-uLEw0b6a.js",
       "category": "locale",
       "bytesKb": 238.5,
       "gzipKb": 73.8
@@ -122,7 +122,7 @@
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-C4gPjXB_.js",
+      "file": "ExistingLlcCallout-FsDAh5z6.js",
       "category": "page",
       "bytesKb": 142.9,
       "gzipKb": 31
@@ -134,7 +134,7 @@
       "gzipKb": 21.4
     },
     {
-      "file": "booking-mCLaw2jk.js",
+      "file": "booking-BQmN2iCp.js",
       "category": "page",
       "bytesKb": 116.3,
       "gzipKb": 31
@@ -146,10 +146,10 @@
       "gzipKb": 26.3
     },
     {
-      "file": "de-Cqvejhcv.js",
+      "file": "de-CBlASea-.js",
       "category": "locale",
-      "bytesKb": 108.2,
-      "gzipKb": 26.7
+      "bytesKb": 108.4,
+      "gzipKb": 26.8
     },
     {
       "file": "pt-BYmRA44T.js",
@@ -164,18 +164,18 @@
       "gzipKb": 25.4
     },
     {
-      "file": "en-DDJ0kPmw.js",
+      "file": "en-Ba7M1gwf.js",
       "category": "locale",
-      "bytesKb": 106.2,
+      "bytesKb": 106.4,
       "gzipKb": 25.8
     }
   ],
   "offenders": [],
   "hardBudget": {
     "serverBytes": 5892629,
-    "publicBytes": 22580324,
+    "publicBytes": 22716363,
     "serverMb": 5.62,
-    "publicMb": 21.53,
+    "publicMb": 21.66,
     "serverBudgetMb": 7,
     "publicBudgetMb": 30,
     "serverOk": true,

@@ -1,22 +1,26 @@
 {
-  "generatedAt": "2026-04-25T13:43:10.624Z",
+  "generatedAt": "2026-04-29T18:10:29.441Z",
   "summary": {
-    "totalFaqs": 79,
+    "totalFaqs": 83,
     "sectionCount": 8,
     "languages": 6,
-    "cellsExpected": 474,
-    "blogPostsScanned": 111,
+    "cellsExpected": 498,
+    "blogPostsScanned": 112,
     "blogPostsWithFaqByLang": {
       "es": 20,
       "en": 20,
       "fr": 20,
-      "de": 20,
+      "de": 21,
       "pt": 20,
       "ca": 20
     },
-    "issuesByCriticality": {},
-    "issuesByArea": {},
-    "totalIssues": 0
+    "issuesByCriticality": {
+      "P2": 2
+    },
+    "issuesByArea": {
+      "blog-faq-coverage-gap": 2
+    },
+    "totalIssues": 2
   },
   "structure": [
     {
@@ -134,7 +138,7 @@
     },
     {
       "key": "tax",
-      "count": 8,
+      "count": 12,
       "ids": [
         "tax_0",
         "tax_1",
@@ -143,7 +147,11 @@
         "tax_4",
         "tax_5",
         "tax_6",
-        "tax_7"
+        "tax_7",
+        "tax_8",
+        "tax_9",
+        "tax_10",
+        "tax_11"
       ]
     }
   ],
@@ -224,7 +232,7 @@
         "en": {
           "present": true,
           "questionLength": 22,
-          "answerLength": 458,
+          "answerLength": 456,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -251,7 +259,7 @@
         "pt": {
           "present": true,
           "questionLength": 30,
-          "answerLength": 469,
+          "answerLength": 468,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -430,7 +438,7 @@
         },
         "pt": {
           "present": true,
-          "questionLength": 52,
+          "questionLength": 51,
           "answerLength": 613,
           "identicalToEs": false,
           "containsTodo": false,
@@ -635,7 +643,7 @@
         "es": {
           "present": true,
           "questionLength": 42,
-          "answerLength": 751,
+          "answerLength": 748,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -644,7 +652,7 @@
         "en": {
           "present": true,
           "questionLength": 35,
-          "answerLength": 707,
+          "answerLength": 704,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -671,7 +679,7 @@
         "pt": {
           "present": true,
           "questionLength": 42,
-          "answerLength": 763,
+          "answerLength": 762,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -680,7 +688,7 @@
         "ca": {
           "present": true,
           "questionLength": 43,
-          "answerLength": 755,
+          "answerLength": 754,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -764,7 +772,7 @@
         "en": {
           "present": true,
           "questionLength": 60,
-          "answerLength": 513,
+          "answerLength": 517,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -791,7 +799,7 @@
         "pt": {
           "present": true,
           "questionLength": 54,
-          "answerLength": 541,
+          "answerLength": 540,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -884,7 +892,7 @@
         "en": {
           "present": true,
           "questionLength": 58,
-          "answerLength": 617,
+          "answerLength": 621,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -911,7 +919,7 @@
         "pt": {
           "present": true,
           "questionLength": 50,
-          "answerLength": 636,
+          "answerLength": 635,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -944,7 +952,7 @@
         "en": {
           "present": true,
           "questionLength": 23,
-          "answerLength": 594,
+          "answerLength": 598,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -971,7 +979,7 @@
         "pt": {
           "present": true,
           "questionLength": 27,
-          "answerLength": 593,
+          "answerLength": 592,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1124,7 +1132,7 @@
         "en": {
           "present": true,
           "questionLength": 41,
-          "answerLength": 461,
+          "answerLength": 465,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1151,7 +1159,7 @@
         "pt": {
           "present": true,
           "questionLength": 37,
-          "answerLength": 484,
+          "answerLength": 483,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1184,7 +1192,7 @@
         "en": {
           "present": true,
           "questionLength": 33,
-          "answerLength": 447,
+          "answerLength": 451,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1211,7 +1219,7 @@
         "pt": {
           "present": true,
           "questionLength": 31,
-          "answerLength": 467,
+          "answerLength": 466,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1304,7 +1312,7 @@
         "en": {
           "present": true,
           "questionLength": 64,
-          "answerLength": 684,
+          "answerLength": 688,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1331,7 +1339,7 @@
         "pt": {
           "present": true,
           "questionLength": 57,
-          "answerLength": 669,
+          "answerLength": 668,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1475,7 +1483,7 @@
         "es": {
           "present": true,
           "questionLength": 29,
-          "answerLength": 1086,
+          "answerLength": 1080,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1484,7 +1492,7 @@
         "en": {
           "present": true,
           "questionLength": 31,
-          "answerLength": 971,
+          "answerLength": 967,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1511,7 +1519,7 @@
         "pt": {
           "present": true,
           "questionLength": 34,
-          "answerLength": 1071,
+          "answerLength": 1069,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1520,7 +1528,7 @@
         "ca": {
           "present": true,
           "questionLength": 29,
-          "answerLength": 1086,
+          "answerLength": 1084,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1775,7 +1783,7 @@
         "es": {
           "present": true,
           "questionLength": 52,
-          "answerLength": 387,
+          "answerLength": 378,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1784,7 +1792,7 @@
         "en": {
           "present": true,
           "questionLength": 54,
-          "answerLength": 370,
+          "answerLength": 368,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1793,7 +1801,7 @@
         "fr": {
           "present": true,
           "questionLength": 49,
-          "answerLength": 386,
+          "answerLength": 384,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -1811,7 +1819,7 @@
         "pt": {
           "present": true,
           "questionLength": 38,
-          "answerLength": 371,
+          "answerLength": 366,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -2135,7 +2143,7 @@
         "es": {
           "present": true,
           "questionLength": 45,
-          "answerLength": 915,
+          "answerLength": 912,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -2144,7 +2152,7 @@
         "en": {
           "present": true,
           "questionLength": 46,
-          "answerLength": 890,
+          "answerLength": 887,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -2171,7 +2179,7 @@
         "pt": {
           "present": true,
           "questionLength": 45,
-          "answerLength": 898,
+          "answerLength": 897,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -2180,7 +2188,7 @@
         "ca": {
           "present": true,
           "questionLength": 44,
-          "answerLength": 878,
+          "answerLength": 877,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -3275,7 +3283,7 @@
         "es": {
           "present": true,
           "questionLength": 54,
-          "answerLength": 665,
+          "answerLength": 980,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -3284,7 +3292,7 @@
         "en": {
           "present": true,
           "questionLength": 61,
-          "answerLength": 630,
+          "answerLength": 982,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -3293,7 +3301,7 @@
         "fr": {
           "present": true,
           "questionLength": 75,
-          "answerLength": 755,
+          "answerLength": 1049,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -3302,7 +3310,7 @@
         "de": {
           "present": true,
           "questionLength": 68,
-          "answerLength": 688,
+          "answerLength": 1047,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -3311,7 +3319,7 @@
         "pt": {
           "present": true,
           "questionLength": 55,
-          "answerLength": 684,
+          "answerLength": 971,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -3320,7 +3328,7 @@
         "ca": {
           "present": true,
           "questionLength": 49,
-          "answerLength": 666,
+          "answerLength": 995,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4124,7 +4132,7 @@
         "en": {
           "present": true,
           "questionLength": 75,
-          "answerLength": 940,
+          "answerLength": 944,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4211,7 +4219,7 @@
         "pt": {
           "present": true,
           "questionLength": 97,
-          "answerLength": 1352,
+          "answerLength": 1351,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4304,7 +4312,7 @@
         "en": {
           "present": true,
           "questionLength": 71,
-          "answerLength": 1501,
+          "answerLength": 1505,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4364,7 +4372,7 @@
         "en": {
           "present": true,
           "questionLength": 82,
-          "answerLength": 1457,
+          "answerLength": 1461,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4391,7 +4399,7 @@
         "pt": {
           "present": true,
           "questionLength": 81,
-          "answerLength": 1406,
+          "answerLength": 1405,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4424,7 +4432,7 @@
         "en": {
           "present": true,
           "questionLength": 43,
-          "answerLength": 581,
+          "answerLength": 585,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4475,7 +4483,7 @@
         "es": {
           "present": true,
           "questionLength": 61,
-          "answerLength": 621,
+          "answerLength": 831,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4484,7 +4492,7 @@
         "en": {
           "present": true,
           "questionLength": 65,
-          "answerLength": 596,
+          "answerLength": 767,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4493,7 +4501,7 @@
         "fr": {
           "present": true,
           "questionLength": 84,
-          "answerLength": 658,
+          "answerLength": 852,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4502,7 +4510,7 @@
         "de": {
           "present": true,
           "questionLength": 68,
-          "answerLength": 648,
+          "answerLength": 879,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4511,7 +4519,7 @@
         "pt": {
           "present": true,
           "questionLength": 58,
-          "answerLength": 596,
+          "answerLength": 790,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4520,7 +4528,7 @@
         "ca": {
           "present": true,
           "questionLength": 59,
-          "answerLength": 608,
+          "answerLength": 786,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4595,7 +4603,7 @@
         "es": {
           "present": true,
           "questionLength": 47,
-          "answerLength": 680,
+          "answerLength": 918,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4604,7 +4612,7 @@
         "en": {
           "present": true,
           "questionLength": 53,
-          "answerLength": 609,
+          "answerLength": 831,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4613,7 +4621,7 @@
         "fr": {
           "present": true,
           "questionLength": 67,
-          "answerLength": 683,
+          "answerLength": 920,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4622,7 +4630,7 @@
         "de": {
           "present": true,
           "questionLength": 53,
-          "answerLength": 642,
+          "answerLength": 895,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4631,7 +4639,7 @@
         "pt": {
           "present": true,
           "questionLength": 49,
-          "answerLength": 662,
+          "answerLength": 899,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4640,7 +4648,7 @@
         "ca": {
           "present": true,
           "questionLength": 47,
-          "answerLength": 669,
+          "answerLength": 903,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4844,7 +4852,7 @@
         "en": {
           "present": true,
           "questionLength": 51,
-          "answerLength": 778,
+          "answerLength": 782,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4887,16 +4895,256 @@
           "suspiciouslyShort": false
         }
       }
+    },
+    {
+      "faqId": "tax_8",
+      "section": "tax",
+      "byLang": {
+        "es": {
+          "present": true,
+          "questionLength": 50,
+          "answerLength": 910,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "en": {
+          "present": true,
+          "questionLength": 55,
+          "answerLength": 823,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "fr": {
+          "present": true,
+          "questionLength": 66,
+          "answerLength": 960,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "de": {
+          "present": true,
+          "questionLength": 65,
+          "answerLength": 873,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "pt": {
+          "present": true,
+          "questionLength": 46,
+          "answerLength": 827,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "ca": {
+          "present": true,
+          "questionLength": 51,
+          "answerLength": 832,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        }
+      }
+    },
+    {
+      "faqId": "tax_9",
+      "section": "tax",
+      "byLang": {
+        "es": {
+          "present": true,
+          "questionLength": 40,
+          "answerLength": 902,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "en": {
+          "present": true,
+          "questionLength": 46,
+          "answerLength": 887,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "fr": {
+          "present": true,
+          "questionLength": 54,
+          "answerLength": 909,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "de": {
+          "present": true,
+          "questionLength": 44,
+          "answerLength": 975,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "pt": {
+          "present": true,
+          "questionLength": 39,
+          "answerLength": 881,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "ca": {
+          "present": true,
+          "questionLength": 37,
+          "answerLength": 885,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        }
+      }
+    },
+    {
+      "faqId": "tax_10",
+      "section": "tax",
+      "byLang": {
+        "es": {
+          "present": true,
+          "questionLength": 91,
+          "answerLength": 1672,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "en": {
+          "present": true,
+          "questionLength": 74,
+          "answerLength": 1564,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "fr": {
+          "present": true,
+          "questionLength": 89,
+          "answerLength": 1685,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "de": {
+          "present": true,
+          "questionLength": 89,
+          "answerLength": 1774,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "pt": {
+          "present": true,
+          "questionLength": 102,
+          "answerLength": 1618,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "ca": {
+          "present": true,
+          "questionLength": 103,
+          "answerLength": 1635,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        }
+      }
+    },
+    {
+      "faqId": "tax_11",
+      "section": "tax",
+      "byLang": {
+        "es": {
+          "present": true,
+          "questionLength": 43,
+          "answerLength": 1219,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "en": {
+          "present": true,
+          "questionLength": 29,
+          "answerLength": 1203,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "fr": {
+          "present": true,
+          "questionLength": 48,
+          "answerLength": 1340,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "de": {
+          "present": true,
+          "questionLength": 42,
+          "answerLength": 1325,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "pt": {
+          "present": true,
+          "questionLength": 41,
+          "answerLength": 1261,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        },
+        "ca": {
+          "present": true,
+          "questionLength": 43,
+          "answerLength": 1234,
+          "identicalToEs": false,
+          "containsTodo": false,
+          "containsSpanishTells": false,
+          "suspiciouslyShort": false
+        }
+      }
     }
   ],
   "blogFaqs": {
     "totals": {
-      "postsScanned": 111,
+      "postsScanned": 112,
       "postsWithFaq": {
         "es": 20,
         "en": 20,
         "fr": 20,
-        "de": 20,
+        "de": 21,
         "pt": 20,
         "ca": 20
       }
@@ -5184,39 +5432,45 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "¿Cuándo vuelve a aplicarme la obligación si cambia la rule?",
-            "¿Mi LLC formada en EE. UU. con socio español está exenta?",
+            "¿Mi LLC formada en EE. UU. con socio español tiene que presentar BOIR?",
+            "¿Cuál es la sanción si caigo en el ámbito y me retraso?",
             "¿Qué guardo como prueba?"
           ]
         },
         "en": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 5,
           "questions": [
-            "When could the duty re-apply if the rule changes?",
-            "Is my U.S.-formed LLC with a Spanish member exempt?",
-            "What do I keep as evidence?"
+            "Does my U.S.-formed LLC with a Spanish member have to file the BOIR?",
+            "What is the penalty if I am in scope and file late?",
+            "What do I keep as evidence?",
+            "Who exactly is a beneficial owner?",
+            "How does the 30-day update window work in practice?"
           ]
         },
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 5,
           "questions": [
-            "Quand l'obligation peut-elle revenir si la rule change?",
-            "Ma LLC US avec associé espagnol est-elle exemptée?",
-            "Que conserver comme preuve?"
+            "Ma LLC formée aux États-Unis avec un associé français doit-elle déposer le BOIR ?",
+            "Quelle est la sanction en cas de retard si je suis dans le champ ?",
+            "Que conserver comme preuve ?",
+            "Qui est précisément un bénéficiaire effectif ?",
+            "Comment fonctionne en pratique la fenêtre de mise à jour de 30 jours ?"
           ]
         },
         "de": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 5,
           "questions": [
-            "Wann gilt die Pflicht wieder, falls die Regel ändert?",
-            "Ist meine in den USA gegründete LLC mit spanischem Member befreit?",
-            "Was hebe ich als Beleg auf?"
+            "Muss meine in den USA gegründete LLC mit deutschem Gesellschafter den BOIR einreichen?",
+            "Welche Strafe droht bei Verspätung, wenn ich im Anwendungsbereich bin?",
+            "Was hebe ich als Beleg auf?",
+            "Wer ist genau ein wirtschaftlich Berechtigter?",
+            "Wie funktioniert das 30-Tage-Update-Fenster in der Praxis?"
           ]
         },
         "pt": {
@@ -5682,6 +5936,44 @@
           "questions": []
         }
       },
+      "crs-2-0-carf-por-que-usa-no-firmara-llc": {
+        "es": {
+          "postPresent": true,
+          "hasFaqSection": false,
+          "qaCount": 0,
+          "questions": []
+        },
+        "en": {
+          "postPresent": true,
+          "hasFaqSection": false,
+          "qaCount": 0,
+          "questions": []
+        },
+        "fr": {
+          "postPresent": true,
+          "hasFaqSection": false,
+          "qaCount": 0,
+          "questions": []
+        },
+        "de": {
+          "postPresent": true,
+          "hasFaqSection": false,
+          "qaCount": 0,
+          "questions": []
+        },
+        "pt": {
+          "postPresent": true,
+          "hasFaqSection": false,
+          "qaCount": 0,
+          "questions": []
+        },
+        "ca": {
+          "postPresent": true,
+          "hasFaqSection": false,
+          "qaCount": 0,
+          "questions": []
+        }
+      },
       "crs-cuentas-bancarias-llc-intercambio-informacion": {
         "es": {
           "postPresent": true,
@@ -5762,61 +6054,91 @@
         "es": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 8,
           "questions": [
-            "¿Qué cubre exactamente el precio desde 2.000 €?",
-            "¿Y el mantenimiento anual desde 1.500 €?",
-            "¿OECD Pillar Two encarece mi LLC?"
+            "¿Qué cubre exactamente el servicio de constitución?",
+            "¿Y qué cubre el mantenimiento anual?",
+            "¿OECD Pillar Two encarece mi LLC?",
+            "¿Cuánto tarda realmente la constitución end-to-end?",
+            "¿Puedo cambiar de Wyoming a Nuevo México (o al revés) si me arrepiento?",
+            "¿Necesito ITIN para constituir la LLC o sólo para algunas cosas?",
+            "¿Qué pasa si pierdo el plazo del 15 de abril del 5472?",
+            "¿La LLC me obliga a presentar algo en España, Portugal o Cataluña?"
           ]
         },
         "en": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 8,
           "questions": [
-            "What exactly is included in the EUR 2,000 price?",
-            "And the EUR 1,500/yr annual maintenance?",
-            "Does OECD Pillar Two raise LLC cost?"
+            "What exactly is included in the service?",
+            "And what does the annual maintenance cover?",
+            "Does OECD Pillar Two raise LLC cost?",
+            "How long does end-to-end formation actually take?",
+            "Can I move from Wyoming to New Mexico (or the other way around) if I change my mind?",
+            "Do I need an ITIN to form the LLC, or only for some things?",
+            "What if I miss the April 15 deadline for the 5472?",
+            "Does the LLC trigger filings at home (UK, Ireland, EU)?"
           ]
         },
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 8,
           "questions": [
-            "Que couvre exactement le prix à partir de 2 000 € ?",
-            "Et la maintenance annuelle à partir de 1 500 € ?",
-            "Pillar Two de l'OCDE renchérit-il la LLC ?"
+            "Que couvre exactement le service ?",
+            "Et que couvre la maintenance annuelle ?",
+            "Pillar Two de l'OCDE renchérit-il la LLC ?",
+            "Combien de temps prend réellement la constitution de bout en bout ?",
+            "Puis-je changer de Wyoming à Nouveau-Mexique (ou inversement) si je change d'avis ?",
+            "Faut-il un ITIN pour constituer la LLC ou seulement pour certaines choses ?",
+            "Que se passe-t-il si je rate l'échéance du 15 avril du 5472 ?",
+            "La LLC m'oblige-t-elle à déclarer en France, Belgique ou Suisse ?"
           ]
         },
         "de": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 8,
           "questions": [
-            "Was deckt der Preis ab 2.000 € genau ab?",
-            "Und die Jahreswartung ab 1.500 €?",
-            "Verteuert OECD Pillar Two die LLC?"
+            "Was deckt der Service genau ab?",
+            "Und was deckt die Jahreswartung ab?",
+            "Verteuert OECD Pillar Two die LLC?",
+            "Wie lange dauert die Gründung End-to-End wirklich?",
+            "Kann ich von Wyoming nach New Mexico (oder umgekehrt) wechseln, wenn ich es bereue?",
+            "Brauche ich eine ITIN, um die LLC zu gründen, oder nur für bestimmte Dinge?",
+            "Was passiert, wenn ich die Frist 15. April für das 5472 verpasse?",
+            "Verpflichtet mich die LLC zu Erklärungen in Deutschland, Österreich oder der Schweiz?"
           ]
         },
         "pt": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 8,
           "questions": [
-            "O que cobre exatamente o preço a partir de 2.000 €?",
-            "E a manutenção anual a partir de 1.500 €?",
-            "Pillar Two da OCDE encarece a LLC?"
+            "O que cobre exatamente o serviço?",
+            "E o que cobre a manutenção anual?",
+            "Pillar Two da OCDE encarece a LLC?",
+            "Quanto tempo demora realmente a constituição de ponta a ponta?",
+            "Posso mudar de Wyoming para Novo México (ou ao contrário) se me arrepender?",
+            "Preciso de ITIN para constituir a LLC ou só para certas coisas?",
+            "O que acontece se perder o prazo de 15 de Abril do 5472?",
+            "A LLC obriga-me a apresentar algo em Portugal ou no Brasil?"
           ]
         },
         "ca": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 8,
           "questions": [
-            "Què cobreix exactament el preu des de 2.000 €?",
-            "I el manteniment anual des de 1.500 €?",
-            "L'OCDE Pillar Two encareix la LLC?"
+            "Què cobreix exactament el servei?",
+            "I què cobreix el manteniment anual?",
+            "L'OCDE Pillar Two encareix la LLC?",
+            "Quant triga realment la constitució de cap a cap?",
+            "Puc canviar de Wyoming a Nou Mèxic (o a la inversa) si se’n penedeix?",
+            "Necessito ITIN per constituir la LLC o només per a algunes coses?",
+            "Què passa si perdo el termini del 15 d'abril del 5472?",
+            "La LLC m'obliga a presentar res a Catalunya, Espanya o Andorra?"
           ]
         }
       },
@@ -7648,7 +7970,7 @@
           "questions": [
             "Le guide est-il valable si je vis en Espagne?",
             "L’OCDE Pillar Two concerne-t-il ma LLC?",
-            "Qu'est-ce qui a changé côté banque actuellement?"
+            "Qu'est-ce qui a changé côté banque?"
           ]
         },
         "de": {
@@ -8897,9 +9219,11 @@
         },
         "de": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 1,
+          "questions": [
+            "Was, wenn die LLC noch keine eigenen Einnahmen hat?"
+          ]
         },
         "pt": {
           "postPresent": true,
@@ -9290,21 +9614,17 @@
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 1,
           "questions": [
-            "Une SMLLC sans activité peut-elle être « abandonnée »?",
-            "Comment valoriser une LLC à vendre?",
-            "La dissolution est-elle imposée dans mon pays?"
+            "Une SMLLC sans activité peut-elle être « abandonnée »?"
           ]
         },
         "de": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 1,
           "questions": [
-            "Kann eine inaktive SMLLC einfach „liegen gelassen\" werden?",
-            "Wie wird eine LLC für den Verkauf bewertet?",
-            "Wird die Auflösung im Wohnsitzland besteuert?"
+            "Kann eine inaktive SMLLC einfach „liegen gelassen\" werden?"
           ]
         },
         "pt": {
@@ -9596,5 +9916,28 @@
       }
     }
   },
-  "issues": []
+  "issues": [
+    {
+      "criticality": "P2",
+      "area": "blog-faq-coverage-gap",
+      "location": "client/src/data/blog-content/fr/vender-o-cerrar-llc-comparativa-practica.ts",
+      "description": "Blog \"vender-o-cerrar-llc-comparativa-practica\" (fr): 1 Q/A vs 3 en ES",
+      "evidence": "{\"es\":3,\"fr\":1}",
+      "suggestion": "Alinear cantidad de Q/A con la versión ES",
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "criticality": "P2",
+      "area": "blog-faq-coverage-gap",
+      "location": "client/src/data/blog-content/de/vender-o-cerrar-llc-comparativa-practica.ts",
+      "description": "Blog \"vender-o-cerrar-llc-comparativa-practica\" (de): 1 Q/A vs 3 en ES",
+      "evidence": "{\"es\":3,\"de\":1}",
+      "suggestion": "Alinear cantidad de Q/A con la versión ES",
+      "languages": [
+        "de"
+      ]
+    }
+  ]
 }

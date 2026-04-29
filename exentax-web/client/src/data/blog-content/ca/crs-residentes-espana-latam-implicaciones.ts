@@ -5,6 +5,18 @@ El Common Reporting Standard (CRS) és la peça més important de la fiscalitat 
 
 Aquest article es va pensar des d'Espanya i Llatinoamèrica, però toca una ferida que afecta directament qualsevol resident a **Catalunya** o a la resta de l'**Estat espanyol**: en el moment en què vostè té una LLC amb compte en dòlars o un compte obert fora del seu país de residència, apareixen obligacions accessòries que molta gent només descobreix quan arriba el primer requeriment d'Hisenda. Per a un autònom resident a Catalunya són, com a mínim, el **Model 720** (declaració informativa de béns i drets a l'estranger amb saldo combinat superior a 50.000 €), el **Model 721** (declaració de criptoactius a l'estranger superior a 50.000 €) i la **declaració D-6** del Registre d'Inversions del Ministeri d'Economia (inversions espanyoles a l'exterior cotitzades en mercats organitzats), a més de l'IRPF amb totes les rendes mundials i, si escau, l'Impost sobre el Patrimoni de la Generalitat amb la titularitat de la LLC. La lògica CRS que descrivim aquí és la mateixa: el que canvia és el formulari local que vostè haurà d'omplir per estar en regla.
 
+<!-- exentax:crs2-update-v1 -->
+## Actualització CRS 2.0, CARF i DAC8 (paquet OCDE)
+
+Per a residents a Espanya i Llatinoamèrica, el primer impacte pràctic arriba via DAC8: la Directiva (UE) 2023/2226 transposa el CRS 2.0 i el CARF a l'ordenament europeu i cau en cascada al Modelo 289 de l'AEAT i als règims llatinoamericans equivalents que subscriuen el MCAA actualitzat.
+
+L'OCDE va aprovar el paquet integrat format per **CRS 2.0** (la revisió del Common Reporting Standard, que incorpora les EMI i els productes especificats de diner electrònic dins del perímetre i reforça la due diligence sobre les controlling persons) i **CARF** (Crypto-Asset Reporting Framework, que estén l'intercanvi automàtic a exchanges, custodis i plataformes de derivats cripto). La Unió Europea ho ha transposat mitjançant la **Directiva (UE) 2023/2226 (DAC8)**, aprovada el 17 d'octubre de 2023, que modifica la 2011/16/UE per incorporar les dues peces. La data d'aplicació material és l'**1 de gener de 2026** i el **primer intercanvi efectiu** arriba el **gener de 2027 sobre dades de l'exercici 2026**.
+
+Fonts oficials: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directiva (UE) 2023/2226 (DAC8)</a>.
+
+El missatge a retenir és el de sempre: **els EUA queden fora del perímetre CRS per arquitectura, no per opacitat**. Washington té el seu propi règim (FATCA), no va signar el CRS 1.0 i no signarà el 2.0, i és precisament per això que la seva LLC nord-americana continua sent una estructura plenament declarable al seu país de residència. Ho desenvolupem a fons a <a href="/ca/blog/crs-2-0-carf-per-que-els-eua-no-signaran-mai-llc">CRS 2.0 i CARF: per què els EUA no signaran mai i què canvia per a la seva LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Què és el CRS i per què existeix
 
 El **Common Reporting Standard** el va aprovar el Consell de l'OCDE el juliol de 2014 com a resposta al G20 després de la crisi financera i dels grans escàndols d'evasió fiscal (LuxLeaks, Panama Papers). L'objectiu és clar: les administracions tributàries dels països adherits intercanvien automàticament informació sobre comptes financers de no residents.

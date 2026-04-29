@@ -4,6 +4,18 @@ Wise Business meldet Kontosalden an über 120 Jurisdiktionen unter CRS und über
 
 Wise Business (früher TransferWise) ist die Multi-Währungs-Fintech, die die meisten Inhaberinnen und Inhaber einer <a href="/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten">US-amerikanischen LLC</a> als erste eröffnen, neben jeder international tätigen Unternehmerin oder jedem Unternehmer, die oder der Geld über Grenzen hinweg bewegen muss. Das Versprechen ist eindeutig: Mid-Market-Wechselkurse, lokale IBANs in EUR, GBP, USD und einem Dutzend weiteren Währungen, und so niedrige Gebühren, dass man sie kaum bemerkt. Was viele übersehen: Wise ist auch ein voll regulierter europäischer Finanzakteur und unterliegt damit dem **Common Reporting Standard (CRS)**. Genau dieses Detail hat sehr konkrete Auswirkungen, die Sie kennen sollten, bevor Sie Wise in die Struktur Ihrer LLC einbauen.
 
+<!-- exentax:crs2-update-v1 -->
+## CRS 2.0, CARF und DAC8: Aktualisierung (OECD-Paket)
+
+Wise Europe SA ist ein belgisches E-Geld-Institut, und unter CRS 2.0 werden EMIs und spezifizierte E-Geld-Produkte klar als Reporting Financial Institutions eingestuft; die Sorgfaltspflichten gegenüber den controlling persons von Passive NFEs werden strenger und die Eröffnung des Wise-Business-Kontos für Ihre LLC wird nach anspruchsvolleren Kriterien dokumentiert.
+
+Die OECD hat das integrierte Paket aus **CRS 2.0** (die Revision des Common Reporting Standard, die EMIs und spezifizierte E-Geld-Produkte in den Meldeumfang aufnimmt und die Sorgfaltspflichten gegenüber controlling persons verschärft) und **CARF** (Crypto-Asset Reporting Framework, das den automatischen Informationsaustausch auf Krypto-Börsen, Verwahrer und Plattformen für Krypto-Derivate ausdehnt) verabschiedet. Die Europäische Union hat das Paket mit der **Richtlinie (EU) 2023/2226 (DAC8)** vom 17. Oktober 2023 in das Unionsrecht überführt; sie ändert die Richtlinie 2011/16/EU und führt beide Bausteine ein. Maßgebliches Anwendungsdatum ist der **1. Januar 2026**, der **erste tatsächliche Datenaustausch** erfolgt im **Januar 2027 über die Daten des Geschäftsjahres 2026**.
+
+Offizielle Quellen: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OECD — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OECD — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Richtlinie (EU) 2023/2226 (DAC8)</a>.
+
+Die Botschaft bleibt unverändert: **Die USA stehen aus architektonischen Gründen außerhalb des CRS-Perimeters, nicht aus Intransparenz**. Washington betreibt sein eigenes Regime (FATCA), hat den CRS 1.0 nicht unterzeichnet und wird auch den CRS 2.0 nicht unterzeichnen — weshalb Ihre US-LLC eine in Ihrem Wohnsitzstaat sauber erklärbare Struktur bleibt. Den vollständigen Hintergrund finden Sie in <a href="/de/blog/crs-2-0-carf-warum-die-usa-niemals-unterzeichnen-llc">CRS 2.0 und CARF: warum die USA niemals unterzeichnen werden und was das für Ihre LLC bedeutet</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Welche Wise-Einheit Ihr Konto tatsächlich führt und wo sie meldet
 
 Wise ist nicht ein einziges globales Unternehmen. Es operiert über mehrere regulierte Einheiten, und diejenige, die Ihr Konto führt, entscheidet, welche Steuerbehörde Ihre Daten zu sehen bekommt:

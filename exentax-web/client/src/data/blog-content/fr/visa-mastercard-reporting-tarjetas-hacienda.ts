@@ -4,6 +4,18 @@ Quand on demande "le fisc voit-il ce que je paie avec ma carte?", la réponse co
 
 Cet article passe en revue qui fait quoi dans une transaction par carte, ce que chaque acteur déclare aux autorités fiscales et quelles déclarations informatives existent pays par pays (Modelo 196 et 171 en Espagne, DAS2 en France, Modelo 38 au Portugal, entre autres).
 
+<!-- exentax:crs2-update-v1 -->
+## Mise à jour CRS 2.0, CARF et DAC8 (paquet OCDE)
+
+Ce que le paquet OCDE ne couvre PAS, c'est la dépense pure par carte : le CRS 2.0 élargit le périmètre aux EMI et aux produits de monnaie électronique, le CARF ajoute les crypto-actifs, mais le flux de paiement Visa/Mastercard reste hors de l'échange automatique fiscal et obéit à des règles différentes (KYC de l'émetteur et coopération administrative au cas par cas).
+
+L'OCDE a adopté le paquet intégré formé par **CRS 2.0** (la révision du Common Reporting Standard, qui fait entrer les EMI et les produits de monnaie électronique spécifiés dans le périmètre et renforce la due diligence sur les controlling persons) et **CARF** (Crypto-Asset Reporting Framework, qui étend l'échange automatique aux exchanges, dépositaires et plateformes de dérivés crypto). L'Union européenne l'a transposé par la **Directive (UE) 2023/2226 (DAC8)**, adoptée le 17 octobre 2023, qui modifie la directive 2011/16/UE pour intégrer les deux pièces. La date d'application matérielle est le **1er janvier 2026** et le **premier échange effectif** arrive en **janvier 2027 sur les données de l'exercice 2026**.
+
+Sources officielles : <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OCDE — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OCDE — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Directive (UE) 2023/2226 (DAC8)</a>.
+
+Le message à retenir reste inchangé : **les États-Unis restent hors du périmètre CRS par architecture, pas par opacité**. Washington dispose de son propre régime (FATCA), n'a pas signé le CRS 1.0 et ne signera pas non plus le CRS 2.0, et c'est précisément pour cela que votre LLC américaine demeure une structure parfaitement déclarable dans votre pays de résidence. Nous le détaillons dans <a href="/fr/blog/crs-2-0-carf-pourquoi-les-usa-ne-signeront-jamais-llc">CRS 2.0 et CARF : pourquoi les USA ne signeront jamais et ce que cela change pour votre LLC</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Le modèle à quatre parties: émetteur, réseau, acquéreur, commerçant
 
 Chaque fois que vous passez une carte, quatre acteurs très différents interviennent:

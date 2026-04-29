@@ -1,13 +1,29 @@
 {
-  "generatedAt": "2026-04-25T13:43:09.740Z",
+  "generatedAt": "2026-04-29T18:10:28.326Z",
   "summary": {
     "routeKeys": 16,
-    "pageFilesScanned": 24,
-    "componentsScanned": 44,
+    "pageFilesScanned": 25,
+    "componentsScanned": 48,
     "localesScanned": 6,
-    "issuesByCriticality": {},
-    "issuesByArea": {},
-    "totalIssues": 0
+    "issuesByCriticality": {
+      "P2": 1
+    },
+    "issuesByArea": {
+      "dead-code": 1
+    },
+    "totalIssues": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "criticality": "P2",
+      "area": "dead-code",
+      "location": "client/src/pages/abrir-llc.tsx",
+      "description": "Archivo en client/src/pages no inventariado en App.tsx",
+      "evidence": "no aparece en pageImports",
+      "suggestion": "Eliminar si no se usa o registrarlo formalmente",
+      "languages": [
+        "all"
+      ]
+    }
+  ]
 }

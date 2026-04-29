@@ -1,5 +1,17 @@
 export default `Wenn Sie steuerlich in Spanien ansässig sind und eine <a href="/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten">US-LLC</a>, ein Wise- oder Mercury-Konto, einen ausländischen Broker oder einen relevanten Krypto-Bestand außerhalb einer spanischen Börse haben, markieren zwei Meldungen die Grenze zwischen sauberer Aufstellung und ernstem Problem: das **Modelo 720** und das **Modelo 721**. Fast alle anderen Artikel dieses Blogs erwähnen sie nur am Rand; dies ist der Referenzartikel, um sie wirklich zu verstehen.
 
+<!-- exentax:crs2-update-v1 -->
+## CRS 2.0, CARF und DAC8: Aktualisierung (OECD-Paket)
+
+Für in Spanien Ansässige verstärkt das OECD-Paket (CRS 2.0 + CARF, via DAC8 umgesetzt) die Abgleiche, die die AEAT bereits gegen das Modelo 720 (im Ausland gehaltene Konten und Wertpapiere) und das Modelo 721 (im Ausland verwahrte Krypto-Werte) fährt: mehr meldepflichtige Institutionen, mehr Daten je Konto und mehr Automatik bei jedem Abgleich.
+
+Die OECD hat das integrierte Paket aus **CRS 2.0** (die Revision des Common Reporting Standard, die EMIs und spezifizierte E-Geld-Produkte in den Meldeumfang aufnimmt und die Sorgfaltspflichten gegenüber controlling persons verschärft) und **CARF** (Crypto-Asset Reporting Framework, das den automatischen Informationsaustausch auf Krypto-Börsen, Verwahrer und Plattformen für Krypto-Derivate ausdehnt) verabschiedet. Die Europäische Union hat das Paket mit der **Richtlinie (EU) 2023/2226 (DAC8)** vom 17. Oktober 2023 in das Unionsrecht überführt; sie ändert die Richtlinie 2011/16/EU und führt beide Bausteine ein. Maßgebliches Anwendungsdatum ist der **1. Januar 2026**, der **erste tatsächliche Datenaustausch** erfolgt im **Januar 2027 über die Daten des Geschäftsjahres 2026**.
+
+Offizielle Quellen: <a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/" target="_blank" rel="noopener nofollow">OECD — CRS</a>, <a href="https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm" target="_blank" rel="noopener nofollow">OECD — CARF</a>, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226" target="_blank" rel="noopener nofollow">EUR-Lex — Richtlinie (EU) 2023/2226 (DAC8)</a>.
+
+Die Botschaft bleibt unverändert: **Die USA stehen aus architektonischen Gründen außerhalb des CRS-Perimeters, nicht aus Intransparenz**. Washington betreibt sein eigenes Regime (FATCA), hat den CRS 1.0 nicht unterzeichnet und wird auch den CRS 2.0 nicht unterzeichnen — weshalb Ihre US-LLC eine in Ihrem Wohnsitzstaat sauber erklärbare Struktur bleibt. Den vollständigen Hintergrund finden Sie in <a href="/de/blog/crs-2-0-carf-warum-die-usa-niemals-unterzeichnen-llc">CRS 2.0 und CARF: warum die USA niemals unterzeichnen werden und was das für Ihre LLC bedeutet</a>.
+<!-- /exentax:crs2-update-v1 -->
+
 ## Was das Modelo 720 ist
 
 Das **Modelo 720** ist die „Informationserklärung über Vermögenswerte und Rechte im Ausland". Es wurde durch das Gesetz 7/2012 zur Bekämpfung der Steuerhinterziehung geschaffen und durch die **Verordnung HAP/72/2013** entwickelt, später geändert durch HFP/887/2023. Es ist keine Steuer: keine Bemessung. Es ist ein Informationsregime, das spanische Steueransässige verpflichtet, das Eigentum und den Saldo bestimmter Vermögenswerte außerhalb Spaniens zu melden, wenn die gesetzlichen Schwellen überschritten werden.
