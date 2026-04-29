@@ -44,6 +44,15 @@ const ALL_SCRIPTS = [
     description: "booking notifications go via the bot REST API with action rows",
   },
   {
+    id: "manifest-dryrun",
+    file: "register-discord-commands.ts",
+    args: ["--dry-run"],
+    requires: [],
+    description:
+      "slash-command manifest is structurally valid (no duplicate names, " +
+      "valid option types, lengths within Discord's limits)",
+  },
+  {
     id: "bot-e2e",
     file: "test-discord-bot-e2e.ts",
     requires: ["DATABASE_URL"],
@@ -56,7 +65,7 @@ function runScript(script) {
     const start = Date.now();
     const child = spawn(
       "npx",
-      ["tsx", resolve(HERE, script.file)],
+      ["tsx", resolve(HERE, script.file), ...(script.args ?? [])],
       { stdio: "inherit", env: process.env },
     );
     let timedOut = false;
@@ -108,8 +117,9 @@ for (const script of ALL_SCRIPTS) {
     );
     continue;
   }
+  const argSuffix = script.args && script.args.length > 0 ? ` ${script.args.join(" ")}` : "";
   console.log(
-    `\n=== RUN  scripts/discord/${script.file} (${script.description}) ===`,
+    `\n=== RUN  scripts/discord/${script.file}${argSuffix} (${script.description}) ===`,
   );
   // eslint-disable-next-line no-await-in-loop
   const result = await runScript(script);
