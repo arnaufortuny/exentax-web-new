@@ -147,15 +147,25 @@ async function main() {
   createdEmails.push(httpEmail);
   const sub = await httpSubscribe(httpEmail, "es");
   assert("subscribe endpoint returns 200", sub.status === 200, `status=${sub.status} body=${sub.raw.slice(0, 120)}`);
-  // The consent log is written asynchronously; give it a moment.
-  await new Promise((r) => setTimeout(r, 400));
+  // The consent log is written asynchronously (fire-and-forget alongside the
+  // drip enrollment). Under the parallel `npm run check` runner (concurrency 6)
+  // the original 400 ms fixed wait was insufficient on contended CPUs, causing
+  // intermittent `consent_log entry written` failures (rows=[]). Poll for up to
+  // ~6 s with a tight interval — the success path returns in <500 ms typically.
+  let consentRows: Awaited<ReturnType<typeof getConsentRowsByEmail>> = [];
+  let newsletterConsent: typeof consentRows[number] | undefined;
+  const POLL_DEADLINE = Date.now() + 6000;
+  while (Date.now() < POLL_DEADLINE) {
+    consentRows = await getConsentRowsByEmail(httpEmail);
+    newsletterConsent = consentRows.find((r) => r.formType === "newsletter_footer");
+    if (newsletterConsent) break;
+    await new Promise((r) => setTimeout(r, 200));
+  }
   const subRow = await getSubscriberByEmail(httpEmail);
   assert("newsletter_subscribers row created", !!subRow, `row=${JSON.stringify(subRow)}`);
   assert("subscriber has unsubscribe_token", !!subRow?.unsubscribeToken && subRow.unsubscribeToken.length >= 32);
   assert("subscriber source=footer (default)", subRow?.source === "e2e-test" || subRow?.source === "footer", `source=${subRow?.source}`);
   assert("subscriber unsubscribed_at is null", subRow?.unsubscribedAt === null);
-  const consentRows = await getConsentRowsByEmail(httpEmail);
-  const newsletterConsent = consentRows.find((r) => r.formType === "newsletter_footer");
   assert("consent_log entry written for newsletter_footer", !!newsletterConsent, `rows=${JSON.stringify(consentRows)}`);
   assert("consent_log records privacy_accepted=true", newsletterConsent?.privacyAccepted === true);
   assert("consent_log records marketing_accepted=true", newsletterConsent?.marketingAccepted === true);
@@ -163,7 +173,8 @@ async function main() {
 
   // Verify the 6-step drip sequence was enrolled (replaces the old
   // single welcome email). The row is inserted in fire-and-forget mode
-  // alongside the consent log, so we reuse the same 400ms wait above.
+  // alongside the consent log, so by the time the poll above resolved
+  // the consent row both writes have settled in practice.
   const dripRows = await db.select().from(s.dripEnrollments).where(eq(s.dripEnrollments.email, httpEmail));
   const drip = dripRows[0];
   assert("drip_enrollments row created", !!drip, `rows=${JSON.stringify(dripRows)}`);

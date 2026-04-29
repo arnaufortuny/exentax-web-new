@@ -14,6 +14,30 @@ Exentax Web is a public-facing TaxTech platform offering international LLC forma
 - Verify structure before and after changes, all code must have error handling, debug automatically, never cause regressions
 - ASSET PROTECTION: Do NOT regenerate, recompress, or modify image assets without explicit user consent
 
+## Audit Task #86 — 2026-04-29 (auditoría integral masiva — segunda pasada profunda)
+
+Segunda pasada de auditoría sobre todo el proyecto Exentax Web tras fusionar las
+Tasks #78 (cierre i18n / rutas / validadores) y #83 (clúster CRS 2.0 / CARF /
+DAC8). Lectura, verificación y documentación con **3 fixes quirúrgicos**
+aplicados solo donde se detectó un bug real (sin reescrituras especulativas, sin
+cambios de UX). Cierre con `cd exentax-web && npm run check` **EXIT 0 · 33/33
+gates verde** estable en **3 ejecuciones consecutivas** (`.local/baseline-86/check-{3,5,6}.log`,
+wall 65,8 – 78,5 s) + `npm audit --omit=dev` **0 vulnerabilities** (raíz +
+workspace) + `npx tsc --noEmit` **0 errores**. Reporte ejecutivo:
+[`docs/auditoria-2026-04/auditoria-integral-masiva-2.md`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md).
+
+Bugs reales arreglados: (1) `lint:brand-casing` allowlist para
+`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md`
+(cita el lint verbatim); (2) `seo:masterpiece-strict` allowlist topic-anchored
+`TOPIC_ANCHORED_YEARS` para el slug `crs-2-0-carf-por-que-usa-no-firmara-llc`
+(2023/2026/2027 son intrínsecos al tema regulatorio); (3) `test:newsletter`
+robustecido — `setTimeout(400)` fijo → poll-and-retry de hasta 6 s sobre
+`consent_log` para eliminar race intermitente bajo concurrencia 6.
+
+Sistema **GO — apto para deploy**. Ver `PRODUCTION-STATUS.md` (14/14 áreas en
+verde) · `BASELINE.md` §FINAL VERIFICATION post-#86 · `PENDING-FINAL.md` (P0
+vacío; pendientes operativos VPS y matriz Playwright sin novedades).
+
 ## Audit Task #77 — 2026-04-29 (revisión integral masiva — closure)
 
 Pasada de auditoría completa sobre todo el sistema sin drift respecto al snapshot

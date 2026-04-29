@@ -328,6 +328,25 @@ export function findYearsInProse(body, slug = "") {
     cleaned = cleaned.replace(slugYearRx, " ");
   }
 
+  // Topic-anchored slug allowlist: articles whose subject IS a regulatory
+  // calendar legitimately need to mention specific years editorially, even
+  // when the year is not in the slug itself. Each entry whitelists a fixed
+  // list of years that are intrinsic to the article's topic.
+  // Surgical, audited list — extend with discipline.
+  const TOPIC_ANCHORED_YEARS = {
+    // CRS 2.0 + CARF + DAC8 timeline article: OECD 2023 package, EU
+    // transposition, material application 1-Jan-2026, first effective
+    // exchange 2027 over 2026 data. The 2026 / 2027 / 2023 dates ARE the
+    // topic — removing them would gut the article. See Task #83 cluster.
+    "crs-2-0-carf-por-que-usa-no-firmara-llc": ["2023", "2026", "2027"],
+  };
+  const topicYears = TOPIC_ANCHORED_YEARS[String(slug)];
+  if (topicYears) {
+    for (const y of topicYears) {
+      cleaned = cleaned.replace(new RegExp(`\\b${y}\\b`, "g"), " ");
+    }
+  }
+
   const matches = cleaned.match(/\b(202[3-9]|203\d)\b/g) ?? [];
   return matches.length;
 }

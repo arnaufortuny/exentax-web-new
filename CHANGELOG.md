@@ -3,7 +3,40 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
-## [Unreleased] — 2026-04-29 — Cierre a producción · idiomas, rutas y validadores (Task #78)
+## [Unreleased] — 2026-04-29 — Auditoría integral masiva · segunda pasada profunda (Task #86)
+
+> Segunda pasada de auditoría sobre todo el proyecto Exentax Web tras fusionar las Tasks #78 (cierre i18n / rutas / validadores) y #83 (clúster CRS 2.0 / CARF / DAC8). Lectura, verificación y documentación con **3 fixes quirúrgicos** aplicados solo donde se detectó un bug real (sin reescrituras especulativas, **sin cambios de UX**, sin tocar código de producción). Reporte ejecutivo: [`docs/auditoria-2026-04/auditoria-integral-masiva-2.md`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md).
+
+### Decisión
+
+**GO** — apto para integración a `main` y deploy a Hostinger VPS (con los pasos operativos de `PENDING-FINAL.md #1`). Sistema permanece en estado de cierre tras la pasada.
+
+### Bugs reales arreglados (3 — todos quirúrgicos)
+
+- **`exentax-web/scripts/audit/brand-casing-check.mjs` — falso negativo en `ALLOWLIST`.** El reporte de cierre de Task #78 (`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md`) cita literalmente la salida del lint (`"0 ocurrencias \`ExenTax\`"`) en 3 celdas/bullets explicativos, igual que ya hacían los docs `docs/internal/*` y `exentax-web/docs/audits/historical/2026-04-27-*` que están en `ALLOWLIST`. **Fix**: añadida una entrada con comentario explicativo. No se modifica texto del informe (la grafía prohibida es legítima ahí — refiere al objetivo de la regla, no a la marca).
+- **`exentax-web/scripts/blog/blog-masterpiece-audit.mjs` — falso positivo `year-in-prose` por slug topic-anchored.** El nuevo artículo `crs-2-0-carf-por-que-usa-no-firmara-llc` (Task #83) explica la línea temporal regulatoria CRS 2.0 / CARF / DAC8: paquete OCDE 2023, transposición DAC8, aplicación material 1-Ene-2026, primer intercambio efectivo en 2027 sobre datos del ejercicio 2026. Frases como `"Enero 2027 sobre datos 2026"` no encajan en ninguno de los ~50 patrones `LEGAL_CONTEXTS` y el slug no contiene un marcador `-YYYY-` que active la cláusula `slugYearMatch`. Reescribir el cuerpo equivaldría a vaciar el artículo. **Fix**: añadido bloque `TOPIC_ANCHORED_YEARS` (junto a `slugYearMatch`) con la entrada nominativa `crs-2-0-carf-por-que-usa-no-firmara-llc → ["2023", "2026", "2027"]`. Cualquier otro año editorial sigue contando como violación. Comentario in-line documenta el criterio para extensiones futuras (slugs cuyo tema *es* un calendario regulatorio, no como atajo).
+- **`exentax-web/scripts/e2e/test-newsletter-e2e.ts` — race intermitente en lectura de `consent_log` bajo concurrencia 6.** El endpoint `POST /api/newsletter/subscribe` escribe `consent_log` en modo fire-and-forget tras devolver 200; el test esperaba 400 ms fijos antes de leer. Bajo el runner paralelo (`audit:bundle` + `blog:validate-all` saturando CPU), 400 ms a veces no alcanzan, causando 4 aserciones rotas (`rows=[]`). **No es un bug de producción** (el usuario no observa `consent_log`), es flakiness del test. **Fix**: sustituido `setTimeout(400)` por poll-and-retry con deadline 6 s e intervalo 200 ms, terminando en cuanto aparece la fila. Camino feliz vuelve <500 ms (idéntico al original); bajo contención tolera hasta 6 s sin perder cobertura.
+
+### Verificación post-fix (entorno Replit, dev server `:5000`)
+
+- **Quality gate consolidado**: `cd exentax-web && npm run check` → **EXIT 0 · 33/33 · estable en 3 ejecuciones consecutivas** (`.local/baseline-86/check-{3,5,6}.log` · wall 65,8 / 78,5 / 69,0 s).
+- **TypeScript estricto**: `npx tsc --noEmit` → 0 errores.
+- **Seguridad de dependencias**: `npm audit --omit=dev` → **0 vulnerabilities** (raíz + workspace).
+- **i18n**: `npm run i18n:check` → **1.566 keys × 6 langs** PASS (+8 keys vs Task #78 por nuevas keys del clúster #83) · 783 ficheros escaneados · 0 hardcoded · 0 placeholder mismatches · `lint:typography` 0 violaciones · `lint:pt-pt` 115 ficheros OK · `lint:brand-casing` 0 ocurrencias.
+- **Rutas / SEO**: `seo:check` 0 broken · `seo:slash` clean · `seo:meta` 0 errors / 0 warnings · 0 anglicismos en og+metadata+body sobre fr/de/pt/ca · `seo:masterpiece-strict` 672 articles · mean 99,8 · **critical=0** · `test:redirects` 9/9.
+- **Blog**: `blog:validate-all` 19/19 (incluye `seo-llm-readiness`, `blog-cluster-audit`, `conversion-strict`, `risk-bridge`).
+- **E2E**: `test:calculator` 123/123 · `test:booking` 54/54 · `test:newsletter` 55/55 (post-fix de poll) · `test:discord-regression` 72/72 (estable post-fix de #2.3).
+- **Health**: `GET /api/health` 200 · `GET /api/health/ready` `{ ready:true, db.ok, breakers.ok, emailWorker.ok }`.
+
+### Documentos actualizados
+
+- `replit.md` — añadida entrada "Audit Task #86 — 2026-04-29" antes de la entrada de Task #77.
+- `BASELINE.md` — añadida sección `## FINAL VERIFICATION — 2026-04-29 (Task #86)` con tabla de comandos verificados (12 filas).
+- `PRODUCTION-STATUS.md` — header actualizado a Task #86 + 3 nuevas filas en el resumen ejecutivo (clúster CRS 2.0/CARF/DAC8 verificado en #86, segunda pasada profunda completada, recuento i18n actualizado a 1.566 keys × 6, decisión go/no-go re-emitida).
+- `PENDING-FINAL.md` — sin nuevos tickets generados (P0 sigue vacío); las tareas en cola previas no se duplican (#22, #26, #29, #37, #40, #53, #55, #57, #58, #62, #69, #70, #71, #75, #82, #84, #85).
+- `docs/auditoria-2026-04/auditoria-integral-masiva-2.md` — reporte ejecutivo nuevo (~280 líneas) con tabla por área, evidencia literal, comparación contra Tasks #77/#78, y lista reproducible de comandos.
+
+## [Snapshot anterior] — 2026-04-29 — Cierre a producción · idiomas, rutas y validadores (Task #78)
 
 > Auditoría de cierre senior-engineer enfocada en las **tres dimensiones críticas para deploy seguro**: (1) catálogos i18n alineados en los 6 idiomas soportados (es/en/fr/de/pt/ca), (2) sistema de rutas y slugs canónico con `hreflang` bidireccional y `x-default`, y (3) cobertura completa de validadores Zod sobre `server/routes` con tests verdes. **Sin cambios de código** — todo el trabajo es verificación cruzada documentada y propagación a documentos raíz. Reporte ejecutivo: [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md).
 

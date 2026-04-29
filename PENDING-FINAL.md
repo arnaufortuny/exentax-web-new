@@ -1,12 +1,12 @@
 # PENDING-FINAL — Exentax Web V3
 
-> **Lista priorizada única.** Refrescada **2026-04-29** tras cierre LOTES 1-10 (Task #11) + **Task #77** (revisión integral masiva 2026-04-29 — reporte ejecutivo en [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md)). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md). Checklist accionable deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md). Áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md).
+> **Lista priorizada única.** Refrescada **2026-04-29** tras cierre LOTES 1-10 (Task #11) + **Task #77** (revisión integral masiva 2026-04-29) + **Task #78** (cierre i18n / rutas / validadores 2026-04-29) + **Task #83** (clúster CRS 2.0 / CARF / DAC8) + **Task #86** (auditoría integral masiva — segunda pasada profunda 2026-04-29 — reporte ejecutivo en [`docs/auditoria-2026-04/auditoria-integral-masiva-2.md`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md)). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md). Checklist accionable deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md). Áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md).
 
 ---
 
 ## 🔴 P0 — Bloquea producción
 
-> **Vacío.** El último drift de integración (P1 #1.5 — brasileñismo "arquivo" del catálogo bridge v2 LOTE 6b en pt-PT) se cerró el 2026-04-29 (Task #46). `npm run check` ejecuta de extremo a extremo en EXIT 0 (33/33 gates · wall 53,4 s · re-verificado en Task #77 tras dos correcciones puntuales documentadas en `CHANGELOG.md`). Los pasos que faltan para deploy real son operativos en VPS, no de código.
+> **Vacío.** Sin cambios respecto al último cierre. `npm run check` ejecuta de extremo a extremo en EXIT 0 (33/33 gates) **estable en 3 ejecuciones consecutivas post-Task #86** (`.local/baseline-86/check-{3,5,6}.log` · wall 65,8 / 78,5 / 69,0 s) tras 3 fixes quirúrgicos documentados en `CHANGELOG.md` ([Unreleased] — 2026-04-29 — Auditoría integral masiva · segunda pasada profunda). Los pasos que faltan para deploy real son operativos en VPS, no de código.
 
 ---
 

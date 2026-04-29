@@ -2,9 +2,9 @@
 
 Web pública de Exentax: landing, blog multilingüe, sistema de reservas de asesoría con Google Meet, calculadora fiscal, newsletter, páginas legales y operación admin íntegramente vía bot de Discord. Aplicación full-stack en un único proceso Node que sirve frontend (SPA React) y backend (API Express) con SEO multiidioma server-side.
 
-> **Estado (2026-04-29):** Production-ready en código tras cierre de la **revisión integral masiva 2026-04-29** (Task #77, [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md)). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md) · checklist accionable de deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md) · pendientes residuales en [`PENDING-FINAL.md`](PENDING-FINAL.md) · áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md) · baseline literal en [`BASELINE.md`](BASELINE.md).
+> **Estado (2026-04-29):** Production-ready en código tras cierre de la **auditoría integral masiva — segunda pasada profunda** (Task #86, [`docs/auditoria-2026-04/auditoria-integral-masiva-2.md`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md)) sobre el snapshot ya consolidado por Task #77 + Task #78 (cierre i18n / rutas / validadores) + Task #83 (clúster CRS 2.0 / CARF / DAC8). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md) · checklist accionable de deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md) · pendientes residuales en [`PENDING-FINAL.md`](PENDING-FINAL.md) · áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md) · baseline literal en [`BASELINE.md`](BASELINE.md).
 >
-> **Cifras consolidadas (LOTES 1-10 + Task #77)**: `npm run check` **33/33 verde** (wall 53 s) · `npm audit --omit=dev` **0 vulnerabilidades** · SEO meta 0/0 × 6 idiomas · 780 URLs sirven 200 con hreflang bidireccional · smoke server-side de 102/102 rutas canónicas localizadas (17 keys × 6 langs) en sandbox — la matriz Playwright cross-browser (Chromium/Firefox/WebKit × 360/768/1280) sigue **deferida** en [`PENDING-FINAL.md #5`](PENDING-FINAL.md) y NO se ejecutó en este ciclo · 672/672 artículos ✓ veracidad fiscal (0 contradicciones) · 0 warnings `no-conversion-entry` · 99,5% bridges Exentax adyacentes a párrafos de riesgo · i18n 1.558 keys × 6 idiomas con calidad nativa extendida (0 hits) · `lint:pt-pt` 115 ficheros OK · 108 SERP cards generadas (0 errors) · JSON-LD + OG + Twitter Cards 100% · calculadora 116/116 con FL incluido · field encryption AES-256-GCM 45/45 · headers Helmet completos (CSP/XFO/Referrer-Policy/Permissions-Policy).
+> **Cifras consolidadas (LOTES 1-10 + Task #77 + Task #78 + Task #83 + Task #86)**: `npm run check` **33/33 verde estable en 3 ejecuciones consecutivas** post-Task #86 (wall 65,8 / 78,5 / 69,0 s) · `npm audit --omit=dev` **0 vulnerabilidades** (raíz + workspace) · SEO meta 0/0 × 6 idiomas · 780 URLs sirven 200 con hreflang bidireccional · smoke server-side de 102/102 rutas canónicas localizadas (17 keys × 6 langs) en sandbox — la matriz Playwright cross-browser (Chromium/Firefox/WebKit × 360/768/1280) sigue **deferida** en [`PENDING-FINAL.md #5`](PENDING-FINAL.md) y NO se ejecutó en este ciclo · 672/672 artículos ✓ veracidad fiscal (0 contradicciones) · `seo:masterpiece-strict` mean 99,8 / **critical=0** · 0 warnings `no-conversion-entry` · 99,5% bridges Exentax adyacentes a párrafos de riesgo · i18n **1.566 keys × 6 idiomas** (+8 vs Task #78 por keys del clúster #83) con calidad nativa extendida (0 hits) · `lint:pt-pt` 115 ficheros OK · `lint:brand-casing` 0 ocurrencias · 108 SERP cards generadas (0 errors) · JSON-LD + OG + Twitter Cards 100% · calculadora 123/123 con FL incluido · field encryption AES-256-GCM 45/45 · headers Helmet completos (CSP/XFO/Referrer-Policy/Permissions-Policy).
 >
 > **Baselines verdes hoy** (`docs/internal/BASELINE-CIERRE.md` + [`BASELINE.md`](BASELINE.md)): TS strict EXIT 0 · `npm run check` EXIT 0 (33/33) · `blog:validate-all` 15/15 (incluye `official-source-coverage` + `conversion-strict`) · seo:check + seo:meta + seo:slash + seo:masterpiece-strict + seo:llm-readiness + seo:serp-previews clean · test:redirects 9/9 · test:geo 12/12 · test:indexnow 10/10 · test:discord-regression 3/3 (72/72 e2e) · typography/brand 0 violaciones · `lint:pt-pt` 0 brasileñismos.
 >
@@ -44,24 +44,23 @@ Web pública de Exentax: landing, blog multilingüe, sistema de reservas de ases
 
 > Pasos que requieren red/Postgres reales y no se ejecutan en sandbox sin DB: `test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` (Postgres real) y la ronda IndexNow/sitemap live. Pasan en Replit/Hostinger; cobertura completa en [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden).
 
-#### Verificación end-to-end ejecutada 2026-04-29 (Task #77 — revisión integral masiva)
+#### Verificación end-to-end ejecutada 2026-04-29 (Task #86 — auditoría integral masiva, segunda pasada profunda)
 
 | Comando | Resultado |
 |---|---|
-| `npx tsc --noEmit --strict` (en `exentax-web/`) | **EXIT 0** ✓ |
-| `npm run check` (en `exentax-web/`) | **EXIT 0** ✓ — **33 / 33 gates verde**, wall 53,4 s. Log íntegro en `docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md` y `.local/baseline-77/check-after-fix2.log`. |
-| `npm audit --omit=dev` (en `exentax-web/`) | **0 vulnerabilities** ✓ |
-| `npx depcheck --json` | 0 dependencias muertas reales (postcss aparece como falso positivo: lo consume `postcss.config.mjs` vía `tailwindcss` + `autoprefixer`). |
+| `npx tsc --noEmit` (en `exentax-web/`) | **EXIT 0** ✓ |
+| `npm run check` (en `exentax-web/`) — run 3 | **EXIT 0** ✓ — **33 / 33 gates verde**, wall 65,8 s. `.local/baseline-86/check-3.log`. |
+| `npm run check` (en `exentax-web/`) — run 5 | **EXIT 0** ✓ — **33 / 33 gates verde**, wall 78,5 s. `.local/baseline-86/check-5.log`. |
+| `npm run check` (en `exentax-web/`) — run 6 | **EXIT 0** ✓ — **33 / 33 gates verde**, wall 69,0 s. `.local/baseline-86/check-6.log`. Estabilidad confirmada. |
+| `npm audit --omit=dev` (raíz + workspace) | **0 vulnerabilities** ✓ — `.local/baseline-86/npm-audit-{root,ws}.log`. |
 | `curl http://localhost:5000/api/health` | **200** ✓ — `{"status":"ok","uptime":…}` |
 | `curl http://localhost:5000/api/health/ready` | **200** ✓ — `{"status":"ready","ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},"emailWorker":{"ok":true}}}` |
-| Smoke 102 rutas canónicas (17 RouteKeys × 6 langs) | **102 / 102 = 200**, 0 redirects, 0 fallos (`/tmp/route-smoke.mjs` contra `localhost:5000`). |
-| `curl -I /sitemap.xml` + `/sitemap-blog.xml` + `/robots.txt` | **200** ✓ — sitemap-index con 3 hijos · `<lastmod>` real · `robots.txt` con allow-list de 17 bots IA + sitemaps. |
-| Headers de seguridad (`curl -I /`) | **CSP** + **X-Frame-Options: SAMEORIGIN** + **Referrer-Policy: strict-origin-when-cross-origin** + **Permissions-Policy** + **X-Content-Type-Options: nosniff** + **X-Correlation-Id** ✓ |
-| `npm run seo:masterpiece-strict` | **EXIT 0** ✓ — 0 critical findings (mean score 99.8 / 100). |
-| `npm run seo:llm-readiness` | **EXIT 0** ✓ |
-| `npm run seo:serp-previews` | **EXIT 0** ✓ — 108 cards (6 langs × 18 pages), 0 errors. |
-| `npm run blog:validate-all` | **EXIT 0** ✓ — 15/15 pasos. |
-| `npm run audit:bundle:fast` | **EXIT 0** ✓ — HARD budget OK. |
+| `npm run i18n:check` | **EXIT 0** ✓ — **1.566 keys × 6 langs** (+8 vs Task #78 por keys del clúster #83). |
+| `npm run seo:masterpiece-strict` | **EXIT 0** ✓ — 672 articles · mean 99,8 / **critical=0** (post fix `TOPIC_ANCHORED_YEARS` para slug `crs-2-0-carf-por-que-usa-no-firmara-llc`). |
+| `npm run seo:meta` | **EXIT 0** ✓ — 0 errors / 0 warnings · 0 anglicismos en og+metadata+body sobre fr/de/pt/ca. |
+| `npm run blog:validate-all` | **EXIT 0** ✓ — **19/19** pasos. |
+
+> 3 fixes quirúrgicos aplicados durante Task #86 (sin tocar UX, sin código de producción): (1) allowlist `lint:brand-casing` para el reporte de cierre de Task #78; (2) `TOPIC_ANCHORED_YEARS` en `seo:masterpiece-strict` para el clúster regulatorio CRS 2.0/CARF/DAC8; (3) `test:newsletter` poll-and-retry sobre `consent_log` (deadline 6 s) elimina race intermitente bajo concurrencia 6. Detalle completo: [`docs/auditoria-2026-04/auditoria-integral-masiva-2.md §2`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md) y [`CHANGELOG.md`](CHANGELOG.md) — [Unreleased] 2026-04-29.
 
 > Todos los pasos `test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` / `test:discord-regression` requieren `DATABASE_URL` y se ejecutan dentro del runner paralelo `scripts/check.mjs` cuando la variable está presente (caso de Replit y de la VPS Hostinger). Cobertura post-deploy en [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden).
 
