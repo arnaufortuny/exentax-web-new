@@ -33136,7 +33136,7 @@
         "passiveReference": 5,
         "fix": 0
       },
-      "sourcesCount": 4,
+      "sourcesCount": 5,
       "status": "✓",
       "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×5 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
@@ -48064,7 +48064,7 @@
         "passiveReference": 5,
         "fix": 0
       },
-      "sourcesCount": 4,
+      "sourcesCount": 5,
       "status": "✓",
       "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×5 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
@@ -78128,7 +78128,7 @@
         "passiveReference": 6,
         "fix": 0
       },
-      "sourcesCount": 4,
+      "sourcesCount": 5,
       "status": "✓",
       "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"

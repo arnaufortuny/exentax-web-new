@@ -37,7 +37,7 @@ Live HTTP probe checks every sitemap URL with `redirect:manual` and parses
 - Sitemap entries returning 4xx: **0**
 - Sitemap entries returning 3xx: **0**
 - Sitemap entries flagged `noindex`: **0**
-- Sitemap entries unreachable (network error): **12**
+- Sitemap entries unreachable (network error): **0**
 
 ## Locale `es` (es-ES)
 
@@ -51,9 +51,8 @@ _None._
 ### (b) Sitemap entries NOT reachable ≤3 clicks from `/es` — 0
 _None._
 
-### (c) Sitemap entries returning 404 / redirect / noindex — 2
-- `/es/blog/auditoria-rapida-llc-12-puntos-30-minutos` — HTTP -1 (fetch failed)
-- `/es/blog/como-disolver-cerrar-llc-paso-a-paso` — HTTP -1 (fetch failed)
+### (c) Sitemap entries returning 404 / redirect / noindex — 0
+_None._
 
 ## Locale `en` (en-US)
 
@@ -67,9 +66,8 @@ _None._
 ### (b) Sitemap entries NOT reachable ≤3 clicks from `/en` — 0
 _None._
 
-### (c) Sitemap entries returning 404 / redirect / noindex — 2
-- `/en/blog/how-to-dissolve-and-close-a-us-llc-step-by-step` — HTTP -1 (fetch failed)
-- `/en/blog/uk-limited-company-when-it-makes-sense` — HTTP -1 (fetch failed)
+### (c) Sitemap entries returning 404 / redirect / noindex — 0
+_None._
 
 ## Locale `fr` (fr-FR)
 
@@ -83,9 +81,8 @@ _None._
 ### (b) Sitemap entries NOT reachable ≤3 clicks from `/fr` — 0
 _None._
 
-### (c) Sitemap entries returning 404 / redirect / noindex — 2
-- `/fr/blog/comment-dissoudre-et-fermer-une-llc-americaine-etape-par` — HTTP -1 (fetch failed)
-- `/fr/blog/societe-uk-ltd-quand-cest-pertinent` — HTTP -1 (fetch failed)
+### (c) Sitemap entries returning 404 / redirect / noindex — 0
+_None._
 
 ## Locale `de` (de-DE)
 
@@ -99,9 +96,8 @@ _None._
 ### (b) Sitemap entries NOT reachable ≤3 clicks from `/de` — 0
 _None._
 
-### (c) Sitemap entries returning 404 / redirect / noindex — 2
-- `/de/blog/uk-limited-wann-sie-sinnvoll-ist` — HTTP -1 (fetch failed)
-- `/de/blog/us-llc-auflosen-und-schliessen-schritt-fur-schritt` — HTTP -1 (fetch failed)
+### (c) Sitemap entries returning 404 / redirect / noindex — 0
+_None._
 
 ## Locale `pt` (pt-PT)
 
@@ -115,9 +111,8 @@ _None._
 ### (b) Sitemap entries NOT reachable ≤3 clicks from `/pt` — 0
 _None._
 
-### (c) Sitemap entries returning 404 / redirect / noindex — 2
-- `/pt/blog/como-dissolver-e-encerrar-uma-llc-americana-passo-a-passo` — HTTP -1 (fetch failed)
-- `/pt/blog/empresa-no-reino-unido-uk-ltd-quando-faz-sentido` — HTTP -1 (fetch failed)
+### (c) Sitemap entries returning 404 / redirect / noindex — 0
+_None._
 
 ## Locale `ca` (ca-ES)
 
@@ -131,9 +126,8 @@ _None._
 ### (b) Sitemap entries NOT reachable ≤3 clicks from `/ca` — 0
 _None._
 
-### (c) Sitemap entries returning 404 / redirect / noindex — 2
-- `/ca/blog/com-dissoldre-i-tancar-una-llc-americana-pas-a-pas` — HTTP -1 (fetch failed)
-- `/ca/blog/empresa-al-regne-unit-uk-ltd-quan-te-sentit` — HTTP -1 (fetch failed)
+### (c) Sitemap entries returning 404 / redirect / noindex — 0
+_None._
 
 ## Hreflang reciprocity
 
@@ -146,5 +140,5 @@ Audited 780 `<url>` blocks across the sitemap tree. For each block we require th
 
 - Orphans (reachable but not in sitemap): **0**
 - Orphans (in sitemap but unreachable ≤3 clicks): **0**
-- Ghost URLs (sitemap entries 404/redirect/noindex): **12**
+- Ghost URLs (sitemap entries 404/redirect/noindex): **0**
 - Hreflang inconsistencies: **0**
