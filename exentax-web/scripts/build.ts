@@ -216,7 +216,7 @@ async function buildAll() {
   );
 
   console.log("creating uploads directory...");
-  await mkdir(path.resolve(WORKSPACE, "uploads/docs"), { recursive: true });
+  await mkdir(path.resolve(WORKSPACE, "uploads"), { recursive: true });
 }
 
 buildAll().catch((err) => {

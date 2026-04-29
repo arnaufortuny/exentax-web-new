@@ -1,12 +1,12 @@
 # PENDING-FINAL — Exentax Web V3
 
-> **Lista priorizada única.** Refrescada **2026-04-29** tras cierre LOTES 1-10 (Task #11) + **Task #77** (revisión integral masiva 2026-04-29) + **Task #78** (cierre i18n / rutas / validadores 2026-04-29) + **Task #83** (clúster CRS 2.0 / CARF / DAC8) + **Task #86** (auditoría integral masiva — segunda pasada profunda 2026-04-29 — reporte ejecutivo en [`docs/auditoria-2026-04/auditoria-integral-masiva-2.md`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md)). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md). Checklist accionable deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md). Áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md).
+> **Lista priorizada única.** Refrescada **2026-04-29** tras cierre LOTES 1-10 (Task #11) + **Task #77** (revisión integral masiva 2026-04-29) + **Task #78** (cierre i18n / rutas / validadores 2026-04-29) + **Task #83** (clúster CRS 2.0 / CARF / DAC8) + **Task #86** (auditoría integral masiva — segunda pasada profunda 2026-04-29 — reporte ejecutivo en [`docs/auditoria-2026-04/auditoria-integral-masiva-2.md`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md)) + **Task #87** (cierre a producción · calidad i18n, keys, rutas y validadores · 2.ª pasada 2026-04-29 — reporte ejecutivo en [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md)). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md). Checklist accionable deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md). Áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md).
 
 ---
 
 ## 🔴 P0 — Bloquea producción
 
-> **Vacío.** Sin cambios respecto al último cierre. `npm run check` ejecuta de extremo a extremo en EXIT 0 (33/33 gates) **estable en 3 ejecuciones consecutivas post-Task #86** (`.local/baseline-86/check-{3,5,6}.log` · wall 65,8 / 78,5 / 69,0 s) tras 3 fixes quirúrgicos documentados en `CHANGELOG.md` ([Unreleased] — 2026-04-29 — Auditoría integral masiva · segunda pasada profunda). Los pasos que faltan para deploy real son operativos en VPS, no de código.
+> **Vacío.** Sin cambios respecto al último cierre. `npm run check` ejecuta de extremo a extremo en EXIT 0 (33/33 gates) **estable en 3 ejecuciones consecutivas post-Task #87** (`.local/baseline-87/check-{3,4,5}.log` · wall 73,0 / 66,0 / 78,0 s) tras 1 fix quirúrgico (`lint:brand-casing` allowlist para `auditoria-integral-masiva-2.md`) documentado en `CHANGELOG.md` ([Unreleased] — 2026-04-29 — Cierre a producción · calidad i18n, keys, rutas y validadores · 2.ª pasada). Los pasos que faltan para deploy real son operativos en VPS, no de código.
 
 ---
 

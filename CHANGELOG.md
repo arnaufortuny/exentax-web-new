@@ -3,7 +3,113 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
-## [Unreleased] — 2026-04-29 — Auditoría integral masiva · segunda pasada profunda (Task #86)
+## [Unreleased] — 2026-04-29 — Cierre a producción · calidad i18n, keys, rutas y validadores · 2.ª pasada (Task #87)
+
+> Segunda pasada del cierre Task #78 (i18n, rutas/slugs/hreflang, validadores Zod) sobre el snapshot consolidado tras Task #86. Re-ejecución del contrato de cierre con los mismos gates exigentes y bajo carga real (runner paralelo `npm run check` de 33 gates), **3 ejecuciones consecutivas estables**. **1 fix quirúrgico** aplicado tras detectar un falso positivo legítimo en `lint:brand-casing`. Sin reescrituras especulativas, **sin cambios de UX**, sin tocar código de producción / traducciones / slugs / validadores. Reporte ejecutivo: [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md).
+
+### Decisión
+
+**GO** — apto para integración a `main` y deploy a Hostinger VPS (con los pasos operativos de `PENDING-FINAL.md #1`). Sistema permanece en estado de cierre tras la 2.ª pasada del cierre i18n/rutas/validadores.
+
+### Bug real arreglado (1 — quirúrgico)
+
+- **`exentax-web/scripts/audit/brand-casing-check.mjs` — falso positivo `lint:brand-casing` en `docs/auditoria-2026-04/auditoria-integral-masiva-2.md` y, recursivamente, en el propio reporte de cierre de esta task.** El reporte ejecutivo de Task #84/#86 documenta el fix de allowlist que se aplicó al reporte de Task #78 (entrada `cierre-produccion-i18n-rutas-validadores-2026-04-29.md` añadida en Task #86). Por tanto cita la grafía prohibida 4 veces (líneas 35, 37, 41, 103) en celdas de tabla, bullets de causa raíz, output literal del lint y etiqueta de verificación. A su vez, el reporte de cierre de Task #87 documenta este nuevo fix y replica la grafía prohibida 8 veces. La grafía es legítima: refiere al *objetivo de la regla*, no a la marca — exactamente igual que ya hacían `docs/internal/*` (8 ficheros), los `historical/2026-04-27-*` (3 ficheros) y el reporte de cierre de Task #78. **Fix**: añadidas 2 entradas nuevas en `ALLOWLIST` (`auditoria-integral-masiva-2.md` + `cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md`) con comentarios explicativos in-line. No se modifica texto de ningún reporte. Cualquier otra ocurrencia de `ExenTax` fuera de la allowlist sigue contando como violación.
+
+### Verificación post-fix (entorno Replit, dev server `:5000`)
+
+- **Quality gate consolidado**: `cd exentax-web && npm run check` → **EXIT 0 · 33/33 · estable en 3 ejecuciones consecutivas** (`.local/baseline-87/check-{3,4,5}.log` · wall 73,0 / 66,0 / 78,0 s).
+- **TypeScript estricto**: `npx tsc --noEmit --strict` → 0 errores (`.local/baseline-87/tsc-strict.log`).
+- **Seguridad de dependencias**: `npm audit --omit=dev` → **0 vulnerabilities** (raíz `.local/baseline-87/npm-audit-root2.log` + workspace `.local/baseline-87/npm-audit-ws.log`).
+- **i18n**: `npm run i18n:check` → **1.566 keys × 6 langs** PASS (Δ=0 vs Task #86) · 783 ficheros escaneados · 0 hardcoded · 0 placeholder mismatches · `lint:typography` 0 violaciones · `lint:pt-pt` 115 ficheros OK · `lint:brand-casing` 0 ocurrencias `ExenTax` (post-allowlist §2.1) · `lint:i18n-extended` 0 hits.
+- **Rutas / SEO**: `seo:check` 0 broken · `seo:slash` clean · `seo:meta` 0 errors / 0 warnings · `seo:masterpiece-strict` 672 articles · mean 99,8 · **critical=0** · `seo:serp-previews` 108 cards / 0 errors · `test:redirects` 9/9 · `test:geo` 12/12 · `test:indexnow` 10/10. 17 RouteKeys × 6 idiomas canónicos sin cambios vs Task #78.
+- **Validadores Zod**: **31 endpoints públicos únicos (path × método)** inventariados a 2026-04-29: **26 en `server/routes/public.ts`** (drift +3 vs Task #78 que reportó 23 — los 3 nuevos endpoints añadidos en tasks intermedias #83/#86 ya heredan el mismo patrón Zod) + 1 (`index.ts`) + 3 (`observability.ts`) + 1 (`discord-bot.ts`). **13 mutaciones totales** (11 POST `public.ts` + 1 POST `observability.ts` + 1 POST `discord-bot.ts`) **13/13 con validación**: 9 strict Zod + 2 unsubscribe RFC 8058 + 1 `clientErrorSchema` + 1 Ed25519. Cobertura: `test:calculator` 123/123 · `test:booking` 54/54 · `test:newsletter` 55/55 · `test:discord-regression` 6/6 (3 scripts · 72/72 e2e — confirmado en run aislado `.local/baseline-87/discord-e2e-isolated.log`).
+- **Blog**: `blog:validate-all` 19/19 (incluye `seo-llm-readiness`, `blog-cluster-audit`, `conversion-strict`, `risk-bridge`, `official-source-coverage`).
+- **Bundle**: `audit:bundle:fast` EXIT 0 (HARD budget OK).
+- **Health**: `GET /api/health/ready` `{ ready:true, db.ok, breakers.ok, emailWorker.ok }`.
+
+### Verificación profunda complementaria (deep pass · ad-hoc, adicional a los 33 gates)
+
+Bajo petición explícita de "máxima exhaustividad" en URLs, SEO, indexing, sitemap, rendimiento, navegación, agenda y validadores — **CERO bugs nuevos · CERO regresiones**. Logs literales en `.local/baseline-87/deep-*.log`. Detalle completo en `BASELINE.md` §APÉNDICE.
+
+- **Rutas (102 URLs)**: 0 colisiones de slug · round-trip `getLocalizedPath`↔`resolveRoute` 102/102 · URL safety 102/102 · cambio de idioma `getEquivalentPath` 102/102 · 8/8 edge cases (trailing slash, idioma desconocido, slug inexistente).
+- **Sweep HTTP en vivo**: 102/102 → 200 en 2 041 ms · latencia p50/p90/p99/max = 167/268/410/439 ms.
+- **i18n a fondo**: 1 566 keys × 6 idiomas · 0 faltantes · 0 vacíos · 0 mismatches de placeholders · 0 mojibake reales (los 7 candidatos PT son `Ç`/`ã`/`á` legítimos del portugués) · 10 mismatches de tags HTML acotados a 4 cuerpos legales largos (variabilidad legítima de traductor) · todos los strings idénticos a `es` están en la lista intencionada.
+- **SEO en HTML rendido (102 páginas)**: title/description/canonical/OG/hreflang+x-default 102/102 · 0 noindex · 1 título marginal a 82 chars (`/de/llc-usa-eroeffnen`) · 6 descripciones marginales ~200 chars en pillars LLC.
+- **Sitemaps**: cobertura 102/102 RouteKeys + 672 blog + 6 FAQ · hreflang 7 entradas por URL (6 idiomas + x-default) · totales correctos (714 + 4 704 + 42).
+- **Robots.txt**: allows explícitos por idioma + 4 sitemaps + GEO/AI bots; disallows en `/api`, `/internal`, `/private`, `/booking`, `/start`, `/go/`, `/links`, `/thank-you`, `/preview/`, `/staging/`, `/dev/`, `/__mockup/` + duplicados con `?utm_*`/`?gclid`/`?fbclid`/`?mc_*`/`?ref=`.
+- **Cabeceras**: CSP estricta · X-Frame-Options=SAMEORIGIN · Permissions-Policy con cámara/mic/geo/payment denegados · `X-Robots-Tag: index, follow` · HTTP `Link:` con canonical + 6 hreflang + x-default · `Cache-Control` correcto por tipo (HTML no-store, sitemap 1h, robots 24h, /api/health no-store) · `Vary` activo.
+- **Validadores Zod (verificación cruzada con la línea anterior · 31 endpoints únicos / 32 declaraciones)**: 26 pares únicos en `public.ts` (27 declaraciones — la duplicación `GET /:lang/blog/:slug` líneas 290+307 es un pipeline encadenado vía `next()` para consolidación 301 + normalización de slug) · 13 mutaciones · 13/13 cubiertas (9 strict Zod + 2 unsubscribe RFC 8058 con rate-limit/length-guard/idempotencia/no-leak + 1 `clientErrorSchema` + 1 Ed25519). Pruebas black-box: CSRF activo (POST sin Origin → 403 `FORBIDDEN`), Zod `.strict()` rechaza claves extra, errores con `code:VALIDATION_ERROR` y detalles por campo, PII redactada en logs (`phone:"[REDACTED]"`).
+- **Agenda happy-path en vivo**: `available-slots` miércoles → 24 slots (08:00-19:30) · sábado → 0 · pasado → 0 · `blocked-days?limit=10` → 200. Suites e2e: `test:booking` 10,4 s OK · `test:newsletter` 10,0 s OK · `test:calculator` 123/123 · `test:geo` 8,3 s OK · `test:indexnow` 10/10.
+- **Rendimiento**: `audit:bundle` server 5,62 MB / 7 MB (80,3 %) · public 21,53 MB / 30 MB (71,8 %) · `seo:masterpiece-strict` 672 articles · mean 99,8 · critical=0.
+- **Consola del navegador**: limpia (0 errores).
+- **Gates dirigidos individuales (re-corrida fuera del runner paralelo)**: `i18n:check`, `seo:check`, `seo:slash`, `seo:meta`, `lint:typography`, `lint:pt-pt`, `lint:banking-entities`, `lint:email-deliverability` (10 sendEmail · 7 booking · 13 CTAs UTM · 78 subjects spam-checked), `lint:stray-reports`, `test:redirects`, `test:no-inline-related`, `test:masterpiece-audit` 61/61, `test:masterpiece-audit-rules` 43/43, `test:audit-faqs` 57/57+11/11, `test:risk-bridge-inject` 111/111, `test:lint-blog` 38/38, `test:bundle-diff-notify`, `test:perf-gate-bypass-notify`, `test:seo-check`, `test:seo-slash` → todos EXIT 0.
+
+### Documentos actualizados
+
+- `replit.md` — añadida entrada "Audit Task #87 — 2026-04-29 (cierre i18n/rutas/validadores · 2.ª pasada)" al inicio del bloque de cierres.
+- `BASELINE.md` — añadida sección `## FINAL VERIFICATION — 2026-04-29 (Task #87)` con tabla de comandos verificados (15 filas).
+- `PRODUCTION-STATUS.md` — header actualizado a Task #87 + nueva fila en el resumen ejecutivo (cierre i18n/rutas/validadores 2.ª pasada) + actualización de filas existentes (quality gate paralelo, cierre a producción, auditoría de seguridad) + decisión go/no-go re-emitida (16/17 áreas en verde + 1 ⚠ deferida).
+- `PRODUCTION-CHECKLIST.md` — sección `Pre-flight` actualizada a Task #66 + #77 + #78 + #86 + #87 con los nuevos comandos / wall times / .local paths verificados.
+- `PENDING-FINAL.md` — header actualizado para reflejar Task #87 (P0 sigue vacío; sin nuevos tickets generados).
+- `docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md` — reporte ejecutivo nuevo (~250 líneas) con tabla de re-verificación contra contrato Task #78, comparación contra #77/#78/#86, evidencia literal y comandos reproducibles.
+
+### Limpieza estructural complementaria · 4.ª pasada (2026-04-29)
+
+Pasada exhaustiva adicional sobre el snapshot consolidado tras la 3.ª pasada, alineada con el contrato `WHAT-NOT-TO-TOUCH.md` (10 áreas protegidas) y consolidando el cleanup masivo previo de Task #12 (`REVISION-FINAL-REPORT.md` línea 321: 86 ficheros archivados / 38 MB screenshots / 5 scripts huérfanos del root). Detalle completo en `BASELINE.md` §APÉNDICE D y `docs/audits/codigo-muerto.json` (DC-011 nuevo · DC-004/DC-006/DC-010 pasados a `verificado`).
+
+**Eliminaciones quirúrgicas (4 elementos · 4.719 B + 2 carpetas vacías)**:
+- `attached_assets/Pasted-LOTE-5-ART-CULOS-CALIDAD-VERACIDAD-lee-cada-art-culo-co_1777396578147.txt` (2.194 B, gitignored, 0 referencias en repo, paste artifact reaparecido tras Task #12).
+- `attached_assets/Pasted--13-Objective-Housekeeping-refactor-split-the-two-monol_1777404359112.txt` (2.525 B, gitignored, 0 referencias en repo, paste artifact post-#12).
+- `.local/baseline-87/deep/` (carpeta vacía accidentalmente creada en la 2.ª pasada — los 9 logs `deep-*.log` viven directamente en `.local/baseline-87/`).
+- `uploads/docs/` (carpeta vacía) **eliminada de verdad** tras verificar que **0 código la lee/escribe**. Era un efecto colateral de `mkdir -p uploads/docs` en `exentax-web/scripts/build.ts:219` (el `recursive: true` creaba toda la cadena `uploads/` + `docs/`, pero quien tiene función real es la carpeta padre `uploads/`). Cambio quirúrgico aplicado en `build.ts` línea 222: `"uploads/docs"` → `"uploads"` (1 línea, sin afectar runtime). La carpeta padre `uploads/` se sigue regenerando idempotentemente; `uploads/docs/` no se vuelve a crear nunca.
+
+**Conservaciones explícitas verificadas**:
+- `uploads/` (carpeta padre, vacía tras la limpieza) **CONSERVADA** porque (a) `exentax-web/scripts/build.ts:222` la regenera idempotentemente (`mkdir -p uploads`) en cada build y (b) sigue siendo el target del **bloqueo HTTP `app.use("/uploads", ...) → 403`** en `server/index.ts:202` (impide servir cualquier fichero subido accidentalmente). El subpath hermano `uploads/reports/indexing/` (NO `uploads/docs/`) es el verdadero `INDEXING_REPORTS_DIR` usado por `seo-indexing-publish.mjs` (Task #26) y servido en `/internal/reports/indexing/:file` por `server/routes/public.ts:1554-1580`. La documentación inicial de la 4.ª pasada confundía estos dos subpaths; queda corregida.
+- `dist/index.cjs` (raíz) **CONSERVADO** como deploy shim referenciado por `.replit run = ["node", "./dist/index.cjs"]`.
+- 8 capturas `exentax-web/docs/screenshots/*.jpg` **CONSERVADAS** porque `docs/audit-design-system.md` líneas 381 y 388 las referencia explícitamente.
+- 10 áreas de `WHAT-NOT-TO-TOUCH.md` **intactas**: calculator data layer, server middleware stack, schema BD, Discord types/handlers, i18n locales (1.566 keys × 6), routes canónicas, blog content (672 ficheros), SEO meta + canonical + hreflang, calculadora UI, Lighthouse CI workflow.
+
+**Reconciliación tracker `docs/audits/codigo-muerto.json`** (Task #4 baseline, ahora 100 % cerrado):
+- DC-004 (`services-sections.tsx` 4 bloques comentados) → **`verificado`** (archivo actual 506 LOC, 0 bloques `/* */` y 0 `{/* */}` JSX; las 4 líneas restantes son cabecera explicativa de `STATE_CATALOGUE` líneas 80-83).
+- DC-006 (28 scripts legacy archivados) → **`verificado`** (`exentax-web/scripts/archive/` ya no existe en disco — borrado por Task #12).
+- DC-010 (`[REVISIO MANUAL]` en CA blog) → **`verificado`** (`rg -nP 'REVISIO\s+MANUAL'` → 0 hits).
+- DC-011 nuevo → **`aplicado`** (las 3 eliminaciones de esta pasada + las preservaciones documentadas).
+- Resumen tracker post-#87: `issues_pendientes=0` (vs 2 antes).
+
+**Verificación post-cleanup**: `lint:stray-reports` EXIT 0 · `seo-orphan-audit.mjs` re-ejecutado → 0/0/0 (sin variación · 780 URLs probadas en 19 s) · `npm run check` 33/33 verde estable (sin regresión) · workflow `Start application` no requirió reinicio (solo eliminaciones físicas de gitignored / vacíos + edits de docs raíz).
+
+### Limpieza estructural complementaria · 5.ª pasada (2026-04-29)
+
+Pasada adicional con foco específico solicitado por el usuario: *"LIMPIA LO QUE NO SIRVE, NO SE USA. NO ES NECESARIO TENER COMPONENTES, RUTAS, ARCHIVOS, ENDPOINTS SIN USO."* Auditoría categoría por categoría sobre el snapshot post-4.ª pasada, contrastando cada candidato contra `WHAT-NOT-TO-TOUCH.md` (10 áreas protegidas). Detalle completo en `BASELINE.md` §APÉNDICE E y `docs/audits/codigo-muerto.json` (DC-012 nuevo).
+
+**Verificación previa (no se tocó nada)**:
+
+- **Componentes** (48 `.tsx` en `client/src/components/**`): 0 huérfanos. Falsos positivos verificados: 5 ficheros del calculator (`AnimatedNumber`, `CalculatorResults`, `EmailGateForm`, `IrpfBracketsTable`, `index.tsx`) son imports relativos `./X` desde el barrel + lazy loaders en `Hero.tsx:9` y `start.tsx:5`; `BrandIcons` importado por `Services.tsx:4` y `start.tsx:10`; `AccordionItem` importado por `FaqAccordionList.tsx:2`. **Calculator UI 100 % intacto** (PROTEGIDO #1 + #9).
+- **Hooks / lib / shared / pages**: 0 huérfanos. `calculator-config.ts` (95 exports) validado símbolo-a-símbolo: 91/95 con consumidor real, 4 conservadas como tablas fiscales documentales (PROTEGIDO #1). `services-sections` y `ServiceSubpage` falsos positivos (cargados vía `lazy()` y por 5 subpages de servicios USA).
+- **Servidor** (92 ficheros TS): 0 huérfanos productivos. 12 falsos positivos verificados — todos los schedulers (`incomplete-bookings`, `reconcile-zombies`, `retention-purge`, `newsletter-broadcast`, `periodic-reports`) registrados en `server/index.ts:903-953`; `google-credentials.ts`, `google-indexing.ts`, `sitemap-ping.ts` con consumers múltiples.
+- **Endpoints**: 0 huérfanos (ya verificado con sweep HTTP 102 URLs + `seo-orphan-audit` 780 URLs en pasadas anteriores).
+- **Public assets**: 0 huérfanos. 2 falsos positivos: token GSC `b2c8d9fd...txt` (32 B) y `icon-512.png` (en `site.webmanifest:38`).
+
+**Eliminaciones quirúrgicas (10 ficheros · 84.859 B ≈ 83 KB)** — todos verificados con `rg -lnF <basename> .` excluyendo `node_modules`/`dist` → cero referencias en código activo:
+
+| # | Ruta | Tamaño | Tipo |
+|---|---|---:|---|
+| 1 | `exentax-web/server/client-errors-csrf.test.ts` | 4.426 B | manual one-shot test (no invocado por `package.json` ni `build.ts` ni CI) |
+| 2 | `exentax-web/scripts/audit/auditoria-ci-gate.mjs` | 7.227 B | one-off audit |
+| 3 | `exentax-web/scripts/blog/blog-fix-boi-mandatory.mjs` | 6.937 B | one-off blog migration BOI |
+| 4 | `exentax-web/scripts/blog/blog-structure-audit.mjs` | 8.030 B | one-off audit (superado por `blog:validate-all` 19 gates) |
+| 5 | `exentax-web/scripts/blog/blog-task7-add-calc-link.mjs` | 5.497 B | one-off Task 7 migration |
+| 6 | `exentax-web/scripts/blog/blog-preview-numeric-hook-fix.mjs` | 11.437 B | one-off preview fix |
+| 7 | `exentax-web/scripts/i18n/fr-accent-restore.mjs` | 25.249 B | one-off i18n FR fix (script ya operó; PROTEGIDO #5 = los locales `fr.ts`, no este script) |
+| 8 | `exentax-web/scripts/send-test-emails.ts` | 4.194 B | manual SMTP smoke test (reemplazado por `test:newsletter` + `test:booking`) |
+| 9 | `exentax-web/scripts/seo/pad-static-og.mjs` | 4.664 B | one-off OG normalization |
+| 10 | `exentax-web/scripts/seo/lote2-crawl-urls.mjs` | 7.198 B | one-off LOTE 2 crawl batch |
+
+**Conservaciones explícitas** (no tocadas pese a aparecer como sospechosas): `server/discord-alerts.test.ts` (10.973 B, manual test no invocado pero adyacente a Discord — PROTEGIDO #4 política conservadora); `scripts/discord/__test-utils.ts` (importado por 2 tests Discord activos); 4 constantes calculator sin consumidor directo (PROTEGIDO #1 — tablas fiscales documentales con wrapper `getIrpfBrackets()` que las cubre).
+
+**Verificación post-cleanup**: `npx tsc --noEmit --skipLibCheck` EXIT 0 · `npm run check` (33/33 gates en paralelo) **EXIT 0 · 33/33 PASS · wall 71,4 s** · workflow `Start application` no requirió reinicio (deletions de tests/scripts manuales no importados por código de producción) · 10 áreas `WHAT-NOT-TO-TOUCH.md` 100 % intactas. Tracker `docs/audits/codigo-muerto.json` actualizado: DC-012 nuevo (`aplicado`); `issues_aplicados` 2 → 3.
+
+## [Snapshot anterior] — 2026-04-29 — Auditoría integral masiva · segunda pasada profunda (Task #86)
 
 > Segunda pasada de auditoría sobre todo el proyecto Exentax Web tras fusionar las Tasks #78 (cierre i18n / rutas / validadores) y #83 (clúster CRS 2.0 / CARF / DAC8). Lectura, verificación y documentación con **3 fixes quirúrgicos** aplicados solo donde se detectó un bug real (sin reescrituras especulativas, **sin cambios de UX**, sin tocar código de producción). Reporte ejecutivo: [`docs/auditoria-2026-04/auditoria-integral-masiva-2.md`](docs/auditoria-2026-04/auditoria-integral-masiva-2.md).
 

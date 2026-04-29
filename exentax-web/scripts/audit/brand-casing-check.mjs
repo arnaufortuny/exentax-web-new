@@ -52,13 +52,22 @@ const ALLOWLIST = new Set([
   "exentax-web/docs/audits/historical/2026-04-27-audit-final-report.md",
   "exentax-web/docs/audits/historical/2026-04-27-cierre-proyecto-final.md",
   "exentax-web/docs/audits/historical/2026-04-27-production-status.md",
-  // docs/auditoria-2026-04/* — sprint-closing audit reports that quote the
-  // brand-casing lint output verbatim (e.g. "lint:brand-casing 0 ocurrencias
-  // `ExenTax`") to document the gate; the literal forbidden token is part
-  // of the quoted command output, not a brand misspelling. Task #78 closure
-  // report references the same lint label in three table cells / bullets.
+  // Task #78 closure report quotes the lint label verbatim ("0 ocurrencias
+  // `ExenTax`") in three table cells / explanatory bullets. The forbidden
+  // string is mentioned as the *target* of the rule, not as a brand usage.
   "docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md",
+  // Task #84 mass audit quotes the Task #78 closure report verbatim
+  // (file path + lint label "0 ocurrencias `ExenTax`") in 4 lines that
+  // describe the symptom, root cause, verification and observed lint
+  // output. The forbidden string is referenced as the *target* of the
+  // rule, not as a brand usage.
   "docs/auditoria-2026-04/auditoria-integral-masiva-2.md",
+  // Task #87 closure report (2nd pass of Task #78) documents the fix
+  // applied to add `auditoria-integral-masiva-2.md` to this same
+  // ALLOWLIST, so it quotes the lint output verbatim (file paths, line
+  // numbers and the forbidden string itself) in §1.3, §2.1 and §3.1.
+  // Same criterion as the other closure reports already in ALLOWLIST.
+  "docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md",
 ]);
 
 const FORBIDDEN = "ExenTax";

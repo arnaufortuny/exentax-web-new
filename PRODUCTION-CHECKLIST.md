@@ -6,20 +6,23 @@
 
 ---
 
-## Pre-flight (gate consolidado · Task #66 + #77 + #78)
+## Pre-flight (gate consolidado · Task #66 + #77 + #78 + #86 + #87)
 
 Ejecutar **antes** de cualquier deploy o re-deploy. Si alguno falla, no continuar a §C-K.
 
-- [ ] `cd exentax-web && npm run check` → **EXIT 0 · 33/33 gates verde** (último run verificado: 2026-04-29 · wall 64,0 s).
-- [ ] `cd exentax-web && npm audit --omit=dev` → **0 vulnerabilities**.
-- [ ] `cd exentax-web && npx tsc --noEmit` → 0 errores.
-- [ ] **Idiomas + rutas + validadores** verificados en cierre Task #78 (2026-04-29):
-  - `npm run i18n:check` → 1.558 keys × 6 langs · 0 missing/extra/empty · 0 hardcoded strings (783 ficheros).
-  - `npm run lint:i18n-extended` / `lint:pt-pt` (115 ficheros) / `lint:brand-casing` → 0 hits.
-  - `npm run seo:check` / `seo:slash` / `seo:icons` / `serp-previews` (108 cards) → clean.
-  - 17 RouteKeys × 6 idiomas con hreflang BCP-47 + x-default (`shared/routes.ts:ROUTE_SLUGS`).
-  - 28 endpoints públicos inventariados (path × método): 8 POST con body Zod + 2 GET con query Zod + 4 con tokens en path validados (longitud + regex) + 1 con firma Ed25519 (Discord); el resto son GET sin body. Inventario completo en [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md §4`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md).
-- [ ] Suites de regresión por endpoint: `test:calculator` 123/123 · `test:booking` 54/54 · `test:newsletter` 55/55 · `test:discord-regression` 6/6.
+- [ ] `cd exentax-web && npm run check` → **EXIT 0 · 33/33 gates verde** estable en 3 ejecuciones consecutivas (último run verificado: 2026-04-29 Task #87 · wall 73,0 / 66,0 / 78,0 s · `.local/baseline-87/check-{3,4,5}.log`).
+- [ ] `cd exentax-web && npm audit --omit=dev` → **0 vulnerabilities** · `npm audit --omit=dev` (raíz) → **0 vulnerabilities** (re-verificado en Task #87 · `.local/baseline-87/npm-audit-{ws,root2}.log`).
+- [ ] `cd exentax-web && npx tsc --noEmit --strict` → 0 errores (Task #87 · `.local/baseline-87/tsc-strict.log`).
+- [ ] **Idiomas + rutas + validadores** re-verificados en 2.ª pasada Task #87 (2026-04-29):
+  - `npm run i18n:check` → **1.566 keys × 6 langs** · 0 missing/extra/empty/placeholder/structure · 0 hardcoded strings (783 ficheros). Δ=0 vs Task #86. +8 vs Task #78 (claves del clúster #83).
+  - `npm run lint:i18n-extended` / `lint:pt-pt` (115 ficheros) / `lint:brand-casing` → 0 hits (`brand-casing` con allowlists Task #78 + #86 + #87 documentadas in-line).
+  - `npm run seo:check` / `seo:slash` / `seo:icons` / `seo:meta` / `seo:serp-previews` (108 cards) / `seo:masterpiece-strict` (672 articles · mean 99,8 · critical=0) → clean.
+  - 17 RouteKeys × 6 idiomas con hreflang BCP-47 + x-default (`shared/routes.ts:ROUTE_SLUGS`) — sin cambios vs Task #78.
+  - **31 endpoints públicos únicos (path × método)** inventariados a 2026-04-29 — drift +3 vs Task #78 que reportó 28 (los 3 nuevos endpoints añadidos en tasks #83/#86 ya heredan el mismo patrón Zod): **26 en `server/routes/public.ts`** + 1 (`server/index.ts`) + 3 (`server/routes/observability.ts`) + 1 (`server/discord-bot.ts`) = 31. **13 mutaciones / 13 cubiertas**: 9 strict Zod (POST públicos con `safeParse + apiValidationFail`) + 2 unsubscribe RFC 8058 (rate-limit + length-guard ≤200 + idempotencia + no-leak) + 1 `clientErrorSchema.safeParse` (`POST /api/client-errors` con `checkCsrfOrigin` + rate-limit + path-stripping de tokens sensibles) + 1 Ed25519 (`POST /api/discord/interactions`). 2 GET con query Zod `.strict()` (`bookings/blocked-days`, `bookings/available-slots`); 4 con tokens en path validados por longitud + regex; el resto GET sin body. Inventario histórico Task #78 (28 endpoints / 23 en `public.ts`) en [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md §4`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2026-04-29.md). Re-verificación + reconciliación drift en [`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md §3.3`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md) y `BASELINE.md` §APÉNDICE punto 8.
+- [ ] Suites de regresión por endpoint (dentro de `npm run check`): `test:calculator` 123/123 · `test:booking` 54/54 · `test:newsletter` 55/55 · `test:discord-regression` 6/6 (3 scripts · 72/72 e2e).
+- [ ] `npm run blog:validate-all` → **EXIT 0 · 19/19** (incluye `seo-llm-readiness`, `blog-cluster-audit`, `conversion-strict`, `risk-bridge`, `official-source-coverage`).
+- [ ] `npm run audit:bundle:fast` → **EXIT 0** (HARD budget OK).
+- [ ] `curl -s http://localhost:5000/api/health/ready` → `{"status":"ready","ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},"emailWorker":{"ok":true}}}`.
 
 ---
 

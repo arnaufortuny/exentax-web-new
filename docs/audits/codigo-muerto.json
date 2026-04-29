@@ -48,8 +48,8 @@
       "ruta": "client/src/pages/services-sections.tsx",
       "hallazgo": "509 LOC con 4 bloques comentados. Componente todavia en uso por home.tsx y services.tsx.",
       "prioridad": "media",
-      "estado": "pendiente",
-      "accion": "Revisar bloques comentados y eliminar los obsoletos en una pasada manual."
+      "estado": "verificado",
+      "accion": "Revision Task #87 (4a pasada, 2026-04-29): archivo actual 506 LOC, 0 bloques /* */ y 0 bloques {/* */} JSX. Las unicas 4 lineas comentadas son cabecera explicativa de STATE_CATALOGUE (lineas 80-83). Sin trabajo pendiente."
     },
     {
       "id": "DC-005",
@@ -66,8 +66,8 @@
       "ruta": "scripts/audit-2026-04-*.mjs y scripts/blog-task*-*.mjs",
       "hallazgo": "28 scripts puntuales de auditorias y migraciones de tareas pasadas (task5, task9, task16, task25, task28, audit-2026-04-*). No estan en npm scripts de CI.",
       "prioridad": "media",
-      "estado": "aplicado",
-      "accion": "Movidos a scripts/archive/2026-04-task4/ (28 archivos). blog-restructure-non-es.mjs y blog-no-inline-related.mjs se conservan en scripts/ por dependencias activas (npm script blog:restructure y tests/blog-no-inline-related.test.ts)."
+      "estado": "verificado",
+      "accion": "Movidos a scripts/archive/2026-04-task4/ (28 archivos) en Task #4. Posteriormente Task #12 (REVISION-FINAL-REPORT linea 321) borro la carpeta scripts/archive/ entera (5 subcarpetas, 86 ficheros, 1.5 MB, 0 referencias runtime). Verificado en Task #87 (4a pasada): exentax-web/scripts/archive/ ya no existe en disco. blog-restructure-non-es.mjs y blog-no-inline-related.mjs se conservan en scripts/ por dependencias activas. Sin trabajo pendiente."
     },
     {
       "id": "DC-007",
@@ -102,14 +102,34 @@
       "ruta": "client/src/data/blog-content/ca/cuotas-autonomos-2026-guia-completa.ts",
       "hallazgo": "Marcadores '[REVISIO MANUAL]' o similares pendientes en contenido catalan.",
       "prioridad": "media",
-      "estado": "pendiente",
-      "accion": "Cubierto por tarea separada 'Localizar terminologia fiscal en FAQs (PT y CA) y limpiar archivos huerfanos'. No duplicar aqui."
+      "estado": "verificado",
+      "accion": "Revision Task #87 (4a pasada, 2026-04-29): rg -nP 'REVISIO\\s+MANUAL' client/src/data/blog-content/ devuelve 0 hits. Tarea de localizacion CA/PT ya cerrada. Sin trabajo pendiente."
+    },
+    {
+      "id": "DC-011",
+      "categoria": "limpieza_artefactos_disco",
+      "ruta": "attached_assets/ + .local/baseline-87/deep/ + uploads/docs/",
+      "hallazgo": "2 ficheros pegado (paste artifacts) abandonados en attached_assets/ (gitignored, 0 referencias en repo) + 1 carpeta vacia accidental en .local/baseline-87/deep/ (creada en Task #87 2a pasada) + 1 subcarpeta vacia uploads/docs/ que era efecto colateral inadvertido de mkdir -p en build.ts:219 (verificado: 0 codigo del repo la lee/escribe; el verdadero INDEXING_REPORTS_DIR es uploads/reports/indexing/, hermano).",
+      "prioridad": "baja",
+      "estado": "aplicado",
+      "accion": "Task #87 (4a pasada estructural, 2026-04-29): borrados attached_assets/Pasted-LOTE-5-...txt (2194 B) + attached_assets/Pasted--13-Objective-Housekeeping...txt (2525 B) + rmdir .local/baseline-87/deep/ + rmdir uploads/docs/ tras correccion quirurgica en exentax-web/scripts/build.ts:222 (argumento de mkdir cambiado de 'uploads/docs' a 'uploads', 1 linea, sin afectar runtime ni el bloqueo HTTP /uploads->403 en server/index.ts:202). uploads/ (parent) CONSERVADO. dist/index.cjs CONSERVADO (deploy shim referenciado por .replit). 33/33 gates re-verificados verde post-cleanup."
+    },
+    {
+      "id": "DC-012",
+      "categoria": "huerfanos_tests_y_scripts_one_off",
+      "ruta": "server/client-errors-csrf.test.ts + scripts/{audit,blog,i18n,seo,}/* (9 scripts)",
+      "hallazgo": "Pasada adicional categoria por categoria sobre el snapshot post-DC-011 con foco especifico del usuario ('LIMPIA LO QUE NO SIRVE'). Verificado con rg -lnF <basename> excluyendo node_modules/dist: 0 referencias en codigo activo. Las unicas referencias residuales son entradas narrativas historicas en docs (CHANGELOG.md, REVISION-FINAL-REPORT.md, PRODUCTION-STATUS.md, SECURITY-FIELDS-AUDIT.md) que documentan cuando se creo cada fichero, no invocaciones runtime. Componentes (48), hooks (6), lib (11), shared (6), pages (25), endpoints, public assets (40) y servidor productivo (91 ficheros TS post-cleanup) todos con 0 huerfanos verificados.",
+      "prioridad": "media",
+      "estado": "aplicado",
+      "accion": "Task #87 (5a pasada estructural, 2026-04-29): borrados 10 ficheros (84.859 B ~= 83 KB): server/client-errors-csrf.test.ts (4426 B, manual one-shot test no invocado por package.json/build.ts/CI) + scripts/audit/auditoria-ci-gate.mjs (7227 B) + scripts/blog/blog-fix-boi-mandatory.mjs (6937 B) + scripts/blog/blog-structure-audit.mjs (8030 B) + scripts/blog/blog-task7-add-calc-link.mjs (5497 B) + scripts/blog/blog-preview-numeric-hook-fix.mjs (11437 B) + scripts/i18n/fr-accent-restore.mjs (25249 B, script ya opero, locale fr.ts intacto) + scripts/send-test-emails.ts (4194 B, reemplazado por test:newsletter+test:booking automatizados) + scripts/seo/pad-static-og.mjs (4664 B) + scripts/seo/lote2-crawl-urls.mjs (7198 B). Conservaciones explicitas verificadas: discord-alerts.test.ts (10973 B, politica conservadora por adyacencia al PROTEGIDO #4), scripts/discord/__test-utils.ts (importado por test-discord-bot-buttons.ts:30 y test-discord-neon.ts:32), 4 constantes en calculator-config.ts sin consumidor directo (IRPF_BRACKETS_LOW/HIGH, CHILE_UTM_MONTHLY/ANNUAL — PROTEGIDO #1, tablas fiscales documentales con wrapper getIrpfBrackets que las cubre). 0 codigo de produccion tocado, 0 traducciones tocadas, 0 slugs tocados, 0 validadores Zod tocados, 0 endpoints tocados, 0 componentes/hooks/lib/shared/pages tocados. 10 areas WHAT-NOT-TO-TOUCH.md 100% intactas. tsc EXIT 0 + npm run check 33/33 verde post-cleanup (wall 71.4 s)."
     }
   ],
   "resumen": {
     "candidatos_descartados_tras_verificacion": 4,
-    "issues_pendientes": 2,
-    "issues_verificados_sin_accion": 3,
-    "tipos_typescript_clean": true
+    "issues_pendientes": 0,
+    "issues_verificados_sin_accion": 5,
+    "issues_aplicados": 3,
+    "tipos_typescript_clean": true,
+    "ultima_revision": "2026-04-29 (Task #87, 5a pasada estructural)"
   }
 }

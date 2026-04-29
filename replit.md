@@ -14,6 +14,101 @@ Exentax Web is a public-facing TaxTech platform offering international LLC forma
 - Verify structure before and after changes, all code must have error handling, debug automatically, never cause regressions
 - ASSET PROTECTION: Do NOT regenerate, recompress, or modify image assets without explicit user consent
 
+## Audit Task #87 — 2026-04-29 (cierre a producción · calidad i18n, keys, rutas y validadores · 2.ª pasada)
+
+Segunda pasada del cierre Task #78 (i18n, rutas/slugs/hreflang, validadores
+Zod) sobre el snapshot consolidado tras Task #86. Re-ejecución del contrato
+de cierre con los mismos gates exigentes y bajo carga real (runner paralelo
+de 33 gates), **3 ejecuciones consecutivas estables**. **1 fix quirúrgico**
+aplicado tras detectar un falso positivo legítimo en `lint:brand-casing`
+(`docs/auditoria-2026-04/auditoria-integral-masiva-2.md` cita la salida del
+lint verbatim igual que `docs/internal/*` y los reportes históricos ya en
+`ALLOWLIST`). Cierre con `cd exentax-web && npm run check` **EXIT 0 · 33/33
+gates verde** estable en **3 ejecuciones consecutivas** post-fix
+(`.local/baseline-87/check-{3,4,5}.log`, wall 73,0 / 66,0 / 78,0 s) +
+`npm audit --omit=dev` **0 vulnerabilities** (raíz + workspace) +
+`npx tsc --noEmit --strict` **0 errores**. Reporte ejecutivo:
+[`docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md`](docs/auditoria-2026-04/cierre-produccion-i18n-rutas-validadores-2-2026-04-29.md).
+
+Cifras del cierre: i18n **1.566 keys × 6 langs** PASS (Δ=0 vs #86) · 783
+ficheros escaneados · 0 hardcoded · 0 placeholder mismatches · 17 RouteKeys
+× 6 idiomas canónicos (sin cambios vs #78) · **31 endpoints públicos únicos
+(path × método)** con cobertura Zod actualizada a 2026-04-29 (26 en
+`public.ts` — drift +3 vs Task #78 — + 1 + 3 + 1 = 31; **13/13 mutaciones
+cubiertas**: 9 strict Zod + 2 unsubscribe RFC 8058 + 1 `clientErrorSchema`
++ 1 Ed25519) · suites por endpoint todas verde (`test:calculator` 123/123 ·
+`test:booking` 54/54 · `test:newsletter` 55/55 · `test:discord-regression`
+6/6 con 72/72 e2e) · `seo:masterpiece-strict` 672 articles · mean 99,8 ·
+critical=0 · `blog:validate-all` 19/19 · `audit:bundle:fast` HARD budget OK.
+
+Único cambio de código: `exentax-web/scripts/audit/brand-casing-check.mjs`
++12 líneas en `ALLOWLIST` con 2 entradas (el reporte de Task #84/#86 y
+el propio reporte de cierre de esta task) + comentarios explicativos.
+Sin cambios de UX, traducciones, slugs, validadores Zod ni código de
+producción. Sistema
+**GO — apto para deploy**. Ver `PRODUCTION-STATUS.md` (16/17 áreas en
+verde + 1 ⚠ deferida operativa) · `BASELINE.md` §FINAL VERIFICATION
+post-#87 · `PENDING-FINAL.md` (P0 vacío; pendientes operativos VPS y matriz
+Playwright sin novedades).
+
+**Adenda 4.ª pasada estructural Task #87 (2026-04-29)**: pasada exhaustiva
+adicional alineada con `WHAT-NOT-TO-TOUCH.md` (10 áreas protegidas) y
+consolidando el cleanup masivo previo de Task #12. **4 huérfanos físicos
+eliminados** (4.719 B + 2 carpetas vacías: 2 paste artifacts en
+`attached_assets/` con 0 referencias en repo + `.local/baseline-87/deep/`
++ `uploads/docs/` tras corrección quirúrgica en `build.ts`).
+**1 línea de código tocada (no producción, build script)**: `exentax-web/scripts/build.ts:219→222`
+con argumento de `mkdir` cambiado de `"uploads/docs"` a `"uploads"` tras
+verificar que la subcarpeta `docs/` era un efecto colateral inadvertido del
+`recursive: true` y que **0 código del repo la lee/escribe** (el verdadero
+`INDEXING_REPORTS_DIR` es el subpath hermano `uploads/reports/indexing/`,
+no `uploads/docs/`). **0 traducciones tocadas · 0 slugs tocados ·
+0 validadores Zod tocados · 0 endpoints tocados · 0 rutas tocadas ·
+runtime intacto**. Tracker `docs/audits/codigo-muerto.json` **100 %
+cerrado** (`issues_pendientes=0` vs 2 antes): DC-004/DC-006/DC-010 pasados
+a `verificado` + DC-011 nuevo `aplicado` (con la corrección quirúrgica
+incluida). Conservaciones explícitas: `uploads/` (parent, vacía,
+regenerada por `build.ts:222` y target del bloqueo HTTP `/uploads → 403`
+en `server/index.ts:202`), `dist/index.cjs` (deploy shim del `.replit`),
+8 capturas en `docs/screenshots/` (referenciadas por
+`audit-design-system.md`), 10 áreas de `WHAT-NOT-TO-TOUCH.md` intactas.
+`seo-orphan-audit` re-ejecutado → **0/0/0** (780 URLs, sin variación).
+`npm run check` 33/33 verde post-cleanup. Detalle completo en
+`BASELINE.md` §APÉNDICE D y `CHANGELOG.md` "Limpieza estructural
+complementaria · 4.ª pasada".
+
+**Adenda 5.ª pasada estructural Task #87 (2026-04-29)**: pasada adicional
+con foco específico solicitado por el usuario (*"LIMPIA LO QUE NO SIRVE,
+NO SE USA. NO ES NECESARIO TENER COMPONENTES, RUTAS, ARCHIVOS, ENDPOINTS
+SIN USO."*). Auditoría categoría por categoría sobre el snapshot post-4.ª:
+**componentes** (48 `.tsx`) → 0 huérfanos; **hooks/lib/shared/pages** (48)
+→ 0 huérfanos (`calculator-config.ts` validado símbolo a símbolo, 91/95
+exports con consumidor real, 4 conservadas como tablas fiscales
+documentales del PROTEGIDO #1); **servidor** (92 ficheros TS) → 0
+huérfanos productivos (los 5 schedulers verificados registrados en
+`server/index.ts:903-953`, `google-credentials/-indexing/sitemap-ping`
+todos consumidos); **endpoints** → 0 huérfanos (ya verificado con sweep
+HTTP 102 + `seo-orphan-audit` 780 en pasadas anteriores); **public assets**
+(40) → 0 huérfanos. **10 huérfanos físicos eliminados** (84.859 B ≈ 83 KB):
+1 manual one-shot test `server/client-errors-csrf.test.ts` (no invocado
+por `package.json`/`build.ts`/CI) + 9 scripts one-off (auditorías y
+migraciones puntuales ya aplicadas: `audit/auditoria-ci-gate.mjs`,
+`blog/blog-fix-boi-mandatory.mjs`, `blog/blog-structure-audit.mjs`,
+`blog/blog-task7-add-calc-link.mjs`, `blog/blog-preview-numeric-hook-fix.mjs`,
+`i18n/fr-accent-restore.mjs`, `send-test-emails.ts`, `seo/pad-static-og.mjs`,
+`seo/lote2-crawl-urls.mjs`). **Conservaciones explícitas**: `discord-alerts.test.ts`
+(política conservadora por adyacencia al PROTEGIDO #4), `__test-utils.ts`
+(importado por 2 tests Discord activos), 4 constantes calculator
+documentales (PROTEGIDO #1). **0 código de producción tocado · 0 traducciones
+tocadas · 0 slugs tocados · 0 validadores Zod tocados · 0 endpoints tocados
+· 0 rutas tocadas · 0 componentes/hooks/lib/shared/pages tocados · runtime
+intacto**. Tracker `docs/audits/codigo-muerto.json` actualizado: DC-012 nuevo
+`aplicado` (`issues_aplicados` 2 → 3). 10 áreas de `WHAT-NOT-TO-TOUCH.md`
+**100 % intactas**. `npx tsc --noEmit --skipLibCheck` EXIT 0 ·
+`npm run check` 33/33 verde post-cleanup (wall 71,4 s). Detalle completo
+en `BASELINE.md` §APÉNDICE E y `CHANGELOG.md` "Limpieza estructural
+complementaria · 5.ª pasada".
+
 ## Audit Task #86 — 2026-04-29 (auditoría integral masiva — segunda pasada profunda)
 
 Segunda pasada de auditoría sobre todo el proyecto Exentax Web tras fusionar las
