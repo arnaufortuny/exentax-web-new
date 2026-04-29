@@ -1,4 +1,4 @@
-export default `Després de la pujada del 2023, una UK Ltd paga 19 % de Corporation Tax en el tram small profits i fins al 25 % a partir de 250.000 £ de benefici anual.
+export default `Després de l'última reforma del Corporation Tax, una UK Ltd paga 19 % al tram small profits i fins al 25 % a partir de 250.000 £ de benefici anual.
 
 El Regne Unit continua sent, després del Brexit, una de les jurisdiccions més utilitzades del món per crear empreses. La combinació de constitució ràpida i barata, transparència regulatòria, banca solvent i reputació internacional segueix intacta. No obstant això, la seva fiscalitat ha canviat els últims anys i convé entendre quan una UK Limited (UK Ltd) és l'opció adequada i quan no.
 

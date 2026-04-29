@@ -1,6 +1,6 @@
 export default `
 
-After the 2023 rate hike, a UK Ltd pays 19% Corporation Tax in the small profits bracket and up to 25% above 250,000 pounds of annual profit.
+After the latest Corporation Tax reform, a UK Ltd pays 19% in the small profits bracket and up to 25% above 250,000 pounds of annual profit.
 
 The United Kingdom remains, after Brexit, one of the world's most used jurisdictions for company formation. The combination of fast and cheap incorporation, regulatory transparency, solid banking and international reputation is intact. However, its taxation has changed in recent years and it is worth understanding when a UK Limited (UK Ltd) is the right choice and when it is not.
 

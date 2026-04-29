@@ -1,4 +1,4 @@
-export default `Nach der Erhöhung von 2023 zahlt eine UK Ltd 19 % Corporation Tax in der Small-Profits-Stufe und bis zu 25 % ab 250.000 GBP Jahresgewinn.
+export default `Nach der jüngsten Corporation-Tax-Reform zahlt eine UK Ltd 19 % in der Small-Profits-Stufe und bis zu 25 % ab 250.000 GBP Jahresgewinn.
 
 Das Vereinigte Königreich bleibt nach dem Brexit eine der weltweit am häufigsten genutzten Jurisdiktionen für Gesellschaftsgründungen. Die Kombination aus schneller und günstiger Gründung, regulatorischer Transparenz, solidem Banking und internationalem Ruf ist intakt. Allerdings hat sich die Besteuerung in den letzten Jahren geändert, und es lohnt sich zu verstehen, wann eine UK Limited (UK Ltd) die richtige Wahl ist und wann nicht.
 
