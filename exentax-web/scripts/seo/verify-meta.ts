@@ -64,20 +64,51 @@ type PageOG = { ns: string; line: number; ogTitle: string; ogDesc: string };
 type BlogItem = { slug: string; metaTitle: string; metaDescription: string };
 type BlogOG = { slug: string; ogTitle: string; ogDescription: string };
 
-// ===== Task 17 + Task 21: OG/Twitter anglicism gate (FR/DE/PT/CA) =====
+// ===== Task 17 + Task 21 + Task 25: anglicism gate (FR/DE/PT/CA) =====
 // Twitter Cards default to summary_large_image and fall back to OG when no
 // dedicated twitter:* tags are set, so checking OG copy covers both surfaces.
 // The denylist targets English borrowings that erode the premium
 // native-language brand voice when content is shared. Task 17 covered the
 // two terms surfaced by the original audit ("founders", "low-cost"). Task
-// 21 broadens the scan to the next wave of leaks ("stack", "freemium",
+// 21 broadened the scan to the next wave of leaks ("stack", "freemium",
 // "early-bird", "mindset", "scale-up", "growth hack"), keeps the original
-// token list intact, and adds an allowlist for legitimate technical
+// token list intact, and added an allowlist for legitimate technical
 // acronyms (FATCA, EIN, BOI, ...) and product/brand names (Mercury, Wise,
 // Brand Registry, ...) so the broader patterns cannot create false
-// positives. The report JSON now exports per-term hit counts so
-// regressions are easy to triage at PR time.
+// positives. Task 25 extends coverage beyond OG/Twitter previews to the
+// on-page article copy that Google actually indexes:
+//   * `--scope=metadata` adds blog title/excerpt/metaTitle/metaDescription/keywords
+//   * `--scope=body` adds the markdown body of every blog content file
+// Both scopes are opt-in (comma-separated, also supports `--scope=all`).
+// The default invocation (`npm run seo:meta`) keeps the existing OG-only
+// behaviour so shipped content keeps passing CI without further allowlist
+// churn. Per-token counts are now bucketed by scope and by language so a
+// regression can be triaged at PR time without re-running the report.
 const ANGLICISM_LANGS: Lang[] = ["fr", "de", "pt", "ca"];
+
+type AnglicismScope = "og" | "metadata" | "body";
+const ALL_SCOPES: AnglicismScope[] = ["og", "metadata", "body"];
+
+function parseScopes(): Set<AnglicismScope> {
+  const out = new Set<AnglicismScope>();
+  let raw = "og";
+  for (const a of process.argv.slice(2)) {
+    if (a.startsWith("--scope=")) raw = a.slice("--scope=".length);
+  }
+  for (const s of raw.split(",").map((x) => x.trim()).filter(Boolean)) {
+    if (s === "all") {
+      for (const v of ALL_SCOPES) out.add(v);
+    } else if (s === "og" || s === "metadata" || s === "body") {
+      out.add(s);
+    } else {
+      console.error(`[verify-meta] Unknown scope value: "${s}" (allowed: og, metadata, body, all)`);
+      process.exit(2);
+    }
+  }
+  if (out.size === 0) out.add("og");
+  return out;
+}
+const SCAN_SCOPES = parseScopes();
 
 type AnglicismRule = { token: string; re: RegExp; langs?: Lang[] };
 const ANGLICISM_PATTERNS: AnglicismRule[] = [
@@ -132,6 +163,99 @@ function findAnglicisms(text: string, lang: Lang): string[] {
     if (rule.re.test(scrubbed)) hits.push(rule.token);
   }
   return hits;
+}
+
+// Counted variant used by the metadata/body scopes (task 25). Returns the
+// number of matches per token in the scrubbed text so the JSON report can
+// surface "low-cost appears 7 times across FR bodies" rather than just a
+// boolean per article.
+function findAnglicismsCounted(text: string, lang: Lang): Record<string, number> {
+  const out: Record<string, number> = {};
+  if (!text) return out;
+  let scrubbed = text;
+  for (const re of ANGLICISM_ALLOWLIST) scrubbed = scrubbed.replace(re, " ");
+  for (const rule of ANGLICISM_PATTERNS) {
+    if (rule.langs && !rule.langs.includes(lang)) continue;
+    const flags = rule.re.flags.includes("g") ? rule.re.flags : rule.re.flags + "g";
+    const re = new RegExp(rule.re.source, flags);
+    const matches = scrubbed.match(re);
+    if (matches && matches.length) out[rule.token] = matches.length;
+  }
+  return out;
+}
+
+// Body scope (task 25): strip the non-prose scaffolding that legitimately
+// contains anglicisms (URL slugs, attribute values, audit tag comments,
+// fenced code blocks) before running the denylist. Without this, slugs
+// like "wise-banques-et-llc-la-stack-bancaire-complete" or audit comments
+// like "<!-- exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria... -->"
+// would generate dozens of false positives that drown out real prose hits.
+function stripNonProseForBodyScan(text: string): string {
+  let t = text;
+  // HTML comments — used for editorial audit tags that mirror Spanish slugs.
+  t = t.replace(/<!--[\s\S]*?-->/g, " ");
+  // Fenced / inline code blocks.
+  t = t.replace(/```[\s\S]*?```/g, " ");
+  t = t.replace(/`[^`\n]*`/g, " ");
+  // Attribute values (href / src) where the URL slug echoes the Spanish title.
+  t = t.replace(/\b(?:href|src)\s*=\s*"[^"]*"/gi, " ");
+  t = t.replace(/\b(?:href|src)\s*=\s*'[^']*'/gi, " ");
+  // Markdown link targets — keep the visible text, drop the URL.
+  t = t.replace(/\]\([^)]*\)/g, "]");
+  return t;
+}
+
+type BlogMetaFull = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  metaTitle: string;
+  metaDescription: string;
+  keywords: string[];
+};
+
+// Per-line entry parser for blog-i18n/<lang>.ts (FR/DE/PT/CA). The shipped
+// format keeps every entry on a single line, so we can match the slug, then
+// pull each named field from inside the braces. ES is intentionally not
+// extracted here because anglicism scanning excludes ES copy by design.
+function extractBlogMetaFull(lang: Lang): BlogMetaFull[] {
+  const items: BlogMetaFull[] = [];
+  if (lang === "es" || lang === "en") return items;
+  const file = join(BLOG_I18N, `${lang}.ts`);
+  if (!existsSync(file)) return items;
+  const src = readFileSync(file, "utf8");
+  const entryRe = /"([a-z0-9-]+)":\s*\{([^\n]+)\}/g;
+  let m: RegExpExecArray | null;
+  while ((m = entryRe.exec(src))) {
+    const slug = m[1];
+    const block = m[2];
+    const pickStr = (key: string): string => {
+      const r = new RegExp(`(?:^|[\\s,])${key}:\\s*"((?:[^"\\\\]|\\\\.)*)"`);
+      return block.match(r)?.[1] ?? "";
+    };
+    const keywords: string[] = [];
+    const kwBlock = block.match(/keywords:\s*\[([^\]]*)\]/)?.[1];
+    if (kwBlock) {
+      const kre = /"((?:[^"\\]|\\.)*)"/g;
+      let km: RegExpExecArray | null;
+      while ((km = kre.exec(kwBlock))) keywords.push(km[1]);
+    }
+    items.push({
+      slug,
+      title: pickStr("title"),
+      excerpt: pickStr("excerpt"),
+      metaTitle: pickStr("metaTitle"),
+      metaDescription: pickStr("metaDescription"),
+      keywords,
+    });
+  }
+  return items;
+}
+
+function readBlogBody(lang: Lang, slug: string): string {
+  const file = join(BLOG_CONTENT, lang, `${slug}.ts`);
+  if (!existsSync(file)) return "";
+  return readFileSync(file, "utf8");
 }
 type Violation = {
   scope: "page" | "blog";
@@ -455,71 +579,167 @@ for (const lang of LANGS) {
   }
 }
 
-// ===== Task 17 + Task 21: OG/Twitter anglicism scan (FR/DE/PT/CA) =====
+// ===== Task 17 + Task 21 + Task 25: anglicism scan (FR/DE/PT/CA) =====
+// Aggregate counts (kept for backwards-compatible report fields).
 const anglicismCounts: Record<Lang, number> = { es: 0, en: 0, ca: 0, fr: 0, de: 0, pt: 0 };
 const anglicismScanned: Record<Lang, number> = { es: 0, en: 0, ca: 0, fr: 0, de: 0, pt: 0 };
-// Per-term hit counts (task 21): exposed in the JSON report so we can
-// diff which specific borrowing regressed between two runs.
 const anglicismByToken: Record<string, number> = Object.fromEntries(
   ANGLICISM_PATTERNS.map((r) => [r.token, 0]),
 );
-const bumpToken = (hits: string[]) => {
-  for (const t of hits) anglicismByToken[t] = (anglicismByToken[t] || 0) + 1;
+// Task 25 — per-(scope, lang, token) breakdown so a regression can be
+// triaged at PR time without re-running the whole report. Buckets are
+// pre-seeded with zeroes so JSON consumers always see a complete shape.
+const makeZeroTokenMap = (): Record<string, number> =>
+  Object.fromEntries(ANGLICISM_PATTERNS.map((r) => [r.token, 0]));
+const makeZeroLangMap = (): Record<Lang, number> => ({ es: 0, en: 0, ca: 0, fr: 0, de: 0, pt: 0 });
+const anglicismByScope: Record<AnglicismScope, {
+  scannedByLang: Record<Lang, number>;
+  flagsByLang: Record<Lang, number>;
+  flagsByToken: Record<string, number>;
+  flagsByLangAndToken: Record<Lang, Record<string, number>>;
+}> = {
+  og:       { scannedByLang: makeZeroLangMap(), flagsByLang: makeZeroLangMap(), flagsByToken: makeZeroTokenMap(), flagsByLangAndToken: Object.fromEntries(LANGS.map((l) => [l, makeZeroTokenMap()])) as Record<Lang, Record<string, number>> },
+  metadata: { scannedByLang: makeZeroLangMap(), flagsByLang: makeZeroLangMap(), flagsByToken: makeZeroTokenMap(), flagsByLangAndToken: Object.fromEntries(LANGS.map((l) => [l, makeZeroTokenMap()])) as Record<Lang, Record<string, number>> },
+  body:     { scannedByLang: makeZeroLangMap(), flagsByLang: makeZeroLangMap(), flagsByToken: makeZeroTokenMap(), flagsByLangAndToken: Object.fromEntries(LANGS.map((l) => [l, makeZeroTokenMap()])) as Record<Lang, Record<string, number>> },
 };
-for (const lang of ANGLICISM_LANGS) {
-  const pages = extractPageOG(lang);
-  const blog = extractBlogOG(lang);
-  anglicismScanned[lang] = pages.length + blog.length;
-  for (const p of pages) {
-    const tHits = findAnglicisms(p.ogTitle, lang);
-    const dHits = findAnglicisms(p.ogDesc, lang);
-    bumpToken(tHits);
-    bumpToken(dHits);
-    if (tHits.length) {
-      violations.push({
-        scope: "page", lang, key: `${p.ns}@L${p.line}`, field: "title",
-        length: p.ogTitle.length, limit: 0, level: "error",
-        message: `OG/Twitter title contains anglicism(s): ${tHits.join(", ")}`,
-        value: p.ogTitle,
-      });
-      summary[lang].errors++;
-      anglicismCounts[lang]++;
+
+const recordHits = (
+  scope: AnglicismScope,
+  lang: Lang,
+  hitCounts: Record<string, number>,
+): { tokens: string[]; total: number } => {
+  const tokens: string[] = [];
+  let total = 0;
+  for (const [token, count] of Object.entries(hitCounts)) {
+    if (!count) continue;
+    tokens.push(token);
+    total += count;
+    anglicismByToken[token] = (anglicismByToken[token] || 0) + count;
+    anglicismByScope[scope].flagsByToken[token] = (anglicismByScope[scope].flagsByToken[token] || 0) + count;
+    anglicismByScope[scope].flagsByLangAndToken[lang][token] = (anglicismByScope[scope].flagsByLangAndToken[lang][token] || 0) + count;
+  }
+  if (tokens.length) {
+    anglicismCounts[lang]++;
+    anglicismByScope[scope].flagsByLang[lang]++;
+  }
+  return { tokens, total };
+};
+
+// --- OG scope (default; preserves task 17/21 behaviour) ---
+if (SCAN_SCOPES.has("og")) {
+  for (const lang of ANGLICISM_LANGS) {
+    const pages = extractPageOG(lang);
+    const blog = extractBlogOG(lang);
+    anglicismScanned[lang] += pages.length + blog.length;
+    anglicismByScope.og.scannedByLang[lang] += pages.length + blog.length;
+    for (const p of pages) {
+      const tHits = findAnglicismsCounted(p.ogTitle, lang);
+      const dHits = findAnglicismsCounted(p.ogDesc, lang);
+      const tRec = recordHits("og", lang, tHits);
+      const dRec = recordHits("og", lang, dHits);
+      if (tRec.tokens.length) {
+        violations.push({
+          scope: "page", lang, key: `${p.ns}@L${p.line}`, field: "title",
+          length: p.ogTitle.length, limit: 0, level: "error",
+          message: `OG/Twitter title contains anglicism(s): ${tRec.tokens.join(", ")}`,
+          value: p.ogTitle,
+        });
+        summary[lang].errors++;
+      }
+      if (dRec.tokens.length) {
+        violations.push({
+          scope: "page", lang, key: `${p.ns}@L${p.line}`, field: "description",
+          length: p.ogDesc.length, limit: 0, level: "error",
+          message: `OG/Twitter description contains anglicism(s): ${dRec.tokens.join(", ")}`,
+          value: p.ogDesc,
+        });
+        summary[lang].errors++;
+      }
     }
-    if (dHits.length) {
-      violations.push({
-        scope: "page", lang, key: `${p.ns}@L${p.line}`, field: "description",
-        length: p.ogDesc.length, limit: 0, level: "error",
-        message: `OG/Twitter description contains anglicism(s): ${dHits.join(", ")}`,
-        value: p.ogDesc,
-      });
-      summary[lang].errors++;
-      anglicismCounts[lang]++;
+    for (const b of blog) {
+      const tHits = findAnglicismsCounted(b.ogTitle, lang);
+      const dHits = findAnglicismsCounted(b.ogDescription, lang);
+      const tRec = recordHits("og", lang, tHits);
+      const dRec = recordHits("og", lang, dHits);
+      if (tRec.tokens.length) {
+        violations.push({
+          scope: "blog", lang, key: b.slug, field: "title",
+          length: b.ogTitle.length, limit: 0, level: "error",
+          message: `OG/Twitter title contains anglicism(s): ${tRec.tokens.join(", ")}`,
+          value: b.ogTitle,
+        });
+        summary[lang].errors++;
+      }
+      if (dRec.tokens.length) {
+        violations.push({
+          scope: "blog", lang, key: b.slug, field: "description",
+          length: b.ogDescription.length, limit: 0, level: "error",
+          message: `OG/Twitter description contains anglicism(s): ${dRec.tokens.join(", ")}`,
+          value: b.ogDescription,
+        });
+        summary[lang].errors++;
+      }
     }
   }
-  for (const b of blog) {
-    const tHits = findAnglicisms(b.ogTitle, lang);
-    const dHits = findAnglicisms(b.ogDescription, lang);
-    bumpToken(tHits);
-    bumpToken(dHits);
-    if (tHits.length) {
-      violations.push({
-        scope: "blog", lang, key: b.slug, field: "title",
-        length: b.ogTitle.length, limit: 0, level: "error",
-        message: `OG/Twitter title contains anglicism(s): ${tHits.join(", ")}`,
-        value: b.ogTitle,
-      });
-      summary[lang].errors++;
-      anglicismCounts[lang]++;
+}
+
+// --- Metadata scope (task 25): blog title/excerpt/metaTitle/metaDescription/keywords ---
+if (SCAN_SCOPES.has("metadata")) {
+  for (const lang of ANGLICISM_LANGS) {
+    const entries = extractBlogMetaFull(lang);
+    anglicismScanned[lang] += entries.length;
+    anglicismByScope.metadata.scannedByLang[lang] += entries.length;
+    for (const e of entries) {
+      const fields: { field: "title" | "description"; name: string; value: string }[] = [
+        { field: "title",       name: "title",           value: e.title },
+        { field: "description", name: "excerpt",         value: e.excerpt },
+        { field: "title",       name: "metaTitle",       value: e.metaTitle },
+        { field: "description", name: "metaDescription", value: e.metaDescription },
+        { field: "description", name: "keywords",        value: e.keywords.join(" | ") },
+      ];
+      for (const f of fields) {
+        if (!f.value) continue;
+        const hits = findAnglicismsCounted(f.value, lang);
+        const rec = recordHits("metadata", lang, hits);
+        if (rec.tokens.length) {
+          violations.push({
+            scope: "blog", lang, key: `${e.slug}#${f.name}`, field: f.field,
+            length: f.value.length, limit: 0, level: "error",
+            message: `Indexed metadata field ${f.name} contains anglicism(s): ${rec.tokens.join(", ")}`,
+            value: f.value,
+          });
+          summary[lang].errors++;
+        }
+      }
     }
-    if (dHits.length) {
-      violations.push({
-        scope: "blog", lang, key: b.slug, field: "description",
-        length: b.ogDescription.length, limit: 0, level: "error",
-        message: `OG/Twitter description contains anglicism(s): ${dHits.join(", ")}`,
-        value: b.ogDescription,
-      });
-      summary[lang].errors++;
-      anglicismCounts[lang]++;
+  }
+}
+
+// --- Body scope (task 25): markdown body of every blog content file ---
+if (SCAN_SCOPES.has("body")) {
+  for (const lang of ANGLICISM_LANGS) {
+    const slugs = listBlogContentSlugs(lang);
+    anglicismScanned[lang] += slugs.length;
+    anglicismByScope.body.scannedByLang[lang] += slugs.length;
+    for (const slug of slugs) {
+      const raw = readBlogBody(lang, slug);
+      if (!raw) continue;
+      const text = stripNonProseForBodyScan(raw);
+      const hits = findAnglicismsCounted(text, lang);
+      const rec = recordHits("body", lang, hits);
+      if (rec.tokens.length) {
+        const detail = Object.entries(hits)
+          .filter(([, n]) => n > 0)
+          .map(([t, n]) => `${t}×${n}`)
+          .join(", ");
+        violations.push({
+          scope: "blog", lang, key: `${slug}#body`, field: "description",
+          length: raw.length, limit: 0, level: "error",
+          message: `Article body contains anglicism(s): ${detail}`,
+          value: detail,
+        });
+        summary[lang].errors++;
+      }
     }
   }
 }
@@ -602,9 +822,13 @@ const report = {
     languages: ANGLICISM_LANGS,
     patterns: ANGLICISM_PATTERNS.map((p) => ({ token: p.token, langs: p.langs ?? ANGLICISM_LANGS })),
     allowlistSize: ANGLICISM_ALLOWLIST.length,
+    activeScopes: Array.from(SCAN_SCOPES),
     scannedByLang: anglicismScanned,
     flagsByLang: anglicismCounts,
     flagsByToken: anglicismByToken,
+    // Task 25 — per-scope rollup so the JSON consumer can answer
+    // "did the body scope regress for FR on `low-cost`?" in one query.
+    byScope: anglicismByScope,
   },
   violations,
   warnings,
@@ -620,9 +844,14 @@ for (const lang of LANGS) {
   const sp = subpageSummary[lang];
   console.log(`  ${lang}: pages=${s.pages} subpages=${sp.count} blog=${s.blog} errors=${s.errors} warnings=${s.warnings} dupT=${s.duplicateTitles} dupD=${s.duplicateDescriptions}`);
 }
-console.log(`[verify-meta] OG/Twitter anglicism scan (${ANGLICISM_LANGS.join("/")}):`);
+const activeScopeLabel = Array.from(SCAN_SCOPES).join("+");
+console.log(`[verify-meta] Anglicism scan (${ANGLICISM_LANGS.join("/")}) — scopes: ${activeScopeLabel}`);
 for (const lang of ANGLICISM_LANGS) {
-  console.log(`  ${lang}: scanned=${anglicismScanned[lang]} entries, anglicism flags=${anglicismCounts[lang]}`);
+  const perScope = (Object.keys(anglicismByScope) as AnglicismScope[])
+    .filter((s) => SCAN_SCOPES.has(s))
+    .map((s) => `${s}=${anglicismByScope[s].flagsByLang[lang]}/${anglicismByScope[s].scannedByLang[lang]}`)
+    .join(" ");
+  console.log(`  ${lang}: scanned=${anglicismScanned[lang]} entries, flags=${anglicismCounts[lang]} (${perScope})`);
 }
 const tokenCountSummary = Object.entries(anglicismByToken)
   .filter(([, n]) => n > 0)
