@@ -25,6 +25,9 @@ const {
   decideAction,
   formatDuration,
   buildEmbed,
+  isPrivilegedTrigger,
+  secretsMissing,
+  decideStickyIssueAction,
 } = await import("./notify-live-verification-discord.mjs");
 
 const REPORT_VPS_DOWN = `# live-verification report
@@ -360,6 +363,161 @@ test("buildEmbed: el token Discord nunca aparece en embeds (sanity)", () => {
   });
   const serialized = JSON.stringify(e);
   assert.equal(/DISCORD_BOT_TOKEN|Bot\s+[A-Za-z0-9.\-_]{20,}/.test(serialized), false);
+});
+
+// ──────────────── Task #61: detección de monitoring offline ────────────────
+test("isPrivilegedTrigger: schedule y workflow_dispatch son privilegiados", () => {
+  assert.equal(isPrivilegedTrigger("schedule"), true);
+  assert.equal(isPrivilegedTrigger("workflow_dispatch"), true);
+});
+
+test("isPrivilegedTrigger: pull_request / push / undefined no son privilegiados", () => {
+  assert.equal(isPrivilegedTrigger("pull_request"), false);
+  assert.equal(isPrivilegedTrigger("push"), false);
+  assert.equal(isPrivilegedTrigger(""), false);
+  assert.equal(isPrivilegedTrigger(undefined), false);
+});
+
+test("secretsMissing: detecta cada secret ausente o con whitespace", () => {
+  assert.deepEqual(
+    secretsMissing({}),
+    ["DISCORD_BOT_TOKEN", "DISCORD_CHANNEL_ERRORES"],
+  );
+  assert.deepEqual(
+    secretsMissing({
+      DISCORD_BOT_TOKEN: "abc.def",
+      DISCORD_CHANNEL_ERRORES: "12345",
+    }),
+    [],
+  );
+  assert.deepEqual(
+    secretsMissing({
+      DISCORD_BOT_TOKEN: "   ",
+      DISCORD_CHANNEL_ERRORES: "12345",
+    }),
+    ["DISCORD_BOT_TOKEN"],
+  );
+  assert.deepEqual(
+    secretsMissing({ DISCORD_BOT_TOKEN: "tok" }),
+    ["DISCORD_CHANNEL_ERRORES"],
+  );
+});
+
+test("decideStickyIssueAction: schedule + secrets ausentes → open-or-update", () => {
+  // Caso central que pide el task: silencio del cron sin alerta visible.
+  // El helper debe pedir abrir/actualizar el sticky issue.
+  const d = decideStickyIssueAction({
+    eventName: "schedule",
+    env: {
+      DISCORD_BOT_TOKEN: "",
+      DISCORD_CHANNEL_ERRORES: "",
+    },
+  });
+  assert.equal(d.action, "open-or-update");
+  assert.deepEqual(
+    d.missing.sort(),
+    ["DISCORD_BOT_TOKEN", "DISCORD_CHANNEL_ERRORES"].sort(),
+  );
+  assert.match(d.reason, /DISCORD_BOT_TOKEN/);
+  assert.match(d.reason, /DISCORD_CHANNEL_ERRORES/);
+});
+
+test("decideStickyIssueAction: schedule + secret parcial → open-or-update sólo el ausente", () => {
+  const d = decideStickyIssueAction({
+    eventName: "schedule",
+    env: {
+      DISCORD_BOT_TOKEN: "valid-token",
+      DISCORD_CHANNEL_ERRORES: "",
+    },
+  });
+  assert.equal(d.action, "open-or-update");
+  assert.deepEqual(d.missing, ["DISCORD_CHANNEL_ERRORES"]);
+});
+
+test("decideStickyIssueAction: workflow_dispatch + secrets ausentes → open-or-update", () => {
+  const d = decideStickyIssueAction({
+    eventName: "workflow_dispatch",
+    env: {},
+  });
+  assert.equal(d.action, "open-or-update");
+});
+
+test("decideStickyIssueAction: schedule + secrets presentes → close-if-open", () => {
+  const d = decideStickyIssueAction({
+    eventName: "schedule",
+    env: {
+      DISCORD_BOT_TOKEN: "abc.def.ghi",
+      DISCORD_CHANNEL_ERRORES: "1234567890",
+    },
+  });
+  assert.equal(d.action, "close-if-open");
+  assert.deepEqual(d.missing, []);
+});
+
+test("decideStickyIssueAction: pull_request (fork) + secrets ausentes → skip", () => {
+  // Crítico: en PR de fork los secrets jamás están disponibles. NO debe
+  // abrirse issue desde un fork — sería ruido y además el token de un
+  // fork no tiene `issues: write`.
+  const d = decideStickyIssueAction({
+    eventName: "pull_request",
+    env: {},
+  });
+  assert.equal(d.action, "skip");
+  assert.deepEqual(d.missing, []);
+});
+
+test("decideStickyIssueAction: push + secrets ausentes → skip (no PR ni cron)", () => {
+  const d = decideStickyIssueAction({
+    eventName: "push",
+    env: {},
+  });
+  assert.equal(d.action, "skip");
+});
+
+test("main: warn ::warning:: cuando schedule + secrets ausentes y down", async () => {
+  // Cubre la rama nueva en main(): si el trigger es privilegiado y los
+  // secrets faltan en una transición real (down), tiene que dejar
+  // huella visible en el log con el formato `::warning::` que la UI de
+  // GitHub Actions resalta.
+  const { mkdtempSync, rmSync } = await import("node:fs");
+  const { tmpdir } = await import("node:os");
+  const path = await import("node:path");
+  const dir = mkdtempSync(path.join(tmpdir(), "lv-warn-"));
+  const reportPath = path.join(dir, "report.md");
+  const statePath = path.join(dir, "state.json");
+  const { writeFileSync } = await import("node:fs");
+  writeFileSync(reportPath, REPORT_REAL_DOWN, "utf8");
+
+  const prevEnv = { ...process.env };
+  process.env.LIVE_VERIFICATION_REPORT = reportPath;
+  process.env.LIVE_VERIFICATION_STATE = statePath;
+  process.env.LIVE_VERIFICATION_EXIT = "1";
+  process.env.LIVE_VERIFICATION_BASE_URL = "https://exentax.com";
+  process.env.GITHUB_EVENT_NAME = "schedule";
+  delete process.env.DISCORD_BOT_TOKEN;
+  delete process.env.DISCORD_CHANNEL_ERRORES;
+
+  const captured = [];
+  const origWarn = console.warn;
+  console.warn = (msg) => captured.push(String(msg));
+
+  try {
+    const { main } = await import("./notify-live-verification-discord.mjs");
+    await main();
+    const warning = captured.find((l) =>
+      l.includes("::warning") && l.includes("monitoring is offline"),
+    );
+    assert.ok(
+      warning,
+      `Esperaba un ::warning:: con "monitoring is offline" en console.warn, recibido: ${JSON.stringify(captured)}`,
+    );
+    assert.match(warning, /DISCORD_BOT_TOKEN/);
+    assert.match(warning, /DISCORD_CHANNEL_ERRORES/);
+  } finally {
+    console.warn = origWarn;
+    process.env = prevEnv;
+    rmSync(dir, { recursive: true, force: true });
+  }
 });
 
 console.log(`\n${passed} passed, ${failed} failed`);

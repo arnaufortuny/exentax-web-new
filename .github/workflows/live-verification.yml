@@ -58,6 +58,11 @@ on:
 
 permissions:
   contents: read
+  # `issues: write` es necesario para que el step "Sync sticky monitoring
+  # issue" (Task #61) pueda abrir / actualizar / cerrar el issue sticky
+  # "Live-verification monitoring is offline" cuando los secrets de
+  # Discord faltan en el repo canónico. Limitado a este workflow.
+  issues: write
 
 # Una sola ejecución de live-verification activa a la vez. Si el cron
 # anterior se solapa (no debería con cron 20 min y runs ~2 min), el
@@ -126,7 +131,32 @@ jobs:
           LIVE_VERIFICATION_EXIT: ${{ steps.runner.outputs.EXIT_CODE }}
           GITHUB_RUN_URL: ${{ format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: node scripts/notify-live-verification-discord.mjs
+
+      # Task #61 — sticky issue para cuando los secrets de Discord
+      # faltan en el repo canónico. El notifier de Discord sale 0
+      # silente por diseño (para que PRs de fork no rompan CI), por lo
+      # que sin esta señal una rotación accidental de token deja la
+      # monitorización muerta y nadie se entera. El script:
+      #   - en `schedule` / `workflow_dispatch` con secrets ausentes
+      #     abre o actualiza el issue "Live-verification monitoring is
+      #     offline";
+      #   - en `schedule` / `workflow_dispatch` con secrets presentes
+      #     cierra el issue si estaba abierto (auto-resolución);
+      #   - en otros triggers (PRs de fork) no hace nada.
+      # Corre con `if: always()` para que el síntoma se haga visible
+      # incluso si el runner anterior falló. Nunca propaga errores.
+      - name: Sync sticky monitoring issue (Task #61)
+        if: always()
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_URL: ${{ format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: node scripts/notify-monitoring-offline-issue.mjs
 
       # Subir el reporte como artefacto SIEMPRE — útil para auditar
       # qué se midió en cada cron, y enlazado desde el embed Discord

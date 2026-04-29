@@ -86,6 +86,89 @@ function envOrEmpty(name) {
   return typeof v === "string" ? v.trim() : "";
 }
 
+/**
+ * `true` cuando el evento de GitHub Actions corresponde a un trigger
+ * "privilegiado" — es decir, uno con acceso a `secrets.*` en el repo
+ * canónico. Coincide con la lista de triggers que configuramos en
+ * `.github/workflows/live-verification.yml` (`schedule` + `workflow_dispatch`).
+ *
+ * En PRs de fork, `github.event_name === "pull_request"` y los secrets
+ * NO están disponibles, por lo que la ausencia de token es esperada y
+ * NO debe abrir issue.
+ */
+export function isPrivilegedTrigger(eventName) {
+  return eventName === "schedule" || eventName === "workflow_dispatch";
+}
+
+/**
+ * Devuelve la lista (potencialmente vacía) de variables de entorno
+ * Discord que faltan para que el notifier pueda postear. Se considera
+ * "ausente" tanto si la variable no existe como si existe pero está
+ * vacía / sólo tiene whitespace (caso típico cuando se rota un secret
+ * sin actualizar el valor en la org).
+ */
+export function secretsMissing(env) {
+  const missing = [];
+  const token =
+    typeof env?.DISCORD_BOT_TOKEN === "string"
+      ? env.DISCORD_BOT_TOKEN.trim()
+      : "";
+  const channel =
+    typeof env?.DISCORD_CHANNEL_ERRORES === "string"
+      ? env.DISCORD_CHANNEL_ERRORES.trim()
+      : "";
+  if (!token) missing.push("DISCORD_BOT_TOKEN");
+  if (!channel) missing.push("DISCORD_CHANNEL_ERRORES");
+  return missing;
+}
+
+/**
+ * Decide qué hacer con el "sticky issue" de monitorización offline en
+ * función del trigger del workflow y la presencia de los secrets de
+ * Discord. Devuelve:
+ *
+ *   - `{ action: "skip" }`            — trigger no privilegiado (PR/push):
+ *                                       no se evalúa nada, el run en fork
+ *                                       no tiene acceso a secrets y por
+ *                                       diseño el notifier sale 0 silente.
+ *   - `{ action: "open-or-update" }`  — trigger privilegiado (schedule /
+ *                                       workflow_dispatch) y faltan uno o
+ *                                       más secrets: hay que abrir o
+ *                                       actualizar el issue sticky.
+ *   - `{ action: "close-if-open" }`   — trigger privilegiado y los secrets
+ *                                       están presentes: si hay un issue
+ *                                       sticky abierto se cierra (auto-
+ *                                       resolve cuando el operador
+ *                                       restaura el secret).
+ *
+ * Esta función es pura y por eso vive en este módulo: los tests cubren
+ * la rama "secrets ausentes en schedule" sin tener que tocar la red.
+ */
+export function decideStickyIssueAction({ eventName, env }) {
+  if (!isPrivilegedTrigger(eventName)) {
+    return {
+      action: "skip",
+      reason:
+        "Trigger no privilegiado (pull_request / push). Los runs de fork no tienen acceso a secrets — silencio esperado.",
+      missing: [],
+    };
+  }
+  const missing = secretsMissing(env || {});
+  if (missing.length === 0) {
+    return {
+      action: "close-if-open",
+      reason:
+        "Secrets de Discord presentes — si existe un sticky issue abierto se cierra automáticamente.",
+      missing: [],
+    };
+  }
+  return {
+    action: "open-or-update",
+    reason: `Faltan secrets en el repo canónico: ${missing.join(", ")}. La cron sigue verde pero las alertas Discord no llegan.`,
+    missing,
+  };
+}
+
 function truncate(s, max) {
   if (s.length <= max) return s;
   return s.slice(0, max - 1) + "…";
@@ -449,9 +532,23 @@ export async function main() {
   if (decision.action === "silent") return;
 
   if (!token || !channelId) {
-    console.log(
-      "[live-verification-notify] DISCORD_BOT_TOKEN or DISCORD_CHANNEL_ERRORES missing — skipping notification.",
-    );
+    // Si el trigger es privilegiado (schedule / workflow_dispatch) y los
+    // secrets faltan, gritamos en el log con `::warning::` para que la
+    // misconfiguración sea visible en la UI de Actions. La rama
+    // "abrir / cerrar issue sticky" se materializa en
+    // `notify-monitoring-offline-issue.mjs` (paso aparte del workflow,
+    // que tiene `permissions: issues: write`).
+    const eventName = envOrEmpty("GITHUB_EVENT_NAME");
+    if (isPrivilegedTrigger(eventName)) {
+      const missing = secretsMissing(process.env);
+      console.warn(
+        `::warning title=Live-verification monitoring is offline::Faltan secrets en el repo canónico (${missing.join(", ")}). El cron sigue corriendo pero ninguna alerta de Discord llegará. Revisa la configuración de secrets.`,
+      );
+    } else {
+      console.log(
+        "[live-verification-notify] DISCORD_BOT_TOKEN or DISCORD_CHANNEL_ERRORES missing — skipping notification.",
+      );
+    }
     return;
   }
 
