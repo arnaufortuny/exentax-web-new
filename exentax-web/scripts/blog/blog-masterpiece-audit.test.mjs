@@ -171,6 +171,29 @@ const FIXTURES = [
   { name: "de: 'EU-Verordnungsentwurf 2024/123'", text: "Der EU-Verordnungsentwurf 2024/123 erweitert den Anwendungsbereich.", expect: 0 },
 
   // ---------------------------------------------------------------------------
+  // Related-article markdown links (Task #67).
+  // The audit must strip `[label](/<lang>/blog/...)` blocks BEFORE counting
+  // years in prose, because the visible label is the title of *another*
+  // article (often containing a year, e.g. "[LLC complete guide for
+  // non-residents in 2026](/en/blog/...)") and is a fact about the linked
+  // post — not an editorial year mention by the current article. Without
+  // this, every related-articles section produced 18 critical false
+  // positives across en/fr/de/pt/ca. These fixtures pin that behavior so a
+  // future cleanup of the regex in `findYearsInProse` cannot silently
+  // re-introduce the false positives.
+  // ---------------------------------------------------------------------------
+  {
+    name: "related-article: link with year in label is stripped (en)",
+    text: "Read more in [LLC complete guide for non-residents in 2026](/en/blog/llc-non-residents-guide) for details.",
+    expect: 0,
+  },
+  {
+    name: "related-article: editorial year mention outside any link still counts",
+    text: "Las reglas cambiaron en 2027 según la nueva normativa publicada por la AEAT.",
+    expect: 1,
+  },
+
+  // ---------------------------------------------------------------------------
   // Negative fixtures — bare editorial year mentions that MUST still count.
   // If any of these silently start being stripped, the rule has lost teeth.
   // ---------------------------------------------------------------------------
