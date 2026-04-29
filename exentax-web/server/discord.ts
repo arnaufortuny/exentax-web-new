@@ -574,15 +574,29 @@ async function loadBackend(): Promise<"db" | "memory"> {
     _schemaCached = await import("../shared/schema");
     // Best-effort: rehydrate the gauge from the DB so /api/metrics reports
     // an accurate queue size even before the first drain tick after boot.
+    //
+    // We ADD the on-disk count to the in-process counter rather than replacing
+    // it. `loadBackend` runs lazily on the first `getBackend()` call, which is
+    // typically triggered from inside `persistAndQueue` AFTER the synchronous
+    // `incPending()` in `enqueueItem` has already bumped `_pendingCount`. If
+    // we replaced the gauge here we'd silently overwrite those in-flight
+    // increments — `getDiscordQueueSize()` would then return 0 even though
+    // rows are mid-persist, and `waitForQueueDrain()` (used by the discord
+    // bot e2e regression) would return immediately, missing the captured
+    // POSTs and reporting `auditCalls=0`. The on-disk SELECT only sees rows
+    // already inserted by other processes (or by previous, killed runs of
+    // this one) — by definition disjoint from anything still queued here —
+    // so addition is the arithmetically correct merge.
     try {
       const { sql } = await import("drizzle-orm");
       const r = await _dbCached.db.execute(
         sql`SELECT count(*)::int AS n FROM discord_outbound_queue WHERE attempts < max_attempts`,
       );
       const rows = (r as unknown as { rows: { n: number }[] }).rows ?? [];
-      _pendingCount = rows[0]?.n ?? 0;
+      const recovered = rows[0]?.n ?? 0;
+      _pendingCount += recovered;
       try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
-      logger.info(`Discord queue: persistence enabled (${_pendingCount} pending row(s) recovered)`, "discord");
+      logger.info(`Discord queue: persistence enabled (${recovered} pending row(s) recovered)`, "discord");
     } catch (err) {
       logger.warn(`Discord queue: rehydrate failed (table missing?): ${err instanceof Error ? err.message : String(err)}`, "discord");
     }

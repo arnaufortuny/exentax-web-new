@@ -34,10 +34,22 @@ import crypto from "crypto";
 // ─── 1. Env vars must be set before any module that captures them ────────────
 
 const TEST_TAG = `e2e-discord-bot-${Date.now()}`;
-const APP_ID = "111111111111111111";
-const ROLE_ID = "222222222222222222";
-const CHANNEL_AGENDA = "333333333333333333";
-const CHANNEL_AUDITORIA = "444444444444444444";
+// Per-run unique IDs (Discord-snowflake-shaped, 18 numeric chars) so that
+// rows leaked by a previous run that was killed before cleanup can never
+// contaminate the count assertions below. The base prefix encodes the
+// purpose (1=app, 2=role, 3=channel-agenda, 4=channel-auditoria,
+// 5=actor-authorised, 6=actor-unauthorised) and the suffix encodes the
+// run nonce (last 13 digits of Date.now), keeping the whole string a
+// realistic-looking 18-digit snowflake even though the schema only
+// requires `text`. Eliminates the Task #91 inter-run race entirely.
+const RUN_NONCE = String(Date.now()).slice(-13).padStart(13, "0");
+function snowflake(prefix: number): string {
+  return `${prefix}${RUN_NONCE}0000`;
+}
+const APP_ID = snowflake(1);
+const ROLE_ID = snowflake(2);
+const CHANNEL_AGENDA = snowflake(3);
+const CHANNEL_AUDITORIA = snowflake(4);
 
 const { publicKey: ed25519Pub, privateKey: ed25519Priv } =
   crypto.generateKeyPairSync("ed25519");
@@ -120,14 +132,16 @@ function assert(name: string, cond: unknown, detail?: string): boolean {
 
 const createdBookingIds: string[] = [];
 const blockedDates: string[] = [];
-const ACTOR_ID = "550000000000000000";
-const ACTOR_NAME = "e2e-tester";
+const ACTOR_ID = snowflake(5);
+const UNAUTH_ACTOR_ID = snowflake(6);
+const ACTOR_NAME = `e2e-tester-${RUN_NONCE}`;
+const UNAUTH_ACTOR_NAME = `intruder-${RUN_NONCE}`;
 
 function authorisedMember() {
   return { user: { id: ACTOR_ID, username: ACTOR_NAME, global_name: ACTOR_NAME }, roles: [ROLE_ID] };
 }
 function unauthorisedMember() {
-  return { user: { id: "550000000000000001", username: "intruder", global_name: "intruder" }, roles: [] };
+  return { user: { id: UNAUTH_ACTOR_ID, username: UNAUTH_ACTOR_NAME, global_name: UNAUTH_ACTOR_NAME }, roles: [] };
 }
 
 let interactionCounter = 0;
@@ -296,6 +310,23 @@ async function waitForQueueDrain(timeoutMs = 25_000): Promise<void> {
 
 async function run() {
   console.log(`\n=== Discord bot E2E (${TEST_TAG}) ===\n`);
+
+  // Pre-test sweep: defensively delete any rows for THIS run's actor IDs
+  // and any stale rows from previously-killed runs that used the legacy
+  // hardcoded IDs (550000000000000000 / 550000000000000001). With the
+  // per-run-unique IDs introduced above the first delete is a no-op in
+  // the happy path, but the sweep guarantees idempotency under SIGKILL/
+  // CI timeouts and removes the historical leftover state once and for
+  // all so the next run on this database starts from a known-clean slate.
+  {
+    const { inArray } = await import("drizzle-orm");
+    const legacyActors = ["550000000000000000", "550000000000000001"];
+    const allActors = [...legacyActors, ACTOR_ID, UNAUTH_ACTOR_ID];
+    await db
+      .delete(s.agendaAdminActions)
+      .where(inArray(s.agendaAdminActions.actorDiscordId, allActors));
+    console.log(`  pre-cleanup: swept rows for ${allActors.length} actor ids (legacy + per-run)`);
+  }
 
   // Sanity: manifest snapshot.
   const manifest = buildSlashCommandManifest();
@@ -776,26 +807,66 @@ async function run() {
 
 // ─── 7. Cleanup + summary ───────────────────────────────────────────────────
 
+let cleanupInFlight = false;
+let cleanupRan = false;
 async function cleanup() {
+  if (cleanupRan || cleanupInFlight) return;
+  cleanupInFlight = true;
   console.log("\n--- cleanup ---");
   try {
+    const { inArray } = await import("drizzle-orm");
     if (createdBookingIds.length) {
-      const { inArray } = await import("drizzle-orm");
       await db.delete(s.agenda).where(inArray(s.agenda.id, createdBookingIds));
       await db.delete(s.agendaAdminActions).where(inArray(s.agendaAdminActions.bookingId, createdBookingIds));
     }
-    await db.delete(s.agendaAdminActions).where(eq(s.agendaAdminActions.actorDiscordId, ACTOR_ID));
+    // Sweep BOTH actor ids — the authorised tester and the unauthorised
+    // intruder used by the 401 assertions. The bot persists an
+    // `unauthorized:<label>` row for the latter (server/discord-bot.ts:327)
+    // and previous versions of this script never cleaned it up, leaving
+    // permanent rows in `agenda_admin_actions` after every run.
+    await db.delete(s.agendaAdminActions).where(
+      inArray(s.agendaAdminActions.actorDiscordId, [ACTOR_ID, UNAUTH_ACTOR_ID])
+    );
     for (const d of blockedDates) {
       try { await deleteBlockedDay(d); } catch { /* noop */ }
     }
     // Drain pg-stored emails enqueued by /cita nueva / email recordatorio
     // so they don't sit in the retry queue forever.
     await db.delete(s.emailRetryQueue).where(like(s.emailRetryQueue.payload, `%${TEST_TAG}%`));
-    console.log(`  cleaned ${createdBookingIds.length} bookings, audit rows for actor ${ACTOR_ID}`);
+    // Drain any `discord_outbound_queue` rows that this run enqueued
+    // against our per-run channel ids — eliminates queue buildup if the
+    // process is killed before the in-process worker drains.
+    try {
+      const { sql } = await import("drizzle-orm");
+      await db.execute(sql`
+        DELETE FROM discord_outbound_queue
+         WHERE channel_id IN (${CHANNEL_AGENDA}, ${CHANNEL_AUDITORIA})
+      `);
+    } catch { /* noop — table is non-critical for the test outcome */ }
+    console.log(`  cleaned ${createdBookingIds.length} bookings, audit rows for actors ${ACTOR_ID}+${UNAUTH_ACTOR_ID}`);
   } catch (err) {
     console.log(`  cleanup error: ${String(err)}`);
+  } finally {
+    cleanupRan = true;
+    cleanupInFlight = false;
   }
 }
+
+// Install signal handlers so SIGTERM/SIGINT (CI timeout, Ctrl+C, parent
+// killing the regression runner) still triggers cleanup. Without this,
+// a killed run would leak rows that the next run trips over even though
+// the per-run-unique IDs already protect against actor collisions.
+let signalCleanupArmed = false;
+function armSignalCleanup() {
+  if (signalCleanupArmed) return;
+  signalCleanupArmed = true;
+  for (const sig of ["SIGINT", "SIGTERM"] as const) {
+    process.once(sig, () => {
+      void cleanup().finally(() => process.exit(130));
+    });
+  }
+}
+armSignalCleanup();
 
 (async () => {
   let exitCode = 0;
