@@ -38,6 +38,14 @@ import {
   HANDLED_SLASH_TUPLES, canHandleSlashTuple, flattenManifestTuples,
   SUBCOMMAND_HANDLER_SOURCES, extractSubcommandsFromHandlerSource,
 } from "../../server/discord/handlers/handled-slash-tuples";
+import {
+  HANDLED_COMPONENT_ACTIONS, HANDLED_MODAL_ACTIONS,
+  COMPONENT_DISPATCHER_SOURCE, MODAL_DISPATCHER_SOURCE,
+  COMPONENT_EMITTER_SOURCES, EMITTER_HELPER_REGEXES,
+  extractEmittedCustomIdActions,
+  extractDispatcherActionsFromComponentSource,
+  extractDispatcherActionsFromModalSource,
+} from "../../server/discord/handlers/handled-component-customids";
 
 const DISCORD_API = "https://discord.com/api/v10";
 
@@ -371,6 +379,191 @@ export function validateHandlerSourcesAgainstCatalog(
   return errors;
 }
 
+/**
+ * Cross-check the message-component (button + select) and modal-submit
+ * dispatchers against (a) their declared `HANDLED_COMPONENT_ACTIONS` /
+ * `HANDLED_MODAL_ACTIONS` catalogs and (b) every card / notification
+ * builder that emits an `agenda:<action>:…` `custom_id` in the
+ * codebase. Catches three drift classes before they reach production:
+ *
+ *   - "card emits a custom_id no dispatcher handles" — a developer
+ *     ships a notification card whose button `custom_id` is missing
+ *     from the `switch (action)` in
+ *     `server/discord/handlers/components.ts` (or whose modal
+ *     `custom_id` is missing from `…/handlers/modals.ts`); clicking
+ *     it in production fails with "interaction failed" because the
+ *     dispatcher falls through to its "Componente no reconocido" /
+ *     "Modal no reconocido" branch. This is the parallel of the
+ *     slash-command "Comando no reconocido" drift caught above.
+ *   - "dispatcher branch is dead" — a `case "foo":` lingers in the
+ *     dispatcher after the card that produced `agenda:foo:<id>` was
+ *     removed. Live interactions can never reach it. The validator
+ *     refuses to ship dead branches so the dispatcher stays a
+ *     reliable index of the live interaction surface.
+ *   - "catalog drifted from dispatcher" — `HANDLED_COMPONENT_ACTIONS`
+ *     declares `foo` but no `case "foo":` exists yet (or vice versa),
+ *     same as the catalog-vs-handler check above does for slash
+ *     subcommands. We ALSO require every emitter `custom_id` to
+ *     appear in the catalog, so adding an action means updating both
+ *     the catalog AND the dispatcher in the same change.
+ *
+ * Implementation note: we deliberately read the dispatcher /
+ * emitter files as text rather than importing them, for the same
+ * reason `validateHandlerSourcesAgainstCatalog()` does — they
+ * transitively pull in `server/storage` etc. which require
+ * `DATABASE_URL` at module-load time, fatal in the dryrun CI shell.
+ */
+export function validateComponentCustomIdsAgainstDispatcher(
+  readSource: (relPath: string) => string = (rel) =>
+    fs.readFileSync(path.resolve(REPO_ROOT, rel), "utf8"),
+): string[] {
+  const errors: string[] = [];
+
+  // Read the two dispatcher source files. A missing file is a hard
+  // failure — the gate cannot guarantee anything if it cannot see
+  // the dispatcher.
+  let componentSrc = "";
+  let modalSrc = "";
+  try {
+    componentSrc = readSource(COMPONENT_DISPATCHER_SOURCE);
+  } catch (err) {
+    errors.push(
+      `Cannot read component dispatcher source at ${COMPONENT_DISPATCHER_SOURCE}: ` +
+      `${err instanceof Error ? err.message : String(err)}.`,
+    );
+  }
+  try {
+    modalSrc = readSource(MODAL_DISPATCHER_SOURCE);
+  } catch (err) {
+    errors.push(
+      `Cannot read modal dispatcher source at ${MODAL_DISPATCHER_SOURCE}: ` +
+      `${err instanceof Error ? err.message : String(err)}.`,
+    );
+  }
+
+  const componentInDispatcher = componentSrc
+    ? extractDispatcherActionsFromComponentSource(componentSrc)
+    : new Set<string>();
+  const modalInDispatcher = modalSrc
+    ? extractDispatcherActionsFromModalSource(modalSrc)
+    : new Set<string>();
+
+  const componentCatalog = new Set(HANDLED_COMPONENT_ACTIONS);
+  const modalCatalog = new Set(HANDLED_MODAL_ACTIONS);
+
+  // Direction A: catalog ↔ dispatcher (component).
+  for (const action of componentInDispatcher) {
+    if (!componentCatalog.has(action)) {
+      errors.push(
+        `Component dispatcher ${COMPONENT_DISPATCHER_SOURCE} has a branch ` +
+        `for \`agenda:${action}:…\` but HANDLED_COMPONENT_ACTIONS does not ` +
+        `list it. Either add \`${action}\` to HANDLED_COMPONENT_ACTIONS in ` +
+        `server/discord/handlers/handled-component-customids.ts or remove ` +
+        `the dead branch from the dispatcher.`,
+      );
+    }
+  }
+  for (const action of componentCatalog) {
+    if (!componentInDispatcher.has(action)) {
+      errors.push(
+        `HANDLED_COMPONENT_ACTIONS claims \`agenda:${action}:…\` is handled ` +
+        `but ${COMPONENT_DISPATCHER_SOURCE} has no \`case "${action}":\` ` +
+        `branch. Wire the case or remove the catalog entry.`,
+      );
+    }
+  }
+
+  // Direction B: catalog ↔ dispatcher (modal).
+  for (const action of modalInDispatcher) {
+    if (!modalCatalog.has(action)) {
+      errors.push(
+        `Modal dispatcher ${MODAL_DISPATCHER_SOURCE} has a branch for ` +
+        `\`agenda:${action}:…\` but HANDLED_MODAL_ACTIONS does not list ` +
+        `it. Either add \`${action}\` to HANDLED_MODAL_ACTIONS in ` +
+        `server/discord/handlers/handled-component-customids.ts or remove ` +
+        `the dead branch from the dispatcher.`,
+      );
+    }
+  }
+  for (const action of modalCatalog) {
+    if (!modalInDispatcher.has(action)) {
+      errors.push(
+        `HANDLED_MODAL_ACTIONS claims \`agenda:${action}:…\` is handled but ` +
+        `${MODAL_DISPATCHER_SOURCE} has no matching guard branch (looked for ` +
+        `\`case "${action}":\` or \`parts[1] === "${action}"\` / ` +
+        `\`parts[1] !== "${action}"\`). Wire the guard or remove the ` +
+        `catalog entry.`,
+      );
+    }
+  }
+
+  // Direction C: emitter custom_ids ↔ catalogs. Every action emitted
+  // by a card / notification builder must be claimed by EITHER the
+  // component dispatcher OR the modal dispatcher (modal `custom_id`s
+  // are also emitted by the components dispatcher when it opens the
+  // modal in response to a button click — so a single emitter file
+  // can legitimately produce both kinds).
+  const emittedAll = new Set<string>();
+  for (const relPath of COMPONENT_EMITTER_SOURCES) {
+    let src: string;
+    try {
+      src = readSource(relPath);
+    } catch (err) {
+      errors.push(
+        `Cannot read component emitter source at ${relPath}: ` +
+        `${err instanceof Error ? err.message : String(err)}.`,
+      );
+      continue;
+    }
+    const helperRegexes = EMITTER_HELPER_REGEXES[relPath] ?? [];
+    const emitted = extractEmittedCustomIdActions(src, helperRegexes);
+    for (const action of emitted) {
+      emittedAll.add(action);
+      if (!componentCatalog.has(action) && !modalCatalog.has(action)) {
+        errors.push(
+          `${relPath} emits \`agenda:${action}:…\` as a Discord custom_id ` +
+          `but neither HANDLED_COMPONENT_ACTIONS nor HANDLED_MODAL_ACTIONS ` +
+          `lists it. The dispatchers in server/discord/handlers/components.ts ` +
+          `and server/discord/handlers/modals.ts will reject the click with ` +
+          `"interaction failed" in production. Add \`${action}\` to the ` +
+          `appropriate catalog in ` +
+          `server/discord/handlers/handled-component-customids.ts AND wire ` +
+          `the matching dispatcher branch.`,
+        );
+      }
+    }
+  }
+
+  // Direction D: catalogs ↔ emitters. Every catalog entry must be
+  // reachable from at least one emitter file, otherwise we ship a
+  // dispatcher branch nobody can ever invoke (dead code that hides
+  // future drift).
+  for (const action of componentCatalog) {
+    if (!emittedAll.has(action)) {
+      errors.push(
+        `HANDLED_COMPONENT_ACTIONS lists \`${action}\` but no emitter in ` +
+        `${COMPONENT_EMITTER_SOURCES.join(", ")} produces an ` +
+        `\`agenda:${action}:…\` custom_id. Either remove the entry from ` +
+        `the catalog (and the dispatcher branch) or add the missing card ` +
+        `/ button row that emits it.`,
+      );
+    }
+  }
+  for (const action of modalCatalog) {
+    if (!emittedAll.has(action)) {
+      errors.push(
+        `HANDLED_MODAL_ACTIONS lists \`${action}\` but no emitter in ` +
+        `${COMPONENT_EMITTER_SOURCES.join(", ")} produces an ` +
+        `\`agenda:${action}:…\` custom_id. Either remove the entry from ` +
+        `the catalog (and the dispatcher branch) or add the missing modal ` +
+        `trigger that emits it.`,
+      );
+    }
+  }
+
+  return errors;
+}
+
 // Repo root, computed once. The script file lives at
 // `<repo>/exentax-web/scripts/discord/register-discord-commands.ts`, so
 // climbing three levels gets us back to the repo root that
@@ -482,11 +675,37 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
+  // And finally, the same lockstep check for message-component
+  // (button + select) and modal-submit dispatchers vs every emitter
+  // of an `agenda:<action>:…` custom_id in the codebase. Catches the
+  // class of bug where a developer ships a notification card whose
+  // button custom_id no dispatcher handles (production click silently
+  // fails with "interaction failed") OR leaves a dead `case "foo":`
+  // branch behind after the card that produced it was removed.
+  const componentErrors = validateComponentCustomIdsAgainstDispatcher();
+  if (componentErrors.length > 0) {
+    console.error(
+      `\n❌ Discord component / modal dispatchers do not match their ` +
+      `catalogs and emitters (${componentErrors.length} problem(s)):`,
+    );
+    for (const err of componentErrors) console.error(`  - ${err}`);
+    console.error(
+      "\nKeep HANDLED_COMPONENT_ACTIONS / HANDLED_MODAL_ACTIONS " +
+      "(server/discord/handlers/handled-component-customids.ts), the " +
+      "dispatcher branches in server/discord/handlers/components.ts and " +
+      "server/discord/handlers/modals.ts, and the card / button-row " +
+      "builders that emit `agenda:<action>:…` custom_ids in lockstep.",
+    );
+    process.exit(1);
+  }
+
   if (dryRun && !diff) {
     console.log(
       "\n--dry-run: manifest is structurally valid, every (command, subcommand) " +
-      "tuple has a dispatcher handler, AND every catalog entry maps to an " +
-      "executable per-command branch; skipping network call.",
+      "tuple has a dispatcher handler, every catalog entry maps to an " +
+      "executable per-command branch, AND every Discord component / modal " +
+      "custom_id emitted in the codebase is recognised by the matching " +
+      "dispatcher (and vice versa); skipping network call.",
     );
     return;
   }

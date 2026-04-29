@@ -63,6 +63,16 @@ const ALL_SCRIPTS = [
       "name/description/choices list, mixed sub+value options, …)",
   },
   {
+    id: "component-validator",
+    file: "test-discord-component-validator.ts",
+    requires: [],
+    description:
+      "validateComponentCustomIdsAgainstDispatcher() still rejects every " +
+      "class of broken Discord button / select / modal wiring (card emits " +
+      "an unknown custom_id, dispatcher has a dead branch, catalog " +
+      "missing a dispatcher case, catalog action no card emits)",
+  },
+  {
     id: "bot-e2e",
     file: "test-discord-bot-e2e.ts",
     requires: ["DATABASE_URL"],
