@@ -53,6 +53,15 @@ const ALL_SCRIPTS = [
       "valid option types, lengths within Discord's limits)",
   },
   {
+    id: "manifest-validator",
+    file: "test-discord-manifest-validator.ts",
+    requires: [],
+    description:
+      "validateSlashCommandManifest() still rejects every class of " +
+      "broken payload (duplicate name, invalid option type, oversize " +
+      "name/description/choices list, mixed sub+value options, …)",
+  },
+  {
     id: "bot-e2e",
     file: "test-discord-bot-e2e.ts",
     requires: ["DATABASE_URL"],

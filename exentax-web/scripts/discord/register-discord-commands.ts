@@ -30,6 +30,7 @@
 // gate) does not pull in DB/storage code that requires `DATABASE_URL`
 // at module-load time. The manifest module is intentionally
 // dependency-free.
+import { fileURLToPath } from "node:url";
 import { buildSlashCommandManifest } from "../../server/discord-bot-manifest";
 
 const DISCORD_API = "https://discord.com/api/v10";
@@ -328,7 +329,29 @@ async function main(): Promise<void> {
   console.log("OK — Discord accepted the manifest. Global propagation may take up to 1h.");
 }
 
-main().catch(err => {
-  console.error("\nregister-discord-commands failed:", err?.message || err);
-  process.exit(1);
-});
+// Only run `main()` when this file is invoked directly (e.g.
+// `tsx scripts/discord/register-discord-commands.ts --dry-run`).
+// The test file
+// `scripts/discord/test-discord-manifest-validator.ts` imports
+// `validateSlashCommandManifest` from this module to feed it
+// hand-crafted manifests; without this guard that import would
+// trigger a real publish/dry-run on every test execution and
+// (worse) read live Discord secrets out of the environment.
+//
+// `tsx` sets `process.argv[1]` to the resolved path of the entry
+// file, which is exactly what `fileURLToPath(import.meta.url)`
+// returns for this module — no extension or symlink rewriting is
+// needed.
+const isDirectInvocation = (() => {
+  try {
+    return process.argv[1] === fileURLToPath(import.meta.url);
+  } catch {
+    return false;
+  }
+})();
+if (isDirectInvocation) {
+  main().catch(err => {
+    console.error("\nregister-discord-commands failed:", err?.message || err);
+    process.exit(1);
+  });
+}
