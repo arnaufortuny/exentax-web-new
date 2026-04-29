@@ -14,7 +14,7 @@ const FAQ_IDS: ReadonlyArray<string> = [
   "banking_0","banking_1","banking_2","banking_3","banking_4","banking_5","banking_6","banking_7",
   "compliance_0","compliance_1","compliance_2","compliance_3","compliance_4","compliance_5","compliance_6","compliance_7","compliance_8","compliance_9","compliance_10",
   "advanced_0","advanced_1","advanced_2","advanced_3","advanced_4","advanced_5","advanced_6","advanced_7","advanced_8","advanced_9","advanced_10","advanced_11","advanced_12","advanced_13","advanced_14","advanced_15","advanced_16","advanced_17","advanced_18",
-  "tax_0","tax_1","tax_2","tax_3","tax_4","tax_5","tax_6","tax_7",
+  "tax_0","tax_1","tax_2","tax_3","tax_4","tax_5","tax_6","tax_7","tax_8","tax_9","tax_10","tax_11",
 ];
 
 type LocaleShape = { faqData?: { questions?: Record<string, string>; answers?: Record<string, string> } };

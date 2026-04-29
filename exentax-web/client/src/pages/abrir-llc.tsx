@@ -505,7 +505,7 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       "Guia definitivo 2026 para abrir uma LLC nos EUA como não residente: melhor estado, EIN, banca americana e compliance. Por consultores que o fazem cada semana.",
     ogTitle: "Abrir uma LLC nos EUA: o guia definitivo 2026",
     ogDescription:
-      "Como criar uma LLC americana sem SSN, que estado escolher, quanto realmente custa e como declarar no teu país. Consultoria estratégica gratuita de 30 min.",
+      "Como criar uma LLC americana sem SSN, que estado escolher, quanto realmente custa e como declarar no teu país. Assessoria estratégica gratuita de 30 min.",
     keywords:
       "abrir LLC, abrir LLC EUA, LLC para não residentes, abrir LLC sem SSN, melhor estado LLC, LLC Wyoming, LLC Delaware, LLC Novo México, EIN sem SSN, conta Mercury não residente, Form 5472",
     breadcrumb: "Abrir LLC nos EUA",
@@ -541,7 +541,7 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
     states: {
       h2: "Quatro estados, quatro perfis",
-      intro: "Não existe estado universalmente melhor: existe o estado certo para a tua situação. Esta é a matriz que usamos na consultoria.",
+      intro: "Não existe estado universalmente melhor: existe o estado certo para a tua situação. Esta é a matriz que usamos na assessoria.",
       items: [
         { name: "Novo México", tagline: "O mais barato e privado", pros: "Sem Annual Report, sem imposto estatal, propriedade anónima no registo público. Recomendação por defeito para freelancers.", cta: "Ver plano Novo México", href: "service_llc_nm" },
         { name: "Wyoming", tagline: "Privacidade reforçada", pros: "Sem imposto estatal, máxima proteção do beneficiário em registos públicos. Bom para projetos em crescimento.", cta: "Ver plano Wyoming", href: "service_llc_wy" },
@@ -551,7 +551,7 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
     costs: {
       h2: "O que realmente custa abrir e manter uma LLC",
-      intro: "Valores indicativos em USD. A consultoria gratuita de 30 min ajusta o custo exato ao teu caso.",
+      intro: "Valores indicativos em USD. A assessoria gratuita de 30 min ajusta o custo exato ao teu caso.",
       rows: [
         { label: "Taxa estatal Novo México", value: "≈ 50 USD (one-off, sem renovação)" },
         { label: "Taxa estatal Wyoming", value: "≈ 100 USD constituição + 60 USD/ano (Annual Report)" },
@@ -580,7 +580,7 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       paragraphs: [
         "Uma LLC sem conta bancária é papel. Pré-validamos a tua candidatura antes do envio: descrição da atividade, documentação, comprovativo de morada, estrutura societária. Resultado: aprovação em primeira ronda em 1-3 dias úteis.",
         "Mercury é o standard para freelancers e SaaS: USD-first, ACH, wire, cartões. Wise Business funciona quando faturas em várias divisas. Relay é a opção mais sólida se geres várias entidades.",
-        "As três são fintechs com licença bancária respaldada por bancos FDIC, não bancos. Conta secundária de respaldo é aconselhável. Explicamos a combinação certa na consultoria.",
+        "As três são fintechs com licença bancária respaldada por bancos FDIC, não bancos. Conta secundária de respaldo é aconselhável. Explicamos a combinação certa na assessoria.",
       ],
     },
     taxResidence: {
@@ -606,8 +606,8 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
     cta: {
       h2: "Para abrir a tua LLC bem feita desde o primeiro dia",
-      p: "Consultoria estratégica gratuita de 30 min: dizemos qual estado faz sentido, quanto realmente custa e quais as obrigações anuais no teu país. Sem compromisso.",
-      primary: "Agendar a minha consultoria gratuita",
+      p: "Assessoria estratégica gratuita de 30 min: dizemos qual estado faz sentido, quanto realmente custa e quais as obrigações anuais no teu país. Sem compromisso.",
+      primary: "Agendar a minha assessoria gratuita",
       secondary: "Ver planos e preços",
     },
   },
