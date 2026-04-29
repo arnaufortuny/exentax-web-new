@@ -31,7 +31,13 @@
 // at module-load time. The manifest module is intentionally
 // dependency-free.
 import { fileURLToPath } from "node:url";
+import * as fs from "node:fs";
+import * as path from "node:path";
 import { buildSlashCommandManifest } from "../../server/discord-bot-manifest";
+import {
+  HANDLED_SLASH_TUPLES, canHandleSlashTuple, flattenManifestTuples,
+  SUBCOMMAND_HANDLER_SOURCES, extractSubcommandsFromHandlerSource,
+} from "../../server/discord/handlers/handled-slash-tuples";
 
 const DISCORD_API = "https://discord.com/api/v10";
 
@@ -225,6 +231,152 @@ export function validateSlashCommandManifest(
   return errors;
 }
 
+/**
+ * Cross-check the local slash-command manifest against the dispatcher's
+ * `(command, subcommand)` handler catalog. Catches both directions of
+ * drift before they reach production:
+ *
+ *   - "manifest tuple is unhandled" — `buildSlashCommandManifest()`
+ *     advertises `/foo bar` to Discord but the dispatcher in
+ *     `server/discord/handlers/slash.ts` (or one of its per-command
+ *     modules) has no branch for `bar`, so the live interaction would
+ *     fall through to "Comando no reconocido".
+ *   - "handler tuple is missing from manifest" — the dispatcher catalog
+ *     in `handled-slash-tuples.ts` claims to service `/foo bar`, but
+ *     the manifest never registers it with Discord, so the slash
+ *     command is unreachable. Usually means somebody removed an entry
+ *     from `buildSlashCommandManifest()` and forgot to clean up the
+ *     handler list.
+ *
+ * Pure function — only reads the in-memory manifest plus the static
+ * `HANDLED_SLASH_TUPLES` catalog — so it is safe to call from the
+ * dry-run path that runs in CI without Discord secrets or a database.
+ */
+export function validateManifestAgainstDispatcher(
+  manifest: readonly CommandLike[],
+): string[] {
+  const errors: string[] = [];
+
+  // Direction 1: manifest → dispatcher. Every (top, sub) tuple Discord
+  // would receive must have a branch.
+  const manifestTuples = flattenManifestTuples(manifest);
+  for (const t of manifestTuples) {
+    if (!canHandleSlashTuple(t.top, t.sub)) {
+      const label = t.sub == null ? `/${t.top}` : `/${t.top} ${t.sub}`;
+      errors.push(
+        `Manifest registers \`${label}\` but the slash dispatcher has no ` +
+        `handler for it. Add the tuple to HANDLED_SLASH_TUPLES in ` +
+        `server/discord/handlers/handled-slash-tuples.ts AND wire the ` +
+        `case in the appropriate per-command module under ` +
+        `server/discord/handlers/commands/.`,
+      );
+    }
+  }
+
+  // Direction 2: dispatcher → manifest. Every catalog tuple must be
+  // reachable via a manifest entry, otherwise we ship a dead handler.
+  const manifestKey = (top: string, sub: string | null): string =>
+    sub == null ? top : `${top}\u0000${sub}`;
+  const manifestSet = new Set(manifestTuples.map((t) => manifestKey(t.top, t.sub)));
+  for (const t of HANDLED_SLASH_TUPLES) {
+    if (!manifestSet.has(manifestKey(t.top, t.sub))) {
+      const label = t.sub == null ? `/${t.top}` : `/${t.top} ${t.sub}`;
+      errors.push(
+        `Dispatcher claims to handle \`${label}\` but the manifest does ` +
+        `not register it with Discord. Either add the option to ` +
+        `buildSlashCommandManifest() in server/discord-bot-manifest.ts ` +
+        `or remove the dead entry from HANDLED_SLASH_TUPLES in ` +
+        `server/discord/handlers/handled-slash-tuples.ts.`,
+      );
+    }
+  }
+
+  return errors;
+}
+
+/**
+ * Cross-check the dispatcher's declared catalog (`HANDLED_SLASH_TUPLES`)
+ * against the *executable* surface of the per-command handler files —
+ * the actual `case "name":` and `if (sub === "name")` branches. Catches
+ * the drift class the manifest-vs-catalog gate cannot see:
+ *
+ *   - "case in handler not in catalog" — handler implements `/foo bar`
+ *     but the catalog forgot to declare it. The manifest gate would
+ *     pass (because the manifest doesn't register `/foo bar` either),
+ *     yet the moment somebody adds the manifest entry the runtime
+ *     interaction would still go through `canHandleSlashTuple()` →
+ *     "Comando no reconocido". This finds it ahead of time.
+ *   - "tuple in catalog not in handler" — somebody bumped the catalog
+ *     thinking they were enabling a subcommand, but no executable
+ *     branch exists. Live interactions would fall through to the
+ *     per-command default ("Subcomando no implementado").
+ *
+ * Implementation note: we deliberately read the handler files as text
+ * rather than importing them. The handlers transitively pull in
+ * `server/storage` etc. which require `DATABASE_URL` at module-load
+ * time — fatal in the dryrun CI shell. Static text scanning is
+ * coarser, but it gives us the executable-branch view without breaking
+ * the dryrun's dependency-free contract.
+ */
+export function validateHandlerSourcesAgainstCatalog(
+  readSource: (relPath: string) => string = (rel) =>
+    fs.readFileSync(path.resolve(REPO_ROOT, rel), "utf8"),
+): string[] {
+  const errors: string[] = [];
+  // Group catalog tuples by top-level command, dropping the ayuda-style
+  // `(top, null)` rows: those have no per-command handler file and no
+  // subcommand surface to scan.
+  const catalogByTop = new Map<string, Set<string>>();
+  for (const t of HANDLED_SLASH_TUPLES) {
+    if (t.sub == null) continue;
+    let s = catalogByTop.get(t.top);
+    if (!s) { s = new Set(); catalogByTop.set(t.top, s); }
+    s.add(t.sub);
+  }
+
+  for (const [top, relPath] of Object.entries(SUBCOMMAND_HANDLER_SOURCES)) {
+    const declared = catalogByTop.get(top) ?? new Set<string>();
+    let src: string;
+    try {
+      src = readSource(relPath);
+    } catch (err) {
+      errors.push(
+        `Cannot read handler source for /${top} at ${relPath}: ` +
+        `${err instanceof Error ? err.message : String(err)}.`,
+      );
+      continue;
+    }
+    const inHandler = extractSubcommandsFromHandlerSource(src);
+
+    for (const sub of inHandler) {
+      if (!declared.has(sub)) {
+        errors.push(
+          `Handler ${relPath} has a branch for \`/${top} ${sub}\` but ` +
+          `HANDLED_SLASH_TUPLES does not list it. Either add the tuple ` +
+          `to server/discord/handlers/handled-slash-tuples.ts or remove ` +
+          `the dead branch from the handler.`,
+        );
+      }
+    }
+    for (const sub of declared) {
+      if (!inHandler.has(sub)) {
+        errors.push(
+          `HANDLED_SLASH_TUPLES claims \`/${top} ${sub}\` is handled but ` +
+          `${relPath} has no \`case "${sub}":\` or \`sub === "${sub}"\` ` +
+          `branch. Wire the case or remove the catalog entry.`,
+        );
+      }
+    }
+  }
+  return errors;
+}
+
+// Repo root, computed once. The script file lives at
+// `<repo>/exentax-web/scripts/discord/register-discord-commands.ts`, so
+// climbing three levels gets us back to the repo root that
+// `SUBCOMMAND_HANDLER_SOURCES` paths are anchored to.
+const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "..");
+
 function flatNames(manifest: readonly CommandLike[]): string[] {
   const out: string[] = [];
   for (const cmd of manifest) {
@@ -290,8 +442,52 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
+  // Cross-check the manifest against the dispatcher's handled-tuples
+  // catalog. This is what catches "developer added /foo bar to the manifest
+  // but forgot to update the dispatcher" (and the reverse) before the
+  // command ships to production. Same fail-the-build pattern as the
+  // structural validator above.
+  const dispatcherErrors = validateManifestAgainstDispatcher(manifest);
+  if (dispatcherErrors.length > 0) {
+    console.error(
+      `\n❌ Slash-command manifest does not match the dispatcher ` +
+      `(${dispatcherErrors.length} problem(s)):`,
+    );
+    for (const err of dispatcherErrors) console.error(`  - ${err}`);
+    console.error(
+      "\nKeep buildSlashCommandManifest() (server/discord-bot-manifest.ts) " +
+      "and HANDLED_SLASH_TUPLES (server/discord/handlers/handled-slash-tuples.ts) " +
+      "in lockstep. Both must agree on every (command, subcommand) tuple.",
+    );
+    process.exit(1);
+  }
+
+  // Final check: the catalog (declared dispatcher surface) must also match
+  // the actual switch / `if (sub === ...)` branches in the per-command
+  // handler files. This catches the drift the catalog-vs-manifest gate
+  // alone cannot see — namely, somebody bumping HANDLED_SLASH_TUPLES
+  // without wiring the corresponding executable branch (or vice versa).
+  const handlerErrors = validateHandlerSourcesAgainstCatalog();
+  if (handlerErrors.length > 0) {
+    console.error(
+      `\n❌ Slash dispatcher catalog does not match the per-command ` +
+      `handler sources (${handlerErrors.length} problem(s)):`,
+    );
+    for (const err of handlerErrors) console.error(`  - ${err}`);
+    console.error(
+      "\nKeep HANDLED_SLASH_TUPLES (server/discord/handlers/handled-slash-tuples.ts) " +
+      "and the per-command switches (server/discord/handlers/commands/*.ts) in " +
+      "lockstep. Every catalog entry needs a matching `case`/`if` branch.",
+    );
+    process.exit(1);
+  }
+
   if (dryRun && !diff) {
-    console.log("\n--dry-run: manifest is structurally valid; skipping network call.");
+    console.log(
+      "\n--dry-run: manifest is structurally valid, every (command, subcommand) " +
+      "tuple has a dispatcher handler, AND every catalog entry maps to an " +
+      "executable per-command branch; skipping network call.",
+    );
     return;
   }
 

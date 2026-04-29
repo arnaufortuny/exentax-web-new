@@ -50,7 +50,8 @@ const ALL_SCRIPTS = [
     requires: [],
     description:
       "slash-command manifest is structurally valid (no duplicate names, " +
-      "valid option types, lengths within Discord's limits)",
+      "valid option types, lengths within Discord's limits) AND every " +
+      "(command, subcommand) tuple has a matching dispatcher handler",
   },
   {
     id: "manifest-validator",
