@@ -163,6 +163,13 @@ export function findYearsInProse(body, slug = "") {
     .replace(/<!--[\s\S]*?-->/g, " ")
     .replace(/https?:\/\/\S+/g, " ")
     .replace(/href="[^"]*"/g, " ")
+    // Internal blog markdown links — drop the entire link (text + URL).
+    // The visible text is the *title of another article* (often containing a
+    // year, e.g. "[LLC complete guide for non-residents in 2026](/en/blog/...)")
+    // and is a fact about the linked post, not an editorial year mention by
+    // the current article. Counting it would penalise every related-articles
+    // section. Run this BEFORE the generic markdown-link cleanup below.
+    .replace(/\[[^\]]+\]\(\/[a-z]{2}\/blog\/[^)]+\)/g, " ")
     // Markdown links: [text](path) -> keep text only (paths often contain -2026 slugs).
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
     .replace(/<[^>]+>/g, " ")

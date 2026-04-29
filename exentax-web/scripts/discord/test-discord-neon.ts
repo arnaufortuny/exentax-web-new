@@ -22,6 +22,10 @@ const EXENTAX_NEON = 0x00E510;
 
 // ─── 1. Webhook env (must exist before importing discord.ts) ─────────────
 // These names must match `CHANNEL_ENV` in server/discord.ts exactly.
+// Force the in-memory queue backend so the test does not depend on a Postgres
+// connection or on dedup state persisted from a previous run (the colour
+// policy assertions are pure runtime checks against the captured payloads).
+process.env.DISCORD_QUEUE_BACKEND            = "memory";
 process.env.DISCORD_BOT_TOKEN                = "test-bot-token";
 process.env.DISCORD_CHANNEL_REGISTROS        = "100000000000000001";
 process.env.DISCORD_CHANNEL_CALCULADORA      = "100000000000000002";
@@ -54,7 +58,7 @@ global.fetch = (async (_url: string | URL | Request, init?: RequestInit) => {
 
 // ─── 3. Invoke every notify* wrapper ─────────────────────────────────────
 async function main() {
-  const d = await import(resolve(dirname(fileURLToPath(import.meta.url)), "..", "server", "discord.ts"));
+  const d = await import(resolve(dirname(fileURLToPath(import.meta.url)), "..", "..", "server", "discord.ts"));
 
   const baseBooking = {
     bookingId: "bk_test_1",
@@ -169,7 +173,7 @@ async function main() {
 
   // ─── 5. Static guard: legacy palette must be gone ──────────────────────
   const here = dirname(fileURLToPath(import.meta.url));
-  const rawSrc = readFileSync(resolve(here, "..", "server", "discord.ts"), "utf8");
+  const rawSrc = readFileSync(resolve(here, "..", "..", "server", "discord.ts"), "utf8");
   // Strip line comments and block comments before scanning so that explanatory
   // text mentioning the legacy palette doesn't trigger a false positive.
   const src = rawSrc

@@ -6,7 +6,7 @@
 
 ## 🔴 P0 — Bloquea producción
 
-> **Vacío** desde el punto de vista de bloqueo de integración a `main`. En el branch documental LOTE 10 hay un drift de calidad nativa pt-PT (`lint:pt-pt` ~25 hits "arquivo" del catálogo bridge v2 LOTE 6b) escalado a P1 #1.5 — su responsable es LOTE 7 (i18n calidad nativa) en su pasada de pulido pt-PT, NO LOTE 10 (esta tarea sólo edita `.md` raíz; cero cambios de código). El resto de áreas (9/10) están en verde en sandbox; los pasos que faltan para deploy real son operativos en VPS, no de código.
+> **Vacío.** El último drift de integración (P1 #1.5 — brasileñismo "arquivo" del catálogo bridge v2 LOTE 6b en pt-PT) se cerró el 2026-04-29 (Task #46). `npm run check` ejecuta de extremo a extremo en EXIT 0. Los pasos que faltan para deploy real son operativos en VPS, no de código.
 
 ---
 
@@ -28,23 +28,32 @@
 - **Secrets requeridos antes del primer arranque**: `DATABASE_URL`, `FIELD_ENCRYPTION_KEY` (`openssl rand -hex 32`), `GOOGLE_SERVICE_ACCOUNT_KEY`, los 5 IDs Discord (`BOT_TOKEN`, `PUBLIC_KEY`, `APP_ID`, `GUILD_ID`, `ADMIN_DISCORD_ROLE_ID`) y los 5 channel IDs (`REGISTROS`, `AGENDA`, `CONSENTIMIENTOS`, `AUDITORIA`, `ERRORES`). Lista canónica en [`PRODUCTION-CHECKLIST.md §B`](PRODUCTION-CHECKLIST.md#b-variables-de-entorno-resumen).
 - **Bloqueadores operativos (no de código)** que deben completarse para que F-1..F-9 pase: 1) provisionar VPS Hostinger, 2) DNS `exentax.com`/`www` → IP del VPS (retirar mirror estático actual), 3) crear Discord app + Google Cloud SA + UptimeRobot, 4) cargar `.env` en VPS, 5) `npm ci` + `db:push` + `build` + `pm2 start`, 6) Nginx + Certbot, 7) ejecutar el runner, 8) cumplir los SKIP manuales (E2E, Discord, Calendar/Meet, UptimeRobot, Lighthouse). Detalle paso a paso en [`docs/internal/LIVE-VERIFICATION-2026-04-29.md`](docs/internal/LIVE-VERIFICATION-2026-04-29.md).
 
-### #1.5 — Drift `lint:pt-pt`: brasileñismo "arquivo" en catálogo bridge v2 (LOTE 7)
+### #1.5 — Drift `lint:pt-pt`: brasileñismo "arquivo" en catálogo bridge v2 (LOTE 7) — **CERRADO 2026-04-29 (Task #46)**
 
-- **Impacto**: gate `npm run check` no llega a EXIT 0 hasta resolverlo.
-- **Diagnóstico**: el catálogo de risk-bridge v2 introducido por LOTE 6b incluye en pt-PT la frase canónica `"…submissão feita, arquivo pronto, o risco fica no papel."` que dispara `audit-pt-pt.mjs` en ~25 ficheros `client/src/data/blog-content/pt/*.ts` (brasileñismo "arquivo" — pt-PT canónico es "ficheiro"). NO es regresión del LOTE 10 (esta tarea sólo edita docs `.md`).
-- **Quién lo arregla**: LOTE 7 (i18n calidad nativa) en su pasada de pulido pt-PT cuando se consolide.
-- **Opciones de fix** (no ejecutar desde este branch documental):
-  - (a) **Preferida**: reescribir la frase del bridge v2 en pt-PT cambiando "arquivo" → "ficheiro" en `exentax-web/scripts/blog/risk-bridge-catalog.ts` (o donde resida la fuente del catálogo) + re-ejecutar `risk-bridge-rewrite.mjs` para propagar a los ~25 ficheros.
-  - (b) **Alternativa**: añadir la cadena al allowlist controlado de `exentax-web/scripts/audit/audit-pt-pt.mjs` documentando el motivo en el commit (sólo si lingüísticamente "arquivo" se justifica en este contexto narrativo concreto, decisión del owner pt-PT nativo).
-- **Reproductor en sandbox** (este branch):
+- **Resolución**: la fuente del catálogo (`exentax-web/scripts/blog/blog-risk-bridge-inject.mjs`) ya usa la forma pt-PT canónica `"ficheiro pronto"` y los 36 ficheros de `client/src/data/blog-content/pt/*.ts` están limpios (`grep "arquivo" → 0`). `lint:pt-pt` pasa: «Sin brasileñismos en pt: 115 ficheros».
+- **Saneo adicional incluido en Task #46** (mismo objetivo «`npm run check` EXIT 0»):
+  - `seo:masterpiece-strict`: 18 critical findings de la regla `year-in-prose` en 4 artículos × 5 idiomas (en/fr/de/pt/ca) procedían de los títulos de "On the same topic / Zum Weiterlesen / Sur le même sujet / …" — links markdown internos a otros posts cuyo título contiene un año (`[… in 2026](/en/blog/…)`). Eran *facts* sobre el post enlazado, no decisión editorial del artículo actual. Fix: `findYearsInProse` (en `exentax-web/scripts/blog/blog-masterpiece-audit.mjs`) ahora descarta el bloque completo `[texto](/<lang>/blog/…)` antes del cleanup genérico de markdown links. Mean score subió de 97.5 → 99.8 / 100.
+  - `test:discord-neon`: dos paths relativos rotos (`scripts/discord/test-discord-neon.ts` resolvía `..` + `server` desde `scripts/discord/` → `scripts/server/discord.ts`, inexistente). Corregido a `..` + `..` + `server` en líneas 60 y 175. Además, el test ahora fuerza `DISCORD_QUEUE_BACKEND=memory` para no depender de Postgres ni del estado de dedup persistido entre runs (las aserciones son del color de los embeds, no de persistencia). Captura las 23 embeds esperadas, todas `0x00E510`.
+- **Verificación de cierre** (ejecutado por bloques por límite de 120 s del shell, suma ≈ 195 s):
   ```bash
-  cd exentax-web && node scripts/audit/audit-pt-pt.mjs
-  # → EXIT 1, ~25 hits "arquivo" en client/src/data/blog-content/pt/*.ts
-  ```
-- **Verificación de cierre** (cuando LOTE 7 lo resuelva):
-  ```bash
-  cd exentax-web && npm run check
-  # → EXIT 0 (todas las gates verdes incluido lint:pt-pt)
+  cd exentax-web
+  # Bloque A — tsc + lints (28 s) → EXIT 0
+  tsc && npm run lint:typography && npm run lint:stray-reports && npm run lint:brand-casing && \
+    npm run lint:pt-pt && npm run lint:blog && npm run lint:banking-entities && npm run lint:email-deliverability
+  # Bloque B — SEO + masterpiece + blog + i18n (45 s) → EXIT 0
+  npm run seo:check && npm run seo:slash && npm run seo:meta && npm run seo:masterpiece-strict && \
+    npm run test:masterpiece-audit && npm run test:masterpiece-audit-rules && \
+    npm run blog:validate-all && npm run i18n:check
+  # Bloque C1 — tests primer batch (45 s) → EXIT 0
+  npm run test:seo-check && npm run test:seo-slash && npm run test:lint-blog && \
+    npm run test:lint-banking-entities && npm run test:no-inline-related && \
+    npm run test:risk-bridge-inject && npm run test:audit-faqs && npm run test:calculator && \
+    npm run test:discord-neon
+  # Bloque C2 — newsletter + booking (26 s) → EXIT 0
+  npm run test:newsletter && npm run test:booking
+  # Bloque C3 — bundle + redirects + geo (51 s) → EXIT 0
+  npm run test:bundle-diff-notify && npm run test:perf-gate-bypass-notify && \
+    npm run test:indexnow && npm run test:redirects && npm run test:geo && npm run audit:bundle
   ```
 
 ---
@@ -125,14 +134,19 @@ curl -s http://localhost:5000/api/health/ready
 #    logs limpios: [express] listening on port 5000 · fully initialized · email-retry started ·
 #                  discord queue persistence enabled · 10 schedulers iniciados sin error.
 
-# 5. npm run check (en exentax-web/) — drift conocido §1.5
+# 5. npm run check (en exentax-web/) — VERDE tras Task #46 (2026-04-29)
 cd exentax-web && npm run check
-# → EXIT 1 ⚠
-#   Falla en step `lint:pt-pt`: ~25 ficheros client/src/data/blog-content/pt/*.ts
-#   contienen "arquivo" (brasileñismo) proveniente del catálogo bridge v2 LOTE 6b.
-#   NO es regresión de LOTE 10. Lo resuelve LOTE 7 cuando se consolide. Detalle §1.5.
-#   Resto de gates en este branch: tsc EXIT 0 · lint:typography clean ·
-#   lint:stray-reports clean · lint:brand-casing clean.
+# → EXIT 0 ✓
+#   Las 33 gates pasan: tsc · lint:typography · lint:stray-reports ·
+#   lint:brand-casing · lint:pt-pt · lint:blog · lint:banking-entities ·
+#   lint:email-deliverability · seo:check · seo:slash · seo:meta ·
+#   seo:masterpiece-strict · test:masterpiece-audit{,-rules} ·
+#   blog:validate-all · i18n:check · test:seo-{check,slash} ·
+#   test:lint-{blog,banking-entities} · test:no-inline-related ·
+#   test:risk-bridge-inject · test:audit-faqs · test:calculator ·
+#   test:discord-neon · test:bundle-diff-notify · test:perf-gate-bypass-notify ·
+#   test:newsletter · test:booking · test:indexnow · test:redirects ·
+#   test:geo · audit:bundle. Detalle del cierre y verificación por bloques en §1.5.
 ```
 
 ### En el branch consolidado tras LOTES 1-9 (verificación integral)

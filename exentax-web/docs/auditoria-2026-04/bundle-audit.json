@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-28T09:19:47.031Z",
+  "generatedAt": "2026-04-29T11:42:55.836Z",
   "totalChunks": 712,
-  "totalKb": 18534.5,
-  "totalGzipKb": 7151.5,
+  "totalKb": 20683.9,
+  "totalGzipKb": 7845.7,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -19,163 +19,163 @@
   "summary": {
     "page": {
       "count": 21,
-      "totalKb": 763.3,
-      "maxKb": 131.9,
-      "maxFile": "ExistingLlcCallout-BSRxKQyJ.js"
+      "totalKb": 777.6,
+      "maxKb": 142.9,
+      "maxFile": "ExistingLlcCallout-D5aE10Ya.js"
     },
     "blog-post": {
       "count": 672,
-      "totalKb": 14979,
-      "maxKb": 41.5,
-      "maxFile": "blog-de-boe-febrero-2020-llc-doctrina-administrativa-BGBx7w5a.js"
+      "totalKb": 17064,
+      "maxKb": 43.1,
+      "maxFile": "blog-de-boe-febrero-2020-llc-doctrina-administrativa-C7bauytI.js"
     },
     "blog-shared": {
       "count": 2,
-      "totalKb": 175.5,
+      "totalKb": 145.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-47rNIl3I.js"
+      "maxFile": "blog-posts-content-d8R-OsND.js"
     },
     "css": {
       "count": 2,
-      "totalKb": 120.5,
-      "maxKb": 112.5,
-      "maxFile": "index-BQ8XRT3b.css"
+      "totalKb": 127.6,
+      "maxKb": 119.6,
+      "maxFile": "index-Bfx0bGJF.css"
     },
     "locale": {
       "count": 10,
-      "totalKb": 1724.1,
-      "maxKb": 263.6,
-      "maxFile": "fr-C3bBcU6j.js"
+      "totalKb": 1783.7,
+      "maxKb": 265,
+      "maxFile": "fr-P50DzIWk.js"
     },
     "entry-index": {
       "count": 1,
-      "totalKb": 494.1,
-      "maxKb": 494.1,
-      "maxFile": "index-DHpm24Hk.js"
+      "totalKb": 506.6,
+      "maxKb": 506.6,
+      "maxFile": "index-DWhPsdNC.js"
     },
     "vendor-i18n": {
       "count": 1,
       "totalKb": 48.1,
       "maxKb": 48.1,
-      "maxFile": "vendor-i18n-BW4uwNrt.js"
+      "maxFile": "vendor-i18n-BrqeBrZv.js"
     },
     "vendor-query": {
       "count": 1,
       "totalKb": 38.5,
       "maxKb": 38.5,
-      "maxFile": "vendor-query-DuWKCaa3.js"
+      "maxFile": "vendor-query-GhN9Uirb.js"
     },
     "vendor-react": {
       "count": 1,
       "totalKb": 188.4,
       "maxKb": 188.4,
-      "maxFile": "vendor-react-DcHID7EP.js"
+      "maxFile": "vendor-react-CK-D59fK.js"
     },
     "vendor-router": {
       "count": 1,
       "totalKb": 4,
       "maxKb": 4,
-      "maxFile": "vendor-router-FTCqIhHL.js"
+      "maxFile": "vendor-router-H4rTqZcE.js"
     }
   },
   "top": [
     {
-      "file": "index-DHpm24Hk.js",
+      "file": "index-DWhPsdNC.js",
       "category": "entry-index",
-      "bytesKb": 494.1,
-      "gzipKb": 145.3
+      "bytesKb": 506.6,
+      "gzipKb": 148.9
     },
     {
-      "file": "fr-C3bBcU6j.js",
+      "file": "fr-P50DzIWk.js",
       "category": "locale",
-      "bytesKb": 263.6,
-      "gzipKb": 78.5
+      "bytesKb": 265,
+      "gzipKb": 79
     },
     {
-      "file": "de-s0ilue9e.js",
+      "file": "de-BzF1lAel.js",
       "category": "locale",
-      "bytesKb": 256.7,
-      "gzipKb": 79.4
+      "bytesKb": 257.6,
+      "gzipKb": 79.8
     },
     {
-      "file": "pt-DLBo2zTi.js",
+      "file": "pt-DTpOZRvr.js",
       "category": "locale",
-      "bytesKb": 243.3,
-      "gzipKb": 73.8
+      "bytesKb": 244,
+      "gzipKb": 74.1
     },
     {
-      "file": "ca-UoQEzmzj.js",
+      "file": "ca-SaYLk2b-.js",
       "category": "locale",
-      "bytesKb": 242.3,
-      "gzipKb": 74.7
+      "bytesKb": 243,
+      "gzipKb": 75
     },
     {
-      "file": "en-D0ADIPzc.js",
+      "file": "en-C9hgOoal.js",
       "category": "locale",
-      "bytesKb": 232.3,
-      "gzipKb": 71.7
+      "bytesKb": 233.2,
+      "gzipKb": 72
     },
     {
-      "file": "vendor-react-DcHID7EP.js",
+      "file": "vendor-react-CK-D59fK.js",
       "category": "vendor-react",
       "bytesKb": 188.4,
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-BSRxKQyJ.js",
+      "file": "ExistingLlcCallout-D5aE10Ya.js",
       "category": "page",
-      "bytesKb": 131.9,
-      "gzipKb": 30.1
+      "bytesKb": 142.9,
+      "gzipKb": 31
     },
     {
-      "file": "booking-CCjP4oks.js",
-      "category": "page",
-      "bytesKb": 115.8,
-      "gzipKb": 30.8
-    },
-    {
-      "file": "index-BQ8XRT3b.css",
+      "file": "index-Bfx0bGJF.css",
       "category": "css",
-      "bytesKb": 112.5,
-      "gzipKb": 20.7
+      "bytesKb": 119.6,
+      "gzipKb": 21.4
     },
     {
-      "file": "fr-DkgZeIlt.js",
-      "category": "locale",
-      "bytesKb": 99.1,
-      "gzipKb": 25.2
+      "file": "booking-BJVGSzxh.js",
+      "category": "page",
+      "bytesKb": 116.3,
+      "gzipKb": 31
     },
     {
-      "file": "en-Cr7l_9iN.js",
+      "file": "fr-Cde6ofkf.js",
       "category": "locale",
-      "bytesKb": 97,
-      "gzipKb": 24.8
+      "bytesKb": 111.1,
+      "gzipKb": 26.2
     },
     {
-      "file": "de-CoPOH8EV.js",
+      "file": "de-Cqvejhcv.js",
       "category": "locale",
-      "bytesKb": 96.9,
+      "bytesKb": 108.2,
+      "gzipKb": 26.7
+    },
+    {
+      "file": "pt-DIxpnNOc.js",
+      "category": "locale",
+      "bytesKb": 108,
+      "gzipKb": 25.5
+    },
+    {
+      "file": "ca-iOiCSxCo.js",
+      "category": "locale",
+      "bytesKb": 107.4,
+      "gzipKb": 25.4
+    },
+    {
+      "file": "en-DDJ0kPmw.js",
+      "category": "locale",
+      "bytesKb": 106.2,
       "gzipKb": 25.8
-    },
-    {
-      "file": "pt-CmspWeS7.js",
-      "category": "locale",
-      "bytesKb": 96.8,
-      "gzipKb": 24.5
-    },
-    {
-      "file": "blog-posts-content-47rNIl3I.js",
-      "category": "blog-shared",
-      "bytesKb": 96.3,
-      "gzipKb": 12.9
     }
   ],
   "offenders": [],
   "hardBudget": {
-    "serverBytes": 5831527,
-    "publicBytes": 20326754,
-    "serverMb": 5.56,
-    "publicMb": 19.39,
+    "serverBytes": 5892629,
+    "publicBytes": 22529520,
+    "serverMb": 5.62,
+    "publicMb": 21.49,
     "serverBudgetMb": 7,
     "publicBudgetMb": 30,
     "serverOk": true,
