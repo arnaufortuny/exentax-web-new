@@ -196,14 +196,19 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Tu LLC americana paga $0 en EE.UU., pero debes declarar en tu país. Cómo funciona la tributación real en España, México, Colombia y Argentina.",
     canonical: `${BASE_URL}/es/blog/fiscalidad-llc-por-pais-residencia`,
   },
+  "/blog/crs-2-0-carf-por-que-usa-no-firmara-llc": {
+    title: "CRS 2.0 y CARF: por qué EE. UU. no firmará y tu LLC queda fuera | Exentax",
+    description: "Paquete OCDE 2023 (CRS 2.0 + CARF) y DAC8 entran en vigor el 1/1/2026. EE. UU. no firma: tu LLC queda fuera del CRS por arquitectura, no por opacidad.",
+    canonical: `${BASE_URL}/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc`,
+  },
   "/blog/crs-cuentas-bancarias-llc-intercambio-informacion": {
-    title: "CRS, cuentas bancarias y LLC: intercambio de información fiscal | Exentax",
-    description: "¿Puede tu hacienda ver tu cuenta de Mercury? Cómo funciona el CRS, qué reportan las fintechs americanas y por qué la transparencia fiscal te beneficia.",
+    title: "CRS 2.0 y cuentas LLC: qué reporta cada banco a tu hacienda | Exentax",
+    description: "Paquete OCDE 2023 (CRS 2.0) en vigor 1/1/2026. Mercury y Choice no son CRS; Wise/Revolut/N26 sí. Qué entra y qué no en el intercambio automático.",
     canonical: `${BASE_URL}/es/blog/crs-cuentas-bancarias-llc-intercambio-informacion`,
   },
   "/blog/cuentas-bancarias-usa-reportan-hacienda-verdad": {
-    title: "¿Las cuentas bancarias USA reportan a tu hacienda? La verdad | Exentax",
-    description: "¿Mercury, Wise o Relay reportan a Hacienda en España o México? Cómo funciona el CRS, FATCA y qué información se comparte realmente.",
+    title: "¿Tu banco USA reporta a Hacienda? CRS 2.0, FATCA y la LLC | Exentax",
+    description: "EE. UU. no firma CRS 2.0 (vigor 1/1/2026): solo FATCA bilateral. Tu cuenta Mercury queda fuera del intercambio automático, pero no de tu Modelo 720.",
     canonical: `${BASE_URL}/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad`,
   },
   "/blog/privacidad-llc-americana-secreto-ventaja": {
