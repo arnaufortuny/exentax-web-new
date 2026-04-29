@@ -1,4 +1,4 @@
-export default `O autónomo espanhol típico arrasta entre 200 € e 590 € de quota mínima vigente e um IRPF que chega a 47 %, que pagas factures ou não factures.
+export default `O autónomo espanhol típico arrasta entre 200 € e 590 € de quota mínima vigente e um IRPF que chega a 47 %, quer faturas, quer não faturas.
 
 Este artigo foi pensado para os autónomos de Espanha, mas a lógica cola no trabalhador independente português ou no MEI/autónomo brasileiro: Segurança Social a subir, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> progressivo que morde o segundo escalão, e um tecto de receitas que bloqueia qualquer tentativa de escalar a sério.
 
