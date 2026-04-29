@@ -124,6 +124,7 @@ const FACT_BY_ID = new Map(FACTS.map((f) => [f.id, f]));
 const HISTORICAL_ANCHOR_SLUGS = new Map([
   ["boe-febrero-2020-llc-doctrina-administrativa", "DGT V0290-20 fechada 11/02/2020 — fecha de la consulta vinculante, irrevocable."],
   ["convenio-doble-imposicion-usa-espana-llc", "Convenio España-EE.UU. firmado 22/02/1990; protocolo de enmienda en vigor desde 27/11/2019 — fechas de tratado."],
+  ["crs-2-0-carf-por-que-usa-no-firmara-llc", "Paquete OCDE 2023: revisión integral del CRS (\"CRS 2.0\") + Crypto-Asset Reporting Framework (CARF), transpuestos en la UE por la Directiva (UE) 2023/2226 (DAC8) de 17/10/2023, aplicación desde 1/1/2026 con primer reporte en enero de 2027 sobre datos del ejercicio 2026 — hitos OCDE/UE irrevocables."],
   ["crs-cuentas-bancarias-llc-intercambio-informacion", "Estándar CRS publicado por la OCDE en 2014 — fecha de publicación del estándar."],
   ["crs-residentes-espana-latam-implicaciones", "Primer intercambio CRS efectivo en septiembre de 2017 — hito histórico de entrada en vigor."],
   ["cuentas-bancarias-usa-reportan-hacienda-verdad", "Estándar CRS OCDE 2014 (que EE.UU. nunca firmó) — fecha de publicación."],

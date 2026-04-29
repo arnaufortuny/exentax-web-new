@@ -1,22 +1,22 @@
 {
   "totals": {
     "articles": 672,
-    "facts": 21,
-    "ownerEvaluations": 180,
-    "ownerOK": 180,
+    "facts": 23,
+    "ownerEvaluations": 192,
+    "ownerOK": 192,
     "ownerFIX": 0,
     "ownerMISSING": 0,
     "articleRowsVerified": 672,
     "articleRowsFix": 0,
     "articleRowsNoCritical": 0,
-    "datumEvaluations": 9941,
-    "datumPillarOk": 178,
-    "datumSecondaryFull": 4349,
-    "datumPassiveReference": 5414,
+    "datumEvaluations": 10001,
+    "datumPillarOk": 190,
+    "datumSecondaryFull": 4386,
+    "datumPassiveReference": 5425,
     "datumFix": 0,
     "contradictionsDetected": 0,
-    "contradictPatternCount": 11,
-    "factsWithContradicts": 5,
+    "contradictPatternCount": 12,
+    "factsWithContradicts": 6,
     "correctionsApplied": 0,
     "pendingHits": 0
   },
@@ -1005,8 +1005,8 @@
     {
       "fact": {
         "id": "crs-us-status",
-        "label": "CRS — EE. UU. NO firma CRS; el intercambio se canaliza por FATCA bilateral",
-        "canonical": "USA fuera de CRS; FATCA es el régimen bilateral aplicable (W-8BEN-E / W-9)",
+        "label": "CRS — EE. UU. NO firma CRS (ni 1.0 ni 2.0); el intercambio se canaliza por FATCA bilateral",
+        "canonical": "USA fuera de CRS y de su revisión 2023 (CRS 2.0); FATCA es el régimen bilateral aplicable (W-8BEN-E / W-9)",
         "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)",
         "owners": [
           "crs-2-0-carf-por-que-usa-no-firmara-llc",
@@ -1018,6 +1018,9 @@
         ],
         "verify": [
           {},
+          {}
+        ],
+        "contradicts": [
           {}
         ]
       },
@@ -1096,6 +1099,125 @@
         }
       ],
       "okCount": 12,
+      "fixCount": 0,
+      "missingCount": 0
+    },
+    {
+      "fact": {
+        "id": "crs-amending-protocol",
+        "label": "CRS 2.0 — paquete OCDE de 2023 que revisa el Common Reporting Standard (e-money, tokens financieros, due diligence reforzada sobre controlling persons)",
+        "canonical": "Revisión integral del CRS aprobada por el Consejo de la OCDE en 2023 e incorporada al ordenamiento de la UE mediante la Directiva DAC8 (Directiva (UE) 2023/2226 de 17/10/2023). La OCDE no publica un estándar denominado oficialmente \"CRS 3.0\".",
+        "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS",
+        "owners": [
+          "crs-2-0-carf-por-que-usa-no-firmara-llc"
+        ],
+        "presence": [
+          {}
+        ],
+        "verifyAny": [
+          {},
+          {}
+        ]
+      },
+      "ownerRows": [
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "es",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "en",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "fr",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "de",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "pt",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "ca",
+          "status": "OK",
+          "snippet": null
+        }
+      ],
+      "okCount": 6,
+      "fixCount": 0,
+      "missingCount": 0
+    },
+    {
+      "fact": {
+        "id": "carf-framework",
+        "label": "CARF — Crypto-Asset Reporting Framework de la OCDE (intercambio automático sobre criptoactivos); aplicación DAC8 desde 1/1/2026; primer reporte enero 2027 sobre datos 2026",
+        "canonical": "CARF aprobado por la OCDE en 2023 como pieza hermana del CRS revisado; transpuesto en la UE por DAC8 (Directiva (UE) 2023/2226 de 17/10/2023, aplicación a partir del 1 de enero de 2026); primer intercambio de información en enero de 2027 sobre datos del ejercicio 2026.",
+        "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF",
+        "owners": [
+          "crs-2-0-carf-por-que-usa-no-firmara-llc"
+        ],
+        "presence": [
+          {}
+        ],
+        "verifyAny": [
+          {},
+          {},
+          {}
+        ]
+      },
+      "ownerRows": [
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "es",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "en",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "fr",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "de",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "pt",
+          "status": "OK",
+          "snippet": null
+        },
+        {
+          "owner": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+          "lang": "ca",
+          "status": "OK",
+          "snippet": null
+        }
+      ],
+      "okCount": 6,
       "fixCount": 0,
       "missingCount": 0
     },
@@ -4088,6 +4210,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -4107,12 +4237,12 @@
       "counts": {
         "pillarOk": 0,
         "secondaryFull": 9,
-        "passiveReference": 6,
+        "passiveReference": 7,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -4194,9 +4324,9 @@
         {
           "id": "dac8-entry-2026",
           "isOwner": false,
-          "verifyOk": false,
+          "verifyOk": true,
           "contradiction": null,
-          "datumStatus": "✓R",
+          "datumStatus": "✓S",
           "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 — Directiva (UE) 2023/2226"
         },
         {
@@ -4206,6 +4336,22 @@
           "contradiction": null,
           "datumStatus": "✓P",
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
+        },
+        {
+          "id": "crs-amending-protocol",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
         },
         {
           "id": "wyoming-annual-60",
@@ -4241,14 +4387,14 @@
         }
       ],
       "counts": {
-        "pillarOk": 1,
-        "secondaryFull": 3,
-        "passiveReference": 11,
+        "pillarOk": 3,
+        "secondaryFull": 4,
+        "passiveReference": 10,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×3 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×4 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -4512,6 +4658,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -4554,13 +4716,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 5,
-        "passiveReference": 13,
+        "secondaryFull": 6,
+        "passiveReference": 14,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×13 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×6 · referencia pasiva sin claim ×14 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -4968,6 +5130,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -4994,13 +5172,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 9,
-        "passiveReference": 7,
+        "secondaryFull": 10,
+        "passiveReference": 8,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×8 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -5520,6 +5698,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -5546,13 +5740,13 @@
       ],
       "counts": {
         "pillarOk": 1,
-        "secondaryFull": 9,
+        "secondaryFull": 11,
         "passiveReference": 6,
         "fix": 0
       },
       "sourcesCount": 6,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×11 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -8104,6 +8298,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -8130,13 +8340,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 8,
-        "passiveReference": 5,
+        "secondaryFull": 9,
+        "passiveReference": 6,
         "fix": 0
       },
       "sourcesCount": 8,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×5 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -11824,6 +12034,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -11850,13 +12076,13 @@
       ],
       "counts": {
         "pillarOk": 3,
-        "secondaryFull": 4,
-        "passiveReference": 9,
+        "secondaryFull": 5,
+        "passiveReference": 10,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×4 · referencia pasiva sin claim ×9 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -15176,6 +15402,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -15202,13 +15444,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 8,
-        "passiveReference": 5,
+        "secondaryFull": 9,
+        "passiveReference": 6,
         "fix": 0
       },
       "sourcesCount": 10,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×5 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -15688,6 +15930,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -15714,13 +15972,13 @@
       ],
       "counts": {
         "pillarOk": 1,
-        "secondaryFull": 8,
-        "passiveReference": 4,
+        "secondaryFull": 9,
+        "passiveReference": 5,
         "fix": 0
       },
       "sourcesCount": 9,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×4 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×5 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -16984,6 +17242,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -17010,13 +17284,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 9,
-        "passiveReference": 4,
+        "secondaryFull": 10,
+        "passiveReference": 5,
         "fix": 0
       },
       "sourcesCount": 8,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×4 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×5 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -19216,6 +19490,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -19243,12 +19525,12 @@
       "counts": {
         "pillarOk": 0,
         "secondaryFull": 8,
-        "passiveReference": 6,
+        "passiveReference": 7,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -19480,6 +19762,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -19499,12 +19789,12 @@
       "counts": {
         "pillarOk": 0,
         "secondaryFull": 9,
-        "passiveReference": 5,
+        "passiveReference": 6,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×5 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -19586,9 +19876,9 @@
         {
           "id": "dac8-entry-2026",
           "isOwner": false,
-          "verifyOk": false,
+          "verifyOk": true,
           "contradiction": null,
-          "datumStatus": "✓R",
+          "datumStatus": "✓S",
           "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 — Directiva (UE) 2023/2226"
         },
         {
@@ -19598,6 +19888,22 @@
           "contradiction": null,
           "datumStatus": "✓P",
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
+        },
+        {
+          "id": "crs-amending-protocol",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
         },
         {
           "id": "wyoming-annual-60",
@@ -19633,14 +19939,14 @@
         }
       ],
       "counts": {
-        "pillarOk": 1,
-        "secondaryFull": 2,
-        "passiveReference": 12,
+        "pillarOk": 3,
+        "secondaryFull": 3,
+        "passiveReference": 11,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×2 · referencia pasiva sin claim ×12 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×3 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -19896,6 +20202,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -19938,13 +20260,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 4,
-        "passiveReference": 14,
+        "secondaryFull": 5,
+        "passiveReference": 15,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×4 · referencia pasiva sin claim ×14 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×15 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -20848,6 +21170,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -20874,13 +21212,13 @@
       ],
       "counts": {
         "pillarOk": 1,
-        "secondaryFull": 8,
+        "secondaryFull": 10,
         "passiveReference": 7,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -34328,6 +34666,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -34346,13 +34692,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 9,
+        "secondaryFull": 10,
         "passiveReference": 6,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -34418,9 +34764,9 @@
         {
           "id": "dac8-entry-2026",
           "isOwner": false,
-          "verifyOk": false,
+          "verifyOk": true,
           "contradiction": null,
-          "datumStatus": "✓R",
+          "datumStatus": "✓S",
           "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 — Directiva (UE) 2023/2226"
         },
         {
@@ -34430,6 +34776,22 @@
           "contradiction": null,
           "datumStatus": "✓P",
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
+        },
+        {
+          "id": "crs-amending-protocol",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
         },
         {
           "id": "wyoming-annual-60",
@@ -34465,14 +34827,14 @@
         }
       ],
       "counts": {
-        "pillarOk": 1,
-        "secondaryFull": 1,
-        "passiveReference": 11,
+        "pillarOk": 3,
+        "secondaryFull": 2,
+        "passiveReference": 10,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×1 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×2 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -34736,6 +35098,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -34770,13 +35148,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 5,
-        "passiveReference": 12,
+        "secondaryFull": 6,
+        "passiveReference": 13,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×12 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×6 · referencia pasiva sin claim ×13 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -35656,6 +36034,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -35682,13 +36076,13 @@
       ],
       "counts": {
         "pillarOk": 1,
-        "secondaryFull": 8,
+        "secondaryFull": 10,
         "passiveReference": 7,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -35904,6 +36298,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -35938,13 +36340,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 7,
+        "secondaryFull": 8,
         "passiveReference": 10,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×7 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -49072,6 +49474,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -49090,13 +49500,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 10,
+        "secondaryFull": 11,
         "passiveReference": 4,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×4 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×11 · referencia pasiva sin claim ×4 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -49154,9 +49564,9 @@
         {
           "id": "dac8-entry-2026",
           "isOwner": false,
-          "verifyOk": false,
+          "verifyOk": true,
           "contradiction": null,
-          "datumStatus": "✓R",
+          "datumStatus": "✓S",
           "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 — Directiva (UE) 2023/2226"
         },
         {
@@ -49166,6 +49576,22 @@
           "contradiction": null,
           "datumStatus": "✓P",
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
+        },
+        {
+          "id": "crs-amending-protocol",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
         },
         {
           "id": "wyoming-annual-60",
@@ -49201,14 +49627,14 @@
         }
       ],
       "counts": {
-        "pillarOk": 1,
-        "secondaryFull": 1,
-        "passiveReference": 10,
+        "pillarOk": 3,
+        "secondaryFull": 2,
+        "passiveReference": 9,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×1 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×2 · referencia pasiva sin claim ×9 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -49464,6 +49890,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -49506,13 +49948,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 5,
-        "passiveReference": 13,
+        "secondaryFull": 6,
+        "passiveReference": 14,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×13 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×6 · referencia pasiva sin claim ×14 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -50384,6 +50826,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -50410,13 +50868,13 @@
       ],
       "counts": {
         "pillarOk": 1,
-        "secondaryFull": 8,
+        "secondaryFull": 10,
         "passiveReference": 7,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -50632,6 +51090,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -50666,13 +51132,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 7,
+        "secondaryFull": 8,
         "passiveReference": 10,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×7 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -56360,6 +56826,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": false,
@@ -56386,13 +56860,13 @@
       ],
       "counts": {
         "pillarOk": 3,
-        "secondaryFull": 3,
+        "secondaryFull": 4,
         "passiveReference": 9,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×3 · referencia pasiva sin claim ×9 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×4 · referencia pasiva sin claim ×9 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -63792,6 +64266,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -63818,13 +64300,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 10,
+        "secondaryFull": 11,
         "passiveReference": 6,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×11 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -63906,9 +64388,9 @@
         {
           "id": "dac8-entry-2026",
           "isOwner": false,
-          "verifyOk": false,
+          "verifyOk": true,
           "contradiction": null,
-          "datumStatus": "✓R",
+          "datumStatus": "✓S",
           "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 — Directiva (UE) 2023/2226"
         },
         {
@@ -63918,6 +64400,22 @@
           "contradiction": null,
           "datumStatus": "✓P",
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
+        },
+        {
+          "id": "crs-amending-protocol",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
         },
         {
           "id": "wyoming-annual-60",
@@ -63953,14 +64451,14 @@
         }
       ],
       "counts": {
-        "pillarOk": 1,
-        "secondaryFull": 1,
-        "passiveReference": 13,
+        "pillarOk": 3,
+        "secondaryFull": 2,
+        "passiveReference": 12,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×1 · referencia pasiva sin claim ×13 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×2 · referencia pasiva sin claim ×12 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -64232,6 +64730,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -64274,13 +64788,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 6,
-        "passiveReference": 13,
+        "secondaryFull": 7,
+        "passiveReference": 14,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×6 · referencia pasiva sin claim ×13 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×7 · referencia pasiva sin claim ×14 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -65176,6 +65690,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -65202,13 +65732,13 @@
       ],
       "counts": {
         "pillarOk": 1,
-        "secondaryFull": 8,
+        "secondaryFull": 10,
         "passiveReference": 7,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×10 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -65424,6 +65954,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -65466,13 +66004,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 7,
+        "secondaryFull": 8,
         "passiveReference": 11,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×7 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -78880,6 +79418,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -78907,12 +79453,12 @@
       "counts": {
         "pillarOk": 0,
         "secondaryFull": 9,
-        "passiveReference": 7,
+        "passiveReference": 8,
         "fix": 0
       },
       "sourcesCount": 4,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×7 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×8 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -78994,9 +79540,9 @@
         {
           "id": "dac8-entry-2026",
           "isOwner": false,
-          "verifyOk": false,
+          "verifyOk": true,
           "contradiction": null,
-          "datumStatus": "✓R",
+          "datumStatus": "✓S",
           "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 — Directiva (UE) 2023/2226"
         },
         {
@@ -79006,6 +79552,22 @@
           "contradiction": null,
           "datumStatus": "✓P",
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
+        },
+        {
+          "id": "crs-amending-protocol",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": true,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓P",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
         },
         {
           "id": "wyoming-annual-60",
@@ -79041,14 +79603,14 @@
         }
       ],
       "counts": {
-        "pillarOk": 1,
-        "secondaryFull": 3,
-        "passiveReference": 11,
+        "pillarOk": 3,
+        "secondaryFull": 4,
+        "passiveReference": 10,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×3 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×3 · menció secundaria con afirmación canónica ×4 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -79312,6 +79874,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -79354,13 +79932,13 @@
       ],
       "counts": {
         "pillarOk": 0,
-        "secondaryFull": 5,
-        "passiveReference": 13,
+        "secondaryFull": 6,
+        "passiveReference": 14,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×5 · referencia pasiva sin claim ×13 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×6 · referencia pasiva sin claim ×14 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -80320,6 +80898,22 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "crs-amending-protocol",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS"
+        },
+        {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": true,
+          "contradiction": null,
+          "datumStatus": "✓S",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -80346,13 +80940,13 @@
       ],
       "counts": {
         "pillarOk": 1,
-        "secondaryFull": 9,
+        "secondaryFull": 11,
         "passiveReference": 6,
         "fix": 0
       },
       "sourcesCount": 5,
       "status": "✓",
-      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×9 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
+      "statusDetail": "pillar OK ×1 · menció secundaria con afirmación canónica ×11 · referencia pasiva sin claim ×6 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {
@@ -80600,6 +81194,14 @@
           "source": "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)"
         },
         {
+          "id": "carf-framework",
+          "isOwner": false,
+          "verifyOk": false,
+          "contradiction": null,
+          "datumStatus": "✓R",
+          "source": "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF"
+        },
+        {
           "id": "wyoming-annual-60",
           "isOwner": false,
           "verifyOk": true,
@@ -80643,12 +81245,12 @@
       "counts": {
         "pillarOk": 0,
         "secondaryFull": 8,
-        "passiveReference": 10,
+        "passiveReference": 11,
         "fix": 0
       },
       "sourcesCount": 6,
       "status": "✓",
-      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×10 · 0 contradicciones detectadas.",
+      "statusDetail": "menció secundaria con afirmación canónica ×8 · referencia pasiva sin claim ×11 · 0 contradicciones detectadas.",
       "verifiedOn": "2026-04-29"
     },
     {

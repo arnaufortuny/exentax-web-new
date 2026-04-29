@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-29T13:02:50.731Z",
+  "generatedAt": "2026-04-29T13:55:13.039Z",
   "totalChunks": 712,
-  "totalKb": 20684,
-  "totalGzipKb": 7845.9,
+  "totalKb": 20728.1,
+  "totalGzipKb": 7860.7,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -19,13 +19,13 @@
   "summary": {
     "page": {
       "count": 21,
-      "totalKb": 777.6,
+      "totalKb": 777.8,
       "maxKb": 142.9,
-      "maxFile": "ExistingLlcCallout-CESDHeSE.js"
+      "maxFile": "ExistingLlcCallout-9jBrV_B1.js"
     },
     "blog-post": {
       "count": 672,
-      "totalKb": 17064,
+      "totalKb": 17079,
       "maxKb": 43.1,
       "maxFile": "blog-de-boe-febrero-2020-llc-doctrina-administrativa-C7bauytI.js"
     },
@@ -33,7 +33,7 @@
       "count": 2,
       "totalKb": 145.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-DXsVxa28.js"
+      "maxFile": "blog-posts-content-DgJf4YY6.js"
     },
     "css": {
       "count": 2,
@@ -43,15 +43,15 @@
     },
     "locale": {
       "count": 10,
-      "totalKb": 1783.8,
-      "maxKb": 265,
-      "maxFile": "fr-DplqlO-7.js"
+      "totalKb": 1808,
+      "maxKb": 270.1,
+      "maxFile": "fr-j7hAUlpA.js"
     },
     "entry-index": {
       "count": 1,
-      "totalKb": 506.6,
-      "maxKb": 506.6,
-      "maxFile": "index-DSCw6PLU.js"
+      "totalKb": 511.4,
+      "maxKb": 511.4,
+      "maxFile": "index-DCxF6wVn.js"
     },
     "vendor-i18n": {
       "count": 1,
@@ -80,40 +80,40 @@
   },
   "top": [
     {
-      "file": "index-DSCw6PLU.js",
+      "file": "index-DCxF6wVn.js",
       "category": "entry-index",
-      "bytesKb": 506.6,
-      "gzipKb": 148.9
+      "bytesKb": 511.4,
+      "gzipKb": 150.5
     },
     {
-      "file": "fr-DplqlO-7.js",
+      "file": "fr-j7hAUlpA.js",
       "category": "locale",
-      "bytesKb": 265,
-      "gzipKb": 79
+      "bytesKb": 270.1,
+      "gzipKb": 80.5
     },
     {
-      "file": "de-CIFq710C.js",
+      "file": "de-CX9ofV3D.js",
       "category": "locale",
-      "bytesKb": 257.6,
-      "gzipKb": 79.8
+      "bytesKb": 262.7,
+      "gzipKb": 81.5
     },
     {
-      "file": "pt-WR3Iu_OZ.js",
+      "file": "pt-CZA6m9lp.js",
       "category": "locale",
-      "bytesKb": 244,
-      "gzipKb": 74.1
+      "bytesKb": 248.7,
+      "gzipKb": 75.7
     },
     {
-      "file": "ca-B4tXNayb.js",
+      "file": "ca-vOkWuzIv.js",
       "category": "locale",
-      "bytesKb": 243,
-      "gzipKb": 75
+      "bytesKb": 247.8,
+      "gzipKb": 76.6
     },
     {
-      "file": "en-aSNc-Hh9.js",
+      "file": "en-CoeFUpid.js",
       "category": "locale",
-      "bytesKb": 233.2,
-      "gzipKb": 72
+      "bytesKb": 237.7,
+      "gzipKb": 73.5
     },
     {
       "file": "vendor-react-CK-D59fK.js",
@@ -122,7 +122,7 @@
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-CESDHeSE.js",
+      "file": "ExistingLlcCallout-9jBrV_B1.js",
       "category": "page",
       "bytesKb": 142.9,
       "gzipKb": 31
@@ -134,7 +134,7 @@
       "gzipKb": 21.4
     },
     {
-      "file": "booking-UbT3qjyY.js",
+      "file": "booking-B0CexWxl.js",
       "category": "page",
       "bytesKb": 116.3,
       "gzipKb": 31
@@ -173,9 +173,9 @@
   "offenders": [],
   "hardBudget": {
     "serverBytes": 5892629,
-    "publicBytes": 22529643,
+    "publicBytes": 22574817,
     "serverMb": 5.62,
-    "publicMb": 21.49,
+    "publicMb": 21.53,
     "serverBudgetMb": 7,
     "publicBudgetMb": 30,
     "serverOk": true,

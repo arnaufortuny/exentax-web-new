@@ -267,14 +267,49 @@ const CANONICAL_FACTS = [
   },
   {
     id: "crs-us-status",
-    label: "CRS — EE. UU. NO firma CRS; el intercambio se canaliza por FATCA bilateral",
-    canonical: "USA fuera de CRS; FATCA es el régimen bilateral aplicable (W-8BEN-E / W-9)",
+    label: "CRS — EE. UU. NO firma CRS (ni 1.0 ni 2.0); el intercambio se canaliza por FATCA bilateral",
+    canonical: "USA fuera de CRS y de su revisión 2023 (CRS 2.0); FATCA es el régimen bilateral aplicable (W-8BEN-E / W-9)",
     source: "https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/crs-by-jurisdiction/ — OCDE CRS list (USA no consta)",
     owners: ["crs-2-0-carf-por-que-usa-no-firmara-llc", "crs-cuentas-bancarias-llc-intercambio-informacion"],
     presence: [/\bCRS\b/, /Common Reporting Standard/i],
     verify: [
       /CRS/,
       /(no\s?(participa|firma|est[aá])|nunca\s?firmar|outside\s?CRS|hors\s?CRS|fuera\s?(de\s?)?CRS|fora\s?d[oa]\s?CRS|au[ßs]erhalb\s?(des\s?)?CRS|not\s?(part of|participate|signed)|kein\s?CRS|nicht\s?(am\s?)?CRS|nicht\s?unterzeichn|n[aã]o\s?(participa|adere|assina|firmou)|pas\s?(membre|partie|signataire|sign[eé])|n['']?a\s?(jamais\s?)?sign[eé]|ne\s?signera|will\s?not\s?sign|no\s?signa|no\s?firmar[aá])/i,
+    ],
+    // Wording incorrecto que aún circula: "EE. UU. firmó el CRS", "USA
+    // adheridos al CRS", "Washington signed CRS". Si aparece, el artículo
+    // se marca ✏ aunque sea owner.
+    contradicts: [
+      /(EE\.?\s?UU\.?|Estados\s?Unidos|USA|United\s?States)\s?(firm[oó]|adher[ií]d[oa]|firmar[oó]n|signed|adopted|sign[eé]|unterzeichnet|assinou|hat\s?signiert)\s?(el\s?|the\s?|le\s?|den\s?|o\s?|la\s?|el\s?)?CRS/i,
+    ],
+  },
+  // Task #83 — paquete CRS 2.0 + CARF (revisión OCDE de 2023). Las fechas
+  // oficiales se citan en el pillar (`crs-2-0-carf-por-que-usa-no-firmara-llc`)
+  // como anclaje histórico irrevocable; ver justificación en la lista
+  // HISTORICAL_ANCHOR_SLUGS de blog-numeric-hook-yearly-refresh.mjs.
+  {
+    id: "crs-amending-protocol",
+    label: "CRS 2.0 — paquete OCDE de 2023 que revisa el Common Reporting Standard (e-money, tokens financieros, due diligence reforzada sobre controlling persons)",
+    canonical: "Revisión integral del CRS aprobada por el Consejo de la OCDE en 2023 e incorporada al ordenamiento de la UE mediante la Directiva DAC8 (Directiva (UE) 2023/2226 de 17/10/2023). La OCDE no publica un estándar denominado oficialmente \"CRS 3.0\".",
+    source: "https://www.oecd.org/tax/exchange-of-tax-information/international-standards-for-automatic-exchange-of-information-in-tax-matters-crypto-asset-reporting-framework-and-2023-update-to-the-common-reporting-standard.htm — OCDE, 2023 update to the CRS",
+    owners: ["crs-2-0-carf-por-que-usa-no-firmara-llc"],
+    presence: [/CRS\s?2\.?0|CRS\s?revis|amending\s?protocol|2023\s?update\s?to\s?the\s?CRS|Common\s?Reporting\s?Standard\s?(revisado|revised|réformé|überarbeitet|revisat|revisto)/i],
+    verifyAny: [
+      /(2023|paquete\s?OCDE\s?2023|OCDE\s?2023|OECD\s?2023)/,
+      /Directiva\s?\(?UE\)?\s?2023\/2226|Directive\s?\(?EU\)?\s?2023\/2226|2023\/2226/,
+    ],
+  },
+  {
+    id: "carf-framework",
+    label: "CARF — Crypto-Asset Reporting Framework de la OCDE (intercambio automático sobre criptoactivos); aplicación DAC8 desde 1/1/2026; primer reporte enero 2027 sobre datos 2026",
+    canonical: "CARF aprobado por la OCDE en 2023 como pieza hermana del CRS revisado; transpuesto en la UE por DAC8 (Directiva (UE) 2023/2226 de 17/10/2023, aplicación a partir del 1 de enero de 2026); primer intercambio de información en enero de 2027 sobre datos del ejercicio 2026.",
+    source: "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm — OCDE CARF",
+    owners: ["crs-2-0-carf-por-que-usa-no-firmara-llc"],
+    presence: [/CARF|Crypto[- ]?Asset\s?Reporting\s?Framework/i],
+    verifyAny: [
+      /(1\s?(de\s?)?enero\s?(de\s?)?2026|1\/1\/2026|January\s?1,?\s?2026|1\s?January\s?2026|1er\s?janvier\s?2026|1\.\s?Januar\s?2026|1\s?(de\s?)?gener\s?(de\s?)?2026|1\s?(de\s?)?janeiro\s?(de\s?)?2026)/i,
+      /(enero\s?(de\s?)?2027|January\s?2027|janvier\s?2027|Januar\s?2027|gener\s?(de\s?)?2027|janeiro\s?(de\s?)?2027)/i,
+      /Directiva\s?\(?UE\)?\s?2023\/2226|Directive\s?\(?EU\)?\s?2023\/2226|2023\/2226/,
     ],
   },
   {

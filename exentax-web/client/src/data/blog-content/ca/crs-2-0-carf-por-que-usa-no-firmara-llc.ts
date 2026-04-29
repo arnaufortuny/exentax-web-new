@@ -37,6 +37,20 @@ Les novetats operatives més rellevants:
 
 Per a un resident fiscal a Catalunya, a Espanya o en qualsevol país LATAM adherit, la conseqüència pràctica és clara: la major part dels diners que mous a través de fintechs europees o d'exchanges amb seu en jurisdiccions adherides passa a estar dins del perímetre d'informació automàtica cap a la teva administració. El que abans era "no reportat per defecte" passa a ser excepcional.
 
+## Calendari CRS 2.0, CARF i DAC8: les dates que realment importen
+
+Convé tenir a la vista les dates oficials per no confondre titulars de premsa amb el calendari regulatori real. L'OCDE va aprovar **el 2023 el paquet CRS 2.0 + CARF** i va publicar el document de referència *International Standards for Automatic Exchange of Information in Tax Matters — Crypto-Asset Reporting Framework and 2023 update to the Common Reporting Standard*. La Unió Europea el transposa mitjançant la **Directiva (UE) 2023/2226 (DAC8)**, adoptada el 17 d'octubre de 2023, que modifica la 2011/16/UE per incorporar la revisió del CRS i l'abast del CARF. La data d'aplicació material és l'**1 de gener de 2026**, amb **primer intercanvi efectiu el 2027 sobre dades de l'exercici 2026**. La peça específica dels criptoactius es completa amb un **Multilateral Competent Authority Agreement on CARF** obert a la signatura de les jurisdiccions amb compromís d'implementació, ja signat per més de mig centenar de països.
+
+Les tres capes que coexisteixen avui caben en una sola taula:
+
+| Peça | Què cobreix | Qui reporta | Primer intercanvi |
+| --- | --- | --- | --- |
+| **CRS 1.0** (OCDE 2014) | Comptes financers tradicionals: dipòsit, custòdia, certs contractes d'assegurança, vehicles d'inversió | Reporting Financial Institutions de jurisdiccions adherides | Setembre de 2017 |
+| **CRS 2.0** (OCDE 2023) | L'anterior + diner electrònic (EMI i *Specified Electronic Money Products*), due diligence reforçada sobre controlling persons, productes digitals assimilables a dipòsit | Les mateixes RFI més EMI i prestadors assimilats | A partir de 2027 sobre dades 2026, segons la transposició de cada país |
+| **CARF** (OCDE 2023) | Criptoactius: exchanges, custodis, plataformes de derivats cripto, certs proveïdors DeFi amb element centralitzat | Reporting Crypto-Asset Service Providers (RCASP) | Gener de 2027 sobre dades 2026 a la UE, via DAC8 |
+
+Una nota pràctica per evitar una confusió recurrent: **l'OCDE no publica cap estàndard amb la denominació oficial "CRS 3.0"**. L'etiqueta circula de manera informal a la premsa, en vídeos i en continguts divulgatius com a abreviatura del paquet OCDE de 2023 (CRS 2.0 més CARF). Quan llegeixis o sentis "CRS 3.0", la lectura regulatòria correcta és "revisió CRS de 2023 + CARF", aplicada a la UE mitjançant DAC8. No hi ha cap text OCDE titulat "CRS 3.0" al qual remetre: hi ha el document integrat de 2023 i la Directiva (UE) 2023/2226 que el transposa.
+
 ## Per què els EUA no signaran el CRS (la versió sense màrqueting)
 
 Aquesta és la part que més confusió genera i que a Exentax repetim cada setmana. Els EUA no van signar el CRS 1.0 i no signaran el CRS 2.0 per raons estructurals, no per descuit administratiu. Hi ha tres factors combinats que ho expliquen:

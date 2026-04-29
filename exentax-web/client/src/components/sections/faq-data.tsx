@@ -328,6 +328,10 @@ export function useFaqSections(): FAQSection[] {
           { q: t("faqData.questions.tax_5"), a: r("tax_5") },
           { q: t("faqData.questions.tax_6"), a: r("tax_6") },
           { q: t("faqData.questions.tax_7"), a: r("tax_7") },
+          { q: t("faqData.questions.tax_8"), a: r("tax_8") },
+          { q: t("faqData.questions.tax_9"), a: r("tax_9") },
+          { q: t("faqData.questions.tax_10"), a: r("tax_10") },
+          { q: t("faqData.questions.tax_11"), a: r("tax_11") },
         ],
       },
     ];
