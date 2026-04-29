@@ -616,6 +616,19 @@ function ensureDrainTimer(): void {
 
 async function drainTick(): Promise<void> {
   if (_draining) return;
+  // Without a Discord bot token the worker cannot send anything: it would
+  // claim each row, log a warning, emit a fallback alert and DELETE the row
+  // without an HTTP call ever happening (see `attemptSendOnce`). That silent
+  // drain is fine in isolation — it stops the queue from growing unbounded
+  // in dev — but it actively breaks any other process that owns the queue
+  // and intercepts the outbound fetch in-process (typically the discord
+  // regression e2e test, which races the dev server pre-warmed by
+  // `scripts/check.mjs` over the shared `discord_outbound_queue` table).
+  // Skipping the tick when there is no token leaves unclaimed rows for the
+  // process that actually has a token (or the test's intercepting fetch) to
+  // pick up; production always has the token configured so behaviour there
+  // is unchanged.
+  if (!getBotToken()) return;
   _draining = true;
   try {
     const backend = await getBackend();

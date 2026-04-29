@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-29T11:42:55.836Z",
+  "generatedAt": "2026-04-29T13:02:50.731Z",
   "totalChunks": 712,
-  "totalKb": 20683.9,
-  "totalGzipKb": 7845.7,
+  "totalKb": 20684,
+  "totalGzipKb": 7845.9,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -21,7 +21,7 @@
       "count": 21,
       "totalKb": 777.6,
       "maxKb": 142.9,
-      "maxFile": "ExistingLlcCallout-D5aE10Ya.js"
+      "maxFile": "ExistingLlcCallout-CESDHeSE.js"
     },
     "blog-post": {
       "count": 672,
@@ -33,7 +33,7 @@
       "count": 2,
       "totalKb": 145.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-d8R-OsND.js"
+      "maxFile": "blog-posts-content-DXsVxa28.js"
     },
     "css": {
       "count": 2,
@@ -43,15 +43,15 @@
     },
     "locale": {
       "count": 10,
-      "totalKb": 1783.7,
+      "totalKb": 1783.8,
       "maxKb": 265,
-      "maxFile": "fr-P50DzIWk.js"
+      "maxFile": "fr-DplqlO-7.js"
     },
     "entry-index": {
       "count": 1,
       "totalKb": 506.6,
       "maxKb": 506.6,
-      "maxFile": "index-DWhPsdNC.js"
+      "maxFile": "index-DSCw6PLU.js"
     },
     "vendor-i18n": {
       "count": 1,
@@ -80,37 +80,37 @@
   },
   "top": [
     {
-      "file": "index-DWhPsdNC.js",
+      "file": "index-DSCw6PLU.js",
       "category": "entry-index",
       "bytesKb": 506.6,
       "gzipKb": 148.9
     },
     {
-      "file": "fr-P50DzIWk.js",
+      "file": "fr-DplqlO-7.js",
       "category": "locale",
       "bytesKb": 265,
       "gzipKb": 79
     },
     {
-      "file": "de-BzF1lAel.js",
+      "file": "de-CIFq710C.js",
       "category": "locale",
       "bytesKb": 257.6,
       "gzipKb": 79.8
     },
     {
-      "file": "pt-DTpOZRvr.js",
+      "file": "pt-WR3Iu_OZ.js",
       "category": "locale",
       "bytesKb": 244,
       "gzipKb": 74.1
     },
     {
-      "file": "ca-SaYLk2b-.js",
+      "file": "ca-B4tXNayb.js",
       "category": "locale",
       "bytesKb": 243,
       "gzipKb": 75
     },
     {
-      "file": "en-C9hgOoal.js",
+      "file": "en-aSNc-Hh9.js",
       "category": "locale",
       "bytesKb": 233.2,
       "gzipKb": 72
@@ -122,7 +122,7 @@
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-D5aE10Ya.js",
+      "file": "ExistingLlcCallout-CESDHeSE.js",
       "category": "page",
       "bytesKb": 142.9,
       "gzipKb": 31
@@ -134,16 +134,16 @@
       "gzipKb": 21.4
     },
     {
-      "file": "booking-BJVGSzxh.js",
+      "file": "booking-UbT3qjyY.js",
       "category": "page",
       "bytesKb": 116.3,
       "gzipKb": 31
     },
     {
-      "file": "fr-Cde6ofkf.js",
+      "file": "fr-B66IeV2g.js",
       "category": "locale",
       "bytesKb": 111.1,
-      "gzipKb": 26.2
+      "gzipKb": 26.3
     },
     {
       "file": "de-Cqvejhcv.js",
@@ -152,15 +152,15 @@
       "gzipKb": 26.7
     },
     {
-      "file": "pt-DIxpnNOc.js",
+      "file": "pt-BYmRA44T.js",
       "category": "locale",
       "bytesKb": 108,
       "gzipKb": 25.5
     },
     {
-      "file": "ca-iOiCSxCo.js",
+      "file": "ca-DgTDgOUQ.js",
       "category": "locale",
-      "bytesKb": 107.4,
+      "bytesKb": 107.5,
       "gzipKb": 25.4
     },
     {
@@ -173,7 +173,7 @@
   "offenders": [],
   "hardBudget": {
     "serverBytes": 5892629,
-    "publicBytes": 22529520,
+    "publicBytes": 22529643,
     "serverMb": 5.62,
     "publicMb": 21.49,
     "serverBudgetMb": 7,

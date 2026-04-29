@@ -161,3 +161,30 @@ avoid stepping on LOTE 1's scope. The audit measures progress strictly by:
 (a) `tsc` stays at EXIT 0, (b) `i18n:check` stays at EXIT 0 with same or
 fewer key issues, (c) `build` stays at EXIT 0, (d) health stays ready.
 
+
+---
+
+## FINAL VERIFICATION — 2026-04-29 (Task #77 — revisión integral masiva)
+
+Re-ejecución de los gates contractuales sobre el snapshot consolidado tras Tasks #11/#46/#48/#66 + las dos correcciones puntuales de Task #77 (race del worker de cola Discord sin token + timeout default en aserción `bloquear/desbloquear` del e2e). Detalle in-line en `CHANGELOG.md` ([Unreleased] — 2026-04-29 — Revisión integral masiva). Reporte ejecutivo: [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md).
+
+| Comando | Resultado | Notas |
+|---|---|---|
+| `npx tsc --noEmit --strict` (en `exentax-web/`) | **EXIT 0** ✓ | Sin errores; sin warnings nuevos. |
+| `cd exentax-web && npm run check` | **EXIT 0 · 33/33 · wall 53,4 s** ✓ | Log íntegro: `.local/baseline-77/check-after-fix2.log`. Mejor que baseline (que era RED por `seo:meta`). |
+| `npm run i18n:check` (en `exentax-web/`) | **EXIT 0** ✓ | 1.558 keys × 6 idiomas PASS. `lint:i18n-extended` 0 hits. `lint:pt-pt` 115 ficheros OK. |
+| `SKIP_BUILD_E2E=1 npm run build` (raíz) | **EXIT 0** ✓ | `dist/index.mjs` ≈ 5.8 MB (HARD budget OK). |
+| `curl /api/health/ready` | `{ ready:true, db:ok, breakers:ok, emailWorker:ok }` ✓ | Igual que baseline. |
+| `npm audit --omit=dev` (en `exentax-web/`) | **0 vulnerabilities** ✓ | Nuevo gate añadido en Task #77. `.local/baseline-77/npm-audit.log`. |
+| `npx depcheck --json` | 0 dependencias muertas reales ✓ | postcss aparece como falso positivo (lo carga `postcss.config.mjs` vía `tailwindcss` + `autoprefixer`); `@shared/*` son aliases TS, no paquetes npm. `.local/baseline-77/depcheck.json`. |
+| `node scripts/audit/orphan-detect.test.mjs` | **EXIT 0** ✓ | 0 huérfanos en sitemap-index. `.local/baseline-77/orphans.log`. |
+| Smoke 102 rutas (17 RouteKeys × 6 langs) | **102 / 102 = 200** ✓ | 0 redirects, 0 fallos. Reproductor: `/tmp/route-smoke.mjs` contra `localhost:5000`. |
+| Headers HTTP de seguridad (`curl -I /`) | CSP + X-Frame-Options + Referrer-Policy + Permissions-Policy + X-Content-Type-Options + X-Correlation-Id ✓ | Helmet completo + `correlation-id` middleware operativo. |
+| `seo:masterpiece-strict` | **EXIT 0** ✓ | Mean score 99.8 / 100 (mejor que el baseline de Task #11). |
+| `seo:llm-readiness` + `seo:serp-previews` + `seo:redirects` + `seo:geo` | **EXIT 0** ✓ | 108 cards de SERP, 0 errors. |
+| `blog:validate-all` | **EXIT 0 · 15/15** ✓ | Incluye `official-source-coverage` + `conversion-strict` (672/672). |
+| `audit:bundle:fast` | **EXIT 0** ✓ | HARD budget cumplido. |
+| `test:discord-regression` aislado | **3/3 PASS · 72/72 e2e** ✓ | `test-discord-neon` 24,5 s · `test-discord-bot-buttons` 7,2 s · `test-discord-bot-e2e` 23,7 s. |
+| `discord:register:diff` | **EXIT 2** (esperado en sandbox) | Requiere `DISCORD_APP_ID` + `DISCORD_BOT_TOKEN` (secrets prod-only). No es regresión. |
+
+**Verdict:** verde sin reservas. Todas las promesas del contrato (tsc, build, i18n, health) se mantienen. `npm run check` pasa de RED → **GREEN** (33/33). El sistema queda en estado idéntico al snapshot `exentax-3.0` con dos correcciones controladas y un set de gates ampliado (audit + depcheck + orphan-detect documentados).

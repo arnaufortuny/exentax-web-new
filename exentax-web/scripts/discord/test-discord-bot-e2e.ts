@@ -441,7 +441,13 @@ async function run() {
     assert(`/agenda desbloquear logs admin action`,
       (await countAdminActions({ action: "agenda.desbloquear" })) === 1);
 
-    await waitForQueueDrain(8_000);
+    // Default 25 s timeout — under the parallel `npm run check` runner the
+    // discord queue worker (1.5 s tick interval) can be CPU-starved by the
+    // other 32 gates running concurrently; an 8 s window was racy and would
+    // intermittently report `queue did not drain (size=N)` even though the
+    // audit POSTs were eventually emitted. The longer window only delays
+    // failures, never masks them — assertions still hold once drained.
+    await waitForQueueDrain();
     const auditCalls = auditCallsAfter(before).filter(c =>
       c.url.includes(`/channels/${CHANNEL_AUDITORIA}/`));
     assert(`bloquear/desbloquear echoed to #sistema-auditoria (>=2 audit POSTs)`,

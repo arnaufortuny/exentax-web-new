@@ -3,7 +3,33 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
-## [Unreleased] — 2026-04-29 — Revisión integral 10 lotes
+## [Unreleased] — 2026-04-29 — Revisión integral masiva (Task #77)
+
+> Pasada de auditoría completa sobre todo el sistema (estructura, código, web, SEO, performance, funciones, idiomas, URLs, indexing, Discord, agenda, gestión, diseño, UX, tipografías, emails, copy, seguridad, encriptación, cross-browser y cross-device) sin drift respecto al snapshot `exentax-3.0`. Sin cambios en `package.json`, `vite.config.ts`, `server/vite.ts` ni `drizzle.config.ts`. Áreas en verde inmovilizadas según `WHAT-NOT-TO-TOUCH.md`. Reporte ejecutivo: [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md).
+
+### Correcciones aplicadas
+- **`server/discord.ts` — race del worker de cola sin token de bot**. `drainTick()` reclamaba filas de `discord_outbound_queue` y, al no tener `DISCORD_BOT_TOKEN`, las eliminaba en silencio (camino "fallback alert" de `attemptSendOnce`). Eso hacía que el dev-server pre-warmed por `scripts/check.mjs` (sin token) le robara los mensajes a `scripts/discord/test-discord-bot-e2e.ts` (con token falso e intercept de `fetch`), que comparten la misma tabla en Postgres. Resultado: 1-5 fallos intermitentes en `test:discord-regression` bajo el runner paralelo. **Fix**: `drainTick()` no hace nada si `getBotToken()` es vacío; las filas quedan disponibles para quien sí pueda enviarlas. Producción siempre tiene token, así que su comportamiento no cambia. Comentario in-line documenta el motivo.
+- **`exentax-web/scripts/discord/test-discord-bot-e2e.ts` — timeout de espera del drain bajo carga paralela**. La aserción `bloquear/desbloquear echoed to #sistema-auditoria (>=2 audit POSTs)` usaba `waitForQueueDrain(8_000)`. Bajo `scripts/check.mjs` (32 procesos node concurrentes saturan los workers) el tick de 1.5 s se retrasa y el queue puede quedar `size=14`. **Fix**: usar el default 25 s (igual al resto de aserciones de la suite). Sólo retrasa los fallos, nunca los enmascara.
+
+### Verificación post-fix (entorno Replit, dev server sirviendo `:5000`)
+- `cd exentax-web && npm run check` → **EXIT 0 · 33 / 33 gates verde · wall 53,4 s** (log íntegro: `.local/baseline-77/check-after-fix2.log`).
+- `npm audit --omit=dev` → **0 vulnerabilities** (`.local/baseline-77/npm-audit.log`).
+- `npx depcheck --json` → 0 dependencias muertas reales (postcss aparece como falso positivo, lo consume `postcss.config.mjs` vía `tailwindcss` + `autoprefixer`; ver `.local/baseline-77/depcheck.json`).
+- `node scripts/audit/orphan-detect.test.mjs` → EXIT 0 (`.local/baseline-77/orphans.log`).
+- Smoke 102 rutas canónicas (17 RouteKeys × 6 langs) → **102 / 102 = 200**, 0 redirects, 0 fallos.
+- Headers HTTP de seguridad → CSP + X-Frame-Options SAMEORIGIN + Referrer-Policy + Permissions-Policy + X-Content-Type-Options + X-Correlation-Id presentes.
+- `seo:masterpiece-strict` (mean 99.8/100) · `seo:llm-readiness` · `seo:serp-previews` (108 cards, 0 errors) · `blog:validate-all` 15/15 · `audit:bundle:fast` HARD budget OK · `lint:pt-pt` 115 ficheros OK · `lint:typography` / `lint:brand-casing` / `lint:stray-reports` clean · `i18n:check` 1.558 keys × 6 langs PASS · `lint:i18n-extended` 0 hits.
+- `test:discord-regression` aislado: 3/3 scripts PASS, 72/72 e2e (`test-discord-neon` 24.5 s · `test-discord-bot-buttons` 7.2 s · `test-discord-bot-e2e` 23.7 s).
+- `discord:register:diff` → EXIT 2 esperado en sandbox sin `DISCORD_APP_ID` / `DISCORD_BOT_TOKEN` (secrets prod-only). Documentado.
+- Health: `/api/health` 200, `/api/health/ready` 200 (`db.ok`, `breakers.ok`, `emailWorker.ok`).
+
+### Hallazgos sin cambio (decisiones documentadas)
+- `postcss` reportado como "unused" por `depcheck` → lo cargan `tailwindcss` + `autoprefixer` desde `postcss.config.mjs`; eliminarlo rompe el build. Permanece.
+- `@shared/*` reportados como "missing" por `depcheck` → son alias de `tsconfig`/`vite.config.ts`, no paquetes npm. Falsos positivos.
+- 18 warnings en `seo:serp-previews` → títulos con espacio horizontal escaso en Google (no errors). Cobertura editorial diferida.
+- `seo:check` no cubre la URL `https://exentax.com` desde sandbox (egress restringido); cubierto en F-1..F-9 post-deploy.
+
+## [Snapshot anterior] — 2026-04-29 — Revisión integral 10 lotes
 
 > Cierre del ciclo de revisión LOTES 1-10 sobre el snapshot consolidado tras Tasks #2/#3. Cero cambios en `package.json`, `vite.config.ts`, `drizzle.config.ts`. Áreas en verde inmovilizadas según `WHAT-NOT-TO-TOUCH.md`. Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md). Checklist accionable de deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md).
 

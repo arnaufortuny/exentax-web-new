@@ -1,6 +1,6 @@
 # PRODUCTION-STATUS — Exentax Web
 
-> **Última actualización:** 2026-04-29 · **Tag de referencia:** `exentax-3.0` (snapshot consolidado tras revisión integral 10 lotes — Task #11 LOTE 10).
+> **Última actualización:** 2026-04-29 · **Tag de referencia:** `exentax-3.0` (snapshot consolidado tras revisión integral 10 lotes — Task #11 LOTE 10) **+ Task #77** (revisión integral masiva 2026-04-29, [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md)).
 >
 > Este fichero es el **estado real verificado** de cada área del sistema en el momento de cierre de la revisión integral. Cada sección declara: estado (`✓` / `⚠` / `✗`), última verificación (fecha + comando exacto), referencia al reporte del LOTE correspondiente bajo `exentax-web/reports/`. Es la fuente de verdad operativa para la decisión "¿está listo para deploy?".
 >
@@ -18,18 +18,22 @@
 | Navegación / UX / accesibilidad | ✓ | Auditoría #2 — Bloque 2 | `docs/audits/NAVIGATION-AUDIT.md` |
 | Artículos — veracidad fiscal | ✓ | LOTE 5 | `reports/seo/lote5-veracidad.md` — 162/162 pillars OK · 0/11 contradicciones · 0 marcas pendientes |
 | Artículos — conversión + CTAs | ✓ | LOTE 6 / 6b | `reports/seo/lote6b-risk-bridge.md` — 3410/3428 párrafos de riesgo con bridge Exentax (99,5%) · `audit:conversion` 672/672 |
-| i18n — calidad nativa 6 idiomas | ⚠ | LOTE 7 | `npm run i18n:check` PASS · `npm run lint:i18n-extended` PASS · **`lint:pt-pt` ⚠ ~25 hits "arquivo" en catálogo bridge v2 LOTE 6b — pendiente fix LOTE 7 (ver [`PENDING-FINAL.md #1.5`](PENDING-FINAL.md))** |
-| Schema markup · Open Graph · Twitter Cards | ✓ | LOTE 8 | `npm run seo:llm-readiness` PASS · `npm run seo:serp-previews` OK |
+| i18n — calidad nativa 6 idiomas | ✓ | LOTE 7 | `npm run i18n:check` PASS · `npm run lint:i18n-extended` 0 hits · `lint:pt-pt` 115 ficheros OK (drift del catálogo bridge v2 cerrado en Task #46) |
+| Schema markup · Open Graph · Twitter Cards | ✓ | LOTE 8 | `npm run seo:llm-readiness` PASS · `npm run seo:serp-previews` 108 cards / 0 errors |
 | Calculadora · Leads · Discord embed · CSP · CSRF · Rate-limit · Field encryption | ✓ | LOTE 9 | `curl /api/health/ready` 200 · `npm run test:calculator` 116/116 · `test-field-encryption` 45/45 |
-| Documentación raíz consolidada | ✓ | LOTE 10 (Task #11) | Ver [§Documentación](#documentación) |
+| Documentación raíz consolidada | ✓ | LOTE 10 (Task #11) + Task #77 | Ver [§Documentación](#documentación) |
+| Quality gate paralelo (33 gates) | ✓ | Task #66 + Task #77 | `cd exentax-web && npm run check` → **EXIT 0 · 33/33 · wall 53,4 s** |
+| Auditoría de seguridad de dependencias | ✓ | Task #77 | `npm audit --omit=dev` → **0 vulnerabilities** |
+| Dependencias muertas | ✓ | Task #77 | `npx depcheck --json` → 0 reales (postcss falso positivo, lo carga `postcss.config.mjs`) |
+| Cross-browser / cross-device (Playwright matrix Chromium / Firefox / WebKit × 360 / 768 / 1280) | ⚠ deferida | `PENDING-FINAL.md #5` | **No ejecutada en Task #77.** La suite Playwright requiere browsers instalados + workflow CI sostenido y queda pendiente. Como sustituto operativo se ejecutó un smoke server-side de 102 rutas (17 RouteKeys × 6 langs) = **102/102 · 200**, que valida rendering, hreflang, headers y status — pero **no** sustituye la matriz de browsers reales |
 
-**Estado real en branch documental LOTE 10 (2026-04-29)**: 9/10 áreas en verde sin reservas + 1 área (i18n calidad nativa 6 idiomas) en ⚠ por drift `lint:pt-pt` documentado en [`PENDING-FINAL.md #1.5`](PENDING-FINAL.md). El drift es un brasileñismo "arquivo" (~25 ficheros pt-PT) proveniente del catálogo bridge v2 introducido por LOTE 6b. NO bloquea integración; lo resuelve LOTE 7 en su pasada de pulido pt-PT (reescritura de la frase del catálogo o allowlist controlado en `audit-pt-pt.mjs`).
+**Estado real tras Task #77 (2026-04-29)**: **12 / 13 áreas en verde sin reservas + 1 ⚠ deferida** (cross-browser Playwright matrix — pendiente operativo, no de código; ver `PENDING-FINAL.md #5`). `npm run check` consolidado EXIT 0 (33/33). Sin drift de código detectado contra el snapshot `exentax-3.0`. Las dos correcciones aplicadas se documentan en `CHANGELOG.md` ([Unreleased] — 2026-04-29 — Revisión integral masiva): race del worker de cola Discord sin token (silent-drain que pisaba la suite e2e bajo el runner paralelo) y timeout corto de drain en `bloquear/desbloquear` bajo carga.
 
 **Decisión go/no-go**:
 
-- **Branch documental LOTE 10 (estado actual)**: 9/10 verde + 1 ⚠ → **integración a `main` aprobada** (la tarea sólo añade docs `.md` raíz, cero cambios de código). El drift `lint:pt-pt` se resuelve en el branch del LOTE 7 antes de consolidación final.
-- **Tras consolidación de LOTE 7 fix de §1.5**: 10/10 verde → **Deploy a Hostinger VPS habilitado** sujeto a:
-  1. `npm run check` EXIT 0 confirmado en branch consolidado.
+- **Branch Task #77 (estado actual)**: 12 verde + 1 ⚠ deferida (operativa) → **integración a `main` aprobada** (la única ⚠ es la matriz Playwright, cuya cobertura no es de código y se planifica en `PENDING-FINAL.md #5`). Cambios contenidos a `server/discord.ts` (1 guard early-return, comentado in-line), un test e2e (timeout default 25 s) y documentación.
+- **Para deploy a Hostinger VPS** quedan exclusivamente los pasos operativos descritos en [`PENDING-FINAL.md #1`](PENDING-FINAL.md#1):
+  1. `npm run check` EXIT 0 confirmado en main consolidado (✓ ya en este branch).
   2. Secrets de producción cargados en `.env` del VPS (ver [`PRODUCTION-CHECKLIST.md §B`](PRODUCTION-CHECKLIST.md#b-variables-de-entorno-resumen)).
   3. `npm run db:push` aplicado contra la BD de producción.
   4. Verificación post-deploy F-P de [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md) en verde.

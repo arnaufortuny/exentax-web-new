@@ -14,6 +14,21 @@ Exentax Web is a public-facing TaxTech platform offering international LLC forma
 - Verify structure before and after changes, all code must have error handling, debug automatically, never cause regressions
 - ASSET PROTECTION: Do NOT regenerate, recompress, or modify image assets without explicit user consent
 
+## Audit Task #77 — 2026-04-29 (revisión integral masiva — closure)
+
+Pasada de auditoría completa sobre todo el sistema sin drift respecto al snapshot
+`exentax-3.0`. Cierre con `cd exentax-web && npm run check` **EXIT 0 · 33/33 gates
+verde · wall 53,4 s** + `npm audit --omit=dev` **0 vulnerabilities**. Dos
+correcciones puntuales aplicadas (race del worker de cola Discord sin token y
+timeout default en aserción `bloquear/desbloquear` del e2e), documentadas in-line
+en `CHANGELOG.md` ([Unreleased] — 2026-04-29 — Revisión integral masiva).
+Reporte ejecutivo: [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md).
+Ver `PRODUCTION-STATUS.md` (**12/13 áreas verde + 1 ⚠ deferida**: cross-browser /
+cross-device Playwright matrix Chromium / Firefox / WebKit × 360/768/1280, planificada
+en `PENDING-FINAL.md #5` — pendiente operativo, no de código) · `BASELINE.md`
+§FINAL VERIFICATION · `PENDING-FINAL.md` (P0 vacío; queda trabajo operativo VPS en P1 #1
+y la matriz Playwright en P2 #5).
+
 ## Audit Task #2 — 2026-04-28 (9-block integral audit + consultoría → asesoría rename)
 
 Cross-locale rename `consultoría/consultoria/consulting/consultation/consultant` →

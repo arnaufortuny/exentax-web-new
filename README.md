@@ -2,11 +2,11 @@
 
 Web pública de Exentax: landing, blog multilingüe, sistema de reservas de asesoría con Google Meet, calculadora fiscal, newsletter, páginas legales y operación admin íntegramente vía bot de Discord. Aplicación full-stack en un único proceso Node que sirve frontend (SPA React) y backend (API Express) con SEO multiidioma server-side.
 
-> **Estado (2026-04-29):** Production-ready en código tras cierre de la **revisión integral 10 lotes** (LOTES 1-10, Task #11). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md) · checklist accionable de deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md) · pendientes residuales en [`PENDING-FINAL.md`](PENDING-FINAL.md) · áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md) · baseline literal en [`BASELINE.md`](BASELINE.md).
+> **Estado (2026-04-29):** Production-ready en código tras cierre de la **revisión integral masiva 2026-04-29** (Task #77, [`docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md`](docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md)). Estado real verificado por área en [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md) · checklist accionable de deploy en [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md) · pendientes residuales en [`PENDING-FINAL.md`](PENDING-FINAL.md) · áreas inmovilizadas en [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md) · baseline literal en [`BASELINE.md`](BASELINE.md).
 >
-> **Cifras tras LOTES 1-10**: SEO meta 0/0 × 6 idiomas · 780 URLs sirven 200 con hreflang bidireccional · 672/672 artículos ✓ veracidad fiscal (0 contradicciones) · 0 warnings `no-conversion-entry` · 99,5% bridges Exentax adyacentes a párrafos de riesgo · i18n 1.558 keys × 6 idiomas con calidad nativa extendida (0 hits) · JSON-LD + OG + Twitter Cards 100% · calculadora 116/116 con FL incluido · field encryption AES-256-GCM 45/45.
+> **Cifras consolidadas (LOTES 1-10 + Task #77)**: `npm run check` **33/33 verde** (wall 53 s) · `npm audit --omit=dev` **0 vulnerabilidades** · SEO meta 0/0 × 6 idiomas · 780 URLs sirven 200 con hreflang bidireccional · smoke server-side de 102/102 rutas canónicas localizadas (17 keys × 6 langs) en sandbox — la matriz Playwright cross-browser (Chromium/Firefox/WebKit × 360/768/1280) sigue **deferida** en [`PENDING-FINAL.md #5`](PENDING-FINAL.md) y NO se ejecutó en este ciclo · 672/672 artículos ✓ veracidad fiscal (0 contradicciones) · 0 warnings `no-conversion-entry` · 99,5% bridges Exentax adyacentes a párrafos de riesgo · i18n 1.558 keys × 6 idiomas con calidad nativa extendida (0 hits) · `lint:pt-pt` 115 ficheros OK · 108 SERP cards generadas (0 errors) · JSON-LD + OG + Twitter Cards 100% · calculadora 116/116 con FL incluido · field encryption AES-256-GCM 45/45 · headers Helmet completos (CSP/XFO/Referrer-Policy/Permissions-Policy).
 >
-> **Baselines verdes hoy** (`docs/internal/BASELINE-CIERRE.md`): TS strict EXIT 0 · `blog:validate-all` 15/15 (incluye `official-source-coverage` + `conversion-strict`) · seo:check + seo:meta + seo:slash clean · test:redirects 9/9 · test:geo 12/12 · typography/brand 0 violaciones. **Excepción en branch LOTE 10 docs**: `lint:pt-pt` ⚠ con ~25 hits "arquivo" del catálogo bridge v2 LOTE 6b — drift documentado en [`PENDING-FINAL.md #1.5`](PENDING-FINAL.md) y resuelve LOTE 7 (no es regresión de LOTE 10).
+> **Baselines verdes hoy** (`docs/internal/BASELINE-CIERRE.md` + [`BASELINE.md`](BASELINE.md)): TS strict EXIT 0 · `npm run check` EXIT 0 (33/33) · `blog:validate-all` 15/15 (incluye `official-source-coverage` + `conversion-strict`) · seo:check + seo:meta + seo:slash + seo:masterpiece-strict + seo:llm-readiness + seo:serp-previews clean · test:redirects 9/9 · test:geo 12/12 · test:indexnow 10/10 · test:discord-regression 3/3 (72/72 e2e) · typography/brand 0 violaciones · `lint:pt-pt` 0 brasileñismos.
 >
 > **Repo a npm workspaces** (Task #34) — un solo `npm install` en root instala todo. **Stack actual**: [`docs/internal/STACK.md`](docs/internal/STACK.md) · **Reglas para agentes**: [`docs/internal/AGENT-RULES.md`](docs/internal/AGENT-RULES.md).
 
@@ -44,18 +44,26 @@ Web pública de Exentax: landing, blog multilingüe, sistema de reservas de ases
 
 > Pasos que requieren red/Postgres reales y no se ejecutan en sandbox sin DB: `test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` (Postgres real) y la ronda IndexNow/sitemap live. Pasan en Replit/Hostinger; cobertura completa en [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden).
 
-#### Verificación end-to-end ejecutada 2026-04-29 (branch LOTE 10 docs)
+#### Verificación end-to-end ejecutada 2026-04-29 (Task #77 — revisión integral masiva)
 
 | Comando | Resultado |
 |---|---|
 | `npx tsc --noEmit --strict` (en `exentax-web/`) | **EXIT 0** ✓ |
-| `SKIP_BUILD_E2E=1 npm run build` (raíz) | **EXIT 0** ✓ — `dist/index.mjs` 5.8 MB · cliente built en 21,36 s · esbuild server 475 ms |
+| `npm run check` (en `exentax-web/`) | **EXIT 0** ✓ — **33 / 33 gates verde**, wall 53,4 s. Log íntegro en `docs/auditoria-2026-04/revision-integral-masiva-2026-04-29.md` y `.local/baseline-77/check-after-fix2.log`. |
+| `npm audit --omit=dev` (en `exentax-web/`) | **0 vulnerabilities** ✓ |
+| `npx depcheck --json` | 0 dependencias muertas reales (postcss aparece como falso positivo: lo consume `postcss.config.mjs` vía `tailwindcss` + `autoprefixer`). |
 | `curl http://localhost:5000/api/health` | **200** ✓ — `{"status":"ok","uptime":…}` |
-| `curl http://localhost:5000/api/health/ready` | **200** ✓ — `{"status":"ready","ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},"emailWorker":{"ok":true,"message":"last drain 22s ago"}}}` |
-| `npm run dev` (workflow `Start application`) | **RUNNING — verde** ✓ — logs limpios: `listening on port 5000` · `fully initialized` · `email-retry worker started` · `discord queue persistence enabled` · 10 schedulers OK |
-| `npm run check` (en `exentax-web/`) | **EXIT 1** ⚠ — drift conocido en `lint:pt-pt` (~25 ficheros pt-PT con "arquivo" del catálogo bridge v2 LOTE 6b). **No es regresión de LOTE 10** (esta tarea sólo edita `.md` raíz). Lo resuelve LOTE 7 (i18n calidad nativa) en su pasada de pulido pt-PT. Detalle + opciones de fix + reproductor en [`PENDING-FINAL.md #1.5`](PENDING-FINAL.md). Resto de gates ejecutadas hasta el fallo: `tsc` EXIT 0 · `lint:typography` clean · `lint:stray-reports` clean · `lint:brand-casing` clean. |
+| `curl http://localhost:5000/api/health/ready` | **200** ✓ — `{"status":"ready","ready":true,"checks":{"db":{"ok":true},"breakers":{"ok":true},"emailWorker":{"ok":true}}}` |
+| Smoke 102 rutas canónicas (17 RouteKeys × 6 langs) | **102 / 102 = 200**, 0 redirects, 0 fallos (`/tmp/route-smoke.mjs` contra `localhost:5000`). |
+| `curl -I /sitemap.xml` + `/sitemap-blog.xml` + `/robots.txt` | **200** ✓ — sitemap-index con 3 hijos · `<lastmod>` real · `robots.txt` con allow-list de 17 bots IA + sitemaps. |
+| Headers de seguridad (`curl -I /`) | **CSP** + **X-Frame-Options: SAMEORIGIN** + **Referrer-Policy: strict-origin-when-cross-origin** + **Permissions-Policy** + **X-Content-Type-Options: nosniff** + **X-Correlation-Id** ✓ |
+| `npm run seo:masterpiece-strict` | **EXIT 0** ✓ — 0 critical findings (mean score 99.8 / 100). |
+| `npm run seo:llm-readiness` | **EXIT 0** ✓ |
+| `npm run seo:serp-previews` | **EXIT 0** ✓ — 108 cards (6 langs × 18 pages), 0 errors. |
+| `npm run blog:validate-all` | **EXIT 0** ✓ — 15/15 pasos. |
+| `npm run audit:bundle:fast` | **EXIT 0** ✓ — HARD budget OK. |
 
-> Las gates avanzadas (`seo:meta` 0/0, `blog:validate-all` 15/15, `i18n:check` PASS, `lint:i18n-extended` 0 hits, `audit:conversion --strict` 672/672) están verdes en sus branches LOTE respectivos (LOTES 1, 5, 6/6b, 7) — sus reportes literales viven bajo `exentax-web/reports/`. La consolidación final con outputs textuales íntegros la produce el downstream task `lote-final-revision-report` → `REVISION-FINAL-REPORT.md`.
+> Todos los pasos `test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` / `test:discord-regression` requieren `DATABASE_URL` y se ejecutan dentro del runner paralelo `scripts/check.mjs` cuando la variable está presente (caso de Replit y de la VPS Hostinger). Cobertura post-deploy en [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden).
 
 ### Pendiente — vista rápida
 
