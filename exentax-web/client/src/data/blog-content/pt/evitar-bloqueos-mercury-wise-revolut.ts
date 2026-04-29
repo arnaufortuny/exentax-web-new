@@ -7,6 +7,8 @@ A boa notícia: a grande maioria dos bloqueios pode ser prevenida. A má: se nã
 Os bancos e fintechs têm obrigações de **KYC** (Know Your Customer) e **AML** (Anti-Money Laundering). São obrigados por lei a monitorizar as transações e reportar atividade suspeita. Se algo levanta uma bandeira vermelha, bloqueiam a conta primeiro e perguntam depois.
 ## As razões mais comuns de bloqueio:
 
+Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
+
 1. **Movimentos inconsistentes com o teu perfil**: se declaraste que a tua LLC fatura $5K/mês e de repente recebes $50K, o sistema alerta
 2. **Transferências para países de alto risco**: certos países estão em listas de sanções (OFAC)
 3. **Misturar fundos pessoais e de negócio**: é um sinal de alerta importante
@@ -41,14 +43,14 @@ Os bancos e fintechs têm obrigações de **KYC** (Know Your Customer) e **AML**
 - **Não faças transferências entre múltiplas contas Revolut** sem justificação
 ### O que fazer se te bloquearem?
 
-1. **Mantém a calma**: um bloqueio não significa que fizeste algo de errado
+1. **Mantém a calma**: um bloqueio não significa que fizeste algo de errado. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 2. **Verifica o email**: normalmente dizem-te que documentação precisam
 3. **Responde rápido e com tudo**: faturas, contratos, explicação da atividade
 4. **Sê profissional e claro**: explica o teu negócio de forma simples
 5. **Tem um plano B**: por isso recomendamos ter pelo menos duas contas (Mercury + Wise como mínimo)
 ### A regra de ouro: transparência
 
-Os bloqueios quase sempre acontecem por falta de informação, não por fazer algo de errado. Se a tua LLC opera de forma legítima, manténs documentação organizada e a tua atividade é coerente com o que declaraste ao abrir a conta, as probabilidades de bloqueio são mínimas.
+Os bloqueios quase sempre acontecem por falta de informação, não por fazer algo de errado. Se a tua LLC opera de forma legítima, manténs documentação organizada e a tua atividade é coerente com o que declaraste ao abrir a conta, as probabilidades de bloqueio são mínimas. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
 O problema surge quando as pessoas tentam operar "debaixo do radar", e é aí que as coisas se complicam.
 ### Diversifica as tuas contas
@@ -144,11 +146,11 @@ Os dois alavancas práticas que mantêm a operação fluida em Mercury e Wise s�
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
   ## O que uma LLC NÃO faz
 

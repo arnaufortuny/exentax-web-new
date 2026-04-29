@@ -115,7 +115,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
@@ -194,7 +194,7 @@ Cada situació fiscal depèn de la teva residència, de l'activitat exercida i d
 
 actualment cap esquema seriós promet "zero impostos". El que s'aconsegueix és no duplicar i declarar bé:
 
-- **Federal EUA.** Una SMLLC disregarded de no resident sense ECI/PE als EUA **no paga corporate tax federal**. Però Form 5472 + 1120 pro forma continuen, amb sanció base **25.000 USD/any** (IRC §6038A) en qualsevol *reportable transaction*.
+- **Federal EUA.** Una SMLLC disregarded de no resident sense ECI/PE als EUA **no paga corporate tax federal**. Però Form 5472 + 1120 pro forma continuen, amb sanció base **25.000 USD/any** (IRC §6038A) en qualsevol *reportable transaction*. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 - **Residència fiscal.** Si vius a Espanya, Itàlia o Alemanya, l'atribució de rendes aplica llevat de PE en l'altra jurisdicció. CFC i *exit tax* limiten esquemes purament "offshore".
 - **Pillar Two OCDE (GloBE).** En vigor des del gener de 2024, **15 % efectiu mínim** per a grups ≥ 750 M EUR de facturació. No afecta LLC unipersonals amb facturació habitual, però convé saber-ho si planeges escalar.
 

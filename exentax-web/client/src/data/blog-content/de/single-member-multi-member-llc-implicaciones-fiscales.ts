@@ -31,7 +31,7 @@ Schwache Gründe: "wirkt professioneller", "Steuern verdünnen", "Ehepartner auf
 - **Form 1065** jährlich, Frist 15. März (Verlängerung bis 15. September).
 - **K-1 an jedes Mitglied** zum gleichen Termin; verspätete Zustellung: spezifische Strafen.
 - **Form 8804/8805** bei ausländischem Mitglied; Partnership muss auf ECI zum höchsten Satz einbehalten.
-- **Strafe für nicht eingereichtes 1065**: aktuell ca. 245 USD pro Monat und Mitglied.
+- **Strafe für nicht eingereichtes 1065**: aktuell ca. 245 USD pro Monat und Mitglied. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
 ### Im Wohnsitzland des Mitglieds
 - Manche Länder behandeln die Partnership als **transparent**: Mitglied versteuert seinen Anteil im persönlichen Steuerbescheid.
@@ -111,7 +111,7 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist er hier nicht sauber, wird jede nachgelagerte Annahme gegenüber der Behörde verhandelbar.
 ## Rechtliche und regulatorische Referenzen
 
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
+Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
 <!-- exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-de -->
 ## Wie sich die Wahl single-member vs multi-member LLC als stabile strukturelle Eigenschaft statt als jährliche Steueroptimierung lesen lässt
@@ -130,8 +130,6 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 ## Bank- und Steuerfakten, die es zu präzisieren gilt
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
-
-
 
 ## Konkretes Beispiel: ein sauber orchestrierter Multi-Member-Wechsel
 
@@ -153,25 +151,21 @@ Anna betreibt seit achtzehn Monaten eine Wyoming-LLC als Single-Member von Madri
 
 Taucht eines dieser Signale in Ihrem Fall auf, spart ein kostenloses Gespräch mit unserem Team vor dem Schritt häufig sechs Monate nachgelagerter Reparatur.
 
-
-
 ### Drei Alltagsanpassungen nach dem Wechsel
 
 Sobald der Übergang unterschrieben und gemeldet ist, ändert sich der LLC-Alltag in kleinen Schritten statt in großen Brüchen. Drei Anpassungen lohnen die Vorbereitung im Voraus, damit der Tagesbetrieb nicht leidet.
 
-Erstens werden Ausschüttungen ein vierteljährliches Thema, nicht mehr nur ein jährliches: Wer wann wie viel erhält, braucht eine kurze, regelmäßige Notiz, die beide Mitgesellschafter:innen mit Datum bestätigen. Zweitens wechselt die Buchhaltung auf einen Dual-Member-Kontenplan, in dem jeder Ausgabeposten die Beteiligungsquote spiegelt; wir liefern eine fertige Mercury-Wise-Vorlage für unsere Mandant:innen. Drittens lohnt es sich, externe Kommunikation — Stripe, Lieferanten, Großkunden — so anzupassen, dass beide im Operating Agreement genannten Unterzeichnungsberechtigten erkennbar sind. Das vermeidet Überraschungen bei den jährlichen KYC-Prüfungen.
+Erstens werden Ausschüttungen ein vierteljährliches Thema, nicht mehr nur ein jährliches: Wer wann wie viel erhält, braucht eine kurze, regelmäßige Notiz, die beide Mitgesellschafter:innen mit Datum bestätigen. Zweitens wechselt die Buchhaltung auf einen Dual-Member-Kontenplan, in dem jeder Ausgabeposten die Beteiligungsquote spiegelt; wir liefern eine fertige Mercury-Wise-Vorlage für unsere Mandant:innen. Drittens lohnt es sich, externe Kommunikation — Stripe, Lieferanten, Großkunden — so anzupassen, dass beide im Operating Agreement genannten Unterzeichnungsberechtigten erkennbar sind. Das vermeidet Überraschungen bei den jährlichen KYC-Prüfungen. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 ### Wann der Schritt warten kann
 
 Wir empfehlen häufig, mit dem Multi-Member-Schritt zu warten, wenn die operative LLC weniger als zwölf Monate alt ist, wenn der jährliche Nettogewinn die mittlere fünfstellige USD-Marke nicht überschreitet oder wenn die geplante zweite Gesellschafterin in einem Land mit komplexer CFC-Regelung sitzt und die Vorprüfung noch aussteht. In all diesen Fällen kostet ein Wartejahr nichts, ein vorzeitiger Sprung kann zwölf Monate Reparaturarbeit bedeuten.
 
-
-
 ### Wie wir die Übergangs-Checkliste konkret strukturieren
 
 Unsere interne Checkliste für den Single-zu-Multi-Member-Wechsel hat vier feste Spalten und neun Zeilen. Spalten: Aufgabe, Verantwortliche, Frist, Belegablage. Zeilen: Operating-Agreement-Entwurf, formale Annahme der zweiten Mitgesellschafterin, Form 8832 (sofern erforderlich), BOI-Update im 30-Tage-Fenster, EIN-Entscheidung, Mercury-KYC-Aktualisierung, Wise-KYC-Aktualisierung, Stripe-Owner-Update, Buchhaltungsumstellung auf zwei Mitglieder. Diese Checkliste begleitet den Wechsel sechs Wochen lang, jede Zeile mit Datum erledigt. Sie verhindert, dass eine Aufgabe zwischen Beraterin, Mandantin und Bank verloren geht.
 
-In der Praxis fragen Mandant:innen am häufigsten nach Spalte vier (Belegablage). Wir empfehlen einen Ordner pro Zeile mit klarem Namensschema: Datum, Aufgabe, Ergebnis. Das macht den Wechsel auch zwei Jahre später für eine externe Prüfung nachvollziehbar.
+In der Praxis fragen Mandant:innen am häufigsten nach Spalte vier (Belegablage). Wir empfehlen einen Ordner pro Zeile mit klarem Namensschema: Datum, Aufgabe, Ergebnis. Das macht den Wechsel auch zwei Jahre später für eine externe Prüfung nachvollziehbar. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 <!-- exentax:execution-v2 -->
 ## Single-Member vs Multi-Member LLC: steuerliche Auswirkungen, die das ganze Setup ändern
@@ -223,7 +217,6 @@ Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchzi
 
 Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.
 
-
 <!-- exentax:lote10-native-v1:single-member-multi-member-llc-implicaciones-fiscales -->
 ## Eine kurze Schlussbemerkung
 
@@ -251,11 +244,11 @@ Damit die Klassifikation auch operativ wirksam bleibt, lohnt es sich, sie in der
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
   ## Was eine LLC NICHT tut
 

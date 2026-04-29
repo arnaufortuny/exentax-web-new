@@ -38,7 +38,7 @@ Una estructura mal diseñada o usada incorrectamente puede generar más problema
 - **Sede de dirección efectiva (POEM)**: si la sociedad se administra realmente desde tu país de residencia, ese país puede tratarla como residente local y reclamar impuesto de sociedades, intereses y sanciones.
 - **Transparencia fiscal internacional (CFC)**: muchos países (España, Francia, Alemania, México, Argentina) imputan los beneficios de sociedades extranjeras controladas si se cumplen ciertos requisitos (porcentaje de participación, baja tributación, rentas pasivas).
 - **Cierres bancarios**: jurisdicciones percibidas como problemáticas (BVI, Belize, Seychelles) generan cierres preventivos en bancos europeos y americanos.
-- **Coste recurrente desproporcionado**: una sociedad offshore mal elegida puede consumir 5.000-15.000 USD/año en domicilios, agentes, contabilidad obligatoria y auditorías sin aportar beneficio fiscal real.
+- **Coste recurrente desproporcionado**: una sociedad offshore mal elegida puede consumir 5.000-15.000 USD/año en domicilios, agentes, contabilidad obligatoria y auditorías sin aportar beneficio fiscal real. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 - **Reputación**: en algunos sectores y mercados, tener una sociedad en jurisdicción "exótica" cierra puertas con clientes corporativos.
 - **Cambios regulatorios**: BEPS Pillar Two, lista UE de jurisdicciones no cooperativas, registros de beneficiarios finales, cambios constantes en exigencias de sustancia económica. Lo que hoy funciona puede no funcionar dentro de tres años.
 ### Jurisdicciones reales y para qué sirven
@@ -70,13 +70,13 @@ Para freelancers, asesores, agencias digitales, SaaS, ecommerce y creadores que 
 - Banca operativa online (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments accesibles.
 - Reputación neutral y profesional en cualquier mercado.
-- Sin auditoría obligatoria.
+- Sin auditoría obligatoria. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 Para perfiles más complejos (patrimonio relevante, varios socios, distintos países), la respuesta puede ser una combinación de jurisdicciones, no una sola sociedad.
 ### Casos típicos donde aplica
 
 **Caso 1: profesional sin estructura, residente en país <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.**
-Comenzar con LLC americana correctamente declarada. Es la mejor relación coste/beneficio/legitimidad. Estructuras offshore puras no aportan nada y exponen a sanciones graves.
+Comenzar con LLC americana correctamente declarada. Es la mejor relación coste/beneficio/legitimidad. Estructuras offshore puras no aportan nada y exponen a sanciones graves. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 **Caso 2: empresario consolidado con activos a proteger.**
 Holding en jurisdicción razonable (España, Países Bajos, Luxemburgo según perfil) con operativa local. Ofrece protección patrimonial real, optimización fiscal y aceptación bancaria sin las banderas rojas de offshore puro.
@@ -95,7 +95,7 @@ Sí, siempre que se declare en tu país de residencia. La ilegalidad surge cuand
 
 **¿Qué pasa si mi país detecta la estructura offshore?**
 
-Si la has declarado correctamente, nada extraordinario: tributará según las reglas de transparencia fiscal internacional (CFC) de tu país. Si no la has declarado, sanciones por entre el 50% y el 200% más recargos, intereses y posible delito.
+Si la has declarado correctamente, nada extraordinario: tributará según las reglas de transparencia fiscal internacional (CFC) de tu país. Si no la has declarado, sanciones por entre el 50% y el 200% más recargos, intereses y posible delito. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 
 **¿Sirven las offshore para evitar embargos?**
 

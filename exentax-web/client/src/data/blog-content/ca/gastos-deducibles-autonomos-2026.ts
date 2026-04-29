@@ -1,10 +1,10 @@
 export default `
 
-La factura fiscal d'un autònom a Espanya depèn menys del tipus marginal i més de les despeses que sap documentar. La diferència entre qui declara 50.000 euros de rendiment net i qui declara 35.000 amb la mateixa facturació està gairebé sempre en la disciplina comptable, no en trucs. Aquesta guia recull la llista pràctica de despeses deduïbles actualment vigents, els criteris d'afectació a l'activitat, els límits legals que l'AEAT vigila amb especial interès i els errors que cada any generen paral·leles i sancions evitables.
+La factura fiscal d'un autònom a Espanya depèn menys del tipus marginal i més de les despeses que sap documentar. La diferència entre qui declara 50.000 euros de rendiment net i qui declara 35.000 amb la mateixa facturació està gairebé sempre en la disciplina comptable, no en trucs. Aquesta guia recull la llista pràctica de despeses deduïbles actualment vigents, els criteris d'afectació a l'activitat, els límits legals que l'AEAT vigila amb especial interès i els errors que cada any generen paral·leles i sancions evitables. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 ## Criteris generals: necessari, vinculat i justificat
 
-Perquè una despesa sigui deduïble ha de complir tres condicions: estar vinculada a l'activitat econòmica, estar correctament justificada documentalment (factura, no rebut genèric) i estar registrada als llibres comptables de l'autònom. Sense un dels tres, l'AEAT pot rebutjar la deducció en qualsevol comprovació. La factura ha d'incloure el teu NIF, el del proveïdor, data, descripció concreta i desglossament d'IVA quan apliqui. Els pagaments en efectiu per imports superiors a 1.000 euros entre professionals estan prohibits per la Llei de Lluita contra el Frau Fiscal i suposen pèrdua de la deducció més sanció independent.
+Perquè una despesa sigui deduïble ha de complir tres condicions: estar vinculada a l'activitat econòmica, estar correctament justificada documentalment (factura, no rebut genèric) i estar registrada als llibres comptables de l'autònom. Sense un dels tres, l'AEAT pot rebutjar la deducció en qualsevol comprovació. La factura ha d'incloure el teu NIF, el del proveïdor, data, descripció concreta i desglossament d'IVA quan apliqui. Els pagaments en efectiu per imports superiors a 1.000 euros entre professionals estan prohibits per la Llei de Lluita contra el Frau Fiscal i suposen pèrdua de la deducció més sanció independent. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 ## Programari, eines digitals i subscripcions
 
 Tota l'arquitectura digital de l'autònom és íntegrament deduïble: hosting, dominis, programari de facturació, eines de disseny, IDEs, subscripcions a IA generativa, serveis de correu, emmagatzematge al núvol, ERP, CRM, plataformes de cursos, plugins, llicències anuals i mensuals. La factura ha d'estar emesa al teu NIF i, si el proveïdor és de la UE, portar el sistema d'inversió del subjecte passiu al model 303. Subscripcions a Netflix o Spotify personals no són deduïbles tot i que les usis parcialment per inspirar-te; l'AEAT exigeix ús exclusivament professional.
@@ -23,7 +23,7 @@ Els honoraris d'assessoria fiscal, comptable i laboral són íntegrament deduïb
 
 ## Errors freqüents i l'alternativa estructural
 
-Els errors que més sancions generen: pretendre deduir menjars familiars com a dietes, gasolina personal sense ús professional documentat, roba personal facturada com a uniforme sense ser-ho, regals a clients superiors a l'1% de la xifra de negoci i, sobretot, despeses sense factura. Si la teva activitat és 100% digital, una <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC americana</a> permet documentar despeses amb criteris nord-americans (ordinary and necessary), bastant més amplis i flexibles que els espanyols, mantenint la traçabilitat completa per a la teva declaració a residència.
+Els errors que més sancions generen: pretendre deduir menjars familiars com a dietes, gasolina personal sense ús professional documentat, roba personal facturada com a uniforme sense ser-ho, regals a clients superiors a l'1% de la xifra de negoci i, sobretot, despeses sense factura. Si la teva activitat és 100% digital, una <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC americana</a> permet documentar despeses amb criteris nord-americans (ordinary and necessary), bastant més amplis i flexibles que els espanyols, mantenint la traçabilitat completa per a la teva declaració a residència. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 El criteri oficial sobre despeses deduïbles està recollit a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Llei 35/2006 de l'IRPF</a> i a les consultes vinculants de la <a href="https://petete.tributos.hacienda.gob.es/">DGT</a>. Documentar bé avui estalvia molt demà: cada factura arxivada és un euro menys per a Hisenda.
 
 ## Taula detallada de despeses deduïbles per categoria
@@ -55,7 +55,7 @@ El criteri oficial sobre despeses deduïbles està recollit a la <a href="https:
 
 | Error | Conseqüència |
 |---|---|
-| Deduir menjars familiars com a dietes | Sanció + recàrrec + reclassificació |
+| Deduir menjars familiars com a dietes | Sanció + recàrrec + reclassificació |. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 | Combustible personal sense llibre de viatges | Reducció al 50% en el millor cas, 0% si flagrant |
 | Roba personal com a "uniforme" | No deduïble llevat de serigrafia corporativa permanent |
 | Regals a clients >1% xifra negocis | Excés no deduïble |
@@ -108,15 +108,14 @@ El que veiem cada setmana en els casos que ens arriben és sempre el mateix patr
 Si vols passar del dubte al pla, reserva 30 minuts amb Exentax i sortim de la trucada amb els números tancats i un calendari operatiu.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
   ## El que una LLC NO fa
 

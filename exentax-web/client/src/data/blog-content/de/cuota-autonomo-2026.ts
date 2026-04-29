@@ -26,7 +26,6 @@ Jedes Jahr gleicht die TGSS die vorläufig gezahlten Beiträge mit dem realen, i
 Für rein digitale Profile mit überwiegend internationalen Kunden ermöglicht eine <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">gut strukturierte US-LLC</a>, das RETA abzumelden und als juristische Person aus den USA zu operieren, mit Jahres-Wartungskosten weit unter der Autonomo-Jahresquote. Bedingung ist, dass Tätigkeit und Rechnungsstellung tatsächlich über die LLC laufen, nicht als bloße Fassade. Liegt Ihre Monatsbemessung bei rund 6.000 Euro und nähert sich der Mindestbeitrag 607 Euro (während das Maximum der Stufe 1.607 Euro erreicht), kann die Nettoersparnis sogar die Koordinationskosten mit Ihrem spanischen Steuerberater übersteigen.
 Prüfen Sie die geltende offizielle Tabelle im <a href="https://www.seg-social.es/">Portal der spanischen Sozialversicherung</a> und das <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1994-14960">Königliche Gesetzesdekret 1/1994</a>, das RETA regelt. Heute zu wenig zu zahlen kann morgen teuer werden; unnötig zu viel zu zahlen schmälert Ihre Ersparnisse. Der Schlüssel ist eine realistische Bemessung und vierteljährliche Überprüfung.
 
-
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.
 
 <!-- exentax:execution-v2 -->
@@ -47,15 +46,14 @@ Was wir jede Woche sehen in den Fällen, die uns erreichen, ist immer dasselbe M
 Wenn Sie vom Zweifel zum Plan kommen wollen, buchen Sie 30 Minuten mit Exentax und wir verlassen das Gespräch mit geschlossenen Zahlen und einem operativen Kalender.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
   ## Was eine LLC NICHT tut
 
@@ -108,7 +106,6 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:cuota-autonomo-2026 -->
 ### Wie ein Stufenwechsel-Antrag in der Praxis funktioniert

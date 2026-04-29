@@ -74,7 +74,7 @@ Si tu LLC vende en Amazon Europa, cobra en Wise Belgium, paga proveedores europe
 1. **Declara los ingresos coherentemente.** Si vendes en Amazon Europa, esos ingresos se cruzan con tu IRPF español, mexicano o argentino mediante el dato DAC7 + CRS. La única estrategia válida es declarar bien.
 2. **Optimiza dentro de lo legal.** Hay deducibilidad de gastos en la LLC (ver <a href="/es/blog/como-operar-llc-dia-a-dia">gastos deducibles en tu LLC</a>) y planificación de remesa al socio.
 3. **Considera la sustancia.** Si vas a operar a gran escala desde una LLC, dótala de sustancia (oficina, contratos, gestores, presencia operativa real) o asume que la AEAT puede mirarla con criterios de transparencia/simulación. Marco completo en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
-4. **No dejes pasar el primer aviso.** Las haciendas suelen enviar comunicaciones de "discrepancia" antes de iniciar inspección formal; responder bien evita el procedimiento.
+4. **No dejes pasar el primer aviso.** Las haciendas suelen enviar comunicaciones de "discrepancia" antes de iniciar inspección formal; responder bien evita el procedimiento. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 ### En resumen
 
 DAC7 es el complemento natural de CRS para la economía de plataformas. No es opcional, no se evita y, combinada con CRS y DAC8, conforma el sistema de información tributaria más denso de la historia europea. La forma profesional de operar es declarar bien y diseñar la estructura para que lo declarado sea fiscalmente eficiente.
@@ -151,15 +151,14 @@ Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
   ## Lo que NO hace una LLC
 

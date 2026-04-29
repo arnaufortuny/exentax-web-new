@@ -115,7 +115,7 @@ Solo si tienes situaciones pendientes del pasado sin regularizar. Para planifica
 
 **¿Vale la pena consultar antes de actuar?**
 
-Siempre. Una hora de asesoramiento profesional antes de constituir ahorra años de problemas y miles de euros en sanciones. Los errores de estructura inicial son los más caros y difíciles de corregir.
+Siempre. Una hora de asesoramiento profesional antes de constituir ahorra años de problemas y miles de euros en sanciones. Los errores de estructura inicial son los más caros y difíciles de corregir. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
 **¿Hay riesgo de cambio normativo que invalide mi planificación?**
 

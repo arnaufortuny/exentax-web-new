@@ -163,7 +163,6 @@ _Dans la même série: [Risques fiscaux d'une mauvaise structuration internation
 
 Vous souhaitez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

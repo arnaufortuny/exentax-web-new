@@ -10,7 +10,7 @@ La **LLC (Limited Liability Company)** est une figure hybride créée par les lo
 
 Pour un non-résident sans **ETBUS** (Effectively Connected Trade or Business in the United States) et sans **US-source FDAP income**, la LLC disregarded **ne génère pas d'obligation de Form 1040-NR substantif** ni ne paie d'impôt fédéral sur le revenu : la règle de base du **IRC §§871 et 882** ne soumet les non-résidents qu'à (a) US-source FDAP avec retenue à la source de 30 % (ou taux conventionnel) et (b) revenus effectivement connectés à un trade or business aux États-Unis. Sans ces deux éléments, la LLC paie **0 % fédéral**. Au niveau étatique, **Wyoming, Nouveau-Mexique, Floride, Texas et Dakota du Sud** n'ont pas d'impôt sur le revenu corporatif étatique, ce qui ajoute **0 % étatique** quand il n'y a pas de nexus.
 
-L'obligation pratique qui demeure : annuelle **Form 5472 + Form 1120 pro-forma** (Treas. Reg. §1.6038A-1, en vigueur depuis 2017) pour SMLLC propriété d'un non-résident avec toute *reportable transaction* avec son unique membre. Sanction de base : **25 000 USD par formulaire et par an** (IRC §6038A(d)) plus **25 000 USD par chaque 30 jours additionnels** après notification de l'IRS.
+L'obligation pratique qui demeure : annuelle **Form 5472 + Form 1120 pro-forma** (Treas. Reg. §1.6038A-1, en vigueur depuis 2017) pour SMLLC propriété d'un non-résident avec toute *reportable transaction* avec son unique membre. Sanction de base : **25 000 USD par formulaire et par an** (IRC §6038A(d)) plus **25 000 USD par chaque 30 jours additionnels** après notification de l'IRS. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 ## Corporation : par défaut C-Corporation
 
@@ -121,7 +121,6 @@ Ce que nous voyons chaque semaine est le même schéma : le doute reste à l'ét
 
 Si vous voulez passer du doute au plan, réservez 30 minutes avec Exentax et nous sortons de l'appel avec les chiffres bouclés et le calendrier opérationnel.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

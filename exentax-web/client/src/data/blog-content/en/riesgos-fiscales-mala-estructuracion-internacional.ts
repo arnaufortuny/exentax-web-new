@@ -8,7 +8,7 @@ A well-designed international structure is an extraordinary tool. A poorly desig
 
 Simulation occurs when acts or transactions are apparent and do not respond to operational reality. Applied to international structures: if you interpose a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> between yourself and your clients but you continue providing the activity materially from Spain (same team, same office, same decisions), the AEAT can declare simulation and attribute income directly to you as an individual.
 
-**Consequence**: regularization for all non-prescribed years (4 years in Spain, 5 in Mexico, 5 in Colombia) + late-payment interest + penalty 50-150% (art. 191-195 LGT) + possible tax crime if the defrauded amount per year exceeds €120,000 (art. 305 CP).
+**Consequence**: regularization for all non-prescribed years (4 years in Spain, 5 in Mexico, 5 in Colombia) + late-payment interest + penalty 50-150% (art. 191-195 LGT) + possible tax crime if the defrauded amount per year exceeds €120,000 (art. 305 CP). Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 **How to avoid**: give the LLC real **substance** (decision-making, operations, infrastructure) or accept from the start that the LLC is a complementary tool, not a façade. Developed in <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">designing a solid international structure</a>.
 
@@ -35,7 +35,7 @@ The most common. The taxpayer "moves" tax residency to Andorra, Paraguay, Dubai 
 
 The AEAT cross-checks: municipal registry, prior IRPF, change-of-domicile communications, CRS bank data, DAC7 data, vehicles in your name, schools, gym, doctor, properties.
 
-**Consequence**: if AEAT declares you remain a Spanish tax resident, **your worldwide income** is again taxed in Spain, with full regularization, interest, penalties and possible crime.
+**Consequence**: if AEAT declares you remain a Spanish tax resident, **your worldwide income** is again taxed in Spain, with full regularization, interest, penalties and possible crime. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 **How to avoid**: if you change residency, do it for real (over 183 days outside Spain, no centre of interests in Spain, with new-country tax residence certificate). Developed in <a href="/en/blog/digital-nomad-where-to-pay-taxes-and-how-to-choose-your-tax">digital nomad tax residency</a>.
 ### Risk 4: Hidden Permanent Establishment (PE)
@@ -44,7 +44,7 @@ If your US LLC operates materially from Spain (office, representative with power
 
 - The LLC taxes Non-Resident Income Tax (IRNR) on PE-attributable income at 25%.
 - Books are kept separately and transfer pricing with the parent is documented.
-- Penalties for not declaring the PE earlier.
+- Penalties for not declaring the PE earlier. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 **How to avoid**: if activity is essentially Spanish, consider whether the LLC is the right vehicle or whether a Spanish operating S.L. fits better. Analysis in <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">designing a solid international structure</a>.
 ### Risk 5: Treaty shopping and DTT abuse
@@ -60,7 +60,7 @@ In Spain, the tax crime under art. 305 CP activates when the defrauded amount pe
 
 A poorly designed multi-year structure can accumulate amounts crossing that threshold easily: if your activity generates €200,000 annually and you should have taxed at 47% but declared 0%, in two years you cross the threshold and enter the criminal field.
 
-Penalties: 1-5 years prison and 100%-600% fine. Aggravated (2-6 years) when amounts exceed €600,000, organized structure or tax havens used.
+Penalties: 1-5 years prison and 100%-600% fine. Aggravated (2-6 years) when amounts exceed €600,000, organized structure or tax havens used. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 **How to avoid**: legal structure + correct declaration + correct payment. There is wide legal optimization margin; going outside makes no sense.
 ## How these risks materialize in practice
@@ -70,10 +70,10 @@ The typical path:
 1. Year 1-2: person structures LLC without advice, declares poorly or not at all.
 2. Year 3: CRS / DAC7 / DAC8 cross-check detects inconsistencies.
 3. Year 4: "discrepancy" notice or informational request from AEAT.
-4. Year 5: provisional liquidation, regularization proposal + interest + penalty.
+4. Year 5: provisional liquidation, regularization proposal + interest + penalty. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 5. Year 6: if amounts exceed criminal thresholds and no prior voluntary regularization, referral to Public Prosecutor.
 
-**Voluntary regularization** before the request (art. 305.4 CP) excludes criminal liability and significantly reduces the tax penalty. Always the best option if you detect your situation needs adjustment.
+**Voluntary regularization** before the request (art. 305.4 CP) excludes criminal liability and significantly reduces the tax penalty. Always the best option if you detect your situation needs adjustment. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 ### How to build a structure without these risks
 
 1. **Start with the correct classification** of the LLC in your jurisdiction (see <a href="/en/blog/the-spanish-administrative-doctrine-on-the-us-llc-feb-2020">DGT/TEAC doctrine</a>).
@@ -125,7 +125,7 @@ A badly built international structure does not fail because of the structure: it
 - **Inexistent or fictitious transfer pricing.** If your US LLC charges your Spanish company amounts not market-sustained, or your UAE company invoices services not delivered, transfer pricing adjustment recharacterises with up to 100% penalty on the difference.
 - **Hidden beneficial ownership.** Nominee director without real operating control, opaque trusts without substance trustee, family proxies to dodge BOI. Three jurisdictions already cooperate: BOI (US), UBO registry (EU), CRS (global). Hiding the real UBO is aggravated money-laundering offence, not tax infringement. Jail is an option.
 - **Non-declaration at residence.** Spain (720 + 721 + IRPF), France (3916 + IR), Italy (RW), Germany (AStG). Sanction may exceed tax owed (50%-150% + interest). If discovered via CRS before voluntary regularisation, no confession discount.
-- **Mixing personal and corporate money without traceability.** LLC card for personal expenses, transfers to family without concept, undocumented draws. Breaks limited liability, complicates bookkeeping, in audit interpreted as simulation.
+- **Mixing personal and corporate money without traceability.** LLC card for personal expenses, transfers to family without concept, undocumented draws. Breaks limited liability, complicates bookkeeping, in audit interpreted as simulation. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
 ### What we are asked the most
 
@@ -154,7 +154,7 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 
   ### International tax structuring risks: UK and US enforcement perspective
 
-  From a UK angle, the **Diverted Profits Tax (DPT)** introduced by **Finance Act 2015 ss. 77-116** at a 25 % rate (rising to 31 % from April 2023) penalises structures lacking economic substance. **HMRC's GAAR** (general anti-abuse rule, **FA 2013 ss. 206-215**) plus the **Targeted Anti-Avoidance Rules (TAARs)** scattered across CTA 2010 cover specific structuring abuses. From the US side, **IRC §482 transfer pricing**, **§7701(o) economic substance doctrine** (codified by Health Care Act 2010 with 20-40 % strict-liability penalty under §6662(b)(6)), and **GILTI under §951A** (10.5-13.125 % effective rate post-TCJA) limit aggressive offshore structuring.
+  From a UK angle, the **Diverted Profits Tax (DPT)** introduced by **Finance Act 2015 ss. 77-116** at a 25 % rate (rising to 31 % from April 2023) penalises structures lacking economic substance. **HMRC's GAAR** (general anti-abuse rule, **FA 2013 ss. 206-215**) plus the **Targeted Anti-Avoidance Rules (TAARs)** scattered across CTA 2010 cover specific structuring abuses. From the US side, **IRC §482 transfer pricing**, **§7701(o) economic substance doctrine** (codified by Health Care Act 2010 with 20-40 % strict-liability penalty under §6662(b)(6)), and **GILTI under §951A** (10.5-13.125 % effective rate post-TCJA) limit aggressive offshore structuring. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

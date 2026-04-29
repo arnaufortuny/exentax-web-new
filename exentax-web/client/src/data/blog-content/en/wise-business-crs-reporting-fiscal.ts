@@ -97,7 +97,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** When the LLC is an operating *Single-Member Disregarded Entity* (real services, no significant passive income), the Spanish tax office normally treats it under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and folded into the general IRPF base. If instead the LLC elects corporation tax treatment via Form 5472 paired with **Form 8832** (the IRS election form) and ends up controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** kicks in. The choice is not optional: it follows the economic substance, not the label on the paperwork.
-- **Information returns.** US bank accounts whose average or year-end balance crosses 50,000 €: **Modelo 720** (the Spanish foreign-asset return, updated by Law 5/2022 after the CJEU ruling C-788/19 of 27/01/2022; penalties now sit inside the general LGT regime). Related-party transactions with the LLC and any dividends sent home: **Modelo 232**. Crypto assets custodied in the US: **Modelo 721**.
+- **Information returns.** US bank accounts whose average or year-end balance crosses 50,000 €: **Modelo 720** (the Spanish foreign-asset return, updated by Law 5/2022 after the CJEU ruling C-788/19 of 27/01/2022; penalties now sit inside the general LGT regime). Related-party transactions with the LLC and any dividends sent home: **Modelo 232**. Crypto assets custodied in the US: **Modelo 721**. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force from 27/11/2019) governs the double-taxation rules on dividends, interest and royalties. An LLC with no permanent establishment in Spain does not by itself create a PE for the member, but effective management absolutely can if the entire business is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). The shared logic: profits parked inside the LLC are treated as received by the member whenever the entity is considered transparent or controlled.
 
@@ -151,7 +151,6 @@ _More on this topic: [Visa and Mastercard: what tax authorities really see of yo
 <!-- related-inline-stripped-2026-04 -->
 
 Want to apply this protocol to your own case? <a href="/en/book">Book a session with the Exentax team</a> and we will go through your LLC with real numbers in thirty minutes, no commitment.
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

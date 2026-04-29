@@ -62,7 +62,7 @@ A well-managed UK Ltd costs:
 - **Annual accounts** filed: handling GBP 300-1,500 depending on volume.
 - **Corporation Tax Return (CT600)**: GBP 400-1,500.
 - **Monthly bookkeeping**: variable depending on volume, from GBP 1,000 per year.
-- **Audit** if exceeding thresholds (GBP 10.2M turnover, GBP 5.1M balance, 50 employees): does not apply to small companies.
+- **Audit** if exceeding thresholds (GBP 10.2M turnover, GBP 5.1M balance, 50 employees): does not apply to small companies. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 Realistic annual floor: GBP 1,200-3,500.
 ### Banking: well structured but demanding for non-residents
@@ -84,7 +84,7 @@ Stripe, PayPal and Adyen work with no restrictions for UK Ltd.
 - **Regulatory transparency**: the British system is predictable and consolidated.
 - **Access to the UK market** for UK clients: important in sectors such as advisory, fintech, European ecommerce, marketing.
 - **Broad double tax treaties**.
-- **No mandatory audit** for SMEs.
+- **No mandatory audit** for SMEs. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 - **Substantial Shareholding Exemption (SSE)** for holdings with qualifying interests.
 ### Disadvantages and limitations
 
@@ -117,7 +117,7 @@ For pure tax optimization without real British presence, the US LLC solves the a
 
 - **Not registering for PAYE but paying yourself a salary**: HMRC penalizes with significant fines.
 - **Forgetting the Confirmation Statement**: Companies House can strike off the company on its own initiative.
-- **Late annual accounts**: penalties that escalate quickly (from GBP 150 to GBP 1,500 per delay).
+- **Late annual accounts**: penalties that escalate quickly (from GBP 150 to GBP 1,500 per delay). And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 - **Operating as a UK Ltd while being a tax resident in another country without declaring control**: your home tax authority may apply international transparency or effective management rules.
 - **Mismanaged VAT**: especially in international B2C, frequent errors with OSS and post-Brexit rules.
 ### When to choose a UK Ltd
@@ -177,7 +177,7 @@ At Exentax we can help you compare the two options with real numbers for your ac
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).

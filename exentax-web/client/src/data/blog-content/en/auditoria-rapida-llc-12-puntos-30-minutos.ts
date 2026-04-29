@@ -4,9 +4,9 @@ The point is not to scare you, it is to give you a map. If you pass the twelve c
 
 ## Why run this audit now
 
-A well-managed LLC in year one tends to stay well-managed. An LLC that drags errors compounds them with interest: penalties that grow month by month, forms that get more expensive to remediate, banking that becomes harder to maintain when KYC reviews start coming in.
+A well-managed LLC in year one tends to stay well-managed. An LLC that drags errors compounds them with interest: penalties that grow month by month, forms that get more expensive to remediate, banking that becomes harder to maintain when KYC reviews start coming in. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
-The quick audit has one concrete goal: turn a vague feeling ("I think it is all fine") into something verifiable. If you find two or three red flags, the action plan is much cheaper than discovering them in an inspection.
+The quick audit has one concrete goal: turn a vague feeling ("I think it is all fine") into something verifiable. If you find two or three red flags, the action plan is much cheaper than discovering them in an inspection. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 ## The 12 checks
 
 ### 1. Legal status of the LLC
@@ -15,7 +15,7 @@ Go to the Secretary of State website for the formation state and look up your LL
 
 ### 2. Registered Agent in good standing
 
-Did you renew the Registered Agent this year? Is the address on file with the state current? A lapsed RA results in lost mail from the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> or FinCEN, which results in penalties that arrive without warning.
+Did you renew the Registered Agent this year? Is the address on file with the state current? A lapsed RA results in lost mail from the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> or FinCEN, which results in penalties that arrive without warning. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 ### 3. Annual Report or Franchise Tax filed
 
@@ -51,7 +51,7 @@ Did you report the LLC's income on your domestic personal tax return? This is no
 
 ### 11. Modelo 720/721 if you reside in Spain
 
-If you reside in Spain and the sum of foreign accounts, securities or crypto exceeds €50,000, you have an information reporting obligation. The CJEU ruling capped the disproportionate penalty, but the obligation is still in force and is cross-checked automatically.
+If you reside in Spain and the sum of foreign accounts, securities or crypto exceeds €50,000, you have an information reporting obligation. The CJEU ruling capped the disproportionate penalty, but the obligation is still in force and is cross-checked automatically. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 
 ### 12. Calendar and provider for next year
 
@@ -63,7 +63,7 @@ Finally: is it clear who files your 5472 next April? Who renews the RA? Who watc
 - **6 or more red flags:** you are in risk territory. Voluntary remediation is cheap; waiting for an IRS, FinCEN or domestic letter is expensive.
 ## What to do with the result
 
-If the audit comes out clean, file the exercise in your LLC folder with date. Repeat every six months; it takes twenty minutes.
+If the audit comes out clean, file the exercise in your LLC folder with date. Repeat every six months; it takes twenty minutes. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
 If you find red flags, the sensible order is: legal first (state, RA, BOI), then federal tax (back-filed 5472 with the right strategy), then country (voluntary remediation if needed), and operations last (banking and platforms). Doing it all at once is rarely a good idea; sequencing it over 60-90 days almost always is.
 
@@ -93,9 +93,11 @@ Fintech and CRS information evolves; here is the current state:
 <!-- exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
 ## How to integrate the 12-point audit into a quarterly rhythm without it becoming an extra task
 
+Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
+
 The 12-point audit reaches its full value when it stops being treated as a one-off check and becomes part of a quarterly rhythm. Tied to the close of each quarter and run in a fixed thirty-minute slot, it stops competing with operational work and starts producing useful comparisons across quarters.
 
-A practical way to anchor the audit in the quarterly rhythm is to schedule it the day after the quarterly bank reconciliation, so the figures it relies on are already up to date. The audit then operates on a stable base and doesn't require any preparatory data work of its own.
+A practical way to anchor the audit in the quarterly rhythm is to schedule it the day after the quarterly bank reconciliation, so the figures it relies on are already up to date. The audit then operates on a stable base and doesn't require any preparatory data work of its own. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 When the same checklist is run quarter after quarter, the small drifts surface early: a permission that was added without being recorded, an unused account that was never closed, a recurring fee that no longer matches its original purpose. These drifts, caught quarterly, take a few minutes to correct; left for the year-end review, they often require half a day.
 <!-- /exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
@@ -121,7 +123,7 @@ Our team specialises in international tax structures for residents of Spanish-sp
 Three concrete changes from the past year change how to score this audit today:
 
 - **BOI Report (FinCEN).** **NOT required for US-formed LLCs owned by non-residents** after FinCEN's March 2025 interim final rule, which narrowed the scope to **foreign reporting companies** (entities formed outside the US and registered in a state). If your entity falls there, it identifies the beneficial owner (anyone holding **≥ 25 %** ownership or **substantial control**), is filed free of charge at [FinCEN's official BOI E-Filing portal](https://boiefiling.fincen.gov) in **10-15 minutes** and must be on time: **30 days** from registration and **30 days** for any change of address, document or beneficial owner. Civil penalty up to **USD 591/day** and criminal up to **USD 10,000 and 2 years' imprisonment** (31 U.S.C. §5336). Mark item 6 green when the **BOIR Confirmation Number** is on file (or when out-of-scope status is documented).
-- **Form 5472 + pro-forma 1120.** The penalty for non-filing remains **USD 25,000 per form per year** (IRC §6038A). For tax year 2025 the deadline is **15 April today**, extendable via **Form 7004** to **15 October today**.
+- **Form 5472 + pro-forma 1120.** The penalty for non-filing remains **USD 25,000 per form per year** (IRC §6038A). For tax year 2025 the deadline is **15 April today**, extendable via **Form 7004** to **15 October today**. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **State annual reports.** Wyoming keeps the minimum 60 USD fee; Delaware Franchise Tax stays at 300 USD due 1 June; New Mexico still has no annual report. For other states, confirm dates on the Secretary of State portal.
 
 ### How to prioritize if you fail three or more checks
@@ -132,7 +134,7 @@ Three concrete changes from the past year change how to score this audit today:
 
 ### Frequently asked questions
 
-**Does this audit replace professional review?** No. It covers 90% of visible operational issues but does not catch subtle tax exposures (PE, ECI, economic residency) that need case-by-case analysis.
+**Does this audit replace professional review?** No. It covers 90% of visible operational issues but does not catch subtle tax exposures (PE, ECI, economic residency) that need case-by-case analysis. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 **How often should I run it?** Once a year, ideally in January and before 15 March (1042-S deadline if you issue it). Repeat the same month you change bank, address or members.
 
@@ -141,7 +143,7 @@ Three concrete changes from the past year change how to score this audit today:
 <!-- exentax:execution-v2 -->
 ## How we run the quick audit at Exentax
 
-A useful audit is not a witch hunt: it tidies the LLC in under thirty minutes and makes clear what must be fixed before the next filing. We run hundreds of these checklists every week and the twelve points that matter never change.
+A useful audit is not a witch hunt: it tidies the LLC in under thirty minutes and makes clear what must be fixed before the next filing. We run hundreds of these checklists every week and the twelve points that matter never change. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 - **EIN, BOI and 5472 current** with copies reachable from any device, not buried in the founder's inbox.
 - **Coherent banking**: ownership, address and business description aligned across Mercury, Wise or Relay to survive the first extended KYC.
@@ -152,6 +154,8 @@ To apply the same playbook now, run the <strong>Exentax calculator</strong> or b
 
 <!-- exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
 ## How to read the 12-point quick LLC audit as a recurring health check rather than as a one-off exercise
+
+At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 The 12-point quick LLC audit reads more usefully as a recurring health check repeated each quarter than as a one-off exercise. The 12 points don't change between sessions; only the items that need attention move, and a short dated note in the LLC folder lets the next review pick up exactly where the previous one left off.
 <!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->

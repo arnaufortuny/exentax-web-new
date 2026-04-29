@@ -54,13 +54,13 @@ If you are a Spanish tax resident and you have:
 - **Foreign crypto-assets** above €50,000 at 31 December: **Modelo 721**.
 - **Foreign securities, rights, insurance, income** above €50,000: Modelo 720, corresponding sections.
 
-The CRS cross-check allows the AEAT to detect omissions almost in real time relative to the reported period. The CJEU judgment C-788/19 (27 January 2022) struck down the originally disproportionate sanction regime of Modelo 720 for being contrary to Union law, but the obligation to report **remains fully in force** with ordinary penalties (LGT art. 198) and with the qualifier that undeclared income may be regularised as unjustified capital gains (LIRPF art. 39, in what is not affected by the CJEU ruling).
+The CRS cross-check allows the AEAT to detect omissions almost in real time relative to the reported period. The CJEU judgment C-788/19 (27 January 2022) struck down the originally disproportionate sanction regime of Modelo 720 for being contrary to Union law, but the obligation to report **remains fully in force** with ordinary penalties (LGT art. 198) and with the qualifier that undeclared income may be regularised as unjustified capital gains (LIRPF art. 39, in what is not affected by the CJEU ruling). That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 ### Real implications in LATAM
 
 - **Mexico**: art. 32-A of the CFF, annual RMF, cross-check with the annual return of individuals and corporates. SAT runs a specific audit programme on foreign accounts surfaced by CRS.
 - **Colombia**: DIAN integrates CRS into its exogenous information system. Omitted accounts may trigger an official assessment based on presumptive taxable income.
-- **Argentina**: AFIP receives CRS data and crosses it against its own informative regimes. The voluntary disclosure window is currently closed, so regularisation has to be done through a corrective return with interest and penalties.
+- **Argentina**: AFIP receives CRS data and crosses it against its own informative regimes. The voluntary disclosure window is currently closed, so regularisation has to be done through a corrective return with interest and penalties. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 - **Chile**: SII receives CRS data and crosses it with affidavit DJ 1929 (foreign-source income).
 - **Uruguay and Panama**: traditionally planning-friendly jurisdictions; both have adhered to CRS and report balances of non-residents.
 
@@ -72,7 +72,7 @@ The professional approach involves:
 
 1. **Filing correctly.** The cross-check already exists; trying to hide is a waste of time and exposes you to penalties.
 2. **Designing the structure for the declared activity to be tax-efficient.** This means deciding country of residence, investment instruments, remittance schedule, applicable deductions and the relevant Double Taxation Treaty. See our <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">framework for designing a solid international structure</a>.
-3. **Maintaining documentation**: contracts, invoices, expense receipts, the LLC's books, consistent CRS self-certifications. Without documentation, an audit effectively shifts the burden of proof to the taxpayer.
+3. **Maintaining documentation**: contracts, invoices, expense receipts, the LLC's books, consistent CRS self-certifications. Without documentation, an audit effectively shifts the burden of proof to the taxpayer. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 4. **Knowing the risks of getting it wrong.** We cover them in <a href="/en/blog/tax-risks-of-bad-international-structuring-simulation-cfc">tax risks of bad international structuring</a>.
 5. **Understanding your economic activity.** A services LLC is not taxed the same way as an e-commerce or royalties LLC. We develop this in <a href="/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas">LLC taxation by economic activity</a>.
 
@@ -160,7 +160,6 @@ At Exentax we map which of your accounts enter CRS, what declarative duties each
 Every case has nuances: your country of residence, the type of activity, where your clients are, whether you do investment or trading, whether you sell to consumers or to businesses. At Exentax we review your situation, design the LLC structure that fits you and accompany you each year on maintenance. Book a session with our team and we'll start from your real numbers.
 
 Want to apply this protocol to your case? <a href="/en/book">Book a session with the Exentax team</a> and we will review your LLC with real numbers in thirty minutes, no commitment.
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

@@ -4,9 +4,11 @@ A ideia não é meter medo, é dar um mapa. Se passas os doze pontos, a tua LLC 
 
 ## Porquê fazer esta auditoria agora
 
+É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
+
 Uma LLC bem gerida no primeiro ano tende a continuar bem gerida. Uma LLC que arrasta erros acumula-os com juros: sanções que crescem mês a mês, formulários que ficam mais caros de regularizar, banca que se torna mais difícil de manter quando começam as revisões de KYC.
 
-A auditoria rápida tem um objectivo concreto: converter o difuso ("acho que está tudo bem") em algo verificável. Se depois detectas dois ou três pontos vermelhos, o plano de acção é muito mais barato do que descobri-los numa inspecção.
+A auditoria rápida tem um objectivo concreto: converter o difuso ("acho que está tudo bem") em algo verificável. Se depois detectas dois ou três pontos vermelhos, o plano de acção é muito mais barato do que descobri-los numa inspecção. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 ## Os 12 pontos
 
 ### 1. Estado legal da LLC
@@ -51,7 +53,7 @@ Imputaste os rendimentos da LLC na tua declaração local? Isto não é opcional
 
 ### 11. Modelo 720/721 se resides em Espanha
 
-Se resides em Espanha e a soma de contas, valores ou cripto fora de Espanha ultrapassa 50 000 €, tens obrigação declarativa. A sentença do TJUE limitou a sanção desproporcional, mas a obrigação informativa continua em vigor e cruza-se automaticamente.
+Se resides em Espanha e a soma de contas, valores ou cripto fora de Espanha ultrapassa 50 000 €, tens obrigação declarativa. A sentença do TJUE limitou a sanção desproporcional, mas a obrigação informativa continua em vigor e cruza-se automaticamente. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
 ### 12. Calendário e fornecedor para o próximo ano
 
@@ -63,7 +65,7 @@ Por último: tens claro quem apresenta o teu 5472 no próximo Abril? Quem renova
 - **6 ou mais pontos vermelhos:** estás em zona de risco. O barato é regularizar voluntariamente; o caro é esperar por uma carta do IRS, do FinCEN ou da AT.
 ## O que fazer com o resultado
 
-Se a auditoria sai limpa, guarda o exercício na tua pasta da LLC com data. Repete-a a cada seis meses; demora vinte minutos.
+Se a auditoria sai limpa, guarda o exercício na tua pasta da LLC com data. Repete-a a cada seis meses; demora vinte minutos. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
 Se sais com pontos vermelhos, a ordem razoável é: primeiro legal (estado, RA, BOI), depois fiscal IRS (5472 atrasados com a estratégia adequada), depois país (regularização se procede), e por último operativa (banca e plataformas).
 
@@ -99,7 +101,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 ### Pontos-chave
 
 - **BOI / Corporate Transparency Act: a tua LLC NÃO está obrigada (uma vantagem competitiva).** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida às "foreign reporting companies"** (entidades constituídas FORA dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA detida por um não residente NÃO submete o BOI Report**: uma formalidade a menos no calendário, menos burocracia e uma estrutura mais limpa do que nunca. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo. O estado regulatório pode mudar: **monitorizamos a FinCEN.gov em cada submissão** e, se a obrigação voltar, gerimos sem custo adicional. Estado atual verificável em [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 - **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
 ### 2. Registered Agent em vigor
@@ -109,7 +111,7 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam - falhar num deles desfaz o resto.
 
-<!-- exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-pt -->
+<!-- exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-pt --> É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 ## Como ler a auditoria rápida da LLC em 12 pontos como um check-up recorrente em vez de um exercício pontual
 
 A auditoria rápida da LLC em 12 pontos lê-se de forma mais útil como um check-up recorrente repetido a cada trimestre, em vez de um exercício pontual. Os 12 pontos não mudam de uma sessão para outra; apenas os itens que pedem atenção se movem, e uma nota curta e datada no ficheiro da LLC permite que a revisão seguinte retome exatamente onde a anterior parou.
@@ -168,7 +170,7 @@ A nossa posição aqui é deliberadamente conservadora: optimizamos para o que s
 Três mudanças concretas do último ano alteram como pontuar esta auditoria atualmente:
 
 - **BOI Report (FinCEN).** Após a *interim final rule* de 21 de março de 2025, as LLC constituídas nos EUA com beneficial owners norte-americanos saem do âmbito. As **foreign reporting companies** (entidades constituídas fora dos EUA e registadas num estado) continuam obrigadas. Verifica o estado atual em [fincen.gov/boi](https://www.fincen.gov/boi) antes de marcar o ponto 6 a verde.
-- **Form 5472 + 1120 pro forma.** A sanção por não apresentação mantém-se em **25.000 USD por formulário e ano** (IRC §6038A). Para o exercício fiscal em curso o prazo é **15 de abril** e a prorrogação via **Form 7004** leva-o a **15 de outubro de hoje**.
+- **Form 5472 + 1120 pro forma.** A sanção por não apresentação mantém-se em **25.000 USD por formulário e ano** (IRC §6038A). Para o exercício fiscal em curso o prazo é **15 de abril** e a prorrogação via **Form 7004** leva-o a **15 de outubro de hoje**. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 - **Annual Report estadual.** Wyoming mantém a taxa mínima de 60 USD; Delaware fica em 300 USD de Franchise Tax com vencimento a 1 de junho; New Mexico continua sem Annual Report. Para outros estados, confirma datas no portal do Secretary of State.
 
 ### Como priorizar se falhares três ou mais pontos
@@ -179,7 +181,7 @@ Três mudanças concretas do último ano alteram como pontuar esta auditoria atu
 
 ### FAQ hoje
 
-**Esta auditoria substitui uma revisão profissional?** Não. Cobre 90 % dos problemas operacionais visíveis mas não deteta exposições fiscais subtis (PE, ECI, residência económica) que exigem análise caso a caso.
+**Esta auditoria substitui uma revisão profissional?** Não. Cobre 90 % dos problemas operacionais visíveis mas não deteta exposições fiscais subtis (PE, ECI, residência económica) que exigem análise caso a caso. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 
 **Com que frequência repetir?** Uma vez por ano, idealmente em janeiro e antes de 15 de março (prazo 1042-S se o emitires). Se mudares de banco, morada ou sócios, repete no mesmo mês.
 
@@ -188,7 +190,7 @@ Três mudanças concretas do último ano alteram como pontuar esta auditoria atu
 <!-- exentax:execution-v2 -->
 ## Como fazemos a auditoria rápida na Exentax
 
-Uma auditoria útil não procura culpados: arruma a LLC em menos de trinta minutos e deixa claro o que urge antes do próximo fecho. Processamos centenas destas checklists por semana e os doze pontos que importam repetem-se sempre.
+Uma auditoria útil não procura culpados: arruma a LLC em menos de trinta minutos e deixa claro o que urge antes do próximo fecho. Processamos centenas destas checklists por semana e os doze pontos que importam repetem-se sempre. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
 - **EIN, BOI e 5472 em dia** com cópias acessíveis de qualquer dispositivo, não enterradas no e-mail do fundador.
 - **Banca coerente**: titularidade, morada e descrição de actividade alinhadas em Mercury, Wise ou Relay para passar o primeiro KYC alargado.
@@ -208,11 +210,11 @@ Para aplicar o mesmo guião agora, abra a <strong>calculadora Exentax</strong> o
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
   ## O que uma LLC NÃO faz
 

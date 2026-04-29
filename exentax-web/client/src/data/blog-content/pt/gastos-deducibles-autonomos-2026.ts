@@ -4,7 +4,7 @@ A fatura fiscal de um autónomo em Espanha depende menos da taxa marginal e mais
 
 ## Critérios gerais: necessário, ligado e justificado
 
-Para que uma despesa seja dedutível deve cumprir três condições: estar ligada à atividade económica, estar corretamente justificada documentalmente (fatura, não recibo genérico) e estar registada nos livros contabilísticos do autónomo. Sem um dos três, a agência tributária pode rejeitar a dedução em qualquer verificação. A fatura deve incluir o seu NIF, o do fornecedor, data, descrição concreta e desagregação de IVA quando aplicável. Pagamentos em dinheiro acima de 1.000 euros entre profissionais estão proibidos pela Lei Anti-Fraude e implicam perda de dedução mais sanção independente.
+Para que uma despesa seja dedutível deve cumprir três condições: estar ligada à atividade económica, estar corretamente justificada documentalmente (fatura, não recibo genérico) e estar registada nos livros contabilísticos do autónomo. Sem um dos três, a agência tributária pode rejeitar a dedução em qualquer verificação. A fatura deve incluir o seu NIF, o do fornecedor, data, descrição concreta e desagregação de IVA quando aplicável. Pagamentos em dinheiro acima de 1.000 euros entre profissionais estão proibidos pela Lei Anti-Fraude e implicam perda de dedução mais sanção independente. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 ## Software, ferramentas digitais e subscrições
 
 Todo a arquitetura digital do autónomo é integralmente dedutível: alojamento, domínios, software de faturação, ferramentas de design, IDEs, subscrições a IA generativa, serviços de email, armazenamento na nuvem, ERP, CRM, plataformas de cursos, plugins, licenças anuais e mensais. A fatura deve ser emitida ao seu NIF e, se o fornecedor for da UE, aplicar inversão de sujeito passivo no modelo 303. Subscrições pessoais Netflix ou Spotify não são dedutíveis ainda que as use parcialmente para inspiração; a agência tributária exige uso exclusivamente profissional.
@@ -56,7 +56,7 @@ O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe
 
 | Erro | Consequência |
 |---|---|
-| Deduzir refeições familiares como ajudas custo | Sanção + acréscimo + reclassificação |
+| Deduzir refeições familiares como ajudas custo | Sanção + acréscimo + reclassificação |. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 | Combustível pessoal sem livro de viagens | Redução a 50% no melhor caso, 0% se flagrante |
 | Roupa pessoal como "uniforme" | Não dedutível salvo serigrafia corporativa permanente |
 | Presentes a clientes >1% volume negócios | Excesso não dedutível |
@@ -109,15 +109,14 @@ O que vemos cada semana nos casos que chegam até nós é sempre o mesmo padrão
 Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da chamada com os números fechados e um calendário operacional.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
   ## O que uma LLC NÃO faz
 

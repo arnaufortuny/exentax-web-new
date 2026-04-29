@@ -40,14 +40,14 @@ Três cenários:
 - **Apresentado mas com dados desactualizados** (se a LLC continua no âmbito vigente do BOI (após a interim final rule do FinCEN de março de 2025, o BOI só se aplica a "foreign reporting companies": entidades constituídas fora dos EUA e registadas num estado; verifica em FinCEN.gov)): apresenta BOI actualizado.
 - **Apresentado e em dia**: passa ao passo 3.
 
-A sanção por BOI não apresentado é alta (até 591 USD/dia segundo as regras actuais), mas a regularização voluntária costuma ser aceite sem sanção quando a LLC não recebeu notificação prévia.
+A sanção por BOI não apresentado é alta (até 591 USD/dia segundo as regras actuais), mas a regularização voluntária costuma ser aceite sem sanção quando a LLC não recebeu notificação prévia. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 ### Passo 3. 5472 + 1120 pro-forma em atraso
 
-Aqui torna-se sério. Cada ano em falta suporta sanção de **25.000 USD por ano** segundo as regras actuais. Três anos = 75.000 USD de exposição teórica.
+Aqui torna-se sério. Cada ano em falta suporta sanção de **25.000 USD por ano** segundo as regras actuais. Três anos = 75.000 USD de exposição teórica. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 ### Caso A. 1-2 anos em atraso e SEM notificação IRS
 
-Apresentar em **late filing** com statement explicando a omissão. O IRS tem prática discricionária de reduzir ou anular sanção em regularização voluntária sem antecedentes.
+Apresentar em **late filing** com statement explicando a omissão. O IRS tem prática discricionária de reduzir ou anular sanção em regularização voluntária sem antecedentes. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
 ### Caso B. 3 ou mais anos em atraso e SEM notificação
 
@@ -128,7 +128,7 @@ Este artigo é atualizado anualmente com as alterações regulatórias que afeta
 O procedimento de regularização de 5472 e BOI atrasados mudou em aspetos pequenos mas importantes em recent years:
 
 - **5472 fora de prazo.** A sanção inicial mantém-se em **25.000 USD por formulário e ano** (IRC §6038A) com aumento de 25.000 USD por cada 30 dias após notificação do IRS. Via habitual: apresentar o 5472 + 1120 pro forma com **carta de** *reasonable cause* em anexo, citando factos concretos: pandemia, mudança de consultor, mudança de residência, erro administrativo documentado. A prática IRS de 2024-hoje aceitou *reasonable cause* em taxas razoáveis quando a cronologia é coerente e a regularização é voluntária.
-- **BOI atrasado.** Após a *interim final rule* de março 2025, só as **foreign reporting companies** permanecem em âmbito. Em atraso, multa civil de **591 USD/dia** (valor ajustado à inflação, fonte FinCEN). Apresentação voluntária antes de notificação reduz materialmente o risco penal.
+- **BOI atrasado.** Após a *interim final rule* de março 2025, só as **foreign reporting companies** permanecem em âmbito. Em atraso, multa civil de **591 USD/dia** (valor ajustado à inflação, fonte FinCEN). Apresentação voluntária antes de notificação reduz materialmente o risco penal. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 - **Mecânica de apresentação hoje.** O IRS continua a exigir 5472 em **papel** ou via e-file específico (não TurboTax/consultor geral). Enviar por correio registado para Ogden, Utah com tracking e conservar 7 anos.
 
 ### Ordem recomendada
@@ -160,7 +160,7 @@ Se a sua LLC tem anos pendentes e quer saber a via que se aplica, abra a <strong
 
   ### Regularização FBAR/Form 5472/BOI: perspetiva portuguesa
 
-  Para sócios portugueses de LLC americana em atraso com declarações US (**FBAR FinCEN 114** para contas > USD 10.000, **Form 5472 IRC §6038A(d)** com sanção USD 25.000/formulário/ano, FinCEN BOI sob **CTA §6403** com sanção USD 591/dia), a regularização efetua-se via **Streamlined Foreign Offshore Procedures (SFOP)** ou **Voluntary Disclosure Practice (VDP)** do IRS. Em Portugal, as obrigações paralelas são o **Anexo J do Modelo 3 IRS** retroativo, **Modelo 38** para transferências internacionais > €12.500 (Lei 5/2002), e a **Comunicação à AT** ao abrigo do **acordo FATCA Portugal-EUA de 06/08/2015 (Lei 82-B/2014)**. Conservação 10 anos (art. 130.º CIRS).
+  Para sócios portugueses de LLC americana em atraso com declarações US (**FBAR FinCEN 114** para contas > USD 10.000, **Form 5472 IRC §6038A(d)** com sanção USD 25.000/formulário/ano, FinCEN BOI sob **CTA §6403** com sanção USD 591/dia), a regularização efetua-se via **Streamlined Foreign Offshore Procedures (SFOP)** ou **Voluntary Disclosure Practice (VDP)** do IRS. Em Portugal, as obrigações paralelas são o **Anexo J do Modelo 3 IRS** retroativo, **Modelo 38** para transferências internacionais > €12.500 (Lei 5/2002), e a **Comunicação à AT** ao abrigo do **acordo FATCA Portugal-EUA de 06/08/2015 (Lei 82-B/2014)**. Conservação 10 anos (art. 130.º CIRS). Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
 <!-- exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
 ## Como se vê uma operação de recuperação a partir de dentro da LLC
@@ -174,7 +174,7 @@ esclarecimento encurta a operação seguinte muitas vezes em
 semanas, porque coloca a ordem correta antes da execução.
 
 A segunda observação é que a maior parte das apresentações
-atrasadas implica menos risco de multa do que os sócios temem,
+atrasadas implica menos risco de multa do que os sócios temem,. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 desde que a recuperação seja voluntária, completa e cronologicamente
 ordenada. As reacções do FinCEN e do IRS são claramente mais suaves
 quando é a LLC que toma a iniciativa em vez de esperar por uma
@@ -199,11 +199,11 @@ Na prática, o calendário de recuperação constrói-se em três fases curtas: 
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Na Exentax fechámos sem sanção clientes exatamente nesta situação. Falar cedo compensa — e poupa-te cinco dígitos.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 
   ## O que uma LLC NÃO faz
 

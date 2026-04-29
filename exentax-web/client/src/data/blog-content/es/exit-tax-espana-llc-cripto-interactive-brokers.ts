@@ -165,7 +165,7 @@ Muchos inversores con patrimonios de 200.000-500.000 € asumen que el exit tax 
 
 ### Error 3: No solicitar el aplazamiento cuando traslado es fuera de UE/EEE
 
-Si te vas a Dubai, Singapur o USA y tienes plusvalías latentes significativas, debes gestionar el aplazamiento con garantías. Ignorar este paso genera deuda tributaria inmediata con recargos.
+Si te vas a Dubai, Singapur o USA y tienes plusvalías latentes significativas, debes gestionar el aplazamiento con garantías. Ignorar este paso genera deuda tributaria inmediata con recargos. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
 ### Error 4: Confundir la pérdida de residencia con el abandono del padrón
 
@@ -210,7 +210,7 @@ Portugal es Estado miembro de la UE, por lo que se aplica el **aplazamiento auto
 
 ### ¿Qué pasa si no declaro el Exit Tax?
 
-La no declaración constituye una infracción tributaria con las sanciones del art. 191 LGT (sanción del 50-150% de la cuota) además de intereses de demora. En importes elevados, puede activarse la vía penal del art. 305 CP (cuota defraudada superior a 120.000 €).
+La no declaración constituye una infracción tributaria con las sanciones del art. 191 LGT (sanción del 50-150% de la cuota) además de intereses de demora. En importes elevados, puede activarse la vía penal del art. 305 CP (cuota defraudada superior a 120.000 €). Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 
 ### ¿Cómo se valora una LLC sin activos cotizados?
 
@@ -251,7 +251,7 @@ Este artículo es informativo y no constituye asesoramiento fiscal personalizado
 - **Ley 35/2006 (LIRPF)**, art. 95 bis (Exit Tax), art. 9 (residencia fiscal), art. 87 (atribución de rentas en entidades en atribución), art. 91 (transparencia fiscal internacional personas físicas).
 - **Ley 11/2021, de 9 de julio**, de medidas de prevención y lucha contra el fraude fiscal (reforma del Exit Tax).
 - **Ley 27/2014 (LIS)**, art. 100 (transparencia fiscal internacional para personas jurídicas).
-- **Ley 58/2003 (LGT)**, arts. 15 (conflicto en aplicación de la norma), 16 (simulación), 191 (sanción por falta de ingreso), 198 (sanción por no presentar declaraciones informativas).
+- **Ley 58/2003 (LGT)**, arts. 15 (conflicto en aplicación de la norma), 16 (simulación), 191 (sanción por falta de ingreso), 198 (sanción por no presentar declaraciones informativas). Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 - **Orden HFP/886/2023** (Modelo 721, criptoactivos en el extranjero).
 - **Directiva (UE) 2023/2226** (DAC8, reporte automático de criptoactivos).
 - **Convenio España–EE. UU.** para evitar la doble imposición (BOE 22/12/1990, Protocolo en vigor 27/11/2019).
@@ -283,11 +283,11 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
   ## Lo que NO hace una LLC
 

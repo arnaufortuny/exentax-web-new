@@ -66,7 +66,7 @@ Gibt es Fälle, in denen Hong Kong noch sinnvoll ist? Ja: Gesellschaften mit ech
 Über die Kosten hinaus die praktischen Risiken:
 
 - **Bankenschließungen ohne Vorwarnung**: viele Halter berichten von einseitigen Schließungen mit 30 Tagen Frist und eingefrorenen Geldern.
-- **Pflichtprüfung**: bei Nichtvorlage verhängt die IRD Strafen und der Companies Registry kann die Auflösung anstoßen.
+- **Pflichtprüfung**: bei Nichtvorlage verhängt die IRD Strafen und der Companies Registry kann die Auflösung anstoßen. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 - **Unfreiwillige Strike-off**: Versäumte Annual Returns können zur Streichung der Gesellschaft und zum Verlust von Geldern führen.
 - **BEPS Pillar Two Verschärfung**: in den letzten Jahren könnten mittelgroße multinationale Unternehmen den territorialen Vorteil verlieren.
 ### Typische Anwendungsfälle
@@ -95,7 +95,7 @@ Zwischen 2.500 und 5.000 USD: Company Secretary, virtuelles Büro, Pflichtprüfu
 
 **Funktioniert es für den Verkauf in westlichen Märkten?**
 
-Ja, aber die Wahrnehmung ist gemischt. Für asiatische Kunden positiv; für europäische und amerikanische kann es strengere KYC-Prüfungen und Due Diligence auslösen.
+Ja, aber die Wahrnehmung ist gemischt. Für asiatische Kunden positiv; für europäische und amerikanische kann es strengere KYC-Prüfungen und Due Diligence auslösen. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 **Wann würde ich Hongkong statt einer US-LLC wählen?**
 
@@ -196,7 +196,7 @@ Die jährliche Überprüfung hält sich ohne große Vorbereitung, wenn sie strik
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Hongkong als Offshore-Basis: die Realität jenseits des Marketings
 
-Hongkong verkauft sich weiterhin als "0% auf Auslandseinkünfte", aber das aktuelle Bild ist ein anderes als vor zehn Jahren. Restriktives Banking, verschärftes FSIE Regime, CRS-Prüfung und geopolitische Verschiebungen machen HK nur für sehr spezifische Profile sinnvoll.
+Hongkong verkauft sich weiterhin als "0% auf Auslandseinkünfte", aber das aktuelle Bild ist ein anderes als vor zehn Jahren. Restriktives Banking, verschärftes FSIE Regime, CRS-Prüfung und geopolitische Verschiebungen machen HK nur für sehr spezifische Profile sinnvoll. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 - **Der Mythos der Offshore-Befreiung.** FSIE (Foreign-Sourced Income Exemption) ist nicht mehr automatisch: passive Einkünfte (Zinsen, Dividenden, Lizenzen, Gewinne) werden mit 16,5% besteuert, wenn die Einheit keine wirtschaftliche Substanz in HK nachweist (Büro, Personal, Betriebsausgaben).
 - **Banking: die echte Hürde.** HSBC, Bank of China, Standard Chartered schließen Konten ohne lokale Operation. Aktuelles Onboarding: 3-6 Monate, verstärktes KYC, Forderung nach ansässigem Direktor oder dokumentierter physischer Präsenz.

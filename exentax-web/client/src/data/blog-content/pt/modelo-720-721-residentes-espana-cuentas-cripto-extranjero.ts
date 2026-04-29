@@ -35,14 +35,14 @@ Estão obrigados a apresentar o 720 e/ou o 721:
 Após a primeira apresentação, **só é preciso voltar a apresentar** se no bloco concreto houver um **aumento superior a 20.000 €** face ao saldo declarado ou se algum elemento previamente declarado tiver sido cancelado.
 ## A sentença TJUE C-788/19 e o regime sancionatório atual
 
-O regime sancionatório original do 720 foi um dos mais severos da UE: 5.000 € por dado omitido (mínimo 10.000 €), imprescritibilidade dos rendimentos não declarados como ganho patrimonial não justificado (art. 39.2 LIRPF) e sanção de 150 % sobre a quota.
+O regime sancionatório original do 720 foi um dos mais severos da UE: 5.000 € por dado omitido (mínimo 10.000 €), imprescritibilidade dos rendimentos não declarados como ganho patrimonial não justificado (art. 39.2 LIRPF) e sanção de 150 % sobre a quota. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
 A **sentença do TJUE de 27 de janeiro de 2022, processo C-788/19**, declarou esse regime contrário ao Direito da União por desproporcional e por violar a livre circulação de capitais. A Lei 5/2022, de 9 de março, eliminou essas sanções específicas.
 
 Isto **não significa** que já não haja sanções. O que se aplica hoje:
 
 - **Sanção ordinária** do art. 198 LGT por não apresentar declaração informativa: 20 € por dado, mínimo 300 €, máximo 20.000 €. Reduzida a metade se apresentada sem requerimento prévio.
-- **Regime geral da LGT** para as quotas devidas no IRPF se forem detetados rendimentos não declarados: art. 191 (sanção de 50 a 150 % da quota), com prazo geral de **prescrição de 4 anos**.
+- **Regime geral da LGT** para as quotas devidas no IRPF se forem detetados rendimentos não declarados: art. 191 (sanção de 50 a 150 % da quota), com prazo geral de **prescrição de 4 anos**. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 - **Via penal** (art. 305 CP) se a quota defraudada num exercício ultrapassar 120.000 €.
 
 A sentença europeia suavizou o regime, mas não derrogou a obrigação de informar. Quem não apresenta o 720 continua a cometer infração tributária.
@@ -102,7 +102,7 @@ O nosso processo para o 720/721 quando entra um cliente com LLC + fintechs europ
 6. **Integração** com o resto do planeamento: <a href="/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro">desenho de estrutura internacional</a>, <a href="/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos">tributação LLC por atividade</a> e <a href="/pt/blog/crs-para-residentes-em-espanha-e-latam-implicacoes-reais">CRS para residentes em Espanha</a>.
 ### Em resumo
 
-O Modelo 720 e o Modelo 721 são obrigações informativas, não impostos. Não custam dinheiro por si próprios, mas a sua omissão custa: sanção do art. 198 LGT, regularização de quotas com agravamentos do art. 191 e, em saldo não justificado, o clássico art. 39 LIRPF (atenuado pelo TJUE mas não eliminado). O cruzamento com CRS e, a partir de hoje, com DAC8, torna a pegada cada vez mais visível para a AEAT.
+O Modelo 720 e o Modelo 721 são obrigações informativas, não impostos. Não custam dinheiro por si próprios, mas a sua omissão custa: sanção do art. 198 LGT, regularização de quotas com agravamentos do art. 191 e, em saldo não justificado, o clássico art. 39 LIRPF (atenuado pelo TJUE mas não eliminado). O cruzamento com CRS e, a partir de hoje, com DAC8, torna a pegada cada vez mais visível para a AEAT. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
 Se tens Wise, Mercury, Revolut, brokers estrangeiros ou cripto fora de Espanha e não estás 100 % seguro da tua posição face ao 720/721, revemos contigo e deixamos a tua situação limpa antes da próxima campanha.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
@@ -235,7 +235,7 @@ não à última hora.
 Uma segunda observação tem que ver com a consistência das moradas.
 Quando um sócio residente fiscal em Espanha tem uma morada
 diferente registada no Mercury ou no Wise, isso é muitas vezes a
-primeira coisa que uma inspeção sinaliza. Recomendamos uma
+primeira coisa que uma inspeção sinaliza. Recomendamos uma. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 revisão anual dos perfis bancários alinhada com a declaração
 fiscal espanhola, para que os dados não criem uma divergência que
 depois custa mais a esclarecer do que a clareza inicial.
@@ -270,11 +270,11 @@ Num ano calmo, a maneira mais limpa de manter ambos os modelos geríveis é mant
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
   ## O que uma LLC NÃO faz
 

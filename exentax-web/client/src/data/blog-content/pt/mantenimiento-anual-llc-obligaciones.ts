@@ -60,7 +60,7 @@ O teu Registered Agent deve estar ativo permanentemente. é requisito legal em t
 - O estado envia avisos legais que ninguém recebe
 - Podes perder o Good Standing sem te aperceberes
 - Se te processarem, não recebes a notificação e podem obter uma sentença contra ti (default judgment)
-- Multas e possível dissolução administrativa
+- Multas e possível dissolução administrativa. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
 **Na nossa equipa:** O Registered Agent está incluído em todos os nossos planos. Renovamo-lo automaticamente a cada ano. Zero risco de que expire.
 ### BOI Report (se houver alterações)
@@ -173,11 +173,11 @@ A manutenção anual ordenada de uma LLC atualmente cabe em seis marcos.
 
 - **Janeiro-março.** Encerramento contabilístico, conciliação Mercury/Wise, recolha de comprovativos 5472. Se emitiu 1042-S a contratantes estrangeiros, prazo **15 de março de hoje**.
 - **Abril.** Vencimento **15 de abril de hoje** do Form 5472 + 1120 pro forma do exercício 2025. Se não chegar, **Form 7004** antes da mesma data e o prazo passa para **15 de outubro de hoje**.
-- **Resto do ano.** Renovação do **Annual Report estadual** (Wyoming dia antes do aniversário, Delaware **1 de junho**, NM não aplica), renovação do **Registered Agent** (~125 USD/ano) e, se a sua LLC for *foreign reporting company*, monitorização BOI perante qualquer alteração (sanção 591 USD/dia).
+- **Resto do ano.** Renovação do **Annual Report estadual** (Wyoming dia antes do aniversário, Delaware **1 de junho**, NM não aplica), renovação do **Registered Agent** (~125 USD/ano) e, se a sua LLC for *foreign reporting company*, monitorização BOI perante qualquer alteração (sanção 591 USD/dia). É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
 ### Perguntas frequentes hoje
 
-**E se saltar o Annual Report?** O estado passa a entidade a *Delinquent* e, após 60-90 dias, a *Forfeited*. Reativação possível com multas. Não vale a pena.
+**E se saltar o Annual Report?** O estado passa a entidade a *Delinquent* e, após 60-90 dias, a *Forfeited*. Reativação possível com multas. Não vale a pena. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
 **Preciso de contabilidade formal?** Sim, mesmo livro caixa simplificado, para submeter o 5472. Mercury + folha de cálculo basta até ~150 k USD/ano; acima usa Quickbooks ou Wave.
 

@@ -13,7 +13,7 @@ Rechnungsgenossenschaften, auch Arbeitnehmer-Genossenschaften oder Unternehmensi
 
 ## Als Werkvertragspartner unter anderer Struktur arbeiten
 
-Wenn Sie einen Kunden finden, der einen stabilen Werkvertrag anbietet, können Sie als natürliche Person für Dienstleistungen ohne RETA-Anmeldung fakturieren, nur wenn die Tätigkeit wirklich sporadisch ist oder nicht Ihren Haupterwerb darstellt. Die Realität: Die meisten als Werkvertrag aussehenden Beziehungen werden von der Inspektion als Schein eingestuft, wenn Indizien für Arbeitnehmerstatus zusammenkommen: Abhängigkeit, Fremdbestimmung, Ausschließlichkeit, Eingliederung in die Organisation des Kunden. Werden Sie als Schein-Autonomo erkannt, sind die wirtschaftlichen Folgen für den Kunden schwerwiegend und teilweise auch für Sie. Kein empfehlenswerter Langzeitweg.
+Wenn Sie einen Kunden finden, der einen stabilen Werkvertrag anbietet, können Sie als natürliche Person für Dienstleistungen ohne RETA-Anmeldung fakturieren, nur wenn die Tätigkeit wirklich sporadisch ist oder nicht Ihren Haupterwerb darstellt. Die Realität: Die meisten als Werkvertrag aussehenden Beziehungen werden von der Inspektion als Schein eingestuft, wenn Indizien für Arbeitnehmerstatus zusammenkommen: Abhängigkeit, Fremdbestimmung, Ausschließlichkeit, Eingliederung in die Organisation des Kunden. Werden Sie als Schein-Autonomo erkannt, sind die wirtschaftlichen Folgen für den Kunden schwerwiegend und teilweise auch für Sie. Kein empfehlenswerter Langzeitweg. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 ## Persönliche Holding oder eigene GmbH
 
@@ -28,7 +28,6 @@ Für 100% digitale Profile mit überwiegend nicht-spanischen Kunden ermöglicht 
 Praktische Zusammenfassung: niedrige einmalige Einkünfte (unter 3.000 Euro pro Jahr insgesamt) und nicht wiederkehrend: natürliche Person mit korrekter IRPF-Erklärung. Kleines bis mittleres Volumen ohne Rekurrenz (Rechnungsgenossenschaft) oder stabil als lokaler digitaler Freelancer: RETA-Anmeldung und normale Planung. Hohes Volumen mit spanischen Kunden, mehreren Gesellschaftern oder Vermögensrisiko: SL. Mittleres bis hohes Volumen mit internationalen Kunden und 100% digitaler Tätigkeit: US-LLC koordiniert mit korrekter Wohnsitzerklärung. Jeder Fall erfordert das Modellieren konkreter Zahlen und das Verständnis, dass die RETA-Abmeldung perfekt dokumentiert sein muss, um keinen Konflikt mit der Sozialversicherung zu verursachen.
 
 Die Gewohnheitsmäßigkeitskriterien sind in Urteilen des <a href="https://www.poderjudicial.es/">Obersten Gerichts</a> und in der Lehre der spanischen <a href="https://www.seg-social.es/">Sozialversicherungskasse</a> konsolidiert. Bevor Sie ohne RETA operieren, modellieren Sie Ihre Situation mit seriöser Beratung; falsche Abkürzungen kommen am Ende teuer.
-
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.
 
@@ -50,15 +49,14 @@ Was wir jede Woche sehen in den Fällen, die uns erreichen, ist immer dasselbe M
 Wenn Sie vom Zweifel zum Plan kommen wollen, buchen Sie 30 Minuten mit Exentax und wir verlassen das Gespräch mit geschlossenen Zahlen und einem operativen Kalender.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
   ## Was eine LLC NICHT tut
 
@@ -87,7 +85,7 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 <!-- exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### Was "sporadisches Einkommen" in der Praxis tatsächlich bedeutet
 
-Die häufig zitierte Befreiung vom Autónomo-Regime für sporadische und geringfügige Einkünfte ergibt sich aus der Auslegung der Rechtsprechung und nicht aus einer klaren, scharfen Regel. In der Praxis behandeln die AEAT und die Sozialversicherung nur solche Einkünfte als wirklich sporadisch, die einmalig sind, absolut gering ausfallen (deutlich unter dem jährlichen Mindestlohn) und nicht mit einer wiederkehrenden Tätigkeit in Verbindung stehen. Drei Rechnungen an denselben Kunden in sechs Monaten wirken auf einen Arbeitsinspektor nicht sporadisch, auch wenn der absolute Betrag klein ist; ein einmaliger Workshop-Honorar, einmal im Jahr gezahlt, passt dagegen klar in die Definition. Die Grauzone in der Mitte ist der Ort, an dem die meisten Freelancer in Schwierigkeiten geraten: über die Gesellschaft einer anderen Person fakturieren, einen wiederkehrenden Vertrag als "gelegentliche Dienstleistung" deklarieren oder schlicht die Anmeldung überspringen in der Hoffnung, dass kleine Beträge unbemerkt bleiben. Keine dieser Abkürzungen hält gut, und die Kosten einer Prüfung (Nachzahlung von Beiträgen plus Strafe) übersteigen die Ersparnis einiger Monate ohne Quote bei weitem.
+Die häufig zitierte Befreiung vom Autónomo-Regime für sporadische und geringfügige Einkünfte ergibt sich aus der Auslegung der Rechtsprechung und nicht aus einer klaren, scharfen Regel. In der Praxis behandeln die AEAT und die Sozialversicherung nur solche Einkünfte als wirklich sporadisch, die einmalig sind, absolut gering ausfallen (deutlich unter dem jährlichen Mindestlohn) und nicht mit einer wiederkehrenden Tätigkeit in Verbindung stehen. Drei Rechnungen an denselben Kunden in sechs Monaten wirken auf einen Arbeitsinspektor nicht sporadisch, auch wenn der absolute Betrag klein ist; ein einmaliger Workshop-Honorar, einmal im Jahr gezahlt, passt dagegen klar in die Definition. Die Grauzone in der Mitte ist der Ort, an dem die meisten Freelancer in Schwierigkeiten geraten: über die Gesellschaft einer anderen Person fakturieren, einen wiederkehrenden Vertrag als "gelegentliche Dienstleistung" deklarieren oder schlicht die Anmeldung überspringen in der Hoffnung, dass kleine Beträge unbemerkt bleiben. Keine dieser Abkürzungen hält gut, und die Kosten einer Prüfung (Nachzahlung von Beiträgen plus Strafe) übersteigen die Ersparnis einiger Monate ohne Quote bei weitem. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 ### Ein sauberer Vergleich der vier realen Alternativen
 
@@ -126,7 +124,6 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-
 <!-- exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### Ein Entscheidungsprotokoll für den ersten Monat nach Verlassen des Autónomo-Regimes
 
@@ -146,7 +143,7 @@ Die Übergangsphase zwischen zwei Strukturen (zum Beispiel von Autónomo zu span
 <!-- exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de-bis -->
 ## Wie sich die jährliche Überprüfung der Alternativwahl ohne erneute Grundsatzdebatte halten lässt
 
-Die jährliche Überprüfung der Alternativwahl hält sich ohne erneute Grundsatzdebatte, wenn sie strikt an die schriftlich verankerten drei Eigenschaften gebunden bleibt: nur dort, wo eine der drei Eigenschaften real abgewichen ist, lohnt sich die Wiedereröffnung der Diskussion — die übrigen Punkte werden ohne weitere Prüfung übernommen.
+Die jährliche Überprüfung der Alternativwahl hält sich ohne erneute Grundsatzdebatte, wenn sie strikt an die schriftlich verankerten drei Eigenschaften gebunden bleibt: nur dort, wo eine der drei Eigenschaften real abgewichen ist, lohnt sich die Wiedereröffnung der Diskussion — die übrigen Punkte werden ohne weitere Prüfung übernommen. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 <!-- /exentax:lote21-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de-bis -->
 
 <!-- exentax:cross-refs-v1 -->

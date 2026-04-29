@@ -69,7 +69,7 @@ Hier wird es interessant. Wenn die Mehrheit Ihrer Kunden B2B außerhalb Deutschl
 - **Sie berechnen keine Umsatzsteuer**: die LLC ist eine amerikanische Einheit, außerhalb des europäischen Umsatzsteuersystems
 - **Sie geben keine Umsatzsteuervoranmeldung, keine Zusammenfassende Meldung und keine OSS-Erklärung** für die Geschäfte der LLC ab
 - **Ihre Kunden erhalten saubere Rechnungen**: ohne Umsatzsteuer, ohne Verwirrung, ohne das typische "Warten Sie, ich prüfe ob das Reverse-Charge-Verfahren gilt"
-- **Schluss mit VIES-Prüfungen**: Sie müssen keine USt-IdNr. verifizieren, weil die LLC nicht innerhalb des Umsatzsteuerrahmens operiert
+- **Schluss mit VIES-Prüfungen**: Sie müssen keine USt-IdNr. verifizieren, weil die LLC nicht innerhalb des Umsatzsteuerrahmens operiert. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 Das Ergebnis? Vereinfachte internationale Rechnungen, weniger vierteljährliche Bürokratie und mehr Zeit für das, was wirklich zählt: Ihr Geschäft.
 
@@ -128,6 +128,8 @@ Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansä
 <!-- exentax:execution-v2 -->
 ## USt auf internationale digitale Dienste: die Karte, die Sie vor Prüfungen schützt
 
+Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
+
 Digitale Dienste (SaaS, Infoprodukte, Abos, Downloads) aus Spanien an Kunden in mehreren Ländern zu verkaufen ist einer der Punkte, an denen die Steuerbehörde die meisten Akten eröffnet. Die Regeln haben sich vor Jahren geändert, viele wenden noch "Rechnung ohne USt, fertig" an.
 
 - **B2C innerhalb der EU: OSS oder lokaler Satz.** Verkauf von Infoprodukten oder Abos an Endverbraucher (B2C) in anderen EU-Ländern bedeutet: Sie wenden die USt des Kundenlandes ab dem ersten Euro an, wenn Sie 10.000 EUR jährlich gesamt B2C EU überschreiten. Ohne OSS müssten Sie sich in jedem Land registrieren. Mit OSS (Modell 369) erklären Sie vierteljährlich aus Spanien.
@@ -181,11 +183,11 @@ Die Profilliste lässt sich gut auf einer einzigen Seite halten, mit drei oder v
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 
   ## Was eine LLC NICHT tut
 

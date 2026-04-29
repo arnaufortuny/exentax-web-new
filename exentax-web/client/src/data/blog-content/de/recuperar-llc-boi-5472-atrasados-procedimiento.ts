@@ -38,14 +38,14 @@ Drei Szenarien:
 - **Eingereicht, aber Daten veraltet**: aktualisierten BOI einreichen.
 - **Eingereicht und aktuell**: weiter zu Schritt 3.
 
-Die Strafe für nicht eingereichtes BOI ist hoch (bis zu 591 USD/Tag), aber freiwillige Bereinigung wird in der Regel ohne Strafe akzeptiert, solange keine Vorbenachrichtigung vorliegt.
+Die Strafe für nicht eingereichtes BOI ist hoch (bis zu 591 USD/Tag), aber freiwillige Bereinigung wird in der Regel ohne Strafe akzeptiert, solange keine Vorbenachrichtigung vorliegt. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 ## Schritt 3. Rückständige 5472 + 1120 pro-forma
 
-Hier wird es ernst. Jedes Jahr fehlendes 5472 trägt **25.000 USD Strafe pro Jahr** nach aktuellen Regeln. Drei Jahre = 75.000 USD theoretisches Risiko.
+Hier wird es ernst. Jedes Jahr fehlendes 5472 trägt **25.000 USD Strafe pro Jahr** nach aktuellen Regeln. Drei Jahre = 75.000 USD theoretisches Risiko. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 ### Fall A. 1-2 Rückstandsjahre und KEINE <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Benachrichtigung
 
-**Late filing** mit beigefügter Erklärung. IRS hat diskretionäre Praxis, Strafen bei freiwilliger Bereinigung ohne Vorgeschichte zu erlassen oder zu mindern.
+**Late filing** mit beigefügter Erklärung. IRS hat diskretionäre Praxis, Strafen bei freiwilliger Bereinigung ohne Vorgeschichte zu erlassen oder zu mindern. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 ### Fall B. 3 oder mehr Rückstandsjahre und KEINE Benachrichtigung
 
@@ -117,7 +117,7 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 ## Referenzen: Quellen zu Strukturen und Jurisdiktionen
 
 Die hier zitierten Vergleiche und quantitativen Daten zu Jurisdiktionen basieren auf offiziellen Quellen, aktualisiert bis aktuell:
@@ -145,7 +145,7 @@ Dieser Artikel wird jährlich an die regulatorischen Änderungen angepasst, die 
 Die Nachholung verspäteter 5472- und BOI-Meldungen hat sich recent years in kleinen, aber relevanten Punkten verändert:
 
 - **5472 verspätet.** Die Anfangssanktion liegt unverändert bei **25.000 USD pro Formular und Jahr** (IRC §6038A); zusätzlich 25.000 USD je 30 Tage nach IRS-Mitteilung. Standardweg: 5472 + 1120 Pro-forma mit beigefügter *reasonable cause*-Erklärung einreichen, gestützt auf konkrete Tatsachen: Pandemie, Beraterwechsel, Wohnsitzwechsel, dokumentierter Verwaltungsfehler. Die IRS-Praxis der letzten Jahre hat *reasonable cause* in vertretbaren Quoten anerkannt, wenn die Chronologie schlüssig und die Nachholung freiwillig ist.
-- **Verspätete BOI.** Nach der *interim final rule* von März 2025 bleiben nur **foreign reporting companies** meldepflichtig. Bei Verspätung Bußgeld **591 USD/Tag** (inflationsangepasst, Quelle FinCEN). Freiwillige Nachholung vor Mitteilung mindert das Strafrisiko erheblich.
+- **Verspätete BOI.** Nach der *interim final rule* von März 2025 bleiben nur **foreign reporting companies** meldepflichtig. Bei Verspätung Bußgeld **591 USD/Tag** (inflationsangepasst, Quelle FinCEN). Freiwillige Nachholung vor Mitteilung mindert das Strafrisiko erheblich. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 - **Einreichung aktuell.** Die IRS verlangt 5472 weiterhin in **Papier** oder per spezifischem e-File (kein TurboTax/Allgemeinberater). Per Einschreiben nach Ogden, Utah mit Sendungsverfolgung; 7 Jahre aufbewahren.
 
 ### Empfohlene Reihenfolge
@@ -240,11 +240,11 @@ In der Praxis baut sich der Recovery-Kalender in drei kurzen Phasen auf: zuerst 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
   ## Was eine LLC NICHT tut
 

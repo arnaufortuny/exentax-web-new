@@ -53,7 +53,7 @@ The scheme changes in each jurisdiction. Some representative examples:
 - **Italy**: the Anagrafe dei Rapporti Finanziari (Archivio dei Rapporti) collects yearly balances, aggregated movements and card data that Italian financial intermediaries send to the Agenzia delle Entrate. One of the densest schemes in Europe.
 - **United Kingdom**: HMRC receives aggregated data from banks via schemes such as Bulk Data Gathering, on top of CRS reporting for non-residents.
 
-The general rule is that **the account and the holder are well covered**, while the **transaction-level detail** is not pushed by default: it is only reconstructed during a specific audit.
+The general rule is that **the account and the holder are well covered**, while the **transaction-level detail** is not pushed by default: it is only reconstructed during a specific audit. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 ## The case of a foreign issuer: Wise, Revolut and friends
 
 When your card is issued by a European EMI other than a Spanish bank (typically Wise Europe SA in Belgium or Revolut Bank UAB in Lithuania), the situation changes:
@@ -64,7 +64,7 @@ When your card is issued by a European EMI other than a Spanish bank (typically 
 
 This explains an observation many people make: a card payment from a Spanish bank shows up, aggregated with everything else, in the data the AEAT can consult; the same payment with a Wise or Revolut card is not reported directly to the AEAT, but the account balance will be reported via CRS from Belgium or Lithuania.
 
-The reasonable conclusion is not "the foreign card makes me invisible" but that **the trace exists in another layer**: the account is identified, balances are reported and, in case of an audit, movements can be requested.
+The reasonable conclusion is not "the foreign card makes me invisible" but that **the trace exists in another layer**: the account is identified, balances are reported and, in case of an audit, movements can be requested. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 ### And the merchant acquirer: the other end of the wire
 
 We often forget the acquirer. When a Spanish merchant takes a card payment, its Spanish acquirer files **Modelo 170** with the annual aggregate of card receipts for that merchant. If that merchant is an individual under-declaring income on their personal tax return, the AEAT cross-checks the Modelo 170 with the return and the discrepancy pops up. This does not affect the consumer, but it explains why the tax office detects under-declared card receipts so quickly.
@@ -87,7 +87,7 @@ What the AEAT does not receive automatically:
 - The list of merchants where you shop as a consumer.
 - Individual amounts below the 171 thresholds or equivalents.
 
-What it can request if it opens an audit:
+What it can request if it opens an audit. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 - The full account statement directly from the issuer in Spain and, abroad, via specific exchange.
 - Targeted information from the card network or the merchant in advanced investigations.
@@ -97,7 +97,7 @@ What it can request if it opens an audit:
 2. **"If I pay with a foreign card, my purchases are invisible."** The detail is not reported automatically, but the account is visible via CRS and the trace is perfectly reconstructible.
 3. **"Modelo 171 means the tax office sees every card purchase I make."** No: 171 covers transactions above thresholds and aggregates of receipts, not every personal purchase below those thresholds.
 4. **"If my LLC takes payments via Stripe, that is already reported in Spain."** Not directly: Stripe US does not file Modelo 170, and information about your LLC reaches the AEAT through other channels (Mercury via FATCA is asymmetric, Wise via CRS, your own Modelo 720 if it applies).
-5. **"Better always pay with the foreign bank card so I don't leave any trace."** The trace exists, and operating in a way clearly designed to leave no trace is exactly the pattern that triggers alarms in an audit fastest.
+5. **"Better always pay with the foreign bank card so I don't leave any trace."** The trace exists, and operating in a way clearly designed to leave no trace is exactly the pattern that triggers alarms in an audit fastest. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 6. **"The acquirer of the European merchant where I shop reports my spending to the AEAT."** No: the acquirer reports the receipts of its own merchant client, not the consumer's data.
 ## Why this matters for your structure
 
@@ -116,7 +116,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
@@ -125,7 +125,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 
 The Visa and Mastercard reporting question reads more calmly when it's treated as a stable mapping between the type of card, the issuer of the card, the country of the issuer and the channel through which information may reach the Spanish tax administration, than as a recurring rumour. The card networks themselves don't decide what's reported to whom — the legal channel that actually carries the information is set by the issuer's jurisdiction and by the agreements that apply to it. That mapping doesn't change month to month.
 
-A short note in the personal folder that records the type of card held, the issuer, the country of issuance and the legal holder of the underlying account turns the same question into something that's reviewable in a few minutes the next time it comes up, instead of being re-derived from memory under pressure of a notification or an inspection request.
+A short note in the personal folder that records the type of card held, the issuer, the country of issuance and the legal holder of the underlying account turns the same question into something that's reviewable in a few minutes the next time it comes up, instead of being re-derived from memory under pressure of a notification or an inspection request. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 The same note also makes it much easier to align what's declared by the resident with what arrives through the exchange channel.
 <!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-en -->
@@ -145,7 +145,7 @@ At Exentax we structure the entity to fit the first scenario and document every 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 - **Spain–US treaty.** BOE of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -186,7 +186,7 @@ Many clients open Mercury thinking their US card is invisible to Spain. The tax 
 
 - **What the tax office does NOT receive directly.** Individual transaction lists (not movement by movement to foreign tax office), Visa/Mastercard categories, POS-terminal locations or times. Card networks are not fiscal reporting interfaces - they are payment interfaces between merchants and banks.
 - **What it DOES receive via CRS and FATCA.** Year-end balance of US business account + total annual gross movements + UBO identification. If average balance or total flow is high and not coherent with your declaration, cross-check triggers.
-- **What leaves a trail through merchants.** Paying in Spain with US Mercury card: merchant receives payment and declares sale normally; your IBAN/PAN does not reach the tax office, but merchant's account inflows do. Buying a car with US card: dealer reports sale and, if audited, foreign payer appears as datum.
+- **What leaves a trail through merchants.** Paying in Spain with US Mercury card: merchant receives payment and declares sale normally; your IBAN/PAN does not reach the tax office, but merchant's account inflows do. Buying a car with US card: dealer reports sale and, if audited, foreign payer appears as datum. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **What your resident bank sees if you load the card.** Transferring EUR from your Spanish account to Wise/Mercury for loading is visible in your Spanish account. Paying yourself salary from LLC via wire to IBAN is visible and must match IRPF.
 
 ### The typical cross-check detecting inconsistencies
@@ -209,7 +209,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 ### Practical reminder
 
 Each tax situation depends on your specific residency, the activity carried out and the contracts in force. The information here is general and does not replace personalised advice; check your particular case before taking structural decisions.

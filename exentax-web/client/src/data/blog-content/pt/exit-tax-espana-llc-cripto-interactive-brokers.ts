@@ -116,8 +116,6 @@ Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos ne
 
 Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se não estiver limpo aqui, qualquer hipótese a jusante torna-se negociável perante a autoridade.
 
-
-
 ## Caso 4: carteira mista (acções IBKR + participação na LLC + cripto)
 
 É o perfil mais frequente na nossa prática lusófona: uma freelancer que construiu uma actividade estável via LLC americana, acumulou posições no IBKR durante anos e adicionou uma alocação cripto fora da LLC. Quando a mudança para Andorra, Espanha ou um destino fora da UE se torna séria, três camadas de exit tax merecem cada uma a sua leitura própria.
@@ -141,8 +139,6 @@ As posições IBKR são activos financeiros pessoais e desencadeiam o art. 95 bi
 **T menos 6 meses.** Decisão sobre o diferimento (UE/EEE automático vs fora da UE condicional). Preparar documentação que apoia a avaliação da participação na LLC: 24 meses de extractos Mercury ou Wise, histórico Form 5472, lista de contratos. Onboarding no destino (NIF, banco, título de residência).
 
 **T menos 3 meses.** Retrato final dos valores ao dia da mudança. Redacção do pedido de diferimento se aplicável. Coordenação do Modelo 100 do ano parcial com o seu consultor espanhol e planeamento do primeiro Modelo 720 para o ano de residência no novo país.
-
-
 
 ### Uma frase que repetimos a cada cliente antes da partida
 
@@ -262,7 +258,6 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 
   **No Brasil**, a saída fiscal definitiva é regulada pela **Instrução Normativa RFB n.º 208/2002** e exige a apresentação da **Declaração de Saída Definitiva do País** até ao último dia do mês de fevereiro do ano seguinte. A partir desse momento, o contribuinte passa a ser tributado como não residente, com retenção na fonte de **15 %** ou **25 %** consoante a natureza dos rendimentos brasileiros (artigo 685 do RIR/2018). A **Lei 14.754/2023** introduziu nova fiscalidade sobre ativos no exterior, incluindo criptoativos, com tributação anual à alíquota de 15 % sobre rendimentos auferidos.
 
-
 <!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-pt -->
 ## Como a exit tax interage com os ativos mantidos em brokers estrangeiros
 
@@ -282,11 +277,11 @@ Dois outros pormenores aparecem frequentemente em conversas posteriores com a ad
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
   ## O que uma LLC NÃO faz
 

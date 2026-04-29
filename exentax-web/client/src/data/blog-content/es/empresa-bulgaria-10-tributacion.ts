@@ -42,7 +42,7 @@ Una OOD bulgara tiene una carga administrativa considerable comparada con una LL
 - Declaraciones de IVA mensuales o trimestrales si superas el umbral (166.000 BGN, unos 85.000 EUR).
 - Declaración anual de impuesto de sociedades.
 - Cuentas anuales depositadas en el registro mercantil.
-- Auditoría externa si superas determinados umbrales.
+- Auditoría externa si superas determinados umbrales. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 Suelo realista anual: 2.000 a 4.500 EUR solo en honorarios y tasas. Muy por encima de los ~600 USD anuales de una LLC.
 ### Banca: mejor que Hong Kong, peor que EE.UU.
@@ -70,12 +70,12 @@ Para el perfil mayoritario que asesoramos en Exentax (freelance, agencia digital
 ### Riesgos reales
 
 - **Inspecciones fiscales** del NRA (Agencia Tributaria búlgara): poco frecuentes, pero si llegan piden documentación detallada en búlgaro.
-- **Sanciones por contabilidad incorrecta**: el sistema sanciona errores formales con multas relevantes.
+- **Sanciones por contabilidad incorrecta**: el sistema sanciona errores formales con multas relevantes. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 - **Cambios regulatorios en la UE**: la presión BEPS Pilar 2 y la armonización fiscal europea pueden erosionar la ventaja del 10% en los próximos años.
 ### Casos típicos donde aplica
 
 **Caso 1: emprendedor que factura 80.000 EUR/año desde España sin mudarse.**
-Bulgaria no aporta nada. Sin residencia búlgara, los beneficios tributan en España al tipo correspondiente más sanciones potenciales. La LLC americana es alternativa más simple y eficiente.
+Bulgaria no aporta nada. Sin residencia búlgara, los beneficios tributan en España al tipo correspondiente más sanciones potenciales. La LLC americana es alternativa más simple y eficiente. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 **Caso 2: empresario europeo que se traslada a Sofía con familia.**
 Bulgaria sí compensa. Residencia personal con tipo plano del 10% IRPF, sociedad búlgara para operar dentro de la UE con factura intracomunitaria, calidad de vida razonable a coste bajo. Combinación sólida.
@@ -121,7 +121,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 ### Por jurisdicción
 
 - **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
-- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
+- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 - **CDI España–EE. UU.** El convenio (BOE 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
 
@@ -189,7 +189,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 <!-- exentax:cross-refs-v1 -->
 ### Más lecturas relacionadas
@@ -201,11 +201,11 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
   ## Lo que NO hace una LLC
 

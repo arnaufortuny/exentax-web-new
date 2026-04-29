@@ -37,12 +37,12 @@ Després de la primera presentació, **només cal tornar a presentar** si en el 
 
 El règim sancionador original del 720 va ser un dels més severs de la UE: 5.000 € per dada omesa (mínim 10.000 €), imprescriptibilitat de les rendes no declarades com a guany patrimonial no justificat (art. 39.2 LIRPF) i sanció del 150 % sobre la quota.
 
-La **sentència del TJUE de 27 de gener de 2022, assumpte C-788/19**, va declarar aquest règim contrari al Dret de la Unió per desproporcionat i per vulnerar la lliure circulació de capitals. La Llei 5/2022, de 9 de març, va eliminar aquestes sancions específiques.
+La **sentència del TJUE de 27 de gener de 2022, assumpte C-788/19**, va declarar aquest règim contrari al Dret de la Unió per desproporcionat i per vulnerar la lliure circulació de capitals. La Llei 5/2022, de 9 de març, va eliminar aquestes sancions específiques. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 Això **no significa** que ja no hi hagi sancions. S'aplica avui:
 
 - **Sanció ordinària** de l'art. 198 LGT per no presentar declaració informativa: 20 € per dada, mínim 300 €, màxim 20.000 €. Reduïda a la meitat si es presenta sense requeriment previ.
-- **Règim general de la LGT** per a les quotes degudes a IRPF si es descobreixen rendes no declarades: art. 191 (sanció del 50 al 150 % de la quota), amb termini general de **prescripció de 4 anys**.
+- **Règim general de la LGT** per a les quotes degudes a IRPF si es descobreixen rendes no declarades: art. 191 (sanció del 50 al 150 % de la quota), amb termini general de **prescripció de 4 anys**. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 - **Via penal** (art. 305 CP) si la quota defraudada en un exercici supera 120.000 €.
 
 La sentència europea va suavitzar el règim, però no va derogar l'obligació d'informar. Qui no presenta el 720 segueix cometent infracció tributària.
@@ -102,7 +102,7 @@ El nostre procés per al 720/721 quan entra un client amb LLC + fintechs europee
 6. **Integració** amb la resta de la planificació: <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">disseny d'estructura internacional</a>, <a href="/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis">tributació LLC per activitat</a> i <a href="/ca/blog/crs-per-a-residents-a-espanya-i-llatinoamerica-implicacions">CRS per a residents a Espanya</a>.
 ### En resum
 
-El Model 720 i el Model 721 són obligacions informatives, no impostos. No costen diners per si mateixos, però la seva omissió sí: sanció de l'art. 198 LGT, regularització de quotes amb recàrrecs de l'art. 191 i, en saldo no justificat, el clàssic art. 39 LIRPF (atenuat pel TJUE però no eliminat). El creuament amb CRS i, recentment, amb DAC8, fa que la petjada sigui cada cop més visible per a l'AEAT.
+El Model 720 i el Model 721 són obligacions informatives, no impostos. No costen diners per si mateixos, però la seva omissió sí: sanció de l'art. 198 LGT, regularització de quotes amb recàrrecs de l'art. 191 i, en saldo no justificat, el clàssic art. 39 LIRPF (atenuat pel TJUE però no eliminat). El creuament amb CRS i, recentment, amb DAC8, fa que la petjada sigui cada cop més visible per a l'AEAT. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 Si tens Wise, Mercury, Revolut, brokers estrangers o cripto fora d'Espanya i no estàs 100 % segur de la teva posició respecte al 720/721, ho revisem amb tu i deixem la teva situació neta abans de la propera campanya.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
@@ -112,7 +112,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
@@ -172,7 +172,7 @@ Els models 720 (béns a l'estranger) i 721 (criptomonedes a l'estranger) són le
 
 - **Model 720: què es declara.** Comptes bancaris a l'estranger, valors i participacions en entitats estrangeres, i immobles a l'estranger, quan el saldo agregat en cada bloc supera 50.000 EUR al 31 de desembre o és el més alt de l'any.
 - **Model 721: criptomonedes.** Específic per a saldos de criptomonedes custodiats per exchanges o plataformes estrangeres (Binance, Coinbase, Kraken). Llindar: 50.000 EUR al 31 de desembre o saldo més alt de l'any. Termini: gener-març del següent.
-- **Règim sancionador actual.** Després de la sentència del TJUE de gener 2022 (cas C-788/19) i la reforma posterior, el règim sancionador específic antic del 720 va ser declarat contrari al dret UE. Sancions actuals: règim general LGT.
+- **Règim sancionador actual.** Després de la sentència del TJUE de gener 2022 (cas C-788/19) i la reforma posterior, el règim sancionador específic antic del 720 va ser declarat contrari al dret UE. Sancions actuals: règim general LGT. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 - **El que convé saber.** Una LLC americana el soci de la qual sigui resident espanyol obliga a declarar la participació (model 720, bloc "valors i participacions") quan supera el llindar.
 
 ### Què ens pregunten més
@@ -209,6 +209,8 @@ El Model 720 es presenta exclusivament en línia a la Seu Electrònica de l'AEAT
 Freelance resident a Madrid amb: Wise EUR saldo 18.400 EUR, Mercury Personal Savings 22.300 USD, cartera Interactive Brokers 41.000 EUR, Kraken amb 6.200 EUR en BTC i ETH. Bloc comptes: 18.400 més 22.300 USD al canvi BCE són aproximadament 39.000 EUR, per sota del llindar, **sense obligació**. Bloc valors: 41.000 EUR, per sota del llindar, **sense obligació**. Bloc cripto (Model 721): 6.200 EUR, per sota de 50.000 EUR, **sense obligació**. Si l'any següent aterren 35.000 EUR a Mercury, el bloc comptes puja a 74.000 EUR i dispara un Model 720.
 
 ### Errors que més sancions generen el
+
+Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 1. Oblidar els comptes Wise Business i Mercury de la LLC quan el soci és beneficiari efectiu.
 2. No tornar a declarar després d'un augment superior a 20.000 EUR respecte al darrer 720.
@@ -253,11 +255,11 @@ En un any tranquil, la manera més neta de mantenir tots dos models manejables �
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   ## El que una LLC NO fa
 

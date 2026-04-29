@@ -38,7 +38,7 @@ A holding is not for everyone. It does not make sense if:
 - You have no real reason beyond "because it sounds good".
 - Your situation would be better solved with good personal planning.
 
-Setting up a holding just because it is fashionable adds bookkeeping, filings, costs and exposure to inspection without any payoff.
+Setting up a holding just because it is fashionable adds bookkeeping, filings, costs and exposure to inspection without any payoff. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 ### How a classic holding is structured (Spain case)
 
 Typical structure for an entrepreneur with several activities in Spain:
@@ -84,7 +84,7 @@ A holding has a recurring cost worth budgeting:
 - Setup: EUR 500-3,000 depending on jurisdiction.
 - Registered office and secretarial services: EUR 500-2,000 per year.
 - Bookkeeping and annual accounts: EUR 1,500-5,000 per year.
-- Audit if exceeding thresholds: EUR 3,000-10,000 per year.
+- Audit if exceeding thresholds: EUR 3,000-10,000 per year. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 - Specialized tax advisory: EUR 2,000-8,000 per year.
 
 Realistic annual floor: EUR 4,000-12,000 for a well-managed international holding. The holding only pays off if the tax savings or the additional control comfortably exceed that cost.
@@ -158,7 +158,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
@@ -202,8 +202,6 @@ At Exentax we model whether a holding actually saves you money in your specific 
 ## We set it up without you losing a weekend
 
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
-
-
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

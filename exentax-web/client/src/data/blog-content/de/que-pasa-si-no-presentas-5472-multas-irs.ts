@@ -4,15 +4,15 @@ Dieser Artikel ist nicht die Schritt-für-Schritt-Anleitung (dafür haben Sie sc
 
 ## Was das IRS genau bestraft
 
-Die Regel steht in **Section 6038A(d) des Internal Revenue Code**, 2017 durch den Tax Cuts and Jobs Act verschärft. Die heute geltende Basis sind **25.000 USD pro nicht eingereichtem, verspätet eingereichtem oder wesentlich unvollständig eingereichtem Formular**. Bis 2018 lag die Strafe bei 10.000 USD; seither ist sie auf 25.000 USD fixiert und, ohne Gesetzesänderung, ist das die Zahl, gegen die Sie laufen.
+Die Regel steht in **Section 6038A(d) des Internal Revenue Code**, 2017 durch den Tax Cuts and Jobs Act verschärft. Die heute geltende Basis sind **25.000 USD pro nicht eingereichtem, verspätet eingereichtem oder wesentlich unvollständig eingereichtem Formular**. Bis 2018 lag die Strafe bei 10.000 USD; seither ist sie auf 25.000 USD fixiert und, ohne Gesetzesänderung, ist das die Zahl, gegen die Sie laufen. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 Auf diese Basis kommen drei Dinge, die die meisten nicht sehen:
 
 1. **Beharrlichkeitsstrafe.** Notifiziert das IRS Ihnen formal das Versäumnis und regularisieren Sie nicht innerhalb von **90 Tagen**, kommen **weitere 25.000 USD** für **jede 30-Tages-Periode** (oder Bruchteil) hinzu, in der Sie nicht erfüllen. Keine veröffentlichte Obergrenze: reale Fälle erreichen sechsstellige Beträge.
 2. **Eine Strafe pro Jahr, nicht eine einzige.** Drei nicht eingereichte Jahre = drei Formulare. Drei × 25.000 USD = **75.000 USD** vor Zinsen.
-3. **Kaskade mit Form 1120.** Ihre Single-Member-LLC mit ausländischem Eigentümer muss **Form 1120 pro forma + Form 5472 zusammen** einreichen. Haben Sie das 5472 verpasst, haben Sie fast immer auch das 1120 verpasst, was zusätzliche Exposition für Late Filing des 1120 unter §6651 hinzufügt, obwohl die monetäre Strafe des §6651 sich auf die geschuldete Steuer berechnet, sodass bei einer pro forma LLC ohne tax due der Betrag in der Regel null oder marginal ist; das Hauptrisiko bleibt das 5472.
+3. **Kaskade mit Form 1120.** Ihre Single-Member-LLC mit ausländischem Eigentümer muss **Form 1120 pro forma + Form 5472 zusammen** einreichen. Haben Sie das 5472 verpasst, haben Sie fast immer auch das 1120 verpasst, was zusätzliche Exposition für Late Filing des 1120 unter §6651 hinzufügt, obwohl die monetäre Strafe des §6651 sich auf die geschuldete Steuer berechnet, sodass bei einer pro forma LLC ohne tax due der Betrag in der Regel null oder marginal ist; das Hauptrisiko bleibt das 5472. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
-Dazu **Zinsen auf die Strafen** ab Fälligkeit, die das IRS mit dem federal short-term rate + 3 Punkte berechnet, vierteljährlich aktualisiert.
+Dazu **Zinsen auf die Strafen** ab Fälligkeit, die das IRS mit dem federal short-term rate + 3 Punkte berechnet, vierteljährlich aktualisiert. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 ## Wie das IRS davon erfährt
 
 Die Frage in fast jedem Erstgespräch lautet gleich: *"wie sollte das IRS wissen, dass ich existiere, wenn ich nie etwas eingereicht habe?"*. Kurzantwort: **es weiß es, und jedes Jahr leichter**. Die fünf konkreten Kanäle aktuell:
@@ -20,7 +20,7 @@ Die Frage in fast jedem Erstgespräch lautet gleich: *"wie sollte das IRS wissen
 - **EIN unter Kontrolle.** Wer EIN beantragt hat, ist in deren Systemen. Das IRS gleicht aktive EINs periodisch mit erhaltenen Erklärungen ab. Eine Single-Member-LLC mit aktivem EIN und ohne 1120/5472 Jahr für Jahr taucht in den **Non-Filer**-Listen auf.
 - **US-Banken und Drittmeldungen.** Mercury, Brex, Wise USD, Relay und ähnliche führen KYC zur LLC durch, halten dem IRS zugängliche Kundendaten vor und können je nach Flow und Kundentyp Drittmeldungen erzeugen (Form 1099, Quellensteuer, FATCA wo anwendbar). Eine operative LLC, die Mittel bewegt und nichts einreicht, ist das Muster, das Prüfungen auslöst.
 - **BOI Report (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).** Unter den geltenden <a href="/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen">BOI Report</a>-Regeln hat FinCEN die wirtschaftliche Berechtigung der pflichtigen LLCs kartiert, und der Rahmen sieht eine Datenfreigabe an das IRS vorbehaltlich der anwendbaren Zugriffsregeln vor (regulierungsabhängiges Regime).
-- **CRS und DAC umgekehrt.** Wenn Ihr Wohnsitzstaat Informationen über mit der LLC verbundene Konten erhält und das IRS um Prüfung bittet, ergibt sich der Abgleich von selbst. Manche Jurisdiktionen tun das bereits standardmäßig.
+- **CRS und DAC umgekehrt.** Wenn Ihr Wohnsitzstaat Informationen über mit der LLC verbundene Konten erhält und das IRS um Prüfung bittet, ergibt sich der Abgleich von selbst. Manche Jurisdiktionen tun das bereits standardmäßig. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 - **Eigene Geschäftspartner.** Stellt ein US-Lieferant ein Form 1099 an Ihre LLC aus oder meldet eine Gegenpartei eine reportable transaction, taucht Ihre LLC im IRS-System auf, ohne dass Sie etwas getan hätten.
 
 Die Idee "weil ich nichts eingereicht habe, sehen sie mich nicht" wurde durch die Verschärfungen 2017 geschwächt und ist unter den geltenden BOI-Regeln praktisch unhaltbar. Die richtige Annahme: das IRS kann jederzeit eine Prüfung eröffnen und Sie planen entsprechend.
@@ -38,7 +38,7 @@ Sie haben es bemerkt, verspätet eingereicht, aber **bevor das IRS Sie formal no
 
 ### Profil C: eingereicht aber falsch
 
-Sie haben 1120 und 5472 eingereicht, aber mit wesentlich unvollständigen Daten: fehlende **reportable transaction**, falsche TIN des foreign related party, nicht offengelegtes Gesellschafterdarlehen, ausgelassene Kapitaleinlage. Die Regel 6038A(d) ist streng: eine **wesentlich unvollständige Erklärung gilt als nicht eingereicht**, gleiche Strafe. Gute Nachricht: die freundliche Korrektur mit schriftlicher Erklärung löst sich in der Regel besser als die zwei vorherigen.
+Sie haben 1120 und 5472 eingereicht, aber mit wesentlich unvollständigen Daten: fehlende **reportable transaction**, falsche TIN des foreign related party, nicht offengelegtes Gesellschafterdarlehen, ausgelassene Kapitaleinlage. Die Regel 6038A(d) ist streng: eine **wesentlich unvollständige Erklärung gilt als nicht eingereicht**, gleiche Strafe. Gute Nachricht: die freundliche Korrektur mit schriftlicher Erklärung löst sich in der Regel besser als die zwei vorherigen. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 ### Was eine "reportable transaction" wirklich ist
 
 Das ist die Hauptursache technisch falsch eingereichter 5472. Eine **reportable transaction** ist jede monetäre oder nicht-monetäre Bewegung zwischen der LLC und ihrem foreign related party (Sie, in den meisten Fällen), einschließlich Dingen, die man nicht mit "Transaktion" assoziiert:
@@ -58,7 +58,7 @@ Es lohnt zu wissen, was passiert, wenn die Maschine läuft, weil jeder Schritt e
 
 1. **CP15 / CP215 (notice of penalty).** Mitteilung der Initialstrafe von 25.000 USD pro Formular.
 2. **Antwortfrist (~30 Tage).** Sie entscheiden: zahlen, Abatement aus reasonable cause beantragen, Berechnung anfechten oder Eskalation an das Office of Appeals.
-3. **Erweiterte Prüfung.** Überzeugt die Antwort nicht, eröffnet das IRS meist eine Prüfung über zusätzliche Jahre. Aus einer Strafe werden drei.
+3. **Erweiterte Prüfung.** Überzeugt die Antwort nicht, eröffnet das IRS meist eine Prüfung über zusätzliche Jahre. Aus einer Strafe werden drei. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 4. **90 Tage nach formaler Mitteilung.** Ist das Formular nicht eingereicht und die Lage nicht gelöst, startet die Uhr der **25.000 USD pro zusätzliche 30 Tage**.
 5. **Endgültige Festsetzung + Zinsen.** Einmal fixiert, laufen Zinsen bis zur Zahlung.
 
@@ -86,7 +86,7 @@ Viele verwechseln die **Streamlined Filing Compliance Procedures** (Programm fü
 
 - **Delinquent international information return submission.** Standardverfahren für verspätete internationale Informationserklärungen mit reasonable cause. Übliche Route für Profile A und B.
 - **Voluntary Disclosure Practice.** Nur bei **vorsätzlichem Verhalten** oder strafrechtlichem Risiko. Nicht der Normalfall einer Single-Member-LLC.
-- **Quiet disclosure.** Verspätet einreichen ohne Erklärung. Technisch möglich, praktisch nicht empfohlen: das IRS behandelt es als reines Late Filing und wendet die Strafe an.
+- **Quiet disclosure.** Verspätet einreichen ohne Erklärung. Technisch möglich, praktisch nicht empfohlen: das IRS behandelt es als reines Late Filing und wendet die Strafe an. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 
 Der Unterschied zwischen richtigem Weg und Blindflug: buchstäblich Zehntausende USD.
 ## Der Regularisierungsplan, Schritt für Schritt
@@ -111,7 +111,7 @@ Zum konkreten Abschluss: Fehler, die wir bei Exentax Monat für Monat sehen und 
 - Nur die letzten Jahre einreichen, "um nicht aufzufallen". Bestand die Pflicht früher, lebt die Strafe.
 - LLC schließen in dem Glauben, die Pflicht zu löschen. **Sie wird nicht gelöscht**: die Strafe überlebt die Auflösung bis zur Verjährung.
 - Registered Agent oder Adresse wechseln, ohne das IRS zu aktualisieren. Mitteilungen gehen verloren, Fristen laufen.
-- Annehmen, der Wohnsitzstaat schützt Sie. Die Strafe ist IRS gegen LLC; kein bilaterales Abkommen löscht sie.
+- Annehmen, der Wohnsitzstaat schützt Sie. Die Strafe ist IRS gegen LLC; kein bilaterales Abkommen löscht sie. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 ---
 ### Fazit und nächster Schritt
@@ -182,7 +182,7 @@ Das 5472 ist die teuerste Pflicht, die ein nicht-ansässiger LLC-Eigentümer ver
 
 - **Genaue Sanktion und Anwendung.** 25.000$ pro nicht eingereichtem, unvollständigem oder verspätetem 5472 (IRC §6038A(d)). 90 Tage nach IRS-Hinweis ohne Einreichung weitere 25.000$ pro 30-Tage-Periode ohne explizite Obergrenze. Strafe hängt NICHT vom Umsatz ab.
 - **Wie die IRS davon erfährt.** Drei Wege: CRS/FATCA-Austausch, Abgleich mit US-Bank, Zufallsprüfung. Wahrscheinlichkeit nicht null und steigend.
-- **Wie regularisieren vor Akteneröffnung.** Freiwillige späte Einreichung des 5472 + 1120 + „reasonable cause"-Brief. First-Time Penalty Abatement-Programm kann Strafe vollständig eliminieren.
+- **Wie regularisieren vor Akteneröffnung.** Freiwillige späte Einreichung des 5472 + 1120 + „reasonable cause"-Brief. First-Time Penalty Abatement-Programm kann Strafe vollständig eliminieren. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 - **Wie regularisieren nach IRS-Hinweis.** 30 Tage zum Antworten: sofortige Einreichung, Zahlung unter Vorbehalt, formeller Abatement-Antrag. 4-6 Monate. Erfolg bei first-time + reasonable cause: 60-80%.
 
 ### Was am häufigsten gefragt wird
@@ -197,7 +197,6 @@ Bei Exentax übernehmen wir 5472-Spät-Regularisierungen.
 ## Wie wir bei Exentax arbeiten
 
 Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.
-
 
 <!-- exentax:lote9-native-v1:que-pasa-si-no-presentas-5472-multas-irs -->
 ## Wie das Folgejahr nach einer Form 5472-Lücke aussieht
@@ -246,7 +245,7 @@ Sorge, die vor der Aufholaktion bestand.
 <!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-de -->
 ## Warum die Strafe für Form 5472 schneller eskaliert als andere verspätete Einreichungen
 
-Die Strafe für Form 5472 hat eine Struktur, die schneller eskaliert als die meisten anderen verspäteten Einreichungen, und der Grund liegt in der Rolle des Formulars im weiteren US-Informationsregime. Das Formular soll dem IRS eine saubere Sicht auf Geschäftsvorfälle zwischen verbundenen Parteien mit ausländischen Eigentümern verschaffen, und das Strafenregime spiegelt wider, wie zentral diese Sichtbarkeit für das System ist, und nicht, wie komplex das Formular selbst ist. Der Ausgangsbetrag ist pro Formular und Jahr fix und gilt unabhängig davon, ob Steuer geschuldet war, und er kann ansteigen, wenn Erinnerungen innerhalb der gesetzlichen Fenster nicht beantwortet werden.
+Die Strafe für Form 5472 hat eine Struktur, die schneller eskaliert als die meisten anderen verspäteten Einreichungen, und der Grund liegt in der Rolle des Formulars im weiteren US-Informationsregime. Das Formular soll dem IRS eine saubere Sicht auf Geschäftsvorfälle zwischen verbundenen Parteien mit ausländischen Eigentümern verschaffen, und das Strafenregime spiegelt wider, wie zentral diese Sichtbarkeit für das System ist, und nicht, wie komplex das Formular selbst ist. Der Ausgangsbetrag ist pro Formular und Jahr fix und gilt unabhängig davon, ob Steuer geschuldet war, und er kann ansteigen, wenn Erinnerungen innerhalb der gesetzlichen Fenster nicht beantwortet werden. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 
 Zwei praktische Punkte beseitigen den grössten Teil der Reibung. Erstens gibt es Abatement-Kriterien, wenn ein hinreichender Grund vorliegt, und eine ruhig formulierte Sachverhaltsdarstellung, gestützt auf die ursprünglichen Kalendererinnerungen, das Mandatsschreiben und das Datum der ersten Einreichung, wiegt in der Regel mehr als ein längerer Brief, der später unter Druck verfasst wird. Zweitens besteht die sauberste Präventivmassnahme darin, den Erinnerungskalender mit dem föderalen Verlängerungszyklus abzustimmen und pro Jahr eine einzige Arbeitsdatei zu führen, die bereits die Liste der verbundenen Geschäftsvorfälle enthält, sodass das Formular selbst nur noch der letzte Formatierungsschritt ist.
 <!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-de -->
@@ -268,11 +267,11 @@ Ein einziger Kalendereintrag im ersten Quartal, der die Liste der Geschäftsvorf
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
   ## Was eine LLC NICHT tut
 
@@ -300,7 +299,7 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
   ### Nichtabgabe der Form 5472 aus DACH-Sicht: Doppelrisiko
 
-  Die fehlende Abgabe der Form 5472 löst nach **IRC §6038A(d)(1)** die initiale Sanktion von **USD 25.000 pro Vorgang** aus, erhöht durch **Sec. 13301 des Tax Cuts and Jobs Act (Pub. L. 115-97 vom 22.12.2017)**. Bei Fortdauer nach 90-tägiger IRS-Aufforderung kommen **USD 25.000 pro 30-Tage-Periode** hinzu. Aus deutscher Sicht entsteht parallel ein zweites Risiko: ohne 5472-Reporting hat der IRS keine Datenbasis für den FATCA-Austausch mit dem **BZSt**, was bei späterer Aufdeckung als **Indiz für Steuerhinterziehung nach §370 AO** gewertet werden kann. Zudem greifen die **erhöhten Mitwirkungspflichten nach §90 Abs. 2 AO** bei Auslandssachverhalten und die **Anzeigepflicht nach §138 Abs. 2 AO** für Beteiligungen ≥ 10 %. In Österreich gelten die **erhöhten Offenlegungspflichten nach §109 BAO** und das **WiEReG (BGBl. I Nr. 136/2017)**. In der Schweiz greift das **AIA-Gesetz (SR 653.1)** für den automatischen Datenaustausch über die ESTV.
+  Die fehlende Abgabe der Form 5472 löst nach **IRC §6038A(d)(1)** die initiale Sanktion von **USD 25.000 pro Vorgang** aus, erhöht durch **Sec. 13301 des Tax Cuts and Jobs Act (Pub. L. 115-97 vom 22.12.2017)**. Bei Fortdauer nach 90-tägiger IRS-Aufforderung kommen **USD 25.000 pro 30-Tage-Periode** hinzu. Aus deutscher Sicht entsteht parallel ein zweites Risiko: ohne 5472-Reporting hat der IRS keine Datenbasis für den FATCA-Austausch mit dem **BZSt**, was bei späterer Aufdeckung als **Indiz für Steuerhinterziehung nach §370 AO** gewertet werden kann. Zudem greifen die **erhöhten Mitwirkungspflichten nach §90 Abs. 2 AO** bei Auslandssachverhalten und die **Anzeigepflicht nach §138 Abs. 2 AO** für Beteiligungen ≥ 10 %. In Österreich gelten die **erhöhten Offenlegungspflichten nach §109 BAO** und das **WiEReG (BGBl. I Nr. 136/2017)**. In der Schweiz greift das **AIA-Gesetz (SR 653.1)** für den automatischen Datenaustausch über die ESTV. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 <!-- exentax:cta-v1 -->
 Wir prüfen BOI, EIN, Registered Agent und Bundespflichten, damit Sie keine Strafe überrascht. <a href="/de/leistungen">Compliance-Check anfragen</a>.

@@ -4,9 +4,9 @@ La idea no és espantar-te, és donar-te un mapa. Si passes els dotze punts, la 
 
 ## Per què fer aquesta auditoria ara
 
-Una LLC ben gestionada el primer any tendeix a estar ben gestionada per sempre. Una LLC que arrossega errors els acumula amb interessos: sancions que creixen mes a mes, formularis que es tornen més cars de regularitzar, banca que es torna més difícil de mantenir quan comencen a arribar revisions de KYC.
+Una LLC ben gestionada el primer any tendeix a estar ben gestionada per sempre. Una LLC que arrossega errors els acumula amb interessos: sancions que creixen mes a mes, formularis que es tornen més cars de regularitzar, banca que es torna més difícil de mantenir quan comencen a arribar revisions de KYC. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
-L'auditoria ràpida té un objectiu concret: convertir el difús ("crec que tot va bé") en alguna cosa verificable. Si després detectes dos o tres punts vermells, el pla d'acció és molt més barat que descobrir-los en una inspecció.
+L'auditoria ràpida té un objectiu concret: convertir el difús ("crec que tot va bé") en alguna cosa verificable. Si després detectes dos o tres punts vermells, el pla d'acció és molt més barat que descobrir-los en una inspecció. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 ## Els 12 punts
 
 ### 1. Estat legal de la LLC
@@ -15,7 +15,7 @@ Entra al web del Secretary of State de l'estat de constitució i busca la teva L
 
 ### 2. Registered Agent vigent
 
-Vas pagar la renovació del Registered Agent enguany? L'adreça que figura a l'estat és l'actual? Un RA caducat deriva en correu perdut de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> o del FinCEN, i això deriva en sancions que arriben sense avisar.
+Vas pagar la renovació del Registered Agent enguany? L'adreça que figura a l'estat és l'actual? Un RA caducat deriva en correu perdut de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> o del FinCEN, i això deriva en sancions que arriben sense avisar. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
 ### 3. Annual Report o Franchise Tax presentat
 
@@ -51,7 +51,7 @@ Vas imputar els ingressos de la LLC a la teva declaració local? Això no és op
 
 ### 11. Model 720/721 si resideixes a Espanya
 
-Si resideixes a Espanya i la suma de comptes, valors o cripto fora del país supera 50.000 €, tens obligació de declarar-ho. La sentència del TJUE va limitar la sanció desproporcionada, però l'obligació informativa segueix vigent i es creua automàticament.
+Si resideixes a Espanya i la suma de comptes, valors o cripto fora del país supera 50.000 €, tens obligació de declarar-ho. La sentència del TJUE va limitar la sanció desproporcionada, però l'obligació informativa segueix vigent i es creua automàticament. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 ### 12. Calendari i proveïdor per al pròxim any
 
@@ -63,7 +63,7 @@ Per últim: tens clar qui presenta el teu 5472 el pròxim abril? Qui renova el R
 - **6 o més punts vermells:** estàs en zona de risc. El barat és regularitzar voluntàriament; el car és esperar a una carta de l'IRS, FinCEN o Hisenda.
 ## Què fer amb el resultat
 
-Si l'auditoria et surt neta, guarda l'exercici a la teva carpeta de la LLC amb data. Repeteix-la cada sis mesos; són vint minuts.
+Si l'auditoria et surt neta, guarda l'exercici a la teva carpeta de la LLC amb data. Repeteix-la cada sis mesos; són vint minuts. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
 Si et surten punts vermells, l'ordre raonable és: primer legal (estat, RA, BOI), després fiscal IRS (5472 endarrerits amb l'estratègia adequada), després país (regularització si escau), i per últim operativa (banca i plataformes).
 
@@ -99,7 +99,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
+- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
 ### 2. Registered Agent vigent
@@ -160,7 +160,7 @@ El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta
 Tres canvis concrets de l'últim any modifiquen com puntuar aquesta auditoria actualment:
 
 - **BOI Report (FinCEN).** Després de la *interim final rule* del 21 de març de 2025, les LLC constituïdes als EUA amb beneficial owners nord-americans queden fora del reportatge. Les **foreign reporting companies** (entitats constituïdes fora dels EUA i registrades en un estat) sí que segueixen obligades. Verifica l'estat vigent a [fincen.gov/boi](https://www.fincen.gov/boi) abans de marcar el punt 6 com a verd.
-- **Form 5472 + 1120 pro forma.** La sanció per no presentar continua en **25.000 USD per formulari i any** (IRC §6038A). Per a l'exercici fiscal en curs el termini és el **15 d'abril** i la pròrroga via **Form 7004** el porta al **15 d'octubre de avui**.
+- **Form 5472 + 1120 pro forma.** La sanció per no presentar continua en **25.000 USD per formulari i any** (IRC §6038A). Per a l'exercici fiscal en curs el termini és el **15 d'abril** i la pròrroga via **Form 7004** el porta al **15 d'octubre de avui**. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 - **Annual Report estatal.** Wyoming manté la quota mínima de 60 USD; Delaware segueix en 300 USD de Franchise Tax amb venciment l'1 de juny; New Mexico continua sense Annual Report. Per a altres estats, confirma dates al portal del Secretary of State.
 
 ### Com prioritzar si falles tres o més punts
@@ -171,7 +171,7 @@ Tres canvis concrets de l'últim any modifiquen com puntuar aquesta auditoria ac
 
 ### Preguntes freqüents avui
 
-**Aquesta auditoria substitueix una revisió professional?** No. Cobreix el 90 % dels problemes operatius visibles, però no detecta exposicions fiscals subtils (PE, ECI, residència econòmica) que requereixen anàlisi cas per cas.
+**Aquesta auditoria substitueix una revisió professional?** No. Cobreix el 90 % dels problemes operatius visibles, però no detecta exposicions fiscals subtils (PE, ECI, residència econòmica) que requereixen anàlisi cas per cas. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 **Amb quina freqüència convé repetir-la?** Un cop l'any, idealment al gener i abans del 15 de març (termini 1042-S si l'emets). Si canvies de banc, adreça o socis, repeteix-la el mateix mes.
 
@@ -180,7 +180,7 @@ Tres canvis concrets de l'últim any modifiquen com puntuar aquesta auditoria ac
 <!-- exentax:execution-v2 -->
 ## Com fem l'auditoria ràpida a Exentax
 
-Una auditoria útil no busca culpables: posa la LLC en ordre en menys de trenta minuts i deixa clar què urgeix abans del proper tancament. Cada setmana processem centenars d'aquestes checklists i els dotze punts que importen es repeteixen sempre.
+Una auditoria útil no busca culpables: posa la LLC en ordre en menys de trenta minuts i deixa clar què urgeix abans del proper tancament. Cada setmana processem centenars d'aquestes checklists i els dotze punts que importen es repeteixen sempre. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 - **EIN, BOI i 5472 al dia** amb còpies accessibles des de qualsevol dispositiu, no enterrades al correu del fundador.
 - **Banca coherent**: titularitat, adreça i descripció d'activitat alineades a Mercury, Wise o Relay per superar el primer KYC ampliat.
@@ -200,11 +200,11 @@ Per aplicar el mateix guió ara, obre la <strong>calculadora Exentax</strong> o 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   ## El que una LLC NO fa
 

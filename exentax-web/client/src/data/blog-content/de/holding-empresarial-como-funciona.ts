@@ -82,7 +82,7 @@ Eine Holding hat laufende Kosten, die einzukalkulieren sind:
 - Gründung: 500-3.000 EUR je nach Jurisdiktion.
 - Sitz und Sekretariat: 500-2.000 EUR/Jahr.
 - Buchhaltung und Jahresabschluss: 1.500-5.000 EUR/Jahr.
-- Prüfung über Schwellen: 3.000-10.000 EUR/Jahr.
+- Prüfung über Schwellen: 3.000-10.000 EUR/Jahr. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 - Spezialisierte Steuerberatung: 2.000-8.000 EUR/Jahr.
 
 Realistischer Jahressockel: 4.000-12.000 EUR für eine gut geführte internationale Holding. Die Holding rechnet sich nur, wenn die Steuerersparnis oder zusätzliche Kontrolle diese Kosten klar übersteigt.
@@ -90,7 +90,7 @@ Realistischer Jahressockel: 4.000-12.000 EUR für eine gut geführte internation
 
 - **Holding ohne Substanz**: ohne Büro, Entscheidungen und Personal können Finanzbehörden das Regime versagen.
 - **Schachtelprivileg ohne Voraussetzungen anwenden**: Beteiligungsquote, Haltedauer, Art der Tochter. Fehleinordnungen werden sanktioniert.
-- **Persönliches und Holding-Vermögen mischen**: bricht den Schutz und erschwert Prüfungen.
+- **Persönliches und Holding-Vermögen mischen**: bricht den Schutz und erschwert Prüfungen. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 - **Holding im Wohnsitzland nicht melden**: Eigentum, Kontrolle, Konten und Erträge. CRS und Register machen Verstecken unmöglich.
 - **Holding aus Mode**: schlechtester Grund. Wenn sie kein konkretes Problem löst, ist sie überflüssig.
 ### Wann eine Holding ins Spiel kommt
@@ -161,7 +161,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 ### Nach Rechtsordnung
 
 - **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
-- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 - **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
@@ -186,8 +186,6 @@ Eine Holding ist selten der erste Schritt eines Freelancers. Bevor wir eine empf
 ### Drei DACH-Beispiele aus der Praxis
 
 Ein Berliner SaaS-Gründer mit drei Produkten und stabilen Wiederkehrumsätzen profitiert von einer Holding, die jede Marke isoliert. Eine Wiener Marketing-Agentur mit fünfzehn Kunden und stabilen Margen behält oft ein einziges, gut geführtes LLC und spart sich die Holding bis Profit oder Risiko es rechtfertigen. Ein Schweizer Digital Nomad mit drei Wohnsitzwechseln in zwei Jahren sollte zuerst die Residenzfrage klären, bevor irgendeine Struktur zugeschnitten wird.
-
-
 
 ### Wenn der Schritt zur Holding wirklich Ruhe schafft
 
@@ -216,8 +214,6 @@ Bei Exentax modellieren wir, ob eine Holding in Ihrem Fall echte Steuerersparnis
 
 Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
 
-
-
 <!-- exentax:cross-refs-v1 -->
 ## Zum Weiterlesen
 
@@ -229,11 +225,11 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
   ## Was eine LLC NICHT tut
 

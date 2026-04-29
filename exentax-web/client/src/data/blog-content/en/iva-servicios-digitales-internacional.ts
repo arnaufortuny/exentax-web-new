@@ -91,7 +91,7 @@ A Merchant of Record is a company that becomes the legal seller of your product 
 | Invoice to customer | From your LLC | From DoDo (with your branding) |
 | Customer refunds | You handle | DoDo handles |
 | Chargeback liability | You | DoDo |
-| Tax audit risk | You | DoDo |
+| Tax audit risk | You | DoDo |. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 ### When to use a MoR:
 - Selling digital products (courses, e-books, software) to consumers worldwide

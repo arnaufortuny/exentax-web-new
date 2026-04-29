@@ -112,7 +112,7 @@ Direct crypto holdings are **not included** under art. 95 bis as currently draft
 Portugal is an EU Member State, so the automatic deferral applies. You pay nothing on exit; tax is only triggered when you actually sell.
 
 **What if I do not declare the Exit Tax?**
-Non-declaration constitutes a tax infringement under art. 191 LGT (penalty 50–150% of the tax due) plus late-payment interest. Above €120,000 undeclared tax, criminal liability (art. 305 CP) may arise.
+Non-declaration constitutes a tax infringement under art. 191 LGT (penalty 50–150% of the tax due) plus late-payment interest. Above €120,000 undeclared tax, criminal liability (art. 305 CP) may arise. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 **How is an LLC valued for exit tax purposes?**
 For non-listed entities, the AEAT accepts net book value or market valuation methods. For an LLC whose assets are primarily non-listed crypto, complex valuation is needed and a specific expert report is advisable.
@@ -122,14 +122,14 @@ For non-listed entities, the AEAT accepts net book value or market valuation met
 This article is informational and does not constitute personalised tax advice. Spanish tax law is complex and subject to change. Always consult a qualified tax adviser before making decisions based on this content.
 ## Your next step with Exentax
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 ## What the Exit Tax is (Art. 95 bis LIRPF)
 
 What follows is the operational view, not the textbook one. We have run this play enough times to know which variables collapse first under scrutiny from a tax authority or a banking compliance team, and that is the order we tackle them in.
 
 ## Legal basis: Art. 95 bis LIRPF in detail
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 ### Triggering scenarios
 
@@ -156,8 +156,6 @@ Most of the avoidable damage we see in this exact point comes from skipping the 
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
-
-
 ## Case 4: mixed portfolio (IBKR shares + LLC stake + crypto)
 
 This is the most common profile we see in our DACH and Spanish practice: a freelancer who has built a stable business via a US LLC, accumulated some IBKR positions over several years, and added a crypto allocation outside the LLC. When the move to Andorra, Portugal or another non-EU destination becomes a realistic plan, three layers of exit tax need their own reading.
@@ -172,7 +170,7 @@ The IBKR holdings are personal financial assets and trigger Article 95 bis once 
 
 **Mistake 3: filing the deferral request late.** Moving inside the EU/EEA opens an automatic deferral; moving outside requires a conditional deferral request that has its own deadline. Missing it means paying the latent gain in cash within the standard payment window.
 
-**Mistake 4: forgetting Modelo 720 the year of departure.** The reporting obligation continues for the partial year of Spanish residency. Skipping it adds penalties to a process already complex enough.
+**Mistake 4: forgetting Modelo 720 the year of departure.** The reporting obligation continues for the partial year of Spanish residency. Skipping it adds penalties to a process already complex enough. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 ## Practical timeline 12-6-3 months before leaving Spain
 
@@ -181,8 +179,6 @@ The IBKR holdings are personal financial assets and trigger Article 95 bis once 
 **T minus 6 months.** Decide on the deferral path (EU/EEA automatic vs non-EU conditional). Prepare documentation that supports the LLC participation valuation: 24 months of Mercury or Wise statements, Form 5472 history, contract list. Schedule the destination-side onboarding (NIF or fiscal number, bank, residency permit).
 
 **T minus 3 months.** Final snapshot of all asset values on the day of the residency change. Draft the deferral request if applicable. Coordinate the Modelo 100 of the partial year with your Spanish adviser, and book a follow-up call for the first Modelo 720 in your new residence year.
-
-
 
 ### One sentence we repeat to every client before the move
 
@@ -282,7 +278,6 @@ The numbers and the calendar matter — get either wrong and the rest unravels.
 ## A note for English-speaking residents of Spain or Andorra
 
   If you are an English-speaking resident in Spain (UK, US or Irish national working from Madrid or Barcelona) and considering an Andorra move, the same Spanish exit tax under article 95 bis LIRPF applies. The DTA Andorra-United States entered into force on 1 January 2024, providing for the first time a stable tax framework for Andorran residents holding US source income, with a maximum 15% withholding on dividends and reciprocal interest exemption on commercial accounts. Coordinate the move with your tax advisor to anticipate the Modelo 030 census update and the Modelo 100 final return for the year of departure.
-
 
 <!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-en -->
 ## How exit tax interacts with assets held at foreign brokers

@@ -78,7 +78,7 @@ Mas se és cliente da Exentax, tudo isto é invisível para ti. Nós recolhemos 
 
 O IRS leva este formulário muito a sério. As sanções por não apresentar ou apresentar incorretamente são significativas:
 
-- **25.000 $ de sanção base** por cada formulário não apresentado ou incompleto
+- **25.000 $ de sanção base** por cada formulário não apresentado ou incompleto. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 - **25.000 $ adicionais** por cada período de 30 dias de incumprimento após notificação pelo IRS (até 25.000 $ por mês)
 - Não há um teto máximo definido, as sanções podem acumular-se consideravelmente
 
@@ -188,7 +188,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 
 O Form 5472 continua a ser a obrigação mais cara de esquecer numa SMLLC de não residente:
 
-- **Sanção base 25.000 USD por formulário e ano** (IRC §6038A) mais **25.000 USD por cada 30 dias adicionais** sem submissão após notificação do IRS. Não prescreve enquanto a obrigação estiver aberta.
+- **Sanção base 25.000 USD por formulário e ano** (IRC §6038A) mais **25.000 USD por cada 30 dias adicionais** sem submissão após notificação do IRS. Não prescreve enquanto a obrigação estiver aberta. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 - **Procedimento exato.** Form 1120 *pro forma* (só cabeçalho: nome, morada, EIN, exercício fiscal) com o Form 5472 anexado. Envio por **correio registado ou fax para o IRS Service Center de Ogden, Utah**, **não por MeF/e-file**. Guarde o comprovativo como prova de envio.
 - **Prazos hoje.** Exercício 2025 → **15 de abril de hoje**. Extensão via **Form 7004** → **15 de outubro de hoje**. A extensão também se envia por correio ou fax e tem de chegar antes de 15 de abril.
 
@@ -196,7 +196,7 @@ O Form 5472 continua a ser a obrigação mais cara de esquecer numa SMLLC de nã
 
 **O que conta como *reportable transaction*?** Qualquer movimento entre a LLC e o seu único *member* não residente: aportes, levantamentos, empréstimos, pagamentos de serviços. Houve movimento, há que submeter.
 
-**E se há anos que não submeto?** Regularização com submissões atrasadas e declaração escrita de *reasonable cause*. Aconselhamento recomendado: uma carta bem construída pode evitar a sanção inicial.
+**E se há anos que não submeto?** Regularização com submissões atrasadas e declaração escrita de *reasonable cause*. Aconselhamento recomendado: uma carta bem construída pode evitar a sanção inicial. Na Exentax fechámos sem sanção clientes exatamente nesta situação. Falar cedo compensa — e poupa-te cinco dígitos.
 
 **A extensão 7004 cobre o 5472?** Sim. Se submeter o 7004 antes de 15 de abril, o prazo do 5472 + 1120 pro forma estende-se automaticamente até 15 de outubro.
 

@@ -36,7 +36,7 @@ Uma estrutura mal desenhada ou mal usada pode gerar mais problemas que benefíci
 - **Sede de direção efetiva (POEM)**: se a sociedade é realmente administrada a partir do seu país de residência, esse país pode tratá-la como residente local e reclamar imposto sobre sociedades, juros e sanções.
 - **Transparência fiscal internacional (CFC)**: muitos países (Portugal, Espanha, França, Alemanha, México, Argentina) imputam os lucros de sociedades estrangeiras controladas se cumprirem certos requisitos (percentagem de participação, baixa tributação, rendimentos passivos).
 - **Encerramentos bancários**: jurisdições percebidas como problemáticas (BVI, Belize, Seicheles) geram encerramentos preventivos em bancos europeus e americanos.
-- **Custo recorrente desproporcionado**: uma sociedade offshore mal escolhida pode consumir 5.000-15.000 USD/ano em domicílios, agentes, contabilidade obrigatória e auditorias sem trazer benefício fiscal real.
+- **Custo recorrente desproporcionado**: uma sociedade offshore mal escolhida pode consumir 5.000-15.000 USD/ano em domicílios, agentes, contabilidade obrigatória e auditorias sem trazer benefício fiscal real. Na Exentax fechámos sem sanção clientes exatamente nesta situação. Falar cedo compensa — e poupa-te cinco dígitos.
 - **Reputação**: em alguns setores e mercados, ter uma sociedade em jurisdição "exótica" fecha portas com clientes corporativos.
 - **Mudanças regulatórias**: BEPS Pillar Two, lista UE de jurisdições não cooperantes, registos de beneficiários finais, mudanças constantes nas exigências de substância económica. O que hoje funciona pode não funcionar dentro de três anos.
 ## Jurisdições reais e para que servem
@@ -68,7 +68,7 @@ Para freelancers, consultores, agências digitais, SaaS, e-commerce e criadores 
 - Banca operacional online (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments acessíveis.
 - Reputação neutra e profissional em qualquer mercado.
-- Sem auditoria obrigatória.
+- Sem auditoria obrigatória. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 Para perfis mais complexos (património relevante, vários sócios, países diferentes), a resposta pode ser uma combinação de jurisdições, não uma única sociedade.
 ### Casos típicos onde se aplica

@@ -151,20 +151,20 @@ Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprac
 BOI war die volatilste Pflicht der letzten 24 Monate; aktueller Stand:
 
 - **Status.** Der BOI Report ist **NICHT verpflichtend für in den USA gegründete LLCs im Eigentum von Nichtansässigen** seit der FinCEN Interim Final Rule vom März 2025. Der aktuelle Anwendungsbereich umfasst ausschließlich **foreign reporting companies** (außerhalb der USA gegründete Einheiten, die in einem US-Bundesstaat registriert sind). Wenn Ihre Einheit dort hineinfällt, identifiziert sie die wirtschaftlich Berechtigten (Personen mit **≥ 25 %** Beteiligung oder **substanzieller Kontrolle**), wird elektronisch und kostenlos auf **boiefiling.fincen.gov** eingereicht und muss fristgerecht erfolgen: **30 Tage** ab Registrierung und **30 Tage** für jede Änderung.
-- **Aktuelle Strafen, falls anwendbar.** **591 USD/Tag** inflationsangepasst für zivilrechtliche Verstöße, bis **10.000 USD** und/oder **2 Jahre** Haft bei vorsätzlichen Verstößen (31 U.S.C. §5336). Nur relevant, wenn Ihre Einheit als foreign reporting company qualifiziert oder die Regel den Anwendungsbereich erneut ausweitet.
+- **Aktuelle Strafen, falls anwendbar.** **591 USD/Tag** inflationsangepasst für zivilrechtliche Verstöße, bis **10.000 USD** und/oder **2 Jahre** Haft bei vorsätzlichen Verstößen (31 U.S.C. §5336). Nur relevant, wenn Ihre Einheit als foreign reporting company qualifiziert oder die Regel den Anwendungsbereich erneut ausweitet. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 - **Einreichungsprozess, falls anwendbar.** Kostenlose Erstmeldung auf [das offizielle FinCEN-Portal für den BOI](https://boiefiling.fincen.gov), **10-15 Minuten**, Erstmeldung + **Update binnen 30 Tagen** bei Änderung von Adresse, Dokument oder Beneficial Owner. Die **BOIR Confirmation Number** als Nachweis archivieren.
 
 ### FAQ aktuell
 
 **Muss meine in den USA gegründete LLC mit deutschem Gesellschafter den BOIR einreichen?** **Nein, im aktuellen Anwendungsbereich.** Seit der FinCEN Interim Final Rule vom März 2025 ist jede in den USA gegründete LLC (Wyoming, Delaware, New Mexico oder ein anderer Bundesstaat) im Eigentum eines Nichtansässigen außerhalb des Anwendungsbereichs des BOI Reports. Nur foreign reporting companies reichen ein. Bei Exentax überwachen wir FinCEN.gov bei jeder Einreichung; falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis.
 
-**Welche Strafe droht bei Verspätung, wenn ich im Anwendungsbereich bin?** Bis zu **591 USD pro Tag** Verspätung (zivilrechtlicher Betrag, jährlich an die Inflation angepasst) und bei vorsätzlichem Verstoß bis zu **10.000 USD und 2 Jahre Haft** nach 31 U.S.C. §5336. Wer als foreign reporting company qualifiziert, sollte fristgerecht einreichen und bei rückständigen BOIRs vor jeder FinCEN-Mitteilung regularisieren.
+**Welche Strafe droht bei Verspätung, wenn ich im Anwendungsbereich bin?** Bis zu **591 USD pro Tag** Verspätung (zivilrechtlicher Betrag, jährlich an die Inflation angepasst) und bei vorsätzlichem Verstoß bis zu **10.000 USD und 2 Jahre Haft** nach 31 U.S.C. §5336. Wer als foreign reporting company qualifiziert, sollte fristgerecht einreichen und bei rückständigen BOIRs vor jeder FinCEN-Mitteilung regularisieren. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
-**Was hebe ich als Beleg auf?** Die **BOIR Confirmation Number**, die das Portal **boiefiling.fincen.gov** nach Einreichung ausgibt, plus die Übermittlungs-PDF. Das ist der Standardnachweis im Falle einer Prüfung.
+**Was hebe ich als Beleg auf?** Die **BOIR Confirmation Number**, die das Portal **boiefiling.fincen.gov** nach Einreichung ausgibt, plus die Übermittlungs-PDF. Das ist der Standardnachweis im Falle einer Prüfung. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 **Wer ist genau ein wirtschaftlich Berechtigter?** Jede natürliche Person, die direkt oder indirekt **≥ 25 %** der LLC hält oder **substanzielle Kontrolle** ausübt (z. B. ein leitender Officer oder eine Person mit Vertretungsbefugnis). Für jede sind Name, Geburtsdatum, Wohnsitzadresse und Reisepass- bzw. Ausweisnummer einzureichen.
 
-**Wie funktioniert das 30-Tage-Update-Fenster in der Praxis?** Jede Änderung der eingereichten Daten (neuer Reisepass, neue Wohnsitzadresse, neuer Gesellschafter über 25 %, Namensänderung der LLC) öffnet ein **30-Tage-Fenster** zur Neueinreichung über **boiefiling.fincen.gov**. Wer dieses Update überspringt, wird vom FinCEN wie bei unterlassener Erstmeldung behandelt und ist denselben zivil- und strafrechtlichen Sanktionen ausgesetzt.
+**Wie funktioniert das 30-Tage-Update-Fenster in der Praxis?** Jede Änderung der eingereichten Daten (neuer Reisepass, neue Wohnsitzadresse, neuer Gesellschafter über 25 %, Namensänderung der LLC) öffnet ein **30-Tage-Fenster** zur Neueinreichung über **boiefiling.fincen.gov**. Wer dieses Update überspringt, wird vom FinCEN wie bei unterlassener Erstmeldung behandelt und ist denselben zivil- und strafrechtlichen Sanktionen ausgesetzt. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 ## BOI-Status und deutsche/österreichische Erklärungspflichten
 
@@ -196,7 +196,6 @@ Der FinCEN-BOI-Report wirkt einfach und ist es auch, aber die wöchentlich beoba
 Wenn wir es durchgängig erledigen oder Ihren prüfen sollen, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:cross-refs-v1 -->
 ## Zum Weiterlesen
 
@@ -208,11 +207,11 @@ Wenn wir es durchgängig erledigen oder Ihren prüfen sollen, starten Sie den <s
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
   ## Was eine LLC NICHT tut
 

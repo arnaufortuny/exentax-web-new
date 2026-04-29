@@ -8,7 +8,7 @@ Trois signaux:
 
 1. **Plusieurs devises** (USD, EUR, GBP) et frais de conversion non négligeables.
 2. **Plusieurs processeurs** (Stripe, PayPal, Wise, Amazon, Shopify) et réconciliation pénible.
-3. **Blocage temporaire** sur le compte principal sans backup opérationnel.
+3. **Blocage temporaire** sur le compte principal sans backup opérationnel. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 ### Trois acteurs de référence
 
 ### Mercury
@@ -171,7 +171,7 @@ Si votre configuration actuelle ne tient plus, lancez la <strong>calculatrice Ex
 
 ## Le cas spécifique du résident fiscal français
 
-  Pour un résident fiscal français qui réorganise la banque de sa LLC, l'élément clé est l'**obligation déclarative permanente** de l'**article 1649 A bis du CGI** combinée à l'article 1649 ter A pour les actifs numériques. Toute ouverture, modification ou clôture de compte (Mercury, Relay, Wise) doit être déclarée via le **formulaire 3916-bis** dans l'année où le compte est utilisé. Une réorganisation typique (clôture Wise → ouverture Mercury) génère donc deux écritures déclaratives distinctes pour la même année fiscale, sous peine d'amende de **1 500 € par compte** non déclaré.
+  Pour un résident fiscal français qui réorganise la banque de sa LLC, l'élément clé est l'**obligation déclarative permanente** de l'**article 1649 A bis du CGI** combinée à l'article 1649 ter A pour les actifs numériques. Toute ouverture, modification ou clôture de compte (Mercury, Relay, Wise) doit être déclarée via le **formulaire 3916-bis** dans l'année où le compte est utilisé. Une réorganisation typique (clôture Wise → ouverture Mercury) génère donc deux écritures déclaratives distinctes pour la même année fiscale, sous peine d'amende de **1 500 € par compte** non déclaré. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
   ### Considérations pratiques supplémentaires pour le résident français
 
@@ -228,7 +228,7 @@ disparaît.
 - Sortie de "la carte Wise est la carte de l'entreprise". Client
   utilisait la carte Wise comme carte principale. Déplacement des
   SaaS récurrents et des dépenses proches de la paie sur Mercury (où
-  la piste d'audit est de qualité bancaire) et conservation de la
+  la piste d'audit est de qualité bancaire) et conservation de la. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
   carte Wise étroitement pour les publicités payantes.
 
 ## Erreurs vues lors d'une réorganisation

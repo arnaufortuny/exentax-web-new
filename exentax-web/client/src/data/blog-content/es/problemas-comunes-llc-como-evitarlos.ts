@@ -44,7 +44,7 @@ Si un tribunal determina que has mezclado fondos consistentemente, pueden "levan
 
 **El problema:** El <a href="/es/blog/operating-agreement-llc-que-es">Operating Agreement</a> es el documento interno que define cómo funciona tu LLC: quién toma decisiones, cómo se distribuyen los beneficios, qué pasa si quieres cerrar la empresa. Muchos freelancers usan una plantilla de internet o directamente no tienen ninguno.
 
-Un Operating Agreement genérico puede no reflejar tu situación real (single-member vs multi-member, cómo manejas distribuciones, reglas de disolución). Y si algún día tienes una disputa legal o una auditoría, es el primer documento que van a pedir.
+Un Operating Agreement genérico puede no reflejar tu situación real (single-member vs multi-member, cómo manejas distribuciones, reglas de disolución). Y si algún día tienes una disputa legal o una auditoría, es el primer documento que van a pedir. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 **Cómo lo evitamos:** Preparamos un Operating Agreement personalizado para cada LLC que constituimos. Refleja tu estructura real, incluye las cláusulas que protegen al propietario extranjero, y cumple con los requisitos del estado de registro.
 ### 6. No cumplir con el BOI Report
@@ -69,7 +69,7 @@ El 90% de los problemas que vemos podrían haberse evitado con un asesoramiento 
 Para que quede claro lo que está en juego:
 
 - **Form 5472 no presentado:** La multa por no presentación según IRS §6038A es de $25,000 por formulario, por año. Si llevas dos años sin presentar, son $50,000. Y el IRS no necesita demostrarte nada: la carga de la prueba es tuya.
-- **Cuenta bancaria bloqueada:** Si Mercury congela tu cuenta mientras tienes facturas pendientes de cobro, tu operación se paraliza. Pueden pasar semanas hasta resolver el bloqueo, durante las cuales no puedes cobrar, pagar a proveedores ni hacer distributions.
+- **Cuenta bancaria bloqueada:** Si Mercury congela tu cuenta mientras tienes facturas pendientes de cobro, tu operación se paraliza. Pueden pasar semanas hasta resolver el bloqueo, durante las cuales no puedes cobrar, pagar a proveedores ni hacer distributions. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 - **Corporate veil levantado:** Si un tribunal determina que mezclaste fondos personales y del negocio, la protección de responsabilidad limitada desaparece. Esto significa que tus bienes personales quedan expuestos a las deudas y obligaciones de la LLC.
 - **LLC disuelta por no renovar Registered Agent:** Si el estado disuelve tu LLC por falta de Registered Agent, necesitas un proceso de reinstalación (reinstatement) que cuesta más y tarda más que la renovación original. Mientras tanto, la LLC no puede operar legalmente.
 
@@ -83,7 +83,7 @@ La secuencia típica del freelancer que llega a Exentax con problemas es:
 3. Empezó a facturar y cobrar
 4. Nadie le dijo que tenía que presentar Form 5472, BOI Report, o renovar el Registered Agent
 5. Pasaron uno o dos años
-6. Recibió una notificación del IRS, un bloqueo de cuenta, o descubrió que su LLC estaba en "not in good standing"
+6. Recibió una notificación del IRS, un bloqueo de cuenta, o descubrió que su LLC estaba en "not in good standing" Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 La constitución es el 10% del trabajo. El 90% restante es el mantenimiento, el compliance y la operativa diaria. Si tu proveedor solo cubre el 10%, el resto queda en tus manos. Y si no sabes lo que no sabes, los problemas llegan sin aviso.
 
@@ -144,7 +144,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
 <!-- exentax:execution-v2 -->
 ## Los problemas más comunes con una LLC y cómo evitarlos antes de que ocurran
@@ -154,7 +154,7 @@ Después de años llevando LLCs de no residentes, los problemas que vemos son si
 - **Olvidarse del 5472 + 1120 anual.** Es la multa más cara y la más fácil de evitar. $25.000 mínimo por no presentar el 5472 cuando es exigible (single-member LLC con propietario extranjero y operaciones reportables - casi siempre). Plazo: 15 de abril, prorrogable a 15 de octubre con Form 7004. Solución: contratar bookkeeping desde el día 1 que incluya la presentación. No "lo hago el año que viene cuando tenga tiempo".
 - **No presentar el BOI Report al FinCEN.** Sanción $591/día (con tope sobre $10k). Aplica a casi toda LLC nueva: tienes 30 días desde la formación para reportar. Cambios posteriores (cambio de dirección, transferencia de membership, nuevo manager) tienen 30 días desde el cambio. Solución: incluir BOI inicial en el setup y revisión anual de cambios.
 - **Mezclar dinero personal y de la LLC.** Romper la separación patrimonial ("piercing the corporate veil") permite a un acreedor demandarte personalmente y elimina la protección de responsabilidad limitada. Solución: cuenta separada estricta, sueldos/draws documentados como tales, no usar la tarjeta de la LLC para gastos personales nunca, contabilidad mensual con conciliación.
-- **No declarar la LLC en residencia.** España (Modelo 720 si >50k EUR + IRPF por atribución), Francia (IR + 3916 cuenta extranjera), Alemania (ESt + AStG si CFC), Portugal (IRS), Italia (IRPEF + RW). Sanción típica: 50%-150% del impuesto eludido + intereses. Solución: en el momento de abrir la LLC, planificar la declaración en residencia con asesor del país.
+- **No declarar la LLC en residencia.** España (Modelo 720 si >50k EUR + IRPF por atribución), Francia (IR + 3916 cuenta extranjera), Alemania (ESt + AStG si CFC), Portugal (IRS), Italia (IRPEF + RW). Sanción típica: 50%-150% del impuesto eludido + intereses. Solución: en el momento de abrir la LLC, planificar la declaración en residencia con asesor del país. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
 ### Lo que más nos preguntan
 
@@ -171,15 +171,14 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 
   ## Lo que NO hace una LLC
 

@@ -35,18 +35,20 @@ Before the CTA, it was possible to form a US LLC with no federal disclosure of o
 **Beneficial owner definition:** Anyone who directly or indirectly owns 25%+ of the company, or who has substantial control over the company. For a single-member LLC, that's you. the sole owner.
 ## Deadlines today
 
-**Companies formed before January 1, 2024:** Initial BOI Report was due January 1, 2025. If not filed, file immediately to stop the ongoing penalty clock.
+**Companies formed before January 1, 2024:** Initial BOI Report was due January 1, 2025. If not filed, file immediately to stop the ongoing penalty clock. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 
 **Companies formed January 1, 2024 or later:** Must file within **90 calendar days** of formation.
 
 **Updates:** Any changes to reported information must be submitted within **30 calendar days** of the change. This includes changes to your address, passport number, or any other reported information.
 ### Penalties for non-compliance
 
+That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
+
 **Civil:** Up to **$591 per day** (inflation-adjusted) for each day the report is late.
 
-**Criminal:** Up to **$10,000 fine and up to 2 years in prison** for willful violations.
+**Criminal:** Up to **$10,000 fine and up to 2 years in prison** for willful violations. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
-These are serious penalties. FinCEN is actively enforcing compliance.
+These are serious penalties. FinCEN is actively enforcing compliance. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 ### How to file
 
 **Online:** Through FinCEN's BOSS system (BOI E-Filing System) at fincen.gov. The filing itself is free. no filing fee.
@@ -76,7 +78,7 @@ FinCEN continues to issue guidance and updates to BOI requirements. As of our la
 - **Filing with outdated information**: failing to update within 30 days of changes
 - **Using business address instead of residential**: the BOI Report requires your personal residential address
 - **Poor quality ID image**: FinCEN may reject filings with unclear ID photos
-- **Filing late**: even a few days late triggers the per-day penalty
+- **Filing late**: even a few days late triggers the per-day penalty. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 ### BOI Report filing: step by step
 
 | Step | Action | Details |
@@ -159,7 +161,7 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 ## Legal and procedural facts
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
@@ -173,16 +175,16 @@ What follows is the operational view, not the textbook one. We have run this pla
 BOI has been the most volatile obligation of the past 24 months; the current version:
 
 - **Current status.** The BOI Report is **NOT required for US-formed LLCs owned by non-residents** after FinCEN's March 2025 interim final rule. The current scope covers only **foreign reporting companies** (entities formed outside the US and registered to do business in a state). If your entity falls in that bucket, it must identify the beneficial owner (anyone holding **≥ 25 %** ownership or **substantial control**), be filed electronically and free of charge at **boiefiling.fincen.gov**, and be on time: **30 days** from state registration and **30 days** for any change of address, document or beneficial owner.
-- **Current penalties if in scope.** **USD 591/day** inflation-adjusted for civil violations, up to **USD 10,000** and/or **2 years** in prison for willful violations (31 U.S.C. §5336). Only relevant when your entity is a foreign reporting company or if FinCEN re-expands the scope.
+- **Current penalties if in scope.** **USD 591/day** inflation-adjusted for civil violations, up to **USD 10,000** and/or **2 years** in prison for willful violations (31 U.S.C. §5336). Only relevant when your entity is a foreign reporting company or if FinCEN re-expands the scope. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 - **Filing operation if in scope.** Free initial filing at [FinCEN's official BOI filing portal](https://boiefiling.fincen.gov), **10-15 minutes** process, initial filing + **30-day update** for any change of address, document or beneficial owner. Keep the **BOIR Confirmation Number** as proof.
 
 ### Frequently asked questions
 
 **Does my U.S.-formed LLC with a Spanish member have to file the BOIR?** **No, not under the current rule.** After FinCEN's March 2025 interim final rule, every US-formed LLC (Wyoming, Delaware, New Mexico or any other state) owned by a non-resident is **out of scope** of the BOI Report. Only foreign reporting companies file. We monitor FinCEN.gov on every filing and, if the obligation comes back, we handle it at no extra cost.
 
-**What is the penalty if I am in scope and file late?** Up to **USD 591 per day** of delay (civil amount adjusted annually for inflation) and, for willful non-compliance, up to **USD 10,000 and 2 years' imprisonment** under 31 U.S.C. §5336. That is why, if you qualify as a foreign reporting company, filing on time matters and, if you have late BOIRs, you should regularize before any FinCEN notice arrives.
+**What is the penalty if I am in scope and file late?** Up to **USD 591 per day** of delay (civil amount adjusted annually for inflation) and, for willful non-compliance, up to **USD 10,000 and 2 years' imprisonment** under 31 U.S.C. §5336. That is why, if you qualify as a foreign reporting company, filing on time matters and, if you have late BOIRs, you should regularize before any FinCEN notice arrives. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
-**What do I keep as evidence?** The **BOIR Confirmation Number** that the **boiefiling.fincen.gov** portal returns once you submit, plus the transmission PDF. That is the standard proof in any future audit.
+**What do I keep as evidence?** The **BOIR Confirmation Number** that the **boiefiling.fincen.gov** portal returns once you submit, plus the transmission PDF. That is the standard proof in any future audit. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 **Who exactly is a beneficial owner?** Any individual who, directly or indirectly, owns **≥ 25 %** of the LLC or exercises **substantial control** (such as a senior officer or a person with authority to bind the entity). For each one you must file legal name, date of birth, residential address and a current passport or government-issued ID number.
 
@@ -199,7 +201,6 @@ The FinCEN BOI Report looks simple and it is, but the mistakes we see weekly are
 
 If you want us to run it end-to-end or just verify yours, launch the <strong>Exentax calculator</strong> or book thirty minutes.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

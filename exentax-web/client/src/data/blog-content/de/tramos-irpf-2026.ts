@@ -28,7 +28,6 @@ Drei Fehler lassen jedes Jahr Steuerpflichtige mit sehr gewöhnlichen Profilen z
 Wenn Ihre allgemeine Basis dauerhaft 60.000 Euro übersteigt und Ihre Einkommensquelle eine wirtschaftliche Tätigkeit ist, die aus einer Gesellschaft fakturiert werden kann, sollten Sie die IRPF des Selbstständigen (Grenzsatz 45-47%) mit der Körperschaftsteuer (Gesetz 7/2024: Mikrounternehmen mit Umsatz &lt;1 Mio € zahlen 19% auf die ersten 50.000 € und 21% auf den Rest 2026; KMU 1-10 Mio € 23%; Regelsatz 25%) plus den Kosten der Dividendenausschüttung vergleichen. Für rein digitale Profile mit internationalen Kunden lohnt es sich auch, die <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">US-LLC-Alternative</a> zu modellieren, die in vielen Fällen die kombinierte Belastung gegenüber dem Verbleib als spanischer Autónomo in den oberen IRPF-Stufen senkt.
 Zur Tarifprüfung konsultieren Sie das <a href="https://sede.agenciatributaria.gob.es/">Portal der spanischen Steuerbehörde</a> und das <a href="https://www.boe.es/">Gesetz 35/2006 über die IRPF im BOE</a>. Echte Steuerplanung kombiniert Tarifkenntnis, die Ordnung der Einkünfte zwischen allgemeiner und Ersparnisbasis, das Ausschöpfen legitimer Abzüge und, wenn die Zahlen es rechtfertigen, die Prüfung eines Strukturwechsels.
 
-
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.
 
 <!-- exentax:execution-v2 -->
@@ -49,15 +48,14 @@ Was wir jede Woche sehen in den Fällen, die uns erreichen, ist immer dasselbe M
 Wenn Sie vom Zweifel zum Plan kommen wollen, buchen Sie 30 Minuten mit Exentax und wir verlassen das Gespräch mit geschlossenen Zahlen und einem operativen Kalender.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
   ## Was eine LLC NICHT tut
 
@@ -90,7 +88,7 @@ Die Tariftabelle wird marginal gelesen: Jeder zusätzliche Euro wird mit dem Sat
 
 ### Wann die Stufe zur Strukturüberprüfung zwingt, nicht nur zur Abzugsdiskussion
 
-In unserer Beratungspraxis gibt es eine wiederkehrende Schwelle, an der das Gespräch nicht mehr lautet "welcher Abzug lässt sich noch ergänzen", sondern "ist das überhaupt noch die richtige Struktur". Bei digitalen Freelancern mit überwiegend ausländischen Kunden tritt diese Schwelle auf, wenn der Grenzsatz in die obere allgemeine Stufe steigt und gleichzeitig der monatliche Autónomo-Beitrag in einer der höheren Stufen liegt; in dieser kombinierten Konstellation beginnt die Strukturdiskussion (zum Beispiel die Verlagerung eines Teils der Tätigkeit über eine US-LLC, gehalten aus Spanien, oder die Prüfung einer spanischen SL) die Einzelabzugs-Optimierung zu dominieren. Die Entscheidung ist nie automatisch, denn jede Struktur bringt eigene Compliance-Kosten und Meldepflichten mit, aber die Stufenkarte ist der natürliche Ausgangspunkt, um zu wissen, ob die strukturelle Diskussion eine ausführliche Analyse verdient.
+In unserer Beratungspraxis gibt es eine wiederkehrende Schwelle, an der das Gespräch nicht mehr lautet "welcher Abzug lässt sich noch ergänzen", sondern "ist das überhaupt noch die richtige Struktur". Bei digitalen Freelancern mit überwiegend ausländischen Kunden tritt diese Schwelle auf, wenn der Grenzsatz in die obere allgemeine Stufe steigt und gleichzeitig der monatliche Autónomo-Beitrag in einer der höheren Stufen liegt; in dieser kombinierten Konstellation beginnt die Strukturdiskussion (zum Beispiel die Verlagerung eines Teils der Tätigkeit über eine US-LLC, gehalten aus Spanien, oder die Prüfung einer spanischen SL) die Einzelabzugs-Optimierung zu dominieren. Die Entscheidung ist nie automatisch, denn jede Struktur bringt eigene Compliance-Kosten und Meldepflichten mit, aber die Stufenkarte ist der natürliche Ausgangspunkt, um zu wissen, ob die strukturelle Diskussion eine ausführliche Analyse verdient. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 <!-- /exentax:lote6-native-v1:tramos-irpf-2026 -->
 
 <!-- exentax:lote6-native-v1-bis:tramos-irpf-2026 -->
@@ -126,7 +124,6 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
 ### Warum die regionale Ebene das Gespräch verändert

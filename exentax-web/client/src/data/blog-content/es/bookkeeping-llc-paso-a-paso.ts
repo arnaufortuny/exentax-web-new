@@ -1,6 +1,6 @@
 export default `
 
-El IRS exige conservar los registros contables de la LLC durante al menos 7 años, y un Form 5472 sin libros que lo respalden arranca con una sanción de 25.000 $.
+El IRS exige conservar los registros contables de la LLC durante al menos 7 años, y un Form 5472 sin libros que lo respalden arranca con una sanción de 25.000 $. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
 Llevar la contabilidad de una LLC americana asusta más de lo que debería. La mayoría de los propietarios no residentes vienen acostumbrados al modelo español o latinoamericano, donde un asesor te pide papeles, presenta modelos cada trimestre y tú casi no tocas nada. Con una LLC el modelo es distinto: la operativa la llevas tú con herramientas modernas, y al final del año la contabilidad ordenada se traduce en una declaración limpia y sin sobresaltos.
 
@@ -10,7 +10,7 @@ En Exentax acompañamos a cientos de clientes con este proceso. Esta guía resum
 
 Bookkeeping es, simplemente, el registro ordenado de todos los movimientos económicos de tu LLC: ingresos, gastos, transferencias entre cuentas, retiradas del propietario y saldos finales. No es lo mismo que la declaración fiscal: la declaración usa los datos del bookkeeping, pero el bookkeeping vive todo el año.
 
-Una contabilidad ordenada te da tres cosas: cumplimiento (Form 5472, 1120 pro-forma y, en algunos estados, informes adicionales), control (saber cuánto ganas de verdad después de gastos) y respaldo en caso de auditoría bancaria o fiscal. Las tres importan, pero la tercera suele descubrirse tarde.
+Una contabilidad ordenada te da tres cosas: cumplimiento (Form 5472, 1120 pro-forma y, en algunos estados, informes adicionales), control (saber cuánto ganas de verdad después de gastos) y respaldo en caso de auditoría bancaria o fiscal. Las tres importan, pero la tercera suele descubrirse tarde. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 ### Punto de partida: separar finanzas
 
 Antes de tocar ningún software, lo primero es <a href="/es/blog/separar-dinero-personal-llc-por-que-importa">separar de forma absoluta el dinero personal del de la LLC</a>. Esto significa: ninguna compra personal con la tarjeta de Mercury o Wallester, ninguna factura de la LLC pagada desde tu cuenta personal, y todas las retiradas marcadas como "owner draw" desde la cuenta de la LLC hacia tu cuenta personal.
@@ -126,7 +126,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 ### Por jurisdicción
 
 - **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
-- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
+- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 - **CDI España–EE. UU.** El convenio (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
 
@@ -184,7 +184,7 @@ La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual
 
 La contabilidad de una LLC americana no requiere un equipo: requiere disciplina, una herramienta correcta y separación absoluta entre operaciones. En Exentax usamos un esquema de tres capas que escala desde el primer mes hasta facturaciones de seis cifras sin necesidad de rehacer nada.
 
-- **Capa 1 - Cuenta operativa única.** Toda entrada y salida de la LLC pasa por la cuenta de Mercury, Relay o Wise Business. Cero tarjetas personales en la cuenta de la LLC y cero retiros personales sin asiento contable. Esta sola regla evita el 80 % de los problemas de auditoría posteriores.
+- **Capa 1 - Cuenta operativa única.** Toda entrada y salida de la LLC pasa por la cuenta de Mercury, Relay o Wise Business. Cero tarjetas personales en la cuenta de la LLC y cero retiros personales sin asiento contable. Esta sola regla evita el 80 % de los problemas de auditoría posteriores. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 - **Capa 2 - Software contable conectado.** Wave, QuickBooks Online o Xero, conectados vía bank feed con la cuenta de la LLC. La conciliación automática deja menos del 5 % de transacciones que requieren revisión manual cuando el feed funciona bien. Plantillas de categorización pre-configuradas según tu actividad para que el cierre sea cuestión de minutos por mes, no horas.
 - **Capa 3 - Documentación de respaldo.** Carpeta digital ordenada por mes con factura emitida, recibo de pago y conciliación bancaria. Si llega un KYC ampliado o una revisión, esto es lo que se entrega; sin esta capa, la contabilidad no aguanta una segunda mirada.
 - **Cierre anual y 5472.** A 31 de diciembre, exportación de libro mayor y conciliación final con extractos bancarios. La preparación del Form 5472 + 1120 pro-forma se nutre directamente del libro mayor; tener la contabilidad limpia ahorra entre 4 y 12 horas de trabajo en abril.

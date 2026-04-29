@@ -57,7 +57,7 @@ Si vous êtes résident fiscal en France au sens de l'article 4 B du CGI et que 
 - **Contrats de capitalisation et placements assimilés** souscrits à l'étranger : **Formulaire 3916-bis** également, avec mention sur la 2042 IFU.
 - **Revenus de votre LLC américaine** : intérêts perçus sur les comptes Mercury, Relay ou Wise (déclarés dans la rubrique RICM), dividendes (catégorie 2042), plus-values de cession de parts (annexe 2074), revenus d'activité non commerciale si l'activité est qualifiée de BNC en France (annexe 2035), ou bénéfices industriels et commerciaux si la LLC fait de la revente (BIC 2031). En tant qu'auto-entrepreneur, gardez à l'esprit que **votre LLC américaine est considérée par l'administration française comme une entité fiscalement transparente** (équivalent société de personnes), ce qui impose la qualification correcte du revenu chez vous.
 
-Le croisement CRS permet à la **Direction Générale des Finances Publiques (DGFiP)** et au service Bercy infos de détecter les omissions presque en temps réel grâce aux flux reçus de Belgique (Wise Europe SA), du Luxembourg, d'Allemagne (N26) et de Lituanie (Revolut). Pour la régularisation volontaire avant tout contrôle, le **dispositif Bercy** propose des modalités de mise en conformité avec une réduction des pénalités selon l'origine des fonds et l'ancienneté de l'omission ; les conditions exactes sont à valider avec l'avis de votre conseil au cas par cas.
+Le croisement CRS permet à la **Direction Générale des Finances Publiques (DGFiP)** et au service Bercy infos de détecter les omissions presque en temps réel grâce aux flux reçus de Belgique (Wise Europe SA), du Luxembourg, d'Allemagne (N26) et de Lituanie (Revolut). Pour la régularisation volontaire avant tout contrôle, le **dispositif Bercy** propose des modalités de mise en conformité avec une réduction des pénalités selon l'origine des fonds et l'ancienneté de l'omission ; les conditions exactes sont à valider avec l'avis de votre conseil au cas par cas. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 ### Implications en Belgique, au Luxembourg et en Suisse
 
@@ -73,7 +73,7 @@ L'approche professionnelle passe par :
 
 1. **Déclarer correctement.** Le croisement existe déjà ; tenter de cacher est une perte de temps et vous expose à des sanctions.
 2. **Concevoir la structure pour que ce qui est déclaré soit fiscalement efficient.** Cela implique de décider du pays de résidence, des instruments d'investissement, du calendrier des transferts, des déductions applicables et de la convention fiscale applicable. Voir notre <a href="/fr/blog/conception-dune-structure-fiscale-internationale-solide">cadre de conception d'une structure internationale</a>.
-3. **Maintenir la documentation** : contrats, factures, justificatifs de dépenses, livres comptables de la LLC, auto-déclarations CRS cohérentes. Sans documentation, une inspection inverse de fait la charge de la preuve sur le contribuable.
+3. **Maintenir la documentation** : contrats, factures, justificatifs de dépenses, livres comptables de la LLC, auto-déclarations CRS cohérentes. Sans documentation, une inspection inverse de fait la charge de la preuve sur le contribuable. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 4. **Connaître les risques de mal s'y prendre.** Nous les couvrons dans <a href="/fr/blog/risques-fiscaux-dune-mauvaise-structuration-internationale">risques fiscaux d'une mauvaise structuration internationale</a>.
 5. **Comprendre votre activité économique.** Une LLC de services n'est pas imposée comme une LLC d'e-commerce ou de royalties. Nous le développons dans <a href="/fr/blog/imposition-de-la-llc-selon-lactivite-economique-services">imposition de la LLC selon l'activité économique</a>.
 
@@ -82,7 +82,7 @@ L'approche professionnelle passe par :
 - « Comme Mercury est aux États-Unis, personne n'est au courant. » Vrai pour Mercury face à la CRS — les États-Unis n'exportent pas de données via CRS — mais faux pour vos comptes Wise (Belgique), Revolut (Lituanie), Wallester (Estonie) ou N26 (Allemagne) au nom de la même LLC, qui remontent à la DGFiP via les flux européens.
 - « J'ai mis ma résidence fiscale en Andorre, à Dubaï ou au Portugal sous le RNH mais je continue à vivre en France. » La résidence fiscale ne se choisit pas ; elle se détermine par les faits objectifs de l'**article 4 B du CGI** (foyer ou lieu de séjour principal en France, exercice d'une activité professionnelle non accessoire en France, centre des intérêts économiques en France). Nous le développons dans notre article sur la <a href="/fr/blog/nomade-numerique-ou-payer-ses-impots-et-comment-choisir-sa">résidence fiscale du nomade numérique</a>.
 - « Si ma LLC facture, il ne m'arrive rien. » La DGFiP peut appliquer le **dispositif anti-abus de l'article 209 B du CGI** (CFC à la française) ou la qualification d'**établissement stable de fait** si la LLC est gérée depuis votre domicile français sans substance opérationnelle aux États-Unis. Bien que les États-Unis ne soient pas un État ou territoire non coopératif, une LLC pass-through peut activer la requalification via la mécanique de la Disregarded Entity. La planification doit éviter ce cas, pas l'ignorer.
-- « Je vais mettre le compte au nom d'un proche. » C'est le classique prête-nom déguisé, qui constitue en France un **abus de droit** sanctionnable au sens de l'article L 64 du LPF avec majoration de 80 %, en plus des sanctions pénales pour fraude fiscale (art. 1741 CGI). Nous en analysons les implications dans <a href="/fr/blog/proprietaires-fictifs-pour-llc-pourquoi-cest-illegal-et-les">prête-noms et propriétaires fictifs dans les LLC</a>.
+- « Je vais mettre le compte au nom d'un proche. » C'est le classique prête-nom déguisé, qui constitue en France un **abus de droit** sanctionnable au sens de l'article L 64 du LPF avec majoration de 80 %, en plus des sanctions pénales pour fraude fiscale (art. 1741 CGI). Nous en analysons les implications dans <a href="/fr/blog/proprietaires-fictifs-pour-llc-pourquoi-cest-illegal-et-les">prête-noms et propriétaires fictifs dans les LLC</a>. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
 
 ## En résumé
 
@@ -163,7 +163,6 @@ Chaque cas a ses nuances : votre pays de résidence, le type d'activité, où so
 <!-- /exentax:cross-refs-v1 -->
 
 Vous voulez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous examinons votre LLC avec des chiffres réels en trente minutes, sans engagement.
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

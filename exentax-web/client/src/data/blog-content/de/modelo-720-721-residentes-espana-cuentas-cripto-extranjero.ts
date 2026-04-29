@@ -35,14 +35,14 @@ Zur Abgabe des 720 und/oder 721 verpflichtet:
 Nach der Erstabgabe muss nur erneut gemeldet werden, wenn im jeweiligen Block eine **Erhöhung über 20.000 €** gegenüber dem letzten gemeldeten Saldo eintritt oder wenn ein zuvor gemeldetes Element aufgegeben oder gekündigt wurde.
 ## Das EuGH-Urteil C-788/19 und das aktuelle Sanktionsregime
 
-Das ursprüngliche Sanktionsregime des 720 war eines der härtesten in der EU: 5.000 € pro nicht gemeldeter Position (Mindestbetrag 10.000 €), Unverjährbarkeit nicht erklärter Einkünfte als ungerechtfertigter Vermögenszuwachs (Art. 39.2 LIRPF) und Strafe von 150 % der Steuerschuld.
+Das ursprüngliche Sanktionsregime des 720 war eines der härtesten in der EU: 5.000 € pro nicht gemeldeter Position (Mindestbetrag 10.000 €), Unverjährbarkeit nicht erklärter Einkünfte als ungerechtfertigter Vermögenszuwachs (Art. 39.2 LIRPF) und Strafe von 150 % der Steuerschuld. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
-Das **EuGH-Urteil vom 27. Januar 2022, Rechtssache C-788/19**, erklärte dieses Regime wegen Unverhältnismäßigkeit und Verstoßes gegen die Kapitalverkehrsfreiheit für unionsrechtswidrig. Das Gesetz 5/2022 vom 9. März strich diese spezifischen Sanktionen.
+Das **EuGH-Urteil vom 27. Januar 2022, Rechtssache C-788/19**, erklärte dieses Regime wegen Unverhältnismäßigkeit und Verstoßes gegen die Kapitalverkehrsfreiheit für unionsrechtswidrig. Das Gesetz 5/2022 vom 9. März strich diese spezifischen Sanktionen. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 Das **bedeutet nicht**, dass es keine Sanktionen mehr gibt. Heute gilt:
 
 - **Ordentliche Sanktion** nach Art. 198 LGT für Nichtabgabe einer Informationserklärung: 20 € pro Datensatz, Mindestbetrag 300 €, Höchstbetrag 20.000 €. Halbiert bei Spontanabgabe ohne vorherige Aufforderung.
-- **Allgemeines LGT-Regime** für IRPF-Steuerschulden bei Aufdeckung nicht erklärter Einkünfte: Art. 191 (Strafe 50–150 % der Schuld) mit der **regulären Verjährungsfrist von 4 Jahren**.
+- **Allgemeines LGT-Regime** für IRPF-Steuerschulden bei Aufdeckung nicht erklärter Einkünfte: Art. 191 (Strafe 50–150 % der Schuld) mit der **regulären Verjährungsfrist von 4 Jahren**. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 - **Strafrechtlicher Weg** (Art. 305 StGB), wenn die hinterzogene Steuer in einem Jahr 120.000 € übersteigt.
 
 Das EuGH-Urteil milderte das Regime, hob die Meldepflicht aber nicht auf. Wer das 720 nicht abgibt, begeht weiterhin eine Steuerverletzung.
@@ -102,7 +102,7 @@ Unser Prozess für 720/721, wenn ein Mandant mit LLC + europäischen Fintechs + 
 6. **Integration** mit der Gesamtplanung: <a href="/de/blog/gestaltung-einer-soliden-internationalen-steuerstruktur">Gestaltung internationaler Strukturen</a>, <a href="/de/blog/llc-besteuerung-nach-wirtschaftlicher-aktivitat">LLC-Besteuerung nach Aktivität</a> und <a href="/de/blog/crs-fur-ansassige-in-spanien-und-lateinamerika-reale">CRS für spanische Steueransässige</a>.
 ### Zusammenfassung
 
-Modelo 720 und Modelo 721 sind Meldepflichten, keine Steuern. Sie kosten an sich nichts, ihre Unterlassung jedoch sehr wohl: Strafe nach Art. 198 LGT, Regularisierung der Steuerschulden mit Zuschlägen nach Art. 191 und – bei nicht gerechtfertigten Salden – der klassische Hebel des Art. 39 LIRPF (vom EuGH gemildert, aber nicht beseitigt). Der Abgleich mit CRS und aktuell mit DAC8 macht die Spur für die AEAT immer sichtbarer.
+Modelo 720 und Modelo 721 sind Meldepflichten, keine Steuern. Sie kosten an sich nichts, ihre Unterlassung jedoch sehr wohl: Strafe nach Art. 198 LGT, Regularisierung der Steuerschulden mit Zuschlägen nach Art. 191 und – bei nicht gerechtfertigten Salden – der klassische Hebel des Art. 39 LIRPF (vom EuGH gemildert, aber nicht beseitigt). Der Abgleich mit CRS und aktuell mit DAC8 macht die Spur für die AEAT immer sichtbarer. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 Wenn Sie Wise, Mercury, Revolut, ausländische Broker oder Krypto außerhalb Spaniens haben und nicht 100 % sicher in Bezug auf 720/721 sind, prüfen wir es mit Ihnen und bringen Ihre Lage vor der nächsten Kampagne in Ordnung.
 ## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
@@ -112,7 +112,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 ### Nach Rechtsordnung
 
 - **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
-- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 - **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
@@ -172,7 +172,7 @@ Die Formulare 720 (Auslandsvermögen) und 721 (Auslandskrypto) sind die zwei Inf
 
 - **Formular 720: was zu erklären ist.** Bankkonten im Ausland, Wertpapiere und Beteiligungen an ausländischen Entitäten, Auslandsimmobilien, wenn der aggregierte Saldo pro Block 50.000 EUR am 31. Dezember übersteigt oder der höchste des Jahres ist.
 - **Formular 721: Krypto.** Spezifisch für Krypto bei ausländischen Exchanges (Binance, Coinbase, Kraken). Schwelle: 50.000 EUR. Frist: Januar-März des Folgejahres.
-- **Aktuelles Sanktionsregime.** Nach dem EuGH-Urteil von Januar 2022 (C-788/19) und der Reform wurde das alte 720-Spezialregime für unionsrechtswidrig erklärt. Aktuelle Sanktionen: allgemeines LGT-Regime.
+- **Aktuelles Sanktionsregime.** Nach dem EuGH-Urteil von Januar 2022 (C-788/19) und der Reform wurde das alte 720-Spezialregime für unionsrechtswidrig erklärt. Aktuelle Sanktionen: allgemeines LGT-Regime. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 - **Wichtig zu wissen.** Eine US-LLC mit spanisch-ansässigem Gesellschafter verpflichtet zur Erklärung der Beteiligung (720, Block "Wertpapiere und Beteiligungen") oberhalb der Schwelle.
 
 ### Was am häufigsten gefragt wird
@@ -210,6 +210,8 @@ Madrid-ansässiger Freelancer mit: Wise EUR Saldo 18.400 EUR, Mercury Personal S
 
 ### Fehler, die die meisten Sanktionen verursachen
 
+Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
+
 1. Wise-Business- und Mercury-Konten der LLC vergessen, wenn der Eigentümer wirtschaftlich Berechtigter ist.
 2. Vergessen, nach einem Anstieg über 20.000 EUR gegenüber der letzten Einreichung erneut zu melden.
 3. Den Quartalsdurchschnitt mit dem Jahresdurchschnitt verwechseln.
@@ -223,7 +225,7 @@ Für die Bankberichts-Schicht vor dem Modelo 720 lesen Sie <a href="/de/blog/mel
 
   Wer aus Deutschland, Österreich oder der Schweiz nach Spanien verzogen ist und dort die Steuerresidenz nach Art. 9 LIRPF (Ley 35/2006) erlangt hat (über 183 Tage Aufenthalt oder Lebensmittelpunkt in Spanien), unterliegt automatisch den spanischen Meldepflichten **Modelo 720** (Auslandsvermögen über €50.000 in Konten/Wertpapieren/Immobilien) und **Modelo 721** (Krypto-Bestände über €50.000), auch wenn das Vermögen im Heimatland verwaltet wird. Die Frist ist der **31. März** des Folgejahres für beide Formulare.
 
-  Der **EuGH-Urteilsspruch C-788/19 vom 27. Januar 2022** zwang Spanien zur Reform der Strafhöhe (vorher €5.000 pro nicht gemeldetem Datenfeld plus 150 % Vermögensteuer): die **Ley 5/2022 vom 9. März** ersetzte das Sanktionsregime durch ordentliche Säumniszuschläge nach Art. 198–199 LGT. Wer also vor 2022 wegen Modelo-720-Versäumnissen sanktioniert wurde, kann eine **Rückerstattung der Strafe** gemäß der überarbeiteten DA 18.ª LGT beantragen — die spanische Generaldirektion für Steuern hat hierzu mehrere Konsultationen veröffentlicht (DGT V0497-22, V1066-22).
+  Der **EuGH-Urteilsspruch C-788/19 vom 27. Januar 2022** zwang Spanien zur Reform der Strafhöhe (vorher €5.000 pro nicht gemeldetem Datenfeld plus 150 % Vermögensteuer): die **Ley 5/2022 vom 9. März** ersetzte das Sanktionsregime durch ordentliche Säumniszuschläge nach Art. 198–199 LGT. Wer also vor 2022 wegen Modelo-720-Versäumnissen sanktioniert wurde, kann eine **Rückerstattung der Strafe** gemäß der überarbeiteten DA 18.ª LGT beantragen — die spanische Generaldirektion für Steuern hat hierzu mehrere Konsultationen veröffentlicht (DGT V0497-22, V1066-22). Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
   Für deutsche Steuerresidenten in Spanien gilt zusätzlich: das **deutsche Konto bei Sparkasse oder Volksbank** muss in Modelo 720 deklariert werden, auch wenn es zugleich gemäß **CRS (DAC2, Ihnen. 2014/107/EU)** vom deutschen BZSt automatisch nach Spanien gemeldet wird. Die Doppelmeldung ist Pflicht — das Modelo 720 ersetzt die CRS-Meldung nicht, sondern ist eine eigenständige nationale Pflicht. Gleiches gilt für Österreicher mit Erste-Bank-Konten und Schweizer mit UBS/PostFinance-Konten (Schweiz nimmt seit 2018 am AEOI/CRS teil).
 
@@ -246,7 +248,7 @@ nicht in letzter Minute.
 Eine zweite Beobachtung betrifft die Konsistenz der Adressen. Wenn
 ein Mitglied, das in Spanien steuerlich ansässig ist, eine andere
 Adresse bei Mercury oder Wise hinterlegt hat, ist das oft das
-erste, was eine Inspektion beanstandet. Wir empfehlen, einmal pro
+erste, was eine Inspektion beanstandet. Wir empfehlen, einmal pro.
 Jahr alle Bankprofile mit der spanischen Steuererklärung
 abzugleichen, damit die Daten keine Diskrepanz erzeugen, die
 später teurer wird als die ursprüngliche Klarheit.
@@ -256,7 +258,7 @@ das Modelo 720 für Bankkonten, nur mit einer eigenen Liste
 qualifizierter Plattformen und einer eigenen Schwelle. Beide
 Erklärungen sind informativ — sie verändern nicht die
 Steuerschuld, aber ihre nicht- oder unvollständige Einreichung
-kann disproportionale Sanktionen auslösen, die viel größer sind
+kann disproportionale Sanktionen auslösen, die viel größer sind. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 als der eigentliche Inhalt der Erklärung.
 
 <!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->
@@ -297,7 +299,7 @@ In einem ruhigen Jahr besteht der sauberste Weg, beide Formulare beherrschbar zu
 <!-- exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de-bis -->
 ## Wie sich die jährliche Vorbereitung der Formulare 720 und 721 ruhig planen lässt
 
-Eine kurze Notiz im Kalender Ende Januar, in der drei Punkte stehen — Aktualisierung der Liste ausländischer Konten, Prüfung der Wertpapierpositionen und Auslesen der Krypto-Bewertungen zum 31. Dezember — verschiebt die gesamte Vorbereitung an einen ruhigen Zeitpunkt vor der Frist. Mit dieser einen Notiz wird die Erstellung beider Formulare zur Routinearbeit, und kurzfristige Korrekturen werden selten.
+Eine kurze Notiz im Kalender Ende Januar, in der drei Punkte stehen — Aktualisierung der Liste ausländischer Konten, Prüfung der Wertpapierpositionen und Auslesen der Krypto-Bewertungen zum 31. Dezember — verschiebt die gesamte Vorbereitung an einen ruhigen Zeitpunkt vor der Frist. Mit dieser einen Notiz wird die Erstellung beider Formulare zur Routinearbeit, und kurzfristige Korrekturen werden selten. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 <!-- /exentax:lote15-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de-bis -->
 
 <!-- exentax:cross-refs-v1 -->
@@ -311,11 +313,11 @@ Eine kurze Notiz im Kalender Ende Januar, in der drei Punkte stehen — Aktualis
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
   ## Was eine LLC NICHT tut
 

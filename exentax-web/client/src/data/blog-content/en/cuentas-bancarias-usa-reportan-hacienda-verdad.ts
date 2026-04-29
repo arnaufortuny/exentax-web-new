@@ -39,7 +39,7 @@ Slash is a treasury management platform. Its reporting obligations depend on the
 
 Regardless of what gets automatically reported, most countries require you to declare foreign assets:
 
-**Spain:** Modelo 720 for foreign assets exceeding €50,000. This is YOUR obligation, not the bank's. Non-compliance carries penalties.
+**Spain:** Modelo 720 for foreign assets exceeding €50,000. This is YOUR obligation, not the bank's. Non-compliance carries penalties. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 **Mexico:** Informational declaration of foreign investments (SAT).
 
@@ -50,7 +50,7 @@ Regardless of what gets automatically reported, most countries require you to de
 
 1. **Don't assume your US account is "invisible."** Even though the US doesn't participate in CRS, multiple exchange mechanisms exist. Regulatory trends point toward more transparency, not less.
 
-2. **Declare everything you're required to.** It's easier, cheaper, and far less stressful than assuming nobody will find out. The cost of non-declaration (penalties, interest, investigations) far exceeds the cost of proper compliance.
+2. **Declare everything you're required to.** It's easier, cheaper, and far less stressful than assuming nobody will find out. The cost of non-declaration (penalties, interest, investigations) far exceeds the cost of proper compliance. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 3. **A properly managed LLC has nothing to hide.** Your tax savings come from legal optimization. deductions, pass-through structure, efficient organization, not from hiding accounts.
 
@@ -98,7 +98,7 @@ One adjacent read worth having open alongside this one: <a href="/en/blog/optima
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / OECD.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).

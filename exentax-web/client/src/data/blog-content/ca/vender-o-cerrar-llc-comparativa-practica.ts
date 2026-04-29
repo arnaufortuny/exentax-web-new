@@ -104,7 +104,7 @@ L'elecció entre **vendre** i **tancar** una LLC té conseqüències fiscals i o
 
 ### Preguntes freqüents avui
 
-**Una LLC SMLLC sense activitat pot simplement "deixar-se caure"?** No. Sense Annual Report i sense Registered Agent acaba en *Forfeited*, però les obligacions IRS (5472 si hi va haver moviments) continuen vives i generen sancions en cascada.
+**Una LLC SMLLC sense activitat pot simplement "deixar-se caure"?** No. Sense Annual Report i sense Registered Agent acaba en *Forfeited*, però les obligacions IRS (5472 si hi va haver moviments) continuen vives i generen sancions en cascada. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
 **Com es valora una LLC per vendre?** En negocis digitals, múltiples típics de **2-4× SDE anual** o **3-5× EBITDA** segons nínxol. La transmissió exigeix cessió de comptes (Mercury reobre KYC) i de passarel·les (revisió Stripe).
 
@@ -143,11 +143,11 @@ Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calcu
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
   ## El que una LLC NO fa
 

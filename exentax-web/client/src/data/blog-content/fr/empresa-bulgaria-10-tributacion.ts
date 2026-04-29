@@ -42,7 +42,7 @@ Une OOD bulgare a une charge administrative considérable comparée à une LLC a
 - Déclarations de TVA mensuelles ou trimestrielles si vous dépassez le seuil (166 000 BGN, environ 85 000 EUR).
 - Déclaration annuelle d'impôt sur les sociétés.
 - Comptes annuels déposés au registre du commerce.
-- Audit externe si vous dépassez certains seuils.
+- Audit externe si vous dépassez certains seuils. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 Plancher annuel réaliste: 2 000 à 4 500 EUR rien qu'en honoraires et taxes. Très au-dessus des ~600 USD annuels d'une LLC.
 ### Banque: meilleure que Hong Kong, pire que les États-Unis
@@ -70,12 +70,12 @@ Quand la Bulgarie a-t-elle vraiment du sens? Quand vous voulez réellement vous 
 ### Risques réels
 
 - **Inspections fiscales** de la NRA (administration fiscale bulgare): peu fréquentes, mais elles demandent une documentation détaillée en bulgare.
-- **Sanctions pour comptabilité incorrecte**: le système sanctionne les erreurs formelles avec des amendes significatives.
+- **Sanctions pour comptabilité incorrecte**: le système sanctionne les erreurs formelles avec des amendes significatives. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 - **Changements réglementaires dans l'UE**: la pression BEPS Pilier 2 et l'harmonisation fiscale européenne peuvent éroder l'avantage du 10 % dans les prochaines années.
 ### Cas typiques où cela s'applique
 
 **Cas 1: entrepreneur qui facture 80 000 EUR/an depuis la France sans déménager.**
-La Bulgarie n'apporte rien. Sans résidence bulgare, les bénéfices sont imposés en France au taux applicable plus sanctions potentielles. La LLC américaine est une alternative plus simple et efficiente.
+La Bulgarie n'apporte rien. Sans résidence bulgare, les bénéfices sont imposés en France au taux applicable plus sanctions potentielles. La LLC américaine est une alternative plus simple et efficiente. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 
 **Cas 2: entrepreneur européen qui s'installe à Sofia avec sa famille.**
 La Bulgarie est rentable. Résidence personnelle au taux fixe de 10 % d'IR, société bulgare pour opérer dans l'UE avec facturation intracommunautaire, qualité de vie raisonnable à coût bas. Combinaison solide.
@@ -121,7 +121,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 ### Par juridiction
 
 - **Espagne (LIRPF/LIS).** Si la LLC est une *Single-Member Disregarded Entity* opérationnelle (services réels, sans passivité significative), le fisc la traite généralement par **attribution de revenus (art. 87 LIRPF)**: les bénéfices nets sont attribués à l'associé l'année où ils naissent et intégrés dans la base générale de l'IRPF. Si la LLC opte pour la fiscalité de *corporation* (Form 8832) et qu'elle est contrôlée par un résident espagnol avec des revenus majoritairement passifs, le **régime de transparence fiscale internationale (art. 91 LIRPF pour les personnes physiques, art. 100 LIS pour les sociétés)** peut s'appliquer. Le choix n'est pas optionnel: il dépend de la substance économique, pas du nom.
-- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**.
+- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
@@ -141,7 +141,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 - **Convention Espagne–USA.** BOE du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
@@ -187,7 +187,7 @@ Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noo
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
+- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
 ### Rappel pratique

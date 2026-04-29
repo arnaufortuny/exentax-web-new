@@ -62,7 +62,7 @@ Una UK Ltd bien gestionada cuesta:
 - **Cuentas anuales** depositadas: gestión 300-1.500 GBP según volumen.
 - **Corporation Tax Return (CT600)**: 400-1.500 GBP.
 - **Contabilidad mensual**: variable según volumen, desde 1.000 GBP/año.
-- **Auditoría** si supera umbrales (10,2M GBP facturación, 5,1M GBP balance, 50 empleados): no aplica para empresas pequeñas.
+- **Auditoría** si supera umbrales (10,2M GBP facturación, 5,1M GBP balance, 50 empleados): no aplica para empresas pequeñas. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
 Suelo realista anual: 1.200-3.500 GBP.
 ### Banca: bien estructurada pero exigente con no residentes
@@ -84,7 +84,7 @@ Stripe, PayPal y Adyen funcionan sin restricciones con UK Ltd.
 - **Transparencia regulatoria**: el sistema británico es predecible y consolidado.
 - **Acceso al mercado británico** para clientes UK: importante en sectores como asesoría, fintech, ecommerce europeo, marketing.
 - **Convenios de doble imposición** amplios.
-- **Sin auditoría obligatoria** para pymes.
+- **Sin auditoría obligatoria** para pymes. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 - **Régimen Substantial Shareholding Exemption** (SSE) para holdings con participaciones cualificadas.
 ### Desventajas y limitaciones
 
@@ -117,7 +117,7 @@ Para optimización fiscal pura sin presencia británica real, la LLC americana r
 
 - **No registrar PAYE pero pagarse salario**: HMRC sanciona con multas significativas.
 - **Olvidar el Confirmation Statement**: Companies House puede dar de baja la sociedad de oficio.
-- **Cuentas anuales fuera de plazo**: multas que escalan rápidamente (de 150 a 1.500 GBP por demora).
+- **Cuentas anuales fuera de plazo**: multas que escalan rápidamente (de 150 a 1.500 GBP por demora). Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 - **Operar como UK Ltd siendo residente fiscal en otro país sin declarar control**: tu Hacienda local puede aplicar transparencia internacional o dirección efectiva.
 - **VAT mal gestionado**: especialmente en B2C internacional, errores frecuentes con OSS y reglas post-Brexit.
 ### Cuándo elegir UK Ltd
@@ -231,7 +231,7 @@ La normativa de información a FinCEN y al <a href="https://www.irs.gov" target=
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 <!-- exentax:cross-refs-v1 -->
 ### Más lecturas relacionadas

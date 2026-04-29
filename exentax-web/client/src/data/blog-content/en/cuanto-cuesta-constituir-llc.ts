@@ -119,7 +119,7 @@ True 24-month total: **costlier formation + two Annual Report cycles + two Exent
 
 ### What does NOT change between the three scenarios
 
-- Form 5472 + 1120 pro-forma is filed identically in all three states; the penalty for omission is also identical: USD 25,000 per form per year.
+- Form 5472 + 1120 pro-forma is filed identically in all three states; the penalty for omission is also identical: USD 25,000 per form per year. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 - The BOI Report is harmonised at the federal level; the state does not matter.
 - Banking (Mercury, Relay, Wise Business) works the same with all three states.
 - Your obligation to declare the LLC at residence (UK Self Assessment, Irish revenue, German Finanzamt, Spanish AEAT, etc.) does not change with the state choice: the owner's effective taxation depends on residence, not on Delaware vs NM.
@@ -218,7 +218,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: USD 25,000 per form per year, plus USD 25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ### Frequently asked questions
 

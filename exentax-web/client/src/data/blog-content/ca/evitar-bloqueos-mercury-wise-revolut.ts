@@ -8,7 +8,7 @@ Els bancs i fintechs tenen obligacions de **KYC** (Know Your Customer) i **AML**
 ## Les raons més comunes de bloqueig:
 
 1. **Moviments inconsistents amb el teu perfil**: si vas declarar que la teva LLC factura $5K/mes i de sobte reps $50K, el sistema alerta
-2. **Transferències a països d'alt risc**: certs països estan a llistes de sancions (OFAC)
+2. **Transferències a països d'alt risc**: certs països estan a llistes de sancions (OFAC) Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 3. **Barrejar fons personals i de negoci**: és un senyal d'alerta important
 4. **No tenir documentació en ordre**: si et demanen verificació addicional i no respons a temps
 5. **Múltiples comptes sospitosos**: obrir diversos comptes sense justificació
@@ -41,14 +41,14 @@ Els bancs i fintechs tenen obligacions de **KYC** (Know Your Customer) i **AML**
 - **No facis transferències entre múltiples comptes Revolut** sense justificació
 ### Què fer si et bloquegen?
 
-1. **No entris en pànic**: un bloqueig no significa que hagis fet alguna cosa dolenta
+1. **No entris en pànic**: un bloqueig no significa que hagis fet alguna cosa dolenta. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 2. **Revisa el correu electrònic**: normalment et diuen quina documentació necessiten
 3. **Respon ràpid i amb tot**: factures, contractes, explicació de l'activitat
 4. **Sigues professional i clar**: explica el teu negoci de forma simple
 5. **Tingues un pla B**: per això recomanem tenir almenys dos comptes (Mercury + Wise com a mínim)
 ### La regla d'or: transparència
 
-Els bloquejos gairebé sempre passen per falta d'informació, no per fer alguna cosa dolenta. Si la teva LLC opera de forma legítima, mantens documentació ordenada i la teva activitat és coherent amb el que vas declarar en obrir el compte, les probabilitats de bloqueig són mínimes.
+Els bloquejos gairebé sempre passen per falta d'informació, no per fer alguna cosa dolenta. Si la teva LLC opera de forma legítima, mantens documentació ordenada i la teva activitat és coherent amb el que vas declarar en obrir el compte, les probabilitats de bloqueig són mínimes. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 El problema sorgeix quan la gent intenta operar "sota el radar", i és aquí on les coses es compliquen.
 ### Diversifica els teus comptes
@@ -141,11 +141,11 @@ Les dues palanques pràctiques que mantenen l'operació fluida a Mercury i Wise 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
   ## El que una LLC NO fa
 

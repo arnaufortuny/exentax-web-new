@@ -82,7 +82,7 @@ At Exentax we do this exercise every month with clients arriving from accumulate
 
 If you suspect your separation history has gaps and want to put it in order before someone asks for it, book a free initial session through our contact page.
 
-_More on this topic: [piercing the corporate veil: how to avoid it](/en/blog/separating-personal-and-llc-finances-why-it-matters), [bookkeeping for your LLC: best practices](/en/blog/bookkeeping-for-your-us-llc-step-by-step), [Form 5472: when to file it and what penalty applies](/en/blog/what-happens-if-you-dont-file-form-5472-irs-penalties-and)._
+_More on this topic: [piercing the corporate veil: how to avoid it](/en/blog/separating-personal-and-llc-finances-why-it-matters), [bookkeeping for your LLC: best practices](/en/blog/bookkeeping-for-your-us-llc-step-by-step), [Form 5472: when to file it and what penalty applies](/en/blog/what-happens-if-you-dont-file-form-5472-irs-penalties-and)._ And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 <!-- related-inline-stripped-2026-04 -->
 
@@ -126,7 +126,7 @@ Before going further, put numbers on your case: the <a href="/en#calculadora">Ex
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 ## Legal and procedural facts
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
@@ -142,7 +142,7 @@ Fund separation is not a bookkeeping nice-to-have: it is the line dividing "oper
 - **Single source of inflows.** Every credit to Mercury, Relay or Wise Business must carry an invoice, contract or memo. Intercompany LLC-to-LLC transfers get an explicit concept ("loan repayment", "intercompany services"). A transfer without traceability equals an undocumented distribution and opens the door to recharacterisation.
 - **Outflows with fiscal rationale.** Supplier payments with invoice attached in the ERP; salaries or member draws with bookkeeping entry and, where due, withholding planned; member-expense reimbursements with prior expense report. Without that trace, the IRS or your home tax authority can recategorise the flow as a hidden distribution.
 - **Dedicated cards.** A personal card run through the LLC account contaminates the whole year. Mercury issues virtuals by category: one for SaaS, one for ads, one for travel. If the member needs personal spending, they use their private account and reimburse via expense report - never the other way around.
-- **Living documentation, not dead archive.** Shared folder with signed Operating Agreement, annual minutes, expense reports, intra-group service contracts. It is the first thing a bank asks for in enhanced KYC and the first thing an inspection requests.
+- **Living documentation, not dead archive.** Shared folder with signed Operating Agreement, annual minutes, expense reports, intra-group service contracts. It is the first thing a bank asks for in enhanced KYC and the first thing an inspection requests. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 ### What we are asked the most
 
@@ -155,7 +155,7 @@ At Exentax we set up that documentary structure from day one and review each clo
 
 ## Your next step with Exentax
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 ### Before you start: the founding principle
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.

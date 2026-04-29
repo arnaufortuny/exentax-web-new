@@ -163,7 +163,6 @@ Chez Exentax nous montons la configuration bancaire par cas d'usage.
 
 Notre équipe est spécialisée dans les structures fiscales internationales pour les résidents de pays hispanophones qui exploitent des activités en ligne. Nous combinons une connaissance locale de l'Espagne, de l'Andorre et de l'Amérique latine avec une expérience opérationnelle de constitution d'entités au Delaware, dans le Wyoming, en Estonie et dans d'autres juridictions. Chaque dossier commence par une consultation gratuite au cours de laquelle nous évaluons la résidence, l'activité et les objectifs, et nous vous disons honnêtement si la structure proposée a du sens ou si une alternative plus simple suffit.
 
-
 <!-- exentax:lote9-native-v1:tiempos-pagos-ach-wire-transfer -->
 ## Une note pratique sur les temps de paiement
 

@@ -1,4 +1,4 @@
-export default `Uma sanção tipo da AEAT por declarar mal o IVA arranca em 150 € e escala facilmente acima de 3.000 € quando ultrapassa 50 % da quota não entregue (art. 191 LGT).
+export default `Uma sanção tipo da AEAT por declarar mal o IVA arranca em 150 € e escala facilmente acima de 3.000 € quando ultrapassa 50 % da quota não entregue (art. 191 LGT). Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
 O artigo original fala dos freelancers espanhóis, mas três quartos dos erros que descreve qualquer trabalhador independente em Portugal ou MEI no Brasil assina sem hesitar: subdeclarar receitas de Stripe, esquecer IVA intracomunitário em SaaS dos EUA, achar que a LLC isenta automaticamente de <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e Segurança Social.
 
@@ -23,7 +23,7 @@ Um freelancer que fatura 60.000€/ano e só deduz 3.000€ em despesas poderia 
 A epígrafe do IAE (Impuesto de Actividades Económicas) determina que tipo de atividade realizas aos olhos das autoridades fiscais. Uma epígrafe incorreta pode:
 
 - **Limitar as tuas deduções**: algumas epígrafes permitem mais despesas do que outras
-- **Gerar problemas numa inspeção**: se a atividade real não coincide com a epígrafe
+- **Gerar problemas numa inspeção**: se a atividade real não coincide com a epígrafe. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 - **Afetar a retenção do IRPF**: algumas epígrafes estão sujeitas a retenção de 15% nas faturas a empresas espanholas
 
 As epígrafes mais habituais para freelancers digitais:
@@ -118,7 +118,7 @@ Para um freelancer com 60.000€ de faturação anual:
 | Não deduzir despesas | 3.000-4.000€ |
 | Epígrafe IAE incorreta | 500-1.500€ |
 | Não aproveitar tarifa plana | 1.440€ (primeiro ano, 80€/mês vs cota tramo 1) |
-| IVA incorreto | Multas de 150-600€ |
+| IVA incorreto | Multas de 150-600€ |. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 | Pagamentos fracionados mal feitos | Sobretaxas de 5-20% |
 | Ignorar otimização internacional | 15.000-20.000€ |
 | Não planear | variable |
@@ -196,14 +196,14 @@ O catálogo de erros fiscais habituais lê-se com mais utilidade quando é trata
 Trabalhamos com freelancers que passam de autónomo em Espanha a estrutura internacional. Os erros que arrastam não costumam ser exóticos: são as mesmas cinco coisas, repetidas, que custam multas ou reabertura de declarações de três anos atrás. Esta é a lista, por frequência.
 
 - **Misturar IVA cobrado com lucro.** Cobra 1.210 € (1.000 + 21% IVA) e considera os 1.210 como rendimento. Os 210 são da Tesouraria - só fazem escala na sua conta. Sem um sistema de tesouraria que os separe a cada cobrança, chega a Julho sem caixa para liquidar o modelo 303 e entra em adiamentos com agravamento de 5-20%.
-- **Modelo 720 incompleto ou tarde.** Contas Mercury, Wise Business ou Revolut Business ultrapassando 50.000 € em qualquer momento do ano geram obrigação 720 antes de 31 de Março do ano seguinte. Sanção mínima por dado omitido reduzida após TJUE 2022 (C-788/19) mas continua material. Ainda hoje detectamos 720 de exercícios anteriores não apresentados em novos clientes.
+- **Modelo 720 incompleto ou tarde.** Contas Mercury, Wise Business ou Revolut Business ultrapassando 50.000 € em qualquer momento do ano geram obrigação 720 antes de 31 de Março do ano seguinte. Sanção mínima por dado omitido reduzida após TJUE 2022 (C-788/19) mas continua material. Ainda hoje detectamos 720 de exercícios anteriores não apresentados em novos clientes. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 - **Não separar fundos LLC de conta pessoal.** Mover dinheiro LLC para pessoal sem acta de distribuição, sem retenção prevista em residência e sem lançamento contabilístico converte a LLC em simulação aos olhos da AEAT. É a primeira coisa que uma inspecção com paralela internacional verifica.
 - **Esquecer o IVA OSS ou IOSS.** Vender serviços digitais B2C a particulares UE desde autónomo ou LLC requer registo em OSS (serviços) ou IOSS (bens &lt;150 €) e liquidações trimestrais. Sem isto, IVA devido país por país com sanções acumuladas. A AEAT cruza dados com plataformas (DAC7), vigente desde 2024.
 - **Confiar no "ainda não me disseram nada".** Prescrição IRPF: 4 anos desde 30 de Junho do ano seguinte - mas as inspecções internacionais puxam contas estrangeiras e modelo 720 com prazos especiais. O que não encontra, a Tesouraria encontra com CRS, FATCA ou DAC7 dois anos depois.
 
 ### O que mais nos perguntam
 
-**Como regularizo voluntariamente sem disparar inspecção?** Declaração complementar com agravamento (15% dentro de 12 meses, 20% depois) sem sanção. Chegar primeiro que a AEAT muda totalmente o desenlace.
+**Como regularizo voluntariamente sem disparar inspecção?** Declaração complementar com agravamento (15% dentro de 12 meses, 20% depois) sem sanção. Chegar primeiro que a AEAT muda totalmente o desenlace. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 
 **Vale a pena contratar gestor ou faço eu?** Actividade nacional única simples: autogestão com software funciona. Quanto mais internacional ou mais facturação, o custo de gestor profissional amortiza-se com a primeira multa evitada.
 
@@ -217,7 +217,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 ### Pontos-chave
 
 - **BOI / Corporate Transparency Act: a tua LLC NÃO está obrigada (uma vantagem competitiva).** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida às "foreign reporting companies"** (entidades constituídas FORA dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA detida por um não residente NÃO submete o BOI Report**: uma formalidade a menos no calendário, menos burocracia e uma estrutura mais limpa do que nunca. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo. O estado regulatório pode mudar: **monitorizamos a FinCEN.gov em cada submissão** e, se a obrigação voltar, gerimos sem custo adicional. Estado atual verificável em [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 - **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
 ### Lembrete prático

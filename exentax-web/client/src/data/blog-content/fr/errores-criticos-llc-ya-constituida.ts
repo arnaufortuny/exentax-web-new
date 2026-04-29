@@ -17,7 +17,7 @@ Une Single-Member LLC détenue par un non-résident **ne paie pas d'impôt féd�
 
 Réalité: si vous êtes résident fiscal en France, en Belgique, en Espagne, au Portugal ou dans presque tout pays européen ou latino-américain, les revenus de la LLC sont attribués à votre déclaration personnelle. Ne pas les déclarer n'est pas de "l'optimisation", c'est de **l'omission**, et avec CRS/DAC actifs actuellement, cela ressort.
 
-**Conséquence typique:** régularisation pluriannuelle + majorations + intérêts + pénalité fiscale probable.
+**Conséquence typique:** régularisation pluriannuelle + majorations + intérêts + pénalité fiscale probable. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 
 ### Erreur 2. Ne pas déposer Form 5472 (ou ignorer son existence)
 
@@ -25,13 +25,13 @@ Si vous êtes non-résident, propriétaire unique d'une LLC, et que vous avez bo
 
 Beaucoup de clients arrivent chez Exentax sans même savoir que ce formulaire existe. La sanction de base pour non-dépôt est de **25 000 USD par formulaire et par année**, cumulative.
 
-**Conséquence typique:** 25k × 3-5 ans = 75 000 à 125 000 USD de sanctions potentielles avant même de toucher à votre activité réelle. Détails dans notre <a href="/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment">guide du Form 5472</a>.
+**Conséquence typique:** 25k × 3-5 ans = 75 000 à 125 000 USD de sanctions potentielles avant même de toucher à votre activité réelle. Détails dans notre <a href="/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment">guide du Form 5472</a>. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 
 ### Erreur 3. Sauter le BOI Report ou ne pas le mettre à jour
 
 Le **Beneficial Ownership Information Report** auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> est obligatoire depuis le 1er janvier 2024. Et ce n'est pas un dépôt unique: tout changement (adresse, document d'identité, bénéficiaire) doit être mis à jour sous 30 jours.
 
-**Conséquence typique:** jusqu'à **591 USD par jour de retard**, plus sanctions pénales dans les cas graves.
+**Conséquence typique:** jusqu'à **591 USD par jour de retard**, plus sanctions pénales dans les cas graves. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 
 ### Erreur 4. Mélanger compte personnel et LLC
 
@@ -55,7 +55,7 @@ La doctrine administrative espagnole (entre autres, la ligne consolidée en <a h
 
 Dire à votre comptable "ne déclare rien, c'est imposé aux US" est la recette d'une régularisation douloureuse quand les croisements CRS/DAC tombent.
 
-**Conséquence typique:** redressement pluriannuel + majoration + intérêts + pénalité.
+**Conséquence typique:** redressement pluriannuel + majoration + intérêts + pénalité. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 
 ### Erreur 7. Mauvaise résidence fiscale chez Wise, Mercury ou les brokers
 
@@ -63,7 +63,7 @@ Quand vous ouvrez un compte chez Wise, Mercury, Relay ou Interactive Brokers, on
 
 Quand les données sont croisées des années plus tard, une **incohérence automatique** se déclenche: votre pays détecte des comptes étrangers non déclarés.
 
-**Conséquence typique:** signal automatique vers votre administration fiscale + ouverture d'enquête + pénalité spécifique pour comptes/avoirs étrangers non déclarés.
+**Conséquence typique:** signal automatique vers votre administration fiscale + ouverture d'enquête + pénalité spécifique pour comptes/avoirs étrangers non déclarés. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 
 ### Erreur 8. Mélanger LLC et crypto sans comprendre CRS/DAC8
 
@@ -71,7 +71,7 @@ Si vous tradez de la crypto via des exchanges centralisés (Coinbase, Kraken, Bi
 
 Et si vous canalisez la crypto via la LLC en mélangeant avec de l'autocustodie, la chaîne d'événements imposables devient très difficile à reconstruire a posteriori. Le coût d'une mauvaise documentation est **d'être taxé sur le brut**, sans pouvoir déduire le coût d'acquisition.
 
-**Conséquence typique:** imposition sur le montant brut + amendes + heures de reconstruction comptable au tarif cabinet.
+**Conséquence typique:** imposition sur le montant brut + amendes + heures de reconstruction comptable au tarif cabinet. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 ### Erreur 9. Pas d'Operating Agreement signé
 
@@ -118,7 +118,7 @@ La plupart de ces erreurs ne sont pas commises par bêtise, mais par **manque d'
 Chez Exentax nous couvrons le cycle complet: structure, banque, processeurs de paiement, investissement, crypto le cas échéant, compliance annuelle <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> et FinCEN, coordination avec votre conseiller local. Nous ne constituons pas des LLC pour disparaître: nous les gérons.
 ### Ce que vous devez retenir
 
-Avoir une LLC mal gérée coûte **plus cher** que ne pas en avoir. La différence entre être en règle ou non se mesure en sanctions évitables, en stress administratif et en perte de la protection que la LLC devrait offrir.
+Avoir une LLC mal gérée coûte **plus cher** que ne pas en avoir. La différence entre être en règle ou non se mesure en sanctions évitables, en stress administratif et en perte de la protection que la LLC devrait offrir. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
 
 Si vous vous êtes reconnu dans trois erreurs ou plus, le coût de rester immobile est supérieur à celui de revoir votre situation. **Nous la revoyons avec vous** lors d'une consultation gratuite de 30 minutes: nous diagnostiquons quoi corriger, dans quel ordre, avec quelle priorité. Mieux vaut détecter aujourd'hui qu'attendre une lettre de l'IRS ou de votre administration fiscale.
 ## Conformité fiscale dans votre pays: CFC, transparence fiscale et attribution des revenus
@@ -128,7 +128,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 ### Par juridiction
 
 - **Espagne (LIRPF/LIS).** Si la LLC est une *Single-Member Disregarded Entity* opérationnelle (services réels, sans passivité significative), le fisc la traite généralement par **attribution de revenus (art. 87 LIRPF)**: les bénéfices nets sont attribués à l'associé l'année où ils naissent et intégrés dans la base générale de l'IRPF. Si la LLC opte pour la fiscalité de *corporation* (Form 8832) et qu'elle est contrôlée par un résident espagnol avec des revenus majoritairement passifs, le **régime de transparence fiscale internationale (art. 91 LIRPF pour les personnes physiques, art. 100 LIS pour les sociétés)** peut s'appliquer. Le choix n'est pas optionnel: il dépend de la substance économique, pas du nom.
-- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**.
+- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
@@ -142,7 +142,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 - **Convention Espagne–USA.** BOE du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
@@ -207,7 +207,7 @@ Les erreurs que nous voyons se répéter sur les LLC déjà constituées ces der
 - **Opérer sans Operating Agreement signé.** Les banques et processeurs le demandent en KYC croissant depuis janvier 2024. Sans lui, les décisions internes (changement d'adresse, entrée d'associé) n'ont aucune base documentaire. Signez-le même en SMLLC.
 - **Ne pas mettre à jour le BOI lorsqu'il s'applique.** Si votre LLC est *foreign reporting company* et vous changez d'adresse, document ou bénéficiaire sans mise à jour sous 30 jours, amende civile de 591 USD/jour. L'interface [le portail officiel FinCEN pour le BOI](https://boiefiling.fincen.gov) prend 10 minutes.
 - **Oublier le 5472.** L'erreur la plus chère: 25 000 USD par formulaire et par an. Cause la plus fréquente: avoir eu un mouvement (virement entre vous et la LLC) sans savoir qu'il déclenche l'obligation.
-- **Adresse obsolète au Secretary of State.** Courrier de l'IRS et de l'État perdu, amendes s'accumulant et arrivant en recommandé à une adresse expirée.
+- **Adresse obsolète au Secretary of State.** Courrier de l'IRS et de l'État perdu, amendes s'accumulant et arrivant en recommandé à une adresse expirée. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 
 ### Triage en 30 minutes
 
@@ -220,7 +220,7 @@ Les erreurs que nous voyons se répéter sur les LLC déjà constituées ces der
 
 **Réparer ces erreurs sans conseil?** Operating Agreement et BOI oui. 5472 en retard mieux avec un conseil pour bâtir la *reasonable cause*.
 
-**Erreur la plus sous-estimée?** Ne pas documenter l'origine des fonds à l'apport. En 2e tour KYC bancaire, sans justificatif le blocage dure des semaines.
+**Erreur la plus sous-estimée?** Ne pas documenter l'origine des fonds à l'apport. En 2e tour KYC bancaire, sans justificatif le blocage dure des semaines. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 **L'IRS détecte-t-il automatiquement?** De plus en plus. Le croisement 1099/1042-S/Form 5472/CRS est plus automatisé actuellement qu'en 2020.
 

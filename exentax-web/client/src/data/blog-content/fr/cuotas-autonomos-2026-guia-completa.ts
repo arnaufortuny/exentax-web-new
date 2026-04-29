@@ -74,11 +74,11 @@ Exemple pratique : vous aviez déclaré 30 000 € prévus (2 500 €/mois, tran
 
 ## Autónomos societarios : quand l'inscription est obligatoire
 
-Si vous êtes gérant d'une SL, détenez plus de 25% du capital et exercez réellement des fonctions de direction, vous êtes tenu de vous inscrire au RETA comme autónomo societario. La cotisation minimale part d'environ 380 €/mois en 2026, supérieure à l'autónomo ordinaire. L'exception est le gérant exerçant des fonctions purement mercantiles sans participation significative ni direction réelle ; il peut rester hors du RETA, mais l'interprétation de l'Inspection est restrictive et la répartition réelle des fonctions doit être bien documentée.
+Si vous êtes gérant d'une SL, détenez plus de 25% du capital et exercez réellement des fonctions de direction, vous êtes tenu de vous inscrire au RETA comme autónomo societario. La cotisation minimale part d'environ 380 €/mois en 2026, supérieure à l'autónomo ordinaire. L'exception est le gérant exerçant des fonctions purement mercantiles sans participation significative ni direction réelle ; il peut rester hors du RETA, mais l'interprétation de l'Inspection est restrictive et la répartition réelle des fonctions doit être bien documentée. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 ## Quand cesser de payer le RETA a du sens
 
-Pas pour tout le monde. Le RETA est obligatoire si vous exercez une activité économique habituelle et personnelle en Espagne, et vous désinscrire sans alternative ordonnée est le plus court chemin vers un contrôle. Cesser de payer le RETA a du sens quand : vous restructurez votre activité dans une entité étrangère avec substance réelle (LLC, limited lituanienne, estonienne, etc.), déplacez votre résidence fiscale hors d'Espagne, devenez salarié à temps plein sans activité propre ou cessez réellement. Dans tous les autres cas, l'économie apparente se transforme en sanctions et cotisations rétroactives dès que l'Inspection croise les données.
+Pas pour tout le monde. Le RETA est obligatoire si vous exercez une activité économique habituelle et personnelle en Espagne, et vous désinscrire sans alternative ordonnée est le plus court chemin vers un contrôle. Cesser de payer le RETA a du sens quand : vous restructurez votre activité dans une entité étrangère avec substance réelle (LLC, limited lituanienne, estonienne, etc.), déplacez votre résidence fiscale hors d'Espagne, devenez salarié à temps plein sans activité propre ou cessez réellement. Dans tous les autres cas, l'économie apparente se transforme en sanctions et cotisations rétroactives dès que l'Inspection croise les données. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 
 ## Références officielles et étapes suivantes
 
@@ -99,7 +99,6 @@ Si vous voulez passer du calcul au plan, réservez 30 minutes avec Exentax et no
 ## Lectures liées
 
 Pour approfondir : <a href="/fr/blog/cotisation-autonomo-espagne-2026-tranches">la cotisation d'autónomo par tranches de revenus</a>, <a href="/fr/blog/tranches-irpf-2026-bareme-explication">les tranches d'IRPF 2026 mises à jour</a>, <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">la LLC américaine comme alternative à l'autónomo</a>, <a href="/fr/blog/depenses-deductibles-autonomo-espagne-2026">les charges déductibles pour autónomos</a>, <a href="/fr/blog/societe-limitee-espagne-sl-couts-avantages">constituer une SL en Espagne : coûts et avantages</a>.
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

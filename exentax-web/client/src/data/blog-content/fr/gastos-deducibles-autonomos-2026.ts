@@ -1,10 +1,10 @@
 export default `
 
-La facture fiscale d'un autonomo en Espagne dépend moins du taux marginal que des charges qu'il sait documenter. L'écart entre celui qui déclare 50 000 euros de revenu net et celui qui en déclare 35 000 avec la même facturation tient presque toujours à la discipline comptable, pas à des astuces. Ce guide rassemble la liste pratique des charges déductibles actuellement en vigueur, les critères d'affectation à l'activité, les plafonds légaux que l'agence fiscale surveille particulièrement et les erreurs qui chaque année génèrent redressements et sanctions évitables.
+La facture fiscale d'un autonomo en Espagne dépend moins du taux marginal que des charges qu'il sait documenter. L'écart entre celui qui déclare 50 000 euros de revenu net et celui qui en déclare 35 000 avec la même facturation tient presque toujours à la discipline comptable, pas à des astuces. Ce guide rassemble la liste pratique des charges déductibles actuellement en vigueur, les critères d'affectation à l'activité, les plafonds légaux que l'agence fiscale surveille particulièrement et les erreurs qui chaque année génèrent redressements et sanctions évitables. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 
 ## Critères généraux : nécessaire, lié et justifié
 
-Pour qu'une charge soit déductible, elle doit remplir trois conditions : être liée à l'activité économique, être correctement justifiée par un document (facture, pas un ticket générique) et être enregistrée dans les livres comptables de l'autonomo. Sans l'une des trois, l'agence fiscale peut rejeter la déduction lors de tout contrôle. La facture doit inclure votre NIF, celui du fournisseur, la date, une description concrète et la ventilation TVA si applicable. Les paiements en espèces au-delà de 1 000 euros entre professionnels sont interdits par la loi anti-fraude et entraînent perte de déduction plus sanction indépendante.
+Pour qu'une charge soit déductible, elle doit remplir trois conditions : être liée à l'activité économique, être correctement justifiée par un document (facture, pas un ticket générique) et être enregistrée dans les livres comptables de l'autonomo. Sans l'une des trois, l'agence fiscale peut rejeter la déduction lors de tout contrôle. La facture doit inclure votre NIF, celui du fournisseur, la date, une description concrète et la ventilation TVA si applicable. Les paiements en espèces au-delà de 1 000 euros entre professionnels sont interdits par la loi anti-fraude et entraînent perte de déduction plus sanction indépendante. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 ## Logiciels, outils numériques et abonnements
 
 Tout la configuration numérique de l'autonomo est intégralement déductible : hébergement, domaines, logiciels de facturation, outils de design, IDE, abonnements à IA générative, services de messagerie, stockage cloud, ERP, CRM, plateformes de cours, plugins, licences annuelles et mensuelles. La facture doit être émise à votre NIF et, si le fournisseur est dans l'UE, appliquer l'autoliquidation TVA sur le modèle 303. Les abonnements personnels Netflix ou Spotify ne sont pas déductibles même si vous les utilisez partiellement pour vous inspirer ; l'agence fiscale exige un usage exclusivement professionnel.
@@ -23,7 +23,7 @@ Les honoraires de conseil fiscal, comptable et social sont intégralement déduc
 
 ## Erreurs fréquentes et l'alternative structurelle
 
-Les erreurs qui génèrent le plus de sanctions : prétendre déduire des repas familiaux comme indemnités, carburant personnel sans usage professionnel documenté, vêtements personnels facturés comme uniforme sans en être, cadeaux clients au-delà de 1% du chiffre d'affaires et surtout charges sans facture. Si votre activité est 100% numérique, une <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">LLC américaine</a> permet de documenter des charges selon les critères américains (ordinary and necessary), nettement plus larges et flexibles que les espagnols, tout en gardant la traçabilité complète pour votre déclaration de résidence.
+Les erreurs qui génèrent le plus de sanctions : prétendre déduire des repas familiaux comme indemnités, carburant personnel sans usage professionnel documenté, vêtements personnels facturés comme uniforme sans en être, cadeaux clients au-delà de 1% du chiffre d'affaires et surtout charges sans facture. Si votre activité est 100% numérique, une <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">LLC américaine</a> permet de documenter des charges selon les critères américains (ordinary and necessary), nettement plus larges et flexibles que les espagnols, tout en gardant la traçabilité complète pour votre déclaration de résidence. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 
 Le critère officiel sur les charges déductibles figure dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Loi 35/2006 sur l'IRPF</a> et les consultations contraignantes de la <a href="https://petete.tributos.hacienda.gob.es/">Direction Générale des Impôts espagnole</a>. Bien documenter aujourd'hui fait économiser demain : chaque facture archivée est un euro de moins pour le fisc.
 
@@ -56,7 +56,7 @@ Le critère officiel sur les charges déductibles figure dans la <a href="https:
 
 | Erreur | Conséquence |
 |---|---|
-| Déduire repas familiaux comme indemnités | Sanction + majoration + requalification |
+| Déduire repas familiaux comme indemnités | Sanction + majoration + requalification |. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
 | Carburant personnel sans livre de voyages | Réduction à 50% au mieux, 0% si flagrant |
 | Vêtements personnels comme « uniforme » | Non déductible sauf marquage corporatif permanent |
 | Cadeaux clients >1% du chiffre d'affaires | Excédent non déductible |
@@ -102,7 +102,6 @@ Ce que nous voyons chaque semaine dans les dossiers qui nous arrivent, c'est tou
 
 Si vous voulez passer du doute au plan, réservez 30 minutes avec Exentax et nous sortons de l'appel avec les chiffres verrouillés et un calendrier opérationnel.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

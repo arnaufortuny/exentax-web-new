@@ -6,14 +6,14 @@ Peu de questions reviennent autant chez ceux qui débutent : puis-je facturer sa
 
 ## Revenus sporadiques : le vrai cas, pas l'astuce virale
 
-La doctrine admet d'émettre des factures ponctuelles sans inscription au RETA quand le revenu est occasionnel, non habituel et ne dépasse pas le SMI annuel. Un arrêt classique de la Cour suprême établit que l'habitualité peut s'inférer quand on dépasse le SMI ou quand il y a continuité. Donc : facturer deux ou trois travaux par an pour de petits montants n'oblige pas à s'inscrire au RETA, mais oui au fisc (modèle 036 et déclarations TVA si applicable). Le fisc et l'inspection du travail recoupent les données : si vous émettez plusieurs factures de suite, ils attendent votre inscription. Cette voie n'est pas faite pour opérer habituellement.
+La doctrine admet d'émettre des factures ponctuelles sans inscription au RETA quand le revenu est occasionnel, non habituel et ne dépasse pas le SMI annuel. Un arrêt classique de la Cour suprême établit que l'habitualité peut s'inférer quand on dépasse le SMI ou quand il y a continuité. Donc : facturer deux ou trois travaux par an pour de petits montants n'oblige pas à s'inscrire au RETA, mais oui au fisc (modèle 036 et déclarations TVA si applicable). Le fisc et l'inspection du travail recoupent les données : si vous émettez plusieurs factures de suite, ils attendent votre inscription. Cette voie n'est pas faite pour opérer habituellement. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 ## Coopératives de facturation : l'option la plus connue
 
 Les coopératives de facturation, aussi appelées coopératives de travail associé ou d'impulsion entrepreneuriale, vous permettent de facturer via la coopérative sans être inscrit comme autonomo. Vous apportez le client, la coopérative émet la facture et vous paie comme salaire (cotisant au régime général). Elles prélèvent une commission de 5-12% du facturé et absorbent la complexité. Elles conviennent pour de faibles volumes (moins de 1 500-2 000 euros mensuels) ou pour des périodes de transition. Pour des facturations stables et élevées, leur commission et la cotisation au régime général les rendent moins efficaces que le RETA standard.
 
 ## Travailler comme prestataire mercantile sous une autre structure
 
-Si vous trouvez un client offrant un contrat mercantile stable, vous pouvez facturer en tant que personne physique pour services sans inscription au RETA seulement si l'activité est véritablement sporadique ou ne constitue pas votre principal moyen de subsistance. La réalité est que la majorité des relations qui semblent mercantiles sont considérées comme faux par l'Inspection si concourent des indices de salariat : dépendance, étrangéité, exclusivité, intégration dans l'organisation du client. Si on vous détecte comme faux autonomo, les conséquences économiques sont graves pour le client et, en partie, pour vous. Pas une voie recommandable à long terme.
+Si vous trouvez un client offrant un contrat mercantile stable, vous pouvez facturer en tant que personne physique pour services sans inscription au RETA seulement si l'activité est véritablement sporadique ou ne constitue pas votre principal moyen de subsistance. La réalité est que la majorité des relations qui semblent mercantiles sont considérées comme faux par l'Inspection si concourent des indices de salariat : dépendance, étrangéité, exclusivité, intégration dans l'organisation du client. Si on vous détecte comme faux autonomo, les conséquences économiques sont graves pour le client et, en partie, pour vous. Pas une voie recommandable à long terme. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 
 ## Holding personnel ou société limitée propre
 
@@ -28,7 +28,6 @@ Pour les profils 100% numériques avec une clientèle majoritairement hors d'Esp
 Résumé pratique : revenus ponctuels faibles (moins de 3 000 euros par an au total) et non récurrents : personne physique avec déclaration correcte à l'IRPF. Volume petit-moyen sans récurrence (coopérative de facturation) ou stable comme freelance numérique local : inscription au RETA et planification normale. Volume élevé avec clients espagnols, plusieurs associés ou risque patrimonial : SL. Volume moyen-élevé avec clients internationaux et activité 100% numérique : LLC américaine coordonnée avec déclaration correcte en résidence. Chaque cas exige de modéliser des chiffres concrets et de comprendre que la radiation du RETA doit être parfaitement documentée pour ne pas entrer en conflit avec la TGSS.
 
 Les critères d'habitualité sont consolidés dans les arrêts de la <a href="https://www.poderjudicial.es/">Cour suprême</a> et dans la doctrine de la <a href="https://www.seg-social.es/">Trésorerie générale espagnole</a>. Avant d'opérer sans RETA, modélisez votre situation avec un conseil sérieux ; les faux raccourcis finissent par coûter cher.
-
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.
 
@@ -49,7 +48,6 @@ Ce que nous voyons chaque semaine dans les dossiers qui nous arrivent, c'est tou
 
 Si vous voulez passer du doute au plan, réservez 30 minutes avec Exentax et nous sortons de l'appel avec les chiffres verrouillés et un calendrier opérationnel.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
@@ -87,7 +85,7 @@ Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">
 <!-- exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### Ce que "revenu sporadique" signifie réellement en pratique
 
-L'exemption souvent citée du régime d'autónomo pour les revenus sporadiques et de faible valeur découle d'une interprétation de la jurisprudence plutôt que d'une règle claire et tranchée. En pratique, l'AEAT et la Sécurité sociale traitent comme vraiment sporadiques uniquement les revenus ponctuels, faibles en valeur absolue (bien en dessous du salaire minimum annuel) et sans lien avec une activité récurrente. Trois factures émises au même client sur six mois ne paraîtront pas sporadiques à un inspecteur du travail même si le montant absolu est faible; en revanche, un cachet d'atelier unique payé une fois par an correspond clairement à la définition. La zone grise au milieu est l'endroit où la plupart des freelances ont des ennuis: facturer via la société de quelqu'un d'autre, déclarer comme "services occasionnels" ce qui est en réalité un contrat récurrent, ou simplement sauter l'inscription en espérant que les petits montants passent inaperçus. Aucun de ces raccourcis ne tient bien, et le coût d'un contrôle (régularisation des cotisations plus pénalité) dépasse de loin l'économie de quelques mois sans cotisation.
+L'exemption souvent citée du régime d'autónomo pour les revenus sporadiques et de faible valeur découle d'une interprétation de la jurisprudence plutôt que d'une règle claire et tranchée. En pratique, l'AEAT et la Sécurité sociale traitent comme vraiment sporadiques uniquement les revenus ponctuels, faibles en valeur absolue (bien en dessous du salaire minimum annuel) et sans lien avec une activité récurrente. Trois factures émises au même client sur six mois ne paraîtront pas sporadiques à un inspecteur du travail même si le montant absolu est faible; en revanche, un cachet d'atelier unique payé une fois par an correspond clairement à la définition. La zone grise au milieu est l'endroit où la plupart des freelances ont des ennuis: facturer via la société de quelqu'un d'autre, déclarer comme "services occasionnels" ce qui est en réalité un contrat récurrent, ou simplement sauter l'inscription en espérant que les petits montants passent inaperçus. Aucun de ces raccourcis ne tient bien, et le coût d'un contrôle (régularisation des cotisations plus pénalité) dépasse de loin l'économie de quelques mois sans cotisation. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 
 ### Une comparaison propre entre les quatre alternatives réelles
 
@@ -109,7 +107,6 @@ Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#cal
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### Un protocole de décision du premier mois en quittant le régime d'autónomo

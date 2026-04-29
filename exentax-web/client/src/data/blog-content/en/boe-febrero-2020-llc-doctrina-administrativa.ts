@@ -68,16 +68,16 @@ In a **Disregarded Entity**, the DTT applies directly to the partner (the LLC is
 4. **Forms 100/130/131.** If classified as economic activity, you need quarterly installments like any self-employed person.
 ### Risk of regularization if you've been treating it as dividends
 
-If you've been declaring your LLC flows as savings-base dividends (19-28%) and the AEAT recharacterizes them as imputed economic activity (general base 24-47%), the difference can be very significant. Statute of limitations: **4 years**. Penalties: art. 191-195 LGT.
+If you've been declaring your LLC flows as savings-base dividends (19-28%) and the AEAT recharacterizes them as imputed economic activity (general base 24-47%), the difference can be very significant. Statute of limitations: **4 years**. Penalties: art. 191-195 LGT. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
-What we see: regularization of non-prescribed periods + interest + minimum 50% penalty (can rise).
+What we see: regularization of non-prescribed periods + interest + minimum 50% penalty (can rise). This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 ### How to plan correctly
 
 1. **Define classification with judgment.** Typical case of professional services with single-member LLC: economic activity imputed by income attribution.
 2. **Design the structure for tax-efficient operation.** Decisions: capital contributions, allocated expenses, partner remuneration, alternative structures (Spanish S.L. + operational LLC, etc.). See <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">designing a solid international structure</a>.
 3. **Consider your specific activity.** Different practical regime for services, e-commerce, royalties, trading. Developed in <a href="/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas">LLC taxation by economic activity</a>.
 4. **Maintain robust documentation.** It distinguishes a defensible structure from a vulnerable one.
-5. **Avoid simulation.** If the LLC lacks substance and services are materially provided by the resident individual, the AEAT can apply simulation, with higher penalty and possible criminal referral.
+5. **Avoid simulation.** If the LLC lacks substance and services are materially provided by the resident individual, the AEAT can apply simulation, with higher penalty and possible criminal referral. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 ### In summary
 
 Spanish administrative doctrine on the US LLC is very specific: in the typical single-member LLC case, the result is imputed to the Spanish-resident partner as economic activity in the general base. This requires serious planning, not improvisation. Good news: well-designed, an LLC remains an excellent tool to internationalize your business and legally optimize your global tax burden.
@@ -92,7 +92,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 - **Spain–US tax treaty.** The treaty (BOE 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 - **United Kingdom (HMRC).** A UK-resident member of an SMLLC reports the LLC as an opaque company under HMRC practice (INTM180020). Distributions are dividends taxable in the UK at the dividend rates (8.75%, 33.75% or 39.35% in 2025/26 above the £500 allowance). When US tax has actually been paid by the member personally, **Anson v HMRC** allows a foreign-tax credit against UK income tax for the same profits. Reporting obligations include the **Foreign pages (SA106)** of the self-assessment return and, where applicable, the offshore-asset disclosure regime (TMA 1970 Sch 23 and the Requirement to Correct under FA 2017).
@@ -156,7 +156,7 @@ Spanish LLC doctrine cannot be understood by reading a single binding consultati
 - **CV0024-19, CV1631-21 and later.** Confirm that an SMLLC is treated as an income-attribution entity for the Spain-resident partner, unless a C-Corp election is formalised and effective US taxation occurs. This prevents double taxation but requires reporting the full profit in the year accrued, not when distributed.
 - **Income classification.** If the LLC renders professional services, the income flows to the partner's IRPF as business income (consistent IAE heading). If the LLC merely holds passive investments, capital-income classification applies and non-resident withholding rules kick in.
 - **US-Spain treaty.** The treaty (BOE of 23 October 2019, Protocol in force since 2019) allows you to credit US tax - federal and state - against the Spanish liability. For an SMLLC with no C-Corp election, federal liability is typically zero, which reduces the credit to near zero but also removes any real double taxation.
-- **Modelo 720 and Modelo 721.** If the LLC's accounts hold a combined balance above 50,000 €, reporting is required, with the proportional fine limited by the CJEU ruling C-788/19. The LLC interest itself may fall within the scope of Modelo 720 when configured as a right over a foreign entity.
+- **Modelo 720 and Modelo 721.** If the LLC's accounts hold a combined balance above 50,000 €, reporting is required, with the proportional fine limited by the CJEU ruling C-788/19. The LLC interest itself may fall within the scope of Modelo 720 when configured as a right over a foreign entity. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ### What we are asked the most
 

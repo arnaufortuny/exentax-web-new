@@ -1,6 +1,6 @@
 export default `
 
-If you are a Spanish autonomo or SME with corporate clients in other EU countries, intra-community VAT is one of the most confusing areas. The general rule for B2B services is simple: you invoice without charging VAT and the client self-assesses it in their country. But there are important nuances that separate a clean invoice from one rejected on inspection. This guide explains when the rule really applies, how to register in the ROI, what to declare on Forms 303 and 349 and the mistakes that cost adjustments.
+If you are a Spanish autonomo or SME with corporate clients in other EU countries, intra-community VAT is one of the most confusing areas. The general rule for B2B services is simple: you invoice without charging VAT and the client self-assesses it in their country. But there are important nuances that separate a clean invoice from one rejected on inspection. This guide explains when the rule really applies, how to register in the ROI, what to declare on Forms 303 and 349 and the mistakes that cost adjustments. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 ## B2B services: general rule and exceptions
 
@@ -11,7 +11,7 @@ To invoice without VAT to an EU client you must register in Spain's Intra-Commun
 
 ## How to fill out the VAT-free invoice
 
-The invoice must show your Spanish EU VAT number (with ES prefix), the client's EU VAT number, the amount without VAT and the mandatory mention of Article 84 of the Spanish VAT Law (operation with reverse charge) or its English equivalent (reverse charge). No VAT base or amount is included; only the total. Some European clients also require reference to Directive 2006/112/EC. Always keep electronic proof of sending and delivery of the service (emails, contracts, deliverables) because in an inspection the Spanish Tax Agency demands full documentary trails, not only the invoice.
+The invoice must show your Spanish EU VAT number (with ES prefix), the client's EU VAT number, the amount without VAT and the mandatory mention of Article 84 of the Spanish VAT Law (operation with reverse charge) or its English equivalent (reverse charge). No VAT base or amount is included; only the total. Some European clients also require reference to Directive 2006/112/EC. Always keep electronic proof of sending and delivery of the service (emails, contracts, deliverables) because in an inspection the Spanish Tax Agency demands full documentary trails, not only the invoice. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 ## Form 349 and Form 303 reconciliation
 
@@ -41,7 +41,7 @@ The legal framework is set out in <a href="https://www.boe.es/buscar/act.php?id=
 |---|---|
 | Invoicing without valid client VIES | AEAT reclassifies as B2C → Spanish VAT + penalty |
 | Not declaring a 5,000€ operation on form 349 | Penalty for omission + surcharge |
-| Forms 303 and 349 with different figures | Immediate parallel assessment, often inspection |
+| Forms 303 and 349 with different figures | Immediate parallel assessment, often inspection |. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 | Forgetting "reverse charge" mention on invoice | EU client rejects invoice, payment delay |
 | Confusing B2C with B2B on digital platforms | OSS misfiled → corrections with surcharges |
 
@@ -102,7 +102,6 @@ What we see every week in the files that reach us is the same pattern: the quest
 
 If you want to move from doubt to plan, book 30 minutes with Exentax and we walk out of the call with the numbers closed and an operational calendar.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

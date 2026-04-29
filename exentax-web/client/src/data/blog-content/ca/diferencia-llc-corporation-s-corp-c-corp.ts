@@ -10,7 +10,7 @@ La **LLC (Limited Liability Company)** és una figura híbrida creada per les ll
 
 Per a un no resident sense **ETBUS** (Effectively Connected Trade or Business in the United States) i sense **US-source FDAP income**, la LLC disregarded **no genera obligació de Form 1040-NR substantiu** ni paga impost federal sobre la renda: la regla bàsica del **IRC §§871 i 882** sotmet els no residents només a (a) US-source FDAP amb retenció del 30 % (o tipus de tractat) i (b) rendes efectivament connectades a un trade or business als EUA. Sense aquests dos elements, la LLC paga **0 % federal**. A nivell estatal, **Wyoming, Nou Mèxic, Florida, Texas i Dakota del Sud** no tenen impost sobre la renda corporativa estatal, cosa que afegeix **0 % estatal** quan no hi ha nexus.
 
-L'obligació pràctica que sí queda: anual **Form 5472 + Form 1120 pro-forma** (Treas. Reg. §1.6038A-1, en vigor des del 2017) per a SMLLC propietat d'un no resident amb qualsevol *reportable transaction* amb el seu únic membre. Sanció base: **25.000 USD per formulari i any** (IRC §6038A(d)) més **25.000 USD per cada 30 dies addicionals** després de la notificació de l'IRS.
+L'obligació pràctica que sí queda: anual **Form 5472 + Form 1120 pro-forma** (Treas. Reg. §1.6038A-1, en vigor des del 2017) per a SMLLC propietat d'un no resident amb qualsevol *reportable transaction* amb el seu únic membre. Sanció base: **25.000 USD per formulari i any** (IRC §6038A(d)) més **25.000 USD per cada 30 dies addicionals** després de la notificació de l'IRS. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 ## Corporation: per defecte C-Corporation
 
@@ -124,15 +124,14 @@ El que veiem cada setmana en els casos que ens arriben és el mateix patró: el 
 Si vols passar del dubte al pla, agenda 30 minuts amb Exentax i sortim de la trucada amb els números tancats i el calendari operatiu.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
   ## El que una LLC NO fa
 

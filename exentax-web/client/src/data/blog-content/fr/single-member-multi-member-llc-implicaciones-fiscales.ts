@@ -29,7 +29,7 @@ Raisons faibles: "ça fait pro", "diluer la fiscalité", "intégrer le conjoint 
 
 ### Aux US
 - **Form 1065** annuel, deadline 15 mars (extension possible 15 septembre).
-- **K-1 à chaque membre** à la même date; livraison tardive: pénalités spécifiques.
+- **K-1 à chaque membre** à la même date; livraison tardive: pénalités spécifiques. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 - **Form 8804/8805** si membre étranger; partnership doit retenir sur ECI au taux le plus élevé.
 - **Pénalité 1065 non déposé**: actuellement ~245 USD par mois et par membre.
 
@@ -80,7 +80,7 @@ Chez Exentax nous accompagnons les transformations single → multi régulièrem
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 - **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
@@ -103,7 +103,7 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
+- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
 ## Faits bancaires et fiscaux à préciser
@@ -113,15 +113,13 @@ Notre position ici est délibérément prudente: nous optimisons pour ce qui ré
 
 Lisez cette section comme une checklist exigeante: chaque point signale un mode de défaillance que nous avons constaté sur des dossiers LLC transfrontaliers. N'en sautez aucun - la plupart des redressements et clôtures de comptes que nous récupérons remontent à l'un de ces éléments.
 
-
-
 ## Exemple concret : un passage à multi-member bien orchestré
 
 Anna gère depuis dix-huit mois une LLC du Wyoming en single-member, depuis Madrid. Elle décide d'intégrer un associé technique à 30 %, résident en France. Le passage se planifie sur six semaines, pas trois jours.
 
 **Semaines 1-2 — décision et chiffrage.** Modélisation conjointe avec son conseiller espagnol et notre équipe : la LLC arrête d'être *disregarded entity* dès que le second associé entre, et bascule en *partnership* fiscale aux US (formulaires 1065 et K-1 par associé). Côté Espagne, les revenus continuent d'apparaître au Modelo 100 selon le pourcentage détenu.
 
-**Semaines 3-4 — papier juridique.** Nouvel Operating Agreement détaillant capital, droits de vote, distributions, clauses de sortie et règles de blocage. Ce document est le bouclier le jour où une décision difficile survient ; il doit être rédigé avec soin, pas avec un modèle gratuit.
+**Semaines 3-4 — papier juridique.** Nouvel Operating Agreement détaillant capital, droits de vote, distributions, clauses de sortie et règles de blocage. Ce document est le bouclier le jour où une décision difficile survient ; il doit être rédigé avec soin, pas avec un modèle gratuit. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 
 **Semaines 5-6 — exécution.** Acceptation formelle du nouveau membre, mise à jour BOI dans la fenêtre de 30 jours, dépôt du Form 8832 si nécessaire, communication à Mercury et à Wise pour mettre à jour le KYC, demande d'EIN d'un éventuel partnership separate ou maintien selon le scénario, mise en place d'une comptabilité dual-member dès le J+1.
 
@@ -135,13 +133,11 @@ Anna gère depuis dix-huit mois une LLC du Wyoming en single-member, depuis Madr
 
 Si l'un de ces signaux apparaît dans votre cas, une consultation gratuite avec notre équipe avant le saut épargne souvent six mois de réparation après coup.
 
-
-
 ### Trois ajustements quotidiens à anticiper après le passage
 
 Une fois la transition signée et déposée, la vie de la LLC change par petites touches plutôt que par grandes ruptures. Trois ajustements méritent d'être préparés à l'avance pour ne pas grever le quotidien.
 
-D'abord, les distributions deviennent un sujet trimestriel et plus seulement annuel : décider qui touche combien et quand exige une trace écrite courte mais régulière, validée par les deux associés. Ensuite, la comptabilité passe à un plan de comptes dual-member où chaque dépense porte sa quote-part ; nous fournissons un modèle Mercury-Wise prêt à l'emploi à nos mandants. Enfin, les communications externes — Stripe, fournisseurs, clients grands comptes — gagnent à intégrer les deux signataires officiels dans l'Operating Agreement, ce qui évite les surprises lors des audits KYC annuels.
+D'abord, les distributions deviennent un sujet trimestriel et plus seulement annuel : décider qui touche combien et quand exige une trace écrite courte mais régulière, validée par les deux associés. Ensuite, la comptabilité passe à un plan de comptes dual-member où chaque dépense porte sa quote-part ; nous fournissons un modèle Mercury-Wise prêt à l'emploi à nos mandants. Enfin, les communications externes — Stripe, fournisseurs, clients grands comptes — gagnent à intégrer les deux signataires officiels dans l'Operating Agreement, ce qui évite les surprises lors des audits KYC annuels. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 
 <!-- exentax:execution-v2 -->
 ## Single-member vs multi-member LLC: implications fiscales qui changent tout le setup
@@ -194,7 +190,6 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 ### 3. Acceptation formelle du nouveau membre
 
 Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
-
 
 <!-- exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-fr -->
 ## Comment lire le choix LLC single-member vs multi-member comme une propriété structurelle stable plutôt que comme une optimisation fiscale

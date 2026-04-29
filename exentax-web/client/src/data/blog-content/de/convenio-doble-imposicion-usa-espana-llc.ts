@@ -139,7 +139,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 ### Nach Rechtsordnung
 
 - **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
-- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 - **DBA Spanien–USA.** Das Abkommen (BOE 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
@@ -176,10 +176,10 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 ## Zusammenfassung
 
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
+Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 ## Steuerliche Compliance in Ihrem Land: CFC, TFI und Einkünftezurechnung
 
@@ -195,12 +195,10 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
 
 ## Sprechen wir über Ihre Struktur
 
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
+Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 ## Wie es bei Disregarded-Entity-LLCs funktioniert
 
 Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Struktur verliert Steuern, Bankzugang oder Compliance. Die folgenden Hinweise spiegeln wider, was wir mit Mandanten in genau diesem Fall tatsächlich tun, mit Priorität auf den Variablen, die das Ergebnis bewegen.
-
-
 
 ## Artikel 7 (Unternehmensgewinne) in klarer Sprache
 
@@ -222,11 +220,9 @@ Das passiert häufiger, als man denkt, und fast immer nach Abgabe des Modelo 100
 
 Unser Team koordiniert diese Akte mit Ihrer spanischen Beraterin und hält sie ständig griffbereit. Eine organisierte, vollständige Antwort an die AEAT in zwei Wochen ist mehr wert als eine improvisierte Antwort in zwei Monaten; das ist unser Standard für jede Mandantin, die wir jahresweise begleiten.
 
-
-
 ### Der jährliche Reflex, den wir mit jeder Mandantin einrichten
 
-Sobald das spanische Steuerjahr abgeschlossen ist, datieren und archivieren wir drei Stücke: das eingereichte Modelo 100, die aktualisierte DBA-Anwendungsnotiz und das Inventar der Mercury-Wise-Auszüge der vergangenen zwölf Monate. Dieses Trio entsteht in weniger als einer Stunde und spart Wochen, falls die AEAT zwei Jahre später eine Prüfung eröffnet.
+Sobald das spanische Steuerjahr abgeschlossen ist, datieren und archivieren wir drei Stücke: das eingereichte Modelo 100, die aktualisierte DBA-Anwendungsnotiz und das Inventar der Mercury-Wise-Auszüge der vergangenen zwölf Monate. Dieses Trio entsteht in weniger als einer Stunde und spart Wochen, falls die AEAT zwei Jahre später eine Prüfung eröffnet. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 ### Drei Sonderfälle aus der DACH-Praxis
 
@@ -236,13 +232,9 @@ Sobald das spanische Steuerjahr abgeschlossen ist, datieren und archivieren wir 
 
 **Sonderfall 3 — Wechsel des Wohnsitzes innerhalb der DACH-Region während des LLC-Lebens.** Ein Umzug Berlin → Wien → Zürich über drei Jahre löst eigene Fragen aus, weil jedes der drei Länder eine andere CFC- und DBA-Logik gegenüber den USA hat. Hier ist die DBA-Notiz nicht statisch, sondern wird nach jedem Umzug aktualisiert und mit der Beraterin im neuen Wohnsitzland abgestimmt. Diesen kleinen Wartungsaufwand vergisst man im Reisestress häufig; er kostet später deutlich mehr als die ursprüngliche Stunde Vorbereitung.
 
-
-
 ### Ein letzter ruhiger Gedanke zum DBA-Reflex
 
 Das Doppelbesteuerungsabkommen USA-Spanien ist ein Werkzeug, kein Ritual. Wer die Anwendungsnotiz einmal sauber aufsetzt, sie jährlich pflegt und Belege geordnet ablegt, verwandelt eine potenziell unangenehme Korrespondenz mit der AEAT in eine zwei-Wochen-Antwort mit Anhängen. Das ist kein Glück, sondern Methode; und sie kostet weniger Zeit, als die meisten denken, sobald die Routine einmal etabliert ist.
-
-
 
 ### Eine letzte Klarstellung zur DBA-Praxis
 
@@ -273,7 +265,7 @@ Bei Exentax mappen wir jeden Fluss Ihrer LLC gegen den anwendbaren DBA-Artikel, 
 
 ## Erforderliche Formulare
 
-Unsere Haltung hier ist bewusst konservativ: wir optimieren für das, was eine Prüfung übersteht, nicht für die aggressivste Schlagzahl. Die folgenden Punkte sind diejenigen, die wir schriftlich verteidigen.
+Unsere Haltung hier ist bewusst konservativ: wir optimieren für das, was eine Prüfung übersteht, nicht für die aggressivste Schlagzahl. Die folgenden Punkte sind diejenigen, die wir schriftlich verteidigen. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 
 ## Der spezifische Fall des in Deutschland und Österreich Steuerpflichtigen mit Bezug zum DBA Spanien-USA
 
@@ -286,7 +278,6 @@ Unsere Haltung hier ist bewusst konservativ: wir optimieren für das, was eine P
   ### Praktische Hinweise für die parallele Anwendung des DBA Deutschland-USA
 
   Die deutsche Verwaltungspraxis behandelt eine US-LLC, die in den USA als *disregarded entity* steuerlich transparent ist, im Rahmen der "Subject-to-Tax-Klausel" des Artikels 1 Absatz 7 DBA D-USA als nicht abkommensberechtigt im eigenen Namen. Stattdessen wird der Schutz des Abkommens dem Alleingesellschafter persönlich gewährt (BFH-Urteil **I R 15/02 vom 20. August 2008**, BStBl. II 2009, 26). Dies hat Folgen für die Quellensteuerermäßigung auf Dividenden, Zinsen und Lizenzen aus US-Quellen: Der deutsche Gesellschafter muss persönlich das Formular W-8BEN einreichen, nicht die LLC.
-
 
 <!-- exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-de -->
 ## Wie das Doppelbesteuerungsabkommen USA–Spanien für eine LLC mit nur einem Mitglied praktisch greift
@@ -307,11 +298,11 @@ In der Praxis tragen drei Artikel die Hauptlast in einem ruhigen Jahr: der Ansä
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
   ## Was eine LLC NICHT tut
 

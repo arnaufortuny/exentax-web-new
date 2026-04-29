@@ -37,14 +37,14 @@ Están obligados a presentar el 720 y/o el 721:
 Tras la primera presentación, **únicamente hay que volver a presentar** si en el bloque concreto se ha producido un **incremento superior a 20.000 €** respecto al saldo declarado en la última presentación, o si has perdido la titularidad o cancelado alguno de los elementos previamente declarados.
 ## La sentencia STJUE C-788/19 y el régimen sancionador actual
 
-El régimen sancionador original del 720 fue uno de los más severos del ordenamiento europeo: 5.000 € por dato omitido (mínimo 10.000 €), imprescriptibilidad de las rentas no declaradas como ganancia patrimonial no justificada (art. 39.2 LIRPF) y sanción del 150% sobre la cuota.
+El régimen sancionador original del 720 fue uno de los más severos del ordenamiento europeo: 5.000 € por dato omitido (mínimo 10.000 €), imprescriptibilidad de las rentas no declaradas como ganancia patrimonial no justificada (art. 39.2 LIRPF) y sanción del 150% sobre la cuota. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
-La **Sentencia del Tribunal de Justicia de la UE de 27 de enero de 2022, asunto C-788/19**, declaró ese régimen contrario al Derecho de la Unión por desproporcionado y por vulnerar la libre circulación de capitales. La Ley 5/2022, de 9 de marzo, eliminó esas sanciones específicas.
+La **Sentencia del Tribunal de Justicia de la UE de 27 de enero de 2022, asunto C-788/19**, declaró ese régimen contrario al Derecho de la Unión por desproporcionado y por vulnerar la libre circulación de capitales. La Ley 5/2022, de 9 de marzo, eliminó esas sanciones específicas. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 
 Esto **no significa** que ya no haya sanciones. Lo que aplica hoy:
 
 - **Sanción ordinaria** del art. 198 LGT por no presentar declaración informativa: 20 € por dato, mínimo 300 €, máximo 20.000 €. Reducida a la mitad si se presenta sin requerimiento previo.
-- **Régimen general de la LGT** para las cuotas defraudadas en IRPF si se descubren rentas no declaradas: art. 191 (sanción del 50 al 150% de la cuota), con plazo general de **prescripción de 4 años**.
+- **Régimen general de la LGT** para las cuotas defraudadas en IRPF si se descubren rentas no declaradas: art. 191 (sanción del 50 al 150% de la cuota), con plazo general de **prescripción de 4 años**. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 - **Vía penal** (art. 305 CP) si la cuota defraudada en un ejercicio supera 120.000 €.
 
 La sentencia europea suavizó el régimen, pero no derogó la obligación informativa. Quien no presenta el 720 sigue cometiendo una infracción tributaria.
@@ -58,7 +58,7 @@ Son cuentas en entidades financieras situadas en el extranjero (Bélgica, Lituan
 
 ### Mercury, Relay, banca americana
 
-Estados Unidos no está adherido a CRS, pero esto **no exime de declarar el 720**. La obligación informativa española es independiente del intercambio internacional: si tienes una cuenta Mercury con saldo o saldo medio Q4 superior a 50.000 € agregados con el resto de cuentas extranjeras, debes declararla. Que la AEAT no se entere por CRS no equivale a que no exista la obligación. Y, si en el futuro se abre una inspección por otro motivo, esa omisión sí aparecerá. Lo analizamos en <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">si las cuentas bancarias en EE.UU. reportan a Hacienda</a> y, para entender por qué CRS 2.0 tampoco cambia esa foto, en <a href="/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc">CRS 2.0 y CARF: por qué USA nunca firmará</a>.
+Estados Unidos no está adherido a CRS, pero esto **no exime de declarar el 720**. La obligación informativa española es independiente del intercambio internacional: si tienes una cuenta Mercury con saldo o saldo medio Q4 superior a 50.000 € agregados con el resto de cuentas extranjeras, debes declararla. Que la AEAT no se entere por CRS no equivale a que no exista la obligación. Y, si en el futuro se abre una inspección por otro motivo, esa omisión sí aparecerá. Lo analizamos en <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">si las cuentas bancarias en EE.UU. reportan a Hacienda</a> y, para entender por qué CRS 2.0 tampoco cambia esa foto, en <a href="/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc">CRS 2.0 y CARF: por qué USA nunca firmará</a>. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 ### Brokers extranjeros (Interactive Brokers, Tastytrade, etc.)
 
@@ -104,7 +104,7 @@ Nuestro proceso para el 720/721 cuando entra un cliente con LLC + fintech europe
 6. **Integración** con el resto de la planificación: <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional</a>, <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación LLC por actividad</a> y <a href="/es/blog/crs-residentes-espana-latam-implicaciones">CRS para residentes en España</a>.
 ### En resumen
 
-El Modelo 720 y el Modelo 721 son obligaciones informativas, no impuestos. No te cuestan dinero por sí mismos, pero su omisión sí: sanción del 198 LGT, regularización de cuotas con recargos del 191 y, en saldo no justificado, la palanca clásica del art. 39 LIRPF (atemperada por la STJUE pero no eliminada). El cruce con CRS y, recientemente, con DAC8, hace que la huella sea cada vez más visible para la AEAT.
+El Modelo 720 y el Modelo 721 son obligaciones informativas, no impuestos. No te cuestan dinero por sí mismos, pero su omisión sí: sanción del 198 LGT, regularización de cuotas con recargos del 191 y, en saldo no justificado, la palanca clásica del art. 39 LIRPF (atemperada por la STJUE pero no eliminada). El cruce con CRS y, recientemente, con DAC8, hace que la huella sea cada vez más visible para la AEAT. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
 Si tienes cuentas Wise, Mercury, Revolut, brokers extranjeros o cripto fuera de España y no estás 100% seguro de tu posición frente al 720/721, lo revisamos contigo y dejamos tu situación limpia antes de la siguiente campaña.
 ## Compliance fiscal en tu país: CFC, TFI y atribución de rentas
@@ -114,7 +114,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 ### Por jurisdicción
 
 - **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
-- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
+- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 - **CDI España–EE. UU.** El convenio (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
 
@@ -169,12 +169,14 @@ Este contenido es divulgativo y no sustituye al asesoramiento personalizado para
 <!-- exentax:execution-v2 -->
 ## Modelos 720 y 721: las dos declaraciones que más sanciones generan a residentes en España
 
+Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
+
 Los modelos 720 (bienes en el extranjero) y 721 (criptomonedas en el extranjero) son las dos declaraciones informativas que más expedientes sancionadores abren a residentes españoles con estructura internacional. No generan impuesto, pero su omisión o presentación incorrecta puede activar sanciones formales relevantes. Esto es lo que tienes que tener resuelto.
 
 - **Modelo 720: qué se declara.** Cuentas bancarias en el extranjero, valores y participaciones en entidades extranjeras, e inmuebles en el extranjero, cuando el saldo agregado en cada bloque supere 50.000 EUR a 31 de diciembre o sea el más alto del año. Una vez declarado un bloque, en años siguientes solo se vuelve a presentar si el saldo aumenta más de 20.000 EUR respecto al último declarado.
 - **Modelo 721: criptomonedas.** Específico para saldos de criptomonedas custodiadas por exchanges o plataformas extranjeras (Binance, Coinbase, Kraken, etc.). Umbral: 50.000 EUR a 31 de diciembre o saldo más alto del año. Plazo de presentación: enero-marzo del año siguiente. Aplica también a wallets gestionadas por proveedores extranjeros.
 - **Régimen sancionador actual.** Tras la sentencia del TJUE de enero 2022 (caso C-788/19) y la reforma posterior, el régimen sancionador específico antiguo del 720 fue declarado contrario al derecho UE. Las sanciones actuales son las del régimen general de Hacienda (LGT): formales por presentación tardía o incompleta, y sustanciales si se detecta ocultación deliberada con cuota tributaria asociada.
-- **Lo que conviene saber.** Una LLC americana cuyo socio sea residente español obliga a declarar la participación (modelo 720, bloque "valores y participaciones") cuando supera el umbral. Las cuentas bancarias de la LLC (Mercury, Wise) no se declaran como propias del residente, pero pueden ser pedidas por Hacienda en una inspección como información complementaria.
+- **Lo que conviene saber.** Una LLC americana cuyo socio sea residente español obliga a declarar la participación (modelo 720, bloque "valores y participaciones") cuando supera el umbral. Las cuentas bancarias de la LLC (Mercury, Wise) no se declaran como propias del residente, pero pueden ser pedidas por Hacienda en una inspección como información complementaria. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 ### Lo que más nos preguntan
 
@@ -210,6 +212,8 @@ Caso de un freelancer residente en Madrid con: Wise EUR balance 18.400 €, Merc
 
 ### Errores que más sanciones generan
 
+Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
+
 1. Olvidar las cuentas Wise Business y Mercury de la LLC cuando el dueño es titular real.
 2. No volver a declarar tras un incremento superior a 20.000 € respecto al último 720 presentado.
 3. Confundir el saldo medio del último trimestre con el promedio anual.
@@ -219,15 +223,14 @@ Caso de un freelancer residente en Madrid con: Wise EUR balance 18.400 €, Merc
 
 Para profundizar en el reporting bancario que precede al 720 conviene leer <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">qué reporta de verdad cada banco USA a Hacienda</a>, y si tu objetivo es minimizar la carga global, el camino lo tienes en <a href="/es/blog/caminos-legales-minimos-impuestos">los caminos legales para pagar el mínimo de impuestos</a>. Si prefieres delegar la presentación, <a href="/es/agendar">agenda una sesión con el equipo Exentax</a> y la dejamos hecha en una semana.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 
   ## Lo que NO hace una LLC
 

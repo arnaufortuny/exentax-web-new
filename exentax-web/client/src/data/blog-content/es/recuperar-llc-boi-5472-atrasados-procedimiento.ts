@@ -1,14 +1,14 @@
 export default `
 
-Si tienes una LLC con BOI Report sin presentar o con Forms 5472 atrasados, este artículo es para ti. La situación es más común de lo que parece y, casi siempre, mucho más recuperable de lo que sugiere la primera lectura de las sanciones nominales.
+Si tienes una LLC con BOI Report sin presentar o con Forms 5472 atrasados, este artículo es para ti. La situación es más común de lo que parece y, casi siempre, mucho más recuperable de lo que sugiere la primera lectura de las sanciones nominales. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 La regla de oro: **regularizar voluntariamente sale más barato y suele cerrarse mejor que esperar a que el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> o el <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> se den cuenta**. La diferencia, en algunos casos, son cinco cifras.
 
 ## El miedo y la realidad
 
-Las sanciones nominales asustan. Form 5472 no presentado: 25.000 USD por formulario y año. BOI Report no presentado: hasta 591 USD por día. Sumas teóricas que llegan a seis cifras en pocos años.
+Las sanciones nominales asustan. Form 5472 no presentado: 25.000 USD por formulario y año. BOI Report no presentado: hasta 591 USD por día. Sumas teóricas que llegan a seis cifras en pocos años. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
-La realidad operativa es algo distinta. El IRS aplica esas sanciones de forma íntegra cuando detecta el incumplimiento por su cuenta y, además, no recibe colaboración del contribuyente. Cuando el contribuyente se presenta voluntariamente con un planteamiento serio (delinquent submission, reasonable cause, asesoría profesional), el desenlace típico es bastante más manejable.
+La realidad operativa es algo distinta. El IRS aplica esas sanciones de forma íntegra cuando detecta el incumplimiento por su cuenta y, además, no recibe colaboración del contribuyente. Cuando el contribuyente se presenta voluntariamente con un planteamiento serio (delinquent submission, reasonable cause, asesoría profesional), el desenlace típico es bastante más manejable. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 Eso no significa que sea gratis. Significa que la diferencia entre actuar hoy y esperar a que llegue la carta es enorme.
 ### Diagnóstico: qué tienes pendiente exactamente
@@ -26,7 +26,7 @@ Sin este diagnóstico claro, cualquier acción posterior es ruido.
 
 Hay dos vías principales:
 
-**1. Delinquent International Information Return Submission Procedure**: vía oficial del IRS para presentar formularios informativos atrasados (5472 entre ellos) acompañados de una **reasonable cause statement** que explique por qué no se presentaron a tiempo. Si el IRS acepta la reasonable cause, las sanciones se anulan o reducen sustancialmente.
+**1. Delinquent International Information Return Submission Procedure**: vía oficial del IRS para presentar formularios informativos atrasados (5472 entre ellos) acompañados de una **reasonable cause statement** que explique por qué no se presentaron a tiempo. Si el IRS acepta la reasonable cause, las sanciones se anulan o reducen sustancialmente. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
 **2. Streamlined Filing Compliance Procedures**: aplicable en casos específicos donde la omisión fue **non-willful** (no intencional). Más estructurado, requiere una declaración firmada bajo perjurio explicando la causa.
 
@@ -34,9 +34,9 @@ La elección entre uno y otro depende del perfil concreto. Para la mayoría de S
 
 ### Para el BOI Report atrasado
 
-El procedimiento es más sencillo: **presentarlo ahora**. FinCEN no tiene un programa formal de "regularización" porque el sistema es relativamente nuevo. Presentarlo tarde activa la posibilidad de sanción, pero presentarlo voluntariamente antes de que FinCEN inicie cualquier acción es la única vía razonable.
+El procedimiento es más sencillo: **presentarlo ahora**. FinCEN no tiene un programa formal de "regularización" porque el sistema es relativamente nuevo. Presentarlo tarde activa la posibilidad de sanción, pero presentarlo voluntariamente antes de que FinCEN inicie cualquier acción es la única vía razonable. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
-Si el retraso es de pocos meses, en la práctica las sanciones aplicadas en estos primeros años de implementación están siendo modestas o nulas siempre que haya presentación voluntaria. Conforme se consolide el sistema, esto irá cambiando.
+Si el retraso es de pocos meses, en la práctica las sanciones aplicadas en estos primeros años de implementación están siendo modestas o nulas siempre que haya presentación voluntaria. Conforme se consolide el sistema, esto irá cambiando. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 ### Para el Annual Report estatal
 
@@ -65,7 +65,7 @@ El IRS responde a estos paquetes en plazos variables: típicamente 4-9 meses. La
 
 - **Aceptación silenciosa**: simplemente no aplica sanción y archiva el expediente. Es el resultado más frecuente cuando la presentación es ordenada y la cause es razonable.
 - **Carta CP15 con sanción reducida**: el IRS aplica una fracción de la sanción nominal. Cabe respuesta y, en muchos casos, se reduce o elimina por completo.
-- **Sanción íntegra**: poco frecuente cuando la presentación fue voluntaria con cause sólida; más frecuente si la presentación se hizo después de que el IRS contactara primero.
+- **Sanción íntegra**: poco frecuente cuando la presentación fue voluntaria con cause sólida; más frecuente si la presentación se hizo después de que el IRS contactara primero. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 FinCEN, por su parte, suele responder con confirmación de recepción del BOI sin más, sin sanción cuando el retraso fue corto y la presentación voluntaria.
 ### Lo que NO debes hacer
@@ -106,7 +106,7 @@ Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculador
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 
 ## Hablemos de tu estructura
 
@@ -156,15 +156,14 @@ Si tu LLC tiene años pendientes y quieres saber qué vía corresponde, lanza la
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
   ## Lo que NO hace una LLC
 

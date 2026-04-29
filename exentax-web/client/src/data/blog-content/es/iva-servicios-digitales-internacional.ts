@@ -1,6 +1,6 @@
 export default `
 
-El IVA en operaciones internacionales es uno de los temas que más confunde a freelancers y asesores españoles. ¿Cobras IVA a un cliente en Alemania? ¿Y a uno en Estados Unidos? ¿Y si el cliente es un particular y no una empresa? ¿Qué cambia si facturas desde tu autónomo o desde una LLC americana? Las reglas son distintas en cada caso y un error puede costar caro en una inspección de la AEAT.
+El IVA en operaciones internacionales es uno de los temas que más confunde a freelancers y asesores españoles. ¿Cobras IVA a un cliente en Alemania? ¿Y a uno en Estados Unidos? ¿Y si el cliente es un particular y no una empresa? ¿Qué cambia si facturas desde tu autónomo o desde una LLC americana? Las reglas son distintas en cada caso y un error puede costar caro en una inspección de la AEAT. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
 En este artículo desglosamos las reglas de localización del IVA para servicios digitales según la Ley 37/1992 (LIVA) y la Directiva 2006/112/CE, los modelos formales que tienes que presentar, los escenarios reales más habituales y cómo una LLC bien declarada simplifica gran parte de esta complejidad sin saltarse ninguna norma.
 
@@ -91,7 +91,7 @@ Para B2C global pequeño y mediano, DoDo o Paddle suelen ser la opción menos in
 ## Errores frecuentes con el IVA internacional
 
 1. **Cobrar IVA español a una empresa de la UE con VAT ID válido.** Si tiene VAT ID válido en VIES, no debes cobrar IVA. Verifícalo siempre antes de facturar.
-2. **No verificar el VAT ID del cliente.** Si cobras sin IVA a una empresa intracomunitaria sin verificar su VAT ID, la AEAT puede reclamarte el IVA no cobrado más recargo. Suena absurdo, pero pasa.
+2. **No verificar el VAT ID del cliente.** Si cobras sin IVA a una empresa intracomunitaria sin verificar su VAT ID, la AEAT puede reclamarte el IVA no cobrado más recargo. Suena absurdo, pero pasa. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 3. **Ignorar el sistema OSS.** Si vendes B2C en la UE y superas 10.000 €, estás obligado a usar OSS o registrarte en cada país. Con la LLC y un Merchant of Record, este problema desaparece.
 4. **No declarar operaciones no sujetas en el Modelo 303.** Aunque no cobres IVA, debes declarar la base imponible en las casillas 59 y 60 según corresponda.
 5. **Confundir B2B con B2C.** Las reglas son completamente distintas. Venderle a un particular en Francia no es lo mismo que venderle a una SAS francesa.
@@ -147,15 +147,14 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
   ## Lo que NO hace una LLC
 

@@ -80,16 +80,16 @@ Más detalle en <a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gast
 4. **Modelo 100/130/131.** Si calificas como actividad económica, necesitas régimen de pagos fraccionados como cualquier autónomo (módulos no aplica).
 ### Riesgo de regularización si llevabas años "como dividendos"
 
-Si llevas años declarando los flujos de tu LLC como dividendos en base ahorro (19-28%) y la AEAT los recalifica como actividad económica imputada (base general 24-47%), la diferencia puede ser muy relevante. Periodo de prescripción: **4 años**. Sanciones: art. 191-195 LGT.
+Si llevas años declarando los flujos de tu LLC como dividendos en base ahorro (19-28%) y la AEAT los recalifica como actividad económica imputada (base general 24-47%), la diferencia puede ser muy relevante. Periodo de prescripción: **4 años**. Sanciones: art. 191-195 LGT. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
-Lo que vemos: regularizaciones por el periodo no prescrito + intereses + sanción mínima del 50% (puede subir).
+Lo que vemos: regularizaciones por el periodo no prescrito + intereses + sanción mínima del 50% (puede subir). Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 ### Cómo planificar correctamente
 
 1. **Definir la calificación con criterio.** Caso típico de servicios profesionales con Single-Member LLC: actividad económica imputada por atribución de rentas.
 2. **Diseñar la estructura para que tribute eficientemente.** Decisiones: aportaciones de capital, gastos asignados, retribución del socio, otras estructuras posibles (S.L. española + LLC operativa, etc.). Ver <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
 3. **Considerar tu actividad concreta.** Distinto régimen práctico para servicios, e-commerce, royalties, trading. Lo desarrollamos en <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación de la LLC según tu actividad económica</a>.
 4. **Mantener documentación robusta.** Es lo que diferencia una estructura defendible de una vulnerable.
-5. **Evitar la simulación.** Si la LLC carece de sustancia y los servicios los presta materialmente la persona física residente, la AEAT puede aplicar simulación (LGT art. 16), que conlleva mayor sanción y posible derivación penal según importes.
+5. **Evitar la simulación.** Si la LLC carece de sustancia y los servicios los presta materialmente la persona física residente, la AEAT puede aplicar simulación (LGT art. 16), que conlleva mayor sanción y posible derivación penal según importes. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 ### En resumen
 
 La doctrina administrativa española sobre la LLC americana es muy específica: en el caso típico de Single-Member LLC, el rendimiento se imputa al socio residente español como actividad económica en base general. Esto requiere planificación seria, no improvisación. La buena noticia: bien diseñada, una LLC sigue siendo una herramienta excelente para internacionalizar tu negocio y optimizar legalmente tu carga fiscal global.
@@ -151,7 +151,7 @@ La doctrina española sobre LLCs no se entiende leyendo una sola consulta vincul
 - **CV0024-19, CV1631-21 y posteriores.** Confirman que una SMLLC se trata como entidad en atribución de rentas para el socio residente en España, salvo elección a C-Corp formalizada y tributación efectiva en EE. UU. Esto evita la doble imposición pero exige imputar el beneficio íntegro en el ejercicio en que se devenga, no cuando se distribuye.
 - **Calificación de la renta.** Si la LLC presta servicios profesionales, los rendimientos se imputan en el IRPF como actividad económica del socio (epígrafe IAE coherente). Si la LLC se limita a tener inversiones pasivas, la calificación correcta es rendimiento del capital mobiliario y los pagos a no residentes quedan sujetos a sus reglas propias.
 - **Convenio EE. UU.-España.** El convenio (BOE de 23 de octubre de 2019, Protocolo en vigor desde 2019) permite acreditar el impuesto soportado en EE. UU. - federal y estatal - contra la cuota española. Para una SMLLC sin C-Corp election, la cuota federal es típicamente cero, lo que reduce el crédito a casi nulo pero también elimina la doble imposición real.
-- **Modelo 720 y Modelo 721.** Si la LLC tiene cuentas con saldo combinado superior a 50.000 €, hay obligación de declararlas, con multa proporcional limitada por la STJUE C-788/19. Las participaciones en la LLC también pueden entrar en el ámbito del 720 si se configuran como derechos sobre entidad extranjera.
+- **Modelo 720 y Modelo 721.** Si la LLC tiene cuentas con saldo combinado superior a 50.000 €, hay obligación de declararlas, con multa proporcional limitada por la STJUE C-788/19. Las participaciones en la LLC también pueden entrar en el ámbito del 720 si se configuran como derechos sobre entidad extranjera. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 ### Lo que más nos preguntan
 
@@ -168,15 +168,14 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
   ## Lo que NO hace una LLC
 

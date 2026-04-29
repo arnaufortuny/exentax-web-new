@@ -29,7 +29,6 @@ Practical summary: low one-off income (under 3,000 euros total per year) and non
 
 Habituality criteria are consolidated in <a href="https://www.poderjudicial.es/">Supreme Court</a> rulings and in the doctrine of Spain's <a href="https://www.seg-social.es/">Social Security Treasury</a>. Before operating without RETA, model your situation with serious advisory; false shortcuts end up costly.
 
-
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
 
 <!-- exentax:execution-v2 -->
@@ -49,7 +48,6 @@ What we see every week in the files that reach us is the same pattern: the quest
 
 If you want to move from doubt to plan, book 30 minutes with Exentax and we walk out of the call with the numbers closed and an operational calendar.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
@@ -87,7 +85,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### What "sporadic income" actually means in practice
 
-The often-quoted exemption from the autónomo regime for sporadic and low-value income comes from interpretation of jurisprudence rather than a clear bright-line rule. In practice, the AEAT and the Social Security treat as truly sporadic only income that is one-off, low in absolute terms (well below the annual minimum wage) and unrelated to a recurring activity. Three invoices issued to the same client over six months will not look sporadic to a labour inspector even if the absolute amount is small; on the other hand, a single workshop fee paid once a year clearly fits the definition. The grey zone in the middle is where most freelancers get into trouble: invoicing through someone else's company, declaring as "occasional services" what is actually a recurring contract, or simply skipping registration hoping that small amounts will go unnoticed. None of these shortcuts holds up well, and the cost of an inspection (back-payment of contributions plus penalty) far exceeds the saving of a few months without quota.
+The often-quoted exemption from the autónomo regime for sporadic and low-value income comes from interpretation of jurisprudence rather than a clear bright-line rule. In practice, the AEAT and the Social Security treat as truly sporadic only income that is one-off, low in absolute terms (well below the annual minimum wage) and unrelated to a recurring activity. Three invoices issued to the same client over six months will not look sporadic to a labour inspector even if the absolute amount is small; on the other hand, a single workshop fee paid once a year clearly fits the definition. The grey zone in the middle is where most freelancers get into trouble: invoicing through someone else's company, declaring as "occasional services" what is actually a recurring contract, or simply skipping registration hoping that small amounts will go unnoticed. None of these shortcuts holds up well, and the cost of an inspection (back-payment of contributions plus penalty) far exceeds the saving of a few months without quota. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 ### A clean comparison between the four real alternatives
 
@@ -121,7 +119,6 @@ Before going further, put numbers on your case: the <a href="/en#calculadora">Ex
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### A first-month decision protocol when leaving the autónomo regime

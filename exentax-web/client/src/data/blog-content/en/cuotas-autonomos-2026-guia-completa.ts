@@ -88,11 +88,11 @@ Practical example: you declared an expected income of €30,000 (€2,500/month,
 
 ## Corporate autónomos: when registration is mandatory
 
-If you are a director of an SL and also hold over 25% of the share capital and actually exercise management duties, you are required to register on the RETA as a corporate autónomo. The minimum quota starts from around €380/month in 2026, higher than the ordinary autónomo. The exception is a director performing purely corporate duties without material ownership or real management; they may stay outside the RETA, although the Inspection's reading is restrictive and the real split of duties should be carefully documented.
+If you are a director of an SL and also hold over 25% of the share capital and actually exercise management duties, you are required to register on the RETA as a corporate autónomo. The minimum quota starts from around €380/month in 2026, higher than the ordinary autónomo. The exception is a director performing purely corporate duties without material ownership or real management; they may stay outside the RETA, although the Inspection's reading is restrictive and the real split of duties should be carefully documented. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ## When it makes sense to stop paying the RETA
 
-Not for everyone. The RETA is mandatory if you carry out a regular, personal economic activity in Spain, and deregistering without an orderly alternative is the fastest way to end up in trouble with the Inspection. Stopping RETA payments makes sense when: you restructure your activity into a foreign entity with real substance (LLC, Lithuanian or Estonian limited, etc.), move your tax residency outside Spain, become a full-time employee with no self-employed activity or genuinely cease activity. In any other case, the apparent saving from not contributing turns into penalties and back-dated quotas the moment Inspection cross-checks data.
+Not for everyone. The RETA is mandatory if you carry out a regular, personal economic activity in Spain, and deregistering without an orderly alternative is the fastest way to end up in trouble with the Inspection. Stopping RETA payments makes sense when: you restructure your activity into a foreign entity with real substance (LLC, Lithuanian or Estonian limited, etc.), move your tax residency outside Spain, become a full-time employee with no self-employed activity or genuinely cease activity. In any other case, the apparent saving from not contributing turns into penalties and back-dated quotas the moment Inspection cross-checks data. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 ## Official references and next steps
 
@@ -113,7 +113,6 @@ If you want to move from calculation to plan, book 30 minutes with Exentax and w
 _More on this topic: [the autónomo quota by income tiers](/en/blog/spain-self-employed-quota-2026-tiers-explained), [the updated 2026 IRPF brackets](/en/blog/spain-2026-irpf-tax-brackets-explained), [the US LLC as an alternative to the autónomo](/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain), [deductible expenses for autónomos](/en/blog/deductible-expenses-self-employed-spain-2026), [setting up an SL in Spain: costs and advantages](/en/blog/spanish-limited-company-sl-costs-advantages-guide)._
 
 <!-- related-inline-stripped-2026-04 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

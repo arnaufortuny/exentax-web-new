@@ -8,7 +8,7 @@ Três sinais:
 
 1. **Várias divisas** (USD, EUR, GBP) e custos de conversão nada triviais.
 2. **Vários processadores** (Stripe, PayPal, Wise, Amazon, Shopify) e reconciliação dolorosa.
-3. **Bloqueio temporário** na conta principal sem backup operativo.
+3. **Bloqueio temporário** na conta principal sem backup operativo. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 ### Três actores de referência
 
 ### Mercury
@@ -183,7 +183,7 @@ Se a sua arquitetura actual já não aguenta, abra a <strong>calculadora Exentax
 
   **No Brasil**, qualquer modificação relevante de contas no exterior obriga a atualização da **Declaração de Capitais Brasileiros no Exterior (CBE)** quando o saldo agregado supera USD 1 000 000 a 31 de dezembro, conforme **Resolução BCB n.º 281/2022**.
 
-  A documentação contabilística associada à reorganização deve ser mantida durante dez anos por força do artigo 123.º do CIRC e do artigo 126.º do CIVA, com possibilidade de inspeção pela AT no âmbito do RCPITA aprovado pelo DL 413/98.
+  A documentação contabilística associada à reorganização deve ser mantida durante dez anos por força do artigo 123.º do CIRC e do artigo 126.º do CIVA, com possibilidade de inspeção pela AT no âmbito do RCPITA aprovado pelo DL 413/98. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
 <!-- exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
 ## Quando a arquitetura é o estrangulamento, não o banco
@@ -236,7 +236,7 @@ receita e a reserva, Relay com as sub-contas de despesa. A pergunta
 - Saída de "o cartão Wise é o cartão da empresa". Cliente usava o
   cartão Wise como cartão principal. Movemos SaaS recorrentes e
   despesas próximas do salário para Mercury (onde a trilha de
-  auditoria é de qualidade bancária) e mantivemos o cartão Wise
+  auditoria é de qualidade bancária) e mantivemos o cartão Wise. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
   estritamente para anúncios pagos.
 
 ## Erros que vemos numa reorganização

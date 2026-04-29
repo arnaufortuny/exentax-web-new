@@ -13,7 +13,7 @@ A fantasia clássica de quem se cansou da sua LLC: *"se não a uso, deixo-a, as 
 - **Annual report fees** estatais (50 a 800 USD consoante o estado).
 - **Franchise tax** no Delaware (300 USD/ano) e Califórnia (800 USD/ano), entre outros.
 - **Registered Agent fees** anuais (50-150 USD/ano).
-- **Form 5472 + 1120 pro forma** perante o IRS se a LLC tiver proprietário estrangeiro único, com a **sanção de 25 000 USD por formulário não apresentado** (Internal Revenue Code §6038A(d)).
+- **Form 5472 + 1120 pro forma** perante o IRS se a LLC tiver proprietário estrangeiro único, com a **sanção de 25 000 USD por formulário não apresentado** (Internal Revenue Code §6038A(d)). É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 - **BOI Report (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>)** se a sua LLC continuar abrangida pela norma em vigor.
 - Eventuais comissões de contas em Mercury, Wise Business, Relay ou Slash.
 
@@ -58,7 +58,7 @@ Antes de tocar no IRS ou no estado, **esvaziar a LLC**:
 - **Cancelar subscrições** (Stripe, PayPal, ferramentas SaaS, domínios facturados à LLC, alojamento).
 - **Pagar dívidas pendentes** (impostos estatais, Registered Agent, facturas, royalties, comissões).
 - **Distribuir os activos restantes ao membro** (transferir o cash residual da conta da LLC para a conta pessoal). Numa single-member tributada como disregarded entity, isto não é evento fiscal para o IRS, **mas tem de ser documentado** como retirada do membro.
-- **Conservar a contabilidade** (facturas emitidas e recebidas, extractos bancários, comprovativos) durante pelo menos **sete anos**. Horizonte razoável para auditorias, juros e eventuais pedidos.
+- **Conservar a contabilidade** (facturas emitidas e recebidas, extractos bancários, comprovativos) durante pelo menos **sete anos**. Horizonte razoável para auditorias, juros e eventuais pedidos. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
 Com a LLC vazia e sem contratos vivos, passamos ao encerramento bancário.
 ### 3. Encerrar contas bancárias e gateways de pagamento
@@ -85,7 +85,7 @@ O encerramento bancário é o ponto mais sujeito a erros. Regra prática:
 
 Data-chave: apresentar as declarações finais **antes** de pedir o encerramento do EIN. Caso contrário, o IRS não fecha o EIN e pode gerar notice de non-filer no ano seguinte.
 
-Se arrasta anos com a LLC e acumulou atrasos no 5472, **regularize antes de encerrar**, não use o encerramento para tapar. Detalhe no <a href="/pt/blog/o-que-acontece-se-nao-apresentar-o-form-5472-multas-irs-e">guia de sanções do Form 5472</a>. Encerrar uma LLC com 5472 pendentes não extingue as sanções vencidas; apenas as congela e o IRS mantém-nas contra si como pessoa singular associada ao EIN.
+Se arrasta anos com a LLC e acumulou atrasos no 5472, **regularize antes de encerrar**, não use o encerramento para tapar. Detalhe no <a href="/pt/blog/o-que-acontece-se-nao-apresentar-o-form-5472-multas-irs-e">guia de sanções do Form 5472</a>. Encerrar uma LLC com 5472 pendentes não extingue as sanções vencidas; apenas as congela e o IRS mantém-nas contra si como pessoa singular associada ao EIN. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 ### 5. Dissolução estatal: Articles of Dissolution ou Certificate of Cancellation
 
 Com cash distribuído, contas encerradas e declarações finais apresentadas, segue-se o **encerramento estatal**. O nome do documento depende do estado:
@@ -135,11 +135,11 @@ Se quer encerrar a sua LLC com segurança, peça uma consulta gratuita: revemos 
 
 Muitos clientes subestimam o tempo necessário para encerrar uma LLC bem feita. Da decisão interna até à dissolução efectiva no estado passam, conforme estado e banco, entre oito e dezasseis semanas. O Wyoming confirma a dissolução em duas a três semanas após cancelar Annual Report e Registered Agent. Delaware é mais lento porque a franchise tax acumula até ao próprio dia da dissolução e a Division of Corporations só emite o Certificate of Cancellation depois de quitar todos os montantes pendentes. Novo México e Florida ficam no meio.
 
-Nas declarações ao IRS o timing é decisivo: o **Final 1120 + 5472** apresenta-se no ano fiscal em que a LLC teve a sua última actividade. Não o adie para o ano seguinte na esperança de poupar, surgem multas automáticas por não apresentação. Se a distribuição ao sócio estrangeiro ocorrer num ano fiscal diferente do da dissolução, são necessários dois 5472 finais: um pela distribuição e outro como relatório formal de encerramento.
+Nas declarações ao IRS o timing é decisivo: o **Final 1120 + 5472** apresenta-se no ano fiscal em que a LLC teve a sua última actividade. Não o adie para o ano seguinte na esperança de poupar, surgem multas automáticas por não apresentação. Se a distribuição ao sócio estrangeiro ocorrer num ano fiscal diferente do da dissolução, são necessários dois 5472 finais: um pela distribuição e outro como relatório formal de encerramento. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 Os custos principais de um encerramento são: franchise tax pendente e taxas de dissolução estatal (entre 50 e 250 USD conforme estado), declaração final 1120 + 5472 (se a delegar num especialista, entre 600 e 1.200 USD aproximadamente), actualização do BOI Report quando aplicável, e a carta de confirmação de encerramento do EIN. No total, encerrar uma LLC activa que esteja em dia ronda os 1.000 a 2.000 USD com acompanhamento profissional incluído. Encerramentos com atrasos custam mais, porque exigem regularização prévia.
 
-A tentação de simplesmente deixar a LLC inactiva sem dissolver é compreensível, mas perigosa. Uma LLC **administrativamente dissolvida** (cancelada à força pelo estado por falta de pagamento) não desaparece para o IRS: o Form 5472 continua devido todos os anos enquanto o EIN estiver activo e existirem ou tenham existido transacções com partes relacionadas estrangeiras, e as multas de 25.000 USD continuam a acumular em segundo plano. Encerrar bem é, por isso, o seguro contra essa acumulação silenciosa.
+A tentação de simplesmente deixar a LLC inactiva sem dissolver é compreensível, mas perigosa. Uma LLC **administrativamente dissolvida** (cancelada à força pelo estado por falta de pagamento) não desaparece para o IRS: o Form 5472 continua devido todos os anos enquanto o EIN estiver activo e existirem ou tenham existido transacções com partes relacionadas estrangeiras, e as multas de 25.000 USD continuam a acumular em segundo plano. Encerrar bem é, por isso, o seguro contra essa acumulação silenciosa. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 
 Encerrar bem uma LLC é um acto de higiene fiscal: arruma o passado e liberta o futuro. Vale a pena fazê-lo na ordem certa e com quem o fez centenas de vezes.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
@@ -211,7 +211,7 @@ Dissolver mal uma LLC custa mais do que constituí-la. Há três planos a fechar
 - **Passo 1 - Decisão documentada.** Acta de dissolução assinada pelos membros, com data clara e motivo. Se a LLC tem Operating Agreement, seguir o procedimento; senão, aplica-se a lei do estado. Sem acta nada mais fecha em condições.
 - **Passo 2 - Articles of Dissolution ao estado.** Wyoming: 50 USD; New Mexico: 25 USD; Delaware: 200 USD mais franchise tax pendente. A dissolução produz efeito na data aprovada pelo Secretary of State, não antes. A partir daí a LLC entra em wind-up: pode liquidar mas não operar novo negócio.
 - **Passo 3 - Liquidação operacional.** Cobrar facturas pendentes, pagar fornecedores, devolver depósitos, cancelar SaaS, fechar cartões, esvaziar Mercury/Wise dentro do wind-up. Fechar contas bancárias após o último pagamento, não antes - sem conta não há última cobrança.
-- **Passo 4 - Final Form 5472 + 1120 pro forma.** Assinalar "Final Return" em ambos. Sem isto, o IRS continua a esperar 5472 todos os anos com multa de 25.000 USD por omissão. O erro mais caro e mais frequente.
+- **Passo 4 - Final Form 5472 + 1120 pro forma.** Assinalar "Final Return" em ambos. Sem isto, o IRS continua a esperar 5472 todos os anos com multa de 25.000 USD por omissão. O erro mais caro e mais frequente. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 - **Passo 5 - BOI Final Report.** O FinCEN exige relatório final de BOI à cessação da entidade, dentro de 30 dias após dissolução estadual. Sem isto, possíveis sanções civis.
 - **Passo 6 - Cancelamento de EIN (opcional).** Carta ao IRS a pedir fecho da conta EIN. Não é estritamente obrigatório (EIN persiste mas fica inerte), mas recomendado para limpeza administrativa.
 
@@ -237,7 +237,6 @@ As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
-
 <!-- exentax:cross-refs-v1 -->
 ## Para continuar a leitura
 
@@ -249,11 +248,11 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessã
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. Na Exentax fechámos sem sanção clientes exatamente nesta situação. Falar cedo compensa — e poupa-te cinco dígitos.
 
   ## O que uma LLC NÃO faz
 

@@ -40,16 +40,16 @@ Three possible scenarios:
 - **Filed but data outdated**: file an updated BOI with current data.
 - **Filed and current**: skip to step 3.
 
-The penalty for not filing BOI on time is high (up to 591 USD per day under current rules), but voluntary remediation is generally accepted without penalty when the LLC has not received prior notice.
+The penalty for not filing BOI on time is high (up to 591 USD per day under current rules), but voluntary remediation is generally accepted without penalty when the LLC has not received prior notice. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 ### Step 3. Forms 5472 + 1120 pro-forma backlog
 
-Here is where it gets serious. Each year of missing 5472 + 1120 pro-forma carries a penalty of **25,000 USD per year** under current rules. With three years missing, you are looking at 75,000 USD in theoretical exposure.
+Here is where it gets serious. Each year of missing 5472 + 1120 pro-forma carries a penalty of **25,000 USD per year** under current rules. With three years missing, you are looking at 75,000 USD in theoretical exposure. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 The strategy depends on case profile:
 
 ### Case A. 1-2 years of debt and you have NOT received any <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> notice
 
-File the years missing as **late filings** with attached statement explaining the omission. The IRS has a discretionary practice of waiving or reducing penalties when the omission is voluntarily remediated and the taxpayer has no prior history of non-compliance.
+File the years missing as **late filings** with attached statement explaining the omission. The IRS has a discretionary practice of waiving or reducing penalties when the omission is voluntarily remediated and the taxpayer has no prior history of non-compliance. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
 ### Case B. 3 or more years of debt and you have NOT received any IRS notice
 
@@ -89,7 +89,7 @@ If you are in this situation and want a serious diagnostic before deciding the p
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -116,7 +116,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 ## References: sources on structures and jurisdictions
 
 The comparisons and quantitative data on the jurisdictions cited here rely on official sources updated to today:

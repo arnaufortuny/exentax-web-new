@@ -57,7 +57,7 @@ Le régime juridique est dans la <a href="https://www.boe.es/buscar/act.php?id=B
 |---|---:|
 | Conseil fiscal complet | 2 400-4 800€ |
 | Comptes annuels déposés Registre du commerce | 100-200€ |
-| Audit (si applique limites art. 263 LSC) | 1 500-4 000€ |
+| Audit (si applique limites art. 263 LSC) | 1 500-4 000€ |. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 | Livres officiels légalisés | 50€ |
 | Formulaire 200 IS + retenues | inclus dans conseil |
 | Cotisation autónomo administrateur | 4 200-7 200€ |
@@ -120,7 +120,6 @@ Ce que nous voyons chaque semaine dans les dossiers qui nous arrivent, c'est tou
 
 Si vous voulez passer du doute au plan, réservez 30 minutes avec Exentax et nous sortons de l'appel avec les chiffres verrouillés et un calendrier opérationnel.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

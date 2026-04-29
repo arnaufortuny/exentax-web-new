@@ -198,7 +198,6 @@ At Exentax we prepare the application, the supporting documents and the parallel
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
 
-
 <!-- exentax:lote14-native-v1:bancos-vs-fintech-llc-donde-abrir-cuenta-en -->
 ## When a traditional bank fits better than a fintech
 

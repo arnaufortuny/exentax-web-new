@@ -56,7 +56,7 @@ For an operating digital-services LLC, the most relevant combo is: **0% US withh
 
 To activate the treaty before the US payer, you need to prove that you are a **Spanish tax resident**. The AEAT issues a **tax-residency certificate for treaty purposes** through its electronic office. This certificate is valid for **one year** from issuance and it's wise to keep it always updated, especially if you work with brokers or payers applying complex withholdings.
 
-In most collections via Stripe, PayPal, AdSense or similar they won't actively ask for it because the W-8BEN-E already does the work. But faced with an audit or with a broker like Interactive Brokers or a large corporate client, the certificate is the hard proof of your residency.
+In most collections via Stripe, PayPal, AdSense or similar they won't actively ask for it because the W-8BEN-E already does the work. But faced with an audit or with a broker like Interactive Brokers or a large corporate client, the certificate is the hard proof of your residency. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 ### Forms you will need
 
 - **W-8BEN-E:** filed by your LLC before each US payer to certify residency of the beneficial owner and the applicable treaty rate. See our <a href="/en/blog/w8-ben-and-w8-ben-e-the-complete-guide">complete W-8BEN and W-8BEN-E guide</a>.
@@ -111,7 +111,7 @@ In your **annual personal tax return (Modelo 100)** you integrate the LLC's net 
 5. File **Modelo 720/721** if you exceed foreign-asset thresholds (bank accounts, securities, crypto).
 6. Keep all documentation: Mercury/Relay/Wise statements, invoices issued by the LLC, contracts, signed W-8BEN-E forms, Form 1042-S if any, IRS filings and expense receipts.
 
-The AEAT can request supporting documentation at any time. Having an organized system from day one is the difference between an audit that closes quickly and one that drags.
+The AEAT can request supporting documentation at any time. Having an organized system from day one is the difference between an audit that closes quickly and one that drags. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 ## Why you need a Spanish tax advisor
 
 A US-side LLC well constituted is only half the work. The other half is **integrating it correctly into your Spanish IRPF**. This includes:
@@ -145,7 +145,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 - **Spain–US tax treaty.** The treaty (BOE 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.

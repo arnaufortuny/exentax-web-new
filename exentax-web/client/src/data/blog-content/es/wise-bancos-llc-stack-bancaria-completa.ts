@@ -40,7 +40,7 @@ Si toda tu operación depende de esa cuenta, durante esas semanas no puedes paga
 Wise Business es excelente para multi-divisa, IBAN europeo y conversión FX. Pero Wise **no es una cuenta operativa estadounidense**. Su routing y account number en USD son técnicamente "details", no una cuenta bancaria nominal a tu LLC en un banco USA. Eso tiene tres implicaciones prácticas:
 
 1. **Stripe USA, Amazon US, ciertos marketplaces y empresas grandes** te aceptan los datos USD de Wise sin problemas, pero algunas (sobre todo entidades públicas, brokers regulados o partners que requieren ACH directo) los rechazan al detectar que el receptor es un EMI y no un banco.
-2. **La operativa Stripe → Wise → tu IBAN local** funciona, pero suma un actor más a la cadena de compliance. Cuando hay un bloqueo, tienes que demostrar la trazabilidad completa a más de una entidad.
+2. **La operativa Stripe → Wise → tu IBAN local** funciona, pero suma un actor más a la cadena de compliance. Cuando hay un bloqueo, tienes que demostrar la trazabilidad completa a más de una entidad. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 3. **Wise reporta a tu hacienda local vía CRS** desde Bélgica y a otras jurisdicciones según donde esté el saldo. Si crees que tener Wise te da privacidad, lee primero <a href="/es/blog/wise-iban-llc-que-reporta-hacienda">qué reporta realmente Wise a Hacienda</a> y <a href="/es/blog/wise-business-crs-reporting-fiscal">cómo encaja Wise en CRS</a>.
 
 Conclusión: Wise es **una pieza imprescindible** del puzle europeo, pero no sustituye una cuenta operativa USD nominal a tu LLC.
@@ -81,9 +81,9 @@ Cada vez que entra una transferencia >5.000 USD de un cliente nuevo, vas a recib
 Pregúntate cada trimestre: "si Mercury se cae mañana de forma definitiva, ¿qué hago en las próximas 72 horas?". Si la respuesta es "no lo sé", la stack está mal montada. La respuesta correcta es: "tengo cuenta secundaria operativa, mi pasarela de pagos puede repuntarla en 1 hora, y mi proveedor crítico de SaaS lo tengo cargado a una tarjeta virtual de la cuenta secundaria".
 ## Qué pasa cuando bloquean (no es "si", es "cuando")
 
-Hablar de bloqueos como una excepción rara hace daño porque la gente no se prepara. La verdad operativa: **toda LLC con más de 18 meses de actividad ha tenido al menos un evento de bloqueo o revisión**. Lo que cambia entre clientes es la magnitud del daño, y eso depende de la stack.
+Hablar de bloqueos como una excepción rara hace daño porque la gente no se prepara. La verdad operativa: **toda LLC con más de 18 meses de actividad ha tenido al menos un evento de bloqueo o revisión**. Lo que cambia entre clientes es la magnitud del daño, y eso depende de la stack. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
-Bloqueo típico:
+Bloqueo típico. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 
 - **Día 0**: email automático "your account is under review, please provide additional information".
 - **Días 1-3**: subes los documentos pedidos (factura, contrato, justificación del beneficiario, captura del proyecto).
@@ -92,7 +92,7 @@ Bloqueo típico:
 
 Para minimizar daño:
 
-- Activa la cuenta secundaria desde el día 1, **no desde el día del bloqueo** (algunos onboardings tardan 2-3 semanas).
+- Activa la cuenta secundaria desde el día 1, **no desde el día del bloqueo** (algunos onboardings tardan 2-3 semanas). Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 - Mantén ambas cuentas en uso ligero permanente. Una cuenta sin movimientos durante 6 meses se "duerme" y a veces requiere reverificación al reactivarla, justo cuando más prisa tienes.
 - Guarda copia mensual de extractos en PDF y en un drive propio. Si te cierran, puedes perder acceso a la interfaz pero necesitarás esos extractos para Hacienda y para tu contabilidad.
 - Documenta cada cliente con un mini-dossier (web, contrato, dirección legal). Los compliance teams lo agradecen y tu tiempo de respuesta baja.
@@ -183,7 +183,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
 <!-- exentax:execution-v2 -->
 ## Wise + bancos para LLC: el stack bancario completo que debería tener cualquier no residente
@@ -221,15 +221,14 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 
   ## Lo que NO hace una LLC
 

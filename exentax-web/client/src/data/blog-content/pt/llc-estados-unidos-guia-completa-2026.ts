@@ -181,7 +181,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 Três dados mudam a leitura deste guia atualmente:
 
 - **BOI Report (FinCEN).** Após a *interim final rule* de 21 de março de 2025, as LLCs constituídas nos EUA com beneficial owners não americanos deixaram de estar obrigadas. Apenas as *foreign reporting companies* (entidades estrangeiras registadas num estado) continuam a apresentar. Reverifique em [fincen.gov/boi](https://www.fincen.gov/boi) antes de qualquer abertura.
-- **Form 5472 + 1120 pro forma.** Continua obrigatório para SMLLC de não residente com qualquer *reportable transaction*. Sanção base **25.000 USD por formulário e ano** (IRC §6038A). Exercício 2025 → vencimento **15 de abril de hoje**, prorrogação via **Form 7004** até **15 de outubro de hoje**.
+- **Form 5472 + 1120 pro forma.** Continua obrigatório para SMLLC de não residente com qualquer *reportable transaction*. Sanção base **25.000 USD por formulário e ano** (IRC §6038A). Exercício 2025 → vencimento **15 de abril de hoje**, prorrogação via **Form 7004** até **15 de outubro de hoje**. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 - **Taxas estaduais hoje.** Wyoming mantém o Annual Report em **60 USD**, Delaware Franchise Tax em **300 USD** (vencimento 1 de junho), New Mexico continua **sem Annual Report**. Confirme qualquer alteração no Secretary of State antes de orçamentar.
 
 ### Perguntas frequentes hoje

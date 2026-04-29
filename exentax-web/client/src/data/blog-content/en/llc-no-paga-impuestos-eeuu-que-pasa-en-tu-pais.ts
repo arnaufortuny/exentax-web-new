@@ -50,7 +50,7 @@ When your tax authority receives those reports and cross-checks balances against
 - If you reported correctly (scenario A): match. Nothing happens.
 - If you didn't report or reported badly (B and C): an **automatic mismatch** triggers. The higher the balance or flow, the sooner and the higher priority for opening proceedings.
 
-The catch is that when the audit lands, it doesn't review only the last year, but the **four non-prescribed tax years** (in Spain; varies by country). What looked like "saving a few thousand" becomes four years of underpaid tax + interest + 50–150% penalties. Plus specific penalties for not reporting foreign assets or accounts (Form 720/721 in Spain, equivalents elsewhere).
+The catch is that when the audit lands, it doesn't review only the last year, but the **four non-prescribed tax years** (in Spain; varies by country). What looked like "saving a few thousand" becomes four years of underpaid tax + interest + 50–150% penalties. Plus specific penalties for not reporting foreign assets or accounts (Form 720/721 in Spain, equivalents elsewhere). We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 ### What about the double-tax treaty?
 
 Reasonable question: "but the US and my country have a treaty, doesn't that cover me?"
@@ -99,7 +99,7 @@ When a client arrives already with the LLC running and discovers years of undecl
 
 1. How many tax years are open.
 2. Amounts at stake (tax, interest, potential penalty).
-3. **Voluntary regularisation** (amended returns before any notice), which sharply reduces penalties.
+3. **Voluntary regularisation** (amended returns before any notice), which sharply reduces penalties. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 4. Whether to also rectify late Form 720/721.
 5. Whether the structure itself still makes sense going forward or needs redesign.
 
@@ -113,7 +113,7 @@ Conclusion almost always: **voluntary regularisation is cheaper** than waiting f
 - Cheap path: **report properly from year one**. Expensive path: regularise after proceedings open.
 - Changing tax residency can be an option, but only if real and complete, not on paper.
 
-If you have an LLC and aren't 100% sure how you should be taxed at home, or if you've gone years without declaring and want to know your exposure and how to regularise at minimum cost, **we'll go through it with you** in a free 30-minute consultation. Better to see the whole map once than to discover it one penalty at a time.
+If you have an LLC and aren't 100% sure how you should be taxed at home, or if you've gone years without declaring and want to know your exposure and how to regularise at minimum cost, **we'll go through it with you** in a free 30-minute consultation. Better to see the whole map once than to discover it one penalty at a time. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.
@@ -124,7 +124,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
@@ -151,7 +151,7 @@ At Exentax we structure the entity to fit the first scenario and document every 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 - **Spain–US treaty.** BOE of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -198,7 +198,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 <!-- related-inline-stripped-2026-04 -->
 
 ### What people get wrong

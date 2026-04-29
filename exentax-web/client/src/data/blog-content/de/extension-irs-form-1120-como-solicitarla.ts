@@ -53,7 +53,7 @@ Es gibt zwei Möglichkeiten:
 **Per Post:** Das Formular wird in Papierform an das zuständige IRS-Verarbeitungszentrum gesendet. Langsamer, aber ebenso gültig. Es wird empfohlen, per Einschreiben zu senden, um einen Versandnachweis zu haben.
 ### Was passiert, wenn Sie keine Verlängerung beantragen und nicht fristgerecht einreichen?
 
-Hier wird es ernst. Wenn Sie den Form 1120 nicht vor dem 15. April einreichen und auch keine Verlängerung beantragt haben, kann der IRS Sanktionen verhängen. Und bei LLCs mit ausländischen Eigentümern sind die Strafen für die verspätete Einreichung des Form 5472 besonders relevant.
+Hier wird es ernst. Wenn Sie den Form 1120 nicht vor dem 15. April einreichen und auch keine Verlängerung beantragt haben, kann der IRS Sanktionen verhängen. Und bei LLCs mit ausländischen Eigentümern sind die Strafen für die verspätete Einreichung des Form 5472 besonders relevant. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
 Die einfachste Lösung? Beantragen Sie die Verlängerung. Sie ist kostenlos, automatisch und gibt Ihnen 6 Monate Ruhe.
 ### Kann ich jedes Jahr eine Verlängerung beantragen?
@@ -128,7 +128,7 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 -->
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 --> Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 ## Form 7004: wie die IRS-Verlängerung beantragt wird und warum sie fast immer sinnvoll ist
 
 Form 7004 ist die automatische sechsmonatige Verlängerung zur Einreichung von Form 1120 + 5472 (u.a.). Automatisch, kostenlos und außer in sehr seltenen Fällen Standardbestandteil des Steuerkalenders jeder ausländisch gehaltenen Single-Member-LLC. Das deckt sie ab, so beantragen Sie sie, und so nutzen wir sie systematisch.
@@ -136,7 +136,7 @@ Form 7004 ist die automatische sechsmonatige Verlängerung zur Einreichung von F
 - **Was sie abdeckt und was nicht.** Form 7004 verlängert die Einreichungsfrist um sechs Monate (typischerweise vom 15. April auf den 15. Oktober), aber NICHT die Zahlungsfrist für etwaige geschuldete Steuern. Bei ausländisch gehaltener Single-Member-LLC mit 5472 + 1120 pro forma ohne US-steuerbare Tätigkeit gibt es keine Steuerschuld - die Verlängerung deckt 100% der Pflicht.
 - **Wann einreichen.** Vor dem Originaltermin (15. April für Kalenderjahr-LLC). Elektronisch via modernized e-File oder per Einschreiben an die zuständige IRS-Adresse. Ohne E-File-Bestätigung oder Poststempel vor dem 15. April keine Verlängerung und Eintritt in die Strafzone.
 - **Strafen ohne Verlängerung.** Form 5472 nicht oder verspätet eingereicht ohne Verlängerung: 25.000 USD pro Formular und Jahr. Bemerkung am 16. April ohne eingereichte 7004? Der Schaden ist da - keine "Rückwärts-Regularisierung" ohne Voluntary Disclosure. Die 7004 ist das systematische Sicherheitsnetz.
-- **Warum wir sie immer nutzen.** Auch bei allem im März bereit gibt das Einreichen der 7004 Spielraum für interne 5472-Prüfung, Zahlenanpassungen nach endgültigem Abschluss und Konsistenzprüfung mit Ihrer Wohnsitzerklärung. Null Kosten, null Risiko, maximaler Spielraum.
+- **Warum wir sie immer nutzen.** Auch bei allem im März bereit gibt das Einreichen der 7004 Spielraum für interne 5472-Prüfung, Zahlenanpassungen nach endgültigem Abschluss und Konsistenzprüfung mit Ihrer Wohnsitzerklärung. Null Kosten, null Risiko, maximaler Spielraum. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
 ### Was wir am häufigsten gefragt werden
 
@@ -163,7 +163,6 @@ _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/
 
 <!-- related-inline-stripped-2026-04 -->
 
-
 <!-- exentax:lote12-native-v1:extension-irs-form-1120-como-solicitarla -->
 ## Wann eine Verlängerung sinnvoll ist und wann nicht
 
@@ -174,7 +173,7 @@ Einreichungstermin, nicht die Pflicht zur Steuerzahlung — diese
 Unterscheidung wird oft übersehen.
 
 Sinnvoll ist die Verlängerung, wenn die Buchhaltung
-weitgehend abgeschlossen ist und nur noch eine letzte Prüfung
+weitgehend abgeschlossen ist und nur noch eine letzte Prüfung. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 fehlt. Riskant wird sie, wenn sie zur Gewohnheit wird und die
 eigentliche Vorbereitung jedes Jahr in den letzten Tagen
 stattfindet.
@@ -198,11 +197,11 @@ Die Form-7004-Verlängerung verankert sich im Steuerkalender der LLC, indem sie 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
   ## Was eine LLC NICHT tut
 

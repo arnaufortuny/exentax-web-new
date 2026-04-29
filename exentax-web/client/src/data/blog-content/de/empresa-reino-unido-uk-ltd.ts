@@ -115,7 +115,7 @@ Für reine Steueroptimierung ohne britische Präsenz löst die US-LLC den Durchs
 
 - **PAYE nicht registrieren bei Direktorengehalt**: HMRC sanktioniert mit hohen Strafen.
 - **Confirmation Statement vergessen**: Companies House kann die Gesellschaft streichen.
-- **Verspätete Jahresabschlüsse**: Strafen eskalieren schnell (150 bis 1.500 GBP pro Verspätung).
+- **Verspätete Jahresabschlüsse**: Strafen eskalieren schnell (150 bis 1.500 GBP pro Verspätung). Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 - **Als UK Ltd betreiben mit Wohnsitz anderswo ohne Kontrollmeldung**: lokales Finanzamt kann CFC oder POEM anwenden.
 - **Falsch verwaltete MwSt**: besonders bei B2C international, Fehler mit OSS und Post-Brexit-Regeln.
 ### Wann eine UK Ltd wählen

@@ -38,7 +38,7 @@ Si toute votre opération dépend de ce compte, vous ne payez pas l'équipe, ne 
 Wise Business est excellent pour le multi-devises, l'IBAN européen et la conversion FX. Mais Wise **n'est pas un compte opérationnel américain**. Ses routing et account number USD sont techniquement des "details", pas un compte bancaire nominatif à votre LLC dans une banque US. Trois implications pratiques:
 
 1. **Stripe US, Amazon US, certains marketplaces et grandes entreprises** acceptent les details USD de Wise sans problème, mais d'autres (entités publiques, brokers régulés, partenaires exigeant l'ACH direct) les refusent dès qu'ils détectent que le receveur est un EMI et pas une banque.
-2. **Le flux Stripe → Wise → votre IBAN local** marche, mais ajoute un acteur à la chaîne compliance. En cas de blocage, vous devez prouver la traçabilité à plus d'une entité.
+2. **Le flux Stripe → Wise → votre IBAN local** marche, mais ajoute un acteur à la chaîne compliance. En cas de blocage, vous devez prouver la traçabilité à plus d'une entité. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 3. **Wise reporte à votre fisc local via CRS** depuis la Belgique et à d'autres juridictions selon le solde. Si vous croyez que Wise vous donne de la confidentialité, lisez d'abord <a href="/fr/blog/wise-iban-et-llc-ce-qui-est-vraiment-declare-au-fisc">ce que Wise reporte vraiment au fisc</a> et <a href="/fr/blog/wise-business-et-crs-ce-qui-est-declare-a-votre-fisc">comment Wise s'inscrit dans CRS</a>.
 
 Conclusion: Wise est **une pièce indispensable** du puzzle européen, mais ne remplace pas un compte opérationnel USD nominatif à votre LLC.
@@ -79,9 +79,9 @@ Tout virement entrant >5 000 USD d'un nouveau client génère tôt ou tard un em
 "Si Mercury tombe demain définitivement, qu'est-ce que je fais dans 72 heures?". Si la réponse est "je ne sais pas", la configuration est mauvaise.
 ### Ce qui se passe quand on bloque (pas "si", "quand")
 
-Vérité opérationnelle: **toute LLC avec 18+ mois d'activité a connu au moins un événement de blocage**. Ce qui change, c'est l'ampleur du dégât.
+Vérité opérationnelle: **toute LLC avec 18+ mois d'activité a connu au moins un événement de blocage**. Ce qui change, c'est l'ampleur du dégât. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
-Blocage type:
+Blocage type. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 - **Jour 0**: email automatique "your account is under review".
 - **Jours 1-3**: vous fournissez les documents.
 - **Jours 4-14**: silence, accès limité aux entrées.
@@ -121,7 +121,7 @@ Si vous avez une LLC et voulez qu'on conçoive ensemble la bonne configuration b
 Cet article s'appuie sur la réglementation actuellement en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
 - **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
@@ -220,8 +220,7 @@ Notre équipe est spécialisée dans les structures fiscales internationales pou
 
   Pour un résident fiscal français exploitant une LLC américaine, la structure bancaire optimale combine **Wise Business Europe SA** (immatriculée en Belgique sous BCE 0708.022.075, supervisée par la **Banque Nationale de Belgique** comme établissement de monnaie électronique en vertu de la directive PSD2 transposée par la loi belge du 11 mars 2018) avec **Mercury** ou **Relay** côté américain (Mercury opère via **Column N.A.** et **Choice Financial Group**, FDIC certificate #14583, garantissant USD 250 000 par déposant et par catégorie au sens du **12 CFR §330**).
 
-  Côté déclaratif français, chaque compte étranger doit être déclaré sur le **formulaire 3916** annexé à la déclaration 2042 (article 1649 A du CGI), avec sanction de 1 500 € par compte non déclaré (10 000 € si le compte est domicilié dans un État ou territoire non coopératif au sens de l'article 238-0 A du CGI). Les revenus de la LLC remontent au formulaire **2042-C-PRO** (BIC ou BNC selon l'activité) avec crédit d'impôt USA selon la **convention franco-américaine du 31/08/1994** (BOI-INT-CVB-USA-10-20).
-
+  Côté déclaratif français, chaque compte étranger doit être déclaré sur le **formulaire 3916** annexé à la déclaration 2042 (article 1649 A du CGI), avec sanction de 1 500 € par compte non déclaré (10 000 € si le compte est domicilié dans un État ou territoire non coopératif au sens de l'article 238-0 A du CGI). Les revenus de la LLC remontent au formulaire **2042-C-PRO** (BIC ou BNC selon l'activité) avec crédit d'impôt USA selon la **convention franco-américaine du 31/08/1994** (BOI-INT-CVB-USA-10-20). Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 <!-- exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria-completa -->
 ## La configuration bancaire vu de l'intérieur de la LLC

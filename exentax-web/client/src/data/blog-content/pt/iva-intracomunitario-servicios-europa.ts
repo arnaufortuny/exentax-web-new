@@ -1,6 +1,6 @@
 export default `
 
-Se é autónomo ou PME espanhol com clientes empresa noutros países da UE, o IVA intracomunitário é uma das áreas que mais confusão gera. A regra geral em serviços B2B é simples: fatura sem IVA e o cliente autoliquida-o no seu país. Mas há nuances importantes que distinguem uma fatura limpa de uma rejeitada em inspeção. Este guia explica quando se aplica realmente a regra, como se inscrever no ROI, o que declarar nos modelos 303 e 349 e os erros que custam correções.
+Se é autónomo ou PME espanhol com clientes empresa noutros países da UE, o IVA intracomunitário é uma das áreas que mais confusão gera. A regra geral em serviços B2B é simples: fatura sem IVA e o cliente autoliquida-o no seu país. Mas há nuances importantes que distinguem uma fatura limpa de uma rejeitada em inspeção. Este guia explica quando se aplica realmente a regra, como se inscrever no ROI, o que declarar nos modelos 303 e 349 e os erros que custam correções. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
 ## Serviços B2B: regra geral e exceções
 
@@ -11,7 +11,7 @@ Para emitir fatura sem IVA a um cliente UE precisa de estar inscrito no Registo 
 
 ## Como preencher a fatura sem IVA
 
-A fatura deve indicar o seu NIF-IVA espanhol (prefixo ES), o NIF-IVA do cliente, o montante sem IVA e a menção obrigatória ao artigo 84 da Lei do IVA espanhola (operação com inversão do sujeito passivo) ou equivalente em inglês (reverse charge). Não se inclui base tributável de IVA nem coleta; só o total. Alguns clientes europeus exigem também a referência à Diretiva 2006/112/CE. Conserve sempre prova eletrónica do envio e da entrega do serviço (emails, contratos, entregáveis) porque numa inspeção a agência tributária pede rastos documentais completos, não só a fatura.
+A fatura deve indicar o seu NIF-IVA espanhol (prefixo ES), o NIF-IVA do cliente, o montante sem IVA e a menção obrigatória ao artigo 84 da Lei do IVA espanhola (operação com inversão do sujeito passivo) ou equivalente em inglês (reverse charge). Não se inclui base tributável de IVA nem coleta; só o total. Alguns clientes europeus exigem também a referência à Diretiva 2006/112/CE. Conserve sempre prova eletrónica do envio e da entrega do serviço (emails, contratos, entregáveis) porque numa inspeção a agência tributária pede rastos documentais completos, não só a fatura. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
 ## Modelo 349 e modelo 303 conciliados
 
@@ -41,7 +41,7 @@ O quadro normativo está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 |---|---|
 | Emitir sem VIES válido do cliente | AEAT reclassifica como B2C → IVA espanhol + sanção |
 | Não declarar uma operação de 5.000€ no formulário 349 | Sanção por omissão + acréscimo |
-| Formulários 303 e 349 com valores diferentes | Avaliação paralela imediata, frequentemente inspeção |
+| Formulários 303 e 349 com valores diferentes | Avaliação paralela imediata, frequentemente inspeção |. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 | Esquecer a menção "reverse charge" na fatura | Cliente UE rejeita a fatura, atraso pagamento |
 | Confundir B2C com B2B em plataformas digitais | OSS mal preenchido → correções com acréscimos |
 
@@ -97,15 +97,14 @@ O que vemos cada semana nos casos que chegam até nós é sempre o mesmo padrão
 Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da chamada com os números fechados e um calendário operacional.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
   ## O que uma LLC NÃO faz
 

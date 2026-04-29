@@ -36,7 +36,7 @@ Uma holding não é para toda a gente. Não faz sentido se:
 - Não tem uma razão real além de "porque soa bem".
 - A sua situação resolver-se-ia melhor com um bom planeamento pessoal.
 
-Constituir uma holding só por moda adiciona contabilidade, declarações, custos e exposição a inspeção, sem contrapartida.
+Constituir uma holding só por moda adiciona contabilidade, declarações, custos e exposição a inspeção, sem contrapartida. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 ### Como se estrutura uma holding clássica (caso Portugal)
 
 A estrutura típica para um empreendedor com várias atividades em Portugal:
@@ -82,7 +82,7 @@ Uma holding tem um custo recorrente que convém orçamentar:
 - Constituição: 500-3.000 EUR consoante jurisdição.
 - Domicílio social e secretariado: 500-2.000 EUR/ano.
 - Contabilidade e contas anuais: 1.500-5.000 EUR/ano.
-- Auditoria se ultrapassar limiares: 3.000-10.000 EUR/ano.
+- Auditoria se ultrapassar limiares: 3.000-10.000 EUR/ano. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 - Consultoria fiscal especializada: 2.000-8.000 EUR/ano.
 
 Piso realista anual: 4.000-12.000 EUR para uma holding internacional bem gerida. A holding só se justifica se a poupança fiscal ou o controlo adicional supera com margem esse custo.
@@ -90,7 +90,7 @@ Piso realista anual: 4.000-12.000 EUR para uma holding internacional bem gerida.
 
 - **Holding sem substância**: se a holding não tem escritório, decisões e pessoal real, as administrações fiscais podem negar o regime favorável e reclamar impostos.
 - **Aplicar Participation Exemption sem cumprir requisitos**: percentagem, antiguidade, natureza da filial. Erros na qualificação são sancionados.
-- **Misturar património pessoal e holding**: quebra o blindado e complica auditorias.
+- **Misturar património pessoal e holding**: quebra o blindado e complica auditorias. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 - **Não declarar a holding no seu país de residência**: titularidade, controlo, contas e rendimentos. CRS e os registos de beneficiários finais tornam impossível mantê-lo oculto.
 - **Holding por moda**: a pior razão para constituí-la. Se não resolve um problema concreto, sobra.
 ### Quando ponderar uma holding
@@ -212,15 +212,14 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
   ## O que uma LLC NÃO faz
 

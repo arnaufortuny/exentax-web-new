@@ -50,12 +50,12 @@ Si eres residente fiscal en España y tienes:
 - **Criptoactivos en el extranjero** por > 50.000 € a 31 de diciembre: **Modelo 721**.
 - **Valores, derechos, seguros, rentas en el extranjero** > 50.000 €: Modelo 720, secciones correspondientes.
 
-El cruce CRS permite a la AEAT detectar omisiones casi en tiempo real respecto al ejercicio reportado. La sentencia del Tribunal de Justicia de la UE C-788/19 (27 de enero de 2022) anuló el régimen sancionador desproporcionado original del 720 por contrario al Derecho de la Unión, pero la obligación de informar **sigue plenamente vigente** con sanciones ordinarias (LGT art. 198) y con el matiz de que las rentas no declaradas pueden ser regularizadas como ganancia patrimonial no justificada (LIRPF art. 39, en lo no afectado por la STJUE).
+El cruce CRS permite a la AEAT detectar omisiones casi en tiempo real respecto al ejercicio reportado. La sentencia del Tribunal de Justicia de la UE C-788/19 (27 de enero de 2022) anuló el régimen sancionador desproporcionado original del 720 por contrario al Derecho de la Unión, pero la obligación de informar **sigue plenamente vigente** con sanciones ordinarias (LGT art. 198) y con el matiz de que las rentas no declaradas pueden ser regularizadas como ganancia patrimonial no justificada (LIRPF art. 39, en lo no afectado por la STJUE). Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 ### Implicaciones reales en LATAM
 
 - **México**: art. 32-A del CFF, RMF anual, cruce con declaración anual de personas físicas y morales. SAT mantiene programa específico de fiscalización de cuentas en el exterior detectadas por CRS.
 - **Colombia**: la DIAN integra CRS en su sistema de información exógena. Cuentas omitidas pueden generar liquidación oficial por renta líquida gravable presuntiva.
-- **Argentina**: AFIP recibe datos CRS y cruza con regímenes informativos propios. Régimen de exteriorización actualmente cerrado, por lo que la regularización es por declaración rectificativa con intereses y multa.
+- **Argentina**: AFIP recibe datos CRS y cruza con regímenes informativos propios. Régimen de exteriorización actualmente cerrado, por lo que la regularización es por declaración rectificativa con intereses y multa. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 - **Chile**: SII recibe CRS y cruza con DJ 1929 (rentas en el exterior).
 - **Uruguay y Panamá**: tradicionalmente jurisdicciones de planificación; ambos se han adherido al CRS y reportan saldos de no residentes.
 ## Cómo planificar correctamente
@@ -66,7 +66,7 @@ La estrategia profesional pasa por:
 
 1. **Declarar correctamente.** El cruce ya existe; intentar ocultar es perder tiempo y exponerse a sanciones.
 2. **Diseñar la estructura para que lo declarado sea fiscalmente eficiente.** Esto implica decidir país de residencia, instrumentos de inversión, calendario de remesas, deducciones aplicables y CDI aplicable. Ver nuestro <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">framework de diseño de estructura internacional</a>.
-3. **Mantener documentación**: contratos, facturas, justificantes de gastos, libros contables de la LLC, autodeclaraciones CRS coherentes. Sin documentación, una inspección revierte de facto la carga de la prueba al contribuyente.
+3. **Mantener documentación**: contratos, facturas, justificantes de gastos, libros contables de la LLC, autodeclaraciones CRS coherentes. Sin documentación, una inspección revierte de facto la carga de la prueba al contribuyente. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 4. **Conocer los riesgos de no hacerlo bien.** Lo cubrimos en <a href="/es/blog/riesgos-fiscales-mala-estructuracion-internacional">riesgos fiscales de una mala estructuración internacional</a>.
 5. **Entender tu actividad económica.** No tributa igual una LLC de servicios que una de e-commerce o royalties. Lo desarrollamos en <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación de la LLC según tu actividad económica</a>.
 ## Errores típicos que vemos cada semana
@@ -155,15 +155,14 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 
   ## Lo que NO hace una LLC
 

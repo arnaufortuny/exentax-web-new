@@ -35,14 +35,14 @@ Required to file the 720 and/or 721:
 After the first filing, you only need to file again if the relevant block has had an **increase greater than EUR 20,000** vs the last declared balance, or if you have lost ownership or cancelled an item previously declared.
 ## The CJEU C-788/19 ruling and the current sanctions regime
 
-The original 720 sanctions regime was one of the harshest in the EU: EUR 5,000 per omitted item (minimum EUR 10,000), unlimited statute of limitations on undeclared income treated as unjustified capital gain (article 39.2 LIRPF) and a 150% penalty on the tax due.
+The original 720 sanctions regime was one of the harshest in the EU: EUR 5,000 per omitted item (minimum EUR 10,000), unlimited statute of limitations on undeclared income treated as unjustified capital gain (article 39.2 LIRPF) and a 150% penalty on the tax due. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 The **CJEU judgment of 27 January 2022, case C-788/19**, declared this regime contrary to EU law on grounds of disproportionality and free movement of capital. Law 5/2022 of 9 March removed those specific sanctions.
 
 This **does not mean** there are no longer sanctions. What applies today:
 
 - **Ordinary penalty** under article 198 LGT for not filing an informational return: EUR 20 per item, minimum EUR 300, maximum EUR 20,000. Halved if filed without prior notice from the tax authority.
-- **General LGT regime** for tax due on undeclared IRPF income: article 191 (50%-150% penalty), with the standard **4-year statute of limitations**.
+- **General LGT regime** for tax due on undeclared IRPF income: article 191 (50%-150% penalty), with the standard **4-year statute of limitations**. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 - **Criminal route** (article 305 Penal Code) if the tax evaded in a year exceeds EUR 120,000.
 
 The European ruling softened the regime but did not abolish the duty to inform. Whoever fails to file the 720 still commits a tax infringement.
@@ -56,7 +56,7 @@ These are accounts held with foreign-located financial institutions (Belgium, Li
 
 ### Mercury, Relay, US banking
 
-The United States has not joined CRS, but this **does not waive the 720 obligation**. The Spanish informational duty is independent of international exchange: if your Mercury account or its Q4 average exceeds EUR 50,000 aggregated with other foreign accounts, you must declare it. The fact that the AEAT does not learn about it via CRS does not mean the obligation does not exist. And if an audit is opened later for any other reason, the omission will surface. We discuss this in <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">do US bank accounts report to your home tax authority</a>.
+The United States has not joined CRS, but this **does not waive the 720 obligation**. The Spanish informational duty is independent of international exchange: if your Mercury account or its Q4 average exceeds EUR 50,000 aggregated with other foreign accounts, you must declare it. The fact that the AEAT does not learn about it via CRS does not mean the obligation does not exist. And if an audit is opened later for any other reason, the omission will surface. We discuss this in <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">do US bank accounts report to your home tax authority</a>. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 ### Foreign brokers (Interactive Brokers, Tastytrade, etc.)
 
@@ -102,7 +102,7 @@ Our process for the 720/721 when a client comes in with LLC + European fintechs 
 6. **Integration** with the rest of the planning: <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">international structure design</a>, <a href="/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas">LLC taxation by activity</a> and <a href="/en/blog/crs-for-residents-in-spain-and-latam-real-implications">CRS for Spanish residents</a>.
 ### In summary
 
-Modelo 720 and Modelo 721 are informational duties, not taxes. They cost nothing on their own, but omitting them is expensive: article 198 LGT penalty, article 191 surcharges on the tax due and the classic article 39 LIRPF lever for unjustified balances (softened by the CJEU but not eliminated). The cross-check with CRS and, from today, with DAC8, makes the footprint increasingly visible to the AEAT.
+Modelo 720 and Modelo 721 are informational duties, not taxes. They cost nothing on their own, but omitting them is expensive: article 198 LGT penalty, article 191 surcharges on the tax due and the classic article 39 LIRPF lever for unjustified balances (softened by the CJEU but not eliminated). The cross-check with CRS and, from today, with DAC8, makes the footprint increasingly visible to the AEAT. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 If you have Wise, Mercury, Revolut, foreign brokers or crypto outside Spain and you are not 100% sure of your position regarding the 720/721, we will review it with you and make sure your situation is clean before the next campaign.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
@@ -112,7 +112,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
@@ -167,7 +167,7 @@ Forms 720 (foreign assets) and 721 (foreign crypto) are the two informational fi
 - **Form 720: what to declare.** Bank accounts abroad, securities and shareholdings in foreign entities, and foreign real estate, when the aggregate balance in each block exceeds 50,000 EUR at December 31 or is the highest of the year. After declaring a block, you only file again if the balance grows by more than 20,000 EUR vs the last declared.
 - **Form 721: crypto.** Specific for crypto balances held at foreign exchanges or platforms (Binance, Coinbase, Kraken, etc.). Threshold: 50,000 EUR at December 31 or year's highest. Filing window: January-March of the following year. Also applies to wallets managed by foreign providers.
 - **Current penalty regime.** After the ECJ ruling of January 2022 (case C-788/19) and the subsequent reform, the old specific 720 penalty regime was declared contrary to EU law. Current penalties are those of the general LGT regime: formal for late or incomplete filing, substantive if deliberate concealment with associated tax liability is detected.
-- **What is worth knowing.** A US LLC whose partner is a Spanish resident requires declaring the participation (form 720, "securities and shareholdings" block) when the threshold is exceeded. The LLC's bank accounts (Mercury, Wise) are not declared as the resident's own, but the tax authority may request them in an audit as supplementary information.
+- **What is worth knowing.** A US LLC whose partner is a Spanish resident requires declaring the participation (form 720, "securities and shareholdings" block) when the threshold is exceeded. The LLC's bank accounts (Mercury, Wise) are not declared as the resident's own, but the tax authority may request them in an audit as supplementary information. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ### What we are asked the most
 
@@ -189,7 +189,7 @@ Beyond the legal framework, the question we hear every week in the office is the
 
 ### Access and reporting threshold
 
-Modelo 720 is filed exclusively online at the AEAT Sede Electrónica using a digital certificate, DNIe or Cl@ve PIN. The duty to file is triggered when, on 31 December, the **block of foreign bank accounts** exceeds **EUR 50,000**, with the same independent rule applied to the **block of securities, insurance and annuities** and the **block of real estate**. In subsequent years, an increase above EUR 20,000 in any already declared block reopens the duty. The current doctrine derives from Ley 7/2012 and from CJEU judgment C-788/19 of 27 January 2022, which struck down the disproportionate penalty regime but kept the reporting obligation alive.
+Modelo 720 is filed exclusively online at the AEAT Sede Electrónica using a digital certificate, DNIe or Cl@ve PIN. The duty to file is triggered when, on 31 December, the **block of foreign bank accounts** exceeds **EUR 50,000**, with the same independent rule applied to the **block of securities, insurance and annuities** and the **block of real estate**. In subsequent years, an increase above EUR 20,000 in any already declared block reopens the duty. The current doctrine derives from Ley 7/2012 and from CJEU judgment C-788/19 of 27 January 2022, which struck down the disproportionate penalty regime but kept the reporting obligation alive. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 ### Boxes that produce most filing errors
 

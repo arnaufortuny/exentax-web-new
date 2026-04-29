@@ -6,7 +6,7 @@ Dies ist kein Wise-vs-Mercury-Artikel (dafür haben Sie unseren <a href="/de/blo
 
 Wer aus Europa oder Lateinamerika kommt, bringt ein konkretes Bankmodell mit: **ein Konto pro Person, ein Konto pro Gesellschaft**. Punkt. Wenn das Konto gesperrt wird, gehen Sie in die Filiale, sprechen mit Ihrem Berater, lösen es. Das System unterstellt, die Bank habe Anreize, Sie nicht zu verlieren.
 
-Im **US-Fintech-Ökosystem** existiert dieses Modell nicht. Mercury, Wise, Brex, Relay, Revolut Business & Co. sind **Tech-Plattformen**, keine Banken. Konten werden per API eröffnet und geschlossen, Entscheidungen treffen ein Scoring-System + ein Compliance-Team, das Sie nicht kennen und nicht anrufen können. Entscheidet das System eine Prüfung, ist Ihr Zugang **30, 60 oder 90 Tage eingefroren**, ohne kurzfristige Garantie für die Mittelrückgewinnung.
+Im **US-Fintech-Ökosystem** existiert dieses Modell nicht. Mercury, Wise, Brex, Relay, Revolut Business & Co. sind **Tech-Plattformen**, keine Banken. Konten werden per API eröffnet und geschlossen, Entscheidungen treffen ein Scoring-System + ein Compliance-Team, das Sie nicht kennen und nicht anrufen können. Entscheidet das System eine Prüfung, ist Ihr Zugang **30, 60 oder 90 Tage eingefroren**, ohne kurzfristige Garantie für die Mittelrückgewinnung. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 Erste mentale Verschiebung: **Ein Konto ist nicht "das Konto". Es ist ein Lieferant unter anderen, austauschbar wie ein Hosting oder eine Domain**. Und wie jeder kritische Lieferant braucht es Redundanz.
 ## Die minimal überlebensfähige Architektur einer operativen LLC
@@ -14,7 +14,7 @@ Erste mentale Verschiebung: **Ein Konto ist nicht "das Konto". Es ist ein Liefer
 Ab dem zweiten Jahr realer Aktivität (regelmäßiges Fakturieren und Vereinnahmen) sieht die minimale Architektur einer gut geführten LLC etwa so aus:
 
 1. **Operatives Hauptkonto in USD** (Mercury, Brex oder traditionelle Bank wie Bank of America/Chase, falls Sie persönlich eröffnen konnten).
-2. **Sekundäres USD-Konto** desselben Profils (typisch Relay als Backup zu Mercury oder umgekehrt). Nicht für den Alltag, sondern als **echtes Failover** bei Sperrung.
+2. **Sekundäres USD-Konto** desselben Profils (typisch Relay als Backup zu Mercury oder umgekehrt). Nicht für den Alltag, sondern als **echtes Failover** bei Sperrung. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 3. **Multi-Währungskonto mit europäischer IBAN** (typisch Wise Business). Um europäische Kunden in EUR ohne SWIFT zu vereinnahmen und einen Eingang ins europäische Bankensystem zu haben.
 4. **Payment-Gateway** an eines der beiden USD-Konten gekoppelt (Stripe, PayPal Business, Dodo Payments). Siehe den <a href="/de/blog/zahlungs-gateways-fur-ihre-llc-stripe-paypal-und-dodo">Gateway-Vergleich</a>.
 5. **Physische Firmenkarte + virtuelle Karten** für SaaS-Abos und Einzelkäufe.
@@ -38,7 +38,7 @@ Hängt Ihre gesamte Operation an diesem Konto, können Sie wochenlang Team nicht
 Wise Business ist exzellent für Multi-Währung, EU-IBAN und FX-Konvertierung. Aber Wise **ist kein operatives US-Konto**. Routing und Kontonummer in USD sind technisch "details", kein US-Bankkonto auf den Namen Ihrer LLC. Drei praktische Folgen:
 
 1. **Stripe US, Amazon US, gewisse Marketplaces und große Unternehmen** akzeptieren Wises USD-Details problemlos, andere (öffentliche Stellen, regulierte Broker, Partner mit ACH-Pflicht) lehnen ab, sobald sie erkennen, dass der Empfänger ein EMI ist.
-2. **Stripe → Wise → lokales IBAN** funktioniert, fügt aber einen Akteur in die Compliance-Kette. Bei Sperrung müssen Sie die Rückverfolgung gegenüber mehr als einer Entität nachweisen.
+2. **Stripe → Wise → lokales IBAN** funktioniert, fügt aber einen Akteur in die Compliance-Kette. Bei Sperrung müssen Sie die Rückverfolgung gegenüber mehr als einer Entität nachweisen. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 3. **Wise meldet via CRS aus Belgien** und in andere Jurisdiktionen je nach Saldo. Wenn Sie Wise mit Privatsphäre verwechseln, lesen Sie zuerst <a href="/de/blog/wise-iban-und-llc-was-wirklich-an-die-steuerbehoerde">was Wise wirklich meldet</a> und <a href="/de/blog/wise-business-und-crs-was-ihrer-steuerbehoerde-gemeldet-wird">wie Wise in CRS einpasst</a>.
 
 Fazit: Wise ist **ein unverzichtbares Stück** des europäischen Puzzles, ersetzt aber kein operatives USD-Konto auf den Namen Ihrer LLC.
@@ -81,7 +81,7 @@ Quartalsfrage: "Fällt Mercury morgen endgültig aus, was tue ich in 72 Stunden?
 
 Operative Wahrheit: **jede LLC mit 18+ Aktivitätsmonaten hatte mindestens ein Sperr- oder Prüfungsereignis**. Schadenausmaß hängt von der Architektur ab.
 
-Typische Sperrung:
+Typische Sperrung. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 - **Tag 0**: automatischer "under review"-Mail.
 - **Tage 1-3**: Dokumente einreichen.
 - **Tage 4-14**: Schweigen, Zugang nur eingehend.
@@ -108,7 +108,7 @@ PayPal Business: nützlich als Ergänzung, nicht als Hauptkanal.
 - Richtige Frage: nicht "Mercury oder Wise", sondern "**welche Architektur baue ich**".
 - Minimum: **2 USD-Konten + 1 Multi-Währungskonto + Gateway + segmentierte Karten + Reserven**.
 - Wise-IBAN ist belgisch, nicht lokal. Bleibt meldepflichtig.
-- Sperrungen sind kein Ausnahmefall, sondern vorhersagbare Routine. Architektur entscheidet zwischen Belästigung und Krise.
+- Sperrungen sind kein Ausnahmefall, sondern vorhersagbare Routine. Architektur entscheidet zwischen Belästigung und Krise. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 - **Niemals Privates und LLC mischen**, nach Risiko segmentieren, 25-35 % Steuerpuffer, FX-Puffer und Vorab-Dokumentation: die fünf Regeln, die fünfstellig sparen.
 
 Wenn Sie eine LLC haben und mit uns die richtige Banking-Architektur für Ihr Volumen und Risikoprofil entwerfen wollen, **wir prüfen es mit Ihnen** in einer kostenlosen 30-Minuten-Beratung. Gut gebaut: günstig. Halbgar gebaut und am Tag der ersten "under review"-Mail entdeckt: teuer.
@@ -173,7 +173,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 <!-- exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-de -->
 ## Warum eine Banken-Architektur mit mehreren Schienen operative Stabilität bringt
 
-Den Aufbau einer Banken-Architektur mit mehreren Schienen für eine LLC zu verfolgen, ist keine Frage theoretischer Redundanz; es ist eine Frage operativer Kontinuität. Wenn ein einziger Anbieter alle Flüsse zentralisiert, kann jede interne Prüfung oder einfache technische Wartung den Geschäftsbetrieb mehrere Tage unterbrechen. Umgekehrt reduziert eine Architektur, die Empfangsschienen, Zahlungsschienen an Lieferanten und Devisen-Schienen trennt, die Anfälligkeit gegenüber einem einzigen Ausfallpunkt und glättet die Liquiditätsplanung.
+Den Aufbau einer Banken-Architektur mit mehreren Schienen für eine LLC zu verfolgen, ist keine Frage theoretischer Redundanz; es ist eine Frage operativer Kontinuität. Wenn ein einziger Anbieter alle Flüsse zentralisiert, kann jede interne Prüfung oder einfache technische Wartung den Geschäftsbetrieb mehrere Tage unterbrechen. Umgekehrt reduziert eine Architektur, die Empfangsschienen, Zahlungsschienen an Lieferanten und Devisen-Schienen trennt, die Anfälligkeit gegenüber einem einzigen Ausfallpunkt und glättet die Liquiditätsplanung. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 Ein einfaches und tragfähiges Schema besteht darin, jeder Schiene eine klare Funktion zuzuweisen und Überlappungen zu vermeiden: eine Hauptschiene für operative Flüsse, eine sekundäre Devisenschiene für internationale Zahlungen und ein Konto, das ausschliesslich Ausschüttungen an das Mitglied gewidmet ist. Diese Aufteilung beschleunigt die Abstimmungen, erleichtert die Gespräche mit der Buchhaltung und begrenzt Überraschungen, wenn einer der Anbieter eine Änderung der Tarif- oder Akzeptanzpolitik einführt.
 <!-- /exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-de -->
@@ -188,14 +188,14 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren ve
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 ## Was Sie mitnehmen sollten
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
 
 ## Rechtliche und regulatorische Referenzen
 
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
+Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
 ## Bank- und Steuerfakten, die es zu präzisieren gilt
 
@@ -261,7 +261,6 @@ Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strateg
   **Datenfluss FATCA und CRS für die LLC:**
 
   Mercury meldet als US-Bank im Rahmen des **FATCA-Abkommens IGA Modell 1 mit Deutschland (BGBl. II 2013 S. 1362)** Daten der LLC an die IRS, die diese an das **Bundeszentralamt für Steuern (BZSt)** übermittelt. Wise Business Europe SA als belgisches Institut meldet im Rahmen des **CRS via DAC2 (Richtlinie 2014/107/EU, in Belgien umgesetzt durch das Gesetz vom 16.12.2015)** an das BZSt. Beide Datenflüsse landen ab Steuerjahr 2024 in der **Risikomanagement-Datenbank des BZSt** und werden mit den Steuererklärungen des deutschen Gesellschafters automatisch abgeglichen.
-
 
 <!-- exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria-completa -->
 ## Die Banking-Architektur aus Sicht der LLC betrachten
@@ -350,11 +349,11 @@ Eine kleine zusätzliche Hygiene besteht darin, in der Buchhaltung jedem Konto e
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
   ## Was eine LLC NICHT tut
 

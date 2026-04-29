@@ -36,7 +36,7 @@ Issued by the state, it certifies that your LLC is current with all its obligati
 **When you need it:** Some banks and providers request it periodically. Also necessary if you register your LLC in another state (Foreign Qualification) or if a large client requests verification. Mercury may request it during periodic compliance reviews.
 ### 5. BOI Report Confirmation
 
-The BOI Report (Beneficial Ownership Information) is a declaration to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> identifying the real owners of the LLC. Since 1 January 2024, all LLCs must file it. Penalties for non-compliance: $591/day civil, up to $10,000 + 2 years criminal.
+The BOI Report (Beneficial Ownership Information) is a declaration to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> identifying the real owners of the LLC. Since 1 January 2024, all LLCs must file it. Penalties for non-compliance: $591/day civil, up to $10,000 + 2 years criminal. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 **When you need it:** Within 90 days of formation (for new LLCs). Then, whenever there are changes in ownership or reported information (within 30 days of the change).
 ### 6. Registered Agent Agreement
@@ -109,7 +109,7 @@ A couple of adjacent reads worth having open alongside this one: <a href="/en/bl
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -155,7 +155,7 @@ Before going further, put numbers on your case: the <a href="/en#calculadora">Ex
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## The living file of your LLC: what you keep and why it matters
 
-The LLC is not sustained by the first-day formation: it is sustained by a file that grows and is updated. When the bank shows up with enhanced KYC, a gateway with verification, an inspection or a potential buyer, specific paperwork is requested - and the difference between having it in an hour or in three weeks decides account closures and payment blocks.
+The LLC is not sustained by the first-day formation: it is sustained by a file that grows and is updated. When the bank shows up with enhanced KYC, a gateway with verification, an inspection or a potential buyer, specific paperwork is requested - and the difference between having it in an hour or in three weeks decides account closures and payment blocks. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 - **Constitutive block.** Articles of Organization stamped by the Secretary of State, Operating Agreement signed by all members, EIN Confirmation Letter (CP-575 or 147C), recent Certificate of Good Standing and updated Registered Agent designation. Without these five documents you do not open a serious account or sign a sizable contract.
 - **Identity and compliance block.** Owner ITIN or SSN if applicable, FinCEN BOI Report acknowledgment (with TC and proof), valid passport, recent proof of address and the latest state Annual Report with franchise tax paid. One outdated item and the bank freezes onboarding.

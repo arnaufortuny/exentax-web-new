@@ -114,7 +114,7 @@ Die Wahl zwischen **Verkauf** und **Schließung** einer LLC hat aktuell untersch
 
 ### FAQ aktuell
 
-**Kann eine inaktive SMLLC einfach „liegen gelassen" werden?** Nein. Ohne Annual Report und Registered Agent endet sie *Forfeited*, aber IRS-Pflichten (5472 bei Bewegungen) bleiben mit kaskadierenden Sanktionen bestehen.
+**Kann eine inaktive SMLLC einfach „liegen gelassen" werden?** Nein. Ohne Annual Report und Registered Agent endet sie *Forfeited*, aber IRS-Pflichten (5472 bei Bewegungen) bleiben mit kaskadierenden Sanktionen bestehen. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 <!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-de -->
 ## Wie sich die Wahl Verkaufen oder Schließen der LLC als stabile Kartografie statt als emotionale Entscheidung lesen lässt
@@ -128,7 +128,7 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-**Wie wird eine LLC für den Verkauf bewertet?** Im Digitalgeschäft typische Multiplikatoren **2-4× jährliches SDE** oder **3-5× EBITDA** je Nische. Übertragung verlangt Kontoumzug (Mercury erneuert KYC) und Gateway-Prüfung (Stripe).
+**Wie wird eine LLC für den Verkauf bewertet?** Im Digitalgeschäft typische Multiplikatoren **2-4× jährliches SDE** oder **3-5× EBITDA** je Nische. Übertragung verlangt Kontoumzug (Mercury erneuert KYC) und Gateway-Prüfung (Stripe). Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
 **Wird die Auflösung im Wohnsitzland besteuert?** Hängt vom Regime ab. In Deutschland je nach Beteiligungsquote als Veräußerungsgewinn nach §17 EStG oder als Kapitalvermögen.
 
@@ -161,11 +161,11 @@ Um zu wissen, welcher Weg in Ihrem realen Fall passt, starten Sie den <strong>Ex
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
   ## Was eine LLC NICHT tut
 

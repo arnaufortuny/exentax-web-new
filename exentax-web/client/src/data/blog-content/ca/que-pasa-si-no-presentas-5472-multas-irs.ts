@@ -1,10 +1,10 @@
-export default `Hi ha un tràmit en la vida fiscal d'una LLC unipersonal amb soci estranger que separa amb claredat qui la gestiona bé de qui camina cap a un problema de cinc xifres: el **Form 5472**. No és un impost. És una declaració informativa. I precisament per ser "només informativa" molta gent l'ignora, la presenta tard, la presenta amb dades trencades o ni se n'assabenta que existeix. L'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> rarament perdona aquest oblit: la sanció base són **25.000 USD per formulari no presentat, per any**, i s'acumula.
+export default `Hi ha un tràmit en la vida fiscal d'una LLC unipersonal amb soci estranger que separa amb claredat qui la gestiona bé de qui camina cap a un problema de cinc xifres: el **Form 5472**. No és un impost. És una declaració informativa. I precisament per ser "només informativa" molta gent l'ignora, la presenta tard, la presenta amb dades trencades o ni se n'assabenta que existeix. L'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> rarament perdona aquest oblit: la sanció base són **25.000 USD per formulari no presentat, per any**, i s'acumula. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 Aquest article no és la guia pas a pas (per a això ja tens la nostra <a href="/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir">guia completa del Form 5472</a> i la peça sobre <a href="/ca/blog/irs-1120-i-5472-que-son-realment-i-quan-apliquen">quan apliquen el 1120 i el 5472</a>). És el que passa **quan ja no l'has presentat**, i com es surt d'aquí sense destruir la LLC ni la teva situació personal.
 
 ## Què sanciona exactament l'IRS
 
-La regla viu a la **section 6038A(d) de l'Internal Revenue Code**, reforçada el 2017 pel Tax Cuts and Jobs Act. La base aplicable avui són **25.000 USD per formulari no presentat, presentat tard o substancialment incomplet**. Fins el 2018 la sanció era de 10.000 USD; des d'aleshores està fixada en 25.000 USD i, llevat de canvi legislatiu, és el número contra el qual xocaràs.
+La regla viu a la **section 6038A(d) de l'Internal Revenue Code**, reforçada el 2017 pel Tax Cuts and Jobs Act. La base aplicable avui són **25.000 USD per formulari no presentat, presentat tard o substancialment incomplet**. Fins el 2018 la sanció era de 10.000 USD; des d'aleshores està fixada en 25.000 USD i, llevat de canvi legislatiu, és el número contra el qual xocaràs. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 A aquesta base s'hi sumen tres elements que la majoria no veu venir:
 
@@ -12,7 +12,7 @@ A aquesta base s'hi sumen tres elements que la majoria no veu venir:
 2. **Una sanció per any, no una de sola.** Tres anys sense presentar = tres formularis. Tres × 25.000 = **75.000 USD** abans d'interessos.
 3. **Cascada amb el Form 1120.** La teva LLC unipersonal amb soci estranger ha de presentar **Form 1120 pro forma + Form 5472 conjuntament**. Si vas fallar el 5472, gairebé sempre també vas fallar el 1120, i això afegeix exposició addicional per late filing del 1120 sota §6651, tot i que la sanció monetària del §6651 es calcula sobre l'impost degut, pel que en una LLC pro forma sense tax due l'import sol ser zero o residual; el risc principal continua sent el 5472.
 
-A tot això suma **interessos sobre les sancions** des de la data d'exigibilitat, calculats per l'IRS al federal short-term rate + 3 punts, actualitzats trimestralment.
+A tot això suma **interessos sobre les sancions** des de la data d'exigibilitat, calculats per l'IRS al federal short-term rate + 3 punts, actualitzats trimestralment. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 ## Com ho descobreix l'IRS
 
 La pregunta quasi universal a la primera reunió: *"però com pot saber l'IRS que existeixo si mai he presentat res?"*. Resposta curta: **ho sap, i cada any és més fàcil saber-ho**. Els cinc canals concrets actualment:
@@ -34,11 +34,11 @@ Tens la LLC des de fa dos, tres, cinc anys. Tens EIN, compte bancari, has factur
 
 ### Perfil B: has presentat tard
 
-Te'n vas adonar, vas presentar tard, però **abans que l'IRS et notifiqués formalment**. Aquí s'obre el debat sobre la late-filing penalty del 5472: oficialment continuen sent 25.000 USD, però la pràctica consolidada és que **la presentació tardana espontània amb reasonable cause** obre porta a l'**abatement**. És on tanquem més casos a sanció zero.
+Te'n vas adonar, vas presentar tard, però **abans que l'IRS et notifiqués formalment**. Aquí s'obre el debat sobre la late-filing penalty del 5472: oficialment continuen sent 25.000 USD, però la pràctica consolidada és que **la presentació tardana espontània amb reasonable cause** obre porta a l'**abatement**. És on tanquem més casos a sanció zero. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 ### Perfil C: has presentat però malament
 
-Vas presentar 1120 i 5472 però amb dades substancialment incompletes: va faltar una **reportable transaction**, vas posar malament el TIN del foreign related party, vas ometre un préstec del soci a la LLC, no vas declarar una capital contribution. La regla 6038A(d) és estricta: una **declaració substancialment incompleta equival a no presentació**, mateixa sanció. Bona notícia: la correcció amistosa amb explicació escrita es resol en general millor que les dues anteriors.
+Vas presentar 1120 i 5472 però amb dades substancialment incompletes: va faltar una **reportable transaction**, vas posar malament el TIN del foreign related party, vas ometre un préstec del soci a la LLC, no vas declarar una capital contribution. La regla 6038A(d) és estricta: una **declaració substancialment incompleta equival a no presentació**, mateixa sanció. Bona notícia: la correcció amistosa amb explicació escrita es resol en general millor que les dues anteriors. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 ### Què és realment una "reportable transaction"
 
 Aquesta és la causa número u de Form 5472 tècnicament mal presentats. Una **reportable transaction** és qualsevol moviment monetari o no monetari entre la LLC i el seu foreign related party (tu, en la majoria de casos), incloent coses que la gent no associa a "transacció":
@@ -58,7 +58,7 @@ Convé tenir mapejat què passa quan la maquinària s'activa, perquè cada pas t
 
 1. **CP15 / CP215 (notice of penalty).** Notificació de la sanció inicial de 25.000 USD per formulari.
 2. **Termini de resposta (~30 dies).** Decideixes pagar, demanar abatement per reasonable cause, discutir el càlcul o escalar a l'Office of Appeals.
-3. **Examen ampliat.** Si la resposta no convenç, l'IRS sol obrir examen sobre anys addicionals. On hi havia una sanció n'apareixen tres.
+3. **Examen ampliat.** Si la resposta no convenç, l'IRS sol obrir examen sobre anys addicionals. On hi havia una sanció n'apareixen tres. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 4. **90 dies després de notificació formal.** Si el formulari no s'ha presentat i la situació no s'ha resolt, arrenca el rellotge dels **25.000 USD per cada 30 dies addicionals**.
 5. **Liquidació final + interessos.** Un cop fixada, interessos fins al pagament.
 
@@ -86,7 +86,7 @@ Molta gent confon els **Streamlined Filing Compliance Procedures** (programa per
 
 - **Delinquent international information return submission.** Procediment estàndard per presentar tard declaracions informatives internacionals amb reasonable cause. Ruta habitual dels Perfils A i B.
 - **Voluntary Disclosure Practice.** Només quan hi ha **conducta dolosa** o risc penal. No és el normal en una LLC unipersonal.
-- **Quiet disclosure.** Presentar tard sense explicació. Tècnicament possible, pràcticament desaconsellat: l'IRS ho tracta com a late filing pur i aplica sanció.
+- **Quiet disclosure.** Presentar tard sense explicació. Tècnicament possible, pràcticament desaconsellat: l'IRS ho tracta com a late filing pur i aplica sanció. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 La diferència entre ruta correcta i anar a cegues són, literalment, desenes de milers de USD.
 ## El pla de regularització pas a pas
@@ -97,7 +97,7 @@ Quan arriba un client amb un 5472 fallat, l'ordre de treball és sempre el matei
 2. **Reconstrucció de les reportable transactions** any a any, incloent aportacions, préstecs i distribucions.
 3. **Preparació del paquet**: pro forma 1120 de cada any pendent + 5472 de cada any pendent + reasonable cause statement detallat.
 4. **Enviament per correu certificat** (aquests paquets no van per e-file; adreça operativa: Service Center d'Ogden).
-5. **Pla de resposta anticipat** per a la sanció inicial: esborrany de resposta i terminis preparats abans i tot que arribi l'avís.
+5. **Pla de resposta anticipat** per a la sanció inicial: esborrany de resposta i terminis preparats abans i tot que arribi l'avís. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 6. **Neteja dels adjacents**: <a href="/ca/blog/boi-report-2026-guia-completa-per-a-la-declaracio-fincen">BOI</a>, situació bancària, declaracions al teu país i sobretot <a href="/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real">la checklist anual</a> perquè no torni a passar.
 
 Fet en aquest ordre, en molts casos el resultat realista és **sanció zero o residual**, encara que depèn de fets, documentació i resposta de l'agent de l'IRS. Mal fet: cinc xifres i examen ampliat.
@@ -111,7 +111,7 @@ Per acabar amb el concret, aquests són els errors que a Exentax veiem repetir m
 - Presentar només els darrers anys "per no cridar l'atenció". Si tenies obligació els anteriors, la sanció és viva.
 - Tancar la LLC creient que això esborra l'obligació. **No s'esborra**: la sanció sobreviu a la dissolució fins que prescriu.
 - Canviar de Registered Agent o d'adreça sense actualitzar l'IRS. Les notificacions es perden i els terminis corren.
-- Assumir que el teu país de residència et protegeix. La sanció és de l'IRS contra la LLC; cap conveni bilateral l'esborra.
+- Assumir que el teu país de residència et protegeix. La sanció és de l'IRS contra la LLC; cap conveni bilateral l'esborra. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 ---
 ### Conclusió i pas següent
@@ -173,7 +173,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
+- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.<!-- exentax:execution-v2 -->
 ## Què passa si NO presentes el 5472: com és la multa de l'IRS i com regularitzar
@@ -182,7 +182,7 @@ El 5472 és l'obligació més cara que pot incomplir un propietari de LLC no res
 
 - **La sanció exacta i com s'aplica.** $25.000 per cada 5472 no presentat, no complet o presentat fora de termini (IRC §6038A(d)). Si passats 90 dies des de l'avís de l'IRS continues sense presentar, $25.000 addicionals per cada període de 30 dies, sense tope explícit. La multa NO depèn del revenue de la LLC.
 - **Com s'assabenta l'IRS si no presentes.** Tres vies: intercanvi CRS/FATCA amb el teu país, encreuament amb banc US, auditoria aleatòria. La probabilitat no és zero i és creixent.
-- **Com regularitzar abans que t'obrin expedient.** Filing tardà voluntari del 5472 + 1120 + carta de "reasonable cause". El programa First-Time Penalty Abatement pot eliminar totalment la multa.
+- **Com regularitzar abans que t'obrin expedient.** Filing tardà voluntari del 5472 + 1120 + carta de "reasonable cause". El programa First-Time Penalty Abatement pot eliminar totalment la multa. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 - **Com regularitzar després d'avís de l'IRS.** 30 dies per respondre: presentació immediata, pagament sota protesta, sol·licitud formal d'abatement. 4-6 mesos. Èxit en first-time + reasonable cause: 60-80%.
 
 ### El que més ens pregunten
@@ -198,11 +198,10 @@ A Exentax portem regularitzacions de 5472 endarrerits.
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
-
 <!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
 ## Per què la sanció del Form 5472 escala més de pressa que altres presentacions tardanes
 
-La sanció del Form 5472 té una estructura que escala més de pressa que la majoria d'altres presentacions tardanes, i la raó rau en el paper del formulari dins del règim d'informació nord-americà més ampli. El formulari està pensat per donar a l'IRS una visió neta de les operacions entre parts relacionades amb titulars estrangers, i el règim sancionador reflecteix quant central és aquesta visibilitat per al sistema, i no la complexitat del formulari mateix. L'import de partida és fix per formulari i any i s'aplica independentment que hi hagi impost a pagar, i pot agreujar-se quan els avisos no es tracten dins de les finestres legals.
+La sanció del Form 5472 té una estructura que escala més de pressa que la majoria d'altres presentacions tardanes, i la raó rau en el paper del formulari dins del règim d'informació nord-americà més ampli. El formulari està pensat per donar a l'IRS una visió neta de les operacions entre parts relacionades amb titulars estrangers, i el règim sancionador reflecteix quant central és aquesta visibilitat per al sistema, i no la complexitat del formulari mateix. L'import de partida és fix per formulari i any i s'aplica independentment que hi hagi impost a pagar, i pot agreujar-se quan els avisos no es tracten dins de les finestres legals. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 Dos punts pràctics eliminen la major part de la fricció. Primer, existeixen criteris d'abatement quan hi ha causa raonable, i una narrativa calmament redactada amb suport en els recordatoris d'agenda originals, la carta d'encàrrec i la data de primera presentació pesa en general més que una carta més llarga escrita sota pressió més tard. Segon, la mesura preventiva més neta és alinear el calendari d'avisos amb el cicle federal d'extensió i mantenir un únic fitxer de treball per any que ja contingui la llista d'operacions entre parts relacionades, de manera que el formulari en si sigui només el pas final de formatació.
 <!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
@@ -218,11 +217,11 @@ Dos punts pràctics eliminen la major part de la fricció. Primer, existeixen cr
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
   ## El que una LLC NO fa
 

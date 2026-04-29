@@ -109,7 +109,7 @@ En Exentax te ayudamos a calcular el porcentaje correcto y a documentarlo para q
 Aquí la línea es clara:
 
 - **Gastos personales**: ropa (a menos que sea uniforme de trabajo), comida diaria, entretenimiento personal, Netflix, Spotify personal
-- **Multas y sanciones**: multas de tráfico, sanciones del IRS
+- **Multas y sanciones**: multas de tráfico, sanciones del IRS. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 - **Contribuciones políticas**
 - **Gastos suntuarios** sin justificación de negocio, ese reloj de lujo no es un "gasto de representación"
 - **Retiros personales** (Owner's Draws), no son gastos, son distribuciones de beneficios
@@ -189,16 +189,18 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 <!-- exentax:execution-v2 -->
 ## Gastos deducibles en una LLC: qué entra de verdad y qué te jugarás en una inspección
+
+Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 La regla del IRS es engañosamente simple: "ordinary and necessary" para tu actividad. Pero el detalle está en la documentación, el método de pago y la coherencia. Esto es lo que sí deduce una LLC operada limpiamente - y los errores que vemos casi cada semana.
 
 - **Lo claramente deducible.** Software (Notion, Figma, Stripe fees, hosting), publicidad (Meta, Google, LinkedIn), subcontratistas con W-9 o W-8BEN, comisiones de plataformas, suscripciones profesionales, equipo informático con uso 100% empresarial, contabilidad y asesoría. Pago desde la cuenta de la LLC, factura a nombre de la LLC, archivada en Drive o Google Drive con tag por categoría.
 - **Lo deducible con condiciones.** Coworking y oficina (sí, totalmente), home office (porcentaje del espacio dedicado, requiere documentación), viajes con propósito de negocio (billete, hotel, dietas razonables; el "yo y mi familia en Bali" no), formación específica de tu actividad, comidas con clientes (50% deducible federal).
-- **Lo problemático sin sustancia.** Coche personal, ropa que no es uniforme, gastos personales mezclados, "asesoría" pagada a familiares sin servicio real ni W-9, viajes sin agenda documentada. La LLC es transparente para el IRS y opaca para el banco - pero ambos cruzan datos en una inspección.
+- **Lo problemático sin sustancia.** Coche personal, ropa que no es uniforme, gastos personales mezclados, "asesoría" pagada a familiares sin servicio real ni W-9, viajes sin agenda documentada. La LLC es transparente para el IRS y opaca para el banco - pero ambos cruzan datos en una inspección. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 - **Disregarded vs C-Corp: el matiz.** Si tu LLC es disregarded (single-member), los gastos reducen tu Schedule C / income atribuido. Si elegiste C-Corp con form 8832, reducen el beneficio corporativo gravado al 21% federal. El control documental es idéntico en ambos casos.
 
 ### Lo que más nos preguntan
@@ -216,15 +218,14 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
   ## Lo que NO hace una LLC
 

@@ -11,7 +11,7 @@ A Espanya, els guanys per criptomonedes tributen com a guanys patrimonials a la 
 - Més de 300.000€: **28%**
 
 Això s'aplica a cada operació que generi guany: venda de cripto per fiat, intercanvi entre criptomonedes (swap), pagament de béns o serveis amb cripto, i staking rewards.
-## El Model 721: declaració de criptoactius a l'estranger Des de la darrera reforma, si tens criptomonedes en exchanges fora d'Espanya per valor superior a **50.000€ a 31 de desembre**, has de presentar el Model 721 abans del 31 de març de l'any següent. La no presentació pot comportar sancions importants.
+## El Model 721: declaració de criptoactius a l'estranger Des de la darrera reforma, si tens criptomonedes en exchanges fora d'Espanya per valor superior a **50.000€ a 31 de desembre**, has de presentar el Model 721 abans del 31 de març de l'any següent. La no presentació pot comportar sancions importants. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 ## Com ajuda una LLC al trading de criptomonedes?
 
 ### Avantatges d'operar trading a través d'una LLC
@@ -41,7 +41,7 @@ La LLC d'un sol membre no resident (Disregarded Entity) no paga impost federal a
 2. **Ignorar els airdrops i staking rewards.** Tenen valor en el moment de recepció i tributen com a renda.
 3. **No portar registre de preus d'adquisició.** Sense un historial de compres, no pots calcular correctament els guanys/pèrdues.
 4. **Creure que DeFi és "invisible" per a les autoritats fiscals.** Les operacions a blockchain són públiques i traçables. Les eines d'anàlisi que usen les autoritats fiscals cada cop són més sofisticades.
-5. **No presentar el Model 721.** Si tens més de 50.000€ en crypto en exchanges estrangers, la no declaració té sancions.
+5. **No presentar el Model 721.** Si tens més de 50.000€ en crypto en exchanges estrangers, la no declaració té sancions. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 ### Avantatges addicionals de la LLC per a traders
 
 - **Accés a comptes bancaris en USD**: Mercury et permet rebre i enviar fons sense comissions de wire ($0 en wires internacionals i domèstics). Els teus fons estan custodiats a Column NA amb assegurança FDIC fins a $250K.

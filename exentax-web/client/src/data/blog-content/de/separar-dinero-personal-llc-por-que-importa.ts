@@ -125,7 +125,7 @@ Die Commingling of Funds, die Vermischung persönlicher und geschäftlicher Geld
 
 ### 1. Schwierigkeit bei der Rechtfertigung abzugsfähiger Ausgaben
 
-Wenn Sie persönliche und geschäftliche Ausgaben auf demselben Konto mischen, wird es extrem schwierig nachzuweisen, welche davon legitime Geschäftsausgaben sind. Im Falle einer Prüfung kann der IRS Abzüge ablehnen, die Sie nicht mit klarer Dokumentation belegen können.
+Wenn Sie persönliche und geschäftliche Ausgaben auf demselben Konto mischen, wird es extrem schwierig nachzuweisen, welche davon legitime Geschäftsausgaben sind. Im Falle einer Prüfung kann der IRS Abzüge ablehnen, die Sie nicht mit klarer Dokumentation belegen können. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 ### 2. Probleme mit dem Form 5472
 
@@ -269,7 +269,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 <!-- exentax:lote16-native-v1:separar-dinero-personal-llc-por-que-importa-de -->
 ## Warum die Trennung von Privatvermögen und LLC-Vermögen wichtiger ist, als es zunächst scheint
 
-Die Trennung von Privatvermögen und LLC-Vermögen ist nicht nur eine Frage buchhalterischer Ordnung; sie ist das Bauteil, das die Haftungsbegrenzung selbst trägt. Wenn ein Konto unterschiedslos für private und operative Ausgaben verwendet wird, gerät das Argument, dass die Gesellschaft eine vom Mitglied getrennte Einheit ist, genau in dem Moment ins Wanken, in dem man sich am stärksten darauf stützen muss: bei einer Auseinandersetzung mit einem Lieferanten, bei einer Rückfrage der Bank oder bei einer Prüfung der Steuerverwaltung.
+Die Trennung von Privatvermögen und LLC-Vermögen ist nicht nur eine Frage buchhalterischer Ordnung; sie ist das Bauteil, das die Haftungsbegrenzung selbst trägt. Wenn ein Konto unterschiedslos für private und operative Ausgaben verwendet wird, gerät das Argument, dass die Gesellschaft eine vom Mitglied getrennte Einheit ist, genau in dem Moment ins Wanken, in dem man sich am stärksten darauf stützen muss: bei einer Auseinandersetzung mit einem Lieferanten, bei einer Rückfrage der Bank oder bei einer Prüfung der Steuerverwaltung. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
 Die Disziplin, die diesen Punkt löst, ist nicht spektakulär und verlangt keine ausgeklügelten Werkzeuge. Sie besteht aus drei einfachen Gewohnheiten: eine Karte, die ausschliesslich der LLC zugeordnet ist, Überweisungen, die als an das Mitglied gerichtet identifiziert sind, sobald es sich um Ausschüttungen handelt, und eine Buchhaltung, die jede Bewegung mit ihrer Gegenposition spiegelt. Diese drei Gewohnheiten kosten nach der Einrichtung wenig Aufwand und erzeugen über die Zeit das einzige Ergebnis, das wirklich zählt: eine Dokumentation, die sich ohne Mehrdeutigkeit lesen lässt, wenn jemand von aussen sie zur Hand nimmt.
 <!-- /exentax:lote16-native-v1:separar-dinero-personal-llc-por-que-importa-de -->

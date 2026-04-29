@@ -46,7 +46,7 @@ El Certificate of Formation confirma que la teva LLC va ser registrada correctam
 **A Exentax:** El sol·licitem quan el necessites i te l'enviem.
 ### 5. BOI Report Confirmation
 
-El BOI Report (Beneficial Ownership Information) és una declaració davant <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> que identifica els propietaris reals de la LLC. Des de l'1 de gener de 2024, totes les LLCs han de presentar-lo (encara que FinCEN ha suspès temporalment l'enforcement de sancions).
+El BOI Report (Beneficial Ownership Information) és una declaració davant <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> que identifica els propietaris reals de la LLC. Des de l'1 de gener de 2024, totes les LLCs han de presentar-lo (encara que FinCEN ha suspès temporalment l'enforcement de sancions). Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 **Quan el necessites?** Dins dels 30 dies posteriors a la constitució (per a LLCs noves a partir del gener de 2025). Després, cada vegada que hi hagi canvis en la propietat.
 
@@ -150,7 +150,7 @@ Les obligacions davant la FinCEN i l'IRS han evolucionat els darrers anys; aques
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.<!-- exentax:execution-v2 -->
 ## L'expedient viu de la teva LLC: què guardes i per què importa
 
-La LLC no se sosté amb la constitució del primer dia: se sosté amb un expedient que creix i s'actualitza. Quan arriba el banc amb KYC reforçat, una passarel·la amb verificació, una inspecció o un comprador potencial, es demana paperassa específica - i la diferència entre tenir-la en una hora o en tres setmanes decideix tancaments de compte i bloquejos de cobraments.
+La LLC no se sosté amb la constitució del primer dia: se sosté amb un expedient que creix i s'actualitza. Quan arriba el banc amb KYC reforçat, una passarel·la amb verificació, una inspecció o un comprador potencial, es demana paperassa específica - i la diferència entre tenir-la en una hora o en tres setmanes decideix tancaments de compte i bloquejos de cobraments. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 - **Bloc constitutiu.** Articles of Organization segellats pel Secretary of State, Operating Agreement signat per tots els membres, EIN Confirmation Letter (CP-575 o 147C), Certificate of Good Standing recent i Registered Agent designation actualitzada. Sense aquests cinc documents no obres un compte seriós ni signes un contracte gran.
 - **Bloc identitat i compliance.** ITIN o SSN de l'owner si s'aplica, acknowledgment del BOI Report FinCEN (amb TC i prova), passaport vigent, comprovant de domicili recent i últim Annual Report estatal amb franchise tax pagada. Una sola peça desactualitzada i el banc congela l'onboarding.

@@ -92,7 +92,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 Die zweite Runde der Mittelherkunftsprüfung liest sich ruhiger, wenn sie als geordneter Vorgang und nicht als Krise behandelt wird. Die Bank fordert in der zweiten Runde in der Regel nicht weniger, sondern besser strukturierte Belege: Verträge, Rechnungen, Kontoauszüge und eine kurze schriftliche Erläuterung der Bewegungen, alle aufeinander bezogen.
 
-Diese Lesart vermeidet, dass die Antwort hektisch zusammengestellt wird, und erhöht die Wahrscheinlichkeit, dass die Bank die Prüfung in dieser Runde abschließt, ohne eine dritte zu öffnen.
+Diese Lesart vermeidet, dass die Antwort hektisch zusammengestellt wird, und erhöht die Wahrscheinlichkeit, dass die Bank die Prüfung in dieser Runde abschließt, ohne eine dritte zu öffnen. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 ## Wie sich die zweite Runde dokumentarisch geordnet beantworten lässt
 
@@ -244,7 +244,7 @@ Mandant behielt seinen operativen Rhythmus.
 - Persönliche und geschäftliche Unterlagen im selben Upload mischen.
   Jeder Upload sollte ein straffes, benanntes Bündel sein.
 - Künftiges Verhalten versprechen und dann das Gegenteil tun. Banken
-  lesen die Akte erneut; Konsistenz verkürzt die nächste Prüfung.
+  lesen die Akte erneut; Konsistenz verkürzt die nächste Prüfung. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 ## Vorlage für ein einseitiges Mittelherkunfts-Papier
 

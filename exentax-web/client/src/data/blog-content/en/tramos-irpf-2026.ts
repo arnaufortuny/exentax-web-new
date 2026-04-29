@@ -28,7 +28,6 @@ Three mistakes every year make taxpayers with very ordinary profiles overpay. Fi
 If your general base steadily exceeds 60,000 euros and your income source is a business activity you can invoice from a company, you should compare self-employed IRPF (with a 45-47% marginal rate) against Corporate Tax (Law 7/2024: microenterprises with turnover <€1M pay 19% on the first €50,000 and 21% on the rest in 2026; small companies €1-10M pay 23%; general rate 25%) plus the cost of repatriating profits as a dividend. For 100% digital profiles with international clients, it is also worth modelling the <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">US LLC alternative</a>, which in many cases reduces the combined burden compared to remaining a Spanish autónomo at the top IRPF brackets.
 To verify rates, consult the <a href="https://sede.agenciatributaria.gob.es/">Spanish Tax Agency portal</a> and <a href="https://www.boe.es/">Law 35/2006 on IRPF in the BOE</a>. Real tax planning combines knowing the schedule, ordering your income between general and savings bases, exhausting legitimate deductions and, when the numbers justify it, weighing a structural change.
 
-
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
 
 <!-- exentax:execution-v2 -->
@@ -48,7 +47,6 @@ What we see every week in the files that reach us is the same pattern: the quest
 
 If you want to move from doubt to plan, book 30 minutes with Exentax and we walk out of the call with the numbers closed and an operational calendar.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
@@ -114,7 +112,6 @@ Before going further, put numbers on your case: the <a href="/en#calculadora">Ex
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
 ### Why the regional layer changes the conversation

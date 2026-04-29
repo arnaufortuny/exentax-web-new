@@ -2,7 +2,7 @@ export default `
 
 <p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos</a>.</p>
 
-Tres movimientos sospechosos entre tu cuenta personal y la de tu LLC bastan para que un juez estadounidense levante el velo corporativo (*pierce the corporate veil*) y deje tu patrimonio personal expuesto. Y la AEAT, en paralelo, puede recalificar esos flujos como rendimientos personales no declarados, con sanción del 50-150 % de la cuota dejada de ingresar. Por eso mantener una separación estricta entre tu dinero personal y el de tu empresa es la primera práctica que blinda la <a href="/es/blog/llc-seguridad-juridica-proteccion-patrimonial">protección patrimonial</a> que tu LLC te ofrece y, además, simplifica toda tu gestión financiera.
+Tres movimientos sospechosos entre tu cuenta personal y la de tu LLC bastan para que un juez estadounidense levante el velo corporativo (*pierce the corporate veil*) y deje tu patrimonio personal expuesto. Y la AEAT, en paralelo, puede recalificar esos flujos como rendimientos personales no declarados, con sanción del 50-150 % de la cuota dejada de ingresar. Por eso mantener una separación estricta entre tu dinero personal y el de tu empresa es la primera práctica que blinda la <a href="/es/blog/llc-seguridad-juridica-proteccion-patrimonial">protección patrimonial</a> que tu LLC te ofrece y, además, simplifica toda tu gestión financiera. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 En este artículo te explicamos por qué es tan importante, qué consecuencias tiene mezclar fondos, y cómo implementar una separación financiera sólida desde el primer día.
 
@@ -142,7 +142,7 @@ La commingling of funds, mezcla de fondos personales y empresariales, tiene cons
 
 ### 1. Dificultad para justificar gastos deducibles
 
-Si mezclas gastos personales y empresariales en una misma cuenta, se vuelve extremadamente difícil demostrar cuáles son gastos legítimos del negocio. En caso de auditoría, el IRS puede rechazar deducciones que no puedas justificar con documentación clara.
+Si mezclas gastos personales y empresariales en una misma cuenta, se vuelve extremadamente difícil demostrar cuáles son gastos legítimos del negocio. En caso de auditoría, el IRS puede rechazar deducciones que no puedas justificar con documentación clara. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 
 ### 2. Problemas con el Form 5472
 
@@ -282,7 +282,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 <!-- exentax:execution-v2 -->
 ## Separar dinero personal y de la LLC: por qué importa más de lo que crees
@@ -292,7 +292,7 @@ Mezclar el dinero personal con el de la LLC es el error operativo más común y,
 - **Pierdes la responsabilidad limitada (piercing the corporate veil).** Si un acreedor demanda a tu LLC y demuestra que la usabas como cuenta personal (commingling de fondos), un juez US puede "perforar el velo corporativo" y permitir que cobre directamente de tu patrimonio personal. La LLC deja de protegerte. La doctrina existe en todos los estados US y se aplica más a menudo de lo que parece.
 - **Bookkeeping y compliance fiscal se vuelven inviables.** Cada movimiento mezclado obliga a reclasificar a posteriori si fue gasto deducible, distribución al socio, préstamo, o reembolso. Multiplica horas de contable, eleva el coste mensual de bookkeeping y aumenta el riesgo de error en el 5472. En inspección, una contabilidad sucia se interpreta contra el contribuyente.
 - **El banco te cierra la cuenta antes o después.** Mercury, Wise, Relay tienen políticas explícitas: la cuenta empresarial es para actividad empresarial. Compras personales recurrentes (supermercado, gasolina, Netflix, transferencias a familia sin concepto) activan el sistema AML como uso indebido de cuenta empresarial. El cierre llega sin previo aviso.
-- **Tu propia trazabilidad fiscal en residencia se complica.** España (Modelo 720, IRPF) requiere identificar qué de la LLC es atribución de renta y qué es patrimonio empresarial. Si no separaste, tributas peor por incertidumbre del calificador y, en inspección, se asume lo más caro para ti.
+- **Tu propia trazabilidad fiscal en residencia se complica.** España (Modelo 720, IRPF) requiere identificar qué de la LLC es atribución de renta y qué es patrimonio empresarial. Si no separaste, tributas peor por incertidumbre del calificador y, en inspección, se asume lo más caro para ti. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 ### Cómo se separa correctamente
 

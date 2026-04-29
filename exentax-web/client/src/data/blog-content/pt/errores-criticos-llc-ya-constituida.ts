@@ -17,7 +17,7 @@ Uma Single-Member LLC com dono não residente **não paga imposto federal nos EU
 
 Realidade: se és residente fiscal em Portugal, no Brasil, em Espanha, em França ou em quase qualquer país europeu ou latino-americano, os rendimentos da LLC são imputados à tua declaração pessoal. Não os declarar não é "optimização", é **omissão**, e com CRS/DAC operacionais atualmente, vem ao de cima.
 
-**Consequência típica:** regularização plurianual + agravamentos + juros + provável sanção tributária.
+**Consequência típica:** regularização plurianual + agravamentos + juros + provável sanção tributária. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 
 ### Erro 2. Não apresentar Form 5472 (ou nem saber que existe)
 
@@ -55,7 +55,7 @@ A doutrina administrativa espanhola (entre outras, a linha consolidada em <a hre
 
 Dizer ao teu contabilista "não declares nada que tributa nos EUA" é a receita para uma regularização dolorosa quando entrarem os cruzamentos CRS/DAC.
 
-**Consequência típica:** liquidação adicional plurianual + agravamento + juros + sanção.
+**Consequência típica:** liquidação adicional plurianual + agravamento + juros + sanção. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
 ### Erro 7. Residência fiscal mal indicada em Wise, Mercury ou brokers
 
@@ -63,7 +63,7 @@ Quando abres conta em Wise, Mercury, Relay ou Interactive Brokers, perguntam a t
 
 Quando os dados são cruzados anos depois, salta uma **incoerência automática**: o teu país detecta contas no estrangeiro não declaradas.
 
-**Consequência típica:** cruzamento automático de informação com a Autoridade Tributária + abertura de procedimento + sanção específica por contas/activos no estrangeiro não declarados.
+**Consequência típica:** cruzamento automático de informação com a Autoridade Tributária + abertura de procedimento + sanção específica por contas/activos no estrangeiro não declarados. Na Exentax fechámos sem sanção clientes exatamente nesta situação. Falar cedo compensa — e poupa-te cinco dígitos.
 
 ### Erro 8. Misturar a LLC com cripto sem entender CRS/DAC8
 
@@ -71,7 +71,7 @@ Se operas cripto via exchanges centralizados (Coinbase, Kraken, Binance), atualm
 
 E se canalizas cripto pela LLC misturando com autocustódia, a cadeia de eventos tributáveis torna-se quase impossível de reconstruir a posteriori. O custo de não documentar bem é **tributar pelo bruto**, sem deduzir custo de aquisição.
 
-**Consequência típica:** liquidação sobre o valor bruto + multas + horas de reconstrução contabilística a preço de gabinete.
+**Consequência típica:** liquidação sobre o valor bruto + multas + horas de reconstrução contabilística a preço de gabinete. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 ### Erro 9. Não ter Operating Agreement assinado
 
@@ -204,7 +204,7 @@ As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado
 ### Pontos-chave
 
 - **BOI / Corporate Transparency Act: a tua LLC NÃO está obrigada (uma vantagem competitiva).** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida às "foreign reporting companies"** (entidades constituídas FORA dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA detida por um não residente NÃO submete o BOI Report**: uma formalidade a menos no calendário, menos burocracia e uma estrutura mais limpa do que nunca. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo. O estado regulatório pode mudar: **monitorizamos a FinCEN.gov em cada submissão** e, se a obrigação voltar, gerimos sem custo adicional. Estado atual verificável em [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS. Na Exentax fechámos sem sanção clientes exatamente nesta situação. Falar cedo compensa — e poupa-te cinco dígitos.
 - **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
 ### Lembrete prático
@@ -219,7 +219,7 @@ Os erros que vemos repetir-se em LLC já constituídas nos últimos anos têm pa
 - **Operar sem Operating Agreement assinado.** Bancos e processadores pedem-no em KYC crescente desde janeiro de 2024. Sem ele, as decisões internas (mudança de morada, admissão de sócio) não têm base documental. Assina mesmo como SMLLC.
 - **Não atualizar BOI quando aplica.** LLC *foreign reporting company* + mudança de morada/documento/beneficiário sem atualização em 30 dias: multa civil de 591 USD/dia. A interface de [o portal oficial da FinCEN para o BOI](https://boiefiling.fincen.gov) demora 10 minutos.
 - **Esquecer o 5472.** O erro mais caro: 25.000 USD por formulário e ano. Causa mais comum: ter tido qualquer movimento entre ti e a LLC sem saber que dispara a obrigação.
-- **Morada desatualizada no Secretary of State.** Correspondência do IRS e do estado perde-se, multas acumulam-se e chegam por carta registada a morada caducada.
+- **Morada desatualizada no Secretary of State.** Correspondência do IRS e do estado perde-se, multas acumulam-se e chegam por carta registada a morada caducada. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
 ### Triagem em 30 minutos
 
@@ -232,7 +232,7 @@ Os erros que vemos repetir-se em LLC já constituídas nos últimos anos têm pa
 
 **Estes erros podem ser sanados sem consultor?** Operating Agreement e BOI sim. 5472 atrasado convém sempre com consultor para construir bem a *reasonable cause*.
 
-**Erro mais subestimado?** Não documentar a origem dos fundos ao injetar capital. Em KYC bancário de 2ª volta, sem comprovativo o bloqueio dura semanas.
+**Erro mais subestimado?** Não documentar a origem dos fundos ao injetar capital. Em KYC bancário de 2ª volta, sem comprovativo o bloqueio dura semanas. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
 **O IRS deteta os erros automaticamente?** Cada vez mais. O cruzamento 1099/1042-S/Form 5472/CRS está mais automatizado atualmente que em 2020.
 

@@ -116,8 +116,6 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
 
-
-
 ## Cas 4 : portefeuille mixte (actions IBKR + participation LLC + crypto)
 
 C'est le profil le plus fréquent que nous voyons dans notre pratique francophone : un freelance qui a construit une activité stable via une LLC américaine, accumulé quelques positions IBKR sur plusieurs années et ajouté une allocation crypto hors LLC. Quand le départ vers Andorre, le Portugal ou une destination hors UE devient sérieux, trois couches d'exit tax demandent chacune une lecture propre.
@@ -132,7 +130,7 @@ Les positions IBKR sont des actifs financiers personnels et déclenchent l'artic
 
 **Erreur 3 : déposer la demande de report trop tard.** Le départ vers UE/EEE ouvre un report automatique ; vers hors UE, il faut une demande conditionnelle avec sa propre date limite. La manquer revient à payer la plus-value latente cash dans la fenêtre standard.
 
-**Erreur 4 : oublier le Modelo 720 l'année du départ.** L'obligation déclarative continue sur la fraction d'année de résidence espagnole. La sauter ajoute des pénalités à un processus déjà chargé.
+**Erreur 4 : oublier le Modelo 720 l'année du départ.** L'obligation déclarative continue sur la fraction d'année de résidence espagnole. La sauter ajoute des pénalités à un processus déjà chargé. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 
 ## Calendrier pratique 12-6-3 mois avant le départ
 
@@ -141,8 +139,6 @@ Les positions IBKR sont des actifs financiers personnels et déclenchent l'artic
 **T moins 6 mois.** Décision sur le report (UE/EEE automatique vs hors UE conditionnel). Documentation appuyant la valorisation de la participation à la LLC : 24 mois de relevés Mercury ou Wise, historique Form 5472, liste des contrats. Programmation de l'onboarding côté destination (NIF, banque, permis de résidence).
 
 **T moins 3 mois.** Instantané final des valeurs au jour du changement de résidence. Rédaction de la demande de report si applicable. Coordination du Modelo 100 de l'année partielle avec votre conseiller espagnol et planification du premier Modelo 720 dans le nouveau pays.
-
-
 
 ### Une phrase que nous répétons à chaque client avant le départ
 
@@ -255,7 +251,6 @@ C'est l'un des points que nous auditons en premier lorsque nous reprenons un dos
   Pour une LLC américaine **détenue par un résident français**, deux scénarios se croisent: si la LLC est qualifiée de société de personnes au sens de l'article 8 du CGI, l'article 167 bis ne s'applique pas en tant que tel, mais les articles 244 bis B et 244 bis A peuvent s'appliquer aux cessions ultérieures. Si la LLC a opté pour la qualification de société de capitaux (Form 8832 en C-Corp), l'article 167 bis s'applique pleinement.
 
   Pour les **cryptoactifs détenus via Interactive Brokers ou un wallet personnel**, la fiscalité française les traite comme des biens meubles incorporels relevant du **régime des plus-values sur actifs numériques** de l'**article 150 VH bis du CGI** (taux forfaitaire de **30 %** pour les cessions occasionnelles, ou barème progressif sur option). Le transfert de résidence ne déclenche pas en lui-même l'imposition des cryptoactifs, mais l'obligation déclarative annuelle des comptes ouverts à l'étranger sur Interactive Brokers reste due via le **formulaire 3916-bis** tant que le contribuable est résident français.
-
 
 <!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-fr -->
 ## Comment l'exit tax interagit avec les actifs détenus chez un broker étranger

@@ -30,7 +30,7 @@ Avant la fiscalité, il existe un plancher de coûts incompressibles:
 - **Annual Return** auprès du Companies Registry: 105 HKD.
 - **Company Secretary** résidant: 600 à 1 500 USD par an.
 - **Siège social** enregistré: 300 à 800 USD par an.
-- **Audit obligatoire** par un Hong Kong CPA: à partir de 1 500 USD pour les petites sociétés, souvent 2 500 à 5 000 USD.
+- **Audit obligatoire** par un Hong Kong CPA: à partir de 1 500 USD pour les petites sociétés, souvent 2 500 à 5 000 USD. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 - **Profits Tax Return** annuel: gestion par un cabinet entre 500 et 1 500 USD.
 - **Offshore claim** (si demandée): 2 000 à 5 000 USD supplémentaires d'honoraires la première fois.
 
@@ -61,7 +61,7 @@ Pour le profil habituel d'Exentax (freelance, agence, e-commerce, SaaS, créateu
 - **Coût annuel**: 500-800 USD contre 4 000-7 000 USD à Hong Kong.
 - **Banque**: Mercury, Wise, Wallester, Slash, Relay, ouvertes en ligne et opérant en USD dès le premier jour.
 - **Réputation**: aucun client ou fournisseur ne tique sur une société américaine.
-- **Sans audit obligatoire**: la LLC n'a pas à auditer ses comptes. Un Form 5472 annuel suffit.
+- **Sans audit obligatoire**: la LLC n'a pas à auditer ses comptes. Un Form 5472 annuel suffit. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 Y a-t-il des cas où Hong Kong garde du sens? Oui: sociétés avec présence opérationnelle réelle en Asie, commerce international avec la Chine continentale, fonds ou structures complexes avec accompagnement dédié. Pour le reste, la réponse honnête est non.
 ### Risques réels à connaître
@@ -69,7 +69,7 @@ Y a-t-il des cas où Hong Kong garde du sens? Oui: sociétés avec présence op�
 Au-delà du coût, les risques pratiques:
 
 - **Fermeture bancaire sans préavis**: beaucoup de titulaires racontent des fermetures unilatérales avec 30 jours de délai et blocage de fonds.
-- **Audit obligatoire**: si vous ne le présentez pas, l'IRD inflige des amendes et le Companies Registry peut demander la dissolution.
+- **Audit obligatoire**: si vous ne le présentez pas, l'IRD inflige des amendes et le Companies Registry peut demander la dissolution. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 - **Strike-off involontaire**: le non-respect des Annual Returns peut entraîner le striking-off et la perte de la société sans possibilité de récupérer les fonds.
 - **Durcissement BEPS Pillar Two**: ces dernières années, les multinationales moyennes peuvent voir l'avantage territorial érodé.
 ### Cas typiques où cela s'applique
@@ -94,7 +94,7 @@ C'est de plus en plus difficile. HSBC, Hang Seng et Standard Chartered exigent u
 
 **Combien coûte le maintien annuel d'une Hong Kong Limited?**
 
-Entre 2 500 et 5 000 USD: secrétaire d'entreprise, bureau virtuel, audit obligatoire et déclaration fiscale. Un ordre de grandeur au-dessus d'une LLC américaine.
+Entre 2 500 et 5 000 USD: secrétaire d'entreprise, bureau virtuel, audit obligatoire et déclaration fiscale. Un ordre de grandeur au-dessus d'une LLC américaine. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 
 **Est-ce utile pour vendre sur les marchés occidentaux?**
 
@@ -171,7 +171,7 @@ Hong Kong se vend encore comme "0% sur revenus de source étrangère", mais la p
 
 ### Ce qu'on nous demande le plus
 
-**Une HK Limited vaut-elle encore la peine?** Pour profil spécifique (clients asiatiques, présence locale, volume >500k), oui; pour digital européen générique, presque jamais. Coût d'entretien (audit obligatoire, secrétaire corporatif, registered office): 6-12k annuels minimum.
+**Une HK Limited vaut-elle encore la peine?** Pour profil spécifique (clients asiatiques, présence locale, volume >500k), oui; pour digital européen générique, presque jamais. Coût d'entretien (audit obligatoire, secrétaire corporatif, registered office): 6-12k annuels minimum. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 
 **Puis-je ouvrir HSBC HK sans voyager?** En pratique non pour non-résidents sans bureau. La configuration réaliste: Statrys ou Airwallex (fintech) plutôt que banque traditionnelle, avec onboarding documentaire lourd.
 
@@ -185,7 +185,7 @@ Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noo
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
+- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
 ### Rappel pratique

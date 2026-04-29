@@ -1,4 +1,4 @@
-export default `Molts clients catalans arriben a nosaltres amb LLCs obertes fa 18 mesos al LegalZoom i mai més tocades. Mala notícia: una LLC sense Annual Report, sense 5472 i sense BOI no està „dormint”, està en infracció, amb sancions de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> que comencen a 25.000 $.
+export default `Molts clients catalans arriben a nosaltres amb LLCs obertes fa 18 mesos al LegalZoom i mai més tocades. Mala notícia: una LLC sense Annual Report, sense 5472 i sense BOI no està „dormint”, està en infracció, amb sancions de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> que comencen a 25.000 $. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 Però és important que entenguis què es fa i quan. Així que anem a explicar-t'ho tot amb detall. terminis, costos, i el calendari complet.
 
@@ -60,7 +60,7 @@ El teu Registered Agent ha d'estar actiu permanentment. és requisit legal a tot
 - L'estat envia avisos legals que ningú rep
 - Pots perdre el Good Standing sense assabentar-te'n
 - Si et demanden, no reps la notificació i poden obtenir un veredicte en contra teva (default judgment)
-- Multes i possible dissolució administrativa
+- Multes i possible dissolució administrativa. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 **Amb el nostre equip:** El Registered Agent està inclòs en tots els nostres plans. El renovem automàticament cada any. Zero risc que expiri.
 ### BOI Report (si hi ha canvis)
@@ -105,7 +105,7 @@ Anem a ser directes: si ignores el manteniment de la teva LLC, les conseqüènci
 
 1. **Pèrdua de Good Standing**: la teva LLC apareix com "Not in Good Standing" als registres de l'estat
 2. **Mercury pot congelar el teu compte**: les entitats financeres verifiquen periòdicament l'estatus de la LLC
-3. **Sancions de l'IRS** per no presentar el Form 5472
+3. **Sancions de l'IRS** per no presentar el Form 5472. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 4. **Dissolució administrativa**: l'estat pot dissoldre la teva LLC si no compleixes durant un període prolongat
 5. **Pèrdua de protecció patrimonial**: si la teva LLC no està activa, el teu patrimoni personal queda exposat
 
@@ -173,11 +173,11 @@ El manteniment ordenat d'una LLC actualment cap en sis fites a l'any.
 
 - **Gener-març.** Tancament comptable, conciliació Mercury/Wise, recopilació de comprovants 5472. Si vas emetre 1042-S a contractistes estrangers, termini **15 de març de avui**.
 - **Abril.** Venciment **15 d'abril de avui** del Form 5472 + 1120 pro forma de l'exercici 2025. Si no hi arribes, **Form 7004** abans de la mateixa data i el termini passa al **15 d'octubre de avui**.
-- **Resta de l'any.** Renovació de l’**Annual Report estatal** (Wyoming el dia abans de l'aniversari, Delaware **1 de juny**, NM no aplica), renovació del **Registered Agent** (~125 USD/any) i, si la teva LLC és *foreign reporting company*, monitoratge BOI davant de qualsevol canvi (sanció 591 USD/dia).
+- **Resta de l'any.** Renovació de l’**Annual Report estatal** (Wyoming el dia abans de l'aniversari, Delaware **1 de juny**, NM no aplica), renovació del **Registered Agent** (~125 USD/any) i, si la teva LLC és *foreign reporting company*, monitoratge BOI davant de qualsevol canvi (sanció 591 USD/dia). Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 ### Preguntes freqüents avui
 
-**Què passa si em salto l’Annual Report?** L'estat passa l'entitat a *Delinquent* i, després de 60-90 dies, a *Forfeited*. Reactivació possible amb multes. No val la pena.
+**Què passa si em salto l’Annual Report?** L'estat passa l'entitat a *Delinquent* i, després de 60-90 dies, a *Forfeited*. Reactivació possible amb multes. No val la pena. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 **Necessito comptabilitat formal?** Per presentar el 5472 sí, encara que sigui llibre caixa simplificat. Mercury + full de càlcul fins a ~150 k USD/any; per sobre, Quickbooks o Wave.
 

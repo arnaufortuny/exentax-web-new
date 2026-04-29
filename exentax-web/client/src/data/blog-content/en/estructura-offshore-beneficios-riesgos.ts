@@ -35,7 +35,7 @@ Anyone selling offshore as a shortcut to pay nothing is selling something that n
 
 A poorly designed or misused structure can create more problems than benefits:
 
-- **Place of Effective Management (POEM)**: if the company is actually managed from your country of residence, that country can treat it as a local resident and demand corporate tax, interest and penalties.
+- **Place of Effective Management (POEM)**: if the company is actually managed from your country of residence, that country can treat it as a local resident and demand corporate tax, interest and penalties. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 - **Controlled Foreign Company (CFC) rules**: many countries (Spain, France, Germany, Mexico, Argentina) attribute the income of controlled foreign companies if certain requirements are met (ownership percentage, low taxation, passive income).
 - **Bank closures**: jurisdictions perceived as problematic (BVI, Belize, Seychelles) trigger preventive closures at European and US banks.
 - **Disproportionate recurring cost**: a poorly chosen offshore company can consume USD 5,000-15,000 per year in registered offices, agents, mandatory accounting and audits without any real fiscal benefit.
@@ -70,13 +70,13 @@ For freelancers, advisors, digital agencies, SaaS, ecommerce and creators residi
 - Working online banking (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments accessible.
 - Neutral and professional reputation in any market.
-- No mandatory audit.
+- No mandatory audit. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 For more complex profiles (significant wealth, multiple partners, multiple countries), the answer may be a combination of jurisdictions, not a single company.
 ### Typical scenarios where it applies
 
 **Case 1: professional without structure, resident in an <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> country.**
-Start with a properly declared US LLC. Best ratio of cost, benefit and legitimacy. Pure offshore structures add nothing and expose you to serious penalties.
+Start with a properly declared US LLC. Best ratio of cost, benefit and legitimacy. Pure offshore structures add nothing and expose you to serious penalties. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 **Case 2: consolidated entrepreneur with assets to protect.**
 Holding in a reasonable jurisdiction (Spain, Netherlands, Luxembourg per profile) with local operating company. Real asset protection, tax optimization and banking acceptance without the red flags of pure offshore.
@@ -95,7 +95,7 @@ Yes, as long as it is declared in your country of residence. Illegality arises w
 
 **What happens if my country detects the offshore structure?**
 
-If you declared it correctly, nothing extraordinary: it will be taxed under your country's CFC rules. If you did not declare it, penalties of 50%-200% plus surcharges, interest and possible criminal liability.
+If you declared it correctly, nothing extraordinary: it will be taxed under your country's CFC rules. If you did not declare it, penalties of 50%-200% plus surcharges, interest and possible criminal liability. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 **Are offshores useful to avoid seizures?**
 
@@ -118,7 +118,7 @@ At Exentax we can analyze your situation and propose the minimum viable structur
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / OECD.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -181,7 +181,7 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 <!-- task9-2026-expansion -->
 ## Tax havens: updated AEAT official list, EU and OECD non cooperative jurisdictions and automatic CRS / FATCA exchange

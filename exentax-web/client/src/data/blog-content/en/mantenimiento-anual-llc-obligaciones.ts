@@ -42,7 +42,7 @@ Important reminder: **your LLC pays $0 federal tax.** These forms are purely inf
 
 - **Original deadline:** April 15
 - **With extension (Form 7004):** October 15
-- **Penalty for non-filing:** $25,000 per form per year (IRC §6038A)
+- **Penalty for non-filing:** $25,000 per form per year (IRC §6038A) This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
 ### FBAR (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> Form 114)
 
@@ -89,7 +89,7 @@ Let's be direct: if you ignore your LLC maintenance, the consequences are real:
 1. **Loss of Good Standing**: your LLC shows as "Not in Good Standing" in state records
 2. **Mercury may freeze your account**: financial institutions periodically verify LLC status
 3. **IRS penalties** of $25,000/year for not filing Form 5472
-4. **FinCEN penalties** of $591/day for BOI Report non-compliance
+4. **FinCEN penalties** of $591/day for BOI Report non-compliance. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 5. **Administrative dissolution**: the state can dissolve your LLC if non-compliance continues
 6. **Loss of asset protection**: if your LLC isn't active, your personal assets are exposed
 
@@ -139,7 +139,7 @@ Closing out, here's a related piece that sits naturally next to this article: <a
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -193,7 +193,7 @@ A clean annual maintenance for an LLC today fits in six milestones.
 
 - **January-March.** Prior-year closing, Mercury/Wise reconciliation, 5472 supporting docs gathered. If you issued 1042-S to foreign contractors, deadline **March 15, today**.
 - **April.** Deadline **April 15, today** for FY2025 Form 5472 + pro forma 1120. If you cannot make it, **Form 7004** before that same date moves the deadline to **October 15, today**.
-- **Rest of year.** Renew the **state Annual Report** (Wyoming the day before anniversary, Delaware **June 1**, NM does not apply), renew the **Registered Agent** (~USD 125/yr) and, if your LLC is a *foreign reporting company*, monitor BOI on any change (USD 591/day penalty).
+- **Rest of year.** Renew the **state Annual Report** (Wyoming the day before anniversary, Delaware **June 1**, NM does not apply), renew the **Registered Agent** (~USD 125/yr) and, if your LLC is a *foreign reporting company*, monitor BOI on any change (USD 591/day penalty). Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 
 ### Frequently asked questions
 

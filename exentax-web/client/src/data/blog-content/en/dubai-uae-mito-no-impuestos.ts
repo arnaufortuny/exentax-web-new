@@ -45,7 +45,7 @@ The part that is told least. Typical annual costs for a standard Free Zone Compa
 - **Mandatory office or flexi-desk**: AED 5,000-25,000 per year.
 - **Family visa (spouse and children)**: AED 4,000-7,000 per person.
 - **Visa renewal** (every 2-3 years): similar cost.
-- **Mandatory audit** in many free zones since June 2023: USD 1,500-5,000 per year.
+- **Mandatory audit** in many free zones since June 2023: USD 1,500-5,000 per year. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Corporate Tax registration and filing**: USD 500-2,000 per year.
 - **Bookkeeping**: USD 2,000-5,000 per year if outsourced.
 
@@ -111,7 +111,7 @@ The UAE does not make sense when:
 The UAE pays off. Real residency with investor visa, operational FZCO, accessible Emirati bank and zero personal burden. The high initial investment is recovered in the first year.
 
 **Case 2: European entrepreneur who wants to "buy" residency without really moving.**
-The UAE is a poor choice. Without minimum 90 days/year presence and broken home ties, your local tax authority will not recognize UAE residency. High audit and reclassification risk.
+The UAE is a poor choice. Without minimum 90 days/year presence and broken home ties, your local tax authority will not recognize UAE residency. High audit and reclassification risk. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 **Case 3: professional seeking access to the Middle East and Africa.**
 The UAE is an excellent platform. Air connectivity, regional reputation, multi-currency banking and open trade regime. Even if taxation is only reasonable (not zero), market access pays off.
@@ -119,7 +119,7 @@ The UAE is an excellent platform. Air connectivity, regional reputation, multi-c
 
 **Do I really pay 0% in Dubai?**
 
-Not exactly. Since June 2023 there is a 9% Corporate Tax on profits above 375,000 AED (~102,000 USD). Below that, 0% but with compliance: audited accounts, annual filing and substance demonstration.
+Not exactly. Since June 2023 there is a 9% Corporate Tax on profits above 375,000 AED (~102,000 USD). Below that, 0% but with compliance: audited accounts, annual filing and substance demonstration. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 **Do I need to live in Dubai to maintain the free zone?**
 
@@ -127,7 +127,7 @@ To avoid reclassification by your home country, yes. Without effective UAE resid
 
 **What is the real annual cost of an FZCO?**
 
-Between 8,000 and 18,000 USD: free zone license, flexi-desk office, investor visa, audited accounting and renewals. Much higher than a US LLC at 600 USD/year.
+Between 8,000 and 18,000 USD: free zone license, flexi-desk office, investor visa, audited accounting and renewals. Much higher than a US LLC at 600 USD/year. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 **Is Emirati banking accessible?**
 
@@ -148,7 +148,7 @@ At Exentax we can compare your specific case with real numbers before you take d
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).

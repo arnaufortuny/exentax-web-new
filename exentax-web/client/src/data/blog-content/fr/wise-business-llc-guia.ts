@@ -164,7 +164,6 @@ Chez Exentax nous ouvrons Wise + Mercury en pack avec configuration optimisée.
 
 Lisez cette section comme une checklist exigeante: chaque point signale un mode de défaillance que nous avons constaté sur des dossiers LLC transfrontaliers. N'en sautez aucun - la plupart des redressements et clôtures de comptes que nous récupérons remontent à l'un de ces éléments.
 
-
 <!-- exentax:lote7-native-v1:wise-business-llc-guia -->
 ## Matrice de décision pratique : quand intégrer Wise
 

@@ -10,7 +10,7 @@ La **LLC (Limited Liability Company)** es una figura híbrida creada por las ley
 
 Para un no residente sin **ETBUS** (Effectively Connected Trade or Business in the United States) y sin **US-source FDAP income**, la LLC disregarded **no genera obligación de Form 1040-NR sustantivo** ni paga impuesto federal sobre la renta: la regla básica de **IRC §871 y §882** somete a no residentes solo por (a) US-source FDAP con retención del 30 % (o tasa de tratado) y (b) renta efectivamente conectada a un trade or business en EE. UU. Sin esos dos elementos, la LLC paga **0 % federal**. A nivel estatal, **Wyoming, Nuevo México, Florida, Texas y Dakota del Sur** no tienen impuesto sobre la renta corporativa estatal, lo que añade un **0 % estatal** cuando no hay nexus.
 
-La obligación práctica que sí queda: **Form 5472 + Form 1120 pro-forma** anual (Treas. Reg. §1.6038A-1 desde 2017) para SMLLC propiedad de un no residente con cualquier *reportable transaction* con su único miembro. Sanción base: **25.000 USD por formulario y año** (IRC §6038A(d)) más **25.000 USD por cada 30 días adicionales** tras notificación del IRS.
+La obligación práctica que sí queda: **Form 5472 + Form 1120 pro-forma** anual (Treas. Reg. §1.6038A-1 desde 2017) para SMLLC propiedad de un no residente con cualquier *reportable transaction* con su único miembro. Sanción base: **25.000 USD por formulario y año** (IRC §6038A(d)) más **25.000 USD por cada 30 días adicionales** tras notificación del IRS. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
 ## Corporation general: por defecto C-Corporation
 
@@ -112,15 +112,14 @@ Lo que vemos cada semana en los casos que nos llegan es el mismo patrón: la dud
 Si quieres pasar de la duda al plan, agenda 30 minutos con Exentax y salimos de la llamada con los números cerrados y el calendario operativo.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
   ## Lo que NO hace una LLC
 

@@ -43,11 +43,11 @@ Tres escenaris:
 La sanció per BOI no presentat és alta (fins a 591 USD/dia segons les regles actuals), però la regularització voluntària sol acceptar-se sense sanció quan la LLC no ha rebut notificació prèvia.
 ### Pas 3. 5472 + 1120 pro-forma endarrerits
 
-Aquí es posa seriós. Cada any en falta suporta sanció de **25.000 USD per any** segons les regles actuals. Tres anys = 75.000 USD d'exposició teòrica.
+Aquí es posa seriós. Cada any en falta suporta sanció de **25.000 USD per any** segons les regles actuals. Tres anys = 75.000 USD d'exposició teòrica. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 ### Cas A. 1-2 anys d'endarreriment i SENSE notificació <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>
 
-Presentar en **late filing** amb statement explicant l'omissió. L'IRS té pràctica discrecional de reduir o anul·lar sanció en regularització voluntària sense antecedents.
+Presentar en **late filing** amb statement explicant l'omissió. L'IRS té pràctica discrecional de reduir o anul·lar sanció en regularització voluntària sense antecedents. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 ### Cas B. 3 o més anys d'endarreriment i SENSE notificació
 
@@ -128,7 +128,7 @@ Aquest article s'actualitza anualment amb els canvis normatius que afecten les e
 El procediment de regularització de 5472 i BOI endarrerits ha canviat en aspectes petits però importants durant recent years:
 
 - **5472 fora de termini.** La sanció inicial es manté en **25.000 USD per formulari i any** (IRC §6038A) amb increment de 25.000 USD per cada període de 30 dies després de notificació de l'IRS. Via habitual: presentar el 5472 + 1120 pro forma amb **carta de** *reasonable cause* annexa, citant fets concrets: pandèmia, canvi d'assessor, canvi de residència, error administratiu documentat. La pràctica IRS de 2024-avui ha acceptat *reasonable cause* en percentatges raonables quan la cronologia és coherent i la regularització és voluntària.
-- **BOI endarrerit.** Després de la *interim final rule* de març 2025, només les **foreign reporting companies** queden en àmbit. Si la teva LLC està obligada i presentes tard, multa civil de **591 USD/dia** (import ajustat per inflació, font FinCEN). La presentació voluntària abans de notificació redueix significativament el risc penal.
+- **BOI endarrerit.** Després de la *interim final rule* de març 2025, només les **foreign reporting companies** queden en àmbit. Si la teva LLC està obligada i presentes tard, multa civil de **591 USD/dia** (import ajustat per inflació, font FinCEN). La presentació voluntària abans de notificació redueix significativament el risc penal. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 - **Forma de presentació avui.** L'IRS continua exigint el 5472 en **paper** o via e-file específic (no s'admet per TurboTax/assessor general). Convé enviar-lo per correu certificat a Ogden, Utah amb justificant i conservar el seguiment 7 anys.
 
 ### Ordre recomanat per a regularitzar
@@ -160,7 +160,7 @@ Si la teva LLC té anys pendents i vols saber la via que correspon, obre la <str
 
   ### Regularització FBAR/Form 5472/BOI: perspectiva espanyola i andorrana
 
-  Per a socis espanyols de LLC americana en retard amb les declaracions US (**FBAR FinCEN 114** per a comptes > USD 10.000, **Form 5472 IRC §6038A(d)** amb sanció USD 25.000/formulari/any, FinCEN BOI sota **CTA §6403** amb sanció USD 591/dia), la regularització s'efectua via **Streamlined Foreign Offshore Procedures (SFOP)** o **Voluntary Disclosure Practice (VDP)** de l'IRS. A Espanya, les obligacions paral·leles són el **Modelo 100 IRPF** retroactiu, el **Modelo 720** sobre béns a l'estranger (RD 1065/2007 + Llei 5/2022 post-STJUE C-788/19 27/01/2022), i la comunicació via **acord FATCA Espanya-EUA BOE 22/04/2015**. A **Andorra**, l'**acord FATCA andorrà** (Llei 19/2016) preveu canals similars d'intercanvi automàtic. Conservació 6 anys (art. 30 Codi Comerç).
+  Per a socis espanyols de LLC americana en retard amb les declaracions US (**FBAR FinCEN 114** per a comptes > USD 10.000, **Form 5472 IRC §6038A(d)** amb sanció USD 25.000/formulari/any, FinCEN BOI sota **CTA §6403** amb sanció USD 591/dia), la regularització s'efectua via **Streamlined Foreign Offshore Procedures (SFOP)** o **Voluntary Disclosure Practice (VDP)** de l'IRS. A Espanya, les obligacions paral·leles són el **Modelo 100 IRPF** retroactiu, el **Modelo 720** sobre béns a l'estranger (RD 1065/2007 + Llei 5/2022 post-STJUE C-788/19 27/01/2022), i la comunicació via **acord FATCA Espanya-EUA BOE 22/04/2015**. A **Andorra**, l'**acord FATCA andorrà** (Llei 19/2016) preveu canals similars d'intercanvi automàtic. Conservació 6 anys (art. 30 Codi Comerç). Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 <!-- exentax:lote8-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento -->
 ## Com es veu una operació de recuperació des de dins de la LLC
@@ -174,7 +174,7 @@ d'aclariment escurça la recuperació posterior moltes vegades en
 setmanes, perquè col·loca l'ordre correcte abans de l'execució.
 
 La segona observació és que la majoria de presentacions
-endarrerides comporta menys risc de multa del que els socis temen,
+endarrerides comporta menys risc de multa del que els socis temen,. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 sempre que la recuperació sigui voluntària, completa i ordenada
 cronològicament. Les reaccions del FinCEN i de l'IRS són clarament
 més suaus quan és la LLC qui pren la iniciativa en lloc d'esperar
@@ -199,11 +199,11 @@ A la pràctica, el calendari de recuperació es construeix en tres fases curtes:
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
   ## El que una LLC NO fa
 

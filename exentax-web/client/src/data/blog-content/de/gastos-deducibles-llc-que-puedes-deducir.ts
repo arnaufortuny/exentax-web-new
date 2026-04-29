@@ -107,7 +107,7 @@ Bei Exentax helfen wir Ihnen, den korrekten Prozentsatz zu berechnen und ihn zu 
 Hier ist die Grenze klar:
 
 - **Persönliche Ausgaben**: Kleidung (es sei denn, es handelt sich um Arbeitskleidung), tägliche Verpflegung, persönliche Unterhaltung, Netflix, persönliches Spotify
-- **Bußgelder und Strafen**: Verkehrsstrafen, IRS-Sanktionen
+- **Bußgelder und Strafen**: Verkehrsstrafen, IRS-Sanktionen. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 - **Politische Spenden**
 - **Luxusausgaben** ohne geschäftliche Rechtfertigung. diese Luxusuhr ist kein "Repräsentationsaufwand"
 - **Persönliche Entnahmen** (Owner's Draws), sind keine Ausgaben, sondern Gewinnausschüttungen
@@ -207,14 +207,14 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren be
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 -->
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 --> Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 ## Abzugsfähige Ausgaben einer LLC: was wirklich zählt und was Sie in einer Prüfung verteidigen
 
 Die IRS-Regel ist täuschend einfach: "ordinary and necessary" für Ihre Tätigkeit. Aber der Teufel steckt in Dokumentation, Zahlungsweg und Konsistenz. Hier, was eine sauber geführte LLC tatsächlich abzieht - und die Fehler, die wir fast wöchentlich sehen.
 
 - **Klar abzugsfähig.** Software (Notion, Figma, Stripe-Gebühren, Hosting), Werbung (Meta, Google, LinkedIn), Subunternehmer mit W-9 oder W-8BEN, Plattformgebühren, Fachabos, Computerausstattung 100% geschäftlich, Buchhaltung und Beratung. Zahlung vom LLC-Konto, Rechnung auf den Namen der LLC, im Drive oder ähnlichem nach Kategorie abgelegt.
 - **Bedingt abzugsfähig.** Coworking und Büro (voll), Home Office (Anteil der ausschließlich genutzten Fläche, mit Dokumentation), Geschäftsreisen (Ticket, Hotel, angemessene Tagessätze; "ich und Familie auf Bali" zählt nicht), tätigkeitsspezifische Weiterbildung, Kundenmahlzeiten (50% Bundesabzug).
-- **Problematisch ohne Substanz.** Privatauto, Nicht-Uniform-Kleidung, vermischte private Ausgaben, an Familie ohne echte Leistung oder W-9 gezahlte "Beratung", Reisen ohne dokumentierte Agenda. Die LLC ist transparent gegenüber dem IRS und opak gegenüber der Bank - beide gleichen in einer Prüfung ab.
+- **Problematisch ohne Substanz.** Privatauto, Nicht-Uniform-Kleidung, vermischte private Ausgaben, an Familie ohne echte Leistung oder W-9 gezahlte "Beratung", Reisen ohne dokumentierte Agenda. Die LLC ist transparent gegenüber dem IRS und opak gegenüber der Bank - beide gleichen in einer Prüfung ab. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 - **Disregarded vs C-Corp: die Nuance.** Bei disregarded reduzieren Ausgaben den Schedule C oder zugerechnetes Einkommen. Bei C-Corp-Wahl via form 8832 mindern sie den Körperschaftsgewinn (21% Bund). Die Dokumentation ist identisch.
 
 ### Was am häufigsten gefragt wird
@@ -229,7 +229,6 @@ Bei Exentax bauen wir die Buchhaltung Ihrer LLC ab dem ersten Monat auf: Kontenp
 ## Wir richten es ein, ohne dass Sie ein Wochenende verlieren
 
 Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, IRS-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
-
 
 <!-- exentax:lote11-native-v1:gastos-deducibles-llc-que-puedes-deducir -->
 ## Wie das Thema "abzugsfähige Aufwendungen" in der Praxis aussieht
@@ -281,11 +280,11 @@ Die Pflege der wiederkehrenden Abzüge hält sich ohne Nachjustierung jeden Mona
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
   ## Was eine LLC NICHT tut
 

@@ -1,4 +1,4 @@
-export default `Viele DACH-Kunden kommen zu uns mit einer LLC, die sie vor 18 Monaten bei LegalZoom angelegt und dann nie wieder angefasst haben. Die schlechte Nachricht: Eine LLC ohne Annual Report, ohne 5472 und ohne BOI schläft nicht, sie ist in Verzug, und die <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Strafen beginnen bei 25.000 $.
+export default `Viele DACH-Kunden kommen zu uns mit einer LLC, die sie vor 18 Monaten bei LegalZoom angelegt und dann nie wieder angefasst haben. Die schlechte Nachricht: Eine LLC ohne Annual Report, ohne 5472 und ohne BOI schläft nicht, sie ist in Verzug, und die <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Strafen beginnen bei 25.000 $. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
 Aber es ist wichtig, dass Sie verstehen, was getan wird und wann. Also erzählen wir Ihnen alles im Detail. Fristen, Kosten und den vollständigen Kalender.
 
@@ -60,7 +60,7 @@ Ihr Registered Agent muss dauerhaft aktiv sein, das ist in allen Bundesstaaten g
 - Sendet der Bundesstaat rechtliche Mitteilungen, die niemand erhält
 - Können Sie den Good Standing verlieren, ohne es zu bemerken
 - Wenn Sie verklagt werden, erhalten Sie die Benachrichtigung nicht und es kann ein Versäumnisurteil (Default Judgment) gegen Sie ergehen
-- Bußgelder und mögliche administrative Auflösung
+- Bußgelder und mögliche administrative Auflösung. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 **Bei uns:** Der Registered Agent ist in allen unseren Plänen enthalten. Wir erneuern ihn jedes Jahr automatisch. Null Risiko, dass er abläuft.
 ### BOI Report (bei Änderungen)
@@ -105,7 +105,7 @@ Wir sind direkt: Wenn Sie die Wartung Ihrer LLC ignorieren, sind die Konsequenze
 
 1. **Verlust des Good Standing**: Ihre LLC erscheint als "Not in Good Standing" in den Registern des Bundesstaates
 2. **Mercury kann Ihr Konto einfrieren**: Finanzinstitute überprüfen regelmäßig den Status der LLC
-3. **Sanktionen des IRS** wegen Nichteinreichung des Form 5472
+3. **Sanktionen des IRS** wegen Nichteinreichung des Form 5472. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 4. **Administrative Auflösung**: der Bundesstaat kann Ihre LLC auflösen, wenn Sie über einen längeren Zeitraum nicht konform sind
 5. **Verlust des Vermögensschutzes**: wenn Ihre LLC nicht aktiv ist, ist Ihr persönliches Vermögen ungeschützt
 
@@ -179,17 +179,15 @@ Ein sauberer Jahresunterhalt für eine LLC aktuell passt in sechs Meilensteine.
 
 - **Januar-März.** Vorjahresabschluss, Abstimmung Mercury/Wise, 5472-Belege sammeln. Bei 1042-S an ausländische Auftragnehmer Frist **15. März aktuell**.
 - **April.** Frist **15. April** für Form 5472 + Pro-forma-1120 des laufenden GJ. Sonst **Form 7004** vor demselben Datum, Frist verschiebt sich auf **15. Oktober aktuell**.
-- **Restjahr.** Erneuerung des **State Annual Report** (Wyoming am Vortag des Jubiläums, Delaware **1. Juni**, NM entfällt), Erneuerung des **Registered Agent** (~125 USD/Jahr) und, falls Ihre LLC *foreign reporting company* ist, BOI-Überwachung bei Änderungen (Strafe 591 USD/Tag).
+- **Restjahr.** Erneuerung des **State Annual Report** (Wyoming am Vortag des Jubiläums, Delaware **1. Juni**, NM entfällt), Erneuerung des **Registered Agent** (~125 USD/Jahr) und, falls Ihre LLC *foreign reporting company* ist, BOI-Überwachung bei Änderungen (Strafe 591 USD/Tag). Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 ### FAQ aktuell
 
-**Was passiert ohne Annual Report?** Der Staat setzt die Einheit auf *Delinquent* und nach 60-90 Tagen auf *Forfeited*. Reaktivierung möglich mit Strafen. Nicht lohnenswert.
+**Was passiert ohne Annual Report?** Der Staat setzt die Einheit auf *Delinquent* und nach 60-90 Tagen auf *Forfeited*. Reaktivierung möglich mit Strafen. Nicht lohnenswert. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
 **Brauche ich formale Buchhaltung?** Ja, mindestens ein vereinfachtes Kassenbuch zur 5472-Einreichung. Mercury + Tabelle reicht bis ~150 k USD/Jahr; darüber Quickbooks oder Wave.
 
 **Was tun bei Umzug ins Ausland?** Registered Agent informieren (Adressänderung), Mercury aktualisieren (KYC) und, wenn neuer Wohnsitz CRS, Konto entsprechend deklarieren.
-
-
 
 ## Praktische Vorbereitung für jeden Fristzyklus
 

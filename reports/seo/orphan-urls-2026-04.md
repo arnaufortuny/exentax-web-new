@@ -1,4 +1,4 @@
-# SEO orphan-URL audit — 2026-04-28
+# SEO orphan-URL audit — 2026-04-29
 
 Base URL probed: `http://localhost:5000` (live SPA on port 5000).
 Sitemap source: `/sitemap.xml` index → `/sitemap-pages.xml`, `/sitemap-blog.xml`, `/sitemap-faq.xml`.

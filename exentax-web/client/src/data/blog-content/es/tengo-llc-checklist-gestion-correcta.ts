@@ -36,13 +36,13 @@ Una clasificación errónea cambia por completo tus obligaciones de declaración
 
 Si eres no residente y tienes una Single-Member LLC con cualquier transacción entre tú y la LLC (retiros, aportaciones, pagos), estás obligado a presentar **Form 5472 acompañado de un Form 1120 pro-forma**. Cada año. Sin excepciones relevantes para la mayoría de perfiles.
 
-La sanción base por no presentarlo o presentarlo incompleto es de **25 000 USD por formulario y año**, y se acumula. No es una amenaza abstracta: el IRS las aplica.
+La sanción base por no presentarlo o presentarlo incompleto es de **25 000 USD por formulario y año**, y se acumula. No es una amenaza abstracta: el IRS las aplica. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 Revisa nuestra <a href="/es/blog/form-5472-que-es-como-presentarlo">guía completa del Form 5472</a> para los detalles. Si no recuerdas haberlo presentado en los últimos años, no estás "fuera del radar": estás generando un pasivo silencioso.
 
 ### 3. ¿Tienes BOI Report al día con FinCEN?
 
-El **Beneficial Ownership Information Report** es la declaración a FinCEN sobre el beneficiario real de las entidades en ámbito. Tras la **interim final rule de FinCEN de marzo de 2025**, el ámbito quedó limitado a las **foreign reporting companies** (entidades constituidas fuera de EE. UU. y registradas para operar en un estado), por lo que las LLC formadas en EE. UU. propiedad de no residentes están fuera de la obligación. Si tu entidad sí encaja, el régimen sancionador es agresivo: hasta **591 USD por día de retraso** más sanciones penales en casos graves.
+El **Beneficial Ownership Information Report** es la declaración a FinCEN sobre el beneficiario real de las entidades en ámbito. Tras la **interim final rule de FinCEN de marzo de 2025**, el ámbito quedó limitado a las **foreign reporting companies** (entidades constituidas fuera de EE. UU. y registradas para operar en un estado), por lo que las LLC formadas en EE. UU. propiedad de no residentes están fuera de la obligación. Si tu entidad sí encaja, el régimen sancionador es agresivo: hasta **591 USD por día de retraso** más sanciones penales en casos graves. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 Pregúntate:
 - ¿Has presentado el **BOI Report inicial** ante FinCEN en **boiefiling.fincen.gov** si tu entidad encaja como foreign reporting company? Tras la **interim final rule de FinCEN de marzo de 2025**, el BOIR **NO aplica a las LLC formadas en EE. UU. propiedad de no residentes**: solo presentan las entidades constituidas fuera de EE. UU. y registradas para operar en un estado, dentro de los **30 días** siguientes a la inscripción.
@@ -64,7 +64,7 @@ Si tu LLC fue disuelta y sigues facturando con su EIN, todas tus facturas pueden
 
 ### 5. ¿Separas dinero personal y dinero de la LLC?
 
-Este es **el error más común y más caro**. Si usas la cuenta de la LLC para gastos personales o cobras facturas de la LLC en tu cuenta personal, estás rompiendo el **corporate veil**. La consecuencia: tu LLC ya no protege tu patrimonio personal y, en una inspección, se trata como si tú y la LLC fuerais la misma cosa.
+Este es **el error más común y más caro**. Si usas la cuenta de la LLC para gastos personales o cobras facturas de la LLC en tu cuenta personal, estás rompiendo el **corporate veil**. La consecuencia: tu LLC ya no protege tu patrimonio personal y, en una inspección, se trata como si tú y la LLC fuerais la misma cosa. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
 Detalle ampliado en nuestro artículo sobre <a href="/es/blog/separar-dinero-personal-llc-por-que-importa">separar finanzas personales y de la LLC</a>.
 
@@ -83,7 +83,7 @@ Pregúntate:
 - ¿Has presentado Modelo 720 / 721 / DAC7 / declaraciones equivalentes?
 - ¿Tu asesor fiscal entiende cómo funciona una LLC americana?
 
-Si tu gestor te dijo "no declares nada porque tributa en EE.UU.", busca segunda opinión. Hoy. Esto suele ser el punto donde más sanciones se acumulan, y son evitables si se planifica bien.
+Si tu gestor te dijo "no declares nada porque tributa en EE.UU.", busca segunda opinión. Hoy. Esto suele ser el punto donde más sanciones se acumulan, y son evitables si se planifica bien. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 ### 7. ¿Tu banca, brokers y exchanges están alineados con CRS y DAC?
 
@@ -116,7 +116,7 @@ Si te ves en tres o más de estos puntos, no estás "operando bajo el radar": es
 | No presentar Form 5472 durante años | Sanción de 25 000 USD por formulario, acumulativa |
 | BOI Report sin actualizar | Hasta 591 USD/día de sanción |
 | Cuentas personales y de LLC mezcladas | Rompe la separación patrimonial; pierde la protección de la LLC |
-| No declarar ingresos LLC en el país de residencia | Cuando salta el cruce CRS/DAC, hay regularización + sanción + intereses |
+| No declarar ingresos LLC en el país de residencia | Cuando salta el cruce CRS/DAC, hay regularización + sanción + intereses |. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 | Wise/Mercury/Brokers con residencia fiscal mal indicada | Reporte CRS al país equivocado, lo que dispara revisiones rutinarias |
 | Operar con LLC disuelta | Facturas cuestionables; nulidad de contratos |
 | Confiar en frases tipo "no se reporta nada" | hoy no funciona así. CRS, DAC7 y DAC8 están operativos |
@@ -148,7 +148,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 ### Por jurisdicción
 
 - **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
-- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
+- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 - **CDI España–EE. UU.** El convenio (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
 

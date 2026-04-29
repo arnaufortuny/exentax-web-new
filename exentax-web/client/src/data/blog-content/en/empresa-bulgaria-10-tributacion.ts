@@ -42,7 +42,7 @@ A Bulgarian OOD has a meaningful administrative burden compared to a US LLC:
 - Monthly or quarterly VAT returns if you cross the threshold (BGN 166,000, around EUR 85,000).
 - Annual corporate income tax return.
 - Annual accounts filed with the commercial register.
-- External audit if you exceed certain thresholds.
+- External audit if you exceed certain thresholds. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 Realistic annual floor: EUR 2,000 to 4,500 in fees and filings alone. Well above the ~USD 600 per year of a US LLC.
 ### Banking: better than Hong Kong, worse than the US
@@ -70,12 +70,12 @@ When does Bulgaria still make sense? When you actually want to move there, integ
 ### Real risks
 
 - **Tax inspections** by the NRA (Bulgarian tax authority): rare, but when they happen they require detailed documentation in Bulgarian.
-- **Penalties for incorrect bookkeeping**: the system penalizes formal errors with significant fines.
+- **Penalties for incorrect bookkeeping**: the system penalizes formal errors with significant fines. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **EU regulatory changes**: BEPS Pillar Two pressure and European tax harmonization may erode the 10% advantage in coming years.
 ### Typical scenarios where it applies
 
 **Case 1: entrepreneur billing 80,000 EUR/year from Spain without relocating.**
-Bulgaria adds nothing. Without Bulgarian residency, profits are taxed in Spain at the applicable rate plus potential penalties. A US LLC is a simpler and more efficient alternative.
+Bulgaria adds nothing. Without Bulgarian residency, profits are taxed in Spain at the applicable rate plus potential penalties. A US LLC is a simpler and more efficient alternative. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 **Case 2: European entrepreneur moving to Sofia with family.**
 Bulgaria does pay off. Personal residency with flat 10% income tax, Bulgarian company to operate within the EU with intra-EU invoicing, reasonable quality of life at low cost. Solid combination.
@@ -121,7 +121,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
@@ -135,7 +135,7 @@ At Exentax we structure the entity to fit the first scenario and document every 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 - **Spain–US treaty.** BOE of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -169,7 +169,7 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.<!-- exentax:execution-v2 -->
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.<!-- exentax:execution-v2 --> Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 ## Bulgaria at 10%: what the brochure does not say and what actually pays off
 
 Bulgaria has a 10% flat corporate tax — the lowest in the EU — and a 10% personal income tax, inside the EU, with OSS, no service restrictions and accessible banking. Sounds perfect. What the brochure does not say: economic substance, real personal residency and how the Spain-Bulgaria treaty applies. Here is what actually pays off.
@@ -191,7 +191,6 @@ At Exentax we model Bulgaria with your real clients, residency and volume — an
 ## We set it up without you losing a weekend
 
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
-
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

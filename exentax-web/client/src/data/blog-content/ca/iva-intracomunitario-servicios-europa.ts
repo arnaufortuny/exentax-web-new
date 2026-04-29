@@ -1,6 +1,6 @@
 export default `
 
-Si ets autònom o pime espanyola i tens clients empresa en altres països de la UE, l'IVA intracomunitari és una de les àrees que més confusió genera. La regla general en serveis B2B és senzilla: factures sense repercutir IVA i el client l'autoliquida al seu país. Però hi ha matisos importants que distingeixen una factura neta d'una rebutjada per inspecció. Aquesta guia explica quan s'aplica realment la regla, com registrar-te al ROI, què declarar als models 303 i 349 i els errors que costen paral·leles.
+Si ets autònom o pime espanyola i tens clients empresa en altres països de la UE, l'IVA intracomunitari és una de les àrees que més confusió genera. La regla general en serveis B2B és senzilla: factures sense repercutir IVA i el client l'autoliquida al seu país. Però hi ha matisos importants que distingeixen una factura neta d'una rebutjada per inspecció. Aquesta guia explica quan s'aplica realment la regla, com registrar-te al ROI, què declarar als models 303 i 349 i els errors que costen paral·leles. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 ## Serveis B2B: regla general i excepcions
 
@@ -11,7 +11,7 @@ Per emetre factura sense IVA a un client UE necessites estar donat d'alta al Reg
 
 ## Com s'emplena la factura sense IVA
 
-La factura ha de portar el teu NIF-IVA espanyol (amb prefix ES), el NIF-IVA del client, import sense IVA i la menció obligatòria de l'article 84 LIVA (operació amb inversió del subjecte passiu) o equivalent en anglès (reverse charge). No s'inclou base imposable d'IVA ni quota; només el total. Alguns clients europeus exigeixen també la referència a la Directiva 2006/112/CE. Conserva sempre prova electrònica de l'enviament i del lliurament del servei (correus, contractes, lliurables) perquè en una inspecció l'AEAT demana rastres documentals complets, no només la factura.
+La factura ha de portar el teu NIF-IVA espanyol (amb prefix ES), el NIF-IVA del client, import sense IVA i la menció obligatòria de l'article 84 LIVA (operació amb inversió del subjecte passiu) o equivalent en anglès (reverse charge). No s'inclou base imposable d'IVA ni quota; només el total. Alguns clients europeus exigeixen també la referència a la Directiva 2006/112/CE. Conserva sempre prova electrònica de l'enviament i del lliurament del servei (correus, contractes, lliurables) perquè en una inspecció l'AEAT demana rastres documentals complets, no només la factura. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 ## Model 349 i model 303 quadrats
 
@@ -41,7 +41,7 @@ El marc normatiu està a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 |---|---|
 | Emetre sense VIES vàlid del client | AEAT reclassifica com B2C → IVA espanyol + sanció |
 | No declarar al model 349 una operació de 5.000€ | Sanció per omissió + recàrrec |
-| Models 303 i 349 amb xifres diferents | Paral·lela immediata, sol acabar en inspecció |
+| Models 303 i 349 amb xifres diferents | Paral·lela immediata, sol acabar en inspecció |. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 | Oblidar la menció "reverse charge" a la factura | Client UE rebutja la factura, retard pagament |
 | Confondre B2C amb B2B en plataformes digitals | OSS mal complimentat → correccions amb recàrrecs |
 
@@ -97,15 +97,14 @@ El que veiem cada setmana en els casos que ens arriben és sempre el mateix patr
 Si vols passar del dubte al pla, reserva 30 minuts amb Exentax i sortim de la trucada amb els números tancats i un calendari operatiu.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
   ## El que una LLC NO fa
 

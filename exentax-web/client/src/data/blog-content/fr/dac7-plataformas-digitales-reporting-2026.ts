@@ -38,7 +38,7 @@ Le détail est **trimestriel**, pas annuel agrégé, ce qui permet aux administr
 - **1er janvier 2023** : application effective dans toute l'UE.
 - **31 janvier 2024** : premier reporting annuel relatif à l'exercice 2023.
 - À partir de là : reporting annuel récurrent. Espagne : Modelo 238, première présentation effectuée en janvier 2024 sur les données de l'exercice fiscal 2023. France : déclaration analogue déposée par les plateformes auprès de la DGFiP.
-- **aujourd'hui (maintenant)** : quatrième exercice de pleine application. Les administrations disposent d'un historique de trois ans de données croisables. Les inspections qui en dérivent commencent à se matérialiser.
+- **aujourd'hui (maintenant)** : quatrième exercice de pleine application. Les administrations disposent d'un historique de trois ans de données croisables. Les inspections qui en dérivent commencent à se matérialiser. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
 
 ## Comment cela affecte un propriétaire de LLC
 
@@ -82,7 +82,7 @@ Si votre LLC vend sur Amazon Europe, encaisse via Wise Belgique, paie des fourni
 1. **Déclarez les revenus de manière cohérente.** Si vous vendez sur Amazon Europe, ces revenus se croisent avec votre IRPF français, espagnol, mexicain ou argentin via la donnée DAC7 + CRS. La seule stratégie valable est de bien déclarer.
 2. **Optimisez dans le cadre légal.** Il y a déductibilité des charges dans la LLC (voir <a href="/fr/blog/gerer-votre-llc-au-quotidien-guide-pratique-pour-non">charges déductibles dans votre LLC</a>) et planification des distributions à l'associé.
 3. **Considérez la substance.** Si vous comptez opérer à grande échelle depuis une LLC, dotez-la de substance (bureau, contrats, gestionnaires, présence opérationnelle réelle) ou acceptez que l'AEAT puisse la regarder sous l'angle de la transparence/simulation. Cadre complet dans <a href="/fr/blog/conception-dune-structure-fiscale-internationale-solide">conception d'une structure internationale solide</a>.
-4. **Ne laissez pas passer le premier avis.** Les administrations envoient généralement des communications de "discordance" avant d'ouvrir une inspection formelle ; bien répondre évite la procédure.
+4. **Ne laissez pas passer le premier avis.** Les administrations envoient généralement des communications de "discordance" avant d'ouvrir une inspection formelle ; bien répondre évite la procédure. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 
 ### En résumé
 
@@ -161,7 +161,6 @@ Chez Exentax nous ajustons la configuration de votre LLC sur chaque plateforme D
 Des milliers d'auto-entrepreneurs et d'entrepreneurs opèrent déjà avec leur LLC américaine de façon 100% légale et documentée. Chez Exentax nous prenons en charge tout le processus : constitution, banque, passerelles de paiement, comptabilité, déclarations <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons en toute franchise si la LLC a du sens pour votre cas, sans promesses absolues.
 
 Vous voulez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
-
 
 <!-- exentax:cross-refs-v1 -->
 ## Sur le même sujet

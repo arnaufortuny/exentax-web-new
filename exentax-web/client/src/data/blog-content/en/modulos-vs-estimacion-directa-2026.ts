@@ -29,7 +29,6 @@ If your activity is 100% digital, international and with mostly non-Spanish clie
 
 Detailed regulation is in Spain's IRPF Regulation (RD 439/2007) and in the annual modulos Order published every November in the <a href="https://www.boe.es/">BOE</a>. To verify your IAE epigraph, consult the <a href="https://sede.agenciatributaria.gob.es/">Tax Agency portal</a> before deciding.
 
-
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
 
 <!-- exentax:execution-v2 -->
@@ -49,7 +48,6 @@ What we see every week in the files that reach us is the same pattern: the quest
 
 If you want to move from doubt to plan, book 30 minutes with Exentax and we walk out of the call with the numbers closed and an operational calendar.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
@@ -105,7 +103,6 @@ Before going further, put numbers on your case: the <a href="/en#calculadora">Ex
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
 ### A side-by-side decision table we share with autónomos

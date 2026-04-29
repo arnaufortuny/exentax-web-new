@@ -82,7 +82,7 @@ A Exentax et recomanem l'estat que realment té sentit per al teu cas a l'assess
 
 Florida s'ha popularitzat per l'absència de state income tax i per la seva reputació pro-negocis. Per a un no resident, però, convé tenir clars els matisos.
 
-- **Annual Report obligatori:** es presenta cada any abans de l'1 de maig. Si te'l saltes, l'estat dissol la LLC i aplica sancions.
+- **Annual Report obligatori:** es presenta cada any abans de l'1 de maig. Si te'l saltes, l'estat dissol la LLC i aplica sancions. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 - **Privacitat baixa:** els noms de members i managers apareixen al registre públic Sunbiz.org.
 - **Cost estatal:** filing fee inicial superior al de Nou Mèxic i similar al de Wyoming, més l'Annual Report cada any.
 - **Temps:** 1-3 dies hàbils en estàndard; mateix dia amb taxa exprés.
@@ -119,7 +119,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 

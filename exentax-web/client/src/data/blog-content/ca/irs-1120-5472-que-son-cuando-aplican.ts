@@ -19,7 +19,7 @@ El **Form 5472, Information Return of a 25% Foreign-Owned U.S. Corporation or a 
 
 Per a la majoria dels nostres clients a Exentax, aquesta "entitat americana" és una **Single-Member LLC** propietat d'un no resident, i la "part relacionada estrangera" és **el mateix propietari**. Les "transaccions" són qualsevol moviment de diners entre tu i la LLC: aportacions inicials, transferències de la LLC al teu compte personal, pagaments puntuals, préstecs.
 
-Per què importa? Perquè des del 2017 les **disregarded entities propietat d'estrangers** es tracten com corporations a efectes del 5472. Això vol dir que tot i que la teva LLC no pagui impost federal, **sí està obligada a reportar qui la posseeix i com s'ha mogut diners amb tu**. Si no el presentes, la sanció base és de **25 000 USD per formulari i any**.
+Per què importa? Perquè des del 2017 les **disregarded entities propietat d'estrangers** es tracten com corporations a efectes del 5472. Això vol dir que tot i que la teva LLC no pagui impost federal, **sí està obligada a reportar qui la posseeix i com s'ha mogut diners amb tu**. Si no el presentes, la sanció base és de **25 000 USD per formulari i any**. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 ### La trampa del "1120 pro-forma"
 
 Aquí és on la gent es perd. La teva Single-Member LLC de no resident:
@@ -62,7 +62,7 @@ A la majoria d'inicis, una sola aportació inicial (la transferència de fundaci
 - **Forma de presentació:** una LLC de no resident sense obligació d'e-file s'envia habitualment per **correu certificat al IRS Service Center d'Ogden, Utah** o per **fax** al número específic publicat per l'IRS per a foreign-owned DEs. Confirmar sempre adreça/fax vigents de l'any.
 - **EIN obligatori:** sense EIN no es pot presentar. A obtenir prèviament (Form SS-4).
 
-Els retards no són barats. La sanció de 25 000 USD per 5472 no presentat **s'aplica també per informació incompleta o inexacta**, no només per absència total.
+Els retards no són barats. La sanció de 25 000 USD per 5472 no presentat **s'aplica també per informació incompleta o inexacta**, no només per absència total. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 ### Errors típics en preparar 1120 + 5472
 
 1. **Omplir el 1120 pro-forma com si fos un 1120 real.** L'IRS el processa com a C-Corp i s'arma un embolic.
@@ -77,7 +77,7 @@ Els retards no són barats. La sanció de 25 000 USD per 5472 no presentat **s'a
 - Ets resident fiscal als EUA i la teva Single-Member LLC reporta directament al Schedule C del 1040. Aquí no hi ha "foreign-owned DE".
 - La teva LLC ha optat per **C-Corp** i ja presenta 1120 real, sense transaccions amb parts relacionades estrangeres (rar).
 
-Fora d'aquests casos, presumir l'exempció és una aposta que no compensa: el cost de bona preparació és **molt inferior** a la sanció mínima.
+Fora d'aquests casos, presumir l'exempció és una aposta que no compensa: el cost de bona preparació és **molt inferior** a la sanció mínima. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 ### Com encaixa això en el teu dia a dia
 
 Si portes correctament l'operativa de la LLC durant l'any (compte separat, registre d'aportacions i retirades, Operating Agreement signat, comptabilitat mínima), preparar el 1120 pro-forma + 5472 al tancament d'any és tranquil. Si arribes al 31 de desembre amb el compte de la LLC barrejat amb el personal, sense documentació i sense saber quins moviments són reportables, el cost i el risc es disparen.
@@ -91,7 +91,7 @@ Per això a Exentax tractem aquests formularis com a **subproducte natural** d'u
 - **No es paga impost** amb aquests formularis, però **no presentar-los costa 25 000 USD per any**.
 - L'error més car és omplir-los malament o arribar al tancament sense la documentació que avala el reportat.
 
-Si tens dubtes sobre si el teu cas està ben plantejat, sobre exercicis passats o sobre com regularitzar formularis endarrerits, **ho revisem amb tu** en una assessoria gratuïta de 30 minuts. Millor entendre-ho bé una vegada que pagar sancions evitables cada any.
+Si tens dubtes sobre si el teu cas està ben plantejat, sobre exercicis passats o sobre com regularitzar formularis endarrerits, **ho revisem amb tu** en una assessoria gratuïta de 30 minuts. Millor entendre-ho bé una vegada que pagar sancions evitables cada any. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 ## Referències legals i normatives
 
 Aquest article es basa en normativa vigents actualment. Citem les fonts principals per a verificació:
@@ -120,7 +120,7 @@ Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calcu
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
+- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
 ## Fets bancaris i fiscals que convé precisar
@@ -146,7 +146,7 @@ La combinació 1120 + 5472 és l'obligació informativa central de qualsevol sin
 - **Form 1120 (pro-forma).** No és la 1120 corporativa típica: una versió simplificada usada per la LLC disregarded com a "vehicle" per acompanyar el 5472. Només es completen dades identificatives (EIN, adreça, any fiscal). Sense càlcul d'impost. Termini: 15 d'abril (o 15 d'octubre amb extensió 7004).
 - **Form 5472.** El formulari informatiu real. Reporta qualsevol "reportable transaction" entre la LLC i el soci estranger (25%+ ownership): aportacions de capital, distribucions, préstecs intercompanyies, pagaments per serveis prestats o rebuts, vendes de béns. La xifra reportada no genera impost però permet a l'IRS rastrejar fluxos transfronterers.
 - **Quan aplica.** Single-member LLC propietat de no resident (persona física o entitat estrangera) amb almenys una transacció reportable durant l'any fiscal. Si l'any no va moure ni un dòlar, tècnicament no hi ha 5472 - però convé presentar-lo igual amb "0" per mantenir històric net.
-- **Multa per omissió.** 25.000 USD per any fiscal i entitat omesa. Multa addicional de 25.000 USD si després de l'avís de l'IRS no es corregeix en 90 dies. La multa informativa més cara per a LLCs de no resident i la més fàcil de prevenir presentant a temps.
+- **Multa per omissió.** 25.000 USD per any fiscal i entitat omesa. Multa addicional de 25.000 USD si després de l'avís de l'IRS no es corregeix en 90 dies. La multa informativa més cara per a LLCs de no resident i la més fàcil de prevenir presentant a temps. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
 ### Què ens pregunten més
 
@@ -159,17 +159,16 @@ A Exentax preparem i presentem el 1120 + 5472 de la teva LLC dins del termini, e
 
 ## "Reportable transactions": què compta i què no
 
-La nostra posició aquí és deliberadament conservadora: optimitzem allò que sobreviu a una inspecció, no la xifra més agressiva. Els punts següents són els que estem disposats a defensar per escrit.
-
+La nostra posició aquí és deliberadament conservadora: optimitzem allò que sobreviu a una inspecció, no la xifra més agressiva. Els punts següents són els que estem disposats a defensar per escrit. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
   ## El que una LLC NO fa
 
@@ -222,7 +221,7 @@ visibilitat sobre aquests fluxos, no necessàriament ingressos.
 Si l'any no va tenir transaccions reportables, el parell es presenta
 generalment amb valors a zero perquè l'IRS vegi l'estat d'activitat
 explícitament. Saltar la presentació és el que activa la coneguda
-exposició a sancions prevista en la regulació.
+exposició a sancions prevista en la regulació. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 ## Tres patrons reals de presentació que apliquem
 
@@ -257,7 +256,7 @@ l'expedient a punt per al moment en què la LLC es reactivi.
 - Oblidar que una retirada al propietari estranger és una
   transacció reportable. Sovint ho és, segons la seva natura
   (retorn de capital, distribució, etc.).
-- Presentar tard. La sanció per un Form 5472 fallit és substancial
+- Presentar tard. La sanció per un Form 5472 fallit és substancial. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
   i s'aplica fins i tot sense impost US degut.
 
 ## Checklist de pre-presentació

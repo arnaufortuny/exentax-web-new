@@ -28,7 +28,6 @@ Há três erros que todos os anos fazem pagar a mais contribuintes com perfis mu
 Se a sua base geral supera de forma estável os 60.000 euros e a fonte de rendimentos é uma atividade económica que pode faturar a partir de uma sociedade, compare o IRPF de autónomo (taxa marginal 45-47%) com o Imposto sobre Sociedades (Lei 7/2024: microempresas com volume &lt;1 M€ tributam a 19% nos primeiros 50.000 € e 21% sobre o restante em 2026; PME 1-10 M€ a 23%; taxa geral 25%) mais o custo de repatriar o lucro via dividendo. Para perfis 100% digitais com clientes internacionais, vale também a pena modelar a <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">alternativa da LLC americana</a>, que em muitos casos reduz a carga combinada face a permanecer como autónomo espanhol nos escalões altos do IRPF.
 Para verificar as taxas, consulte o <a href="https://sede.agenciatributaria.gob.es/">portal da Agência Tributária espanhola</a> e a <a href="https://www.boe.es/">Lei 35/2006 do IRPF no BOE</a>. O planeamento fiscal real combina conhecer a tarifa, ordenar os rendimentos entre base geral e poupança, esgotar deduções legítimas e, quando os números justificam, avaliar uma mudança de estrutura.
 
-
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.
 
 <!-- exentax:execution-v2 -->
@@ -49,15 +48,14 @@ O que vemos cada semana nos casos que chegam até nós é sempre o mesmo padrão
 Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da chamada com os números fechados e um calendário operacional.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
   ## O que uma LLC NÃO faz
 
@@ -122,7 +120,6 @@ Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calcul
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
 ### Porque é que a camada autonómica muda a conversa

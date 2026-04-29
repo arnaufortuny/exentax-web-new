@@ -1,4 +1,4 @@
-export default `Abans de muntar una LLC des de Catalunya cal veure la fotografia completa, no només les diapositives de venda. Sí, la protecció patrimonial i el pass-through són reals, però la 5472 amb sanció de 25.000 $, el Model 720, el BOI i la fricció bancària també ho són. Una decisió adulta es pren mirant les dues columnes.
+export default `Abans de muntar una LLC des de Catalunya cal veure la fotografia completa, no només les diapositives de venda. Sí, la protecció patrimonial i el pass-through són reals, però la 5472 amb sanció de 25.000 $, el Model 720, el BOI i la fricció bancària també ho són. Una decisió adulta es pren mirant les dues columnes. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 Aquí van les dues cares de la moneda. Sense filtres.
 
@@ -92,7 +92,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
@@ -193,7 +193,7 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 ### Desavantatges reals
 
 - **Cost operatiu recurrent real.** Bookkeeping mensual (~80-150$), 5472/1120 anual (300-600$), BOI (150-300$), agent (50-100$/any). Any 1: 1.500-3.000$.
-- **Compliance pesat i multes brutals.** Oblidar 5472 = $25.000 mín. BOI = $591/dia.
+- **Compliance pesat i multes brutals.** Oblidar 5472 = $25.000 mín. BOI = $591/dia. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 - **Banca més complicada del que van vendre.**
 - **No hi ha estalvi fiscal real en moltes residències.** Espanya: LLC s'atribueix, tributes igual que com a autònom.
 

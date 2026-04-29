@@ -86,11 +86,11 @@ Exemplo prático: declarou um rendimento previsto de 30.000 € (2.500 €/mês,
 
 ## Autónomos societários: quando o registo é obrigatório
 
-Se é administrador de uma SL, detém mais de 25% do capital e exerce efetivamente funções de direção, é obrigado a inscrever-se no RETA como autónomo societário. A quota mínima arranca em cerca de 380 €/mês em 2026, superior ao autónomo comum. A exceção é o administrador com funções puramente mercantis sem participação significativa nem direção real; pode ficar fora do RETA, mas a interpretação da Inspeção é restritiva e a repartição real de funções deve ser documentada.
+Se é administrador de uma SL, detém mais de 25% do capital e exerce efetivamente funções de direção, é obrigado a inscrever-se no RETA como autónomo societário. A quota mínima arranca em cerca de 380 €/mês em 2026, superior ao autónomo comum. A exceção é o administrador com funções puramente mercantis sem participação significativa nem direção real; pode ficar fora do RETA, mas a interpretação da Inspeção é restritiva e a repartição real de funções deve ser documentada. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
 ## Quando deixar de pagar RETA faz sentido
 
-Não para todos. O RETA é obrigatório se exerce atividade económica habitual e pessoal em Espanha, e cessar sem alternativa ordenada é o caminho mais rápido para problemas com a Inspeção. Parar de pagar RETA faz sentido quando: reestrutura a sua atividade numa entidade estrangeira com substância real (LLC, limited lituana, estónia, etc.), muda a residência fiscal para fora de Espanha, passa a empregado a tempo inteiro sem atividade por conta própria ou cessa realmente. Em qualquer outro caso, a poupança aparente torna-se em sanções e quotas retroativas assim que a Inspeção cruza dados.
+Não para todos. O RETA é obrigatório se exerce atividade económica habitual e pessoal em Espanha, e cessar sem alternativa ordenada é o caminho mais rápido para problemas com a Inspeção. Parar de pagar RETA faz sentido quando: reestrutura a sua atividade numa entidade estrangeira com substância real (LLC, limited lituana, estónia, etc.), muda a residência fiscal para fora de Espanha, passa a empregado a tempo inteiro sem atividade por conta própria ou cessa realmente. Em qualquer outro caso, a poupança aparente torna-se em sanções e quotas retroativas assim que a Inspeção cruza dados. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
 ## Referências oficiais e próximos passos
 
@@ -112,15 +112,14 @@ _Veja também: [a quota de autónomo por escalões de rendimentos](/pt/blog/quot
 
 <!-- related-inline-stripped-2026-04 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
   ## O que uma LLC NÃO faz
 

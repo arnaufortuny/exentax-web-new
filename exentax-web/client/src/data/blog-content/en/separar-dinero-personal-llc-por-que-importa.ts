@@ -30,7 +30,7 @@ Beyond legal protection, separating finances makes everything simpler:
 
 **Professional credibility:** Clients and banks trust businesses that operate with professional financial discipline.
 
-**Audit protection:** If the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ever reviews your LLC, clean separate accounts show that your business is legitimate.
+**Audit protection:** If the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ever reviews your LLC, clean separate accounts show that your business is legitimate. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 **Banking compliance:** Mercury, Wise, and other fintechs monitor account usage. Mixing personal and business transactions is a common trigger for compliance reviews and potential account restrictions.
 ## How to maintain separation in practice
@@ -168,7 +168,7 @@ Revolut Business is useful as a supplementary multi-currency tool:
 2. **Document each distribution** with date, amount, method, and reference
 3. **Maintain a consistent frequency**: monthly or bi-monthly distributions are cleanest
 4. **Keep a distribution log**: simple spreadsheet with running total for the tax year
-5. **Use wire or ACH transfers**: these create clear audit trails
+5. **Use wire or ACH transfers**: these create clear audit trails. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 6. **Reference properly**: memo field should say "Owner's Draw - [Month/Year]"
 7. **Never take more than the LLC can afford**: maintain adequate working capital
 
@@ -192,7 +192,7 @@ If personal and business expenses are mixed in the same account, the IRS may cha
 
 ### 2. Form 5472 complications
 
-Form 5472 requires reporting all "reportable transactions" between the LLC and its foreign owner. When accounts are mixed, categorizing transactions becomes extremely difficult and errors are likely. The penalty for errors: **$25,000 per form per year**.
+Form 5472 requires reporting all "reportable transactions" between the LLC and its foreign owner. When accounts are mixed, categorizing transactions becomes extremely difficult and errors are likely. The penalty for errors: **$25,000 per form per year**. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ### 3. Entity reclassification risk
 
@@ -332,7 +332,7 @@ A couple of adjacent reads worth having open alongside this one: <a href="/en/bl
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -364,7 +364,7 @@ Mixing personal and LLC money is the most common operational error and, paradoxi
 - **You lose limited liability (piercing the corporate veil).** If a creditor sues your LLC and proves you used it as a personal account (commingling), a US judge can pierce the corporate veil and recover from your personal assets. The LLC stops protecting you. Doctrine exists in every US state and applies more often than it seems.
 - **Bookkeeping and tax compliance become unviable.** Each mixed movement forces post-hoc reclassification: deductible expense, distribution, loan or reimbursement. Multiplies accountant hours, raises monthly bookkeeping cost and increases 5472 error risk. In audit, dirty bookkeeping is read against the taxpayer.
 - **The bank closes you sooner or later.** Mercury, Wise, Relay have explicit policies: business accounts for business activity. Recurring personal charges (groceries, fuel, Netflix, family transfers without concept) trigger AML as misuse. Closure comes without warning.
-- **Your own fiscal traceability at residence gets complicated.** Spain (Form 720, IRPF) requires identifying what is income attribution vs corporate equity. If you did not separate, you are taxed worse due to uncertainty and, in audit, the most expensive interpretation for you applies.
+- **Your own fiscal traceability at residence gets complicated.** Spain (Form 720, IRPF) requires identifying what is income attribution vs corporate equity. If you did not separate, you are taxed worse due to uncertainty and, in audit, the most expensive interpretation for you applies. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 ### How to separate correctly
 
@@ -386,7 +386,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

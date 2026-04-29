@@ -1,10 +1,10 @@
 export default `
 
-A Spanish autonomo's tax bill depends less on the marginal rate and more on the expenses they manage to document. The gap between someone declaring 50,000 euros of net income and someone declaring 35,000 on the same invoicing usually lies in bookkeeping discipline, not tricks. This guide compiles the practical list of currently deductible expenses, the criteria for activity allocation, the legal limits the Spanish Tax Agency watches especially closely and the mistakes that every year trigger avoidable adjustments and penalties.
+A Spanish autonomo's tax bill depends less on the marginal rate and more on the expenses they manage to document. The gap between someone declaring 50,000 euros of net income and someone declaring 35,000 on the same invoicing usually lies in bookkeeping discipline, not tricks. This guide compiles the practical list of currently deductible expenses, the criteria for activity allocation, the legal limits the Spanish Tax Agency watches especially closely and the mistakes that every year trigger avoidable adjustments and penalties. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ## General criteria: necessary, linked and justified
 
-For an expense to be deductible it must meet three conditions: be linked to the economic activity, be properly documented (invoice, not generic receipt) and be recorded in the autonomo's accounting books. Without any one of the three, the Spanish Tax Agency can reject the deduction in any review. The invoice must include your NIF, the supplier's, date, specific description and VAT breakdown where applicable. Cash payments above 1,000 euros between professionals are banned by the Anti-Fraud Law and mean loss of deduction plus a separate penalty.
+For an expense to be deductible it must meet three conditions: be linked to the economic activity, be properly documented (invoice, not generic receipt) and be recorded in the autonomo's accounting books. Without any one of the three, the Spanish Tax Agency can reject the deduction in any review. The invoice must include your NIF, the supplier's, date, specific description and VAT breakdown where applicable. Cash payments above 1,000 euros between professionals are banned by the Anti-Fraud Law and mean loss of deduction plus a separate penalty. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 ## Software, digital tools and subscriptions
 
 The whole digital stack of an autonomo is fully deductible: hosting, domains, invoicing software, design tools, IDEs, generative AI subscriptions, email services, cloud storage, ERP, CRM, course platforms, plugins, annual and monthly licences. The invoice must be issued to your NIF and, if the supplier is in the EU, follow the reverse charge mechanism on Form 303. Personal Netflix or Spotify subscriptions are not deductible even if you use them partially for inspiration; the Spanish Tax Agency requires exclusively professional use.
@@ -23,7 +23,7 @@ Tax, accounting and labour advisory fees are fully deductible. Training is deduc
 
 ## Common mistakes and the structural alternative
 
-The mistakes that generate most penalties: claiming family meals as per diems, personal fuel without documented professional use, personal clothing invoiced as uniform without being one, client gifts above 1% of turnover and, above all, expenses without invoice. If your activity is 100% digital, a <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">US LLC</a> lets you document expenses under US criteria (ordinary and necessary), considerably broader and more flexible than the Spanish ones, while keeping full traceability for your residence-country return.
+The mistakes that generate most penalties: claiming family meals as per diems, personal fuel without documented professional use, personal clothing invoiced as uniform without being one, client gifts above 1% of turnover and, above all, expenses without invoice. If your activity is 100% digital, a <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">US LLC</a> lets you document expenses under US criteria (ordinary and necessary), considerably broader and more flexible than the Spanish ones, while keeping full traceability for your residence-country return. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 The official criterion on deductible expenses is in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Law 35/2006 on IRPF</a> and the binding consultations of the <a href="https://petete.tributos.hacienda.gob.es/">Spanish Tax Directorate</a>. Documenting well today saves a lot tomorrow: every archived invoice is one euro less for the Treasury later.
 
@@ -56,7 +56,7 @@ The official criterion on deductible expenses is in <a href="https://www.boe.es/
 
 | Mistake | Consequence |
 |---|---|
-| Deducting family meals as travel allowances | Penalty + surcharge + reclassification |
+| Deducting family meals as travel allowances | Penalty + surcharge + reclassification |. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 | Personal fuel without travel log | Reduced to 50% best case, 0% if blatant |
 | Personal clothing as "uniform" | Not deductible unless permanent corporate branding |
 | Client gifts >1% revenue | Excess not deductible |
@@ -114,7 +114,6 @@ What we see every week in the files that reach us is the same pattern: the quest
 
 If you want to move from doubt to plan, book 30 minutes with Exentax and we walk out of the call with the numbers closed and an operational calendar.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

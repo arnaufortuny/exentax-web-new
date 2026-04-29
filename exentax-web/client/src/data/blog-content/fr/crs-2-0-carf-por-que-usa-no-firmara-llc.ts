@@ -65,7 +65,7 @@ En atterrissant sur les décisions concrètes que nous prenons chaque semaine av
 - **La configuration bancaire est le facteur décisif.** Si vous opérez exclusivement avec des comptes aux USA (Mercury, Relay, banque régionale) au nom de la LLC, l'empreinte CRS vers votre fisc est quasi nulle. Dès que vous ajoutez une couche européenne (Wise Business, Revolut Business européen, N26, Wallester, Payoneer Europe), vous acceptez que cette information arrive à votre administration. Ni bon ni mauvais : c'est de l'information que votre planification doit absorber pour que le déclaré et le reporté coïncident.
 - **La crypto change de régime avec CARF.** Si vous gérez des soldes significatifs sur des exchanges basés en Europe ou dans des juridictions adhérentes, partez du principe que votre administration recevra ces données automatiquement à brève échéance.
 - **L'État de constitution compte pour des raisons opérationnelles, pas fiscales**. Wyoming et Nouveau-Mexique restent gagnants pour les profils freelance et services ; Delaware reste gagnant pour SaaS visant la levée de fonds ou pour des holdings ; la Floride convient aux résidents avec présence physique aux USA. Aucune décision ne dépend du CRS, toutes dépendent de comment votre activité et votre banque s'articulent avec la juridiction.
-- **Résidence fiscale du titulaire comme variable maîtresse**. La résidence ne se choisit pas, elle se constate (jours de présence, centre des intérêts économiques, foyer familial). Tenter de masquer la résidence réelle à l'abri de l'asymétrie FATCA-CRS est, au-delà d'une erreur technique, une infraction qualifiée dans la plupart des juridictions européennes et latino-américaines, avec des sanctions sévères.
+- **Résidence fiscale du titulaire comme variable maîtresse**. La résidence ne se choisit pas, elle se constate (jours de présence, centre des intérêts économiques, foyer familial). Tenter de masquer la résidence réelle à l'abri de l'asymétrie FATCA-CRS est, au-delà d'une erreur technique, une infraction qualifiée dans la plupart des juridictions européennes et latino-américaines, avec des sanctions sévères. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 
 <!-- exentax:lote16-native-v1:crs-2-0-carf-por-que-usa-no-firmara-llc-fr -->
 ## Pourquoi la position américaine sur CRS est structurelle plutôt que politique
@@ -120,7 +120,6 @@ Pour appliquer cette méthode à votre cas, ouvrez la <a href="/fr#calculadora">
 ## Parlons de votre cas
 
 Chaque structure a ses nuances : pays de résidence, type d'activité, présence ou non de crypto, volume, ancienneté de la LLC, obligations accumulées. Chez Exentax, nous revoyons votre situation, dimensionnons l'exposition réelle au CRS 2.0 et à CARF, et concevons la structure LLC et la configuration bancaire qui vous correspondent. Nous vous accompagnons chaque année sur la maintenance pour que le calendrier et les déclarations restent cohérents avec la réalité de votre activité.
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?

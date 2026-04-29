@@ -80,7 +80,7 @@ L'IRS prend ce formulaire très au sérieux. Les sanctions pour non-dépôt ou d
 
 - **25 000 $ de sanction de base** pour chaque formulaire non déposé ou incomplet
 - **25 000 $ supplémentaires** par période de 30 jours de non-conformité après notification par l'IRS (jusqu'à 25 000 $ par mois)
-- Il n'y a pas de plafond maximum défini, les sanctions peuvent s'accumuler considérablement
+- Il n'y a pas de plafond maximum défini, les sanctions peuvent s'accumuler considérablement. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 Ces chiffres semblent alarmants, mais la réalité est plus nuancée. Si vous déposez votre Form 5472 dans les délais (ou pendant l'extension) avec des informations correctes, il n'y a aucune sanction. Les sanctions s'appliquent à ceux qui ignorent l'obligation ou la déposent avec des erreurs graves.
 
@@ -106,7 +106,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 ### Par juridiction
 
 - **Espagne (LIRPF/LIS).** Si la LLC est une *Single-Member Disregarded Entity* opérationnelle (services réels, sans passivité significative), le fisc la traite généralement par **attribution de revenus (art. 87 LIRPF)**: les bénéfices nets sont attribués à l'associé l'année où ils naissent et intégrés dans la base générale de l'IRPF. Si la LLC opte pour la fiscalité de *corporation* (Form 8832) et qu'elle est contrôlée par un résident espagnol avec des revenus majoritairement passifs, le **régime de transparence fiscale internationale (art. 91 LIRPF pour les personnes physiques, art. 100 LIS pour les sociétés)** peut s'appliquer. Le choix n'est pas optionnel: il dépend de la substance économique, pas du nom.
-- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**.
+- **Déclarations informatives.** Comptes bancaires américains avec solde moyen ou final >50 000 €: **Modelo 720** (Loi 5/2022 après l'arrêt CJUE C-788/19 du 27/01/2022, sanctions désormais dans le régime général LGT). Opérations liées avec la LLC et dividendes rapatriés: **Modelo 232**. Crypto-actifs en garde aux États-Unis: **Modelo 721**. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 - **Convention Espagne–États-Unis.** La convention (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocole en vigueur 27/11/2019) régit la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement permanent en Espagne ne crée pas en soi un EP de l'associé, mais la direction effective peut le faire si toute la gestion est conduite depuis le territoire espagnol.
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
@@ -126,7 +126,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 - **Convention Espagne–USA.** BOE du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
@@ -162,7 +162,7 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 Le Form 5472 reste l'obligation la plus coûteuse à oublier pour une SMLLC non-résidente:
 
-- **Sanction de base 25 000 USD par formulaire et par an** (IRC §6038A) + **25 000 USD par tranche de 30 jours** sans dépôt après notification de l’IRS. Pas de prescription tant que l'obligation est ouverte.
+- **Sanction de base 25 000 USD par formulaire et par an** (IRC §6038A) + **25 000 USD par tranche de 30 jours** sans dépôt après notification de l’IRS. Pas de prescription tant que l'obligation est ouverte. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 - **Procédure exacte.** Form 1120 *pro forma* (en-tête seul: nom, adresse, EIN, exercice fiscal) avec Form 5472 annexé. Envoi par **courrier certifié ou fax à l’IRS Service Center d’Ogden, Utah**, **pas via MeF/e-file**. Conservez le justificatif d'envoi comme preuve.
 - **Échéances.** Exercice 2025 → **15 avril**. Prolongation via **Form 7004** → **15 octobre**. La prolongation se dépose également par courrier ou fax avant le 15 avril.
 
@@ -170,7 +170,7 @@ Le Form 5472 reste l'obligation la plus coûteuse à oublier pour une SMLLC non-
 
 **Qu'est-ce qu'une *reportable transaction*?** Tout mouvement entre la LLC et son unique *member* non-résident: apports, retraits, prêts, paiements de services. S'il y a eu un mouvement, il faut déposer.
 
-**Et si je n'ai pas déposé depuis des années?** Régularisation avec dépôts en retard et déclaration écrite de *reasonable cause*. Conseil recommandé: une lettre bien construite peut éviter la sanction initiale.
+**Et si je n'ai pas déposé depuis des années?** Régularisation avec dépôts en retard et déclaration écrite de *reasonable cause*. Conseil recommandé: une lettre bien construite peut éviter la sanction initiale. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 
 **Le Form 7004 couvre-t-il le 5472?** Oui. Si vous déposez le 7004 avant le 15 avril, l’échéance du 5472 + 1120 pro forma est repoussée automatiquement au 15 octobre.
 

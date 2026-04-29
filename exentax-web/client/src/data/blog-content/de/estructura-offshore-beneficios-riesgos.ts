@@ -33,7 +33,7 @@ Wer Offshore als Abkürzung verkauft, um nichts zu zahlen, verkauft etwas, das n
 
 Eine schlecht konzipierte oder falsch genutzte Struktur kann mehr Probleme schaffen als Vorteile bringen:
 
-- **Tatsächlicher Sitz der Geschäftsleitung (POEM)**: Wird die Gesellschaft tatsächlich von Ihrem Wohnsitzland aus geführt, kann dieses sie als lokal ansässig behandeln und Körperschaftsteuer mit Zinsen und Strafen verlangen.
+- **Tatsächlicher Sitz der Geschäftsleitung (POEM)**: Wird die Gesellschaft tatsächlich von Ihrem Wohnsitzland aus geführt, kann dieses sie als lokal ansässig behandeln und Körperschaftsteuer mit Zinsen und Strafen verlangen. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 - **CFC-Regeln**: Viele Länder (Spanien, Frankreich, Deutschland, Mexiko, Argentinien) rechnen Gewinne kontrollierter ausländischer Gesellschaften zu, wenn bestimmte Voraussetzungen erfüllt sind.
 - **Bankenschließungen**: Als problematisch wahrgenommene Jurisdiktionen (BVI, Belize, Seychellen) lösen präventive Kündigungen bei europäischen und US-Banken aus.
 - **Unverhältnismäßige laufende Kosten**: Eine schlecht gewählte Offshore-Gesellschaft kann 5.000-15.000 USD/Jahr verschlingen, ohne realen Steuervorteil zu bieten.
@@ -74,7 +74,7 @@ Für komplexere Profile (relevantes Vermögen, mehrere Gesellschafter, mehrere L
 ### Typische Anwendungsfälle
 
 **Fall 1: Fachkraft ohne Struktur, ansässig in einem <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>-Land.**
-Mit einer korrekt deklarierten US-LLC beginnen. Bestes Verhältnis von Kosten, Nutzen und Legitimität. Reine Offshore-Strukturen bringen nichts und setzen schweren Strafen aus.
+Mit einer korrekt deklarierten US-LLC beginnen. Bestes Verhältnis von Kosten, Nutzen und Legitimität. Reine Offshore-Strukturen bringen nichts und setzen schweren Strafen aus. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 **Fall 2: konsolidierter Unternehmer mit zu schützenden Vermögenswerten.**
 Holding in vernünftiger Jurisdiktion (Deutschland, Niederlande, Luxemburg je Profil) mit lokaler operativer Gesellschaft. Echter Vermögensschutz, Steueroptimierung und Bankakzeptanz ohne die roten Flaggen reiner Offshore.
@@ -93,7 +93,7 @@ Ja, solange sie im Wohnsitzland deklariert wird. Illegalität entsteht, wenn das
 
 **Was passiert, wenn mein Land die Offshore-Struktur entdeckt?**
 
-Wenn Sie sie korrekt gemeldet haben, nichts Außergewöhnliches: Besteuerung nach den CFC-Regeln Ihres Landes. Ohne Meldung Strafen von 50 %-200 % plus Zuschlägen, Zinsen und möglicher Straftat.
+Wenn Sie sie korrekt gemeldet haben, nichts Außergewöhnliches: Besteuerung nach den CFC-Regeln Ihres Landes. Ohne Meldung Strafen von 50 %-200 % plus Zuschlägen, Zinsen und möglicher Straftat. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 **Helfen Offshores, Pfändungen zu vermeiden?**
 
@@ -195,7 +195,7 @@ Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 -->
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 --> Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 ## "Offshore" aktuell: was es nicht mehr bedeutet, was Sie denken
 
 Das Wort "offshore" trägt 1990er-Konnotationen, die nicht mehr gelten. Heute ist eine Gesellschaft außerhalb Ihres Wohnsitzlands perfekt legitim, wenn gut designt - und ein reales Risiko, wenn wie 2005 aufgesetzt. Das hat sich geändert und so entscheiden Sie.
@@ -216,7 +216,7 @@ Bei Exentax modellieren wir Offshore vs Onshore mit Ihren echten Zahlen, zeigen 
 
 ## Rechtliche und regulatorische Referenzen
 
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
+Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 <!-- task9-2026-expansion -->
 ## Steueroasen: aktualisierte offizielle AEAT-Liste, nicht kooperative EU- und OECD-Jurisdiktionen und automatischer CRS-/FATCA-Austausch

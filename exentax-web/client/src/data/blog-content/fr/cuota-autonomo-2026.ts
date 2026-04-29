@@ -58,7 +58,6 @@ Ce que nous voyons chaque semaine dans les dossiers qui nous arrivent, c'est tou
 Si vous voulez passer du doute au plan, réservez 30 minutes avec Exentax et nous sortons de l'appel avec les chiffres verrouillés et un calendrier opérationnel.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

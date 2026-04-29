@@ -8,7 +8,7 @@ Tres senyals:
 
 1. **Diverses divises** (USD, EUR, GBP) i costos de conversió no trivials.
 2. **Diversos processadors** (Stripe, PayPal, Wise, Amazon, Shopify) i conciliació dolorosa.
-3. **Bloqueig temporal** al compte principal sense backup operatiu.
+3. **Bloqueig temporal** al compte principal sense backup operatiu. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 ### Tres actors de referència
 
 ### Mercury
@@ -118,7 +118,7 @@ Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calcu
 Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.
 ## T'ho muntem sense que perdis un cap de setmana
 
-La nostra posició aquí és deliberadament conservadora: optimitzem allò que sobreviu a una inspecció, no la xifra més agressiva. Els punts següents són els que estem disposats a defensar per escrit.
+La nostra posició aquí és deliberadament conservadora: optimitzem allò que sobreviu a una inspecció, no la xifra més agressiva. Els punts següents són els que estem disposats a defensar per escrit. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 <!-- related-inline-stripped-2026-04 -->
 
@@ -232,7 +232,7 @@ moviment?" deixa d'aparèixer.
 - Sortida de "la targeta Wise és la targeta de l'empresa". Client
   utilitzava la targeta Wise com a targeta principal. Vam moure SaaS
   recurrents i despeses pròximes al salari a Mercury (on la pista
-  d'auditoria és de qualitat bancària) i vam mantenir la targeta
+  d'auditoria és de qualitat bancària) i vam mantenir la targeta. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
   Wise estrictament per a anuncis pagats.
 
 ## Errors que veiem en una reorganització

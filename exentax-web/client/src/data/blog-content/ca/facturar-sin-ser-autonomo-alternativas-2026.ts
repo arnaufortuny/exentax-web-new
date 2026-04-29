@@ -6,14 +6,14 @@ Poques preguntes es repeteixen més entre qui comença: puc facturar sense donar
 
 ## Ingressos esporàdics: el cas real, no el truc viral
 
-La doctrina admet emetre factures puntuals sense alta al RETA quan l'ingrés és ocasional, no habitual i no supera el SMI anual. Una sentència clàssica del Tribunal Suprem estableix que l'habitualitat es pot inferir quan se supera el SMI o quan hi ha continuïtat. És a dir: facturar dos o tres treballs l'any per imports petits no obliga a donar-se d'alta al RETA, encara que sí a Hisenda (model 036 i declaracions d'IVA si aplica). L'AEAT i la Inspecció de Treball creuen dades: si emets diverses factures seguides, esperen la teva alta. Aquesta via no és per operar habitualment.
+La doctrina admet emetre factures puntuals sense alta al RETA quan l'ingrés és ocasional, no habitual i no supera el SMI anual. Una sentència clàssica del Tribunal Suprem estableix que l'habitualitat es pot inferir quan se supera el SMI o quan hi ha continuïtat. És a dir: facturar dos o tres treballs l'any per imports petits no obliga a donar-se d'alta al RETA, encara que sí a Hisenda (model 036 i declaracions d'IVA si aplica). L'AEAT i la Inspecció de Treball creuen dades: si emets diverses factures seguides, esperen la teva alta. Aquesta via no és per operar habitualment. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 ## Cooperatives de facturació: l'opció més coneguda
 
 Les cooperatives de facturació, també anomenades cooperatives de treball associat o d'impuls empresarial, et permeten facturar a través de la cooperativa sense estar donat d'alta com a autònom. Tu aportes el client, la cooperativa emet la factura i et paga com a nòmina (amb cotització al règim general). Cobren una comissió del 5-12% del facturat i es queden amb la complexitat. Van molt bé per a volums baixos (menys de 1.500-2.000 euros mensuals) o per a períodes de transició. Per a facturacions estables i altes, la seva comissió i la cotització al règim general les fan menys eficients que el RETA estàndard.
 
 ## Treballar com a contractista mercantil sota una altra estructura
 
-Si trobes un client que t'ofereix contracte mercantil estable, pots facturar com a persona física per serveis sense alta de RETA només si l'activitat és genuïnament esporàdica o no constitueix el teu mitjà principal de vida. La realitat és que la majoria de relacions que semblen mercantils són considerades falses per la Inspecció si concorren indicis de laboralitat: dependència, alienitat, exclusivitat, integració en l'organització del client. Si et detecten com a fals autònom, les conseqüències econòmiques són greus per al client i, en part, per a tu. No és una via recomanable per operar a llarg termini.
+Si trobes un client que t'ofereix contracte mercantil estable, pots facturar com a persona física per serveis sense alta de RETA només si l'activitat és genuïnament esporàdica o no constitueix el teu mitjà principal de vida. La realitat és que la majoria de relacions que semblen mercantils són considerades falses per la Inspecció si concorren indicis de laboralitat: dependència, alienitat, exclusivitat, integració en l'organització del client. Si et detecten com a fals autònom, les conseqüències econòmiques són greus per al client i, en part, per a tu. No és una via recomanable per operar a llarg termini. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 ## Holding personal o societat limitada pròpia
 
@@ -28,7 +28,6 @@ Per a perfils 100% digitals amb clients majoritàriament fora d'Espanya, una <a 
 Resum pràctic: ingressos puntuals baixos (menys de 3.000 euros any en total) i no recurrents: persona física amb declaració correcta en IRPF. Volum petit-mitjà sense recurrència (cooperativa de facturació) o estable com a freelance digital local: alta de RETA i planificació normal. Volum alt amb clients espanyols, diversos socis o risc patrimonial: SL. Volum mitjà-alt amb clients internacionals i activitat 100% digital: LLC americana coordinada amb declaració correcta en residència. Cada cas requereix modelar números concrets i entendre que la baixa del RETA ha d'estar perfectament documentada per no entrar en conflicte amb la TGSS.
 
 Els criteris d'habitualitat estan consolidats en sentències del <a href="https://www.poderjudicial.es/">Tribunal Suprem</a> i en la doctrina de la <a href="https://www.seg-social.es/">TGSS</a>. Abans d'operar sense RETA, modela la teva situació amb assessoria seriosa; les falses dreceres acaben sent cares.
-
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.
 
@@ -50,15 +49,14 @@ El que veiem cada setmana en els casos que ens arriben és sempre el mateix patr
 Si vols passar del dubte al pla, reserva 30 minuts amb Exentax i sortim de la trucada amb els números tancats i un calendari operatiu.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
   ## El que una LLC NO fa
 
@@ -87,7 +85,7 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 <!-- exentax:lote6-native-v1:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### Què vol dir realment "ingrés esporàdic" a la pràctica
 
-L'exempció sovint citada del règim d'autònom per a ingressos esporàdics i de baix valor sorgeix d'una interpretació de la jurisprudència i no d'una regla clara i tallada. A la pràctica, l'AEAT i la Seguretat Social tracten com a veritablement esporàdics només els ingressos puntuals, baixos en valor absolut (molt per sota del salari mínim anual) i sense lligam amb una activitat recurrent. Tres factures emeses al mateix client en sis mesos no semblaran esporàdiques a un inspector de treball encara que l'import absolut sigui petit; en canvi, un caixet únic de taller pagat una vegada a l'any encaixa clarament a la definició. La zona grisa al mig és on la majoria de freelances es fiquen en problemes: facturar a través de la societat d'una altra persona, declarar com a "serveis ocasionals" allò que és en realitat un contracte recurrent, o simplement saltar-se l'alta esperant que els imports petits passin desapercebuts. Cap d'aquestes dreceres aguanta bé, i el cost d'una inspecció (regularització de cotitzacions més sanció) supera amb escreix l'estalvi d'uns mesos sense quota.
+L'exempció sovint citada del règim d'autònom per a ingressos esporàdics i de baix valor sorgeix d'una interpretació de la jurisprudència i no d'una regla clara i tallada. A la pràctica, l'AEAT i la Seguretat Social tracten com a veritablement esporàdics només els ingressos puntuals, baixos en valor absolut (molt per sota del salari mínim anual) i sense lligam amb una activitat recurrent. Tres factures emeses al mateix client en sis mesos no semblaran esporàdiques a un inspector de treball encara que l'import absolut sigui petit; en canvi, un caixet únic de taller pagat una vegada a l'any encaixa clarament a la definició. La zona grisa al mig és on la majoria de freelances es fiquen en problemes: facturar a través de la societat d'una altra persona, declarar com a "serveis ocasionals" allò que és en realitat un contracte recurrent, o simplement saltar-se l'alta esperant que els imports petits passin desapercebuts. Cap d'aquestes dreceres aguanta bé, i el cost d'una inspecció (regularització de cotitzacions més sanció) supera amb escreix l'estalvi d'uns mesos sense quota. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
 ### Una comparació neta entre les quatre alternatives reals
 
@@ -109,7 +107,6 @@ Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calcu
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### Un protocol de decisió del primer mes en deixar el règim d'autònom

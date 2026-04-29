@@ -34,7 +34,7 @@ Uma classificação errada altera completamente as suas obrigações declarativa
 
 Se é não residente, dono único de uma LLC, e houve qualquer transacção entre si e a LLC (levantamentos, contribuições, pagamentos), está obrigado a apresentar **Form 5472 acompanhado de um Form 1120 pro-forma**. Todos os anos. Sem excepções relevantes para a maioria dos perfis.
 
-A sanção base por não apresentar ou apresentar incompleto é de **25 000 USD por formulário e ano**, e acumula. Não é uma ameaça abstracta: o IRS aplica-as.
+A sanção base por não apresentar ou apresentar incompleto é de **25 000 USD por formulário e ano**, e acumula. Não é uma ameaça abstracta: o IRS aplica-as. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 Veja o nosso <a href="/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir">guia completo do Form 5472</a> para os detalhes. Se não se lembra de o ter apresentado nos últimos anos, não está "fora do radar": está a gerar um passivo silencioso.
 
@@ -112,7 +112,7 @@ Se três ou mais se aplicam, não está "fora do radar", está a acumular um pas
 | Erro | Porque é grave |
 |---|---|
 | Não apresentar Form 5472 durante anos | 25 000 USD de sanção por formulário, cumulativa |
-| BOI Report não actualizado | Até 591 USD/dia de sanção |
+| BOI Report não actualizado | Até 591 USD/dia de sanção |. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 | Contas pessoais e da LLC misturadas | Quebra a separação patrimonial |
 | Não declarar rendimentos LLC no país de residência | Quando salta o cruzamento CRS/DAC, regularização + sanções + juros |
 | Wise/Mercury/Brokers com residência fiscal errada | Reporte CRS ao país errado, o que dispara revisões de rotina |
@@ -209,7 +209,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 ### Pontos-chave
 
 - **BOI / Corporate Transparency Act: a tua LLC NÃO está obrigada (uma vantagem competitiva).** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida às "foreign reporting companies"** (entidades constituídas FORA dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA detida por um não residente NÃO submete o BOI Report**: uma formalidade a menos no calendário, menos burocracia e uma estrutura mais limpa do que nunca. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo. O estado regulatório pode mudar: **monitorizamos a FinCEN.gov em cada submissão** e, se a obrigação voltar, gerimos sem custo adicional. Estado atual verificável em [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 - **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
 ### Lembrete prático

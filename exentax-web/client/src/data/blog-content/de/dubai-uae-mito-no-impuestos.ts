@@ -214,7 +214,7 @@ Die Eignungsprüfung hält sich dauerhafter in einer kurzen, datierten Notiz fes
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## Dubai ohne Marketing: was sich seit Juni 2023 geändert hat und für wen es noch funktioniert
 
-"Dubai steuerfrei" wurde jahrelang als universelle Wahrheit verkauft. Seit Juni 2023 gibt es 9% bundesweite Körperschaftsteuer auf Gewinne über 375.000 AED (~102.000 USD), Economic Substance, Country-by-Country Reporting und internationale Prüfung, die die Rechnung ändern. Das bleibt - und das nicht.
+"Dubai steuerfrei" wurde jahrelang als universelle Wahrheit verkauft. Seit Juni 2023 gibt es 9% bundesweite Körperschaftsteuer auf Gewinne über 375.000 AED (~102.000 USD), Economic Substance, Country-by-Country Reporting und internationale Prüfung, die die Rechnung ändern. Das bleibt - und das nicht. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 - **Free Zone vs Mainland: was wirklich gilt.** Free Zones (DMCC, IFZA, Meydan, RAKEZ, JAFZA, ADGM) halten 0% nur, wenn die Einheit "qualifying free zone person" ist - qualifizierende Tätigkeit, angemessene Substanz, keine Dienstleistungen an Mainland-UAE-Kunden. Außerhalb des qualifizierten Umfangs oder mit Mainland-Bedienung wird das Einkommen 9%. Selektiv, nicht automatisch.
 - **Echte wirtschaftliche Substanz.** ESR verlangt eigenes Büro (kein Flexi-Desk für Holdings), qualifiziertes Personal, Betriebsausgaben in UAE und Management & Control aus dem Land. Eine Briefkasten-Hülle ist CRS-meldepflichtig, verliert die Befreiung und zieht Aufmerksamkeit des UBO-Wohnsitzlands an.

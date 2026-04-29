@@ -50,7 +50,7 @@ Wenn Ihre Finanzbehörde diese Meldungen erhält und die Salden mit Ihrer Erklä
 - Korrekt deklariert (A): passt. Nichts.
 - Nicht oder falsch deklariert (B/C): **automatische Inkohärenz**. Je höher Saldo/Fluss, desto schneller und priorisierter wird ein Verfahren eröffnet.
 
-Der Haken: bei der Prüfung wird nicht nur das letzte Jahr angeschaut, sondern alle **nicht verjährten Veranlagungszeiträume** (länderabhängig). Was wie "ein paar Tausend gespart" aussah, wird zu mehreren Jahren Steuer + Zinsen + Strafen 50–150 %. Plus spezifische Strafen für nicht gemeldete Auslandskonten/-vermögen.
+Der Haken: bei der Prüfung wird nicht nur das letzte Jahr angeschaut, sondern alle **nicht verjährten Veranlagungszeiträume** (länderabhängig). Was wie "ein paar Tausend gespart" aussah, wird zu mehreren Jahren Steuer + Zinsen + Strafen 50–150 %. Plus spezifische Strafen für nicht gemeldete Auslandskonten/-vermögen. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 ### Und das Doppelbesteuerungsabkommen?
 
 Vernünftige Frage: "USA und mein Land haben ein DBA, deckt das nicht?"
@@ -99,7 +99,7 @@ Bei bestehender LLC mit jahrelangen Versäumnissen bewerten wir:
 
 1. Offene Veranlagungszeiträume.
 2. Beträge im Spiel.
-3. **Freiwillige Selbstanzeige/Berichtigung** vor Bescheid, was Strafen drastisch reduziert.
+3. **Freiwillige Selbstanzeige/Berichtigung** vor Bescheid, was Strafen drastisch reduziert. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 4. Auch verspätete Auslandsmeldungen korrigieren.
 5. Ob die Struktur künftig noch trägt oder umgebaut werden muss.
 
@@ -113,7 +113,7 @@ Schluss fast immer: **freiwillige Regularisierung ist günstiger** als auf das V
 - Günstig: **ab Jahr eins richtig deklarieren**. Teuer: nach Verfahrenseröffnung regularisieren.
 - Wohnsitzwechsel kann Option sein, nur wenn echt und vollständig.
 
-Wenn Sie eine LLC haben und nicht 100 % sicher sind, wie zu Hause zu besteuern ist, oder Jahre ohne Erklärung angehäuft haben und Exposition und Regularisierungskosten kennen wollen, **prüfen wir es mit Ihnen** in einer kostenlosen 30-minütigen Beratung. Besser einmal die ganze Karte sehen als sie über Strafen Stück für Stück zu entdecken.
+Wenn Sie eine LLC haben und nicht 100 % sicher sind, wie zu Hause zu besteuern ist, oder Jahre ohne Erklärung angehäuft haben und Exposition und Regularisierungskosten kennen wollen, **prüfen wir es mit Ihnen** in einer kostenlosen 30-minütigen Beratung. Besser einmal die ganze Karte sehen als sie über Strafen Stück für Stück zu entdecken. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 ## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
 Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
@@ -121,7 +121,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 ### Nach Rechtsordnung
 
 - **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
-- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 - **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
@@ -191,14 +191,14 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 ## Steuerliche Compliance in Ihrem Land: CFC, TFI und Einkünftezurechnung
 
 Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Struktur verliert Steuern, Bankzugang oder Compliance. Die folgenden Hinweise spiegeln wider, was wir mit Mandanten in genau diesem Fall tatsächlich tun, mit Priorität auf den Variablen, die das Ergebnis bewegen.
 
 ## Rechtliche und regulatorische Referenzen
 
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
+Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 <!-- exentax:execution-v2 -->
 ## "Meine LLC zahlt keine US-Steuern": stimmt, aber was passiert in Ihrem Land?

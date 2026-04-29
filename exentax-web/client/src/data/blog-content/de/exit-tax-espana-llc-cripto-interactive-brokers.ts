@@ -98,11 +98,11 @@ Dieser Artikel ist informativ und stellt keine personalisierte Steuerberatung da
 Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Struktur verliert Steuern, Bankzugang oder Compliance. Die folgenden Hinweise spiegeln wider, was wir mit Mandanten in genau diesem Fall tatsächlich tun, mit Priorität auf den Variablen, die das Ergebnis bewegen.
 ## Was die Exit Tax ist (Art. 95 bis LIRPF)
 
-Unsere Haltung hier ist bewusst konservativ: wir optimieren für das, was eine Prüfung übersteht, nicht für die aggressivste Schlagzahl. Die folgenden Punkte sind diejenigen, die wir schriftlich verteidigen.
+Unsere Haltung hier ist bewusst konservativ: wir optimieren für das, was eine Prüfung übersteht, nicht für die aggressivste Schlagzahl. Die folgenden Punkte sind diejenigen, die wir schriftlich verteidigen. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
 ## Rechtsgrundlage: Art. 95 bis LIRPF im Detail
 
-Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben — und in dieser Reihenfolge gehen wir vor.
+Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben — und in dieser Reihenfolge gehen wir vor. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
 ### Anwendungsfälle
 
@@ -113,8 +113,6 @@ Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchzi
 ### Welche Vermögenswerte zählen: fällt Ihr Portfolio darunter?
 
 Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitplan zählen — wer eines davon falsch setzt, bringt den Rest ins Wanken.
-
-
 
 ## Fall 4: gemischtes Portfolio (IBKR-Aktien + LLC-Beteiligung + Krypto)
 
@@ -130,7 +128,7 @@ Die IBKR-Bestände sind persönliche Finanzaktiva und lösen Art. 95 bis aus, so
 
 **Fehler 3: Stundungsantrag zu spät einreichen.** Umzug innerhalb EU/EWR öffnet eine automatische Stundung; außerhalb braucht es einen bedingten Antrag mit eigener Frist. Verpasst, bedeutet das, die Latenzgewinne in Bar im üblichen Zahlungsfenster zu tragen.
 
-**Fehler 4: Modelo 720 im Wegzugsjahr vergessen.** Die Meldepflicht läuft für den Teil des Jahres mit spanischem Wohnsitz weiter. Sie zu überspringen, addiert Strafen zu einem ohnehin komplexen Vorgang.
+**Fehler 4: Modelo 720 im Wegzugsjahr vergessen.** Die Meldepflicht läuft für den Teil des Jahres mit spanischem Wohnsitz weiter. Sie zu überspringen, addiert Strafen zu einem ohnehin komplexen Vorgang. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 ## Praktischer Zeitplan 12-6-3 Monate vor dem Umzug
 
@@ -139,8 +137,6 @@ Die IBKR-Bestände sind persönliche Finanzaktiva und lösen Art. 95 bis aus, so
 **T minus 6 Monate.** Entscheidung über die Stundung (EU/EWR automatisch vs Nicht-EU bedingt). Belege zur Beteiligungsbewertung vorbereiten: 24 Monate Mercury- oder Wise-Auszüge, 5472-Historie, Vertragsliste. Onboarding im Zielland einplanen (NIF/Steuernummer, Bank, Aufenthaltstitel).
 
 **T minus 3 Monate.** Finale Bewertungsmomentaufnahme zum Stichtag. Stundungsantrag entwerfen, falls anwendbar. Modelo 100 des Teiljahres mit der spanischen Beraterin abstimmen und ersten Modelo 720 für das neue Wohnsitzjahr vorplanen.
-
-
 
 ### Ein Satz, den wir vor jedem Wegzug wiederholen
 
@@ -154,13 +150,9 @@ Zweitens: Die Schweiz ist kein EWR-Staat, Stundungsanträge folgen daher dem bed
 
 Drittens: Krypto-Bestände auf Kraken oder Coinbase werden bei deutschen Mandant:innen oft separat gehalten, in Deutschland gemeldet und gleichzeitig in Spanien beim Modelo 720 erklärt. Diese doppelte Sichtbarkeit ist legitim und sogar erwünscht; sie zeigt der AEAT, dass nichts versteckt wurde, und beschleunigt jede spätere Rückfrage. Wir bereiten einen kurzen Vermerk vor, der die parallele Meldung erklärt — er gehört in jede Akte vor dem Umzug.
 
-
-
 ### Eine letzte praktische Erinnerung
 
 Die Wegzugsteuer wird oft als drohendes Hindernis dargestellt; in unserer Beratungspraxis ist sie häufig handhabbar, sobald Inventar, Bewertung und Antrag rechtzeitig vorbereitet sind. Wer sich zwölf Monate Zeit nimmt und die spanische Beraterin früh einbindet, behandelt das Thema als geordneten Prozess statt als unangenehme Überraschung im letzten Quartal.
-
-
 
 ### Was wir Mandant:innen am häufigsten als Beruhigung mitgeben
 
@@ -193,7 +185,7 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
 
 Die spanische Exit Tax liest sich ruhiger bei Profilen, die eine LLC, Kryptobestände und ein Interactive Brokers-Konto kombinieren, als stabiles Inventar der steuerpflichtigen Vermögenswerte zum Zeitpunkt der Abreise denn als wiederkehrende Debatte. Die relevanten Achsen — Vermögenstyp, Inhaber des Vermögens, Bewertungsmethode, Zielland — definieren einen diskreten Rahmen, der sich nicht von Gespräch zu Gespräch ändert.
 
-Eine kurze Notiz im persönlichen Ordner, die das Inventar der relevanten Vermögenswerte zum Stichtag mit der gewählten Bewertungsmethode pro Position und einem Quellenverweis festhält, macht die Exit-Tax-Position in wenigen Minuten nachlesbar, auch Jahre nach der Abreise — und sie erleichtert eine spätere Prüfung erheblich.
+Eine kurze Notiz im persönlichen Ordner, die das Inventar der relevanten Vermögenswerte zum Stichtag mit der gewählten Bewertungsmethode pro Position und einem Quellenverweis festhält, macht die Exit-Tax-Position in wenigen Minuten nachlesbar, auch Jahre nach der Abreise — und sie erleichtert eine spätere Prüfung erheblich. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 <!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de -->
 
 <!-- exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de-bis -->
@@ -294,7 +286,6 @@ Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermei
 
   Ein häufig übersehenes Risiko: das Finanzamt kann eine Wegzugsteuer auch dann festsetzen, wenn der Steuerpflichtige formal in Deutschland gemeldet bleibt, aber sein Lebensmittelpunkt nach den Indizien des § 9 AO ins Ausland verlegt wurde. Das Bundesfinanzhof-Urteil **I R 76/82 vom 23. Oktober 1985** und die Folgejudikatur bleiben hierfür maßgeblich.
 
-
 <!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de -->
 ## Wie die Exit Tax mit Vermögenswerten bei ausländischen Brokern zusammenwirkt
 
@@ -314,11 +305,11 @@ Zwei weitere Punkte tauchen in späteren Gesprächen mit der Steuerverwaltung re
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
   ## Was eine LLC NICHT tut
 

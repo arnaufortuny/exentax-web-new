@@ -28,7 +28,6 @@ Trois erreurs font chaque année surpayer des contribuables aux profils très or
 Si votre base générale dépasse durablement 60 000 euros et que votre source de revenus est une activité économique facturable depuis une société, comparez l'IRPF d'indépendant (taux marginal 45-47%) à l'impôt sur les sociétés (Loi 7/2024 : micro-entreprises avec chiffre &lt;1 M€ taxées à 19% sur les premiers 50 000 € et 21% sur le reste en 2026 ; PME 1-10 M€ à 23% ; taux général 25%) plus le coût de rapatrier le bénéfice par dividende. Pour les profils 100% numériques avec des clients internationaux, il vaut aussi la peine de modéliser <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">l'alternative LLC américaine</a>, qui dans de nombreux cas réduit la charge combinée par rapport au maintien comme autónomo espagnol dans les tranches hautes de l'IRPF.
 Pour vérifier les taux, consultez le <a href="https://sede.agenciatributaria.gob.es/">portail de l'agence fiscale espagnole</a> et la <a href="https://www.boe.es/">Loi 35/2006 sur l'IRPF au BOE</a>. La vraie planification fiscale combine la connaissance du barème, l'ordonnancement des revenus entre base générale et épargne, l'épuisement des déductions légitimes et, lorsque les chiffres le justifient, l'évaluation d'un changement de structure.
 
-
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.
 
 <!-- exentax:execution-v2 -->
@@ -48,7 +47,6 @@ Ce que nous voyons chaque semaine dans les dossiers qui nous arrivent, c'est tou
 
 Si vous voulez passer du doute au plan, réservez 30 minutes avec Exentax et nous sortons de l'appel avec les chiffres verrouillés et un calendrier opérationnel.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
@@ -114,7 +112,6 @@ Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#cal
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:tramos-irpf-2026 -->
 ### Pourquoi la couche autonome change la conversation

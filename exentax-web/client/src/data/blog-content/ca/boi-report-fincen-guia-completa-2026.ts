@@ -130,7 +130,7 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
 El BOI ha estat l'obligació més canviant dels darrers 24 mesos; la versió vigent:
 
 - **Estat actual.** Després de la *interim final rule del FinCEN del 21 de març de 2025*, l'obligació queda restringida a les **foreign reporting companies** (entitats formades fora dels EUA i registrades en un estat). Les LLC formades als EUA amb beneficial owners no nord-americans **no presenten**, llevat que la regla canviï.
-- **Sancions vigents.** **591 USD/dia** ajustats a inflació per infraccions civils, fins a **10.000 USD** i/o **2 anys** de presó per infraccions doloses (31 U.S.C. §5336).
+- **Sancions vigents.** **591 USD/dia** ajustats a inflació per infraccions civils, fins a **10.000 USD** i/o **2 anys** de presó per infraccions doloses (31 U.S.C. §5336). Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 - **Operativa de presentació.** Si aplica, alta gratuïta a [el portal oficial de FinCEN per al BOI](https://boiefiling.fincen.gov), procés de **10-15 minuts**, alta inicial + **actualització en 30 dies** davant de qualsevol canvi d'adreça, document o beneficiari.
 
 ### Preguntes freqüents avui
@@ -138,7 +138,7 @@ El BOI ha estat l'obligació més canviant dels darrers 24 mesos; la versió vig
 **Quan torna a aplicar-me l'obligació si canvia la rule?** En el moment en què el FinCEN publiqui nova regla. Habitual 60-90 dies de transició. Subscriu alertes a fincen.gov/boi.
 **La meva LLC formada als EUA amb soci espanyol està exempta?** Sota la rule de març de 2025, sí. Però verifica el dia de la presentació; l'escenari regulador continua movent-se.
 
-**Què guardo com a prova?** Acusament de la darrera presentació i captura de l'estat de l'entitat al portal. En auditoria futura, documenta també la data de la consulta normativa.
+**Què guardo com a prova?** Acusament de la darrera presentació i captura de l'estat de l'entitat al portal. En auditoria futura, documenta també la data de la consulta normativa. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
 ## BOI i obligacions declaratives a Catalunya i Andorra
 
@@ -168,7 +168,6 @@ El BOI Report al FinCEN sembla senzill i ho és, però els errors que veiem cada
 Si vols que ho gestionem de cap a cap o només verificar el teu, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:cross-refs-v1 -->
 ## Per continuar la lectura
 
@@ -180,11 +179,11 @@ Si vols que ho gestionem de cap a cap o només verificar el teu, obre la <strong
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
   ## El que una LLC NO fa
 

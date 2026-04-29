@@ -114,8 +114,6 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
-
-
 ## Cas 4: cartera mixta (accions IBKR + participació en la LLC + cripto)
 
 És el perfil més freqüent a la nostra pràctica catalana: una freelance que ha construït una activitat estable via LLC americana, ha acumulat posicions a IBKR durant anys i ha afegit una assignació cripto fora de la LLC. Quan el trasllat a Andorra, Portugal o un destí fora de la UE es torna seriós, tres capes d'exit tax mereixen cadascuna la seva lectura pròpia.
@@ -130,7 +128,7 @@ Les posicions IBKR són actius financers personals i activen l'article 95 bis qu
 
 **Error 3: presentar la sol·licitud d'ajornament massa tard.** El trasllat intra UE/EEE obre un ajornament automàtic; cap a fora de la UE cal una sol·licitud condicional amb termini propi. Si es perd, es paga la plusvàlua latent en efectiu a la finestra habitual.
 
-**Error 4: oblidar el Modelo 720 a l'any de la partida.** L'obligació declarativa continua per la fracció d'any de residència espanyola. Saltar-la afegeix sancions a un procés ja prou carregat.
+**Error 4: oblidar el Modelo 720 a l'any de la partida.** L'obligació declarativa continua per la fracció d'any de residència espanyola. Saltar-la afegeix sancions a un procés ja prou carregat. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 ## Calendari pràctic 12-6-3 mesos abans de marxar
 
@@ -139,8 +137,6 @@ Les posicions IBKR són actius financers personals i activen l'article 95 bis qu
 **T menys 6 mesos.** Decisió sobre l'ajornament (UE/EEE automàtic vs fora de la UE condicional). Preparar documentació que sustenti la valoració de la participació a la LLC: 24 mesos d'extractes Mercury o Wise, històric Form 5472, llista de contractes. Onboarding al país de destí (NIF, banc, permís de residència).
 
 **T menys 3 mesos.** Fotografia final dels valors al dia del canvi. Redacció de la sol·licitud d'ajornament si escau. Coordinació del Modelo 100 de l'any parcial amb la seva assessora espanyola i planificació del primer Modelo 720 per a l'any de residència al nou país.
-
-
 
 ### Una frase que repetim a cada client abans del trasllat
 
@@ -258,7 +254,6 @@ Detall pràctic per fixar abans d'actuar. La major part del dany evitable que ve
 
   Per a residents que es traslladen a **Andorra**, l'**article 11 de la Llei 5/2014 de l'IRPF andorrà** estableix la submissió a tributació mundial sobre la base de la residència fiscal, amb tipus marginal màxim del 10 %. El **Conveni de doble imposició Andorra-Espanya** signat el 8 de gener de 2015 (BOE 7/12/2015) i en vigor des del 26 de febrer de 2016 permet eliminar la doble imposició sobre rendes i guanys patrimonials. El **Conveni Andorra-Estats Units**, signat el 8 de febrer de 2023, **va entrar en vigor l'1 de gener de 2024**, fet que clarifica el tractament dels rendiments d'origen americà i facilita l'aplicació de credits per impostos satisfets als EUA.
 
-
 <!-- exentax:lote15-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-ca -->
 ## Com l'exit tax interactua amb els actius mantinguts en brokers estrangers
 
@@ -278,11 +273,11 @@ Dos altres detalls apareixen sovint en converses posteriors amb l'administració
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   ## El que una LLC NO fa
 

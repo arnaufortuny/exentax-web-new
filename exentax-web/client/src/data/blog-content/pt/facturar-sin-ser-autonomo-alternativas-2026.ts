@@ -6,14 +6,14 @@ Poucas perguntas se repetem mais entre quem começa: posso faturar sem me inscre
 
 ## Rendimentos esporádicos: o caso real, não o truque viral
 
-A doutrina admite emitir faturas pontuais sem inscrição no RETA quando o rendimento é ocasional, não habitual e não supera o SMI anual. Um acórdão clássico do Supremo Tribunal estabelece que a habitualidade pode inferir-se quando se supera o SMI ou quando há continuidade. Ou seja: faturar dois ou três trabalhos por ano por valores pequenos não obriga a inscrever-se no RETA, embora obrigue à inscrição na agência (modelo 036 e declarações de IVA se aplicável). A agência e a Inspeção do Trabalho cruzam dados: se emite várias faturas seguidas, esperam a sua inscrição. Esta via não é para operar habitualmente.
+A doutrina admite emitir faturas pontuais sem inscrição no RETA quando o rendimento é ocasional, não habitual e não supera o SMI anual. Um acórdão clássico do Supremo Tribunal estabelece que a habitualidade pode inferir-se quando se supera o SMI ou quando há continuidade. Ou seja: faturar dois ou três trabalhos por ano por valores pequenos não obriga a inscrever-se no RETA, embora obrigue à inscrição na agência (modelo 036 e declarações de IVA se aplicável). A agência e a Inspeção do Trabalho cruzam dados: se emite várias faturas seguidas, esperam a sua inscrição. Esta via não é para operar habitualmente. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 ## Cooperativas de faturação: a opção mais conhecida
 
 As cooperativas de faturação, também chamadas cooperativas de trabalho associado ou de impulso empresarial, permitem-lhe faturar através da cooperativa sem estar inscrito como autónomo. traz o cliente, a cooperativa emite a fatura e paga-lhe como salário (com cotização ao regime geral). Cobram uma comissão de 5-12% do faturado e absorvem a complexidade. Vêm muito bem para volumes baixos (menos de 1.500-2.000 euros mensais) ou para períodos de transição. Para faturações estáveis e altas, a sua comissão e a cotização ao regime geral tornam-nas menos eficientes que o RETA padrão.
 
 ## Trabalhar como prestador mercantil sob outra estrutura
 
-Se encontrar um cliente que lhe ofereça contrato mercantil estável, pode faturar como pessoa singular por serviços sem inscrição no RETA apenas se a atividade for genuinamente esporádica ou não constituir o seu meio principal de vida. A realidade é que a maioria das relações que parecem mercantis são consideradas falsas pela Inspeção se concorrerem indícios de laboralidade: dependência, alheamento, exclusividade, integração na organização do cliente. Se for detetado como falso autónomo, as consequências económicas são graves para o cliente e, em parte, para si. Não é uma via recomendável para operar a longo prazo.
+Se encontrar um cliente que lhe ofereça contrato mercantil estável, pode faturar como pessoa singular por serviços sem inscrição no RETA apenas se a atividade for genuinamente esporádica ou não constituir o seu meio principal de vida. A realidade é que a maioria das relações que parecem mercantis são consideradas falsas pela Inspeção se concorrerem indícios de laboralidade: dependência, alheamento, exclusividade, integração na organização do cliente. Se for detetado como falso autónomo, as consequências económicas são graves para o cliente e, em parte, para si. Não é uma via recomendável para operar a longo prazo. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 
 ## Holding pessoal ou sociedade limitada própria
 
@@ -28,7 +28,6 @@ Para perfis 100% digitais com clientes maioritariamente fora de Espanha, uma <a 
 Resumo prático: rendimentos pontuais baixos (menos de 3.000 euros por ano no total) e não recorrentes: pessoa singular com declaração correta em IRPF. Volume pequeno-médio sem recorrência (cooperativa de faturação) ou estável como freelance digital local: inscrição no RETA e planeamento normal. Volume alto com clientes espanhóis, vários sócios ou risco patrimonial: SL. Volume médio-alto com clientes internacionais e atividade 100% digital: LLC americana coordenada com declaração correta em residência. Cada caso requer modelar números concretos e entender que a baixa do RETA deve estar perfeitamente documentada para não entrar em conflito com a TGSS.
 
 Os critérios de habitualidade estão consolidados em acórdãos do <a href="https://www.poderjudicial.es/">Supremo Tribunal</a> e na doutrina da <a href="https://www.seg-social.es/">TGSS</a>. Antes de operar sem RETA, modele a sua situação com aconselhamento sério; os falsos atalhos acabam por sair caros.
-
 
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.
 
@@ -50,15 +49,14 @@ O que vemos cada semana nos casos que chegam até nós é sempre o mesmo padrão
 Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da chamada com os números fechados e um calendário operacional.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
   ## O que uma LLC NÃO faz
 
@@ -109,7 +107,6 @@ Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calcul
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:facturar-sin-ser-autonomo-alternativas-2026 -->
 ### Um protocolo de decisão do primeiro mês ao deixar o regime de autónomo

@@ -1,6 +1,6 @@
 export default `
 
-Una sanción tipo de la AEAT por declarar mal el IVA arranca en 150 € y escala fácilmente por encima de 3.000 € si supera el 50 % de la cuota dejada de ingresar (art. 191 LGT).
+Una sanción tipo de la AEAT por declarar mal el IVA arranca en 150 € y escala fácilmente por encima de 3.000 € si supera el 50 % de la cuota dejada de ingresar (art. 191 LGT). Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 Después de asesorar a cientos de freelancers españoles, hemos identificado un patrón claro: los mismos errores fiscales se repiten una y otra vez. Y no son errores menores, estamos hablando de miles de euros perdidos cada año por desconocimiento o mala asesoría.
 
@@ -25,7 +25,7 @@ Un freelancer que factura 60.000€/año y solo deduce 3.000€ en gastos podrí
 El epígrafe del IAE (Impuesto de Actividades Económicas) determina qué tipo de actividad realizas a ojos de las autoridades fiscales. Un epígrafe incorrecto puede:
 
 - **Limitar tus deducciones**: algunos epígrafes permiten más gastos que otros
-- **Generar problemas en una inspección**: si la actividad real no coincide con el epígrafe
+- **Generar problemas en una inspección**: si la actividad real no coincide con el epígrafe. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 - **Afectar a la retención del IRPF**: algunos epígrafes están sujetos a retención del 15% en las facturas a empresas españolas
 
 Los epígrafes más habituales para freelancers digitales:
@@ -122,7 +122,7 @@ Para un freelancer con 60.000€ de facturación anual:
 | Epígrafe IAE incorrecto | 500-1.500€ |
 | No aprovechar tarifa plana | 1.440€ (primer año, 80€/mes vs cuota tramo 1) |
 | IVA incorrecto | Multas de 150-600€ |
-| Pagos fraccionados mal | Recargos del 5-20% |
+| Pagos fraccionados mal | Recargos del 5-20% |. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 | Ignorar optimización internacional | 15.000-20.000€ |
 | No planificar | variable |
 | No maximizar deducciones LLC | 3.000-6.000€ |
@@ -138,7 +138,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 ### Por jurisdicción
 
 - **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
-- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
+- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 - **CDI España–EE. UU.** El convenio (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
 
@@ -188,7 +188,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
 <!-- exentax:execution-v2 -->
 ## Los cinco errores que vemos cada semana en freelancers españoles
@@ -198,12 +198,12 @@ Trabajamos con freelancers que pasan de autónomo en España a estructura intern
 - **Mezclar IVA repercutido con beneficio.** Cobras 1.210 € (1.000 + 21% IVA) y consideras los 1.210 como ingreso. El 210 es de Hacienda - sólo hace escala en tu cuenta. Sin un sistema de tesorería que lo aparte cada cobro, llegas a julio sin caja para liquidar el modelo 303 y entras en aplazamientos con recargo del 5-20%.
 - **Modelo 720 incompleto o tarde.** Cuentas en Mercury, Wise Business o Revolut Business superando 50.000 € en cualquier momento del año generan obligación 720 antes del 31 de marzo del año siguiente. La sanción mínima por dato omitido se redujo tras STJUE 2022 (caso C-788/19) pero sigue siendo material. Aún hoy detectamos 720 sin presentar de ejercicios pasados en clientes que llegan nuevos.
 - **No separar fondos LLC de cuenta personal.** Mover dinero LLC a personal sin acta de distribución, sin retención prevista en residencia y sin asiento contable convierte la LLC en simulación a ojos de la AEAT. Es lo primero que mira una inspección con paralela a internacional.
-- **Olvidar el IVA OSS o IOSS.** Vender servicios digitales B2C a particulares UE desde tu autónomo o LLC requiere registrarse en OSS (servicios) o IOSS (bienes &lt;150 €) y liquidar trimestralmente. Sin esto, IVA debido país por país con sanciones acumuladas. La AEAT cruza datos con plataformas (DAC7) desde enero de 2024.
+- **Olvidar el IVA OSS o IOSS.** Vender servicios digitales B2C a particulares UE desde tu autónomo o LLC requiere registrarse en OSS (servicios) o IOSS (bienes &lt;150 €) y liquidar trimestralmente. Sin esto, IVA debido país por país con sanciones acumuladas. La AEAT cruza datos con plataformas (DAC7) desde enero de 2024. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 - **Confiar en el "no me han dicho nada todavía".** El periodo de prescripción para IRPF es 4 años desde el 30 de junio del año siguiente - pero las inspecciones internacionales tiran de cuentas extranjeras y modelo 720 con plazos especiales. Lo que no encuentras tú lo encuentra Hacienda con CRS, FATCA o DAC7 dos años después.
 
 ### Lo que más nos preguntan
 
-**¿Cómo regularizo voluntariamente sin disparar inspección?** Declaración complementaria con recargo (15% si dentro de 12 meses, 20% después) sin sanción. Llegar tú primero antes que la AEAT cambia totalmente el desenlace.
+**¿Cómo regularizo voluntariamente sin disparar inspección?** Declaración complementaria con recargo (15% si dentro de 12 meses, 20% después) sin sanción. Llegar tú primero antes que la AEAT cambia totalmente el desenlace. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 **¿Vale la pena contratar gestor o lo hago yo?** Si tienes una sola actividad nacional sencilla, autogestión con software (Holded, Quaderno, Quipu) funciona. Cuanto más internacional o más facturación, el coste de gestor profesional se amortiza con la primera multa evitada.
 

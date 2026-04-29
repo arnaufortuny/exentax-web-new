@@ -53,7 +53,7 @@ Hi ha dues formes:
 **Per correu postal:** S'envia el formulari en paper al centre de processament de l'IRS corresponent. Més lent, però igualment vàlid. Es recomana enviar per correu certificat per tenir comprovant d'enviament.
 ### Què passa si no demano extensió i no presento a temps?
 
-Aquí la cosa es posa seriosa. Si no presentes el Form 1120 abans del 15 d'abril i tampoc has demanat extensió, l'IRS pot aplicar sancions. I tractant-se de LLCs amb propietaris estrangers, les sancions per no presentar el Form 5472 a temps són especialment rellevants.
+Aquí la cosa es posa seriosa. Si no presentes el Form 1120 abans del 15 d'abril i tampoc has demanat extensió, l'IRS pot aplicar sancions. I tractant-se de LLCs amb propietaris estrangers, les sancions per no presentar el Form 5472 a temps són especialment rellevants. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
 La solució més fàcil? Demanar l'extensió. És gratuïta, és automàtica i et dóna 6 mesos de tranquil·litat.
 ### Puc demanar extensió cada any?
@@ -123,7 +123,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
+- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.<!-- exentax:execution-v2 -->
 ## Form 7004: com es demana l'extensió IRS i per què gairebé sempre convé
@@ -133,7 +133,7 @@ Form 7004 és la pròrroga automàtica de sis mesos per presentar Form 1120 + 54
 - **Què cobreix i què no.** Form 7004 prorroga el termini de presentació sis mesos (del 15 d'abril al 15 d'octubre típicament) però NO prorroga el termini de pagament de cap impost degut. Per a LLC unipersonal estrangera amb 5472 + 1120 pro-forma sense activitat gravada als EUA, no hi ha impost a pagar - l'extensió cobreix el 100% de l'obligació.
 - **Quan presentar-la.** Abans de la data original (15 d'abril per a LLC amb exercici fiscal natural). Es presenta electrònicament a través de modernized e-File o per correu certificat a l'adreça IRS corresponent a l'estat. Sense acknowledgment de l'e-file o segell postal anterior al 15 d'abril, la pròrroga no s'aplica i entres a la penalty zone.
 - **Penalitats sense pròrroga.** Form 5472 no presentat o tard sense extensió: 25.000 USD per formulari per any. Si te n'adones el 16 d'abril sense haver presentat 7004, el mal ja està fet - no hi ha manera de "regularitzar cap enrere" sense disclosure voluntari. La 7004 és la xarxa de seguretat sistemàtica.
-- **Per què la fem servir sempre.** Encara que tinguis tot llest al març, presentar la 7004 dona marge per a auditoria interna del 5472, ajust de xifres després de tancament comptable definitiu, i revisió de coherència amb la teva 720/IRS Spain Treaty Position si s'aplica. Zero cost, zero risc, màxim marge.
+- **Per què la fem servir sempre.** Encara que tinguis tot llest al març, presentar la 7004 dona marge per a auditoria interna del 5472, ajust de xifres després de tancament comptable definitiu, i revisió de coherència amb la teva 720/IRS Spain Treaty Position si s'aplica. Zero cost, zero risc, màxim marge. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
 ### Què ens pregunten més
 
@@ -148,7 +148,6 @@ A Exentax presentem la 7004 sistemàticament cada abril dins del retainer i asse
 
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
-
 <!-- exentax:cross-refs-v1 -->
 ## Per continuar la lectura
 
@@ -160,11 +159,11 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
   ## El que una LLC NO fa
 

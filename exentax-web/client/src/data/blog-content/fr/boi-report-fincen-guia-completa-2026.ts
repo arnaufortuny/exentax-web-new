@@ -130,20 +130,20 @@ Notre équipe est spécialisée dans les structures fiscales internationales pou
 Le BOI a été l'obligation la plus mouvante des 24 derniers mois; version en vigueur:
 
 - **État actuel.** Le BOI Report **n'est PAS exigé pour les LLC formées aux États-Unis détenues par des non-résidents** depuis l'interim final rule de FinCEN de mars 2025. Le champ vigent ne couvre que les **foreign reporting companies** (entités constituées hors des États-Unis et enregistrées pour opérer dans un État). Si votre entité y entre, elle identifie le bénéficiaire effectif (toute personne détenant **≥ 25 %** ou exerçant un **contrôle substantiel**), se dépose électroniquement et gratuitement sur **boiefiling.fincen.gov** et doit être dans les délais : **30 jours** depuis l'enregistrement et **30 jours** pour tout changement.
-- **Sanctions en vigueur si vous êtes dans le champ.** **591 USD/jour** ajusté à l'inflation pour infractions civiles, jusqu’à **10 000 USD** et/ou **2 ans** de prison pour infractions dolosives (31 U.S.C. §5336). Pertinent uniquement si votre entité qualifie comme foreign reporting company ou si la règle élargit à nouveau son champ.
+- **Sanctions en vigueur si vous êtes dans le champ.** **591 USD/jour** ajusté à l'inflation pour infractions civiles, jusqu’à **10 000 USD** et/ou **2 ans** de prison pour infractions dolosives (31 U.S.C. §5336). Pertinent uniquement si votre entité qualifie comme foreign reporting company ou si la règle élargit à nouveau son champ. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 - **Opération de dépôt si applicable.** Dépôt initial gratuit sur [le portail officiel FinCEN pour le BOI](https://boiefiling.fincen.gov), processus de **10-15 minutes**, dépôt initial + **mise à jour sous 30 jours** pour tout changement d'adresse, document ou bénéficiaire. Conservez le **BOIR Confirmation Number** comme preuve.
 
 ### FAQ
 
 **Ma LLC formée aux États-Unis avec un associé français doit-elle déposer le BOIR ?** **Non, dans le champ vigent.** Depuis l'interim final rule de FinCEN de mars 2025, toute LLC américaine (Wyoming, Delaware, New Mexico ou autre) détenue par un non-résident est hors champ du BOI Report. Seules les foreign reporting companies déposent. Chez Exentax, nous surveillons FinCEN.gov à chaque dépôt et, si l'obligation revient, nous la gérons sans frais supplémentaires.
 
-**Quelle est la sanction en cas de retard si je suis dans le champ ?** Jusqu'à **591 USD par jour** de retard (montant civil ajusté chaque année à l'inflation) et, en cas de manquement délibéré, jusqu'à **10 000 USD et 2 ans de prison** (31 U.S.C. §5336). D'où l'importance, si vous êtes une foreign reporting company, de déposer dans les délais et, en cas de BOIR en retard, de régulariser avant toute notification.
+**Quelle est la sanction en cas de retard si je suis dans le champ ?** Jusqu'à **591 USD par jour** de retard (montant civil ajusté chaque année à l'inflation) et, en cas de manquement délibéré, jusqu'à **10 000 USD et 2 ans de prison** (31 U.S.C. §5336). D'où l'importance, si vous êtes une foreign reporting company, de déposer dans les délais et, en cas de BOIR en retard, de régulariser avant toute notification. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 
-**Que conserver comme preuve ?** Le **BOIR Confirmation Number** que le portail **boiefiling.fincen.gov** délivre à la soumission, plus le PDF de transmission. C'est la preuve standard en cas d'audit.
+**Que conserver comme preuve ?** Le **BOIR Confirmation Number** que le portail **boiefiling.fincen.gov** délivre à la soumission, plus le PDF de transmission. C'est la preuve standard en cas d'audit. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
 
 **Qui est précisément un bénéficiaire effectif ?** Toute personne physique qui, directement ou indirectement, détient **≥ 25 %** de la LLC ou exerce un **contrôle substantiel** (cadre dirigeant ou personne ayant pouvoir d'engager l'entité). Pour chacune, vous devez déclarer nom légal, date de naissance, adresse résidentielle et numéro de passeport ou pièce d'identité officielle.
 
-**Comment fonctionne en pratique la fenêtre de mise à jour de 30 jours ?** Tout changement des données déposées (nouveau passeport, nouvelle adresse résidentielle, nouvel associé franchissant le seuil de 25 %, changement de nom de la LLC) ouvre une **fenêtre de 30 jours** pour redéposer via **boiefiling.fincen.gov**. Sauter cette mise à jour est traité par FinCEN comme un défaut de dépôt initial et expose aux mêmes sanctions civiles et pénales.
+**Comment fonctionne en pratique la fenêtre de mise à jour de 30 jours ?** Tout changement des données déposées (nouveau passeport, nouvelle adresse résidentielle, nouvel associé franchissant le seuil de 25 %, changement de nom de la LLC) ouvre une **fenêtre de 30 jours** pour redéposer via **boiefiling.fincen.gov**. Sauter cette mise à jour est traité par FinCEN comme un défaut de dépôt initial et expose aux mêmes sanctions civiles et pénales. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 
 ## Articulation BOI Report et obligations déclaratives françaises
 
@@ -168,7 +168,6 @@ Le BOI Report à FinCEN paraît simple et il l'est, mais les erreurs vues chaque
 
 Pour que nous le gérions de bout en bout ou simplement vérifier le vôtre, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:cross-refs-v1 -->
 ## Sur le même sujet

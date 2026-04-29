@@ -17,7 +17,7 @@ Una Single-Member LLC amb propietari no resident **no paga impost federal als EU
 
 Realitat: si ets resident fiscal a Espanya, Alemanya, França, Portugal o gairebé qualsevol país europeu o llatinoamericà, els ingressos de la LLC s'imputen a la teva declaració personal. No declarar-los no és "optimització", és **omissió**, i amb CRS/DAC operatius actualment, surt a la llum.
 
-**Conseqüència típica:** regularització plurianual + recàrrecs + interessos + sanció tributària probable.
+**Conseqüència típica:** regularització plurianual + recàrrecs + interessos + sanció tributària probable. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 ### Error 2. No presentar Form 5472 (o no saber que existeix)
 
@@ -25,13 +25,13 @@ Si ets no resident amb Single-Member LLC i has mogut qualsevol euro entre tu i l
 
 Molts clients arriben a Exentax sense saber ni que existeix el formulari. La sanció base per no presentar-lo és de **25 000 USD per formulari i any**, i s'acumula.
 
-**Conseqüència típica:** 25k × 3-5 anys = 75 000 a 125 000 USD de sancions potencials abans de tocar la teva activitat real. Detalls a la nostra <a href="/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir">guia del Form 5472</a>.
+**Conseqüència típica:** 25k × 3-5 anys = 75 000 a 125 000 USD de sancions potencials abans de tocar la teva activitat real. Detalls a la nostra <a href="/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir">guia del Form 5472</a>. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 ### Error 3. Saltar-se el BOI Report o no actualitzar-lo
 
 El **Beneficial Ownership Information Report** davant <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> és obligatori des de l'1 de gener de 2024. I no és una presentació única: qualsevol canvi (adreça, document, beneficiari) requereix actualització en 30 dies.
 
-**Conseqüència típica:** fins a **591 USD per dia de retard**, més sancions penals en casos greus.
+**Conseqüència típica:** fins a **591 USD per dia de retard**, més sancions penals en casos greus. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 ### Error 4. Operar amb el compte personal barrejat amb la LLC
 
@@ -39,7 +39,7 @@ L'error més comú i, a llarg termini, el més perillós. Si cobres factures de 
 
 A més, el Form 5472 esdevé un caos: cada moviment entre tu i la LLC s'ha de documentar i reportar. Detalls a <a href="/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important">separar finances personals i de la LLC</a>.
 
-**Conseqüència típica:** pèrdua de la protecció de la LLC + Form 5472 mal preparat + factures qüestionables en inspecció local.
+**Conseqüència típica:** pèrdua de la protecció de la LLC + Form 5472 mal preparat + factures qüestionables en inspecció local. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 ### Error 5. Deixar caducar Registered Agent o Annual Report
 
@@ -55,7 +55,7 @@ La doctrina administrativa espanyola (entre d'altres, la línia consolidada al <
 
 Dir al teu assessor "no declaris res, que ja tributa als EUA" és la recepta per a una regularització dolorosa quan entrin els creuaments CRS/DAC.
 
-**Conseqüència típica:** liquidació complementària plurianual + recàrrec + interessos + sanció.
+**Conseqüència típica:** liquidació complementària plurianual + recàrrec + interessos + sanció. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 ### Error 7. Residència fiscal mal indicada a Wise, Mercury o brokers
 
@@ -63,7 +63,7 @@ Quan obres compte a Wise, Mercury, Relay o Interactive Brokers, et demanen la **
 
 Quan es creuen dades anys després, salta una **incoherència automàtica**: el teu país detecta comptes a l'estranger no declarats.
 
-**Conseqüència típica:** encreuament automàtic d'informació amb Hisenda + obertura de procediment + sanció específica per comptes/actius a l'estranger no declarats.
+**Conseqüència típica:** encreuament automàtic d'informació amb Hisenda + obertura de procediment + sanció específica per comptes/actius a l'estranger no declarats. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
 ### Error 8. Barrejar la LLC amb cripto sense entendre CRS/DAC8
 
@@ -71,7 +71,7 @@ Si operes cripto via exchanges centralitzats (Coinbase, Kraken, Binance), recent
 
 I si a més canalitzes cripto via la LLC barrejant amb autocustòdia, la cadena d'esdeveniments imposables esdevé gairebé impossible de reconstruir a posteriori. El cost de no documentar bé és **tributar pel brut**, sense poder restar cost d'adquisició.
 
-**Conseqüència típica:** liquidació sobre import íntegre + multes + hores de reconstrucció comptable a preu de despatx.
+**Conseqüència típica:** liquidació sobre import íntegre + multes + hores de reconstrucció comptable a preu de despatx. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 ### Error 9. No tenir Operating Agreement signat
 
@@ -110,7 +110,7 @@ Si després d'aquesta lectura et reconeixes en un o més errors, l'ordre raonabl
 4. **Coordinació amb el teu assessor local**: regularitzar declaracions afectades abans del creuament CRS/DAC.
 5. **Manteniment estable**: vegeu el <a href="/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar">calendari anual d'obligacions</a> i delegar el que no puguis controlar.
 
-Essencial: **una situació irregular costa menys corregida voluntàriament que descoberta en inspecció.** Gairebé sempre.
+Essencial: **una situació irregular costa menys corregida voluntàriament que descoberta en inspecció.** Gairebé sempre. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 ### Com evitar-ho des del començament
 
 La majoria d'aquests errors no es cometen per falta d'intel·ligència, sinó per **falta d'informació actualitzada i de seguiment**. Si el teu proveïdor de LLC va desaparèixer el dia que vas rebre l'EIN, la solució no és buscar-ne un altre que també desaparegui: és treballar amb algú que entengui tota l'operació.
@@ -118,7 +118,7 @@ La majoria d'aquests errors no es cometen per falta d'intel·ligència, sinó pe
 A Exentax cobrim el cicle complet: estructura, banca, processadors de pagament, inversió, cripto si aplica, compliance anual amb <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> i FinCEN, coordinació amb el teu assessor local. No constituïm LLCs i desapareixem: les gestionem.
 ### Què hauries d'endur-te d'aquest article
 
-Tenir una LLC mal gestionada és **més car** que no tenir-la. La diferència entre estar en regla o no es mesura en sancions evitables, fricció innecessària amb Hisenda i pèrdua de la protecció que la LLC hauria de donar.
+Tenir una LLC mal gestionada és **més car** que no tenir-la. La diferència entre estar en regla o no es mesura en sancions evitables, fricció innecessària amb Hisenda i pèrdua de la protecció que la LLC hauria de donar. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
 Si t'has reconegut en tres o més errors, el cost de continuar igual és superior al de revisar la teva situació. **La revisem amb tu** en una assessoria gratuïta de 30 minuts: diagnostiquem què cal tocar, en quin ordre i amb quina prioritat. Millor detectar avui que esperar la carta de l'IRS o d'Hisenda.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
@@ -128,7 +128,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
@@ -219,7 +219,7 @@ Els errors que veiem repetir-se en LLC ja constituïdes durant els darrers anys 
 - **Operar sense Operating Agreement signat.** Bancs i processadors el demanen en KYC creixent des del gener de 2024. Sense ell, les decisions internes (canvi de domicili, admissió de soci) no tenen base documental. Signa'l encara que siguis SMLLC.
 - **No actualitzar el BOI quan s'aplica.** Si la teva LLC és *foreign reporting company* i canvies adreça, document o beneficiari i no actualitzes en 30 dies, la sanció civil corre a 591 USD/dia. La interfície de [el portal oficial de FinCEN per al BOI](https://boiefiling.fincen.gov) triga 10 minuts.
 - **Oblidar el 5472.** L'error més car: 25.000 USD per formulari i any. La causa més comuna no és mala fe, és haver tingut qualsevol moviment (transferència entre tu i la LLC) i no saber que activa l'obligació.
-- **Adreça obsoleta al Secretary of State.** El correu de l'IRS i de l'estat es perd, i s'acumulen multes que arriben després per correu certificat a una adreça caducada.
+- **Adreça obsoleta al Secretary of State.** El correu de l'IRS i de l'estat es perd, i s'acumulen multes que arriben després per correu certificat a una adreça caducada. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 ### Triatge en 30 minuts
 
@@ -232,7 +232,7 @@ Els errors que veiem repetir-se en LLC ja constituïdes durant els darrers anys 
 
 **Aquests errors es poden esmenar sense assessor?** Operating Agreement i BOI sí. 5472 endarrerit convé sempre amb assessor per construir bé la *reasonable cause*.
 
-**Quin és l'error més infravalorat?** No documentar l'origen dels fons en ingressar capital. Quan el banc fa KYC en segona ronda, sense justificant el bloqueig dura setmanes.
+**Quin és l'error més infravalorat?** No documentar l'origen dels fons en ingressar capital. Quan el banc fa KYC en segona ronda, sense justificant el bloqueig dura setmanes. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
 **Detecta l'IRS els errors automàticament?** Cada vegada més. El creuament 1099/1042-S/Form 5472/CRS està més automatitzat actualment que el 2020.
 

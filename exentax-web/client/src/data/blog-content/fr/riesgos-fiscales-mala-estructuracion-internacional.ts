@@ -10,7 +10,7 @@ La **simulation** est encadrée par l'article 16 de la Ley General Tributaria es
 
 Il y a simulation lorsque les actes ou opérations conclus sont apparents et ne reflètent pas la réalité économique. Appliqué aux structures internationales: si vous interposez une <a href="/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026">LLC américaine</a> entre vous et vos clients alors que vous continuez à fournir matériellement la prestation depuis l'Espagne ou depuis la France (même équipe, même domicile, mêmes décisions), l'administration fiscale peut prononcer la simulation et vous attribuer directement les revenus en tant que personne physique.
 
-**Conséquence**: régularisation de l'ensemble des exercices non prescrits (4 ans en Espagne, 5 au Mexique, 5 en Colombie, 3 ans en France avec extension à 10 ans en cas d'activité occulte) + intérêts de retard + sanction de 50% à 150% (art. 191-195 LGT) + délit fiscal possible si la cotisation éludée par exercice dépasse 120 000 € (art. 305 CP) ou les seuils de l'article 1741 CGI en France.
+**Conséquence**: régularisation de l'ensemble des exercices non prescrits (4 ans en Espagne, 5 au Mexique, 5 en Colombie, 3 ans en France avec extension à 10 ans en cas d'activité occulte) + intérêts de retard + sanction de 50% à 150% (art. 191-195 LGT) + délit fiscal possible si la cotisation éludée par exercice dépasse 120 000 € (art. 305 CP) ou les seuils de l'article 1741 CGI en France. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 **Comment l'éviter**: doter la LLC d'une **substance** réelle (lieu de décision, opérationnel, infrastructure) ou assumer dès le départ qu'elle est un outil complémentaire, pas une façade. Nous développons ce point dans <a href="/fr/blog/conception-dune-structure-fiscale-internationale-solide">conception d'une structure internationale solide</a>.
 
@@ -38,7 +38,7 @@ C'est le risque le plus fréquent. Le contribuable « change » sa résidence fi
 
 L'administration croise toutes les données disponibles: padrón municipal, déclarations IRPF antérieures, communications de changement de domicile, données bancaires CRS, données DAC7, véhicules à votre nom, écoles des enfants, salle de sport, médecin traitant, biens immobiliers.
 
-**Conséquence**: si l'administration déclare que vous êtes resté résident fiscal du pays d'origine, **l'intégralité de votre revenu mondial** est rapatrié pour imposition, avec régularisation complète, intérêts, sanctions et possible volet pénal.
+**Conséquence**: si l'administration déclare que vous êtes resté résident fiscal du pays d'origine, **l'intégralité de votre revenu mondial** est rapatrié pour imposition, avec régularisation complète, intérêts, sanctions et possible volet pénal. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 
 **Comment l'éviter**: si vous changez de résidence, faites-le pour de bon (plus de 183 jours hors du pays, sans centre d'intérêts maintenu, avec certificat de résidence fiscale du nouveau pays). Nous détaillons la marche à suivre dans <a href="/fr/blog/nomade-numerique-ou-payer-ses-impots-et-comment-choisir-sa">résidence fiscale du nomade numérique</a>.
 
@@ -48,7 +48,7 @@ Si votre LLC américaine opère matériellement depuis la France ou l'Espagne (b
 
 - La LLC est assujettie à l'Impôt sur la Renta de No Residentes (IRNR) en Espagne pour les revenus attribuables à l'EP, au taux de 25% (Impuesto sobre Sociedades applicable à l'EP). En France, elle relève de l'IS français au taux normal pour le bénéfice rattaché à l'EP.
 - Les comptes sont tenus séparément et les prix de transfert avec la maison mère doivent être documentés conformément aux principes OCDE et à l'art. 16 du TRLIS / art. 57 du CGI.
-- Sanctions complémentaires pour défaut de déclaration de l'EP au moment opportun (manquement délibéré, pénalités d'assiette, intérêts).
+- Sanctions complémentaires pour défaut de déclaration de l'EP au moment opportun (manquement délibéré, pénalités d'assiette, intérêts). Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 **Comment l'éviter**: si l'activité se déploie essentiellement depuis l'Hexagone ou la péninsule, se demander honnêtement si la LLC est la structure adéquate ou si une SASU/EURL française ou une S.L. espagnole comme entité opérationnelle ne serait pas plus pertinente. Analyse complète dans <a href="/fr/blog/conception-dune-structure-fiscale-internationale-solide">conception d'une structure internationale solide</a>.
 
@@ -66,7 +66,7 @@ En Espagne, le délit fiscal de l'art. 305 CP est constitué dès que la cotisat
 
 Une structure mal conçue qui accumule plusieurs exercices d'impayés franchit ces seuils avec une facilité déconcertante: si votre activité génère 200 000 € par an et que vous auriez dû tributer à 47% mais que vous avez déclaré 0%, deux ans suffisent pour entrer dans le périmètre pénal.
 
-Peines prévues en Espagne: de 1 à 5 ans de prison et amende de 100% à 600% de la cotisation éludée. Type aggravé (de 2 à 6 ans) lorsque la cotisation dépasse 600 000 €, qu'il y a structure organisée ou recours à des paradis fiscaux. En France, jusqu'à 5 ans de prison et 500 000 € d'amende, portés à 7 ans et 3 millions d'euros pour les cas aggravés.
+Peines prévues en Espagne: de 1 à 5 ans de prison et amende de 100% à 600% de la cotisation éludée. Type aggravé (de 2 à 6 ans) lorsque la cotisation dépasse 600 000 €, qu'il y a structure organisée ou recours à des paradis fiscaux. En France, jusqu'à 5 ans de prison et 500 000 € d'amende, portés à 7 ans et 3 millions d'euros pour les cas aggravés. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 **Comment l'éviter**: structure légale correcte + déclaration correcte + paiement correct. Il existe une marge très large d'optimisation **à l'intérieur** de la loi; en sortir n'a strictement aucun sens.
 
@@ -77,10 +77,10 @@ Le parcours typique que nous voyons est le suivant:
 1. Année 1-2: la personne monte sa LLC sans accompagnement, déclare mal ou ne déclare pas.
 2. Année 3: croisement CRS / DAC7 / DAC8 détecte des incohérences entre les flux bancaires reportés et les revenus déclarés.
 3. Année 4: communication d'« écart » ou demande de renseignements de l'administration fiscale.
-4. Année 5: liquidation provisoire, proposition de régularisation + intérêts + sanction.
+4. Année 5: liquidation provisoire, proposition de régularisation + intérêts + sanction. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 5. Année 6: si les montants franchissent les seuils pénaux et qu'aucune régularisation volontaire préalable n'a été faite, transmission au Parquet.
 
-La **régularisation volontaire** avant toute requête (art. 305.4 CP en Espagne, dispositif de mise en conformité STDR en France) exclut la responsabilité pénale et réduit significativement la sanction administrative. C'est toujours la meilleure option dès lors que vous détectez une situation à corriger.
+La **régularisation volontaire** avant toute requête (art. 305.4 CP en Espagne, dispositif de mise en conformité STDR en France) exclut la responsabilité pénale et réduit significativement la sanction administrative. C'est toujours la meilleure option dès lors que vous détectez une situation à corriger. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 
 ## Comment construire une structure sans ces risques
 
@@ -133,7 +133,7 @@ Une structure internationale mal montée n'échoue jamais à cause de la structu
 - **Structures circulaires sans propos commercial.** France ou Espagne → LLC US → Société estonienne → Compte EAU → Retour en France ou en Espagne sous forme de dividende. La règle anti-abus GAAR (Espagne: art. 15 LGT, France: art. L.64 LPF, UE: ATAD) défait la chaîne lorsque l'unique objectif est fiscal et que la substance opérationnelle réelle manque dans chaque maillon. L'administration requalifie en revenu direct dès le premier jour et applique les sanctions maximales.
 - **Prix de transfert inexistants ou fictifs.** Si votre LLC américaine facture à votre société française ou espagnole des montants qui ne se justifient pas en marché (overcharging pour vider la base locale) ou si votre société UAE facture à votre LLC des prestations qui ne sont pas réellement effectuées, l'ajustement de prix de transfert (Espagne: TRLIS art. 16; France: CGI art. 57) requalifie avec une sanction pouvant atteindre 100% de la différence.
 - **Bénéficiaire effectif occulté.** Nominee director sans operating control réel, fiducies opaques sans substance trustee, prête-noms familiaux pour contourner le BOI. Trois juridictions coopèrent désormais: BOI (US), Registre UBO (UE), CRS (global). Cacher l'UBO réel relève du blanchiment aggravé, pas d'une simple infraction fiscale. La prison devient une option.
-- **Non-déclaration en résidence.** Espagne (Modelo 720 + 721 + IRPF), France (3916 + 2042 + déclarations DAC7), Italie (RW), Allemagne (AStG). La sanction pour défaut de déclaration peut être supérieure à l'impôt dû lui-même (50%-150% + intérêts en Espagne, 1500 € à 10 000 € par compte non déclaré en France). Et si l'administration le découvre via CRS avant votre régularisation volontaire, il n'y a aucune réduction pour confession.
+- **Non-déclaration en résidence.** Espagne (Modelo 720 + 721 + IRPF), France (3916 + 2042 + déclarations DAC7), Italie (RW), Allemagne (AStG). La sanction pour défaut de déclaration peut être supérieure à l'impôt dû lui-même (50%-150% + intérêts en Espagne, 1500 € à 10 000 € par compte non déclaré en France). Et si l'administration le découvre via CRS avant votre régularisation volontaire, il n'y a aucune réduction pour confession. On le clôt avec toi depuis Exentax : un appel, le dépôt part, l'archive est faite, et le risque reste sur le papier.
 - **Mélange de l'argent personnel et sociétaire sans traçabilité.** Carte de la LLC pour des dépenses personnelles, virements à la famille sans concept, draws sans document. Cela brise la responsabilité limitée, complique la tenue des comptes et, en contrôle, est interprété comme une simulation de l'activité entrepreneuriale.
 
 ### Ce qu'on nous demande le plus
@@ -154,7 +154,6 @@ _Dans la même série: [Structures offshore: bénéfices réels et risques honn�
 <!-- related-inline-stripped-2026-04 -->
 
 Vous souhaitez appliquer ce protocole à votre cas? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
-
 
 <!-- exentax:cross-refs-v1 -->
 ## Sur le même sujet

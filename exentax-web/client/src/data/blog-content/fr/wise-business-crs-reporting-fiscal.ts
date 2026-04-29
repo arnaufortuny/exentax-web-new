@@ -154,7 +154,6 @@ Information à des fins divulgatives ; chaque cas bancaire requiert une analyse 
 
 Vous voulez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous revoyons votre LLC avec des chiffres réels en trente minutes, sans engagement.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
 

@@ -1,6 +1,6 @@
 export default `
 
-The IRS requires you to keep an LLC's bookkeeping records for at least 7 years, and a Form 5472 with no books behind it starts at a 25,000-dollar penalty.
+The IRS requires you to keep an LLC's bookkeeping records for at least 7 years, and a Form 5472 with no books behind it starts at a 25,000-dollar penalty. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 Keeping the books for a US LLC scares people more than it should. Most non-resident owners come from a model where an accountant asks for paperwork, files quarterly returns and you barely touch anything. With a US LLC the model is different: day to day operations are run by you with modern tools, and at year end an orderly bookkeeping translates into a clean filing with no surprises.
 
@@ -97,7 +97,7 @@ Multi-currency and multi-gateway complexity demands A2X or Synder to automate im
 
 **Do I need accounting software if my LLC invoices little?**
 
-Yes. Even at low volume, manual spreadsheet bookkeeping increases the risk of Form 5472 errors and makes it harder to justify expenses to the IRS in an audit. Wave (free) or Xero at 15 USD/month solve the case.
+Yes. Even at low volume, manual spreadsheet bookkeeping increases the risk of Form 5472 errors and makes it harder to justify expenses to the IRS in an audit. Wave (free) or Xero at 15 USD/month solve the case. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 
 **How do I categorize crypto payments?**
 
@@ -126,7 +126,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
@@ -140,7 +140,7 @@ At Exentax we structure the entity to fit the first scenario and document every 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Spain–US treaty.** BOE of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -196,7 +196,7 @@ Bookkeeping for an LLC reads more calmly when it's treated as a stable monthly r
 
 US LLC bookkeeping does not require a team: it requires discipline, the right tool and strict separation between operations. At Exentax we use a three-layer scheme that scales from month one to six-figure revenue without redoing anything.
 
-- **Layer 1 - Single operating account.** Every LLC inflow and outflow runs through Mercury, Relay or Wise Business. Zero personal cards on the LLC account and zero personal withdrawals without a bookkeeping entry. This single rule prevents 80 % of later audit issues.
+- **Layer 1 - Single operating account.** Every LLC inflow and outflow runs through Mercury, Relay or Wise Business. Zero personal cards on the LLC account and zero personal withdrawals without a bookkeeping entry. This single rule prevents 80 % of later audit issues. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 - **Layer 2 - Connected accounting software.** Wave, QuickBooks Online or Xero, wired via bank feed to the LLC account. Auto-reconciliation leaves under 5 % of transactions needing manual review when the feed works. Pre-configured category templates based on your activity so closing the month takes minutes, not hours.
 - **Layer 3 - Supporting documentation.** Digital folder organised by month with the issued invoice, the payment receipt and the bank reconciliation. When an extended KYC or a review hits, this is what you hand over; without this layer the bookkeeping does not survive a second look.
 - **Year-end close and 5472.** At December 31, ledger export and final reconciliation against bank statements. Form 5472 + 1120 pro forma feeds directly from the ledger; clean books save 4 to 12 hours of work in April.

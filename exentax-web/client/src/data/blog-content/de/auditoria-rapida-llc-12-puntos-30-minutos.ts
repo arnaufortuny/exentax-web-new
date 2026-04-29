@@ -4,9 +4,9 @@ Es geht nicht darum, Ihnen Angst zu machen, sondern Ihnen eine Karte zu geben. W
 
 ## Warum dieses Audit jetzt
 
-Eine im ersten Jahr gut geführte LLC bleibt meist gut geführt. Eine LLC, die Fehler mitschleppt, sammelt sie mit Zinsen: Sanktionen, die Monat für Monat wachsen; Formulare, die teurer zu bereinigen werden; Banking, das schwerer zu halten ist, sobald KYC-Reviews kommen.
+Eine im ersten Jahr gut geführte LLC bleibt meist gut geführt. Eine LLC, die Fehler mitschleppt, sammelt sie mit Zinsen: Sanktionen, die Monat für Monat wachsen; Formulare, die teurer zu bereinigen werden; Banking, das schwerer zu halten ist, sobald KYC-Reviews kommen. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
-Das Schnellaudit hat ein konkretes Ziel: das Diffuse ("ich glaube, es ist alles in Ordnung") in etwas Verifizierbares zu verwandeln. Wenn Sie zwei oder drei rote Punkte finden, ist der Aktionsplan deutlich billiger als die Entdeckung in einer Prüfung.
+Das Schnellaudit hat ein konkretes Ziel: das Diffuse ("ich glaube, es ist alles in Ordnung") in etwas Verifizierbares zu verwandeln. Wenn Sie zwei oder drei rote Punkte finden, ist der Aktionsplan deutlich billiger als die Entdeckung in einer Prüfung. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 ## Die 12 Punkte
 
 ### 1. Rechtsstatus der LLC
@@ -15,7 +15,7 @@ Gehen Sie auf die Website des Secretary of State des Gründungsstaats und suchen
 
 ### 2. Registered Agent gültig
 
-Haben Sie die Verlängerung des Registered Agent dieses Jahr bezahlt? Ist die beim Staat hinterlegte Adresse aktuell? Ein abgelaufener RA bedeutet verlorene Post von <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> oder FinCEN und damit Strafen, die unangekündigt eintreffen.
+Haben Sie die Verlängerung des Registered Agent dieses Jahr bezahlt? Ist die beim Staat hinterlegte Adresse aktuell? Ein abgelaufener RA bedeutet verlorene Post von <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> oder FinCEN und damit Strafen, die unangekündigt eintreffen. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 ### 3. Annual Report oder Franchise Tax eingereicht
 
@@ -51,7 +51,7 @@ Haben Sie die LLC-Einkünfte in Ihrer persönlichen Steuererklärung im Ansässi
 
 ### 11. Modelo 720/721, falls in Spanien ansässig
 
-Wer in Spanien ansässig ist und dessen Auslandskonten, -wertpapiere oder -krypto über 50.000 € liegen, ist meldepflichtig. Das EuGH-Urteil hat die unverhältnismäßige Strafe gekappt, aber die Meldepflicht besteht und wird automatisch abgeglichen.
+Wer in Spanien ansässig ist und dessen Auslandskonten, -wertpapiere oder -krypto über 50.000 € liegen, ist meldepflichtig. Das EuGH-Urteil hat die unverhältnismäßige Strafe gekappt, aber die Meldepflicht besteht und wird automatisch abgeglichen. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 ### 12. Kalender und Anbieter für das nächste Jahr
 
@@ -82,7 +82,6 @@ Wenn Sie validieren möchten, ob diese Strategie zu Ihrer konkreten Situation pa
 
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
-
 ### Hinweise nach Anbieter
 
 - **Mercury** arbeitet mit mehreren bundesweit lizenzierten Partnerbanken mit **FDIC**-Deckung über Sweep-Netzwerk: hauptsächlich **Choice Financial Group** und **Evolve Bank & Trust**, sowie **Column N.A.** in einigen Altkonten. Mercury ist selbst keine Bank; es ist eine Fintech-Plattform, die durch diese Partnerbanken getragen wird. Wenn Mercury ein Konto schließt, wird der Saldo in der Regel **per Papierscheck an die hinterlegte Adresse des Kontoinhabers** zurückgesandt, was für Nicht-Residenten ein ernsthaftes operatives Problem darstellen kann; ein sekundäres Konto (Relay, Wise Business etc.) sollte als Reserve aktiv sein.
@@ -95,15 +94,17 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 <!-- exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-de -->
 ## Wie sich die 12-Punkte-Prüfung in einen quartalsweisen Rhythmus einfügt, ohne zur zusätzlichen Aufgabe zu werden
 
+Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
+
 Die 12-Punkte-Prüfung entfaltet ihren vollen Wert erst, wenn sie nicht mehr als einmalige Kontrolle behandelt wird, sondern Teil eines quartalsweisen Rhythmus ist. An den Quartalsabschluss gekoppelt und in einem festen Zeitfenster von dreissig Minuten durchgeführt, konkurriert sie nicht mehr mit der operativen Arbeit und liefert nützliche Vergleiche von Quartal zu Quartal.
 
-Eine praktische Verankerung im Quartalsrhythmus besteht darin, die Prüfung am Tag nach der quartalsweisen Bankabstimmung anzusetzen, sodass die zugrunde liegenden Zahlen bereits aktuell sind. Die Prüfung arbeitet dann auf einer stabilen Basis und erfordert keine eigene vorbereitende Datenarbeit.
+Eine praktische Verankerung im Quartalsrhythmus besteht darin, die Prüfung am Tag nach der quartalsweisen Bankabstimmung anzusetzen, sodass die zugrunde liegenden Zahlen bereits aktuell sind. Die Prüfung arbeitet dann auf einer stabilen Basis und erfordert keine eigene vorbereitende Datenarbeit. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
 Wird dieselbe Checkliste Quartal für Quartal durchlaufen, treten kleine Abweichungen früh zutage: eine Berechtigung, die ohne Vermerk hinzugefügt wurde, ein ungenutztes Konto, das nie geschlossen wurde, eine wiederkehrende Gebühr, die ihrem ursprünglichen Zweck nicht mehr entspricht.
 
 ## Wie sich das Quartalsergebnis kurz festhalten lässt, ohne einen separaten Bericht zu erstellen
 
-Das Ergebnis der quartalsweisen Prüfung lässt sich in einer einzigen kurzen Notiz festhalten, die nur die Punkte auflistet, bei denen eine Korrektur nötig war, mit dem Datum der Korrektur. Diese Notiz ersetzt jeden separaten Bericht und stellt am Jahresende eine vollständige Spur der vier durchgeführten Prüfungen bereit.
+Das Ergebnis der quartalsweisen Prüfung lässt sich in einer einzigen kurzen Notiz festhalten, die nur die Punkte auflistet, bei denen eine Korrektur nötig war, mit dem Datum der Korrektur. Diese Notiz ersetzt jeden separaten Bericht und stellt am Jahresende eine vollständige Spur der vier durchgeführten Prüfungen bereit. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 <!-- /exentax:lote19-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-de -->
 
 <!-- exentax:legal-facts-v1 -->
@@ -128,7 +129,7 @@ Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprac
 Drei konkrete Änderungen aus dem letzten Jahr verschieben die Bewertung dieses Audits aktuell:
 
 - **BOI Report (FinCEN).** **Nicht erforderlich für in den USA gegründete LLCs im Eigentum von Nichtansässigen** seit der FinCEN Interim Final Rule vom März 2025, die den Anwendungsbereich auf **foreign reporting companies** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat registriert sind) beschränkt hat. Wenn Ihre Einheit dort hineinfällt, identifiziert sie die wirtschaftlich Berechtigten (Personen mit **≥ 25 %** Beteiligung oder **substanzieller Kontrolle**), wird kostenlos auf [dem offiziellen BOI E-Filing-Portal von FinCEN](https://boiefiling.fincen.gov) in **10-15 Minuten** eingereicht und muss fristgerecht erfolgen: **30 Tage** ab Registrierung und **30 Tage** für jede Änderung von Adresse, Dokument oder wirtschaftlich Berechtigtem. Zivilbußgeld bis **591 USD/Tag** und strafrechtliche Sanktion bis **10.000 USD und 2 Jahre Haft** (31 U.S.C. §5336). Punkt 6 grün setzen, wenn die **BOIR Confirmation Number** archiviert ist (oder wenn der Out-of-Scope-Status dokumentiert ist).
-- **Form 5472 + 1120 Pro-forma.** Die Sanktion bei Nichtabgabe beträgt unverändert **25.000 USD pro Formular und Jahr** (IRC §6038A). Für das Steuerjahr 2025 ist Frist der **15. April aktuell**, verlängerbar via **Form 7004** auf den **15. Oktober aktuell**.
+- **Form 5472 + 1120 Pro-forma.** Die Sanktion bei Nichtabgabe beträgt unverändert **25.000 USD pro Formular und Jahr** (IRC §6038A). Für das Steuerjahr 2025 ist Frist der **15. April aktuell**, verlängerbar via **Form 7004** auf den **15. Oktober aktuell**. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 - **State Annual Report.** Wyoming behält die Mindestgebühr von 60 USD; Delaware bleibt bei 300 USD Franchise Tax (Fälligkeit 1. Juni); New Mexico verlangt weiterhin keinen Annual Report. Bei anderen Bundesstaaten Termine im Secretary-of-State-Portal verifizieren.
 
 ### Priorisierung bei drei oder mehr Mängeln
@@ -139,7 +140,7 @@ Drei konkrete Änderungen aus dem letzten Jahr verschieben die Bewertung dieses 
 
 ### FAQ aktuell
 
-**Ersetzt dieses Audit eine professionelle Prüfung?** Nein. Es deckt 90 % sichtbarer operativer Probleme ab, erkennt aber keine subtilen Steuerrisiken (PE, ECI, wirtschaftliche Ansässigkeit), die Einzelfallanalyse erfordern.
+**Ersetzt dieses Audit eine professionelle Prüfung?** Nein. Es deckt 90 % sichtbarer operativer Probleme ab, erkennt aber keine subtilen Steuerrisiken (PE, ECI, wirtschaftliche Ansässigkeit), die Einzelfallanalyse erfordern. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 **Wie oft wiederholen?** Einmal jährlich, idealerweise im Januar und vor dem 15. März (1042-S-Frist falls relevant). Bei Wechsel von Bank, Adresse oder Mitgliedern erneut im selben Monat.
 
@@ -201,7 +202,6 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-
 <!-- exentax:lote8-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-bis -->
 ## Eine kurze Schlussnotiz
 
@@ -226,11 +226,11 @@ Mitglied und Berater entspannter.
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
   ## Was eine LLC NICHT tut
 

@@ -22,7 +22,7 @@ And the worst part isn't how much you pay. it's that you don't have to pay that 
 - **Quarterly advance payments**: every quarter you pay 20% of your estimated profit to Hacienda. Advancing money before you know if you've actually earned it.
 - **IVA on international operations**: a bureaucratic labyrinth. Reverse charge? Modelo 349? OSS? Most people get it wrong.
 - **Zero asset protection**: if your business has a legal problem, your personal assets respond. Your house, your savings, everything.
-- **Quarterly model filing obligations**: Modelo 303 (VAT), Modelo 130 (IRPF advance), Modelo 111 (withholdings), annual summaries. Every quarter, without fail, on penalty of fines.
+- **Quarterly model filing obligations**: Modelo 303 (VAT), Modelo 130 (IRPF advance), Modelo 111 (withholdings), annual summaries. Every quarter, without fail, on penalty of fines. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 ### The US LLC alternative
 
 A US LLC is not the only alternative, but for digital freelancers with international clients, it's the most efficient:
@@ -212,7 +212,7 @@ If it is not clean here, every downstream assumption becomes negotiable in front
 
 ## Tax burden with a US LLC
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 ### US federal tax: $0 (without ECI)
 

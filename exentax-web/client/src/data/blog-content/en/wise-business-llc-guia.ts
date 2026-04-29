@@ -131,7 +131,6 @@ The realistic recommendation: **Mercury + Relay as backup + Slash for ad operati
 
 Fintech and CRS information evolves; here is the current state:
 
-
 ### Notes by provider
 
 - **Mercury** operates with several federally chartered partner banks and **FDIC** coverage via sweep network: mainly **Choice Financial Group** and **Evolve Bank & Trust**, with **Column N.A.** still in some legacy accounts. Mercury is not itself a bank; it is a fintech platform backed by those partner banks. If Mercury closes an account, the balance is typically returned **by paper check mailed to the account holder's registered address**, which can be a serious operational problem for non-residents; keep a secondary account (Relay, Wise Business, etc.) as contingency.
@@ -150,7 +149,7 @@ What follows is the operational view, not the textbook one. We have run this pla
 
 ## Your next step with Exentax
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 ## Common mistakes with Wise Business
 
 We treat this block as one of the load-bearing decisions of the LLC strategy: get it wrong and the rest of the structure leaks tax, banking access or compliance. The notes below distil what we actually do with clients facing this exact case, prioritising the variables that move the needle.
@@ -181,7 +180,6 @@ At Exentax we open Wise Business + Mercury in package and configure each by func
 ## Wise in the context of your financial operations
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
-
 
 <!-- exentax:lote7-native-v1:wise-business-llc-guia -->
 ## Practical decision matrix: when Wise should be in your stack
@@ -259,7 +257,6 @@ Before going further, put numbers on your case: the <a href="/en#calculadora">Ex
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote7-native-v1:wise-business-llc-guia-bis -->
 ## Wise Business across the LLC's life: a longer view
@@ -482,7 +479,7 @@ common source of friction between the member and the bookkeeper at
 year-end, and it documents the FX outcome in a way that survives a
 team change.
 
-The third observation is that the Wise Business audit trail is
+The third observation is that the Wise Business audit trail is.
 particularly clean for inter-account transfers within the LLC's own
 stack: from Wise to Mercury or Relay, from Mercury back into Wise
 for FX reasons, and so on. Each leg has its own statement entry on
@@ -495,7 +492,7 @@ becomes a mostly automatic exercise once the labels are in place.
 | Multi-currency P&L                      | Sub-balance per currency, explicit FX |
 | Inter-account transfers                 | Symmetric entries on both ends        |
 | Annual close                            | Year-end snapshot + clean export      |
-| Audit support                           | Per-transaction PDF receipt available |
+| Audit support                           | Per-transaction PDF receipt available |. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ## How we onboard a new bookkeeper to a Wise Business account
 
@@ -535,7 +532,7 @@ a calm, prepared response:
 - A scheduled payment fails for a non-business reason (bank holiday
   cascade, beneficiary detail change). We rerun on the next business
   day, attach the original failure notice and the resolution note,
-  and the audit trail closes itself.
+  and the audit trail closes itself. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 ## What "ready for the next year" looks like
 

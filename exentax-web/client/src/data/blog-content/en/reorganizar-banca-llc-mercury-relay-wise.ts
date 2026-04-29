@@ -230,7 +230,7 @@ appearing.
   client invoices, and treated Stripe purely as the inbound rail.
 - The "Wise card is the company card" exit. Client used the Wise
   card as the main spending card. We moved recurring SaaS and
-  payroll-adjacent spend to Mercury (where the audit trail is
+  payroll-adjacent spend to Mercury (where the audit trail is. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
   bank-grade) and kept the Wise card narrowly for paid ads.
 
 ## Mistakes we see when reorganising

@@ -1,18 +1,18 @@
-export default `There is one filing in the tax life of a single-member foreign-owned LLC that cleanly separates the people who manage it well from the ones walking into a five-figure problem: **Form 5472**. It is not a tax. It is an informational return. Precisely because it is "only informational", a lot of people ignore it, file it late, file it with broken data, or never even realise it exists. The <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> rarely forgives that gap: the base penalty is **USD 25,000 per missed form, per year**, and it stacks.
+export default `There is one filing in the tax life of a single-member foreign-owned LLC that cleanly separates the people who manage it well from the ones walking into a five-figure problem: **Form 5472**. It is not a tax. It is an informational return. Precisely because it is "only informational", a lot of people ignore it, file it late, file it with broken data, or never even realise it exists. The <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> rarely forgives that gap: the base penalty is **USD 25,000 per missed form, per year**, and it stacks. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 This article is not the step-by-step filing guide (for that you already have our <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">complete Form 5472 guide</a> and the piece on <a href="/en/blog/irs-form-1120-and-5472-what-they-actually-are-and-when-they">when 1120 and 5472 actually apply</a>). This is what happens **once you haven't filed it**, and how to climb out of that hole without destroying the LLC or your personal tax position.
 
 ## What exactly the IRS sanctions
 
-The rule lives in **section 6038A(d) of the Internal Revenue Code**, reinforced in 2017 by the Tax Cuts and Jobs Act. The base in force today is **USD 25,000 per form not filed, filed late, or filed substantially incomplete**. Until 2018 the penalty was USD 10,000; since then it has been fixed at USD 25,000 and, absent legislative change, that is the number you will hit.
+The rule lives in **section 6038A(d) of the Internal Revenue Code**, reinforced in 2017 by the Tax Cuts and Jobs Act. The base in force today is **USD 25,000 per form not filed, filed late, or filed substantially incomplete**. Until 2018 the penalty was USD 10,000; since then it has been fixed at USD 25,000 and, absent legislative change, that is the number you will hit. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 
 On top of that base sit three things most people don't see coming:
 
 1. **Persistence penalty.** If the IRS formally notifies you of the failure and you do not regularise within **90 days**, **another USD 25,000** is added for **each 30-day period (or fraction)** you remain non-compliant. No published cap: real cases reach six figures.
 2. **One penalty per year, not one period.** Three years missed = three forms. Three × USD 25,000 = **USD 75,000** before interest.
-3. **Cascade with Form 1120.** Your single-member foreign-owned LLC must file **pro forma Form 1120 + Form 5472 together**. If you missed the 5472, you almost certainly missed the 1120, which adds extra exposure for late-filing of the 1120 under §6651, although the §6651 monetary penalty is calculated on tax owed, so on a pro-forma LLC with no tax due the amount is usually zero or residual; the main risk remains the 5472.
+3. **Cascade with Form 1120.** Your single-member foreign-owned LLC must file **pro forma Form 1120 + Form 5472 together**. If you missed the 5472, you almost certainly missed the 1120, which adds extra exposure for late-filing of the 1120 under §6651, although the §6651 monetary penalty is calculated on tax owed, so on a pro-forma LLC with no tax due the amount is usually zero or residual; the main risk remains the 5472. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
-Add **interest on the penalties** from the date they accrue, calculated by the IRS at the federal short-term rate + 3 points, updated each quarter.
+Add **interest on the penalties** from the date they accrue, calculated by the IRS at the federal short-term rate + 3 points, updated each quarter. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 ## How the IRS finds out
 
 The question I get in almost every first call is the same: *"how would the IRS even know I exist if I never filed anything?"*. Short answer: **they know, and every year it gets easier**. The five concrete channels today are:
@@ -20,7 +20,7 @@ The question I get in almost every first call is the same: *"how would the IRS e
 - **EIN under control.** If you got an EIN, you are already in their systems. The IRS periodically crosschecks active EINs against returns received. A single-member LLC with an active EIN and no 1120/5472 year after year shows up in their **non-filer** listings.
 - **US banks and third-party reporting.** Mercury, Brex, Wise USD, Relay and similar run KYC on the LLC, hold customer information accessible to the IRS and, depending on the flow and client type, may generate third-party reporting (Form 1099, withholding, FATCA where it applies). An operative LLC moving funds with nothing filed is the pattern that flags reviews.
 - **BOI Report (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).** Under the current <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial">BOI Report</a> rules, FinCEN has beneficial ownership mapped for required LLCs, and the framework provides for IRS data sharing subject to applicable access rules (regime subject to regulatory change).
-- **CRS and DAC in reverse.** When your country of residence receives information on accounts linked to the LLC and the IRS asks for an audit, the crossmatch happens automatically. Some jurisdictions are now performing this match by default.
+- **CRS and DAC in reverse.** When your country of residence receives information on accounts linked to the LLC and the IRS asks for an audit, the crossmatch happens automatically. Some jurisdictions are now performing this match by default. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 - **Your own counterparties.** When a US vendor issues a Form 1099 to your LLC, or a counterparty discloses a reportable transaction, your LLC shows up in the IRS system without you having done anything.
 
 The "they will never see me" idea was already weakened by the 2017 reinforcements and, under current BOI rules, is practically untenable. The right baseline is to assume the IRS can open an examination at any time and design your plan accordingly.
@@ -34,11 +34,11 @@ You've had the LLC for two, three, five years. You have an EIN, a bank account, 
 
 ### Profile B: filed late
 
-You realised, you filed late, but **before the IRS formally notified you**. Here the debate on the 5472 late-filing penalty opens: officially it is still USD 25,000, but the settled practice is that **a spontaneous late filing with reasonable cause** opens the door to **abatement**. This is where we close most cases at zero penalty.
+You realised, you filed late, but **before the IRS formally notified you**. Here the debate on the 5472 late-filing penalty opens: officially it is still USD 25,000, but the settled practice is that **a spontaneous late filing with reasonable cause** opens the door to **abatement**. This is where we close most cases at zero penalty. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 ### Profile C: filed but wrong
 
-You filed the 1120 and 5472 but with substantially incomplete data: a missing **reportable transaction**, a wrong TIN on the foreign related party, an undisclosed loan from owner to LLC, an undeclared capital contribution. The 6038A(d) rule is strict: a **substantially incomplete return is treated as no return**, with the same penalty. Good news: the friendly correction with a written explanation typically resolves better than the previous two.
+You filed the 1120 and 5472 but with substantially incomplete data: a missing **reportable transaction**, a wrong TIN on the foreign related party, an undisclosed loan from owner to LLC, an undeclared capital contribution. The 6038A(d) rule is strict: a **substantially incomplete return is treated as no return**, with the same penalty. Good news: the friendly correction with a written explanation typically resolves better than the previous two. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 ### What a "reportable transaction" really is
 
 This is the number-one cause of technically wrong 5472 filings. A **reportable transaction** is any monetary or non-monetary movement between the LLC and its foreign related party (you, in most cases), including things people don't associate with "a transaction":
@@ -58,7 +58,7 @@ It helps to map what happens once the machine is moving, because each step has i
 
 1. **CP15 / CP215 (notice of penalty).** You receive notice of the initial USD 25,000 penalty per form.
 2. **Response window (~30 days).** Here you decide whether to pay, request abatement on reasonable cause, dispute the math, or escalate to the Office of Appeals.
-3. **Expanded examination.** If the response is unconvincing, the IRS typically opens an exam over additional years. One penalty becomes three.
+3. **Expanded examination.** If the response is unconvincing, the IRS typically opens an exam over additional years. One penalty becomes three. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 4. **90 days after formal notice.** If the form has not been filed and the situation resolved, the **USD 25,000 per additional 30 days** clock starts.
 5. **Final assessment + interest.** Once fixed, interest accrues until paid.
 
@@ -86,7 +86,7 @@ Many people confuse the **Streamlined Filing Compliance Procedures** (a programm
 
 - **Delinquent international information return submission.** Standard procedure to file late international information returns with reasonable cause. Usual route for Profile A and Profile B.
 - **Voluntary Disclosure Practice.** Only when there is **wilful conduct** or criminal exposure. Not normal for a single-member LLC.
-- **Quiet disclosure.** Filing late with no explanation. Technically possible, practically discouraged: the IRS treats it as plain late filing and applies the penalty.
+- **Quiet disclosure.** Filing late with no explanation. Technically possible, practically discouraged: the IRS treats it as plain late filing and applies the penalty. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 The difference between the right route and going blind is, literally, tens of thousands of dollars.
 ## The regularisation plan, step by step
@@ -97,7 +97,7 @@ When a client comes in with a missed 5472, the work order is always the same:
 2. **Reconstruction of reportable transactions** year by year, including contributions, loans and distributions.
 3. **Package preparation**: pro forma 1120 for each pending year + 5472 for each pending year + detailed reasonable cause statement.
 4. **Submission by certified mail** (these packages are not e-filed; the operational address is the Ogden Service Center).
-5. **Anticipated response plan** for the initial penalty notice: response draft and deadlines prepared before the notice even arrives.
+5. **Anticipated response plan** for the initial penalty notice: response draft and deadlines prepared before the notice even arrives. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 6. **Cleanup of adjacent areas**: <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial">BOI</a>, banking, returns in your country, and above all <a href="/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist">the annual checklist</a> so it doesn't happen again.
 
 Done in that order, the realistic outcome in many cases is **zero or residual penalty**, although it depends on facts, documentation and IRS agent response. Done badly, it is five figures and an expanded examination.
@@ -111,7 +111,7 @@ To close on the concrete side, these are the mistakes we see month after month a
 - Filing only the last few years "to stay quiet". If the obligation existed earlier, the penalty is alive.
 - Closing the LLC believing that erases the obligation. **It does not**: the penalty survives dissolution until the statute of limitations runs.
 - Changing Registered Agent or address without updating the IRS. Notices get lost and the clocks keep running.
-- Assuming your country of residence shields you. The penalty is the IRS against the LLC; no bilateral treaty eliminates that penalty.
+- Assuming your country of residence shields you. The penalty is the IRS against the LLC; no bilateral treaty eliminates that penalty. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 ---
 ### Conclusion and next step
@@ -124,7 +124,7 @@ If you have an LLC and think you might be in any of the three profiles, never fi
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -174,12 +174,12 @@ The 5472 is the most expensive obligation a non-resident LLC owner can fail. San
 
 - **Exact sanction and how it applies.** $25,000 per unfiled, incomplete or late 5472 (IRC §6038A(d)). If 90 days after IRS notice you still do not file, additional $25,000 per 30-day period, no explicit cap. The fine does NOT depend on LLC revenue: a $0 revenue LLC pays the same as a $500,000 one.
 - **How the IRS finds out.** Three paths: (1) CRS/FATCA exchange with your residence country, (2) cross-check with US bank reporting non-resident accounts, (3) random audit of LLCs without historic filings. Detection probability is NOT zero; growing each year due to improved international exchange.
-- **How to regularise before they open a file.** Voluntary late filing of 5472 + 1120 + "reasonable cause" letter justifying default (good-faith ignorance, wrong advisor, first time). IRS has a First-Time Penalty Abatement programme that can fully eliminate the fine if first failure and clean prior history. Filing BEFORE they notify is the difference between $0 and $25k.
+- **How to regularise before they open a file.** Voluntary late filing of 5472 + 1120 + "reasonable cause" letter justifying default (good-faith ignorance, wrong advisor, first time). IRS has a First-Time Penalty Abatement programme that can fully eliminate the fine if first failure and clean prior history. Filing BEFORE they notify is the difference between $0 and $25k. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 - **How to regularise after IRS notice.** If CP15 or equivalent arrived, you have 30 days to respond with: immediate filing, payment under protest (pay first, appeal after), and formal abatement request with full file. Typical resolution: 4-6 months. Success probability on first-time + reasonable cause: 60-80%.
 
 ### What we are asked the most
 
-**If I'm 3 years behind, is it $75,000?** Yes, $25k × 3 years, worst case. Voluntary regularisation with reasonable cause can significantly reduce or eliminate fines, especially if the rest of compliance (BOI, residence) is current. The earlier, the better.
+**If I'm 3 years behind, is it $75,000?** Yes, $25k × 3 years, worst case. Voluntary regularisation with reasonable cause can significantly reduce or eliminate fines, especially if the rest of compliance (BOI, residence) is current. The earlier, the better. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 **Can I close the LLC and "let them forget"?** No. Obligation for active years persists after dissolution. Closing without regularising worsens it: IRS interprets closure as sanction evasion. Regularise first, close after.
 
@@ -190,11 +190,10 @@ At Exentax we handle late-5472 regularisations (late filing + reasonable cause +
 
 Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
-
 <!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->
 ## Why the Form 5472 penalty escalates faster than other late filings
 
-The Form 5472 penalty has a structure that escalates faster than most other late filings, and the reason is rooted in the form's role within the wider US information regime. The form is designed to give the IRS a clean view of related-party transactions involving foreign owners, and the penalty regime reflects how central that visibility is to the system rather than how complex the form itself is to prepare. The starting amount is fixed per form per year and applies regardless of whether tax was due, and the amount can compound when reminders are not addressed within the statutory windows.
+The Form 5472 penalty has a structure that escalates faster than most other late filings, and the reason is rooted in the form's role within the wider US information regime. The form is designed to give the IRS a clean view of related-party transactions involving foreign owners, and the penalty regime reflects how central that visibility is to the system rather than how complex the form itself is to prepare. The starting amount is fixed per form per year and applies regardless of whether tax was due, and the amount can compound when reminders are not addressed within the statutory windows. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 Two practical points reduce most of the friction. First, abatement criteria exist when there is a reasonable cause, and a calmly written narrative supported by the original calendar reminders, the engagement letter and the date of first filing usually carries more weight than a longer letter written under pressure later. Second, the cleanest preventive measure is to align the calendar of reminders with the federal extension cycle and to keep a single working file per year that already contains the related-party transaction list, so that the form itself is just the final formatting step.
 <!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->

@@ -19,7 +19,7 @@ The **Form 5472, Information Return of a 25% Foreign-Owned U.S. Corporation or a
 
 For most of our clients at Exentax, that "US entity" is a **Single-Member LLC** owned by a non-resident, and the "foreign related party" is **the owner himself**. The "transactions" are any movement of money between you and the LLC: initial contributions, transfers from the LLC to your personal account, one-off payments, loans.
 
-Why does it matter? Because since 2017 **disregarded entities owned by foreigners** are treated as corporations for 5472 purposes. This means that even though your LLC doesn't pay federal income tax, **it is required to report who owns it and how money has moved between you both**. If you don't file it, the base penalty is **USD 25,000 per form per year**.
+Why does it matter? Because since 2017 **disregarded entities owned by foreigners** are treated as corporations for 5472 purposes. This means that even though your LLC doesn't pay federal income tax, **it is required to report who owns it and how money has moved between you both**. If you don't file it, the base penalty is **USD 25,000 per form per year**. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 ### The "pro-forma 1120" trap
 
 This is where people get lost. Your non-resident Single-Member LLC:
@@ -62,14 +62,14 @@ In most starts, a single initial contribution (the transfer you made to fund the
 - **Filing method:** an LLC owned by a non-resident without a mandatory e-file requirement usually sends it by **certified mail to the IRS Service Center in Ogden, Utah** or by **fax** to the specific number published by the IRS for foreign-owned DEs. Always confirm the current address/fax for the year in question.
 - **EIN required:** without an EIN you cannot file. If you don't have one yet, you must obtain it first (Form SS-4).
 
-Delays are not cheap. The USD 25,000 penalty for an unfiled 5472 **also applies for incomplete or inaccurate information**, not only for not filing anything at all.
+Delays are not cheap. The USD 25,000 penalty for an unfiled 5472 **also applies for incomplete or inaccurate information**, not only for not filing anything at all. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 ## Typical mistakes when preparing 1120 + 5472
 
 1. **Filling out the pro-forma 1120 as if it were a real 1120.** You put in figures, balances, expenses. The IRS processes it as a C-Corp return and chaos follows.
 2. **Forgetting that the 5472 goes attached to the 1120**, not on its own. If you send it separately, it is not considered filed.
 3. **No clear Operating Agreement** and reporting transactions with no supporting documentation. When the IRS asks for clarifications, there is nothing to show.
 4. **Mixing the personal account with the LLC's** and then trying to reconstruct "reportable transactions" at year-end. It comes out expensive and wrong.
-5. **Trusting "I haven't received anything from the IRS, all good".** The IRS doesn't warn before sanctioning. Penalties are imposed and discovered when action is taken against the EIN or a future filing is rejected.
+5. **Trusting "I haven't received anything from the IRS, all good".** The IRS doesn't warn before sanctioning. Penalties are imposed and discovered when action is taken against the EIN or a future filing is rejected. Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 6. **Filing the 5472 without the foreign owner's TIN/EIN.** Even as a non-resident, the form requires identification. Without it, it is incomplete.
 ### Who is NOT obligated (the few cases)
 
@@ -79,7 +79,7 @@ Cases where you do **not** need to file 1120 + 5472:
 - You are a US tax resident and your Single-Member LLC reports directly on Schedule C of your personal 1040. There is no "foreign-owned DE" here.
 - Your LLC has elected to be taxed as a **C-Corp** and already files a real 1120, with no transactions with foreign related parties (rare if your international business goes through the LLC).
 
-Outside those cases, assuming you are exempt is a bet that doesn't pay off: the cost of preparing these forms properly is **far lower** than the minimum penalty.
+Outside those cases, assuming you are exempt is a bet that doesn't pay off: the cost of preparing these forms properly is **far lower** than the minimum penalty. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 ### How this fits into your day-to-day
 
 If you run the LLC's operations correctly during the year (separate account, record of contributions and draws, signed Operating Agreement, minimal bookkeeping), preparing the pro-forma 1120 + 5472 at year-end is a calm task. If you arrive at December 31 with the LLC's account mixed with your personal one, with no documentation and not knowing which movements are reportable, the cost and risk shoot up.
@@ -99,13 +99,13 @@ Before going further, put numbers on your case: the <a href="/en#calculadora">Ex
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
 
-If you have doubts about whether your case is properly set up, about prior years, or about how to regularise late filings, **we'll review it with you** in a free 30-minute consultation. Better to understand it well once than to pay avoidable penalties every year.
+If you have doubts about whether your case is properly set up, about prior years, or about how to regularise late filings, **we'll review it with you** in a free 30-minute consultation. Better to understand it well once than to pay avoidable penalties every year. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -122,7 +122,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 ## Banking and tax facts worth clarifying
 
 What follows is the operational view, not the textbook one. We have run this play enough times to know which variables collapse first under scrutiny from a tax authority or a banking compliance team, and that is the order we tackle them in.
@@ -133,7 +133,7 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 
 ## Your next step with Exentax
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.<!-- exentax:execution-v2 -->
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.<!-- exentax:execution-v2 --> At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 ## Form 1120 and Form 5472: what they are and when a non-resident LLC files them
 
 The 1120 + 5472 combo is the central informational obligation of any single-member LLC owned by a non-resident with "reportable transactions" with its foreign partner. It does not generate tax, but missing it triggers a $25,000 penalty per year and entity. The essentials.
@@ -141,7 +141,7 @@ The 1120 + 5472 combo is the central informational obligation of any single-memb
 - **Form 1120 (pro-forma).** Not the typical corporate 1120: a simplified version used by the disregarded LLC as a "vehicle" to accompany the 5472. Only identifying data is completed (EIN, address, fiscal year). No tax calculation. Deadline: April 15th (or October 15th with extension 7004).
 - **Form 5472.** The actual informational form. Reports any "reportable transaction" between the LLC and its foreign owner (25%+ ownership): capital contributions, distributions, intercompany loans, payments for services rendered or received, sales of goods. The reported figure does not create tax but lets the IRS track cross-border flows.
 - **When it applies.** Single-member LLC owned by a non-resident (individual or foreign entity) with at least one reportable transaction during the fiscal year. If the year saw no movement between owner and entity, technically no 5472 - but it is advisable to file with "0" to keep a clean history.
-- **Penalty for omission.** $25,000 per fiscal year and omitted entity. Additional $25,000 if after IRS notice it is not corrected within 90 days. The most expensive informational penalty for non-resident LLCs and the easiest to prevent by timely filing.
+- **Penalty for omission.** $25,000 per fiscal year and omitted entity. Additional $25,000 if after IRS notice it is not corrected within 90 days. The most expensive informational penalty for non-resident LLCs and the easiest to prevent by timely filing. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 ### What we are asked the most
 
@@ -154,8 +154,7 @@ At Exentax we prepare and file your LLC's 1120 + 5472 on time, keep the filing r
 
 ## What Form 1120 really is
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
-
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
@@ -215,7 +214,7 @@ necessarily revenue, on these flows.
 If the year had zero reportable transactions, the pair is still
 generally filed with values at zero so the IRS sees activity status
 explicitly. Skipping the filing is what triggers the well-known
-penalty exposure under the regulations.
+penalty exposure under the regulations. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 ## Three real filing patterns we run
 
@@ -247,7 +246,7 @@ moment the LLC reactivates.
 - Forgetting that a draw to the foreign owner is a reportable
   transaction. It often is, depending on its character (return of
   capital, distribution, etc.).
-- Filing late. The penalty for a missed Form 5472 is substantial and
+- Filing late. The penalty for a missed Form 5472 is substantial and. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
   applies even when no US tax is due.
 
 ## Pre-filing checklist

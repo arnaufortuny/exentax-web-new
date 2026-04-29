@@ -80,11 +80,11 @@ Exemple pràctic: vas declarar un rendiment previst de 30.000 € (2.500 €/mes
 
 ## Autònoms societaris: quan estàs obligat a l'alta
 
-Si ets administrador d'una SL, a més tens més del 25% del capital i exerceixes funcions de direcció efectives, estàs obligat a donar-te d'alta al RETA com a autònom societari. La quota mínima parteix d'uns 380 €/mes el 2026, superior a l'autònom ordinari. L'excepció és l'administrador que només exerceix funcions purament mercantils sense participació significativa ni direcció real; pot quedar fora del RETA, però la interpretació de la Inspecció és restrictiva i convé documentar bé el repartiment real de funcions.
+Si ets administrador d'una SL, a més tens més del 25% del capital i exerceixes funcions de direcció efectives, estàs obligat a donar-te d'alta al RETA com a autònom societari. La quota mínima parteix d'uns 380 €/mes el 2026, superior a l'autònom ordinari. L'excepció és l'administrador que només exerceix funcions purament mercantils sense participació significativa ni direcció real; pot quedar fora del RETA, però la interpretació de la Inspecció és restrictiva i convé documentar bé el repartiment real de funcions. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 ## Quan té sentit deixar de pagar el RETA
 
-No per a tothom. El RETA és obligatori si exerceixes activitat econòmica habitual i personal a Espanya, i donar-se de baixa sense alternativa ordenada és la forma més ràpida de ficar-se en problemes amb la Inspecció. Deixar de pagar el RETA té sentit quan: reestructures la teva activitat en una entitat estrangera amb substància real (LLC, limited lituana, estònia, etc.), canvies la teva residència fiscal fora d'Espanya, passes a ser empleat a temps complet sense activitat per compte propi o ceses realment l'activitat. En qualsevol altre cas, l'estalvi aparent es converteix en sancions i quotes retroactives tan aviat com la Inspecció creui dades.
+No per a tothom. El RETA és obligatori si exerceixes activitat econòmica habitual i personal a Espanya, i donar-se de baixa sense alternativa ordenada és la forma més ràpida de ficar-se en problemes amb la Inspecció. Deixar de pagar el RETA té sentit quan: reestructures la teva activitat en una entitat estrangera amb substància real (LLC, limited lituana, estònia, etc.), canvies la teva residència fiscal fora d'Espanya, passes a ser empleat a temps complet sense activitat per compte propi o ceses realment l'activitat. En qualsevol altre cas, l'estalvi aparent es converteix en sancions i quotes retroactives tan aviat com la Inspecció creui dades. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 ## Referències oficials i propers passos
 
@@ -106,15 +106,14 @@ _Per ampliar en la mateixa sèrie: [la quota d'autònom per trams d'ingressos](/
 
 <!-- related-inline-stripped-2026-04 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
   ## El que una LLC NO fa
 

@@ -29,7 +29,6 @@ Ist Ihre Tätigkeit 100% digital, international und mit überwiegend nicht-spani
 
 Die detaillierte Regelung steht in der spanischen IRPF-Verordnung (RD 439/2007) und in der jährlichen Modulverordnung, die jeden November im <a href="https://www.boe.es/">BOE</a> erscheint. Zur Prüfung Ihres IAE-Eintrags konsultieren Sie das <a href="https://sede.agenciatributaria.gob.es/">Steuerbehördenportal</a> vor jeder Entscheidung.
 
-
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.
 
 <!-- exentax:execution-v2 -->
@@ -50,15 +49,14 @@ Was wir jede Woche sehen in den Fällen, die uns erreichen, ist immer dasselbe M
 Wenn Sie vom Zweifel zum Plan kommen wollen, buchen Sie 30 Minuten mit Exentax und wir verlassen das Gespräch mit geschlossenen Zahlen und einem operativen Kalender.
 <!-- /exentax:execution-v2 -->
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
   ## Was eine LLC NICHT tut
 
@@ -112,7 +110,6 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-
 <!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
 ### Eine vergleichende Entscheidungstabelle, die wir mit Autónomos teilen
 
@@ -120,7 +117,7 @@ Wir empfehlen selten Modulos gegenüber direkter Schätzung im Abstrakten: Die A
 
 ### Häufige Fallstricke beim Regimewechsel
 
-Der erste Fallstrick ist, das Regime mitten im Jahr versehentlich zu wechseln (z. B. durch Überschreiten der tätigkeitsbasierten Ausschlussschwelle, ohne es zu merken); die AEAT wird dies bei der Jahresend-Prüfung abstimmen und das Ergebnis ist selten freundlich. Der saubere Ansatz besteht darin, die tätigkeitsbasierte Berechtigung bei jedem Jahresabschluss zu überprüfen und jede vorhergesehene Änderung über das Modelo 036 im Dezember für das Folgejahr zu registrieren. Der zweite Fallstrick ist der Wechsel von Modulos zur direkten Schätzung ohne Vorbereitung des Buchhaltungsrhythmus: Die Autónoma findet sich im März ohne Ausgabenbuch, ohne quartalsweise Modelo-130-Akte und ohne verlässliche Nettoeinkommens-Zahl. Der saubere Ansatz besteht darin, die Buchhaltung in der ersten Januarwoche einzurichten, idealerweise mit einem dedizierten Geschäftskonto vom ersten Tag an. Der dritte Fallstrick ist der Wechsel von direkter Schätzung zu Modulos in der Annahme, das Leben werde dadurch einfacher: Die Vereinfachung ist für manche Profile real, aber der Verlust der Ausgabensichtbarkeit ist ebenfalls real, und wenn das Regime einmal für drei Jahre gesperrt ist, ist es heikel, es rückgängig zu machen. Der saubere Ansatz besteht darin, beide Regime für die nächsten drei Jahre vor der Dezember-Einreichung zu projizieren.
+Der erste Fallstrick ist, das Regime mitten im Jahr versehentlich zu wechseln (z. B. durch Überschreiten der tätigkeitsbasierten Ausschlussschwelle, ohne es zu merken); die AEAT wird dies bei der Jahresend-Prüfung abstimmen und das Ergebnis ist selten freundlich. Der saubere Ansatz besteht darin, die tätigkeitsbasierte Berechtigung bei jedem Jahresabschluss zu überprüfen und jede vorhergesehene Änderung über das Modelo 036 im Dezember für das Folgejahr zu registrieren. Der zweite Fallstrick ist der Wechsel von Modulos zur direkten Schätzung ohne Vorbereitung des Buchhaltungsrhythmus: Die Autónoma findet sich im März ohne Ausgabenbuch, ohne quartalsweise Modelo-130-Akte und ohne verlässliche Nettoeinkommens-Zahl. Der saubere Ansatz besteht darin, die Buchhaltung in der ersten Januarwoche einzurichten, idealerweise mit einem dedizierten Geschäftskonto vom ersten Tag an. Der dritte Fallstrick ist der Wechsel von direkter Schätzung zu Modulos in der Annahme, das Leben werde dadurch einfacher: Die Vereinfachung ist für manche Profile real, aber der Verlust der Ausgabensichtbarkeit ist ebenfalls real, und wenn das Regime einmal für drei Jahre gesperrt ist, ist es heikel, es rückgängig zu machen. Der saubere Ansatz besteht darin, beide Regime für die nächsten drei Jahre vor der Dezember-Einreichung zu projizieren. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 <!-- /exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
 
 <!-- exentax:lote6-native-v1-quat:modulos-vs-estimacion-directa-2026 -->

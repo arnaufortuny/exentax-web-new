@@ -10,7 +10,7 @@ La **simulació** està regulada en l'art. 16 de la Ley General Tributaria espan
 
 Hi ha simulació quan els actes o negocis celebrats són aparents i no responen a la realitat de l'operació. Aplicat a estructures internacionals: si vostè interposa una <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a> entre vostè i els seus clients però l'activitat la continua prestant materialment des de Catalunya o des d'un altre punt d'Espanya (mateix equip, mateix domicili, mateixes decisions), l'AEAT pot declarar la simulació i atribuir-li directament les rendes com a persona física.
 
-**Conseqüència**: regularització de tots els exercicis no prescrits (4 anys a Espanya, 5 a Mèxic, 5 a Colòmbia) + interessos de demora + sanció del 50-150% (art. 191-195 LGT) + possible delicte fiscal si la quota defraudada per exercici supera 120.000 € (art. 305 CP).
+**Conseqüència**: regularització de tots els exercicis no prescrits (4 anys a Espanya, 5 a Mèxic, 5 a Colòmbia) + interessos de demora + sanció del 50-150% (art. 191-195 LGT) + possible delicte fiscal si la quota defraudada per exercici supera 120.000 € (art. 305 CP). Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 **Com evitar-ho**: dotar la LLC de **substància** real (decisió, operativa, infraestructura) o assumir des de l'inici que la LLC és una eina complementària, no una façana. Ho desenvolupem a <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">disseny d'estructura internacional sòlida</a>.
 
@@ -38,7 +38,7 @@ Si s'activa, les rendes s'imputen al soci a Espanya com si les hagués obtingut 
 
 L'AEAT creua totes les dades disponibles: padró municipal, IRPF anteriors, comunicacions de canvi de domicili, dades bancàries CRS, dades DAC7, vehicles a nom seu, escoles dels fills, gimnàs, metge, propietats immobiliàries.
 
-**Conseqüència**: si l'AEAT declara que vostè continua sent resident fiscal espanyol, **tota la seva renda mundial** torna a tributar a Espanya, amb regularització completa, interessos, sancions i possible delicte.
+**Conseqüència**: si l'AEAT declara que vostè continua sent resident fiscal espanyol, **tota la seva renda mundial** torna a tributar a Espanya, amb regularització completa, interessos, sancions i possible delicte. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 **Com evitar-ho**: si es canvia de residència, faci-ho de debò (més de 183 dies fora, sense centre d'interessos a Espanya, amb certificat de residència fiscal del nou país). Ho desenvolupem a <a href="/ca/blog/nomada-digital-on-pagar-impostos-i-com-triar-la-residencia">residència fiscal del nòmada digital</a>.
 
@@ -48,7 +48,7 @@ Si la seva LLC americana opera materialment des de Catalunya o des d'Espanya (of
 
 - La LLC tributa per l'Impost sobre la Renda de No Residents (IRNR) per les rendes atribuïbles a l'EP, amb tipus del 25% (Impost sobre Societats aplicable a l'EP).
 - La comptabilitat es porta separada i es documenten preus de transferència amb la matriu, segons els principis de l'OCDE i l'art. 16 del TRLIS.
-- Sancions per no haver declarat l'EP en el seu moment, que se sumen a la quota i als interessos.
+- Sancions per no haver declarat l'EP en el seu moment, que se sumen a la quota i als interessos. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 **Com evitar-ho**: si l'activitat es desenvolupa essencialment a Catalunya o a Espanya, plantejar-se honestament si la LLC és l'estructura adequada o si convé una S.L. espanyola com a entitat operativa. Anàlisi completa a <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">disseny d'estructura internacional sòlida</a>.
 
@@ -66,7 +66,7 @@ A Espanya, el delicte fiscal de l'art. 305 CP s'activa quan la quota defraudada 
 
 Una estructura mal dissenyada amb diversos anys d'impagaments pot acumular quotes que travessen aquests llindars amb relativa facilitat: si la seva activitat genera 200.000 € anuals i hauria d'haver tributat al 47% però va declarar al 0%, en dos anys creua el llindar i entra en l'àmbit penal.
 
-Penes a Espanya: d'1 a 5 anys de presó i multa del 100% al 600% de la quota defraudada. Tipus agreujat (de 2 a 6 anys) quan la quota supera 600.000 €, hi ha estructura organitzada o s'utilitzen paradisos fiscals.
+Penes a Espanya: d'1 a 5 anys de presó i multa del 100% al 600% de la quota defraudada. Tipus agreujat (de 2 a 6 anys) quan la quota supera 600.000 €, hi ha estructura organitzada o s'utilitzen paradisos fiscals. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 **Com evitar-ho**: estructura legal correcta + declaració correcta + pagament correcte. Hi ha marge ampli d'optimització **dins** de la llei; sortir-se'n no té cap sentit pràctic.
 
@@ -80,7 +80,7 @@ El recorregut típic que veiem és aquest:
 4. Any 5: liquidació provisional, proposta de regularització + interessos + sanció.
 5. Any 6: si els imports superen els llindars penals i no hi ha hagut regularització voluntària prèvia, trasllat al Ministeri Fiscal.
 
-La **regularització voluntària** abans de qualsevol requeriment (art. 305.4 CP) exclou la responsabilitat penal i redueix significativament la sanció tributària. És sempre la millor opció quan vostè detecta una situació que necessita ajust.
+La **regularització voluntària** abans de qualsevol requeriment (art. 305.4 CP) exclou la responsabilitat penal i redueix significativament la sanció tributària. És sempre la millor opció quan vostè detecta una situació que necessita ajust. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 ## Com construir una estructura sense aquests riscos
 
@@ -134,7 +134,7 @@ Una estructura internacional mal muntada no falla per l'estructura: falla per er
 - **Preus de transferència inexistents o ficticis.** Si la teva LLC US factura a la teva societat espanyola quantitats que no se sostenen en mercat (overcharging per buidar la base espanyola) o si la teva societat als EAU factura a la teva LLC serveis que no es presten, l'ajust de preus de transferència (Espanya: TRLIS art. 16) recalifica amb sanció de fins al 100% de la diferència.
 - **Beneficial ownership ocultat.** Nominee director sense operating control real, fideïcomisos opacs sense substance trustee, prestanoms familiars per esquivar el BOI. Tres jurisdiccions cooperen ja: BOI (US), Registre UBO (UE), CRS (global). Amagar l'UBO real és delicte de blanqueig agreujat, no infracció tributària. La presó és opció.
 - **No declaració a la residència.** Espanya (Model 720 + 721 + IRPF), França (3916 + IR), Itàlia (RW), Alemanya (AStG). La sanció per no declarar pot ser superior a l'impost degut (50%-150% + interessos). I, si Hisenda ho descobreix via CRS abans de la teva regularització voluntària, no hi ha rebaixa per confessió.
-- **Barrejar diners personals i societaris sense traçabilitat.** Targeta de la LLC per a despeses personals, transferències a la família sense concepte, draws sense document. Trenca responsabilitat limitada, complica la comptabilitat i, en inspecció, s'interpreta com a simulació de l'activitat empresarial.
+- **Barrejar diners personals i societaris sense traçabilitat.** Targeta de la LLC per a despeses personals, transferències a la família sense concepte, draws sense document. Trenca responsabilitat limitada, complica la comptabilitat i, en inspecció, s'interpreta com a simulació de l'activitat empresarial. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 ### El que més ens pregunten
 
@@ -157,15 +157,14 @@ A Exentax constituïm i mantenim LLC de no residents diàriament: estat, EIN, Op
 
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   ## El que una LLC NO fa
 

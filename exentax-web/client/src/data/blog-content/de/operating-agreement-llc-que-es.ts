@@ -87,7 +87,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 ### Nach Rechtsordnung
 
 - **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
-- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 - **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
@@ -155,7 +155,7 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 <!-- exentax:lote18-native-v1:operating-agreement-llc-que-es-de -->
 ## Warum das Operating Agreement zählt, auch wenn anscheinend nichts es verlangt
 
-Das Operating Agreement einer LLC zählt auch dann, wenn keine unmittelbare Gegenpartei es zu verlangen scheint, weil es das Dokument ist, das informelle Praxis in eine Aufzeichnung verwandelt, die später referenziert werden kann. Banken, Zahlungsdienstleister und Steuerbehörden fragen es in Routinemomenten selten an, aber sie fragen es in den Momenten, die wirklich zählen, an: Eröffnung, Restrukturierung, Nachfolge oder jede Prüfung.
+Das Operating Agreement einer LLC zählt auch dann, wenn keine unmittelbare Gegenpartei es zu verlangen scheint, weil es das Dokument ist, das informelle Praxis in eine Aufzeichnung verwandelt, die später referenziert werden kann. Banken, Zahlungsdienstleister und Steuerbehörden fragen es in Routinemomenten selten an, aber sie fragen es in den Momenten, die wirklich zählen, an: Eröffnung, Restrukturierung, Nachfolge oder jede Prüfung. Jetzt ist der Moment, Hilfe zu holen. Bei Exentax eröffnen wir den Fall, reichen das Fehlende ein und antworten der Behörde für dich.
 
 In der Praxis genügt es, das Operating Agreement einmal sorgfältig zu erstellen und es danach nur dann zu aktualisieren, wenn sich tatsächlich eine substanzielle Änderung ergibt. Diese geringe Pflege im Verhältnis zu seinem Nutzen macht das Operating Agreement zu einem der besten Verhältnisse von Aufwand und Wert in der Akte einer LLC.
 <!-- /exentax:lote18-native-v1:operating-agreement-llc-que-es-de -->
@@ -187,7 +187,7 @@ Das OA ist praktisch nicht mehr optional: Banken, IRS und Käufer verlangen es. 
 
 **Muss ich das OA notarisieren?** In keinem Staat verpflichtend. Notarisierung schafft Zeitnachweis, aber keine zusätzliche Rechtskraft. E-Signatur mit Zeitstempel reicht meist.
 
-**Reicht eine generische Vorlage?** Für SMLLC eines Nicht-Residenten ja, mit Anpassung von Member, Kapital und Adresse. Bei Multi-Member oder Sonderklauseln rechtliche Prüfung sinnvoll.
+**Reicht eine generische Vorlage?** Für SMLLC eines Nicht-Residenten ja, mit Anpassung von Member, Kapital und Adresse. Bei Multi-Member oder Sonderklauseln rechtliche Prüfung sinnvoll. Atme durch: bei Exentax ist das Routine, wir bringen dich auf den Stand und die nächste Prüfung schließt in einer Runde, ohne Drama.
 
 **Was, wenn ich es nie unterschrieben habe?** Die LLC existiert, unterliegt aber den staatlichen Default-Regeln, meist ungünstiger. Banken und Käufer fragen früher oder später danach.
 

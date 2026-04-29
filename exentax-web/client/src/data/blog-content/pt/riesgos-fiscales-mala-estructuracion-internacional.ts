@@ -10,7 +10,7 @@ A **simulação** está regulada em Espanha pelo art. 16 da Ley General Tributar
 
 Há simulação quando os atos ou negócios celebrados são apenas aparentes e não correspondem à realidade da operação. Aplicado a estruturas internacionais: se interpõe uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC norte-americana</a> entre si e os seus clientes mas continua a prestar materialmente a atividade a partir de Portugal ou de Espanha (mesma equipa, mesma morada, mesmas decisões), a Autoridade Tributária pode declarar a simulação e imputar-lhe diretamente os rendimentos como pessoa singular.
 
-**Consequência**: regularização de todos os exercícios não prescritos (4 anos em Espanha, 5 no México, 5 na Colômbia, 4 anos em Portugal, alargáveis em caso de fraude) + juros de mora + sanção de 50% a 150% (art. 191-195 LGT) + possível crime fiscal se a quota defraudada por exercício ultrapassar 120.000 € (art. 305 CP) ou os limiares do RGIT português (art. 103 e seguintes).
+**Consequência**: regularização de todos os exercícios não prescritos (4 anos em Espanha, 5 no México, 5 na Colômbia, 4 anos em Portugal, alargáveis em caso de fraude) + juros de mora + sanção de 50% a 150% (art. 191-195 LGT) + possível crime fiscal se a quota defraudada por exercício ultrapassar 120.000 € (art. 305 CP) ou os limiares do RGIT português (art. 103 e seguintes). Respira: na Exentax isto é rotina, pomos-te em dia e a próxima revisão fecha-se numa volta, sem sobressaltos.
 
 **Como evitar**: dotar a LLC de **substância** real (centro de decisão, operação, infraestrutura) ou assumir desde o início que a LLC é uma ferramenta complementar, não uma fachada. Desenvolvemos este ponto em <a href="/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro">desenho de estrutura internacional sólida</a>.
 
@@ -66,7 +66,7 @@ Em Espanha, o crime fiscal do art. 305 CP ativa-se quando a quota defraudada por
 
 Uma estrutura mal desenhada com vários anos de não pagamento pode acumular quotas que cruzam estes limiares com relativa facilidade: se a sua atividade gera 200.000 € anuais e devia ter tributado a 47% mas declarou 0%, em dois anos cruza o limiar e entra no âmbito penal.
 
-Penas em Espanha: de 1 a 5 anos de prisão e multa de 100% a 600% da quota defraudada. Tipo agravado (de 2 a 6 anos) quando a quota ultrapassa 600.000 €, há estrutura organizada ou se utilizam paraísos fiscais. Em Portugal, as penas de prisão variam consoante a qualificação e o montante, podendo a fraude fiscal qualificada chegar a oito anos de prisão.
+Penas em Espanha: de 1 a 5 anos de prisão e multa de 100% a 600% da quota defraudada. Tipo agravado (de 2 a 6 anos) quando a quota ultrapassa 600.000 €, há estrutura organizada ou se utilizam paraísos fiscais. Em Portugal, as penas de prisão variam consoante a qualificação e o montante, podendo a fraude fiscal qualificada chegar a oito anos de prisão. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 **Como evitar**: estrutura legal correta + declaração correta + pagamento correto. Há margem ampla de otimização **dentro** da lei; sair dela não tem qualquer sentido prático.
 
@@ -134,7 +134,7 @@ Uma estrutura internacional mal montada não falha pela estrutura: falha por err
 - **Preços de transferência inexistentes ou fictícios.** Se a sua LLC US fatura à sua sociedade portuguesa ou espanhola montantes que não se sustentam em mercado (overcharging para esvaziar a base local) ou se a sua sociedade nos EAU fatura à sua LLC serviços que não se prestam, o ajustamento de preços de transferência (Espanha: TRLIS art. 16; Portugal: CIRC art. 63) requalifica com sanção que pode chegar a 100% da diferença.
 - **Beneficial ownership ocultado.** Nominee director sem operating control real, fideicomissos opacos sem substance trustee, prestanomes familiares para contornar o BOI. Três jurisdições cooperam já: BOI (US), Registo Central do Beneficiário Efetivo (UE / RCBE em Portugal), CRS (global). Esconder o UBO real é crime de branqueamento agravado, não infração tributária. A prisão deixa de ser uma hipótese teórica.
 - **Não declaração no país de residência.** Espanha (Modelo 720 + 721 + IRPF), Portugal (Anexo J + Modelo 22 + DAC7), França (3916 + IR), Itália (RW), Alemanha (AStG). A coima por não declarar pode ser superior ao imposto devido (50%-150% + juros em Espanha; em Portugal, coimas variáveis com agravantes em caso de cruzamento CRS). E se a Autoridade descobrir via CRS antes da sua regularização voluntária, não há redução por confissão.
-- **Misturar dinheiro pessoal e societário sem rastreabilidade.** Cartão da LLC para despesas pessoais, transferências para a família sem descritivo, draws sem documento. Quebra responsabilidade limitada, complica a contabilidade e, em inspeção, é interpretado como simulação da atividade empresarial.
+- **Misturar dinheiro pessoal e societário sem rastreabilidade.** Cartão da LLC para despesas pessoais, transferências para a família sem descritivo, draws sem documento. Quebra responsabilidade limitada, complica a contabilidade e, em inspeção, é interpretado como simulação da atividade empresarial. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 ### O que mais nos perguntam
 
@@ -157,15 +157,14 @@ Na Exentax constituímos e mantemos LLCs de não residentes diariamente: estado,
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Reserve uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
   ## O que uma LLC NÃO faz
 

@@ -79,9 +79,9 @@ Transferència >5 000 USD de nou client → tard o d'hora compliance demana "pur
 Pregunta trimestral: "si Mercury cau demà, què faig en 72 hores?". Resposta "no ho sé" → arquitectura mal muntada.
 ## Què passa quan bloquegen (no és "si", és "quan")
 
-Veritat operativa: **tota LLC amb 18+ mesos ha tingut almenys un esdeveniment de bloqueig**. El que canvia és la magnitud.
+Veritat operativa: **tota LLC amb 18+ mesos ha tingut almenys un esdeveniment de bloqueig**. El que canvia és la magnitud. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
-Bloqueig típic:
+Bloqueig típic. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 - **Dia 0**: email automàtic "under review".
 - **Dies 1-3**: enviar documents.
 - **Dies 4-14**: silenci, accés només a entrades.
@@ -184,7 +184,7 @@ Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blan
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
+- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
 ## El que t'has d'endur
@@ -235,14 +235,13 @@ Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode d
 
   **Obligacions declaratives a Espanya:**
 
-  La titularitat de comptes a institucions financeres estrangeres ha de comunicar-se a l'**AEAT** a través del **Modelo 720** (béns i drets a l'estranger) regulat pel **RD 1065/2007** i modificat per la **Ley 5/2022** que va eliminar les sancions desproporcionades després de la **STJUE C-788/19 de 27/01/2022**. El llindar de declaració és de **€50.000** per cada bloc patrimonial (comptes, valors, immobles). El **Modelo 721** específic per a criptoactius a l'estranger és obligatori des de l'1 de gener de 2024 segons l'**OM HFP/886/2023**.
+  La titularitat de comptes a institucions financeres estrangeres ha de comunicar-se a l'**AEAT** a través del **Modelo 720** (béns i drets a l'estranger) regulat pel **RD 1065/2007** i modificat per la **Ley 5/2022** que va eliminar les sancions desproporcionades després de la **STJUE C-788/19 de 27/01/2022**. El llindar de declaració és de **€50.000** per cada bloc patrimonial (comptes, valors, immobles). El **Modelo 721** específic per a criptoactius a l'estranger és obligatori des de l'1 de gener de 2024 segons l'**OM HFP/886/2023**. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
   Els rendiments de la LLC s'imputen segons el règim de **transparència fiscal internacional de l'art. 100 LIRPF** quan la LLC tingui més del 50 % dels seus ingressos en jurisdiccions de baixa tributació. La **doctrina de la DGT V0290-20** confirma el tractament transparent de les LLCs unipersonals des del punt de vista espanyol. El crèdit per impost pagat als EUA es declara al **Modelo 100** segons el **conveni Espanya-EUA (BOE 22/12/1990) amb el Protocol de 27/11/2019 en vigor des de 27/11/2019**.
 
   **Andorra:**
 
   Per a residents fiscals a **Andorra**, l'estructura bancària segueix la **Llei 8/2013 sobre els requisits organitzatius i les condicions de funcionament de les entitats operatives del sistema financer** i la **Llei 14/2017 de prevenció del blanqueament de capitals**. La supervisió correspon a l'**Autoritat Financera Andorrana (AFA)**. El **conveni Andorra-EUA en vigor des de l'1 de gener de 2024** elimina la doble imposició sobre dividends i interessos qualificats provinents d'estructures LLC, i el **conveni Andorra-Espanya (BOE 07/12/2015) amb Protocol de 03/05/2023** regula la fiscalitat dels fluxos transfrontèrers entre tots dos països. Les aplicacions financeres a l'estranger s'integren a la **declaració de l'IRPF andorrà (Llei 5/2014)** com a rendiments del capital mobiliari.
-
 
 <!-- exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria-completa -->
 ## L'arquitectura bancària vista des de dins de la LLC
@@ -290,11 +289,11 @@ Una petita higiene addicional consisteix a donar a la comptabilitat una classifi
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
   ## El que una LLC NO fa
 

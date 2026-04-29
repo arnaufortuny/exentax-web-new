@@ -63,7 +63,7 @@ A AT cruza os ficheiros CRS recebidos via DGCI com a declaração Modelo 3 do IR
 
 - **Declaração de Capitais Brasileiros no Exterior (DCBE)**: o residente fiscal brasileiro com posição de **valor igual ou superior a USD 1 000 000** em ativos no exterior a 31 de dezembro está obrigado a declarar anualmente ao **Banco Central do Brasil (BACEN)** via sistema CBE. Posições superiores a USD 100 milhões obrigam a declaração trimestral. Multas por omissão podem chegar aos 250 000 BRL (Resolução BCB 278/2022).
 - **Declaração do Imposto sobre a Renda da Pessoa Física (DIRPF)**: a ficha **Bens e Direitos** exige listar a participação na LLC, o saldo das contas no exterior e os ativos detidos pela LLC, em BRL convertidos pela taxa do Banco Central a 31 de dezembro. Os rendimentos são tributados na **ficha de Rendimentos Recebidos do Exterior** com aplicação do **carnê-leão mensal** sobre o ganho.
-- **e-Financeira e DIRF**: as instituições financeiras brasileiras reportam à RFB via e-Financeira; reciprocamente, a RFB recebe o flow CRS desde 2018 e cruza-o com a DIRPF. As omissões geram lançamento de ofício com multa de 75% (ou 150% nos casos qualificados) sobre o imposto devido.
+- **e-Financeira e DIRF**: as instituições financeiras brasileiras reportam à RFB via e-Financeira; reciprocamente, a RFB recebe o flow CRS desde 2018 e cruza-o com a DIRPF. As omissões geram lançamento de ofício com multa de 75% (ou 150% nos casos qualificados) sobre o imposto devido. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 ## Como planear corretamente
 
@@ -73,7 +73,7 @@ A estratégia profissional passa por:
 
 1. **Declarar corretamente.** O cruzamento já existe; tentar esconder é perder tempo e expor-se a sanções.
 2. **Desenhar a estrutura para que o declarado seja fiscalmente eficiente.** Implica decidir país de residência, instrumentos de investimento, calendário de remessas, deduções aplicáveis e Convenção para Evitar a Dupla Tributação aplicável. Veja o nosso <a href="/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro">framework de desenho de estrutura internacional</a>.
-3. **Manter documentação**: contratos, faturas, justificativos de despesa, livros contabilísticos da LLC, autodeclarações CRS coerentes. Sem documentação, uma inspeção inverte de facto o ónus da prova para o contribuinte.
+3. **Manter documentação**: contratos, faturas, justificativos de despesa, livros contabilísticos da LLC, autodeclarações CRS coerentes. Sem documentação, uma inspeção inverte de facto o ónus da prova para o contribuinte. Na Exentax fechámos sem sanção clientes exatamente nesta situação. Falar cedo compensa — e poupa-te cinco dígitos.
 4. **Conhecer os riscos de não o fazer bem.** Cobrimo-lo em <a href="/pt/blog/riscos-fiscais-de-uma-ma-estruturacao-internacional">riscos fiscais de uma má estruturação internacional</a>.
 5. **Compreender a sua atividade económica.** Não tributa igual uma LLC de serviços que uma de e-commerce ou royalties. Desenvolvemo-lo em <a href="/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos">tributação da LLC segundo a atividade económica</a>.
 
@@ -164,15 +164,14 @@ Cada caso tem nuances: o seu país de residência, o tipo de atividade, onde est
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Reserve uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## E se as Finanças me perguntarem pela minha LLC?
 
-  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala.
+  É a pergunta mais frequente na primeira consulta, e a resposta curta é: a tua LLC não é opaca e, corretamente declarada, uma inspeção fecha-se em formulários standard. As Finanças portuguesas, a Receita Federal brasileira ou a SEFAZ estadual podem pedir o Certificate of Formation do estado (Wyoming, Delaware ou Novo México), o EIN emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o Operating Agreement assinado, os extratos da Mercury ou Wise do exercício, o Form 5472 com 1120 pro-forma apresentado e a contabilidade que reconcilia receitas, despesas e movimentos. Se tudo isso existir e for entregue ordenado, a inspeção não escala. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 
   O que as autoridades fiscais perseguem com razão são os testas-de-ferro, a residência fiscal de papel e a não declaração de contas estrangeiras. Uma LLC bem montada é exatamente o contrário: tu apareces como **beneficial owner** no BOI Report quando aplicável (verificável em <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tu assinas as contas bancárias e declaras o rendimento onde efetivamente vives. A estrutura está registada no Secretary of State do estado, nos ficheiros do IRS e, sempre que envolve um banco europeu, dentro do perímetro CRS do padrão da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois.
+  O erro que descarrila mesmo uma inspeção não é ter uma LLC; é não ter atribuído o rendimento corretamente no IRS pessoal (Anexo J do Modelo 3 em Portugal, Carnê-Leão Web e DAA no Brasil), não ter declarado as contas no estrangeiro (Modelo 58 ao Banco de Portugal a partir de 1 milhão €, DCBE ao Bacen a partir de 1 milhão USD) ou não ter documentado as operações entre o sócio e a LLC. Esses três frentes fecham-se antes do pedido, não depois. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
   ## O que uma LLC NÃO faz
 

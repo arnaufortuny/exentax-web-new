@@ -2,7 +2,7 @@ export default `
 
 Dissoldre bé una LLC porta entre 30 i 60 dies i obliga a presentar l'últim Form 1120 + 5472 marcat com a final return; saltar-se aquest pas converteix la LLC en un acumulador de sancions de 25.000 $ per any.
 
-Tancar una LLC ben fet és tan important com obrir-la. La majoria d'informació que circula sobre LLCs parla de com constituir-la, com triar estat, com obrir compte a Mercury o Wise Business... però gairebé ningú explica com es **tanca** correctament. I, tanmateix, una LLC mal dissolta segueix generant obligacions, sancions, comissions i, en el pitjor dels casos, una ombra fiscal als EUA que pot perseguir-te durant anys.
+Tancar una LLC ben fet és tan important com obrir-la. La majoria d'informació que circula sobre LLCs parla de com constituir-la, com triar estat, com obrir compte a Mercury o Wise Business... però gairebé ningú explica com es **tanca** correctament. I, tanmateix, una LLC mal dissolta segueix generant obligacions, sancions, comissions i, en el pitjor dels casos, una ombra fiscal als EUA que pot perseguir-te durant anys. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 Aquesta guia explica el procés real i complet per **dissoldre i tancar la teva LLC americana**: quan convé fer-ho, com s'ordena el tancament estat per estat, quines declaracions finals presenta l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, què passa amb el teu EIN, què es fa amb el teu BOI Report, com es cancel·len els teus comptes bancaris i per què hi ha un ordre estricte que no s'ha d'alterar. Si ja no operes amb la teva LLC i vols oblidar-te'n sense ensurts a tres anys vista, aquest és el camí.
 
@@ -17,7 +17,7 @@ La fantasia clàssica del qui es cansa de la seva LLC és: *"si no la faig servi
 - **BOI Report (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>)** si la teva LLC segueix obligada sota la normativa vigent.
 - Possibles quotes de comptes bancaris a Mercury, Wise Business, Relay o Slash.
 
-Si la LLC passa a estat *delinquent* o *administratively dissolved* per impagament d'annual report, això **no t'eximeix** de les obligacions IRS ni de les sancions meritades. L'única cosa que fa és complicar-te la vida quan finalment intentis tancar-la bé o, pitjor encara, quan vulguis muntar una altra LLC anys després i descobreixis que figures com a propietari d'una entitat amb sancions acumulades. La millor estratègia, amb diferència, és **fer un tancament formal i net** en l'ordre correcte.
+Si la LLC passa a estat *delinquent* o *administratively dissolved* per impagament d'annual report, això **no t'eximeix** de les obligacions IRS ni de les sancions meritades. L'única cosa que fa és complicar-te la vida quan finalment intentis tancar-la bé o, pitjor encara, quan vulguis muntar una altra LLC anys després i descobreixis que figures com a propietari d'una entitat amb sancions acumulades. La millor estratègia, amb diferència, és **fer un tancament formal i net** en l'ordre correcte. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 ### Abans de començar: el tancament només es fa quan es té clar
 
 No totes les "ganes de tancar" són ganes reals de tancar. Abans d'iniciar el procés, convé comprovar que el tancament té sentit davant les alternatives:
@@ -58,7 +58,7 @@ Abans de tocar res amb l'IRS o amb l'estat, cal **deixar la LLC buida**:
 - **Cancel·lació de subscripcions** (Stripe, PayPal, eines SaaS, dominis facturats a la LLC, hosting).
 - **Pagament de deutes pendents** (impostos estatals, Registered Agent, factures, royalties, comissions).
 - **Distribució d'actius restants al membre** (transferència del cash romanent des del compte de la LLC al teu compte personal). En una single-member LLC tributada com a disregarded entity, aquesta distribució no és un esdeveniment fiscal estatunidenc per a l'IRS, però **sí ha de documentar-se** com a retirada del membre.
-- **Conservació de la comptabilitat** (factures emeses i rebudes, extractes bancaris, comprovants) durant almenys **set anys**. És el termini raonable per cobrir auditories, interessos i possibles requeriments.
+- **Conservació de la comptabilitat** (factures emeses i rebudes, extractes bancaris, comprovants) durant almenys **set anys**. És el termini raonable per cobrir auditories, interessos i possibles requeriments. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 Un cop la LLC està buida i sense contractes vius, podem passar al tancament bancari.
 ### 3. Tancament de comptes bancaris i passarel·les de pagament
@@ -85,7 +85,7 @@ Aquí és on molts tancaments es trenquen. La LLC, abans de morir, ha de present
 
 La data clau és: presentar les declaracions finals **abans de demanar el tancament de l'EIN**. Si demanes el tancament de l'EIN sense haver presentat els models finals, l'IRS no tanca l'EIN i, pitjor encara, et pot generar una notice de non-filer l'any següent.
 
-Si fa anys de la LLC i has acumulat retards al 5472, **el correcte és regularitzar abans de tancar**, no tancar per tapar. Tens detall del risc concret a la <a href="/ca/blog/que-passa-si-no-presentes-el-form-5472-multes-irs-i-com">guia de sancions del Form 5472</a>. Tancar una LLC amb 5472 pendents no extingeix les sancions meritades; només les congela i se les queda l'IRS contra tu com a persona física associada a l'EIN.
+Si fa anys de la LLC i has acumulat retards al 5472, **el correcte és regularitzar abans de tancar**, no tancar per tapar. Tens detall del risc concret a la <a href="/ca/blog/que-passa-si-no-presentes-el-form-5472-multes-irs-i-com">guia de sancions del Form 5472</a>. Tancar una LLC amb 5472 pendents no extingeix les sancions meritades; només les congela i se les queda l'IRS contra tu com a persona física associada a l'EIN. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 ### 5. Dissolució estatal: Articles of Dissolution o Certificate of Cancellation
 
 Amb el cash distribuït, els comptes tancats i les declaracions finals presentades, passem al **tancament estatal**. El nom exacte del document depèn de l'estat:
@@ -140,7 +140,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
@@ -203,7 +203,7 @@ Dissoldre malament una LLC costa més que constituir-la. Hi ha tres plans a tanc
 - **Pas 2 - Articles of Dissolution a l'estat.** Wyoming: 50 USD; New Mexico: 25 USD; Delaware: 200 USD més franchise tax pendent. La dissolució té efecte a la data aprovada pel Secretary of State, no abans. A partir d'aquell moment la LLC entra en wind-up: pot liquidar però no operar nou negoci.
 - **Pas 3 - Liquidació operativa.** Cobrar factures pendents, pagar proveïdors, retornar dipòsits, cancel·lar SaaS, tancar targetes, buidar Mercury/Wise dins del wind-up. Convé tancar comptes bancaris després del darrer pagament, no abans - sense compte no pots cobrar última factura.
 - **Pas 4 - Final Form 5472 + 1120 pro-forma.** Marca la casella "Final Return" als dos. Sense això, l'IRS continua esperant 5472 cada any amb multa de 25.000 USD per omissió. L'error més car i més comú.
-- **Pas 5 - BOI Final Report.** FinCEN exigeix informe final de BOI en cessar l'entitat, dins dels 30 dies posteriors a la dissolució estatal. Sense això, sancions civils possibles.
+- **Pas 5 - BOI Final Report.** FinCEN exigeix informe final de BOI en cessar l'entitat, dins dels 30 dies posteriors a la dissolució estatal. Sense això, sancions civils possibles. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 - **Pas 6 - Cancel·lació EIN (opcional).** Carta a l'IRS sol·licitant tancament del compte EIN. No és estrictament obligatori (l'EIN persisteix però queda inert), però recomanable per neteja administrativa.
 
 ### El que més ens pregunten
@@ -228,7 +228,6 @@ Les obligacions davant la FinCEN i l'IRS han evolucionat els darrers anys; aques
 
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
-
 <!-- exentax:cross-refs-v1 -->
 ## Per continuar la lectura
 
@@ -240,11 +239,11 @@ Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessi
 <!-- exentax:defensa-fiscal-v1 -->
 ## I si l'AEAT li pregunta per la seva LLC?
 
-  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala.
+  És la pregunta més freqüent en la primera consulta i té una resposta curta: la seva LLC no és opaca i, correctament declarada, una inspecció es tanca amb formularis estàndard. L'<a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> i l'Agència Tributària de Catalunya poden demanar el Certificate of Formation de l'estat (Wyoming, Delaware o Nou Mèxic), l'EIN emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, l'Operating Agreement signat, els extractes de Mercury o Wise de l'exercici, el Form 5472 amb 1120 pro-forma presentat i la comptabilitat que reconcilia ingressos, despeses i moviments. Si tot això existeix i s'entrega ordenat, la inspecció no escala. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
   El que l'AEAT sí persegueix, amb raó, són els testaferros, la residència fiscal de paper i la no declaració dels Models 720 / 721. Una LLC ben muntada és exactament el contrari: vostè apareix com a **beneficial owner** al BOI Report quan aplica (verificable a <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), vostè signa els comptes bancaris i declara la renda on realment viu. L'estructura està registrada al Secretary of State de l'estat, als arxius de l'IRS i, sempre que un banc europeu hi intervé, dins del perímetre CRS de l'estàndard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després.
+  L'error que sí enfonsa una inspecció no és tenir una LLC; és no haver atribuït la renda correctament a l'IRPF, no haver presentat el Model 720 sobre els comptes als EUA quan el saldo a 31/12 supera els 50.000 € o no haver documentat les operacions vinculades soci-LLC al Model 232. Aquests tres fronts es tanquen abans del requeriment, no després. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
   ## El que una LLC NO fa
 

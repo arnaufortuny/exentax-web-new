@@ -80,7 +80,7 @@ L'IRS es pren aquest formulari molt seriosament. Les sancions per no presentar o
 
 - **25.000 $ de sanció base** per cada formulari no presentat o incomplet
 - **25.000 $ addicionals** per cada període de 30 dies d'incompliment després de ser notificat per l'IRS (fins a 25.000 $ per mes)
-- No hi ha un sostre màxim definit, les sancions poden acumular-se considerablement
+- No hi ha un sostre màxim definit, les sancions poden acumular-se considerablement. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 Aquestes xifres sonen alarmants, però la realitat és més matisada. Si presentes el teu Form 5472 dins del termini (o dins de l'extensió) amb informació correcta, no hi ha cap sanció. Les sancions s'apliquen a qui ignora l'obligació o la presenta amb errors greus.
 
@@ -106,7 +106,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
@@ -168,7 +168,7 @@ Cada situació fiscal depèn de la teva residència, de l'activitat exercida i d
 
 El Form 5472 continua sent l'obligació més cara d'oblidar per a una SMLLC de no resident:
 
-- **Sanció base 25.000 USD per formulari i any** (IRC §6038A) més **25.000 USD per cada 30 dies addicionals** sense presentar després de notificació de l’IRS. No prescriu mentre l'obligació estigui oberta.
+- **Sanció base 25.000 USD per formulari i any** (IRC §6038A) més **25.000 USD per cada 30 dies addicionals** sense presentar després de notificació de l’IRS. No prescriu mentre l'obligació estigui oberta. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 - **Procediment exacte.** Form 1120 *pro forma* (només capçalera: nom, adreça, EIN, exercici fiscal) amb el Form 5472 annexat. Enviament per **correu certificat o fax al IRS Service Center d’Ogden, Utah**, **no per MeF/e-file**. Guarda el comprovant com a prova.
 - **Terminis avui.** Exercici 2025 → **15 d'abril de avui**. Extensió via **Form 7004** → **15 d'octubre de avui**. L'extensió també s'envia per correu o fax i ha d'arribar abans del 15 d'abril.
 
@@ -176,7 +176,7 @@ El Form 5472 continua sent l'obligació més cara d'oblidar per a una SMLLC de n
 
 **Què compta com *reportable transaction*?** Qualsevol moviment entre la LLC i el seu únic *member* no resident: aportacions, retirades, préstecs, pagaments per serveis. Si hi va haver moviment, cal presentar.
 
-**I si fa anys que no presento?** Regularització amb presentacions endarrerides i declaració escrita de *reasonable cause*. Cal assessorament: una carta ben construïda pot evitar la sanció inicial.
+**I si fa anys que no presento?** Regularització amb presentacions endarrerides i declaració escrita de *reasonable cause*. Cal assessorament: una carta ben construïda pot evitar la sanció inicial. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 **L'extensió 7004 cobreix el 5472?** Sí. Si presentes el 7004 abans del 15 d'abril, el termini del 5472 + 1120 pro forma s'estén automàticament al 15 d'octubre.
 

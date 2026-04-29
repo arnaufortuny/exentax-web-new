@@ -48,7 +48,7 @@ Internationale Wires nutzen das SWIFT-Netzwerk und passieren Korrespondenzbanken
 
 - **Korrespondenzbanken**: das Geld kann über 1-3 Korrespondenzbanken laufen, bevor es am Ziel ankommt
 - **Zeitzonen**: wenn die Empfängerbank bereits geschlossen hat, wird die Überweisung am nächsten Werktag verarbeitet
-- **Compliance-Prüfungen**: internationale Überweisungen durchlaufen Betrugs- und Geldwäschekontrollen
+- **Compliance-Prüfungen**: internationale Überweisungen durchlaufen Betrugs- und Geldwäschekontrollen. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 ### Wise Business
 
 Wise nutzt für die meisten Überweisungen nicht das SWIFT-Netzwerk. Es verwendet lokale Konten in jedem Land, was Zeiten und Kosten reduziert.
@@ -111,7 +111,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 Die Planung von Zahlungen über ACH und Wire wird nicht einfacher, wenn man die maximale Geschwindigkeit sucht; sie wird einfacher, wenn man Vorhersehbarkeit sucht. Der Unterschied ist konkret: Eine Wire-Überweisung, die am Dienstagvormittag im Rahmen einer eingespielten Routine ausgelöst wird, wirft keine Fragen auf, während eine Wire-Überweisung, die am Freitagabend ausserhalb jeder Routine ausgelöst wird, Gespräche mit dem Bank-Compliance-Team eröffnet, die Zeit kosten, ohne dem Geschäft selbst etwas zu bringen. Dieselbe Logik gilt für ACH: Ein regelmässiger Zeitplan mit Beträgen, die zum operativen Fluss passen, funktioniert besser als ein opportunistischer Versand.
 
-Eine Gewohnheit, die die Reibung reduziert, besteht darin, zwei wöchentliche Fenster für ausgehende Zahlungen festzulegen und sie intern anzukündigen. Die Gegenparteien stellen sich schnell darauf ein, die Buchhaltung gleicht ihre Abstimmungen daran an, und die Bank liest das Profil mit der Zeit selbst als vorhersehbar, was die Zahl interner Prüfungen senkt.
+Eine Gewohnheit, die die Reibung reduziert, besteht darin, zwei wöchentliche Fenster für ausgehende Zahlungen festzulegen und sie intern anzukündigen. Die Gegenparteien stellen sich schnell darauf ein, die Buchhaltung gleicht ihre Abstimmungen daran an, und die Bank liest das Profil mit der Zeit selbst als vorhersehbar, was die Zahl interner Prüfungen senkt. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 <!-- /exentax:lote16-native-v1:tiempos-pagos-ach-wire-transfer-de -->
 
 <!-- exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-de -->
@@ -179,7 +179,6 @@ Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprac
 
   Praktischer Hinweis: deutsche Steuerpflichtige müssen bei **Konten im Drittland mit Saldo > €100.000** im Jahresdurchschnitt das **Formular „Anzeige nach §138 Abs. 2 AO"** beim zuständigen Finanzamt einreichen, **innerhalb von 5 Monaten** nach Ablauf des Kalenderjahres (Frist: 31. Mai). Das gilt auch für Mercury-, Relay- und Column-N.A.-Konten. Verstöße werden mit Verspätungszuschlag bis €25.000 nach §379 AO sanktioniert.
 
-
 <!-- exentax:lote9-native-v1:tiempos-pagos-ach-wire-transfer -->
 ## Wie ACH- und Wire-Zeiten den Geschäftszyklus prägen
 
@@ -221,11 +220,11 @@ beherrschbares Element der Buchhaltungsroutine.
 <!-- exentax:defensa-fiscal-v1 -->
 ## Was, wenn das Finanzamt nach meiner LLC fragt?
 
-  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
   Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
 
-  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
   ## Was eine LLC NICHT tut
 

@@ -175,7 +175,7 @@ At Exentax we model which stack suits you by margin, market and product and open
 
 ## We set it up without you losing a weekend
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 ### Advantages
 
@@ -206,7 +206,7 @@ If it is not clean here, every downstream assumption becomes negotiable in front
 The numbers and the calendar matter - get either wrong and the rest unravels.
 ## Stripe
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

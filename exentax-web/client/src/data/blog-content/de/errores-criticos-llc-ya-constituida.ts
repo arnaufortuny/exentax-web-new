@@ -25,13 +25,13 @@ Sind Sie Nicht-Resident mit Single-Member LLC und gab es irgendeine Bewegung zwi
 
 Viele Mandanten kennen das Formular nicht einmal. Grundsanktion bei Nichtabgabe: **25.000 USD pro Formular und Jahr**, kumulativ.
 
-**Typische Folge:** 25k × 3-5 Jahre = 75.000 bis 125.000 USD potenzielle Sanktionen, bevor wir Ihre tatsächliche Aktivität anschauen. Details im <a href="/de/blog/form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es">Form-5472-Leitfaden</a>.
+**Typische Folge:** 25k × 3-5 Jahre = 75.000 bis 125.000 USD potenzielle Sanktionen, bevor wir Ihre tatsächliche Aktivität anschauen. Details im <a href="/de/blog/form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es">Form-5472-Leitfaden</a>. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 ### Fehler 3. BOI Report überspringen oder nicht aktualisieren
 
 Der **Beneficial Ownership Information Report** an <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> ist seit Januar 2024 verpflichtend. Und es ist keine einmalige Einreichung: Jede Änderung (Adresse, Ausweis, Berechtigter) erfordert Aktualisierung in 30 Tagen.
 
-**Typische Folge:** bis zu **591 USD pro Tag Verzug** plus strafrechtliche Sanktionen in schweren Fällen.
+**Typische Folge:** bis zu **591 USD pro Tag Verzug** plus strafrechtliche Sanktionen in schweren Fällen. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 
 ### Fehler 4. Privatkonto und LLC vermischen
 
@@ -55,7 +55,7 @@ In Deutschland, Österreich und der Schweiz wird die LLC im Regelfall, abhängig
 
 Dem Steuerberater zu sagen "deklariere nichts, das wird in den USA besteuert" ist das Rezept für eine schmerzhafte Nacherklärung, sobald CRS/DAC-Abgleich kommt.
 
-**Typische Folge:** mehrjährige Nachveranlagung + Zuschlag + Zinsen + Sanktion.
+**Typische Folge:** mehrjährige Nachveranlagung + Zuschlag + Zinsen + Sanktion. Wir schließen es mit dir von Exentax aus: ein Anruf, Einreichung raus, Archiv gesetzt, und das Risiko bleibt auf dem Papier.
 
 ### Fehler 7. Falsche Steueransässigkeit bei Wise, Mercury oder Brokern
 
@@ -63,7 +63,7 @@ Bei Kontoeröffnung bei Wise, Mercury, Relay oder Interactive Brokers wird Ihre 
 
 Beim Datenabgleich Jahre später wird eine **automatische Inkohärenz** ausgelöst: Ihr Wohnsitzland erkennt nicht deklarierte Auslandskonten.
 
-**Typische Folge:** automatische Meldung ans Finanzamt + Verfahrenseröffnung + spezifische Sanktion für nicht deklarierte Auslandsvermögen.
+**Typische Folge:** automatische Meldung ans Finanzamt + Verfahrenseröffnung + spezifische Sanktion für nicht deklarierte Auslandsvermögen. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 ### Fehler 8. LLC mit Krypto vermischen ohne CRS/DAC8 zu verstehen
 
@@ -71,7 +71,7 @@ Wenn Sie Krypto über zentrale Exchanges handeln (Coinbase, Kraken, Binance), tr
 
 Wenn Sie zudem Krypto über die LLC kanalisieren und mit Self-Custody mischen, wird die Kette steuerbarer Ereignisse extrem schwer zu rekonstruieren. Die Folge schlechter Dokumentation: **Besteuerung auf Brutto** ohne Anschaffungskosten abzuziehen.
 
-**Typische Folge:** Veranlagung auf Bruttobetrag + Bußgelder + Stunden Buchhaltungsrekonstruktion zu Kanzleisätzen.
+**Typische Folge:** Veranlagung auf Bruttobetrag + Bußgelder + Stunden Buchhaltungsrekonstruktion zu Kanzleisätzen. Und falls doch eine Aufforderung kommt: bei Exentax liegt das Dossier bereit, du antwortest in Stunden, nicht in Wochen.
 
 ### Fehler 9. Kein unterzeichnetes Operating Agreement
 
@@ -118,7 +118,7 @@ Die meisten Fehler entstehen nicht aus Dummheit, sondern aus **veralteter Inform
 Bei Exentax decken wir den ganzen Zyklus ab: Struktur, Banking, Zahlungs-Processoren, Investment, Krypto wo zutreffend, jährliche <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>- und FinCEN-Compliance, Koordination mit Ihrem lokalen Berater. Wir gründen keine LLCs und verschwinden: wir verwalten sie.
 ### Was Sie mitnehmen sollten
 
-Eine schlecht verwaltete LLC zu haben ist **teurer** als gar keine. Der Unterschied zwischen "in Ordnung" und "nicht in Ordnung" misst sich in vermeidbaren Sanktionen, Behördenstress und dem Verlust des LLC-Schutzes.
+Eine schlecht verwaltete LLC zu haben ist **teurer** als gar keine. Der Unterschied zwischen "in Ordnung" und "nicht in Ordnung" misst sich in vermeidbaren Sanktionen, Behördenstress und dem Verlust des LLC-Schutzes. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 
 Wenn Sie sich in drei oder mehr Fehlern erkennen, sind die Kosten des Stillstands höher als die der Überprüfung. **Wir prüfen sie mit Ihnen** in einer kostenlosen 30-minütigen Beratung: Diagnose, Reihenfolge, Priorität. Besser heute erkennen, als auf den Brief vom IRS oder Finanzamt zu warten.
 ## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
@@ -128,7 +128,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 ### Nach Rechtsordnung
 
 - **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
-- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**. Bleib ruhig: bei Exentax ist das unser Wochengeschäft, wir schließen es ab, bevor der Brief in deinem Postfach landet.
 - **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
@@ -211,7 +211,7 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren be
 - **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
-- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird. Hier kommt Exentax ins Spiel: wir reichen das Formular ein, archivieren den Beleg und, wenn die Behörde fragt, liegt deine Antwort bereits fertig.
 ## Referenzen: Quellen zu Strukturen und Jurisdiktionen
 
 Die hier zitierten Vergleiche und quantitativen Daten zu Jurisdiktionen basieren auf offiziellen Quellen, aktualisiert bis aktuell:
@@ -236,7 +236,7 @@ Die Fehler, die wir in den letzten Jahren bei bereits gegründeten LLCs wiederho
 - **Ohne unterschriebenes Operating Agreement operieren.** Banken und Zahlungsdienstleister fordern es im wachsenden KYC seit Januar 2024. Ohne fehlt jeder dokumentarische Beleg interner Entscheidungen. Auch als SMLLC unterschreiben.
 - **BOI nicht aktualisieren, wenn einschlägig.** Foreign reporting company + Adress-/Dokumenten-/Beneficial-Owner-Änderung ohne Update binnen 30 Tagen: 591 USD/Tag. [das offizielle FinCEN-Portal für den BOI](https://boiefiling.fincen.gov) dauert 10 Minuten.
 - **5472 vergessen.** Teuerster Fehler: 25.000 USD pro Formular und Jahr. Häufigste Ursache: irgendeine Bewegung (Transfer zwischen Inhaber und LLC) ohne Wissen um die Pflicht.
-- **Veraltete Adresse beim Secretary of State.** IRS- und Staatspost geht verloren, Bußgelder häufen sich und kommen per Einschreiben an eine abgelaufene Adresse.
+- **Veraltete Adresse beim Secretary of State.** IRS- und Staatspost geht verloren, Bußgelder häufen sich und kommen per Einschreiben an eine abgelaufene Adresse. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart dir fünf Stellen.
 
 ### 30-Minuten-Triage
 
@@ -253,8 +253,6 @@ Die Fehler, die wir in den letzten Jahren bei bereits gegründeten LLCs wiederho
 
 **Erkennt die IRS automatisch?** Zunehmend. Cross-Check 1099/1042-S/Form 5472/CRS ist aktuell stärker automatisiert als 2020.
 
-
-
 ## Selbsteinschätzung in fünfzehn Minuten
 
 Bevor wir gemeinsam tiefer einsteigen, lohnt eine ruhige Viertelstunde mit einer kurzen Liste. Sie zeigt, ob die LLC ein paar gezielte Korrekturen oder eine grundlegende Aufräumaktion braucht. Wir empfehlen, die Antworten schriftlich festzuhalten und zur ersten Beratung mitzubringen.
@@ -269,7 +267,7 @@ Wurde Form 5472 plus pro-forma Form 1120 für jedes Geschäftsjahr eingereicht, 
 
 ### Bundesstaat und Registered Agent
 
-Ist der Annual Report des Bundesstaates für das laufende Jahr eingereicht? Ist der Vertrag mit dem Registered Agent gültig und die Rechnungsadresse aktuell? Eine *forfeited* LLC lässt sich meist reaktivieren, kostet aber Zeit und Strafen, die mit Voraussicht vermeidbar sind.
+Ist der Annual Report des Bundesstaates für das laufende Jahr eingereicht? Ist der Vertrag mit dem Registered Agent gültig und die Rechnungsadresse aktuell? Eine *forfeited* LLC lässt sich meist reaktivieren, kostet aber Zeit und Strafen, die mit Voraussicht vermeidbar sind. Genau deshalb halten wir bei Exentax deinen Kalender bündig — du musst nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
 ### Wohnsitz und CRS
 

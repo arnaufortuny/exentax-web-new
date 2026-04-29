@@ -21,7 +21,7 @@ El **Form 5472, Information Return of a 25% Foreign-Owned U.S. Corporation or a 
 
 Para la fotografía de la mayoría de nuestros clientes en Exentax, esa "entidad americana" es una **Single-Member LLC** propiedad de un no residente, y la "parte relacionada extranjera" es **el propio dueño**. Las "transacciones" son cualquier movimiento de dinero entre tú y la LLC: aportaciones iniciales, transferencias de la LLC a tu cuenta personal, pagos puntuales, préstamos.
 
-¿Por qué importa? Porque desde 2017 las **disregarded entities propiedad de extranjeros** están tratadas como corporaciones a efectos del 5472. Esto significa que aunque tu LLC no pague impuesto federal, **sí está obligada a reportar quién la posee y cómo ha movido dinero contigo**. Si no lo presentas, la sanción base es de **25 000 USD por formulario y año**.
+¿Por qué importa? Porque desde 2017 las **disregarded entities propiedad de extranjeros** están tratadas como corporaciones a efectos del 5472. Esto significa que aunque tu LLC no pague impuesto federal, **sí está obligada a reportar quién la posee y cómo ha movido dinero contigo**. Si no lo presentas, la sanción base es de **25 000 USD por formulario y año**. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 ### La trampa del "1120 pro-forma"
 
 Aquí es donde la gente se pierde. Tu Single-Member LLC de no residente:
@@ -64,14 +64,14 @@ En la mayoría de inicios, una sola aportación inicial (la transferencia que hi
 - **Forma de presentación:** la LLC con dueño no residente y sin obligación de presentación electrónica suele enviarlo por **correo certificado al IRS Service Center de Ogden, Utah** o por **fax** al número específico publicado por el IRS para foreign-owned DEs. Confirmar siempre la dirección/fax vigente del año en cuestión.
 - **EIN obligatorio:** sin EIN no se puede presentar. Si todavía no lo tienes, hay que sacarlo antes (Form SS-4).
 
-Los retrasos no son baratos. La sanción de 25 000 USD por 5472 no presentado **se aplica también por información incompleta o inexacta**, no solo por no presentar nada en absoluto.
+Los retrasos no son baratos. La sanción de 25 000 USD por 5472 no presentado **se aplica también por información incompleta o inexacta**, no solo por no presentar nada en absoluto. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 ## Errores típicos al preparar 1120 + 5472
 
 1. **Rellenar el 1120 pro-forma como si fuera un 1120 real.** Pones cifras, balances, gastos. El IRS lo procesa como una declaración de C-Corp y se monta un lío.
 2. **Olvidar que el 5472 va anexado al 1120**, no se manda solo. Si lo envías suelto, no se considera presentado.
 3. **No tener un Operating Agreement claro** y reportar transacciones sin documentación de respaldo. Cuando el IRS pide aclaraciones, no hay nada que enseñar.
 4. **Mezclar la cuenta personal con la de la LLC** y luego intentar reconstruir las "reportable transactions" a final de año. Sale caro y mal.
-5. **Confiar en "no me ha llegado nada del IRS, todo bien".** El IRS no avisa antes de sancionar. Las multas se imponen y se descubren cuando se actúa contra el EIN o se rechaza una próxima presentación.
+5. **Confiar en "no me ha llegado nada del IRS, todo bien".** El IRS no avisa antes de sancionar. Las multas se imponen y se descubren cuando se actúa contra el EIN o se rechaza una próxima presentación. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 6. **Presentar el 5472 sin el TIN/EIN del dueño extranjero.** Aunque seas no residente, el formulario pide identificación. Sin ella, está incompleto.
 ### Quién NO está obligado (los pocos casos)
 
@@ -81,7 +81,7 @@ Casos en los que **no necesitas** presentar 1120 + 5472:
 - Eres residente fiscal en EE.UU. y tu Single-Member LLC reporta directamente en Schedule C de tu 1040 personal. Aquí no hay "foreign-owned DE".
 - Tu LLC ha elegido tributar como **C-Corp** y ya presenta 1120 real, sin transacciones con partes relacionadas extranjeras (raro si tu negocio internacional pasa por la LLC).
 
-Fuera de esos casos, asumir que estás exento es una apuesta que no compensa: el coste de preparar bien estos formularios es **mucho menor** que la sanción mínima.
+Fuera de esos casos, asumir que estás exento es una apuesta que no compensa: el coste de preparar bien estos formularios es **mucho menor** que la sanción mínima. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 ### Cómo encaja todo esto en tu día a día
 
 Si llevas correctamente la operativa de la LLC durante el año (cuenta separada, registro de aportaciones y retiros, Operating Agreement firmado, contabilidad mínima), preparar el 1120 pro-forma + 5472 a cierre de año es un trámite tranquilo. Si llegas a 31 de diciembre con la cuenta de la LLC mezclada con la personal, sin documentación y sin saber qué movimientos son reportables, el coste y el riesgo se disparan.
@@ -95,7 +95,7 @@ Por eso en Exentax tratamos estos formularios como el **subproducto natural** de
 - **No se paga impuesto** con estos formularios, pero **no presentarlos cuesta 25 000 USD por año**.
 - El error más caro es rellenarlos mal o llegar al cierre sin la documentación que respalda lo que se reporta.
 
-Si tienes dudas sobre si tu caso está bien planteado, sobre los ejercicios pasados o sobre cómo regularizar formularios atrasados, **lo revisamos contigo** en una asesoría gratuita de 30 minutos. Es mejor entenderlo bien una vez que pagar sanciones evitables cada año.
+Si tienes dudas sobre si tu caso está bien planteado, sobre los ejercicios pasados o sobre cómo regularizar formularios atrasados, **lo revisamos contigo** en una asesoría gratuita de 30 minutos. Es mejor entenderlo bien una vez que pagar sanciones evitables cada año. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 ## Referencias legales y normativas
 
 Este artículo se apoya en normativa vigentes actualmente. Citamos las fuentes principales para que puedas verificarlo:
@@ -140,7 +140,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
 <!-- exentax:execution-v2 -->
 ## Form 1120 y Form 5472: qué son y cuándo los presenta una LLC de no residente
@@ -150,7 +150,7 @@ La combinación 1120 + 5472 es la obligación informativa central de cualquier s
 - **Form 1120 (pro-forma).** No es la 1120 corporativa típica: es una versión simplificada usada por la LLC disregarded como "vehículo" para acompañar el 5472. Sólo se rellenan datos identificativos (EIN, dirección, año fiscal). Sin cálculo de impuesto. Plazo: 15 de abril (o 15 de octubre con extensión 7004).
 - **Form 5472.** El formulario informativo real. Reporta cualquier "reportable transaction" entre la LLC y su socio extranjero (25%+ ownership): aportaciones de capital, distribuciones, préstamos intercompañía, pagos por servicios prestados o recibidos, ventas de bienes. La cifra reportada no genera impuesto pero permite al IRS rastrear flujos transfronterizos.
 - **Cuándo aplica.** Single-member LLC propiedad de un no residente (persona física o entidad extranjera) con al menos una transacción reportable durante el año fiscal. Si el año la LLC no movió un dólar entre el socio y la entidad, técnicamente no hay 5472 - pero conviene presentarlo igual con "0" para mantener historial limpio.
-- **Multa por omisión.** 25.000 USD por año fiscal y por entidad omitida. Multa adicional de 25.000 USD si tras el aviso del IRS no se corrige en 90 días. Es la multa informativa más cara para LLCs de no residente y la más fácil de prevenir presentando a tiempo.
+- **Multa por omisión.** 25.000 USD por año fiscal y por entidad omitida. Multa adicional de 25.000 USD si tras el aviso del IRS no se corrige en 90 días. Es la multa informativa más cara para LLCs de no residente y la más fácil de prevenir presentando a tiempo. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
 ### Lo que más nos preguntan
 
@@ -167,15 +167,14 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
   ## Lo que NO hace una LLC
 

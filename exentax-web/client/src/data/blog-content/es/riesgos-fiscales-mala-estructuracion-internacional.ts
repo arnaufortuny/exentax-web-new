@@ -10,7 +10,7 @@ La **simulación** está regulada en el art. 16 de la Ley General Tributaria esp
 
 Hay simulación cuando los actos o negocios celebrados son aparentes y no responden a la realidad de la operación. Aplicado a estructuras internacionales: si interpones una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> entre tú y tus clientes pero la actividad la sigues prestando tú materialmente desde España (mismo equipo, mismo domicilio, mismas decisiones), la AEAT puede declarar la simulación y atribuirte directamente las rentas como persona física.
 
-**Consecuencia**: regularización por todos los ejercicios no prescritos (4 años en España, 5 en México, 5 en Colombia) + intereses de demora + sanción del 50-150% (art. 191-195 LGT) + posible delito fiscal si la cuota defraudada por ejercicio supera 120.000 € (art. 305 CP).
+**Consecuencia**: regularización por todos los ejercicios no prescritos (4 años en España, 5 en México, 5 en Colombia) + intereses de demora + sanción del 50-150% (art. 191-195 LGT) + posible delito fiscal si la cuota defraudada por ejercicio supera 120.000 € (art. 305 CP). Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
 **Cómo evitarlo**: dotar a la LLC de **sustancia** real (decisión, operativa, infraestructura) o asumir desde el inicio que la LLC es una herramienta complementaria, no una fachada. Lo desarrollamos en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
 ## Riesgo 2: Transparencia Fiscal Internacional (TFI / CFC)
@@ -36,7 +36,7 @@ Es el más común. El contribuyente "se cambia" la residencia fiscal a Andorra, 
 
 La AEAT cruza datos: padrón municipal, IRPF anteriores, comunicaciones de cambio de domicilio, datos bancarios CRS, datos DAC7, vehículos a tu nombre, escuelas de los hijos, gimnasio, médico, propiedades inmobiliarias.
 
-**Consecuencia**: si la AEAT declara que sigues siendo residente fiscal español, **toda tu renta mundial** vuelve a tributar en España, con regularización completa, intereses, sanciones y posible delito.
+**Consecuencia**: si la AEAT declara que sigues siendo residente fiscal español, **toda tu renta mundial** vuelve a tributar en España, con regularización completa, intereses, sanciones y posible delito. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 **Cómo evitarlo**: si te cambias de residencia, hazlo de verdad (más de 183 días fuera, sin centro de intereses en España; con certificado de residencia fiscal del nuevo país). Lo desarrollamos en <a href="/es/blog/nomada-digital-residencia-fiscal">residencia fiscal del nómada digital</a>.
 ### Riesgo 4: Establecimiento permanente (EP) oculto
@@ -45,7 +45,7 @@ Si tu LLC americana opera materialmente desde España (oficina, representante co
 
 - La LLC tributa por el Impuesto sobre la Renta de No Residentes (IRNR) por las rentas atribuibles al EP, con tipo del 25% (Impuesto sobre Sociedades aplicable al EP).
 - Las cuentas se llevan separadamente y se documentan precios de transferencia con la matriz.
-- Sanciones por no haber declarado el EP en su momento.
+- Sanciones por no haber declarado el EP en su momento. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 **Cómo evitarlo**: si la actividad se desarrolla esencialmente en España, plantearse si la LLC es la estructura adecuada o si conviene una S.L. española como entidad operativa. Análisis en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
 ## Riesgo 5: Treaty shopping y abuso del CDI
@@ -61,7 +61,7 @@ En España, el delito fiscal del art. 305 CP se activa cuando la cuota defraudad
 
 Una estructura mal diseñada con varios años de impagos puede acumular cuotas que crucen ese umbral con relativa facilidad: si tu actividad genera 200.000 € anuales y deberías haber tributado al 47% pero declaraste al 0%, en dos años cruzas el umbral y entras en el ámbito penal.
 
-Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraudada. Tipo agravado (de 2 a 6 años) cuando la cuota supera 600.000 €, hay estructura organizada o se utilizan paraísos fiscales.
+Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraudada. Tipo agravado (de 2 a 6 años) cuando la cuota supera 600.000 €, hay estructura organizada o se utilizan paraísos fiscales. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
 **Cómo evitarlo**: estructura legal correcta + declaración correcta + pago correcto. Hay margen amplio de optimización **dentro** de la ley; salirse no tiene sentido.
 ### Cómo se materializan estos riesgos en la práctica
@@ -71,10 +71,10 @@ El recorrido típico es:
 1. Año 1-2: la persona estructura su LLC sin asesoramiento, declara mal o no declara.
 2. Año 3: cruce CRS / DAC7 / DAC8 detecta inconsistencias.
 3. Año 4: comunicación de "discrepancia" o requerimiento informativo de la AEAT.
-4. Año 5: liquidación provisional, propuesta de regularización + intereses + sanción.
+4. Año 5: liquidación provisional, propuesta de regularización + intereses + sanción. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 5. Año 6: si los importes superan los umbrales penales y no hay regularización voluntaria previa, traslado al Ministerio Fiscal.
 
-La **regularización voluntaria** antes del requerimiento (art. 305.4 CP) excluye la responsabilidad penal y reduce significativamente la sanción tributaria. Es siempre la mejor opción si detectas que tu situación necesita ajuste.
+La **regularización voluntaria** antes del requerimiento (art. 305.4 CP) excluye la responsabilidad penal y reduce significativamente la sanción tributaria. Es siempre la mejor opción si detectas que tu situación necesita ajuste. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 ### Cómo construir una estructura sin estos riesgos
 
 1. **Empezar por la calificación correcta** de la LLC en tu jurisdicción (ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">doctrina DGT/TEAC sobre LLC</a>).
@@ -118,7 +118,7 @@ Una estructura internacional mal montada no falla por la estructura: falla por e
 - **Precios de transferencia inexistentes o ficticios.** Si tu LLC US cobra a tu sociedad española cantidades que no se sostienen en mercado (overcharging para vaciar base española) o si tu sociedad UAE factura a tu LLC servicios que no se prestan, el ajuste de precios de transferencia (España: TRLIS art. 16) recalifica con sanción de hasta el 100% de la diferencia.
 - **Beneficial ownership ocultado.** Nominee director sin operating control real, fideicomisos opacos sin substance trustee, prestanombres familiares para esquivar BOI. Tres jurisdicciones cooperan ya: BOI (US), Registro UBO (UE), CRS (global). Esconder al UBO real es delito de blanqueo agravado, no infracción tributaria. La cárcel es opción.
 - **No declaración en residencia.** España (Modelo 720 + 721 + IRPF), Francia (3916 + IR), Italia (RW), Alemania (AStG). La sanción por no declarar puede ser superior al impuesto debido (50%-150% + intereses). Y, si Hacienda lo descubre vía CRS antes de tu regularización voluntaria, no hay rebaja por confesión.
-- **Mezclar dinero personal y societario sin trazabilidad.** Tarjeta de la LLC para gastos personales, transferencias a familia sin concepto, draws sin documento. Rompe responsabilidad limitada, complica el bookkeeping y, en inspección, se interpreta como simulación de actividad empresarial.
+- **Mezclar dinero personal y societario sin trazabilidad.** Tarjeta de la LLC para gastos personales, transferencias a familia sin concepto, draws sin documento. Rompe responsabilidad limitada, complica el bookkeeping y, en inspección, se interpreta como simulación de actividad empresarial. Es el momento de pedir ayuda. En Exentax abrimos el caso, presentamos lo pendiente y respondemos por ti al organismo correspondiente.
 
 ### Lo que más nos preguntan
 
@@ -141,15 +141,14 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
   ## Lo que NO hace una LLC
 

@@ -34,13 +34,13 @@ Una classificació errònia canvia completament les teves obligacions declarativ
 
 Si ets no resident, propietari únic d'una LLC, i hi ha hagut qualsevol transacció entre tu i la LLC (retirades, aportacions, pagaments), estàs obligat a presentar **Form 5472 acompanyat d'un Form 1120 pro-forma**. Cada any. Sense excepcions rellevants per a la majoria de perfils.
 
-La sanció base per no presentar o presentar incomplet és de **25 000 USD per formulari i any**, i s'acumula. No és una amenaça abstracta: l'IRS l'aplica.
+La sanció base per no presentar o presentar incomplet és de **25 000 USD per formulari i any**, i s'acumula. No és una amenaça abstracta: l'IRS l'aplica. I si arriba un requeriment, a Exentax mantenim el dossier preparat perquè responguis en hores, no en setmanes.
 
 Consulta la nostra <a href="/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir">guia completa del Form 5472</a> per als detalls. Si no recordes haver-lo presentat els darrers anys, no estàs "fora del radar": estàs generant un passiu silenciós.
 
 ### 3. Tens el BOI Report al dia amb FinCEN?
 
-El **Beneficial Ownership Information Report** és la declaració a FinCEN sobre qui és el beneficiari real de la teva LLC. És obligatori des de l'entrada en vigor de la CTA per a la gran majoria de LLCs, amb un règim sancionador agressiu: fins a **591 USD per dia de retard** més sancions penals en casos greus.
+El **Beneficial Ownership Information Report** és la declaració a FinCEN sobre qui és el beneficiari real de la teva LLC. És obligatori des de l'entrada en vigor de la CTA per a la gran majoria de LLCs, amb un règim sancionador agressiu: fins a **591 USD per dia de retard** més sancions penals en casos greus. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 Pregunta't:
 - La teva LLC entra en l'àmbit vigent del BOI Report (després de la interim final rule de FinCEN de març de 2025, el BOI només s'aplica a "foreign reporting companies": entitats constituïdes fora dels EUA i registrades en un estat; verifica a FinCEN.gov)? Si sí, vas presentar el BOI inicial en constituir la LLC?
@@ -62,7 +62,7 @@ Si la teva LLC va ser dissolta i segueixes facturant amb el seu EIN, totes les f
 
 ### 5. Separes diners personals i de la LLC?
 
-Aquest és **l'error més comú i més car**. Si fas servir el compte de la LLC per a despeses personals o cobres factures de la LLC al compte personal, estàs trencant el **corporate veil**. Conseqüència: la LLC ja no protegeix el teu patrimoni personal i, en una inspecció, sou tractats com una mateixa cosa.
+Aquest és **l'error més comú i més car**. Si fas servir el compte de la LLC per a despeses personals o cobres factures de la LLC al compte personal, estàs trencant el **corporate veil**. Conseqüència: la LLC ja no protegeix el teu patrimoni personal i, en una inspecció, sou tractats com una mateixa cosa. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 Detalls al nostre article sobre <a href="/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important">separar finances personals i de la LLC</a>.
 
@@ -81,7 +81,7 @@ Pregunta't:
 - Has presentat les declaracions d'actius/comptes a l'estranger aplicables (Modelo 720/721)?
 - El teu assessor local entén com funciona una LLC americana?
 
-Si el teu assessor et va dir "no declaris res perquè tributa als EUA", busca segona opinió. Avui. És on més s'acumulen sancions i són totalment evitables.
+Si el teu assessor et va dir "no declaris res perquè tributa als EUA", busca segona opinió. Avui. És on més s'acumulen sancions i són totalment evitables. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 ### 7. La teva banca, brokers i exchanges estan alineats amb CRS i DAC?
 
@@ -114,7 +114,7 @@ Si tres o més s'apliquen, no estàs "fora del radar", acumules un passiu que ta
 | No presentar Form 5472 durant anys | 25 000 USD de sanció per formulari, acumulativa |
 | BOI Report no actualitzat | Fins a 591 USD/dia de sanció |
 | Comptes personals i de LLC barrejats | Trenca la separació patrimonial |
-| No declarar ingressos LLC al país de residència | Quan salta el creuament CRS/DAC: regularització + sancions + interessos |
+| No declarar ingressos LLC al país de residència | Quan salta el creuament CRS/DAC: regularització + sancions + interessos |. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 | Wise/Mercury/Brokers amb residència fiscal incorrecta | Report CRS al país equivocat, cosa que dispara revisions rutinàries |
 | Operar amb LLC dissolta | Factures qüestionables, contractes nuls |
 | Confiar en "no es reporta res" | actualment ja no funciona així. CRS, DAC7 i DAC8 són actius |
@@ -146,7 +146,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 

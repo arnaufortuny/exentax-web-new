@@ -28,7 +28,7 @@ Abans de la fiscalitat, hi ha un sòl de costos que no s'elimina:
 - **Annual Return** davant del Companies Registry: 105 HKD.
 - **Company Secretary** resident: 600 a 1.500 USD anuals.
 - **Domicili social** registrat: 300 a 800 USD anuals.
-- **Auditoria obligatòria** per un Hong Kong CPA: des de 1.500 USD per a empreses petites, en molts casos 2.500 a 5.000 USD.
+- **Auditoria obligatòria** per un Hong Kong CPA: des de 1.500 USD per a empreses petites, en molts casos 2.500 a 5.000 USD. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 - **Profits Tax Return** anual: gestió per un assessor entre 500 i 1.500 USD.
 - **Offshore claim** (si se sol·licita): 2.000 a 5.000 USD addicionals en honoraris la primera vegada.
 
@@ -58,7 +58,7 @@ Per al perfil habitual d'Exentax (freelance, agència, ecommerce, SaaS, creador 
 - **Cost anual**: 500-800 USD davant 4.000-7.000 USD de Hong Kong.
 - **Banca**: Mercury, Wise, Wallester, Slash, Relay, obren online i operen en USD des del primer dia.
 - **Reputació**: cap client o proveïdor posa entrebancs a una empresa americana.
-- **Sense auditoria obligatòria**: la LLC no ha d'auditar comptes. N'hi ha prou amb un Form 5472 anual.
+- **Sense auditoria obligatòria**: la LLC no ha d'auditar comptes. N'hi ha prou amb un Form 5472 anual. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
 Hi ha casos en què Hong Kong segueix tenint sentit? Sí: empreses amb presència operativa real a Àsia, comerç internacional amb la Xina continental, fons o estructures complexes amb assessoria dedicada. Per a la resta, la resposta sincera és que no.
 ### Riscos reals a conèixer
@@ -66,7 +66,7 @@ Hi ha casos en què Hong Kong segueix tenint sentit? Sí: empreses amb presènci
 Més enllà del cost, els riscos pràctics:
 
 - **Tancament bancari sense previ avís**: molts titulars relaten tancaments unilaterals amb 30 dies de termini i bloqueig de fons.
-- **Auditoria obligatòria**: si no la presentes, l'IRD imposa multes i el Companies Registry pot sol·licitar la dissolució.
+- **Auditoria obligatòria**: si no la presentes, l'IRD imposa multes i el Companies Registry pot sol·licitar la dissolució. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 - **Strike-off involuntari**: l'incompliment d'Annual Returns pot provocar el striking-off i la pèrdua de la societat sense possibilitat de recuperar fons.
 - **Enduriment BEPS Pillar Two**: en els darrers anys, multinacionals mitjanes poden veure erosionat l'avantatge territorial.
 ### Casos típics on aplica
@@ -91,7 +91,7 @@ Cada cop és més difícil. HSBC, Hang Seng i Standard Chartered exigeixen visit
 
 **Quant costa mantenir una Hong Kong Limited a l'any?**
 
-Entre 2.500 i 5.000 USD: secretari corporatiu, oficina virtual, auditoria obligatòria i declaració fiscal. Un ordre de magnitud per sobre d'una LLC americana.
+Entre 2.500 i 5.000 USD: secretari corporatiu, oficina virtual, auditoria obligatòria i declaració fiscal. Un ordre de magnitud per sobre d'una LLC americana. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 
 **Serveix per vendre en mercats occidentals?**
 
@@ -116,7 +116,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
@@ -168,7 +168,7 @@ Hong Kong continua venent-se com a "0% sobre rendes de font estrangera", però l
 
 ### Què ens pregunten més
 
-**Encara val la pena muntar una HK Limited?** Per a perfil específic (client asiàtic, presència local, volum >500k), sí; per a genèric digital europeu, gairebé mai. Cost de manteniment (auditoria obligatòria, secretari corporatiu, registered office): 6-12k anuals mínim.
+**Encara val la pena muntar una HK Limited?** Per a perfil específic (client asiàtic, presència local, volum >500k), sí; per a genèric digital europeu, gairebé mai. Cost de manteniment (auditoria obligatòria, secretari corporatiu, registered office): 6-12k anuals mínim. Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 **Puc obrir compte HSBC HK sense viatjar?** A la pràctica, no per a no residents sense oficina. L'arquitectura realista és Statrys o Airwallex (fintech), amb onboarding documental pesat.
 
@@ -182,7 +182,7 @@ Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blan
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
+- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
 ### Recordatori pràctic

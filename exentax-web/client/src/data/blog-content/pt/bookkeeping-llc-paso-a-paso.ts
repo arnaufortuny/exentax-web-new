@@ -1,4 +1,4 @@
-export default `O IRS exige conservar os registos contabilísticos de uma LLC durante pelo menos 7 anos, e um Form 5472 sem livros por trás arranca com 25.000 $ de sanção.
+export default `O IRS exige conservar os registos contabilísticos de uma LLC durante pelo menos 7 anos, e um Form 5472 sem livros por trás arranca com 25.000 $ de sanção. Tranquilo: na Exentax isto é a nossa rotina semanal, fechamos antes de a carta chegar à tua caixa de correio.
 
 Manter a contabilidade de uma LLC americana assusta mais do que deveria. A maioria dos proprietários não residentes vem habituada ao modelo português ou brasileiro, em que um contador pede papéis, apresenta declarações trimestrais e quase não toca em nada. Com uma LLC o modelo é diferente: a operação do dia a dia é sua, com ferramentas modernas, e no final do ano uma contabilidade organizada traduz-se numa declaração limpa e tranquila.
 
@@ -8,7 +8,7 @@ Na Exentax acompanhamos centenas de clientes neste processo. Este guia resume co
 
 Bookkeeping é, simplesmente, o registo ordenado de todos os movimentos económicos da sua LLC: receitas, despesas, transferências entre contas, retiradas do proprietário e saldos finais. Não é o mesmo que a declaração fiscal: a declaração usa os dados do bookkeeping, mas o bookkeeping vive todo o ano.
 
-Uma contabilidade organizada dá-lhe três coisas: cumprimento (Form 5472, 1120 pro-forma e, em alguns estados, relatórios adicionais), controlo (saber quanto ganha realmente após despesas) e respaldo em caso de auditoria bancária ou fiscal. Os três importam, mas o terceiro costuma descobrir-se tarde.
+Uma contabilidade organizada dá-lhe três coisas: cumprimento (Form 5472, 1120 pro-forma e, em alguns estados, relatórios adicionais), controlo (saber quanto ganha realmente após despesas) e respaldo em caso de auditoria bancária ou fiscal. Os três importam, mas o terceiro costuma descobrir-se tarde. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 ### Ponto de partida: separar finanças
 
 Antes de tocar em qualquer software, o primeiro passo é <a href="/pt/blog/separar-dinheiro-pessoal-e-da-llc-por-que-e-importante">separar de forma absoluta o dinheiro pessoal do da LLC</a>. Isto significa: nenhuma compra pessoal com o cartão da Mercury ou Wallester, nenhuma fatura da LLC paga a partir da sua conta pessoal, e todas as retiradas marcadas como "owner draw" desde a conta da LLC para a sua conta pessoal.
@@ -95,7 +95,7 @@ A complexidade multimoeda e multi-gateway exige A2X ou Synder para automatizar i
 
 **Preciso de software de contabilidade se a minha LLC fatura pouco?**
 
-Sim. Mesmo com volume baixo, manter a contabilidade numa folha de cálculo manual aumenta o risco de erros no Form 5472 e dificulta justificar despesas perante o IRS numa auditoria. Wave (gratuito) ou Xero a 15 USD/mês resolvem o caso.
+Sim. Mesmo com volume baixo, manter a contabilidade numa folha de cálculo manual aumenta o risco de erros no Form 5472 e dificulta justificar despesas perante o IRS numa auditoria. Wave (gratuito) ou Xero a 15 USD/mês resolvem o caso. É aqui que entra a Exentax: apresentamos o formulário, arquivamos o comprovativo e, se a administração perguntar, a resposta já está pronta.
 
 **Como categorizar pagamentos em cripto?**
 
@@ -190,7 +190,7 @@ A contabilidade de uma LLC americana não exige uma equipa: exige disciplina, a 
 
 - **Camada 1 - Conta operacional única.** Todo o fluxo da LLC passa por Mercury, Relay ou Wise Business. Zero cartões pessoais na conta da LLC e zero levantamentos pessoais sem lançamento contabilístico. Esta única regra evita 80 % dos problemas de auditoria posteriores.
 - **Camada 2 - Software contabilístico ligado.** Wave, QuickBooks Online ou Xero, ligados via bank feed à conta da LLC. A reconciliação automática deixa menos de 5 % de transacções para revisão manual quando o feed funciona. Modelos de categorização pré-configurados conforme a actividade para que o fecho mensal seja questão de minutos.
-- **Camada 3 - Documentação de suporte.** Pasta digital organizada por mês com factura emitida, comprovativo de pagamento e reconciliação bancária. Num KYC alargado ou auditoria, é isto que se entrega; sem esta camada, a contabilidade não aguenta um segundo olhar.
+- **Camada 3 - Documentação de suporte.** Pasta digital organizada por mês com factura emitida, comprovativo de pagamento e reconciliação bancária. Num KYC alargado ou auditoria, é isto que se entrega; sem esta camada, a contabilidade não aguenta um segundo olhar. É o momento de pedir ajuda. Na Exentax abrimos o caso, submetemos o que falta e respondemos à administração por ti.
 - **Fecho anual e 5472.** A 31 de Dezembro, exportação do razão e reconciliação final com extractos. O Form 5472 + 1120 pro forma alimenta-se directamente do razão; contas limpas poupam 4 a 12 horas de trabalho em Abril.
 
 ### O que mais nos perguntam

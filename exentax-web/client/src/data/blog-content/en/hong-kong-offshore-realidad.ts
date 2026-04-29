@@ -30,7 +30,7 @@ Before taxation, there is a floor of fixed costs that never goes away:
 - **Annual Return** to the Companies Registry: HKD 105.
 - **Hong Kong-resident Company Secretary**: USD 600 to 1,500 per year.
 - **Registered office**: USD 300 to 800 per year.
-- **Mandatory audit** by a Hong Kong CPA: from USD 1,500 for small companies, often USD 2,500 to 5,000.
+- **Mandatory audit** by a Hong Kong CPA: from USD 1,500 for small companies, often USD 2,500 to 5,000. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 - **Profits Tax Return**: handled by an advisor, USD 500 to 1,500 per year.
 - **Offshore claim** (if filed): USD 2,000 to 5,000 in extra fees the first time.
 
@@ -60,7 +60,7 @@ For the typical Exentax profile (freelancer, agency, ecommerce, SaaS, content cr
 - **Annual cost**: USD 500-800 vs USD 4,000-7,000 in Hong Kong.
 - **Banking**: Mercury, Wise, Wallester, Slash, Relay, all opened online and operating in USD from day one.
 - **Reputation**: no client or vendor objects to a US company.
-- **No mandatory audit**: the LLC does not have to audit accounts. A yearly Form 5472 is enough.
+- **No mandatory audit**: the LLC does not have to audit accounts. A yearly Form 5472 is enough. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 
 Are there cases where Hong Kong still makes sense? Yes: companies with real operating presence in Asia, international trade with mainland China, funds or complex structures with dedicated advisory. For everything else, the honest answer is no.
 ### Real risks worth knowing
@@ -68,7 +68,7 @@ Are there cases where Hong Kong still makes sense? Yes: companies with real oper
 Beyond the cost, the practical risks:
 
 - **Bank closures without notice**: many holders report unilateral closures with 30 days' notice and frozen funds.
-- **Mandatory audit**: if you do not file it, the IRD imposes penalties and the Companies Registry may push for dissolution.
+- **Mandatory audit**: if you do not file it, the IRD imposes penalties and the Companies Registry may push for dissolution. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 - **Involuntary strike-off**: failure to file Annual Returns may trigger striking-off and the loss of the company without recovering funds.
 - **BEPS Pillar Two tightening**: from recent years, mid-sized multinationals may see the territorial advantage eroded.
 ### Typical scenarios where it applies
@@ -93,7 +93,7 @@ It is increasingly hard. HSBC, Hang Seng and Standard Chartered require an in-pe
 
 **How much does it cost to maintain a Hong Kong Limited per year?**
 
-Between 2,500 and 5,000 USD: company secretary, virtual office, mandatory audit and tax filing. An order of magnitude above a US LLC.
+Between 2,500 and 5,000 USD: company secretary, virtual office, mandatory audit and tax filing. An order of magnitude above a US LLC. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 **Does it work for selling in Western markets?**
 
@@ -121,7 +121,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 ### By jurisdiction
 
 - **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
+- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 - **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
@@ -147,7 +147,7 @@ At Exentax we structure the entity to fit the first scenario and document every 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Now is the moment to ask for help. At Exentax we open the case, file what is missing and reply to the relevant authority for you.
 - **Spain–US treaty.** BOE of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / OECD.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -179,7 +179,7 @@ Hong Kong still sells itself as "0% on foreign-source income", but today's pictu
 
 ### What we are asked the most
 
-**Is HK Limited still worth setting up?** For specific profiles (Asian clients, local presence, volume >500k), yes; for generic European digital, hardly ever. Maintenance cost (mandatory audit, company secretary, registered office): 6-12k yearly minimum.
+**Is HK Limited still worth setting up?** For specific profiles (Asian clients, local presence, volume >500k), yes; for generic European digital, hardly ever. Maintenance cost (mandatory audit, company secretary, registered office): 6-12k yearly minimum. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 **Can I open HSBC HK without travelling?** In practice, no for non-residents without an office. The realistic stack is Statrys or Airwallex (fintech) rather than a traditional bank, and even there onboarding asks for heavy documentation.
 

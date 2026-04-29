@@ -1,4 +1,4 @@
-export default `Antes de montar uma LLC a partir de Portugal, tens de ver a fotografia completa, não só os slides de venda. Sim, a proteção patrimonial e o pass-through são reais, mas a 5472 com multa de 25 000 USD, o Anexo J português, a obrigação BOI e o atrito bancário também o são. Uma decisão adulta faz-se olhando as duas colunas.
+export default `Antes de montar uma LLC a partir de Portugal, tens de ver a fotografia completa, não só os slides de venda. Sim, a proteção patrimonial e o pass-through são reais, mas a 5472 com multa de 25 000 USD, o Anexo J português, a obrigação BOI e o atrito bancário também o são. Uma decisão adulta faz-se olhando as duas colunas. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
 
 Aqui vão as duas faces da moeda. Sem filtros.
 
@@ -185,7 +185,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 ### Desvantagens reais
 
 - **Custo operativo recorrente real.** Bookkeeping mensal (~80-150$), 5472/1120 anual (300-600$), BOI (150-300$), agent (50-100$/ano). Ano 1: 1.500-3.000$.
-- **Compliance pesado e multas brutais.** Esquecer 5472 = $25.000 min. BOI = $591/dia.
+- **Compliance pesado e multas brutais.** Esquecer 5472 = $25.000 min. BOI = $591/dia. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
 - **Banca mais complicada do que venderam.**
 - **Sem poupança fiscal real em muitas residências.** PT: LLC atribuída, tributa igual ao trabalhador independente.
 

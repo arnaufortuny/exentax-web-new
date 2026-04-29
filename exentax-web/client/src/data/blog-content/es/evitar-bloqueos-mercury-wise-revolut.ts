@@ -2,7 +2,7 @@ export default `
 
 Mercury y Wise resuelven el 90 % de los bloqueos preventivos en menos de 30 días si el cliente responde al primer correo de KYC con la documentación correcta.
 
-El bloqueo de cuenta es la pesadilla de todo propietario de LLC. Un día entras a Mercury o Wise y ves: "Tu cuenta ha sido restringida." Sin previo aviso, sin explicación clara, y con tu dinero atrapado.
+El bloqueo de cuenta es la pesadilla de todo propietario de LLC. Un día entras a Mercury o Wise y ves: "Tu cuenta ha sido restringida." Sin previo aviso, sin explicación clara, y con tu dinero atrapado. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
 La buena noticia: la inmensa mayoría de bloqueos se pueden prevenir. La mala: si no conoces las reglas del juego, puedes caer en uno sin querer.
 
@@ -13,7 +13,7 @@ Los bancos y fintechs tienen obligaciones de **KYC** (Know Your Customer) y **AM
 ### Las razones más comunes de bloqueo:
 
 1. **Movimientos inconsistentes con tu perfil**: si declaraste que tu LLC factura $5K/mes y de repente recibes $50K, el sistema alerta
-2. **Transferencias a países de alto riesgo**: ciertos países están en listas de sanciones (OFAC)
+2. **Transferencias a países de alto riesgo**: ciertos países están en listas de sanciones (OFAC) En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 3. **Mezclar fondos personales y de negocio**: es una señal de alerta importante
 4. **No tener documentación en orden**: si te piden verificación adicional y no respondes a tiempo
 5. **Múltiples cuentas sospechosas**: abrir varias cuentas sin justificación
@@ -53,7 +53,7 @@ Los bancos y fintechs tienen obligaciones de **KYC** (Know Your Customer) y **AM
 5. **Ten un plan B**: por eso recomendamos tener al menos dos cuentas (Mercury + Wise como mínimo)
 ### La regla de oro: transparencia
 
-Los bloqueos casi siempre ocurren por falta de información, no por hacer algo malo. Si tu LLC opera de forma legítima, mantienes documentación ordenada y tu actividad es coherente con lo que declaraste al abrir la cuenta, las probabilidades de bloqueo son mínimas.
+Los bloqueos casi siempre ocurren por falta de información, no por hacer algo malo. Si tu LLC opera de forma legítima, mantienes documentación ordenada y tu actividad es coherente con lo que declaraste al abrir la cuenta, las probabilidades de bloqueo son mínimas. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 El problema surge cuando la gente intenta operar "bajo el radar", y ahí es donde las cosas se complican.
 ## Diversifica tus cuentas
@@ -141,15 +141,14 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
-
 <!-- exentax:defensa-fiscal-v1 -->
 ## ¿Y si la AEAT me pregunta por mi LLC?
 
-  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
   Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
-  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 
   ## Lo que NO hace una LLC
 

@@ -34,13 +34,13 @@ A wrong classification completely changes your filing obligations and your real 
 
 If you are a non-resident with a Single-Member LLC and there has been any transaction between you and the LLC (draws, contributions, payments), you are required to file **Form 5472 along with a pro-forma Form 1120**. Every year. Without meaningful exceptions for the typical profile.
 
-The base penalty for not filing or filing incomplete is **USD 25,000 per form per year**, and it stacks. It's not an abstract threat, the IRS does apply it.
+The base penalty for not filing or filing incomplete is **USD 25,000 per form per year**, and it stacks. It's not an abstract threat, the IRS does apply it. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 
 See our <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">complete Form 5472 guide</a> for the details. If you can't recall whether you filed it in recent years, you are not "off the radar", you are silently building up a liability.
 
 ### 3. Is your BOI Report up to date with FinCEN?
 
-The **Beneficial Ownership Information Report** is the filing to FinCEN identifying who really owns your LLC. It has been mandatory since the CTA took effect for the vast majority of LLCs, and the penalty regime is aggressive: up to **USD 591 per day of delay** plus criminal sanctions in serious cases.
+The **Beneficial Ownership Information Report** is the filing to FinCEN identifying who really owns your LLC. It has been mandatory since the CTA took effect for the vast majority of LLCs, and the penalty regime is aggressive: up to **USD 591 per day of delay** plus criminal sanctions in serious cases. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 Ask yourself:
 - Did you file the initial BOI when the LLC was formed?
@@ -62,7 +62,7 @@ If your LLC was dissolved and you keep invoicing with its EIN, every invoice can
 
 ### 5. Do you keep personal money and LLC money separate?
 
-This is **the most common and most expensive mistake**. If you use the LLC account for personal expenses, or you collect LLC invoices into your personal account, you are breaking the **corporate veil**. The consequence: your LLC stops protecting your personal assets and, in an audit, the LLC and you are treated as the same thing.
+This is **the most common and most expensive mistake**. If you use the LLC account for personal expenses, or you collect LLC invoices into your personal account, you are breaking the **corporate veil**. The consequence: your LLC stops protecting your personal assets and, in an audit, the LLC and you are treated as the same thing. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 We cover this in depth in our piece on <a href="/en/blog/separating-personal-and-llc-finances-why-it-matters">separating personal and LLC finances</a>.
 
@@ -81,7 +81,7 @@ Ask yourself:
 - Have you filed any required foreign-asset / foreign-account reports (Modelo 720/721 in Spain, equivalents elsewhere)?
 - Does your local accountant actually understand how a US LLC works?
 
-If your accountant told you "don't declare anything because it's taxed in the US", get a second opinion. Today. This is where most penalties stack up, and they are perfectly avoidable with proper planning.
+If your accountant told you "don't declare anything because it's taxed in the US", get a second opinion. Today. This is where most penalties stack up, and they are perfectly avoidable with proper planning. We close it with you from Exentax: one call, the filing goes out, the archive is set, and the risk stays on paper.
 
 ### 7. Are your banking, brokers and exchanges aligned with CRS and DAC?
 
@@ -114,7 +114,7 @@ If three or more of those apply, you are not "flying under the radar", you are b
 | Not filing Form 5472 for years | USD 25,000 penalty per form, stacks over years |
 | BOI Report not updated | Up to USD 591/day in penalties |
 | Personal and LLC accounts mixed | Breaks asset separation; LLC protection is lost |
-| Not declaring LLC income in country of residence | When CRS/DAC matches surface, it triggers regularisation + penalties + interest |
+| Not declaring LLC income in country of residence | When CRS/DAC matches surface, it triggers regularisation + penalties + interest |. At Exentax we have closed clients in exactly this spot at zero penalty. Speaking up early pays off — and saves you five figures.
 | Wise/Mercury/Brokers with wrong tax residence | CRS report goes to the wrong jurisdiction; automatic flag |
 | Operating with a dissolved LLC | Invoices can be challenged; contracts can be void |
 | Trusting "nothing is reported" claims | today that's no longer true. CRS, DAC7 and DAC8 are live |
@@ -162,7 +162,7 @@ At Exentax we structure the entity to fit the first scenario and document every 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 - **Spain–US treaty.** BOE of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -215,7 +215,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected. And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 ### Practical reminder
 
 Each tax situation depends on your specific residency, the activity carried out and the contracts in force. The information here is general and does not replace personalised advice; check your particular case before taking structural decisions.

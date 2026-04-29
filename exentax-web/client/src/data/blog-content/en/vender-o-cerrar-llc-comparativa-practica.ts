@@ -81,14 +81,13 @@ Regardless of path:
 
 At Exentax we accompany all three paths. Before proposing one, we validate with the client what is really there to liquidate or transfer, what real demand exists, and what the net result would be in each scenario.
 
-
 If you are evaluating exiting your LLC and not sure which path, book a free initial session through our booking page. We help you choose and execute.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). And if a notice does land, at Exentax we keep the dossier ready so you reply in hours, not weeks.
 - **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -125,7 +124,7 @@ Choosing between **selling** and **closing** an LLC has different tax and operat
 
 ### Frequently asked questions
 
-**Can an inactive SMLLC just be "let go"?** No. Without Annual Report and Registered Agent it ends *Forfeited*, but the IRS obligations (5472 if there were movements) remain alive and trigger cascading penalties.
+**Can an inactive SMLLC just be "let go"?** No. Without Annual Report and Registered Agent it ends *Forfeited*, but the IRS obligations (5472 if there were movements) remain alive and trigger cascading penalties. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 
 **How do you value an LLC for sale?** In digital businesses, typical multiples are **2-4× annual SDE** or **3-5× EBITDA** depending on niche. The transfer requires reassigning accounts (Mercury re-runs KYC) and gateways (Stripe review).
 
@@ -240,8 +239,6 @@ moments in the LLC's life. A clean exit, of either kind, is
 permanent value for the member.
 
 <!-- /exentax:lote7-native-v1:vender-o-cerrar-llc-comparativa-practica -->
-
-
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

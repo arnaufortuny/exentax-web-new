@@ -43,7 +43,7 @@ La part que menys s'explica. Els costos anuals típics per a una Free Zone Compa
 - **Oficina o flexi-desk obligatòria**: 5.000-25.000 AED/any.
 - **Visat familiar (cònjuge i fills)**: 4.000-7.000 AED per persona.
 - **Renovació anual de visat** (cada 2-3 anys): cost similar.
-- **Auditoria obligatòria** en moltes Free Zones des del juny de 2023: 1.500-5.000 USD/any.
+- **Auditoria obligatòria** en moltes Free Zones des del juny de 2023: 1.500-5.000 USD/any. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 - **Corporate Tax registration i declaració**: gestió anual 500-2.000 USD.
 - **Comptabilitat**: 2.000-5.000 USD/any si externalitzes.
 
@@ -109,7 +109,7 @@ EAU no té sentit quan:
 EAU sí que compensa. Residència real amb visa d'inversor, FZCO operativa, banc emiratí accessible i càrrega personal de zero. La inversió inicial alta s'amortitza el primer any.
 
 **Cas 2: empresari europeu que vol "comprar" residència sense mudar-se de veritat.**
-EAU és mala elecció. Sense presència mínima de 90 dies/any i vincles trencats a l'origen, la teva Hisenda local no reconeix la residència EAU. Risc alt d'inspecció i reclassificació.
+EAU és mala elecció. Sense presència mínima de 90 dies/any i vincles trencats a l'origen, la teva Hisenda local no reconeix la residència EAU. Risc alt d'inspecció i reclassificació. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 
 **Cas 3: professional que vol accés a l'Orient Mitjà i Àfrica.**
 EAU és excel·lent plataforma. Connectivitat aèria, reputació regional, banca multidivisa i règim comercial obert. Encara que la fiscalitat sigui només raonable (no zero), l'accés a mercat compensa.

@@ -65,7 +65,6 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
-
 ### Notes par fournisseur
 
 - **Mercury** opère avec plusieurs banques partenaires sous charte fédérale et couverture **FDIC** via sweep network: principalement **Choice Financial Group** et **Evolve Bank & Trust**, et encore **Column N.A.** sur certains comptes hérités. Mercury n'est pas une banque; c'est une plateforme fintech adossée à ces partner banks. Si Mercury ferme un compte, le solde est généralement renvoyé **par chèque papier à l'adresse enregistrée du titulaire**, ce qui peut être un vrai problème opérationnel pour un non-résident; gardez un compte secondaire (Relay, Wise Business, etc.) comme contingence.
@@ -207,7 +206,6 @@ Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#cal
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:cross-refs-v1 -->
 ### Sur le même sujet

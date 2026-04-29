@@ -57,7 +57,7 @@ The legal regime is in Spain's <a href="https://www.boe.es/buscar/act.php?id=BOE
 |---|---:|
 | Complete tax advisory | 2,400-4,800€ |
 | Annual accounts deposited Mercantile Registry | 100-200€ |
-| Audit (if applies LSC art. 263 limits) | 1,500-4,000€ |
+| Audit (if applies LSC art. 263 limits) | 1,500-4,000€ |. Relax: at Exentax this is what we do every week, we close it before the letter ever lands in your inbox.
 | Official legalised books | 50€ |
 | Form 200 IS + withholdings | included in advisory |
 | Self-employed administrator quota | 4,200-7,200€ |
@@ -105,7 +105,6 @@ What we see every week in the files that reach us is the same pattern: the quest
 
 If you want to move from doubt to plan, book 30 minutes with Exentax and we walk out of the call with the numbers closed and an operational calendar.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

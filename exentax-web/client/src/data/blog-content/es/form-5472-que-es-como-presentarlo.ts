@@ -79,7 +79,7 @@ El IRS se toma este formulario muy en serio. Las sanciones por no presentar o pr
 
 - **$25,000 de sanción base** por cada formulario no presentado o incompleto
 - **$25,000 adicionales** por cada periodo de 30 días de incumplimiento después de ser notificado por el IRS (hasta un máximo de $25,000 por mes)
-- No hay un techo máximo definido, las sanciones pueden acumularse considerablemente
+- No hay un techo máximo definido, las sanciones pueden acumularse considerablemente. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 Estas cifras suenan alarmantes, pero la realidad es más matizada. Si presentas tu Form 5472 en plazo (o dentro de la extensión) y con información correcta, no hay sanción alguna. Las sanciones aplican a quienes ignoran la obligación o la presentan con errores graves.
 
@@ -105,7 +105,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 ### Por jurisdicción
 
 - **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
-- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
+- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 - **CDI España–EE. UU.** El convenio (BOE 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
 
@@ -141,7 +141,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>.
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 ## Hablemos de tu estructura
 
@@ -160,7 +160,7 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 
 El Form 5472 sigue siendo la obligación más cara de pasar por alto para una SMLLC de no residente:
 
-- **Sanción base 25.000 USD por formulario y año** (IRC §6038A) más **25.000 USD por cada 30 días adicionales** sin presentar tras notificación del IRS. No prescribe mientras la obligación esté abierta.
+- **Sanción base 25.000 USD por formulario y año** (IRC §6038A) más **25.000 USD por cada 30 días adicionales** sin presentar tras notificación del IRS. No prescribe mientras la obligación esté abierta. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 - **Procedimiento exacto.** Form 1120 *pro forma* (cabecera: nombre, dirección, EIN, ejercicio fiscal) con el Form 5472 anexado. Envío por **correo certificado o fax al IRS Service Center de Ogden, Utah**, **no por MeF/e-file**. Mantén el comprobante de envío como prueba de presentación.
 - **Plazos hoy.** Ejercicio 2025 → vencimiento **15 de abril actualmente**. Extensión vía **Form 7004** → **15 de octubre actualmente**. La extensión se presenta también por correo o fax y debe llegar antes del 15 de abril.
 
@@ -168,7 +168,7 @@ El Form 5472 sigue siendo la obligación más cara de pasar por alto para una SM
 
 **¿Qué cuenta como *reportable transaction*?** Cualquier movimiento entre la LLC y su único *member* no residente: aportaciones de capital, retiros, préstamos, pagos por servicios. Si hubo movimiento, hay que presentar.
 
-**¿Y si llevo años sin presentar?** Procedimiento de regularización con presentaciones atrasadas y declaración escrita de *reasonable cause*. Conviene asesoría: una carta bien construida puede evitar la sanción inicial.
+**¿Y si llevo años sin presentar?** Procedimiento de regularización con presentaciones atrasadas y declaración escrita de *reasonable cause*. Conviene asesoría: una carta bien construida puede evitar la sanción inicial. En Exentax hemos cerrado a sanción cero clientes que llegaron justo así. Hablar pronto vale oro y te ahorra cinco cifras.
 
 **¿La extensión 7004 cubre el 5472?** Sí. Si presentas el 7004 antes del 15 de abril, el plazo del 5472 + 1120 pro forma se extiende automáticamente al 15 de octubre.
 

@@ -29,7 +29,6 @@ Si votre activité est 100% numérique, internationale et avec clientèle majori
 
 La réglementation détaillée est dans le règlement IRPF (RD 439/2007) et dans l'arrêté annuel des modules publié chaque novembre au <a href="https://www.boe.es/">BOE</a>. Pour vérifier votre épigraphe IAE, consultez le <a href="https://sede.agenciatributaria.gob.es/">portail du fisc</a> avant de décider.
 
-
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.
 
 <!-- exentax:execution-v2 -->
@@ -49,7 +48,6 @@ Ce que nous voyons chaque semaine dans les dossiers qui nous arrivent, c'est tou
 
 Si vous voulez passer du doute au plan, réservez 30 minutes avec Exentax et nous sortons de l'appel avec les chiffres verrouillés et un calendrier opérationnel.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## Et si l'administration fiscale me pose des questions sur ma LLC?
@@ -99,7 +97,6 @@ Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#cal
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
-
 
 <!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
 ### Un tableau de décision côte à côte que nous partageons avec les autónomos

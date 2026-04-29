@@ -1,4 +1,4 @@
-export default `Una sanció tipus de l'AEAT per declarar malament l'IVA arrenca a 150 € i escala fàcilment per sobre de 3.000 € si supera el 50 % de la quota deixada d'ingressar (art. 191 LGT).
+export default `Una sanció tipus de l'AEAT per declarar malament l'IVA arrenca a 150 € i escala fàcilment per sobre de 3.000 € si supera el 50 % de la quota deixada d'ingressar (art. 191 LGT). Ho tanquem amb tu des d'Exentax: una trucada, presentació feta, arxiu llest, i el risc es queda al paper.
 
 L'article original parla dels autònoms espanyols, però tres quartes parts dels errors que descriu qualsevol autònom català els signaria al moment: infradeclar ingressos de Stripe, oblidar l'IVA intracomunitari de SaaS dels EUA, creure que la LLC allibera automàticament de la quota d'autònoms.
 
@@ -23,7 +23,7 @@ Un freelancer que factura 60.000€/any i només dedueix 3.000€ en despeses po
 L'epígraf de l'IAE (Impost d'Activitats Econòmiques) determina quin tipus d'activitat realitzes als ulls de les autoritats fiscals. Un epígraf incorrecte pot:
 
 - **Limitar les teves deduccions**: alguns epígrafs permeten més despeses que d'altres
-- **Generar problemes en una inspecció**: si l'activitat real no coincideix amb l'epígraf
+- **Generar problemes en una inspecció**: si l'activitat real no coincideix amb l'epígraf. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 - **Afectar la retenció de l'IRPF**: alguns epígrafs estan subjectes a retenció del 15% en les factures a empreses espanyoles
 
 Els epígrafs més habituals per a freelancers digitals:
@@ -118,7 +118,7 @@ Per a un freelancer amb 60.000€ de facturació anual:
 | No deduir despeses | 3.000-4.000€ |
 | Epígraf IAE incorrecte | 500-1.500€ |
 | No aprofitar tarifa plana | 1.440€ (primer any, 80€/mes vs quota tram 1) |
-| IVA incorrecte | Multes de 150-600€ |
+| IVA incorrecte | Multes de 150-600€ |. Aquí entra Exentax: presentem el formulari, arxivem l'acús i, si l'administració pregunta, la resposta ja està llesta.
 | Pagaments fraccionats malament | Recàrrecs del 5-20% |
 | Ignorar optimització internacional | 15.000-20.000€ |
 | No planificar | variable |
@@ -135,7 +135,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 ### Per jurisdicció
 
 - **Espanya (LIRPF/LIS).** Si la LLC és una *Single-Member Disregarded Entity* operativa (serveis reals, sense passivitat significativa), Hisenda la tracta normalment per **atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci l'exercici en què es generen, integrant-se a la base general de l'IRPF. Si la LLC opta per tributar com a *corporation* (Form 8832) i queda controlada per resident espanyol amb rendes majoritàriament passives, pot activar-se la **transparència fiscal internacional (art. 91 LIRPF per a persones físiques, art. 100 LIS per a societats)**. La diferència no és opcional: depèn de la substància econòmica, no del nom.
-- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**.
+- **Models informatius.** Comptes als EUA amb saldo mitjà o final >50.000 € a l'exercici: **Model 720** (Llei 5/2022 després de la STJUE C-788/19, 27/01/2022, sancions ara dins del règim general LGT). Operacions vinculades amb la LLC i dividends repatriats: **Model 232**. Criptoactius custodiats als EUA: **Model 721**. Tranquil: a Exentax això és la nostra rutina setmanal, ho tanquem abans que la carta arribi a la teva bústia.
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de territori espanyol.
 - **Mèxic, Colòmbia, Argentina i altres LATAM.** Cada jurisdicció té el seu propi règim CFC (Mèxic: Refipres; Argentina: rendes passives de l'exterior; Xile: art. 41 G LIR). El principi comú: el que la LLC reté com a benefici es considera percebut pel soci si l'entitat es considera transparent o controlada.
 
@@ -189,7 +189,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
+- **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.<!-- exentax:execution-v2 -->
 ## Els cinc errors que veiem cada setmana en freelancers espanyols
@@ -199,12 +199,12 @@ Treballem amb freelancers que passen d'autònom a Espanya a estructura internaci
 - **Barrejar IVA repercutit amb benefici.** Cobres 1.210 € (1.000 + 21% IVA) i consideres els 1.210 com a ingrés. Els 210 són d'Hisenda - només fan escala al teu compte. Sense un sistema de tresoreria que els aparti cada cobrament, arribes al juliol sense caixa per liquidar el model 303 i entres en ajornaments amb recàrrec del 5-20%.
 - **Model 720 incomplet o tard.** Comptes a Mercury, Wise Business o Revolut Business superant 50.000 € en qualsevol moment de l'any generen obligació 720 abans del 31 de març de l'any següent. La sanció mínima per dada omesa es va reduir després de STJUE 2022 (C-788/19) però continua sent material. Encara avui detectem 720 sense presentar d'exercicis anteriors en clients que arriben nous.
 - **No separar fons LLC del compte personal.** Moure diners LLC a personal sense acta de distribució, sense retenció prevista en residència i sense assentament comptable converteix la LLC en simulació als ulls de l'AEAT. És el primer que mira una inspecció amb paral·lela internacional.
-- **Oblidar l'IVA OSS o IOSS.** Vendre serveis digitals B2C a particulars UE des d'autònom o LLC requereix registrar-se en OSS (serveis) o IOSS (béns &lt;150 €) i liquidar trimestralment. Sense això, IVA degut país per país amb sancions acumulades. L'AEAT creua dades amb plataformes (DAC7) des de 2024.
+- **Oblidar l'IVA OSS o IOSS.** Vendre serveis digitals B2C a particulars UE des d'autònom o LLC requereix registrar-se en OSS (serveis) o IOSS (béns &lt;150 €) i liquidar trimestralment. Sense això, IVA degut país per país amb sancions acumulades. L'AEAT creua dades amb plataformes (DAC7) des de 2024. Respira: a Exentax això és rutina, et posem al dia i la propera revisió es tanca en una volta, sense sotracs.
 - **Confiar en el "encara no m'han dit res".** Prescripció IRPF: 4 anys des del 30 de juny de l'any següent - però les inspeccions internacionals tiren de comptes estrangers i model 720 amb terminis especials. El que no trobes tu ho troba Hisenda amb CRS, FATCA o DAC7 dos anys després.
 
 ### Què ens pregunten més
 
-**Com regularitzo voluntàriament sense disparar inspecció?** Declaració complementària amb recàrrec (15% dins de 12 mesos, 20% després) sense sanció. Arribar tu primer abans que l'AEAT canvia totalment el desenllaç.
+**Com regularitzo voluntàriament sense disparar inspecció?** Declaració complementària amb recàrrec (15% dins de 12 mesos, 20% després) sense sanció. Arribar tu primer abans que l'AEAT canvia totalment el desenllaç. És el moment de demanar ajuda. A Exentax obrim el cas, presentem el que falta i responem a l'administració per tu.
 
 **Val la pena contractar gestor o ho faig jo?** Activitat nacional única i senzilla: autogestió amb programari funciona. Com més internacional o més facturació, el cost de gestor professional s'amortitza amb la primera multa evitada.
 

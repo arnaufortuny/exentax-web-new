@@ -1,18 +1,18 @@
-export default `Il existe une déclaration dans la vie fiscale d'une LLC unipersonnelle à associé étranger qui sépare nettement ceux qui la gèrent bien de ceux qui marchent vers un problème à cinq chiffres: le **Form 5472**. Ce n'est pas un impôt. C'est une déclaration informative. Et précisément parce qu'elle est "seulement informative", beaucoup l'ignorent, la déposent en retard, la déposent avec des données cassées ou ne savent même pas qu'elle existe. L'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> pardonne rarement cet oubli: la sanction de base est de **25 000 USD par formulaire non déposé, par année**, et elle se cumule.
+export default `Il existe une déclaration dans la vie fiscale d'une LLC unipersonnelle à associé étranger qui sépare nettement ceux qui la gèrent bien de ceux qui marchent vers un problème à cinq chiffres: le **Form 5472**. Ce n'est pas un impôt. C'est une déclaration informative. Et précisément parce qu'elle est "seulement informative", beaucoup l'ignorent, la déposent en retard, la déposent avec des données cassées ou ne savent même pas qu'elle existe. L'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> pardonne rarement cet oubli: la sanction de base est de **25 000 USD par formulaire non déposé, par année**, et elle se cumule. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 
 Cet article n'est pas le guide pas-à-pas du dépôt (vous avez déjà notre <a href="/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment">guide complet du Form 5472</a> et l'analyse sur <a href="/fr/blog/irs-1120-et-5472-ce-que-cest-vraiment-et-quand-ca-sapplique">quand le 1120 et le 5472 s'appliquent réellement</a>). C'est ce qui se passe **quand vous ne l'avez pas déposé**, et comment en sortir sans détruire la LLC ni votre situation personnelle.
 
 ## Ce que l'IRS sanctionne exactement
 
-La règle vit dans la **section 6038A(d) de l'Internal Revenue Code**, renforcée en 2017 par le Tax Cuts and Jobs Act. La base actuelle est de **25 000 USD par formulaire non déposé, déposé en retard ou substantiellement incomplet**. Jusqu'en 2018 la sanction était de 10 000 USD; depuis, elle est fixée à 25 000 USD et, sauf changement législatif, c'est le chiffre auquel vous vous heurterez.
+La règle vit dans la **section 6038A(d) de l'Internal Revenue Code**, renforcée en 2017 par le Tax Cuts and Jobs Act. La base actuelle est de **25 000 USD par formulaire non déposé, déposé en retard ou substantiellement incomplet**. Jusqu'en 2018 la sanction était de 10 000 USD; depuis, elle est fixée à 25 000 USD et, sauf changement législatif, c'est le chiffre auquel vous vous heurterez. C'est le moment de demander de l'aide. Chez Exentax on ouvre le dossier, on dépose ce qui manque et on répond à l'administration pour toi.
 
 À cette base s'ajoutent trois éléments que la plupart ne voient pas venir:
 
 1. **Sanction de persistance.** Si l'IRS vous notifie formellement le défaut et que vous ne régularisez pas dans les **90 jours**, **25 000 USD supplémentaires** s'appliquent **tous les 30 jours** (ou fraction) supplémentaires. Pas de plafond publié: on a vu des dossiers réels à six chiffres.
 2. **Une sanction par année, pas une seule.** Trois années non déposées = trois formulaires. Trois × 25 000 = **75 000 USD** avant intérêts.
-3. **Cascade avec le Form 1120.** Votre LLC unipersonnelle à associé étranger doit déposer **Form 1120 pro forma + Form 5472 ensemble**. Si vous avez raté le 5472, vous avez presque toujours raté le 1120, ce qui ajoute une exposition additionnelle pour late filing du 1120 sous §6651, bien que la sanction monétaire du §6651 se calcule sur l'impôt dû, donc sur une LLC pro forma sans tax due le montant est généralement nul ou résiduel; le risque principal reste le 5472.
+3. **Cascade avec le Form 1120.** Votre LLC unipersonnelle à associé étranger doit déposer **Form 1120 pro forma + Form 5472 ensemble**. Si vous avez raté le 5472, vous avez presque toujours raté le 1120, ce qui ajoute une exposition additionnelle pour late filing du 1120 sous §6651, bien que la sanction monétaire du §6651 se calcule sur l'impôt dû, donc sur une LLC pro forma sans tax due le montant est généralement nul ou résiduel; le risque principal reste le 5472. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 
-Ajoutez les **intérêts sur les sanctions** depuis la date d'exigibilité, calculés par l'IRS au federal short-term rate + 3 points, mis à jour chaque trimestre.
+Ajoutez les **intérêts sur les sanctions** depuis la date d'exigibilité, calculés par l'IRS au federal short-term rate + 3 points, mis à jour chaque trimestre. C'est là qu'Exentax intervient : on dépose le formulaire, on archive l'accusé et, si l'administration demande, ta réponse est déjà sur le bureau.
 ## Comment l'IRS le sait
 
 La question presque universelle en premier rendez-vous: *"comment l'IRS peut-il savoir que j'existe si je n'ai jamais rien déposé?"*. Réponse courte: **il le sait, et c'est plus facile chaque année**. Les cinq canaux concrets actuellement:
@@ -38,7 +38,7 @@ Vous vous êtes rendu compte, vous avez déposé en retard, mais **avant que l'I
 
 ### Profil C: déposé mais mal
 
-Vous avez déposé le 1120 et le 5472 mais avec des données substantiellement incomplètes: une **reportable transaction** manquante, un mauvais TIN sur le foreign related party, un prêt associé-LLC non déclaré, un capital contribution oublié. La règle 6038A(d) est stricte: une **déclaration substantiellement incomplète équivaut à pas de déclaration**, même sanction. Bonne nouvelle: la correction amiable avec explication écrite se résout en général mieux que les deux précédentes.
+Vous avez déposé le 1120 et le 5472 mais avec des données substantiellement incomplètes: une **reportable transaction** manquante, un mauvais TIN sur le foreign related party, un prêt associé-LLC non déclaré, un capital contribution oublié. La règle 6038A(d) est stricte: une **déclaration substantiellement incomplète équivaut à pas de déclaration**, même sanction. Bonne nouvelle: la correction amiable avec explication écrite se résout en général mieux que les deux précédentes. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 ### Ce qu'est vraiment une "reportable transaction"
 
 C'est la cause numéro un de 5472 techniquement mal déposés. Une **reportable transaction** est tout mouvement monétaire ou non monétaire entre la LLC et son foreign related party (vous, dans la plupart des cas), y compris des choses qu'on n'associe pas à "transaction":
@@ -58,7 +58,7 @@ Il faut cartographier ce qui se passe quand la machine s'active, parce que chaqu
 
 1. **CP15 / CP215 (notice of penalty).** Notification de la sanction initiale de 25 000 USD par formulaire.
 2. **Délai de réponse (~30 jours).** Vous décidez de payer, demander un abatement pour reasonable cause, contester le calcul ou escalader à l'Office of Appeals.
-3. **Examen élargi.** Si la réponse ne convainc pas, l'IRS ouvre généralement un examen sur années additionnelles. D'une sanction on passe à trois.
+3. **Examen élargi.** Si la réponse ne convainc pas, l'IRS ouvre généralement un examen sur années additionnelles. D'une sanction on passe à trois. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 4. **90 jours après notification formelle.** Si le formulaire n'est pas déposé et la situation non résolue, l'horloge des **25 000 USD par 30 jours additionnels** démarre.
 5. **Liquidation finale + intérêts.** Une fois fixée, intérêts jusqu'au paiement.
 
@@ -86,7 +86,7 @@ Beaucoup confondent les **Streamlined Filing Compliance Procedures** (programme 
 
 - **Delinquent international information return submission.** Procédure standard pour déposer en retard avec reasonable cause. Voie habituelle des Profils A et B.
 - **Voluntary Disclosure Practice.** Seulement en cas de **conduite délibérée** ou risque pénal. Pas la norme pour une LLC unipersonnelle.
-- **Quiet disclosure.** Déposer en retard sans explication. Techniquement possible, pratiquement déconseillé: l'IRS le traite comme du late filing pur et applique la sanction.
+- **Quiet disclosure.** Déposer en retard sans explication. Techniquement possible, pratiquement déconseillé: l'IRS le traite comme du late filing pur et applique la sanction. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 
 La différence entre la bonne route et l'aveuglement: littéralement des dizaines de milliers de dollars.
 ## Le plan de régularisation pas à pas
@@ -97,7 +97,7 @@ Quand un client arrive avec un 5472 raté, l'ordre de travail est toujours le m�
 2. **Reconstruction des reportable transactions** année par année, y compris apports, prêts et distributions.
 3. **Préparation du paquet**: 1120 pro forma de chaque année en attente + 5472 de chaque année en attente + reasonable cause statement détaillé.
 4. **Envoi par courrier recommandé** (ces paquets ne se font pas en e-file; adresse opérationnelle: Service Center d'Ogden).
-5. **Plan de réponse anticipé** pour la sanction initiale: brouillon de réponse et délais préparés avant même que l'avis n'arrive.
+5. **Plan de réponse anticipé** pour la sanction initiale: brouillon de réponse et délais préparés avant même que l'avis n'arrive. On reste calme : chez Exentax, c'est notre routine de la semaine, on boucle ça avant que la lettre n'arrive dans ta boîte.
 6. **Nettoyage des adjacents**: <a href="/fr/blog/boi-report-2026-guide-complet-pour-le-depot-fincen">BOI</a>, situation bancaire, déclarations dans votre pays et surtout <a href="/fr/blog/jai-une-llc-est-ce-que-je-la-gere-correctement-checklist">la checklist annuelle</a> pour que ça ne recommence pas.
 
 Fait dans cet ordre, dans de nombreux cas le résultat réaliste est **sanction nulle ou résiduelle**, mais cela dépend des faits, de la documentation et de la réponse de l'agent IRS. Mal fait: cinq chiffres et examen élargi.
@@ -111,7 +111,7 @@ Pour finir sur le concret, ce sont les erreurs que chez Exentax on voit se rép�
 - Déposer seulement les dernières années "pour rester discret". Si l'obligation existait avant, la sanction est vivante.
 - Fermer la LLC en pensant effacer l'obligation. **Elle ne s'efface pas**: la sanction survit à la dissolution jusqu'à prescription.
 - Changer de Registered Agent ou d'adresse sans actualiser l'IRS. Les avis se perdent et les délais courent.
-- Croire que votre pays de résidence vous protège. La sanction est de l'IRS contre la LLC; aucune convention bilatérale ne l'efface.
+- Croire que votre pays de résidence vous protège. La sanction est de l'IRS contre la LLC; aucune convention bilatérale ne l'efface. Respire : chez Exentax c'est de la routine, on te remet à jour et le prochain contrôle se clôt en un tour, sans drame.
 
 ---
 ### Conclusion et étape suivante
@@ -136,7 +136,7 @@ Si vous avez une LLC et pensez être dans un des trois profils, jamais déposé,
 Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto). Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 - **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
 - **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
@@ -164,7 +164,7 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
-- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
+- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS. C'est exactement pour cela que chez Exentax on garde ton calendrier carré — tu ne penses plus aux échéances, on les clôt avant qu'elles ne mordent.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.<!-- exentax:execution-v2 -->
 ## Que se passe-t-il si vous NE déposez PAS le 5472: comment fonctionne la pénalité IRS et comment régulariser
@@ -173,7 +173,7 @@ Le 5472 est l'obligation la plus chère qu'un propriétaire de LLC non-résident
 
 - **Sanction exacte et application.** 25 000$ par 5472 non déposé, incomplet ou tardif (IRC §6038A(d)). Si 90 jours après avis IRS vous ne déposez toujours pas, 25 000$ supplémentaires par période de 30 jours, sans plafond explicite. La pénalité NE dépend PAS du revenu de la LLC.
 - **Comment l'IRS s'en aperçoit.** Trois voies: échange CRS/FATCA avec votre pays de résidence, croisement avec banque US, audit aléatoire. Probabilité non nulle et croissante.
-- **Comment régulariser avant ouverture de dossier.** Dépôt tardif volontaire du 5472 + 1120 + lettre de « reasonable cause ». Programme First-Time Penalty Abatement peut éliminer totalement la pénalité.
+- **Comment régulariser avant ouverture de dossier.** Dépôt tardif volontaire du 5472 + 1120 + lettre de « reasonable cause ». Programme First-Time Penalty Abatement peut éliminer totalement la pénalité. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que tu répondes en heures, pas en semaines.
 - **Comment régulariser après avis IRS.** 30 jours pour répondre: dépôt immédiat, paiement sous protêt, demande formelle d'abatement. Délai 4-6 mois. Succès first-time + reasonable cause: 60-80%.
 
 ### Ce qu'on nous demande le plus
@@ -192,11 +192,10 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
-
 <!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-fr -->
 ## Pourquoi la pénalité du Form 5472 escalade plus vite que d'autres dépôts tardifs
 
-La pénalité du Form 5472 a une structure qui escalade plus vite que la plupart des autres dépôts tardifs, et la raison tient au rôle de ce formulaire dans le régime américain plus large d'information. Le formulaire est conçu pour donner à l'IRS une vision propre des transactions entre parties liées impliquant des détenteurs étrangers, et le régime de pénalités reflète à quel point cette visibilité est centrale pour le système, plutôt que la complexité même du formulaire. Le montant de départ est fixé par formulaire et par année et s'applique que de l'impôt soit dû ou non, et il peut s'aggraver lorsque les rappels ne sont pas traités dans les fenêtres légales.
+La pénalité du Form 5472 a une structure qui escalade plus vite que la plupart des autres dépôts tardifs, et la raison tient au rôle de ce formulaire dans le régime américain plus large d'information. Le formulaire est conçu pour donner à l'IRS une vision propre des transactions entre parties liées impliquant des détenteurs étrangers, et le régime de pénalités reflète à quel point cette visibilité est centrale pour le système, plutôt que la complexité même du formulaire. Le montant de départ est fixé par formulaire et par année et s'applique que de l'impôt soit dû ou non, et il peut s'aggraver lorsque les rappels ne sont pas traités dans les fenêtres légales. Chez Exentax on a clôturé sans pénalité des clients arrivés exactement dans cette situation. Parler tôt, ça paie — et ça t'épargne cinq chiffres.
 
 Deux points pratiques réduisent l'essentiel de la friction. D'abord, des critères d'abatement existent lorsqu'il y a une cause raisonnable, et une narration calmement rédigée appuyée par les rappels d'agenda d'origine, la lettre d'engagement et la date de premier dépôt pèse en général davantage qu'une lettre plus longue rédigée sous pression plus tard. Ensuite, la mesure préventive la plus nette consiste à aligner le calendrier des rappels avec le cycle fédéral d'extension et à conserver un seul fichier de travail par année qui contient déjà la liste des transactions entre parties liées, de sorte que le formulaire lui-même se réduise à une étape finale de mise en forme.
 <!-- /exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-fr -->

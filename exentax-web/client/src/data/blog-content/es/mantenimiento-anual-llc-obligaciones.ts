@@ -64,7 +64,7 @@ Tu <a href="/es/blog/registered-agent-que-es-por-que-necesitas">Registered Agent
 - El estado envía avisos legales que nadie recibe
 - Puedes perder el Good Standing sin enterarte
 - Si te demandan, no recibes la notificación y pueden obtener un fallo en tu contra (default judgment)
-- Multas y posible disolución administrativa
+- Multas y posible disolución administrativa. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 **Incluido en todos nuestros planes:** el Registered Agent se renueva automáticamente cada año. Cero riesgo de que expire.
 ### BOI Report (si hay cambios)
@@ -109,7 +109,7 @@ Vamos a ser directos: si ignoras el mantenimiento de tu LLC, las consecuencias s
 
 1. **Pérdida de Good Standing**: tu LLC aparece como "Not in Good Standing" en los registros del estado
 2. **Mercury puede congelar tu cuenta**: las entidades financieras verifican periódicamente el estatus de la LLC
-3. **Sanciones del IRS** por no presentar el Form 5472
+3. **Sanciones del IRS** por no presentar el Form 5472. Lo cerramos contigo desde Exentax: una llamada, presentación y archivo, y el riesgo se queda en el papel.
 4. **Disolución administrativa**: el estado puede disolver tu LLC si no cumples durante un periodo prolongado
 5. **Pérdida de protección patrimonial**: si tu LLC no está activa, tu patrimonio personal queda expuesto
 
@@ -159,7 +159,7 @@ Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculador
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Respira: en Exentax esto es rutina, te ponemos al día y la próxima revisión se cierra en una sola vuelta.
 
 ## Hablemos de tu estructura
 
@@ -177,11 +177,11 @@ El mantenimiento ordenado de una LLC actualmente cabe en seis hitos por año.
 
 - **Enero-marzo.** Cierre contable del ejercicio anterior, conciliación de Mercury/Wise, recopilación de comprobantes 5472. Si emitiste 1042-S a contratistas extranjeros, plazo **15 de marzo actualmente**.
 - **Abril.** Vencimiento **15 de abril actualmente** del Form 5472 + 1120 pro forma del ejercicio 2025. Si no llegas, **Form 7004** antes de esa misma fecha y el plazo se mueve al **15 de octubre actualmente**.
-- **Resto del año.** Renovación del **Annual Report estatal** (Wyoming día previo al aniversario, Delaware **1 de junio**, NM no aplica), renovación del **Registered Agent** (~125 USD/año) y, si tu LLC es *foreign reporting company*, monitoreo BOI ante cualquier cambio (sanción 591 USD/día).
+- **Resto del año.** Renovación del **Annual Report estatal** (Wyoming día previo al aniversario, Delaware **1 de junio**, NM no aplica), renovación del **Registered Agent** (~125 USD/año) y, si tu LLC es *foreign reporting company*, monitoreo BOI ante cualquier cambio (sanción 591 USD/día). Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 ### Preguntas frecuentes hoy
 
-**¿Qué pasa si me salto el Annual Report?** El estado pasa la entidad a *Delinquent* y, tras 60-90 días, a *Forfeited*. Reactivación posible pero con multas y trámites añadidos. No vale la pena el descuido.
+**¿Qué pasa si me salto el Annual Report?** El estado pasa la entidad a *Delinquent* y, tras 60-90 días, a *Forfeited*. Reactivación posible pero con multas y trámites añadidos. No vale la pena el descuido. Y si te llega un requerimiento, en Exentax mantenemos el dossier preparado para que respondas en horas, no en semanas.
 
 **¿Necesito contabilidad formal?** Para presentar el 5472 sí, aunque sea libro caja simplificado. Mercury + hoja de cálculo basta hasta ~150 k USD/año; por encima conviene Quickbooks o Wave.
 

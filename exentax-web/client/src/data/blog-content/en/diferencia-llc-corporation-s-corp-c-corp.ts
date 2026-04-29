@@ -10,7 +10,7 @@ The **LLC (Limited Liability Company)** is a hybrid entity created by US state s
 
 For a non-resident alien (NRA) **without ETBUS** (Effectively Connected Trade or Business in the United States) and **without US-source FDAP income**, a disregarded LLC **does not generate a substantive Form 1040-NR liability** and **pays no US federal income tax**: the basic rule under **IRC §§871 and 882** taxes non-residents only on (a) US-source FDAP income at 30 % withholding (or treaty rate) and (b) income effectively connected with a US trade or business. Without those two elements, the LLC pays **0 % federal**. At state level, **Wyoming, New Mexico, Florida, Texas, South Dakota, Nevada and Washington** have no state corporate income tax, which adds **0 % state** when there is no nexus.
 
-The practical compliance burden that does remain: annual **Form 5472 + Form 1120 pro-forma** (Treas. Reg. §1.6038A-1, in force since 2017) for a single-member LLC owned by a non-resident with any *reportable transaction* with its sole member. Base penalty: **USD 25,000 per form per year** (IRC §6038A(d)) plus **USD 25,000 every 30 additional days** after IRS notification.
+The practical compliance burden that does remain: annual **Form 5472 + Form 1120 pro-forma** (Treas. Reg. §1.6038A-1, in force since 2017) for a single-member LLC owned by a non-resident with any *reportable transaction* with its sole member. Base penalty: **USD 25,000 per form per year** (IRC §6038A(d)) plus **USD 25,000 every 30 additional days** after IRS notification. Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 
 ## Corporation: by default a C-Corporation
 
@@ -120,7 +120,6 @@ What we see every week is the same pattern: doubt stays as scattered ideas, the 
 
 If you want to go from doubt to plan, book 30 minutes with Exentax and leave the call with the numbers closed and the operational calendar set.
 <!-- /exentax:execution-v2 -->
-
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?

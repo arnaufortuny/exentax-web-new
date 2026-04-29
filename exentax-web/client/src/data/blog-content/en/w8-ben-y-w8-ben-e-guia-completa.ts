@@ -80,7 +80,7 @@ Structure: a single page, three parts.
 
 **Part III, Certification:**
 
-Sign, date and print name. You're declaring under penalty of perjury that the data is true. Lying here gets you in serious trouble with two tax authorities at once.
+Sign, date and print name. You're declaring under penalty of perjury that the data is true. Lying here gets you in serious trouble with two tax authorities at once. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 ## How to fill a W-8BEN-E step by step (your LLC)
 
 It is longer (8 pages) but you only fill the parts that apply. For a **non-resident-owned Single-Member LLC**, typically:
@@ -114,7 +114,7 @@ It is longer (8 pages) but you only fill the parts that apply. For a **non-resid
 3. **Not signing.** Without a valid handwritten or digital signature, the payer treats the form as nonexistent.
 4. **Forgetting the Foreign TIN** when the payer requires it (Stripe, IBKR and similar).
 5. **Not marking Chapter 4 status.** Without it, banks must apply the 30% FATCA withholding.
-6. **Claiming a treaty rate you're not entitled to.** Declaring 0% where your real case is 15% can backfire under audit.
+6. **Claiming a treaty rate you're not entitled to.** Declaring 0% where your real case is 15% can backfire under audit. This is where Exentax steps in: we file the form, archive the receipt and, if the authority asks, your answer is already on the desk.
 7. **Not renewing after 3 years.** After 3 years the form expires; the payer starts withholding 30% until you update it.
 ### Validity and renewal
 
@@ -172,7 +172,7 @@ At Exentax we structure the entity to fit the first scenario and document every 
 This article relies on rules currently in force. Main sources for verification:
 
 - **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
-- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto). Breathe: at Exentax this is routine, we bring you up to date and the next review closes in one round, no drama.
 - **Spain–US treaty.** BOE of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
@@ -201,7 +201,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
-- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.<!-- exentax:execution-v2 -->
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.<!-- exentax:execution-v2 --> That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 ## W-8BEN and W-8BEN-E: the complete guide to not mix them up and not pay 30% by mistake
 
 The W-8 is the most important document in a non-resident's relation with any US payer (Stripe, Amazon, broker, corporate client). Without it, 30% default withholding applies. Properly completed, 0% or what the treaty of your residence indicates. Two versions are continuously confused, and the difference determines whether you operate well or throw money away.
@@ -275,7 +275,7 @@ agreement. The procurement team requests the W-8BEN-E with the LLC's
 EIN, the country of organisation (Wyoming or New Mexico for instance)
 and a treaty claim if the member is in a country with a US tax treaty.
 A clean form on file means the customer pays without backup
-withholding and the audit trail is complete on both sides.
+withholding and the audit trail is complete on both sides. That is exactly why at Exentax we keep your calendar tight — you stop thinking about deadlines and we close them before they ever bite.
 
 A US-based marketplace pays an LLC owned by a Spanish tax resident.
 The platform asks for a W-8BEN-E from the LLC and, on the dashboard,

@@ -16,7 +16,7 @@ En España, las ganancias por criptomonedas tributan como ganancias patrimoniale
 
 Esto aplica a cada operación que genere ganancia: venta de cripto por fiat, intercambio entre criptomonedas (swap), pago de bienes o servicios con cripto, y staking rewards.
 
-### El Modelo 721: declaración de criptoactivos en el extranjero Desde la última reforma, si tienes criptomonedas en exchanges fuera de España por valor superior a **50.000€ a 31 de diciembre**, debes presentar el Modelo 721 antes del 31 de marzo del año siguiente. La no presentación puede acarrear sanciones importantes.
+### El Modelo 721: declaración de criptoactivos en el extranjero Desde la última reforma, si tienes criptomonedas en exchanges fuera de España por valor superior a **50.000€ a 31 de diciembre**, debes presentar el Modelo 721 antes del 31 de marzo del año siguiente. La no presentación puede acarrear sanciones importantes. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 ## ¿Cómo ayuda una LLC al trading de criptomonedas?
 
 ### Ventajas de operar trading a través de una LLC
@@ -49,7 +49,7 @@ La LLC de un solo miembro no residente (Disregarded Entity) no paga impuesto fed
 2. **Ignorar los airdrops y staking rewards.** Tienen valor en el momento de recepción y tributan como renta.
 3. **No llevar registro de precios de adquisición.** Sin un historial de compras, no puedes calcular correctamente las ganancias/pérdidas. Consulta nuestra guía sobre <a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gastos deducibles en tu LLC</a> para saber qué puedes deducir como trader.
 4. **Creer que DeFi es "invisible" para las autoridades fiscales.** Las operaciones en blockchain son públicas y trazables. Las herramientas de análisis que usan las autoridades fiscales cada vez son más sofisticadas.
-5. **No presentar el Modelo 721.** Si tienes más de 50.000€ en crypto en exchanges extranjeros, la no declaración tiene sanciones.
+5. **No presentar el Modelo 721.** Si tienes más de 50.000€ en crypto en exchanges extranjeros, la no declaración tiene sanciones. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 ## Ventajas adicionales de la LLC para traders
 
 - **Acceso a cuentas bancarias en USD**: Mercury te permite recibir y enviar fondos sin comisiones de wire ($0 en wires internacionales y domésticos). Tus fondos están custodia en partner banks (Choice Financial Group / Evolve Bank & Trust; Column N.A. en cuentas heredadas) con seguro FDIC hasta $250K.
@@ -116,7 +116,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 - **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>.
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
-- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación. Por eso, en Exentax te llevamos el calendario al día: tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
 
 <!-- exentax:execution-v2 -->
 ## Cómo encajan crypto, LLC y residencia en una imputación defensible
