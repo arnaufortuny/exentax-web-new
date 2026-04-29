@@ -96,6 +96,14 @@ const STEPS = [
   // and `blog:validate-all` is already inside `check`. Same indirection
   // pattern as `seo-llm-readiness` and `blog-cluster-audit` above.
   { id: "conversion-strict", file: "scripts/audit/audit-conversion-112x6.mjs", node: "node", args: ["--strict"] },
+  // Task #38 — every article preview (excerpt) and meta description (incl.
+  // socialDescription / ogDescription) must lead with a digit in its first
+  // sentence, mirroring the body-lead numeric anchor enforced by
+  // `blog-numeric-hook-check.mjs` for Task #33. Wired here (not in
+  // package.json, which is off-limits to the agent) so any future article or
+  // copy edit that drops the numeric hook from a SERP/social snippet breaks
+  // `npm run check` before reaching production.
+  { id: "preview-numeric-hook", file: "scripts/blog/blog-preview-numeric-hook-check.mjs", node: "node" },
 ];
 
 const EXTRA_EXTERNAL = {
