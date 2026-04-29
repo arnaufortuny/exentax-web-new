@@ -1,4 +1,4 @@
-export default `Amazon US wickelte 2024 über 600 Milliarden US-Dollar Bruttoumsatz ab, und 100 % dieser Auszahlungen laufen über einen Dienstleister, der eine EIN und ein US-Bankkonto verlangt, bevor Sie auch nur einen Dollar sehen.
+export default `Amazon US wickelte zuletzt über 600 Milliarden US-Dollar Bruttoumsatz ab, und 100 % dieser Auszahlungen laufen über einen Dienstleister, der eine EIN und ein US-Bankkonto verlangt, bevor Sie auch nur einen Dollar sehen.
 
 Wer aus Deutschland, Österreich oder der Schweiz auf Amazon, Shopify oder Etsy verkaufen will, kennt das Spiel: gedeckelte Verkäuferkonten, USD-Einbehalte, Umsatzsteuer-OSS, Gewerbeanmeldung plus Einkommensteuer plus Solidaritätszuschlag. Eine US-LLC öffnet die Türen, die aus der DACH-Region zu bleiben pflegen.
 

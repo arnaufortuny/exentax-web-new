@@ -1,4 +1,4 @@
-export default `A Amazon US movimentou mais de 600 mil milhões de dólares em vendas brutas em 2024, e 100 % desses pagamentos passam por um operador que exige um EIN e uma conta bancária americana antes de te pagar.
+export default `A Amazon US movimentou mais de 600 mil milhões de dólares em vendas brutas no último exercício encerrado, e 100 % desses pagamentos passam por um operador que exige um EIN e uma conta bancária americana antes de te pagar.
 
 Vender na Amazon, Shopify ou Etsy a partir de Portugal ou do Brasil costuma ser um campo minado: contas de vendedor limitadas, retenções em dólares, IVA nas Finanças e <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> por cima. Com uma LLC americana, entras noutra liga, com conta em USD, Stripe sem fricção e uma marca com cara dos EUA.
 

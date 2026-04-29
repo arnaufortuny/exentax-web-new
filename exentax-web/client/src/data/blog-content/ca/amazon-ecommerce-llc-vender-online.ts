@@ -1,4 +1,4 @@
-export default `Amazon US va moure més de 600.000 milions de dòlars en vendes brutes el 2024, i el 100 % d'aquests pagaments passa per un operador que t'exigeix un EIN i un compte bancari americà abans de pagar-te.
+export default `Amazon US va moure més de 600.000 milions de dòlars en vendes brutes en el darrer exercici tancat, i el 100 % d'aquests pagaments passa per un operador que t'exigeix un EIN i un compte bancari americà abans de pagar-te.
 
 Vendre a Amazon, Shopify o Etsy des de Catalunya sol ser un circuit d'obstacles: comptes de venedor limitats, retencions en dòlars, IVA intracomunitari i IRPF amb el tram autonòmic per sobre. Amb una LLC americana canvies de categoria: compte en USD, Stripe sense fricció i una marca amb cara dels EUA.
 

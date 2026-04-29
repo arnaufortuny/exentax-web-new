@@ -1,6 +1,6 @@
 export default `
 
-Amazon US movió más de 600.000 millones de dólares en ventas brutas en 2024, y el 100 % de esos cobros pasa por un proveedor que te exige un EIN y una cuenta bancaria americana antes de pagarte.
+Amazon US movió más de 600.000 millones de dólares en ventas brutas en su último ejercicio cerrado, y el 100 % de esos cobros pasa por un proveedor que te exige un EIN y una cuenta bancaria americana antes de pagarte.
 
 Si quieres vender productos (físicos o digitales) en Amazon, Shopify, Etsy o cualquier plataforma de ecommerce, tener una <a href="/es/blog/constituir-llc-proceso-paso-a-paso">LLC en Estados Unidos</a> te abre puertas que desde tu país probablemente están cerradas, o limitadas con restricciones y retenciones.
 
@@ -135,7 +135,7 @@ Las cifras, modelos y umbrales mencionados se extraen de las siguientes referenc
 - **Tributación de la actividad.** IRC §864 y §882 (efectivamente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma para LLC unipersonales no residentes.
 - **IVA y ventas internacionales.** Directiva 2006/112/CE del IVA, Reglamento de Ejecución 282/2011, régimen OSS/IOSS y Ventanilla Única para servicios digitales B2C en la UE; instrucciones del Modelo 369 de la AEAT.
 - **Plataformas marketplace.** Términos publicados por Amazon Seller Central (incluido el VAT Calculation Service y la responsabilidad sobre IVA en la UE conforme al art. 14 bis Directiva 2006/112), Stripe Tax, Paddle (Merchant of Record), DoDo Payments y PayPal Business.
-- **DAC7.** Directiva (UE) 2021/514 de cooperación administrativa en plataformas digitales, traspuesta al ordenamiento español por RD 117/2024.
+- **DAC7.** Directiva (UE) 2021/514 de cooperación administrativa en plataformas digitales, traspuesta al ordenamiento español por <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2024-2657" target="_blank" rel="noopener">RD 117/2024</a>.
 - **España residentes.** Ley 35/2006 LIRPF (art. 100 TFI), Ley 27/2014 LIS y Ley 37/1992 del IVA.
 Información divulgativa; el tratamiento concreto depende del país de residencia del titular y del país de tus clientes.
 

@@ -1,4 +1,4 @@
-export default `Amazon US moved more than 600 billion dollars in gross sales in 2024, and 100% of those payouts run through a provider that asks for an EIN and a US bank account before sending you a single dollar.
+export default `Amazon US moved more than 600 billion dollars in gross sales in its latest fiscal year, and 100% of those payouts run through a provider that asks for an EIN and a US bank account before sending you a single dollar.
 
 Amazon is the world's largest marketplace. A US LLC gives you access to the full Amazon Seller ecosystem without geographic restrictions. Here's everything you need to know.
 
