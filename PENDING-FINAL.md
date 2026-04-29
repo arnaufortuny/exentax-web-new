@@ -34,27 +34,11 @@
 - **Saneo adicional incluido en Task #46** (mismo objetivo «`npm run check` EXIT 0»):
   - `seo:masterpiece-strict`: 18 critical findings de la regla `year-in-prose` en 4 artículos × 5 idiomas (en/fr/de/pt/ca) procedían de los títulos de "On the same topic / Zum Weiterlesen / Sur le même sujet / …" — links markdown internos a otros posts cuyo título contiene un año (`[… in 2026](/en/blog/…)`). Eran *facts* sobre el post enlazado, no decisión editorial del artículo actual. Fix: `findYearsInProse` (en `exentax-web/scripts/blog/blog-masterpiece-audit.mjs`) ahora descarta el bloque completo `[texto](/<lang>/blog/…)` antes del cleanup genérico de markdown links. Mean score subió de 97.5 → 99.8 / 100.
   - `test:discord-neon`: dos paths relativos rotos (`scripts/discord/test-discord-neon.ts` resolvía `..` + `server` desde `scripts/discord/` → `scripts/server/discord.ts`, inexistente). Corregido a `..` + `..` + `server` en líneas 60 y 175. Además, el test ahora fuerza `DISCORD_QUEUE_BACKEND=memory` para no depender de Postgres ni del estado de dedup persistido entre runs (las aserciones son del color de los embeds, no de persistencia). Captura las 23 embeds esperadas, todas `0x00E510`.
-- **Verificación de cierre** (ejecutado por bloques por límite de 120 s del shell, suma ≈ 195 s):
+- **Verificación de cierre** (Task #66 — runner paralelo `scripts/check.mjs`, wall ≈ 60 s sobre el VPS Replit con dev server pre-warmed):
   ```bash
-  cd exentax-web
-  # Bloque A — tsc + lints (28 s) → EXIT 0
-  tsc && npm run lint:typography && npm run lint:stray-reports && npm run lint:brand-casing && \
-    npm run lint:pt-pt && npm run lint:blog && npm run lint:banking-entities && npm run lint:email-deliverability
-  # Bloque B — SEO + masterpiece + blog + i18n (45 s) → EXIT 0
-  npm run seo:check && npm run seo:slash && npm run seo:meta && npm run seo:masterpiece-strict && \
-    npm run test:masterpiece-audit && npm run test:masterpiece-audit-rules && \
-    npm run blog:validate-all && npm run i18n:check
-  # Bloque C1 — tests primer batch (45 s) → EXIT 0
-  npm run test:seo-check && npm run test:seo-slash && npm run test:lint-blog && \
-    npm run test:lint-banking-entities && npm run test:no-inline-related && \
-    npm run test:risk-bridge-inject && npm run test:audit-faqs && npm run test:calculator && \
-    npm run test:discord-neon
-  # Bloque C2 — newsletter + booking (26 s) → EXIT 0
-  npm run test:newsletter && npm run test:booking
-  # Bloque C3 — bundle + redirects + geo (51 s) → EXIT 0
-  npm run test:bundle-diff-notify && npm run test:perf-gate-bypass-notify && \
-    npm run test:indexnow && npm run test:redirects && npm run test:geo && npm run audit:bundle
+  cd exentax-web && npm run check
   ```
+  El runner paraleliza los 33 gates con concurrency = `os.availableParallelism()` (override `CHECK_CONCURRENCY=N`), prioriza por peso descendente (los pesados — `blog:validate-all`, `audit:bundle`, `tsc`, `test:discord-neon`, `seo:slash` — arrancan primero), y pre-warma un dev server en `:5000` cuando `DATABASE_URL` está disponible para que los gates con escaneo HTTP en vivo (`seo:slash` + `seo-orphan-audit-ci` interno de `blog:validate-all`) lo reusen en vez de bootear cada uno el suyo bajo contención de CPU. Salida: tabla por step ordenada por duración + dump del output capturado por cada FAIL al final. La cadena serial original sigue disponible como `npm run check:serial` para depurar regressions del propio runner.
 
 ---
 
