@@ -30,6 +30,7 @@ const {
   decideStickyIssueAction,
   DIGEST_STALE_THRESHOLD_MS,
   DIGEST_CADENCE_MS,
+  getLaneConfig,
 } = await import("./notify-live-verification-discord.mjs");
 
 const REPORT_VPS_DOWN = `# live-verification report
@@ -101,18 +102,48 @@ const REPORT_OK = `# live-verification report
 | PASS | Security headers on / | HSTS=1 CSP=1 XFO=1 REF=1 UNSAFE_EVAL=0 |
 `;
 
+// Reporte producido por el carril SEO+headers (Task #60): el runner se
+// invoca con `--only F1-headers,F2`, así que NUNCA aparecen filas de
+// /api/health (ni siquiera como FAIL). Incluso si el backend está caído,
+// este carril sólo reporta la regresión de cabeceras / robots / sitemap.
+const REPORT_SEO_DOWN = `# live-verification report
+
+- **Base URL**: \`https://exentax.com\`
+- **Generated (UTC)**: 2026-04-29T14:00:00Z
+- **Result**: PASS=2 · FAIL=3 · SKIP=1 · TOTAL=6
+
+### F-1 · Health & connectivity
+
+| Status | Check | Detail |
+|---|---|---|
+| FAIL | Security headers on / | HSTS=0 CSP=0 XFO=0 REF=0 UNSAFE_EVAL=0 |
+
+### F-2 · SEO (sitemap · robots · IndexNow · hreflang)
+
+| Status | Check | Detail |
+|---|---|---|
+| FAIL | GET /sitemap.xml | Got urlset instead of sitemapindex referencing pages/blog/faq |
+| FAIL | GET /robots.txt | missing one of: sitemap-pages, sitemap-blog, Disallow /api, Disallow /admin, GPTBot |
+| PASS | GET /sitemap-blog.xml | 672 <loc> entries |
+| PASS | 3 random hreflang alternates → 200 | https://exentax.com/es https://exentax.com/en https://exentax.com/fr |
+| SKIP | IndexNow key file | Set --indexnow-key |
+`;
+
 let passed = 0;
 let failed = 0;
+let chain = Promise.resolve();
 function test(name, fn) {
-  try {
-    fn();
-    console.log(`  ok   ${name}`);
-    passed++;
-  } catch (err) {
-    console.error(`  FAIL ${name}`);
-    console.error(err);
-    failed++;
-  }
+  chain = chain.then(async () => {
+    try {
+      await fn();
+      console.log(`  ok   ${name}`);
+      passed++;
+    } catch (err) {
+      console.error(`  FAIL ${name}`);
+      console.error(err);
+      failed++;
+    }
+  });
 }
 
 console.log("notify-live-verification-discord.test.mjs");
@@ -492,6 +523,137 @@ test("main: con reporte ausente y exit!=0 cae a 'down' y escribe estado", async 
   }
 });
 
+// ──────────────── carril seo-headers (Task #60) ────────────────
+test("getLaneConfig devuelve lane backend por defecto y respeta seo-headers", () => {
+  const def = getLaneConfig(undefined);
+  assert.equal(def.footer, "Exentax · CI · live-verification");
+  assert.match(def.titleDown, /Web pública degradada/);
+
+  const seo = getLaneConfig("seo-headers");
+  assert.equal(seo.footer, "Exentax · CI · live-verification (SEO+headers)");
+  assert.match(seo.titleDown, /SEO\/cabeceras/);
+  assert.match(seo.titleRecovery, /SEO\/cabeceras/);
+
+  // Lanes desconocidos caen al backend para que un typo no rompa nada.
+  const unknown = getLaneConfig("does-not-exist");
+  assert.equal(unknown.footer, "Exentax · CI · live-verification");
+});
+
+test("REPORT_SEO_DOWN nunca clasifica como vps-not-deployed (Task #60 AC)", () => {
+  // El runner del carril seo-headers no toca /api/health, así que la
+  // heurística que detecta "ambos health 404" jamás aplicará. Esto es lo
+  // que permite que la alerta dispare independientemente del silencio
+  // anti-spam del carril principal cuando el backend está caído.
+  const c = classifyIncident(parseReport(REPORT_SEO_DOWN));
+  assert.equal(c.status, "down");
+  assert.notEqual(c.status, "vps-not-deployed");
+});
+
+test("buildEmbed lane=seo-headers usa título y footer SEO + intro distinta", () => {
+  const parsed = parseReport(REPORT_SEO_DOWN);
+  const e = buildEmbed({
+    action: "notify-down",
+    parsed,
+    classification: classifyIncident(parsed),
+    since: "2026-04-29T14:00:00.000Z",
+    durationMs: 0,
+    runUrl: "https://github.com/example/run/2",
+    repo: "example/repo",
+    lane: "seo-headers",
+  });
+  assert.equal(e.color, EXENTAX_RED);
+  assert.match(e.title, /SEO\/cabeceras/);
+  assert.equal(e.footer.text, "Exentax · CI · live-verification (SEO+headers)");
+  // Debe explicar que es independiente del backend.
+  assert.match(e.description, /independiente del estado del backend/);
+  // Top FAIL del subset HTTP-only (cabeceras + sitemap + robots).
+  assert.match(e.description, /Security headers on \//);
+  // El embed apunta al artefacto SEO (no al artefacto del carril principal).
+  assert.match(e.description, /live-verification-seo-report/);
+  assert.equal(/`live-verification-report`/.test(e.description), false);
+  assertNoEmoji(e.title);
+  assertNoEmoji(e.description);
+  for (const f of e.fields) {
+    assertNoEmoji(f.name);
+    assertNoEmoji(f.value);
+  }
+});
+
+test("buildEmbed default lane apunta al artefacto live-verification-report", () => {
+  const parsed = parseReport(REPORT_REAL_DOWN);
+  const e = buildEmbed({
+    action: "notify-down",
+    parsed,
+    classification: classifyIncident(parsed),
+    since: "2026-04-29T12:30:00.000Z",
+    durationMs: 0,
+  });
+  assert.match(e.description, /`live-verification-report`/);
+});
+
+test("buildEmbed lane=seo-headers recovery usa NEON y título SEO", () => {
+  const parsed = parseReport(REPORT_OK);
+  const e = buildEmbed({
+    action: "notify-recovery",
+    parsed,
+    classification: classifyIncident(parsed),
+    since: "2026-04-29T13:00:00.000Z",
+    durationMs: 60 * 60 * 1000,
+    lane: "seo-headers",
+  });
+  assert.equal(e.color, EXENTAX_NEON);
+  assert.match(e.title, /SEO\/cabeceras .* RECUPERADOS/);
+  assert.match(e.description, /1 h/);
+});
+
+test("buildEmbed default lane (backend) sigue idéntico al texto previo (no regresión)", () => {
+  const parsed = parseReport(REPORT_REAL_DOWN);
+  const e = buildEmbed({
+    action: "notify-down",
+    parsed,
+    classification: classifyIncident(parsed),
+    since: "2026-04-29T12:30:00.000Z",
+    durationMs: 0,
+  });
+  assert.equal(e.title, "Web pública degradada");
+  assert.equal(e.footer.text, "Exentax · CI · live-verification");
+});
+
+test("main: lane=seo-headers persiste en el state.json (Task #60)", async () => {
+  const { mkdtempSync, rmSync, existsSync, readFileSync } = await import(
+    "node:fs"
+  );
+  const { tmpdir } = await import("node:os");
+  const path = await import("node:path");
+  const dir = mkdtempSync(path.join(tmpdir(), "lv-seo-"));
+  const reportPath = path.join(dir, "report.md");
+  const statePath = path.join(dir, "state", "state.json");
+  const { writeFileSync } = await import("node:fs");
+  writeFileSync(reportPath, REPORT_SEO_DOWN, "utf8");
+
+  const prevEnv = { ...process.env };
+  process.env.LIVE_VERIFICATION_REPORT = reportPath;
+  process.env.LIVE_VERIFICATION_STATE = statePath;
+  process.env.LIVE_VERIFICATION_EXIT = "1";
+  process.env.LIVE_VERIFICATION_LANE = "seo-headers";
+  process.env.LIVE_VERIFICATION_BASE_URL = "https://exentax.com";
+  delete process.env.DISCORD_BOT_TOKEN;
+  delete process.env.DISCORD_CHANNEL_ERRORES;
+
+  const { main } = await import("./notify-live-verification-discord.mjs");
+  try {
+    await main();
+    assert.equal(existsSync(statePath), true);
+    const persisted = JSON.parse(readFileSync(statePath, "utf8"));
+    assert.equal(persisted.status, "down");
+    assert.equal(persisted.lane, "seo-headers");
+    assert.equal(persisted.lastFailCount, 3);
+  } finally {
+    process.env = prevEnv;
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
 test("buildEmbed: el token Discord nunca aparece en embeds (sanity)", () => {
   // Defensa por si en el futuro alguien añade fields dinámicos.
   const parsed = parseReport(REPORT_REAL_DOWN);
@@ -663,5 +825,6 @@ test("main: warn ::warning:: cuando schedule + secrets ausentes y down", async (
   }
 });
 
+await chain;
 console.log(`\n${passed} passed, ${failed} failed`);
 if (failed > 0) process.exit(1);

@@ -2,7 +2,9 @@
 # live-verification.sh — Runs PRODUCTION-CHECKLIST.md §F-1 a §F-9 against any base URL.
 #
 # Usage:
-#   bash scripts/live-verification.sh [BASE_URL] [--metrics-token TOKEN] [--indexnow-key KEY] [--report PATH]
+#   bash scripts/live-verification.sh [BASE_URL] \
+#        [--metrics-token TOKEN] [--indexnow-key KEY] \
+#        [--report PATH] [--only KEY[,KEY...]]
 #
 # Defaults:
 #   BASE_URL = https://exentax.com
@@ -11,6 +13,34 @@
 #   0  — all automatable checks PASS
 #   1  — at least one check FAIL
 #   2  — usage error
+#
+# --only KEY[,KEY...]
+#   Run only the listed check keys. Useful para tener un segundo cron
+#   "HTTP-only / sin backend" (Task #60) que vigile las cabeceras de
+#   seguridad y la superficie SEO incluso mientras el VPS aún sirve el
+#   mirror estático y `/api/health` devuelve 404.
+#
+#   Keys soportadas (orden de aparición):
+#     F1-health          — GET /api/health + /api/health/ready
+#     F1-headers         — HSTS / CSP / XFO / Referrer-Policy / no unsafe-eval
+#     F2-sitemap         — /sitemap.xml debe ser <sitemapindex>
+#     F2-sitemap-blog    — /sitemap-blog.xml ≥600 <loc> entries
+#     F2-robots          — /robots.txt declara sitemaps + bloquea /api,/admin
+#     F2-indexnow        — /<INDEXNOW_KEY>.txt devuelve la key (si flag set)
+#     F2-hreflang        — 3 alternates de la home → 200
+#     F3-csrf            — POST sin Origin → 403
+#     F3-rate-limit      — 220 GETs /api/health → algún 429
+#     F3-encryption      — SKIP (manual psql)
+#     F4 / F5 / F6       — bloques SKIP (DB E2E, Discord runtime, Meet/Email)
+#     F7-metrics         — /api/metrics?token=… formato Prometheus
+#     F7-uptimerobot     — SKIP (dashboard externo)
+#     F8-lang            — /es /en /fr /de /pt /ca → 200
+#     F8-responsive      — SKIP (manual DevTools)
+#     F8-calculator      — SKIP (submit con email real)
+#     F9                 — SKIP (Lighthouse autorun)
+#
+#   Prefix-match: `--only F2` activa todas las F2-*, `--only F1-headers,F2`
+#   activa el subset SEO+headers que pide Task #60 sin tocar /api/health.
 #
 # Notes:
 #   * F-4 (DB-backed E2E specs), F-5 (Discord runtime), F-6 (Calendar/Meet/Email),
@@ -33,16 +63,50 @@ BASE_URL="${BASE_URL%/}"
 METRICS_TOKEN=""
 INDEXNOW_KEY="${INDEXNOW_KEY:-}"
 REPORT_PATH=""
+ONLY=""
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --metrics-token) METRICS_TOKEN="$2"; shift 2 ;;
     --indexnow-key)  INDEXNOW_KEY="$2";  shift 2 ;;
     --report)        REPORT_PATH="$2";   shift 2 ;;
+    --only)          ONLY="$2";          shift 2 ;;
     -h|--help)
-      sed -n '2,22p' "$0"; exit 0 ;;
+      sed -n '2,51p' "$0"; exit 0 ;;
     *) echo "Unknown option: $1" >&2; exit 2 ;;
   esac
 done
+
+# should_run KEY → 0 si KEY pasa el filtro `--only` (o si no hay filtro).
+# Acepta match exacto o por prefijo: `--only F2` activa F2-sitemap,
+# F2-robots, etc.
+should_run() {
+  local key="$1"
+  [[ -z "$ONLY" ]] && return 0
+  local IFS=','
+  local t
+  for t in $ONLY; do
+    t="${t// /}"
+    [[ -z "$t" ]] && continue
+    [[ "$key" == "$t" ]] && return 0
+    [[ "$key" == "$t"-* ]] && return 0
+  done
+  return 1
+}
+
+# maybe_section TITLE KEY [KEY ...] → emite la cabecera de sección sólo
+# si al menos una de las keys está activa. Devuelve 0 en ese caso, 1 si
+# se debe saltar la sección entera.
+maybe_section() {
+  local title="$1"; shift
+  local k
+  for k in "$@"; do
+    if should_run "$k"; then
+      section "$title"
+      return 0
+    fi
+  done
+  return 1
+}
 
 PASS=0; FAIL=0; SKIP=0
 LINES=()
@@ -79,129 +143,160 @@ http_head()   { curl -sIk --max-time 12 "$@"; }
 
 printf "%s\n" "$(bold "Live verification against: ${BASE_URL}")"
 printf "%s\n" "$(bold "Started: $(date -u '+%Y-%m-%dT%H:%M:%SZ')")"
-
-############################################################################
-section "F-1 · Health & connectivity"
-############################################################################
-
-body="$(http_body "${BASE_URL}/api/health")"
-code="$(http_status "${BASE_URL}/api/health")"
-if [[ "$code" == "200" && "$body" == *'"status":"ok"'* ]]; then
-  emit PASS "GET /api/health → 200 with status:ok" "$(printf '%s' "$body" | head -c 120)"
-else
-  emit FAIL "GET /api/health" "HTTP ${code} — body: $(printf '%s' "$body" | head -c 160)"
-fi
-
-body="$(http_body "${BASE_URL}/api/health/ready")"
-code="$(http_status "${BASE_URL}/api/health/ready")"
-if [[ "$code" == "200" && "$body" == *'"ready":true'* ]]; then
-  emit PASS "GET /api/health/ready → 200 ready:true" "$(printf '%s' "$body" | head -c 200)"
-else
-  emit FAIL "GET /api/health/ready" "HTTP ${code} — body: $(printf '%s' "$body" | head -c 200)"
-fi
-
-headers="$(http_head "${BASE_URL}/")"
-have_hsts="$(printf '%s' "$headers"   | grep -ci 'strict-transport-security')"
-have_csp="$(printf '%s' "$headers"    | grep -ci 'content-security-policy')"
-have_xfo="$(printf '%s' "$headers"    | grep -ci 'x-frame-options')"
-have_ref="$(printf '%s' "$headers"    | grep -ci 'referrer-policy')"
-unsafe_eval="$(printf '%s' "$headers" | grep -ci "unsafe-eval")"
-hdr_detail="HSTS=${have_hsts} CSP=${have_csp} XFO=${have_xfo} REF=${have_ref} UNSAFE_EVAL=${unsafe_eval}"
-if (( have_hsts >= 1 && have_csp >= 1 && have_xfo >= 1 && have_ref >= 1 && unsafe_eval == 0 )); then
-  emit PASS "Security headers on /" "$hdr_detail"
-else
-  emit FAIL "Security headers on /" "$hdr_detail (need HSTS+CSP+XFO+ReferrerPolicy, no unsafe-eval)"
+if [[ -n "${ONLY}" ]]; then
+  printf "%s\n" "$(bold "Only: ${ONLY}")"
 fi
 
 ############################################################################
-section "F-2 · SEO (sitemap · robots · IndexNow · hreflang)"
+if maybe_section "F-1 · Health & connectivity" F1-health F1-headers; then
 ############################################################################
 
-sitemap="$(http_body "${BASE_URL}/sitemap.xml")"
-sitemap_code="$(http_status "${BASE_URL}/sitemap.xml")"
-if [[ "$sitemap_code" == "200" && "$sitemap" == *'<sitemapindex'*'</sitemapindex>'* ]]; then
-  emit PASS "GET /sitemap.xml → sitemap-index XML"
-elif [[ "$sitemap_code" == "200" && "$sitemap" == *'<urlset'* ]]; then
-  emit FAIL "GET /sitemap.xml" "Got urlset instead of sitemapindex referencing pages/blog/faq"
-else
-  emit FAIL "GET /sitemap.xml" "HTTP ${sitemap_code} — body bytes: ${#sitemap}"
-fi
-
-blog_sitemap="$(http_body "${BASE_URL}/sitemap-blog.xml")"
-blog_count="$(printf '%s' "$blog_sitemap" | grep -c '<loc>')"
-if (( blog_count >= 600 )); then
-  emit PASS "GET /sitemap-blog.xml" "${blog_count} <loc> entries (≥600 expected, target ≈672)"
-else
-  emit FAIL "GET /sitemap-blog.xml" "${blog_count} <loc> entries — expected ≈672 (112 slugs × 6 idiomas)"
-fi
-
-robots="$(http_body "${BASE_URL}/robots.txt")"
-robots_ok=1
-for needle in 'sitemap-pages.xml' 'sitemap-blog.xml' 'Disallow: /api/' 'Disallow: /admin/' 'GPTBot'; do
-  printf '%s' "$robots" | grep -qi "${needle}" || { robots_ok=0; break; }
-done
-if (( robots_ok == 1 )); then
-  emit PASS "GET /robots.txt declares sitemaps + blocks /api/admin + allows GPTBot"
-else
-  emit FAIL "GET /robots.txt" "missing one of: sitemap-pages, sitemap-blog, Disallow /api, Disallow /admin, GPTBot"
-fi
-
-if [[ -n "${INDEXNOW_KEY}" ]]; then
-  body="$(http_body "${BASE_URL}/${INDEXNOW_KEY}.txt")"
-  if [[ "$body" == "${INDEXNOW_KEY}" ]]; then
-    emit PASS "GET /${INDEXNOW_KEY}.txt returns the IndexNow key"
+if should_run F1-health; then
+  body="$(http_body "${BASE_URL}/api/health")"
+  code="$(http_status "${BASE_URL}/api/health")"
+  if [[ "$code" == "200" && "$body" == *'"status":"ok"'* ]]; then
+    emit PASS "GET /api/health → 200 with status:ok" "$(printf '%s' "$body" | head -c 120)"
   else
-    emit FAIL "GET /${INDEXNOW_KEY}.txt" "Body did not equal the key (got ${#body} bytes)"
+    emit FAIL "GET /api/health" "HTTP ${code} — body: $(printf '%s' "$body" | head -c 160)"
   fi
-else
-  emit SKIP "IndexNow key file" "Set --indexnow-key <key> or env INDEXNOW_KEY to test"
+
+  body="$(http_body "${BASE_URL}/api/health/ready")"
+  code="$(http_status "${BASE_URL}/api/health/ready")"
+  if [[ "$code" == "200" && "$body" == *'"ready":true'* ]]; then
+    emit PASS "GET /api/health/ready → 200 ready:true" "$(printf '%s' "$body" | head -c 200)"
+  else
+    emit FAIL "GET /api/health/ready" "HTTP ${code} — body: $(printf '%s' "$body" | head -c 200)"
+  fi
 fi
 
-# Probe 3 hreflang URLs from homepage HTML
-home="$(http_body "${BASE_URL}/")"
-mapfile -t hreflang_urls < <(printf '%s' "$home" | grep -oE 'rel="alternate"[^>]*hreflang="[^"]+"[^>]*href="[^"]+"' | grep -oE 'href="[^"]+"' | sed 's/href="//;s/"$//' | head -3)
-if (( ${#hreflang_urls[@]} >= 3 )); then
-  hreflang_ok=1
-  for url in "${hreflang_urls[@]}"; do
-    c="$(http_status "$url")"
-    [[ "$c" == "200" ]] || { hreflang_ok=0; emit FAIL "hreflang ${url}" "HTTP ${c}"; break; }
+if should_run F1-headers; then
+  headers="$(http_head "${BASE_URL}/")"
+  have_hsts="$(printf '%s' "$headers"   | grep -ci 'strict-transport-security')"
+  have_csp="$(printf '%s' "$headers"    | grep -ci 'content-security-policy')"
+  have_xfo="$(printf '%s' "$headers"    | grep -ci 'x-frame-options')"
+  have_ref="$(printf '%s' "$headers"    | grep -ci 'referrer-policy')"
+  unsafe_eval="$(printf '%s' "$headers" | grep -ci "unsafe-eval")"
+  hdr_detail="HSTS=${have_hsts} CSP=${have_csp} XFO=${have_xfo} REF=${have_ref} UNSAFE_EVAL=${unsafe_eval}"
+  if (( have_hsts >= 1 && have_csp >= 1 && have_xfo >= 1 && have_ref >= 1 && unsafe_eval == 0 )); then
+    emit PASS "Security headers on /" "$hdr_detail"
+  else
+    emit FAIL "Security headers on /" "$hdr_detail (need HSTS+CSP+XFO+ReferrerPolicy, no unsafe-eval)"
+  fi
+fi
+
+fi  # end F-1
+
+############################################################################
+if maybe_section "F-2 · SEO (sitemap · robots · IndexNow · hreflang)" \
+     F2-sitemap F2-sitemap-blog F2-robots F2-indexnow F2-hreflang; then
+############################################################################
+
+if should_run F2-sitemap; then
+  sitemap="$(http_body "${BASE_URL}/sitemap.xml")"
+  sitemap_code="$(http_status "${BASE_URL}/sitemap.xml")"
+  if [[ "$sitemap_code" == "200" && "$sitemap" == *'<sitemapindex'*'</sitemapindex>'* ]]; then
+    emit PASS "GET /sitemap.xml → sitemap-index XML"
+  elif [[ "$sitemap_code" == "200" && "$sitemap" == *'<urlset'* ]]; then
+    emit FAIL "GET /sitemap.xml" "Got urlset instead of sitemapindex referencing pages/blog/faq"
+  else
+    emit FAIL "GET /sitemap.xml" "HTTP ${sitemap_code} — body bytes: ${#sitemap}"
+  fi
+fi
+
+if should_run F2-sitemap-blog; then
+  blog_sitemap="$(http_body "${BASE_URL}/sitemap-blog.xml")"
+  blog_count="$(printf '%s' "$blog_sitemap" | grep -c '<loc>')"
+  if (( blog_count >= 600 )); then
+    emit PASS "GET /sitemap-blog.xml" "${blog_count} <loc> entries (≥600 expected, target ≈672)"
+  else
+    emit FAIL "GET /sitemap-blog.xml" "${blog_count} <loc> entries — expected ≈672 (112 slugs × 6 idiomas)"
+  fi
+fi
+
+if should_run F2-robots; then
+  robots="$(http_body "${BASE_URL}/robots.txt")"
+  robots_ok=1
+  for needle in 'sitemap-pages.xml' 'sitemap-blog.xml' 'Disallow: /api/' 'Disallow: /admin/' 'GPTBot'; do
+    printf '%s' "$robots" | grep -qi "${needle}" || { robots_ok=0; break; }
   done
-  (( hreflang_ok == 1 )) && emit PASS "3 random hreflang alternates → 200" "${hreflang_urls[*]}"
-else
-  emit FAIL "hreflang discovery on /" "Found ${#hreflang_urls[@]} alternates (expected ≥3) — check SSR head"
+  if (( robots_ok == 1 )); then
+    emit PASS "GET /robots.txt declares sitemaps + blocks /api/admin + allows GPTBot"
+  else
+    emit FAIL "GET /robots.txt" "missing one of: sitemap-pages, sitemap-blog, Disallow /api, Disallow /admin, GPTBot"
+  fi
 fi
 
-############################################################################
-section "F-3 · Security (CSRF · rate-limit · field encryption)"
-############################################################################
-
-# CSRF: POST without Origin/Referer must 403
-code="$(curl -sk -o /dev/null -w "%{http_code}" --max-time 12 -X POST \
-  "${BASE_URL}/api/calculator-leads" -H "Content-Type: application/json" -d '{}')"
-if [[ "$code" == "403" ]]; then
-  emit PASS "POST /api/calculator-leads sin Origin → 403 (CSRF activo)"
-else
-  emit FAIL "POST /api/calculator-leads sin Origin" "Esperado 403, obtenido ${code}"
+if should_run F2-indexnow; then
+  if [[ -n "${INDEXNOW_KEY}" ]]; then
+    body="$(http_body "${BASE_URL}/${INDEXNOW_KEY}.txt")"
+    if [[ "$body" == "${INDEXNOW_KEY}" ]]; then
+      emit PASS "GET /${INDEXNOW_KEY}.txt returns the IndexNow key"
+    else
+      emit FAIL "GET /${INDEXNOW_KEY}.txt" "Body did not equal the key (got ${#body} bytes)"
+    fi
+  else
+    emit SKIP "IndexNow key file" "Set --indexnow-key <key> or env INDEXNOW_KEY to test"
+  fi
 fi
 
-# Rate-limit: 250 GETs in fast loop. Run 220 to /api/health then count 429s.
-codes_seen=""
-last429=""
-for i in $(seq 1 220); do
-  c="$(curl -sk -o /dev/null -w "%{http_code}" --max-time 4 "${BASE_URL}/api/health" 2>/dev/null || echo 000)"
-  if [[ "$c" == "429" ]]; then last429=1; fi
-done
-if [[ "${last429}" == "1" ]]; then
-  emit PASS "220 GETs to /api/health hit 429 (rate-limit ≤200/min activo)"
-else
-  emit FAIL "Rate-limit on /api/health" "Sent 220 reqs, never saw 429 — global rate-limit may be off"
+if should_run F2-hreflang; then
+  # Probe 3 hreflang URLs from homepage HTML
+  home="$(http_body "${BASE_URL}/")"
+  mapfile -t hreflang_urls < <(printf '%s' "$home" | grep -oE 'rel="alternate"[^>]*hreflang="[^"]+"[^>]*href="[^"]+"' | grep -oE 'href="[^"]+"' | sed 's/href="//;s/"$//' | head -3)
+  if (( ${#hreflang_urls[@]} >= 3 )); then
+    hreflang_ok=1
+    for url in "${hreflang_urls[@]}"; do
+      c="$(http_status "$url")"
+      [[ "$c" == "200" ]] || { hreflang_ok=0; emit FAIL "hreflang ${url}" "HTTP ${c}"; break; }
+    done
+    (( hreflang_ok == 1 )) && emit PASS "3 random hreflang alternates → 200" "${hreflang_urls[*]}"
+  else
+    emit FAIL "hreflang discovery on /" "Found ${#hreflang_urls[@]} alternates (expected ≥3) — check SSR head"
+  fi
 fi
 
-emit SKIP "Field encryption AES-256-GCM (phone con prefijo ef:)" \
-  "Requires DB read access. From VPS: psql \"\$DATABASE_URL\" -c \"SELECT phone FROM leads ORDER BY id DESC LIMIT 1;\" → debe empezar con ef:"
+fi  # end F-2
 
 ############################################################################
-section "F-4 · E2E con DB real"
+if maybe_section "F-3 · Security (CSRF · rate-limit · field encryption)" \
+     F3-csrf F3-rate-limit F3-encryption; then
+############################################################################
+
+if should_run F3-csrf; then
+  # CSRF: POST without Origin/Referer must 403
+  code="$(curl -sk -o /dev/null -w "%{http_code}" --max-time 12 -X POST \
+    "${BASE_URL}/api/calculator-leads" -H "Content-Type: application/json" -d '{}')"
+  if [[ "$code" == "403" ]]; then
+    emit PASS "POST /api/calculator-leads sin Origin → 403 (CSRF activo)"
+  else
+    emit FAIL "POST /api/calculator-leads sin Origin" "Esperado 403, obtenido ${code}"
+  fi
+fi
+
+if should_run F3-rate-limit; then
+  # Rate-limit: 250 GETs in fast loop. Run 220 to /api/health then count 429s.
+  codes_seen=""
+  last429=""
+  for i in $(seq 1 220); do
+    c="$(curl -sk -o /dev/null -w "%{http_code}" --max-time 4 "${BASE_URL}/api/health" 2>/dev/null || echo 000)"
+    if [[ "$c" == "429" ]]; then last429=1; fi
+  done
+  if [[ "${last429}" == "1" ]]; then
+    emit PASS "220 GETs to /api/health hit 429 (rate-limit ≤200/min activo)"
+  else
+    emit FAIL "Rate-limit on /api/health" "Sent 220 reqs, never saw 429 — global rate-limit may be off"
+  fi
+fi
+
+if should_run F3-encryption; then
+  emit SKIP "Field encryption AES-256-GCM (phone con prefijo ef:)" \
+    "Requires DB read access. From VPS: psql \"\$DATABASE_URL\" -c \"SELECT phone FROM leads ORDER BY id DESC LIMIT 1;\" → debe empezar con ef:"
+fi
+
+fi  # end F-3
+
+############################################################################
+if maybe_section "F-4 · E2E con DB real" F4; then
 ############################################################################
 
 emit SKIP "test:booking" "From VPS: cd exentax-web && npm run test:booking"
@@ -209,70 +304,93 @@ emit SKIP "test:newsletter" "From VPS: cd exentax-web && npm run test:newsletter
 emit SKIP "test:calculator" "From VPS: cd exentax-web && npm run test:calculator (116/116)"
 emit SKIP "test:indexnow"  "From VPS: cd exentax-web && npm run test:indexnow"
 
+fi  # end F-4
+
 ############################################################################
-section "F-5 · Discord (bot online + 5 canales)"
+if maybe_section "F-5 · Discord (bot online + 5 canales)" F5; then
 ############################################################################
 
 emit SKIP "Bot online green dot"           "Manual: ver Discord server → indicador del bot exentax verde"
 emit SKIP "/ayuda · /agenda · /cita"        "Manual: ejecutar slash-commands en Discord con un usuario admin"
 emit SKIP "Embeds en 5 canales"             "Disparar reserva de prueba; verificar #exentax-agenda, #exentax-auditoria, #exentax-registros, #exentax-consentimientos, #exentax-errores"
 
+fi  # end F-5
+
 ############################################################################
-section "F-6 · Calendar / Meet / Email"
+if maybe_section "F-6 · Calendar / Meet / Email" F6; then
 ############################################################################
 
 emit SKIP "Booking → Google Calendar event con Meet" "Manual: reservar en /es/agendar con email real → ver evento en Google Calendar (calendar id de SA) con link Meet auto-generado"
 emit SKIP "Email transaccional con SPF/DKIM/DMARC pass" "Manual: revisar email recibido → headers Authentication-Results: spf=pass dkim=pass dmarc=pass"
 
+fi  # end F-6
+
 ############################################################################
-section "F-7 · Observabilidad (Prometheus + UptimeRobot)"
+if maybe_section "F-7 · Observabilidad (Prometheus + UptimeRobot)" F7-metrics F7-uptimerobot; then
 ############################################################################
 
-if [[ -n "${METRICS_TOKEN}" ]]; then
-  body="$(http_body "${BASE_URL}/api/metrics?token=${METRICS_TOKEN}")"
-  code="$(http_status "${BASE_URL}/api/metrics?token=${METRICS_TOKEN}")"
-  if [[ "$code" == "200" && "$body" == *"# HELP"*"http_request"* ]]; then
-    emit PASS "GET /api/metrics → Prometheus format con http_request_*"
+if should_run F7-metrics; then
+  if [[ -n "${METRICS_TOKEN}" ]]; then
+    body="$(http_body "${BASE_URL}/api/metrics?token=${METRICS_TOKEN}")"
+    code="$(http_status "${BASE_URL}/api/metrics?token=${METRICS_TOKEN}")"
+    if [[ "$code" == "200" && "$body" == *"# HELP"*"http_request"* ]]; then
+      emit PASS "GET /api/metrics → Prometheus format con http_request_*"
+    else
+      emit FAIL "GET /api/metrics" "HTTP ${code} — body bytes: ${#body}"
+    fi
   else
-    emit FAIL "GET /api/metrics" "HTTP ${code} — body bytes: ${#body}"
+    emit SKIP "/api/metrics?token=…" "Set --metrics-token \$METRICS_TOKEN to verify Prometheus export"
   fi
-else
-  emit SKIP "/api/metrics?token=…" "Set --metrics-token \$METRICS_TOKEN to verify Prometheus export"
 fi
 
-emit SKIP "UptimeRobot monitor UP en últimos 5 min" "Manual: verificar dashboard https://uptimerobot.com — monitor exentax.com/api/health en verde"
-
-############################################################################
-section "F-8 · Frontend smoke (6 idiomas)"
-############################################################################
-
-langs=(es en fr de pt ca)
-front_ok=1
-front_detail=""
-for lang in "${langs[@]}"; do
-  c="$(http_status "${BASE_URL}/${lang}")"
-  if [[ "$c" != "200" ]]; then
-    front_ok=0
-    front_detail+="/${lang}=${c} "
-  fi
-done
-if (( front_ok == 1 )); then
-  emit PASS "GET /es /en /fr /de /pt /ca → todos 200"
-else
-  emit FAIL "Frontend lang routes" "Failed: ${front_detail}"
+if should_run F7-uptimerobot; then
+  emit SKIP "UptimeRobot monitor UP en últimos 5 min" "Manual: verificar dashboard https://uptimerobot.com — monitor exentax.com/api/health en verde"
 fi
 
-emit SKIP "Mobile (375px) + tablet (768px) + desktop (1280px) responsive" \
-  "Manual: DevTools / Lighthouse mobile · verificar menú hamburguesa · sin shift de scroll en cambiador de idioma"
-emit SKIP "Calculadora submit → embed Discord en #exentax-calculadora" \
-  "Manual: completar /es/calculadora con email real desde origen exentax.com"
+fi  # end F-7
 
 ############################################################################
-section "F-9 · Lighthouse final (Performance ≥0.85 · LCP <2.5s · CLS <0.1)"
+if maybe_section "F-8 · Frontend smoke (6 idiomas)" F8-lang F8-responsive F8-calculator; then
+############################################################################
+
+if should_run F8-lang; then
+  langs=(es en fr de pt ca)
+  front_ok=1
+  front_detail=""
+  for lang in "${langs[@]}"; do
+    c="$(http_status "${BASE_URL}/${lang}")"
+    if [[ "$c" != "200" ]]; then
+      front_ok=0
+      front_detail+="/${lang}=${c} "
+    fi
+  done
+  if (( front_ok == 1 )); then
+    emit PASS "GET /es /en /fr /de /pt /ca → todos 200"
+  else
+    emit FAIL "Frontend lang routes" "Failed: ${front_detail}"
+  fi
+fi
+
+if should_run F8-responsive; then
+  emit SKIP "Mobile (375px) + tablet (768px) + desktop (1280px) responsive" \
+    "Manual: DevTools / Lighthouse mobile · verificar menú hamburguesa · sin shift de scroll en cambiador de idioma"
+fi
+
+if should_run F8-calculator; then
+  emit SKIP "Calculadora submit → embed Discord en #exentax-calculadora" \
+    "Manual: completar /es/calculadora con email real desde origen exentax.com"
+fi
+
+fi  # end F-8
+
+############################################################################
+if maybe_section "F-9 · Lighthouse final (Performance ≥0.85 · LCP <2.5s · CLS <0.1)" F9; then
 ############################################################################
 
 emit SKIP "Lighthouse / · /llc · /itin × 6 idiomas" \
   "Manual: npx -p @lhci/cli@0.13.x lhci autorun --collect.url=${BASE_URL}/es --collect.url=${BASE_URL}/es/llc --collect.url=${BASE_URL}/es/itin (repetir 6 idiomas)"
+
+fi  # end F-9
 
 ############################################################################
 # Summary

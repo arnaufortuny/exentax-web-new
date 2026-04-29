@@ -71,6 +71,14 @@
  *                                  (default: .live-verification-state/state.json).
  *     LIVE_VERIFICATION_EXIT     — exit code del runner (string "0"|"1"|"2").
  *     LIVE_VERIFICATION_BASE_URL — base URL probada (override del valor del reporte).
+ *     LIVE_VERIFICATION_LANE     — "backend" (default) ó "seo-headers"
+ *                                  (Task #60). Cambia los títulos del
+ *                                  embed/headline para que el segundo
+ *                                  cron (subset HTTP-only de F-1
+ *                                  cabeceras + F-2 SEO) no se confunda
+ *                                  con el monitor principal de backend.
+ *                                  Combinado con un `LIVE_VERIFICATION_STATE`
+ *                                  distinto, mantiene su propio estado.
  *     GITHUB_RUN_URL             — URL al run de Actions (para el embed).
  *     GITHUB_REPOSITORY          — owner/repo (para el embed).
  *
@@ -94,6 +102,45 @@ const DEFAULT_STATE_PATH = ".live-verification-state/state.json";
 // emitimos un digest diario (cada > 24 h) en lugar de seguir mudos.
 export const DIGEST_STALE_THRESHOLD_MS = 6 * 60 * 60 * 1000;
 export const DIGEST_CADENCE_MS = 24 * 60 * 60 * 1000;
+
+// Etiquetas por carril (Task #60). El carril por defecto sigue siendo el
+// monitor de backend completo (F-1..F-9 contra `/api/health`); el carril
+// `seo-headers` es el subset HTTP-only que vigila cabeceras + sitemap +
+// robots + hreflang aunque el VPS aún sirva un mirror estático.
+const LANES = {
+  backend: {
+    titleDown: "Web pública degradada",
+    titleVps: "Web pública: VPS no desplegado",
+    titleRecovery: "Web pública RECUPERADA",
+    headlineDown: ({ url, fail }) =>
+      `Web pública degradada: ${url} (FAIL=${fail})`,
+    headlineVps: ({ url }) => `Web pública: VPS no desplegado en ${url}`,
+    headlineRecovery: ({ url, duration }) =>
+      `Web pública RECUPERADA: ${url} (incidente ${duration})`,
+    footer: "Exentax · CI · live-verification",
+  },
+  "seo-headers": {
+    titleDown: "SEO/cabeceras de producción degradados",
+    // El carril seo-headers no toca /api/health, así que no debería
+    // emitir VPS-NOT-DEPLOYED. Mantenemos un texto coherente por si
+    // alguien fuerza la clasificación a mano.
+    titleVps: "SEO/cabeceras: backend además sin desplegar",
+    titleRecovery: "SEO/cabeceras de producción RECUPERADOS",
+    headlineDown: ({ url, fail }) =>
+      `SEO/cabeceras degradados en ${url} (FAIL=${fail})`,
+    headlineVps: ({ url }) => `SEO/cabeceras: backend sin desplegar en ${url}`,
+    headlineRecovery: ({ url, duration }) =>
+      `SEO/cabeceras RECUPERADOS: ${url} (incidente ${duration})`,
+    footer: "Exentax · CI · live-verification (SEO+headers)",
+  },
+};
+
+export function getLaneConfig(lane) {
+  if (lane && Object.prototype.hasOwnProperty.call(LANES, lane)) {
+    return LANES[lane];
+  }
+  return LANES.backend;
+}
 
 function envOrEmpty(name) {
   const v = process.env[name];
@@ -388,7 +435,9 @@ export function buildEmbed({
   repo,
   prevDigestFailCount,
   prevDigestAt,
+  lane,
 }) {
+  const cfg = getLaneConfig(lane);
   const url = baseUrl || parsed.baseUrl || "(desconocida)";
   const fields = [];
   fields.push({ name: "Base URL", value: `\`${url}\``, inline: false });
@@ -404,10 +453,14 @@ export function buildEmbed({
   let color;
   let description;
   if (action === "notify-recovery") {
-    title = "Web pública RECUPERADA";
+    title = cfg.titleRecovery;
     color = EXENTAX_NEON;
+    const intro =
+      lane === "seo-headers"
+        ? `El monitor SEO+cabeceras de \`${url}\` vuelve a estar verde.`
+        : `La verificación periódica de \`${url}\` vuelve a estar verde.`;
     description = [
-      `La verificación periódica de \`${url}\` vuelve a estar verde.`,
+      intro,
       "",
       `Duración del incidente: **${formatDuration(durationMs)}**.`,
     ].join("\n");
@@ -455,7 +508,7 @@ export function buildEmbed({
       inline: false,
     });
   } else if (action === "notify-vps-not-deployed") {
-    title = "Web pública: VPS no desplegado";
+    title = cfg.titleVps;
     color = EXENTAX_RED;
     description = [
       `La verificación periódica de \`${url}\` detectó que **no hay backend Express respondiendo** (\`/api/health\` y \`/api/health/ready\` devuelven 404).`,
@@ -465,7 +518,7 @@ export function buildEmbed({
       "Pasos para destrabar: ver `docs/internal/LIVE-VERIFICATION-2026-04-29.md §5` (provisión Hostinger VPS, DNS, secrets, deploy + nginx).",
     ].join("\n");
   } else {
-    title = "Web pública degradada";
+    title = cfg.titleDown;
     color = EXENTAX_RED;
     const top = parsed.fails.slice(0, 5);
     const failsBlock =
@@ -477,13 +530,24 @@ export function buildEmbed({
             )
             .join("\n")
         : "(no se pudieron extraer filas FAIL del reporte)";
+    const intro =
+      lane === "seo-headers"
+        ? `El monitor SEO+cabeceras de \`${url}\` reporta **${parsed.fail} FAIL** sobre ${parsed.total} chequeos del subset HTTP-only (cabeceras de seguridad + sitemap + robots + hreflang). Este carril es independiente del estado del backend Express y dispara incluso mientras el VPS aún sirve un mirror estático.`
+        : `La verificación periódica de \`${url}\` reporta **${parsed.fail} FAIL** sobre ${parsed.total} chequeos.`;
+    // Cada carril sube su reporte como un artefacto distinto en el run
+    // de Actions; nombrarlo correctamente en el embed evita que el
+    // operador busque el artefacto del otro carril por error.
+    const artifactName =
+      lane === "seo-headers"
+        ? "live-verification-seo-report"
+        : "live-verification-report";
     description = [
-      `La verificación periódica de \`${url}\` reporta **${parsed.fail} FAIL** sobre ${parsed.total} chequeos.`,
+      intro,
       "",
       "Top FAILs:",
       failsBlock,
       "",
-      "Detalle completo: ver el artefacto `live-verification-report` del run.",
+      `Detalle completo: ver el artefacto \`${artifactName}\` del run.`,
     ].join("\n");
   }
 
@@ -492,7 +556,7 @@ export function buildEmbed({
     description: truncate(description, 3800),
     color,
     fields,
-    footer: { text: "Exentax · CI · live-verification" },
+    footer: { text: cfg.footer },
     timestamp: new Date().toISOString(),
     url: runUrl || undefined,
   };
@@ -579,6 +643,10 @@ export async function main() {
   const baseUrlOverride = envOrEmpty("LIVE_VERIFICATION_BASE_URL");
   const runUrl = envOrEmpty("GITHUB_RUN_URL");
   const repo = envOrEmpty("GITHUB_REPOSITORY");
+  const laneRaw = envOrEmpty("LIVE_VERIFICATION_LANE") || "backend";
+  const lane = Object.prototype.hasOwnProperty.call(LANES, laneRaw)
+    ? laneRaw
+    : "backend";
 
   // Si el reporte no existe o no se puede parsear, caemos al exit code
   // del runner (LIVE_VERIFICATION_EXIT) para no dejar el cron mudo en
@@ -624,7 +692,7 @@ export async function main() {
   const decision = decideAction(prev, classification.status, nowIso);
 
   console.log(
-    `[live-verification-notify] prev=${prev?.status || "(none)"} current=${classification.status} action=${decision.action} pass=${parsed.pass} fail=${parsed.fail} skip=${parsed.skip}`,
+    `[live-verification-notify] lane=${lane} prev=${prev?.status || "(none)"} current=${classification.status} action=${decision.action} pass=${parsed.pass} fail=${parsed.fail} skip=${parsed.skip}`,
   );
 
   const digestFields = nextDigestFields({
@@ -636,13 +704,17 @@ export async function main() {
   });
 
   // Persistir el nuevo estado siempre (incluso en silent), para que el
-  // próximo cron tenga referencia.
+  // próximo cron tenga referencia. Incluye `lane` como huella defensiva
+  // para detectar cross-contamination si alguien apunta dos carriles al
+  // mismo statePath por error (no debería; cada workflow usa su propio
+  // STATE_DIR).
   await writeState(statePath, {
     status: classification.status,
     since: decision.since,
     lastFailCount: parsed.fail,
     lastDigestAt: digestFields.lastDigestAt,
     lastDigestFailCount: digestFields.lastDigestFailCount,
+    lane,
   });
 
   if (decision.action === "silent") return;
@@ -682,18 +754,23 @@ export async function main() {
         ? prev.lastDigestFailCount
         : undefined,
     prevDigestAt: prev?.lastDigestAt || undefined,
+    lane,
   });
 
   const url = baseUrlOverride || parsed.baseUrl || "(desconocida)";
+  const cfg = getLaneConfig(lane);
   let headline;
   if (decision.action === "notify-recovery") {
-    headline = `Web pública RECUPERADA: ${url} (incidente ${formatDuration(decision.durationMs)})`;
+    headline = cfg.headlineRecovery({
+      url,
+      duration: formatDuration(decision.durationMs),
+    });
   } else if (decision.action === "notify-vps-not-deployed") {
-    headline = `Web pública: VPS no desplegado en ${url}`;
+    headline = cfg.headlineVps({ url });
   } else if (decision.action === "notify-digest") {
     headline = `Web pública sigue degradada (digest): ${url} — ${formatDuration(decision.durationMs)} en ${classification.status} (FAIL=${parsed.fail})`;
   } else {
-    headline = `Web pública degradada: ${url} (FAIL=${parsed.fail})`;
+    headline = cfg.headlineDown({ url, fail: parsed.fail });
   }
   const content = truncate(
     runUrl ? `${headline} — ${runUrl}` : headline,

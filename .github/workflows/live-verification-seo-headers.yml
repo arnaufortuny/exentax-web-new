@@ -1,0 +1,153 @@
+name: Live verification — SEO+headers (HTTP-only, sin backend)
+
+# ─── ¿Por qué un segundo workflow? (Task #60) ────────────────────────
+#
+# El workflow principal `live-verification.yml` ejecuta el subset
+# completo HTTP-only del runner (F-1..F-3 + F-7-metrics + F-8-lang) y,
+# cuando detecta que `/api/health` y `/api/health/ready` devuelven 404,
+# clasifica el incidente como `vps-not-deployed` y se silencia hasta
+# que el estado cambie. Eso es correcto: evita spammear con 9 FAILs
+# idénticos cada 20 min mientras el VPS aún sirve un mirror estático.
+#
+# El precio de ese silencio es que **regresiones reales en el mirror
+# estático quedan invisibles** durante toda la ventana pre-deploy:
+#   * Las cabeceras de seguridad (HSTS, CSP, X-Frame-Options,
+#     Referrer-Policy) podrían desaparecer del nginx del mirror.
+#   * /robots.txt podría servirse en blanco o sin la directiva de
+#     `Sitemap:` apuntando al sitemap-index.
+#   * /sitemap.xml podría regresar a un `<urlset>` plano en vez del
+#     `<sitemapindex>` esperado.
+#   * El bloque hreflang del head podría romperse durante un re-build
+#     de la SPA estática.
+#
+# Cualquiera de esos cambios degrada las señales de ranking SEO sin
+# que el operador se entere hasta que el deploy del backend desbloquee
+# la alerta principal.
+#
+# Este segundo cron resuelve el problema: invoca el runner en modo
+# `--only F1-headers,F2`, así que **no toca `/api/health`** y nunca
+# puede caer en la heurística `vps-not-deployed`. Con su propio
+# `STATE_DIR` y `LIVE_VERIFICATION_LANE=seo-headers`, mantiene su
+# propia máquina de estado de incidentes sin interferir con el
+# carril principal. Cuando robots/sitemap/cabeceras regresan estando
+# el backend caído, el embed dispara igual con un título distinto
+# ("SEO/cabeceras de producción degradados") que deja claro al
+# operador qué carril alertó.
+#
+# ─── Decisiones operativas ──────────────────────────────────────────
+#  * Cron offset 10 min respecto al carril principal (cada 30 min en
+#    `:10` y `:40`). Evita ejecutar simultáneamente y mantiene el
+#    coste GHA razonable mientras la cobertura SEO es alta.
+#  * Subset HTTP-only sin secrets sensibles (`--only` filtra a F-1
+#    headers + F-2 SEO). No depende de `INDEXNOW_KEY`; el chequeo
+#    queda como SKIP cuando la key no se inyecta.
+#  * Mismo `DISCORD_BOT_TOKEN` y mismo canal (`#exentax-errores`):
+#    los embeds llevan un título y footer distintos para que sean
+#    diferenciables a simple vista.
+#
+# Documentación: `PRODUCTION-CHECKLIST.md §F-monitor`.
+
+on:
+  schedule:
+    # Cada 30 min, offset 10 min para no solapar con live-verification.yml
+    # que corre en `*/20`.
+    - cron: "10,40 * * * *"
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Base URL a probar (default: https://exentax.com)"
+        required: false
+        default: "https://exentax.com"
+
+permissions:
+  contents: read
+
+# Carril independiente del principal: nombre de grupo distinto para
+# permitir que ambos workflows corran en paralelo sin pisarse.
+concurrency:
+  group: live-verification-seo-headers
+  cancel-in-progress: false
+
+jobs:
+  verify-seo-headers:
+    name: SEO+headers monitor + Discord alert
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    env:
+      BASE_URL: ${{ github.event.inputs.base_url || 'https://exentax.com' }}
+      # STATE_DIR distinto del workflow principal para no contaminar
+      # su máquina de estado con clasificaciones del subset SEO.
+      STATE_DIR: .live-verification-seo-state
+      REPORT_PATH: docs/internal/live-verification-seo-latest.md
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Caché propia con prefijo `live-verification-seo-state-` para
+      # mantener el estado SEO+headers separado del estado del carril
+      # principal (`live-verification-state-`).
+      - name: Restore previous SEO+headers incident state
+        id: restore_state
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.STATE_DIR }}
+          key: live-verification-seo-state-${{ github.run_id }}
+          restore-keys: |
+            live-verification-seo-state-
+
+      - name: Run live-verification.sh --only F1-headers,F2 against ${{ env.BASE_URL }}
+        id: runner
+        continue-on-error: true
+        run: |
+          mkdir -p docs/internal
+          set +e
+          bash scripts/live-verification.sh "${BASE_URL}" \
+            --only F1-headers,F2 \
+            --report "${REPORT_PATH}"
+          EXIT_CODE=$?
+          set -e
+          echo "EXIT_CODE=${EXIT_CODE}" >> "$GITHUB_OUTPUT"
+          echo "exit_code=${EXIT_CODE}"
+
+      - name: Notify Discord on transitions (SEO+headers lane)
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          LIVE_VERIFICATION_REPORT: ${{ env.REPORT_PATH }}
+          LIVE_VERIFICATION_STATE: ${{ env.STATE_DIR }}/state.json
+          LIVE_VERIFICATION_BASE_URL: ${{ env.BASE_URL }}
+          LIVE_VERIFICATION_EXIT: ${{ steps.runner.outputs.EXIT_CODE }}
+          LIVE_VERIFICATION_LANE: seo-headers
+          GITHUB_RUN_URL: ${{ format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/notify-live-verification-discord.mjs
+
+      - name: Upload SEO+headers report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-verification-seo-report
+          path: ${{ env.REPORT_PATH }}
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Save SEO+headers incident state for next cron
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.STATE_DIR }}
+          key: live-verification-seo-state-${{ github.run_id }}
+
+      - name: Surface runner exit code at job level
+        if: always()
+        run: |
+          EXIT_CODE="${{ steps.runner.outputs.EXIT_CODE }}"
+          echo "live-verification.sh (--only F1-headers,F2) exit code: ${EXIT_CODE}"
+          exit "${EXIT_CODE:-1}"

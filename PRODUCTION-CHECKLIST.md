@@ -181,33 +181,38 @@ pm2 reload exentax --update-env
 ### F-9. Lighthouse final
 - [ ] `npx -p @lhci/cli@0.13.x lhci autorun --collect.url=https://exentax.com/es --collect.url=https://exentax.com/es/blog` → Performance ≥ 0.85 · LCP < 2.5s · CLS < 0.1.
 
-### F-monitor. Monitorización continua (Discord) — Task #56
+### F-monitor. Monitorización continua (Discord) — Task #56 + Task #60
 
-El runner manual (`bash scripts/live-verification.sh https://exentax.com`) sigue siendo la forma canónica de validar a mano tras un deploy. Para que **producción se vigile sola** sin intervención humana, el repo incluye un cron de GitHub Actions que ejecuta el subset HTTP-only del runner y avisa al canal Discord `#exentax-errores` sólo cuando hay cambio de estado:
+El runner manual (`bash scripts/live-verification.sh https://exentax.com`) sigue siendo la forma canónica de validar a mano tras un deploy. Para que **producción se vigile sola** sin intervención humana, el repo incluye **dos crons** de GitHub Actions con estados independientes que avisan al canal Discord `#exentax-errores` sólo en transiciones de estado:
 
-- Workflow: [`.github/workflows/live-verification.yml`](.github/workflows/live-verification.yml) — cron `*/20 * * * *` (cada 20 min) + `workflow_dispatch` manual.
-- Notifier: [`scripts/notify-live-verification-discord.mjs`](scripts/notify-live-verification-discord.mjs) — parsea el reporte markdown del runner, clasifica el incidente y publica el embed.
-- Tests: [`scripts/notify-live-verification-discord.test.mjs`](scripts/notify-live-verification-discord.test.mjs) — `node scripts/notify-live-verification-discord.test.mjs`.
+| Carril | Workflow | Cron | Subset del runner | Estado | Embed |
+|---|---|---|---|---|---|
+| **Backend completo** | [`live-verification.yml`](.github/workflows/live-verification.yml) | `*/20 * * * *` (cada 20 min) | F-1..F-3 + F-7-metrics + F-8-lang completo (todo lo HTTP-only del runner) | `.live-verification-state/state.json` (caché `live-verification-state-`) | título "Web pública degradada / RECUPERADA / VPS no desplegado" |
+| **SEO + cabeceras** (Task #60) | [`live-verification-seo-headers.yml`](.github/workflows/live-verification-seo-headers.yml) | `10,40 * * * *` (cada 30 min, offset 10 min) | `--only F1-headers,F2` (cabeceras de seguridad + sitemap + sitemap-blog + robots + IndexNow + hreflang) | `.live-verification-seo-state/state.json` (caché `live-verification-seo-state-`) | título "SEO/cabeceras de producción degradados / RECUPERADOS" + footer `(SEO+headers)` |
 
-Política de notificación (estado persistido entre runs vía `actions/cache`):
+**¿Por qué dos carriles?** El carril principal silencia repeticiones de `vps-not-deployed` para no spammear con 9 FAILs idénticos cada 20 min mientras el VPS aún sirve un mirror estático. Eso deja invisible cualquier regresión real en ese mirror (cabeceras de seguridad desaparecidas, `robots.txt` en blanco, `sitemap.xml` servido como `<urlset>` plano, hreflang roto). El carril SEO+headers no toca `/api/health`, así que nunca cae en la heurística `vps-not-deployed`: dispara independientemente y protege las señales SEO durante toda la ventana pre-deploy.
+
+Política de notificación (estado persistido entre runs vía `actions/cache`, idéntica para ambos carriles):
 
 | Transición | Acción Discord |
 |---|---|
 | `ok → ok` | silent |
-| `ok → down` | embed RED "Web pública degradada" con top-5 FAILs |
-| `ok → vps-not-deployed` | embed RED "VPS no desplegado" (única alerta agrupada) |
-| `down → ok` o `vps-not-deployed → ok` | embed NEON "Web pública RECUPERADA" con duración del incidente |
-| `down → down` o `vps-not-deployed → vps-not-deployed` | silent (anti-spam: no spammea cada 20 min con los 9 FAILs idénticos) |
+| `ok → down` | embed RED con top-5 FAILs |
+| `ok → vps-not-deployed` | embed RED única alerta agrupada (sólo carril backend; el carril SEO+headers no genera este estado) |
+| `down → ok` o `vps-not-deployed → ok` | embed NEON RECUPERADO con duración del incidente |
+| `down → down` o `vps-not-deployed → vps-not-deployed` | silent (anti-spam) |
 | `down ↔ vps-not-deployed` | embed RED del nuevo tipo |
 | Mismo estado de fallo y `now − since > 6 h` y `now − lastDigestAt > 24 h` | embed RED "Web pública sigue degradada (digest)" con FAIL count actual y delta vs. digest anterior — Task #59 |
 
 **Digest diario para incidentes prolongados (Task #59).** El anti-spam de la regla 5 es correcto para incidentes cortos pero crea un punto ciego: si el VPS sigue caído tras la alerta inicial, el canal no recibe ningún recordatorio hasta la recuperación. Para evitarlo, cuando el estado lleva más de **6 h** estancado en `down` o `vps-not-deployed` y no se ha enviado un digest en las últimas **24 h**, el notifier publica un único embed "sigue degradada" con el FAIL count actual y la diferencia respecto al digest previo. Los umbrales viven como `DIGEST_STALE_THRESHOLD_MS` y `DIGEST_CADENCE_MS` en `scripts/notify-live-verification-discord.mjs`. El estado JSON añade dos campos opcionales (`lastDigestAt`, `lastDigestFailCount`) que se resetean automáticamente cuando cambia el estado o vuelve a `ok`.
 
+Notifier compartido: [`scripts/notify-live-verification-discord.mjs`](scripts/notify-live-verification-discord.mjs) — parsea el reporte markdown del runner, clasifica el incidente, ajusta los textos según `LIVE_VERIFICATION_LANE` (`backend` por defecto, `seo-headers` para el segundo carril) y publica el embed. Tests: `node scripts/notify-live-verification-discord.test.mjs`.
+
 Secrets necesarios en el repo (Settings → Secrets and variables → Actions):
 - `DISCORD_BOT_TOKEN` — token del bot Exentax (ya usado por `auditoria-ci-notify-discord.mjs`).
 - `DISCORD_CHANNEL_ERRORES` — ID del canal `#exentax-errores`.
 
-Si faltan, el cron sigue corriendo y publicando el reporte como artefacto (`live-verification-report`), pero no envía al canal — útil para PRs de fork o repos sin permisos.
+Si faltan, ambos crons siguen corriendo y publicando el reporte como artefacto (`live-verification-report` y `live-verification-seo-report`), pero no envían al canal — útil para PRs de fork o repos sin permisos.
 
 ---
 
