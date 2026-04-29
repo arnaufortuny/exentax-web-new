@@ -17,3 +17,5 @@ exentax-web/docs/auditoria-multiidioma/blog-translation-quality-ext.md
 # (Task #56). Never committed: it lives in actions/cache only.
 .live-verification-state/
 docs/internal/live-verification-latest.md
+.check.pid
+exentax-web/.check.pid
