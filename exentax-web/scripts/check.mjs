@@ -51,7 +51,7 @@ const REPO_ROOT = resolvePath(__dirname, "..");
 // occasionally; an out-of-date weight only hurts scheduling, never coverage.
 const STEPS = [
   { name: "blog:validate-all",            weight: 50 },
-  { name: "test:discord-neon",            weight: 37 },
+  { name: "test:discord-regression",      weight: 43 },
   { name: "tsc",                          weight: 33 },
   { name: "seo:slash",                    weight: 30 },
   { name: "audit:bundle",                 weight: 27 },
