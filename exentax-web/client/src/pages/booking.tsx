@@ -37,7 +37,10 @@ async function extractRescheduleErrorCode(err: unknown): Promise<string | null> 
       const body = JSON.parse(m[2]);
       if (body && typeof body.code === "string") return body.code;
     }
-  } catch {}
+  } catch {
+    // Defensive: error body shape is best-effort. If parsing fails we
+    // fall back to the generic toast message — never throw to the UI.
+  }
   return null;
 }
 

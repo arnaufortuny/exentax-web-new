@@ -24,7 +24,11 @@ function emit(detail: ToastDetail): void {
   if (typeof window === "undefined") return;
   try {
     window.dispatchEvent(new CustomEvent<ToastDetail>(EVENT_NAME, { detail }));
-  } catch {}
+  } catch {
+    // Defensive: CustomEvent ctor or dispatchEvent may throw on
+    // legacy browsers / SSR-hydration edge cases. A toast failure
+    // must never escalate into a render error — silently drop.
+  }
 }
 
 export const toast = {

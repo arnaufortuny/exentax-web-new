@@ -216,7 +216,8 @@ async function processCampaignBatch(campaign: typeof s.newsletterCampaigns.$infe
       SELECT COUNT(*)::int AS count FROM newsletter_campaign_jobs
       WHERE campaign_id = ${campaign.id} AND status IN ('pending','sending')
     `);
-    if (((remaining.rows[0] as any)?.count ?? 0) === 0) {
+    const remainingRow = remaining.rows[0] as { count: number } | undefined;
+    if ((remainingRow?.count ?? 0) === 0) {
       await finalizeCampaign(campaign.id);
     }
     return;

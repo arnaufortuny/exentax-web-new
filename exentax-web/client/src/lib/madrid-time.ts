@@ -26,7 +26,11 @@ export function todayMadridISO(): string {
     if (Number.isFinite(y) && Number.isFinite(m) && Number.isFinite(day)) {
       return fmtISO(y, m, day);
     }
-  } catch {}
+  } catch {
+    // Defensive: Intl.DateTimeFormat with timeZone may throw on a tiny
+    // subset of legacy browsers. Fall back to UTC ISO so we never crash
+    // a calendar render. Spanish bookings still validate server-side.
+  }
   return new Date().toISOString().split("T")[0];
 }
 

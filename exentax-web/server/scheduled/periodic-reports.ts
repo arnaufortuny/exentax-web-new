@@ -18,11 +18,29 @@
  */
 
 import { db } from "../db";
-import { sql } from "drizzle-orm";
+import { sql, type SQL } from "drizzle-orm";
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { logger } from "../logger";
 import { notifyEvent } from "../discord";
+
+// Helpers tipados para `db.execute(...)`. Centralizan el cast de
+// `QueryResult<Record<string, unknown>>` a la forma conocida de cada
+// SELECT, eliminando todos los `as any` sueltos en este archivo.
+async function execRows<T>(query: SQL): Promise<T[]> {
+  const result = await db.execute(query);
+  return result.rows as T[];
+}
+async function execCount(query: SQL): Promise<number> {
+  const rows = await execRows<{ count: number }>(query);
+  return rows[0]?.count ?? 0;
+}
+
+type LangRow = { lang: string; count: number };
+type CountryRow = { country: string; count: number };
+type PageRow = { page: string; count: number };
+type StatusRow = { status: string; count: number };
+type SourceRow = { source: string; count: number };
 
 interface PeriodRange {
   label: string;        // ej. "Semana 17 (21-27 abr)"
@@ -115,23 +133,23 @@ async function gatherMetrics(range: PeriodRange): Promise<ReportMetrics> {
   //   agenda.fecha_creacion · agenda.estado (status) · agenda.idioma_booking (language)
 
   // VISITAS — agrupadas por idioma, país (vía utm/referrer) y página
-  const visitsTotal = await db.execute(sql`
+  const visitsTotal = await execCount(sql`
     SELECT COUNT(*)::int AS count FROM visits
     WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
   `);
-  const visitsByLang = await db.execute(sql`
+  const visitsByLang = await execRows<LangRow>(sql`
     SELECT idioma AS lang, COUNT(*)::int AS count FROM visits
     WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
       AND idioma IS NOT NULL
     GROUP BY idioma ORDER BY count DESC LIMIT 6
   `);
   // No country column in visits — derive from utm_source/referrer top values as proxy
-  const visitsByCountry = await db.execute(sql`
+  const visitsByCountry = await execRows<CountryRow>(sql`
     SELECT COALESCE(utm_source, 'direct') AS country, COUNT(*)::int AS count FROM visits
     WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
     GROUP BY utm_source ORDER BY count DESC LIMIT 5
   `);
-  const topPages = await db.execute(sql`
+  const topPages = await execRows<PageRow>(sql`
     SELECT pagina AS page, COUNT(*)::int AS count FROM visits
     WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
       AND pagina IS NOT NULL
@@ -139,31 +157,31 @@ async function gatherMetrics(range: PeriodRange): Promise<ReportMetrics> {
   `);
 
   // AGENDA — totales por estado
-  const agendaTotal = await db.execute(sql`
+  const agendaTotal = await execCount(sql`
     SELECT COUNT(*)::int AS count FROM agenda
     WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
   `);
-  const agendaByStatus = await db.execute(sql`
+  const agendaByStatus = await execRows<StatusRow>(sql`
     SELECT estado AS status, COUNT(*)::int AS count FROM agenda
     WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
     GROUP BY estado
   `);
   // Source proxy = idioma_booking (no source column in agenda)
-  const agendaBySource = await db.execute(sql`
+  const agendaBySource = await execRows<SourceRow>(sql`
     SELECT COALESCE(idioma_booking, 'es') AS source, COUNT(*)::int AS count FROM agenda
     WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
     GROUP BY idioma_booking ORDER BY count DESC LIMIT 6
   `);
 
   // LEADS (tabla leads): col `fuente` = source, `fecha_creacion` = createdAt
-  let leadsTotal = { rows: [{ count: 0 }] as any };
-  let leadsBySource = { rows: [] as any };
+  let leadsTotal = 0;
+  let leadsBySource: SourceRow[] = [];
   try {
-    leadsTotal = await db.execute(sql`
+    leadsTotal = await execCount(sql`
       SELECT COUNT(*)::int AS count FROM leads
       WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
     `);
-    leadsBySource = await db.execute(sql`
+    leadsBySource = await execRows<SourceRow>(sql`
       SELECT COALESCE(fuente, 'unknown') AS source, COUNT(*)::int AS count FROM leads
       WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
       GROUP BY fuente ORDER BY count DESC LIMIT 5
@@ -173,14 +191,14 @@ async function gatherMetrics(range: PeriodRange): Promise<ReportMetrics> {
   }
 
   // NEWSLETTER (newsletter_subscribers): `fecha_creacion`, `unsubscribed_at`
-  let nlSubs = { rows: [{ count: 0 }] as any };
-  let nlUnsubs = { rows: [{ count: 0 }] as any };
+  let nlSubs = 0;
+  let nlUnsubs = 0;
   try {
-    nlSubs = await db.execute(sql`
+    nlSubs = await execCount(sql`
       SELECT COUNT(*)::int AS count FROM newsletter_subscribers
       WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
     `);
-    nlUnsubs = await db.execute(sql`
+    nlUnsubs = await execCount(sql`
       SELECT COUNT(*)::int AS count FROM newsletter_subscribers
       WHERE unsubscribed_at >= ${range.startSQL} AND unsubscribed_at <= ${range.endSQL}
     `);
@@ -189,9 +207,9 @@ async function gatherMetrics(range: PeriodRange): Promise<ReportMetrics> {
   }
 
   // CALCULADORA — número de cálculos en período (calculations.fecha_creacion)
-  let calcRuns = { rows: [{ count: 0 }] as any };
+  let calcRuns = 0;
   try {
-    calcRuns = await db.execute(sql`
+    calcRuns = await execCount(sql`
       SELECT COUNT(*)::int AS count FROM calculations
       WHERE fecha_creacion >= ${range.startSQL}::timestamptz AND fecha_creacion <= ${range.endSQL}::timestamptz
     `);
@@ -204,37 +222,37 @@ async function gatherMetrics(range: PeriodRange): Promise<ReportMetrics> {
     pending: 0, contacted: 0, confirmed: 0, in_progress: 0, completed: 0,
     closed: 0, cancelled: 0, rescheduled: 0, no_show: 0,
   };
-  for (const row of agendaByStatus.rows as Array<{ status: string; count: number }>) {
+  for (const row of agendaByStatus) {
     if (row.status) statusMap[row.status] = row.count;
   }
 
   return {
     visits: {
-      total: (visitsTotal.rows[0] as any)?.count ?? 0,
-      byLanguage: visitsByLang.rows as any,
-      byCountry: visitsByCountry.rows as any,
-      topPages: topPages.rows as any,
+      total: visitsTotal,
+      byLanguage: visitsByLang,
+      byCountry: visitsByCountry,
+      topPages: topPages,
     },
     agenda: {
-      total: (agendaTotal.rows[0] as any)?.count ?? 0,
+      total: agendaTotal,
       pending: statusMap.pending,
       confirmed: statusMap.confirmed,
       cancelled: statusMap.cancelled,
       rescheduled: statusMap.rescheduled,
       noShow: statusMap.no_show,
       completed: statusMap.completed,
-      bySource: agendaBySource.rows as any,
+      bySource: agendaBySource,
     },
     leads: {
-      total: (leadsTotal.rows[0] as any)?.count ?? 0,
-      bySource: leadsBySource.rows as any,
+      total: leadsTotal,
+      bySource: leadsBySource,
     },
     newsletter: {
-      subscriptions: (nlSubs.rows[0] as any)?.count ?? 0,
-      unsubscribes: (nlUnsubs.rows[0] as any)?.count ?? 0,
+      subscriptions: nlSubs,
+      unsubscribes: nlUnsubs,
     },
     calculator: {
-      executions: (calcRuns.rows[0] as any)?.count ?? 0,
+      executions: calcRuns,
     },
   };
 }
