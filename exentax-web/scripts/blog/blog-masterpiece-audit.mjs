@@ -245,10 +245,24 @@ export function findYearsInProse(body, slug = "") {
     /\b(?:202[3-9]|203\d)[\-\/]\d{1,2}[\-\/]\d{1,2}\b/g,
     // Brazilian / Portuguese law refs: "Lei nº 14.754/2024", "Decreto-Lei nº 53/2024"
     /\b(?:Lei|Decreto|Decreto[-\s]Lei|MP|Medida\s+Provis[óo]ria|Portaria|Resolu[çc][ãa]o|IN|Instru[çc][ãa]o\s+Normativa)\s*(?:RFB|SRF)?\s*(?:n[\.\s]*[º°]\.?)?\s*[\d.]+\/(?:202[3-9]|203\d)\b/gi,
-    // German fiscal-year terms: "Geschäftsjahr 2024", "Geschäftsjahrs 2025"
-    /\bGesch[äa]ftsjahr[se]?\s+(?:202[3-9]|203\d)\b/gi,
+    // German fiscal-year terms: "Geschäftsjahr 2024", "Geschäftsjahrs 2025",
+    // "Geschäftsjahre 2024-2025", "Geschäftsjahres 2026" (genitive). The
+    // genitive "-es" suffix (Task #13) was missing from the original
+    // `[se]?` class, so "des Geschäftsjahres 2026" leaked through and
+    // counted as editorial prose during Lote 8.
+    /\bGesch[äa]ftsjahr(?:es|s|e)?\s+(?:202[3-9]|203\d)\b/gi,
     // ES/EN/FR/PT/CA fiscal-year terms with optional "fiscal" / "de" separator
     /\b(?:exercice|exerc[ií]cio|exercici|ejercicio|fiscal\s+year|tax\s+year|a[ñn]o\s+fiscal|a[ñn]y\s+fiscal|année\s+fiscale|ano\s+fiscal)\s+(?:fiscal\s+)?(?:de\s+|del\s+|du\s+|do\s+)?(?:202[3-9]|203\d)\b/gi,
+    // EN: "YYYY reporting-year" / "YYYY reporting year" (year BEFORE the
+    // reporting-year noun, e.g. "January 2027, on 2026 reporting-year
+    // data"). This sits next to the existing "tax year YYYY" exemption
+    // because reporting-year and tax-year describe the same fiscal-window
+    // anchor. Task #13 added this pattern after Lote 8 leaked six such
+    // mentions through the audit.
+    /\b(?:202[3-9]|203\d)[\-\s]reporting[\-\s]year\b/gi,
+    // EN: "reporting-year YYYY" / "reporting year YYYY" (year AFTER, the
+    // mirror form used in reporting calendars).
+    /\breporting[\-\s]year\s+(?:202[3-9]|203\d)\b/gi,
     // German "ab YYYY" (since YYYY) / "seit YYYY"
     /\b(?:ab|seit|im\s+(?:Jahr|Sommer|Herbst|Fr[üu]hjahr|Winter)|im)\s+(?:202[3-9]|203\d)\b/gi,
     // Tax brackets: "X % en YYYY" / "X€ en YYYY" (rates/figures anchored to a tax year)

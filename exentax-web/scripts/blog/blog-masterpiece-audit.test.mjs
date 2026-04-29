@@ -142,6 +142,21 @@ const FIXTURES = [
   { name: "pt: 'Decreto-Lei nº 53/2024'", text: "O Decreto-Lei nº 53/2024 transpõe a diretiva europeia.", expect: 0 },
   // German Geschäftsjahr YYYY
   { name: "de: 'Geschäftsjahr 2024'", text: "Für das Geschäftsjahr 2024 gilt der neue Satz.", expect: 0 },
+  // German genitive Geschäftsjahres YYYY (Task #13: leaked through Lote 8
+  // because the original `[se]?` class did not include the "-es" suffix).
+  { name: "de: 'Geschäftsjahres 2026' genitive", text: "Der erste Austausch erfolgt im Januar 2027 über die Daten des Geschäftsjahres 2026.", expect: 0 },
+  // German plural Geschäftsjahre YYYY (already worked, but pinned alongside
+  // the genitive so a future tightening cannot drop the plural form).
+  { name: "de: 'Geschäftsjahre 2025'", text: "Die Geschäftsjahre 2025 unterliegen dem neuen Standard.", expect: 0 },
+  // English "YYYY reporting-year" (Task #13: six instances slipped into
+  // Lote 8 because the rule only recognised "tax year YYYY", not the
+  // mirror "YYYY reporting-year" wording used in CRS / DAC8 calendars).
+  { name: "en: '2026 reporting-year' (year before)", text: "First effective exchange lands in January 2027, on 2026 reporting-year data.", expect: 0 },
+  // English space variant: "2026 reporting year"
+  { name: "en: '2026 reporting year' (no hyphen)", text: "The first exchange covers 2026 reporting year data sets.", expect: 0 },
+  // English mirror: "reporting-year YYYY"
+  { name: "en: 'reporting-year 2026' (year after)", text: "Authorities will receive reporting-year 2026 data on schedule.", expect: 0 },
+  { name: "en: 'reporting year 2026' (no hyphen, year after)", text: "The submission covers reporting year 2026 in full.", expect: 0 },
   // German "ab YYYY" / "seit YYYY"
   { name: "de: 'ab 2025'", text: "Ab 2025 gilt die neue Reichensteuer für Spitzenverdiener.", expect: 0 },
   // Tax brackets anchored to a year
