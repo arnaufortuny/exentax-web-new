@@ -24,8 +24,10 @@
  * Run: `npx tsx scripts/discord/test-discord-bot-buttons.ts`
  */
 
-import { fileURLToPath } from "node:url";
-import { dirname, resolve } from "node:path";
+// MUST be the first import: pins DISCORD_QUEUE_BACKEND=memory before
+// any code path can load server/discord.ts, and exposes the shared
+// importDiscordModule() helper that asserts the module surface.
+import { importDiscordModule } from "./__test-utils";
 
 const AGENDA_CHANNEL_ID = "100000000000000004";
 process.env.DISCORD_BOT_TOKEN                = "test-bot-token";
@@ -65,7 +67,7 @@ function fail(msg: string): never {
 }
 
 async function main() {
-  const d = await import(resolve(dirname(fileURLToPath(import.meta.url)), "..", "server", "discord.ts"));
+  const d = await importDiscordModule();
 
   d.notifyBookingCreated({
     bookingId: "bk_buttons_create",
