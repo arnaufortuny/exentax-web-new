@@ -80,10 +80,24 @@ type BlogOG = { slug: string; ogTitle: string; ogDescription: string };
 //   * `--scope=metadata` adds blog title/excerpt/metaTitle/metaDescription/keywords
 //   * `--scope=body` adds the markdown body of every blog content file
 // Both scopes are opt-in (comma-separated, also supports `--scope=all`).
-// The default invocation (`npm run seo:meta`) keeps the existing OG-only
-// behaviour so shipped content keeps passing CI without further allowlist
-// churn. Per-token counts are now bucketed by scope and by language so a
+// Per-token counts are now bucketed by scope and by language so a
 // regression can be triaged at PR time without re-running the report.
+//
+// Task 50 (CI promotion): `npm run seo:meta` now invokes this script with
+// `--scope=all` so the build also fails when an anglicism leaks into the
+// indexed copy that Google actually shows in search results — i.e. the
+// blog title/excerpt/metaTitle/metaDescription/keywords (`metadata` scope)
+// and the article markdown body (`body` scope), not just OG/Twitter
+// previews. Per-scope invocations remain available for ad-hoc triage:
+//   tsx scripts/seo/verify-meta.ts --scope=all     # what CI runs
+//   tsx scripts/seo/verify-meta.ts                 # OG-only (legacy default)
+//   tsx scripts/seo/verify-meta.ts --scope=metadata
+//   tsx scripts/seo/verify-meta.ts --scope=body
+//   tsx scripts/seo/verify-meta.ts --scope=og,metadata
+// The bare-invocation default below is intentionally still `og` so any
+// external caller (or a developer running the script directly without
+// `--scope=...`) keeps the task 17/21 behaviour; CI promotion lives in
+// package.json which always passes `--scope=all`.
 const ANGLICISM_LANGS: Lang[] = ["fr", "de", "pt", "ca"];
 
 type AnglicismScope = "og" | "metadata" | "body";
