@@ -3,29 +3,38 @@
  * (0x00E510). Brand policy — no other colour is permitted.
  *
  * Strategy:
- *  1. Set dummy bot-token + channel-ID env vars so `send()` actually enqueues payloads.
- *  2. Stub global `fetch` to capture every outgoing Discord payload.
- *  3. Invoke every public notify* wrapper with minimally valid options.
- *  4. Wait for the queue to drain, then assert every captured embed has
- *     `color === 0x00E510`.
- *  5. Also assert the source no longer references the legacy multi-color
- *     palette (`COLOR.RED`, `CRITICALITY_COLOR`, etc.).
+ *  1. Import `__test-utils` FIRST so `DISCORD_QUEUE_BACKEND=memory` is
+ *     pinned before `server/discord.ts` is loaded — otherwise the test
+ *     would race the persistent Postgres-backed queue and dedup state
+ *     persisted by previous runs would silently swallow embeds.
+ *  2. Set dummy bot-token + channel-ID env vars so `send()` actually
+ *     enqueues payloads.
+ *  3. Stub global `fetch` to capture every outgoing Discord payload.
+ *  4. Invoke every public notify* wrapper with minimally valid options.
+ *  5. Wait for the queue to drain, then assert:
+ *       (a) the imported module exposes every symbol the test relies on
+ *           (regression guard against the off-by-one path bug fixed in
+ *           task #68),
+ *       (b) the captured count matches the expected total exactly,
+ *       (c) every captured embed has `color === 0x00E510`,
+ *       (d) the source no longer references the legacy multi-colour
+ *           palette (`COLOR.RED`, `CRITICALITY_COLOR`, etc.).
  *
  * Run: `npx tsx scripts/discord/test-discord-neon.ts`
  */
 
-import { readFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
-import { dirname, resolve } from "node:path";
+// MUST be the first import: pins DISCORD_QUEUE_BACKEND=memory before
+// any code path can load server/discord.ts.
+import {
+  EXENTAX_NEON,
+  DISCORD_MODULE_PATH,
+  importDiscordModule,
+} from "./__test-utils";
 
-const EXENTAX_NEON = 0x00E510;
+import { readFileSync } from "node:fs";
 
 // ─── 1. Webhook env (must exist before importing discord.ts) ─────────────
 // These names must match `CHANNEL_ENV` in server/discord.ts exactly.
-// Force the in-memory queue backend so the test does not depend on a Postgres
-// connection or on dedup state persisted from a previous run (the colour
-// policy assertions are pure runtime checks against the captured payloads).
-process.env.DISCORD_QUEUE_BACKEND            = "memory";
 process.env.DISCORD_BOT_TOKEN                = "test-bot-token";
 process.env.DISCORD_CHANNEL_REGISTROS        = "100000000000000001";
 process.env.DISCORD_CHANNEL_CALCULADORA      = "100000000000000002";
@@ -53,12 +62,37 @@ global.fetch = (async (_url: string | URL | Request, init?: RequestInit) => {
       }
     }
   } catch { /* ignore */ }
-  return new Response("", { status: 204 });
+  // 204 No Content — the Response constructor rejects a body for 204 in
+  // Node 18+, so we MUST pass `null`. Returning a non-OK / throwing
+  // response would push every send through the retry path and make the
+  // captured count depend on retry timing instead of the (deterministic)
+  // notify* fan-out.
+  return new Response(null, { status: 204 });
 }) as unknown as typeof fetch;
+
+// Expected total embed count produced by exercising every notify* wrapper
+// below. With a successful (204) fetch stub each wrapper produces exactly
+// one captured embed (no retries), so the count maps 1:1 to the wrapper
+// invocations in `main()`. If a new notify* call is added — or one of
+// the wrappers below changes its embed-partition behaviour — bump this
+// constant deliberately.
+//
+// NOTE: an earlier revision of this script returned a Response that
+// threw at construction time, which forced every send through 3 retries
+// and produced a non-deterministic count between runs (observed 23, 30,
+// 35 on the same input). Fixing the stub gives us a clean fixed count.
+const EXPECTED_EMBEDS = 14;
+
+const formatHex = (n: number | null | undefined): string =>
+  `0x${(n ?? 0).toString(16).padStart(6, "0").toUpperCase()}`;
 
 // ─── 3. Invoke every notify* wrapper ─────────────────────────────────────
 async function main() {
-  const d = await import(resolve(dirname(fileURLToPath(import.meta.url)), "..", "..", "server", "discord.ts"));
+  // Loads the discord module via the helper, which also asserts every
+  // symbol below is exported. If the import path ever drifts the helper
+  // throws here with an actionable error instead of letting the test
+  // crash deep inside `d.notifyBookingCreated is not a function`.
+  const d = await importDiscordModule();
 
   const baseBooking = {
     bookingId: "bk_test_1",
@@ -132,48 +166,54 @@ async function main() {
     source: "indexnow", status: "failed", title: "Sitemap failed",
   });
 
-  // The FIFO queue drains exactly one item per DRAIN_INTERVAL_MS (1.5 s).
-  // 14 wrappers → ~21 s worst-case; poll the exposed queue size and wait
-  // up to a hard cap so the test stays bounded even if something stalls.
-  const HARD_CAP_MS = 35_000;
+  // The FIFO queue drains exactly one item per DRAIN_INTERVAL_MS (1.5 s)
+  // and may schedule retries on transient errors. Poll the exposed queue
+  // size and the captured count, with a hard cap so the test stays
+  // bounded if something stalls.
+  const HARD_CAP_MS = 45_000;
   const start = Date.now();
   while (Date.now() - start < HARD_CAP_MS) {
-    if (d.getDiscordQueueSize() === 0 && captured.length >= 14) break;
+    if (d.getDiscordQueueSize() === 0 && captured.length >= EXPECTED_EMBEDS) break;
     await new Promise((r) => setTimeout(r, 500));
   }
   // One final beat to let the last in-flight send resolve.
   await new Promise((r) => setTimeout(r, 500));
 
   // ─── 4. Assertions ─────────────────────────────────────────────────────
-  if (captured.length === 0) {
-    throw new Error("No Discord payloads captured — test stub is misconfigured.");
-  }
-
-  // Coverage guard: every notify* wrapper invoked above must produce at
-  // least one captured embed. We exercise 14 wrappers; some events share a
-  // dedupKey window so we require a conservative minimum rather than an
-  // exact count, but still high enough to fail loudly if the queue stops
-  // draining or if a wrapper silently no-ops.
-  const MIN_EXPECTED = 14;
-  if (captured.length < MIN_EXPECTED) {
-    console.error(`❌ Only ${captured.length} embeds captured — expected at least ${MIN_EXPECTED}.`);
-    console.error("   Captured titles:");
-    for (const e of captured) console.error(`     • ${e.title}`);
+  if (captured.length !== EXPECTED_EMBEDS) {
+    console.error(
+      `\n❌ Captured ${captured.length} Discord embed(s), expected exactly ${EXPECTED_EMBEDS}.`,
+    );
+    console.error(
+      `   queueSize=${d.getDiscordQueueSize()} after ${Date.now() - start}ms; titles captured:`,
+    );
+    if (captured.length === 0) {
+      console.error("     (none — fetch stub may be misconfigured or the queue never drained)");
+    } else {
+      for (const e of captured) {
+        console.error(`     • color=${formatHex(e.color)}  title="${e.title ?? ""}"`);
+      }
+    }
+    console.error(
+      `   If a notify* wrapper was added/removed deliberately, update EXPECTED_EMBEDS.`,
+    );
     process.exit(1);
   }
 
   const offenders = captured.filter((e) => e.color !== EXENTAX_NEON);
   if (offenders.length > 0) {
-    console.error("\n❌ Discord neon policy VIOLATED. Non-neon embeds:");
+    console.error(
+      `\n❌ Discord neon policy VIOLATED — every embed must be ${formatHex(EXENTAX_NEON)}.`,
+    );
+    console.error(`   ${offenders.length}/${captured.length} embed(s) used a non-neon colour:`);
     for (const e of offenders) {
-      console.error(`   color=0x${(e.color ?? 0).toString(16).padStart(6, "0").toUpperCase()}  title="${e.title}"`);
+      console.error(`     • color=${formatHex(e.color)}  title="${e.title ?? ""}"`);
     }
     process.exit(1);
   }
 
   // ─── 5. Static guard: legacy palette must be gone ──────────────────────
-  const here = dirname(fileURLToPath(import.meta.url));
-  const rawSrc = readFileSync(resolve(here, "..", "..", "server", "discord.ts"), "utf8");
+  const rawSrc = readFileSync(DISCORD_MODULE_PATH, "utf8");
   // Strip line comments and block comments before scanning so that explanatory
   // text mentioning the legacy palette doesn't trigger a false positive.
   const src = rawSrc
@@ -201,7 +241,9 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`✅ Discord neon policy OK — ${captured.length} embeds captured, all 0x00E510.`);
+  console.log(
+    `✅ Discord neon policy OK — ${captured.length} embeds captured (expected ${EXPECTED_EMBEDS}), all ${formatHex(EXENTAX_NEON)}.`,
+  );
   global.fetch = realFetch;
   process.exit(0);
 }
