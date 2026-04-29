@@ -16,8 +16,17 @@
 
 - **Impacto**: deploy / despliegue (no se puede declarar `producción VIVO` sin esto).
 - **Bloquea**: sólo el último kilómetro · NO bloquea integración a `main`.
-- **Comandos exactos**: ver [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden) — F-1 health, F-2 SEO, F-3 seguridad (CSRF + rate-limit + field encryption), F-4 E2E con DB real (booking + newsletter + calculator + indexnow), F-5 Discord (bot online, `/agenda`, `/cita`, embeds en `#exentax-agenda` y `#exentax-auditoria`), F-6 Calendar/Meet/Email, F-7 métricas Prometheus + UptimeRobot, F-8 frontend smoke 6 idiomas + responsive, F-9 Lighthouse Performance ≥ 0.85 / LCP < 2.5s / CLS < 0.1.
+- **Estado snapshot 2026-04-29 (Task #48)**: probado contra `https://exentax.com` → **PASS=1 · FAIL=9 · SKIP=16**. Confirma que el dominio sirve hoy un mirror estático antiguo en Google Frontend (no la app Express): `/api/*` 404, `/sitemap.xml` es `urlset` suelto sin `<loc>`, headers sin CSP/XFO/Referrer-Policy. La sandbox `localhost:5000` valida que el código está 100% listo (health/ready 200, CSRF 403, sitemap-index con 672 posts, 6 idiomas 200). **No queda nada por hacer a nivel código**; queda el trabajo operativo descrito en [`docs/internal/LIVE-VERIFICATION-2026-04-29.md §5`](docs/internal/LIVE-VERIFICATION-2026-04-29.md).
+- **Runner que automatiza F-1..F-9**: [`scripts/live-verification.sh`](scripts/live-verification.sh) (Task #48). Una vez la VPS está viva con secrets cargados:
+  ```bash
+  bash scripts/live-verification.sh https://exentax.com \
+    --metrics-token "$METRICS_TOKEN" --indexnow-key "$INDEXNOW_KEY" \
+    --report docs/internal/live-verification-$(date +%F).md
+  ```
+  Sale `0` cuando no hay FAIL, imprime tabla por sección F-1..F-9 y un reporte markdown con detalle por check. Cubre todo lo automatizable vía HTTP; los SKIP llevan el comando manual exacto (psql para field encryption, slash-commands Discord, `lhci autorun`, etc.).
+- **Comandos exactos completos**: ver [`PRODUCTION-CHECKLIST.md §F`](PRODUCTION-CHECKLIST.md#f-smoke-tests-post-deploy-en-orden) — F-1 health, F-2 SEO, F-3 seguridad (CSRF + rate-limit + field encryption), F-4 E2E con DB real (booking + newsletter + calculator + indexnow), F-5 Discord (bot online, `/agenda`, `/cita`, embeds en `#exentax-agenda` y `#exentax-auditoria`), F-6 Calendar/Meet/Email, F-7 métricas Prometheus + UptimeRobot, F-8 frontend smoke 6 idiomas + responsive, F-9 Lighthouse Performance ≥ 0.85 / LCP < 2.5s / CLS < 0.1.
 - **Secrets requeridos antes del primer arranque**: `DATABASE_URL`, `FIELD_ENCRYPTION_KEY` (`openssl rand -hex 32`), `GOOGLE_SERVICE_ACCOUNT_KEY`, los 5 IDs Discord (`BOT_TOKEN`, `PUBLIC_KEY`, `APP_ID`, `GUILD_ID`, `ADMIN_DISCORD_ROLE_ID`) y los 5 channel IDs (`REGISTROS`, `AGENDA`, `CONSENTIMIENTOS`, `AUDITORIA`, `ERRORES`). Lista canónica en [`PRODUCTION-CHECKLIST.md §B`](PRODUCTION-CHECKLIST.md#b-variables-de-entorno-resumen).
+- **Bloqueadores operativos (no de código)** que deben completarse para que F-1..F-9 pase: 1) provisionar VPS Hostinger, 2) DNS `exentax.com`/`www` → IP del VPS (retirar mirror estático actual), 3) crear Discord app + Google Cloud SA + UptimeRobot, 4) cargar `.env` en VPS, 5) `npm ci` + `db:push` + `build` + `pm2 start`, 6) Nginx + Certbot, 7) ejecutar el runner, 8) cumplir los SKIP manuales (E2E, Discord, Calendar/Meet, UptimeRobot, Lighthouse). Detalle paso a paso en [`docs/internal/LIVE-VERIFICATION-2026-04-29.md`](docs/internal/LIVE-VERIFICATION-2026-04-29.md).
 
 ### #1.5 — Drift `lint:pt-pt`: brasileñismo "arquivo" en catálogo bridge v2 (LOTE 7)
 
