@@ -181,6 +181,31 @@ pm2 reload exentax --update-env
 ### F-9. Lighthouse final
 - [ ] `npx -p @lhci/cli@0.13.x lhci autorun --collect.url=https://exentax.com/es --collect.url=https://exentax.com/es/blog` → Performance ≥ 0.85 · LCP < 2.5s · CLS < 0.1.
 
+### F-monitor. Monitorización continua (Discord) — Task #56
+
+El runner manual (`bash scripts/live-verification.sh https://exentax.com`) sigue siendo la forma canónica de validar a mano tras un deploy. Para que **producción se vigile sola** sin intervención humana, el repo incluye un cron de GitHub Actions que ejecuta el subset HTTP-only del runner y avisa al canal Discord `#exentax-errores` sólo cuando hay cambio de estado:
+
+- Workflow: [`.github/workflows/live-verification.yml`](.github/workflows/live-verification.yml) — cron `*/20 * * * *` (cada 20 min) + `workflow_dispatch` manual.
+- Notifier: [`scripts/notify-live-verification-discord.mjs`](scripts/notify-live-verification-discord.mjs) — parsea el reporte markdown del runner, clasifica el incidente y publica el embed.
+- Tests: [`scripts/notify-live-verification-discord.test.mjs`](scripts/notify-live-verification-discord.test.mjs) — `node scripts/notify-live-verification-discord.test.mjs`.
+
+Política de notificación (estado persistido entre runs vía `actions/cache`):
+
+| Transición | Acción Discord |
+|---|---|
+| `ok → ok` | silent |
+| `ok → down` | embed RED "Web pública degradada" con top-5 FAILs |
+| `ok → vps-not-deployed` | embed RED "VPS no desplegado" (única alerta agrupada) |
+| `down → ok` o `vps-not-deployed → ok` | embed NEON "Web pública RECUPERADA" con duración del incidente |
+| `down → down` o `vps-not-deployed → vps-not-deployed` | silent (anti-spam: no spammea cada 20 min con los 9 FAILs idénticos) |
+| `down ↔ vps-not-deployed` | embed RED del nuevo tipo |
+
+Secrets necesarios en el repo (Settings → Secrets and variables → Actions):
+- `DISCORD_BOT_TOKEN` — token del bot Exentax (ya usado por `auditoria-ci-notify-discord.mjs`).
+- `DISCORD_CHANNEL_ERRORES` — ID del canal `#exentax-errores`.
+
+Si faltan, el cron sigue corriendo y publicando el reporte como artefacto (`live-verification-report`), pero no envía al canal — útil para PRs de fork o repos sin permisos.
+
 ---
 
 ## G. Cron jobs y workers

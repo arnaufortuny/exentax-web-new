@@ -90,6 +90,13 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 > Las gates avanzadas que dependen de pasadas previas del LOTE (`seo:meta`, `blog:validate-all`, `i18n:check`, `lint:i18n-extended`, `audit:conversion --strict`) siguen verdes en sus branches respectivos (LOTES 1, 5, 6/6b, 7) y los reportes correspondientes están bajo `exentax-web/reports/`. La consolidación final de los outputs literales se hará en el downstream task `lote-final-revision-report` (`REVISION-FINAL-REPORT.md`).
 
+### Tooling — Monitorización continua live-verification (Task #56)
+
+- **Nuevo workflow GitHub Actions** [`.github/workflows/live-verification.yml`](.github/workflows/live-verification.yml): cron `*/20 * * * *` ejecuta `bash scripts/live-verification.sh https://exentax.com` (subset HTTP-only) y publica un embed en `#exentax-errores` cuando el estado de la web pública cambia. También expone `workflow_dispatch` con input `base_url` para probarlo a mano contra cualquier dominio.
+- **Nuevo notifier** [`scripts/notify-live-verification-discord.mjs`](scripts/notify-live-verification-discord.mjs): parsea el reporte markdown del runner, clasifica el incidente en `ok` / `down` / `vps-not-deployed` y decide la acción Discord en función del estado anterior persistido vía `actions/cache`. Cumple los AC del task: alerta inicial al detectarse FAIL, embed RECUPERADO con duración del incidente al volver a verde, y agrupación de la situación "VPS aún no desplegado" en una única alerta (no spammea cada 20 min con los 9 FAILs idénticos cuando `/api/health` y `/api/health/ready` devuelven 404). Reutiliza la paleta y política de brand Discord (`EXENTAX_NEON` / `EXENTAX_RED`, sin emojis, footer `Exentax · CI · live-verification`) ya canónica en `exentax-web/scripts/audit/auditoria-ci-notify-discord.mjs`.
+- **Tests** [`scripts/notify-live-verification-discord.test.mjs`](scripts/notify-live-verification-discord.test.mjs): 22 assertions sobre `parseReport`, `classifyIncident`, `decideAction`, `formatDuration` y `buildEmbed` (matriz completa de transiciones de estado + sanity de paleta y ausencia de emojis). `node scripts/notify-live-verification-discord.test.mjs` → **22 passed, 0 failed**.
+- **Documentación** en [`PRODUCTION-CHECKLIST.md §F-monitor`](PRODUCTION-CHECKLIST.md#f-monitor-monitorización-continua-discord--task-56) — tabla de transiciones + secrets requeridos (`DISCORD_BOT_TOKEN`, `DISCORD_CHANNEL_ERRORES`).
+
 ## [Unreleased] — 2026-04-28
 
 ### Cleanup Task #3 — Limpieza estructural del repo (legacy, huérfanos, docs duplicados)

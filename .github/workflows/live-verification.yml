@@ -1,0 +1,166 @@
+name: Live verification (production smoke + Discord alert)
+
+# Cron periódico que verifica que `https://exentax.com` está sano
+# usando el runner `scripts/live-verification.sh` (entregado en Task #48,
+# cubre F-1..F-9 de `PRODUCTION-CHECKLIST.md §F`). Cuando hay regresión
+# (`exit != 0` o `FAIL > 0`) publica un embed en `#exentax-errores` vía
+# `scripts/notify-live-verification-discord.mjs` (Task #56).
+#
+# ─── DECISIONES DE DISEÑO ────────────────────────────────────────────
+#
+# 1. **Subset HTTP-only**.
+#    El runner ya emite SKIP en F-4 (E2E con DB), F-5 (Discord runtime),
+#    F-6 (Calendar/Meet), F-7 UptimeRobot, F-8 responsive, F-9 Lighthouse:
+#    no son automatizables vía curl. El cron usa el modo HTTP-only por
+#    defecto (sin pasar `--metrics-token` ni `--indexnow-key`) para no
+#    requerir secrets sensibles en este job y mantenerlo idempotente.
+#
+# 2. **Periodicidad: cada 20 min**.
+#    El task pide 15-30 min. 20 min equilibra detección rápida con coste
+#    de runner-minutes en GHA y respeta el rate-limit del propio sitio
+#    (la batería de F-3 lanza 220 GETs a `/api/health` para validar el
+#    rate-limit; con 3 ejecuciones por hora son ~660 reqs/hora, dentro
+#    del presupuesto del rate-limit global 200/min).
+#
+# 3. **Anti-spam vía estado persistente** (cumple el AC del task que
+#    pide "no spammear cada 15 min con 9 FAILs idénticos cuando el VPS
+#    aún no está desplegado"):
+#    El notifier mantiene un fichero `.live-verification-state/state.json`
+#    con `{ status, since, lastFailCount }`. Persistimos el fichero
+#    entre runs vía `actions/cache` (clave única por run + restore-keys
+#    con prefijo común para recuperar el último). Solo notificamos en
+#    transiciones de estado (`ok ↔ down ↔ vps-not-deployed`), no en
+#    repeticiones del mismo fallo.
+#
+# 4. **Recuperación con duración**.
+#    Cuando el estado vuelve a `ok`, el embed RECUPERADO incluye la
+#    duración `now - prev.since` formateada (e.g. "2 h 13 min").
+#
+# 5. **Sin secrets en PRs de fork**.
+#    `secrets.DISCORD_BOT_TOKEN` y `DISCORD_CHANNEL_ERRORES` sólo están
+#    disponibles en runs `schedule` / `workflow_dispatch` del repo
+#    canónico. El notifier sale `0` sin enviar nada si el token falta
+#    (mismo patrón que `auditoria-ci-notify-discord.mjs`).
+#
+# Documentación operativa: `PRODUCTION-CHECKLIST.md §F` (sección al
+# final con "Monitorización continua").
+
+on:
+  schedule:
+    # Cada 20 minutos. Cron en UTC — el runner es agnóstico a TZ.
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Base URL a probar (default: https://exentax.com)"
+        required: false
+        default: "https://exentax.com"
+
+permissions:
+  contents: read
+
+# Una sola ejecución de live-verification activa a la vez. Si el cron
+# anterior se solapa (no debería con cron 20 min y runs ~2 min), el
+# nuevo espera. Evita corromper el estado persistido en caché.
+concurrency:
+  group: live-verification
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    name: Live verification + Discord alert
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      BASE_URL: ${{ github.event.inputs.base_url || 'https://exentax.com' }}
+      STATE_DIR: .live-verification-state
+      REPORT_PATH: docs/internal/live-verification-latest.md
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Restaurar estado anterior. Usamos un sufijo `${{ github.run_id }}`
+      # único para el `key` (forzado save) y un `restore-keys` con
+      # prefijo para recuperar el último estado guardado por cualquier
+      # run anterior. Si no hay caché previa, el notifier asume "primera
+      # ejecución" (ver decideAction sin estado previo).
+      - name: Restore previous incident state
+        id: restore_state
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.STATE_DIR }}
+          key: live-verification-state-${{ github.run_id }}
+          restore-keys: |
+            live-verification-state-
+
+      - name: Run live-verification.sh against ${{ env.BASE_URL }}
+        id: runner
+        # `continue-on-error` para que el step de notificación SIEMPRE
+        # se ejecute (necesitamos disparar el embed precisamente cuando
+        # el runner sale con exit 1). El outcome del job se calcula al
+        # final con un step que re-emite el exit code real.
+        continue-on-error: true
+        run: |
+          mkdir -p docs/internal
+          set +e
+          bash scripts/live-verification.sh "${BASE_URL}" --report "${REPORT_PATH}"
+          EXIT_CODE=$?
+          set -e
+          echo "EXIT_CODE=${EXIT_CODE}" >> "$GITHUB_OUTPUT"
+          echo "exit_code=${EXIT_CODE}"
+
+      - name: Notify Discord on transitions (down / recovery / vps-not-deployed)
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          LIVE_VERIFICATION_REPORT: ${{ env.REPORT_PATH }}
+          LIVE_VERIFICATION_STATE: ${{ env.STATE_DIR }}/state.json
+          LIVE_VERIFICATION_BASE_URL: ${{ env.BASE_URL }}
+          LIVE_VERIFICATION_EXIT: ${{ steps.runner.outputs.EXIT_CODE }}
+          GITHUB_RUN_URL: ${{ format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/notify-live-verification-discord.mjs
+
+      # Subir el reporte como artefacto SIEMPRE — útil para auditar
+      # qué se midió en cada cron, y enlazado desde el embed Discord
+      # (campo "Run").
+      - name: Upload live-verification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-verification-report
+          path: ${{ env.REPORT_PATH }}
+          if-no-files-found: warn
+          retention-days: 14
+
+      # Persistir el estado actualizado para el próximo cron. Clave
+      # única por run (cache es immutable por key); el restore-keys
+      # del próximo run recupera el último a través del prefijo común.
+      - name: Save incident state for next cron
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.STATE_DIR }}
+          key: live-verification-state-${{ github.run_id }}
+
+      # Re-emitir el exit code del runner SÓLO al final, después de
+      # haber publicado el embed Discord, subido el artefacto y guardado
+      # el estado en caché. Esto hace que el run de Actions aparezca en
+      # rojo en la UI cuando hay regresión (mejor señal visual /
+      # filtrable que un cron siempre verde) sin perder ninguno de los
+      # side-effects anteriores. La alerta Discord ya se envió.
+      - name: Surface runner exit code at job level
+        if: always()
+        run: |
+          EXIT_CODE="${{ steps.runner.outputs.EXIT_CODE }}"
+          echo "live-verification.sh exit code: ${EXIT_CODE}"
+          # 0=verde, 1=algún FAIL, 2=usage error. Re-emitimos tal cual
+          # para que el job refleje el estado real.
+          exit "${EXIT_CODE:-1}"
