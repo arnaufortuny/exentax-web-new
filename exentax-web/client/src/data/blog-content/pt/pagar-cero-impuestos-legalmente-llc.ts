@@ -188,7 +188,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 atualmente nenhum esquema sério promete "zero impostos". Consegue-se não duplicar e declarar bem:
 
-- **Federal EUA.** Uma SMLLC disregarded de não residente sem ECI/PE nos EUA **não paga corporate tax federal**. Mas Form 5472 + 1120 pro forma continuam, com sanção base **25.000 USD/ano** (IRC §6038A) em qualquer *reportable transaction*. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+- **Federal EUA.** Uma SMLLC disregarded de não residente sem ECI/PE nos EUA **não paga corporate tax federal**. Mas Form 5472 + 1120 pro forma continuam, com sanção base **25.000 USD/ano** (IRC §6038A) em qualquer *reportable transaction*. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 - **Residência fiscal.** Se vive em Espanha, Itália ou Alemanha, a atribuição de rendimentos aplica salvo PE na outra jurisdição. CFC e exit tax limitam esquemas puramente "offshore".
 - **Pillar Two OCDE (GloBE).** Em vigor desde janeiro de 2024, **15 % efetivo mínimo** para grupos ≥ 750 M EUR de faturação. Não afeta LLC unipessoais com faturação habitual, mas convém saber se planeia escalar.
 

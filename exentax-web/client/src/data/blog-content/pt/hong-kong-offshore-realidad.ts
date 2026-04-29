@@ -28,7 +28,7 @@ Antes da fiscalidade, existe um piso de custos que não desaparece:
 - **Annual Return** ao Companies Registry: 105 HKD.
 - **Company Secretary** residente: 600 a 1.500 USD anuais.
 - **Domicílio social** registado: 300 a 800 USD anuais.
-- **Auditoria obrigatória** por um Hong Kong CPA: desde 1.500 USD para empresas pequenas, em muitos casos 2.500 a 5.000 USD. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+- **Auditoria obrigatória** por um Hong Kong CPA: desde 1.500 USD para empresas pequenas, em muitos casos 2.500 a 5.000 USD. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 - **Profits Tax Return** anual: gestão por um consultor entre 500 e 1.500 USD.
 - **Offshore claim** (se solicitada): 2.000 a 5.000 USD adicionais em honorários na primeira vez.
 

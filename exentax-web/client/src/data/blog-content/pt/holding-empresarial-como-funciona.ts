@@ -82,7 +82,7 @@ Uma holding tem um custo recorrente que convém orçamentar:
 - Constituição: 500-3.000 EUR consoante jurisdição.
 - Domicílio social e secretariado: 500-2.000 EUR/ano.
 - Contabilidade e contas anuais: 1.500-5.000 EUR/ano.
-- Auditoria se ultrapassar limiares: 3.000-10.000 EUR/ano. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+- Auditoria se ultrapassar limiares: 3.000-10.000 EUR/ano. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 - Consultoria fiscal especializada: 2.000-8.000 EUR/ano.
 
 Piso realista anual: 4.000-12.000 EUR para uma holding internacional bem gerida. A holding só se justifica se a poupança fiscal ou o controlo adicional supera com margem esse custo.

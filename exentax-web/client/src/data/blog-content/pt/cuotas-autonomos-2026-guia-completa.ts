@@ -86,7 +86,7 @@ Exemplo prático: declarou um rendimento previsto de 30.000 € (2.500 €/mês,
 
 ## Autónomos societários: quando o registo é obrigatório
 
-Se é administrador de uma SL, detém mais de 25% do capital e exerce efetivamente funções de direção, é obrigado a inscrever-se no RETA como autónomo societário. A quota mínima arranca em cerca de 380 €/mês em 2026, superior ao autónomo comum. A exceção é o administrador com funções puramente mercantis sem participação significativa nem direção real; pode ficar fora do RETA, mas a interpretação da Inspeção é restritiva e a repartição real de funções deve ser documentada. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+Se é administrador de uma SL, detém mais de 25% do capital e exerce efetivamente funções de direção, é obrigado a inscrever-se no RETA como autónomo societário. A quota mínima arranca em cerca de 380 €/mês em 2026, superior ao autónomo comum. A exceção é o administrador com funções puramente mercantis sem participação significativa nem direção real; pode ficar fora do RETA, mas a interpretação da Inspeção é restritiva e a repartição real de funções deve ser documentada. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 
 ## Quando deixar de pagar RETA faz sentido
 

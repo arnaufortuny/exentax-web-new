@@ -55,7 +55,7 @@ A doutrina administrativa espanhola (entre outras, a linha consolidada em <a hre
 
 Dizer ao teu contabilista "não declares nada que tributa nos EUA" é a receita para uma regularização dolorosa quando entrarem os cruzamentos CRS/DAC.
 
-**Consequência típica:** liquidação adicional plurianual + agravamento + juros + sanção. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+**Consequência típica:** liquidação adicional plurianual + agravamento + juros + sanção. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 
 ### Erro 7. Residência fiscal mal indicada em Wise, Mercury ou brokers
 

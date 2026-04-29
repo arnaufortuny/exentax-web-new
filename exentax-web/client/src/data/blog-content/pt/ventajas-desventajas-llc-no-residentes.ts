@@ -185,7 +185,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 ### Desvantagens reais
 
 - **Custo operativo recorrente real.** Bookkeeping mensal (~80-150$), 5472/1120 anual (300-600$), BOI (150-300$), agent (50-100$/ano). Ano 1: 1.500-3.000$.
-- **Compliance pesado e multas brutais.** Esquecer 5472 = $25.000 min. BOI = $591/dia. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+- **Compliance pesado e multas brutais.** Esquecer 5472 = $25.000 min. BOI = $591/dia. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 - **Banca mais complicada do que venderam.**
 - **Sem poupança fiscal real em muitas residências.** PT: LLC atribuída, tributa igual ao trabalhador independente.
 

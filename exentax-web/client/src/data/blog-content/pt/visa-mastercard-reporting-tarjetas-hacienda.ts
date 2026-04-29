@@ -94,7 +94,7 @@ O que pode pedir num procedimento:
 2. **"Se pago com cartão estrangeiro, as minhas compras são invisíveis."** O detalhe não é declarado automaticamente, mas a conta é visível via CRS e o rasto é perfeitamente reconstruível.
 3. **"O Modelo 171 faz com que o Fisco veja cada compra minha."** Não: cobre operações acima de limiares e agregados de recebimentos, não cada consumo pessoal abaixo desses limiares.
 4. **"Se a minha LLC recebe por Stripe, isso já está declarado em Portugal."** Não diretamente: a Stripe US não apresenta Modelo 170 nem reporte equivalente português, e a informação sobre a sua LLC chega ao Fisco por outras vias (Mercury via FATCA é assimétrica, Wise via CRS, a sua própria declaração de contas no estrangeiro se aplicar).
-5. **"Melhor pagar sempre com o cartão estrangeiro para não deixar rasto."** O rasto existe e, sobretudo, operar de forma claramente desenhada para não deixar rasto é exatamente o padrão que mais depressa dispara alertas numa inspeção. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+5. **"Melhor pagar sempre com o cartão estrangeiro para não deixar rasto."** O rasto existe e, sobretudo, operar de forma claramente desenhada para não deixar rasto é exatamente o padrão que mais depressa dispara alertas numa inspeção. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 6. **"O adquirente do comerciante europeu onde compro reporta o meu consumo ao Fisco."** Não: o adquirente reporta os recebimentos do seu próprio cliente comerciante, não os dados do consumidor.
 ## Por que isto importa para a sua estrutura
 

@@ -190,7 +190,7 @@ Três mudanças concretas do último ano alteram como pontuar esta auditoria atu
 <!-- exentax:execution-v2 -->
 ## Como fazemos a auditoria rápida na Exentax
 
-Uma auditoria útil não procura culpados: arruma a LLC em menos de trinta minutos e deixa claro o que urge antes do próximo fecho. Processamos centenas destas checklists por semana e os doze pontos que importam repetem-se sempre. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+Uma auditoria útil não procura culpados: arruma a LLC em menos de trinta minutos e deixa claro o que urge antes do próximo fecho. Processamos centenas destas checklists por semana e os doze pontos que importam repetem-se sempre. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 
 - **EIN, BOI e 5472 em dia** com cópias acessíveis de qualquer dispositivo, não enterradas no e-mail do fundador.
 - **Banca coerente**: titularidade, morada e descrição de actividade alinhadas em Mercury, Wise ou Relay para passar o primeiro KYC alargado.

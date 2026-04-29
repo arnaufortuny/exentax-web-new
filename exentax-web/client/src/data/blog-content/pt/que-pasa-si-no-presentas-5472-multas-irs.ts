@@ -192,7 +192,7 @@ Na Exentax fazemos regularizações de 5472 atrasados.
 
 A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
 
-<!-- exentax:lote9-native-v1:que-pasa-si-no-presentas-5472-multas-irs --> Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+<!-- exentax:lote9-native-v1:que-pasa-si-no-presentas-5472-multas-irs --> Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 ## Uma nota sobre o ano seguinte
 
 Uma falha na Form 5472 é, na grande maioria dos casos,

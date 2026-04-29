@@ -86,7 +86,7 @@ Uma OÜ estoniana requer:
 - Declarações OSS (One-Stop Shop) para vendas digitais na UE
 - Relatórios estatísticos ao governo estoniano
 - Atualização de dados no registo comercial
-- Auditoria obrigatória se ultrapassar certos limiares de faturação. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+- Auditoria obrigatória se ultrapassar certos limiares de faturação. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 
 Precisa de um contabilista estoniano. Precisa de entender a normativa estoniana. Precisa de gerir IVA europeu. E tudo isto num idioma que provavelmente não fala.
 

@@ -19,7 +19,7 @@ O **Form 5472, Information Return of a 25% Foreign-Owned U.S. Corporation or a F
 
 Para a maioria dos nossos clientes na Exentax, essa "entidade americana" é uma **Single-Member LLC** propriedade de um não residente, e a "parte relacionada estrangeira" é **o próprio dono**. As "transacções" são qualquer movimento de dinheiro entre ti e a LLC: contribuições iniciais, transferências da LLC para a tua conta pessoal, pagamentos pontuais, empréstimos.
 
-Porque importa? Porque desde 2017 as **disregarded entities propriedade de estrangeiros** são tratadas como corporations para efeitos do 5472. Isto significa que mesmo a tua LLC não pagar imposto federal, **está obrigada a reportar quem a possui e como moveu dinheiro contigo**. Sem apresentar, a sanção base é de **25 000 USD por formulário e ano**. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, arquivo pronto, o risco fica no papel.
+Porque importa? Porque desde 2017 as **disregarded entities propriedade de estrangeiros** são tratadas como corporations para efeitos do 5472. Isto significa que mesmo a tua LLC não pagar imposto federal, **está obrigada a reportar quem a possui e como moveu dinheiro contigo**. Sem apresentar, a sanção base é de **25 000 USD por formulário e ano**. Fechamos isto contigo a partir da Exentax: uma chamada, submissão feita, ficheiro pronto, o risco fica no papel.
 ### A armadilha do "1120 pro-forma"
 
 É aqui que as pessoas se perdem. A tua Single-Member LLC de não residente:
