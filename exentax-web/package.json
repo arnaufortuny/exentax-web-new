@@ -36,7 +36,7 @@
     "i18n:generate-types": "tsx scripts/i18n/generate-i18n-types.ts",
     "i18n:hardcoded": "tsx scripts/i18n/find-hardcoded-strings.ts",
     "i18n:check": "tsx scripts/i18n/generate-i18n-types.ts && tsx scripts/i18n/validate-i18n.ts && tsx scripts/i18n/find-hardcoded-strings.ts --strict",
-    "lint:i18n-extended": "tsx scripts/i18n/i18n-glossary-lint.ts && tsx scripts/i18n/i18n-quality-audit.ts --strict && node scripts/blog/blog-translation-quality-extended.mjs --strict",
+    "lint:i18n-extended": "tsx scripts/i18n/i18n-glossary-lint.ts && tsx scripts/i18n/i18n-quality-audit.ts --strict && tsx scripts/i18n/i18n-native-quality-audit.ts --strict && node scripts/blog/blog-translation-quality-extended.mjs --strict",
     "lint:blog": "node scripts/blog/blog-content-lint.mjs && node scripts/blog/blog-cta-position-check.mjs && node scripts/blog/blog-mid-cta-check.mjs && node scripts/blog/blog-translation-quality-audit.mjs --check && node scripts/blog/blog-cta-channel-lint.mjs && node scripts/blog/blog-no-inline-related.mjs && npm run lint:i18n-extended",
     "test:lint-blog": "node scripts/blog/blog-content-lint.test.mjs",
     "test:no-inline-related": "node scripts/blog/blog-no-inline-related.test.mjs",
