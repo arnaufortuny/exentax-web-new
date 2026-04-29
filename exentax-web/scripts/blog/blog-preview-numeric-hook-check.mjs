@@ -92,7 +92,7 @@ function firstSentence(text) {
   return trimmed;
 }
 
-function leadsWithDigit(text) {
+export function leadsWithDigit(text) {
   if (typeof text !== "string") return false;
   // Strict: first non-whitespace character must be a digit (0-9).
   return /^\s*\d/.test(text);
@@ -230,16 +230,11 @@ function parseI18nFile(filePath) {
   return out;
 }
 
-const offenders = [];
-const awkwardOffenders = [];
-let totalChecks = 0;
-let awkwardChecks = 0;
-
-function audit(lang, slug, fields) {
+function audit(lang, slug, fields, offenders, awkwardOffenders, counters) {
   for (const f of FIELDS) {
     const v = fields[f];
     if (typeof v !== "string" || !v.trim()) continue;
-    totalChecks++;
+    counters.totalChecks++;
     if (!leadsWithDigit(v)) {
       offenders.push({ lang, slug, field: f, sentence: v.slice(0, 80) });
     }
@@ -249,7 +244,7 @@ function audit(lang, slug, fields) {
       AWKWARD_NUMERIC_OPENER_FIELDS.has(f) &&
       !AWKWARD_NUMERIC_OPENER_LANG_EXEMPT.has(lang)
     ) {
-      awkwardChecks++;
+      counters.awkwardChecks++;
       if (isAwkwardNumericOpener(v)) {
         awkwardOffenders.push({
           lang,
@@ -262,57 +257,70 @@ function audit(lang, slug, fields) {
   }
 }
 
-if (!langFilter || langFilter === "es") {
-  for (const { slug, fields } of parseSpanishPosts()) {
-    audit("es", slug, fields);
+function main() {
+  const offenders = [];
+  const awkwardOffenders = [];
+  const counters = { totalChecks: 0, awkwardChecks: 0 };
+
+  if (!langFilter || langFilter === "es") {
+    for (const { slug, fields } of parseSpanishPosts()) {
+      audit("es", slug, fields, offenders, awkwardOffenders, counters);
+    }
   }
-}
 
-for (const lang of LANGS.filter((l) => l !== "es")) {
-  if (langFilter && lang !== langFilter) continue;
-  const fp = path.join(I18N_DIR, `${lang}.ts`);
-  if (!fs.existsSync(fp)) continue;
-  for (const { slug, fields } of parseI18nFile(fp)) {
-    audit(lang, slug, fields);
+  for (const lang of LANGS.filter((l) => l !== "es")) {
+    if (langFilter && lang !== langFilter) continue;
+    const fp = path.join(I18N_DIR, `${lang}.ts`);
+    if (!fs.existsSync(fp)) continue;
+    for (const { slug, fields } of parseI18nFile(fp)) {
+      audit(lang, slug, fields, offenders, awkwardOffenders, counters);
+    }
   }
-}
 
-console.log(`Total field checks: ${totalChecks}`);
-console.log(`Offenders (no digit in first sentence): ${offenders.length}`);
-const byLang = {};
-const byField = {};
-for (const o of offenders) {
-  byLang[o.lang] = (byLang[o.lang] || 0) + 1;
-  byField[o.field] = (byField[o.field] || 0) + 1;
-}
-console.log("By language:", JSON.stringify(byLang));
-console.log("By field:   ", JSON.stringify(byField));
-
-console.log(
-  `\nAwkward-numeric-opener checks (meta/social/og, ES exempt): ${awkwardChecks}`,
-);
-console.log(`Awkward-numeric-opener offenders:                     ${awkwardOffenders.length}`);
-const awkByLang = {};
-const awkByField = {};
-for (const o of awkwardOffenders) {
-  awkByLang[o.lang] = (awkByLang[o.lang] || 0) + 1;
-  awkByField[o.field] = (awkByField[o.field] || 0) + 1;
-}
-if (awkwardOffenders.length > 0) {
-  console.log("Awkward by language:", JSON.stringify(awkByLang));
-  console.log("Awkward by field:   ", JSON.stringify(awkByField));
-}
-
-if (wantList) {
+  console.log(`Total field checks: ${counters.totalChecks}`);
+  console.log(`Offenders (no digit in first sentence): ${offenders.length}`);
+  const byLang = {};
+  const byField = {};
   for (const o of offenders) {
-    console.log(`\n[no-digit-lead | ${o.lang}/${o.slug}] ${o.field}`);
-    console.log(`  ${o.sentence}`);
+    byLang[o.lang] = (byLang[o.lang] || 0) + 1;
+    byField[o.field] = (byField[o.field] || 0) + 1;
   }
+  console.log("By language:", JSON.stringify(byLang));
+  console.log("By field:   ", JSON.stringify(byField));
+
+  console.log(
+    `\nAwkward-numeric-opener checks (meta/social/og, ES exempt): ${counters.awkwardChecks}`,
+  );
+  console.log(`Awkward-numeric-opener offenders:                     ${awkwardOffenders.length}`);
+  const awkByLang = {};
+  const awkByField = {};
   for (const o of awkwardOffenders) {
-    console.log(`\n[awkward-numeric-opener | ${o.lang}/${o.slug}] ${o.field}`);
-    console.log(`  ${o.sentence}`);
+    awkByLang[o.lang] = (awkByLang[o.lang] || 0) + 1;
+    awkByField[o.field] = (awkByField[o.field] || 0) + 1;
   }
+  if (awkwardOffenders.length > 0) {
+    console.log("Awkward by language:", JSON.stringify(awkByLang));
+    console.log("Awkward by field:   ", JSON.stringify(awkByField));
+  }
+
+  if (wantList) {
+    for (const o of offenders) {
+      console.log(`\n[no-digit-lead | ${o.lang}/${o.slug}] ${o.field}`);
+      console.log(`  ${o.sentence}`);
+    }
+    for (const o of awkwardOffenders) {
+      console.log(`\n[awkward-numeric-opener | ${o.lang}/${o.slug}] ${o.field}`);
+      console.log(`  ${o.sentence}`);
+    }
+  }
+
+  const failed = offenders.length > 0 || awkwardOffenders.length > 0;
+  process.exit(failed ? 1 : 0);
 }
 
-const failed = offenders.length > 0 || awkwardOffenders.length > 0;
-process.exit(failed ? 1 : 0);
+// Only auto-run when invoked as a CLI script, so unit tests can import
+// `leadsWithDigit` (and other helpers) without triggering a real audit of
+// the blog data files.
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  main();
+}
