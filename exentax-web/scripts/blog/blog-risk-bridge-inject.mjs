@@ -31,6 +31,18 @@
  *   - default            — apply edits + scrub stale bridges, write report
  *   - --dry-run          — only count, don't write files
  *   - --no-scrub         — skip the cleanup pass (advanced)
+ *   - --check            — CI gate (Task #35). Implies --dry-run: never
+ *                          mutates disk, never writes the report. Scans
+ *                          the on-disk corpus, prints any unprotected
+ *                          risk paragraph that lacks an adjacent Exentax
+ *                          bridge, and exits 1 when ≥1 orphan exists so
+ *                          `npm run blog:validate-all` (and therefore
+ *                          `npm run check`) breaks before a regressing
+ *                          article can ship. Exits 0 when the corpus is
+ *                          clean. Catálogo no-narrativo (cross-refs-v1,
+ *                          legal-refs-v1) is exempt — same exception the
+ *                          coverage table documents in §1/§2 of the
+ *                          report.
  *
  * Output:
  *   reports/seo/lote6b-risk-bridge.md — every paragraph touched plus
@@ -214,7 +226,12 @@ const HTML_COMMENT_ONLY_RE = /^\s*<!--[\s\S]*-->\s*$/;
 const TERMINAL_PUNCT_RE = /[.!?…)\]\*_>"'»:;]$/;
 
 const args = new Set(process.argv.slice(2));
-const DRY = args.has("--dry-run");
+const CHECK = args.has("--check");
+// --check is a CI gate (Task #35): it must never mutate disk and must
+// never write the report. We force DRY to true whenever --check is set
+// so every existing dry-run guard (`if (!DRY) fs.writeFileSync(...)`)
+// keeps the corpus untouched in CI.
+const DRY = args.has("--dry-run") || CHECK;
 const NO_SCRUB = args.has("--no-scrub");
 
 // Deterministic 32-bit string hash (FNV-1a inspired) so that the
@@ -862,6 +879,42 @@ function main() {
   if (!DRY) {
     fs.mkdirSync(path.dirname(REPORT_PATH), { recursive: true });
     fs.writeFileSync(REPORT_PATH, lines.join("\n"));
+  }
+
+  // ── CI gate (Task #35): in --check mode, never mutate disk, never
+  // write the report, and exit non-zero with a printed list of every
+  // unprotected risk paragraph that lacks an adjacent Exentax bridge.
+  // The orphan list already excludes catálogo no-narrativo (cross-refs-v1,
+  // legal-refs-v1) — those are counted in the documented-exception column,
+  // not as rule violations, so the gate never trips on them.
+  if (CHECK) {
+    console.log(`Risk paragraphs scanned: ${totalRiskParas}`);
+    console.log(`Catálogo no-narrativo (exempt): ${covNonNarr}`);
+    console.log(`Unprotected orphan paragraphs: ${orphans.length}`);
+    if (orphans.length > 0) {
+      console.error(
+        `\nblog-risk-bridge-inject --check: ${orphans.length} unprotected ` +
+          `risk paragraph(s) found. Every paragraph mentioning a fine, ` +
+          `sanction, account block, audit or inspection must be followed ` +
+          `(same or next paragraph) by an Exentax-led solution sentence.\n`
+      );
+      console.error("Offending paragraphs:");
+      for (let i = 0; i < orphans.length; i++) {
+        const o = orphans[i];
+        console.error(
+          `  ${i + 1}. [${o.lang}/${o.file}] block #${o.blockIndex} (${o.kind})`
+        );
+        console.error(`     ${o.excerpt}`);
+      }
+      console.error(
+        `\nFix: re-run \`node scripts/blog/blog-risk-bridge-inject.mjs\` ` +
+          `(no flags) to auto-inject the bridge sentence, or edit the ` +
+          `article so the next paragraph carries the literal word "Exentax".\n`
+      );
+      process.exit(1);
+    }
+    console.log(`\nblog-risk-bridge-inject --check: OK (0 orphans)\n`);
+    return;
   }
 
   console.log(`Risk paragraphs found: ${totalRiskParas}`);

@@ -104,6 +104,17 @@ const STEPS = [
   // copy edit that drops the numeric hook from a SERP/social snippet breaks
   // `npm run check` before reaching production.
   { id: "preview-numeric-hook", file: "scripts/blog/blog-preview-numeric-hook-check.mjs", node: "node" },
+  // Task #35 — guard the editorial rule installed by Task #34: every blog
+  // paragraph that mentions a fine, sanction, account block, audit or
+  // inspection must be followed (same or next paragraph) by an Exentax-led
+  // solution sentence so the reader leaves wanting the asesoría, not afraid.
+  // Running the sweep with `--check` keeps it fully read-only (it forces
+  // dry-run, never writes the corpus, never touches the report) and exits
+  // non-zero — printing every offending file/block — when an unprotected
+  // risk paragraph slips into a new article or rewrite. Wired here (not in
+  // package.json, which is off-limits to the agent) so the gate runs from
+  // both `npm run blog:validate-all` and `npm run check`.
+  { id: "risk-bridge", file: "scripts/blog/blog-risk-bridge-inject.mjs", node: "node", args: ["--check"] },
 ];
 
 const EXTRA_EXTERNAL = {
