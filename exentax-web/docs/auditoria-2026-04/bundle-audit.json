@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-29T21:26:19.042Z",
+  "generatedAt": "2026-04-29T23:02:40.832Z",
   "totalChunks": 712,
-  "totalKb": 20866.8,
-  "totalGzipKb": 7909.5,
+  "totalKb": 20876,
+  "totalGzipKb": 7919.6,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -19,21 +19,21 @@
   "summary": {
     "page": {
       "count": 21,
-      "totalKb": 778.4,
-      "maxKb": 142.9,
-      "maxFile": "ExistingLlcCallout-DYHz6adK.js"
+      "totalKb": 779.6,
+      "maxKb": 144.1,
+      "maxFile": "ExistingLlcCallout-B83JwSVV.js"
     },
     "blog-post": {
       "count": 672,
-      "totalKb": 17211.3,
+      "totalKb": 17212.9,
       "maxKb": 44.8,
-      "maxFile": "blog-de-visa-mastercard-reporting-tarjetas-hacienda-Dmb4PlFQ.js"
+      "maxFile": "blog-de-visa-mastercard-reporting-tarjetas-hacienda-BYHWJGZI.js"
     },
     "blog-shared": {
       "count": 2,
       "totalKb": 145.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-G0OT53FE.js"
+      "maxFile": "blog-posts-content-BSYOeleb.js"
     },
     "css": {
       "count": 2,
@@ -43,15 +43,15 @@
     },
     "locale": {
       "count": 10,
-      "totalKb": 1812.8,
+      "totalKb": 1819.1,
       "maxKb": 271,
-      "maxFile": "fr-CE8ZNZu7.js"
+      "maxFile": "fr-B24ob3Ue.js"
     },
     "entry-index": {
       "count": 1,
       "totalKb": 512.3,
       "maxKb": 512.3,
-      "maxFile": "index-OjA1o5GN.js"
+      "maxFile": "index-CceUOYzh.js"
     },
     "vendor-i18n": {
       "count": 1,
@@ -80,37 +80,37 @@
   },
   "top": [
     {
-      "file": "index-OjA1o5GN.js",
+      "file": "index-CceUOYzh.js",
       "category": "entry-index",
       "bytesKb": 512.3,
       "gzipKb": 150.8
     },
     {
-      "file": "fr-CE8ZNZu7.js",
+      "file": "fr-B24ob3Ue.js",
       "category": "locale",
       "bytesKb": 271,
       "gzipKb": 80.9
     },
     {
-      "file": "de-DBrGkr4x.js",
+      "file": "de-DgvS5laj.js",
       "category": "locale",
       "bytesKb": 263.7,
       "gzipKb": 81.8
     },
     {
-      "file": "pt-Cvl7KP11.js",
+      "file": "pt-CwGy0wWX.js",
       "category": "locale",
       "bytesKb": 249.6,
       "gzipKb": 76
     },
     {
-      "file": "ca-yfLoPmi8.js",
+      "file": "ca-DWyA6-2T.js",
       "category": "locale",
       "bytesKb": 248.6,
       "gzipKb": 76.9
     },
     {
-      "file": "en-LVzMheK-.js",
+      "file": "en-CFdY6VLa.js",
       "category": "locale",
       "bytesKb": 238.5,
       "gzipKb": 73.8
@@ -122,10 +122,10 @@
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-DYHz6adK.js",
+      "file": "ExistingLlcCallout-B83JwSVV.js",
       "category": "page",
-      "bytesKb": 142.9,
-      "gzipKb": 31
+      "bytesKb": 144.1,
+      "gzipKb": 33.1
     },
     {
       "file": "index-Bfx0bGJF.css",
@@ -134,48 +134,48 @@
       "gzipKb": 21.4
     },
     {
-      "file": "booking-BVjCl8-D.js",
+      "file": "booking-Ddl00V61.js",
       "category": "page",
       "bytesKb": 116.3,
       "gzipKb": 31
     },
     {
-      "file": "fr-B66IeV2g.js",
+      "file": "fr-DFlh78Hs.js",
       "category": "locale",
-      "bytesKb": 111.1,
-      "gzipKb": 26.3
+      "bytesKb": 112.3,
+      "gzipKb": 27.8
     },
     {
-      "file": "de-CBlASea-.js",
+      "file": "de-COuaHLD9.js",
       "category": "locale",
-      "bytesKb": 108.4,
+      "bytesKb": 109.8,
+      "gzipKb": 28.3
+    },
+    {
+      "file": "pt-BuWEhARu.js",
+      "category": "locale",
+      "bytesKb": 109.3,
+      "gzipKb": 27
+    },
+    {
+      "file": "ca-C-kijOEn.js",
+      "category": "locale",
+      "bytesKb": 108.5,
       "gzipKb": 26.8
     },
     {
-      "file": "pt-BYmRA44T.js",
+      "file": "en-B9qj7DR7.js",
       "category": "locale",
-      "bytesKb": 108,
-      "gzipKb": 25.5
-    },
-    {
-      "file": "ca-DgTDgOUQ.js",
-      "category": "locale",
-      "bytesKb": 107.5,
-      "gzipKb": 25.4
-    },
-    {
-      "file": "en-Ba7M1gwf.js",
-      "category": "locale",
-      "bytesKb": 106.4,
-      "gzipKb": 25.8
+      "bytesKb": 107.8,
+      "gzipKb": 27.2
     }
   ],
   "offenders": [],
   "hardBudget": {
     "serverBytes": 0,
-    "publicBytes": 22716850,
+    "publicBytes": 22726274,
     "serverMb": 0,
-    "publicMb": 21.66,
+    "publicMb": 21.67,
     "serverBudgetMb": 7,
     "publicBudgetMb": 30,
     "serverOk": true,

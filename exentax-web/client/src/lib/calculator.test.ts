@@ -627,6 +627,343 @@ record(
 }
 
 // ---------------------------------------------------------------------------
+// Realistic scenarios — Task #17 audit (abr-2026).
+// Twelve+ representative profiles covering all 8 supported countries, both
+// regimes (autónomo / sociedad), special regimes (tarifa plana, France
+// micro), CCAA profiles (low / medium / high) and itemized expense mixes.
+// Each scenario asserts the invariants every result must satisfy:
+//   • totalAnnualCost finite & non-negative
+//   • breakdown non-empty (UI can render desglose)
+//   • effectiveRate ∈ [0, 100]
+//   • bestId ∈ {autonomo, sociedad, llc}
+//   • when an expectedBest is declared, bestId must match it
+// Exact euro amounts are intentionally NOT pinned: brackets evolve every
+// year and a unit test that locks them would break on every legal update.
+// What we lock are the *shapes* of the outputs that the UI/email/persistence
+// layers depend on.
+// ---------------------------------------------------------------------------
+const REALISTIC_SCENARIOS: Array<{
+  id: string;
+  monthly: number;
+  country: string;
+  activity: string;
+  items?: ExpenseItem[];
+  customExpenses?: number;
+  options?: CalcOptions;
+  expectedBest?: "autonomo" | "sociedad" | "llc";
+}> = [
+  {
+    id: "01 — España freelance digital BAJA facturación (1.500€/mes, sin gastos)",
+    monthly: 1500, country: "espana", activity: "digitalServices",
+    items: [],
+  },
+  {
+    id: "02 — España freelance digital MEDIA facturación (5.000€/mes, gastos típicos)",
+    monthly: 5000, country: "espana", activity: "digitalServices",
+    items: presetItems({ software: 80, asesoria: 80, hosting: 30, marketing: 80, telefono: 50 }),
+    expectedBest: "llc",
+  },
+  {
+    id: "03 — España freelance digital ALTA facturación (12.000€/mes, gastos altos)",
+    monthly: 12000, country: "espana", activity: "digitalServices",
+    items: presetItems({ asesoria: 200, software: 250, contratistas: 800, marketing: 400, viajesTransporte: 200 }),
+    expectedBest: "llc",
+  },
+  {
+    id: "04 — España consultor con tarifa plana, primer año (2.200€/mes)",
+    monthly: 2200, country: "espana", activity: "consultingAdvisory",
+    items: presetItems({ asesoria: 80, software: 60, telefono: 40 }),
+    options: { tarifaPlana: true },
+    expectedBest: "autonomo",
+  },
+  {
+    id: "05 — España agencia con vehículo + home office + asesoría (6.500€/mes)",
+    monthly: 6500, country: "espana", activity: "marketingAdvertising",
+    items: presetItems({ asesoria: 150, software: 120, marketing: 200, vehiculo: 350, homeOffice: 200, contratistas: 600 }),
+  },
+  {
+    id: "06 — España CCAA HIGH IRPF Cataluña (8.000€/mes, perfil profesional)",
+    monthly: 8000, country: "espana", activity: "consultingAdvisory",
+    items: presetItems({ asesoria: 150, software: 120, viajesTransporte: 200, formacion: 100 }),
+    options: { ccaaProfile: "high" },
+  },
+  {
+    id: "07 — España CCAA LOW IRPF Madrid mismo perfil (8.000€/mes)",
+    monthly: 8000, country: "espana", activity: "consultingAdvisory",
+    items: presetItems({ asesoria: 150, software: 120, viajesTransporte: 200, formacion: 100 }),
+    options: { ccaaProfile: "low" },
+  },
+  {
+    id: "08 — México consultor digital RESICO (4.000€/mes equivalente)",
+    monthly: 4000, country: "mexico", activity: "consultingAdvisory",
+    items: presetItems({ software: 80, asesoria: 100, telefono: 50 }),
+  },
+  {
+    id: "09 — Chile servicios profesionales (3.500€/mes)",
+    monthly: 3500, country: "chile", activity: "digitalServices",
+    items: presetItems({ software: 80, asesoria: 90, hosting: 30 }),
+  },
+  {
+    id: "10 — UK Limited Company alta facturación (8.000€/mes, dividendos)",
+    monthly: 8000, country: "reino-unido", activity: "digitalServices",
+    items: presetItems({ asesoria: 120, software: 150, hosting: 50 }),
+  },
+  {
+    id: "11 — UK self-employed NIC clase 4 (4.500€/mes)",
+    monthly: 4500, country: "reino-unido", activity: "consultingAdvisory",
+    items: presetItems({ software: 80, asesoria: 100, telefono: 40 }),
+  },
+  {
+    id: "12 — Francia micro auto-entrepreneur BNC (3.000€/mes, bajo techo)",
+    monthly: 3000, country: "francia", activity: "digitalServices",
+    items: [],
+    options: { franceMicro: true },
+    // Nota: a 3.000 €/mes la LLC gana por márgenes muy pequeños frente al
+    // micro francés (≈ 30 € anuales). No fijamos expectedBest porque el
+    // empate técnico no es el comportamiento que queremos blindar; lo que
+    // sí blindamos (en otro test arriba) es el GUARD de techo 77.700 €.
+  },
+  {
+    id: "13 — Italia régimen ordinario IRPEF (5.000€/mes)",
+    monthly: 5000, country: "italia", activity: "digitalServices",
+    items: presetItems({ asesoria: 100, software: 80, marketing: 60 }),
+  },
+  {
+    id: "14 — Bélgica autónomo IPP federal+comunal (5.500€/mes)",
+    monthly: 5500, country: "belgica", activity: "consultingAdvisory",
+    items: presetItems({ asesoria: 120, software: 80, viajesTransporte: 100 }),
+  },
+  {
+    id: "15 — Austria sociedad GmbH KöSt 23% (8.000€/mes)",
+    monthly: 8000, country: "austria", activity: "digitalServices",
+    items: presetItems({ asesoria: 150, software: 120, contratistas: 400 }),
+  },
+  {
+    id: "16 — España sociedad limitada con admin único + amortización (7.000€/mes)",
+    monthly: 7000, country: "espana", activity: "digitalServices",
+    items: presetItems({ asesoria: 200, software: 150, marketing: 200 }),
+  },
+];
+
+for (const sc of REALISTIC_SCENARIOS) {
+  const items = sc.items ?? [];
+  const all = computeAllStructures(
+    sc.monthly, sc.country, sc.activity, sc.customExpenses ?? 0, items, sc.options,
+  );
+  const auto = calculateSavings(
+    sc.monthly, sc.country, "autonomo", sc.activity,
+    sc.customExpenses ?? 0, false, items, sc.options,
+  );
+  const soc = calculateSavings(
+    sc.monthly, sc.country, "sociedad", sc.activity,
+    sc.customExpenses ?? 0, false, items, sc.options,
+  );
+
+  // Invariant 1: totals finite & non-negative for the three structures.
+  record(
+    `scenario[${sc.id}] computeAllStructures totals finite & ≥ 0`,
+    Number.isFinite(all.autonomo.totalAnnualCost)
+      && Number.isFinite(all.sociedad.totalAnnualCost)
+      && Number.isFinite(all.llc.totalAnnualCost)
+      && all.autonomo.totalAnnualCost >= 0
+      && all.sociedad.totalAnnualCost >= 0
+      && all.llc.totalAnnualCost >= 0,
+    fmt(all),
+  );
+
+  // Invariant 2: breakdown non-empty for every structure.
+  record(
+    `scenario[${sc.id}] all 3 breakdowns non-empty`,
+    all.autonomo.breakdown.length > 0
+      && all.sociedad.breakdown.length > 0
+      && all.llc.breakdown.length > 0,
+    `auto=${all.autonomo.breakdown.length} soc=${all.sociedad.breakdown.length} llc=${all.llc.breakdown.length}`,
+  );
+
+  // Invariant 3: bestId is one of the three valid IDs.
+  record(
+    `scenario[${sc.id}] bestId ∈ {autonomo, sociedad, llc}`,
+    all.bestId === "autonomo" || all.bestId === "sociedad" || all.bestId === "llc",
+    `best=${all.bestId}`,
+  );
+
+  // Invariant 4: effectiveRate within sane range for both regimes.
+  record(
+    `scenario[${sc.id}] effectiveRate ∈ [0, 100] (autonomo & sociedad)`,
+    auto.effectiveRate >= 0 && auto.effectiveRate <= 100
+      && soc.effectiveRate >= 0 && soc.effectiveRate <= 100,
+    `auto=${auto.effectiveRate} soc=${soc.effectiveRate}`,
+  );
+
+  // Invariant 5: deltas (signed) are consistent — bestId really is min.
+  const totals = [
+    { id: "autonomo" as const, v: all.autonomo.totalAnnualCost },
+    { id: "sociedad" as const, v: all.sociedad.totalAnnualCost },
+    { id: "llc" as const, v: all.llc.totalAnnualCost },
+  ];
+  const minTotal = Math.min(...totals.map((t) => t.v));
+  const winner = totals.find((t) => t.v === minTotal)!;
+  record(
+    `scenario[${sc.id}] bestId matches argmin(totalAnnualCost)`,
+    all.bestId === winner.id,
+    `best=${all.bestId} argmin=${winner.id} totals=${fmt(all)}`,
+  );
+
+  // Invariant 6: signed deltas in llcSavingsVs* point in the right direction.
+  // llcSavingsVsAutonomo > 0 when LLC < autonomo, < 0 when LLC > autonomo.
+  record(
+    `scenario[${sc.id}] sign(llcSavingsVsAutonomo) === sign(autonomo - llc)`,
+    Math.sign(all.llcSavingsVsAutonomo) === Math.sign(all.autonomo.totalAnnualCost - all.llc.totalAnnualCost),
+    `Δauto=${all.llcSavingsVsAutonomo} diff=${all.autonomo.totalAnnualCost - all.llc.totalAnnualCost}`,
+  );
+  record(
+    `scenario[${sc.id}] sign(llcSavingsVsSociedad) === sign(sociedad - llc)`,
+    Math.sign(all.llcSavingsVsSociedad) === Math.sign(all.sociedad.totalAnnualCost - all.llc.totalAnnualCost),
+    `Δsoc=${all.llcSavingsVsSociedad} diff=${all.sociedad.totalAnnualCost - all.llc.totalAnnualCost}`,
+  );
+
+  // Optional: declared expectedBest must match.
+  if (sc.expectedBest) {
+    record(
+      `scenario[${sc.id}] bestId === "${sc.expectedBest}" (expected)`,
+      all.bestId === sc.expectedBest,
+      `best=${all.bestId} totals=${fmt(all)}`,
+    );
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — Task #17. Cross-check that the consolidated Spain
+// "administrador único" SS constants (SPAIN_SOCIEDAD_ADMIN_BASE_MIN/RATE,
+// formerly duplicated as SOCIEDAD_ADMIN_SS_*) still produce the documented
+// monthly cuota of 313 € (1.000 € base × 31,30 % combinada).
+// ---------------------------------------------------------------------------
+{
+  // Invocation path: España regime "sociedad" routes through calcSociedadAdminSS
+  // when the implicit admin-único salary is at the minimum base.
+  // Lowest income makes the admin salary collapse to BASE_MIN (1000 €/mes),
+  // so the expected SS contribution is 1000 × 0.3130 = 313 €/mes.
+  const lowSoc = calculateSavings(1500, "espana", "sociedad", "digitalServices", 0, false, []);
+  const ssAdmin = lowSoc.breakdown.find((b) => /admin|seg\.\s*social/i.test(b.label));
+  record(
+    "veracidad[ES sociedad] admin único SS = 313€/mes × 12 = 3756€/año (1000€ base × 31.30%)",
+    !!ssAdmin && ssAdmin.amount === 3756,
+    `ssAdmin=${ssAdmin?.amount} label=${ssAdmin?.label}`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — IRPF precision invariant (Bloque 5 audit Q2-2026). The total
+// IRPF returned MUST equal the sum of `taxInBracket` values in the bracket
+// detail breakdown. Pre-Q2-2026 we summed unrounded values and rounded
+// only the total, which produced ±1€ drift between the headline IRPF and
+// the per-bracket table the UI shows. The current implementation rounds
+// each bracket and sums the rounded values; this test locks that invariant.
+// ---------------------------------------------------------------------------
+{
+  // Profile that hits the upper IRPF brackets so several rounding events
+  // accumulate. Spain autónomo, no items, default activity rate.
+  const r = calculateSavings(8000, "espana", "autonomo", "digitalServices", 0, false, []);
+  const sumOfBrackets = (r.irpfBrackets ?? []).reduce((s, b) => s + b.taxInBracket, 0);
+  const irpfEntry = r.breakdown.find((b) => b.label === "calculator.bd.espana.irpf");
+  record(
+    "veracidad[ES autónomo IRPF] total === sum(brackets[].taxInBracket) (precisión Bloque 5)",
+    !!irpfEntry && irpfEntry.amount === sumOfBrackets,
+    `irpf=${irpfEntry?.amount} sumBrackets=${sumOfBrackets} brackets=${(r.irpfBrackets ?? []).length}`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — Modelo de deducibles (audit Task #17 abr-2026). Documenta y
+// blinda la asimetría intencional del modelo:
+//
+//   • España: `totalGastosDeducibles = annual × ACTIVITY_EXPENSE_RATE[a] +
+//     itemized` — el % por actividad es BASELINE adicional a los items.
+//   • Resto de países: el cálculo del autónomo usa SOLO `itemized` y aplica
+//     internamente `AUTONOMO_NET_FACTORS` (0.78–0.80) como proxy implícita
+//     de gastos no itemizados, evitando el doble conteo.
+//
+// El campo público `gastosDeducibles` (usado por la rama LLC y el desglose
+// del UI) sí incluye la baseline en TODOS los países por consistencia con
+// la rama LLC. Esta asimetría está documentada en `docs/calculator.md` § 8
+// y `docs/audits/produccion-2026-04/02-calculadora.md`. Cualquier refactor
+// que altere alguna de las tres relaciones rompe este test a propósito.
+// ---------------------------------------------------------------------------
+{
+  // ACTIVITY_EXPENSE_RATE.digitalServices = 0.20 (verificado en config).
+  const monthly = 5000;
+  const annual = monthly * 12;
+  const itemsAnnual = 80 * 12 + 100 * 12; // software + asesoria, 100% deducibles
+  const items = presetItems({ software: 80, asesoria: 100 });
+
+  const esp = calculateSavings(monthly, "espana", "autonomo", "digitalServices", 0, false, items);
+  const expectedSpainDeductibles = Math.round(annual * 0.20) + itemsAnnual;
+  record(
+    "veracidad[deducibles] España = annual × 0.20 + itemized (modelo aditivo)",
+    esp.gastosDeducibles === expectedSpainDeductibles,
+    `expected=${expectedSpainDeductibles} got=${esp.gastosDeducibles}`,
+  );
+
+  // En los países no-España, el campo `gastosDeducibles` PÚBLICO sigue
+  // mostrando el modelo aditivo (consistencia con la rama LLC), aunque el
+  // cálculo interno del autónomo solo use `itemized` + AUTONOMO_NET_FACTORS.
+  const ita = calculateSavings(monthly, "italia", "autonomo", "digitalServices", 0, false, items);
+  record(
+    "veracidad[deducibles] Italia gastosDeducibles aplica modelo aditivo (= España)",
+    ita.gastosDeducibles === expectedSpainDeductibles,
+    `expected=${expectedSpainDeductibles} got=${ita.gastosDeducibles}`,
+  );
+
+  // Verificación de la consecuencia documentada: la rama LLC en países
+  // no-España descuenta gastos > los que descuenta la rama autónomo
+  // interna, lo que hace la LLC artificialmente más atractiva. La rama
+  // autónoma de Italia solo descuenta `itemized`, no la baseline.
+  // (No fijamos el delta exacto — sólo verificamos que ambas son finitas
+  // y que el campo público respeta la simetría con España).
+  record(
+    "veracidad[deducibles] Italia autonomo.sinLLC > 0 sin baseline (asimetría documentada)",
+    Number.isFinite(ita.sinLLC) && ita.sinLLC > 0,
+    `sinLLC=${ita.sinLLC}`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — Sociedad ES admin profit-share constant (audit Task #17).
+// Verifica que `SPAIN_SOCIEDAD_ADMIN_PROFIT_SHARE` (0.25) se aplica
+// consistentemente: a 12.000€/mes de facturación, el salario admin debe
+// ser ~25% del netAnnual / 12, suficientemente alto para superar la base
+// mínima de 1000€/mes y dispararla a tramos de cotización superiores.
+// ---------------------------------------------------------------------------
+{
+  // monthlyIncome alta (~12k) → netAnnual alto → adminSalary > BASE_MIN.
+  // El resultado debe contener una línea de cuota SS admin > 3756 €/año
+  // (la cuota mínima de 313 €/mes × 12). Si la 0.25 desaparece o se
+  // reemplaza por otro literal, la cuota colapsa a la base mínima.
+  const r = calculateSavings(12000, "espana", "sociedad", "digitalServices", 0, false, []);
+  const ssAdmin = r.breakdown.find((b) => b.label === "calculator.bd.espana.cuotaSSAdmin");
+  record(
+    "veracidad[ES sociedad] admin SS escala con SPAIN_SOCIEDAD_ADMIN_PROFIT_SHARE (0.25)",
+    !!ssAdmin && ssAdmin.amount > 3756,
+    `cuota=${ssAdmin?.amount} (mínima 3756 si la share desaparece)`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — Tarifa plana lock. The reduced 80€/mo cuota in year 1 must
+// always produce 960€/year exactly — no rounding drift, no SS bracket
+// scaling. Failing this assertion means the special regime regressed.
+// ---------------------------------------------------------------------------
+{
+  const tp = calculateSavings(2200, "espana", "autonomo", "consultingAdvisory", 0, false, [], { tarifaPlana: true });
+  const ss = tp.breakdown.find((b) => /seg\.\s*social|social|cuota|autónomo|autonomo/i.test(b.label));
+  record(
+    "veracidad[ES autónomo tarifa plana] cuota anual = 960€ (80€/mes × 12)",
+    !!ss && ss.amount === 960,
+    `ss=${ss?.amount} label=${ss?.label}`,
+  );
+}
+
+// ---------------------------------------------------------------------------
 // Report
 // ---------------------------------------------------------------------------
 const passed = results.filter((r) => r.ok).length;

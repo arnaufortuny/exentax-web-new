@@ -124,6 +124,7 @@ import {
   SPAIN_SOCIEDAD_ADMIN_BASE_MIN,
   SPAIN_SOCIEDAD_ADMIN_RATE,
   SPAIN_SOCIEDAD_ADMIN_ANNUAL_COSTS,
+  SPAIN_SOCIEDAD_ADMIN_PROFIT_SHARE,
   SPAIN_IS_RATE_REDUCED,
   SPAIN_IS_RATE_GENERAL,
   SPAIN_IS_REDUCED_REVENUE_CAP,
@@ -182,8 +183,6 @@ import {
   DEFAULT_SOCIEDAD_PROFIT_FACTOR,
   UK_DIVIDEND_PAYOUT_RATIO,
   UK_DIVIDEND_EFFECTIVE_RATE,
-  SOCIEDAD_ADMIN_SS_BASE_MIN,
-  SOCIEDAD_ADMIN_SS_RATE,
   LLC_FORMATION_COST as _LLC_FORMATION_COST,
   LLC_ANNUAL_COST as _LLC_ANNUAL_COST,
   SOCIEDAD_COSTS,
@@ -255,10 +254,8 @@ function calcSpanishSS(monthlyNetIncome: number, tarifaPlana: boolean = false): 
 }
 
 function calcSociedadAdminSS(monthlySalary: number): { annual: number; monthly: number } {
-  const BASE_MIN_ADMIN = SOCIEDAD_ADMIN_SS_BASE_MIN;
-  const base = Math.max(BASE_MIN_ADMIN, monthlySalary);
-  const rate = SOCIEDAD_ADMIN_SS_RATE;
-  const monthly = Math.round(base * rate);
+  const base = Math.max(SPAIN_SOCIEDAD_ADMIN_BASE_MIN, monthlySalary);
+  const monthly = Math.round(base * SPAIN_SOCIEDAD_ADMIN_RATE);
   return { annual: monthly * 12, monthly };
 }
 
@@ -574,7 +571,10 @@ export function calculateSavings(
       breakdown.push({ label: "calculator.bd.espana.cuotaSS", amount: ssResult.annual, note: "calculator.bd.espana.cuotaSS_note", noteParams: { limit: formatCurrency(ssResult.bracket.limit), monthly: formatCurrency(ssResult.monthly) } });
       sinLLC = irpfResult.tax + ssResult.annual;
     } else {
-      const adminSalary = Math.min(Math.max(SPAIN_SOCIEDAD_ADMIN_BASE_MIN, Math.round(netAnnual * 0.25 / 12)), Math.max(SPAIN_SOCIEDAD_ADMIN_BASE_MIN, Math.round(netAnnual / 12)));
+      const adminSalary = Math.min(
+        Math.max(SPAIN_SOCIEDAD_ADMIN_BASE_MIN, Math.round(netAnnual * SPAIN_SOCIEDAD_ADMIN_PROFIT_SHARE / 12)),
+        Math.max(SPAIN_SOCIEDAD_ADMIN_BASE_MIN, Math.round(netAnnual / 12)),
+      );
       const adminSalaryAnnual = adminSalary * 12;
       const adminSS = calcSociedadAdminSS(adminSalary);
       const adminCosts = SPAIN_SOCIEDAD_ADMIN_ANNUAL_COSTS;

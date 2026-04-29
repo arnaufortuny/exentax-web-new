@@ -155,6 +155,14 @@ export const SPAIN_SOCIEDAD_ADMIN_BASE_MIN = 1000;
 export const SPAIN_SOCIEDAD_ADMIN_RATE = 0.3130;
 // Coste anual gestoría sociedad ES (estimación pragmática Exentax 2026).
 export const SPAIN_SOCIEDAD_ADMIN_ANNUAL_COSTS = 3500;
+// % de la base imponible neta de la SL que se asigna como salario al
+// administrador único en el modelo del comparador. Es una proxy razonable:
+// pagar el 25 % como salario y dejar el resto como beneficio para tributar
+// por IS + dividendos refleja una práctica habitual de optimización.
+// Antes (audit Task #17 abr-2026) era un literal `0.25` dentro de
+// `calculator.ts`, violando la regla "ningún literal en el cuerpo del
+// cálculo". Centralizado aquí para auditabilidad.
+export const SPAIN_SOCIEDAD_ADMIN_PROFIT_SHARE = 0.25;
 // IS reducido / general 2026 (Ley 27/2014 IS + Ley de Presupuestos 2026).
 export const SPAIN_IS_RATE_REDUCED = 0.23;
 export const SPAIN_IS_RATE_GENERAL = 0.25;
@@ -316,14 +324,12 @@ export const SOCIEDAD_PROFIT_FACTORS: Record<string, number> = {
 export const DEFAULT_AUTONOMO_NET_FACTOR = 0.80;
 export const DEFAULT_SOCIEDAD_PROFIT_FACTOR = 0.72;
 
-// Spanish "administrador único" payroll. The Sociedad pays its director a
-// salary that flows through the Régimen Especial de Trabajadores
-// Autónomos (RETA general, not the reduced one for autónomos):
-//   SOCIEDAD_ADMIN_SS_BASE_MIN = base de cotización mínima mensual 2025
-//   SOCIEDAD_ADMIN_SS_RATE     = tipo combinado empresa+trabajador
-// SOURCE: BOE OM ESS/56/2025 anexo III (revisado abril 2026)
-export const SOCIEDAD_ADMIN_SS_BASE_MIN = 1000;
-export const SOCIEDAD_ADMIN_SS_RATE = 0.3130;
+// NOTE (audit Task #17 abr-2026): los antiguos `SOCIEDAD_ADMIN_SS_BASE_MIN`
+// y `SOCIEDAD_ADMIN_SS_RATE` eran duplicados literales de
+// `SPAIN_SOCIEDAD_ADMIN_BASE_MIN` y `SPAIN_SOCIEDAD_ADMIN_RATE` (mismo valor,
+// misma fuente). Consolidados en una sola pareja prefijada con el país. Si
+// algún consumer externo importa los nombres viejos, fallará en compile —
+// migrar al prefijo `SPAIN_*` para consistencia con el resto del archivo.
 
 // UK dividend distribution model used when the local company opts to pay
 // out as dividends instead of salary.
