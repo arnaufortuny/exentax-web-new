@@ -1,5 +1,7 @@
 export default `
 
+Un servicio digital B2C dentro de la UE tributa al tipo IVA del país del consumidor (entre el 17 % de Luxemburgo y el 27 % de Hungría) y se declara con la ventanilla única OSS.
+
 El IVA en operaciones internacionales es uno de los temas que más confunde a freelancers y asesores españoles. ¿Cobras IVA a un cliente en Alemania? ¿Y a uno en Estados Unidos? ¿Y si el cliente es un particular y no una empresa? ¿Qué cambia si facturas desde tu autónomo o desde una LLC americana? Las reglas son distintas en cada caso y un error puede costar caro en una inspección de la AEAT. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
 En este artículo desglosamos las reglas de localización del IVA para servicios digitales según la Ley 37/1992 (LIVA) y la Directiva 2006/112/CE, los modelos formales que tienes que presentar, los escenarios reales más habituales y cómo una LLC bien declarada simplifica gran parte de esta complejidad sin saltarse ninguna norma.

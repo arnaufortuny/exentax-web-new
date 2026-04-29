@@ -1,0 +1,2494 @@
+{
+  "amazon-ecommerce-llc-vender-online": {
+    "es": {
+      "text": "Amazon US movió más de 600.000 millones de dólares en ventas brutas en 2024, y el 100 % de esos cobros pasa por un proveedor que te exige un EIN y una cuenta bancaria americana antes de pagarte.",
+      "sha256": "5d9665ebec714ba7b18bff8080179722df01feaa9f1f78d6d39e6cc41b348d43",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Amazon US moved more than 600 billion dollars in gross sales in 2024, and 100% of those payouts run through a provider that asks for an EIN and a US bank account before sending you a single dollar.",
+      "sha256": "8a508041b45804ab90b882bae309b61d44fe9d6ede59f4f239df37a09cb6401e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Amazon US a généré plus de 600 milliards de dollars de ventes brutes en 2024, et 100 % de ces versements passent par un prestataire qui exige un EIN et un compte bancaire américain avant de vous verser quoi que ce soit.",
+      "sha256": "5b6b7140e85eebac070e7ab0c8a23cddea72210bd92d1c05e3a74af675e793e1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Amazon US wickelte 2024 über 600 Milliarden US-Dollar Bruttoumsatz ab, und 100 % dieser Auszahlungen laufen über einen Dienstleister, der eine EIN und ein US-Bankkonto verlangt, bevor Sie auch nur einen Dollar sehen.",
+      "sha256": "d1fcd117378644ab4dc7a13180765243880df94915b0b3e98265116a36875a93",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "A Amazon US movimentou mais de 600 mil milhões de dólares em vendas brutas em 2024, e 100 % desses pagamentos passam por um operador que exige um EIN e uma conta bancária americana antes de te pagar.",
+      "sha256": "f72a9a6c4b7df4f0eebefda9304099b539d10cc069b22c2064055be207c3fc76",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Amazon US va moure més de 600.000 milions de dòlars en vendes brutes el 2024, i el 100 % d'aquests pagaments passa per un operador que t'exigeix un EIN i un compte bancari americà abans de pagar-te.",
+      "sha256": "1b06342561e89e3d248cc5bce34bcb95b503a000bbd123ac4260e894ddde4184",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "autonomo-espana-vs-llc-estados-unidos": {
+    "en": {
+      "text": "A Spanish autónomo in a mid bracket hands over 35% to 47% of income between IRPF and the RETA fee (200 to 1,600 euros a month); a US pass-through LLC pays 0% federal and shifts the calculation to your local return.",
+      "sha256": "8a05c72d97fbef5705c584469e384412b424e9dfa5674079ee3383b36d6e163d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Un autónomo espagnol en tranche moyenne reverse 35 à 47 % de son revenu entre IRPF et cotisation RETA (de 200 à 1 600 € par mois) ; une LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur votre déclaration locale.",
+      "sha256": "1f6679fd1da7103f238938a72d48c1114acfc0a9d56eae3436ed30de0a4bf332",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Ein spanischer Autónomo in mittlerer Stufe gibt zwischen 35 % und 47 % seines Einkommens an IRPF und RETA-Beitrag ab (200 bis 1.600 € pro Monat); eine US-Pass-through-LLC zahlt 0 % föderal und verlagert die Berechnung in Ihre lokale Erklärung.",
+      "sha256": "6c28f415847b864edd5de501711b4ac5db363c4610a65a6ac0e21700c60cfd6e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Um autónomo espanhol num escalão médio entrega entre 35 % e 47 % do rendimento entre IRPF e quota RETA (de 200 € a 1.600 € por mês); uma LLC pass-through paga 0 % federal nos EUA e empurra o cálculo para a tua declaração local.",
+      "sha256": "fa5d9d3c7e2d26c2399889bb4045a3e478f07cd10cdea61bac750543d8908ae2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Un autònom espanyol en tram mitjà entrega entre el 35 % i el 47 % de la renda entre IRPF i quota RETA (de 200 € a 1.600 € al mes); una LLC pass-through paga 0 % federal als EUA i trasllada el càlcul a la teva declaració local.",
+      "sha256": "5a8529ec3a794ace1568c6cf12e000065ec711d19915f8120b4f3c74cc145cc0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "autonomos-espana-por-que-dejar-de-serlo": {
+    "es": {
+      "text": "El autónomo español típico arrastra entre 200 € y 590 € de cuota mínima 2026 más un IRPF que llega al 47 %, y eso se paga factures o no factures cada mes.",
+      "sha256": "412944bb66b3c0762dd42054e182da168a39330a69e9292d4f4f28e4d489eb14",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The typical Spanish autónomo carries a 2026 minimum monthly fee between 200 and 590 euros plus an IRPF that climbs to 47%, payable whether you invoice or not.",
+      "sha256": "7e83942ffa8c002ae3df57f21510386bc5b63db7ae502bb67a75f742322683e0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O autónomo espanhol típico arrasta entre 200 € e 590 € de quota mínima 2026 e um IRPF que chega a 47 %, que pagas factures ou não factures.",
+      "sha256": "6dd2d887445c32fcb778ca01382da6f1e9d51e527648724bf97707959d0f3cd0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "bancos-vs-fintech-llc-donde-abrir-cuenta": {
+    "es": {
+      "text": "Mercury cobra 0 $ al mes y abre online en 5 días; un banco tradicional como Bank of America pide presencia física en EE.UU. y entre 25 $ y 50 $ de mantenimiento mensual.",
+      "sha256": "9bcd3cec5767cd6649b6f52f089b7bc68070bca9699157bfe27b894df7f4eaed",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Mercury charges 0 dollars a month and onboards online in 5 days; a traditional bank like Bank of America requires physical presence in the US and 25 to 50 dollars in monthly maintenance.",
+      "sha256": "70cf4df0b9d827841c9c8d52396925eb2db83533d5433380bd95727529047e96",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Mercury facture 0 $ par mois et t'ouvre un compte en ligne en 5 jours ; une banque classique comme Bank of America exige une présence physique aux États-Unis et entre 25 $ et 50 $ de frais mensuels.",
+      "sha256": "e87fae5dbde55091955ec3363414d3dc954f19a72c11b75e867db11235fe1d03",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Mercury verlangt 0 USD pro Monat und eröffnet online in 5 Tagen; eine klassische Bank wie Bank of America fordert physische Präsenz in den USA und 25 bis 50 USD Monatsgebühr.",
+      "sha256": "eedaa9a85e90c4567914f96de431ad6bd95ad6aa65816e047e22cfc8bbb9e190",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "A Mercury cobra 0 $ por mês e abre online em 5 dias; um banco tradicional como o Bank of America exige presença física nos EUA e entre 25 $ e 50 $ de manutenção mensal.",
+      "sha256": "c7a3bfbba7ee3f939d3f97f48642f8aa85f64dd93c04977675af3a64f77b4d74",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Mercury cobra 0 $ al mes i obre en línia en 5 dies; un banc tradicional com Bank of America demana presència física als EUA i entre 25 $ i 50 $ de manteniment mensual.",
+      "sha256": "7bfca7caff44dacd1be0c6e4ff9be8a1a86a08984e6d937e17796b3aa560f0ff",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "boe-febrero-2020-llc-doctrina-administrativa": {
+    "es": {
+      "text": "La consulta vinculante V0290-20 de la DGT, fechada el 11 de febrero de 2020, es el documento que ordena cómo tributa una LLC americana en manos de un residente fiscal en España.",
+      "sha256": "d1617c62c1e7156baef8e90b51857625d9993fcfb57dd5be444cbfc6d77edd0f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Spain's binding ruling V0290-20, dated February 11 2020, is the single document that frames how a US LLC is taxed in the hands of a Spanish tax resident.",
+      "sha256": "2e4020015912a52d83010ed455f27860944fda90c981df3bf4d5c17a89b3aed5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die verbindliche Auskunft V0290-20 der spanischen DGT vom 11. Februar 2020 ist das Dokument, das die Besteuerung einer US-LLC in den Händen eines spanischen Steueransässigen regelt.",
+      "sha256": "724c2b433b3d3d4b29018d97656ea72b0da5d7951d79615550795414d1efc758",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "La consulta vinculant V0290-20 de la DGT espanyola, de l'11 de febrer de 2020, és el document que ordena com tributa una LLC americana en mans d'un resident fiscal a Espanya.",
+      "sha256": "6b8738e410983ab129f67b2ed9b838e34a1f11fa687440828abf7ae133ea2aa9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "cambiar-divisas-llc-mejores-opciones": {
+    "es": {
+      "text": "Wise convierte USD a EUR con un spread medio de 0,41 %, Mercury aplica cerca del 1 % y un banco español tradicional puede comerse entre el 2 % y el 4 % en cada operación.",
+      "sha256": "58f6e90e9413bff8e0f9f5916238cb954c8c2d002875264594221fb7f73f61ff",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Wise converts USD to EUR at a mid-market spread of 0.41%, Mercury hovers around 1%, and a traditional Spanish bank can swallow 2% to 4% on every transfer.",
+      "sha256": "6c19e6d658353c77a1e2925dcfff0509d1c8a7000800ee080daa66a1884d0d1f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Wise convertit l'USD en EUR avec un écart moyen de 0,41 %, Mercury tourne autour de 1 % et une banque espagnole classique peut prélever 2 à 4 % sur chaque opération.",
+      "sha256": "9e22783fd594630a0cf1cfdc5267be1948fdf90ac32db57e6e846a6776f83acd",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Wise tauscht USD in EUR mit einem durchschnittlichen Spread von 0,41 % um, Mercury liegt bei rund 1 %, eine klassische spanische Bank kann pro Vorgang 2 bis 4 % verlangen.",
+      "sha256": "42a1b2e789135eb5c87d7b9ca886cd4b27f5675d604662abcaf2259a95ea2e67",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "A Wise converte USD em EUR com um spread médio de 0,41 %, a Mercury ronda 1 % e um banco espanhol tradicional pode levar entre 2 % e 4 % em cada operação.",
+      "sha256": "aa34b468e32d42f6fecedb4ee865ce0f767a7fd1409a107a542866754e2c8477",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Wise converteix USD a EUR amb un spread mitjà del 0,41 %, Mercury voreja l'1 % i un banc espanyol tradicional pot endur-se entre el 2 % i el 4 % en cada operació.",
+      "sha256": "5a84a5d45f9e0cc7eb17ac0927a2b0f4a57ceca264bc20e355ee3992d3807c96",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad": {
+    "es": {
+      "text": "Una migración de proveedor de mantenimiento de una LLC se completa habitualmente en 7 a 14 días sin alterar la fecha de constitución original, que sigue figurando intacta en el Secretary of State.",
+      "sha256": "720884d701e51785db69c62b438118d358cba11a37d0264c460be1e951185fde",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Switching the maintenance provider of an LLC typically takes 7 to 14 days and never touches the original formation date, which stays untouched on the Secretary of State record.",
+      "sha256": "184ba8fd361a1084aa6311cd9d061c4b36f9af77951b2a31db1e7dce76d9a192",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une migration de prestataire de maintenance d'une LLC prend en général 7 à 14 jours et ne modifie pas la date de constitution d'origine, qui reste intacte au Secretary of State.",
+      "sha256": "572c7654294ba38a76c4beb1ee5c8e1116a33710bf27107b2673e095a520a179",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Den Maintenance-Anbieter einer LLC zu wechseln dauert in der Regel 7 bis 14 Tage und berührt das ursprüngliche Gründungsdatum nicht, das beim Secretary of State unverändert bleibt.",
+      "sha256": "1d5e9afe3260539b94db3cbe8a2433d78770cb06abd7dbbb49751ff7fa5d400c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Mudar de prestador de manutenção de uma LLC demora normalmente 7 a 14 dias e não altera a data de constituição original, que permanece intacta no Secretary of State.",
+      "sha256": "30cffcde14699d7c494316d9b82dc3a1ba6939fb083d96dc9dfefac2a7a8ed93",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una migració de proveïdor de manteniment d'una LLC es completa normalment en 7 a 14 dies i no toca la data de constitució original, que continua intacta al Secretary of State.",
+      "sha256": "8dccfad1e9c58f8ca14d8c08f61be8ed8352fffc2602e912038f5cb96c84c6c2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "caminos-legales-minimos-impuestos": {
+    "fr": {
+      "text": "Passer du taux marginal de 47 % en Espagne au taux corporate de 9 % aux Émirats arabes unis est légal, mais cela exige de changer réellement de résidence fiscale, pas juste d'adresse postale.",
+      "sha256": "0fc60189cd6c5002878e2471e81e6f0978f3df17ea443f78575e59a63c392197",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Passar do escalão marginal de 47 % em Espanha para os 9 % corporativos dos Emirados Árabes Unidos é legal, mas exige mudar realmente de residência fiscal, não apenas de morada postal.",
+      "sha256": "bbbdb129fe902141b88dca993c4e240e8f8f9ef90db6c474dadbe4d5f71c3976",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "como-disolver-cerrar-llc-paso-a-paso": {
+    "es": {
+      "text": "Disolver bien una LLC lleva entre 30 y 60 días y exige presentar el último Form 1120 + 5472 marcado como final return; saltarse ese paso convierte la LLC en un acumulador de sanciones de 25.000 $ por año.",
+      "sha256": "e4605df53e04b05f33ce38c2f6c78cff4f1f61f1625c3ec9edcaff1888641877",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A clean LLC dissolution runs 30 to 60 days and requires filing a final Form 1120 + 5472 marked as final return; skipping that step turns the LLC into a 25,000-dollar-per-year penalty accumulator.",
+      "sha256": "0d4c0502f95bb27dad3c29f61878023b02def3d28bfacedad60cbffad8e997cb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Bien dissoudre une LLC prend 30 à 60 jours et impose de déposer un dernier Form 1120 + 5472 marqué final return ; sauter cette étape transforme la LLC en accumulateur d'amendes de 25 000 $ par an.",
+      "sha256": "8be3dfcebdf249ffb9ceb72d2e5f6f0ee2c0318ac3e685ecf8196073aee8268b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine LLC sauber aufzulösen dauert 30 bis 60 Tage und verlangt das letzte Form 1120 + 5472 als final return; wer das auslässt, sammelt Strafen von 25.000 USD pro Jahr.",
+      "sha256": "e9a0c78f26c5476151e888084186d713091b3bd94d93f47101c23fdd05b0743d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Dissolver bem uma LLC demora 30 a 60 dias e obriga a apresentar um último Form 1120 + 5472 marcado como final return; saltar esse passo transforma a LLC num acumulador de sanções de 25.000 $ por ano.",
+      "sha256": "c64f9337e114c2abbd59833f395b2ef4808c7f492a3fd4af154bc35cac5b3a9f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Dissoldre bé una LLC porta entre 30 i 60 dies i obliga a presentar l'últim Form 1120 + 5472 marcat com a final return; saltar-se aquest pas converteix la LLC en un acumulador de sancions de 25.000 $ per any.",
+      "sha256": "a16e0a749f0f668ae7e543490b53618e7381cf2fa93c41318214b240fad7d110",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "como-operar-llc-dia-a-dia": {
+    "en": {
+      "text": "Running a well-kept LLC takes 2 to 5 hours of admin a month: uploading invoices to a drive, reconciling Mercury, and filing Form 1120 + 5472 once a year.",
+      "sha256": "8fa0d0cec12d6327b1ee4c7fc547ba0330551a581d6cf2cb8a7d2a9dec3429da",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Faire tourner une LLC bien tenue prend 2 à 5 heures d'administration par mois : déposer les factures dans un drive, rapprocher Mercury et déposer le Form 1120 + 5472 une fois par an.",
+      "sha256": "1861030f5b43bf31e3cf139d1addd49e3ca363a4bd4b90ccc0576792a2dafceb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine gut geführte LLC zu betreiben kostet 2 bis 5 Stunden Verwaltung pro Monat: Rechnungen auf ein Drive laden, Mercury abgleichen und einmal jährlich Form 1120 + 5472 einreichen.",
+      "sha256": "8c6a28e9fc429ef8fec20648750d61ee5f50c8f5872b1bdbd2424e8e1da0fdfc",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Operar uma LLC bem gerida consome 2 a 5 horas de gestão por mês: subir faturas para um drive, reconciliar a Mercury e entregar o Form 1120 + 5472 uma vez por ano.",
+      "sha256": "b5ac57bca4a9b7261a75327447969e88e75dc2aaa633f7a23453cafff2ada1aa",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Operar una LLC ben portada consumeix entre 2 i 5 hores de gestió al mes: pujar factures a un drive, conciliar Mercury i entregar el Form 1120 + 5472 un cop l'any.",
+      "sha256": "43de7a3c35edd7e6ebfed87828e2af6e5828f155f84bfc146bcaf5037b56b1ba",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "constituir-llc-proceso-paso-a-paso": {
+    "de": {
+      "text": "Eine LLC in Wyoming, Delaware oder New Mexico zu gründen dauert 7 bis 14 Tage und kostet im ersten Jahr 400 bis 1.500 USD, je nach Bundesstaat und Anbieter.",
+      "sha256": "4e5e645d8ef0b20e5895e66734f33b647b5aa12b33d19c6386fdae2cbeb82bcd",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "convenio-doble-imposicion-usa-espana-llc": {
+    "es": {
+      "text": "El Convenio entre España y Estados Unidos de 22 de febrero de 1990, con su protocolo de enmienda en vigor desde el 27 de noviembre de 2019, fija las reglas que evitan pagar dos veces sobre la misma renta de tu LLC.",
+      "sha256": "52f5c5112e4aac9462ff1a615cc105b37b3ffa2df7378a044b956fc7739ada1c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The US-Spain tax treaty signed on February 22, 1990, plus the amending protocol in force since November 27, 2019, sets the rules that stop you from paying twice on the same LLC income.",
+      "sha256": "d55f746a15804563aa54d51b577c9d92a49d9638f17f4e82f6161ca1caf6bd89",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "La convention fiscale entre l'Espagne et les États-Unis du 22 février 1990, complétée par le protocole d'amendement en vigueur depuis le 27 novembre 2019, fixe les règles qui évitent de payer deux fois sur le même revenu de votre LLC.",
+      "sha256": "427c7db152268a59b36ffbf8e75f8f51ffb185af8365a4da0f255a808c42183c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Das DBA zwischen Spanien und den USA vom 22. Februar 1990 samt dem seit dem 27. November 2019 in Kraft befindlichen Änderungsprotokoll legt die Regeln fest, die verhindern, dass Sie dasselbe LLC-Einkommen zweimal versteuern.",
+      "sha256": "062b1681eed70dc4c4a0614ab9a1df0badb98009f646870b386897b2a79910cb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "A convenção entre Espanha e Estados Unidos de 22 de fevereiro de 1990, com o protocolo de alteração em vigor desde 27 de novembro de 2019, fixa as regras que evitam pagar duas vezes sobre o mesmo rendimento da tua LLC.",
+      "sha256": "ba2af96feb105582dc9274ea172595a4b2b0ff719cfda14e174dba131db85e41",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "El Conveni entre Espanya i Estats Units de 22 de febrer de 1990, amb el protocol d'esmena en vigor des del 27 de novembre de 2019, fixa les regles que eviten pagar dues vegades sobre la mateixa renda de la teva LLC.",
+      "sha256": "34cceb99ecf6d052df76285c84e8cacdbe91d95e2f4c3332213428212d0c4b78",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "crear-empresa-andorra-ventajas": {
+    "es": {
+      "text": "Andorra aplica un IRPF máximo del 10 % y un Impuesto de Sociedades del 10 %, frente al 47 % de IRPF y el 25 % de Sociedades en España.",
+      "sha256": "7bd0e1dc650087713cd84c20ebfb04550ac663df9cde5b2435a8c481b39531eb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Andorra applies a top personal income tax of 10% and a corporate tax of 10%, versus Spain's 47% personal rate and 25% corporate rate.",
+      "sha256": "3cc931d6e30664ba0097e2cf08a915a9eb4a5b889d38ad5fdb7b19485562cc19",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "L'Andorre applique un IRPF plafonné à 10 % et un impôt sur les sociétés de 10 %, contre 47 % d'IRPF et 25 % d'IS en Espagne.",
+      "sha256": "e67689aa4130f565c267b90bab8fb0ac162a212efdd89f3cbc00a161e225a048",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Andorra hat einen maximalen IRPF von 10 % und eine Körperschaftsteuer von 10 %, gegenüber 47 % IRPF und 25 % Körperschaftsteuer in Spanien.",
+      "sha256": "2d35df3e5c17102d4c4f7fa4d049be563050fe37d7fd09314316daceb38636fd",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Andorra aplica um IRPF máximo de 10 % e um IRC de 10 %, contra os 47 % de IRPF e 25 % de IRC em Espanha.",
+      "sha256": "9b63db6fa747ecda4c84d54f1411aec210d925e399b1b2f67390580bccbdc490",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Andorra aplica un IRPF màxim del 10 % i un Impost de Societats del 10 %, davant del 47 % d'IRPF i el 25 % de Societats a Espanya.",
+      "sha256": "94530b7f202698f670d5cf47f566090ae4d71d0a08dbda559d0f778935608fec",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "criptomonedas-trading-llc-impuestos": {
+    "es": {
+      "text": "Las plusvalías cripto en España tributan en escala del 19 % al 30 %, y el Modelo 721 obliga a declarar saldos en exchanges extranjeros desde 50.000 €.",
+      "sha256": "3a2ad5b0f6482c45b76002e24936c0521d3ed9b6fbc472bd3f1f7c51cf16154b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Crypto capital gains in Spain are taxed on a 19% to 30% scale, and Modelo 721 forces you to declare balances on foreign exchanges from 50,000 euros upward.",
+      "sha256": "ef9650d8892dfbb6ab468d842103d169ca6d83dedef087f643f659763871f3f2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Krypto-Kapitalerträge werden in Spanien gestaffelt mit 19 % bis 30 % besteuert, und das Modelo 721 verpflichtet zur Meldung von Beständen auf ausländischen Exchanges ab 50.000 €.",
+      "sha256": "5cf1e1179dc386c3d34cce528f0140fc21e5f260fdb71bd6ec36926e0a9f0086",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "crs-cuentas-bancarias-llc-intercambio-informacion": {
+    "es": {
+      "text": "Más de 120 jurisdicciones intercambian saldos de cuentas bancarias bajo CRS, pero Estados Unidos no firmó el estándar OCDE de 2014 y por eso Mercury no envía datos automáticos a Hacienda.",
+      "sha256": "5f823a2882c7224133ed399464869432e6a4cfb055cc9a78618138384c12a842",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "More than 120 jurisdictions exchange bank-account balances under CRS, but the United States never signed the OECD's 2014 standard, which is why Mercury does not send automatic data to your local tax office.",
+      "sha256": "589fe9b2a0f25204e714f2baf87e1fe14f7dfb5aff6d4d556e968efd2eaa2846",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Plus de 120 juridictions échangent les soldes bancaires sous CRS, mais les États-Unis n'ont jamais signé le standard OCDE de 2014, raison pour laquelle Mercury n'envoie pas de données automatiques à votre fisc.",
+      "sha256": "a16ae01f1ec9e873b8f37ede95760f0599e403c8e517ac51d5efe3f2b8514f21",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Über 120 Jurisdiktionen tauschen Kontosalden unter CRS aus, doch die USA haben den OECD-Standard von 2014 nie unterzeichnet — deshalb meldet Mercury keine automatischen Daten an Ihr Finanzamt.",
+      "sha256": "cc0ea316519b355bf34832836316f9b2f814a58a3ce4edd73fa8325c58cd3f25",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Mais de 120 jurisdições trocam saldos de contas bancárias ao abrigo do CRS, mas os Estados Unidos nunca assinaram o standard OCDE de 2014, e por isso a Mercury não envia dados automáticos à tua autoridade fiscal.",
+      "sha256": "4d089ef6e372e340e0be76e13f3d623db3b33247483c707a1916efa858616db3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Més de 120 jurisdiccions intercanvien saldos de comptes bancaris sota CRS, però els Estats Units no van signar l'estàndard OCDE del 2014 i per això Mercury no envia dades automàtiques a la teva agència tributària.",
+      "sha256": "a8a1e93cad23a5744f37d1874de4e35409351daa648f89b7013bd0883070a297",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "crs-residentes-espana-latam-implicaciones": {
+    "es": {
+      "text": "El CRS lleva más de 120 países intercambiando saldos bancarios desde 2017, y un residente fiscal en España con cuenta en Andorra, Suiza o México verá esos datos llegar a Hacienda cada septiembre.",
+      "sha256": "413e16deff583a880cf1831369e7cccfc093c35a459bba0c0800f765e03927a4",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "CRS has been moving bank balances between more than 120 countries since 2017, and a Spanish tax resident with an account in Andorra, Switzerland or Mexico will see that data land at the tax office every September.",
+      "sha256": "d4c9a78b1e732be770914931e10ad5f127a38a329eb6194ce11a18c2c306b341",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le CRS fait circuler les soldes bancaires entre plus de 120 pays depuis 2017, et un résident fiscal espagnol avec un compte en Andorre, en Suisse ou au Mexique verra ces données arriver à l'administration chaque septembre.",
+      "sha256": "4ef0e91fa8e8e097004d00be771b1830ca400bc06b936debebd4143b2cc97cb6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Das CRS bewegt seit 2017 Kontosalden zwischen über 120 Ländern, und ein spanischer Steueransässiger mit einem Konto in Andorra, der Schweiz oder Mexiko sieht diese Daten jeden September beim Finanzamt eintreffen.",
+      "sha256": "6b72888b22dbfd475cd969e22c1ba82d94ec881f11256a35b5e4f75beb104aa5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O CRS movimenta saldos bancários entre mais de 120 países desde 2017, e um residente fiscal em Espanha com conta em Andorra, Suíça ou México vê esses dados chegar à Agência Tributária todo setembro.",
+      "sha256": "9d4de450382cf0e8597cb3fccf66c1b532acdeab05fb2a8a230b21b79358504d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "El CRS mou saldos bancaris entre més de 120 països des del 2017, i un resident fiscal a Espanya amb compte a Andorra, Suïssa o Mèxic veurà aquestes dades arribar a Hisenda cada setembre.",
+      "sha256": "49f6bd7e9ae33681c0caada69ea48cc74b60576e0a57697a67730001b8d6c108",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "cuanto-cuesta-constituir-llc": {
+    "es": {
+      "text": "Constituir una LLC cuesta de 0 $ a 50 $ de tasa estatal en New Mexico, 100 $ en Wyoming y 90 $ en Delaware; con servicio profesional el coste total del primer año queda entre 400 $ y 1.500 $.",
+      "sha256": "1219e9367a534c16224649f9015d13e5ccebf5cfb9c637f4f3231d0db1b7271e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Forming an LLC costs 0 to 50 dollars of state fee in New Mexico, 100 dollars in Wyoming, and 90 dollars in Delaware; with a professional service, the total first-year cost lands between 400 and 1,500 dollars.",
+      "sha256": "62a89baf65fa5ed7f6be3427985e76b8d5ed6269193591ebd1eb4bd535ac9987",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Créer une LLC coûte 0 à 50 $ de droit d'État au Nouveau-Mexique, 100 $ au Wyoming et 90 $ au Delaware ; avec un prestataire pro, le coût total de la première année se situe entre 400 $ et 1 500 $.",
+      "sha256": "984e90408305dcb4dfff70e0158ed007c7dc4733189d2fdf79edc415414edfb4",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine LLC zu gründen kostet 0 bis 50 USD Staatsgebühr in New Mexico, 100 USD in Wyoming und 90 USD in Delaware; mit einem professionellen Dienstleister landen die Gesamtkosten des ersten Jahres bei 400 bis 1.500 USD.",
+      "sha256": "9e08d123f4db10d67fef999f52f63b3f0973874ea804857bb17207b6ede3a4d1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Constituir uma LLC custa de 0 $ a 50 $ de taxa estatal no Novo México, 100 $ no Wyoming e 90 $ no Delaware; com serviço profissional, o custo total do primeiro ano fica entre 400 $ e 1.500 $.",
+      "sha256": "1aba1b3364f818098c91c8f7bf805065e883bd01edf2293f75fdcf7b46eccd39",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Constituir una LLC costa de 0 $ a 50 $ de taxa estatal a Nou Mèxic, 100 $ a Wyoming i 90 $ a Delaware; amb servei professional el cost total del primer any queda entre 400 $ i 1.500 $.",
+      "sha256": "d2d73cd153e00078ca709b4caf6d91aebf892284ef233f7b7d56401e43bf88fe",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "cuenta-bancaria-mercury-llc-extranjero": {
+    "es": {
+      "text": "Mercury cobra 0 $ de mantenimiento mensual y aprueba el 70-80 % de las solicitudes legítimas de no residentes en menos de 5 días laborables.",
+      "sha256": "e6e3c4d11a7c5966041884876cd6d2a2035b2823c8ae3327db2fd0fea8da77fb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Mercury charges 0 dollars in monthly maintenance and approves roughly 70 to 80 percent of legitimate non-resident applications in under 5 business days.",
+      "sha256": "39d4ed546c977ec54fcad39a323cad2de781d8b757e804c6757c722eedbf4ec5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Mercury facture 0 $ de frais mensuels et approuve environ 70 à 80 % des demandes légitimes de non-résidents en moins de 5 jours ouvrés.",
+      "sha256": "018376e9441576db7bad6cbb3436ab172f5de4a885f120f51d7dca2cd69d3006",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Mercury verlangt 0 USD monatliche Gebühr und genehmigt rund 70 bis 80 % der legitimen Anträge von Nicht-Ansässigen in weniger als 5 Arbeitstagen.",
+      "sha256": "6b790ed6a164bb35f7feb87e79ced5e4c77b443cb90fa0802e86e18cc70a3bef",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "A Mercury cobra 0 $ de manutenção mensal e aprova 70 a 80 % dos pedidos legítimos de não residentes em menos de 5 dias úteis.",
+      "sha256": "a35ec3b5b06ec94bb82308d4e48910af569c2f9e41c9e9151b52bc3d858c3219",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Mercury cobra 0 $ de manteniment mensual i aprova entre el 70 i el 80 % de les sol·licituds legítimes de no residents en menys de 5 dies laborables.",
+      "sha256": "df97c200805bdd2d5d7e2d80632eb31af3f5cd45e3a8a6043b90d1d0a4c29d63",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "cuentas-bancarias-usa-reportan-hacienda-verdad": {
+    "es": {
+      "text": "Estados Unidos no firmó el CRS de 2014, y FATCA solo intercambia con España bajo el Modelo 1 IGA información parcial sobre cuentas de personas físicas, no sobre la cuenta operativa de tu LLC.",
+      "sha256": "546f003ab04c042639e67e119aca8f4208e34658253163307021094608cd9d0a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The US never signed the 2014 CRS, and FATCA only exchanges with Spain — under Model 1 IGA — partial information on individual accounts, not on your LLC's operating account.",
+      "sha256": "04d67421aff4e0a8082806dc56743124f57665de8d02b402ae9d76ca73d14493",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Les États-Unis n'ont jamais signé le CRS de 2014, et FATCA n'échange avec l'Espagne, via le Model 1 IGA, qu'une information partielle sur les comptes de personnes physiques, pas sur le compte opérationnel de votre LLC.",
+      "sha256": "d997b39f2d3e8d0b38dec992f38a4b63ed66c2befc77abb88d029eee04ee4a0a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die USA haben das CRS von 2014 nie unterzeichnet, und FATCA tauscht mit Spanien — unter dem Model 1 IGA — nur Teilinformationen zu Konten natürlicher Personen aus, nicht zum Geschäftskonto Ihrer LLC.",
+      "sha256": "b8ac73f546f5a7ac41a90afb54493e25e345739dcd2ce1f4c03aac8be48f3836",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Os Estados Unidos nunca assinaram o CRS de 2014, e o FATCA só troca com Espanha — ao abrigo do Modelo 1 IGA — informação parcial sobre contas de pessoas singulares, não sobre a conta operacional da tua LLC.",
+      "sha256": "9e71f41ae63859e36bcb0d88f993786c8df778a92b780b80e23188f40becd439",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Els Estats Units no van signar el CRS del 2014, i FATCA només intercanvia amb Espanya — sota el Model 1 IGA — informació parcial de comptes de persones físiques, no del compte operatiu de la teva LLC.",
+      "sha256": "c45482ee111769f50375ddad433bf499d76123a8b897a687f6b1eda93af2e188",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "diferencia-llc-corporation-s-corp-c-corp": {
+    "es": {
+      "text": "EE.UU. ofrece 4 vehículos principales: la LLC pass-through con 0 % federal, la S-Corp limitada a residentes, la C-Corp con 21 % federal y la sole proprietorship sin escudo legal.",
+      "sha256": "c9bf2d3bdc8815c4ea83d9f6c16bc960727b6baaa5fd2d44c4ec10a3d9687f2d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The US offers 4 main business vehicles: the pass-through LLC at 0% federal, the S-Corp restricted to US residents, the C-Corp at 21% federal, and the sole proprietorship with no legal shield.",
+      "sha256": "8f8163b0d11099600581c34ff7045d6880bf208bfeacaf57c85f848644bbd82d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Les États-Unis proposent 4 véhicules principaux : la LLC pass-through à 0 % fédéral, la S-Corp réservée aux résidents, la C-Corp à 21 % fédéral et la sole proprietorship sans bouclier juridique.",
+      "sha256": "b13b7b061e9bca8d89cd87905dae327977755a6eb80da81e18ac80c8da6be8f1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die USA bieten 4 Hauptvehikel: die Pass-through-LLC mit 0 % föderal, die nur für Residents zugängliche S-Corp, die C-Corp mit 21 % föderal und die Sole Proprietorship ohne Haftungsschutz.",
+      "sha256": "a0b61b5a6af87294013820aa84a286e5d287840e142dcc5bc10b54d4a1328b56",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Os EUA oferecem 4 veículos principais: a LLC pass-through a 0 % federal, a S-Corp restrita a residentes, a C-Corp a 21 % federal e a sole proprietorship sem escudo legal.",
+      "sha256": "c2d2510aa1cba4fc8cabd084fe815627e43cf26816a15362d03b6051a4894250",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "EUA ofereix 4 vehicles principals: la LLC pass-through al 0 % federal, la S-Corp restringida a residents, la C-Corp al 21 % federal i la sole proprietorship sense escut legal.",
+      "sha256": "fb7a1eff1ed1b8b672d850ed168c9a8d439c641c260d307a5f1ec338a6bb13ba",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "diseno-estructura-fiscal-internacional-solida": {
+    "es": {
+      "text": "Una estructura fiscal internacional sólida cruza al menos 3 jurisdicciones (residencia, sede operativa, banca) y se enfrenta a las 15 acciones BEPS de la OCDE diseñadas para evitar el desplazamiento artificial de beneficios.",
+      "sha256": "cf8ed79b7fcbebbd96ad66a86e737adda54d16f01cb107c06c779ae3164df80a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A solid international tax structure crosses at least 3 jurisdictions (residency, operations, banking) and runs into the OECD's 15 BEPS actions, designed to stop artificial profit shifting.",
+      "sha256": "db368f5e82b459fbb6d9b22b8afd70cd9124efcdb2b16f3d9f5ee0da8a8eecf6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une structure fiscale internationale solide croise au moins 3 juridictions (résidence, siège opérationnel, banque) et se heurte aux 15 actions BEPS de l'OCDE conçues pour empêcher le transfert artificiel de bénéfices.",
+      "sha256": "94902cee95aa735b1b722b0b4e6a41143899990b4e70c17f9fb45149b76b8801",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine solide internationale Steuerstruktur überschneidet mindestens 3 Jurisdiktionen (Wohnsitz, Operativsitz, Banking) und stößt auf die 15 BEPS-Aktionen der OECD gegen künstliche Gewinnverlagerung.",
+      "sha256": "6f2aafdea96dd7d751b3494155c66c3c4f097f4da207b46b5312d88a3891dd16",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma estrutura fiscal internacional sólida cruza pelo menos 3 jurisdições (residência, sede operacional, banca) e enfrenta as 15 ações BEPS da OCDE concebidas para travar o desvio artificial de lucros.",
+      "sha256": "78e8971f85a4410e90168cdab3d276134244a9788b6ce418a2d7d56d1e344f2d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una estructura fiscal internacional sòlida creua almenys 3 jurisdiccions (residència, seu operativa, banca) i s'enfronta a les 15 accions BEPS de l'OCDE dissenyades per evitar el desplaçament artificial de beneficis.",
+      "sha256": "8d86f30ce7abc8627207bc031f02403b550fa339f86d101755cdf2f774d8a3aa",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "documentar-separacion-fondos-llc-historial": {
+    "es": {
+      "text": "El IRS exige conservar 7 años de extractos bancarios y justificantes para demostrar que el dinero de la LLC y el personal nunca se mezclaron, condición indispensable para mantener el escudo del corporate veil.",
+      "sha256": "c6e0712e1ee2f2c46faa5e8a7f7610338139322ebc43c282fc70623f1739f7ee",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The IRS requires you to keep 7 years of bank statements and receipts to prove that LLC money and personal money never mixed — a hard condition to preserve the corporate veil.",
+      "sha256": "b574f6251776b62dc5d1aaef16e46a803a449749dfd9d20d27b07eaf1cdc2973",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "L'IRS exige de conserver 7 ans de relevés bancaires et de justificatifs pour prouver que l'argent de la LLC et le tien personnel ne se sont jamais mélangés, condition indispensable pour préserver le corporate veil.",
+      "sha256": "9973e73057f89f8c7a99d89289f8090f0ffe659a0ff8dbc15db1359af84ae5bd",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die IRS verlangt 7 Jahre Kontoauszüge und Belege, um zu beweisen, dass LLC-Gelder und Privatgelder sich nie vermischt haben — Voraussetzung, um den Corporate Veil zu erhalten.",
+      "sha256": "e9b586f3e71d24d38e230f2a01df34e1ea5620b9026096133a73864197bae780",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O IRS exige conservar 7 anos de extratos bancários e justificativos para provar que o dinheiro da LLC e o pessoal nunca se misturaram, condição indispensável para manter o corporate veil.",
+      "sha256": "41c491b1aef670ed030e1e88b8729307789038d0c19f985ac0362b13ff357ac1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "L'IRS exigeix conservar 7 anys d'extractes bancaris i justificants per demostrar que els diners de la LLC i els personals no s'han barrejat mai, condició indispensable per mantenir el corporate veil.",
+      "sha256": "b19de5f7f8a27071cf64e452da4ef0fa5c50f969121bcacb107b432304df3020",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "documentos-llc-cuales-necesitas": {
+    "es": {
+      "text": "El kit legal de una LLC bien constituida contiene 6 documentos imprescindibles: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si aplica), Registered Agent Acceptance y Banking Resolution.",
+      "sha256": "b464fba88c323dc75b0b09190b95db86a559e86841ad39b21bf938cbe52129fc",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A properly formed LLC's legal kit contains 6 must-have documents: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (if applicable), Registered Agent Acceptance, and Banking Resolution.",
+      "sha256": "47e63d9a1af6fa3cac6f95c3167b86bdb231a56496d087383251425d9206e23b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le kit juridique d'une LLC bien constituée comprend 6 documents incontournables : Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si applicable), Registered Agent Acceptance et Banking Resolution.",
+      "sha256": "6f3fb45e8d0b61722a11cbef9443e49cf302e033fd75a3935674b2553318c104",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Das Rechts-Kit einer korrekt gegründeten LLC enthält 6 Pflichtdokumente: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (sofern anwendbar), Registered Agent Acceptance und Banking Resolution.",
+      "sha256": "362e8dfb850dc5493b3fd76948ad8e85a25967a0ac00e732370b89a5db45f044",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O kit legal de uma LLC bem constituída contém 6 documentos imprescindíveis: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (se aplicável), Registered Agent Acceptance e Banking Resolution.",
+      "sha256": "4b3c7d77990be693c2e11b9b7e2f6fccbed9d44aa6a30be2c36f2a82d53bb8c5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "El kit legal d'una LLC ben constituïda conté 6 documents imprescindibles: Articles of Organization, Operating Agreement, EIN Confirmation Letter (CP 575), BOI Report (si escau), Registered Agent Acceptance i Banking Resolution.",
+      "sha256": "e003c9060c65c9b57e0ec54598bc69ca9566b435f1f8c4e8b050ca77edb3dff6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "dubai-uae-mito-no-impuestos": {
+    "es": {
+      "text": "Desde el 1 de junio de 2023 los Emiratos Árabes Unidos aplican un Corporate Tax del 9 % sobre beneficios superiores a 375.000 AED (unos 102.000 $), lo que termina con el mito del 0 %.",
+      "sha256": "530f80a9a655aba5e1f2d381bfc71da74ee705258a6b34ce4cd34a4a2bcf7b7b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Since June 1 2023 the UAE applies a 9% corporate tax on profits above 375,000 AED (around 102,000 dollars), ending the 0% myth.",
+      "sha256": "ea4795b5e3d463292f4f5fcf57a454b1b73d2ad8a0335f0ffa0f6cab2c0c9785",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Depuis le 1er juin 2023, les Émirats arabes unis appliquent un corporate tax de 9 % sur les bénéfices au-delà de 375 000 AED (environ 102 000 $), ce qui met fin au mythe du 0 %.",
+      "sha256": "d30205e478ac432de632ab68d8fac9a49c4b7713caaaeace2a52123faa27baf5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Seit dem 1. Juni 2023 erheben die VAE eine Körperschaftsteuer von 9 % auf Gewinne über 375.000 AED (rund 102.000 USD) — das beendet den 0-%-Mythos.",
+      "sha256": "6981fff6edfda8cad70cbfc0f86e8fa78bc4b356a057492555397b0e8a5ce889",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Desde 1 de junho de 2023, os Emirados Árabes Unidos aplicam um Corporate Tax de 9 % sobre lucros acima de 375.000 AED (cerca de 102.000 $), o que termina com o mito do 0 %.",
+      "sha256": "72a5514a636d84cc27d2ef38776a0c2f92a9775bc69eca29705d66bcb9dc3291",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Des de l'1 de juny de 2023, els Emirats Àrabs Units apliquen un Corporate Tax del 9 % sobre beneficis superiors a 375.000 AED (uns 102.000 $), cosa que liquida el mite del 0 %.",
+      "sha256": "ede19c5b7ab1f7462a604e5288a541cfd344868cb2f663fc6d922656d9f10dbd",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "due-diligence-bancario-llc-americana": {
+    "es": {
+      "text": "Mercury, Relay y Wise resuelven el due diligence bancario en 5 a 10 días laborables, pero rechazan en la primera ronda alrededor del 25 % de las solicitudes por documentación incompleta.",
+      "sha256": "16cce7ac37ebcae371e3694d14fc7f88898d08ade035ca29a4b709f427f872eb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Mercury, Relay and Wise close bank due diligence in 5 to 10 business days, but reject roughly 25% of applications in the first round for incomplete paperwork.",
+      "sha256": "215ebf26402442eeac822a7fe066ad6dd69feb0b670ed054ec0f256721f37644",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Mercury, Relay et Wise bouclent la due diligence bancaire en 5 à 10 jours ouvrés, mais rejettent environ 25 % des demandes au premier tour pour dossier incomplet.",
+      "sha256": "c13399a23a0d1dafa3ce1fa5ce0ecfe1ad3b2b3407ab7ff8fd0518fdd81ad7df",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "A Mercury, a Relay e a Wise concluem o due diligence bancário em 5 a 10 dias úteis, mas rejeitam cerca de 25 % dos pedidos na primeira ronda por documentação incompleta.",
+      "sha256": "1c2c99717498c88508c248e4606b2df8abd13149d3075e1a05ead4364c1fbd66",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "ein-numero-fiscal-llc-como-obtenerlo": {
+    "es": {
+      "text": "El IRS emite el EIN de una LLC en 4 a 6 semanas tras enviar el Form SS-4 por fax (855-641-6935) cuando el solicitante es no residente sin SSN ni ITIN.",
+      "sha256": "0e36bcb62bf92cf4175bdc9bf3f0c20a8f1ca44c2c2a98f42ec603a064ca0b44",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The IRS issues an LLC's EIN in 4 to 6 weeks after the Form SS-4 is faxed to 855-641-6935, when the applicant is a non-resident without SSN or ITIN.",
+      "sha256": "efaa139f53f6afae6641dab744da5eee90fa463908479fdbeb147ab3a4e801a8",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "L'IRS délivre l'EIN d'une LLC en 4 à 6 semaines après l'envoi du Form SS-4 par fax au 855-641-6935 lorsque le demandeur est non-résident sans SSN ni ITIN.",
+      "sha256": "7c3ae87415802aa7958162c5d052eaef807bca8ce360dd9930bb860509784930",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die IRS stellt die EIN einer LLC in 4 bis 6 Wochen aus, nachdem das Form SS-4 per Fax an 855-641-6935 gesendet wurde — wenn der Antragsteller Nicht-Ansässiger ohne SSN oder ITIN ist.",
+      "sha256": "d248dc7d5eb8e8044bb8a3adb55a788839be80c7383503c908b58fd5b0b7cc6a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O IRS emite o EIN de uma LLC em 4 a 6 semanas depois do Form SS-4 ser enviado por fax para 855-641-6935 quando o requerente é não residente sem SSN nem ITIN.",
+      "sha256": "eaa634f4ce66a219176f78a417dae983bc71956face6730d3235f2e548e6f50c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "L'IRS emet l'EIN d'una LLC en 4 a 6 setmanes després d'enviar el Form SS-4 per fax al 855-641-6935 quan el sol·licitant és no resident sense SSN ni ITIN.",
+      "sha256": "2fe54fc6b1a077dba6e2de18b711c4fb92153b4fbd5bcba130b4eccd60b68f1f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "empresa-panama-fiscalidad-residencia": {
+    "es": {
+      "text": "Panamá tributa al 25 % las rentas generadas dentro del país, pero aplica el principio territorial: las rentas obtenidas fuera de Panamá pagan 0 %, lo que define el atractivo histórico de la jurisdicción.",
+      "sha256": "168ebbc7c72a20fa9df0318513d7cfe939d82d11dc21ea3c77f931b34a76c484",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O Panamá tributa a 25 % os rendimentos gerados no país, mas aplica o princípio territorial: os rendimentos obtidos fora do Panamá pagam 0 %, o que define o atrativo histórico da jurisdição.",
+      "sha256": "71c5c56f9edef68b1f7c3fed8ad8dcf96893a4dacf2f823d79b46f4dd762d375",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Panamà tributa al 25 % les rendes generades dins del país, però aplica el principi territorial: les rendes obtingudes fora de Panamà paguen 0 %, cosa que defineix l'atractiu històric de la jurisdicció.",
+      "sha256": "53e86196f0ee39f6809d73da0a67f92cd61cd2177abc0660a2555299e754a79a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "empresa-reino-unido-uk-ltd": {
+    "es": {
+      "text": "Tras la subida de 2023, una UK Ltd paga 19 % de Corporation Tax en su tramo small profits y hasta 25 % a partir de 250.000 £ de beneficio anual.",
+      "sha256": "666b0f4f0cb0be6f1c258e42f376b84dacf6741602797f85d8d7fcbf07d6b2b2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "After the 2023 rate hike, a UK Ltd pays 19% Corporation Tax in the small profits bracket and up to 25% above 250,000 pounds of annual profit.",
+      "sha256": "c9c090b66784c0ba3ab4aeed5bcc9b688440bc163054307779129b93fbb833b7",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Après la hausse de 2023, une UK Ltd paie 19 % de Corporation Tax sur le palier small profits et jusqu'à 25 % au-delà de 250 000 £ de bénéfice annuel.",
+      "sha256": "dd908d16d24581a92c51692d015fa9b67f8fa3c58c051366785fb1cff2dd9505",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Nach der Erhöhung von 2023 zahlt eine UK Ltd 19 % Corporation Tax in der Small-Profits-Stufe und bis zu 25 % ab 250.000 GBP Jahresgewinn.",
+      "sha256": "416ec724a401b8c6ce61f6d84696e84f31b149a7ca847ef6079db930e7ef58af",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Após a subida de 2023, uma UK Ltd paga 19 % de Corporation Tax no escalão small profits e até 25 % acima de 250.000 £ de lucro anual.",
+      "sha256": "a4a5586cbde125cb4b890a76456c25ef7a9c1043724bd7a85f376831f7c9b479",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Després de la pujada del 2023, una UK Ltd paga 19 % de Corporation Tax en el tram small profits i fins al 25 % a partir de 250.000 £ de benefici anual.",
+      "sha256": "929fbb9d68609ac9ee8a17912709422773e015336d3fcf69a27b70cd8fe30e9c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "errores-criticos-llc-ya-constituida": {
+    "es": {
+      "text": "El 80 % de las LLCs que llegan a Exentax con problemas arrastra el mismo top 5: BOI fuera de plazo, Form 5472 sin presentar, Annual Report caducado, Registered Agent perdido y mezcla de fondos personales.",
+      "sha256": "061b964d2de9ea79cd664186b13c8e735ffbac3c3eeac72a2694c8ec8dab4bb1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "About 80% of the troubled LLCs that reach Exentax carry the same top 5 problems: late BOI, missing Form 5472, lapsed Annual Report, dropped Registered Agent, and personal-funds commingling.",
+      "sha256": "c408f784c004600dd0d33314d400337e979db1d77bcca4bfbc2afd597964087b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Près de 80 % des LLC en difficulté qui arrivent chez Exentax cumulent le même top 5 : BOI hors délai, Form 5472 non déposé, Annual Report périmé, Registered Agent perdu et mélange des fonds personnels.",
+      "sha256": "40af2f55e535113d0455a26ed6928b1a5edf6274986d02e7e4733f859eea7853",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Rund 80 % der in Schwierigkeiten geratenen LLCs, die zu Exentax kommen, schleppen dieselben Top 5: verspätete BOI, fehlendes Form 5472, abgelaufener Annual Report, verlorener Registered Agent und vermischte Privatgelder.",
+      "sha256": "9a79876fd4d70788e1fb131018ccfc97b20323f4e9aa97779e60370599675197",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Cerca de 80 % das LLCs com problemas que chegam à Exentax arrasta o mesmo top 5: BOI fora de prazo, Form 5472 por entregar, Annual Report caducado, Registered Agent perdido e mistura de fundos pessoais.",
+      "sha256": "dfe8eaf8cc01624843ccdb435a6fe169e2d9c2ae5059807d5caa7c8702e73532",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Al voltant del 80 % de les LLCs amb problemes que arriben a Exentax arrosseguen el mateix top 5: BOI fora de termini, Form 5472 sense presentar, Annual Report caducat, Registered Agent perdut i barreja de fons personals.",
+      "sha256": "57c121c6e65c59f97c09e6ea4699d245a195454ac68e7ffd159e157b2e19c112",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "escalar-negocio-digital-llc-americana": {
+    "es": {
+      "text": "Una LLC pass-through paga 0 % federal en Estados Unidos sin importar si facturas 50.000 $ o 1.000.000 $ al año, lo que la convierte en el vehículo más eficiente para escalar un negocio digital.",
+      "sha256": "0cf761bde12d67df751f1ac9c8081132cd58c105c7145baad4e31474881a553a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A pass-through LLC pays 0% federal in the US whether you bill 50,000 dollars or 1,000,000 dollars a year, which makes it the most efficient vehicle for scaling a digital business.",
+      "sha256": "06f39ccda2bc3748e75542a5633ad268391fb97d2cfbc9623771ea89ee969bc2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "estructura-fiscal-optima-freelancer-internacional": {
+    "en": {
+      "text": "A Spanish freelancer billing international clients can move from the 47% IRPF top rate plus RETA fee to a pass-through LLC scheme with 0% federal, aligning the tax with the real country of residence.",
+      "sha256": "64e46e7d09dee1da603cc70c14b80b4100b04759b9861b4b931a29ab6914c887",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Un freelance en Espagne qui facture à l'international peut passer du taux marginal IRPF de 47 % et de la cotisation RETA à un schéma LLC pass-through à 0 % fédéral, en alignant la fiscalité sur le pays réel de résidence.",
+      "sha256": "af959a1ae3c0f7f76a5df7741e07bd757460a3e4e0c24393a902648d028d6421",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Ein in Spanien ansässiger Freelancer mit internationalen Kunden kann vom 47-%-Spitzensteuersatz plus RETA-Beitrag auf eine Pass-through-LLC mit 0 % föderal wechseln und die Besteuerung am tatsächlichen Wohnsitzland ausrichten.",
+      "sha256": "b0872f06f669877d43ca9b9ca1510268ae59710079ad79aa04f027add4233861",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Um freelancer em Espanha que factura a clientes internacionais pode passar do escalão marginal de 47 % IRPF mais quota RETA para um esquema LLC pass-through a 0 % federal, alinhando a tributação com o país real de residência.",
+      "sha256": "5c651cb8a414a70ce6b9c02fe00d6fa21e8b85fbfb63dbca48cca8f1a5a93ae8",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Un freelance a Espanya que factura a clients internacionals pot passar del 47 % marginal IRPF més quota RETA a un esquema LLC pass-through amb 0 % federal, ajustant la tributació al país real de residència.",
+      "sha256": "986cb2a4a54e37ab68fcee54c677f04080f9fad47611bba0fa183ff9f1ab872b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "estructura-offshore-beneficios-riesgos": {
+    "es": {
+      "text": "Las 15 acciones BEPS de la OCDE, lanzadas en 2015 y reforzadas con BEPS 2.0 en 2024, han desactivado el 80 % de las estructuras offshore que funcionaban hace una década.",
+      "sha256": "77580af6261e878570b89a002fe70d4cf204324752d3edb94dfa930fd90b1e1b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The OECD's 15 BEPS actions, launched in 2015 and reinforced by BEPS 2.0 in 2024, have neutralised about 80% of the offshore structures that worked a decade ago.",
+      "sha256": "f5bd85fd56c9021268d3cbd6fa2e9bee70b655281ec633360ee76c9e0219c7f1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Les 15 actions BEPS de l'OCDE, lancées en 2015 et renforcées par BEPS 2.0 en 2024, ont neutralisé environ 80 % des structures offshore qui fonctionnaient il y a dix ans.",
+      "sha256": "57811a2ede22b5a1bd11a46b1e72763bfa97cafe243dfa6925dfa9924e6deac6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die 15 BEPS-Aktionen der OECD, 2015 gestartet und 2024 mit BEPS 2.0 verstärkt, haben rund 80 % der Offshore-Strukturen ausgehebelt, die vor zehn Jahren funktionierten.",
+      "sha256": "b7efcfc605eaf6f500ffd3f9205200b3d577abb913724959f6e5ecb305505d24",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "As 15 ações BEPS da OCDE, lançadas em 2015 e reforçadas com BEPS 2.0 em 2024, neutralizaram cerca de 80 % das estruturas offshore que funcionavam há uma década.",
+      "sha256": "2758f8f875409795573aef83410608e4e41a469cfadc7d8d91a8c75483dfeb8c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Les 15 accions BEPS de l'OCDE, llançades el 2015 i reforçades amb BEPS 2.0 el 2024, han neutralitzat al voltant del 80 % de les estructures offshore que funcionaven fa una dècada.",
+      "sha256": "c481700ff3e955e07f6cea0a7ea69126c1b14779c0dd75adb52ecded4a94d280",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "evitar-bloqueos-mercury-wise-revolut": {
+    "es": {
+      "text": "Mercury y Wise resuelven el 90 % de los bloqueos preventivos en menos de 30 días si el cliente responde al primer correo de KYC con la documentación correcta.",
+      "sha256": "581dd3dcc7f3b7526a027ed9808cc067677b46be6d9f4975e2a4161f0d49a08e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Mercury and Wise resolve 90% of preventive freezes in under 30 days when the customer answers the first KYC email with the right documentation.",
+      "sha256": "bc9570ce1e8e9f7caec444bda471f4240f821af282e9d951f1af1893e2988447",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "facturar-sin-ser-autonomo-alternativas-2026": {
+    "es": {
+      "text": "Facturar más de 1.000 € recurrentes al mes sin alta de autónomo es delito de intrusismo administrativo, y la AEAT cuenta con una herramienta de cruce de Modelo 347 que detecta el patrón.",
+      "sha256": "403156d63907844aafd6b2124e4eb3280f84e3e3ddb1ca9db3fe8b23a9092eb5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Billing more than 1,000 euros a month on a recurring basis without registering as autónomo amounts to administrative trespass in Spain, and the AEAT runs a Modelo 347 cross-check tool that spots the pattern.",
+      "sha256": "dbfd65b8b6957840e38e4eda9f040e20fb9272847c397febdf8a577e0735d563",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Facturer plus de 1 000 € récurrents par mois sans s'enregistrer comme autónomo est un délit d'intrusion administrative en Espagne, et l'AEAT dispose d'un outil de croisement Modelo 347 qui détecte ce schéma.",
+      "sha256": "beefdcd70051fe1f04940904521d2a804dab4eb43224233223f0568e28b09e54",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Mehr als 1.000 € monatlich wiederkehrend ohne Autónomo-Anmeldung zu fakturieren ist in Spanien ein Verwaltungsverstoß, und die AEAT verfügt über ein Modelo-347-Abgleichtool, das das Muster erkennt.",
+      "sha256": "01e5e9d0eddeabc00eca5c89f589a071720b29aa824a9987cdb9fb764edc2f90",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Faturar mais de 1.000 € recorrentes por mês sem inscrição como autónomo é crime de intrusismo administrativo em Espanha, e a AEAT dispõe de uma ferramenta de cruzamento do Modelo 347 que deteta o padrão.",
+      "sha256": "c25d86f97dd3abf6ed6d6d6dbeee559ed2886399e70f4d48e28298e26b2859ec",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Facturar més de 1.000 € recurrents al mes sense alta d'autònom és delicte d'intrusisme administratiu a Espanya, i l'AEAT compta amb una eina de creuament del Model 347 que detecta el patró.",
+      "sha256": "17195ad8895c00bccd9be520fcffd955a23dcb4283c128722e3d2aabc9f7d751",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "fiscalidad-internacional-emprendedores-digitales": {
+    "es": {
+      "text": "Más de 100 países compiten hoy por captar emprendedores digitales con tipos efectivos que oscilan entre el 0 % de Bahamas y el 47 % de España, según jurisdicción y residencia.",
+      "sha256": "91dc4bd749cbf26f4fc7e496f36ca9d3001b752330e272eeaae64747c0e30c40",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "More than 100 countries compete today for digital entrepreneurs with effective rates ranging from the Bahamas' 0% to Spain's 47%, depending on jurisdiction and residency.",
+      "sha256": "33b8db0a8b11699350537bb8fa968ad11df1c7b26e876da2162f0d3bb63fa4ce",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "fiscalidad-llc-por-pais-residencia": {
+    "es": {
+      "text": "Una LLC pass-through paga 0 % federal en Estados Unidos, pero tributa hasta el 47 % en IRPF si el dueño reside en España, hasta el 45 % en Francia, hasta el 45 % en Alemania o hasta el 22 % en Portugal con NHR.",
+      "sha256": "120f23fed7e79c170be7e33ad727c9df89314981830a10f42cd841b69eaabe46",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une LLC pass-through paie 0 % fédéral aux États-Unis mais est imposée jusqu'à 47 % sur l'IRPF en Espagne, jusqu'à 45 % en France, jusqu'à 45 % en Allemagne ou jusqu'à 22 % au Portugal sous NHR.",
+      "sha256": "587b868707755ff0b50de2b69d44506b88f40d85fa04bffa9c9ec48b718af7d5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine Pass-through-LLC zahlt 0 % föderal in den USA, wird aber je nach Wohnsitz mit bis zu 47 % IRPF in Spanien, bis zu 45 % in Frankreich, bis zu 45 % in Deutschland oder bis zu 22 % in Portugal unter NHR besteuert.",
+      "sha256": "0a0b67d74e56769f1f43b64386cc145a4db434be6b36690b49e439b11daeed83",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma LLC pass-through paga 0 % federal nos EUA, mas tributa até 47 % de IRPF se o dono residir em Espanha, até 45 % em França, até 45 % na Alemanha ou até 22 % em Portugal sob NHR.",
+      "sha256": "7a867ad8d69b11747dfd77138273f860acb61cbeb00e012a84e6f9c3ec5fe21d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una LLC pass-through paga 0 % federal als EUA, però tributa fins al 47 % en IRPF si l'amo resideix a Espanya, fins al 45 % a França, fins al 45 % a Alemanya o fins al 22 % a Portugal amb NHR.",
+      "sha256": "783b7d79a2349808879162786d997768fc01e8c70e9a72215c39adf591397147",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "fiscalidad-socios-llc-cambio-residencia-mid-year": {
+    "es": {
+      "text": "Cambiar de residencia fiscal a mitad de año fiscal obliga a prorratear la renta de la LLC entre los dos países usando la regla de los 183 días y el split-year treatment de cada convenio.",
+      "sha256": "c230711b2f7fa8201e7b3dfd26d12b24351a8410b1a74b080a7a123d391fa4ad",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Switching tax residency mid-year forces you to split LLC income between the two countries using the 183-day rule and each treaty's split-year treatment.",
+      "sha256": "68ae2a4d4244a693e353c49854fcaaff40cc24dbfea034a6c9d752b5600f333c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Ein Wechsel der Steueransässigkeit mitten im Jahr zwingt dazu, das LLC-Einkommen zwischen beiden Ländern mit der 183-Tage-Regel und dem Split-Year-Treatment des jeweiligen DBA aufzuteilen.",
+      "sha256": "19f7b658facb4e991c240536a7047548b7ac2276f963fa4c8dd12643c73e6e6b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "gastos-deducibles-llc-que-puedes-deducir": {
+    "es": {
+      "text": "Una LLC pass-through puede deducir bajo la sección §162 del IRC el 100 % de los gastos ordinarios y necesarios de la actividad, sin techo numérico predefinido pero con límites cualitativos estrictos.",
+      "sha256": "350bd62010868388ca12075fab8af33692b16dea6de4c4cff72b3aab03772ec2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A pass-through LLC can deduct under IRC §162 100% of the ordinary and necessary expenses of the activity, with no predefined numerical cap but strict qualitative limits.",
+      "sha256": "bb86daf565d138e45ca0ac9a6f953f8fa86d37192767989585c39d56740b92ec",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une LLC pass-through peut déduire au titre de l'IRC §162 100 % des dépenses ordinaires et nécessaires à l'activité, sans plafond numérique prédéfini mais avec des limites qualitatives strictes.",
+      "sha256": "b112781ec5e210c3cb26f66a90de3241fabaeb7ca1710a00e24ef93c04ec9dfd",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine Pass-through-LLC darf nach IRC §162 100 % der gewöhnlichen und notwendigen Betriebsausgaben absetzen — ohne vordefinierte numerische Obergrenze, aber mit strengen qualitativen Grenzen.",
+      "sha256": "a69b757b793d2052874f05916878350fb5c68b170d583ac46cbe5fb38e5b404a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma LLC pass-through pode deduzir ao abrigo da §162 do IRC 100 % das despesas ordinárias e necessárias à atividade, sem tecto numérico predefinido mas com limites qualitativos estritos.",
+      "sha256": "88f44041492b017c22f975e194d1fdbbb2c3c8efe96543749d1805ca62bd750a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una LLC pass-through pot deduir, segons la secció §162 de l'IRC, el 100 % de les despeses ordinàries i necessàries de l'activitat, sense sostre numèric predefinit però amb límits qualitatius estrictes.",
+      "sha256": "9f62361139f2ff0f05906877bd884ce28209f9b9299e22211e1841472bed9836",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "holding-empresarial-como-funciona": {
+    "es": {
+      "text": "Las 5 jurisdicciones holding más utilizadas en Europa —Países Bajos, Luxemburgo, Irlanda, Malta y Chipre— ofrecen exenciones de participación a partir del 5 % o 10 % de tenencia y tipos efectivos por debajo del 12,5 %.",
+      "sha256": "20360c8ea2835ead1f0d8c3904080be9ac8c17cade6af61c09fa9058a7982da0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The 5 most-used European holding jurisdictions — the Netherlands, Luxembourg, Ireland, Malta and Cyprus — offer participation exemptions from 5% or 10% ownership and effective rates below 12.5%.",
+      "sha256": "7d40df7fa888538c32a7b7d0883aa846138e0d41d576c8176003eb0462609f61",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Les 5 juridictions holding les plus utilisées en Europe — Pays-Bas, Luxembourg, Irlande, Malte et Chypre — offrent des exonérations de participation dès 5 % ou 10 % de détention et des taux effectifs inférieurs à 12,5 %.",
+      "sha256": "3541eafea7da7ad20c5853b34a627b03b1de22ced14cd31eb17ca5701b2b5b87",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die 5 am häufigsten genutzten Holding-Jurisdiktionen Europas — Niederlande, Luxemburg, Irland, Malta und Zypern — bieten Schachtelprivilegien ab 5 % oder 10 % Beteiligung und effektive Sätze unter 12,5 %.",
+      "sha256": "228e47987de80f6a6b5a3f5dd7a1c869e93e5cdf4820daaac1c9ba0f399927b9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "As 5 jurisdições holding mais utilizadas na Europa — Países Baixos, Luxemburgo, Irlanda, Malta e Chipre — oferecem isenções de participação a partir de 5 % ou 10 % de detenção e taxas efetivas abaixo de 12,5 %.",
+      "sha256": "35ae9564b4ba6036bfb8fe21430bda4becea31d592803ed33b58484085d4afb8",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Les 5 jurisdiccions holding més utilitzades a Europa —Països Baixos, Luxemburg, Irlanda, Malta i Xipre— ofereixen exempcions de participació a partir del 5 % o 10 % de tinença i tipus efectius per sota del 12,5 %.",
+      "sha256": "18cd8d133b547c3a4d37101351649e19f3a56a32e1b9cb7b20b1f78cc0a67441",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "iban-swift-routing-number-que-son": {
+    "es": {
+      "text": "El routing number americano tiene 9 dígitos, el IBAN español 24 caracteres y el código SWIFT entre 8 y 11; los tres se piden a la vez en cualquier transferencia internacional con tu LLC.",
+      "sha256": "f212287b91f4605f744664ea11ea74dc55b55c27acdf5b2d210f26f8ef26201a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The US routing number has 9 digits, the Spanish IBAN has 24 characters, and the SWIFT code runs 8 to 11 — all three are needed at once on any international transfer with your LLC.",
+      "sha256": "c010fb82ce885607932592ea8476fee946b743519f6f556c16aafa955e6736d3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le routing number américain compte 9 chiffres, l'IBAN espagnol 24 caractères et le code SWIFT entre 8 et 11 ; les trois sont demandés en même temps sur tout virement international avec votre LLC.",
+      "sha256": "f39fc633a1db581b9b97dbca3d06b92a923b754466951c1b533db00350ed6509",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die US-Routing-Number hat 9 Stellen, die spanische IBAN 24 Zeichen und der SWIFT-Code 8 bis 11 — alle drei werden bei jeder internationalen Überweisung mit Ihrer LLC gleichzeitig verlangt.",
+      "sha256": "663eb123a564a8207f0755d68380e114afcc340de5487407eafd889dc736762c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O routing number americano tem 9 dígitos, o IBAN espanhol 24 caracteres e o código SWIFT entre 8 e 11; os três são pedidos ao mesmo tempo em qualquer transferência internacional com a tua LLC.",
+      "sha256": "a738c8f9d4c2799bfba04276d59fc8dd885161a7fa4fc6fc6f6f038276cdd132",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "El routing number americà té 9 dígits, l'IBAN espanyol 24 caràcters i el codi SWIFT entre 8 i 11; els tres es demanen alhora en qualsevol transferència internacional amb la teva LLC.",
+      "sha256": "65020646a9b86637ee7bb812862df9e198cc731322b2f99e3197ae86c315e9a3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "impuestos-clientes-internacionales-espana": {
+    "es": {
+      "text": "Un autónomo español que factura el 100 % a clientes internacionales sigue tributando hasta el 47 % por IRPF más cuota RETA en España, porque la fuente del cliente no cambia tu residencia fiscal.",
+      "sha256": "0e790e92c67f951ee8e4715c53e59face804aaa8e896488a9398d0e9384018fb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A Spanish autónomo billing 100% to international clients still pays up to 47% IRPF plus the RETA fee in Spain, because the client's location does not change your tax residency.",
+      "sha256": "e1234cdd4ac1edd8bdecb7aa81f110d530604532b01897267ee958277a1d062a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Un autónomo espagnol qui facture 100 % à des clients internationaux paie quand même jusqu'à 47 % d'IRPF et la cotisation RETA en Espagne, car la source du client ne change pas votre résidence fiscale.",
+      "sha256": "0e96631167950bfd20450697f8807d3e50ee3ede92628905d0b2e19d81dfb683",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "itin-ssn-que-son-como-obtenerlos": {
+    "en": {
+      "text": "The ITIN has 9 digits and is issued in 7 to 11 weeks, while the SSN has 9 digits and is granted only to US legal residents.",
+      "sha256": "c6574b135dff21f13d7634c7c4b925b7aff7ff138b4e52ca6a43e7e4273dca3b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "L'ITIN compte 9 chiffres et est délivré en 7 à 11 semaines, tandis que le SSN compte 9 chiffres et n'est attribué qu'aux résidents légaux des États-Unis.",
+      "sha256": "161051e2a6257df618ffaed0cd31d9ed74db97aefcfe8b9da8437a55f297c4a9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O ITIN tem 9 dígitos e é emitido em 7 a 11 semanas, enquanto o SSN tem 9 dígitos e é atribuído apenas a residentes legais dos EUA.",
+      "sha256": "8daf1a429aa5d74c38b7bfa47fe0c5f9d1af5e1df4926064df8b8ce2fad80ee1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "L'ITIN té 9 dígits i s'emet en 7-11 setmanes, mentre que el SSN té 9 dígits i s'atorga només a residents legals dels Estats Units.",
+      "sha256": "46384c944bdc8cd3be4b25ebb366de8cd939d10f042d2e4de83d39cce3d80874",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "iva-servicios-digitales-internacional": {
+    "es": {
+      "text": "Un servicio digital B2C dentro de la UE tributa al tipo IVA del país del consumidor (entre el 17 % de Luxemburgo y el 27 % de Hungría) y se declara con la ventanilla única OSS.",
+      "sha256": "4d26aab77414f0d25de63ed668d924c2541ed41a86452bac1bba530d6abb81f8",
+      "injectedAt": "2026-04-29T10:39:23.897Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A B2C digital service inside the EU is taxed at the consumer country's VAT rate (between Luxembourg's 17% and Hungary's 27%) and is reported via the OSS one-stop shop.",
+      "sha256": "9b6497e2f86df8208a4c1b75a5668c9f1b7f7b2352296d7659ef0c140ab18ee0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "justificar-origen-fondos-kyc-bancario-segunda-ronda": {
+    "es": {
+      "text": "Una segunda ronda de KYC en Mercury, Wise o Relay se resuelve favorablemente en el 75 % de los casos cuando aportas extractos de los últimos 6 meses y un contrato de servicios firmado con cliente.",
+      "sha256": "8fb75f663c8986878ff3b8993ee21a7c075205b172fcfb06d9be84559454f0f2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A second KYC round at Mercury, Wise or Relay is resolved favourably in 75% of cases when you provide statements covering the last 6 months and a signed service contract with a client.",
+      "sha256": "83dc2c0d8dcb40afa41f68cda1d1268e6ea4f94ff59f538c8e43f4b7d4276f30",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Un second tour de KYC chez Mercury, Wise ou Relay se résout favorablement dans 75 % des cas si vous fournissez les relevés des 6 derniers mois et un contrat de prestation signé avec un client.",
+      "sha256": "7b8a8fedca6d456c67357ca7ee6d214e8f5ea0d284df6f232850fb97cb8f5433",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine zweite KYC-Runde bei Mercury, Wise oder Relay endet in 75 % der Fälle positiv, wenn Sie Auszüge der letzten 6 Monate und einen unterzeichneten Dienstleistungsvertrag mit einem Kunden vorlegen.",
+      "sha256": "ad9a147622c9d249dd3cccd9bd826a8788ff70c392875c1bae4441a9c8600ecf",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma segunda ronda de KYC na Mercury, Wise ou Relay resolve-se favoravelmente em 75 % dos casos quando entregas extratos dos últimos 6 meses e um contrato de serviços assinado com cliente.",
+      "sha256": "5a44eaabc7e0cc82c92e6e363c815938d97cc9876ef6a9e33e88e5c56ffc5f10",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una segona ronda de KYC a Mercury, Wise o Relay es resol favorablement en el 75 % dels casos quan aportes extractes dels últims 6 mesos i un contracte de serveis signat amb client.",
+      "sha256": "1022b54687e5002fe0e8450fef86bfc8436a34f02fc3920b9baaa08176fd9d56",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "llc-agencias-marketing-digital": {
+    "es": {
+      "text": "Una agencia de marketing digital con LLC pass-through paga 0 % federal en Estados Unidos y traslada el cómputo a la IRPF de cada socio: si reside en España, hasta el 47 %; si en Andorra, el 10 %.",
+      "sha256": "80ba1ecb46bd76065c9417ad59829e3ea4008cc6cf75091a03421dbe8b1f99ce",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A digital marketing agency under a pass-through LLC pays 0% federal in the US and shifts the math to each partner's local return: up to 47% in Spain, 10% in Andorra.",
+      "sha256": "a149ab14ddd022cff3f3f5fed4fc27508be890be4f37efd93d4581dedd60f82a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une agence de marketing digital en LLC pass-through paie 0 % fédéral aux États-Unis et reporte le calcul sur la déclaration locale de chaque associé : jusqu'à 47 % en Espagne, 10 % en Andorre.",
+      "sha256": "dc5ff526b7776eec96a1e35a4a1e30e18dd98538a6eaa07ec4c2d7f78f16ce99",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine Digital-Marketing-Agentur in einer Pass-through-LLC zahlt 0 % föderal in den USA und verlagert die Rechnung auf die lokale Erklärung jedes Partners: bis zu 47 % in Spanien, 10 % in Andorra.",
+      "sha256": "ed3b160a65a1eddba3bec5da1a276f9110855f3a09ee75cea7a218d701a860e6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma agência de marketing digital com LLC pass-through paga 0 % federal nos EUA e empurra o cálculo para a declaração local de cada sócio: até 47 % em Espanha, 10 % em Andorra.",
+      "sha256": "73ddd7dbe749c2212e9c746fc1c649f2f3778cc2cd117c4209475c6160f77fb4",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una agència de màrqueting digital amb LLC pass-through paga 0 % federal als EUA i trasllada el càlcul a la declaració local de cada soci: fins al 47 % a Espanya, 10 % a Andorra.",
+      "sha256": "0374cecd1d3ec72b14f80abc27355c413ea49dbbc48f9afdb54167fb4112c35b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "llc-creadores-contenido-youtube-twitch": {
+    "es": {
+      "text": "YouTube retiene por defecto el 30 % de los ingresos US a un creador no residente sin W-8BEN; con LLC pass-through y W-8BEN-E el tratamiento se ordena bajo el convenio de doble imposición de turno.",
+      "sha256": "c69778b0cb67de8c81497996a02d4100752115a8900376659b2c26b8293115a6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "YouTube withholds 30% by default from a non-resident creator without W-8BEN; with a pass-through LLC plus W-8BEN-E, the treatment lines up under the relevant tax treaty.",
+      "sha256": "b03eaed1d8645ebd800f4d8102b5a1f0f884e76ccb5f8cf909e829dfd0734e9f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "YouTube retient par défaut 30 % des revenus US d'un créateur non-résident sans W-8BEN ; avec une LLC pass-through et un W-8BEN-E, le traitement s'aligne sur la convention fiscale applicable.",
+      "sha256": "50b0054bd91a221bd632c3ee250e7848a390173e16ba710b7aa924673dbf3893",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "YouTube reté per defecte el 30 % dels ingressos US d'un creador no resident sense W-8BEN; amb LLC pass-through i W-8BEN-E el tractament s'ordena sota el conveni de doble imposició aplicable.",
+      "sha256": "96a97021ae476e3cb65b9b5ea8656516a6f89166d23b6d70aa8a7299105a237d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "llc-interactive-brokers-invertir-bolsa-usa": {
+    "es": {
+      "text": "Sin formulario W-8BEN-E presentado, Interactive Brokers retiene el 30 % de cada dividendo US pagado a una LLC con dueño no residente; con W-8BEN-E correcto el tratamiento baja según convenio.",
+      "sha256": "d4cecd5c08ca730a1298f56dcb7204477a82a54d0fe50c785ef0ed9e5861bc52",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Without a filed W-8BEN-E, Interactive Brokers withholds 30% on every US dividend paid to a non-resident-owned LLC; with a clean W-8BEN-E, the treatment drops as per treaty.",
+      "sha256": "da919d5e7c4d24e455e275bab9c2dbe0756c2809a57b65267da13a584738f0cd",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Sans Form W-8BEN-E déposé, Interactive Brokers retient 30 % de chaque dividende US versé à une LLC détenue par un non-résident ; avec un W-8BEN-E correct, le traitement baisse selon convention.",
+      "sha256": "f0857fd035c79d4516137adb26035606f2aee3bc25f37acb44ad97328be189a9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Ohne eingereichtes W-8BEN-E behält Interactive Brokers 30 % jeder US-Dividende ein, die an eine LLC eines Nicht-Ansässigen geht; mit korrektem W-8BEN-E sinkt der Satz gemäß DBA.",
+      "sha256": "53b88d5db88a3a842cde32ebaee1aeec5ce65c46500d134adeac87ead2cdb13a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Sem o Form W-8BEN-E entregue, a Interactive Brokers retém 30 % de cada dividendo US pago a uma LLC com dono não residente; com W-8BEN-E correto, o tratamento desce conforme convenção.",
+      "sha256": "d729e8e3e1e7fb9dd45e5230948fa5673680fc4ef84849f6bca4f5a2c74a35d3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Sense formulari W-8BEN-E presentat, Interactive Brokers reté el 30 % de cada dividend US pagat a una LLC amb amo no resident; amb W-8BEN-E correcte el tractament baixa segons conveni.",
+      "sha256": "945a5fedaa3a4be3824805aa3cefb0dea5b60c522c8d6116e2ed4177930855d5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais": {
+    "es": {
+      "text": "Una LLC pass-through paga 0 % federal en Estados Unidos, pero traslada el beneficio al IRPF del dueño: hasta el 47 % en España, hasta el 45 % en Francia y Alemania, hasta el 10 % en Andorra.",
+      "sha256": "9b191914fe16998e6e0dedbd11b7b56372c9c3167c4f83a578772476c4dbe100",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "llc-seguridad-juridica-proteccion-patrimonial": {
+    "es": {
+      "text": "Wyoming protege el patrimonio personal del miembro mediante el Charging Order Statute (Wyo. Stat. §17-29-503), que limita al acreedor a un mero embargo de distribuciones desde la LLC, sin acceso al activo.",
+      "sha256": "e3cf56b5f015cb6d2e30836735beb392f8dc6a8d5c7d819af054ee28fc422a48",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Wyoming protects the member's personal assets through the Charging Order Statute (Wyo. Stat. §17-29-503), which limits the creditor to a mere garnishment of LLC distributions, with no asset reach-through.",
+      "sha256": "e48f20f17327078082f0c8ba241c70d2b0b5e667e470004dbd57405f0d1ef1b5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le Wyoming protège le patrimoine personnel du membre via le Charging Order Statute (Wyo. Stat. §17-29-503), qui limite le créancier à une simple saisie des distributions de la LLC, sans accès aux actifs.",
+      "sha256": "6b77e1db371963a5d126db6ddb9bfcb9a23402bdfe2d07c2f8262dd20eb0f7ee",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Wyoming schützt das Privatvermögen des Mitglieds über den Charging Order Statute (Wyo. Stat. §17-29-503), der den Gläubiger auf eine bloße Pfändung von LLC-Ausschüttungen beschränkt — ohne Zugriff auf das Vermögen.",
+      "sha256": "2827af6f88ae038dc84c262b5ef7d840e4333acf2839df62fccad1f9aa982249",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O Wyoming protege o património pessoal do membro pelo Charging Order Statute (Wyo. Stat. §17-29-503), que limita o credor a uma mera penhora das distribuições da LLC, sem acesso ao ativo.",
+      "sha256": "a183d3d777950de419cc6983eaf11f9c265c5ce5f67f27f0dfc8ceb70f58f9ef",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Wyoming protegeix el patrimoni personal del membre mitjançant el Charging Order Statute (Wyo. Stat. §17-29-503), que limita el creditor a un mer embargament de distribucions des de la LLC, sense accés a l'actiu.",
+      "sha256": "b94f887b11e1f12b62048061c0a97c420bb9ff736e967d4aaaa43c266768c400",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "mantenimiento-anual-llc-obligaciones": {
+    "es": {
+      "text": "Una LLC sin operativa interna en EE.UU. tiene 4 obligaciones anuales fijas: Annual Report estatal, Form 1120 + 5472 ante el IRS, BOI Report (si aplica) y renovación del Registered Agent.",
+      "sha256": "907fed957e56afddd2a394ceab2e3e78a773bff5d57c7746334b7eafc5649a5e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "An LLC with no US internal operations has 4 fixed annual obligations: state Annual Report, Form 1120 + 5472 with the IRS, BOI Report (if applicable), and Registered Agent renewal.",
+      "sha256": "6837a7d2e41c439ff38446daf07b165c6a004b47ab8c19436718b74c4011df4e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "modulos-vs-estimacion-directa-2026": {
+    "es": {
+      "text": "Los módulos 2026 quedan limitados a actividades concretas con facturación inferior a 250.000 € anuales y compras por debajo de 150.000 €, frente a la estimación directa que admite cualquier volumen.",
+      "sha256": "7d2538d966835c912efd416d78897583670fae57d896069dac6cbc5d80ec4c4d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The 2026 modules regime is limited to specific activities with revenue under 250,000 euros a year and purchases under 150,000 euros, while direct estimation accepts any volume.",
+      "sha256": "5518ae3b62569a03da3b6da2e42c85d20fcedf952f32d10ea3600e2f9fac434e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le régime des modules 2026 est limité à des activités précises avec un chiffre d'affaires inférieur à 250 000 € par an et des achats inférieurs à 150 000 €, contre l'estimation directe qui accepte tout volume.",
+      "sha256": "02632a12599a3a73378674b2ba5d2704c07cacbe8ab2bceaa3e4c9f0454724eb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Das Module-Regime 2026 beschränkt sich auf bestimmte Tätigkeiten mit weniger als 250.000 € Jahresumsatz und weniger als 150.000 € Einkäufen, während die direkte Veranlagung jeden Umfang zulässt.",
+      "sha256": "a1bd61111965f4afcc4341ffa5ef9f19701947ea78d750769097d0ac249da7b7",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Os módulos 2026 ficam limitados a atividades concretas com facturação inferior a 250.000 € anuais e compras inferiores a 150.000 €, contra a estimativa direta que admite qualquer volume.",
+      "sha256": "5aaf2ee67c5d9004b13da337245bef7896618f9d2d4cfcf6614b1678e69a6d92",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Els mòduls 2026 queden limitats a activitats concretes amb facturació inferior a 250.000 € anuals i compres inferiors a 150.000 €, davant de l'estimació directa que admet qualsevol volum.",
+      "sha256": "4c8e91b34c827be57fce5bd184bc25bfc84594253a8531273a00463ea521d1f7",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "nomada-digital-residencia-fiscal": {
+    "es": {
+      "text": "La regla de los 183 días es el primer test universal de residencia fiscal: superarlo en cualquiera de los 195 países del mundo te ata al sistema impositivo local de ese año.",
+      "sha256": "e441ed2ee0bae23bc36f54969b6dd787dfb02fafb9b09372b6988b794b32fb63",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The 183-day rule is the universal first test of tax residency: crossing it in any of the world's 195 countries ties you to that country's tax system for the year.",
+      "sha256": "57e34c05c8277e893a730357fca18412aa39db065e5b3c0c483f67deb78d8809",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "La règle des 183 jours est le premier test universel de résidence fiscale : la franchir dans n'importe lequel des 195 pays du monde vous rattache au système fiscal local de l'année.",
+      "sha256": "25a959e7540eef4ba5ada4075d207a6fb61a775436e615c450c10f5923d9ad1b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die 183-Tage-Regel ist der universelle erste Test der Steueransässigkeit: Wer sie in einem der 195 Länder der Welt überschreitet, ist dort für das Jahr steuerpflichtig.",
+      "sha256": "add8bdc25b448e023942f60827bea1cc079d7e401e44446fb0524de7eb3a6f18",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "A regra dos 183 dias é o primeiro teste universal de residência fiscal: ultrapassá-la em qualquer um dos 195 países do mundo prende-te ao sistema fiscal local desse ano.",
+      "sha256": "6c98d75baa9c18a600b2faf93b38287abe6a16ec052d1936ce66a470488aa40f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "La regla dels 183 dies és el primer test universal de residència fiscal: superar-la en qualsevol dels 195 països del món et lliga al sistema impositiu local d'aquell any.",
+      "sha256": "13f1f587458f9f9a0cc047bdbb299149c21c2d95074af4f4c5a0d2dd15b78795",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "nuevo-mexico-vs-wyoming-vs-delaware": {
+    "es": {
+      "text": "New Mexico cobra 0 $ de Annual Report, Wyoming pide 60 $ con franchise tax mínima de 60 $ y Delaware reclama 300 $ de Franchise Tax cada 1 de junio: tres estados, tres modelos de coste anual muy distintos.",
+      "sha256": "cee42d9acf303bc521e738b6babd7177e16959905723eb4638a665483ee820f9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "New Mexico charges 0 dollars for the Annual Report, Wyoming asks 60 dollars with a 60-dollar minimum franchise tax, and Delaware demands 300 dollars of Franchise Tax every June 1: three states, three very different annual cost models.",
+      "sha256": "f3dddd968ff05b4b77c50637ee4b7efb88d20907d431f82f5ea35adf761cddfa",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le Nouveau-Mexique facture 0 $ pour l'Annual Report, le Wyoming demande 60 $ avec une franchise tax minimum de 60 $ et le Delaware exige 300 $ de Franchise Tax chaque 1er juin : trois États, trois modèles de coût annuel très différents.",
+      "sha256": "fbab36a157d7b166e3fcac5a26484c628224d7f56860d6540ddc19eb9cc9e857",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "New Mexico verlangt 0 USD für den Annual Report, Wyoming fordert 60 USD mit einer Mindest-Franchise-Tax von 60 USD und Delaware verlangt jedes Jahr am 1. Juni 300 USD Franchise Tax: drei Bundesstaaten, drei sehr unterschiedliche jährliche Kostenmodelle.",
+      "sha256": "191e529fa4e7515acc7061cd8b9f6d01159ccb954b90c86d82aa3087782ef6d3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O Novo México cobra 0 $ de Annual Report, o Wyoming pede 60 $ com franchise tax mínima de 60 $ e o Delaware exige 300 $ de Franchise Tax todo 1 de junho: três estados, três modelos de custo anual muito diferentes.",
+      "sha256": "00f14e653d209d2df946efa256a2ea3463ecc6c19dbfcbef1524abd587d505a5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Nou Mèxic cobra 0 $ d'Annual Report, Wyoming demana 60 $ amb una franchise tax mínima de 60 $ i Delaware reclama 300 $ de Franchise Tax cada 1 de juny: tres estats, tres models de cost anual molt diferents.",
+      "sha256": "d1da8d5a71ad005c76a89757ca14c65b20610e4aadf9ddb42c1cb36c455de297",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "operating-agreement-llc-que-es": {
+    "es": {
+      "text": "El Operating Agreement es exigible legalmente solo en 5 estados (California, Delaware, Maine, Missouri y Nueva York), pero en la práctica todo banco serio lo pide para abrir cuenta a una LLC.",
+      "sha256": "31a9229415175d4587a3f54f3e431704e4a77c44e098ed24f2f53c4dc6a0f3d9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The Operating Agreement is legally required in only 5 states (California, Delaware, Maine, Missouri and New York), but in practice every serious bank asks for it to open an LLC account.",
+      "sha256": "82ac8e79cd481c2cf3910831b0dba4ec319525e1094373bc6ea4bd51b665dec1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "L'Operating Agreement n'est juridiquement exigé que dans 5 États (Californie, Delaware, Maine, Missouri et New York), mais en pratique toute banque sérieuse le demande pour ouvrir un compte LLC.",
+      "sha256": "bec3dcf7d38f52e97cb8de6e9586c9c606be9bc8df79ef8b32f37cf16ccf9bc1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Das Operating Agreement ist nur in 5 Bundesstaaten gesetzlich vorgeschrieben (Kalifornien, Delaware, Maine, Missouri und New York), in der Praxis verlangt es aber jede seriöse Bank zur Kontoeröffnung einer LLC.",
+      "sha256": "2d5c759342539b57617fdbc21e5974af9624043df7ae4f1ad9778186577f98a0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O Operating Agreement é juridicamente exigido apenas em 5 estados (Califórnia, Delaware, Maine, Missouri e Nova Iorque), mas na prática todo o banco sério o pede para abrir conta a uma LLC.",
+      "sha256": "91e0200411c38f344cc0d9509827f26e49271cc485bb19a2c050598addba84b3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "L'Operating Agreement és exigible legalment només a 5 estats (Califòrnia, Delaware, Maine, Missouri i Nova York), però a la pràctica tot banc seriós el demana per obrir compte a una LLC.",
+      "sha256": "03e4d8d318f5ab7500d0e4aa65f9866f07c4acb48a27ba41eba4dd43da63ef66",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "pagar-cero-impuestos-legalmente-llc": {
+    "es": {
+      "text": "Una LLC pass-through paga 0 % federal en EE.UU., pero conseguir un 0 % real exige residir en una jurisdicción de tipo cero como Bahamas, Mónaco o Emiratos en su tramo exento por debajo de 102.000 $ anuales.",
+      "sha256": "1e3892225794c953322ad9b5331d0392c6389f3f491dc836960fae866a5fea1e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une LLC pass-through paie 0 % fédéral aux États-Unis, mais atteindre un 0 % réel exige de résider dans une juridiction à taux zéro comme les Bahamas, Monaco ou les EAU dans leur tranche exonérée sous 102 000 $ par an.",
+      "sha256": "b551f391ad158e7813044473ae3d696e66c5b33df4cf61d0f22e39d5e946922c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine Pass-through-LLC zahlt 0 % föderal in den USA, doch ein wirklich realer 0-%-Satz setzt einen Wohnsitz in einer Nullsteuer-Jurisdiktion wie Bahamas, Monaco oder der VAE in ihrer Freigrenze unter 102.000 USD pro Jahr voraus.",
+      "sha256": "c6904ce0f4567dc064ef95ac7e083e989e74ee756c4654f82613ff63cce1b7e6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma LLC pass-through paga 0 % federal nos EUA, mas chegar a 0 % real exige residir numa jurisdição de taxa zero como Bahamas, Mónaco ou Emirados no seu escalão isento abaixo de 102.000 $ anuais.",
+      "sha256": "a835d33f10511728166b8f7ba9bd90306d892539c5b64172a6f4772a85f45da1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una LLC pass-through paga 0 % federal als EUA, però aconseguir un 0 % real exigeix residir en una jurisdicció de tipus zero com Bahames, Mònaco o els Emirats en el seu tram exempt per sota de 102.000 $ anuals.",
+      "sha256": "e7437ff6c8615110b0faa71576d2a131b6e84572dd2a34ac2f58980253d03007",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "pasarelas-pago-llc-stripe-paypal-dodo": {
+    "es": {
+      "text": "Stripe US cobra 2,9 % + 0,30 $ por transacción doméstica, PayPal Business cerca del 3,49 %, y Dodo Payments rebaja al 2,4 % a partir de 50.000 $ procesados al mes con LLC americana.",
+      "sha256": "efc649ad65182674defc3304a23e454ab8eaed812c8cfd07d5066eb754a3d5c7",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Stripe US charges 2.9% + 0.30 dollar per domestic transaction, PayPal Business hovers around 3.49%, and Dodo Payments drops to 2.4% above 50,000 dollars processed monthly with a US LLC.",
+      "sha256": "b867313bf3dc4ebb05c9a01620f3966d47d57fd30c728d94d6d014c88f189088",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "por-que-abrir-llc-estados-unidos-ventajas": {
+    "es": {
+      "text": "Una LLC en Estados Unidos se constituye en 7 a 14 días, paga 0 % federal en régimen pass-through y cobra de Stripe, PayPal o Mercury sin las retenciones del 19-30 % que sufre un freelance europeo.",
+      "sha256": "116c657e609f9422dd346ee147e15fcb27eaa33998c1abbb480ac83a0abc135f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A US LLC is set up in 7 to 14 days, pays 0% federal under pass-through, and collects from Stripe, PayPal or Mercury without the 19-30% withholdings that a European freelancer suffers.",
+      "sha256": "7bc81972a03ae9f66f255318c78adf5c3832cbb5f3f89138a8fa4cb2e4d570cb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une LLC aux États-Unis se met en place en 7 à 14 jours, paie 0 % fédéral en pass-through et encaisse Stripe, PayPal ou Mercury sans les retenues de 19 à 30 % subies par un freelance européen.",
+      "sha256": "34e6dcdcfac2b6536cd52220add635d75c16d09a1ea875a0396fcedaa98c6f64",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine US-LLC ist in 7 bis 14 Tagen errichtet, zahlt 0 % föderal im Pass-through und kassiert von Stripe, PayPal oder Mercury ohne die 19-30-%-Quellensteuer, die ein europäischer Freelancer erleidet.",
+      "sha256": "8fd2433cd7c7bc97694b97e55f566fff4c585d27dbe7c6aaf639871e2032770c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma LLC nos EUA constitui-se em 7 a 14 dias, paga 0 % federal em regime pass-through e recebe da Stripe, PayPal ou Mercury sem as retenções de 19 a 30 % que sofre um freelancer europeu.",
+      "sha256": "e45bd173b23cfd65d76d16db884926e3e2122f39d9266698214c2bf8934c9eb7",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una LLC als EUA es constitueix en 7 a 14 dies, paga 0 % federal en règim pass-through i cobra d'Stripe, PayPal o Mercury sense les retencions del 19-30 % que pateix un autònom europeu.",
+      "sha256": "5e107b55527f0f730a6e0955667fce7eaf7a6162c057359bcfc75c21b495a126",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "por-que-no-abrir-empresa-estonia": {
+    "es": {
+      "text": "Estonia subió en 2025 su Corporate Tax al 22 % (antes 20 %) y mantiene el coste de la e-Residency en 100 € más cuotas anuales de servicios contables que arrancan en 1.200 € al año.",
+      "sha256": "a75d1484ab6a22a5ac4c816f587bb685eff651931898658ab61fc7eba8b91bfb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Estonia raised its corporate tax to 22% in 2025 (up from 20%) and keeps e-Residency at 100 euros plus annual accounting fees starting at 1,200 euros a year.",
+      "sha256": "9b0ff92923019799ec644d8fb4db61f0eed495b9fd648e9e6add562204718d83",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "prevencion-blanqueo-capitales-llc": {
+    "es": {
+      "text": "El régimen estadounidense de PBC (Bank Secrecy Act, 1970, complementada por el Patriot Act de 2001) impone a Mercury, Wise y Relay procesos de KYC documental antes de procesar la primera transferencia.",
+      "sha256": "48bf64a1db1f02ad761260dc7b8773319b32fb160989bbd4706d6a4f397c7278",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The US AML regime (Bank Secrecy Act, 1970, plus the Patriot Act of 2001) requires Mercury, Wise and Relay to run documentary KYC processes before processing the first transfer.",
+      "sha256": "0662a08d28e02bb2a813aceabc73052f00a73caae346d5edd9d4476dcf132c9e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le régime américain LCB-FT (Bank Secrecy Act, 1970, complété par le Patriot Act de 2001) impose à Mercury, Wise et Relay des processus KYC documentaires avant le premier virement.",
+      "sha256": "212eee5d00fa262732bae09109602bcdeedd7eb68c7e2957694fe16946b9f01a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Das US-Geldwäschegesetz (Bank Secrecy Act, 1970, ergänzt durch den Patriot Act 2001) verpflichtet Mercury, Wise und Relay zu dokumentarischen KYC-Prozessen vor der ersten Überweisung.",
+      "sha256": "6fe3ac46959a75333b9f3e79ff7a55b2cd4a6be4da714b38e2f8a6c43e157628",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "El règim nord-americà de PBC (Bank Secrecy Act, 1970, complementat pel Patriot Act del 2001) imposa a Mercury, Wise i Relay processos de KYC documental abans de la primera transferència.",
+      "sha256": "47f2e519728b2c97e7f910ec412cb0fe6db4c592f6307d8de238554c3077eb6d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "primer-mes-llc-que-esperar": {
+    "es": {
+      "text": "Los primeros 30 días tras constituir una LLC cubren 4 hitos críticos: recibir los Articles of Organization, conseguir el EIN, abrir cuenta en Mercury y firmar el Operating Agreement.",
+      "sha256": "fcd2330d86a57a1a75e1c85b97c744f9d9a49b0d26fc44c24e94c16ab1a4664f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The first 30 days after forming an LLC cover 4 critical milestones: receiving the Articles of Organization, getting the EIN, opening a Mercury account, and signing the Operating Agreement.",
+      "sha256": "87aac0c47f9f9246a2e83ce7d5fc6484bf105891ad8b0eb053685877521eea69",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Les 30 premiers jours après la création d'une LLC couvrent 4 jalons critiques : recevoir les Articles of Organization, obtenir l'EIN, ouvrir un compte Mercury et signer l'Operating Agreement.",
+      "sha256": "609a5dcf728189461e4e80174a0e24b65985bf8749eb7f5fadab9de606a60946",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die ersten 30 Tage nach Gründung einer LLC umfassen 4 kritische Meilensteine: die Articles of Organization erhalten, die EIN bekommen, ein Mercury-Konto eröffnen und das Operating Agreement unterzeichnen.",
+      "sha256": "74c537ed9fabd6d5daa202680eb1f629b8e0a2999f5c9d33a447d2dc7b849b71",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Os primeiros 30 dias após constituir uma LLC cobrem 4 marcos críticos: receber os Articles of Organization, obter o EIN, abrir conta na Mercury e assinar o Operating Agreement.",
+      "sha256": "d820f8a82dd0b823ebdfe60f746133c8c3cbefe2f1bc4d3226440beafba2f049",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Els primers 30 dies després de constituir una LLC cobreixen 4 fites crítiques: rebre els Articles of Organization, aconseguir l'EIN, obrir compte a Mercury i signar l'Operating Agreement.",
+      "sha256": "c57f1e5779c807b44cf7a0f667fd53fc73b80375a1fabed4778976fc01eb4367",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "privacidad-llc-americana-secreto-ventaja": {
+    "es": {
+      "text": "New Mexico no publica los datos de los miembros de una LLC, Wyoming permite reflejar solo al Registered Agent, y Delaware exige 0 datos personales públicos en sus Articles of Organization.",
+      "sha256": "c02deebcb901e3c0601d2208c36927d71943b9217597f809536eb92befd30dc0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "New Mexico does not publish LLC member data, Wyoming lets you list only the Registered Agent, and Delaware requires 0 personal public data in its Articles of Organization.",
+      "sha256": "fbf58a54a539e631f04f7518f4d373fe29e67d29cd8ded2b43e1886dd6081a1a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le Nouveau-Mexique ne publie pas les données des membres d'une LLC, le Wyoming permet de ne reporter que le Registered Agent, et le Delaware exige 0 donnée personnelle publique dans ses Articles of Organization.",
+      "sha256": "a6284eed63b0f33b6ddf19c5a4ace4fe027e3c7f159a34ae85f3326d58c4710f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "New Mexico veröffentlicht keine Mitgliederdaten einer LLC, Wyoming erlaubt nur den Registered Agent anzugeben, und Delaware verlangt 0 öffentliche personenbezogene Daten in den Articles of Organization.",
+      "sha256": "77932366db984d2cb28c60d99e10745e783508b04886d1b5cb5f346795988681",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O Novo México não publica os dados dos membros de uma LLC, o Wyoming permite refletir apenas o Registered Agent e o Delaware exige 0 dados pessoais públicos nos Articles of Organization.",
+      "sha256": "3098b5a26d7009d98e951924818baec3ef5a8f06f109475e798f48f0fbed4ced",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Nou Mèxic no publica les dades dels membres d'una LLC, Wyoming permet reflectir només el Registered Agent i Delaware exigeix 0 dades personals públiques als Articles of Organization.",
+      "sha256": "429a69f81ec071aba8e3239d6c2ead977742ced9afefebf1bb63af7d065b3f08",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "problemas-comunes-llc-como-evitarlos": {
+    "en": {
+      "text": "About 70% of the problems we see daily in already-formed LLCs cluster on 5 fronts: late BOI, missing Form 5472, personal-funds commingling, lapsed Annual Report, and lost Registered Agent.",
+      "sha256": "7055b94c1b52bf72eab3948e9b279aea63a1a3884d4c3052406bd1c8230ebf72",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "que-es-irs-guia-duenos-llc": {
+    "en": {
+      "text": "The IRS handles more than 240 million returns a year with around 80,000 employees, and for a non-resident single-member LLC its attention narrows down to 2 forms: Form 1120 and Form 5472.",
+      "sha256": "09f43ebbc50bd79cf30773c7d39ac1754d36f782640266c3406914ee32ac9660",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "L'IRS gère plus de 240 millions de déclarations par an avec environ 80 000 employés, et pour une LLC unipersonnelle de non-résident son attention se concentre sur 2 formulaires : le Form 1120 et le Form 5472.",
+      "sha256": "0703a671e7663140ef0a6b074622957d6f2d4f4ecc9f3b1c58b239b3fb4014c1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die IRS bearbeitet jährlich über 240 Millionen Steuererklärungen mit rund 80.000 Beschäftigten und konzentriert sich bei einer Single-Member-LLC eines Nicht-Ansässigen auf 2 Formulare: Form 1120 und Form 5472.",
+      "sha256": "2fa6aef5c1a6ce3f3893013d614e849c5fca45bae9933c3ae58fcdd841ef578b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O IRS gere mais de 240 milhões de declarações por ano com cerca de 80.000 funcionários, e para uma LLC unipessoal de não residente foca a atenção em 2 formulários: o Form 1120 e o Form 5472.",
+      "sha256": "5dd6ea3afdae13c0301dcbae6487ae3c2a2ab57625465766b9e829b198aaee62",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "L'IRS gestiona més de 240 milions de declaracions a l'any amb prop de 80.000 empleats, i per a una LLC unipersonal de no resident concentra la seva atenció en 2 formularis: el Form 1120 i el Form 5472.",
+      "sha256": "ca07c944cb6f7148be03855eccde45b9b8b92c70a55ae7bf1a223b825ed94646",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "registered-agent-que-es-por-que-necesitas": {
+    "es": {
+      "text": "El Registered Agent es obligatorio en los 50 estados de EE.UU., cuesta entre 50 $ y 300 $ al año y su función primaria es recibir el correo legal del IRS o del estado en menos de 24 horas.",
+      "sha256": "9cbb108b0c67842050045604f5d15f09dea1804031cce910a7dd57bf5e64c107",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le Registered Agent est obligatoire dans les 50 États américains, coûte entre 50 $ et 300 $ par an et a pour rôle principal de recevoir le courrier juridique de l'IRS ou de l'État en moins de 24 heures.",
+      "sha256": "767057e157e781a01d560c6cf0ac8fd7bcf9d797a7fc3f83eb80d1ffc3bbd0a2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Der Registered Agent ist in allen 50 US-Bundesstaaten Pflicht, kostet 50 bis 300 USD im Jahr und seine Hauptaufgabe ist es, rechtliche Post von IRS oder Bundesstaat in weniger als 24 Stunden entgegenzunehmen.",
+      "sha256": "af922b18f6a0322d83f874f0c74ec5b02f2a1ecb7be542fb905abdc65d65f4c4",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O Registered Agent é obrigatório nos 50 estados dos EUA, custa entre 50 $ e 300 $ por ano e a sua função primária é receber o correio legal do IRS ou do estado em menos de 24 horas.",
+      "sha256": "58e18f97a678de69fe95a675bbe589f4b8fecde13da6a7a04d46c7b8bfccae99",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "El Registered Agent és obligatori als 50 estats dels EUA, costa entre 50 $ i 300 $ l'any i la seva funció primària és rebre el correu legal de l'IRS o de l'estat en menys de 24 hores.",
+      "sha256": "0426c38112e9322c31d104fe2b9abad4c50cc37149156b05f008e1b8e9e90520",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "reorganizar-banca-llc-mercury-relay-wise": {
+    "es": {
+      "text": "Una pila bancaria saneada para una LLC suele combinar 3 cuentas: Mercury para la operativa USD, Wise para la conversión a EUR con spread del 0,41 % y Relay como respaldo con tarjetas físicas.",
+      "sha256": "86a07f19d404a91841ac26ee193a2ad54af6933d0ba155c71415503eec72c474",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A clean banking stack for an LLC usually combines 3 accounts: Mercury for the USD operations, Wise for EUR conversion at a 0.41% spread, and Relay as a backup with physical cards.",
+      "sha256": "81b45830babc7656193e37c5ae6e9caca0a8efdf92b474cd21931835face942e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une pile bancaire saine pour une LLC combine généralement 3 comptes : Mercury pour l'opérationnel USD, Wise pour la conversion EUR à 0,41 % de spread, et Relay en backup avec des cartes physiques.",
+      "sha256": "0e088b7b410a8bd6d272a530369f1cff0c6e65476c060457606307be573b0fb8",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Ein sauberer Banking-Stack für eine LLC kombiniert in der Regel 3 Konten: Mercury für das USD-Operativ-Geschäft, Wise für den EUR-Umtausch mit 0,41 % Spread und Relay als Backup mit physischen Karten.",
+      "sha256": "277f1b82e69b3e9686a711c0181e7c3d972a5bdbd5be06801ea7a31928acb6e2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma pilha bancária saudável para uma LLC costuma combinar 3 contas: Mercury para a operacional USD, Wise para a conversão a EUR com spread de 0,41 % e Relay como backup com cartões físicos.",
+      "sha256": "c7385eb35b500639ca1bbc3575e5e1ea5fed2ec7cda40a2177d66164bd6df91d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una pila bancària sanejada per a una LLC sol combinar 3 comptes: Mercury per a l'operativa USD, Wise per a la conversió a EUR amb spread del 0,41 % i Relay com a suport amb targetes físiques.",
+      "sha256": "9bb03755b41d11c9bca3e3ba5b0828f1c3b5ca938495a9f837908be574ea0151",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "revolut-business-crs-reporting-fiscal": {
+    "es": {
+      "text": "Revolut Business reporta automáticamente saldos bajo CRS a más de 120 jurisdicciones desde 2018, y a la AEAT española le envía la información antes del 30 de septiembre de cada año.",
+      "sha256": "8819a5e76cb43fc16141309866f4ff864f15e5cd801c1589103c80d73c7f5bf6",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Revolut Business automatically reports balances under CRS to more than 120 jurisdictions since 2018, and pushes information to Spain's AEAT before September 30 every year.",
+      "sha256": "bcfd6f6be4afe4f964c159393cc24133905f53b2d72ff58b89cd1ee5b312aa05",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Revolut Business reporte automatiquement les soldes sous CRS à plus de 120 juridictions depuis 2018, et transmet l'information à l'AEAT espagnole avant le 30 septembre de chaque année.",
+      "sha256": "6a0faea57b10565526dc33a3a2479d269e24c78aca6ece2ec276793b31923315",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Revolut Business meldet seit 2018 unter CRS automatisch Salden an über 120 Jurisdiktionen und übermittelt der spanischen AEAT die Daten bis zum 30. September jedes Jahres.",
+      "sha256": "ef03f16c9ba1c5c038ecbf055dc004574d1088df55c7fd24d2fff9a5017e70c4",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Desde 2018, sob o CRS, são reportados saldos da Revolut Business a mais de 120 jurisdições, e a informação chega à AEAT espanhola antes de 30 de setembro de cada ano.",
+      "sha256": "648df65c79b9d8dd905e10fd16e645c9175aa054ac4022b5ce0ae9accff55f11",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Revolut Business reporta automàticament saldos sota CRS a més de 120 jurisdiccions des del 2018, i a l'AEAT espanyola li envia la informació abans del 30 de setembre de cada any.",
+      "sha256": "c9caec06c960ffcfff2eb122fc9bcf0ac68f090d70823da8523dcf47e6efc79d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "riesgos-fiscales-mala-estructuracion-internacional": {
+    "es": {
+      "text": "Una mala estructuración internacional choca con las 15 acciones BEPS de la OCDE, con multas que en España pueden alcanzar el 150 % de la cuota dejada de ingresar bajo el art. 191 LGT.",
+      "sha256": "1de602e185f1c8e10b46ea314af1f36b8e7e9558f7f5ae5b1d1cc3c1f1f7a3b1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Poor international structuring collides with the OECD's 15 BEPS actions, and in Spain penalties can reach 150% of the unpaid quota under LGT art. 191.",
+      "sha256": "9aaa108d695ba72840a0d05fd10fec1a58c8b2373614cbf78a6ae29f9cc463e4",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une mauvaise structuration internationale se heurte aux 15 actions BEPS de l'OCDE, avec des amendes qui en Espagne peuvent atteindre 150 % du montant impayé en vertu de l'art. 191 LGT.",
+      "sha256": "6470ea107c07f70b3b62b70c7cfd1fff7d8547eb8132e3fc9b5dd599bc618559",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine schlechte internationale Strukturierung kollidiert mit den 15 BEPS-Aktionen der OECD; in Spanien können die Strafen 150 % der nicht abgeführten Quote nach Art. 191 LGT erreichen.",
+      "sha256": "ece5e6b49315b3b8030d6b67495cacfac5e4b301cbdde5e877e090b82d4de57a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma má estruturação internacional colide com as 15 ações BEPS da OCDE, com multas que em Espanha podem atingir 150 % da quota não entregue ao abrigo do art. 191 LGT.",
+      "sha256": "03d1206f3ce8e96e7a474263256c9948164b477a1ba12e47d2da6259f876fe0c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una mala estructuració internacional xoca amb les 15 accions BEPS de l'OCDE, amb multes que a Espanya poden arribar al 150 % de la quota deixada d'ingressar sota l'art. 191 LGT.",
+      "sha256": "1adb09ccffd9602a51bbc63f6e96d83d0f38afce8b23e80e6f988e962ec38184",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "separar-dinero-personal-llc-por-que-importa": {
+    "en": {
+      "text": "Mixing personal and LLC money for just 12 months is enough for a judge to declare piercing the corporate veil and have the member's personal assets answer for the debts directly.",
+      "sha256": "7ca2eb6758298269937f602e7b484301e79cc527e577600bc0d8ea11b319122b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Mélanger l'argent personnel et celui de la LLC pendant 12 mois suffit à ce qu'un juge prononce le piercing the corporate veil et que le patrimoine personnel du membre réponde directement des dettes.",
+      "sha256": "4da67f8d8943c1cd67df40ba2438c5907c6ce8da2ae4d246d38bf8766f44b9de",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Schon 12 Monate Vermischung von Privat- und LLC-Geldern reichen aus, dass ein Gericht das Piercing the Corporate Veil ausspricht und das Privatvermögen des Mitglieds direkt für die Schulden haftet.",
+      "sha256": "a2f71834466f485298a902f61bfd1922186bfe812eb7be1da747b562a5ac6e0a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Misturar dinheiro pessoal e da LLC durante 12 meses basta para que um juiz declare piercing the corporate veil e o património pessoal do membro responda diretamente pelas dívidas.",
+      "sha256": "ebba67f5b9d7781bd2db158da7ed0e1d8a502a02fc73214dd60b651afd907996",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Barrejar diners personals i de la LLC durant 12 mesos n'hi ha prou perquè un jutge declari piercing the corporate veil i el patrimoni personal del membre respongui directament dels deutes.",
+      "sha256": "ac1b3afb05b7f281633d8788cc838b99331134239837e596d74cbdcffc9679f2",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "single-member-multi-member-llc-implicaciones-fiscales": {
+    "es": {
+      "text": "Una LLC con 1 miembro tributa por defecto como disregarded entity con Form 1120 + 5472, mientras que una LLC con 2 o más miembros tributa como partnership con Form 1065, dos regímenes muy distintos.",
+      "sha256": "f48960ae765e2a61df43fcd5f879b7d48428baefb7636a1bde9ee6d9fe9b17bc",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A 1-member LLC defaults to taxation as a disregarded entity filing Form 1120 + 5472, while a 2-or-more-member LLC is taxed as a partnership filing Form 1065 — two very different regimes.",
+      "sha256": "0eb67e4f114a23022dd6ad0ca228796e234841ce72654398a2d29b7d62e60781",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une LLC à 1 membre est imposée par défaut comme disregarded entity via Form 1120 + 5472, tandis qu'une LLC à 2 membres ou plus est imposée comme partnership via Form 1065 — deux régimes très différents.",
+      "sha256": "907c3430ef58647f288e1a51a3fdf0d93695746e2062c8502905f528860121ea",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine LLC mit 1 Mitglied wird standardmäßig als Disregarded Entity über Form 1120 + 5472 besteuert, während eine LLC mit 2 oder mehr Mitgliedern als Partnership über Form 1065 besteuert wird — zwei sehr unterschiedliche Regime.",
+      "sha256": "abbe2f8b19b8ef30cffba03352bd981072af6534d7164d7555c54cfb2448be9e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma LLC com 1 membro é tributada por defeito como disregarded entity com Form 1120 + 5472, enquanto uma LLC com 2 ou mais membros é tributada como partnership com Form 1065 — dois regimes muito diferentes.",
+      "sha256": "8cef9c739084364d0d89c57f439988881d9ec5640e29e80fda538bf458c1a989",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una LLC amb 1 membre tributa per defecte com a disregarded entity amb Form 1120 + 5472, mentre que una LLC amb 2 o més membres tributa com a partnership amb Form 1065, dos règims molt diferents.",
+      "sha256": "351ff32871402bd66322c0407927a732a5c5da95df906983476c03b0691a2b3b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "sociedad-limitada-espana-costes-ventajas": {
+    "de": {
+      "text": "Eine spanische SL verlangt 3.000 € Mindeststammkapital, zahlt 25 % Körperschaftsteuer (15 % in den ersten 2 Jahren) und schreibt vierteljährliche Handelsbücher im Handelsregister vor.",
+      "sha256": "47e15f59ebcd0009a8d6dcc441ebd8b06963ac1bf412df312d7c2df1b33d5860",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "tengo-llc-checklist-gestion-correcta": {
+    "es": {
+      "text": "Tener una LLC bien gestionada se reduce a un checklist con 12 puntos verificables en 30 minutos, alineado con los 4 puntos críticos del IRS y los 4 puntos críticos del estado de constitución.",
+      "sha256": "398c18f947bb3c82b437f587073393c69965f9791e9f901f2027c6ed4f477a32",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Running a well-kept LLC boils down to a checklist of 12 verifiable items in 30 minutes, aligned with the IRS's 4 critical checkpoints and the formation state's 4 critical checkpoints.",
+      "sha256": "c8b99f598df874d303f1c5bad16b633a91d2ddd050ddd235f5ef3bff7eed7c1b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Avoir une LLC bien gérée se résume à un checklist de 12 points vérifiables en 30 minutes, aligné sur les 4 points critiques de l'IRS et les 4 points critiques de l'État de constitution.",
+      "sha256": "c75f417c0c5d397f9b5f88985e4d781b324fa71dcf589afc5734fadb88e27aff",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine gut geführte LLC zu haben läuft auf eine Checkliste von 12 in 30 Minuten überprüfbaren Punkten hinaus, abgestimmt auf die 4 kritischen Punkte der IRS und die 4 kritischen Punkte des Gründungsstaats.",
+      "sha256": "21eae139d9704f90c513de8f3e0dc42ef4e1a4d120d4014d8a2106bccd22d0f5",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Ter uma LLC bem gerida resume-se a um checklist com 12 pontos verificáveis em 30 minutos, alinhado com os 4 pontos críticos do IRS e os 4 pontos críticos do estado de constituição.",
+      "sha256": "4870eead94f69b06eb445e26725fb959415efe19bfd4f6d001e1f7ae09b6d293",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Tenir una LLC ben gestionada es redueix a un checklist amb 12 punts verificables en 30 minuts, alineat amb els 4 punts crítics de l'IRS i els 4 punts crítics de l'estat de constitució.",
+      "sha256": "23f0c6d8d84151b07ece3c99c529611ef9d9db086100ca559560bbdd71c7a8ec",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "testaferros-prestanombres-llc-ilegal-riesgos": {
+    "de": {
+      "text": "Strohmänner zur Verschleierung der Inhaberschaft einer LLC einzusetzen ist in Spanien ein Vertrags- und Steuerverkürzungstatbestand (Art. 305 CP) — mit 1 bis 5 Jahren Haft und Geldstrafen bis zum 6-Fachen der hinterzogenen Summe.",
+      "sha256": "447384b1244aaad364821d3df8fa50d0819e243813f11b6839c2d575c850f917",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "tiempos-pagos-ach-wire-transfer": {
+    "es": {
+      "text": "Una transferencia ACH dentro de Estados Unidos liquida en 1 a 3 días hábiles y cuesta 0 $ en Mercury, mientras que un wire transfer doméstico llega el mismo día y cobra 5 $ en cuentas LLC operativas.",
+      "sha256": "a32d44c248ea04d47542dd86b185590f1b0567913047c7758302bed1f18c1685",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A US-domestic ACH transfer settles in 1 to 3 business days at 0 dollars on Mercury, while a domestic wire transfer arrives the same day and costs 5 dollars on operating LLC accounts.",
+      "sha256": "f27a009f0b1f5d521bebb312a03210be9d812947a054e396908182c2577cbd42",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "tramos-irpf-2026": {
+    "es": {
+      "text": "Los tramos del IRPF 2026 en España van del 19 % hasta 12.450 € de base liquidable al 47 % por encima de 300.000 €, en una escala progresiva de 6 tramos.",
+      "sha256": "6dbdeb5faee3b9c64da55757598105e99d6a600203c34d6e382ffbbd1e9fb3f3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Spain's 2026 IRPF brackets run from 19% up to 12,450 euros of taxable base to 47% above 300,000 euros, on a progressive 6-bracket scale.",
+      "sha256": "7c6aafa216b23be07a1626f6c22cc030171a17bfbd00733ff3120e5a109bead9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Les tranches de l'IRPF 2026 en Espagne vont de 19 % jusqu'à 12 450 € de base imposable à 47 % au-delà de 300 000 €, sur une échelle progressive de 6 tranches.",
+      "sha256": "267f06fd9a2b03ab60dc8fabeaec6fac26359a42bca5c489d22f2f6d6baeb547",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die spanischen IRPF-Stufen 2026 reichen von 19 % bis 12.450 € steuerpflichtiger Bemessungsgrundlage bis 47 % über 300.000 € — auf einer progressiven 6-Stufen-Skala.",
+      "sha256": "b54fe3e43fa5941cebcb9cecfe39dfe0579c1f7c6219324889c1f09762c4127b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Os escalões do IRPF 2026 em Espanha vão de 19 % até 12.450 € de base liquidável a 47 % acima de 300.000 €, numa escala progressiva de 6 escalões.",
+      "sha256": "e6a0c3bab04f50c1cd39d7738d70c3a711bcda816340c55d230b5d0f0f1b6b5b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Els trams de l'IRPF 2026 a Espanya van del 19 % fins a 12.450 € de base liquidable al 47 % per sobre de 300.000 €, en una escala progressiva de 6 trams.",
+      "sha256": "b429906ab95cb6b6ec3a18b3d32cf7eea36d5e34b63c7a15a0960fe5b8e71880",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "tributacion-llc-segun-actividad-economica": {
+    "es": {
+      "text": "Una LLC pass-through tributa al 0 % federal en EE.UU. tanto si la actividad es servicios profesionales, ecommerce, SaaS o trading; el cómputo real solo cambia en el IRPF del país de residencia, que en España llega al 47 %.",
+      "sha256": "d6071207b534340e43ddba90af4ceb647ddc5005c144d52d12dd6e420d986640",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A pass-through LLC is taxed at 0% federal in the US whether the activity is professional services, ecommerce, SaaS or trading; the real math only changes in the local income tax, which reaches 47% in Spain.",
+      "sha256": "a9475f67da68eaac46bd93b02b1ea27b2374b70958c9b57d97c7167c6965193b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Une LLC pass-through est imposée à 0 % fédéral aux États-Unis que l'activité soit du service professionnel, de l'e-commerce, du SaaS ou du trading ; le calcul réel ne change que dans l'IRPF du pays de résidence, qui atteint 47 % en Espagne.",
+      "sha256": "da1ccea9e773dd5f3fabf34fa1d73721b769089c70a2a56bfdc647dbb2484990",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine Pass-through-LLC wird in den USA mit 0 % föderal besteuert, egal ob die Tätigkeit Beratungsleistungen, E-Commerce, SaaS oder Trading ist; die echte Rechnung ändert sich erst in der Einkommensteuer des Wohnsitzlandes, in Spanien bis 47 %.",
+      "sha256": "8068ea2b2d92a027d0204913a92cbf59f0e80909b51037d445c689cd44ea166b",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Uma LLC pass-through tributa a 0 % federal nos EUA quer a atividade seja serviços profissionais, ecommerce, SaaS ou trading; o cálculo real só muda no IRPF do país de residência, que em Espanha chega a 47 %.",
+      "sha256": "abe2976aa0dafe45bfa12dcc4eb33ee9c352d1fa99584087958e39d981b1efc0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Una LLC pass-through tributa al 0 % federal als EUA tant si l'activitat és serveis professionals, ecommerce, SaaS o trading; el càlcul real només canvia a l'IRPF del país de residència, que a Espanya arriba al 47 %.",
+      "sha256": "9b6a01b6d2844562bd18a89831c407fc0c2039d1aaed33d658cacbfec2e3e0b7",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "tributacion-pass-through-llc-como-funciona": {
+    "en": {
+      "text": "An LLC's pass-through regime sets the federal tax at 0% and pushes 100% of the profit to the owner, who is taxed under the personal income tax of their country (up to 47% in Spain).",
+      "sha256": "f94d45d0bce73fe72300e9b769932aeb7c9dae3c2bfe96e2a231d5e5f2b5052e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "vender-o-cerrar-llc-comparativa-practica": {
+    "es": {
+      "text": "Cerrar una LLC bien hecha lleva 30 a 60 días y exige Form 1120 + 5472 final; venderla cuesta normalmente entre 0 $ y 5.000 $ en honorarios y permite preservar el EIN y la antigüedad bancaria.",
+      "sha256": "c8efaa0055f78017e1e253498e6126e4341ff15ff3aea1d0259db0651c5cdcf4",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Closing an LLC properly takes 30 to 60 days and requires a final Form 1120 + 5472; selling it usually costs 0 to 5,000 dollars in fees and lets you preserve the EIN and the bank seniority.",
+      "sha256": "915433bdcc7c78fd18a0214b0c14ecb85de9aa48cbfaf66aca9b7f7aee9a6956",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Bien fermer une LLC prend 30 à 60 jours et impose un Form 1120 + 5472 final ; la vendre coûte généralement entre 0 $ et 5 000 $ d'honoraires et permet de préserver l'EIN et l'ancienneté bancaire.",
+      "sha256": "da761f6ccef2cea3ed6c4022fdca9f28c9c0e69084ae539bdd675df064372bcf",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Eine LLC sauber zu schließen dauert 30 bis 60 Tage und erfordert ein finales Form 1120 + 5472; ein Verkauf kostet meist 0 bis 5.000 USD an Honoraren und bewahrt EIN und Bank-Seniorität.",
+      "sha256": "14c4f8eb54c03967d84c4728a1a868b5d4cf181bad340e794b24bc2c4653fce9",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Fechar uma LLC bem feita leva 30 a 60 dias e exige Form 1120 + 5472 final; vendê-la custa normalmente entre 0 $ e 5.000 $ em honorários e permite preservar o EIN e a antiguidade bancária.",
+      "sha256": "2e1e2990713b4cd1c097a29cf03dc1b47f08e9a416e303f67ec954dc2328b253",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Tancar una LLC ben feta porta 30 a 60 dies i exigeix Form 1120 + 5472 final; vendre-la costa normalment entre 0 $ i 5.000 $ en honoraris i permet preservar l'EIN i l'antiguitat bancària.",
+      "sha256": "1db6885f350275d4d580ab5185a20e0687fc9312dbea9f1cef46603ea2626ab8",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "ventajas-desventajas-llc-no-residentes": {
+    "es": {
+      "text": "Una LLC pass-through paga 0 % federal en EE.UU. y se constituye en 7 a 14 días, pero arrastra 4 obligaciones anuales no negociables: Form 1120 + 5472, BOI Report (si aplica), Annual Report y Registered Agent.",
+      "sha256": "000147254cc6a97f2843c6ea1f51c917d59f6fe362a8d4b45a5a2681a910b51f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "A pass-through LLC pays 0% federal in the US and is set up in 7 to 14 days, but carries 4 non-negotiable annual obligations: Form 1120 + 5472, BOI Report (if applicable), Annual Report, and Registered Agent.",
+      "sha256": "46be8dea685e148d129842b660587d0130f5d37698211211112bcc38841e0701",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "visa-mastercard-reporting-tarjetas-hacienda": {
+    "es": {
+      "text": "El Modelo 991 obliga a Visa, Mastercard y American Express a reportar a la AEAT todo cobro o pago con tarjeta superior a 25.000 € por titular y año, así como las cuentas asociadas en el extranjero.",
+      "sha256": "86e6abe969172a948ca9d13841a36e7e9d1dffc0a4fe709f26bd188c22848a92",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Modelo 991 forces Visa, Mastercard and American Express to report to Spain's AEAT every card charge or payment above 25,000 euros per holder per year, plus any associated foreign accounts.",
+      "sha256": "1068b3258326b07e4ceb1ef1d447ff7856bc508311a63385f6da807c469941be",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Le Modelo 991 oblige Visa, Mastercard et American Express à déclarer à l'AEAT espagnole toute recette ou dépense par carte supérieure à 25 000 € par titulaire et par an, ainsi que les comptes associés à l'étranger.",
+      "sha256": "2c6f5e230a7870e5449bf21846728d17bad4305faa12b14b65b71d99ed38cab1",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Das Modelo 991 verpflichtet Visa, Mastercard und American Express, jede Karten­buchung über 25.000 € pro Karteninhaber und Jahr sowie die zugehörigen ausländischen Konten an die spanische AEAT zu melden.",
+      "sha256": "5968dd6a93e7edc171f38c977778dc97de6159446bc9388ce905c5007b7d26e3",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O Modelo 991 obriga a Visa, Mastercard e American Express a reportar à AEAT espanhola qualquer cobrança ou pagamento por cartão superior a 25.000 € por titular e ano, bem como as contas associadas no estrangeiro.",
+      "sha256": "38c571c3802fa81d320665b48516c4ea66793b22460a8fb21471b0db4da6f03f",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "El Model 991 obliga Visa, Mastercard i American Express a reportar a l'AEAT espanyola qualsevol cobrament o pagament amb targeta superior a 25.000 € per titular i any, així com els comptes associats a l'estranger.",
+      "sha256": "03e286680f4a19c0c10be1dcda3bfcb763c453d2b335ca487f299ad5443856fe",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "wise-business-crs-reporting-fiscal": {
+    "es": {
+      "text": "Wise Business reporta saldos de cuentas a más de 120 jurisdicciones bajo CRS y, para un residente fiscal en España, envía la información a la AEAT antes del 30 de septiembre de cada ejercicio.",
+      "sha256": "501f372a4024b88df895a62db1b5d587d7080bb78d131eb013bb15c495fc418a",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "Wise Business reports account balances to more than 120 jurisdictions under CRS and, for a Spanish tax resident, sends the data to the AEAT before September 30 every year.",
+      "sha256": "c741973b9bf81258d26d925f252e11da6f3d933b89b901737d71f483e64fca9e",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "Wise Business reporte les soldes de comptes à plus de 120 juridictions sous CRS et, pour un résident fiscal espagnol, transmet l'information à l'AEAT avant le 30 septembre de chaque exercice.",
+      "sha256": "dc9c6650d4f221eda0b7b18cd7a118a15c3db0e808b52559949e84dd726f6a5d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Wise Business meldet Kontosalden an über 120 Jurisdiktionen unter CRS und übermittelt die Daten für einen spanischen Steueransässigen jährlich bis zum 30. September an die AEAT.",
+      "sha256": "6619f6c36d72607fa0a501645dbce46417dc12bee809b05c966a80e65a1f2eff",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Sob o CRS, são reportados saldos das contas Wise Business a mais de 120 jurisdições e, para um residente fiscal em Espanha, a informação chega à AEAT antes de 30 de setembro de cada exercício.",
+      "sha256": "1c9268b520f02af6ca71103b11c45cab191eb16b1b98eb85d09c96a5aa098de7",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Wise Business reporta saldos de comptes a més de 120 jurisdiccions sota CRS i, per a un resident fiscal a Espanya, envia la informació a l'AEAT abans del 30 de setembre de cada exercici.",
+      "sha256": "15b7521fdd12e91d0aa552766fbf624fadbd70426dc56ea691a1b724d4dbbb7c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "wise-business-llc-guia": {
+    "fr": {
+      "text": "Wise Business ouvre un compte multidevises pour une LLC en 5 jours, convertit l'USD en EUR avec un spread moyen de 0,41 % et émet des IBAN européens en 9 devises différentes.",
+      "sha256": "0cba8604d306451af6e000c856bd30a3386718304afb72d600e2a86b2a3ba583",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Wise Business eröffnet ein Multi-Currency-Konto für eine LLC in 5 Tagen, tauscht USD in EUR mit einem durchschnittlichen Spread von 0,41 % und stellt europäische IBANs in 9 verschiedenen Währungen aus.",
+      "sha256": "42e9d4756de02527e536332e240c8291f4508d3daae53475f99d33f3cc136e7d",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "Em 5 dias úteis, a conta multimoeda da Wise Business para uma LLC é aberta, converte USD em EUR com spread médio de 0,41 % e emite IBAN europeus em 9 moedas diferentes.",
+      "sha256": "f529ae362b9cfb8c7958e789764696e95da9325a5635b5f3dbe7d98ce31bdb54",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "Wise Business obre compte multidivisa per a una LLC en 5 dies, converteix USD a EUR amb un spread mitjà del 0,41 % i emet IBAN europeus en 9 monedes diferents.",
+      "sha256": "1f24a5ff7fc06fa32816f731d2aff008738919f0a2a9dcd62874f9d1337d6599",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  },
+  "wise-iban-llc-que-reporta-hacienda": {
+    "es": {
+      "text": "El IBAN belga que Wise asigna a una LLC entra en el intercambio CRS de más de 120 jurisdicciones, y para un residente fiscal en España la AEAT recibe el saldo a 31 de diciembre cada septiembre.",
+      "sha256": "8609b5d80999772d32eb00e9761632013cbd2a2f4f10e1a87680f19f4884767c",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "en": {
+      "text": "The Belgian IBAN that Wise assigns to an LLC enters the CRS exchange covering more than 120 jurisdictions, and for a Spanish tax resident the AEAT receives the December 31 balance every September.",
+      "sha256": "221ae7b0c5c42284000f2499eb8101defd001baafa15d237af8bf8c86e064a70",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "fr": {
+      "text": "L'IBAN belge que Wise attribue à une LLC entre dans l'échange CRS de plus de 120 juridictions, et pour un résident fiscal espagnol l'AEAT reçoit le solde au 31 décembre chaque septembre.",
+      "sha256": "df16bc64f9b779e893f1bff1d9d1a6dcdde803d898e18d68134e47c7ec1073b0",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "de": {
+      "text": "Die belgische IBAN, die Wise einer LLC zuteilt, fällt unter den CRS-Austausch von über 120 Jurisdiktionen, und für einen spanischen Steueransässigen erhält die AEAT den Saldo zum 31. Dezember jedes Jahr im September.",
+      "sha256": "02d40ae032dae91309905611911cb6abe3ec73ba73b77295fb00d2fd3a56f7ea",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "pt": {
+      "text": "O IBAN belga que a Wise atribui a uma LLC entra na troca CRS de mais de 120 jurisdições, e para um residente fiscal em Espanha a AEAT recebe o saldo a 31 de dezembro todo setembro.",
+      "sha256": "b09e218b0597ab60b67b9b3eb089cf0c707aeb9c379e6db80347999c71ceabdb",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    },
+    "ca": {
+      "text": "L'IBAN belga que Wise assigna a una LLC entra a l'intercanvi CRS de més de 120 jurisdiccions, i per a un resident fiscal a Espanya l'AEAT rep el saldo a 31 de desembre cada setembre.",
+      "sha256": "57c8e85b0487fd5b0ba58d97195289813e1ffb70a43baf13257bddc65139d779",
+      "injectedAt": "2026-04-29T10:35:57.848Z",
+      "sourceJsonSha": "be1e28ea9ee1296e99bd9546ebb99533a365eefd87067844901d793f412d36e2"
+    }
+  }
+}

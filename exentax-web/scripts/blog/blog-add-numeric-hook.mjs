@@ -33,16 +33,33 @@
  * Long native leads are skipped with a counter so you can tell what was
  * untouched.
  *
+ * Snapshot footprint (Task #42): every successful injection writes its
+ * footprint (text, sha256, injectedAt, source-JSON sha) to
+ * `scripts/blog/data/article-hook-snapshot.json` atomically. The auditor
+ * reads that file to distinguish "I injected this" from "the editorial team
+ * wrote this" with certainty rather than heuristics. `--seed-snapshot` is a
+ * read-only back-fill mode that stamps the footprint of every (slug, lang)
+ * whose on-disk first paragraph already matches the JSON hook verbatim,
+ * without touching any article.
+ *
  * Usage:
  *   node scripts/blog/blog-add-numeric-hook.mjs                                # default insert
  *   node scripts/blog/blog-add-numeric-hook.mjs --dry-run                      # preview only
  *   node scripts/blog/blog-add-numeric-hook.mjs --lang es                      # restrict to one lang
  *   node scripts/blog/blog-add-numeric-hook.mjs --replace-existing --slug cuota-autonomo-2026
  *   node scripts/blog/blog-add-numeric-hook.mjs --replace-existing --all --dry-run
+ *   node scripts/blog/blog-add-numeric-hook.mjs --seed-snapshot                # one-time back-fill of footprints
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  loadSnapshot,
+  saveSnapshot,
+  recordInjection,
+  fileSha256,
+  getSnapshotEntry,
+} from "./lib/article-hook-snapshot.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, "..", "..");
@@ -54,6 +71,12 @@ const args = new Set(process.argv.slice(2));
 const dryRun = args.has("--dry-run");
 const replaceExisting = args.has("--replace-existing");
 const allFlag = args.has("--all");
+// Task #42: back-fill mode. Walks the corpus and, for every (slug, lang) whose
+// on-disk first paragraph already matches the JSON hook verbatim, records the
+// existing footprint in `article-hook-snapshot.json` without mutating any
+// article. Lets the auditor distinguish "I injected this" from "the editorial
+// team wrote a numeric lead that happens to look like one".
+const seedSnapshot = args.has("--seed-snapshot");
 const langFilter = (() => {
   const idx = process.argv.indexOf("--lang");
   if (idx > 0 && process.argv[idx + 1]) return process.argv[idx + 1];
@@ -76,7 +99,18 @@ if (replaceExisting && !slugFilter && !allFlag) {
   process.exit(2);
 }
 
+if (seedSnapshot && (replaceExisting || allFlag)) {
+  console.error(
+    "ERROR: --seed-snapshot is read-only on the corpus and cannot be combined with --replace-existing or --all.",
+  );
+  process.exit(2);
+}
+
 const HOOKS = JSON.parse(fs.readFileSync(HOOKS_PATH, "utf8"));
+const HOOKS_SHA = fileSha256(HOOKS_PATH);
+const snapshot = loadSnapshot();
+let snapshotDirty = false;
+const nowIso = new Date().toISOString();
 
 function extractLead(body) {
   const beforeHeading = body.split(/^##\s/m)[0];
@@ -98,7 +132,24 @@ const summary = {
   skippedLongLead: 0,
   missingHook: [],
   byLang: {},
+  // Task #42: --seed-snapshot counters.
+  seeded: 0,
+  seededAlreadyPresent: 0,
+  seededSkippedDifferent: 0,
 };
+
+function snapshotInjection(slug, lang, text) {
+  recordInjection(snapshot, slug, lang, text, HOOKS_SHA, nowIso);
+  snapshotDirty = true;
+  // Per-write durability (Task #42 hardening): flush atomically right after
+  // each successful injection so an interrupted run can never leave article
+  // mutations without their corresponding footprint. saveSnapshot writes to
+  // a tmp file + rename, so cost is one fsync per write.
+  if (!dryRun) {
+    saveSnapshot(snapshot);
+    snapshotDirty = false;
+  }
+}
 
 for (const lang of LANGS) {
   if (langFilter && lang !== langFilter) continue;
@@ -135,6 +186,29 @@ for (const lang of LANGS) {
     const leadingWhitespace = body.match(/^\s*/)[0];
     const remainder = body.slice(leadingWhitespace.length);
 
+    if (seedSnapshot) {
+      // Back-fill mode: do NOT touch any article. Only stamp the snapshot for
+      // (slug, lang) pairs whose first paragraph already matches the JSON
+      // hook verbatim — those are demonstrably hooks the injector previously
+      // wrote (we just never recorded the footprint at the time).
+      const splitIdx = remainder.indexOf("\n\n");
+      const firstPara = (splitIdx >= 0 ? remainder.slice(0, splitIdx) : remainder).trim();
+      if (firstPara === hook) {
+        const existing = getSnapshotEntry(snapshot, slug, lang);
+        if (existing && existing.text === hook) {
+          summary.seededAlreadyPresent += 1;
+        } else if (!dryRun) {
+          snapshotInjection(slug, lang, hook);
+          summary.seeded += 1;
+        } else {
+          summary.seeded += 1;
+        }
+      } else {
+        summary.seededSkippedDifferent += 1;
+      }
+      continue;
+    }
+
     if (replaceExisting) {
       // The injector always inserts as `${hook}\n\n${rest}`, so the first
       // \n\n-delimited paragraph IS the prior hook (when one exists).
@@ -158,7 +232,10 @@ for (const lang of LANGS) {
 
       if (looksLikeInjectedOpener) {
         const newBody = `${leadingWhitespace}${hook}\n\n${restOfBody}`;
-        if (!dryRun) fs.writeFileSync(fp, `${prefix}${newBody}${suffix}`, "utf8");
+        if (!dryRun) {
+          fs.writeFileSync(fp, `${prefix}${newBody}${suffix}`, "utf8");
+          snapshotInjection(slug, lang, hook);
+        }
         summary.replaced += 1;
         summary.byLang[lang] = (summary.byLang[lang] || 0) + 1;
         continue;
@@ -172,7 +249,10 @@ for (const lang of LANGS) {
         continue;
       }
       const newBody = `${leadingWhitespace}${hook}\n\n${remainder}`;
-      if (!dryRun) fs.writeFileSync(fp, `${prefix}${newBody}${suffix}`, "utf8");
+      if (!dryRun) {
+        fs.writeFileSync(fp, `${prefix}${newBody}${suffix}`, "utf8");
+        snapshotInjection(slug, lang, hook);
+      }
       summary.patched += 1;
       summary.byLang[lang] = (summary.byLang[lang] || 0) + 1;
       continue;
@@ -185,22 +265,43 @@ for (const lang of LANGS) {
       continue;
     }
     const newBody = `${leadingWhitespace}${hook}\n\n${remainder}`;
-    if (!dryRun) fs.writeFileSync(fp, `${prefix}${newBody}${suffix}`, "utf8");
+    if (!dryRun) {
+      fs.writeFileSync(fp, `${prefix}${newBody}${suffix}`, "utf8");
+      snapshotInjection(slug, lang, hook);
+    }
     summary.patched += 1;
     summary.byLang[lang] = (summary.byLang[lang] || 0) + 1;
   }
 }
 
+// Persist the snapshot atomically once we know all per-file writes succeeded.
+// In --dry-run mode we never call snapshotInjection(), so the in-memory
+// snapshot is unchanged and we have nothing to flush.
+if (snapshotDirty && !dryRun) saveSnapshot(snapshot);
+
 console.log("=== LOTE 6 — Numeric hook injection ===");
-console.log(`Mode: ${dryRun ? "dry-run" : "apply"}${replaceExisting ? " (replace-existing)" : ""}`);
-console.log(`Patched (fresh insert): ${summary.patched}`);
-if (replaceExisting) {
-  console.log(`Replaced (swapped obsolete opener): ${summary.replaced}`);
-  console.log(`Skipped — already on latest hook: ${summary.skippedNoChange}`);
-  console.log(`Skipped — long native lead, won't clobber: ${summary.skippedLongLead}`);
+const modeLabel = seedSnapshot
+  ? "seed-snapshot (no article writes)"
+  : replaceExisting
+    ? "replace-existing"
+    : "default";
+console.log(`Mode: ${dryRun ? "dry-run" : "apply"} (${modeLabel})`);
+if (seedSnapshot) {
+  console.log(`Snapshot back-fill — entries stamped from on-disk match: ${summary.seeded}`);
+  console.log(`Snapshot back-fill — already in snapshot, unchanged: ${summary.seededAlreadyPresent}`);
+  console.log(`Snapshot back-fill — first paragraph differs from JSON, skipped: ${summary.seededSkippedDifferent}`);
+  if (snapshotDirty && !dryRun) console.log(`Wrote: scripts/blog/data/article-hook-snapshot.json`);
+} else {
+  console.log(`Patched (fresh insert): ${summary.patched}`);
+  if (replaceExisting) {
+    console.log(`Replaced (swapped obsolete opener): ${summary.replaced}`);
+    console.log(`Skipped — already on latest hook: ${summary.skippedNoChange}`);
+    console.log(`Skipped — long native lead, won't clobber: ${summary.skippedLongLead}`);
+  }
+  console.log(`Skipped (already had a digit / unparseable / no hook needed): ${summary.skipped}`);
+  console.log("By language:", JSON.stringify(summary.byLang));
+  if (snapshotDirty && !dryRun) console.log(`Updated snapshot: scripts/blog/data/article-hook-snapshot.json`);
 }
-console.log(`Skipped (already had a digit / unparseable / no hook needed): ${summary.skipped}`);
-console.log("By language:", JSON.stringify(summary.byLang));
 if (summary.missingHook.length > 0) {
   console.error("Missing hooks for:");
   for (const f of summary.missingHook) console.error(` - ${f}`);

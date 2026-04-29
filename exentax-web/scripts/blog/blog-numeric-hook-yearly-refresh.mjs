@@ -45,6 +45,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadSnapshot, getSnapshotEntry } from "./lib/article-hook-snapshot.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, "..", "..");
@@ -53,6 +54,14 @@ const HOOKS_PATH = path.join(__dirname, "data", "article-numeric-hooks.json");
 const VERACITY_JSON = path.join(PROJECT_ROOT, "reports", "seo", "lote5-veracidad.json");
 const REPORT_MD = path.join(PROJECT_ROOT, "reports", "seo", "lote6-numeric-hook.md");
 const LANGS = ["es", "en", "fr", "de", "pt", "ca"];
+
+// Task #42: load the per-injection footprint. When present, the snapshot is
+// authoritative — a snapshot match means we wrote that paragraph, a snapshot
+// mismatch means we wrote it and someone changed it (= drift_real). When the
+// snapshot has no entry for a (slug, lang) we fall back to the legacy
+// "looks like a hook" heuristic, but downgrade those findings to
+// `heuristic_candidate` (informational only, never fails the build).
+const HOOK_SNAPSHOT = loadSnapshot();
 
 const args = new Set(process.argv.slice(2));
 const wantWrite = args.has("--write-report");
@@ -160,7 +169,15 @@ function readArticleFirstParagraphAndLead(slug, lang) {
 }
 
 const auditRows = [];
-const mismatched = []; // hook injected once, on-disk first para now differs from JSON
+// drift_real: snapshot has a footprint for (slug, lang) but the on-disk first
+// paragraph no longer matches the recorded text — i.e., we injected something
+// and then the article changed. Resolve with `--replace-existing --slug`.
+const driftReal = [];
+// heuristic_candidate: no snapshot footprint, but the first paragraph is
+// short, single-line, contains a digit and ≠ JSON. Could be a pre-snapshot
+// hook the editor changed, OR a legitimate native numeric lead. Informational
+// only — does NOT fail the build.
+const heuristicCandidate = [];
 const needsInjection = []; // lead has no digit and JSON hook is missing → run default mode
 const summary = {
   slugs: 0,
@@ -168,8 +185,12 @@ const summary = {
   injectedAndCurrent: 0,
   dormantNativeLead: 0,
   needsInjection: 0,
-  mismatched: 0,
+  driftReal: 0,
+  heuristicCandidate: 0,
   staleYearAnchors: 0,
+  // Snapshot health:
+  snapshotEntries: 0,
+  snapshotConfirmed: 0, // snapshot text === on-disk first paragraph
 };
 
 const slugs = Object.keys(HOOKS).sort();
@@ -184,22 +205,17 @@ for (const slug of slugs) {
     .filter(Boolean)
     .map((f) => ({ id: f.id, label: f.label, source: f.source }));
 
-  // Per-language status. Four buckets:
-  //   - injectedAndCurrent: JSON hook is the first paragraph (was injected,
-  //                         no drift).
-  //   - dormantNativeLead:  JSON hook is NOT the first paragraph but the
-  //                         article's lead already has a digit, so the
-  //                         injector intentionally never inserted it. The
-  //                         JSON entry is a fallback that stays unused.
-  //   - needsInjection:     JSON hook is NOT the first paragraph AND the
-  //                         article's lead has no digit. Re-run the injector
-  //                         in default mode.
-  //   - mismatched:         First paragraph is short with a digit (looks
-  //                         like a previously-injected hook) but doesn't
-  //                         equal the JSON value. Editor either changed the
-  //                         JSON without re-running --replace-existing, or a
-  //                         human edited the article opener. Use
-  //                         `--replace-existing --slug <slug>` to resolve.
+  // Per-language classification (Task #42 priority order):
+  //   1. snapshot match  → injected (we wrote this paragraph, JSON unchanged)
+  //   2. snapshot diff   → drift_real (we wrote it, JSON or paragraph moved)
+  //   3. no snapshot, paragraph == JSON → injected (legacy, pre-snapshot)
+  //   4. no snapshot, looks like a hook but != JSON → heuristic_candidate
+  //   5. no snapshot, lead has digit                → dormant_native
+  //   6. no snapshot, lead has no digit             → needs-injection
+  //
+  // Only buckets 2 and 6 fail the build (drift_real + needs-injection).
+  // Bucket 4 is informational and never fails — it includes legitimate
+  // human-written numeric leads that the old heuristic mis-flagged as drift.
   const langStatus = {};
   let injectedHere = 0;
   for (const lang of LANGS) {
@@ -208,10 +224,61 @@ for (const slug of slugs) {
     summary.hooks += 1;
     const info = readArticleFirstParagraphAndLead(slug, lang);
     if (!info) continue;
-    // Hook-shape heuristic: every hook in the JSON is ≤ 253 chars and a
-    // single paragraph (no internal "\n"). A first paragraph that fits that
-    // shape AND has a digit AND ≠ JSON is probably a previously-injected
-    // hook that drifted; anything longer is the article's own native lead.
+
+    // Step 1 — snapshot lookup (Task #42, authoritative). If a footprint
+    // exists for (slug, lang), the answer is binary:
+    //   - on-disk first paragraph === footprint text → injected (no drift)
+    //   - on-disk first paragraph !== footprint text → drift_real (the
+    //     editor changed a paragraph we wrote, or the JSON was bumped without
+    //     re-running --replace-existing)
+    const snap = getSnapshotEntry(HOOK_SNAPSHOT, slug, lang);
+    if (snap) {
+      summary.snapshotEntries += 1;
+      if (info.firstPara === snap.text) {
+        summary.snapshotConfirmed += 1;
+        if (info.firstPara === expected) {
+          injectedHere += 1;
+          summary.injectedAndCurrent += 1;
+          langStatus[lang] = "injected";
+        } else {
+          // Footprint matches on-disk but JSON has moved past it (e.g. yearly
+          // RDL bump). The footprint is the proof we own this paragraph;
+          // re-run `--replace-existing --slug` to bring it to the new value.
+          summary.driftReal += 1;
+          langStatus[lang] = "drift_real";
+          driftReal.push({
+            slug,
+            lang,
+            reason: "json_moved",
+            expected: expected.slice(0, 100),
+            onDisk: info.firstPara.slice(0, 100),
+            injectedAt: snap.injectedAt,
+          });
+        }
+      } else {
+        summary.driftReal += 1;
+        langStatus[lang] = "drift_real";
+        driftReal.push({
+          slug,
+          lang,
+          reason: "edited_after_injection",
+          expected: expected.slice(0, 100),
+          onDisk: info.firstPara.slice(0, 100),
+          injectedAt: snap.injectedAt,
+        });
+      }
+      continue;
+    }
+
+    // Step 2 — fallback heuristic (no footprint on file). Three buckets:
+    //   - injected: first paragraph already matches the JSON verbatim (a
+    //     hook the injector wrote before snapshot tracking existed; a future
+    //     `--seed-snapshot` pass will stamp it).
+    //   - heuristic_candidate: short, single-line, digit-bearing first
+    //     paragraph that ≠ JSON. Could be a pre-snapshot hook OR a native
+    //     numeric lead. Informational only.
+    //   - dormant: article has its own numeric lead, JSON hook never used.
+    //   - needs-injection: no digit at all in the lead.
     const HOOK_MAX_LEN = 320;
     const looksLikeInjectedHook =
       info.firstPara.length <= HOOK_MAX_LEN &&
@@ -223,9 +290,14 @@ for (const slug of slugs) {
       summary.injectedAndCurrent += 1;
       langStatus[lang] = "injected";
     } else if (looksLikeInjectedHook) {
-      summary.mismatched += 1;
-      langStatus[lang] = "mismatched";
-      mismatched.push({ slug, lang, expected: expected.slice(0, 100), onDisk: info.firstPara.slice(0, 100) });
+      summary.heuristicCandidate += 1;
+      langStatus[lang] = "heuristic_candidate";
+      heuristicCandidate.push({
+        slug,
+        lang,
+        expected: expected.slice(0, 100),
+        onDisk: info.firstPara.slice(0, 100),
+      });
     } else if (info.leadHasDigit) {
       summary.dormantNativeLead += 1;
       langStatus[lang] = "dormant";
@@ -264,7 +336,8 @@ if (wantJson) {
         referenceYear,
         summary,
         auditRows,
-        mismatched,
+        driftReal,
+        heuristicCandidate,
         needsInjection,
       },
       null,
@@ -276,10 +349,14 @@ if (wantJson) {
   console.log(`Reference year (anchors ≤ ${referenceYear - 2} flagged stale): ${referenceYear}`);
   console.log(`Slugs in JSON: ${summary.slugs}`);
   console.log(`Hooks (slug × lang): ${summary.hooks}`);
+  console.log(
+    `Snapshot footprints loaded: ${summary.snapshotEntries} (${summary.snapshotConfirmed} match on-disk paragraph)`,
+  );
   console.log(`  ✓ Injected and current (verbatim at top of article): ${summary.injectedAndCurrent}`);
   console.log(`  · Dormant — article has its own native numeric lead: ${summary.dormantNativeLead}`);
   console.log(`  ✏ Needs injection (lead has no digit, hook missing): ${summary.needsInjection}`);
-  console.log(`  ✏ Mismatched (looks like a previously-injected hook that no longer matches JSON): ${summary.mismatched}`);
+  console.log(`  ✗ Drift real (snapshot proves we wrote it, paragraph or JSON moved): ${summary.driftReal}`);
+  console.log(`  ? Heuristic candidate (no snapshot, looks like a hook but ≠ JSON — informational): ${summary.heuristicCandidate}`);
   console.log(`  ⚠ Stale year anchors (≤ ${referenceYear - 2}): ${summary.staleYearAnchors}`);
 
   if (needsInjection.length > 0) {
@@ -289,14 +366,27 @@ if (wantJson) {
     }
     if (needsInjection.length > 20) console.log(`  … (+${needsInjection.length - 20} more)`);
   }
-  if (mismatched.length > 0) {
-    console.log(`\nMismatched (run: node scripts/blog/blog-add-numeric-hook.mjs --replace-existing --slug <slug>):`);
-    for (const d of mismatched.slice(0, 20)) {
+  if (driftReal.length > 0) {
+    console.log(
+      `\nDrift real — snapshot footprint exists, action required (run: node scripts/blog/blog-add-numeric-hook.mjs --replace-existing --slug <slug>):`,
+    );
+    for (const d of driftReal.slice(0, 20)) {
+      console.log(`  - ${d.lang}/${d.slug}.ts  [${d.reason}, injectedAt=${d.injectedAt}]`);
+      console.log(`      JSON   : "${d.expected}…"`);
+      console.log(`      on-disk: "${d.onDisk}…"`);
+    }
+    if (driftReal.length > 20) console.log(`  … (+${driftReal.length - 20} more)`);
+  }
+  if (heuristicCandidate.length > 0) {
+    console.log(
+      `\nHeuristic candidates — no snapshot footprint, paragraph looks like a hook but differs from JSON. Informational only (likely native numeric leads). Resolve by either accepting the editor's lead or running --seed-snapshot once you confirm we own them:`,
+    );
+    for (const d of heuristicCandidate.slice(0, 10)) {
       console.log(`  - ${d.lang}/${d.slug}.ts`);
       console.log(`      JSON   : "${d.expected}…"`);
       console.log(`      on-disk: "${d.onDisk}…"`);
     }
-    if (mismatched.length > 20) console.log(`  … (+${mismatched.length - 20} more)`);
+    if (heuristicCandidate.length > 10) console.log(`  … (+${heuristicCandidate.length - 10} more)`);
   }
   if (summary.staleYearAnchors > 0) {
     console.log("\nStale-year anchors (slug → years, sources):");
@@ -329,7 +419,11 @@ if (wantWrite) {
   lines.push(`- ✓ Inyectados y vigentes (verbatim como primer párrafo): **${summary.injectedAndCurrent}**`);
   lines.push(`- · Latentes — el artículo ya tenía un lead numérico nativo, el hook JSON es fallback no usado: **${summary.dormantNativeLead}**`);
   lines.push(`- ✏ Falta inyectar (lead sin dígito y hook ausente): **${summary.needsInjection}**`);
-  lines.push(`- ✏ Mismatched — primer párrafo se parece a un hook anterior pero no coincide con el JSON actual: **${summary.mismatched}**`);
+  lines.push(`- ✗ Drift real — la huella del inyector existe pero el primer párrafo on-disk ya no coincide: **${summary.driftReal}**`);
+  lines.push(`- ? Heurística — sin huella, primer párrafo parece un hook pero difiere del JSON (informativo): **${summary.heuristicCandidate}**`);
+  lines.push(
+    `- 🔒 Snapshot footprints en \`scripts/blog/data/article-hook-snapshot.json\`: **${summary.snapshotEntries}** (${summary.snapshotConfirmed} confirmados contra disco)`,
+  );
   lines.push(
     `- ⚠ Anclas con año ≤ ${referenceYear - 2} (a re-verificar contra fuente oficial): **${summary.staleYearAnchors}**`,
   );
@@ -403,7 +497,18 @@ if (wantWrite) {
   lines.push("");
   lines.push("## 4. Drift detectado en esta auditoría");
   lines.push("");
-  if (mismatched.length === 0 && needsInjection.length === 0) {
+  lines.push(
+    "Se distinguen **dos categorías** desde Task #42 (snapshot por inyección):",
+  );
+  lines.push("");
+  lines.push(
+    "- **`drift_real`** — el snapshot `article-hook-snapshot.json` confirma que el inyector escribió ese párrafo en algún momento, y ya no coincide con el on-disk o con el JSON actual. **Acción requerida**: re-inyectar (`--replace-existing --slug`) o aceptar la edición ejecutando `--seed-snapshot` después de validarla.",
+  );
+  lines.push(
+    "- **`heuristic_candidate`** — sin huella en el snapshot. El primer párrafo se parece a un hook (corto, una sola línea, contiene un dígito) pero difiere del JSON. Es **informativo**: la mayoría son leads nativos legítimos del equipo editorial, no falsos drifts. El exit code **no** se ve afectado.",
+  );
+  lines.push("");
+  if (driftReal.length === 0 && needsInjection.length === 0 && heuristicCandidate.length === 0) {
     lines.push("**Ninguno.** Todo hook definido en JSON está inyectado y vigente, o latente porque el artículo ya tiene su propio lead numérico nativo.");
   } else {
     if (needsInjection.length > 0) {
@@ -414,19 +519,38 @@ if (wantWrite) {
       lines.push("```");
       lines.push("");
     }
-    if (mismatched.length > 0) {
-      lines.push(`**${mismatched.length} entradas mismatched** — el primer párrafo del artículo se parece a un hook inyectado anteriormente pero no coincide con el valor JSON actual. Resolver con:`);
+    if (driftReal.length > 0) {
+      lines.push(`### 4.1 Drift real (acción requerida) — ${driftReal.length} entradas`);
+      lines.push("");
+      lines.push("Resolver con:");
       lines.push("");
       lines.push("```");
       lines.push("node scripts/blog/blog-add-numeric-hook.mjs --replace-existing --slug <slug>");
       lines.push("```");
       lines.push("");
-      lines.push("| Lang | Slug | JSON (esperado) | On-disk (actual) |");
+      lines.push("| Lang | Slug | Motivo | injectedAt | JSON (esperado) | On-disk (actual) |");
+      lines.push("|---|---|---|---|---|---|");
+      for (const d of driftReal.slice(0, 50)) {
+        lines.push(
+          `| ${d.lang} | \`${d.slug}\` | ${d.reason} | ${d.injectedAt} | ${d.expected}… | ${d.onDisk}… |`,
+        );
+      }
+      if (driftReal.length > 50) lines.push(`| … | … | … | … | … | (+${driftReal.length - 50} entradas adicionales) |`);
+      lines.push("");
+    }
+    if (heuristicCandidate.length > 0) {
+      lines.push(`### 4.2 Candidatos heurísticos (informativos) — ${heuristicCandidate.length} entradas`);
+      lines.push("");
+      lines.push(
+        "Sin huella de inyección. El equipo editorial probablemente escribió un lead numérico legítimo. Revisar uno a uno: si el lead on-disk es preferible, dejarlo como está (no requiere acción); si en realidad fue un hook nuestro pre-snapshot que se editó, ejecutar `--replace-existing --slug` para reponer el JSON.",
+      );
+      lines.push("");
+      lines.push("| Lang | Slug | JSON | On-disk |");
       lines.push("|---|---|---|---|");
-      for (const d of mismatched.slice(0, 50)) {
+      for (const d of heuristicCandidate.slice(0, 50)) {
         lines.push(`| ${d.lang} | \`${d.slug}\` | ${d.expected}… | ${d.onDisk}… |`);
       }
-      if (mismatched.length > 50) lines.push(`| … | … | … | (+${mismatched.length - 50} entradas adicionales) |`);
+      if (heuristicCandidate.length > 50) lines.push(`| … | … | … | (+${heuristicCandidate.length - 50} entradas adicionales) |`);
     }
   }
   lines.push("");
@@ -455,7 +579,7 @@ if (wantWrite) {
     const match = prev.match(/## 6\. Histórico de auditorías\s*\n([\s\S]*?)(\n## |$)/);
     if (match) previousAudits = match[1].trim();
   }
-  const newEntry = `- **${today}** — referenceYear=${referenceYear}, hooks=${summary.hooks}, injected=${summary.injectedAndCurrent}, dormant=${summary.dormantNativeLead}, needsInjection=${summary.needsInjection}, mismatched=${summary.mismatched}, staleYearAnchors=${summary.staleYearAnchors}.`;
+  const newEntry = `- **${today}** — referenceYear=${referenceYear}, hooks=${summary.hooks}, injected=${summary.injectedAndCurrent}, dormant=${summary.dormantNativeLead}, needsInjection=${summary.needsInjection}, driftReal=${summary.driftReal}, heuristicCandidate=${summary.heuristicCandidate}, snapshotEntries=${summary.snapshotEntries}, staleYearAnchors=${summary.staleYearAnchors}.`;
   lines.push(newEntry);
   if (previousAudits) {
     for (const line of previousAudits.split("\n")) {
@@ -468,4 +592,8 @@ if (wantWrite) {
   console.log(`\nWrote report: reports/seo/lote6-numeric-hook.md`);
 }
 
-process.exit(summary.needsInjection > 0 || summary.mismatched > 0 ? 1 : 0);
+// Exit code: only `drift_real` (snapshot-confirmed editor edits or yearly-bump
+// no-ops) and `needsInjection` block CI. `heuristic_candidate` is informational
+// only — it captures legitimate native numeric leads that the old heuristic
+// mis-flagged, so it must NOT fail the build.
+process.exit(summary.needsInjection > 0 || summary.driftReal > 0 ? 1 : 0);
