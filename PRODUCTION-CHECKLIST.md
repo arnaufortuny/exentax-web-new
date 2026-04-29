@@ -199,6 +199,9 @@ Política de notificación (estado persistido entre runs vía `actions/cache`):
 | `down → ok` o `vps-not-deployed → ok` | embed NEON "Web pública RECUPERADA" con duración del incidente |
 | `down → down` o `vps-not-deployed → vps-not-deployed` | silent (anti-spam: no spammea cada 20 min con los 9 FAILs idénticos) |
 | `down ↔ vps-not-deployed` | embed RED del nuevo tipo |
+| Mismo estado de fallo y `now − since > 6 h` y `now − lastDigestAt > 24 h` | embed RED "Web pública sigue degradada (digest)" con FAIL count actual y delta vs. digest anterior — Task #59 |
+
+**Digest diario para incidentes prolongados (Task #59).** El anti-spam de la regla 5 es correcto para incidentes cortos pero crea un punto ciego: si el VPS sigue caído tras la alerta inicial, el canal no recibe ningún recordatorio hasta la recuperación. Para evitarlo, cuando el estado lleva más de **6 h** estancado en `down` o `vps-not-deployed` y no se ha enviado un digest en las últimas **24 h**, el notifier publica un único embed "sigue degradada" con el FAIL count actual y la diferencia respecto al digest previo. Los umbrales viven como `DIGEST_STALE_THRESHOLD_MS` y `DIGEST_CADENCE_MS` en `scripts/notify-live-verification-discord.mjs`. El estado JSON añade dos campos opcionales (`lastDigestAt`, `lastDigestFailCount`) que se resetean automáticamente cuando cambia el estado o vuelve a `ok`.
 
 Secrets necesarios en el repo (Settings → Secrets and variables → Actions):
 - `DISCORD_BOT_TOKEN` — token del bot Exentax (ya usado por `auditoria-ci-notify-discord.mjs`).

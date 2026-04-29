@@ -28,6 +28,8 @@ const {
   isPrivilegedTrigger,
   secretsMissing,
   decideStickyIssueAction,
+  DIGEST_STALE_THRESHOLD_MS,
+  DIGEST_CADENCE_MS,
 } = await import("./notify-live-verification-discord.mjs");
 
 const REPORT_VPS_DOWN = `# live-verification report
@@ -242,6 +244,99 @@ test("decideAction down → vps-not-deployed = notify-vps-not-deployed", () => {
   assert.equal(d.action, "notify-vps-not-deployed");
 });
 
+// ──────────────── decideAction · digest diario (Task #59) ────────────────
+test("decideAction: incidente fresco (<6h) y mismo estado = silent", () => {
+  // 2 h dentro del incidente, sin digests previos → sigue silent.
+  const d = decideAction(
+    {
+      status: "down",
+      since: "2026-04-29T10:00:00.000Z",
+      lastFailCount: 5,
+      lastDigestAt: null,
+      lastDigestFailCount: null,
+    },
+    "down",
+    "2026-04-29T12:00:00.000Z",
+  );
+  assert.equal(d.action, "silent");
+});
+
+test("decideAction: incidente >6h sin digest previo = notify-digest", () => {
+  // 7 h dentro del incidente, primer digest todavía pendiente.
+  const sinceMs = Date.parse("2026-04-29T05:00:00.000Z");
+  const nowMs = sinceMs + DIGEST_STALE_THRESHOLD_MS + 60 * 60 * 1000; // +7h
+  const d = decideAction(
+    {
+      status: "down",
+      since: new Date(sinceMs).toISOString(),
+      lastFailCount: 3,
+      lastDigestAt: null,
+      lastDigestFailCount: null,
+    },
+    "down",
+    new Date(nowMs).toISOString(),
+  );
+  assert.equal(d.action, "notify-digest");
+  assert.equal(d.since, new Date(sinceMs).toISOString(), "since debe preservarse del incidente original");
+  assert.ok(
+    d.durationMs >= DIGEST_STALE_THRESHOLD_MS,
+    `durationMs (${d.durationMs}) debe reflejar la edad del incidente`,
+  );
+});
+
+test("decideAction: incidente >6h con digest reciente (<24h) = silent", () => {
+  // 30 h dentro del incidente, pero el último digest fue hace 12 h → silent.
+  const sinceMs = Date.parse("2026-04-28T08:00:00.000Z");
+  const nowMs = sinceMs + 30 * 60 * 60 * 1000;
+  const lastDigestMs = nowMs - 12 * 60 * 60 * 1000;
+  const d = decideAction(
+    {
+      status: "vps-not-deployed",
+      since: new Date(sinceMs).toISOString(),
+      lastFailCount: 9,
+      lastDigestAt: new Date(lastDigestMs).toISOString(),
+      lastDigestFailCount: 9,
+    },
+    "vps-not-deployed",
+    new Date(nowMs).toISOString(),
+  );
+  assert.equal(d.action, "silent");
+});
+
+test("decideAction: incidente >6h con digest hace >24h = notify-digest", () => {
+  // Último digest hace 25 h → toca el siguiente.
+  const sinceMs = Date.parse("2026-04-27T08:00:00.000Z");
+  const nowMs = sinceMs + 60 * 60 * 60 * 1000; // 60h dentro del incidente
+  const lastDigestMs = nowMs - (DIGEST_CADENCE_MS + 60 * 60 * 1000); // 25h ago
+  const d = decideAction(
+    {
+      status: "down",
+      since: new Date(sinceMs).toISOString(),
+      lastFailCount: 4,
+      lastDigestAt: new Date(lastDigestMs).toISOString(),
+      lastDigestFailCount: 6,
+    },
+    "down",
+    new Date(nowMs).toISOString(),
+  );
+  assert.equal(d.action, "notify-digest");
+});
+
+test("decideAction: ok → ok jamás emite digest, aunque pase mucho tiempo", () => {
+  const d = decideAction(
+    {
+      status: "ok",
+      since: "2026-04-01T00:00:00.000Z",
+      lastFailCount: 0,
+      lastDigestAt: null,
+      lastDigestFailCount: null,
+    },
+    "ok",
+    "2026-04-29T12:00:00.000Z",
+  );
+  assert.equal(d.action, "silent");
+});
+
 // ──────────────── formatDuration ────────────────
 test("formatDuration sub-minute", () => {
   assert.equal(formatDuration(45000), "45 s");
@@ -300,6 +395,54 @@ test("buildEmbed notify-vps-not-deployed usa RED y única alerta agrupada", () =
   assert.match(e.title, /VPS no desplegado/);
   // No debe escupir las 9 filas FAIL: sólo la explicación agrupada.
   assert.equal(/GET \/api\/health/.test(e.description), false);
+});
+
+test("buildEmbed notify-digest muestra FAIL count, edad y delta vs digest anterior", () => {
+  const parsed = parseReport(REPORT_REAL_DOWN);
+  const e = buildEmbed({
+    action: "notify-digest",
+    parsed,
+    classification: classifyIncident(parsed),
+    since: "2026-04-27T08:00:00.000Z",
+    durationMs: 60 * 3600 * 1000, // 60h en down
+    runUrl: "https://github.com/example/run/9",
+    repo: "example/repo",
+    prevDigestFailCount: 1, // antes de hoy había 1 FAIL
+    prevDigestAt: "2026-04-28T11:00:00.000Z",
+  });
+  assert.equal(e.color, EXENTAX_RED);
+  assertNoEmoji(e.title);
+  assertNoEmoji(e.description);
+  assert.match(e.title, /digest/i);
+  // FAIL count actual del REPORT_REAL_DOWN es 2.
+  assert.match(e.description, /FAIL count actual: \*\*2\*\*/);
+  // Delta = 2 - 1 = +1
+  assert.match(e.description, /\+1/);
+  // Refleja la edad del incidente formateada.
+  assert.match(e.description, /2 d 12 h/);
+  // Field con la fecha del digest anterior.
+  const prevField = e.fields.find((f) => f.name === "Digest anterior");
+  assert.ok(prevField, "el embed debe incluir el field 'Digest anterior'");
+  assert.equal(prevField.value, "2026-04-28T11:00:00.000Z");
+});
+
+test("buildEmbed notify-digest sin digest previo declara 'primer digest'", () => {
+  const parsed = parseReport(REPORT_VPS_DOWN);
+  const e = buildEmbed({
+    action: "notify-digest",
+    parsed,
+    classification: classifyIncident(parsed),
+    since: "2026-04-29T05:00:00.000Z",
+    durationMs: 7 * 3600 * 1000,
+    // Sin prevDigestFailCount / prevDigestAt → primer digest del incidente.
+  });
+  assert.equal(e.color, EXENTAX_RED);
+  assert.match(e.description, /Primer digest/i);
+  assert.equal(
+    e.fields.some((f) => f.name === "Digest anterior"),
+    false,
+    "no debe haber field 'Digest anterior' en el primer digest",
+  );
 });
 
 test("buildEmbed notify-recovery usa NEON y formatea duración", () => {

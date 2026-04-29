@@ -16,7 +16,9 @@
  *   {
  *     "status": "ok" | "down" | "vps-not-deployed",
  *     "since":  "2026-04-29T11:00:00.000Z",
- *     "lastFailCount": <number>
+ *     "lastFailCount": <number>,
+ *     "lastDigestAt": "2026-04-30T11:00:00.000Z" | null,
+ *     "lastDigestFailCount": <number> | null
  *   }
  *
  * Con eso decide la acción a tomar respecto al estado anterior:
@@ -27,11 +29,18 @@
  *   ok            down          notify-down
  *   ok            vps-…         notify-vps-not-deployed
  *   down          ok            notify-recovery (con duración)
- *   down          down          silent (anti-spam)
+ *   down          down          silent (anti-spam) ó notify-digest *
  *   down          vps-…         notify-state-change → vps-…
  *   vps-…         ok            notify-recovery
  *   vps-…         down          notify-down (degradación)
- *   vps-…         vps-…         silent (anti-spam — el motivo del task)
+ *   vps-…         vps-…         silent (anti-spam) ó notify-digest *
+ *
+ *   * Si el estado actual lleva más de DIGEST_STALE_THRESHOLD_MS (6 h)
+ *     en down/vps-… y han pasado más de DIGEST_CADENCE_MS (24 h) desde
+ *     el último digest (o nunca se envió), publicamos un único embed
+ *     "sigue roto" con el FAIL count actual y el delta vs. el digest
+ *     anterior. Esto preserva el anti-spam para incidentes cortos pero
+ *     evita que un incidente largo se pudra silenciosamente (Task #59).
  *
  * Si NO existe estado previo (primera ejecución):
  *   - current=ok                 → silent (escribe estado y sale)
@@ -80,6 +89,11 @@ const EXENTAX_RED = 0xe53935;
 
 const DEFAULT_REPORT_PATH = "docs/internal/live-verification-latest.md";
 const DEFAULT_STATE_PATH = ".live-verification-state/state.json";
+
+// Task #59: cuando el incidente lleva > 6 h en down/vps-not-deployed
+// emitimos un digest diario (cada > 24 h) en lugar de seguir mudos.
+export const DIGEST_STALE_THRESHOLD_MS = 6 * 60 * 60 * 1000;
+export const DIGEST_CADENCE_MS = 24 * 60 * 60 * 1000;
 
 function envOrEmpty(name) {
   const v = process.env[name];
@@ -265,9 +279,10 @@ export function classifyIncident(parsed) {
 /**
  * Decide qué hacer con la transición prev → current.
  * Devuelve `{ action, since, durationMs }`:
- *   - action: 'silent' | 'notify-down' | 'notify-vps-not-deployed' | 'notify-recovery'
+ *   - action: 'silent' | 'notify-down' | 'notify-vps-not-deployed'
+ *             | 'notify-recovery' | 'notify-digest'
  *   - since:  ISO timestamp del inicio del estado actual (para persistir).
- *   - durationMs: duración del incidente (sólo para notify-recovery).
+ *   - durationMs: duración del incidente (notify-recovery, notify-digest).
  */
 export function decideAction(prev, currentStatus, nowIso) {
   const now = nowIso || new Date().toISOString();
@@ -289,11 +304,35 @@ export function decideAction(prev, currentStatus, nowIso) {
     };
   }
 
-  // Mismo estado que antes → silent (anti-spam). El task dice
-  // explícitamente: "Workflow no genera ruido cuando el VPS aún no está
-  // desplegado".
+  // Mismo estado que antes → silent (anti-spam) salvo que el incidente
+  // lleve estancado lo suficiente para emitir el digest diario (Task #59).
   if (prevStatus === currentStatus) {
-    return { action: "silent", since: prevSince || now, durationMs: 0 };
+    const since = prevSince || now;
+    if (currentStatus === "ok") {
+      return { action: "silent", since, durationMs: 0 };
+    }
+    const sinceMs = Date.parse(since);
+    const nowMs = Date.parse(now);
+    const incidentAgeMs =
+      Number.isFinite(sinceMs) && Number.isFinite(nowMs)
+        ? Math.max(0, nowMs - sinceMs)
+        : 0;
+    const lastDigestAt = prev?.lastDigestAt || null;
+    const lastDigestMs = lastDigestAt ? Date.parse(lastDigestAt) : NaN;
+    // Si nunca se envió un digest para este incidente lo consideramos
+    // "infinito hace" para que el primero se dispare en cuanto cruce el
+    // umbral de staleness.
+    const sinceLastDigestMs =
+      Number.isFinite(lastDigestMs) && Number.isFinite(nowMs)
+        ? nowMs - lastDigestMs
+        : Number.POSITIVE_INFINITY;
+    if (
+      incidentAgeMs > DIGEST_STALE_THRESHOLD_MS &&
+      sinceLastDigestMs > DIGEST_CADENCE_MS
+    ) {
+      return { action: "notify-digest", since, durationMs: incidentAgeMs };
+    }
+    return { action: "silent", since, durationMs: 0 };
   }
 
   // Transición a OK desde cualquier estado de fallo → recuperación.
@@ -347,6 +386,8 @@ export function buildEmbed({
   baseUrl,
   runUrl,
   repo,
+  prevDigestFailCount,
+  prevDigestAt,
 }) {
   const url = baseUrl || parsed.baseUrl || "(desconocida)";
   const fields = [];
@@ -377,6 +418,42 @@ export function buildEmbed({
         inline: false,
       });
     }
+  } else if (action === "notify-digest") {
+    title = "Web pública sigue degradada (digest)";
+    color = EXENTAX_RED;
+    const ageStr = formatDuration(durationMs);
+    const prevCount =
+      typeof prevDigestFailCount === "number" ? prevDigestFailCount : null;
+    const delta = prevCount !== null ? parsed.fail - prevCount : null;
+    let deltaLine;
+    if (delta === null) {
+      deltaLine = "Primer digest desde el inicio del incidente.";
+    } else if (delta === 0) {
+      deltaLine = `FAIL count sin cambios desde el digest anterior (${prevCount}).`;
+    } else {
+      const sign = delta > 0 ? "+" : "";
+      deltaLine = `Delta vs. digest anterior: **${sign}${delta}** (antes ${prevCount}).`;
+    }
+    description = [
+      `La verificación periódica de \`${url}\` lleva **${ageStr}** en estado \`${classification?.status || "down"}\` y no se ha recuperado.`,
+      "",
+      `FAIL count actual: **${parsed.fail}** sobre ${parsed.total} chequeos.`,
+      deltaLine,
+      "",
+      "Este digest se publica una vez al día mientras el incidente siga abierto. La política anti-spam normal sigue activa entre digests.",
+    ].join("\n");
+    if (prevDigestAt) {
+      fields.push({
+        name: "Digest anterior",
+        value: prevDigestAt,
+        inline: false,
+      });
+    }
+    fields.push({
+      name: "Inicio del incidente",
+      value: since,
+      inline: false,
+    });
   } else if (action === "notify-vps-not-deployed") {
     title = "Web pública: VPS no desplegado";
     color = EXENTAX_RED;
@@ -461,6 +538,34 @@ async function readState(statePath) {
   }
 }
 
+/**
+ * Decide qué campos `lastDigestAt` / `lastDigestFailCount` persistimos:
+ *   - Si la acción actual es `notify-digest`, los actualizamos a now / fail.
+ *   - Si el estado se mantiene igual y NO es ok, propagamos los del prev
+ *     (estamos en silent dentro del mismo incidente).
+ *   - En cualquier otro caso (transición de estado o vuelta a ok) los
+ *     reseteamos a null para que el próximo incidente arranque limpio.
+ */
+function nextDigestFields({ action, currentStatus, prev, parsedFail, now }) {
+  if (action === "notify-digest") {
+    return { lastDigestAt: now, lastDigestFailCount: parsedFail };
+  }
+  if (
+    prev &&
+    prev.status === currentStatus &&
+    currentStatus !== "ok"
+  ) {
+    return {
+      lastDigestAt: prev.lastDigestAt || null,
+      lastDigestFailCount:
+        typeof prev.lastDigestFailCount === "number"
+          ? prev.lastDigestFailCount
+          : null,
+    };
+  }
+  return { lastDigestAt: null, lastDigestFailCount: null };
+}
+
 async function writeState(statePath, state) {
   await mkdir(path.dirname(statePath), { recursive: true });
   await writeFile(statePath, JSON.stringify(state, null, 2) + "\n", "utf8");
@@ -515,11 +620,20 @@ export async function main() {
   if (baseUrlOverride) parsed.baseUrl = baseUrlOverride;
   const classification = classifyIncident(parsed);
   const prev = await readState(statePath);
-  const decision = decideAction(prev, classification.status);
+  const nowIso = new Date().toISOString();
+  const decision = decideAction(prev, classification.status, nowIso);
 
   console.log(
     `[live-verification-notify] prev=${prev?.status || "(none)"} current=${classification.status} action=${decision.action} pass=${parsed.pass} fail=${parsed.fail} skip=${parsed.skip}`,
   );
+
+  const digestFields = nextDigestFields({
+    action: decision.action,
+    currentStatus: classification.status,
+    prev,
+    parsedFail: parsed.fail,
+    now: nowIso,
+  });
 
   // Persistir el nuevo estado siempre (incluso en silent), para que el
   // próximo cron tenga referencia.
@@ -527,6 +641,8 @@ export async function main() {
     status: classification.status,
     since: decision.since,
     lastFailCount: parsed.fail,
+    lastDigestAt: digestFields.lastDigestAt,
+    lastDigestFailCount: digestFields.lastDigestFailCount,
   });
 
   if (decision.action === "silent") return;
@@ -561,6 +677,11 @@ export async function main() {
     baseUrl: baseUrlOverride,
     runUrl,
     repo,
+    prevDigestFailCount:
+      typeof prev?.lastDigestFailCount === "number"
+        ? prev.lastDigestFailCount
+        : undefined,
+    prevDigestAt: prev?.lastDigestAt || undefined,
   });
 
   const url = baseUrlOverride || parsed.baseUrl || "(desconocida)";
@@ -569,6 +690,8 @@ export async function main() {
     headline = `Web pública RECUPERADA: ${url} (incidente ${formatDuration(decision.durationMs)})`;
   } else if (decision.action === "notify-vps-not-deployed") {
     headline = `Web pública: VPS no desplegado en ${url}`;
+  } else if (decision.action === "notify-digest") {
+    headline = `Web pública sigue degradada (digest): ${url} — ${formatDuration(decision.durationMs)} en ${classification.status} (FAIL=${parsed.fail})`;
   } else {
     headline = `Web pública degradada: ${url} (FAIL=${parsed.fail})`;
   }
