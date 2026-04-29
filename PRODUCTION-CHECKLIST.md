@@ -190,6 +190,13 @@ El runner manual (`bash scripts/live-verification.sh https://exentax.com`) sigue
 | **Backend completo** | [`live-verification.yml`](.github/workflows/live-verification.yml) | `*/20 * * * *` (cada 20 min) | F-1..F-3 + F-7-metrics + F-8-lang completo (todo lo HTTP-only del runner) | `.live-verification-state/state.json` (caché `live-verification-state-`) | título "Web pública degradada / RECUPERADA / VPS no desplegado" |
 | **SEO + cabeceras** (Task #60) | [`live-verification-seo-headers.yml`](.github/workflows/live-verification-seo-headers.yml) | `10,40 * * * *` (cada 30 min, offset 10 min) | `--only F1-headers,F2` (cabeceras de seguridad + sitemap + sitemap-blog + robots + IndexNow + hreflang) | `.live-verification-seo-state/state.json` (caché `live-verification-seo-state-`) | título "SEO/cabeceras de producción degradados / RECUPERADOS" + footer `(SEO+headers)` |
 
+- Workflow: [`.github/workflows/live-verification.yml`](.github/workflows/live-verification.yml) — cron `*/20 * * * *` (cada 20 min) + `workflow_dispatch` manual.
+- Notifier: [`scripts/notify-live-verification-discord.mjs`](scripts/notify-live-verification-discord.mjs) — parsea el reporte markdown del runner, clasifica el incidente y publica el embed.
+- Tests:
+  - [`scripts/notify-live-verification-discord.test.mjs`](scripts/notify-live-verification-discord.test.mjs) — `node scripts/notify-live-verification-discord.test.mjs`.
+  - [`scripts/notify-monitoring-offline-issue.test.mjs`](scripts/notify-monitoring-offline-issue.test.mjs) (Task #64) — `node scripts/notify-monitoring-offline-issue.test.mjs`. Cubre `manageStickyIssue` open / update / close + tolerancia HTTP del wrapper `main()` contra un fake `fetch` en memoria.
+  - Ambos se ejecutan en cada PR vía [`.github/workflows/notifier-scripts-tests.yml`](.github/workflows/notifier-scripts-tests.yml).
+
 **¿Por qué dos carriles?** El carril principal silencia repeticiones de `vps-not-deployed` para no spammear con 9 FAILs idénticos cada 20 min mientras el VPS aún sirve un mirror estático. Eso deja invisible cualquier regresión real en ese mirror (cabeceras de seguridad desaparecidas, `robots.txt` en blanco, `sitemap.xml` servido como `<urlset>` plano, hreflang roto). El carril SEO+headers no toca `/api/health`, así que nunca cae en la heurística `vps-not-deployed`: dispara independientemente y protege las señales SEO durante toda la ventana pre-deploy.
 
 Política de notificación (estado persistido entre runs vía `actions/cache`, idéntica para ambos carriles):

@@ -1,0 +1,52 @@
+name: Notifier scripts tests
+
+# Self-tests para los notifiers de la familia `live-verification`
+# (scripts en la raíz del repo, fuera del workspace `exentax-web/` y
+# por tanto fuera de `npm run check`).
+#
+# Estos tests cubren:
+#   - `scripts/notify-live-verification-discord.test.mjs` (Task #56,
+#     #61): parseReport, classifyIncident, decideAction, buildEmbed,
+#     decideStickyIssueAction, secretsMissing, isPrivilegedTrigger.
+#   - `scripts/notify-monitoring-offline-issue.test.mjs` (Task #64):
+#     `manageStickyIssue` open / update / close + tolerancia HTTP del
+#     wrapper `main()`, contra un fake `fetch` en memoria.
+#
+# Son `node` puros, no requieren build ni DB ni servicios — corren en
+# segundos. Se ejecutan en cada PR y push a main para que un refactor
+# que rompa el flujo de notificaciones se vea en rojo antes de mergear,
+# en vez de descubrirse cuando production deja de avisar.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notifier-scripts-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: node test (notifier scripts)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run notify-live-verification-discord tests
+        run: node scripts/notify-live-verification-discord.test.mjs
+
+      - name: Run notify-monitoring-offline-issue tests
+        run: node scripts/notify-monitoring-offline-issue.test.mjs
