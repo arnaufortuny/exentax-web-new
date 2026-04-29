@@ -52,6 +52,16 @@ const STEPS = [
   { id: "cta", file: "scripts/blog/blog-cta-validate.mjs", node: "node" },
   { id: "data", file: "scripts/blog/blog-data-validate.mjs", node: "node" },
   { id: "sources", file: "scripts/blog/blog-sources-validate.mjs", node: "node" },
+  // Task #43 follow-up — substantive veracity gate. `blog-veracity-audit.mjs`
+  // verifica las afirmaciones canónicas (cifras, fechas, leyes) de los 672
+  // artículos contra las fuentes oficiales emisoras (BOE, AEAT, IRS, FinCEN,
+  // EUR-Lex, OCDE, gov.uk, mof.gov.ae, SEC EDGAR, …). Falla con exit 1 ante
+  // cualquier owner FIX/MISSING, article-row ✏, per-datum corregir,
+  // contradicción detectada o pending-review marker. Sin `--strict` es
+  // informativo. Wired aquí — no en `package.json` — porque el agente no
+  // puede editar scripts de package.json y `blog:validate-all` ya entra en
+  // `npm run check`. Mismo patrón que `conversion-strict` más abajo.
+  { id: "veracity-strict", file: "scripts/blog/blog-veracity-audit.mjs", node: "node", args: ["--strict"] },
   // Task #41 — block any future article that ships without at least one
   // inline anchor to a §4.2 official-authority domain (irs.gov, fincen.gov,
   // agenciatributaria.gob.es, boe.es, hmrc.gov.uk, oecd.org, eur-lex.europa.eu,

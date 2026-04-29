@@ -114,9 +114,33 @@ const KEYWORD_PATTERNS = [
   { factId: "delaware-franchise-300", re: /Delaware.{0,80}(300 ?\$|300 ?USD|franchise)/i },
   { factId: "florida-annual-may1", re: /(Florida|Sunbiz).{0,80}(1 de mayo|may 1|annual report)/i },
   { factId: "newmexico-no-annual", re: /(New Mexico|NM).{0,80}(50 ?\$|50 ?USD|sin annual|no annual)/i },
+  // Task #43 — 3 nuevos facts canónicos para los slugs cuyo gancho cita una
+  // cifra que evoluciona y que antes quedaba en "(no canonical fact mapped)".
+  { factId: "amazon-gmv-2024", re: /Amazon.{0,80}(600\.000|600 billion|600 milliards|600 Milliarden|600 mil milhões|600 milions)/i },
+  { factId: "uae-corporate-tax-9pct", re: /(EAU|UAE|Emirat|Dubai|Dub[aá]i).{0,120}(9\s?%|375[.,]?\s?000)/i },
+  { factId: "uk-corp-tax-25pct-2023", re: /(UK\s?Ltd|Reino Unido|United Kingdom|Royaume-Uni|Großbritannien|Vereinigtes Königreich).{0,160}(25\s?%|Corporation\s?Tax)/i },
 ];
 
 const FACT_BY_ID = new Map(FACTS.map((f) => [f.id, f]));
+
+// Task #43 — slugs cuyo año ancla es un hito histórico irrevocable (ley
+// promulgada, tratado firmado, sentencia firme, estándar publicado, primer
+// reporte de un régimen ya en vigor). Estos años NO caducan: el auditor los
+// excluye del bucket `staleYearAnchors` para que dejen de aparecer en la pila
+// de "manual review" cada enero. La justificación de cada entrada se mantiene
+// inline para que la próxima revisión pueda re-evaluar el criterio.
+const HISTORICAL_ANCHOR_SLUGS = new Map([
+  ["boe-febrero-2020-llc-doctrina-administrativa", "DGT V0290-20 fechada 11/02/2020 — fecha de la consulta vinculante, irrevocable."],
+  ["convenio-doble-imposicion-usa-espana-llc", "Convenio España-EE.UU. firmado 22/02/1990; protocolo de enmienda en vigor desde 27/11/2019 — fechas de tratado."],
+  ["crs-cuentas-bancarias-llc-intercambio-informacion", "Estándar CRS publicado por la OCDE en 2014 — fecha de publicación del estándar."],
+  ["crs-residentes-espana-latam-implicaciones", "Primer intercambio CRS efectivo en septiembre de 2017 — hito histórico de entrada en vigor."],
+  ["cuentas-bancarias-usa-reportan-hacienda-verdad", "Estándar CRS OCDE 2014 (que EE.UU. nunca firmó) — fecha de publicación."],
+  ["dac7-plataformas-digitales-reporting-2026", "DAC7 — primer ejercicio de reporte 2023 con primera presentación enero 2024 — hito de entrada en vigor."],
+  ["estructura-offshore-beneficios-riesgos", "BEPS — 15 acciones lanzadas por la OCDE en octubre de 2015 + BEPS 2.0 (Pillar Two) en aplicación desde enero de 2024 — hitos OCDE."],
+  ["form-5472-que-es-como-presentarlo", "Reforma TCJA promulgada en diciembre de 2017 (subió la base de la sanción §6038A de $10k a $25k) — fecha de la ley."],
+  ["prevencion-blanqueo-capitales-llc", "Bank Secrecy Act de 1970 + USA Patriot Act de 2001 — fechas de promulgación de las dos leyes federales."],
+  ["revolut-business-crs-reporting-fiscal", "Revolut entró en CRS reporting en 2018 (UK fue uno de los primeros early adopters del estándar) — hito histórico del operador."],
+]);
 
 function detectFacts(slug, hookText) {
   const ids = new Set(SLUG_TO_FACTS.get(slug) || []);
@@ -312,7 +336,14 @@ for (const slug of slugs) {
   // E.g., for referenceYear = 2026, anchors at 2024 or earlier flag for review;
   // a 2026 anchor remains fresh until January, when referenceYear becomes 2027
   // and a 2025 anchor becomes stale.
-  const staleYears = anchors.years.filter((y) => y <= referenceYear - 2);
+  //
+  // Task #43 — los slugs registrados en HISTORICAL_ANCHOR_SLUGS quedan
+  // exentos: su año es un hito histórico irrevocable (ley promulgada, tratado
+  // firmado, sentencia firme, estándar publicado), no una cifra que evoluciona.
+  const isHistoricalAnchor = HISTORICAL_ANCHOR_SLUGS.has(slug);
+  const staleYears = isHistoricalAnchor
+    ? []
+    : anchors.years.filter((y) => y <= referenceYear - 2);
   if (staleYears.length > 0) summary.staleYearAnchors += staleYears.length;
 
   auditRows.push({
@@ -323,6 +354,9 @@ for (const slug of slugs) {
     langStatus,
     injectedHere,
     staleYears,
+    historicalAnchor: isHistoricalAnchor
+      ? { years: anchors.years, reason: HISTORICAL_ANCHOR_SLUGS.get(slug) }
+      : null,
   });
 }
 
@@ -393,6 +427,18 @@ if (wantJson) {
     for (const r of auditRows.filter((x) => x.staleYears.length > 0)) {
       const facts = r.facts.length > 0 ? r.facts.map((f) => f.id).join(", ") : "(no canonical fact mapped)";
       console.log(`  - ${r.slug}: years ${r.staleYears.join(",")} | ${facts}`);
+      for (const f of r.facts) {
+        const url = (f.source || "").split(" — ")[0];
+        if (url) console.log(`      · ${f.id}: ${url}`);
+      }
+    }
+  }
+
+  const historicalRows = auditRows.filter((x) => x.historicalAnchor);
+  if (historicalRows.length > 0) {
+    console.log(`\nHistorical anchors excluidos del aviso (${historicalRows.length} slugs):`);
+    for (const r of historicalRows) {
+      console.log(`  · ${r.slug} → años ${r.historicalAnchor.years.join(", ")} — ${r.historicalAnchor.reason}`);
     }
   }
 }
@@ -558,15 +604,42 @@ if (wantWrite) {
   lines.push("");
   const staleRows = auditRows.filter((x) => x.staleYears.length > 0);
   if (staleRows.length === 0) {
-    lines.push(`**Ninguno.** Ningún hook ancla a un año ≤ ${referenceYear - 2} (referencia: ${referenceYear}).`);
+    lines.push(`**Ninguno.** Ningún hook con cifra evolutiva ancla a un año ≤ ${referenceYear - 2} (referencia: ${referenceYear}).`);
   } else {
     lines.push(`**${staleRows.length} slugs** con anclaje a año ≤ ${referenceYear - 2}. Re-validar cada uno contra su fuente oficial — si la cifra publicada para el año en curso ha cambiado, editar el JSON y re-inyectar con \`--replace-existing\`.`);
     lines.push("");
-    lines.push("| Slug | Años anclados | Fact(s) canónicos |");
-    lines.push("|---|---|---|");
+    lines.push("| Slug | Años anclados | Fact(s) canónicos | Fuente oficial a revisar |");
+    lines.push("|---|---|---|---|");
     for (const r of staleRows) {
-      const facts = r.facts.length > 0 ? r.facts.map((f) => `\`${f.id}\``).join(", ") : "—";
-      lines.push(`| \`${r.slug}\` | ${r.staleYears.join(", ")} | ${facts} |`);
+      const factCells = r.facts.length > 0 ? r.facts.map((f) => `\`${f.id}\``).join(", ") : "—";
+      const sourceCells =
+        r.facts.length > 0
+          ? r.facts
+              .map((f) => (f.source || "").split(" — ")[0])
+              .filter(Boolean)
+              .map((u) => `<${u}>`)
+              .join("<br>")
+          : "—";
+      lines.push(`| \`${r.slug}\` | ${r.staleYears.join(", ")} | ${factCells} | ${sourceCells} |`);
+    }
+  }
+  lines.push("");
+  lines.push("## 5a. Anclajes históricos (irrevocables, excluidos del aviso)");
+  lines.push("");
+  const histRows = auditRows.filter((x) => x.historicalAnchor);
+  if (histRows.length === 0) {
+    lines.push("Ninguno declarado.");
+  } else {
+    lines.push(
+      `**${histRows.length} slugs** con anclaje a un hito histórico irrevocable (ley promulgada, tratado firmado, sentencia firme, estándar publicado, primer reporte de un régimen ya en vigor). Estos años NO caducan: el auditor los excluye del bucket \`staleYearAnchors\` para que dejen de aparecer cada enero. Mantener esta lista revisable en \`HISTORICAL_ANCHOR_SLUGS\` dentro de \`scripts/blog/blog-numeric-hook-yearly-refresh.mjs\`.`,
+    );
+    lines.push("");
+    lines.push("| Slug | Año(s) detectado(s) | Justificación |");
+    lines.push("|---|---|---|");
+    for (const r of histRows) {
+      lines.push(
+        `| \`${r.slug}\` | ${r.historicalAnchor.years.join(", ")} | ${r.historicalAnchor.reason} |`,
+      );
     }
   }
   lines.push("");
@@ -590,6 +663,26 @@ if (wantWrite) {
 
   fs.writeFileSync(REPORT_MD, lines.join("\n"), "utf8");
   console.log(`\nWrote report: reports/seo/lote6-numeric-hook.md`);
+}
+
+// Task #43 — invariante: cada slug con anclaje a año ≤ referenceYear-2
+// debe estar en una de las dos categorías declaradas (fact canónico o
+// HISTORICAL_ANCHOR_SLUGS). Si aparece un nuevo slug con año antiguo y
+// nadie lo clasifica, el auditor lo grita aquí en vez de dejarlo
+// silenciosamente como "manual review" cada enero.
+const unclassifiedStale = auditRows.filter(
+  (r) => r.staleYears.length > 0 && r.facts.length === 0,
+);
+if (unclassifiedStale.length > 0) {
+  console.error(
+    `\n❌ Invariante Task #43 violado: ${unclassifiedStale.length} slug(s) con año ≤ ${referenceYear - 2} sin clasificar (ni fact canónico ni historicalAnchor):`,
+  );
+  for (const r of unclassifiedStale) {
+    console.error(
+      `   - ${r.slug} (años ${r.staleYears.join(", ")}) → añadir KEYWORD_PATTERNS+fact en blog-veracity-audit.mjs O entrada en HISTORICAL_ANCHOR_SLUGS.`,
+    );
+  }
+  process.exit(1);
 }
 
 // Exit code: only `drift_real` (snapshot-confirmed editor edits or yearly-bump

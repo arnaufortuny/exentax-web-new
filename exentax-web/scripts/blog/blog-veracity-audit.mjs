@@ -32,8 +32,13 @@
  *   - reports/seo/lote5-veracidad.md    human-readable per-fact + 672-row
  *   - reports/seo/lote5-veracidad.json  machine-readable raw findings
  *
- * The script is a reporter (exit 0 always). The productive gate is
- * `npm run blog:validate-all` (16 steps).
+ * Modes:
+ *   - default (`node ...veracity-audit.mjs`)         informativo, exit 0 siempre.
+ *   - `--strict` (`...veracity-audit.mjs --strict`)  falla con exit 1 si hay
+ *     ANY de: owner FIX/MISSING, article rows en estado ✏, per-datum corregir,
+ *     contradicciones detectadas, o pending-review markers. Modo invocado por
+ *     `npm run blog:validate-all` para que cualquier afirmación canónica que
+ *     se rompa contra la fuente oficial bloquee el pipeline antes de merge.
  *
  * Note on Form 5472 cap. The task brief asks to verify the rule
  * "$25,000 inicial + $25,000/mes hasta $250,000 cap si IRS notifica". On
@@ -61,6 +66,14 @@ const REPORT_JSON = path.join(REPORT_DIR, "lote5-veracidad.json");
 
 const LOCALES = ["es", "en", "fr", "de", "pt", "ca"];
 const RUN_DATE = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
+// Task #43 follow-up — `--strict` makes el script falle (exit 1) ante
+// cualquier hallazgo: owner FIX/MISSING, article rows en estado ✏,
+// per-datum corregir, contradicciones detectadas o pending-review markers.
+// Sin `--strict` el comportamiento es informativo (exit 0 siempre), igual
+// que en su rol histórico de "reporter". El gate productivo es
+// `npm run blog:validate-all`, que invoca este script con `--strict`.
+const STRICT = process.argv.includes("--strict");
 
 /**
  * Canonical facts table. Each entry declares:
@@ -326,6 +339,44 @@ const CANONICAL_FACTS = [
       /(Nuevo\s?M[eé]xico|New\s?Mexico|Neumexiko|Nouveau[- ]Mexique|Novo\s?M[eé]xico|Nou\s?M[eè]xic)/i,
       /(sin\s?Annual\s?Report|no\s?Annual\s?Report|sense\s?Annual\s?Report|kein\s?Annual\s?Report|sem\s?Annual\s?Report|pas\s?d['']?Annual\s?Report|ne\s?(?:demande|exige)\s?pas\s?d['']?Annual\s?Report|no\s?exige\s?Annual\s?Report|n[aã]o\s?(?:exige|requer|requiere)\s?Annual\s?Report)/i,
     ],
+  },
+  // ----- Task #43 — facts canónicos para los 3 slugs `needsFactMapping` -----
+  // Añadidos para que la cifra que evoluciona (Amazon GMV, UAE Corporate Tax,
+  // UK Corporation Tax post-2023) tenga una URL oficial vigente que el
+  // auditor anual (`blog-numeric-hook-yearly-refresh.mjs`) pueda citar en la
+  // celda `facts`. Los demás slugs con año ≤ referenceYear-2 (BSA 1970,
+  // convenio 1990, BEPS 2015, TCJA 2017, CRS 2014/2017, DGT V0290-20 2020,
+  // Revolut CRS 2018) son anclajes históricos irrevocables y se filtran en
+  // el auditor vía la lista `HISTORICAL_ANCHOR_SLUGS` — no necesitan fact.
+  {
+    id: "amazon-gmv-2024",
+    label: "Amazon — Net sales 2024 ≈ 638.000 millones de USD (proxy del GMV declarado en el 10-K anual ante la SEC)",
+    canonical: "Net sales 2024 = $637,959M (Amazon.com Inc, Form 10-K for fiscal year 2024 ante la SEC). El hook redondea hacia abajo a 'más de 600.000 millones' para no atar la cifra a un dígito que cambia anualmente.",
+    source: "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm — SEC EDGAR, Amazon.com Inc Form 10-K para el ejercicio fiscal terminado el 31/12/2024 (accession 0001018724-25-000004, presentado el 07/02/2025). Catálogo histórico de presentaciones: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-K",
+    owners: ["amazon-ecommerce-llc-vender-online"],
+    presence: [/Amazon/i],
+    verifyAny: [
+      /600[\.,]\s?000/,
+      /600\s?(billion|milliards|Milliarden|mil\s?milhões)/i,
+    ],
+  },
+  {
+    id: "uae-corporate-tax-9pct",
+    label: "UAE Corporate Tax — 9% sobre beneficios > AED 375.000 desde 1/06/2023 (Federal Decree-Law 47/2022)",
+    canonical: "9% para beneficios > AED 375.000; 0% por debajo. Free Zone qualifying income mantiene 0% si cumple 'Qualifying Free Zone Person'. Vigente para ejercicios fiscales que comiencen el 1 de junio de 2023 o posteriormente.",
+    source: "https://mof.gov.ae/corporate-tax/ — UAE Ministry of Finance, Corporate Tax (Federal Decree-Law 47/2022 on the Taxation of Corporations and Businesses)",
+    owners: ["dubai-uae-mito-no-impuestos"],
+    presence: [/(UAE|Emiratos|Emirats|Emirate|Emirados|Dubai|Dub[aá]i)/i],
+    verify: [/9\s?%/, /375[.,]?\s?000/],
+  },
+  {
+    id: "uk-corp-tax-25pct-2023",
+    label: "UK Corporation Tax — main rate 25% (>£250.000) y small profits rate 19% (≤£50.000) desde 1/04/2023 (Finance Act 2021)",
+    canonical: "Main rate 25% sobre beneficios > £250.000; small profits rate 19% hasta £50.000; marginal relief entre £50.000 y £250.000. Vigente desde el 1 de abril de 2023.",
+    source: "https://www.gov.uk/corporation-tax-rates — HMRC, Corporation Tax rates (Finance Act 2021, ss. 6-7)",
+    owners: ["empresa-reino-unido-uk-ltd"],
+    presence: [/(Reino Unido|United Kingdom|UK\s?Ltd|Royaume-Uni|Regno\s?Unito|Vereinigtes\s?Königreich|Großbritannien|Regne\s?Unit)/i, /Corporation\s?Tax/i],
+    verify: [/25\s?%/, /(250[.,]?\s?000|small\s?profits|19\s?%)/i],
   },
 ];
 
@@ -655,6 +706,25 @@ function main() {
   console.log(`Pending-review markers        : ${totals.pendingHits} hits`);
   console.log(`\nReport written to ${path.relative(ROOT, REPORT_MD)}`);
   console.log(`JSON   written to ${path.relative(ROOT, REPORT_JSON)}`);
+
+  // Task #43 follow-up — strict gate. Cualquier hallazgo no-cero rompe CI.
+  // El pipeline `npm run blog:validate-all` invoca este script con `--strict`.
+  if (STRICT) {
+    const violations = [];
+    if (totals.ownerFIX > 0) violations.push(`owner FIX = ${totals.ownerFIX}`);
+    if (totals.ownerMISSING > 0) violations.push(`owner MISSING = ${totals.ownerMISSING}`);
+    if (totals.articleRowsFix > 0) violations.push(`article rows ✏ = ${totals.articleRowsFix}`);
+    if (totals.datumFix > 0) violations.push(`per-datum corregir = ${totals.datumFix}`);
+    if (totals.contradictionsDetected > 0) violations.push(`contradicciones detectadas = ${totals.contradictionsDetected}`);
+    if (totals.pendingHits > 0) violations.push(`pending-review markers = ${totals.pendingHits}`);
+    if (violations.length > 0) {
+      console.error(`\n❌ blog-veracity-audit (strict): ${violations.length} violación(es):`);
+      for (const v of violations) console.error(`   - ${v}`);
+      console.error(`\n   Revisar reports/seo/lote5-veracidad.md para el detalle por slug y artículo.`);
+      process.exit(1);
+    }
+    console.log(`\n✓ blog-veracity-audit PASS (strict).`);
+  }
   process.exit(0);
 }
 
