@@ -14,7 +14,7 @@ import { logger } from "../logger";
 import { snapshot, renderPrometheus, setEmailRetryQueueSize, setDbPoolStats, incClientError } from "../metrics";
 import { getEmailRetryQueueSize, getEmailWorkerHeartbeat } from "../email-retry-queue";
 import { getRegisteredBreakers } from "../circuit-breaker";
-import { getDiscordQueueSize, notifyEvent } from "../discord";
+import { getDiscordQueueSize, getDiscordQueueDepthFromDbDetailed, notifyEvent } from "../discord";
 import { isBotConfigured, checkDiscordConnectivity } from "../discord-bot";
 import { checkCsrfOrigin } from "../route-helpers";
 
@@ -261,7 +261,20 @@ export function registerObservabilityRoutes(
     const accept = String(req.headers["accept"] || "");
     if (accept.includes("application/json")) {
       const snap = snapshot();
+      // Per-process inflight (this Node instance only — what waitForQueueDrain reads).
       snap.discord.queueSize = getDiscordQueueSize();
+      // Cross-process backlog (DB-backed, 5s cached). Best-effort: if the
+      // DB is unreachable the helper falls back to the local gauge.
+      // We surface the source + age so SRE can detect a degraded read
+      // (e.g. `queueDepthDbSource !== "db-fresh"` for >N scrapes => DB
+      // observability is degraded, even if the count itself looks sane).
+      try {
+        const detail = await getDiscordQueueDepthFromDbDetailed();
+        const d = snap.discord as Record<string, unknown>;
+        d.queueDepthDb = detail.value;
+        d.queueDepthDbSource = detail.source;
+        d.queueDepthDbAgeMs = detail.ageMs;
+      } catch { /* metrics path is best-effort */ }
       return res.json(snap);
     }
     res.setHeader("Content-Type", "text/plain; version=0.0.4; charset=utf-8");

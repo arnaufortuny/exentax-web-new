@@ -139,8 +139,16 @@ async function main() {
 
   discord._resetDiscordQueueForTests();
   await discord.startDiscordQueueWorker();
-  // Rehydrate must surface the surviving row in the gauge.
-  assert(discord.getDiscordQueueSize() >= 1, "rehydrated queue size includes survivor row from previous process");
+  // Rehydrate must surface the surviving row in the *cross-process*
+  // gauge (`getDiscordQueueDepthFromDb`), not in the per-process gauge
+  // (`getDiscordQueueSize`). The new contract: `_pendingCount` only
+  // tracks rows enqueued via `enqueueItem()` in THIS process, so a row
+  // inserted directly by a peer (or by a previous incarnation of this
+  // process before the reset) is intentionally not counted there. SRE
+  // dashboards consume the DB-backed depth instead.
+  const rehydratedDb = await discord.getDiscordQueueDepthFromDb();
+  assert(rehydratedDb >= 1, `cross-process DB depth includes survivor row (got ${rehydratedDb})`);
+  assert(discord.getDiscordQueueSize() === 0, "per-process gauge stays at zero — survivor row was not enqueued by THIS process");
 
   await flush();
   const survivorAfter = await dbMod.db.execute(

@@ -555,6 +555,16 @@ let _drainTimer: NodeJS.Timeout | null = null;
 // Cheap synchronous gauge — read by `/api/metrics`, scripts, and tests.
 // Tracks pending+inflight items regardless of backend.
 let _pendingCount = 0;
+// IDs of DB-persisted rows that THIS process inserted via `enqueueItem` and
+// has not yet finalized (success / fallback / drop). The set is the source of
+// truth for whether `decPending(id)` should affect this process's gauge:
+// rows enqueued by a peer co-tenant and later claimed by us via
+// `claimDueRows()` are NOT in the set, so draining them does not perturb our
+// per-process counter. This keeps `_pendingCount` honest under co-tenancy
+// (rolling deploys, dev ⊕ scripts/audit) without requiring a producer-PID
+// column on the queue table. Cross-process backlog (for SRE dashboards) is
+// served by `getDiscordQueueDepthFromDb()` (DB COUNT, 5 s cached).
+const _ownDbRowIds = new Set<string>();
 let _draining = false;
 // Resolves to "db" or "memory" exactly once per process.
 let _backendPromise: Promise<"db" | "memory"> | null = null;
@@ -572,29 +582,27 @@ async function loadBackend(): Promise<"db" | "memory"> {
     // so dynamic import is the cheapest probe — no extra DB round-trip.
     _dbCached = await import("./db");
     _schemaCached = await import("../shared/schema");
-    // Best-effort: rehydrate the gauge from the DB so /api/metrics reports
-    // an accurate queue size even before the first drain tick after boot.
+    // Probe the persisted backlog for an INFORMATIONAL log line only —
+    // we deliberately do NOT add the recovered count to `_pendingCount`.
     //
-    // We ADD the on-disk count to the in-process counter (rather than
-    // assigning it). The first-call ordering is:
-    //   enqueue() → incPending() (counter += 1) → persistAndQueue()
-    //   → getBackend() → loadBackend() → SELECT → += recovered
-    // so any items already incremented in-process before this SELECT
-    // ran (because the very same enqueue triggered the lazy load) are
-    // preserved in the gauge. Assigning here would zero them out and
-    // cause `waitForQueueDrain()` to return prematurely while the first
-    // POSTs are still inflight — that race is what
-    // `tests/discord/test-discord-bot-e2e.ts` (bloquear/desbloquear)
-    // exercises.
+    // The local `_pendingCount` is the *per-process* in-flight gauge: it
+    // is incremented by `incPending()` when this process enqueues, and
+    // decremented by `decPending()` when this process completes a send,
+    // a fallback, or a permanent drop. Adding the on-disk backlog here
+    // would inflate this process's gauge by rows that may end up being
+    // claimed by a peer process (rolling deploy, dev ⊕ scripts/audit
+    // co-tenant), which would call `decPending()` only on the claiming
+    // process. The peer's gauge would then stay permanently inflated
+    // because `claimDueRows` uses `FOR UPDATE SKIP LOCKED` and rows are
+    // partitioned non-deterministically across consumers.
     //
-    // Co-tenancy note: under multi-process deployments two processes
-    // sharing the same DB table will each add the same `recovered`
-    // count to their own local gauge. This inflates each gauge by the
-    // peer's recovered count for a single boot, but converges as soon
-    // as the drain tick processes the rows (`decPending()`). The gauge
-    // is a metrics signal, not the source of truth for sending; claim
-    // `FOR UPDATE SKIP LOCKED` ensures rows are never double-sent
-    // regardless of gauge state.
+    // Cross-process queue depth (for SRE dashboards) is exposed via the
+    // separate async helper `getDiscordQueueDepthFromDb()` below, which
+    // queries the DB directly (with a small in-process cache to bound
+    // load). Per-process inflight (used by `waitForQueueDrain()` in the
+    // discord-bot e2e regression) keeps reading `_pendingCount`, which
+    // remains correct because every enqueue/dequeue in THIS process
+    // touches the local counter.
     try {
       const { sql } = await import("drizzle-orm");
       const r = await _dbCached.db.execute(
@@ -602,11 +610,12 @@ async function loadBackend(): Promise<"db" | "memory"> {
       );
       const rows = (r as unknown as { rows: { n: number }[] }).rows ?? [];
       const recovered = rows[0]?.n ?? 0;
-      _pendingCount += recovered;
-      try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
-      logger.info(`Discord queue: persistence enabled (${recovered} pending row(s) recovered)`, "discord");
+      logger.info(
+        `Discord queue: persistence enabled (${recovered} pending row(s) on disk — owned by whichever co-tenant claims them; not added to per-process gauge)`,
+        "discord",
+      );
     } catch (err) {
-      logger.warn(`Discord queue: rehydrate failed (table missing?): ${err instanceof Error ? err.message : String(err)}`, "discord");
+      logger.warn(`Discord queue: rehydrate probe failed (table missing?): ${err instanceof Error ? err.message : String(err)}`, "discord");
     }
     return "db";
   } catch {
@@ -686,7 +695,7 @@ async function drainDb(): Promise<void> {
     } catch {
       logger.warn(`Discord queue: corrupt payload row ${row.id}, removing`, "discord");
       await deleteRow(row.id).catch(() => { /* swallow */ });
-      decPending();
+      decPending(row.id);
       continue;
     }
     const item: QueueItem = {
@@ -768,14 +777,42 @@ function backoffForAttempt(attempt: number): number {
   return Math.min(DRAIN_INTERVAL_MS * 2 ** attempt, 30_000);
 }
 
-function decPending(): void {
+/**
+ * Per-process gauge decrement.
+ *
+ * - `persistedId === null` → memory-mode item (always belongs to this
+ *   process; no row id exists). Decrement unconditionally.
+ * - `persistedId === "<id>"` → DB-mode row. Only decrement if `<id>` is in
+ *   `_ownDbRowIds`, i.e. THIS process is the one that originally enqueued
+ *   it. Rows enqueued by a peer co-tenant and later claimed by us are
+ *   processed (HTTP send + DELETE) but do NOT perturb our gauge.
+ *
+ * Returns `true` iff the gauge was actually decremented. Callers can use
+ * this for diagnostics (e.g. "drained a peer row, didn't touch the gauge").
+ */
+function decPending(persistedId: string | null = null): boolean {
+  if (persistedId !== null) {
+    if (!_ownDbRowIds.delete(persistedId)) {
+      // Not ours — leave _pendingCount untouched.
+      return false;
+    }
+  }
   if (_pendingCount > 0) _pendingCount--;
   try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
+  return true;
 }
 
 function incPending(): void {
   _pendingCount++;
   try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
+}
+
+// Called by `persistAndQueue` once a DB INSERT has succeeded so that the
+// subsequent terminal `decPending(row.id)` knows the row belongs to this
+// process. Memory-mode items never reach this helper — they are always
+// "ours" by construction (the `_memoryQueue` is per-process).
+function trackOwnedDbRow(id: string): void {
+  _ownDbRowIds.add(id);
 }
 
 /**
@@ -790,7 +827,7 @@ async function attemptSendOnce(item: QueueItem, persistedId: string | null): Pro
     logger.warn("Discord bot token missing — payload dropped", "discord");
     emitFallbackAlert(item, "DISCORD_BOT_TOKEN missing");
     if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
-    decPending();
+    decPending(persistedId);
     return;
   }
   try {
@@ -812,7 +849,7 @@ async function attemptSendOnce(item: QueueItem, persistedId: string | null): Pro
     }
     if (res.ok) {
       if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
-      decPending();
+      decPending(persistedId);
       return;
     }
     const body = await res.text().catch(() => "");
@@ -827,7 +864,7 @@ async function attemptSendOnce(item: QueueItem, persistedId: string | null): Pro
     logger.warn(`Discord bot HTTP ${res.status}: ${body.slice(0, 300)}`, "discord");
     emitFallbackAlert({ ...item, attempt: nextAttempt - 1 }, `HTTP ${res.status}: ${body.slice(0, 200)}`);
     if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
-    decPending();
+    decPending(persistedId);
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     const nextAttempt = item.attempt + 1;
@@ -839,7 +876,7 @@ async function attemptSendOnce(item: QueueItem, persistedId: string | null): Pro
     logger.warn(`Discord send failed after ${MAX_RETRIES} retries: ${msg}`, "discord");
     emitFallbackAlert({ ...item, attempt: nextAttempt - 1 }, msg);
     if (persistedId) await deleteRow(persistedId).catch(() => { /* swallow */ });
-    decPending();
+    decPending(persistedId);
   }
 }
 
@@ -856,7 +893,7 @@ async function scheduleRetry(
       // is not silently lost. The row may still be in the table with its
       // claim cleared on the next stale sweep.
       emitFallbackAlert({ ...item, attempt: nextAttempt - 1 }, `reschedule failed: ${err instanceof Error ? err.message : String(err)}`);
-      decPending();
+      decPending(persistedId);
     });
     return;
   }
@@ -930,7 +967,8 @@ async function persistAndQueue(item: QueueItem): Promise<void> {
       _memoryQueue.shift();
       logger.warn("Discord queue full — oldest message dropped", "discord");
       try { incDiscordDropped(); } catch { /* metrics never break the path */ }
-      decPending();
+      // Memory-queue items are always ours by construction.
+      decPending(null);
     }
     _memoryQueue.push(item);
     return;
@@ -961,7 +999,10 @@ async function persistAndQueue(item: QueueItem): Promise<void> {
       if (dropped.length > 0) {
         logger.warn("Discord queue full — oldest persisted message dropped", "discord");
         try { incDiscordDropped(); } catch { /* noop */ }
-        decPending();
+        // The dropped row may have been enqueued by a peer co-tenant.
+        // `decPending(id)` is a no-op in that case so our gauge is not
+        // distorted by deleting someone else's row.
+        decPending(dropped[0]?.id ?? null);
       }
     }
     const { randomUUID } = await import("crypto");
@@ -976,6 +1017,14 @@ async function persistAndQueue(item: QueueItem): Promise<void> {
       claimedAt: null,
     };
     await _dbCached.db.insert(_schemaCached.discordOutboundQueue).values(row);
+    // Mark this row as owned by THIS process so the eventual terminal
+    // `decPending(row.id)` (success / fallback / drop) will adjust our
+    // gauge. If a peer co-tenant claims this row first, our gauge stays
+    // at +1 until we either claim something we never enqueued (no-op) or
+    // a follow-up reconciliation occurs. The drift is bounded by the
+    // number of in-flight enqueues that get peer-drained — `getDiscord
+    // QueueDepthFromDb()` exposes the cross-process truth for SRE.
+    trackOwnedDbRow(row.id);
   } catch (err) {
     // Persistence itself failed (DB outage, schema drift, full disk, …).
     // Per the queue contract this is the ONLY scenario in which we drop to
@@ -986,12 +1035,75 @@ async function persistAndQueue(item: QueueItem): Promise<void> {
     const msg = err instanceof Error ? err.message : String(err);
     logger.warn(`Discord queue: persist failed: ${msg}`, "discord");
     emitFallbackAlert(item, `persistence failed: ${msg.slice(0, 200)}`);
-    decPending();
+    // The row never made it into _ownDbRowIds — pass `null` so we
+    // unconditionally undo the optimistic increment from `enqueueItem`.
+    decPending(null);
   }
 }
 
 export function getDiscordQueueSize(): number {
   return _pendingCount;
+}
+
+// Cross-process queue depth helper. Reads the DB directly so SRE
+// dashboards / on-call tooling can see the true backlog regardless of
+// which co-tenant process serves /api/metrics. Cached for 5 s to bound
+// load (a typical scrape cadence is 10–60 s).
+let _dbDepthCache: { value: number; freshAt: number; expiresAt: number } | null = null;
+const DB_DEPTH_CACHE_MS = 5_000;
+
+export async function getDiscordQueueDepthFromDb(): Promise<number> {
+  return (await getDiscordQueueDepthFromDbDetailed()).value;
+}
+
+/**
+ * Detailed cross-process queue depth read. Returns the count plus metadata
+ * indicating whether the value came from a live DB query, the in-process
+ * cache, or a stale/fallback path. SRE dashboards can surface
+ * `source !== "db-fresh"` as a degraded-observability signal.
+ *
+ * Operational contract:
+ *  - Healthy DB mode: cache freshness ≤ DB_DEPTH_CACHE_MS (5 s).
+ *  - DB error: returns last known cache (any age) OR `_pendingCount` as a
+ *    last-resort fallback. Age is reported in `ageMs` so callers can
+ *    distinguish stale-on-failure from fresh.
+ *  - Memory mode (no persistent backend): returns `_pendingCount`,
+ *    `source: "local-fallback"`.
+ */
+export async function getDiscordQueueDepthFromDbDetailed(): Promise<{
+  value: number;
+  source: "db-fresh" | "db-cache" | "db-stale-on-error" | "local-fallback";
+  ageMs: number;
+}> {
+  const now = Date.now();
+  if (_dbDepthCache && _dbDepthCache.expiresAt > now) {
+    return { value: _dbDepthCache.value, source: "db-cache", ageMs: now - _dbDepthCache.freshAt };
+  }
+  const backend = await getBackend();
+  if (backend !== "db" || !_dbCached) {
+    // No persistent backend (memory-only mode used by tests/scripts).
+    // Fall back to the per-process gauge — there is no shared backlog.
+    return { value: _pendingCount, source: "local-fallback", ageMs: 0 };
+  }
+  try {
+    const { sql } = await import("drizzle-orm");
+    const r = await _dbCached.db.execute(
+      sql`SELECT count(*)::int AS n FROM discord_outbound_queue WHERE attempts < max_attempts`,
+    );
+    const rows = (r as unknown as { rows: { n: number }[] }).rows ?? [];
+    const n = rows[0]?.n ?? 0;
+    _dbDepthCache = { value: n, freshAt: now, expiresAt: now + DB_DEPTH_CACHE_MS };
+    return { value: n, source: "db-fresh", ageMs: 0 };
+  } catch (err) {
+    logger.warn(
+      `getDiscordQueueDepthFromDb: query failed, returning stale/local value: ${err instanceof Error ? err.message : String(err)}`,
+      "discord",
+    );
+    if (_dbDepthCache) {
+      return { value: _dbDepthCache.value, source: "db-stale-on-error", ageMs: now - _dbDepthCache.freshAt };
+    }
+    return { value: _pendingCount, source: "local-fallback", ageMs: 0 };
+  }
 }
 
 /**
@@ -1002,6 +1114,8 @@ export function getDiscordQueueSize(): number {
 export function _resetDiscordQueueForTests(): void {
   _memoryQueue.length = 0;
   _pendingCount = 0;
+  _ownDbRowIds.clear();
+  _dbDepthCache = null;
   _backendPromise = null;
   _dbCached = null;
   _schemaCached = null;
