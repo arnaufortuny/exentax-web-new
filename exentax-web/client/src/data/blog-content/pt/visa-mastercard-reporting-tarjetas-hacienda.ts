@@ -59,7 +59,6 @@ Em **Espanha**, os emissores nacionais apresentam à AEAT várias declarações:
 
 - **França – DAS2**: declaração anual que recolhe honorários, comissões e outros rendimentos pagos a terceiros. Para cartões, o trabalho de fundo é feito pela **DGFiP** combinando esta declaração com os dados de cada banco. A França obriga ainda a declarar **contas no estrangeiro** (formulário 3916), o que tipicamente inclui IBANs Wise ou Revolut.
 - **Alemanha**: não existe um equivalente direto ao Modelo 196, mas os bancos alemães operam o Kontenabrufverfahren, que permite ao Bundeszentralamt für Steuern consultar a titularidade de contas e depósitos de qualquer residente.
-- **Itália**: o Anagrafe dei Rapporti Finanziari recolhe anualmente saldos, movimentos agregados e dados de cartões que os intermediários financeiros italianos enviam à Agenzia delle Entrate.
 - **Reino Unido**: a HMRC recebe dados agregados dos bancos via esquemas como o Bulk Data Gathering, além do CRS para não residentes.
 
 A regra geral é que **a conta e a titularidade estão bem cobertas**, enquanto o **detalhe transação a transação** não é enviado de ofício: é reconstruído apenas numa inspeção concreta. E se chegar uma notificação, na Exentax mantemos o dossiê pronto para responderes em horas, não em semanas.
