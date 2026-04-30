@@ -66,19 +66,25 @@ export type {
 // `registerEmailRetryHandler(...)` at import time so the email-retry
 // worker can resume failed sends; that side effect is preserved by
 // importing every template here.
-export { sendBookingConfirmation } from "./booking-confirmation";
-export { sendReminderEmail } from "./booking-reminder";
-export { sendRescheduleConfirmation } from "./reschedule";
-export { sendCancellationEmail } from "./cancellation";
-export { sendNoShowRescheduleEmail } from "./no-show";
-export { sendFollowupEmail } from "./post-meeting";
+//
+// Each module also exposes a `renderXEmailHtml(data)` pure function
+// that returns the same HTML + subject the live send path produces
+// (without touching Gmail). The snapshot tool
+// `scripts/email/render-all-snapshots.ts` consumes those renderers to
+// generate `reports/email-snapshots/*.html` for layout review.
+export { sendBookingConfirmation, renderBookingConfirmationHtml } from "./booking-confirmation";
+export { sendReminderEmail, renderReminderEmailHtml } from "./booking-reminder";
+export { sendRescheduleConfirmation, renderRescheduleEmailHtml } from "./reschedule";
+export { sendCancellationEmail, renderCancellationEmailHtml } from "./cancellation";
+export { sendNoShowRescheduleEmail, renderNoShowEmailHtml } from "./no-show";
+export { sendFollowupEmail, renderFollowupEmailHtml } from "./post-meeting";
 export type { FollowupEmailData } from "./post-meeting";
-export { sendIncompleteBookingEmail } from "./incomplete-booking";
+export { sendIncompleteBookingEmail, renderIncompleteBookingEmailHtml } from "./incomplete-booking";
 export type { IncompleteBookingEmailData } from "./incomplete-booking";
 export { renderCalculatorEmailHtml, sendCalculatorEmail } from "./calculator";
-export { sendDripEmail, sendDripEmailOnce } from "./drip";
+export { sendDripEmail, sendDripEmailOnce, renderDripEmailHtml } from "./drip";
 export type { DripEmailData } from "./drip";
-export { sendCalcDripEmail, sendCalcDripEmailOnce } from "./calc-drip";
+export { sendCalcDripEmail, sendCalcDripEmailOnce, renderCalcDripEmailHtml } from "./calc-drip";
 export type { CalcDripEmailData } from "./calc-drip";
 export { sendNewsletterEmail } from "./newsletter";
 export type { NewsletterEmailOpts } from "./newsletter";

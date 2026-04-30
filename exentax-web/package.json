@@ -74,7 +74,8 @@
     "test:discord-queue-persistence": "tsx tests/discord-queue-persistence.test.ts",
     "test:email-template-security": "tsx tests/email-template-security.test.ts",
     "test:madrid-time-dst": "tsx tests/madrid-time-dst.test.ts",
-    "test:e2e": "playwright test --project=chromium"
+    "test:e2e": "playwright test --project=chromium",
+    "email:snapshots": "tsx scripts/email/render-all-snapshots.ts"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.21",

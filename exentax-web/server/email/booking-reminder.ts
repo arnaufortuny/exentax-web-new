@@ -22,11 +22,21 @@ import {
   withRetryQueue,
 } from "./transport";
 
-async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
+/**
+ * Pure renderer: builds the reminder email HTML + subject + the .ics
+ * attachment for a given payload. Extracted so the snapshot tool can
+ * preview the rendered HTML for every language without going through
+ * Gmail. Called by `sendReminderEmailOnce` below.
+ */
+export function renderReminderEmailHtml(data: ReminderEmailData): {
+  html: string;
+  subject: string;
+  lang: string;
+  icsAttachment: ReturnType<typeof buildIcsAttachment>;
+} {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const rt = t.reminder;
-  const gmail = getGmailClient();
   const firstName = escapeHtml(data.clientName.split(" ")[0]);
   const dateFormatted = t.dateFormatter(data.date);
 
@@ -106,8 +116,14 @@ async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
     ${unsubNote(rt.unsubNote)}
   `;
 
-  const reminderSubj = rt.subject(data.startTime);
-  const html = emailHtml(clientBody, reminderSubj, lang);
+  const subject = rt.subject(data.startTime);
+  const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang, icsAttachment };
+}
+
+async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
+  const { html, subject: reminderSubj, lang, icsAttachment } = renderReminderEmailHtml(data);
+  const gmail = getGmailClient();
 
   if (gmail) {
     try {

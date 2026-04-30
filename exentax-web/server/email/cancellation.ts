@@ -22,11 +22,15 @@ import {
   withRetryQueue,
 } from "./transport";
 
-async function sendCancellationEmailOnce(data: CancellationEmailData): Promise<void> {
+/**
+ * Pure renderer extracted for the snapshot tool — see
+ * `scripts/email/render-all-snapshots.ts`. Returns the same HTML +
+ * subject the live `sendCancellationEmailOnce` would push to Gmail.
+ */
+export function renderCancellationEmailHtml(data: CancellationEmailData): { html: string; subject: string; lang: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const ct = t.cancellation;
-  const gmail = getGmailClient();
   const safeName = escapeHtml(data.clientName);
   const firstName = safeName.split(" ")[0];
   const dateFormatted = t.dateFormatter(data.date);
@@ -59,6 +63,12 @@ async function sendCancellationEmailOnce(data: CancellationEmailData): Promise<v
 
   const subject = ct.subject;
   const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang };
+}
+
+async function sendCancellationEmailOnce(data: CancellationEmailData): Promise<void> {
+  const { html, subject, lang } = renderCancellationEmailHtml(data);
+  const gmail = getGmailClient();
 
   if (gmail) {
     try {

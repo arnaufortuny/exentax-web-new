@@ -21,11 +21,15 @@ import {
   withRetryQueue,
 } from "./transport";
 
-async function sendNoShowRescheduleEmailOnce(data: NoShowEmailData): Promise<void> {
+/**
+ * Pure renderer extracted for the snapshot tool — see
+ * `scripts/email/render-all-snapshots.ts`. Returns the same HTML +
+ * subject the live `sendNoShowRescheduleEmailOnce` would push to Gmail.
+ */
+export function renderNoShowEmailHtml(data: NoShowEmailData): { html: string; subject: string; lang: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const ns = t.noShow;
-  const gmail = getGmailClient();
   const firstName = escapeHtml(data.clientName.split(" ")[0]);
 
   const clientBody = `
@@ -53,6 +57,12 @@ async function sendNoShowRescheduleEmailOnce(data: NoShowEmailData): Promise<voi
 
   const subject = ns.subject;
   const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang };
+}
+
+async function sendNoShowRescheduleEmailOnce(data: NoShowEmailData): Promise<void> {
+  const { html, subject, lang } = renderNoShowEmailHtml(data);
+  const gmail = getGmailClient();
 
   if (gmail) {
     try {

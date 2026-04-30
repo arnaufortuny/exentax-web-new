@@ -32,14 +32,17 @@ export interface FollowupEmailData {
   clientEmail: string;
   language: string | null;
 }
-async function sendFollowupEmailOnce(data: FollowupEmailData): Promise<void> {
-  // Self-contained i18n: all user-visible strings come from t.followup.
-  // No cross-template dependency on t.noShow — each email template owns
-  // its own subject, heading, intro, CTA, closing and unsubNote.
+/**
+ * Pure renderer extracted for the snapshot tool — see
+ * `scripts/email/render-all-snapshots.ts`. Self-contained i18n: all
+ * user-visible strings come from t.followup. No cross-template
+ * dependency on t.noShow — each email template owns its own subject,
+ * heading, intro, CTA, closing and unsubNote.
+ */
+export function renderFollowupEmailHtml(data: FollowupEmailData): { html: string; subject: string; lang: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const fu = t.followup;
-  const gmail = getGmailClient();
   const firstName = escapeHtml(data.clientName.split(" ")[0]);
 
   const subject = fu.subject;
@@ -57,6 +60,12 @@ async function sendFollowupEmailOnce(data: FollowupEmailData): Promise<void> {
     ${unsubNote(fu.unsubNote)}
   `;
   const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang };
+}
+
+async function sendFollowupEmailOnce(data: FollowupEmailData): Promise<void> {
+  const { html, subject, lang } = renderFollowupEmailHtml(data);
+  const gmail = getGmailClient();
 
   if (gmail) {
     try {

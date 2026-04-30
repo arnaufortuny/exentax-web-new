@@ -47,7 +47,12 @@ export interface CalcDripEmailData {
   unsubToken?: string | null;
 }
 
-export async function sendCalcDripEmailOnce(data: CalcDripEmailData): Promise<void> {
+/**
+ * Pure renderer extracted for the snapshot tool — see
+ * `scripts/email/render-all-snapshots.ts`. Returns the same HTML +
+ * subject + List-Unsubscribe URL the live `sendCalcDripEmailOnce` uses.
+ */
+export function renderCalcDripEmailHtml(data: CalcDripEmailData): { html: string; subject: string; lang: string; dripUnsub: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const d = t.calcDrip;
@@ -88,6 +93,11 @@ export async function sendCalcDripEmailOnce(data: CalcDripEmailData): Promise<vo
 
   const subject = stepCopy.subject;
   const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang, dripUnsub };
+}
+
+export async function sendCalcDripEmailOnce(data: CalcDripEmailData): Promise<void> {
+  const { html, subject, lang, dripUnsub } = renderCalcDripEmailHtml(data);
   const logType = `calc_drip_step_${data.step}`;
   const gmail = getGmailClient();
 

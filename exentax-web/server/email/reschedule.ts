@@ -20,11 +20,15 @@ import {
   withRetryQueue,
 } from "./transport";
 
-async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promise<void> {
+/**
+ * Pure renderer extracted for the snapshot tool — see
+ * `scripts/email/render-all-snapshots.ts`. Returns the same HTML +
+ * subject the live `sendRescheduleConfirmationOnce` would push to Gmail.
+ */
+export function renderRescheduleEmailHtml(data: RescheduleEmailData): { html: string; subject: string; lang: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const rt = t.reschedule;
-  const gmail = getGmailClient();
   const safeName = escapeHtml(data.clientName);
   const firstName = safeName.split(" ")[0];
   const dateFormatted = t.dateFormatter(data.date);
@@ -57,6 +61,12 @@ async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promis
 
   const subject = rt.subject;
   const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang };
+}
+
+async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promise<void> {
+  const { html, subject, lang } = renderRescheduleEmailHtml(data);
+  const gmail = getGmailClient();
 
   if (gmail) {
     try {

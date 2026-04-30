@@ -63,26 +63,21 @@ function dripCtaFor(step: 1 | 2 | 3 | 4 | 5 | 6, lang: SupportedLang, dripT: Ret
   return ""; // steps 2, 3, 5 are text-only nurture
 }
 
-export async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
+/**
+ * Pure renderer extracted for the snapshot tool — see
+ * `scripts/email/render-all-snapshots.ts`. Returns the same HTML +
+ * subject + List-Unsubscribe URL the live `sendDripEmailOnce` uses.
+ * Does NOT enforce the production guide-PDF placeholder check (that
+ * lives in the send path so snapshots can render step 1 even before
+ * `GUIDE_PDF_URL` is set).
+ */
+export function renderDripEmailHtml(data: DripEmailData): { html: string; subject: string; lang: string; dripUnsub: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const d = t.drip;
   const stepIdx = data.step - 1;
   const stepCopy = d.steps[stepIdx];
   if (!stepCopy) throw new Error(`drip: invalid step ${data.step}`);
-
-  // Lead-magnet hard fail: drip step 1 advertises the guide PDF. If the
-  // hosting URL is still the default placeholder in production we refuse
-  // to send (throwing here propagates to the drip-worker, which calls
-  // `markDripEnrollmentError()` — the row keeps `current_step = 0` and
-  // is re-attempted on the next worker tick because `next_send_at` is
-  // not advanced on failure) so a broken `/guide.pdf` link never reaches
-  // a recipient. The boot-time `assertGuidePdfUrlReady()` already pages
-  // on-call so the URL is fixed same-day; until it is, the row parks in
-  // the drip table at step 0 rather than burning a first impression.
-  if (data.step === 1 && process.env.NODE_ENV === "production" && GUIDE_PDF_URL === GUIDE_PDF_DEFAULT_PLACEHOLDER) {
-    throw new Error("guide_pdf_url_not_configured");
-  }
 
   // Use only the first token of the name to avoid awkward greetings
   // like "Hola Juan García López,". Trim+collapse whitespace first.
@@ -122,6 +117,24 @@ export async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
 
   const subject = stepCopy.subject;
   const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang, dripUnsub };
+}
+
+export async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
+  // Lead-magnet hard fail: drip step 1 advertises the guide PDF. If the
+  // hosting URL is still the default placeholder in production we refuse
+  // to send (throwing here propagates to the drip-worker, which calls
+  // `markDripEnrollmentError()` — the row keeps `current_step = 0` and
+  // is re-attempted on the next worker tick because `next_send_at` is
+  // not advanced on failure) so a broken `/guide.pdf` link never reaches
+  // a recipient. The boot-time `assertGuidePdfUrlReady()` already pages
+  // on-call so the URL is fixed same-day; until it is, the row parks in
+  // the drip table at step 0 rather than burning a first impression.
+  if (data.step === 1 && process.env.NODE_ENV === "production" && GUIDE_PDF_URL === GUIDE_PDF_DEFAULT_PLACEHOLDER) {
+    throw new Error("guide_pdf_url_not_configured");
+  }
+
+  const { html, subject, lang, dripUnsub } = renderDripEmailHtml(data);
   const logType = `drip_step_${data.step}`;
   const gmail = getGmailClient();
 

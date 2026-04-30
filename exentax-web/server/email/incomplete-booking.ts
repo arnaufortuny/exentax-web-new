@@ -33,11 +33,15 @@ export interface IncompleteBookingEmailData {
   clientName?: string | null;
   language: string | null;
 }
-async function sendIncompleteBookingEmailOnce(data: IncompleteBookingEmailData): Promise<void> {
+/**
+ * Pure renderer extracted for the snapshot tool — see
+ * `scripts/email/render-all-snapshots.ts`. Returns the same HTML +
+ * subject the live `sendIncompleteBookingEmailOnce` would push to Gmail.
+ */
+export function renderIncompleteBookingEmailHtml(data: IncompleteBookingEmailData): { html: string; subject: string; lang: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const ib = t.incompleteBooking;
-  const gmail = getGmailClient();
 
   const rawFirstName = (data.clientName || "").trim().split(/\s+/)[0] || "";
   const firstName = rawFirstName ? escapeHtml(rawFirstName) : "";
@@ -61,6 +65,12 @@ async function sendIncompleteBookingEmailOnce(data: IncompleteBookingEmailData):
     ${unsubNote(ib.unsubNote)}
   `;
   const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang };
+}
+
+async function sendIncompleteBookingEmailOnce(data: IncompleteBookingEmailData): Promise<void> {
+  const { html, subject, lang } = renderIncompleteBookingEmailHtml(data);
+  const gmail = getGmailClient();
 
   if (gmail) {
     try {

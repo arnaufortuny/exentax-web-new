@@ -20,17 +20,16 @@ import {
 } from "./transport";
 
 /**
- * Low-level send: actually attempts the booking-confirmation email and
- * THROWS on any failure (no enqueue, no swallowing). This is what the
- * persistent retry worker invokes so it can correctly track attempts and
- * apply exponential backoff. Public callers should use
- * `sendBookingConfirmation` which wraps this with enqueue-on-failure.
+ * Pure renderer: builds the booking-confirmation email HTML + subject
+ * for a given payload. Extracted so the snapshot tool
+ * (`scripts/email/render-all-snapshots.ts`) can produce an HTML preview
+ * for every language without going through the Gmail transport.
+ * Called by `sendBookingConfirmationOnce` below.
  */
-async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void> {
+export function renderBookingConfirmationHtml(data: BookingEmailData): { html: string; subject: string; lang: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const dateFormatted = t.dateFormatter(data.date);
-  const gmail = getGmailClient();
   const safeName = escapeHtml(data.clientName);
   const firstName = safeName.split(" ")[0];
   const bt = t.booking;
@@ -85,8 +84,22 @@ async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void
     ${unsubNote(`${bt.refLabel}: <strong>${agendaRef}</strong>`)}
   `;
 
-  const clientSubj = `${bt.subjectPrefix} | ${dateFormatted} ${data.startTime}`;
-  const clientHtml = emailHtml(clientBody, `${bt.subjectPrefix} | ${dateFormatted} ${data.startTime}`, lang);
+  const subject = `${bt.subjectPrefix} | ${dateFormatted} ${data.startTime}`;
+  const html = emailHtml(clientBody, subject, lang);
+  return { html, subject, lang };
+}
+
+/**
+ * Low-level send: actually attempts the booking-confirmation email and
+ * THROWS on any failure (no enqueue, no swallowing). This is what the
+ * persistent retry worker invokes so it can correctly track attempts and
+ * apply exponential backoff. Public callers should use
+ * `sendBookingConfirmation` which wraps this with enqueue-on-failure.
+ */
+async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void> {
+  const { html: clientHtml, subject: clientSubj, lang } = renderBookingConfirmationHtml(data);
+  const agendaRef = data.agendaId || "—";
+  const gmail = getGmailClient();
 
   if (!gmail) {
     logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });

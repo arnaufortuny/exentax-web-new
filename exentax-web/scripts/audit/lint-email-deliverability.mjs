@@ -148,16 +148,23 @@ for (const fn of bookingSenders) {
 
 // ─── Rule 3: marketing senders carry visible unsub footer ─────────────
 //
-// `renderCalculatorEmailHtml` and the drip body must call
-// `unsubFooterWithLink(...)` so a clickable Unsubscribe shows in the body.
+// `renderCalculatorEmailHtml` and `renderDripEmailHtml` must call
+// `unsubFooterWithLink(...)` so a clickable Unsubscribe shows in the
+// body. The send wrappers (`sendCalculatorEmailOnce`, `sendDripEmailOnce`)
+// must in turn carry the bulk-marketing header policy and an RFC 8058
+// one-click `List-Unsubscribe` rawOpt.
 if (!/renderCalculatorEmailHtml[\s\S]*?unsubFooterWithLink\(/.test(emailSrc)) {
   fail("Rule 3: renderCalculatorEmailHtml does not call unsubFooterWithLink — calculator email must carry a visible unsub link.");
+}
+const dripRender = sliceFunctionBody(emailSrc, "renderDripEmailHtml");
+if (dripRender == null) {
+  fail("Rule 3: renderDripEmailHtml not found.");
+} else if (!/unsubFooterWithLink\(/.test(dripRender)) {
+  fail("Rule 3: renderDripEmailHtml does not call unsubFooterWithLink — drip email must carry a visible unsub link.");
 }
 const dripBody = sliceFunctionBody(emailSrc, "sendDripEmailOnce");
 if (dripBody == null) {
   fail("Rule 3: sendDripEmailOnce not found.");
-} else if (!/unsubFooterWithLink\(/.test(dripBody)) {
-  fail("Rule 3: sendDripEmailOnce body does not call unsubFooterWithLink.");
 } else if (!/headerPolicyFor\("marketing-bulk"\)/.test(dripBody)) {
   fail("Rule 3: sendDripEmailOnce must use headerPolicyFor(\"marketing-bulk\").");
 } else if (!/listUnsubscribe\s*:/.test(dripBody)) {
