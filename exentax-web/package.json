@@ -29,6 +29,7 @@
     "seo:check": "node scripts/seo/seo-check-links.mjs && npm run seo:serp-previews && npm run seo:icons",
     "seo:icons": "node scripts/seo/validate-icon-assets.mjs",
     "seo:slash": "node scripts/seo/seo-slash-hygiene.mjs",
+    "seo:live-audit": "node scripts/seo/seo-live-audit.mjs",
     "seo:meta": "tsx scripts/seo/verify-meta.ts --scope=all",
     "seo:serp-previews": "tsx scripts/seo/serp-previews.ts",
     "test:seo-check": "node scripts/seo/seo-check-links.test.mjs",

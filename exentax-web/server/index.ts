@@ -759,6 +759,79 @@ httpServer.listen(
           })();
         }, 15000);
       }
+
+      // Post-deploy SEO live audit (Task #42).
+      // Verifies the live site once after each deploy: 4 sitemaps return
+      // 200, total URL count, hreflang reciprocity at 100%, X-Robots-Tag /
+      // Link headers per route family, and /robots.txt cabecera. Any
+      // failure is posted to the Discord `errores` channel by the script
+      // itself (mirroring `notifySeoIndexing()`'s embed format), so this
+      // hook only spawns the script and never blocks the deploy. Disable
+      // by setting SEO_LIVE_AUDIT_DISABLE=1.
+      if (process.env.SEO_LIVE_AUDIT_DISABLE !== "1") {
+        setTimeout(() => {
+          (async () => {
+            try {
+              const { spawn } = await import("node:child_process");
+              const { existsSync } = await import("node:fs");
+              const path = await import("node:path");
+              const candidates = [
+                path.resolve(process.cwd(), "exentax-web/scripts/seo/seo-live-audit.mjs"),
+                path.resolve(process.cwd(), "scripts/seo/seo-live-audit.mjs"),
+              ];
+              const script = candidates.find((p) => existsSync(p));
+              if (!script) {
+                logger.warn(`seo-live-audit: script not found in ${candidates.join(", ")}`, "seo");
+                return;
+              }
+              const baseUrl = process.env.BASE_URL || `http://127.0.0.1:${port}`;
+              const child = spawn(process.execPath, [script], {
+                stdio: ["ignore", "pipe", "pipe"],
+                env: { ...process.env, BASE_URL: baseUrl },
+              });
+              // Heuristic: surface every line the audit would also surface
+              // through Discord at warn-or-above so post-deploy log triage
+              // matches the alert envelope. The script prints each
+              // individual failure on its own line (via console.error from
+              // `errors.forEach`), and only the final summary line begins
+              // with the explicit "[seo-live-audit] FAIL" marker.
+              const isAuditWarn = (line: string) =>
+                line.startsWith("[seo-live-audit] FAIL") ||
+                line.startsWith("[seo-live-audit] SKIPPED") ||
+                /^\s*-\s/.test(line) || // bullet failure rows
+                /^sitemap[- ]/.test(line) ||
+                /^route\b/i.test(line) ||
+                /^robots\.txt/.test(line) ||
+                /\bHTTP \d{3}\b/.test(line);
+              child.stdout?.on("data", (b) => {
+                for (const line of b.toString().split(/\r?\n/)) if (line) logger.info(line, "seo");
+              });
+              child.stderr?.on("data", (b) => {
+                for (const line of b.toString().split(/\r?\n/)) {
+                  if (!line) continue;
+                  if (isAuditWarn(line)) logger.warn(line, "seo");
+                  else logger.info(line, "seo");
+                }
+              });
+              child.on("error", (e) =>
+                logger.warn(`seo-live-audit spawn error: ${e.message}`, "seo"),
+              );
+              child.on("exit", (code) => {
+                if (code && code !== 0) {
+                  logger.warn(`seo-live-audit exited with non-zero code ${code}`, "seo");
+                } else {
+                  logger.info(`seo-live-audit exited with code ${code}`, "seo");
+                }
+              });
+            } catch (e) {
+              logger.warn(
+                `seo-live-audit failed to launch: ${e instanceof Error ? e.message : String(e)}`,
+                "seo",
+              );
+            }
+          })();
+        }, 20000);
+      }
     } else {
       const { setupVite } = await import("./vite");
       await setupVite(httpServer, app);
