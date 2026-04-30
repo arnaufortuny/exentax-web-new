@@ -1656,8 +1656,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Italia" }
+        { "@type": "Country", "name": "Reino Unido" }
       ],
       "knowsAbout": [
         "LLC en Estados Unidos",
@@ -2419,8 +2420,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   // specific URL (otherwise the SEO audit flags `schema-service-missing`).
   // Task #14 (GEO): all five service subpages now ship as ProfessionalService
   // (not generic Service) with a `provider.@id` ref to the canonical
-  // Organization (`/#organization`), broad `areaServed` covering the 6
-  // markets we serve (LATAM + EU), an audience that reflects the actual
+  // Organization (`/#organization`), broad `areaServed` covering the 11
+  // markets we serve (LATAM + EU + UK), an audience that reflects the actual
   // ICP, and *no* literal price commitments in bot-facing schema (pricing
   // tiers vary per state and lead-time and live in the React UI). The
   // runtime React JSON-LD in client/src/pages/services/ServiceSubpage.tsx
@@ -2443,8 +2444,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Italia" }
+        { "@type": "Country", "name": "Reino Unido" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Freelancers, autónomos, agencias y emprendedores digitales no residentes fiscales en EE.UU." },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2477,8 +2479,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Italia" }
+        { "@type": "Country", "name": "Reino Unido" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Freelancers, autónomos, agencias y emprendedores digitales no residentes fiscales en EE.UU." },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2511,8 +2514,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Italia" }
+        { "@type": "Country", "name": "Reino Unido" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Founders, startups e inversores no residentes que buscan jurisdicción Delaware" },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2545,8 +2549,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Italia" }
+        { "@type": "Country", "name": "Reino Unido" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Operadores con clientes en EE.UU. y mercado hispano de Miami" },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2579,8 +2584,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Italia" }
+        { "@type": "Country", "name": "Reino Unido" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "No residentes fiscales en EE.UU. sin SSN que necesitan número fiscal IRS" },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
