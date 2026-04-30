@@ -153,9 +153,9 @@ export const esTranslations: EmailTranslations = {
     },
     followup: {
       subject: `${BRAND_NAME} — seguimiento rápido`,
-      heading: (firstName: string) => `Hola, ${firstName}`,
-      intro: (firstName: string) => `Hola ${firstName}, te escribo para hacer un seguimiento de nuestra conversación. Si tienes cualquier duda o quieres dar el siguiente paso, responde a este email — estoy a tu disposición.`,
-      ctaLabel: "Reservar otra sesión",
+      heading: (firstName: string) => `Hola ${firstName},`,
+      intro: (firstName: string) => `Te escribo para hacer un seguimiento rápido de nuestra conversación. Si tienes cualquier duda o quieres dar el siguiente paso, basta con responder a este email — estoy a tu disposición.`,
+      ctaLabel: "Reservar otra asesoría",
       closing: "Quedamos atentos.",
       unsubNote: "Has recibido este email porque contactaste con exentax.com.",
     },
@@ -171,7 +171,7 @@ export const esTranslations: EmailTranslations = {
       unsubNote: "Has recibido este email porque empezaste una reserva en exentax.com.",
     },
     calcDrip: {
-      ctaBook: "Reservar mi consulta gratuita",
+      ctaBook: "Reservar mi asesoría gratuita",
       greeting: (name) => name ? `Hola ${name},` : "Hola,",
       sigClosing: "Un abrazo,",
       unsubNote: "Recibes estos correos porque hiciste el cálculo en exentax.com. Si no te aportan, te das de baja con un clic.",
@@ -193,7 +193,7 @@ export const esTranslations: EmailTranslations = {
             "<strong>1. \"¿Esto es legal en España?\"</strong> Sí, completamente. La LLC es una entidad reconocida en el convenio para evitar la doble imposición entre EE. UU. y España, y como residente fiscal español sigues declarando aquí. Lo que cambia es la estructura por la que entran tus ingresos: pasas de tributar todo como rendimiento de actividades económicas a separar lo que es retribución del socio (sigue tributando en España) y lo que es beneficio de la sociedad (con un trato fiscal mucho más eficiente). Hacienda lo conoce, está documentado, y se hace por miles cada año.",
             "<strong>2. \"¿Y si me hacen una inspección?\"</strong> Es la pregunta que más calma cuando la respondemos. Toda la estructura queda documentada de origen: actas, contratos, modelos 720 / 721, cuentas separadas, justificantes de cada movimiento. Si Hacienda llama, llegas con todo en la mano. Y la realidad: las LLCs bien montadas no levantan banderas, porque se declaran exactamente como Hacienda espera que se declaren.",
             "<strong>3. \"¿Cuánto tarda y cuánto cuesta mantenerla?\"</strong> Constitución: 3 a 4 semanas. Después, mantenimiento anual de unos 600 € — registro estatal, agente residente, contabilidad básica. Si tu ahorro estimado son 12.000 €, el mantenimiento es menos del 5 %. La inversión se devuelve sola el primer mes.",
-            "Si una de estas tres todavía te frena, dilo en la llamada. Para eso es la consulta — para que salgas con cero dudas y una decisión clara, sea cual sea.",
+            "Si una de estas tres todavía te frena, dilo en la llamada. Para eso es la asesoría — para que salgas con cero dudas y una decisión clara, sea cual sea.",
           ],
         },
         {
@@ -201,7 +201,7 @@ export const esTranslations: EmailTranslations = {
           paragraphs: [
             "Llevo dos correos respetando tu ritmo y no quiero ser pesado. Este es el último de la serie de la calculadora.",
             "Tu simulación te dio una cifra de ahorro concreta. Has visto el caso real de Laura. Has visto cómo respondemos las tres dudas más habituales. Si aún sigues leyendo, es porque hay algo que te encaja.",
-            "La consulta es de 30 minutos, gratuita y sin compromiso. Salimos con tres cosas claras: si tu caso es viable o no, qué ahorro real puedes esperar (no la simulación, el número con tu situación concreta), y los pasos exactos para empezar si decides hacerlo.",
+            "La asesoría es de 30 minutos, gratuita y sin compromiso. Salimos con tres cosas claras: si tu caso es viable o no, qué ahorro real puedes esperar (no la simulación, el número con tu situación concreta), y los pasos exactos para empezar si decides hacerlo.",
             "Si no es para ti, lo decimos con la misma honestidad. Tenemos un margen alto de \"no es tu momento\" — y lo preferimos así. Mejor decirte que esperes seis meses que cobrarte por algo que no te va a aportar.",
           ],
           ps: "PD: si prefieres preguntar por escrito antes de reservar, responde a este email. Lee Claudia personalmente y te contesta en menos de 24 h.",
@@ -211,10 +211,10 @@ export const esTranslations: EmailTranslations = {
     drip: {
       ctaOpenGuide: "Abrir mi guía",
       ctaCalculate: "Calcular mi ahorro",
-      ctaBook: "Reservar mi consulta gratuita",
+      ctaBook: "Reservar mi asesoría gratuita",
       greeting: (name) => name ? `Hola ${name},` : "Hola,",
       sigClosing: "Un abrazo,",
-      unsubNote: "Has recibido estos emails porque solicitaste la guía gratuita o reservaste una consulta en exentax.com.",
+      unsubNote: "Has recibido estos emails porque solicitaste la guía gratuita o reservaste una asesoría en exentax.com.",
       steps: [
         {
           subject: "Aquí está tu guía. Pero primero léeme esto.",

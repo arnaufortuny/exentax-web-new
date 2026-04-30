@@ -29,7 +29,7 @@ export const SIGNATURE_TITLE_I18N: Record<SupportedLang, string> = {
   en: "Tax Advisor",
   fr: "Conseillère Fiscale",
   de: "Steuerberaterin",
-  pt: "Consultora Fiscal",
+  pt: "Assessora Fiscal",
   ca: "Assessora Fiscal",
 };
 
@@ -143,7 +143,7 @@ export const CALCULATOR_FIDELITY_I18N: Record<SupportedLang, CalculatorFidelityL
   en: { best: "Winning structure", vsAuto: "Vs sole-trader", vsSoc: "Vs local company", currency: "Display currency", opts: "Special regime", tarifa: "Flat rate", micro: "Micro-entrepreneur", structure: { autonomo: "Sole trader", sociedad: "Local company", llc: "US LLC" } },
   fr: { best: "Structure gagnante", vsAuto: "Vs indépendant", vsSoc: "Vs société locale", currency: "Devise d'affichage", opts: "Régime spécial", tarifa: "Tarif plat", micro: "Micro-entrepreneur", structure: { autonomo: "Indépendant", sociedad: "Société locale", llc: "LLC US" } },
   de: { best: "Beste Struktur", vsAuto: "Vs Selbstständig", vsSoc: "Vs lokale GmbH", currency: "Anzeigewährung", opts: "Sonderregelung", tarifa: "Pauschaltarif", micro: "Micro-entrepreneur", structure: { autonomo: "Selbstständig", sociedad: "Lokale GmbH", llc: "US-LLC" } },
-  pt: { best: "Estrutura vencedora", vsAuto: "Vs autônomo", vsSoc: "Vs sociedade local", currency: "Moeda de exibição", opts: "Regime especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autônomo", sociedad: "Sociedade local", llc: "LLC US" } },
+  pt: { best: "Estrutura vencedora", vsAuto: "Vs trabalhador independente", vsSoc: "Vs sociedade local", currency: "Moeda de visualização", opts: "Regime especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Trabalhador independente", sociedad: "Sociedade local", llc: "LLC US" } },
   ca: { best: "Estructura guanyadora", vsAuto: "Davant d'autònom", vsSoc: "Davant de societat local", currency: "Divisa de visualització", opts: "Règim especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autònom", sociedad: "Societat local", llc: "LLC US" } },
 };
 

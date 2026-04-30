@@ -153,9 +153,9 @@ export const caTranslations: EmailTranslations = {
     },
     followup: {
       subject: `${BRAND_NAME} — seguiment ràpid`,
-      heading: (firstName: string) => `Hola, ${firstName}`,
-      intro: (firstName: string) => `Hola ${firstName}, et torno a escriure després de la nostra conversa. Si tens qualsevol dubte o vols avançar, només cal que responguis a aquest correu — sóc aquí per ajudar-te.`,
-      ctaLabel: "Reservar una nova sessió",
+      heading: (firstName: string) => `Hola ${firstName},`,
+      intro: (firstName: string) => `T'escric per fer un seguiment ràpid de la nostra conversa. Si tens qualsevol dubte o vols fer el següent pas, només cal que responguis a aquest correu — sóc aquí per ajudar-te.`,
+      ctaLabel: "Reservar una altra assessoria",
       closing: "Quedem atents.",
       unsubNote: "Has rebut aquest email perquè has contactat amb exentax.com.",
     },
@@ -171,7 +171,7 @@ export const caTranslations: EmailTranslations = {
       unsubNote: "Has rebut aquest email perquè has començat una reserva a exentax.com.",
     },
     calcDrip: {
-      ctaBook: "Reservar la meva consulta gratuïta",
+      ctaBook: "Reservar la meva assessoria gratuïta",
       greeting: (name) => name ? `Hola ${name},` : "Hola,",
       sigClosing: "Una abraçada,",
       unsubNote: "Reps aquests correus perquè vas fer el càlcul a exentax.com. Si no et serveixen, et dones de baixa amb un clic.",
@@ -193,7 +193,7 @@ export const caTranslations: EmailTranslations = {
             "<strong>1. \"Això és legal a Espanya?\"</strong> Sí, completament. La LLC és una entitat reconeguda al conveni per evitar la doble imposició entre els EUA i Espanya, i com a resident fiscal espanyol continues declarant aquí. El que canvia és l'estructura per la qual entren els teus ingressos: passes de tributar-ho tot com a rendiment d'activitats econòmiques a separar la retribució del soci (continua tributant a Espanya) i el benefici de la societat (amb un tracte fiscal molt més eficient). Hisenda ho coneix, està documentat, i es fa per milers cada any.",
             "<strong>2. \"I si em fan una inspecció?\"</strong> És la pregunta que més calma quan la responem. Tota l'estructura queda documentada des de l'origen: actes, contractes, models 720 / 721, comptes separats, justificants de cada moviment. Si Hisenda truca, hi arribes amb tot a la mà. I la realitat: les LLCs ben muntades no aixequen banderes, perquè es declaren exactament com Hisenda espera que es declarin.",
             "<strong>3. \"Quant triga i quant costa mantenir-la?\"</strong> Constitució: 3 a 4 setmanes. Després, manteniment anual d'uns 600 € — registre estatal, agent resident, comptabilitat bàsica. Si el teu estalvi estimat són 12.000 €, el manteniment és menys del 5 %. La inversió es retorna sola el primer mes.",
-            "Si un d'aquests tres encara et frena, digues-ho a la trucada. Per això és la consulta — perquè surtis amb zero dubtes i una decisió clara, sigui en quin sentit sigui.",
+            "Si un d'aquests tres encara et frena, digues-ho a la trucada. Per això és l'assessoria — perquè surtis amb zero dubtes i una decisió clara, sigui en quin sentit sigui.",
           ],
         },
         {
@@ -201,7 +201,7 @@ export const caTranslations: EmailTranslations = {
           paragraphs: [
             "Porto dos correus respectant el teu ritme i no vull ser pesat. Aquest és l'últim de la sèrie de la calculadora.",
             "La teva simulació et va donar una xifra concreta. Has vist el cas real de la Laura. Has vist com responem els tres dubtes més habituals. Si encara llegeixes, és perquè hi ha alguna cosa que et quadra.",
-            "La consulta és de 30 minuts, gratuïta i sense compromís. En sortim amb tres coses clares: si el teu cas és viable o no, quin estalvi real pots esperar (no la simulació, el número amb la teva situació concreta) i els passos exactes per començar si decideixes fer-ho.",
+            "L'assessoria és de 30 minuts, gratuïta i sense compromís. En sortim amb tres coses clares: si el teu cas és viable o no, quin estalvi real pots esperar (no la simulació, el número amb la teva situació concreta) i els passos exactes per començar si decideixes fer-ho.",
             "Si no és per a tu, t'ho diem amb la mateixa honestedat. Tenim un marge alt de \"no és el teu moment\" — i ho preferim així. Millor dir-te que esperis sis mesos que cobrar-te per alguna cosa que no t'aportarà.",
           ],
           ps: "PD: si prefereixes preguntar per escrit abans de reservar, respon a aquest email. La Claudia el llegeix personalment i et contesta en menys de 24 h.",
@@ -211,10 +211,10 @@ export const caTranslations: EmailTranslations = {
     drip: {
       ctaOpenGuide: "Obrir la meva guia",
       ctaCalculate: "Calcular el meu estalvi",
-      ctaBook: "Reservar la meva consulta gratuïta",
+      ctaBook: "Reservar la meva assessoria gratuïta",
       greeting: (name) => name ? `Hola ${name},` : "Hola,",
       sigClosing: "Una abraçada,",
-      unsubNote: "Has rebut aquests emails perquè vas demanar la guia gratuïta o vas reservar una consulta a exentax.com.",
+      unsubNote: "Has rebut aquests emails perquè vas demanar la guia gratuïta o vas reservar una assessoria a exentax.com.",
       steps: [
         {
           subject: "La teva guia ja és aquí. Però llegeix això primer.",
