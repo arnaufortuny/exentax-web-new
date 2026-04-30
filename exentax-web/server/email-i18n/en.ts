@@ -189,9 +189,9 @@ export const enTranslations: EmailTranslations = {
         {
           subject: "The 3 doubts I ALWAYS hear (and how I answer them)",
           paragraphs: [
-            "After three years setting up LLCs for Spanish freelancers and small companies, I hear the same three doubts in 90 % of first calls. Let me answer them now so they don't hold you back.",
-            "<strong>1. \"Is this legal in Spain?\"</strong> Yes, completely. The LLC is a recognized entity under the US–Spain double-taxation treaty, and as a Spanish tax resident you keep filing here. What changes is the structure your income flows through: instead of taxing everything as self-employed income, we separate partner compensation (still taxed in Spain) from company profit (with much more efficient treatment). The Spanish tax agency knows about this, it's documented, and thousands of people do it every year.",
-            "<strong>2. \"What happens if I get audited?\"</strong> This is the question that calms people the most when we answer it. The whole structure is documented from day one: minutes, contracts, forms 720 / 721, separate accounts, every transaction traced. If the tax agency calls, you walk in with everything in hand. And in practice: well-built LLCs don't raise flags, because they're declared exactly the way the agency expects.",
+            "After three years setting up LLCs for freelancers and small companies, I hear the same three doubts in 90 % of first calls. Let me answer them now so they don't hold you back.",
+            "<strong>1. \"Is this legal in my country?\"</strong> In nearly every case, yes. The LLC is a US entity recognized by most double-taxation treaties, and as a tax resident in your country you keep filing there. What changes is the structure your income flows through: instead of taxing everything as self-employed income, we separate partner compensation (still taxed where you live) from company profit (with much more efficient treatment). Local tax authorities are familiar with this kind of structure, it's documented, and thousands of people do it every year.",
+            "<strong>2. \"What happens if I get audited?\"</strong> This is the question that calms people the most when we answer it. The whole structure is documented from day one: minutes, contracts, your country's foreign-account reporting obligations, separate accounts, every transaction traced. If your local tax authority calls, you walk in with everything in hand. And in practice: well-built LLCs don't raise flags, because they're declared exactly the way authorities expect.",
             "<strong>3. \"How long does it take and what does it cost to maintain?\"</strong> Setup: 3 to 4 weeks. After that, around €600 a year — state registration, registered agent, basic accounting. If your estimated savings are €12,000, the maintenance is under 5 %. The investment pays itself back in the first month.",
             "If one of these three is still holding you back, say it on the call. That's what the advisory session is for — so you walk out with zero doubts and a clear decision either way.",
           ],
@@ -238,8 +238,8 @@ export const enTranslations: EmailTranslations = {
           subject: "Let me explain how this works in under 2 minutes.",
           paragraphs: [
             "A US LLC is a company incorporated in the United States.",
-            "If you’re a resident in Spain and your LLC has no US-based clients, you pay no corporate tax in the US. And there’s nothing like a fixed monthly self-employment contribution. If you don’t invoice one month, you pay nothing that month.",
-            "You do declare your profits on your Spanish income tax return. That doesn’t change. But that fixed monthly fee that leaves your account no matter what disappears.",
+            "If you’re a tax resident outside the US and your LLC has no US-based clients, you pay no corporate tax in the US. And there’s nothing like a fixed monthly self-employment contribution. If you don’t invoice one month, you pay nothing that month.",
+            "You do declare your profits on your local income tax return in your country of residence. That doesn’t change. But that fixed monthly fee that leaves your account no matter what disappears.",
             "The full process with us takes between 5 and 15 days. Fully remote. No travel. No endless paperwork.",
             "That’s it.",
           ],
