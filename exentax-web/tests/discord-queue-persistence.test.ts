@@ -139,16 +139,17 @@ async function main() {
 
   discord._resetDiscordQueueForTests();
   await discord.startDiscordQueueWorker();
-  // Rehydrate must surface the surviving row in the *cross-process*
-  // gauge (`getDiscordQueueDepthFromDb`), not in the per-process gauge
-  // (`getDiscordQueueSize`). The new contract: `_pendingCount` only
-  // tracks rows enqueued via `enqueueItem()` in THIS process, so a row
-  // inserted directly by a peer (or by a previous incarnation of this
-  // process before the reset) is intentionally not counted there. SRE
-  // dashboards consume the DB-backed depth instead.
-  const rehydratedDb = await discord.getDiscordQueueDepthFromDb();
-  assert(rehydratedDb >= 1, `cross-process DB depth includes survivor row (got ${rehydratedDb})`);
-  assert(discord.getDiscordQueueSize() === 0, "per-process gauge stays at zero — survivor row was not enqueued by THIS process");
+  // Rehydrate must surface the surviving row in the canonical published
+  // gauge. With the cross-process gauge contract, `getDiscordQueueSize()`
+  // returns the DB-backed count reconciled by `startDiscordQueueWorker()`
+  // (which calls `refreshPublishedQueueDepth()` at startup). So all
+  // co-tenant processes — including a freshly-reset one — see the survivor
+  // row immediately.
+  assert(discord.getDiscordQueueSize() >= 1, `published cross-process gauge includes survivor row (got ${discord.getDiscordQueueSize()})`);
+  // The internal per-process counter, on the other hand, is intentionally
+  // 0 for this scenario: the survivor row was inserted directly by the
+  // test (= a peer producer), never via `enqueueItem()` in this process.
+  assert(discord._getDiscordOwnPendingCountForTests() === 0, "per-process counter stays at zero — survivor row was not enqueued via enqueueItem in THIS process");
 
   await flush();
   const survivorAfter = await dbMod.db.execute(

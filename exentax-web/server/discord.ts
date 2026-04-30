@@ -554,17 +554,45 @@ const _memoryQueue: QueueItem[] = [];
 let _drainTimer: NodeJS.Timeout | null = null;
 // Cheap synchronous gauge — read by `/api/metrics`, scripts, and tests.
 // Tracks pending+inflight items regardless of backend.
+// `_pendingCount` is a strictly INTERNAL per-process counter. It is no longer
+// exposed as the canonical Discord queue gauge — it would be incorrect under
+// co-tenancy (a peer process draining a row we enqueued would leave us
+// inflated; conversely, draining a peer's row would push us toward zero
+// while peer-side rows are still pending). The published gauge that SRE,
+// /api/metrics and `waitForQueueDrain()` consume is `_publishedQueueSize`,
+// which is reconciled against the authoritative cross-process DB count.
+//
+// `_pendingCount` is retained only for diagnostic asserts in the persistence
+// test (e.g. "this process enqueued exactly N items and finalised them all").
 let _pendingCount = 0;
 // IDs of DB-persisted rows that THIS process inserted via `enqueueItem` and
-// has not yet finalized (success / fallback / drop). The set is the source of
-// truth for whether `decPending(id)` should affect this process's gauge:
-// rows enqueued by a peer co-tenant and later claimed by us via
-// `claimDueRows()` are NOT in the set, so draining them does not perturb our
-// per-process counter. This keeps `_pendingCount` honest under co-tenancy
-// (rolling deploys, dev ⊕ scripts/audit) without requiring a producer-PID
-// column on the queue table. Cross-process backlog (for SRE dashboards) is
-// served by `getDiscordQueueDepthFromDb()` (DB COUNT, 5 s cached).
+// has not yet finalized (success / fallback / drop). Used together with
+// `_pendingCount` for per-process bookkeeping (peer rows we drain do not
+// touch `_pendingCount`); does not affect the published cross-process gauge.
 const _ownDbRowIds = new Set<string>();
+// Published cross-process queue depth. Reconciled to the DB COUNT on every
+// drain tick + on every /api/metrics scrape (best-effort with a 1 s
+// timeout budget on the metrics path).
+//
+// Convergence contract (CONDITIONAL — not unconditional):
+//   Co-tenant processes converge to the SAME value within
+//   DRAIN_INTERVAL_MS (1.5 s by default) when BOTH:
+//     (a) each process's drain tick is actually running (event loop not
+//         starved, worker started via `startDiscordQueueWorker`), and
+//     (b) `SELECT count(*) FROM discord_outbound_queue WHERE attempts <
+//         max_attempts` succeeds against the DB.
+//   Under (a) failure the affected process serves the last cached value
+//   until the next tick fires. Under (b) failure `refreshPublishedQueue
+//   Depth()` logs a WARN [discord] and serves the last cached value;
+//   peers with a healthy DB continue to publish fresh values. SRE
+//   detects degraded observability via the WARN log and via
+//   `discord_queue_size` divergence across instances on a metrics
+//   scrape.
+//
+// Local enqueue/dequeue events also adjust this optimistically so
+// single-process tests see immediate feedback without waiting for the
+// next refresh tick.
+let _publishedQueueSize = 0;
 let _draining = false;
 // Resolves to "db" or "memory" exactly once per process.
 let _backendPromise: Promise<"db" | "memory"> | null = null;
@@ -596,13 +624,12 @@ async function loadBackend(): Promise<"db" | "memory"> {
     // because `claimDueRows` uses `FOR UPDATE SKIP LOCKED` and rows are
     // partitioned non-deterministically across consumers.
     //
-    // Cross-process queue depth (for SRE dashboards) is exposed via the
-    // separate async helper `getDiscordQueueDepthFromDb()` below, which
-    // queries the DB directly (with a small in-process cache to bound
-    // load). Per-process inflight (used by `waitForQueueDrain()` in the
-    // discord-bot e2e regression) keeps reading `_pendingCount`, which
-    // remains correct because every enqueue/dequeue in THIS process
-    // touches the local counter.
+    // The published `discord_queue_size` gauge (Prometheus + JSON) is the
+    // canonical cross-process value, reconciled against this same DB
+    // COUNT in `refreshPublishedQueueDepth()` on every drain tick, on
+    // worker startup, and synchronously on every `/api/metrics` scrape.
+    // The block below only emits a one-shot informational log so SRE can
+    // see the on-disk backlog at boot — it does NOT touch any gauge.
     try {
       const { sql } = await import("drizzle-orm");
       const r = await _dbCached.db.execute(
@@ -636,6 +663,11 @@ function getBackend(): Promise<"db" | "memory"> {
  */
 export async function startDiscordQueueWorker(): Promise<void> {
   await getBackend();
+  // Prime the published cross-process gauge with the current DB COUNT so
+  // co-tenant processes (and tests that insert directly into the queue
+  // table to simulate a peer) see the correct value immediately after
+  // worker start, instead of waiting for the first drain tick.
+  await refreshPublishedQueueDepth().catch(() => { /* best-effort */ });
   ensureDrainTimer();
 }
 
@@ -646,6 +678,13 @@ function ensureDrainTimer(): void {
 }
 
 async function drainTick(): Promise<void> {
+  // Reconcile the published cross-process gauge against the authoritative DB
+  // COUNT on every tick. This is the convergence path that ensures all
+  // co-tenant processes report the same `discord_queue_size` value within
+  // DRAIN_INTERVAL_MS. Cheap (single-row count, indexed predicate) so it
+  // runs unconditionally — even when `_draining` is true and we skip the
+  // actual claim/send below.
+  void refreshPublishedQueueDepth().catch(() => { /* best-effort */ });
   if (_draining) return;
   // Without a Discord bot token the worker cannot send anything: it would
   // claim each row, log a warning, emit a fallback alert and DELETE the row
@@ -778,33 +817,94 @@ function backoffForAttempt(attempt: number): number {
 }
 
 /**
- * Per-process gauge decrement.
+ * Decrement the pending-work counters after a row was finalized (success,
+ * fallback, dropped, etc.). Two counters are tracked:
  *
- * - `persistedId === null` → memory-mode item (always belongs to this
- *   process; no row id exists). Decrement unconditionally.
- * - `persistedId === "<id>"` → DB-mode row. Only decrement if `<id>` is in
- *   `_ownDbRowIds`, i.e. THIS process is the one that originally enqueued
- *   it. Rows enqueued by a peer co-tenant and later claimed by us are
- *   processed (HTTP send + DELETE) but do NOT perturb our gauge.
+ *  1. `_publishedQueueSize` (cross-process) — always decremented when a DB
+ *     row was actually removed (or a memory item was processed), regardless
+ *     of which process originally enqueued it. The next periodic
+ *     reconciliation against the DB COUNT will overwrite any drift, so this
+ *     is just an optimistic local delta to keep the gauge fresh between
+ *     refresh ticks.
+ *  2. `_pendingCount` (per-process, internal) — only decremented if THIS
+ *     process owns the row (`persistedId ∈ _ownDbRowIds` or memory item).
  *
- * Returns `true` iff the gauge was actually decremented. Callers can use
- * this for diagnostics (e.g. "drained a peer row, didn't touch the gauge").
+ * Returns `true` iff the row was owned by THIS process. Callers use this
+ * to keep diagnostic invariants (e.g. "I enqueued N items and finalised
+ * N items locally").
  */
 function decPending(persistedId: string | null = null): boolean {
-  if (persistedId !== null) {
-    if (!_ownDbRowIds.delete(persistedId)) {
-      // Not ours — leave _pendingCount untouched.
-      return false;
-    }
+  // (1) Cross-process gauge: a DB row left the queue, so the global count
+  //     drops by one. Bounded floor at 0 to absorb rare races where peer
+  //     enqueues and our drain interleave with the refresh tick.
+  decPublishedQueueSize();
+  // (2) Per-process counter: only adjust for items we actually enqueued.
+  let wasOurs: boolean;
+  if (persistedId === null) {
+    // Memory-mode items are always ours by construction.
+    wasOurs = true;
+  } else {
+    wasOurs = _ownDbRowIds.delete(persistedId);
   }
-  if (_pendingCount > 0) _pendingCount--;
-  try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
-  return true;
+  if (wasOurs && _pendingCount > 0) _pendingCount--;
+  return wasOurs;
 }
 
 function incPending(): void {
   _pendingCount++;
-  try { setDiscordQueueSize(_pendingCount); } catch { /* noop */ }
+  // Optimistically bump the published gauge so single-process tests and
+  // immediate /api/metrics scrapes after an enqueue see back-pressure
+  // without waiting for the next refresh tick.
+  incPublishedQueueSize();
+}
+
+function incPublishedQueueSize(): void {
+  _publishedQueueSize++;
+  try { setDiscordQueueSize(_publishedQueueSize); } catch { /* noop */ }
+}
+
+function decPublishedQueueSize(): void {
+  if (_publishedQueueSize > 0) _publishedQueueSize--;
+  try { setDiscordQueueSize(_publishedQueueSize); } catch { /* noop */ }
+}
+
+/**
+ * Reconcile the published cross-process gauge against the authoritative
+ * DB COUNT. Called from `drainTick()` (every DRAIN_INTERVAL_MS) and from
+ * `/api/metrics` (best-effort) so all co-tenant processes converge to the
+ * same value. Test/scripts can also invoke this directly to force a
+ * deterministic refresh after a known-quiet point in the queue.
+ *
+ * In memory-mode (no DB backend) the function leaves `_publishedQueueSize`
+ * alone — the optimistic inc/dec from the local enqueue/dequeue path is
+ * already exact for the in-process FIFO.
+ */
+export async function refreshPublishedQueueDepth(): Promise<number> {
+  // Memory mode: local optimistic counter is exact, nothing to reconcile.
+  if (process.env.DISCORD_QUEUE_BACKEND === "memory") {
+    return _publishedQueueSize;
+  }
+  if (!_dbCached) {
+    // Backend not yet probed — _publishedQueueSize is still the best we have.
+    return _publishedQueueSize;
+  }
+  try {
+    const { sql } = await import("drizzle-orm");
+    const r = await _dbCached.db.execute(
+      sql`SELECT count(*)::int AS n FROM discord_outbound_queue WHERE attempts < max_attempts`,
+    );
+    const rows = (r as unknown as { rows: { n: number }[] }).rows ?? [];
+    const n = rows[0]?.n ?? 0;
+    _publishedQueueSize = n;
+    try { setDiscordQueueSize(_publishedQueueSize); } catch { /* noop */ }
+    return n;
+  } catch (err) {
+    logger.warn(
+      `refreshPublishedQueueDepth: DB COUNT failed, leaving cached value (${_publishedQueueSize}): ${err instanceof Error ? err.message : String(err)}`,
+      "discord",
+    );
+    return _publishedQueueSize;
+  }
 }
 
 // Called by `persistAndQueue` once a DB INSERT has succeeded so that the
@@ -1019,11 +1119,13 @@ async function persistAndQueue(item: QueueItem): Promise<void> {
     await _dbCached.db.insert(_schemaCached.discordOutboundQueue).values(row);
     // Mark this row as owned by THIS process so the eventual terminal
     // `decPending(row.id)` (success / fallback / drop) will adjust our
-    // gauge. If a peer co-tenant claims this row first, our gauge stays
-    // at +1 until we either claim something we never enqueued (no-op) or
-    // a follow-up reconciliation occurs. The drift is bounded by the
-    // number of in-flight enqueues that get peer-drained — `getDiscord
-    // QueueDepthFromDb()` exposes the cross-process truth for SRE.
+    // INTERNAL `_pendingCount` diagnostic. If a peer co-tenant claims
+    // this row first, our `_pendingCount` stays at +1 until the next
+    // process reset — but this drift is invisible to the published
+    // gauge (`discord_queue_size`), which is reconciled against the DB
+    // COUNT in `refreshPublishedQueueDepth()` on every drain tick and
+    // every /api/metrics scrape. `_pendingCount` is exposed only via
+    // `_getDiscordOwnPendingCountForTests()` for the persistence test.
     trackOwnedDbRow(row.id);
   } catch (err) {
     // Persistence itself failed (DB outage, schema drift, full disk, …).
@@ -1041,69 +1143,38 @@ async function persistAndQueue(item: QueueItem): Promise<void> {
   }
 }
 
+/**
+ * Canonical published Discord queue gauge. Returns the cross-process queue
+ * depth as last reconciled against the DB COUNT, with optimistic local
+ * inc/dec deltas applied between reconciliations.
+ *
+ * Convergence is CONDITIONAL — see the `_publishedQueueSize` declaration
+ * comment for the full contract. Summary: all co-tenant processes
+ * converge to the same value within DRAIN_INTERVAL_MS (≈1.5 s) iff each
+ * process's drain tick is running AND `refreshPublishedQueueDepth`
+ * succeeds against the DB. Under DB degradation the affected process
+ * serves the last cached value and emits a WARN [discord] (one per
+ * scrape / tick) as the SRE-visible degradation signal; the
+ * `/api/metrics` route additionally caps inline refresh latency at 1 s
+ * via `Promise.race`.
+ *
+ * Single-process tests (waitForQueueDrain in scripts/discord, the
+ * persistence test) get instant feedback because incPending/decPending
+ * adjust the published gauge optimistically; the next refresh tick
+ * reconciles any drift caused by peer co-tenants.
+ */
 export function getDiscordQueueSize(): number {
-  return _pendingCount;
-}
-
-// Cross-process queue depth helper. Reads the DB directly so SRE
-// dashboards / on-call tooling can see the true backlog regardless of
-// which co-tenant process serves /api/metrics. Cached for 5 s to bound
-// load (a typical scrape cadence is 10–60 s).
-let _dbDepthCache: { value: number; freshAt: number; expiresAt: number } | null = null;
-const DB_DEPTH_CACHE_MS = 5_000;
-
-export async function getDiscordQueueDepthFromDb(): Promise<number> {
-  return (await getDiscordQueueDepthFromDbDetailed()).value;
+  return _publishedQueueSize;
 }
 
 /**
- * Detailed cross-process queue depth read. Returns the count plus metadata
- * indicating whether the value came from a live DB query, the in-process
- * cache, or a stale/fallback path. SRE dashboards can surface
- * `source !== "db-fresh"` as a degraded-observability signal.
- *
- * Operational contract:
- *  - Healthy DB mode: cache freshness ≤ DB_DEPTH_CACHE_MS (5 s).
- *  - DB error: returns last known cache (any age) OR `_pendingCount` as a
- *    last-resort fallback. Age is reported in `ageMs` so callers can
- *    distinguish stale-on-failure from fresh.
- *  - Memory mode (no persistent backend): returns `_pendingCount`,
- *    `source: "local-fallback"`.
+ * Test-only: per-process counter of items THIS process enqueued via
+ * `enqueueItem` and has not yet finalized locally. NOT a cross-process
+ * gauge — peer-drained rows leave this counter inflated. Exists only for
+ * diagnostic asserts in `tests/discord-queue-persistence.test.ts`.
  */
-export async function getDiscordQueueDepthFromDbDetailed(): Promise<{
-  value: number;
-  source: "db-fresh" | "db-cache" | "db-stale-on-error" | "local-fallback";
-  ageMs: number;
-}> {
-  const now = Date.now();
-  if (_dbDepthCache && _dbDepthCache.expiresAt > now) {
-    return { value: _dbDepthCache.value, source: "db-cache", ageMs: now - _dbDepthCache.freshAt };
-  }
-  const backend = await getBackend();
-  if (backend !== "db" || !_dbCached) {
-    // No persistent backend (memory-only mode used by tests/scripts).
-    // Fall back to the per-process gauge — there is no shared backlog.
-    return { value: _pendingCount, source: "local-fallback", ageMs: 0 };
-  }
-  try {
-    const { sql } = await import("drizzle-orm");
-    const r = await _dbCached.db.execute(
-      sql`SELECT count(*)::int AS n FROM discord_outbound_queue WHERE attempts < max_attempts`,
-    );
-    const rows = (r as unknown as { rows: { n: number }[] }).rows ?? [];
-    const n = rows[0]?.n ?? 0;
-    _dbDepthCache = { value: n, freshAt: now, expiresAt: now + DB_DEPTH_CACHE_MS };
-    return { value: n, source: "db-fresh", ageMs: 0 };
-  } catch (err) {
-    logger.warn(
-      `getDiscordQueueDepthFromDb: query failed, returning stale/local value: ${err instanceof Error ? err.message : String(err)}`,
-      "discord",
-    );
-    if (_dbDepthCache) {
-      return { value: _dbDepthCache.value, source: "db-stale-on-error", ageMs: now - _dbDepthCache.freshAt };
-    }
-    return { value: _pendingCount, source: "local-fallback", ageMs: 0 };
-  }
+export function _getDiscordOwnPendingCountForTests(): number {
+  return _pendingCount;
 }
 
 /**
@@ -1115,7 +1186,8 @@ export function _resetDiscordQueueForTests(): void {
   _memoryQueue.length = 0;
   _pendingCount = 0;
   _ownDbRowIds.clear();
-  _dbDepthCache = null;
+  _publishedQueueSize = 0;
+  try { setDiscordQueueSize(0); } catch { /* noop */ }
   _backendPromise = null;
   _dbCached = null;
   _schemaCached = null;

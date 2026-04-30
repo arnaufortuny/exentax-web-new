@@ -14,7 +14,7 @@ import { logger } from "../logger";
 import { snapshot, renderPrometheus, setEmailRetryQueueSize, setDbPoolStats, incClientError } from "../metrics";
 import { getEmailRetryQueueSize, getEmailWorkerHeartbeat } from "../email-retry-queue";
 import { getRegisteredBreakers } from "../circuit-breaker";
-import { getDiscordQueueSize, getDiscordQueueDepthFromDbDetailed, notifyEvent } from "../discord";
+import { getDiscordQueueSize, refreshPublishedQueueDepth, notifyEvent } from "../discord";
 import { isBotConfigured, checkDiscordConnectivity } from "../discord-bot";
 import { checkCsrfOrigin } from "../route-helpers";
 
@@ -259,22 +259,39 @@ export function registerObservabilityRoutes(
       setDbPoolStats(getPoolStats());
     } catch { /* metrics path is best-effort */ }
     const accept = String(req.headers["accept"] || "");
+    // Reconcile the published Discord queue gauge against the DB COUNT
+    // before either response shape (JSON or Prometheus). This guarantees
+    // co-tenant processes serve the same `discord_queue_size` value
+    // synchronously on each scrape (in addition to the periodic 1.5 s
+    // drain-tick refresh).
+    //
+    // Wrapped in a 1 s timeout race to bound scrape latency under
+    // degraded DB conditions: if the DB is slow / unreachable, we serve
+    // the previously cached gauge and Prometheus gets an unblocked
+    // response within ~1 s instead of hanging up to the 30 s
+    // statement_timeout. Two SRE-visible degradation signals:
+    //   - Hard failure (DB query throws): `refreshPublishedQueueDepth`
+    //     logs WARN [discord] from its own catch block.
+    //   - Slow query (race timeout wins): we log WARN [discord] HERE
+    //     so degraded-but-not-failed states are observable on the
+    //     scrape that experienced them, not just on subsequent ones.
+    const REFRESH_BUDGET_MS = 1_000;
+    const TIMEOUT_SENTINEL = Symbol("metrics-refresh-timeout");
+    try {
+      const winner = await Promise.race([
+        refreshPublishedQueueDepth().then(() => "ok" as const),
+        new Promise<typeof TIMEOUT_SENTINEL>((resolve) => setTimeout(() => resolve(TIMEOUT_SENTINEL), REFRESH_BUDGET_MS)),
+      ]);
+      if (winner === TIMEOUT_SENTINEL) {
+        logger.warn(
+          `metrics: refreshPublishedQueueDepth exceeded ${REFRESH_BUDGET_MS}ms budget; serving cached discord_queue_size=${getDiscordQueueSize()}`,
+          "discord",
+        );
+      }
+    } catch { /* best-effort */ }
     if (accept.includes("application/json")) {
       const snap = snapshot();
-      // Per-process inflight (this Node instance only — what waitForQueueDrain reads).
       snap.discord.queueSize = getDiscordQueueSize();
-      // Cross-process backlog (DB-backed, 5s cached). Best-effort: if the
-      // DB is unreachable the helper falls back to the local gauge.
-      // We surface the source + age so SRE can detect a degraded read
-      // (e.g. `queueDepthDbSource !== "db-fresh"` for >N scrapes => DB
-      // observability is degraded, even if the count itself looks sane).
-      try {
-        const detail = await getDiscordQueueDepthFromDbDetailed();
-        const d = snap.discord as Record<string, unknown>;
-        d.queueDepthDb = detail.value;
-        d.queueDepthDbSource = detail.source;
-        d.queueDepthDbAgeMs = detail.ageMs;
-      } catch { /* metrics path is best-effort */ }
       return res.json(snap);
     }
     res.setHeader("Content-Type", "text/plain; version=0.0.4; charset=utf-8");
