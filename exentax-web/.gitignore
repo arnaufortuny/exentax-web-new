@@ -76,3 +76,10 @@ docs/audits/2026-04/*
 docs/audits/2026-04/conversion/*
 !docs/audits/2026-04/conversion/*.md
 !docs/audits/2026-04/conversion/*.json
+# Re-include the produccion-2026-04 pre-launch audit deliverables
+# (Tasks #16 / #19 / etc.) so reviewers can open the master reports
+# without re-running the audits. These are hand-written markdown,
+# not regenerable artifacts.
+!docs/audits/produccion-2026-04/
+docs/audits/produccion-2026-04/*
+!docs/audits/produccion-2026-04/*.md
