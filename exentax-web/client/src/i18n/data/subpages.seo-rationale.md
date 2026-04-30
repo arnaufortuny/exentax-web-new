@@ -48,10 +48,19 @@ applies — keep edits within those budgets.
 1. Keep the per-language hook above as the description's opener; do not
    revert to a literal translation of the Spanish copy.
 2. Run `npx tsx scripts/seo/verify-meta.ts` after any change — the strict
-   subpage gate must stay green (titles 50–60, descriptions 145–160, soft
+   subpage gate must stay green (titles 50–60, descriptions 140–165, soft
    CTA, no duplicates across the global SEO index).
 3. The soft-CTA endings allowed per language are listed in
    `SUBPAGE_CTA_ENDINGS` inside the verifier. Pick one that fits the angle
    instead of always closing with the same phrase.
 4. When adding a new language, define its own hook per page before copying
    any other language's wording.
+5. Mobile SERP cards typically truncate descriptions around char 130, so
+   the soft CTA at the end of the description must start at char ≤ 130 to
+   actually render on phones. `npm run seo:check` (which runs
+   `scripts/seo/serp-previews.ts`) flags any subpage where the trailing CTA
+   sits past char 130. In practice this caps the description length per
+   language at roughly `131 + cta_word_length`, e.g. ~142 chars when ending
+   with "Empieza hoy." (CTA = 11 chars) and ~145 chars when ending with
+   "Jetzt anfragen." (CTA = 14 chars). Pick a slightly longer CTA from
+   `SUBPAGE_CTA_ENDINGS` if you need more body-copy headroom.

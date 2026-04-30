@@ -222,7 +222,7 @@ const es: SubpagesBase = {
     },
     seo: {
       title: "LLC en Wyoming · Privacidad y protección de activos",
-      description: "Wyoming, el estándar de oro en privacidad y protección de activos. LLC con EIN, banca americana y agente registrado, sin viajar a EE. UU. Empieza hoy.",
+      description: "Wyoming, estándar de oro en privacidad y protección de activos. LLC con EIN, banca americana y agente registrado, sin viajar. Reserva tu llamada.",
       keywords: "LLC Wyoming, asset protection LLC, LLC privacidad, LLC para no residentes, holding Wyoming",
       ogTitle: "LLC Wyoming: blindaje patrimonial líder en EE. UU.",
       ogDescription: "LLC en Wyoming con la mayor protección patrimonial de EE. UU.: charging order y privacidad legal. Asesoría Exentax: tu LLC en EE. UU., sin sorpresas.",
@@ -298,7 +298,7 @@ const es: SubpagesBase = {
     },
     seo: {
       title: "LLC en Delaware · El estado de los inversores serios",
-      description: "El estado preferido por VCs y founders: marco jurídico sólido y prestigio global. LLC con EIN, banca americana y agente registrado. Empieza hoy.",
+      description: "Estado preferido por VCs y founders: marco jurídico sólido y prestigio global. LLC con EIN, banca americana y agente registrado. Empieza hoy.",
       keywords: "LLC Delaware, LLC startup, LLC inversión, Delaware para no residentes, jurisdicción corporativa",
       ogTitle: "LLC Delaware: la favorita de inversores y B2B serios",
       ogDescription: "LLC en Delaware: jurisdicción de referencia para startups, inversión y contratos B2B en EE. UU. Exentax acompaña tu LLC del diagnóstico al día a día.",
@@ -531,7 +531,7 @@ const en: SubpagesBase = {
     },
     seo: {
       title: "New Mexico LLC · Lowest cost, maximum privacy",
-      description: "The most cost-efficient US LLC: no annual report, owner off the public record, 0% federal tax. EIN, US banking and registered agent. Book a free call.",
+      description: "The most cost-efficient US LLC: no annual report, owner off the public record and 0% federal tax. EIN, US banking and agent. Book a free call.",
       keywords: "New Mexico LLC, LLC for non-residents, digital nomad LLC, LLC no annual report",
       ogTitle: "New Mexico LLC: real privacy, minimal upkeep",
       ogDescription: "New Mexico LLC with no annual report, no franchise tax and real privacy. EIN, U.S. bank and BOI. Exentax tax advisors for non-resident US LLC owners.",
@@ -604,7 +604,7 @@ const en: SubpagesBase = {
     },
     seo: {
       title: "Wyoming LLC · Privacy and asset protection done right",
-      description: "Wyoming is the gold standard in privacy and asset protection. We set up your LLC with EIN, US banking and registered agent, no US trip. Book a free call.",
+      description: "Wyoming sets the gold standard in privacy and asset protection. LLC with EIN, US banking and registered agent, no US trip needed. Book a free call.",
       keywords: "Wyoming LLC, asset protection LLC, LLC privacy, LLC for non-residents, Wyoming holding",
       ogTitle: "Wyoming LLC: gold-standard US asset protection",
       ogDescription: "Wyoming LLC with the strongest U.S. asset protection: charging order shield and legal privacy. End-to-end Exentax support for non-resident LLC owners.",
@@ -677,7 +677,7 @@ const en: SubpagesBase = {
     },
     seo: {
       title: "Delaware LLC · Where serious investors set up shop",
-      description: "The state of choice for VCs and founders: solid legal framework and global prestige. Delaware LLC with EIN, US banking and registered agent. Get started.",
+      description: "Delaware is where VCs and founders go: solid legal framework and global prestige. LLC with EIN, US banking and registered agent. Book a free call.",
       keywords: "Delaware LLC, startup LLC, investment LLC, Delaware for non-residents, corporate jurisdiction",
       ogTitle: "Delaware LLC: the VC and serious B2B benchmark",
       ogDescription: "Delaware LLC: the benchmark jurisdiction for startups, fundraising and B2B contracts in the U.S. Exentax tax advisors for non-resident US LLC owners.",
@@ -824,7 +824,7 @@ const en: SubpagesBase = {
     },
     seo: {
       title: "ITIN for non-residents · Keep your passport | Exentax",
-      description: "Get your IRS ITIN without sending your original passport. We file as an official Certifying Acceptance Agent, deadlines we actually meet. Book a free call.",
+      description: "Get your IRS ITIN without sending your original passport: we file as a Certifying Acceptance Agent and meet every deadline. Book a free call.",
       keywords: "ITIN, get ITIN, ITIN for non-residents, Certifying Acceptance Agent, W-7, IRS tax number",
       ogTitle: "ITIN without travel to the US: we file it for you",
       ogDescription: "We file your ITIN with the IRS via a Certifying Acceptance Agent—no original passport mailed. End-to-end Exentax support for non-resident LLC owners.",
@@ -901,7 +901,7 @@ const fr: SubpagesBase = {
     },
     seo: {
       title: "LLC au Nouveau-Mexique · Coût minimal, confidentialité max",
-      description: "La LLC US la plus rentable : pas de renouvellement annuel, propriétaire non public et 0 % fédéral. EIN, banque US et agent enregistré inclus. Démarrez ici.",
+      description: "La LLC US la plus rentable : pas de renouvellement annuel, propriétaire non public, 0 % fédéral. EIN, banque US et agent inclus. Démarrez ici.",
       keywords: "LLC Nouveau-Mexique, LLC non-résidents, LLC nomade digital, LLC sans rapport annuel",
       ogTitle: "LLC Nouveau-Mexique : confidentialité réelle, peu de coûts",
       ogDescription: "LLC au Nouveau-Mexique sans rapport annuel ni franchise tax, avec une vraie confidentialité. Exentax : création, banque et conformité de votre LLC US.",
@@ -974,7 +974,7 @@ const fr: SubpagesBase = {
     },
     seo: {
       title: "LLC au Wyoming · Confidentialité et protection des actifs",
-      description: "Wyoming, la référence en confidentialité et protection des actifs. LLC avec EIN, banque américaine et agent enregistré, sans voyager aux USA. Démarrez ici.",
+      description: "Wyoming, référence en confidentialité et protection des actifs. LLC avec EIN, banque américaine et agent enregistré, sans voyage. Démarrez ici.",
       keywords: "LLC Wyoming, asset protection, LLC confidentialité, LLC non-résidents, holding Wyoming",
       ogTitle: "LLC Wyoming : protection patrimoniale n°1 aux USA",
       ogDescription: "LLC au Wyoming avec la plus forte protection patrimoniale des USA : charging order et confidentialité. Cabinet fiscal Exentax pour LLC non-résidents.",
@@ -1047,7 +1047,7 @@ const fr: SubpagesBase = {
     },
     seo: {
       title: "LLC au Delaware · L'état des investisseurs sérieux",
-      description: "L'état préféré des VC et fondateurs : cadre juridique solide et prestige mondial. LLC Delaware avec EIN, banque US et agent enregistré. Démarrez ici.",
+      description: "Le Delaware, état préféré des VC et fondateurs : cadre juridique solide et prestige mondial. LLC avec EIN, banque US et agent. Démarrez ici.",
       keywords: "LLC Delaware, LLC startup, LLC investissement, Delaware non-résidents, juridiction corporate",
       ogTitle: "LLC Delaware : la référence VC et B2B sérieux",
       ogDescription: "LLC au Delaware : juridiction de référence pour startups, levées de fonds et contrats B2B aux USA. Exentax : votre LLC américaine opérationnelle en 48 h.",
@@ -1121,7 +1121,7 @@ const fr: SubpagesBase = {
     },
     seo: {
       title: "LLC en Floride · Votre porte d'entrée aux US et LATAM",
-      description: "Si vous vendez aux États-Unis ou en LATAM, la Floride est votre base. LLC avec EIN, banque US, agent enregistré et accompagnement fiscal. Démarrez ici.",
+      description: "Si vous vendez aux USA ou en LATAM, la Floride est votre base. LLC avec EIN, banque US, agent enregistré et accompagnement réel. Démarrez ici.",
       keywords: "LLC Floride, LLC Miami, LLC pour hispanophones, LLC Amazon FBA Floride, ouvrir entreprise Floride",
       ogTitle: "LLC Floride : votre porte d'entrée au marché hispanique",
       ogDescription: "LLC en Floride avec présence réelle, banque en espagnol et accès direct au marché hispanique de Miami. Cabinet fiscal Exentax pour LLC non-résidents.",
@@ -1194,7 +1194,7 @@ const fr: SubpagesBase = {
     },
     seo: {
       title: "ITIN non-résidents · Sans envoyer votre passeport",
-      description: "Votre ITIN IRS sans envoyer votre passeport original. Nous déposons en tant que Certifying Acceptance Agent officiel, suivi et délais tenus. Démarrez ici.",
+      description: "Votre ITIN IRS sans envoyer le passeport. Nous le déposons en tant que Certifying Acceptance Agent officiel, délais tenus. Réservez un appel.",
       keywords: "ITIN, obtenir ITIN, ITIN non-résidents, Certifying Acceptance Agent, W-7, numéro fiscal IRS",
       ogTitle: "ITIN sans voyager aux USA : on s'en charge pour vous",
       ogDescription: "Nous gérons votre ITIN auprès de l'IRS avec un Certifying Acceptance Agent, sans envoi du passeport. Cabinet fiscal Exentax pour LLC non-résidents.",
@@ -1271,7 +1271,7 @@ const de: SubpagesBase = {
     },
     seo: {
       title: "New-Mexico-LLC · Niedrigste Kosten, maximale Privatsphäre",
-      description: "Die kosteneffizienteste US-LLC: kein Jahresbericht, Inhaber nicht öffentlich, 0 % Bundessteuer. EIN, US-Bankkonto und Registered Agent. Jetzt starten.",
+      description: "Die kosteneffizienteste US-LLC: kein Jahresbericht, Inhaber nicht öffentlich, 0 % Bundessteuer. EIN, US-Bankkonto und Agent. Jetzt anfragen.",
       keywords: "LLC New Mexico, LLC für Nicht-Ansässige, Digitalnomade LLC, LLC ohne Jahresbericht",
       ogTitle: "New-Mexico-LLC: echte Privatsphäre, minimaler Aufwand",
       ogDescription: "LLC in New Mexico ohne Jahresbericht, ohne Franchise Tax und mit echter Privatsphäre. EIN inklusive. Exentax: Ihre US-LLC einsatzbereit in 48 Stunden.",
@@ -1417,7 +1417,7 @@ const de: SubpagesBase = {
     },
     seo: {
       title: "Delaware-LLC · Wo ernsthafte Investoren gründen",
-      description: "Der Lieblingsstaat von VCs und Foundern: solider Rechtsrahmen und globales Ansehen. Delaware-LLC mit EIN, US-Banking und Registered Agent. Jetzt starten.",
+      description: "Lieblingsstaat von VCs und Foundern: solider Rechtsrahmen und globales Ansehen. Delaware-LLC mit EIN, US-Banking und Agent. Termin vereinbaren.",
       keywords: "LLC Delaware, Startup LLC, Investment LLC, Delaware Nicht-Ansässige, Corporate-Jurisdiktion",
       ogTitle: "Delaware-LLC: Maßstab für VC und ernstes B2B",
       ogDescription: "Delaware-LLC: Referenz-Jurisdiktion für Startups, Finanzierungsrunden und B2B-Verträge mit US-Firmen. Exentax: Ihre US-LLC einsatzbereit in 48 Stunden.",
@@ -1491,7 +1491,7 @@ const de: SubpagesBase = {
     },
     seo: {
       title: "Florida-LLC · Ihr Tor zu den USA und LATAM",
-      description: "Wenn Sie in den USA oder LATAM verkaufen, ist Florida Ihre Basis. LLC mit EIN, US-Banking, Registered Agent und Steuerberatung inklusive. Jetzt anfragen.",
+      description: "Wer in den USA oder LATAM verkauft, hat in Florida die Basis. LLC mit EIN, US-Banking, Registered Agent und Beratung inklusive. Jetzt anfragen.",
       keywords: "LLC Florida, LLC Miami, LLC für Hispanics, Amazon FBA Florida LLC, Firma Florida gründen",
       ogTitle: "Florida-LLC: Ihr Tor zum Hispanic-Markt in Miami",
       ogDescription: "Florida-LLC mit realer Präsenz, Banking auf Spanisch und direktem Zugang zum Hispanic-Markt von Miami. Exentax: Ihre US-LLC einsatzbereit in 48 Stunden.",
@@ -1714,7 +1714,7 @@ const pt: SubpagesBase = {
     },
     seo: {
       title: "LLC no Wyoming · Privacidade e proteção de ativos",
-      description: "Wyoming é o padrão de ouro em privacidade e proteção de ativos. LLC com EIN, banca americana e agente registado, sem viajar aos EUA. Comece hoje.",
+      description: "Wyoming é o padrão de ouro em privacidade e proteção de ativos. LLC com EIN, banca americana e agente registado, sem viagem. Agende sua chamada.",
       keywords: "LLC Wyoming, asset protection LLC, LLC privacidade, LLC para não residentes, holding Wyoming",
       ogTitle: "LLC Wyoming: máxima proteção patrimonial nos EUA",
       ogDescription: "LLC no Wyoming com a maior proteção patrimonial dos EUA: charging order e privacidade legal. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
@@ -1787,7 +1787,7 @@ const pt: SubpagesBase = {
     },
     seo: {
       title: "LLC no Delaware · O estado dos investidores sérios",
-      description: "O estado favorito de VCs e founders: enquadramento jurídico sólido e prestígio global. LLC no Delaware com EIN, banca e agente registado. Comece hoje.",
+      description: "Estado favorito de VCs e founders: enquadramento jurídico sólido e prestígio global. LLC no Delaware, com EIN e banca americana. Comece hoje.",
       keywords: "LLC Delaware, LLC startup, LLC investimento, Delaware para não residentes, jurisdição corporativa",
       ogTitle: "LLC Delaware: referência para VCs e B2B sério",
       ogDescription: "LLC em Delaware: jurisdição de referência para startups, rodadas de investimento e contratos B2B. Exentax: constituição, banca e compliance da sua LLC.",
@@ -2084,7 +2084,7 @@ const ca: SubpagesBase = {
     },
     seo: {
       title: "LLC a Wyoming · Privacitat i protecció d'actius",
-      description: "Wyoming és l'estàndard d'or en privacitat i protecció d'actius. LLC amb EIN, banca americana i agent registrat, sense viatjar als EUA. Comença avui.",
+      description: "Wyoming és l'estàndard d'or en privacitat i protecció d'actius. LLC amb EIN, banca americana i agent registrat, sense viatjar. Comença avui.",
       keywords: "LLC Wyoming, asset protection LLC, LLC privacitat, LLC per a no residents, holding Wyoming",
       ogTitle: "LLC Wyoming: blindatge patrimonial líder als EUA",
       ogDescription: "LLC a Wyoming amb la major protecció patrimonial dels EUA: charging order i privacitat legal. Exentax: constitució, banca i compliance de la teva LLC.",
@@ -2231,7 +2231,7 @@ const ca: SubpagesBase = {
     },
     seo: {
       title: "LLC a Florida · La teva porta als EUA i LATAM",
-      description: "Si vens als EUA o a LATAM, Florida és la teva base. LLC amb EIN, banca americana, agent registrat i assessoria contínua en català. Comença avui.",
+      description: "Si vens als EUA o a LATAM, Florida és la teva base. LLC amb EIN, banca americana, agent registrat i assessoria en català inclosa. Comença avui.",
       keywords: "LLC Florida, LLC Miami, LLC per a hispans, LLC Amazon FBA Florida, obrir empresa Florida",
       ogTitle: "LLC Florida: la teva porta al mercat hispà de Miami",
       ogDescription: "LLC a Florida amb presència real, banca en castellà i connexió directa amb el mercat hispà de Miami. Exentax: la teva LLC americana operativa en 48 hores.",
