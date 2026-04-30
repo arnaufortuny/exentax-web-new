@@ -189,9 +189,9 @@ export const ptTranslations: EmailTranslations = {
         {
           subject: "As 3 dúvidas que me colocam SEMPRE (e como respondo)",
           paragraphs: [
-            "Após três anos a montar LLCs para freelancers e pequenas empresas espanholas, ouço as mesmas três dúvidas em 90 % das primeiras chamadas. Vou respondê-las agora para que não te travem.",
-            "<strong>1. \"Isto é legal em Espanha?\"</strong> Sim, totalmente. A LLC é uma entidade reconhecida pela convenção para evitar a dupla tributação entre os EUA e Espanha, e como residente fiscal espanhol continuas a declarar cá. O que muda é a estrutura por onde passam os teus rendimentos: em vez de tributar tudo como rendimento de actividade independente, separamos a remuneração do sócio (continua tributada em Espanha) do lucro da sociedade (com tratamento fiscal muito mais eficiente). A administração fiscal conhece este enquadramento, está documentado, e milhares de pessoas fazem-no todos os anos.",
-            "<strong>2. \"E se for fiscalizado?\"</strong> É a pergunta que mais acalma assim que respondemos. Toda a estrutura fica documentada desde a origem: actas, contratos, modelos 720 / 721, contas separadas, cada movimento rastreado. Se a administração ligar, chegas com tudo na mão. E na prática: as LLCs bem montadas não levantam alertas, porque são declaradas exactamente como a administração espera.",
+            "Após três anos a montar LLCs para freelancers e pequenas empresas portuguesas, ouço as mesmas três dúvidas em 90 % das primeiras chamadas. Vou respondê-las agora para que não te travem.",
+            "<strong>1. \"Isto é legal em Portugal?\"</strong> Sim, totalmente. A LLC é uma entidade reconhecida pela convenção para evitar a dupla tributação entre Portugal e os EUA, e como residente fiscal português continuas a declarar cá. O que muda é a estrutura por onde passam os teus rendimentos: em vez de tributar tudo como rendimento de actividade independente, separamos a remuneração do sócio (continua tributada em Portugal) do lucro da sociedade (com tratamento fiscal muito mais eficiente). As Finanças conhecem este enquadramento, está documentado, e milhares de pessoas fazem-no todos os anos.",
+            "<strong>2. \"E se for fiscalizado?\"</strong> É a pergunta que mais acalma assim que respondemos. Toda a estrutura fica documentada desde a origem: actas, contratos, Modelo 3 do IRS com anexo J, contas separadas, cada movimento rastreado. Se as Finanças ligarem, chegas com tudo na mão. E na prática: as LLCs bem montadas não levantam alertas, porque são declaradas exactamente como as Finanças esperam.",
             "<strong>3. \"Quanto demora e quanto custa manter?\"</strong> Constituição: 3 a 4 semanas. Depois, cerca de 600 € por ano — registo estatal, agente residente, contabilidade básica. Se a tua poupança estimada são 12.000 €, a manutenção fica abaixo de 5 %. O investimento paga-se no primeiro mês.",
             "Se uma destas três ainda te trava, di-lo na chamada. É exactamente para isso que a assessoria serve — para saíres com zero dúvidas e uma decisão clara, em qualquer dos sentidos.",
           ],
@@ -238,7 +238,7 @@ export const ptTranslations: EmailTranslations = {
           subject: "Explico-te como funciona em menos de 2 minutos.",
           paragraphs: [
             "Uma LLC americana é uma empresa constituída nos Estados Unidos.",
-            "Se és residente em Espanha e a tua LLC não tem clientes americanos, não pagas imposto sobre o rendimento das empresas nos EUA. E não existe nada semelhante às contribuições mensais obrigatórias. Se num mês não faturares, esse mês não pagas nada de fixo.",
+            "Se és residente em Portugal e a tua LLC não tem clientes americanos, não pagas imposto sobre o rendimento das empresas nos EUA. E não existe nada semelhante às contribuições mensais obrigatórias. Se num mês não faturares, esse mês não pagas nada de fixo.",
             "Sim, declaras os teus lucros no IRS português. Isso não muda. Mas desaparece esse custo fixo mensal que sai da conta independentemente do que aconteça.",
             "O processo completo connosco demora entre 5 e 15 dias. Tudo remoto. Sem viagens. Sem burocracia interminável.",
             "É assim tão simples.",
