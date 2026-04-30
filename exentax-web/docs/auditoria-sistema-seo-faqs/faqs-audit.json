@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T11:59:59.603Z",
+  "generatedAt": "2026-04-30T13:12:21.277Z",
   "summary": {
     "totalFaqs": 83,
     "sectionCount": 8,
@@ -14,13 +14,9 @@
       "pt": 20,
       "ca": 20
     },
-    "issuesByCriticality": {
-      "P2": 2
-    },
-    "issuesByArea": {
-      "blog-faq-coverage-gap": 2
-    },
-    "totalIssues": 2
+    "issuesByCriticality": {},
+    "issuesByArea": {},
+    "totalIssues": 0
   },
   "structure": [
     {
@@ -9614,17 +9610,21 @@
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 1,
+          "qaCount": 3,
           "questions": [
-            "Une SMLLC sans activité peut-elle être « abandonnée »?"
+            "Une SMLLC sans activité peut-elle être « abandonnée »?",
+            "Comment valoriser une LLC à vendre?",
+            "La dissolution est-elle imposée dans mon pays?"
           ]
         },
         "de": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 1,
+          "qaCount": 3,
           "questions": [
-            "Kann eine inaktive SMLLC einfach „liegen gelassen\" werden?"
+            "Kann eine inaktive SMLLC einfach „liegen gelassen\" werden?",
+            "Wie wird eine LLC für den Verkauf bewertet?",
+            "Wird die Auflösung im Wohnsitzland besteuert?"
           ]
         },
         "pt": {
@@ -9916,28 +9916,5 @@
       }
     }
   },
-  "issues": [
-    {
-      "criticality": "P2",
-      "area": "blog-faq-coverage-gap",
-      "location": "client/src/data/blog-content/fr/vender-o-cerrar-llc-comparativa-practica.ts",
-      "description": "Blog \"vender-o-cerrar-llc-comparativa-practica\" (fr): 1 Q/A vs 3 en ES",
-      "evidence": "{\"es\":3,\"fr\":1}",
-      "suggestion": "Alinear cantidad de Q/A con la versión ES",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "blog-faq-coverage-gap",
-      "location": "client/src/data/blog-content/de/vender-o-cerrar-llc-comparativa-practica.ts",
-      "description": "Blog \"vender-o-cerrar-llc-comparativa-practica\" (de): 1 Q/A vs 3 en ES",
-      "evidence": "{\"es\":3,\"de\":1}",
-      "suggestion": "Alinear cantidad de Q/A con la versión ES",
-      "languages": [
-        "de"
-      ]
-    }
-  ]
+  "issues": []
 }

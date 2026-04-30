@@ -106,6 +106,10 @@ Choisir entre **vendre** et **fermer** une LLC a des conséquences fiscales et o
 
 **Une SMLLC sans activité peut-elle être « abandonnée »?** Non. Sans Annual Report ni Registered Agent elle finit *Forfeited*, mais les obligations IRS (5472 si mouvements) restent vivantes avec sanctions en cascade. Et si un avis tombe, chez Exentax on garde le dossier prêt pour que vous répondiez en heures, pas en semaines.
 
+**Comment valoriser une LLC à vendre?** En digital, multiples typiques de **2-4× SDE annuel** ou **3-5× EBITDA** selon la niche. La cession exige la réattribution des comptes (Mercury relance le KYC) et des passerelles (revue Stripe). Les contrats clients transférables et la propriété intellectuelle clairement attribuée à la LLC tirent la valorisation vers le haut ; une dépendance forte au fondateur la tire vers le bas.
+
+**La dissolution est-elle imposée dans mon pays?** Cela dépend du régime. En France, la dissolution d'une LLC qualifiée de partnership entraîne le plus souvent une plus-value mobilière imposable au PFU 30 % (article 150-0 A du CGI), avec crédit d'impôt conventionnel pour l'éventuel impôt américain. En Belgique et en Suisse, la qualification dépend du traitement « par transparence » ou « par opacité » retenu par l'administration locale ; vérifier la convention bilatérale avant le closing.
+
 <!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-fr -->
 ## Comment lire le choix vendre ou fermer la LLC comme une cartographie stable plutôt que comme une décision émotionnelle
 
@@ -117,10 +121,6 @@ Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#cal
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
-
-**Comment valoriser une LLC à vendre?** En digital, multiples typiques de **2-4× SDE annuel** ou **3-5× EBITDA** selon le niche. La cession exige la réattribution des comptes (Mercury relance le KYC) et des passerelles (revue Stripe).
-
-**La dissolution est-elle imposée dans mon pays?** Cela dépend du régime. En France, en général plus-value mobilière imposable au prélèvement forfaitaire unique (PFU 30 %).
 
 <!-- exentax:execution-v2 -->
 ## Vendre ou fermer la LLC: comment nous décidons chez Exentax

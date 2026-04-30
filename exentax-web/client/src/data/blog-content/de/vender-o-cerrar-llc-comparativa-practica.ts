@@ -116,6 +116,10 @@ Die Wahl zwischen **Verkauf** und **Schließung** einer LLC hat aktuell untersch
 
 **Kann eine inaktive SMLLC einfach „liegen gelassen" werden?** Nein. Ohne Annual Report und Registered Agent endet sie *Forfeited*, aber IRS-Pflichten (5472 bei Bewegungen) bleiben mit kaskadierenden Sanktionen bestehen. Genau deshalb halten wir bei Exentax Ihren Kalender bündig — Sie müssen nicht mehr an Fristen denken, wir schließen sie ab, bevor sie zubeißen.
 
+**Wie wird eine LLC für den Verkauf bewertet?** Im Digitalgeschäft typische Multiplikatoren **2-4× jährliches SDE** oder **3-5× EBITDA** je nach Nische. Die Übertragung verlangt einen Kontoumzug (Mercury erneuert KYC) und eine Gateway-Prüfung (Stripe). Übertragbare Kundenverträge und sauber der LLC zugeordnetes geistiges Eigentum heben die Bewertung; eine starke Abhängigkeit vom Gründer drückt sie. Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen — früh sprechen lohnt sich und spart Ihnen fünf Stellen.
+
+**Wird die Auflösung im Wohnsitzland besteuert?** Hängt vom jeweiligen Regime ab. In Deutschland qualifiziert die Auflösung einer als Kapitalgesellschaft eingestuften LLC als Veräußerungsgewinn nach § 17 EStG (Teileinkünfteverfahren, 60 % steuerpflichtig) bzw. bei Personengesellschafts-Klassifizierung als Mitunternehmeranteilsveräußerung nach § 16 EStG. In Österreich greift bei Anteilen an einer Kapitalgesellschaft die Sondersteuer von 27,5 % nach § 27 EStG; in der Schweiz hängt die Behandlung von der kantonalen Einstufung als Vermögens- oder Einkommensbestandteil ab.
+
 <!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-de -->
 ## Wie sich die Wahl Verkaufen oder Schließen der LLC als stabile Kartografie statt als emotionale Entscheidung lesen lässt
 
@@ -127,10 +131,6 @@ Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calcul
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
-
-**Wie wird eine LLC für den Verkauf bewertet?** Im Digitalgeschäft typische Multiplikatoren **2-4× jährliches SDE** oder **3-5× EBITDA** je Nische. Übertragung verlangt Kontoumzug (Mercury erneuert KYC) und Gateway-Prüfung (Stripe). Bei Exentax haben wir Mandanten in genau dieser Lage ohne Strafe geschlossen. Früh sprechen lohnt sich — und spart Ihnen fünf Stellen.
-
-**Wird die Auflösung im Wohnsitzland besteuert?** Hängt vom Regime ab. In Deutschland je nach Beteiligungsquote als Veräußerungsgewinn nach §17 EStG oder als Kapitalvermögen.
 
 <!-- exentax:execution-v2 -->
 ## LLC verkaufen oder schließen: wie wir bei Exentax entscheiden
