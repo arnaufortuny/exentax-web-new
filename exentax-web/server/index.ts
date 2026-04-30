@@ -832,6 +832,27 @@ httpServer.listen(
           })();
         }, 20000);
       }
+
+      // Recurring SEO live-audit (Task #49). Re-runs the same script the
+      // post-deploy hook above triggers, but on a 6-hour cadence so silent
+      // regressions between deploys (CDN mis-config, stale edge cache,
+      // partial rollout) get caught in hours instead of days. Reuses the
+      // script's own Discord envelope (#exentax-errores). Disable
+      // independently from the post-deploy hook with
+      // SEO_LIVE_AUDIT_RECURRING_DISABLE=1.
+      try {
+        const { startSeoLiveAuditRecurringScheduler } = await import(
+          "./scheduled/seo-live-audit-recurring"
+        );
+        const baseUrl = process.env.BASE_URL || `http://127.0.0.1:${port}`;
+        const t = startSeoLiveAuditRecurringScheduler({ baseUrl });
+        if (t) activeIntervals.push(t);
+      } catch (err) {
+        logger.warn(
+          `seo-live-audit recurring scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`,
+          "seo",
+        );
+      }
     } else {
       const { setupVite } = await import("./vite");
       await setupVite(httpServer, app);
