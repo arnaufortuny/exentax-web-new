@@ -214,7 +214,7 @@ export const ptTranslations: EmailTranslations = {
       ctaBook: "Marcar a minha assessoria gratuita",
       greeting: (name) => name ? `Olá ${name},` : "Olá,",
       sigClosing: "Um abraço,",
-      unsubNote: "Recebeu estes emails porque pediu o guia gratuito ou marcou uma assessoria em exentax.com.",
+      unsubNote: "Recebes estes emails porque pediste o guia gratuito ou marcaste uma assessoria em exentax.com.",
       steps: [
         {
           subject: "O teu guia já chegou. Mas lê isto primeiro.",
