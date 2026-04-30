@@ -117,6 +117,14 @@ function backoffFor(attempts: number): string {
  * Test-only injection hooks. ESM exports are read-only, so the
  * regression test in `tests/drip-exactly-once.test.ts` plugs stubs
  * through these setters rather than monkeypatching imports.
+ *
+ * Hard-guarded against production: `_setSendOverridesForTests` and
+ * `_drainOnceForTests` throw if `NODE_ENV === "production"` so a
+ * stray import (or a future code path that mistakes them for public
+ * API) cannot redirect real customer drip mail to a stub. The guard
+ * sits at the call sites — the module-level state is only mutated
+ * through `_setSendOverridesForTests`, so guarding the setter is
+ * enough to keep the test stubs out of the production dispatch path.
  */
 type GuideSender = typeof sendDripEmailOnce;
 type CalcSender = typeof sendCalcDripEmailOnce;
@@ -125,11 +133,20 @@ let _testGuideSender: GuideSender | null = null;
 let _testCalcSender: CalcSender | null = null;
 let _testMarkSent: MarkSentFn | null = null;
 
+function assertTestHookAllowed(hookName: string): void {
+  if (process.env.NODE_ENV === "production") {
+    throw new Error(
+      `drip-worker: ${hookName} is a test-only hook and cannot be invoked when NODE_ENV=production`,
+    );
+  }
+}
+
 export function _setSendOverridesForTests(opts: {
   guide?: GuideSender | null;
   calc?: CalcSender | null;
   markSent?: MarkSentFn | null;
 }): void {
+  assertTestHookAllowed("_setSendOverridesForTests");
   if (opts.guide !== undefined) _testGuideSender = opts.guide;
   if (opts.calc !== undefined) _testCalcSender = opts.calc;
   if (opts.markSent !== undefined) _testMarkSent = opts.markSent;
@@ -467,9 +484,11 @@ async function drainOnce(): Promise<void> {
 /**
  * Test-only: invoke a single drain pass synchronously. Used by
  * `tests/drip-exactly-once.test.ts` to reproduce the residual scenarios
- * without waiting on the worker timer.
+ * without waiting on the worker timer. Hard-guarded against production
+ * (see `assertTestHookAllowed` above).
  */
 export async function _drainOnceForTests(): Promise<void> {
+  assertTestHookAllowed("_drainOnceForTests");
   await drainOnce();
 }
 
