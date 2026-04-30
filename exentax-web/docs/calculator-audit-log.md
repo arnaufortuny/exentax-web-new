@@ -157,3 +157,81 @@ npx tsc --noEmit                 # clean
 npm run test:calculator          # 116/116 ✅
 npx drizzle-kit push --force     # OK (migración aplicada)
 ```
+
+---
+
+## Tarea #46 — Auditoría exhaustiva 2026-04 (2.ª pasada)
+
+**Fecha:** 2026-04-30
+**Estado:** ✅ Cerrada — `npm run test:calculator` 416/416, `npx tsc --noEmit` clean.
+
+Re-verificación punto a punto de las constantes 2026 frente a fuentes
+oficiales (HMRC, BMF, AT, SAT, SII, AGN, BOE, BOSA) y corrección de gaps
+de modelado legal. Los 8 países activos (España, México, Chile,
+Reino Unido, Francia, Bélgica, Alemania, Portugal) quedan documentados
+con `// SOURCE:` directo en `calculator-config.ts` y un comentario
+explícito `re-verified 2026-04-30`.
+
+### Cambios de modelo
+
+| País | Constante / función | Antes | Ahora | Fuente |
+|------|---------------------|-------|-------|--------|
+| UK | `calcUKCorporationTax` | 19 % plano | 19 % small / marginal relief 22.75 % / 25 % main | HMRC FA 2021 + CTM03900 |
+| UK | `UK_NI_RATE_MAIN` | 8 % | **6 %** (FY 2026/27) | HMRC NIM24151 |
+| UK | `UK_DIVIDEND_ALLOWANCE_GBP` | 1 000 | **500** | Spring Budget 2026 |
+| BE | `BELGIUM_COMMUNAL_SURCHARGE` | — | **0,07** (media nacional) | SPF Finances 2026 |
+| DE | `GERMANY_SOLI_FREIGRENZE_SINGLE/JOINT` | — | **18 130 / 36 260 €** | BMF SolzG § 3 |
+| DE | `GERMANY_GEWERBE_HEBESATZ_*` | único 400 % | **LOW 250 % / MED 400 % / HIGH 490 %** | BMF GewStG § 16 + IHK 2026 |
+| CL | `CHILE_PRIMERA_CATEGORIA_PRO_PYME_RATE` | — | **0,25** (14 D N° 3) | Ley 21.420 + SII 2026 |
+| CL | `CHILE_UTM_MONTHLY` | 65 967 | **69 755** (abr 2026) | DS Hacienda |
+| PT | `PORTUGAL_IRC_REDUCED_*` | — | **17 % primeros 50 000 €** | CIRC 87.º-2 (PME) |
+| PT | `PORTUGAL_IRS_DERRAMA_BRACKETS` | 2 % plano | **2,5 / 4,75 / 5 % escalonada** | CIRS 68.º-A |
+| ES | `CCAA_PROFILE_MAP` | — | 17 CCAA + Ceuta/Melilla → low/med/high | BOE / BOPV / BON 2026 |
+| MX | label régimen | "RESICO" | **"Persona Física régimen general (ISR)"** (6 idiomas) | LISR Cap. II Sec. I |
+| Todos | `COUNTRY_VAT` + `resolveVatRate` + `vatMode` | — | objeto extendido (general/reducido/exportB2B) | BOE / DOUE 2026 |
+| LLC | CFC notes | — | bloque `note` con LIRPF 91, CGI 209 B, AStG, CIRC 66, TIOPA 9A, CIR 185/2, LISR 176, Ley 21.713 | OCDE CFC + normativa nacional |
+
+### Compat preservada (no breaks)
+
+- `COUNTRY_VAT_RATES` derivado automáticamente de `COUNTRY_VAT.<c>.general`.
+- `GERMANY_GEWERBE_EFFECTIVE_RATE` mantenido = `MEDIUM` (default cuando no se pasa `germanyHebesatz`).
+- `PORTUGAL_IRS_DERRAMA_RATE` mantenido = primer bracket (0,025) para call-sites antiguos.
+- `calcGermanTax` y `calcChileTax` aceptan `options?: CalcOptions` opcional.
+
+### Tests añadidos (270 → 416)
+
+Nuevos bloques 46.1 → 46.19 en `client/src/lib/calculator.test.ts`:
+
+| Bloque | Cobertura |
+|--------|-----------|
+| 46.1 | UK marginal relief (low<mid<high), constantes UPPER_THRESHOLD, MARGINAL_FRACTION, dividend allowance, NI Class 4 6 % |
+| 46.2 | BE additionnelle communale, IPP cobrado = round(IPP × 1,07) |
+| 46.3 | DE Soli Freigrenze, Hebesatz low<med<high, EFFECTIVE_RATE === MEDIUM |
+| 46.4 | CL Pro PYME 25 % vs General 27 %, etiqueta breakdown, UTM 69.755 |
+| 46.5 | PT IRC reducido 17 %, derrama escalonada 3 brackets, sin LLC monótono |
+| 46.6 | VAT exportB2B = 0 (España), COUNTRY_VAT/resolveVatRate, back-compat COUNTRY_VAT_RATES |
+| 46.7 | MX label rename "Persona Física régimen general (ISR)" + tabla RESICO documentada |
+| 46.8 | CCAA_PROFILE_MAP — Madrid low, Cataluña high, Asturias high, Ceuta/Melilla low, forales |
+| 46.9 | España IRPF perfil low ≤ medium ≤ high (sinLLC monótono) |
+| 46.10 | Email parity — `server/email/calculator.ts` no redefine brackets locales |
+| 46.11–46.18 | Label MX en 6 locales (es/ca/en/fr/de/pt) sin "RESICO" + menciona "ISR" |
+| 46.12 | Smoke 8 países × 2 regímenes — sinLLC finito, effectiveRate ∈ [0,100] |
+| 46.13 | VAT exportB2B = 0 en los 8 países |
+| 46.14 | UK dividend allowance — dividendTax = 0 cuando bruto < £500 |
+| 46.15 | DE Soli Freigrenze — ESt pequeño → Soli ~0 |
+| 46.16 | Documentación — config menciona `re-verified 2026-04-30` y ≥ 8 `SOURCE:` |
+| 46.17 | CFC notes — calculator.ts comenta art. 91 LIRPF, 209 B CGI, AStG, art. 66 CIRC, TIOPA 9A, art. 185/2 CIR, art. 176 LISR, Ley 21.713 |
+| 46.19 | Stress test — 50.000 €/mes en sociedad para los 8 países, sin overflow |
+
+### Validación
+
+```
+npx tsc --noEmit              # clean
+npm run test:calculator       # 416/416 ✅
+```
+
+### Out of scope (UI changes)
+
+Las propuestas de UX (selector Hebesatz, selector Régimen Pro PYME,
+toggle exportB2B, selector CCAA preciso) requieren aprobación expresa
+del usuario y se documentan como follow-ups #47, #48, #49.

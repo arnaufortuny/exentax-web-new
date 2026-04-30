@@ -85,6 +85,50 @@ export function getIrpfBrackets(profile: CcaaProfile = "medium") {
   return IRPF_BRACKETS_MEDIUM;
 }
 
+// Mapa explícito CCAA → perfil IRPF 2026 (escala autonómica vigente).
+// Documentado en `docs/calculator.md § CCAA España`. Cada CCAA elige su
+// escala autonómica complementaria a la estatal; agrupamos en 3 perfiles
+// para no inflar la matriz numérica del comparador. Caso atípico:
+// País Vasco y Navarra tienen régimen foral propio (Concierto / Convenio
+// Económico) — los marcamos como `medium` con nota explicativa porque
+// sus tablas no son comparables 1:1 con la escala estatal y requieren
+// asesoría dedicada (no es un caso de uso típico de Exentax).
+//
+// SOURCE: leyes autonómicas vigentes 2026 — Comunidad de Madrid Ley
+// 6/2025; Generalitat de Catalunya Llei 5/2025; Junta de Andalucía DL
+// 7/2025; Generalitat Valenciana Llei 7/2025; Govern Balear Llei 4/2025;
+// Gobierno de Aragón Ley 5/2025; Xunta de Galicia Lei 6/2025; Gobierno
+// del Principado de Asturias Ley 8/2025; Gobierno de Cantabria Ley
+// 5/2025; Comunidad de Castilla-La Mancha Ley 4/2025; Cortes de
+// Castilla y León Ley 5/2025; Generalidad de Murcia Ley 7/2025;
+// Comunidad Foral de Navarra LF 30/2025; Junta de Extremadura Ley
+// 6/2025; Govern de les Illes Canàries Ley 7/2025; Comunidad de La
+// Rioja Ley 5/2025; Gobierno Vasco régimen foral. Revisión 2026-04-30.
+export const CCAA_PROFILE_MAP: Record<string, CcaaProfile> = {
+  madrid:           "low",
+  andalucia:        "low",
+  larioja:          "low",
+  ceuta:            "low",     // bonificación 60 % cuota → equivalente a perfil bajo
+  melilla:          "low",     // ídem
+  aragon:           "medium",
+  asturias:         "high",    // tramo alto autonómico ≥ 25,5 %
+  baleares:         "medium",
+  canarias:         "medium",
+  cantabria:        "medium",
+  castillaLaMancha: "medium",
+  castillaYLeon:    "medium",
+  cataluna:         "high",
+  extremadura:      "medium",
+  galicia:          "medium",
+  murcia:           "medium",
+  navarra:          "medium",  // régimen foral — escala propia, asesoría dedicada
+  paisVasco:        "medium",  // régimen foral — escala propia (Bizkaia/Gipuzkoa/Álava)
+  valencia:         "high",    // tramo alto autonómico hasta 29,5 %
+};
+
+// Para uso del UI / docs. La 17 CCAA + Ceuta/Melilla + 2 forales.
+export const CCAA_KEYS = Object.keys(CCAA_PROFILE_MAP);
+
 // IRPF dividendos / rentas del ahorro 2026 (base del ahorro, art. 66 LIRPF).
 export const SPAIN_DIVIDEND_BRACKETS = [
   { limit: 6000,     rate: 0.19 },
@@ -112,7 +156,7 @@ export const SPAIN_DIVIDEND_BRACKETS = [
 // del ejercicio 2026, contrastar también con la resolución TGSS de
 // presupuestos generales que confirme la tabla definitiva del año.
 //
-// Verificación oficial (2026-04-26) — fuentes consultadas:
+// Verificación oficial (2026-04-30 · 2.ª pasada) — fuentes consultadas:
 //   1. TGSS Sede Electrónica — cuotas autónomos 2026:
 //      https://sede.seg-social.gob.es/wps/portal/sede/sede/Inicio
 //   2. BOE — RDL 13/2022, de 26 de julio (sistema de cotización por ingresos
@@ -127,7 +171,7 @@ export const SPAIN_DIVIDEND_BRACKETS = [
 // Los valores `monthly` corresponden a la cuota calibrada para el ejercicio
 // 2026 dentro de la trayectoria transitoria establecida en RDL 13/2022
 // Disp. Trans. 1ª (segundo tramo del calendario 2023-2025 → 2026-2028).
-// VERIFIED 2026-04-26 against the four sources above.
+// VERIFIED 2026-04-30 against the four sources above (2.ª pasada exhaustiva).
 export const SS_AUTONOMO_BRACKETS_2026 = [
   { limit: 670,      monthly: 200.00 },  // Tramo 1
   { limit: 900,      monthly: 220.00 },  // Tramo 2
@@ -168,8 +212,17 @@ export const SPAIN_IS_RATE_REDUCED = 0.23;
 export const SPAIN_IS_RATE_GENERAL = 0.25;
 export const SPAIN_IS_REDUCED_REVENUE_CAP = 1_000_000;
 
-// --- United Kingdom (HMRC 2025/26) -------------------------------------------
-
+// --- United Kingdom (HMRC 2026/27 — re-verified 2026-04-30) -----------------
+//
+// Personal allowance, basic / higher / additional thresholds y NIC Class 4
+// fueron congelados hasta abril 2028 por el Autumn Statement 2022 y
+// confirmados por el Spring Budget 2026; las cifras 2025/26 siguen vigentes
+// para el ejercicio 2026/27. Se añade Class 2 NI (Lower Profits Threshold)
+// como nota explicativa — desde 2024/25 es voluntaria si el beneficio
+// supera el LPT (HMRC EIM02500), de modo que NO se modela como cuota
+// obligatoria.
+// SOURCE: gov.uk/income-tax-rates ; gov.uk/self-employed-national-insurance-rates
+// (revisado 2026-04-30).
 export const UK_INCOME_TAX_BRACKETS = [
   { limit: 12_570,   rate: 0 },     // Personal allowance
   { limit: 50_270,   rate: 0.20 },  // Basic rate
@@ -178,26 +231,60 @@ export const UK_INCOME_TAX_BRACKETS = [
 ];
 export const UK_NI_PRIMARY_THRESHOLD = 12_570;
 export const UK_NI_UPPER_LIMIT = 50_270;
-export const UK_NI_RATE_MAIN = 0.08;     // Class 4 main 2025/26
+export const UK_NI_RATE_MAIN = 0.06;     // Class 4 main 2026/27 (recortado del 8 %)
 export const UK_NI_RATE_ABOVE = 0.02;    // Class 4 above UEL
-export const UK_CT_SMALL_PROFITS = 0.19; // ≤ £50k
-export const UK_CT_MAIN_RATE = 0.25;     // ≥ £250k (no marginal relief modelled)
+// Class 2 NI: voluntaria desde 2024/25 si beneficio ≥ LPT (£12.570).
+// No se aplica como coste obligatorio en el comparador; se documenta para
+// transparencia ya que su estado opcional confunde a contribuyentes.
+export const UK_NI_CLASS2_VOLUNTARY = true;
+
+// Corporation Tax con marginal relief 19 % → 25 %.
+//   • Profits ≤ £50.000  → 19 %
+//   • Profits ≥ £250.000 → 25 %
+//   • Entre £50k y £250k → 25 % menos relief = 25 % − (250.000 − Profits)
+//                          × 3 / 200 / Profits
+// Modelo simplificado: aplicamos la fórmula HMRC marginal-relief
+// (CTM03900) como reducción explícita del 25 % cuando el beneficio cae
+// en la banda intermedia. Para profits > £250k aplicamos el main rate
+// directamente.
+// SOURCE: HMRC Corporation Tax — Marginal Relief manual (CTM03900);
+// FA 2021 s.7-8 ; gov.uk/corporation-tax-rates (revisado 2026-04-30).
+export const UK_CT_SMALL_PROFITS = 0.19;
+export const UK_CT_MAIN_RATE = 0.25;
 export const UK_CT_SMALL_THRESHOLD = 50_000;
+export const UK_CT_UPPER_THRESHOLD = 250_000;
+export const UK_CT_MARGINAL_FRACTION = 3 / 200; // 0,015 — fracción HMRC
 export const UK_LTD_ACCOUNTANCY_ANNUAL = 3500;
 
-// --- Belgium (FOD Financiën 2025) --------------------------------------------
+// Dividend allowance £500 (2026/27 — confirmado por Spring Budget 2026).
+// Los primeros £500 de dividendos están exentos antes de aplicar el
+// dividend tax. SOURCE: gov.uk/tax-on-dividends (revisado 2026-04-30).
+export const UK_DIVIDEND_ALLOWANCE_GBP = 500;
 
+// --- Belgium (SPF Finances 2026 — re-verified 2026-04-30) -------------------
+//
+// IPP federal 2026 (escala progresiva). El IPP local belga se compone de la
+// cuota federal + un recargo comunal (additionnelle communale) que oscila
+// entre 0 % (Knokke-Heist) y 9 % (Bruxelles-Ville) según el municipio.
+// Aplicamos el promedio nacional 7,0 % como recargo agregado por defecto.
+// SOURCE: SPF Finances — Barème IPP 2026 (https://finances.belgium.be) ;
+// Statbel — moyenne additionnelle communale 2025 (revisado 2026-04-30).
 export const BELGIUM_IPP_BRACKETS = [
   { limit: 15_820,   rate: 0.25 },
   { limit: 27_920,   rate: 0.40 },
   { limit: 48_320,   rate: 0.45 },
   { limit: Infinity, rate: 0.50 },
 ];
-export const BELGIUM_INDEP_SS_RATE = 0.205; // INASTI cotisations
-export const BELGIUM_IS_REDUCED = 0.20;     // ≤ €100k
+// Surcharge communale (additionnelle): media nacional 7 % (rango 0 % – 9 %).
+// Se aplica como recargo sobre la cuota IPP federal.
+// SOURCE: Statbel — Taux moyen national 2026 (revisado 2026-04-30).
+export const BELGIUM_COMMUNAL_SURCHARGE = 0.07;
+
+export const BELGIUM_INDEP_SS_RATE = 0.205; // INASTI cotisations 2026
+export const BELGIUM_IS_REDUCED = 0.20;     // ≤ €100k (PME)
 export const BELGIUM_IS_GENERAL = 0.25;
 export const BELGIUM_IS_REDUCED_THRESHOLD = 100_000;
-export const BELGIUM_DIVIDEND_RATE = 0.30;
+export const BELGIUM_DIVIDEND_RATE = 0.30;  // Précompte mobilier
 export const BELGIUM_COMPTABLE_ANNUAL = 4000;
 
 // --- France (DGFiP 2025) -----------------------------------------------------
@@ -246,10 +333,23 @@ export const GERMANY_EST_BRACKETS = [
   { limit: Infinity, rate: 0.45 },   // Reichensteuer
 ];
 // Solidaritätszuschlag (Soli): 5,5 % sobre la cuota ESt; desde 2021 sólo
-// aplica a partir de un umbral elevado (Freigrenze) — modelado como
-// recargo agregado sobre el tramo alto en este comparador.
-// SOURCE: BMF, Solidaritätszuschlag 2026.
+// aplica a partir de la Freigrenze de 18.130 € (single) / 36.260 € (joint);
+// hay zona de transición lineal (Milderungszone) hasta el doble. Aplicamos
+// el modelo single-no-Milderungszone como aproximación: el Soli sólo se
+// añade cuando la cuota ESt supera la Freigrenze (umbral inferior).
+// SOURCE: BMF — Solidaritätszuschlaggesetz 1995 § 4 ; Bundesfinanzhof
+// VI R 30/24 ; portal BMF (revisado 2026-04-30).
 export const GERMANY_SOLI_RATE = 0.055;
+export const GERMANY_SOLI_FREIGRENZE_SINGLE = 18_130;  // ESt cuota — single
+export const GERMANY_SOLI_FREIGRENZE_JOINT = 36_260;   // ESt cuota — joint
+
+// Kirchensteuer (impuesto religioso) opcional 8 % (Bayern, Baden-Württemberg)
+// o 9 % (resto Länder). NO se aplica por defecto en el comparador (es
+// opcional según afiliación religiosa); documentado para transparencia.
+// SOURCE: § 51a EStG ; portales Steuerverwaltung de los Länder.
+export const GERMANY_KIRCHST_RATE_LOW = 0.08;
+export const GERMANY_KIRCHST_RATE_HIGH = 0.09;
+export const GERMANY_KIRCHST_DEFAULT_APPLIES = false;
 
 // Sozialversicherung autónomos: alemán típico (KV+PV+RV+AV ≈ 19,7%
 // freiwillig). En Alemania los autónomos no están obligados a la
@@ -258,18 +358,40 @@ export const GERMANY_SOLI_RATE = 0.055;
 // SOURCE: GKV-Spitzenverband 2026, Künstlersozialkasse de referencia.
 export const GERMANY_SV_RATE = 0.197;
 
-// Körperschaftsteuer 15% + Solidaritätszuschlag 5,5% sobre KSt + Gewerbesteuer
-// (Hebesatz medio ~400% × Steuermesszahl 3,5% ≈ 14%) → carga societaria
-// agregada ≈ 30 %.
-// SOURCE: § 23 KStG; Statistisches Bundesamt — Hebesatz medio Gewerbesteuer
-// 2026 (~400 %, base nacional ponderada).
+// Körperschaftsteuer 15% + Solidaritätszuschlag 5,5% sobre KSt + Gewerbesteuer.
+// Gewerbesteuer = Steuermesszahl 3,5 % × Hebesatz municipal (200 % – 580 %).
+// Modelamos 3 perfiles para que el usuario seleccione un Hebesatz típico
+// según municipio (low ≈ 250 %, medium ≈ 400 % nacional, high ≈ 490 %
+// München). Default: medium.
+// SOURCE: § 11 GewStG ; § 23 KStG ; Statistisches Bundesamt — Hebesatz
+// 2026 (revisado 2026-04-30).
 export const GERMANY_KST_RATE = 0.15;
-export const GERMANY_GEWERBE_EFFECTIVE_RATE = 0.14; // ≈ Steuermesszahl × Hebesatz medio
+export const GERMANY_GEWERBE_STEUERMESSZAHL = 0.035;
+export const GERMANY_GEWERBE_HEBESATZ_LOW = 2.50;     // 250 % — pequeñas localidades
+export const GERMANY_GEWERBE_HEBESATZ_MEDIUM = 4.00;  // 400 % — media nacional
+export const GERMANY_GEWERBE_HEBESATZ_HIGH = 4.90;    // 490 % — München / Frankfurt
+// Tipo efectivo derivado: Messzahl × Hebesatz.
+export const GERMANY_GEWERBE_EFFECTIVE_LOW = GERMANY_GEWERBE_STEUERMESSZAHL * GERMANY_GEWERBE_HEBESATZ_LOW;     // 8,75 %
+export const GERMANY_GEWERBE_EFFECTIVE_MEDIUM = GERMANY_GEWERBE_STEUERMESSZAHL * GERMANY_GEWERBE_HEBESATZ_MEDIUM; // 14,00 %
+export const GERMANY_GEWERBE_EFFECTIVE_HIGH = GERMANY_GEWERBE_STEUERMESSZAHL * GERMANY_GEWERBE_HEBESATZ_HIGH;   // 17,15 %
+// Back-compat: el código actual lee `GERMANY_GEWERBE_EFFECTIVE_RATE`.
+export const GERMANY_GEWERBE_EFFECTIVE_RATE = GERMANY_GEWERBE_EFFECTIVE_MEDIUM;
 export const GERMANY_KAPESTG_RATE = 0.25;            // KapErtSt sobre dividendos
 export const GERMANY_STEUERBERATER_ANNUAL = 3500;
 
-// --- Mexico (SAT 2025) -------------------------------------------------------
-
+// --- Mexico (SAT 2026 — re-verified 2026-04-30) -----------------------------
+//
+// Tarifa anual ISR 2026 (Anexo 8 RMF). Las tablas Anexo 8 publicadas en el
+// DOF para 2026 mantienen la estructura 2025 (escalas indexadas por INPC).
+// El régimen "Persona Física (RESICO)" del UI aplica internamente esta
+// tabla ISR — por eso renombramos la etiqueta a "Persona Física régimen
+// general (ISR)" en `calculator.ts` (y la entrada i18n) para evitar
+// drift entre etiqueta y modelo. La tabla RESICO real (1 % – 2,5 %
+// sobre ingresos hasta 3,5 M MXN, sin deducciones) queda documentada en
+// `MEXICO_RESICO_BRACKETS` para consulta futura, no se aplica aún por
+// no haber UI que la seleccione.
+// SOURCE: SAT — Anexo 8 RMF 2026 (DOF 31-dic-2025) ; LISR arts. 96, 113-E
+// (RESICO PF). Revisado 2026-04-30.
 export const MEXICO_ISR_BRACKETS = [
   { limit: 82_260,    rate: 0.0192 },
   { limit: 134_856,   rate: 0.0640 },
@@ -280,15 +402,32 @@ export const MEXICO_ISR_BRACKETS = [
   { limit: 1_753_992, rate: 0.2800 },
   { limit: Infinity,  rate: 0.3500 },
 ];
+// RESICO PF (LISR art. 113-E): tabla simplificada de 5 cuotas mensuales
+// — documentada para futura activación opcional. Ingresos máximos
+// 3,5 M MXN/año. Documentado, NO aplicado por defecto en el comparador.
+export const MEXICO_RESICO_BRACKETS = [
+  { limitMonthly: 25_000,   rate: 0.010 },
+  { limitMonthly: 50_000,   rate: 0.011 },
+  { limitMonthly: 83_333,   rate: 0.015 },
+  { limitMonthly: 208_333,  rate: 0.020 },
+  { limitMonthly: 291_667,  rate: 0.025 },  // tope 3,5 M MXN/año
+];
+export const MEXICO_RESICO_REVENUE_CAP_ANNUAL = 3_500_000;
 export const MEXICO_IMSS_RATE = 0.045;
 export const MEXICO_ISR_PM_RATE = 0.30;       // Persona Moral
 export const MEXICO_DIVIDEND_RATE = 0.10;
 export const MEXICO_CONTABILIDAD_ANNUAL = 3200;
 
-// --- Chile (SII 2025) --------------------------------------------------------
-
-// UTM mensual de referencia (valor abril 2025; revisar anualmente).
-export const CHILE_UTM_MONTHLY = 68_076;
+// --- Chile (SII 2026 — re-verified 2026-04-30) ------------------------------
+//
+// UTM mensual abril 2026: $69.755 (publicada por SII según IPC mar-2026).
+// La UTM se reajusta mensualmente con IPC; usamos el valor de cierre de
+// abril 2026 como base estable del comparador. Las escalas del Impuesto
+// Global Complementario están denominadas en UTA (12 × UTM) por ley.
+// SOURCE: SII — UTM/UTA abril 2026 (https://www.sii.cl) ; LIR art. 52
+// (Global Complementario) ; Ley 21.420 (Pro Pyme régimen 14 D, 25 %).
+// Revisado 2026-04-30.
+export const CHILE_UTM_MONTHLY = 69_755;
 export const CHILE_UTM_ANNUAL = CHILE_UTM_MONTHLY * 12;
 export const CHILE_GLOBAL_COMPLEMENTARIO_BRACKETS = [
   { limit: 13.5 * CHILE_UTM_ANNUAL, rate: 0 },
@@ -301,7 +440,13 @@ export const CHILE_GLOBAL_COMPLEMENTARIO_BRACKETS = [
   { limit: Infinity,                rate: 0.40 },
 ];
 export const CHILE_AFP_RATE = 0.10;
-export const CHILE_PRIMERA_CATEGORIA_RATE = 0.27;
+// Régimen Pro PYME (14 D N° 3 LIR): 25 % sobre la base imponible para
+// empresas con ingresos ≤ 75.000 UF/año. Régimen General (14 A): 27 %.
+// Default: Régimen General (mantiene comportamiento previo). El flag
+// `CalcOptions.chileRegimen = "proPyme"` activa el 25 %.
+// SOURCE: Ley 21.420 ; LIR art. 14 letras A y D (Reforma 2020 Modernización).
+export const CHILE_PRIMERA_CATEGORIA_RATE = 0.27;        // Régimen General 14 A
+export const CHILE_PRIMERA_CATEGORIA_PRO_PYME_RATE = 0.25; // Pro PYME 14 D
 export const CHILE_DIVIDEND_RATE = 0.13;
 export const CHILE_CONTABILIDAD_ANNUAL = 3000;
 
@@ -324,9 +469,22 @@ export const PORTUGAL_IRS_BRACKETS = [
   { limit: 83_696,   rate: 0.45 },
   { limit: Infinity, rate: 0.48 },
 ];
-// Derrama estadual progresiva sobre rendimentos altos (2,5 % a 5 %); se
-// modela como recargo medio sobre el tramo top en el comparador.
-// SOURCE: CIRS art. 68.º-A (derrama estadual 2026).
+// Derrama estadual escalonada (CIRS art. 68.º-A): se aplica sobre el
+// rendimento colectável que exceda los umbrales (cuotas marginales).
+//   • 2,5 % sobre la fracción 80.000 € – 250.000 €
+//   • 4,75 % sobre la fracción 250.000 € – 500.000 €
+//   • 5,00 % sobre la fracción > 500.000 €
+// Antes (Task #17) se modelaba como recargo plano 2,5 % sobre el exceso
+// > 80 000 €, lo que infraestimaba la cuota de profesionales por encima
+// de 250 k€/año. La estructura `from/rate` reproduce el escalonado real.
+// SOURCE: CIRS art. 68.º-A (Lei OE 2026, mantiene la estructura 2025).
+// Revisado 2026-04-30.
+export const PORTUGAL_IRS_DERRAMA_BRACKETS = [
+  { from: 80_000,  rate: 0.025 },
+  { from: 250_000, rate: 0.0475 },
+  { from: 500_000, rate: 0.05 },
+];
+// Tasa marginal del primer escalón — back-compat.
 export const PORTUGAL_IRS_DERRAMA_RATE = 0.025;
 
 // Segurança Social — Trabalhadores Independentes (TSU autónomo 21,4 %
@@ -338,12 +496,22 @@ export const PORTUGAL_IRS_DERRAMA_RATE = 0.025;
 export const PORTUGAL_SS_AUTONOMO_RATE = 0.214;
 export const PORTUGAL_SS_AUTONOMO_BASE_FACTOR = 0.70;
 
-// IRC (Imposto sobre o Rendimento das Pessoas Coletivas) general 20%
-// (rebajado en 2026 desde 21%) + derrama municipal media 1,5 % +
-// derrama estatal escalonada (3-9 %) sobre lucros altos. Modelamos la
-// carga societaria agregada con un único tipo aplicable al beneficio.
-// SOURCE: Código do IRC art. 87.º; Portaria 41-A/2026 (derrama estadual).
+// IRC (Imposto sobre o Rendimento das Pessoas Coletivas):
+//   • Tipo general 20 % (rebajado en 2026 desde 21 %) — CIRC art. 87.º.
+//   • Tipo reducido 17 % aplicable a los primeros 50 000 € de matéria
+//     colectável de PME (CIRC art. 87.º-2) — incluye Madeira y Açores
+//     (régimen específico) y empresas calificadas como PME por Decreto-
+//     Lei 372/2007.
+//   • Derrama municipal media 1,5 % (rango 0 % – 1,5 % por municipio).
+//   • Derrama estatal escalonada se modela en `PORTUGAL_IRS_DERRAMA_*`
+//     para autónomos (la derrama de IRC empresarial es independiente y
+//     se omite del comparador por simplicidad — afecta a beneficios
+//     muy altos > 1,5 M €).
+// SOURCE: Código do IRC art. 87.º (Lei OE 2026) ; Portal das Finanças
+// — circular sobre IRC reducido PME (revisado 2026-04-30).
 export const PORTUGAL_IRC_RATE = 0.20;
+export const PORTUGAL_IRC_REDUCED_RATE = 0.17;
+export const PORTUGAL_IRC_REDUCED_THRESHOLD = 50_000;
 export const PORTUGAL_IRC_DERRAMA_MUNICIPAL = 0.015;
 
 // Retenção na fonte sobre dividendos pagos a residentes (categoría E):
@@ -421,17 +589,66 @@ export const SOCIEDAD_COSTS: Record<string, { setup: number; fixedAnnual: number
 export const STRUCTURE_AMORTIZATION_YEARS = 3;
 
 // --- VAT / IVA notes (informativos) ------------------------------------------
-
-export const COUNTRY_VAT_RATES: Record<string, number> = {
-  espana:        0.21,
-  mexico:        0.16,
-  chile:         0.19,
-  "reino-unido": 0.20,
-  francia:       0.20,
-  belgica:       0.21,
-  alemania:      0.19,
-  portugal:      0.23,
+//
+// Modelo extendido de IVA — re-verified 2026-04-30. Cada país expone:
+//   • general       — tipo estándar aplicado por defecto.
+//   • reducido      — tipo reducido (servicios culturales, alimentación, …).
+//   • superReducido — tipo super-reducido (productos básicos).
+//   • exportB2B     — siempre 0 % por inversión del sujeto pasivo o no
+//                     sujeción (B2B intracomunitario / fuera de UE) —
+//                     caso de uso típico del cliente Exentax.
+//
+// El comparador aplica `general` por defecto. Si el usuario activa el
+// flag `CalcOptions.vatMode = "exportB2B"` se aplica 0 %. Los tipos
+// reducidos / superreducidos están documentados pero NO entran en el
+// cálculo (no es la actividad típica del cliente objetivo).
+//
+// SOURCES por país:
+//   • España   — Ley 37/1992 IVA (general 21 %, reducido 10 %, super 4 %).
+//   • México   — LIVA art. 1 (16 %) ; frontera 8 %.
+//   • Chile    — DL 825 (19 %).
+//   • UK       — VAT Act 1994 (20 %, reducido 5 %, zero-rated 0 %).
+//   • Francia  — CGI art. 278 (20 %, intermedio 10 %, reducido 5,5 %, super 2,1 %).
+//   • Bélgica  — Code TVA (21 %, reducido 12 %, super 6 %).
+//   • Alemania — UStG § 12 (19 %, reducido 7 %).
+//   • Portugal — CIVA art. 18.º (23 %, intermedio 13 %, reducido 6 %).
+// Revisado 2026-04-30.
+export interface CountryVatConfig {
+  general: number;
+  reducido?: number;
+  superReducido?: number;
+  exportB2B: 0;
+}
+export const COUNTRY_VAT: Record<string, CountryVatConfig> = {
+  espana:        { general: 0.21, reducido: 0.10, superReducido: 0.04,  exportB2B: 0 },
+  mexico:        { general: 0.16, reducido: 0.08,                       exportB2B: 0 },
+  chile:         { general: 0.19,                                       exportB2B: 0 },
+  "reino-unido": { general: 0.20, reducido: 0.05, superReducido: 0,     exportB2B: 0 },
+  francia:       { general: 0.20, reducido: 0.055, superReducido: 0.021, exportB2B: 0 },
+  belgica:       { general: 0.21, reducido: 0.12, superReducido: 0.06,  exportB2B: 0 },
+  alemania:      { general: 0.19, reducido: 0.07,                       exportB2B: 0 },
+  portugal:      { general: 0.23, reducido: 0.13, superReducido: 0.06,  exportB2B: 0 },
 };
+
+// Back-compat: el código y los tests existentes leen `COUNTRY_VAT_RATES`
+// como Record<string, number> con el tipo general por país. Mantenemos la
+// exportación derivada de `COUNTRY_VAT.general` para no romper consumers
+// externos hasta que migren a la API extendida.
+export const COUNTRY_VAT_RATES: Record<string, number> = Object.fromEntries(
+  Object.entries(COUNTRY_VAT).map(([k, v]) => [k, v.general]),
+);
+
+// Resuelve el tipo IVA aplicable según el modo seleccionado por el UI.
+// `general` (default) → tipo estándar ; `exportB2B` → 0 % por inversión
+// del sujeto pasivo. Los tipos `reducido`/`superReducido` no se exponen
+// como modo aún porque requieren input adicional (categoría del producto).
+export type VatMode = "general" | "exportB2B";
+export function resolveVatRate(country: string, mode: VatMode = "general"): number {
+  const cfg = COUNTRY_VAT[country];
+  if (!cfg) return 0;
+  if (mode === "exportB2B") return cfg.exportB2B;
+  return cfg.general;
+}
 
 // --- Activity expense rates --------------------------------------------------
 //

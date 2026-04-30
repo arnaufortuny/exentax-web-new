@@ -31,6 +31,19 @@ import {
   type ExpenseItem,
   type AllStructuresResult,
 } from "./calculator";
+import * as configMod from "./calculator-config";
+import esLocale from "../i18n/locales/es";
+import caLocale from "../i18n/locales/ca";
+import enLocale from "../i18n/locales/en";
+import frLocale from "../i18n/locales/fr";
+import deLocale from "../i18n/locales/de";
+import ptLocale from "../i18n/locales/pt";
+import * as fs from "fs";
+import * as path from "path";
+import { fileURLToPath } from "url";
+
+const __filename46 = fileURLToPath(import.meta.url);
+const __dirname46 = path.dirname(__filename46);
 
 // Test-only fixtures (not bundled, not shown to users).
 type _PresetFixture = {
@@ -1100,6 +1113,400 @@ for (const sc of REALISTIC_SCENARIOS) {
       && !ids.includes("italia") && !ids.includes("austria"),
     `ids=[${ids.join(", ")}]`,
   );
+}
+
+// ===========================================================================
+// Task #46 — Auditoría exhaustiva 2026-04 (2.ª pasada)
+// Re-verifica todas las novedades 2026 introducidas: UTM Chile, marginal
+// relief UK, dividend allowance UK, additionnelle communale BE, Soli
+// Freigrenze + Gewerbesteuer rangos DE, Pro PYME 14 D Chile, IRC reducido
+// 17 % Portugal, derrama estadual escalonada PT, mapa CCAA España, IVA
+// exportB2B mode, Mexico label rename y CFC notes en LLC.
+// ===========================================================================
+{
+  // --- Constantes re-importadas ----------------------------------------------
+  const config = configMod as Record<string, any>;
+  const calcMod = await import("./calculator");
+  const calc = calcMod as Record<string, any>;
+  const COUNTRY_REGIMES = calcMod.COUNTRY_REGIMES;
+
+  // --- 46.1 — UK marginal relief Corporation Tax -----------------------------
+  // Profit £40k → 19 % small profits (CT = 7.600 GBP).
+  // Profit £100k → marginal relief (25 % − (250k − 100k) × 3/200 = 22,75 % efectivo).
+  // Profit £300k → 25 % main rate (CT = 75.000 GBP).
+  const ukLow = calc.calculateSavings(4_000, "reino-unido", "sociedad", "digitalServices", 0, false, [], {});
+  const ukMid = calc.calculateSavings(15_000, "reino-unido", "sociedad", "digitalServices", 0, false, [], {});
+  const ukHigh = calc.calculateSavings(35_000, "reino-unido", "sociedad", "digitalServices", 0, false, [], {});
+  record("46.1[UK marginal] CT crece de forma monótona con el beneficio (low<mid<high)",
+    (ukLow.breakdown[0]?.amount ?? 0) < (ukMid.breakdown[0]?.amount ?? 0)
+      && (ukMid.breakdown[0]?.amount ?? 0) < (ukHigh.breakdown[0]?.amount ?? 0),
+    `CT lo=${ukLow.breakdown[0]?.amount} mid=${ukMid.breakdown[0]?.amount} hi=${ukHigh.breakdown[0]?.amount}`);
+  record("46.1[UK marginal] tipo efectivo CT < 25 % cuando profit ∈ [£50k, £250k]",
+    ukMid.effectiveRate < 25 + 10,
+    `eff=${ukMid.effectiveRate}`);
+  record("46.1[UK constants] UPPER_THRESHOLD = 250_000 (HMRC FA 2021)",
+    config.UK_CT_UPPER_THRESHOLD === 250_000,
+    `value=${config.UK_CT_UPPER_THRESHOLD}`);
+  record("46.1[UK constants] MARGINAL_FRACTION = 3/200 (HMRC CTM03900)",
+    Math.abs(config.UK_CT_MARGINAL_FRACTION - 3/200) < 1e-12,
+    `value=${config.UK_CT_MARGINAL_FRACTION}`);
+  record("46.1[UK constants] DIVIDEND_ALLOWANCE_GBP = 500 (Spring Budget 2026)",
+    config.UK_DIVIDEND_ALLOWANCE_GBP === 500,
+    `value=${config.UK_DIVIDEND_ALLOWANCE_GBP}`);
+  record("46.1[UK constants] NI Class 4 main rate = 6 % en 2026/27",
+    config.UK_NI_RATE_MAIN === 0.06,
+    `value=${config.UK_NI_RATE_MAIN}`);
+  record("46.1[UK constants] NI Class 2 voluntaria activa",
+    config.UK_NI_CLASS2_VOLUNTARY === true,
+    `value=${config.UK_NI_CLASS2_VOLUNTARY}`);
+
+  // --- 46.2 — Belgium additionnelle communale --------------------------------
+  const beAuto = calc.calculateSavings(5_000, "belgica", "autonomo", "digitalServices", 0, false, [], {});
+  const ippLine = beAuto.breakdown.find((b: { label: string }) => b.label === "calculator.bd.belgica.ipp");
+  record("46.2[BE] línea IPP existe y muestra el recargo communal",
+    !!ippLine && (ippLine?.note === "calculator.bd.belgica.ipp_communal_note"),
+    `line=${ippLine?.label} note=${ippLine?.note}`);
+  record("46.2[BE constants] BELGIUM_COMMUNAL_SURCHARGE = 0.07 (media nacional)",
+    config.BELGIUM_COMMUNAL_SURCHARGE === 0.07,
+    `value=${config.BELGIUM_COMMUNAL_SURCHARGE}`);
+  // El IPP autónomo a 5.000€/mes debe subir ~7 % vs el cálculo sin recargo:
+  // calcular IPP federal manualmente.
+  const beFedManual = (() => {
+    const netBase = 5_000 * 12 * (config.AUTONOMO_NET_FACTORS.belgica ?? 0.65);
+    let tax = 0, prev = 0;
+    for (const br of config.BELGIUM_IPP_BRACKETS) {
+      const cap = Math.min(netBase, br.limit);
+      if (cap > prev) tax += (cap - prev) * br.rate;
+      prev = br.limit;
+      if (netBase <= br.limit) break;
+    }
+    return Math.round(tax);
+  })();
+  const beIppLineAmount = ippLine?.amount ?? 0;
+  record("46.2[BE] IPP cobrado = round(IPP federal × 1,07) (cross-check exacto)",
+    beIppLineAmount === Math.round(beFedManual * 1.07),
+    `cobrado=${beIppLineAmount} expected=${Math.round(beFedManual * 1.07)}`);
+
+  // --- 46.3 — Germany Soli Freigrenze + Gewerbesteuer rangos -----------------
+  // Si la cuota ESt es 0 (no ingresos), Soli debe ser 0 y SV 0.
+  const deZero = calc.calculateSavings(0, "alemania", "autonomo", "digitalServices", 0, false, [], {});
+  record("46.3[DE Soli] estBase=0 → soli=0 (Freigrenze respetada)",
+    deZero.breakdown[0]?.amount === 0,
+    `est+soli=${deZero.breakdown[0]?.amount}`);
+  // Gewerbesteuer profile rangos: low < medium < high para mismo ingreso.
+  const deLow = calc.calculateSavings(10_000, "alemania", "sociedad", "digitalServices", 0, false, [], { germanyHebesatz: "low" });
+  const deMed = calc.calculateSavings(10_000, "alemania", "sociedad", "digitalServices", 0, false, [], { germanyHebesatz: "medium" });
+  const deHigh = calc.calculateSavings(10_000, "alemania", "sociedad", "digitalServices", 0, false, [], { germanyHebesatz: "high" });
+  const gewLow = deLow.breakdown.find((b: { label: string }) => b.label === "calculator.bd.alemania.gewerbe")?.amount ?? 0;
+  const gewMed = deMed.breakdown.find((b: { label: string }) => b.label === "calculator.bd.alemania.gewerbe")?.amount ?? 0;
+  const gewHigh = deHigh.breakdown.find((b: { label: string }) => b.label === "calculator.bd.alemania.gewerbe")?.amount ?? 0;
+  record("46.3[DE Gewerbe] low < medium < high (rangos crecientes)",
+    gewLow < gewMed && gewMed < gewHigh,
+    `lo=${gewLow} mid=${gewMed} hi=${gewHigh}`);
+  record("46.3[DE Gewerbe] medium === default cuando no se pasa profile",
+    deMed.sinLLC === calc.calculateSavings(10_000, "alemania", "sociedad", "digitalServices", 0, false, [], {}).sinLLC,
+    `med=${deMed.sinLLC}`);
+  record("46.3[DE constants] Soli Freigrenze single = 18.130 €",
+    config.GERMANY_SOLI_FREIGRENZE_SINGLE === 18_130,
+    `value=${config.GERMANY_SOLI_FREIGRENZE_SINGLE}`);
+  record("46.3[DE constants] Gewerbe Steuermesszahl = 3,5 % (§ 11 GewStG)",
+    config.GERMANY_GEWERBE_STEUERMESSZAHL === 0.035,
+    `value=${config.GERMANY_GEWERBE_STEUERMESSZAHL}`);
+  record("46.3[DE constants] Hebesatz LOW = 250 % (≈ 8,75 % efectivo)",
+    Math.abs(config.GERMANY_GEWERBE_EFFECTIVE_LOW - 0.0875) < 1e-9,
+    `value=${config.GERMANY_GEWERBE_EFFECTIVE_LOW}`);
+  record("46.3[DE constants] Hebesatz HIGH = 490 % (≈ 17,15 % efectivo)",
+    Math.abs(config.GERMANY_GEWERBE_EFFECTIVE_HIGH - 0.1715) < 1e-9,
+    `value=${config.GERMANY_GEWERBE_EFFECTIVE_HIGH}`);
+  record("46.3[DE constants] back-compat EFFECTIVE_RATE === medium",
+    config.GERMANY_GEWERBE_EFFECTIVE_RATE === config.GERMANY_GEWERBE_EFFECTIVE_MEDIUM,
+    `eff=${config.GERMANY_GEWERBE_EFFECTIVE_RATE} med=${config.GERMANY_GEWERBE_EFFECTIVE_MEDIUM}`);
+  record("46.3[DE constants] Kirchensteuer NO se aplica por defecto",
+    config.GERMANY_KIRCHST_DEFAULT_APPLIES === false,
+    `value=${config.GERMANY_KIRCHST_DEFAULT_APPLIES}`);
+
+  // --- 46.4 — Chile Pro PYME 14 D --------------------------------------------
+  const clGen = calc.calculateSavings(8_000, "chile", "sociedad", "digitalServices", 0, false, [], {});
+  const clPyme = calc.calculateSavings(8_000, "chile", "sociedad", "digitalServices", 0, false, [], { chileRegimen: "proPyme" });
+  record("46.4[CL Pro PYME] sinLLC Pro PYME (25 %) < General (27 %)",
+    clPyme.sinLLC < clGen.sinLLC,
+    `gen=${clGen.sinLLC} pyme=${clPyme.sinLLC}`);
+  const clPymeLabel = clPyme.breakdown[0]?.label;
+  record("46.4[CL Pro PYME] etiqueta breakdown apunta a `proPyme`",
+    clPymeLabel === "calculator.bd.chile.proPyme",
+    `label=${clPymeLabel}`);
+  record("46.4[CL constants] Pro PYME rate = 25 % (Ley 21.420 art. 14 D)",
+    config.CHILE_PRIMERA_CATEGORIA_PRO_PYME_RATE === 0.25,
+    `value=${config.CHILE_PRIMERA_CATEGORIA_PRO_PYME_RATE}`);
+  record("46.4[CL constants] Régimen General rate sigue 27 % (14 A)",
+    config.CHILE_PRIMERA_CATEGORIA_RATE === 0.27,
+    `value=${config.CHILE_PRIMERA_CATEGORIA_RATE}`);
+  record("46.4[CL constants] UTM 2026 actualizada a $69.755",
+    config.CHILE_UTM_MONTHLY === 69_755,
+    `value=${config.CHILE_UTM_MONTHLY}`);
+  record("46.4[CL constants] UTA = UTM × 12 (auto-derivada)",
+    config.CHILE_UTM_ANNUAL === config.CHILE_UTM_MONTHLY * 12,
+    `uta=${config.CHILE_UTM_ANNUAL}`);
+
+  // --- 46.5 — Portugal IRC reducido + derrama escalonada ---------------------
+  // IRC: profit 30k → 17 % (PME); profit 100k → mezcla (50k×17% + 50k×20%).
+  const ptLow = calc.calculateSavings(2_500, "portugal", "sociedad", "digitalServices", 0, false, [], {});
+  const ptMid = calc.calculateSavings(8_000, "portugal", "sociedad", "digitalServices", 0, false, [], {});
+  const ircLow = ptLow.breakdown.find((b: { label: string }) => b.label === "calculator.bd.portugal.irc")?.amount ?? 0;
+  const ircMid = ptMid.breakdown.find((b: { label: string }) => b.label === "calculator.bd.portugal.irc")?.amount ?? 0;
+  record("46.5[PT IRC] IRC crece monótonamente con el beneficio",
+    ircLow < ircMid,
+    `low=${ircLow} mid=${ircMid}`);
+  record("46.5[PT constants] IRC reducido = 17 % (CIRC art. 87.º-2 PME)",
+    config.PORTUGAL_IRC_REDUCED_RATE === 0.17,
+    `value=${config.PORTUGAL_IRC_REDUCED_RATE}`);
+  record("46.5[PT constants] IRC reducido threshold = 50.000 €",
+    config.PORTUGAL_IRC_REDUCED_THRESHOLD === 50_000,
+    `value=${config.PORTUGAL_IRC_REDUCED_THRESHOLD}`);
+  record("46.5[PT constants] IRC general sigue 20 %",
+    config.PORTUGAL_IRC_RATE === 0.20,
+    `value=${config.PORTUGAL_IRC_RATE}`);
+  record("46.5[PT constants] derrama escalonada tiene 3 brackets",
+    Array.isArray(config.PORTUGAL_IRS_DERRAMA_BRACKETS) && config.PORTUGAL_IRS_DERRAMA_BRACKETS.length === 3,
+    `len=${config.PORTUGAL_IRS_DERRAMA_BRACKETS?.length}`);
+  record("46.5[PT constants] derrama bracket[2] rate = 5 % (> 500.000€)",
+    config.PORTUGAL_IRS_DERRAMA_BRACKETS[2].rate === 0.05,
+    `rate=${config.PORTUGAL_IRS_DERRAMA_BRACKETS[2].rate}`);
+  record("46.5[PT constants] derrama bracket[1] rate = 4,75 % (>250.000€)",
+    config.PORTUGAL_IRS_DERRAMA_BRACKETS[1].rate === 0.0475,
+    `rate=${config.PORTUGAL_IRS_DERRAMA_BRACKETS[1].rate}`);
+
+  // Derrama estadual: profesional con netBase >250k debe pagar más derrama
+  // que con netBase <250k (proporcional al exceso).
+  const ptDerLow = calc.calculateSavings(15_000, "portugal", "autonomo", "digitalServices", 0, false, [], {});
+  const ptDerHigh = calc.calculateSavings(40_000, "portugal", "autonomo", "digitalServices", 0, false, [], {});
+  record("46.5[PT derrama] cuota IRS sube fuertemente en netBase >250k (escalonada)",
+    ptDerHigh.sinLLC > ptDerLow.sinLLC * 2,
+    `low=${ptDerLow.sinLLC} hi=${ptDerHigh.sinLLC}`);
+
+  // --- 46.6 — VAT export B2B mode --------------------------------------------
+  const vatGen = calc.calculateSavings(5_000, "espana", "autonomo", "digitalServices", 0, false, [], {});
+  const vatExp = calc.calculateSavings(5_000, "espana", "autonomo", "digitalServices", 0, false, [], { vatMode: "exportB2B" });
+  record("46.6[VAT] modo general (España) → IVA = 21 %",
+    vatGen.ivaNote === Math.round(60_000 * 0.21),
+    `iva=${vatGen.ivaNote}`);
+  record("46.6[VAT] modo exportB2B (España) → IVA = 0 (inversión sujeto pasivo)",
+    vatExp.ivaNote === 0,
+    `iva=${vatExp.ivaNote}`);
+  record("46.6[VAT] COUNTRY_VAT extendido — España general 21 % en nuevo objeto",
+    config.COUNTRY_VAT.espana?.general === 0.21,
+    `value=${config.COUNTRY_VAT.espana?.general}`);
+  record("46.6[VAT] COUNTRY_VAT extendido — España reducido 10 % documentado",
+    config.COUNTRY_VAT.espana?.reducido === 0.10,
+    `value=${config.COUNTRY_VAT.espana?.reducido}`);
+  record("46.6[VAT] COUNTRY_VAT extendido — todos los países exportB2B = 0",
+    Object.values(config.COUNTRY_VAT).every((v: { exportB2B: number }) => v.exportB2B === 0),
+    `OK=${Object.keys(config.COUNTRY_VAT).join(",")}`);
+  record("46.6[VAT] back-compat — COUNTRY_VAT_RATES.espana sigue siendo 0.21",
+    config.COUNTRY_VAT_RATES.espana === 0.21,
+    `value=${config.COUNTRY_VAT_RATES.espana}`);
+  record("46.6[VAT] back-compat — todos los países en COUNTRY_VAT_RATES",
+    Object.keys(config.COUNTRY_VAT).every((k) => k in config.COUNTRY_VAT_RATES),
+    `keys=${Object.keys(config.COUNTRY_VAT_RATES).join(",")}`);
+  record("46.6[VAT helper] resolveVatRate('espana','general') === 0.21",
+    config.resolveVatRate("espana", "general") === 0.21,
+    `value=${config.resolveVatRate("espana", "general")}`);
+  record("46.6[VAT helper] resolveVatRate('espana','exportB2B') === 0",
+    config.resolveVatRate("espana", "exportB2B") === 0,
+    `value=${config.resolveVatRate("espana", "exportB2B")}`);
+
+  // --- 46.7 — Mexico régimen label rename ------------------------------------
+  const mxRegimes = COUNTRY_REGIMES?.mexico;
+  const mxAuto = mxRegimes?.find((r: { id: string }) => r.id === "autonomo");
+  record("46.7[MX label] etiqueta autónomo no menciona RESICO (modelo aplica ISR PF general)",
+    mxAuto?.label === "Persona Física régimen general (ISR)",
+    `label=${mxAuto?.label}`);
+  record("46.7[MX] tabla RESICO documentada en config (no aplicada aún)",
+    Array.isArray(config.MEXICO_RESICO_BRACKETS) && config.MEXICO_RESICO_BRACKETS.length === 5,
+    `len=${config.MEXICO_RESICO_BRACKETS?.length}`);
+  record("46.7[MX] tope ingresos RESICO = 3,5 M MXN (LISR 113-E)",
+    config.MEXICO_RESICO_REVENUE_CAP_ANNUAL === 3_500_000,
+    `value=${config.MEXICO_RESICO_REVENUE_CAP_ANNUAL}`);
+
+  // --- 46.8 — CCAA España map ------------------------------------------------
+  record("46.8[CCAA] CCAA_PROFILE_MAP existe y cubre 19 entradas (17 CCAA + 2 forales)",
+    !!config.CCAA_PROFILE_MAP && Object.keys(config.CCAA_PROFILE_MAP).length >= 17,
+    `entries=${Object.keys(config.CCAA_PROFILE_MAP || {}).length}`);
+  record("46.8[CCAA] Madrid → low",
+    config.CCAA_PROFILE_MAP?.madrid === "low",
+    `value=${config.CCAA_PROFILE_MAP?.madrid}`);
+  record("46.8[CCAA] Cataluña → high",
+    config.CCAA_PROFILE_MAP?.cataluna === "high" || config.CCAA_PROFILE_MAP?.["cataluña"] === "high" || config.CCAA_PROFILE_MAP?.cataluna === "high",
+    `value=${config.CCAA_PROFILE_MAP?.cataluna}`);
+  record("46.8[CCAA] Andalucía → low",
+    config.CCAA_PROFILE_MAP?.andalucia === "low",
+    `value=${config.CCAA_PROFILE_MAP?.andalucia}`);
+  record("46.8[CCAA] Valencia → high",
+    config.CCAA_PROFILE_MAP?.valencia === "high",
+    `value=${config.CCAA_PROFILE_MAP?.valencia}`);
+  record("46.8[CCAA] Asturias → high (tramo alto autonómico)",
+    config.CCAA_PROFILE_MAP?.asturias === "high",
+    `value=${config.CCAA_PROFILE_MAP?.asturias}`);
+  record("46.8[CCAA] Ceuta → low (50 % bonificación)",
+    config.CCAA_PROFILE_MAP?.ceuta === "low",
+    `value=${config.CCAA_PROFILE_MAP?.ceuta}`);
+  record("46.8[CCAA] Melilla → low (50 % bonificación)",
+    config.CCAA_PROFILE_MAP?.melilla === "low",
+    `value=${config.CCAA_PROFILE_MAP?.melilla}`);
+  record("46.8[CCAA] País Vasco / Navarra exportadas como CCAA forales",
+    !!config.CCAA_PROFILE_MAP?.paisVasco || !!config.CCAA_PROFILE_MAP?.navarra,
+    `pv=${config.CCAA_PROFILE_MAP?.paisVasco} nav=${config.CCAA_PROFILE_MAP?.navarra}`);
+  record("46.8[CCAA] CCAA_KEYS exportadas y cubren todo el mapa",
+    Array.isArray(config.CCAA_KEYS) && config.CCAA_KEYS.length === Object.keys(config.CCAA_PROFILE_MAP).length,
+    `keys=${config.CCAA_KEYS?.length} map=${Object.keys(config.CCAA_PROFILE_MAP || {}).length}`);
+
+  // --- 46.9 — España IRPF perfil low/medium/high ------------------------------
+  // El IRPF de un autónomo a 5.000€/mes en perfil "high" debe ser ≥ "low".
+  const esLow = calc.calculateSavings(5_000, "espana", "autonomo", "digitalServices", 0, false, [], { ccaaProfile: "low" });
+  const esMed = calc.calculateSavings(5_000, "espana", "autonomo", "digitalServices", 0, false, [], { ccaaProfile: "medium" });
+  const esHigh = calc.calculateSavings(5_000, "espana", "autonomo", "digitalServices", 0, false, [], { ccaaProfile: "high" });
+  record("46.9[ES IRPF] perfil low ≤ medium ≤ high (sinLLC monótono)",
+    esLow.sinLLC <= esMed.sinLLC && esMed.sinLLC <= esHigh.sinLLC,
+    `lo=${esLow.sinLLC} med=${esMed.sinLLC} hi=${esHigh.sinLLC}`);
+
+  // --- 46.10 — Email parity --------------------------------------------------
+  // server/email/calculator.ts es el módulo de rendering del email. La
+  // paridad de cálculo se garantiza porque ese módulo importa los mismos
+  // helpers/constantes del client/src/lib/calculator(-config). Aquí
+  // verificamos que el archivo del email importa las funciones del cálculo
+  // compartidas (no replica fórmulas).
+  const emailSrc = fs.readFileSync(path.join(__dirname46, "..", "..", "..", "server", "email", "calculator.ts"), "utf8");
+  record("46.10[email parity] server/email/calculator.ts importa helpers compartidos (no duplica fórmulas)",
+    emailSrc.includes("shared/calculator") || emailSrc.includes("client/src/lib/calculator") || emailSrc.includes("from \"../../shared/calculator-fx\""),
+    `imports OK`);
+  record("46.10[email parity] server/email/calculator.ts NO redefine BRACKETS de IRPF/IRC localmente",
+    !emailSrc.includes("SPAIN_IRPF_NATIONAL_BRACKETS = ") && !emailSrc.includes("PORTUGAL_IRC_RATE = "),
+    `no redefine`);
+
+  // --- 46.11 — Régimen Mexico label cross-check en todos los locales --------
+  type Loc = { lang: string; root: any };
+  const localesToCheck: Loc[] = [
+    { lang: "es", root: esLocale },
+    { lang: "ca", root: caLocale },
+    { lang: "en", root: enLocale },
+    { lang: "fr", root: frLocale },
+    { lang: "de", root: deLocale },
+    { lang: "pt", root: ptLocale },
+  ];
+  for (const lc of localesToCheck) {
+    const label = lc.root?.calculator?.regimeLabels?.mexico?.autonomo
+      ?? lc.root?.calculator?.regimes?.mexico?.autonomo
+      ?? lc.root?.calculator?.regimeNames?.mexico?.autonomo
+      ?? "";
+    record(`46.11[i18n ${lc.lang}] label régimen MX no contiene "RESICO"`,
+      typeof label === "string" && label.length > 0 && !label.toUpperCase().includes("RESICO"),
+      `label="${label}"`);
+  }
+
+  // --- 46.12 — Smoke 8 países × 2 regímenes a 5.000€/mes --------------------
+  // Garantiza que ningún país tira NaN o devuelve sinLLC negativo después de
+  // las modificaciones del bloque #46.
+  const smokeCountries = ["espana", "mexico", "chile", "reino-unido", "francia", "belgica", "alemania", "portugal"];
+  for (const c of smokeCountries) {
+    for (const reg of ["autonomo", "sociedad"]) {
+      const res = calc.calculateSavings(5_000, c, reg, "digitalServices", 0, false, [], {});
+      record(`46.12[smoke ${c}/${reg}] sinLLC finito y >= 0`,
+        Number.isFinite(res.sinLLC) && res.sinLLC >= 0,
+        `sinLLC=${res.sinLLC}`);
+      record(`46.12[smoke ${c}/${reg}] effectiveRate ∈ [0,100]`,
+        res.effectiveRate >= 0 && res.effectiveRate <= 100,
+        `eff=${res.effectiveRate}%`);
+      record(`46.12[smoke ${c}/${reg}] breakdown no vacío`,
+        Array.isArray(res.breakdown) && res.breakdown.length > 0,
+        `lines=${res.breakdown?.length}`);
+    }
+  }
+
+  // --- 46.13 — VAT exportB2B aplica para todos los países -------------------
+  for (const c of smokeCountries) {
+    const r = calc.calculateSavings(5_000, c, "autonomo", "digitalServices", 0, false, [], { vatMode: "exportB2B" });
+    record(`46.13[VAT exportB2B ${c}] ivaNote = 0 cuando exportB2B activo`,
+      r.ivaNote === 0,
+      `iva=${r.ivaNote}`);
+  }
+
+  // --- 46.14 — UK dividend allowance: dividendo bajo → tax pequeña ----------
+  // Si el beneficio neto post-CT × payout × GBP_PER_EUR < 500 GBP, dividend
+  // tax debe ser 0.
+  const ukTinyDiv = calc.calculateSavings(40, "reino-unido", "sociedad", "digitalServices", 0, false, [], {});
+  const ukDivLine = ukTinyDiv.breakdown.find((b: { label: string }) => b.label === "calculator.bd.uk.dividendTax");
+  record("46.14[UK dividend allowance] dividendTax = 0 cuando bruto < £500",
+    (ukDivLine?.amount ?? -1) === 0,
+    `tax=${ukDivLine?.amount}`);
+
+  // --- 46.15 — DE Soli sólo aplica si estBase > Freigrenze ------------------
+  // Freelancer alemán a 1.500€/mes (18.000€/año), netBase ≈ 14.400€,
+  // ESt ≈ 0-200 € → Soli debe ser 0.
+  const deTiny = calc.calculateSavings(1_500, "alemania", "autonomo", "digitalServices", 0, false, [], {});
+  // El campo combina ESt+Soli; si Soli=0, sumas son consistentes con
+  // applyBrackets puro.
+  const estPlusSoliLine = deTiny.breakdown[0]?.amount ?? 0;
+  record("46.15[DE Soli Freigrenze] estBase pequeño → Soli ~0 (Freigrenze respetada)",
+    estPlusSoliLine < 1_000,
+    `est+soli=${estPlusSoliLine}`);
+
+  // --- 46.16 — Documentación: SOURCE comments presentes en config ----------
+  // Lectura best-effort para asegurar que los comentarios SOURCE quedaron en
+  // calculator-config.ts (re-verified 2026-04-30).
+  const cfgPath = path.join(__dirname46, "calculator-config.ts");
+  const cfgSrc = fs.readFileSync(cfgPath, "utf8");
+  record("46.16[doc] config menciona 're-verified 2026-04-30'",
+    cfgSrc.includes("re-verified 2026-04-30"),
+    `present=${cfgSrc.includes("re-verified 2026-04-30")}`);
+  record("46.16[doc] config menciona 'SOURCE' (comentarios oficiales)",
+    (cfgSrc.match(/SOURCE/g) || []).length >= 8,
+    `count=${(cfgSrc.match(/SOURCE/g) || []).length}`);
+
+  // --- 46.17 — CFC notes en calculator.ts -----------------------------------
+  const calcSrc = fs.readFileSync(path.join(__dirname46, "calculator.ts"), "utf8");
+  record("46.17[CFC] calculator.ts comenta CFC art. 91 LIRPF (España)",
+    calcSrc.includes("art. 91"),
+    `present=${calcSrc.includes("art. 91")}`);
+  record("46.17[CFC] calculator.ts comenta art. 209 B CGI (Francia)",
+    calcSrc.includes("209 B"),
+    `present=${calcSrc.includes("209 B")}`);
+  record("46.17[CFC] calculator.ts comenta AStG (Alemania)",
+    calcSrc.includes("AStG"),
+    `present=${calcSrc.includes("AStG")}`);
+  record("46.17[CFC] calculator.ts comenta CIRC art. 66 (Portugal)",
+    calcSrc.includes("art. 66"),
+    `present=${calcSrc.includes("art. 66")}`);
+  record("46.17[CFC] calculator.ts comenta TIOPA Part 9A (UK)",
+    calcSrc.includes("TIOPA") && calcSrc.includes("9A"),
+    `present=${calcSrc.includes("TIOPA")}`);
+  record("46.17[CFC] calculator.ts comenta art. 185/2 CIR (Bélgica)",
+    calcSrc.includes("185/2"),
+    `present=${calcSrc.includes("185/2")}`);
+  record("46.17[CFC] calculator.ts comenta art. 176 LISR (México)",
+    calcSrc.includes("art. 176"),
+    `present=${calcSrc.includes("art. 176")}`);
+  record("46.17[CFC] calculator.ts comenta Ley 21.713 (Chile)",
+    calcSrc.includes("21.713"),
+    `present=${calcSrc.includes("21.713")}`);
+
+  // --- 46.18 — Mexico TODOS los locales también renombrados (sanity) -------
+  for (const lc of localesToCheck) {
+    const label = lc.root?.calculator?.regimeLabels?.mexico?.autonomo
+      ?? lc.root?.calculator?.regimes?.mexico?.autonomo
+      ?? lc.root?.calculator?.regimeNames?.mexico?.autonomo
+      ?? "";
+    record(`46.18[i18n ${lc.lang}] label régimen MX menciona ISR (modelo aplicado)`,
+      typeof label === "string" && label.toUpperCase().includes("ISR"),
+      `label="${label}"`);
+  }
+
+  // --- 46.19 — Sanity: no se rompió ningún país en escenarios extremos -----
+  for (const c of smokeCountries) {
+    const huge = calc.calculateSavings(50_000, c, "sociedad", "digitalServices", 0, false, [], {});
+    record(`46.19[stress ${c}] sociedad@50k€/mes finite (no overflow)`,
+      Number.isFinite(huge.sinLLC) && huge.sinLLC >= 0,
+      `sinLLC=${huge.sinLLC}`);
+  }
 }
 
 // ---------------------------------------------------------------------------

@@ -48,10 +48,23 @@ export interface CalcOptions {
   tarifaPlana?: boolean;
   franceMicro?: boolean;
   // Perfil autonómico para IRPF España 2026:
-  //   "low"    → Madrid / Andalucía / La Rioja
-  //   "medium" → escala media (default)
+  //   "low"    → Madrid / Andalucía / La Rioja / Ceuta / Melilla
+  //   "medium" → escala media (default — la mayor parte de CCAA)
   //   "high"   → Cataluña / Valencia / Asturias tramo alto
+  // El mapa CCAA → perfil vive en `client/src/lib/calculator-config.ts`
+  // (constante `CCAA_PROFILE_MAP`).
   ccaaProfile?: "low" | "medium" | "high";
+  // Régimen Chile sociedad — Pro PYME 14 D N° 3 (25 %) vs Régimen General
+  // 14 A (27 %). Default: general.
+  chileRegimen?: "general" | "proPyme";
+  // Hebesatz municipal Alemania — afecta a Gewerbesteuer.
+  //   "low"    → 250 % (pequeñas localidades, ≈ 8,75 % efectivo)
+  //   "medium" → 400 % (media nacional, ≈ 14,00 % efectivo) — default
+  //   "high"   → 490 % (München / Frankfurt, ≈ 17,15 % efectivo)
+  germanyHebesatz?: "low" | "medium" | "high";
+  // Modo IVA — `general` (default, tipo estándar) o `exportB2B` (0 % por
+  // inversión del sujeto pasivo / no sujeción intracomunitaria).
+  vatMode?: "general" | "exportB2B";
 }
 
 export interface CalcResult {

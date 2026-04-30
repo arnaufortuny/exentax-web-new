@@ -1984,7 +1984,7 @@ const ca = {
      sociedad: "Societat Limitada (SL)",
    },
    mexico: {
-     autonomo: "Persona Física (RESICO)",
+     autonomo: "Persona Física règim general (ISR)",
      sociedad: "Persona Moral (SA / SAPI)",
    },
    chile: {

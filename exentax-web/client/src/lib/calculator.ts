@@ -136,8 +136,12 @@ import {
   UK_CT_SMALL_PROFITS,
   UK_CT_MAIN_RATE,
   UK_CT_SMALL_THRESHOLD,
+  UK_CT_UPPER_THRESHOLD,
+  UK_CT_MARGINAL_FRACTION,
+  UK_DIVIDEND_ALLOWANCE_GBP,
   UK_LTD_ACCOUNTANCY_ANNUAL,
   BELGIUM_IPP_BRACKETS,
+  BELGIUM_COMMUNAL_SURCHARGE,
   BELGIUM_INDEP_SS_RATE,
   BELGIUM_IS_REDUCED,
   BELGIUM_IS_GENERAL,
@@ -159,8 +163,12 @@ import {
   GERMANY_EST_BRACKETS,
   GERMANY_SOLI_RATE,
   GERMANY_SV_RATE,
+  GERMANY_SOLI_FREIGRENZE_SINGLE,
   GERMANY_KST_RATE,
   GERMANY_GEWERBE_EFFECTIVE_RATE,
+  GERMANY_GEWERBE_EFFECTIVE_LOW,
+  GERMANY_GEWERBE_EFFECTIVE_MEDIUM,
+  GERMANY_GEWERBE_EFFECTIVE_HIGH,
   GERMANY_KAPESTG_RATE,
   GERMANY_STEUERBERATER_ANNUAL,
   MEXICO_ISR_BRACKETS,
@@ -171,13 +179,17 @@ import {
   CHILE_GLOBAL_COMPLEMENTARIO_BRACKETS,
   CHILE_AFP_RATE,
   CHILE_PRIMERA_CATEGORIA_RATE,
+  CHILE_PRIMERA_CATEGORIA_PRO_PYME_RATE,
   CHILE_DIVIDEND_RATE,
   CHILE_CONTABILIDAD_ANNUAL,
   PORTUGAL_IRS_BRACKETS,
+  PORTUGAL_IRS_DERRAMA_BRACKETS,
   PORTUGAL_IRS_DERRAMA_RATE,
   PORTUGAL_SS_AUTONOMO_RATE,
   PORTUGAL_SS_AUTONOMO_BASE_FACTOR,
   PORTUGAL_IRC_RATE,
+  PORTUGAL_IRC_REDUCED_RATE,
+  PORTUGAL_IRC_REDUCED_THRESHOLD,
   PORTUGAL_IRC_DERRAMA_MUNICIPAL,
   PORTUGAL_DIVIDEND_RATE,
   PORTUGAL_CONTABILISTA_ANNUAL,
@@ -285,6 +297,25 @@ function applyBrackets(base: number, brackets: { limit: number; rate: number }[]
   return Math.round(tax);
 }
 
+// Corporation Tax UK — calcula la cuota aplicando marginal relief HMRC en
+// la banda intermedia (£50k – £250k). Devuelve la cuota EN EUROS ya
+// redondeada. Marginal-relief reduce la cuota plana del 25 % en la
+// fracción `(upper − profit) × (3/200)`.
+function calcUKCorporationTax(profitEUR: number): number {
+  const profitGBP = Math.max(0, profitEUR * GBP_PER_EUR);
+  let taxGBP = 0;
+  if (profitGBP <= UK_CT_SMALL_THRESHOLD) {
+    taxGBP = profitGBP * UK_CT_SMALL_PROFITS;
+  } else if (profitGBP >= UK_CT_UPPER_THRESHOLD) {
+    taxGBP = profitGBP * UK_CT_MAIN_RATE;
+  } else {
+    // Marginal relief: tax = profit*main − (upper − profit)*fraction
+    taxGBP = profitGBP * UK_CT_MAIN_RATE
+      - (UK_CT_UPPER_THRESHOLD - profitGBP) * UK_CT_MARGINAL_FRACTION;
+  }
+  return Math.round(taxGBP / GBP_PER_EUR);
+}
+
 function calcUKTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
   const breakdown: TaxBreakdown[] = [];
   const annualGBP = annualIncomeEUR * GBP_PER_EUR;
@@ -304,11 +335,15 @@ function calcUKTax(annualIncomeEUR: number, regime: string): { tax: number; brea
     return { tax: incomeTax + ni, breakdown };
   } else {
     const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS["reino-unido"] ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
-    const corpTaxRate = profit * GBP_PER_EUR <= UK_CT_SMALL_THRESHOLD ? UK_CT_SMALL_PROFITS : UK_CT_MAIN_RATE;
-    const corpTax = Math.round(profit * corpTaxRate);
-    const dividendos = Math.round((profit - corpTax) * UK_DIVIDEND_EFFECTIVE_RATE * UK_DIVIDEND_PAYOUT_RATIO);
-    breakdown.push({ label: "calculator.bd.uk.corpTax", amount: corpTax });
-    breakdown.push({ label: "calculator.bd.uk.dividendTax", amount: dividendos });
+    const corpTax = calcUKCorporationTax(profit);
+    // Dividend allowance £500: la primera fracción de dividendos
+    // distribuidos al socio queda exenta antes de aplicar dividend tax.
+    const grossDividendsGBP = Math.max(0, (profit - corpTax) * UK_DIVIDEND_PAYOUT_RATIO * GBP_PER_EUR);
+    const taxableDividendsGBP = Math.max(0, grossDividendsGBP - UK_DIVIDEND_ALLOWANCE_GBP);
+    const dividendsTaxGBP = taxableDividendsGBP * UK_DIVIDEND_EFFECTIVE_RATE;
+    const dividendos = Math.round(dividendsTaxGBP / GBP_PER_EUR);
+    breakdown.push({ label: "calculator.bd.uk.corpTax", amount: corpTax, note: "calculator.bd.uk.corpTax_note" });
+    breakdown.push({ label: "calculator.bd.uk.dividendTax", amount: dividendos, note: "calculator.bd.uk.dividendTax_note" });
     breakdown.push({ label: "calculator.bd.uk.accountancy", amount: UK_LTD_ACCOUNTANCY_ANNUAL });
     return { tax: corpTax + dividendos + UK_LTD_ACCOUNTANCY_ANNUAL, breakdown };
   }
@@ -319,9 +354,13 @@ function calcBelgiumTax(annualIncomeEUR: number, regime: string): { tax: number;
 
   if (regime === "autonomo") {
     const netBase = annualIncomeEUR * (AUTONOMO_NET_FACTORS.belgica ?? DEFAULT_AUTONOMO_NET_FACTOR);
-    const irpp = applyBrackets(netBase, BELGIUM_IPP_BRACKETS);
+    const ippFederal = applyBrackets(netBase, BELGIUM_IPP_BRACKETS);
+    // Additionnelle communale — recargo municipal sobre la cuota IPP
+    // federal (media nacional 7 %). Antes se omitía: subestimaba la
+    // carga real autónoma ~3-5 % del IPP.
+    const irpp = Math.round(ippFederal * (1 + BELGIUM_COMMUNAL_SURCHARGE));
     const ss = Math.round(netBase * BELGIUM_INDEP_SS_RATE);
-    breakdown.push({ label: "calculator.bd.belgica.ipp", amount: irpp, note: "calculator.bd.belgica.ipp_note" });
+    breakdown.push({ label: "calculator.bd.belgica.ipp", amount: irpp, note: "calculator.bd.belgica.ipp_communal_note" });
     breakdown.push({ label: "calculator.bd.belgica.ssIndep", amount: ss, note: "calculator.bd.belgica.ssIndep_note" });
     return { tax: irpp + ss, breakdown };
   } else {
@@ -379,13 +418,32 @@ function calcFranceTax(annualIncomeEUR: number, regime: string, micro: boolean =
   }
 }
 
-function calcGermanTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
+// Helper: resuelve el tipo efectivo Gewerbesteuer según el Hebesatz
+// municipal seleccionado por el UI (low/medium/high). Default: medium.
+function resolveGewerbeRate(profile?: "low" | "medium" | "high"): number {
+  switch (profile) {
+    case "low":  return GERMANY_GEWERBE_EFFECTIVE_LOW;
+    case "high": return GERMANY_GEWERBE_EFFECTIVE_HIGH;
+    case "medium":
+    default:     return GERMANY_GEWERBE_EFFECTIVE_MEDIUM;
+  }
+}
+
+function calcGermanTax(
+  annualIncomeEUR: number,
+  regime: string,
+  options: CalcOptions = {},
+): { tax: number; breakdown: TaxBreakdown[] } {
   const breakdown: TaxBreakdown[] = [];
 
   if (regime === "autonomo") {
     const netBase = annualIncomeEUR * (AUTONOMO_NET_FACTORS.alemania ?? DEFAULT_AUTONOMO_NET_FACTOR);
     const estBase = applyBrackets(netBase, GERMANY_EST_BRACKETS);
-    const soli = Math.round(estBase * GERMANY_SOLI_RATE);
+    // Soli Freigrenze: solo aplica si la cuota ESt supera 18.130 € (single).
+    // Por debajo, Solidaritätszuschlag = 0 desde 2021.
+    const soli = estBase > GERMANY_SOLI_FREIGRENZE_SINGLE
+      ? Math.round(estBase * GERMANY_SOLI_RATE)
+      : 0;
     const est = estBase + soli;
     const sv = Math.round(netBase * GERMANY_SV_RATE);
     breakdown.push({ label: "calculator.bd.alemania.est", amount: est, note: "calculator.bd.alemania.est_note" });
@@ -394,12 +452,17 @@ function calcGermanTax(annualIncomeEUR: number, regime: string): { tax: number; 
   } else {
     const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS.alemania ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
     const kstBase = Math.round(profit * GERMANY_KST_RATE);
-    const soli = Math.round(kstBase * GERMANY_SOLI_RATE);
+    // Soli sobre KSt — Freigrenze se aplica también a sociedades.
+    const soli = kstBase > GERMANY_SOLI_FREIGRENZE_SINGLE
+      ? Math.round(kstBase * GERMANY_SOLI_RATE)
+      : 0;
     const kst = kstBase + soli;
-    const gewerbe = Math.round(profit * GERMANY_GEWERBE_EFFECTIVE_RATE);
+    // Gewerbesteuer — Hebesatz seleccionable (250 / 400 / 490 %).
+    const gewerbeRate = resolveGewerbeRate(options.germanyHebesatz);
+    const gewerbe = Math.round(profit * gewerbeRate);
     const dividendos = Math.round((profit - kst - gewerbe) * GERMANY_KAPESTG_RATE);
     breakdown.push({ label: "calculator.bd.alemania.kst", amount: kst });
-    breakdown.push({ label: "calculator.bd.alemania.gewerbe", amount: gewerbe });
+    breakdown.push({ label: "calculator.bd.alemania.gewerbe", amount: gewerbe, note: "calculator.bd.alemania.gewerbe_note" });
     breakdown.push({ label: "calculator.bd.alemania.kapestg", amount: dividendos });
     breakdown.push({ label: "calculator.bd.alemania.steuerberater", amount: GERMANY_STEUERBERATER_ANNUAL });
     return { tax: kst + gewerbe + dividendos + GERMANY_STEUERBERATER_ANNUAL, breakdown };
@@ -430,7 +493,11 @@ function calcMexicoTax(annualIncomeEUR: number, regime: string): { tax: number; 
 }
 
 
-function calcChileTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
+function calcChileTax(
+  annualIncomeEUR: number,
+  regime: string,
+  options: CalcOptions = {},
+): { tax: number; breakdown: TaxBreakdown[] } {
   const breakdown: TaxBreakdown[] = [];
   const annualCLP = annualIncomeEUR * CLP_PER_EUR;
 
@@ -444,9 +511,16 @@ function calcChileTax(annualIncomeEUR: number, regime: string): { tax: number; b
     return { tax: gc + afp, breakdown };
   } else {
     const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS.chile ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
-    const is = Math.round(profit * CHILE_PRIMERA_CATEGORIA_RATE);
+    // Régimen Pro PYME (14 D N° 3): 25 % vs Régimen General (14 A): 27 %.
+    const isRate = options.chileRegimen === "proPyme"
+      ? CHILE_PRIMERA_CATEGORIA_PRO_PYME_RATE
+      : CHILE_PRIMERA_CATEGORIA_RATE;
+    const isLabel = options.chileRegimen === "proPyme"
+      ? "calculator.bd.chile.proPyme"
+      : "calculator.bd.chile.primeraCategoria";
+    const is = Math.round(profit * isRate);
     const dividendos = Math.round((profit - is) * CHILE_DIVIDEND_RATE);
-    breakdown.push({ label: "calculator.bd.chile.primeraCategoria", amount: is });
+    breakdown.push({ label: isLabel, amount: is, note: "calculator.bd.chile.primeraCategoria_note" });
     breakdown.push({ label: "calculator.bd.chile.gcDividendos", amount: dividendos });
     breakdown.push({ label: "calculator.bd.chile.contabilidad", amount: CHILE_CONTABILIDAD_ANNUAL });
     return { tax: is + dividendos + CHILE_CONTABILIDAD_ANNUAL, breakdown };
@@ -454,26 +528,52 @@ function calcChileTax(annualIncomeEUR: number, regime: string): { tax: number; b
 }
 
 
+// Derrama estadual escalonada CIRS art. 68.º-A — fracciones marginales:
+//   • 2,5 %  sobre la fracción  80.000 € – 250.000 €
+//   • 4,75 % sobre la fracción 250.000 € – 500.000 €
+//   • 5,00 % sobre la fracción > 500.000 €
+function calcPortugalDerrama(rendCol: number): number {
+  if (rendCol <= 80_000) return 0;
+  let total = 0;
+  const sorted = [...PORTUGAL_IRS_DERRAMA_BRACKETS].sort((a, b) => a.from - b.from);
+  for (let i = 0; i < sorted.length; i++) {
+    const from = sorted[i].from;
+    const to = sorted[i + 1]?.from ?? Infinity;
+    if (rendCol > from) {
+      const frac = Math.min(rendCol, to) - from;
+      total += frac * sorted[i].rate;
+    }
+  }
+  return Math.round(total);
+}
+
+// IRC: tipo reducido 17 % sobre los primeros 50.000 € (PME); 20 % sobre el resto.
+function calcPortugalIRC(profit: number): number {
+  const reducedBase = Math.min(profit, PORTUGAL_IRC_REDUCED_THRESHOLD);
+  const generalBase = Math.max(0, profit - PORTUGAL_IRC_REDUCED_THRESHOLD);
+  return Math.round(reducedBase * PORTUGAL_IRC_REDUCED_RATE + generalBase * PORTUGAL_IRC_RATE);
+}
+
 function calcPortugueseTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
   const breakdown: TaxBreakdown[] = [];
 
   if (regime === "autonomo") {
     const netBase = annualIncomeEUR * (AUTONOMO_NET_FACTORS.portugal ?? DEFAULT_AUTONOMO_NET_FACTOR);
     const irsBase = applyBrackets(netBase, PORTUGAL_IRS_BRACKETS);
-    const derrama = Math.round(Math.max(0, netBase - 80_000) * PORTUGAL_IRS_DERRAMA_RATE);
+    const derrama = calcPortugalDerrama(netBase);
     const irs = irsBase + derrama;
     // SS: 21,4% sobre 70% del rendimento bruto (Trabalhador Independente).
     const ssBase = annualIncomeEUR * PORTUGAL_SS_AUTONOMO_BASE_FACTOR;
     const ss = Math.round(ssBase * PORTUGAL_SS_AUTONOMO_RATE);
-    breakdown.push({ label: "calculator.bd.portugal.irs", amount: irs, note: "calculator.bd.portugal.irs_note" });
+    breakdown.push({ label: "calculator.bd.portugal.irs", amount: irs, note: "calculator.bd.portugal.irs_derrama_note" });
     breakdown.push({ label: "calculator.bd.portugal.ss", amount: ss, note: "calculator.bd.portugal.ss_note" });
     return { tax: irs + ss, breakdown };
   } else {
     const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS.portugal ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
-    const irc = Math.round(profit * PORTUGAL_IRC_RATE);
+    const irc = calcPortugalIRC(profit);
     const derramaMun = Math.round(profit * PORTUGAL_IRC_DERRAMA_MUNICIPAL);
     const dividendos = Math.round((profit - irc - derramaMun) * PORTUGAL_DIVIDEND_RATE);
-    breakdown.push({ label: "calculator.bd.portugal.irc", amount: irc });
+    breakdown.push({ label: "calculator.bd.portugal.irc", amount: irc, note: "calculator.bd.portugal.irc_reducido_note" });
     breakdown.push({ label: "calculator.bd.portugal.derrama", amount: derramaMun });
     breakdown.push({ label: "calculator.bd.portugal.dividendos", amount: dividendos });
     breakdown.push({ label: "calculator.bd.portugal.contabilista", amount: PORTUGAL_CONTABILISTA_ANNUAL });
@@ -489,8 +589,24 @@ function calcPortugueseTax(annualIncomeEUR: number, regime: string): { tax: numb
 // typical optimization). This helper estimates ONLY the personal income
 // tax portion using each country's progressive brackets (imported from
 // `calculator-config.ts` so they stay in sync with the autonomo path) but
-// stripped of social-security contributions. It is an estimation, not
-// legal advice; the UI declares this clearly via calculator.disclaimer.
+// stripped of social-security contributions. It is an estimación, no
+// asesoría legal; el UI lo declara via `calculator.disclaimer`.
+//
+// CFC / Transparencia fiscal internacional — IMPORTANTE.
+// Cada jurisdicción de residencia tiene reglas anti-CFC que pueden
+// reatribuir los beneficios de la LLC al socio cuando la entidad no
+// realiza actividad económica sustancial o sus rentas son pasivas (>50 %
+// dividendos/intereses/cánones). El comparador NO modela el aumento de
+// cuota por CFC — supone actividad ECONÓMICA real con sustrato en USA.
+// Referencias por país (informativo, ver calculator-cases.md):
+//   • España   — LIRPF art. 91 (imputación rentas pasivas).
+//   • Francia  — CGI art. 209 B (sociétés étrangères contrôlées).
+//   • Alemania — AStG §§ 7-14 (Hinzurechnungsbesteuerung).
+//   • Portugal — CIRC art. 66.º (imputação SOCS de baja tributación).
+//   • UK       — TIOPA 2010 Part 9A (Controlled Foreign Companies).
+//   • Bélgica  — CIR art. 185/2 (Cayman Tax — entidades transparentes).
+//   • México   — LISR art. 176 (REFIPRES — entidades transparentes).
+//   • Chile    — Norma sobre rentas pasivas Ley 21.713 (modernización 2024).
 function calcResidenceLLCTax(annualProfitEUR: number, country: string): number {
   const base = Math.max(0, annualProfitEUR);
   if (base <= 0) return 0;
@@ -519,15 +635,22 @@ function calcResidenceLLCTax(annualProfitEUR: number, country: string): number {
       const prelevementsSociaux = Math.round(base * FR_PRELEVEMENTS_SOCIAUX_RATE);
       return ir + prelevementsSociaux;
     }
-    case "belgica":
-      return applyBrackets(base, BELGIUM_IPP_BRACKETS);
+    case "belgica": {
+      // IPP federal + recargo communal medio.
+      const ipp = applyBrackets(base, BELGIUM_IPP_BRACKETS);
+      return Math.round(ipp * (1 + BELGIUM_COMMUNAL_SURCHARGE));
+    }
     case "alemania": {
       const estBase = applyBrackets(base, GERMANY_EST_BRACKETS);
-      return estBase + Math.round(estBase * GERMANY_SOLI_RATE);
+      // Soli Freigrenze: solo si supera 18.130 €.
+      const soli = estBase > GERMANY_SOLI_FREIGRENZE_SINGLE
+        ? Math.round(estBase * GERMANY_SOLI_RATE)
+        : 0;
+      return estBase + soli;
     }
     case "portugal": {
       const irsBase = applyBrackets(base, PORTUGAL_IRS_BRACKETS);
-      const derrama = Math.round(Math.max(0, base - 80_000) * PORTUGAL_IRS_DERRAMA_RATE);
+      const derrama = calcPortugalDerrama(base);
       return irsBase + derrama;
     }
     default:
@@ -574,7 +697,13 @@ export function calculateSavings(
   let ivaNote = 0;
   let irpfBrackets: IrpfBracketDetail[] | undefined;
 
-  const vatRate = COUNTRY_VAT_RATES[country] ?? 0;
+  // VAT: aplica tipo general por defecto; si el modo `exportB2B` está
+  // activo (servicios B2B intracomunitarios o exportación fuera UE
+  // típicos del cliente Exentax), el tipo informativo es 0 % por
+  // inversión del sujeto pasivo / no sujeción.
+  const vatRate = options.vatMode === "exportB2B"
+    ? 0
+    : (COUNTRY_VAT_RATES[country] ?? 0);
 
   if (country === "espana") {
     const netAnnual = Math.max(0, annual - totalGastosDeducibles);
@@ -620,7 +749,7 @@ export function calculateSavings(
   } else if (country === "chile") {
     ivaNote = Math.round(annual * vatRate);
     const netAnnual = Math.max(0, annual - itemizedDeductible);
-    const result = calcChileTax(netAnnual, regime);
+    const result = calcChileTax(netAnnual, regime, options);
     breakdown = result.breakdown;
     sinLLC = result.tax;
   } else if (country === "reino-unido") {
@@ -652,7 +781,7 @@ export function calculateSavings(
   } else if (country === "alemania") {
     ivaNote = Math.round(annual * vatRate);
     const netAnnual = Math.max(0, annual - itemizedDeductible);
-    const result = calcGermanTax(netAnnual, regime);
+    const result = calcGermanTax(netAnnual, regime, options);
     breakdown = result.breakdown;
     sinLLC = result.tax;
   } else if (country === "portugal") {
@@ -851,7 +980,12 @@ export const COUNTRY_REGIMES: Record<string, RegimeDef[]> = {
     { id: "sin-regimen", label: "Sin régimen" },
   ],
   mexico:       [
-    { id: "autonomo", label: "Persona Física (RESICO)" },
+    // Renombrado en Task #46: el modelo aplica la tabla ISR PF general,
+    // no las cuotas RESICO (1 % – 2,5 %). La etiqueta antigua confundía
+    // al usuario respecto al régimen efectivamente calculado. La tabla
+    // RESICO real se documenta en `MEXICO_RESICO_BRACKETS` para futura
+    // activación opcional.
+    { id: "autonomo", label: "Persona Física régimen general (ISR)" },
     { id: "sociedad", label: "Persona Moral (SA / SAPI)" },
     { id: "sin-regimen", label: "Sin régimen" },
   ],

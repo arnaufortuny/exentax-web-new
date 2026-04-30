@@ -2217,7 +2217,7 @@ const en = {
      sociedad: "Limited Company (SL)",
    },
    mexico: {
-     autonomo: "Individual (RESICO)",
+     autonomo: "Individual (general ISR regime)",
      sociedad: "Legal entity (SA / SAPI)",
    },
    chile: {

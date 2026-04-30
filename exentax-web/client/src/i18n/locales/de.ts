@@ -2219,7 +2219,7 @@ calculator: {
      sociedad: "Limited Company (SL)",
    },
    mexico: {
-     autonomo: "Natürliche Person (RESICO)",
+     autonomo: "Natürliche Person (allgemeines ISR-Regime)",
      sociedad: "Juristische Person (SA / SAPI)",
    },
    chile: {

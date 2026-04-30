@@ -45,19 +45,22 @@ Reglas inviolables:
 | `MONTHLY_INCOME` | Min/max/step del slider de ingresos |
 | `AMORTIZATION` | Vida útil contable de cada tipo de gasto |
 | `DISPLAY_CURRENCIES` | Catálogo de divisas + tasa orientativa vs EUR |
-| `COUNTRY_VAT_RATES` | IVA estándar por residencia |
+| `COUNTRY_VAT` / `COUNTRY_VAT_RATES` / `resolveVatRate` | IVA `general / reducido / exportB2B` por residencia |
 | `LLC_*` | Coste setup, IRPF/SS aplicables al residente español |
-| `IRPF_BRACKETS_ES` | Tramos estatales + autonómicos 2025 |
-| `UK_INCOME_TAX_BRACKETS` / `UK_NIC_*` | HMRC bands + Class 4 NIC 2025/26 |
-| `BE_PERSONAL_INCOME_BRACKETS` | Federales BE + comunal aproximado |
-| `FR_PARTS_BRACKETS` | Quotient familial 2025 |
-| `IT_IRPEF_BRACKETS` / `IT_FORFETTARIO_*` | IRPEF + forfettario 5/15 % |
-| `MX_ISR_*` / `MX_RESICO_*` | Tablas mensuales SAT 2025 |
-| `CL_GLOBAL_COMPLEMENTARIO` | Tramos UTA proyectados 2025 |
-| `AT_INCOME_TAX_BRACKETS` | ESt 2025 + KöSt 23 % |
+| `IRPF_BRACKETS_ES` + `CCAA_PROFILE_MAP` | Tramos estatales + autonómicos 2026 + perfil low/medium/high por CCAA |
+| `UK_*` (`CT_UPPER_THRESHOLD`, `CT_MARGINAL_FRACTION`, `DIVIDEND_ALLOWANCE_GBP`, `NI_RATE_MAIN 6 %`) | HMRC bands + Class 4 NIC FY 2026/27 + marginal relief 19/22.75/25 % |
+| `BELGIUM_IPP_BRACKETS` + `BELGIUM_COMMUNAL_SURCHARGE 0.07` | IPP federal + additionnelle communale media |
+| `FR_PARTS_BRACKETS` + flag `franceMicro` | Quotient familial 2026 + abattement micro 50 % BNC |
+| `GERMANY_*` (`SOLI_FREIGRENZE_SINGLE/JOINT`, `GEWERBE_HEBESATZ_LOW/MED/HIGH`) | Soli Freigrenze + Gewerbesteuer rangos seleccionables |
+| `MEXICO_ISR_*` / `MEXICO_RESICO_BRACKETS` | Tablas SAT 2025 (PF general aplicado; RESICO documentado) |
+| `CHILE_GLOBAL_COMPLEMENTARIO_*` + `CHILE_UTM_MONTHLY 69 755` + `CHILE_PRIMERA_CATEGORIA_*` | Tramos UTA proyectados 2026 + Régimen General 27 % / Pro PYME 14 D 25 % |
+| `PORTUGAL_*` (`IRC_RATE 0.20`, `IRC_REDUCED_RATE 0.17`, `IRS_DERRAMA_BRACKETS`) | IRC PME 17 % primeros 50 000 € + derrama estadual escalonada |
 
 Cada bloque está acompañado por un `// SOURCE:` con URL oficial y fecha
-de última verificación.
+de última verificación. La revisión 2026-04-30 (Tarea #46) actualiza
+los 8 países activos contra HMRC, BMF, AT, SAT, SII, AGN, BOE y BOSA y
+añade el comentario marcador `re-verified 2026-04-30` para trazar la
+2.ª pasada de auditoría.
 
 ---
 

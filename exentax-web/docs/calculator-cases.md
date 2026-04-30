@@ -1,6 +1,30 @@
 # Calculadora — Casos de prueba manuales
 
-**Última revisión:** 2026-04 (overhaul) · Ejercicio fiscal de referencia: **2025**
+**Última revisión:** 2026-04-30 (Tarea #46 — 2.ª pasada) · Ejercicio fiscal de referencia: **2026**
+
+## Cambios 2026-04-30 (Tarea #46 — auditoría exhaustiva 2.ª pasada)
+
+Re-verificación punto a punto de las constantes 2026 contra fuentes
+oficiales y nuevos escenarios de regresión. Sin cambios de UI.
+
+| Caso | Cobertura | Resultado esperado |
+|------|-----------|--------------------|
+| **UK marginal CT** | Profit £40k / £100k / £300k → 19 % / 22.75 % / 25 % | CT crece monótonamente; effectiveRate < 25 % en banda media |
+| **UK dividend allowance** | Dividendo bruto < £500 GBP | `dividendTax = 0` |
+| **BE additionnelle communale** | IPP federal × 1,07 (media nacional) | `BELGIUM_COMMUNAL_SURCHARGE = 0,07` |
+| **DE Soli Freigrenze** | ESt < 18 130 € single → Soli = 0 | Constante `GERMANY_SOLI_FREIGRENZE_SINGLE` aplicada |
+| **DE Hebesatz seleccionable** | `germanyHebesatz: low/medium/high` | Gewerbesteuer: low ≈ 8,75 %, med ≈ 14 %, high ≈ 17,15 % |
+| **CL Pro PYME 14 D** | `chileRegimen: "proPyme"` | Tasa 25 % (vs 27 % General 14 A) |
+| **CL UTM abr 2026** | Conversión brackets GC | `CHILE_UTM_MONTHLY = 69 755` |
+| **PT IRC reducido** | Profit ≤ 50 000 € → 17 % | Constantes `PORTUGAL_IRC_REDUCED_RATE/THRESHOLD` |
+| **PT derrama escalonada** | netBase 80k / 250k / 500k → 2,5 / 4,75 / 5 % | `PORTUGAL_IRS_DERRAMA_BRACKETS[3]` |
+| **VAT exportB2B** | `vatMode: "exportB2B"` | `ivaNote = 0` en los 8 países |
+| **CCAA España** | 17 CCAA + Ceuta/Melilla | `CCAA_PROFILE_MAP` (low/medium/high) |
+| **MX label** | Régimen autónomo en 6 idiomas | "Persona Física régimen general (ISR)" — sin "RESICO" |
+| **CFC notes** | Bloque informativo en LLC | Referencias normativas para los 8 países |
+
+Test runner ampliado a **416 aserciones** (270 → 416).
+`npm run test:calculator` 416/416 ✅.
 
 ## Cambios 2026-04 (Task #10 — overhaul)
 

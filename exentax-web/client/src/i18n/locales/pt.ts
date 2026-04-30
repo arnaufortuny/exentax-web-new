@@ -2223,7 +2223,7 @@ errors: {
      sociedad: "Sociedade Limitada (SL)",
    },
    mexico: {
-     autonomo: "Pessoa Física (RESICO)",
+     autonomo: "Pessoa Física (regime geral ISR)",
      sociedad: "Pessoa Moral (SA / SAPI)",
    },
    chile: {

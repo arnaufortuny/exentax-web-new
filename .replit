@@ -88,4 +88,4 @@ INDEXNOW_KEY = "b2c8d9fd690c4015af5ef0be1386ce79"
 
 [postMerge]
 path = "scripts/post-merge.sh"
-timeoutMs = 20000
+timeoutMs = 300000
