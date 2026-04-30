@@ -16,6 +16,17 @@
  */
 process.env.NODE_ENV = "test";
 process.env.DISCORD_BOT_TOKEN = "test-token";
+// Force the in-memory queue backend so this test cannot race against any
+// other test (or worker) that touches the shared Postgres
+// `discord_outbound_queue` table. Under `npm run check` the runner spawns
+// many child processes in parallel; if this test used the persistent
+// backend, a sister test's drain worker could claim our enqueued payloads
+// from Postgres and route them through ITS own fetch stub, leaving our
+// `SENT[]` empty and turning every assertion into a confusing false
+// failure (observed under `scripts/check.mjs` parallel runner). Setting
+// this env var BEFORE the dynamic `import("../server/discord")` is
+// load-bearing — see `server/discord.ts:607`.
+process.env.DISCORD_QUEUE_BACKEND = "memory";
 // Discord channel ids must look like real snowflakes (17–19 digit numerics)
 // or the env-var validator in `server/discord.ts` rejects them at module load
 // and every notification becomes a no-op. Sister test
