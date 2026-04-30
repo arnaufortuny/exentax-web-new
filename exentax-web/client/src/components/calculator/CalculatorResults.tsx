@@ -43,9 +43,10 @@ interface CalculatorResultsProps {
    * Spain.
    */
   ccaa?: string;
+  vatMode?: "general" | "exportB2B";
 }
 
-export default function CalculatorResults({ result, income, country, regime, getInsight, displayCurrency = "EUR", allStructures, ccaa }: CalculatorResultsProps) {
+export default function CalculatorResults({ result, income, country, regime, getInsight, displayCurrency = "EUR", allStructures, ccaa, vatMode = "general" }: CalculatorResultsProps) {
   const { t } = useTranslation();
   const lp = useLangPath();
   const cur = displayCurrency;
@@ -275,7 +276,11 @@ export default function CalculatorResults({ result, income, country, regime, get
               <span className="font-body text-xs font-semibold text-[#DC2626]">{t("calculator.total")}</span>
               <span className="font-body font-bold text-[#DC2626] text-xs">{fmt(result.sinLLC)}{t("calculator.perYear")}</span>
             </div>
-            {result.ivaNote > 0 && (
+            {vatMode === "exportB2B" ? (
+              <p className="font-body text-[10px] text-[var(--text-3)] mt-1.5" data-testid="text-iva-export-note">
+                {t("calculator.ivaExportNote")}
+              </p>
+            ) : result.ivaNote > 0 && (
               <p className="font-body text-[10px] text-[var(--text-3)] mt-1.5" data-testid="text-iva-note">
                 + {fmt(result.ivaNote)}{t("calculator.perYear")} {t("calculator.ivaNote")} ({country === "espana" || country === "belgica" ? "21%" : country === "mexico" ? "16%" : country === "portugal" ? "23%" : country === "reino-unido" || country === "francia" ? "20%" : "19%"})
               </p>

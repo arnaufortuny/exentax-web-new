@@ -185,4 +185,83 @@ test.describe("calculator flow", () => {
     // CCAA only renders when country === "espana".
     await expect(page.getByTestId("select-ccaa-profile")).toHaveCount(0);
   });
+
+  /**
+   * Task #52 — VAT B2B export toggle.
+   *
+   * The "I export to B2B clients without VAT" toggle must be available
+   * for every country supported by the calculator. When enabled, the
+   * `/api/calculator-leads` payload must carry
+   * `options.vatMode === "exportB2B"`, and the results panel must
+   * render the export note (`text-iva-export-note`) instead of the
+   * default IVA note.
+   *
+   * We loop through all 8 countries to guarantee that the toggle
+   * is rendered + wired regardless of the country's regime / IVA
+   * specifics. We use `autonomo` because every country exposes it.
+   */
+  const ALL_COUNTRIES = [
+    "espana",
+    "mexico",
+    "chile",
+    "reino-unido",
+    "francia",
+    "belgica",
+    "alemania",
+    "portugal",
+  ] as const;
+
+  for (const countryId of ALL_COUNTRIES) {
+    test(`VAT B2B export toggle works for ${countryId}`, async ({ page }) => {
+      const capture: LeadCapture = { payload: null };
+      await stubCalculatorLead(page, capture);
+
+      await page.goto("/start");
+      await ensureCalculatorMounted(page);
+
+      await page.getByTestId(`button-country-${countryId}`).click();
+      await page.getByTestId("select-regime").selectOption("autonomo");
+      await page.getByTestId("select-activity").selectOption("digitalServices");
+
+      // Income must be touched for the toggle to appear.
+      const incomeInput = page.getByTestId("text-income-value");
+      await incomeInput.click();
+      await incomeInput.fill("5000");
+      await incomeInput.blur();
+
+      // Toggle must be visible for this country.
+      const toggle = page.getByTestId("toggle-vat-export-b2b");
+      await expect(toggle).toBeVisible({ timeout: 10_000 });
+      await toggle.click();
+      await expect(page.getByTestId("checkbox-vat-export-b2b")).toBeChecked();
+
+      // Email gate.
+      await expect(page.getByTestId("form-email-gate")).toBeVisible({ timeout: 10_000 });
+      await page.getByTestId("input-email-gate").fill(`vat+${countryId}@example.com`);
+      await page.getByTestId("input-phone-gate").fill("612345678");
+      const privacyCheckbox = page.getByTestId("checkbox-privacy");
+      await privacyCheckbox.click({ force: true });
+      await expect(privacyCheckbox).toBeChecked({ timeout: 5_000 });
+
+      const leadRequestPromise: Promise<Request> = page.waitForRequest(
+        (req) => req.url().includes("/api/calculator-leads") && req.method() === "POST",
+        { timeout: 15_000 },
+      );
+
+      await page.getByTestId("button-submit-email").click();
+      await leadRequestPromise;
+
+      // Results must render and show the export note (not the regular IVA note).
+      await expect(page.getByTestId("calculator-results")).toBeVisible({ timeout: 15_000 });
+      await expect(page.getByTestId("text-iva-export-note")).toBeVisible();
+      await expect(page.getByTestId("text-iva-note")).toHaveCount(0);
+
+      // Captured payload must carry vatMode = exportB2B.
+      expect(capture.payload, `lead payload captured for ${countryId}`).not.toBeNull();
+      const payload = capture.payload as Record<string, unknown>;
+      expect(payload.country).toBe(countryId);
+      const options = payload.options as { vatMode?: string } | undefined;
+      expect(options?.vatMode).toBe("exportB2B");
+    });
+  }
 });

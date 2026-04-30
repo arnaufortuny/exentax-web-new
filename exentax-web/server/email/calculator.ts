@@ -79,6 +79,7 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData, opts?: { un
   const optList: string[] = [];
   if (data.options?.tarifaPlana) optList.push(fi.tarifa);
   if (data.options?.franceMicro) optList.push(fi.micro);
+  if (data.options?.vatMode === "exportB2B") optList.push(fi.exportB2B);
   if (optList.length > 0) fidelityRows.push({ label: fi.opts, value: optList.join(", ") });
 
   const fidelityBlock = fidelityRows.length === 0 ? "" : `

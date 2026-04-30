@@ -56,6 +56,7 @@ export const calculatorLeadSchema = z.object({
   options: z.object({
     tarifaPlana: z.boolean().optional(),
     franceMicro: z.boolean().optional(),
+    vatMode: z.enum(["general", "exportB2B"]).optional(),
   }).strict().optional(),
   // Replay-fidelity inputs.
   expenseItems: z.array(z.object({

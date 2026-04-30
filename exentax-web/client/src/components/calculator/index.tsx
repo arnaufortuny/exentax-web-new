@@ -87,6 +87,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [ccaa, setCcaa] = useState<string>("");
   const ccaaProfile = useMemo(() => resolveCcaaProfile(ccaa), [ccaa]);
   const showForalNotice = ccaa !== "" && isForalCcaa(ccaa);
+  const [vatExportB2B, setVatExportB2B] = useState(false);
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
@@ -118,15 +119,16 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const pct = Math.min(100, Math.max(0, ((displayValue - sliderMin) / Math.max(1, sliderMax - sliderMin)) * 100));
 
   const calcRegime = regime === "sin-regimen" ? "autonomo" : regime;
+  const vatMode: "general" | "exportB2B" = vatExportB2B ? "exportB2B" : "general";
   const result = useMemo(() => (hasCountry && hasRegime)
-    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, { ccaaProfile })
+    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, { ccaaProfile, vatMode })
     : { sinLLC: 0, conLLC: 0, ahorro: 0, localLabel: "", breakdown: [], llcBreakdown: [], ivaNote: 0, effectiveRate: 0, llcEffectiveRate: 0, gastosDeducibles: 0 } as ReturnType<typeof calculateSavings>,
-    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime, ccaaProfile]);
+    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime, ccaaProfile, vatMode]);
 
   const allStructures = useMemo<AllStructuresResult | null>(() => hasCountry
-    ? computeAllStructures(income, country, activity, expenses, expenseItems)
+    ? computeAllStructures(income, country, activity, expenses, expenseItems, { vatMode })
     : null,
-    [income, country, activity, expenses, expenseItems, hasCountry]);
+    [income, country, activity, expenses, expenseItems, hasCountry, vatMode]);
 
   // Geo-based prefill (Task #11): on mount, ask the server for the visitor's
   // country (resolved from cf-ipcountry / x-vercel-ip-country / fly-client-ip-
@@ -294,6 +296,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       // (or when the user hasn't picked one) we omit the field so older
       // server validators stay happy and the email skips the CCAA row.
       ...(country === "espana" && ccaa ? { ccaa } : {}),
+      ...(vatExportB2B ? { options: { vatMode: "exportB2B" as const } } : {}),
       ...(expenseItems.length > 0 ? { expenseItems: expenseItems.map(it => ({ id: it.id, monthly: it.monthly })) } : {}),
     }).catch((e) => {
       clientLogger.warn("[calculator] submission failed", e);
@@ -726,6 +729,37 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
             </div>
           </label>
         )}
+
+        {hasCountry && hasRegime && incomeTouched && (
+          <label
+            className={`flex items-center gap-3 cursor-pointer rounded-full border transition-all duration-200 ${compact ? "px-3 py-2" : "px-4 py-3"} ${
+              vatExportB2B
+                ? "border-[rgba(var(--green-rgb),0.4)] bg-[rgba(var(--green-rgb),0.05)]"
+                : "border-[var(--border)] bg-[var(--bg-1)] hover:border-[rgba(var(--green-rgb),0.25)]"
+            }`}
+            style={{ animation: "fadeSlideIn 0.4s ease-out" }}
+            data-testid="toggle-vat-export-b2b"
+          >
+            <div className={`relative w-10 h-5 rounded-full transition-colors duration-200 flex-shrink-0 ${vatExportB2B ? "bg-[var(--green)]" : "bg-[var(--border)]"}`}>
+              <div className={`absolute top-0.5 w-4 h-4 rounded-full bg-[var(--bg-0)] shadow-sm transition-transform duration-200 ${vatExportB2B ? "translate-x-5" : "translate-x-0.5"}`} />
+            </div>
+            <input
+              type="checkbox"
+              checked={vatExportB2B}
+              onChange={(e) => setVatExportB2B(e.target.checked)}
+              className="sr-only"
+              data-testid="checkbox-vat-export-b2b"
+            />
+            <div>
+              <span className={`font-medium text-[var(--text-1)] block ${compact ? "text-[11px]" : "text-xs sm:text-sm"}`}>
+                {t("calculator.vatExportToggle")}
+              </span>
+              <span className={`text-[var(--text-3)] ${compact ? "text-[9px]" : "text-[10px] sm:text-xs"}`}>
+                {t("calculator.vatExportToggleDesc")}
+              </span>
+            </div>
+          </label>
+        )}
       </div>
 
       {!hasCountry && !showResults && (
@@ -793,6 +827,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
             displayCurrency={displayCurrency}
             allStructures={allStructures}
             ccaa={country === "espana" ? ccaa : undefined}
+            vatMode={vatMode}
           />
           {sendError && (
             <p className="text-[var(--error)] text-xs text-center mt-2" data-testid="text-calculator-send-error">
