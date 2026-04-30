@@ -575,18 +575,26 @@ async function loadBackend(): Promise<"db" | "memory"> {
     // Best-effort: rehydrate the gauge from the DB so /api/metrics reports
     // an accurate queue size even before the first drain tick after boot.
     //
-    // We ADD the on-disk count to the in-process counter rather than replacing
-    // it. `loadBackend` runs lazily on the first `getBackend()` call, which is
-    // typically triggered from inside `persistAndQueue` AFTER the synchronous
-    // `incPending()` in `enqueueItem` has already bumped `_pendingCount`. If
-    // we replaced the gauge here we'd silently overwrite those in-flight
-    // increments — `getDiscordQueueSize()` would then return 0 even though
-    // rows are mid-persist, and `waitForQueueDrain()` (used by the discord
-    // bot e2e regression) would return immediately, missing the captured
-    // POSTs and reporting `auditCalls=0`. The on-disk SELECT only sees rows
-    // already inserted by other processes (or by previous, killed runs of
-    // this one) — by definition disjoint from anything still queued here —
-    // so addition is the arithmetically correct merge.
+    // We ADD the on-disk count to the in-process counter (rather than
+    // assigning it). The first-call ordering is:
+    //   enqueue() → incPending() (counter += 1) → persistAndQueue()
+    //   → getBackend() → loadBackend() → SELECT → += recovered
+    // so any items already incremented in-process before this SELECT
+    // ran (because the very same enqueue triggered the lazy load) are
+    // preserved in the gauge. Assigning here would zero them out and
+    // cause `waitForQueueDrain()` to return prematurely while the first
+    // POSTs are still inflight — that race is what
+    // `tests/discord/test-discord-bot-e2e.ts` (bloquear/desbloquear)
+    // exercises.
+    //
+    // Co-tenancy note: under multi-process deployments two processes
+    // sharing the same DB table will each add the same `recovered`
+    // count to their own local gauge. This inflates each gauge by the
+    // peer's recovered count for a single boot, but converges as soon
+    // as the drain tick processes the rows (`decPending()`). The gauge
+    // is a metrics signal, not the source of truth for sending; claim
+    // `FOR UPDATE SKIP LOCKED` ensures rows are never double-sent
+    // regardless of gauge state.
     try {
       const { sql } = await import("drizzle-orm");
       const r = await _dbCached.db.execute(

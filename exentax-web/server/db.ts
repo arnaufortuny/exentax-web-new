@@ -1,4 +1,7 @@
 import { drizzle } from "drizzle-orm/node-postgres";
+import type { ExtractTablesWithRelations } from "drizzle-orm";
+import type { PgTransaction } from "drizzle-orm/pg-core";
+import type { NodePgQueryResultHKT } from "drizzle-orm/node-postgres";
 import { Pool, type PoolClient } from "pg";
 import * as schema from "../shared/schema";
 import { logger } from "./logger";
@@ -210,6 +213,19 @@ export async function runColumnMigrations(): Promise<void> {
         WHERE unsubscribe_token IS NOT NULL
     `);
 
+    // A2 fix (Task #36, 2026-04-30) — exactly-once dispatch sentinel.
+    // Updated post-SMTP-ACK in a write separate from `currentStep`, so a
+    // transient `advanceDripEnrollment` failure after the email has already
+    // gone out does NOT cause the worker to re-fire the same step on the
+    // next 60s tick. See `shared/schema.ts` field docstring + worker
+    // dispatch loop in `server/scheduled/drip-worker.ts`. Idempotent ALTER
+    // so legacy rows default to `0` and the next worker pass treats them
+    // as "no step sent yet at the sentinel layer" — same as a fresh row.
+    await client.query(`
+      ALTER TABLE drip_enrollments
+        ADD COLUMN IF NOT EXISTS last_sent_step integer NOT NULL DEFAULT 0
+    `);
+
     logger.debug("Column migrations applied.", "db");
   } catch (err) {
     // Slot uniqueness is the only mechanism preventing double-booking, so
@@ -253,10 +269,30 @@ async function ensureForeignKeyNotValid(
   }
 }
 
-export type DbOrTx = typeof db;
+/**
+ * Handle that accepts either the top-level `db` or a transaction object
+ * passed by `withTransaction`. Encoded as a true union (`db | PgTransaction`)
+ * — NOT `typeof db` — so the type system distinguishes a transaction handle
+ * from the global pool. Without the union, a `tx` parameter would be typed
+ * as a full `db` (because it was cast through `as unknown as DbOrTx` at the
+ * `withTransaction` boundary), and Drizzle would happily accept calls like
+ * `tx.transaction(...)` — which start a NEW outer transaction on a fresh
+ * connection rather than a savepoint, silently splitting writes across
+ * connections and breaking atomicity guarantees. With the union, attempting
+ * to nest transactions through a `DbOrTx` handle no longer compiles.
+ *
+ * Generic parameters mirror the `drizzle-orm` types for `PgTransaction`:
+ *   - `NodePgQueryResultHKT` — the result HKT for the node-postgres driver.
+ *   - `typeof schema` — our app schema, used for type inference of `tx.<table>`.
+ *   - `ExtractTablesWithRelations<typeof schema>` — relational query API
+ *     surface (currently unused but required by the type for completeness).
+ */
+export type DbOrTx =
+  | typeof db
+  | PgTransaction<NodePgQueryResultHKT, typeof schema, ExtractTablesWithRelations<typeof schema>>;
 
 export async function withTransaction<T>(fn: (tx: DbOrTx) => Promise<T>): Promise<T> {
-  return db.transaction(async (tx) => {
-    return fn(tx as unknown as DbOrTx);
-  });
+  // The `tx` argument is a `PgTransaction<...>`, which is one of the union
+  // members of `DbOrTx` — no cast needed.
+  return db.transaction((tx) => fn(tx));
 }

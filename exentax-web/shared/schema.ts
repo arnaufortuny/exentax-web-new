@@ -472,6 +472,33 @@ export const dripEnrollments = pgTable("drip_enrollments", {
   language: text("language").notNull(),
   source: text("source").notNull(), // 'guide' | 'booking' | 'calculator'
   currentStep: integer("current_step").notNull().default(0), // 0=not yet sent, 1..6=last sent step
+  /**
+   * Exactly-once dispatch sentinel. Updated by the drip-worker AFTER a
+   * successful SMTP send for `step = lastSentStep + 1`, in a write that is
+   * SEPARATE from the `currentStep` advance.
+   *
+   * Without this column, the failure mode was: SMTP send returns OK, then
+   * `advanceDripEnrollment` (which moves `currentStep`) errors transiently
+   * (network blip, deadlock, stale connection). The error handler resets
+   * `claimedAt = null` but does NOT touch `currentStep`, so on the next
+   * worker tick (every 60s) the same row is re-claimed at the same
+   * `currentStep` and the worker happily re-fires the SAME drip step at
+   * the recipient — a duplicate email of a marketing nurture sequence.
+   *
+   * With this column, the worker checks `lastSentStep >= stepToSend` at
+   * the top of the dispatch loop. If true, the previous SMTP attempt
+   * already succeeded; the worker SKIPS the send and only re-tries the
+   * `currentStep` advance. The remaining race window is the single
+   * `UPDATE drip_enrollments SET last_sent_step = ?` between Gmail's
+   * SMTP ACK and that DB write — measurable in single-digit milliseconds
+   * vs the 60-second worker tick the bug previously exposed.
+   *
+   * Defaults to 0 so legacy rows (created before this column existed)
+   * continue from where they were: every step is "not yet sent at the
+   * sentinel layer" and the worker advances them as before. See
+   * `tests/drip-exactly-once.test.ts` for the regression coverage.
+   */
+  lastSentStep: integer("last_sent_step").notNull().default(0),
   nextSendAt: text("next_send_at"), // ISO; null when completed
   completedAt: text("completed_at"),
   claimedAt: text("claimed_at"),

@@ -607,8 +607,21 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         };
 
+        // A4 atomicity: resolve all inputs the in-tx writes need BEFORE
+        // opening the transaction so the tx body is straight-line and
+        // self-contained. Privacy version + IP + UA are deterministic at
+        // request time, so the consent record we build inside the tx is
+        // identical to the one the post-commit Discord notify will echo.
+        const bookingConsentIp = truncateIp(ip);
+        const bookingConsentUa = (req.headers["user-agent"] as string | undefined) || null;
+        const bookingPrivacyVersion = await getCachedPrivacyVersion();
+
         let leadCreated = false;
         let resolvedLeadId = bookingLeadId;
+        // Captured FROM INSIDE the tx so the post-commit Discord notify can
+        // reference the GDPR consent row's `con_*` id. Stays null if the tx
+        // throws (we never reach the notify in that case).
+        let bookingConsentId: string | null = null;
         try {
         // Race-safety belt around the lead upsert: see `withLeadEmailLock`
         // docstring for why this is needed even though `leads.email` is
@@ -677,6 +690,48 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             immediate: true,
             tx,
           });
+
+          // A4 fix: GDPR/AEPD audit-trail consent record INSIDE the tx so
+          // a process crash between commit and the previous floating
+          // `.then(...)` cannot leave a confirmed booking with no
+          // consent_log row. If `insertConsentLog` itself errors, the
+          // booking rolls back too — that is the explicit trade-off:
+          // missing consent record is a regulatory exposure (AEPD), and
+          // the user can simply re-submit the form. The Discord
+          // notification stays OUTSIDE the tx (operational, not
+          // state-of-record) — see post-commit `notifyConsent` below.
+          bookingConsentId = await insertConsentLog({
+            formType: "booking",
+            email,
+            privacyAccepted,
+            marketingAccepted,
+            language: language || null,
+            source: "booking",
+            privacyVersion: bookingPrivacyVersion,
+            ip: bookingConsentIp,
+            userAgent: bookingConsentUa,
+          }, tx);
+
+          // A4 fix: newsletter membership for booking leads (gated on
+          // explicit marketing consent) ALSO inside the tx. Previously
+          // ran post-commit fire-and-forget — a crash between commit and
+          // the floating `.catch` left a confirmed booking with no
+          // newsletter row, silently dropping a contact who explicitly
+          // opted in. Per spec: booking flow is transactional —
+          // confirmation + day-before reminder only — and the lead joins
+          // the monthly newsletter list as their ongoing touchpoint. No
+          // drip sequence is started for booking submissions: the guide
+          // drip is for guide PDF requests; the calculator drip is for
+          // calculator submissions.
+          if (marketingAccepted) {
+            await upsertNewsletterSubscriber(
+              email,
+              name || "",
+              "booking",
+              ["fiscalidad", "llc"],
+              tx,
+            );
+          }
         }));
         } catch (err) {
           if (err instanceof SlotConflictError) {
@@ -710,24 +765,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         });
 
-        // Newsletter membership for booking leads (gated on explicit
-        // marketing consent). Per spec: booking flow is transactional —
-        // confirmation + day-before reminder only — and the lead joins
-        // the monthly newsletter list as their ongoing touchpoint. No
-        // drip sequence is started for booking submissions: the guide
-        // drip is for guide PDF requests; the calculator drip is for
-        // calculator submissions. Booking has its own dedicated
-        // operational thread (reschedule / reminder / cancellation /
-        // post-meeting follow-up) and does not need a marketing drip.
-        if (marketingAccepted) {
-          upsertNewsletterSubscriber(
-            email,
-            name || "",
-            "booking",
-            ["fiscalidad", "llc"],
-          ).catch((err) => logger.warn(`Newsletter upsert (booking) error: ${err instanceof Error ? err.message : String(err)}`, "newsletter"));
-        }
-
         notifyBookingCreated({ bookingId: bookingLeadId, name, lastName, email, phone, date, startTime, endTime, meetLink, meetingType, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
         // Only fire "new lead" Discord card when we actually inserted a
         // fresh row (not when we just upserted scheduledCall onto an
@@ -736,12 +773,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         if (leadCreated) {
           notifyNewLead({ leadId: resolvedLeadId, name: `${name}${lastName ? " " + lastName : ""}`, email, phone, source: LEAD_SOURCES.BOOKING_WEB, language, ip, activity, bookingId: bookingLeadId });
         }
-        const bookingConsentIp = truncateIp(ip);
-        const bookingConsentUa = (req.headers["user-agent"] as string | undefined) || null;
-        getCachedPrivacyVersion().then(async (privacyVersion) => {
-          const consentId = await logConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip: bookingConsentIp, userAgent: bookingConsentUa });
-          notifyConsent({ consentId, formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip: bookingConsentIp });
-        }).catch(err => logger.warn(`Booking consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
+        // Discord audit (operational) — fired AFTER the consent_log row
+        // is durably committed, with the same `con_*` id captured from
+        // inside the tx so audit grep matches one-to-one.
+        notifyConsent({ consentId: bookingConsentId, formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion: bookingPrivacyVersion, ip: bookingConsentIp });
         return { error: false as const, date, startTime, endTime, meetLink, meetingType, status: "confirmed" };
       });
 
@@ -1002,6 +1037,19 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const monthlyIncome = parsed.data.incomeMode === "annual" ? Math.round(parsed.data.income / 12) : parsed.data.income;
     const breakdownStr = parsed.data.breakdown.map(b => `${b.label}: ${b.amount}€`).join(" | ");
 
+    // A4 atomicity: same pattern as the booking handler — pre-resolve
+    // privacy version, IP and UA so the consent record can be written
+    // INSIDE the tx and the post-commit Discord notify can echo the
+    // exact same values.
+    const calcConsentIp = truncateIp(calcIp);
+    const calcConsentUa = (req.headers["user-agent"] as string | undefined) || null;
+    const calcPrivacyVersion = await getCachedPrivacyVersion();
+
+    // Captured FROM INSIDE the tx so the post-commit Discord notify can
+    // reference the GDPR consent row's `con_*` id. Stays null if the tx
+    // throws (we never reach the notify in that case).
+    let calcConsentId: string | null = null;
+
     // Race-safety belt around the lead upsert (same rationale as the
     // booking handler — see `withLeadEmailLock` docstring). Without
     // this, two simultaneous calculator submissions for the same email
@@ -1074,6 +1122,43 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         locale: calcLocale,
         date: todayMadridISO(),
       });
+
+      // A4 fix: GDPR/AEPD audit-trail consent record INSIDE the tx so a
+      // process crash between commit and the previous floating
+      // `.then(...)` cannot leave a saved calculation with no
+      // consent_log row. If `insertConsentLog` itself errors, the
+      // calculation rolls back too — explicit trade-off documented in
+      // `docs/audits/produccion-2026-04/01-funcional.md` §6.b A4. Discord
+      // notify stays OUTSIDE the tx (operational) — see post-commit
+      // `notifyConsent` below.
+      calcConsentId = await insertConsentLog({
+        formType: "calculator",
+        email: normalizedEmail,
+        privacyAccepted: parsed.data.privacyAccepted,
+        marketingAccepted: parsed.data.marketingAccepted,
+        language: parsed.data.language || null,
+        source: "calculator",
+        privacyVersion: calcPrivacyVersion,
+        ip: calcConsentIp,
+        userAgent: calcConsentUa,
+      }, tx);
+
+      // A4 fix: newsletter membership for calculator leads (gated on
+      // explicit marketing consent) ALSO inside the tx — same rationale
+      // as booking. Drip enrollment stays OUTSIDE because it is
+      // idempotent (partial unique index) and has its own retry loop in
+      // the worker; losing a single drip schedule attempt is recoverable
+      // by the next form submission, but losing a consent/newsletter row
+      // is a regulatory/data-loss issue.
+      if (parsed.data.marketingAccepted) {
+        await upsertNewsletterSubscriber(
+          normalizedEmail,
+          "",
+          "calculadora",
+          ["fiscalidad", "llc"],
+          tx,
+        );
+      }
     })).catch((err) => {
       logger.error("Calculator lead+row transaction failed:", "db", err);
       throw err;
@@ -1085,12 +1170,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     );
 
     if (parsed.data.marketingAccepted) {
-      upsertNewsletterSubscriber(
-        normalizedEmail,
-        "",
-        "calculadora",
-        ["fiscalidad", "llc"]
-      ).catch((err) => logger.error("calculator subscribe error:", "newsletter", err));
       notifyNewsletterSubscribe({ email: normalizedEmail, source: "calculadora_marketing", language: parsed.data.language, ip: calcIp });
 
       // Enroll in the calculator nurture drip (3 follow-up emails on
@@ -1116,12 +1195,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       ahorro: parsed.data.ahorro, annualIncome, monthlyIncome, localTax: parsed.data.sinLLC, llcTax: parsed.data.conLLC,
       language: parsed.data.language, ip: calcIp, marketingAccepted: parsed.data.marketingAccepted, privacyAccepted: parsed.data.privacyAccepted,
     });
-    const calcConsentIp = truncateIp(calcIp);
-    const calcConsentUa = (req.headers["user-agent"] as string | undefined) || null;
-    getCachedPrivacyVersion().then(async (privacyVersion) => {
-      const consentId = await logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcConsentIp, userAgent: calcConsentUa });
-      notifyConsent({ consentId, formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcConsentIp });
-    }).catch(err => logger.warn(`Calculator consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
+    // A4: Discord audit (operational) — fired AFTER the consent_log row
+    // is durably committed, with the same `con_*` id captured from
+    // inside the tx so audit grep matches one-to-one.
+    notifyConsent({ consentId: calcConsentId, formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion: calcPrivacyVersion, ip: calcConsentIp });
     return apiOk(res);
   }));
 
@@ -1187,7 +1264,38 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const { email, source, privacyAccepted, marketingAccepted, language } = parsed.data;
     if (!privacyAccepted) return apiFail(res, 400, backendLabel("zodMustAcceptPrivacy", resolveRequestLang(req)), "PRIVACY_REQUIRED");
     const normalizedEmail = email.trim().toLowerCase();
-    const subscriber = await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
+
+    // A4 atomicity: pre-resolve privacy version + truncated IP + UA so
+    // the consent record committed inside the tx and the post-commit
+    // Discord notify echo identical values. Previously this endpoint had
+    // NO surrounding transaction at all — the newsletter row, the
+    // consent_log row, and the drip enrollment were three independent
+    // writes any of which could silently fail mid-flight. Now newsletter
+    // + consent_log commit atomically; drip enrollment stays outside
+    // because it is idempotent (partial unique index on active
+    // enrollments) and has its own retry semantics through the worker.
+    const newsletterConsentIp = truncateIp(ip);
+    const newsletterConsentUa = (req.headers["user-agent"] as string | undefined) || null;
+    const newsletterPrivacyVersion = await getCachedPrivacyVersion();
+
+    const txResult = await withTransaction(async (tx) => {
+      const sub = await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"], tx);
+      const consentId = await insertConsentLog({
+        formType: "newsletter_footer",
+        email: normalizedEmail,
+        privacyAccepted: true,
+        marketingAccepted: marketingAccepted ?? false,
+        language: language || null,
+        source: source || "footer",
+        privacyVersion: newsletterPrivacyVersion,
+        ip: newsletterConsentIp,
+        userAgent: newsletterConsentUa,
+      }, tx);
+      return { subscriber: sub, consentId };
+    });
+    const subscriber = txResult.subscriber;
+    const newsletterConsentId = txResult.consentId;
+
     notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer", language: language || null, ip, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false });
     // Enroll in the 6-step drip sequence (days 0/3/6/9/12/15).
     // `isNew` (from the upsert's `xmax = 0` check) guards the happy path;
@@ -1218,12 +1326,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         logger.warn(`Drip enrollment (guide) error: ${err instanceof Error ? err.message : String(err)}`, "drip");
       }
     }
-    const newsletterConsentIp = truncateIp(ip);
-    const newsletterConsentUa = (req.headers["user-agent"] as string | undefined) || null;
-    getCachedPrivacyVersion().then(async (privacyVersion) => {
-      const consentId = await logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip: newsletterConsentIp, userAgent: newsletterConsentUa });
-      notifyConsent({ consentId, formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip: newsletterConsentIp });
-    }).catch(err => logger.warn(`Newsletter consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
+    // A4: Discord audit (operational) — fired AFTER the consent_log row
+    // is durably committed, with the same `con_*` id captured from
+    // inside the tx so audit grep matches one-to-one.
+    notifyConsent({ consentId: newsletterConsentId, formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion: newsletterPrivacyVersion, ip: newsletterConsentIp });
     return apiOk(res, { subscribed: true });
   }));
 

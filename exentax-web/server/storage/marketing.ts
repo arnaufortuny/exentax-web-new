@@ -33,11 +33,18 @@ export interface ConsentLogEntry {
  */
 const MAX_USER_AGENT_LEN = 300;
 
-export async function insertConsentLog(entry: ConsentLogEntry): Promise<string> {
+export async function insertConsentLog(entry: ConsentLogEntry, txDb?: DbOrTx): Promise<string> {
   try {
     const id = generateId("CON");
     const ua = entry.userAgent ? entry.userAgent.slice(0, MAX_USER_AGENT_LEN) : null;
-    await db.insert(s.consentLog).values({
+    // A4 fix: accept an optional `txDb` so the consent row commits atomically
+    // with the surrounding business write (booking / calculator / newsletter).
+    // GDPR/AEPD audit-trail requires the consent record to exist iff the
+    // user-facing event was recorded — losing the consent row to a process
+    // crash between commit and the floating `.then(...)` was a real
+    // regulatory exposure (see `docs/audits/produccion-2026-04/01-funcional.md`
+    // §6.b row A4).
+    await (txDb || db).insert(s.consentLog).values({
       id,
       formType: entry.formType,
       email: entry.email || null,
@@ -143,17 +150,24 @@ function toPgTextArrayLiteral(values: readonly string[]): string {
   return `{${escaped.join(",")}}`;
 }
 
-export async function upsertNewsletterSubscriber(email: string, name: string, source: string, interests?: string[]) {
+export async function upsertNewsletterSubscriber(email: string, name: string, source: string, interests?: string[], txDb?: DbOrTx) {
   try {
     const id = generateId("NS");
     const unsubToken = crypto.randomBytes(24).toString("hex");
     const interestsLiteral = interests && interests.length > 0 ? toPgTextArrayLiteral(interests) : null;
+    // A4 fix: accept an optional `txDb` so the subscription commits atomically
+    // with the surrounding business write (booking / calculator / newsletter
+    // footer). Previously, a process crash between the booking commit and the
+    // floating `.catch()` could leave a confirmed booking with no newsletter
+    // membership — silent marketing-consent loss for a contact who explicitly
+    // opted in. See `docs/audits/produccion-2026-04/01-funcional.md` §6.b A4.
+    //
     // We add `isNew` via PostgreSQL's `xmax` system column: rows produced by
     // a fresh INSERT have xmax = 0; rows produced by ON CONFLICT DO UPDATE
     // have a non-zero xmax (the row's previous version). This is the
     // standard idiomatic insert-vs-update signal in Postgres and is
     // race-free (it's evaluated atomically per row).
-    const rows = await db.insert(s.newsletterSubscribers).values({
+    const rows = await (txDb || db).insert(s.newsletterSubscribers).values({
       id,
       email,
       name: name || null,
@@ -254,10 +268,11 @@ export async function tryCreateDripEnrollment(opts: {
     // from random by an attacker without the secret.
     const unsubToken = (await import("node:crypto")).randomBytes(32).toString("hex");
     const inserted = await db.execute(sql`
-      INSERT INTO drip_enrollments (id, email, name, language, source, current_step, next_send_at, unsubscribe_token)
-      VALUES (${id}, ${opts.email}, ${cleanName}, ${opts.language}, ${opts.source}, 0, ${nextSendAt}, ${unsubToken})
+      INSERT INTO drip_enrollments (id, email, name, language, source, current_step, last_sent_step, next_send_at, unsubscribe_token)
+      VALUES (${id}, ${opts.email}, ${cleanName}, ${opts.language}, ${opts.source}, 0, 0, ${nextSendAt}, ${unsubToken})
       ON CONFLICT (email) WHERE completed_at IS NULL DO NOTHING
       RETURNING id, email, name, language, source, current_step AS "currentStep",
+                last_sent_step AS "lastSentStep",
                 next_send_at AS "nextSendAt", completed_at AS "completedAt",
                 claimed_at AS "claimedAt", last_error AS "lastError",
                 unsubscribe_token AS "unsubscribeToken",
@@ -312,6 +327,92 @@ export async function markDripEnrollmentError(opts: { id: string; error: string 
 }
 
 /**
+ * Mark `step` as durably sent at the SMTP layer. Called by the drip
+ * worker IMMEDIATELY after Gmail's send returns OK, in a write that is
+ * separate from `advanceDripEnrollment`. The compare-and-set
+ * (`last_sent_step < toStep`) is what guarantees the exactly-once
+ * contract: a concurrent worker that already marked the same step
+ * (rolling deploy, dev + audit script co-tenancy) cannot double-mark
+ * — it's a no-op UPDATE that returns 0 affected rows.
+ *
+ * This is intentionally a SECOND DB round-trip after the SMTP send (we
+ * could do it inside the same UPDATE that advances `currentStep`, but
+ * the whole point of the sentinel is to survive the case where
+ * `advanceDripEnrollment` itself errors after a successful send). The
+ * cost is one extra UPDATE per drip step — fine at the cadence this
+ * runs at (single-digit emails per minute).
+ */
+export async function markDripStepSent(opts: { id: string; toStep: number }): Promise<void> {
+  try {
+    await db.execute(sql`
+      UPDATE drip_enrollments
+         SET last_sent_step = ${opts.toStep}
+       WHERE id = ${opts.id}
+         AND last_sent_step < ${opts.toStep}
+    `);
+  } catch (err) { throw wrapStorageError("markDripStepSent", err); }
+}
+
+/**
+ * Park an enrollment as poisoned: SMTP succeeded for `step` but we
+ * could not durably persist the `last_sent_step` sentinel after several
+ * retries. To preserve the exactly-once contract we MUST NOT release
+ * the claim (`markDripEnrollmentError` would, and the next claim would
+ * re-send) and we MUST NOT advance `current_step`. Instead we NULL
+ * `next_send_at` so the row no longer matches the claim selector
+ * (`claimDueDripEnrollments` filters on `next_send_at IS NOT NULL`)
+ * and we record a structured `last_error` prefixed with `POISONED:` so
+ * the periodic-reports / Discord alert layer can flag it for manual
+ * triage. The operator's recovery action is: confirm via SMTP logs
+ * whether the email actually delivered, then either set
+ * `last_sent_step = ${step}` and restore `next_send_at` (if delivered)
+ * or null `last_sent_step` and restore `next_send_at` (to retry).
+ */
+export async function poisonDripEnrollment(opts: { id: string; step: number; error: string }): Promise<void> {
+  try {
+    await db.update(s.dripEnrollments).set({
+      nextSendAt: null,
+      lastError: `POISONED:step=${opts.step}:${opts.error}`.slice(0, 500),
+    }).where(eq(s.dripEnrollments.id, opts.id));
+  } catch (err) { throw wrapStorageError("poisonDripEnrollment", err); }
+}
+
+/**
+ * Single-row atomic claim used by `sendImmediateStep1` so the route's
+ * fire-and-forget immediate dispatch cannot race with a concurrent
+ * `claimDueDripEnrollments` (worker tick) on the SAME row.
+ *
+ * Without this, the newsletter / calculator route flow:
+ *     tryCreateDripEnrollment(next_send_at = now())  // row is "due"
+ *     void sendImmediateStep1(...)                   // dispatches SMTP
+ * could be raced by drainTick, which independently claims due rows and
+ * dispatches step 1. Both paths would `sendDripEmailOnce` before either
+ * `markDripStepSent` becomes visible — the CAS in markDripStepSent
+ * prevents a duplicate sentinel WRITE but cannot prevent the duplicate
+ * SMTP. So the only way to get strict exactly-once is to make the
+ * immediate path acquire the same `claimed_at` lock the worker uses.
+ *
+ * Returns `true` if this caller now owns the row (proceed with
+ * dispatch), `false` if another worker beat us (do nothing — that
+ * worker will dispatch).
+ */
+export async function tryClaimDripEnrollmentForImmediate(opts: { id: string; expectedStep: number }): Promise<boolean> {
+  try {
+    const result = await db.execute(sql`
+      UPDATE drip_enrollments
+         SET claimed_at = to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"')
+       WHERE id = ${opts.id}
+         AND completed_at IS NULL
+         AND claimed_at IS NULL
+         AND last_sent_step < ${opts.expectedStep}
+      RETURNING id
+    `);
+    const rows = (result as unknown as { rows: { id: string }[] }).rows ?? [];
+    return rows.length > 0;
+  } catch (err) { throw wrapStorageError("tryClaimDripEnrollmentForImmediate", err); }
+}
+
+/**
  * Atomically claim up to `limit` due enrollments for the drip worker.
  *
  * Mirrors the email-retry-queue pattern: `SELECT ... FOR UPDATE SKIP
@@ -347,6 +448,7 @@ export async function claimDueDripEnrollments(opts: { limit: number; staleSecond
        )
       RETURNING d.id, d.email, d.name, d.language, d.source,
                 d.current_step AS "currentStep",
+                d.last_sent_step AS "lastSentStep",
                 d.next_send_at AS "nextSendAt",
                 d.completed_at AS "completedAt",
                 d.claimed_at  AS "claimedAt",
