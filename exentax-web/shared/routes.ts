@@ -91,6 +91,26 @@ export function getEquivalentPath(currentPath: string, targetLang: SupportedLang
   return `/${targetLang}`;
 }
 
+/**
+ * Build the full equivalent URL (path + query + hash) when switching to
+ * `targetLang`. This is what every language switcher in the UI should call:
+ * `useLocation()` from wouter only exposes the pathname, so query string and
+ * hash would otherwise be lost on language change. Centralised here so the
+ * desktop switcher (`LanguageSwitcher.tsx`) and the mobile inline switcher
+ * inside `Navbar.tsx` can never drift apart.
+ *
+ * `search` should already include a leading `?` (matches `window.location.search`).
+ * `hash` should already include a leading `#` (matches `window.location.hash`).
+ */
+export function getEquivalentUrl(
+  currentPath: string,
+  targetLang: SupportedLang,
+  search: string = "",
+  hash: string = "",
+): string {
+  return getEquivalentPath(currentPath, targetLang) + search + hash;
+}
+
 export function getLangFromPath(pathname: string): SupportedLang | null {
   const seg = pathname.split("/")[1] as SupportedLang;
   return seg && (SUPPORTED_LANGS as readonly SupportedLang[]).includes(seg) ? seg : null;

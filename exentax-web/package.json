@@ -58,7 +58,7 @@
     "discord:register:dry": "tsx scripts/discord/register-discord-commands.ts --dry-run",
     "discord:register:diff": "tsx scripts/discord/register-discord-commands.ts --diff",
     "test:indexnow": "tsx server/indexnow.test.ts",
-    "test:redirects": "node --import tsx tests/legacy-redirects.test.mjs",
+    "test:redirects": "node --import tsx tests/legacy-redirects.test.mjs && node --import tsx tests/get-equivalent-url.test.mjs",
     "test:geo": "node tests/geo-middleware.test.mjs",
     "test:e2e": "playwright test --project=chromium"
   },

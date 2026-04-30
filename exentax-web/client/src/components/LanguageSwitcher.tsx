@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "wouter";
 import { SUPPORTED_LANGS, LANG_LABELS, LanguageService, type SupportedLang } from "@/i18n";
-import { getEquivalentPath } from "@shared/routes";
+import { getEquivalentUrl } from "@shared/routes";
 import FlagImg from "@/components/FlagImg";
 import { LANG_SHORT } from "@/lib/lang-utils";
 import { trackLanguageSwitch } from "@/components/Tracking";
@@ -38,8 +38,9 @@ export default function LanguageSwitcher() {
     }
     LanguageService.change(lang);
     setOpen(false);
-    const newPath = getEquivalentPath(location, lang);
-    setLocation(newPath, { replace: true });
+    const search = typeof window !== "undefined" ? window.location.search : "";
+    const hash = typeof window !== "undefined" ? window.location.hash : "";
+    setLocation(getEquivalentUrl(location, lang, search, hash), { replace: true });
   }, [location, setLocation]);
 
   return (

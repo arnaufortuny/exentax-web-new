@@ -7,7 +7,7 @@ import { LANG_SHORT } from "@/lib/lang-utils";
 import { SUPPORTED_LANGS, LANG_LABELS, LanguageService, type SupportedLang } from "@/i18n";
 import { BRAND, CONTACT } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
-import { getLangFromPath, getEquivalentPath, resolveRoute } from "@shared/routes";
+import { getEquivalentUrl, resolveRoute } from "@shared/routes";
 import { trackCTA, trackWhatsAppClick } from "@/components/Tracking";
 import { WhatsAppIcon } from "@/components/icons";
 
@@ -37,8 +37,9 @@ function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
     LanguageService.change(lang);
     setOpen(false);
     onClose();
-    const newPath = getEquivalentPath(location, lang);
-    setLocation(newPath, { replace: true });
+    const search = typeof window !== "undefined" ? window.location.search : "";
+    const hash = typeof window !== "undefined" ? window.location.hash : "";
+    setLocation(getEquivalentUrl(location, lang, search, hash), { replace: true });
   }, [location, setLocation, onClose]);
 
   return (
@@ -102,7 +103,6 @@ const prefetchMap: Record<string, () => Promise<unknown>> = {
 };
 
 const prefetched = new Set<string>();
-const langPrefixRe = new RegExp(`^\\/(${SUPPORTED_LANGS.join("|")})`);
 
 function prefetchPage(key: string) {
   if (prefetched.has(key)) return;
