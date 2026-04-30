@@ -82,6 +82,7 @@ const STEPS = [
   { name: "test:bundle-diff-notify",      weight: 1 },
   { name: "test:perf-gate-bypass-notify", weight: 1 },
   { name: "test:seo-slash",               weight: 1 },
+  { name: "test:seo-live-audit",          weight: 1 },
   { name: "lint:email-deliverability",    weight: 1 },
   { name: "blog:bundle-sync",             weight: 1 },
   // Cabled under Audit 05 / Task #41 — were sitting orphaned in tests/

@@ -403,13 +403,13 @@ function truncate(s, max) {
   return s.slice(0, max - 1) + "…";
 }
 
-async function postEmbedToDiscord(envelope) {
-  const token = envOrEmpty("DISCORD_BOT_TOKEN");
-  const channelId = envOrEmpty("DISCORD_CHANNEL_ERRORES") || envOrEmpty("DISCORD_CHANNEL_REGISTROS");
-  if (!token || !channelId) {
-    console.warn("[seo-live-audit] DISCORD_BOT_TOKEN or DISCORD_CHANNEL_ERRORES missing — Discord notification skipped.");
-    return;
-  }
+// Pure function that maps an envelope to the exact Discord embed payload
+// posted by `postEmbedToDiscord`. Extracted so a self-test can lock the
+// shape (title prefix, color, footer, severity field) in place against
+// `notifySeoIndexing()` in server/discord.ts. The runtime POST and the
+// dynamic `timestamp` are intentionally excluded from the embed produced
+// here so the helper stays deterministic and unit-testable.
+function buildDiscordEmbed(envelope) {
   const prefix = CRITICALITY_PREFIX[envelope.criticality];
   const title = envelope.title.startsWith(prefix) ? envelope.title : `${prefix} ${envelope.title}`;
   const fields = [
@@ -424,12 +424,24 @@ async function postEmbedToDiscord(envelope) {
     })),
     { name: "Logged at", value: madridTimestamp(), inline: false },
   ];
-  const embed = {
+  return {
     title: truncate(title, 256),
     description: truncate(envelope.description || "", 3800),
     color: EXENTAX_NEON,
     fields,
     footer: { text: madridTimestamp(), icon_url: EXENTAX_AVATAR_URL },
+  };
+}
+
+async function postEmbedToDiscord(envelope) {
+  const token = envOrEmpty("DISCORD_BOT_TOKEN");
+  const channelId = envOrEmpty("DISCORD_CHANNEL_ERRORES") || envOrEmpty("DISCORD_CHANNEL_REGISTROS");
+  if (!token || !channelId) {
+    console.warn("[seo-live-audit] DISCORD_BOT_TOKEN or DISCORD_CHANNEL_ERRORES missing — Discord notification skipped.");
+    return;
+  }
+  const embed = {
+    ...buildDiscordEmbed(envelope),
     timestamp: new Date().toISOString(),
   };
   try {
@@ -501,21 +513,30 @@ function writeReports() {
   writeFileSync(MD_REPORT, md);
 }
 
-function buildDiscordEnvelopeForResult() {
-  if (!BASE_URL) {
+// Pure mapping from (BASE_URL, errors, warnings, stats) → envelope. Accepts
+// an optional `ctx` so the self-test in tests/seo-live-audit.test.mjs can
+// drive each result class (skipped / ok / failed) deterministically without
+// touching module-level state. Defaults read live module state at call
+// time so the production caller (`main()`) is unchanged.
+function buildDiscordEnvelopeForResult(ctx) {
+  const baseUrl = ctx?.baseUrl ?? BASE_URL;
+  const errs    = ctx?.errors  ?? errors;
+  const warns   = ctx?.warnings ?? warnings;
+  const st      = ctx?.stats   ?? stats;
+  if (!baseUrl) {
     return {
       criticality: "warning",
       status: "skipped",
       origin: "seo-live-audit",
       title: "SEO live-audit — omitido",
-      description: warnings[0] || "No live server reachable; audit skipped.",
+      description: warns[0] || "No live server reachable; audit skipped.",
       fields: [
-        { name: "Warnings", value: String(warnings.length), inline: true },
+        { name: "Warnings", value: String(warns.length), inline: true },
       ],
     };
   }
-  if (errors.length === 0) {
-    const totalSitemapsOk = ALL_SITEMAPS.filter((p) => stats.sitemaps[p]?.status === 200).length;
+  if (errs.length === 0) {
+    const totalSitemapsOk = ALL_SITEMAPS.filter((p) => st.sitemaps[p]?.status === 200).length;
     return {
       criticality: "info",
       status: "ok",
@@ -523,11 +544,11 @@ function buildDiscordEnvelopeForResult() {
       title: "SEO live-audit — OK",
       description: "Sitemaps, hreflang reciprocity, route headers and robots.txt are all in order.",
       fields: [
-        { name: "Base URL",     value: BASE_URL, inline: false },
+        { name: "Base URL",     value: baseUrl, inline: false },
         { name: "Sitemaps OK",  value: `${totalSitemapsOk}/${ALL_SITEMAPS.length}`, inline: true },
-        { name: "URLs",         value: String(stats.totals.urls), inline: true },
-        { name: "Groups",       value: String(stats.totals.groups), inline: true },
-        { name: "Routes probed",value: String(stats.routes.length), inline: true },
+        { name: "URLs",         value: String(st.totals.urls), inline: true },
+        { name: "Groups",       value: String(st.totals.groups), inline: true },
+        { name: "Routes probed",value: String(st.routes.length), inline: true },
       ],
     };
   }
@@ -536,14 +557,14 @@ function buildDiscordEnvelopeForResult() {
     status: "failed",
     origin: "seo-live-audit",
     title: "SEO live-audit — fallo",
-    description: `Detected ${errors.length} regression(s). First few:\n` +
-      errors.slice(0, 5).map((e) => `• ${e}`).join("\n"),
+    description: `Detected ${errs.length} regression(s). First few:\n` +
+      errs.slice(0, 5).map((e) => `• ${e}`).join("\n"),
     fields: [
-      { name: "Base URL",       value: BASE_URL, inline: false },
-      { name: "Errors",         value: String(errors.length), inline: true },
-      { name: "URLs",           value: String(stats.totals.urls), inline: true },
-      { name: "Reciprocity",    value: stats.totals.reciprocityFailures > 0 ? `${stats.totals.reciprocityFailures} failure(s)` : "OK", inline: true },
-      { name: "Sitemaps OK",    value: `${ALL_SITEMAPS.filter((p) => stats.sitemaps[p]?.status === 200).length}/${ALL_SITEMAPS.length}`, inline: true },
+      { name: "Base URL",       value: baseUrl, inline: false },
+      { name: "Errors",         value: String(errs.length), inline: true },
+      { name: "URLs",           value: String(st.totals.urls), inline: true },
+      { name: "Reciprocity",    value: st.totals.reciprocityFailures > 0 ? `${st.totals.reciprocityFailures} failure(s)` : "OK", inline: true },
+      { name: "Sitemaps OK",    value: `${ALL_SITEMAPS.filter((p) => st.sitemaps[p]?.status === 200).length}/${ALL_SITEMAPS.length}`, inline: true },
       { name: "Report (JSON)",  value: pathRelativeFromRoot(JSON_REPORT), inline: false },
       { name: "Report (MD)",    value: pathRelativeFromRoot(MD_REPORT),  inline: false },
     ],
@@ -648,4 +669,13 @@ if (isCli) {
     });
 }
 
-export { main, buildDiscordEnvelopeForResult, madridTimestamp };
+export {
+  main,
+  buildDiscordEnvelopeForResult,
+  buildDiscordEmbed,
+  madridTimestamp,
+  EXENTAX_NEON,
+  EXENTAX_AVATAR_URL,
+  CRITICALITY_PREFIX,
+  CRITICALITY_LABEL,
+};
