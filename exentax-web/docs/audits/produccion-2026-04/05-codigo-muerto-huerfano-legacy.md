@@ -302,13 +302,38 @@ La promesa de Task #23 está cumplida.
   insuficiente (1500 ms) para fan-out a 2 canales — corregidos a 19
   dígitos y 2200 ms respectivamente.
 - **Etapa 2 — borrado de scripts huérfanos** (P1 del plan, ajustado):
-  - Borrados: `../scripts/inject-crs2-blocks.mjs`,
-    `exentax-web/scripts/blog/dedup-consecutive-paragraphs.mjs`.
-  - Ya borrados antes de este task:
-    `exentax-web/scripts/audit-conversion-es-2026-04.mjs`,
-    `exentax-web/scripts/auditoria-rutas-componentes-discord-emails.mjs`.
-  - **NO borrados** los 4 notify-* / live-verification scripts en
-    `../scripts/` por ser activos en CI (ver tabla de arriba).
+  - Borrados (huérfanos confirmados, sin callers de código):
+    - `../scripts/inject-crs2-blocks.mjs` (raíz; reemplazado por
+      `exentax-web/scripts/blog/inject-crs2-citations.mjs`).
+    - `exentax-web/scripts/blog/dedup-consecutive-paragraphs.mjs`
+      (one-shot ya completado: "Final state: 0 dups in 0 files").
+    - `exentax-web/scripts/audit/audit-conversion-es-2026-04.mjs`
+      (auditoría puntual; flujo activo es `audit:conversion` →
+      `audit-conversion-112x6.mjs`). Solo referenciado en docs.
+    - `exentax-web/scripts/audit/auditoria-rutas-componentes-discord-emails.mjs`
+      (lógica cubierta por `npm run check`). Solo referenciado en docs.
+    - **Nota de honestidad:** este task primero verificó las rutas
+      `exentax-web/scripts/audit-conversion-...` (sin subcarpeta
+      `audit/`), no las encontró, y reportó incorrectamente "ya
+      borrados antes". El code-reviewer de validación encontró el
+      error: las rutas correctas son `exentax-web/scripts/audit/...`.
+      Borrados al re-verificar.
+  - **NO borrados (false positives del audit original)** — los 4
+    notify-* / live-verification scripts en `../scripts/` están
+    **activos en CI**. Evidencia reproducible:
+    ```
+    rg -l <basename> .github/workflows/  →
+      live-verification.sh             → 2 workflows
+      notify-live-verification-discord → 3 workflows
+      notify-monitoring-offline-issue  → 4 workflows
+    ```
+    Workflows concretos: `live-verification.yml`,
+    `live-verification-seo-headers.yml`, `notifier-scripts-tests.yml`,
+    `diagnostic-audit.yml`, `notify-perf-gate-bypass-merged.yml`.
+    Borrarlos rompería los crons de monitorización de producción y
+    los self-tests de los notifiers que corren en cada PR. El audit
+    original afirmó que `.github/workflows/` "devuelve vacío"; eso
+    era falso (el directorio contiene 14 workflows).
   - `replit.md` actualizado: catálogo `scripts/blog/` ya no lista
     `dedup-consecutive-paragraphs`.
 - **Etapa 3 — consolidación `madrid-time.ts`** (P2 del plan):

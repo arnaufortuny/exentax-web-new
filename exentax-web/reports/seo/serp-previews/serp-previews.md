@@ -1,6 +1,6 @@
 # Google SERP previews — 18 indexable pages × 6 locales
 
-_Generated 2026-04-30T11:23:18.916Z_
+_Generated 2026-04-30T11:29:45.857Z_
 
 This report follows up on Task #3 by re-checking how the refreshed copy renders in Google's desktop and mobile SERP cards. The character budgets used here are aligned with `scripts/seo/verify-meta.ts`, so a passing meta-check translates directly into clean SERP previews.
 
