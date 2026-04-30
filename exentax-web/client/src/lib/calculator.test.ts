@@ -26,6 +26,7 @@
 import {
   computeAllStructures,
   calculateSavings,
+  countries,
   type CalcOptions,
   type ExpenseItem,
   type AllStructuresResult,
@@ -389,8 +390,8 @@ const COUNTRIES_TO_SMOKE = [
   "reino-unido",
   "francia",
   "belgica",
-  "italia",
-  "austria",
+  "alemania",
+  "portugal",
 ] as const;
 
 for (const country of COUNTRIES_TO_SMOKE) {
@@ -724,8 +725,8 @@ const REALISTIC_SCENARIOS: Array<{
     // sí blindamos (en otro test arriba) es el GUARD de techo 77.700 €.
   },
   {
-    id: "13 — Italia régimen ordinario IRPEF (5.000€/mes)",
-    monthly: 5000, country: "italia", activity: "digitalServices",
+    id: "13 — Alemania Freiberufler ESt+Soli+SV (5.000€/mes)",
+    monthly: 5000, country: "alemania", activity: "digitalServices",
     items: presetItems({ asesoria: 100, software: 80, marketing: 60 }),
   },
   {
@@ -734,9 +735,19 @@ const REALISTIC_SCENARIOS: Array<{
     items: presetItems({ asesoria: 120, software: 80, viajesTransporte: 100 }),
   },
   {
-    id: "15 — Austria sociedad GmbH KöSt 23% (8.000€/mes)",
-    monthly: 8000, country: "austria", activity: "digitalServices",
+    id: "15 — Alemania GmbH KSt+Soli+Gewerbesteuer (8.000€/mes)",
+    monthly: 8000, country: "alemania", activity: "digitalServices",
     items: presetItems({ asesoria: 150, software: 120, contratistas: 400 }),
+  },
+  {
+    id: "15b — Portugal Trabalhador Independente IRS+SS (4.500€/mes)",
+    monthly: 4500, country: "portugal", activity: "consultingAdvisory",
+    items: presetItems({ asesoria: 100, software: 60, viajesTransporte: 80 }),
+  },
+  {
+    id: "15c — Portugal Sociedade IRC+derrama (7.500€/mes)",
+    monthly: 7500, country: "portugal", activity: "digitalServices",
+    items: presetItems({ asesoria: 140, software: 100, contratistas: 350 }),
   },
   {
     id: "16 — España sociedad limitada con admin único + amortización (7.000€/mes)",
@@ -907,23 +918,23 @@ for (const sc of REALISTIC_SCENARIOS) {
   // En los países no-España, el campo `gastosDeducibles` PÚBLICO sigue
   // mostrando el modelo aditivo (consistencia con la rama LLC), aunque el
   // cálculo interno del autónomo solo use `itemized` + AUTONOMO_NET_FACTORS.
-  const ita = calculateSavings(monthly, "italia", "autonomo", "digitalServices", 0, false, items);
+  const ale = calculateSavings(monthly, "alemania", "autonomo", "digitalServices", 0, false, items);
   record(
-    "veracidad[deducibles] Italia gastosDeducibles aplica modelo aditivo (= España)",
-    ita.gastosDeducibles === expectedSpainDeductibles,
-    `expected=${expectedSpainDeductibles} got=${ita.gastosDeducibles}`,
+    "veracidad[deducibles] Alemania gastosDeducibles aplica modelo aditivo (= España)",
+    ale.gastosDeducibles === expectedSpainDeductibles,
+    `expected=${expectedSpainDeductibles} got=${ale.gastosDeducibles}`,
   );
 
   // Verificación de la consecuencia documentada: la rama LLC en países
   // no-España descuenta gastos > los que descuenta la rama autónomo
   // interna, lo que hace la LLC artificialmente más atractiva. La rama
-  // autónoma de Italia solo descuenta `itemized`, no la baseline.
+  // autónoma de Alemania solo descuenta `itemized`, no la baseline.
   // (No fijamos el delta exacto — sólo verificamos que ambas son finitas
   // y que el campo público respeta la simetría con España).
   record(
-    "veracidad[deducibles] Italia autonomo.sinLLC > 0 sin baseline (asimetría documentada)",
-    Number.isFinite(ita.sinLLC) && ita.sinLLC > 0,
-    `sinLLC=${ita.sinLLC}`,
+    "veracidad[deducibles] Alemania autonomo.sinLLC > 0 sin baseline (asimetría documentada)",
+    Number.isFinite(ale.sinLLC) && ale.sinLLC > 0,
+    `sinLLC=${ale.sinLLC}`,
   );
 }
 
@@ -960,6 +971,134 @@ for (const sc of REALISTIC_SCENARIOS) {
     "veracidad[ES autónomo tarifa plana] cuota anual = 960€ (80€/mes × 12)",
     !!ss && ss.amount === 960,
     `ss=${ss?.amount} label=${ss?.label}`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — Alemania (DE) cobertura de casos límite y cross-checks
+// numéricos exactos. Blinda los nuevos cálculos GERMANY_* contra drifts.
+// ---------------------------------------------------------------------------
+{
+  // 1) DE autónomo sin ingresos: ESt y SV deben ser 0 (no fixed floor).
+  const zero = calculateSavings(0, "alemania", "autonomo", "digitalServices", 0, false, []);
+  const estZero = zero.breakdown.find((b) => b.label === "calculator.bd.alemania.est");
+  const svZero = zero.breakdown.find((b) => b.label === "calculator.bd.alemania.sv");
+  record(
+    "veracidad[DE autónomo] sin ingresos → ESt y SV son 0 (sin coste fijo)",
+    !!estZero && !!svZero && estZero.amount === 0 && svZero.amount === 0 && zero.sinLLC === 0,
+    `est=${estZero?.amount} sv=${svZero?.amount} sinLLC=${zero.sinLLC}`,
+  );
+
+  // 2) DE autónomo 5000€/mes: SV exacta = anual × 0.80 × 0.197 = 9456 €.
+  const deMid = calculateSavings(5000, "alemania", "autonomo", "digitalServices", 0, false, []);
+  const svMid = deMid.breakdown.find((b) => b.label === "calculator.bd.alemania.sv");
+  record(
+    "veracidad[DE autónomo] SV = anual × 0.80 × 0.197 (cross-check exacto)",
+    !!svMid && svMid.amount === 9456,
+    `sv=${svMid?.amount} expected=9456`,
+  );
+
+  // 3) DE GmbH siempre incluye la línea fija de Steuerberater (3500 €).
+  const deSoc = calculateSavings(0, "alemania", "sociedad", "digitalServices", 0, false, []);
+  const stb = deSoc.breakdown.find((b) => b.label === "calculator.bd.alemania.steuerberater");
+  record(
+    "veracidad[DE sociedad] Steuerberater siempre presente con coste fijo 3500 €",
+    !!stb && stb.amount === 3500,
+    `stb=${stb?.amount}`,
+  );
+
+  // 4) DE GmbH efectiva ≥ 30 % a niveles medios: el combo KSt+Soli+GewSt+
+  //    KapErtSt es estructuralmente caro y compite peor que la LLC.
+  const deSocMid = calculateSavings(8000, "alemania", "sociedad", "digitalServices", 0, false, []);
+  record(
+    "veracidad[DE sociedad] effective rate ≥ 30 % a 8.000€/mes (combo KSt+GewSt+KapErtSt)",
+    deSocMid.sinLLC > 0 && (deSocMid.sinLLC / (8000 * 12)) >= 0.30,
+    `total=${deSocMid.sinLLC} eff=${(deSocMid.sinLLC / (8000 * 12) * 100).toFixed(1)}%`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — Portugal (PT) cobertura de casos límite y cross-checks.
+// Blinda los nuevos cálculos PORTUGAL_* (IRS+derrama, SS TSU, IRC+derrama
+// municipal, dividendos, contabilista) contra regresiones.
+// ---------------------------------------------------------------------------
+{
+  // 1) PT autónomo: SS = anual × 0.70 × 0.214, cross-check exacto a 2.500€/mes.
+  const pt = calculateSavings(2500, "portugal", "autonomo", "consultingAdvisory", 0, false, []);
+  const ss = pt.breakdown.find((b) => b.label === "calculator.bd.portugal.ss");
+  record(
+    "veracidad[PT autónomo] SS = anual × 0.70 × 0.214 (cross-check exacto)",
+    !!ss && ss.amount === 4494,
+    `ss=${ss?.amount} expected=4494`,
+  );
+
+  // 2) PT autónomo derrama estatal: a 5.000€/mes (anual 60k, netBase 46.8k)
+  //    netBase < 80k → derrama = 0, IRS solo por tramos.
+  const ptMid = calculateSavings(5000, "portugal", "autonomo", "digitalServices", 0, false, []);
+  const irsMid = ptMid.breakdown.find((b) => b.label === "calculator.bd.portugal.irs");
+  // 3) A 10.000€/mes (anual 120k, netBase 93.6k) → derrama activada
+  //    derrama ≈ (93600 - 80000) × 0.025 = 340 €.
+  const ptHigh = calculateSavings(10000, "portugal", "autonomo", "digitalServices", 0, false, []);
+  const irsHigh = ptHigh.breakdown.find((b) => b.label === "calculator.bd.portugal.irs");
+  record(
+    "veracidad[PT autónomo] derrama estatal se activa solo cuando netBase > 80.000 €",
+    !!irsMid && !!irsHigh && irsHigh.amount > irsMid.amount,
+    `irsMid=${irsMid?.amount} irsHigh=${irsHigh?.amount}`,
+  );
+
+  // 4) PT sociedad sin ingresos: solo el coste fijo del contabilista (2800 €).
+  const ptSocZero = calculateSavings(0, "portugal", "sociedad", "digitalServices", 0, false, []);
+  const cont = ptSocZero.breakdown.find((b) => b.label === "calculator.bd.portugal.contabilista");
+  record(
+    "veracidad[PT sociedad] sin ingresos → solo coste fijo contabilista 2800 €",
+    !!cont && cont.amount === 2800 && ptSocZero.sinLLC === 2800,
+    `cont=${cont?.amount} sinLLC=${ptSocZero.sinLLC}`,
+  );
+
+  // 5) PT sociedad: el desglose completo siempre tiene 4 líneas
+  //    (IRC, derrama municipal, dividendos, contabilista).
+  const ptSoc = calculateSavings(7500, "portugal", "sociedad", "digitalServices", 0, false, []);
+  const labels = new Set(ptSoc.breakdown.map((b) => b.label));
+  const hasAll = ["calculator.bd.portugal.irc", "calculator.bd.portugal.derrama",
+    "calculator.bd.portugal.dividendos", "calculator.bd.portugal.contabilista"]
+    .every((k) => labels.has(k));
+  record(
+    "veracidad[PT sociedad] desglose siempre incluye IRC + derrama + dividendos + contabilista",
+    hasAll && ptSoc.breakdown.length === 4,
+    `lines=${ptSoc.breakdown.length} labels=${[...labels].join(",")}`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Veracidad — IVA correcta para los nuevos países: DE 19 %, PT 23 %.
+// Si alguien cambia COUNTRY_VAT_RATES sin querer, este test rompe.
+// ---------------------------------------------------------------------------
+{
+  const de = calculateSavings(5000, "alemania", "autonomo", "digitalServices", 0, false, []);
+  const pt = calculateSavings(5000, "portugal", "autonomo", "digitalServices", 0, false, []);
+  record(
+    "veracidad[VAT] Alemania = 19 % anual (60.000 × 0.19 = 11.400)",
+    de.ivaNote === 11400,
+    `iva=${de.ivaNote} expected=11400`,
+  );
+  record(
+    "veracidad[VAT] Portugal = 23 % anual (60.000 × 0.23 = 13.800)",
+    pt.ivaNote === 13800,
+    `iva=${pt.ivaNote} expected=13800`,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Smoke — Selector de países: la lista expuesta NO contiene italia/austria,
+// SÍ contiene alemania/portugal. Blinda contra reintroducciones accidentales.
+// ---------------------------------------------------------------------------
+{
+  const ids = countries.map((c) => c.id);
+  record(
+    "smoke[selector] countries incluye alemania y portugal y excluye italia/austria",
+    ids.includes("alemania") && ids.includes("portugal")
+      && !ids.includes("italia") && !ids.includes("austria"),
+    `ids=[${ids.join(", ")}]`,
   );
 }
 

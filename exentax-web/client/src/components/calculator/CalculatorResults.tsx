@@ -263,7 +263,7 @@ export default function CalculatorResults({ result, income, country, regime, get
             </div>
             {result.ivaNote > 0 && (
               <p className="font-body text-[10px] text-[var(--text-3)] mt-1.5" data-testid="text-iva-note">
-                + {fmt(result.ivaNote)}{t("calculator.perYear")} {t("calculator.ivaNote")} ({country === "espana" || country === "belgica" ? "21%" : country === "mexico" ? "16%" : country === "italia" ? "22%" : country === "reino-unido" || country === "francia" || country === "austria" ? "20%" : "19%"})
+                + {fmt(result.ivaNote)}{t("calculator.perYear")} {t("calculator.ivaNote")} ({country === "espana" || country === "belgica" ? "21%" : country === "mexico" ? "16%" : country === "portugal" ? "23%" : country === "reino-unido" || country === "francia" ? "20%" : "19%"})
               </p>
             )}
             {result.gastosDeducibles > 0 && (

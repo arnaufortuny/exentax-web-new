@@ -1026,14 +1026,15 @@ process.on("SIGINT", () => gracefulShutdown("SIGINT"));
  * (see header of each). Centralised here so any future change touches
  * one place.
  */
-function handleUnhandledRejection(reason: any): void {
-  // Mirrors the legacy inline handler: truthy `reason.message` (any type) is
-  // preferred, with `String(reason)` as fallback. `reason.code` is forwarded
-  // verbatim — Discord's notifyCriticalError tolerates any JSON-serialisable
-  // shape there. Tightening the type checks would silently change the alert
-  // payload for non-Error rejections (e.g. plain object throws).
-  const message = reason?.message || String(reason);
-  const code = reason?.code || null;
+function handleUnhandledRejection(reason: unknown): void {
+  // Mirrors the legacy inline handler with strict typing: prefer truthy
+  // `reason.message` (when string) and fall back to `String(reason)`.
+  // `notifyCriticalError({ code })` is typed `string | null`, so we narrow
+  // `reason.code` accordingly — non-string codes (numeric Errno, custom
+  // shapes) are dropped and Discord renders the default `"SERVER_ERROR"`.
+  const r = reason as { message?: unknown; code?: unknown } | null | undefined;
+  const message = (typeof r?.message === "string" && r.message) || String(reason);
+  const code = typeof r?.code === "string" ? r.code : null;
   logger.error(`Unhandled promise rejection: ${message}`, "process");
   notifyCriticalError({ context: "unhandledRejection", message, code });
 }

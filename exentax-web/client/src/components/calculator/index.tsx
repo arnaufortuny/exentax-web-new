@@ -306,8 +306,8 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     if (country === "reino-unido") return t("calculator.insights.reino_unido");
     if (country === "belgica") return t("calculator.insights.belgica");
     if (country === "francia") return t("calculator.insights.francia");
-    if (country === "italia") return t("calculator.insights.italia");
-    if (country === "austria") return t("calculator.insights.austria");
+    if (country === "alemania") return t("calculator.insights.alemania");
+    if (country === "portugal") return t("calculator.insights.portugal");
     if (activity === "trading") return t("calculator.insights.trading");
     if (activity === "ecommerceOwn" || activity === "dropshipping") return t("calculator.insights.ecommerce");
     return t("calculator.insights.generic");

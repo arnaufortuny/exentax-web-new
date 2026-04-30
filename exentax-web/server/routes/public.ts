@@ -350,14 +350,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         calculatorCountry = "belgica"; currency = "EUR"; ccaaProfile = "medium"; break;
       case "FR":
         calculatorCountry = "francia"; currency = "EUR"; ccaaProfile = "medium"; break;
-      case "IT":
-        calculatorCountry = "italia"; currency = "EUR"; ccaaProfile = "medium"; break;
-      case "AT":
-        calculatorCountry = "austria"; currency = "EUR"; ccaaProfile = "medium"; break;
+      case "DE":
+        calculatorCountry = "alemania"; currency = "EUR"; ccaaProfile = "medium"; break;
       case "PT":
       case "AD":
-        // Eurozone neighbours without a calculator preset: prefill currency only.
-        currency = "EUR"; break;
+        calculatorCountry = "portugal"; currency = "EUR"; ccaaProfile = "medium"; break;
       default:
         break;
     }

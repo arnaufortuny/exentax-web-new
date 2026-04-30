@@ -103,12 +103,12 @@ export function getEmailTranslations(lang?: string | null): EmailTranslations {
 }
 
 export const COUNTRY_LABELS_I18N: Record<string, Record<string, string>> = {
-  es: { espana: "España", mexico: "México", chile: "Chile", "reino-unido": "Reino Unido", belgica: "Bélgica", francia: "Francia", italia: "Italia", austria: "Austria" },
-  en: { espana: "Spain", mexico: "Mexico", chile: "Chile", "reino-unido": "United Kingdom", belgica: "Belgium", francia: "France", italia: "Italy", austria: "Austria" },
-  fr: { espana: "Espagne", mexico: "Mexique", chile: "Chili", "reino-unido": "Royaume-Uni", belgica: "Belgique", francia: "France", italia: "Italie", austria: "Autriche" },
-  de: { espana: "Spanien", mexico: "Mexiko", chile: "Chile", "reino-unido": "Vereinigtes Königreich", belgica: "Belgien", francia: "Frankreich", italia: "Italien", austria: "Österreich" },
-  pt: { espana: "Espanha", mexico: "México", chile: "Chile", "reino-unido": "Reino Unido", belgica: "Bélgica", francia: "França", italia: "Itália", austria: "Áustria" },
-  ca: { espana: "Espanya", mexico: "Mèxic", chile: "Xile", "reino-unido": "Regne Unit", belgica: "Bèlgica", francia: "França", italia: "Itàlia", austria: "Àustria" },
+  es: { espana: "España", mexico: "México", chile: "Chile", "reino-unido": "Reino Unido", belgica: "Bélgica", francia: "Francia", alemania: "Alemania", portugal: "Portugal" },
+  en: { espana: "Spain", mexico: "Mexico", chile: "Chile", "reino-unido": "United Kingdom", belgica: "Belgium", francia: "France", alemania: "Germany", portugal: "Portugal" },
+  fr: { espana: "Espagne", mexico: "Mexique", chile: "Chili", "reino-unido": "Royaume-Uni", belgica: "Belgique", francia: "France", alemania: "Allemagne", portugal: "Portugal" },
+  de: { espana: "Spanien", mexico: "Mexiko", chile: "Chile", "reino-unido": "Vereinigtes Königreich", belgica: "Belgien", francia: "Frankreich", alemania: "Deutschland", portugal: "Portugal" },
+  pt: { espana: "Espanha", mexico: "México", chile: "Chile", "reino-unido": "Reino Unido", belgica: "Bélgica", francia: "França", alemania: "Alemanha", portugal: "Portugal" },
+  ca: { espana: "Espanya", mexico: "Mèxic", chile: "Xile", "reino-unido": "Regne Unit", belgica: "Bèlgica", francia: "França", alemania: "Alemanya", portugal: "Portugal" },
 };
 
 export const IN_COUNTRY_I18N: Record<string, string> = { es: "en", en: "in", fr: "en", de: "in", pt: "em", ca: "a" };

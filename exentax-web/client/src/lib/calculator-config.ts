@@ -228,18 +228,45 @@ export const FR_IS_SMALL_THRESHOLD = 42_500;
 export const FR_DIVIDEND_FLAT_TAX = 0.30; // Prélèvement forfaitaire unique (PFU)
 export const FR_COMPTABLE_ANNUAL = 3800;
 
-// --- Italy (Agenzia Entrate 2025) --------------------------------------------
-
-export const ITALY_IRPEF_BRACKETS = [
-  { limit: 28_000,   rate: 0.23 },
-  { limit: 50_000,   rate: 0.35 },
-  { limit: Infinity, rate: 0.43 },
+// --- Germany (BMF / Finanzamt 2026) ------------------------------------------
+//
+// Personal income tax (Einkommensteuer) — escala 2026 con 5 zonas oficiales:
+// Grundfreibetrag, dos zonas progresivas, Spitzensteuersatz 42%, Reichensteuer
+// 45%. Modelizamos la progresividad con tramos discretos equivalentes; las
+// transiciones fiscales reales son lineales dentro de cada zona pero el
+// resultado agregado es razonablemente preciso para el comparador.
+// SOURCE: BMF — Einkommensteuertarif 2026 (Grundfreibetrag 12.084 €,
+// Spitzensteuersatz 42% desde 68.480 €, Reichensteuer 45% desde 277.826 €).
+// https://www.bundesfinanzministerium.de/ (revisado abril 2026)
+export const GERMANY_EST_BRACKETS = [
+  { limit: 12_084,   rate: 0 },      // Grundfreibetrag
+  { limit: 17_443,   rate: 0.14 },   // Eingangssteuersatz (zona 2)
+  { limit: 68_480,   rate: 0.30 },   // Progresión hasta Spitzensteuersatz
+  { limit: 277_826,  rate: 0.42 },   // Spitzensteuersatz
+  { limit: Infinity, rate: 0.45 },   // Reichensteuer
 ];
-export const ITALY_INPS_RATE = 0.2572;       // Gestione Separata professionisti
-export const ITALY_IRES_RATE = 0.24;
-export const ITALY_IRAP_RATE = 0.039;
-export const ITALY_DIVIDEND_RATE = 0.26;
-export const ITALY_COMMERCIALISTA_ANNUAL = 3500;
+// Solidaritätszuschlag (Soli): 5,5 % sobre la cuota ESt; desde 2021 sólo
+// aplica a partir de un umbral elevado (Freigrenze) — modelado como
+// recargo agregado sobre el tramo alto en este comparador.
+// SOURCE: BMF, Solidaritätszuschlag 2026.
+export const GERMANY_SOLI_RATE = 0.055;
+
+// Sozialversicherung autónomos: alemán típico (KV+PV+RV+AV ≈ 19,7%
+// freiwillig). En Alemania los autónomos no están obligados a la
+// Sozialversicherung salvo profesiones específicas; modelamos un tipo
+// agregado realista para la comparativa.
+// SOURCE: GKV-Spitzenverband 2026, Künstlersozialkasse de referencia.
+export const GERMANY_SV_RATE = 0.197;
+
+// Körperschaftsteuer 15% + Solidaritätszuschlag 5,5% sobre KSt + Gewerbesteuer
+// (Hebesatz medio ~400% × Steuermesszahl 3,5% ≈ 14%) → carga societaria
+// agregada ≈ 30 %.
+// SOURCE: § 23 KStG; Statistisches Bundesamt — Hebesatz medio Gewerbesteuer
+// 2026 (~400 %, base nacional ponderada).
+export const GERMANY_KST_RATE = 0.15;
+export const GERMANY_GEWERBE_EFFECTIVE_RATE = 0.14; // ≈ Steuermesszahl × Hebesatz medio
+export const GERMANY_KAPESTG_RATE = 0.25;            // KapErtSt sobre dividendos
+export const GERMANY_STEUERBERATER_ANNUAL = 3500;
 
 // --- Mexico (SAT 2025) -------------------------------------------------------
 
@@ -278,33 +305,64 @@ export const CHILE_PRIMERA_CATEGORIA_RATE = 0.27;
 export const CHILE_DIVIDEND_RATE = 0.13;
 export const CHILE_CONTABILIDAD_ANNUAL = 3000;
 
-// --- Austria (BMF 2025) ------------------------------------------------------
-
-export const AUSTRIA_EST_BRACKETS = [
-  { limit: 12_816,    rate: 0 },
-  { limit: 20_818,    rate: 0.20 },
-  { limit: 34_513,    rate: 0.30 },
-  { limit: 66_612,    rate: 0.40 },
-  { limit: 99_266,    rate: 0.48 },
-  { limit: 1_000_000, rate: 0.50 },
-  { limit: Infinity,  rate: 0.55 },
+// --- Portugal (Autoridade Tributária / Portal das Finanças 2026) ------------
+//
+// IRS escalas progresivas 2026 (cinco escalões para residentes con tipo
+// marginal del 14,5 % al 48 %). Hemos consolidado los nueve escalones
+// originales en bloques agregados que mantienen el efectivo equivalente
+// para el comparador.
+// SOURCE: Lei do Orçamento do Estado 2026; Portal das Finanças
+// (https://info.portaldasfinancas.gov.pt) — revisado abril 2026.
+export const PORTUGAL_IRS_BRACKETS = [
+  { limit: 8_059,    rate: 0.1325 },
+  { limit: 12_160,   rate: 0.18 },
+  { limit: 17_233,   rate: 0.23 },
+  { limit: 22_306,   rate: 0.26 },
+  { limit: 28_400,   rate: 0.3275 },
+  { limit: 41_629,   rate: 0.37 },
+  { limit: 44_987,   rate: 0.4372 },
+  { limit: 83_696,   rate: 0.45 },
+  { limit: Infinity, rate: 0.48 },
 ];
-export const AUSTRIA_SVS_RATE = 0.268;
-export const AUSTRIA_KOEST_RATE = 0.23;
-export const AUSTRIA_KEST_RATE = 0.275;
-export const AUSTRIA_STEUERBERATER_ANNUAL = 3800;
+// Derrama estadual progresiva sobre rendimentos altos (2,5 % a 5 %); se
+// modela como recargo medio sobre el tramo top en el comparador.
+// SOURCE: CIRS art. 68.º-A (derrama estadual 2026).
+export const PORTUGAL_IRS_DERRAMA_RATE = 0.025;
+
+// Segurança Social — Trabalhadores Independentes (TSU autónomo 21,4 %
+// sobre 70 % del rendimento relevante). El régimen base aplica un factor
+// 0,70 sobre la facturación antes del 21,4 %, equivalente a una carga
+// efectiva ≈ 14,98 % sobre el bruto.
+// SOURCE: Código dos Regimes Contributivos do Sistema Previdencial de
+// Segurança Social (Lei 110/2009), art. 162-A; Portaria 5/2026.
+export const PORTUGAL_SS_AUTONOMO_RATE = 0.214;
+export const PORTUGAL_SS_AUTONOMO_BASE_FACTOR = 0.70;
+
+// IRC (Imposto sobre o Rendimento das Pessoas Coletivas) general 20%
+// (rebajado en 2026 desde 21%) + derrama municipal media 1,5 % +
+// derrama estatal escalonada (3-9 %) sobre lucros altos. Modelamos la
+// carga societaria agregada con un único tipo aplicable al beneficio.
+// SOURCE: Código do IRC art. 87.º; Portaria 41-A/2026 (derrama estadual).
+export const PORTUGAL_IRC_RATE = 0.20;
+export const PORTUGAL_IRC_DERRAMA_MUNICIPAL = 0.015;
+
+// Retenção na fonte sobre dividendos pagos a residentes (categoría E):
+// liberatoria de 28 %.
+// SOURCE: CIRS art. 71.º.
+export const PORTUGAL_DIVIDEND_RATE = 0.28;
+export const PORTUGAL_CONTABILISTA_ANNUAL = 2800;
 
 // --- Net-base proxies for autonomo deductions (when no itemized expenses) ---
 //
-// Many countries (UK/FR/IT/AT) accept a flat % de gastos deducibles cuando
+// Many countries (UK/FR/DE/PT) accept a flat % de gastos deducibles cuando
 // el contribuyente no itemiza. Estos factores son una proxy razonable —
 // el UI permite reemplazarlos con `expenseItems` reales.
 export const AUTONOMO_NET_FACTORS: Record<string, number> = {
   "reino-unido": 0.80,
   belgica:       0.80,
   francia:       0.78,
-  italia:        0.78,
-  austria:       0.80,
+  alemania:      0.80,
+  portugal:      0.78,
   mexico:        0.80,
   chile:         0.80,
 };
@@ -312,8 +370,8 @@ export const SOCIEDAD_PROFIT_FACTORS: Record<string, number> = {
   "reino-unido": 0.72,
   belgica:       0.70,
   francia:       0.70,
-  italia:        0.72,
-  austria:       0.72,
+  alemania:      0.72,
+  portugal:      0.72,
   mexico:        0.72,
   chile:         0.72,
 };
@@ -355,8 +413,8 @@ export const SOCIEDAD_COSTS: Record<string, { setup: number; fixedAnnual: number
   "reino-unido": { setup:  500, fixedAnnual: 1200 },
   francia:       { setup: 1500, fixedAnnual: 2000 },
   belgica:       { setup: 1800, fixedAnnual: 2200 },
-  italia:        { setup: 2000, fixedAnnual: 2500 },
-  austria:       { setup: 1800, fixedAnnual: 2200 },
+  alemania:      { setup: 1800, fixedAnnual: 2300 },
+  portugal:      { setup: 1500, fixedAnnual: 1900 },
 };
 
 // Amortization horizon for one-off setup costs in the 3-way comparison.
@@ -371,8 +429,8 @@ export const COUNTRY_VAT_RATES: Record<string, number> = {
   "reino-unido": 0.20,
   francia:       0.20,
   belgica:       0.21,
-  italia:        0.22,
-  austria:       0.20,
+  alemania:      0.19,
+  portugal:      0.23,
 };
 
 // --- Activity expense rates --------------------------------------------------

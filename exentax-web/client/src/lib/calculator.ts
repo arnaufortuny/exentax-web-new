@@ -86,13 +86,13 @@ const COUNTRY_EXPENSE_OVERRIDES: Record<string, Partial<Record<string, { deductP
     telefono: { deductPct: 100 },
     vehiculo: { deductPct: 50, label: "Vehículo (75% max según CO₂)" },
   },
-  italia: {
-    telefono: { deductPct: 80, label: "Teléfono e internet (80%)" },
-    vehiculo: { deductPct: 20, label: "Vehículo (20% uso mixto)" },
-  },
-  austria: {
+  alemania: {
     telefono: { deductPct: 100 },
-    vehiculo: { deductPct: 50, label: "Vehículo (Km-Pauschale)" },
+    vehiculo: { deductPct: 50, label: "Vehículo (1%-Regelung / Fahrtenbuch)" },
+  },
+  portugal: {
+    telefono: { deductPct: 100 },
+    vehiculo: { deductPct: 50, label: "Veículo (uso misto profissional)" },
   },
 };
 
@@ -156,12 +156,13 @@ import {
   FR_IS_SMALL_THRESHOLD,
   FR_DIVIDEND_FLAT_TAX,
   FR_COMPTABLE_ANNUAL,
-  ITALY_IRPEF_BRACKETS,
-  ITALY_INPS_RATE,
-  ITALY_IRES_RATE,
-  ITALY_IRAP_RATE,
-  ITALY_DIVIDEND_RATE,
-  ITALY_COMMERCIALISTA_ANNUAL,
+  GERMANY_EST_BRACKETS,
+  GERMANY_SOLI_RATE,
+  GERMANY_SV_RATE,
+  GERMANY_KST_RATE,
+  GERMANY_GEWERBE_EFFECTIVE_RATE,
+  GERMANY_KAPESTG_RATE,
+  GERMANY_STEUERBERATER_ANNUAL,
   MEXICO_ISR_BRACKETS,
   MEXICO_IMSS_RATE,
   MEXICO_ISR_PM_RATE,
@@ -172,11 +173,14 @@ import {
   CHILE_PRIMERA_CATEGORIA_RATE,
   CHILE_DIVIDEND_RATE,
   CHILE_CONTABILIDAD_ANNUAL,
-  AUSTRIA_EST_BRACKETS,
-  AUSTRIA_SVS_RATE,
-  AUSTRIA_KOEST_RATE,
-  AUSTRIA_KEST_RATE,
-  AUSTRIA_STEUERBERATER_ANNUAL,
+  PORTUGAL_IRS_BRACKETS,
+  PORTUGAL_IRS_DERRAMA_RATE,
+  PORTUGAL_SS_AUTONOMO_RATE,
+  PORTUGAL_SS_AUTONOMO_BASE_FACTOR,
+  PORTUGAL_IRC_RATE,
+  PORTUGAL_IRC_DERRAMA_MUNICIPAL,
+  PORTUGAL_DIVIDEND_RATE,
+  PORTUGAL_CONTABILISTA_ANNUAL,
   AUTONOMO_NET_FACTORS,
   SOCIEDAD_PROFIT_FACTORS,
   DEFAULT_AUTONOMO_NET_FACTOR,
@@ -375,26 +379,30 @@ function calcFranceTax(annualIncomeEUR: number, regime: string, micro: boolean =
   }
 }
 
-function calcItalyTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
+function calcGermanTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
   const breakdown: TaxBreakdown[] = [];
 
   if (regime === "autonomo") {
-    const netBase = annualIncomeEUR * (AUTONOMO_NET_FACTORS.italia ?? DEFAULT_AUTONOMO_NET_FACTOR);
-    const irpef = applyBrackets(netBase, ITALY_IRPEF_BRACKETS);
-    const inps = Math.round(netBase * ITALY_INPS_RATE);
-    breakdown.push({ label: "calculator.bd.italia.irpef", amount: irpef, note: "calculator.bd.italia.irpef_note" });
-    breakdown.push({ label: "calculator.bd.italia.inps", amount: inps, note: "calculator.bd.italia.inps_note" });
-    return { tax: irpef + inps, breakdown };
+    const netBase = annualIncomeEUR * (AUTONOMO_NET_FACTORS.alemania ?? DEFAULT_AUTONOMO_NET_FACTOR);
+    const estBase = applyBrackets(netBase, GERMANY_EST_BRACKETS);
+    const soli = Math.round(estBase * GERMANY_SOLI_RATE);
+    const est = estBase + soli;
+    const sv = Math.round(netBase * GERMANY_SV_RATE);
+    breakdown.push({ label: "calculator.bd.alemania.est", amount: est, note: "calculator.bd.alemania.est_note" });
+    breakdown.push({ label: "calculator.bd.alemania.sv", amount: sv, note: "calculator.bd.alemania.sv_note" });
+    return { tax: est + sv, breakdown };
   } else {
-    const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS.italia ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
-    const ires = Math.round(profit * ITALY_IRES_RATE);
-    const irap = Math.round(profit * ITALY_IRAP_RATE);
-    const dividendos = Math.round((profit - ires - irap) * ITALY_DIVIDEND_RATE);
-    breakdown.push({ label: "calculator.bd.italia.ires", amount: ires });
-    breakdown.push({ label: "calculator.bd.italia.irap", amount: irap });
-    breakdown.push({ label: "calculator.bd.italia.dividendi", amount: dividendos });
-    breakdown.push({ label: "calculator.bd.italia.commercialista", amount: ITALY_COMMERCIALISTA_ANNUAL });
-    return { tax: ires + irap + dividendos + ITALY_COMMERCIALISTA_ANNUAL, breakdown };
+    const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS.alemania ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
+    const kstBase = Math.round(profit * GERMANY_KST_RATE);
+    const soli = Math.round(kstBase * GERMANY_SOLI_RATE);
+    const kst = kstBase + soli;
+    const gewerbe = Math.round(profit * GERMANY_GEWERBE_EFFECTIVE_RATE);
+    const dividendos = Math.round((profit - kst - gewerbe) * GERMANY_KAPESTG_RATE);
+    breakdown.push({ label: "calculator.bd.alemania.kst", amount: kst });
+    breakdown.push({ label: "calculator.bd.alemania.gewerbe", amount: gewerbe });
+    breakdown.push({ label: "calculator.bd.alemania.kapestg", amount: dividendos });
+    breakdown.push({ label: "calculator.bd.alemania.steuerberater", amount: GERMANY_STEUERBERATER_ANNUAL });
+    return { tax: kst + gewerbe + dividendos + GERMANY_STEUERBERATER_ANNUAL, breakdown };
   }
 }
 
@@ -446,24 +454,30 @@ function calcChileTax(annualIncomeEUR: number, regime: string): { tax: number; b
 }
 
 
-function calcAustriaTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
+function calcPortugueseTax(annualIncomeEUR: number, regime: string): { tax: number; breakdown: TaxBreakdown[] } {
   const breakdown: TaxBreakdown[] = [];
 
   if (regime === "autonomo") {
-    const netBase = annualIncomeEUR * (AUTONOMO_NET_FACTORS.austria ?? DEFAULT_AUTONOMO_NET_FACTOR);
-    const est = applyBrackets(netBase, AUSTRIA_EST_BRACKETS);
-    const sv = Math.round(netBase * AUSTRIA_SVS_RATE);
-    breakdown.push({ label: "calculator.bd.austria.est", amount: est, note: "calculator.bd.austria.est_note" });
-    breakdown.push({ label: "calculator.bd.austria.svs", amount: sv, note: "calculator.bd.austria.svs_note" });
-    return { tax: est + sv, breakdown };
+    const netBase = annualIncomeEUR * (AUTONOMO_NET_FACTORS.portugal ?? DEFAULT_AUTONOMO_NET_FACTOR);
+    const irsBase = applyBrackets(netBase, PORTUGAL_IRS_BRACKETS);
+    const derrama = Math.round(Math.max(0, netBase - 80_000) * PORTUGAL_IRS_DERRAMA_RATE);
+    const irs = irsBase + derrama;
+    // SS: 21,4% sobre 70% del rendimento bruto (Trabalhador Independente).
+    const ssBase = annualIncomeEUR * PORTUGAL_SS_AUTONOMO_BASE_FACTOR;
+    const ss = Math.round(ssBase * PORTUGAL_SS_AUTONOMO_RATE);
+    breakdown.push({ label: "calculator.bd.portugal.irs", amount: irs, note: "calculator.bd.portugal.irs_note" });
+    breakdown.push({ label: "calculator.bd.portugal.ss", amount: ss, note: "calculator.bd.portugal.ss_note" });
+    return { tax: irs + ss, breakdown };
   } else {
-    const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS.austria ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
-    const koest = Math.round(profit * AUSTRIA_KOEST_RATE);
-    const kest = Math.round((profit - koest) * AUSTRIA_KEST_RATE);
-    breakdown.push({ label: "calculator.bd.austria.koest", amount: koest });
-    breakdown.push({ label: "calculator.bd.austria.kest", amount: kest });
-    breakdown.push({ label: "calculator.bd.austria.steuerberater", amount: AUSTRIA_STEUERBERATER_ANNUAL });
-    return { tax: koest + kest + AUSTRIA_STEUERBERATER_ANNUAL, breakdown };
+    const profit = annualIncomeEUR * (SOCIEDAD_PROFIT_FACTORS.portugal ?? DEFAULT_SOCIEDAD_PROFIT_FACTOR);
+    const irc = Math.round(profit * PORTUGAL_IRC_RATE);
+    const derramaMun = Math.round(profit * PORTUGAL_IRC_DERRAMA_MUNICIPAL);
+    const dividendos = Math.round((profit - irc - derramaMun) * PORTUGAL_DIVIDEND_RATE);
+    breakdown.push({ label: "calculator.bd.portugal.irc", amount: irc });
+    breakdown.push({ label: "calculator.bd.portugal.derrama", amount: derramaMun });
+    breakdown.push({ label: "calculator.bd.portugal.dividendos", amount: dividendos });
+    breakdown.push({ label: "calculator.bd.portugal.contabilista", amount: PORTUGAL_CONTABILISTA_ANNUAL });
+    return { tax: irc + derramaMun + dividendos + PORTUGAL_CONTABILISTA_ANNUAL, breakdown };
   }
 }
 
@@ -507,10 +521,15 @@ function calcResidenceLLCTax(annualProfitEUR: number, country: string): number {
     }
     case "belgica":
       return applyBrackets(base, BELGIUM_IPP_BRACKETS);
-    case "italia":
-      return applyBrackets(base, ITALY_IRPEF_BRACKETS);
-    case "austria":
-      return applyBrackets(base, AUSTRIA_EST_BRACKETS);
+    case "alemania": {
+      const estBase = applyBrackets(base, GERMANY_EST_BRACKETS);
+      return estBase + Math.round(estBase * GERMANY_SOLI_RATE);
+    }
+    case "portugal": {
+      const irsBase = applyBrackets(base, PORTUGAL_IRS_BRACKETS);
+      const derrama = Math.round(Math.max(0, base - 80_000) * PORTUGAL_IRS_DERRAMA_RATE);
+      return irsBase + derrama;
+    }
     default:
       return calcSpanishIRPF(base);
   }
@@ -630,16 +649,16 @@ export function calculateSavings(
     const result = calcFranceTax(baseForFrance, regime, useMicro);
     breakdown = result.breakdown;
     sinLLC = result.tax;
-  } else if (country === "italia") {
+  } else if (country === "alemania") {
     ivaNote = Math.round(annual * vatRate);
     const netAnnual = Math.max(0, annual - itemizedDeductible);
-    const result = calcItalyTax(netAnnual, regime);
+    const result = calcGermanTax(netAnnual, regime);
     breakdown = result.breakdown;
     sinLLC = result.tax;
-  } else if (country === "austria") {
+  } else if (country === "portugal") {
     ivaNote = Math.round(annual * vatRate);
     const netAnnual = Math.max(0, annual - itemizedDeductible);
-    const result = calcAustriaTax(netAnnual, regime);
+    const result = calcPortugueseTax(netAnnual, regime);
     breakdown = result.breakdown;
     sinLLC = result.tax;
   }
@@ -810,8 +829,8 @@ export const COUNTRY_CURRENCY: Record<string, { symbol: string; code: string; na
   "reino-unido": DISPLAY_CURRENCIES.GBP,
   belgica:       DISPLAY_CURRENCIES.EUR,
   francia:       DISPLAY_CURRENCIES.EUR,
-  italia:        DISPLAY_CURRENCIES.EUR,
-  austria:       DISPLAY_CURRENCIES.EUR,
+  alemania:      DISPLAY_CURRENCIES.EUR,
+  portugal:      DISPLAY_CURRENCIES.EUR,
 };
 
 export const countries = [
@@ -821,8 +840,8 @@ export const countries = [
   { id: "reino-unido",  label: "UK",  flag: "/img/flags/reino-unido.png" },
   { id: "francia",      label: "Francia",      flag: "/img/flags/francia.png" },
   { id: "belgica",      label: "Bélgica",      flag: "/img/flags/belgica.png" },
-  { id: "italia",       label: "Italia",       flag: "/img/flags/italia.png" },
-  { id: "austria",      label: "Austria",      flag: "/img/flags/austria.png" },
+  { id: "alemania",     label: "Alemania",     flag: "/img/flags/alemania.png" },
+  { id: "portugal",     label: "Portugal",     flag: "/img/flags/portugal.png" },
 ];
 
 export const COUNTRY_REGIMES: Record<string, RegimeDef[]> = {
@@ -856,14 +875,14 @@ export const COUNTRY_REGIMES: Record<string, RegimeDef[]> = {
     { id: "sociedad", label: "Société (SRL / BV)" },
     { id: "sin-regimen", label: "Sin régimen" },
   ],
-  italia:       [
-    { id: "autonomo", label: "Lavoratore Autonomo" },
-    { id: "sociedad", label: "Società (SRL)" },
+  alemania:     [
+    { id: "autonomo", label: "Freiberufler / Einzelunternehmer" },
+    { id: "sociedad", label: "GmbH / UG" },
     { id: "sin-regimen", label: "Sin régimen" },
   ],
-  austria:      [
-    { id: "autonomo", label: "Einzelunternehmer" },
-    { id: "sociedad", label: "GmbH" },
+  portugal:     [
+    { id: "autonomo", label: "Trabalhador Independente" },
+    { id: "sociedad", label: "Sociedade (Lda / SA)" },
     { id: "sin-regimen", label: "Sin régimen" },
   ],
 };
