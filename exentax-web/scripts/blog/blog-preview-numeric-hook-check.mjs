@@ -71,7 +71,7 @@ function isAbbreviationPeriod(text, periodIdx) {
   return false;
 }
 
-function firstSentence(text) {
+export function firstSentence(text) {
   if (typeof text !== "string") return "";
   const trimmed = text.trim();
   if (!trimmed) return "";
@@ -149,7 +149,7 @@ const AWKWARD_NUMERIC_OPENER_LANG_EXEMPT = new Set(["es"]);
 const AWKWARD_LEADING_YEAR_COLON_RE = /^(19|20)\d{2}\s*:\s+\S/u;
 const AWKWARD_LEADING_YEAR_DASH_RE = /^(19|20)\d{2}\s+[-\u2013\u2014]\s+\S/u;
 
-function isAwkwardNumericOpener(text) {
+export function isAwkwardNumericOpener(text) {
   if (typeof text !== "string") return false;
   const trimmed = text.trim();
   if (!trimmed) return false;
