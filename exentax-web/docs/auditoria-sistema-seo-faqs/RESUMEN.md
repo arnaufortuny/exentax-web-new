@@ -1,48 +1,48 @@
 # Auditoría sistema, SEO, sitemap y FAQs — Resumen ejecutivo
 
-Generado: 2026-04-29T18:10:30.803Z
-Servidor analizado: http://localhost:5000 (origin sitemap: https://exentax.com)
+Generado: 2026-04-30T12:00:00.985Z
+Servidor analizado: http://localhost:5000 (origin sitemap: http://localhost:5000)
 
 ## Conteos por área
 | Área | Total | P0 | P1 | P2 |
 |---|---:|---:|---:|---:|
 | Sistema (consistencia) | 1 | 0 | 0 | 1 |
 | Documentos legales | 17 | 0 | 0 | 17 |
-| SEO técnico | 9 | 0 | 4 | 5 |
-| Sitemap | 0 | 0 | 0 | 0 |
+| SEO técnico | 399 | 0 | 298 | 101 |
+| Sitemap | 106 | 106 | 0 | 0 |
 | FAQs (contenido) | 2 | 0 | 0 | 2 |
-| FAQs indexación | 6 | 6 | 0 | 0 |
-| **Total** | **35** | **6** | **4** | **25** |
+| FAQs indexación | 12 | 12 | 0 | 0 |
+| **Total** | **537** | **118** | **298** | **121** |
 
 ## Inventario de URLs (sitemap real)
-- sitemap-pages.xml: 102 URLs
-- sitemap-faq.xml:   6 URLs
-- sitemap-blog.xml:  672 URLs
-- Total catalogado en `sitemap-completo.json`: 774 (incluye blog posts y blog index)
+- sitemap-pages.xml: 0 URLs
+- sitemap-faq.xml:   0 URLs
+- sitemap-blog.xml:  0 URLs
+- Total catalogado en `sitemap-completo.json`: 102 (incluye blog posts y blog index)
 
 ## Estado de indexación de FAQs por idioma
 | Idioma | FAQs | OK | Necesita atención |
 |---|---:|---:|---:|
-| ES | 83 | 79 | 4 |
-| EN | 83 | 79 | 4 |
-| FR | 83 | 79 | 4 |
-| DE | 83 | 79 | 4 |
-| PT | 83 | 79 | 4 |
-| CA | 83 | 79 | 4 |
+| ES | 83 | 0 | 83 |
+| EN | 83 | 0 | 83 |
+| FR | 83 | 0 | 83 |
+| DE | 83 | 0 | 83 |
+| PT | 83 | 0 | 83 |
+| CA | 83 | 0 | 83 |
 
 > Nota arquitectónica: el JSON-LD FAQPage se construye **client-side** en `client/src/pages/faq-page.tsx` y agrupa todas las `useFaqSections()` en `mainEntity`. Una única URL por idioma (`/xx/faq`) cubre las 83 Q/A; los anchors `#id` son fragments SPA. El estado por celda se valida cruzando la traducción i18n, la presencia en `mainEntity` del JSON-LD renderizado, la presencia en `sitemap-faq.xml`, las reglas de `robots.txt`, el `canonical` real y los enlaces internos entrantes.
 
 ## Top 10 hallazgos
-1. **[P0] faq-indexation-ssr-coverage** — FAQ/es: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/es/preguntas-frecuentes (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
-2. **[P0] faq-indexation-ssr-coverage** — FAQ/en: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/en/faq (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
-3. **[P0] faq-indexation-ssr-coverage** — FAQ/fr: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/fr/questions-frequentes (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
-4. **[P0] faq-indexation-ssr-coverage** — FAQ/de: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/de/haufige-fragen (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
-5. **[P0] faq-indexation-ssr-coverage** — FAQ/pt: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/pt/perguntas-frequentes (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
-6. **[P0] faq-indexation-ssr-coverage** — FAQ/ca: 4 de 83 preguntas traducidas no aparecen en el mainEntity SSR _(`https://exentax.com/ca/preguntes-frequents (FAQ_SCHEMA_ENTRIES en server/seo-content.ts)`)_
-7. **[P1] meta-description-too-long** — Meta description de 176 (>160) _(`/es`)_
-8. **[P1] meta-description-too-long** — Meta description de 170 (>160) _(`/en`)_
-9. **[P1] meta-description-too-long** — Meta description de 171 (>160) _(`/fr`)_
-10. **[P1] meta-description-too-long** — Meta description de 166 (>160) _(`/pt`)_
+1. **[P0] missing-from-sitemap** — home/es no presente en ningún sitemap shard _(`http://localhost:5000/es`)_
+2. **[P0] missing-from-sitemap** — home/en no presente en ningún sitemap shard _(`http://localhost:5000/en`)_
+3. **[P0] missing-from-sitemap** — home/fr no presente en ningún sitemap shard _(`http://localhost:5000/fr`)_
+4. **[P0] missing-from-sitemap** — home/de no presente en ningún sitemap shard _(`http://localhost:5000/de`)_
+5. **[P0] missing-from-sitemap** — home/pt no presente en ningún sitemap shard _(`http://localhost:5000/pt`)_
+6. **[P0] missing-from-sitemap** — home/ca no presente en ningún sitemap shard _(`http://localhost:5000/ca`)_
+7. **[P0] missing-from-sitemap** — how_we_work/es no presente en ningún sitemap shard _(`http://localhost:5000/es/como-trabajamos`)_
+8. **[P0] missing-from-sitemap** — how_we_work/en no presente en ningún sitemap shard _(`http://localhost:5000/en/how-we-work`)_
+9. **[P0] missing-from-sitemap** — how_we_work/fr no presente en ningún sitemap shard _(`http://localhost:5000/fr/comment-nous-travaillons`)_
+10. **[P0] missing-from-sitemap** — how_we_work/de no presente en ningún sitemap shard _(`http://localhost:5000/de/wie-wir-arbeiten`)_
 
 ## Plan de corrección priorizado
 
