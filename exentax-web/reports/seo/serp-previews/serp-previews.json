@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T13:21:40.953Z",
+  "generatedAt": "2026-04-30T13:24:24.053Z",
   "budgets": {
     "DESKTOP_TITLE_PX": 580,
     "DESKTOP_DESC_PX": 990,
@@ -195,12 +195,19 @@
       "routePath": "/es/servicios/llc-delaware",
       "lang": "es",
       "title": "LLC en Delaware · El estado de los inversores serios",
-      "description": "Estado preferido por VCs y founders: marco jurídico sólido y prestigio global. LLC con EIN, banca americana y agente registrado. Empieza hoy.",
+      "description": "El estado preferido por VCs y founders: marco jurídico sólido y prestigio global. LLC con EIN, banca americana y agente registrado. Empieza hoy.",
       "titleChars": 52,
-      "descChars": 141,
+      "descChars": 144,
       "titlePx": 403,
-      "descPx": 730,
-      "issues": []
+      "descPx": 743,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"empieza hoy\" sits at char 133; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -234,12 +241,19 @@
       "routePath": "/es/servicios/llc-wyoming",
       "lang": "es",
       "title": "LLC en Wyoming · Privacidad y protección de activos",
-      "description": "Wyoming, estándar de oro en privacidad y protección de activos. LLC con EIN, banca americana y agente registrado, sin viajar. Reserva tu llamada.",
+      "description": "Wyoming, el estándar de oro en privacidad y protección de activos. LLC con EIN, banca americana y agente registrado, sin viajar a EE. UU. Empieza hoy.",
       "titleChars": 51,
-      "descChars": 145,
+      "descChars": 150,
       "titlePx": 409,
-      "descPx": 754,
-      "issues": []
+      "descPx": 778,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"empieza hoy\" sits at char 139; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "pillar",
@@ -416,12 +430,19 @@
       "routePath": "/en/services/get-your-itin",
       "lang": "en",
       "title": "ITIN for non-residents · Keep your passport | Exentax",
-      "description": "Get your IRS ITIN without sending your original passport: we file as a Certifying Acceptance Agent and meet every deadline. Book a free call.",
+      "description": "Get your IRS ITIN without sending your original passport. We file as an official Certifying Acceptance Agent, deadlines we actually meet. Book a free call.",
       "titleChars": 53,
-      "descChars": 141,
+      "descChars": 155,
       "titlePx": 415,
-      "descPx": 713,
-      "issues": []
+      "descPx": 774,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"book a free call\" sits at char 139; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -429,12 +450,19 @@
       "routePath": "/en/services/llc-delaware",
       "lang": "en",
       "title": "Delaware LLC · Where serious investors set up shop",
-      "description": "Delaware is where VCs and founders go: solid legal framework and global prestige. LLC with EIN, US banking and registered agent. Book a free call.",
+      "description": "The state of choice for VCs and founders: solid legal framework and global prestige. Delaware LLC with EIN, US banking and registered agent. Get started.",
       "titleChars": 50,
-      "descChars": 146,
+      "descChars": 153,
       "titlePx": 400,
-      "descPx": 747,
-      "issues": []
+      "descPx": 780,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"get started\" sits at char 142; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -455,12 +483,19 @@
       "routePath": "/en/services/llc-new-mexico",
       "lang": "en",
       "title": "New Mexico LLC · Lowest cost, maximum privacy",
-      "description": "The most cost-efficient US LLC: no annual report, owner off the public record and 0% federal tax. EIN, US banking and agent. Book a free call.",
+      "description": "The most cost-efficient US LLC: no annual report, owner off the public record, 0% federal tax. EIN, US banking and registered agent. Book a free call.",
       "titleChars": 45,
-      "descChars": 142,
+      "descChars": 150,
       "titlePx": 381,
-      "descPx": 715,
-      "issues": []
+      "descPx": 751,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"book a free call\" sits at char 134; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -468,12 +503,19 @@
       "routePath": "/en/services/llc-wyoming",
       "lang": "en",
       "title": "Wyoming LLC · Privacy and asset protection done right",
-      "description": "Wyoming sets the gold standard in privacy and asset protection. LLC with EIN, US banking and registered agent, no US trip needed. Book a free call.",
+      "description": "Wyoming is the gold standard in privacy and asset protection. We set up your LLC with EIN, US banking and registered agent, no US trip. Book a free call.",
       "titleChars": 53,
-      "descChars": 147,
+      "descChars": 153,
       "titlePx": 421,
-      "descPx": 751,
-      "issues": []
+      "descPx": 776,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"book a free call\" sits at char 137; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "pillar",
@@ -650,12 +692,19 @@
       "routePath": "/fr/services/obtiens-ton-itin",
       "lang": "fr",
       "title": "ITIN non-résidents · Sans envoyer votre passeport",
-      "description": "Votre ITIN IRS sans envoyer le passeport. Nous le déposons en tant que Certifying Acceptance Agent officiel, délais tenus. Réservez un appel.",
+      "description": "Votre ITIN IRS sans envoyer votre passeport original. Nous déposons en tant que Certifying Acceptance Agent officiel, suivi et délais tenus. Démarrez ici.",
       "titleChars": 49,
-      "descChars": 141,
+      "descChars": 154,
       "titlePx": 391,
-      "descPx": 723,
-      "issues": []
+      "descPx": 779,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"démarrez ici\" sits at char 142; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -663,12 +712,19 @@
       "routePath": "/fr/services/llc-delaware",
       "lang": "fr",
       "title": "LLC au Delaware · L'état des investisseurs sérieux",
-      "description": "Le Delaware, état préféré des VC et fondateurs : cadre juridique solide et prestige mondial. LLC avec EIN, banque US et agent. Démarrez ici.",
+      "description": "L'état préféré des VC et fondateurs : cadre juridique solide et prestige mondial. LLC Delaware avec EIN, banque US et agent enregistré. Démarrez ici.",
       "titleChars": 50,
-      "descChars": 140,
+      "descChars": 149,
       "titlePx": 390,
-      "descPx": 708,
-      "issues": []
+      "descPx": 754,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"démarrez ici\" sits at char 137; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -676,12 +732,19 @@
       "routePath": "/fr/services/llc-floride",
       "lang": "fr",
       "title": "LLC en Floride · Votre porte d'entrée aux US et LATAM",
-      "description": "Si vous vendez aux USA ou en LATAM, la Floride est votre base. LLC avec EIN, banque US, agent enregistré et accompagnement réel. Démarrez ici.",
+      "description": "Si vous vendez aux États-Unis ou en LATAM, la Floride est votre base. LLC avec EIN, banque US, agent enregistré et accompagnement fiscal. Démarrez ici.",
       "titleChars": 53,
-      "descChars": 142,
+      "descChars": 151,
       "titlePx": 406,
-      "descPx": 747,
-      "issues": []
+      "descPx": 791,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"démarrez ici\" sits at char 139; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -689,12 +752,19 @@
       "routePath": "/fr/services/llc-nouveau-mexique",
       "lang": "fr",
       "title": "LLC au Nouveau-Mexique · Coût minimal, confidentialité max",
-      "description": "La LLC US la plus rentable : pas de renouvellement annuel, propriétaire non public, 0 % fédéral. EIN, banque US et agent inclus. Démarrez ici.",
+      "description": "La LLC US la plus rentable : pas de renouvellement annuel, propriétaire non public et 0 % fédéral. EIN, banque US et agent enregistré inclus. Démarrez ici.",
       "titleChars": 58,
-      "descChars": 142,
+      "descChars": 155,
       "titlePx": 467,
-      "descPx": 711,
-      "issues": []
+      "descPx": 776,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"démarrez ici\" sits at char 143; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -702,12 +772,19 @@
       "routePath": "/fr/services/llc-wyoming",
       "lang": "fr",
       "title": "LLC au Wyoming · Confidentialité et protection des actifs",
-      "description": "Wyoming, référence en confidentialité et protection des actifs. LLC avec EIN, banque américaine et agent enregistré, sans voyage. Démarrez ici.",
+      "description": "Wyoming, la référence en confidentialité et protection des actifs. LLC avec EIN, banque américaine et agent enregistré, sans voyager aux USA. Démarrez ici.",
       "titleChars": 57,
-      "descChars": 143,
+      "descChars": 155,
       "titlePx": 433,
-      "descPx": 737,
-      "issues": []
+      "descPx": 797,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"démarrez ici\" sits at char 143; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "pillar",
@@ -897,12 +974,19 @@
       "routePath": "/de/leistungen/llc-delaware",
       "lang": "de",
       "title": "Delaware-LLC · Wo ernsthafte Investoren gründen",
-      "description": "Lieblingsstaat von VCs und Foundern: solider Rechtsrahmen und globales Ansehen. Delaware-LLC mit EIN, US-Banking und Agent. Termin vereinbaren.",
+      "description": "Der Lieblingsstaat von VCs und Foundern: solider Rechtsrahmen und globales Ansehen. Delaware-LLC mit EIN, US-Banking und Registered Agent. Jetzt starten.",
       "titleChars": 47,
-      "descChars": 143,
+      "descChars": 153,
       "titlePx": 384,
-      "descPx": 768,
-      "issues": []
+      "descPx": 811,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"jetzt starten\" sits at char 140; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -910,12 +994,19 @@
       "routePath": "/de/leistungen/llc-florida",
       "lang": "de",
       "title": "Florida-LLC · Ihr Tor zu den USA und LATAM",
-      "description": "Wer in den USA oder LATAM verkauft, hat in Florida die Basis. LLC mit EIN, US-Banking, Registered Agent und Beratung inklusive. Jetzt anfragen.",
+      "description": "Wenn Sie in den USA oder LATAM verkaufen, ist Florida Ihre Basis. LLC mit EIN, US-Banking, Registered Agent und Steuerberatung inklusive. Jetzt anfragen.",
       "titleChars": 42,
-      "descChars": 143,
+      "descChars": 153,
       "titlePx": 333,
-      "descPx": 731,
-      "issues": []
+      "descPx": 788,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"jetzt anfragen\" sits at char 139; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -923,12 +1014,19 @@
       "routePath": "/de/leistungen/llc-new-mexico",
       "lang": "de",
       "title": "New-Mexico-LLC · Niedrigste Kosten, maximale Privatsphäre",
-      "description": "Die kosteneffizienteste US-LLC: kein Jahresbericht, Inhaber nicht öffentlich, 0 % Bundessteuer. EIN, US-Bankkonto und Agent. Jetzt anfragen.",
+      "description": "Die kosteneffizienteste US-LLC: kein Jahresbericht, Inhaber nicht öffentlich, 0 % Bundessteuer. EIN, US-Bankkonto und Registered Agent. Jetzt starten.",
       "titleChars": 57,
-      "descChars": 140,
+      "descChars": 150,
       "titlePx": 469,
-      "descPx": 718,
-      "issues": []
+      "descPx": 767,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"jetzt starten\" sits at char 137; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -1131,12 +1229,19 @@
       "routePath": "/pt/servicos/llc-delaware",
       "lang": "pt",
       "title": "LLC no Delaware · O estado dos investidores sérios",
-      "description": "Estado favorito de VCs e founders: enquadramento jurídico sólido e prestígio global. LLC no Delaware, com EIN e banca americana. Comece hoje.",
+      "description": "O estado favorito de VCs e founders: enquadramento jurídico sólido e prestígio global. LLC no Delaware com EIN, banca e agente registado. Comece hoje.",
       "titleChars": 50,
-      "descChars": 141,
+      "descChars": 150,
       "titlePx": 394,
-      "descPx": 747,
-      "issues": []
+      "descPx": 789,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"comece hoje\" sits at char 139; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -1170,12 +1275,19 @@
       "routePath": "/pt/servicos/llc-wyoming",
       "lang": "pt",
       "title": "LLC no Wyoming · Privacidade e proteção de ativos",
-      "description": "Wyoming é o padrão de ouro em privacidade e proteção de ativos. LLC com EIN, banca americana e agente registado, sem viagem. Agende sua chamada.",
+      "description": "Wyoming é o padrão de ouro em privacidade e proteção de ativos. LLC com EIN, banca americana e agente registado, sem viajar aos EUA. Comece hoje.",
       "titleChars": 49,
-      "descChars": 144,
+      "descChars": 145,
       "titlePx": 395,
-      "descPx": 789,
-      "issues": []
+      "descPx": 780,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"comece hoje\" sits at char 134; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "pillar",
@@ -1378,12 +1490,19 @@
       "routePath": "/ca/serveis/llc-florida",
       "lang": "ca",
       "title": "LLC a Florida · La teva porta als EUA i LATAM",
-      "description": "Si vens als EUA o a LATAM, Florida és la teva base. LLC amb EIN, banca americana, agent registrat i assessoria en català inclosa. Comença avui.",
+      "description": "Si vens als EUA o a LATAM, Florida és la teva base. LLC amb EIN, banca americana, agent registrat i assessoria contínua en català. Comença avui.",
       "titleChars": 45,
-      "descChars": 143,
+      "descChars": 144,
       "titlePx": 340,
-      "descPx": 741,
-      "issues": []
+      "descPx": 751,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"comença avui\" sits at char 132; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     },
     {
       "scope": "subpage",
@@ -1404,12 +1523,19 @@
       "routePath": "/ca/serveis/llc-wyoming",
       "lang": "ca",
       "title": "LLC a Wyoming · Privacitat i protecció d'actius",
-      "description": "Wyoming és l'estàndard d'or en privacitat i protecció d'actius. LLC amb EIN, banca americana i agent registrat, sense viatjar. Comença avui.",
+      "description": "Wyoming és l'estàndard d'or en privacitat i protecció d'actius. LLC amb EIN, banca americana i agent registrat, sense viatjar als EUA. Comença avui.",
       "titleChars": 47,
-      "descChars": 140,
+      "descChars": 148,
       "titlePx": 355,
-      "descPx": 716,
-      "issues": []
+      "descPx": 757,
+      "issues": [
+        {
+          "scope": "cta",
+          "surface": "mobile",
+          "severity": "warn",
+          "note": "Soft CTA \"comença avui\" sits at char 136; mobile SERP usually truncates around char 130, so the CTA may not render on phones."
+        }
+      ]
     }
   ]
 }
