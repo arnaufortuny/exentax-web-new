@@ -84,6 +84,19 @@ const STEPS = [
   { name: "test:seo-slash",               weight: 1 },
   { name: "lint:email-deliverability",    weight: 1 },
   { name: "blog:bundle-sync",             weight: 1 },
+  // Cabled under Audit 05 / Task #41 — were sitting orphaned in tests/
+  // with no entry in this list nor in `check:serial`. Each guards a
+  // distinct production invariant: the four heavy ones (DB or queue-bound)
+  // get realistic weights so the bin-packer schedules them early; the
+  // three static checks fill any remaining slot.
+  { name: "test:discord-no-token-leak",      weight: 12 },
+  { name: "test:discord-event-notifications", weight: 10 },
+  { name: "test:drip-exactly-once",          weight: 5 },
+  { name: "test:discord-queue-persistence",  weight: 5 },
+  { name: "test:consent-atomicity",          weight: 3 },
+  { name: "test:admin-api-removed",          weight: 1 },
+  { name: "test:email-template-security",    weight: 1 },
+  { name: "test:madrid-time-dst",            weight: 1 },
 ];
 
 // `tsc` is special — it isn't a package.json script, it's invoked directly

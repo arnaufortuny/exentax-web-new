@@ -240,3 +240,125 @@ aparecer en futuras revisiones.
 - Sin ficheros `.bak`/`.old`/`.legacy`/`.orig` en el repo. Limpieza histórica
   ya hecha.
 - Sin dependencias npm no usadas detectadas en el muestreo.
+
+---
+
+## 9. Postscriptum — ejecución (Task #41, 2026-04-30)
+
+**Falsos positivos adicionales detectados al ejecutar el plan.** Antes de
+borrar, re-verifiqué cada script en `../scripts/` con `rg .github/workflows/`.
+Resultado: el audit afirmó que `.github/workflows/` "devuelve vacío en todo
+el workspace" — **eso era falso**. El directorio contiene 14 workflows
+(`live-verification.yml`, `live-verification-seo-headers.yml`,
+`notifier-scripts-tests.yml`, `diagnostic-audit.yml`,
+`notify-perf-gate-bypass-merged.yml`, etc.) y varios de los scripts
+marcados como huérfanos están **activamente cableados** en ellos:
+
+| Script | Status real | Workflows que lo invocan |
+|---|---|---|
+| `../scripts/live-verification.sh` | **NO huérfano — activo** | `live-verification.yml`, `live-verification-seo-headers.yml` |
+| `../scripts/notify-live-verification-discord.mjs` | **NO huérfano — activo** | `live-verification.yml`, `live-verification-seo-headers.yml` |
+| `../scripts/notify-live-verification-discord.test.mjs` | **NO huérfano — activo** | `notifier-scripts-tests.yml` (corre en cada PR) |
+| `../scripts/notify-monitoring-offline-issue.mjs` | **NO huérfano — activo** | `live-verification.yml`, `diagnostic-audit.yml`, `notify-perf-gate-bypass-merged.yml`, `notifier-scripts-tests.yml` |
+| `../scripts/notify-monitoring-offline-issue.test.mjs` | **NO huérfano — activo** | `notifier-scripts-tests.yml` |
+| `../scripts/inject-crs2-blocks.mjs` | Huérfano confirmado | — (reemplazado por `exentax-web/scripts/blog/inject-crs2-citations.mjs`) |
+
+**Lección reforzada.** El subagente que escribió la sección §4 verificó
+mal `ls .github/workflows/` (probablemente desde otro working dir o con
+flags que excluían dotfiles). El propio audit advertía en §6 que "los
+exploradores tenían razón sobre la existencia de los scripts notify-* pero
+clasificación inexacta en >50% de los casos" — y aquí el patrón se repitió.
+Si una afirmación implica `ls` de un dotfile crítico (`.github/`,
+`.local/`, `.husky/`), **vale la pena re-correrlo manualmente desde la
+raíz del workspace antes de cualquier `rm`**.
+
+### Verificación adicional sobre §3.1 — `seo-orphan-audit-ci.mjs`
+
+El audit lo clasificó como "sin callers". Re-verificación con `rg -n
+seo-orphan-audit-ci`:
+
+- `exentax-web/scripts/check.mjs:159` — comentario en el header (referencia documental).
+- `exentax-web/scripts/blog/blog-validate-all.mjs:84` — **caller real**:
+  `{ id: "orphan-audit", file: "scripts/seo-orphan-audit-ci.mjs", node: "node" }`.
+
+`blog-validate-all.mjs` se invoca desde `scripts/check.mjs` como paso
+`blog:validate-all`. Por tanto `seo-orphan-audit-ci.mjs` sí está cableado
+en la cadena de `npm run check`, vía `blog-validate-all`. **No es huérfano**.
+La promesa de Task #23 está cumplida.
+
+### Cambios efectuados en este task
+
+- **Etapa 1 — 8 tests cableados** (P0 del plan):
+  cada uno con su `test:<nombre>` en `exentax-web/package.json`,
+  encadenado en `check:serial`, y registrado en `scripts/check.mjs#STEPS`
+  con su peso. Los 8 verificados pasando individualmente.
+  Reparación adicional: `admin-api-removed.test.ts` apuntaba a
+  `server/discord-bot-commands.ts` (refactor lo movió a
+  `server/discord/handlers/booking-actions.ts`); `email-template-security.test.ts`
+  apuntaba a `server/email.ts` (movido a `server/email/drip.ts` con la
+  unsub URL ahora montada como `oneClickUrl ?? mailto:`);
+  `discord-no-token-leak.test.ts` usaba snowflakes de 10 dígitos
+  (validador silenciosamente los descartaba) y `flush()` con timeout
+  insuficiente (1500 ms) para fan-out a 2 canales — corregidos a 19
+  dígitos y 2200 ms respectivamente.
+- **Etapa 2 — borrado de scripts huérfanos** (P1 del plan, ajustado):
+  - Borrados: `../scripts/inject-crs2-blocks.mjs`,
+    `exentax-web/scripts/blog/dedup-consecutive-paragraphs.mjs`.
+  - Ya borrados antes de este task:
+    `exentax-web/scripts/audit-conversion-es-2026-04.mjs`,
+    `exentax-web/scripts/auditoria-rutas-componentes-discord-emails.mjs`.
+  - **NO borrados** los 4 notify-* / live-verification scripts en
+    `../scripts/` por ser activos en CI (ver tabla de arriba).
+  - `replit.md` actualizado: catálogo `scripts/blog/` ya no lista
+    `dedup-consecutive-paragraphs`.
+- **Etapa 3 — consolidación `madrid-time.ts`** (P2 del plan):
+  - `addDaysMadridISO` y `tomorrowMadridISO` migradas a
+    `shared/madrid-time.ts` (con la red de seguridad try/catch del
+    cliente preservada para navegadores legacy).
+  - `client/src/pages/booking.tsx` ahora importa desde `@shared/madrid-time`.
+  - `client/src/lib/madrid-time.ts` borrado.
+  - `npx tsc --noEmit` exit 0; `test:madrid-time-dst` pasa contra el
+    fichero consolidado.
+- **Etapa 4 — sunset cohorte `booking` en drip-worker** (P2 del plan):
+  **EJECUTADA.**
+  - Razonamiento corregido: el repl aún no se ha desplegado nunca, por
+    tanto NO existe BD de producción todavía
+    (`PRODUCTION_DATABASE_ERROR` de `executeSql({environment:"production"})`).
+    Sin BD de producción, no puede haber filas legacy en vuelo en
+    producción por definición — el primer despliegue creará tablas
+    nuevas y vacías. La BD de desarrollo además confirma 0 filas
+    `booking` históricas. Mi defer inicial estaba basado en un
+    escenario imposible (rows en una BD que no existe).
+  - Confirmación a nivel de código: `rg "source.*['\"]booking['\"]"
+    server/` solo encuentra inserciones en `consent_log` (tabla
+    distinta) y en `notifyConsent`/Discord notifications (operacional).
+    El comentario en `routes/public.ts:728` lo dice explícitamente:
+    *"No drip sequence is started for booking submissions"*. Cero
+    código de enrollment activo.
+  - Cambios efectuados:
+    - `server/scheduled/drip-worker.ts`:
+      - Header §: el bloque que documentaba la cohorte `booking` como
+        "legacy en vuelo" reemplazado por una nota histórica que
+        apunta a este audit y al Task #41.
+      - `STEP_DELAY_MS_BY_SOURCE`: clave `booking: 3 * ONE_DAY_MS`
+        eliminada.
+      - `TOTAL_STEPS_BY_SOURCE`: clave `booking: 6` eliminada.
+      - Comentario de `dispatchStep`: `guide/booking steps are 1..6`
+        → `guide steps are 1..6`.
+    - `shared/schema.ts`:
+      - Comentario inline en `dripEnrollments.source`: lista
+        `'guide' | 'calculator'` con anotación legacy a Task #41.
+      - CHECK constraint `drip_enrollments_source_check`:
+        `IN ('guide','booking','calculator')` → `IN ('guide','calculator')`.
+    - Migración aplicada a la BD de desarrollo. `drizzle-kit push`
+      no detectó el cambio del CHECK (limitación conocida — solo
+      compara el nombre del constraint), así que la actualización se
+      hizo manualmente con `ALTER TABLE … DROP CONSTRAINT … ; ALTER
+      TABLE … ADD CONSTRAINT … CHECK (source IN ('guide','calculator'))`.
+      Verificado con `pg_get_constraintdef`. En el primer deploy a
+      producción, `db:push` creará el constraint correcto desde cero.
+  - Verificación post-cambio: `tsc --noEmit` exit 0; `test:drip-exactly-once`
+    pasa (cubre las 5 escenarios de race incluyendo el del worker tick);
+    `npm run check` reporta 39/42 igual que antes del cambio (las 2
+    fallas restantes son preexistentes en `test-discord-bot-e2e.ts`,
+    fichero no tocado por este task).

@@ -470,7 +470,7 @@ export const dripEnrollments = pgTable("drip_enrollments", {
   // bare cultural greeting when this is null/empty.
   name: text("name"),
   language: text("language").notNull(),
-  source: text("source").notNull(), // 'guide' | 'booking' | 'calculator'
+  source: text("source").notNull(), // 'guide' | 'calculator' (legacy 'booking' cohort retired in Task #41 — Audit 05 §5.2)
   currentStep: integer("current_step").notNull().default(0), // 0=not yet sent, 1..6=last sent step
   /**
    * Exactly-once dispatch sentinel. Updated by the drip-worker AFTER a
@@ -518,7 +518,7 @@ export const dripEnrollments = pgTable("drip_enrollments", {
     .on(table.email)
     .where(sql`${table.completedAt} IS NULL`),
   check("drip_enrollments_source_check",
-    sql`${table.source} IN ('guide','booking','calculator')`),
+    sql`${table.source} IN ('guide','calculator')`),
   check("drip_enrollments_step_check",
     sql`${table.currentStep} >= 0 AND ${table.currentStep} <= 6`),
 ]);

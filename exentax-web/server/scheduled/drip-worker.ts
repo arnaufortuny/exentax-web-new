@@ -16,11 +16,14 @@
  *    is NOT counted as a drip step — the row enters with
  *    `currentStep = 0` and `next_send_at = now() + 2d`, so the worker
  *    fires step 1 first.
- *  - `booking`    → legacy. New booking submissions no longer enroll
- *    (the spec is: booking gets the confirmation + day-before reminder
- *    only, plus newsletter membership). Existing in-flight rows keep
- *    completing on the original 6-step / 3-day cadence so we don't
- *    drop them mid-sequence.
+ *
+ * Note: a third `booking` cohort existed historically (Audit 05, §5.2).
+ * The booking flow stopped enrolling new rows ages ago — the booking
+ * spec became "confirmation + day-before reminder + newsletter
+ * membership", with no drip sequence — and the cohort was retired in
+ * Task #41 (2026-04-30) once the production DB was confirmed empty of
+ * legacy in-flight rows. The schema CHECK constraint on
+ * `drip_enrollments.source` now disallows the value entirely.
  *
  * Failures are non-fatal: the storage helper records `last_error` and
  * releases the claim, so the row will be retried on the next due tick
@@ -40,12 +43,10 @@ import {
 const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 const STEP_DELAY_MS_BY_SOURCE: Record<string, number> = {
   guide: 3 * ONE_DAY_MS,
-  booking: 3 * ONE_DAY_MS, // legacy — kept for in-flight rows
   calculator: 2 * ONE_DAY_MS,
 };
 const TOTAL_STEPS_BY_SOURCE: Record<string, number> = {
   guide: 6,
-  booking: 6, // legacy
   calculator: 3,
 };
 const DEFAULT_DELAY_MS = 3 * ONE_DAY_MS;
@@ -110,9 +111,9 @@ export function _setSendOverridesForTests(opts: {
 
 /**
  * Dispatch the right sender for the row's `source`. Calc-drip steps
- * are typed 1..3; guide/booking steps are 1..6. The narrowing is safe
- * because `stepToSend` is already clamped to `totalStepsFor(source)`
- * by the caller.
+ * are typed 1..3; guide steps are 1..6. The narrowing is safe because
+ * `stepToSend` is already clamped to `totalStepsFor(source)` by the
+ * caller.
  */
 async function dispatchStep(row: ClaimedDripRow, stepToSend: number): Promise<void> {
   const basePayload = {

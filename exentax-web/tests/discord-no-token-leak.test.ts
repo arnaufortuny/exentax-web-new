@@ -16,10 +16,14 @@
  */
 process.env.NODE_ENV = "test";
 process.env.DISCORD_BOT_TOKEN = "test-token";
-process.env.DISCORD_CHANNEL_AGENDA = "1234567890";
-process.env.DISCORD_CHANNEL_REGISTROS = "1234567891";
-process.env.DISCORD_CHANNEL_CONSENTIMIENTOS = "1234567892";
-process.env.DISCORD_CHANNEL_AUDITORIA = "1234567893";
+// Discord channel ids must look like real snowflakes (17–19 digit numerics)
+// or the env-var validator in `server/discord.ts` rejects them at module load
+// and every notification becomes a no-op. Sister test
+// `tests/discord-event-notifications.test.ts` uses the same 19-digit shape.
+process.env.DISCORD_CHANNEL_AGENDA = "1000000000000000010";
+process.env.DISCORD_CHANNEL_REGISTROS = "1000000000000000011";
+process.env.DISCORD_CHANNEL_CONSENTIMIENTOS = "1000000000000000012";
+process.env.DISCORD_CHANNEL_AUDITORIA = "1000000000000000013";
 
 const SENT: string[] = [];
 const originalFetch = global.fetch;
@@ -36,7 +40,13 @@ function assert(cond: unknown, msg: string) {
   else process.stdout.write(`  ok  ${msg}\n`);
 }
 
-async function flush() { await new Promise(r => setTimeout(r, 1500)); }
+// The Discord outbound queue drains on a 1.5 s timer; some notifications
+// (e.g. notifyBookingCreated which fans out to both AGENDA and the
+// REGISTROS history channel) push multiple payloads, so we wait two full
+// drain cycles before inspecting captures. Sister tests
+// (`discord-event-notifications`, `discord-queue-persistence`) use the
+// same ~2 s wait window.
+async function flush() { await new Promise(r => setTimeout(r, 2200)); }
 
 async function main() {
   const d: typeof import("../server/discord") = await import("../server/discord");

@@ -7,7 +7,7 @@ import { useLangPath } from "@/hooks/useLangPath";
 import { CheckCircleIcon, XCircleIcon, SpinnerIcon, CalendarIcon, ClockCircleIcon, VideoIcon, ArrowLeftIcon, CalendarXIcon, CalendarClockIcon, PhoneIcon } from "@/components/icons";
 import { BRAND } from "@/lib/constants";
 import SEO from "@/components/SEO";
-import { todayMadridISO, tomorrowMadridISO, addDaysMadridISO } from "@/lib/madrid-time";
+import { todayMadridISO, tomorrowMadridISO, addDaysMadridISO } from "@shared/madrid-time";
 import { toast } from "@/components/Toast";
 import Calendar from "@/components/Calendar";
 

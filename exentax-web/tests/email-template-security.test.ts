@@ -120,21 +120,27 @@ for (const lang of LANGS) {
 //
 // We don't actually invoke `gmail.users.messages.send`; we exercise the
 // internal `buildRaw` via a tiny shim that mirrors the call site. This is
-// safer than dynamic-importing the unmocked `email.ts` (which triggers
+// safer than dynamic-importing the unmocked email transport (which triggers
 // secret loading). We do however assert that `sendDripEmail` passes the
 // right option by reading the source — a substring check that catches any
 // future deletion of the header wiring.
+//
+// NOTE: the legacy `server/email.ts` monolith was split into per-purpose
+// modules under `server/email/*` in a later refactor. The drip dispatch
+// (and its `dripUnsub` mailto wiring) now lives in `server/email/drip.ts`.
+// The intent of this guard (= drip mails carry a List-Unsubscribe mailto
+// header for RFC 8058 / one-click unsub compliance) is unchanged.
 console.log(`\n--- Drip List-Unsubscribe wiring (audit A-2) ---`);
 import * as fs from "node:fs";
 import * as path from "node:path";
-const emailSrc = fs.readFileSync(path.join(import.meta.dirname, "..", "server", "email.ts"), "utf8");
+const emailSrc = fs.readFileSync(path.join(import.meta.dirname, "..", "server", "email", "drip.ts"), "utf8");
 check(
   "sendDripEmail passes a List-Unsubscribe option",
   /listUnsubscribe:\s*dripUnsub/.test(emailSrc),
 );
 check(
   "drip List-Unsubscribe is a mailto: URL",
-  /dripUnsub\s*=\s*`mailto:/.test(emailSrc),
+  /dripUnsub\s*=\s*(?:oneClickUrl\s*\?\?\s*)?`mailto:/.test(emailSrc),
 );
 
 // ─── Summary ───────────────────────────────────────────────────────────────

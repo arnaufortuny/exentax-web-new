@@ -47,11 +47,21 @@ assert(!/from\s+["']\.\/routes\/admin["']/.test(routes), "server/routes.ts no lo
 //    replaces the removed REST API. We assert presence of the no-show / cancel
 //    / reschedule / nueva entrypoints so a future refactor can't silently
 //    delete them and leave the project with no admin surface at all.
-const botCommands = readFileSync(join(root, "server/discord-bot-commands.ts"), "utf8");
+//
+//    NOTE: the legacy monolith `server/discord-bot-commands.ts` was split
+//    into per-purpose handler modules under `server/discord/handlers/*` in
+//    a later refactor. The booking-action functions now live in
+//    `server/discord/handlers/booking-actions.ts`. The intent of this guard
+//    (= the bot still owns these operations) is unchanged; we just look in
+//    the new file path. If the next refactor moves them again, update the
+//    path here AND make sure the new module is wired into the bot router.
+const bookingActionsPath = join(root, "server/discord/handlers/booking-actions.ts");
+assert(existsSync(bookingActionsPath), "server/discord/handlers/booking-actions.ts exists (admin surface lives here)");
+const botCommands = readFileSync(bookingActionsPath, "utf8");
 for (const sym of ["noShowBooking", "cancelBooking", "rescheduleBooking", "handleCreateBooking", "showBooking", "confirmBooking"]) {
   assert(
     new RegExp(`(?:async\\s+)?function\\s+${sym}\\b`).test(botCommands),
-    `server/discord-bot-commands.ts still defines ${sym}() (admin operations route through the bot)`
+    `server/discord/handlers/booking-actions.ts still defines ${sym}() (admin operations route through the bot)`
   );
 }
 

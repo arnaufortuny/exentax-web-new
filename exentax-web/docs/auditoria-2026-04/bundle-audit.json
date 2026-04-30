@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-29T23:02:40.832Z",
+  "generatedAt": "2026-04-30T11:22:35.230Z",
   "totalChunks": 712,
-  "totalKb": 20876,
-  "totalGzipKb": 7919.6,
+  "totalKb": 20877.6,
+  "totalGzipKb": 7920,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -19,13 +19,13 @@
   "summary": {
     "page": {
       "count": 21,
-      "totalKb": 779.6,
+      "totalKb": 779.1,
       "maxKb": 144.1,
-      "maxFile": "ExistingLlcCallout-B83JwSVV.js"
+      "maxFile": "ExistingLlcCallout-B73lncXO.js"
     },
     "blog-post": {
       "count": 672,
-      "totalKb": 17212.9,
+      "totalKb": 17212.3,
       "maxKb": 44.8,
       "maxFile": "blog-de-visa-mastercard-reporting-tarjetas-hacienda-BYHWJGZI.js"
     },
@@ -33,7 +33,7 @@
       "count": 2,
       "totalKb": 145.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-BSYOeleb.js"
+      "maxFile": "blog-posts-content-D4W6SiLK.js"
     },
     "css": {
       "count": 2,
@@ -43,15 +43,15 @@
     },
     "locale": {
       "count": 10,
-      "totalKb": 1819.1,
-      "maxKb": 271,
-      "maxFile": "fr-B24ob3Ue.js"
+      "totalKb": 1820.6,
+      "maxKb": 271.3,
+      "maxFile": "fr-CepOBAI5.js"
     },
     "entry-index": {
       "count": 1,
-      "totalKb": 512.3,
-      "maxKb": 512.3,
-      "maxFile": "index-CceUOYzh.js"
+      "totalKb": 513.4,
+      "maxKb": 513.4,
+      "maxFile": "index-C399itSh.js"
     },
     "vendor-i18n": {
       "count": 1,
@@ -80,40 +80,40 @@
   },
   "top": [
     {
-      "file": "index-CceUOYzh.js",
+      "file": "index-C399itSh.js",
       "category": "entry-index",
-      "bytesKb": 512.3,
-      "gzipKb": 150.8
+      "bytesKb": 513.4,
+      "gzipKb": 151.2
     },
     {
-      "file": "fr-B24ob3Ue.js",
+      "file": "fr-CepOBAI5.js",
       "category": "locale",
-      "bytesKb": 271,
-      "gzipKb": 80.9
+      "bytesKb": 271.3,
+      "gzipKb": 81
     },
     {
-      "file": "de-DgvS5laj.js",
+      "file": "de-BoNzdvrG.js",
       "category": "locale",
-      "bytesKb": 263.7,
-      "gzipKb": 81.8
+      "bytesKb": 264,
+      "gzipKb": 82
     },
     {
-      "file": "pt-CwGy0wWX.js",
+      "file": "pt-7NRRw1R6.js",
       "category": "locale",
-      "bytesKb": 249.6,
-      "gzipKb": 76
+      "bytesKb": 249.9,
+      "gzipKb": 76.1
     },
     {
-      "file": "ca-DWyA6-2T.js",
+      "file": "ca-BQhkNZXx.js",
       "category": "locale",
-      "bytesKb": 248.6,
-      "gzipKb": 76.9
+      "bytesKb": 248.9,
+      "gzipKb": 77
     },
     {
-      "file": "en-CFdY6VLa.js",
+      "file": "en-JbpQuClf.js",
       "category": "locale",
-      "bytesKb": 238.5,
-      "gzipKb": 73.8
+      "bytesKb": 238.8,
+      "gzipKb": 74
     },
     {
       "file": "vendor-react-CK-D59fK.js",
@@ -122,7 +122,7 @@
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-B83JwSVV.js",
+      "file": "ExistingLlcCallout-B73lncXO.js",
       "category": "page",
       "bytesKb": 144.1,
       "gzipKb": 33.1
@@ -134,10 +134,10 @@
       "gzipKb": 21.4
     },
     {
-      "file": "booking-Ddl00V61.js",
+      "file": "booking-BAqQGJzZ.js",
       "category": "page",
-      "bytesKb": 116.3,
-      "gzipKb": 31
+      "bytesKb": 115.4,
+      "gzipKb": 30.6
     },
     {
       "file": "fr-DFlh78Hs.js",
@@ -173,9 +173,9 @@
   "offenders": [],
   "hardBudget": {
     "serverBytes": 0,
-    "publicBytes": 22726274,
+    "publicBytes": 22727958,
     "serverMb": 0,
-    "publicMb": 21.67,
+    "publicMb": 21.68,
     "serverBudgetMb": 7,
     "publicBudgetMb": 30,
     "serverOk": true,
