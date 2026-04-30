@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T14:33:11.749Z",
+  "generatedAt": "2026-04-30T14:51:52.084Z",
   "summary": {
     "totalFaqs": 83,
     "sectionCount": 8,
@@ -14,13 +14,9 @@
       "pt": 20,
       "ca": 20
     },
-    "issuesByCriticality": {
-      "P2": 3
-    },
-    "issuesByArea": {
-      "blog-faq-coverage-gap-es": 3
-    },
-    "totalIssues": 3
+    "issuesByCriticality": {},
+    "issuesByArea": {},
+    "totalIssues": 0
   },
   "structure": [
     {
@@ -5430,11 +5426,13 @@
         "es": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 5,
           "questions": [
             "¿Mi LLC formada en EE. UU. con socio español tiene que presentar BOIR?",
             "¿Cuál es la sanción si caigo en el ámbito y me retraso?",
-            "¿Qué guardo como prueba?"
+            "¿Qué guardo como prueba?",
+            "¿Quién es exactamente un beneficiario efectivo?",
+            "¿Cómo funciona en la práctica la ventana de actualización de 30 días?"
           ]
         },
         "en": {
@@ -5476,21 +5474,25 @@
         "pt": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 5,
           "questions": [
             "Quando volta a aplicar-se a obrigação se a rule mudar?",
             "A minha LLC formada nos EUA com sócio espanhol está isenta?",
-            "O que guardo como prova?"
+            "O que guardo como prova?",
+            "Quem é exatamente um beneficiário efetivo?",
+            "Como funciona na prática a janela de atualização de 30 dias?"
           ]
         },
         "ca": {
           "postPresent": true,
           "hasFaqSection": true,
-          "qaCount": 3,
+          "qaCount": 5,
           "questions": [
             "Quan torna a aplicar-me l'obligació si canvia la rule?",
             "La meva LLC formada als EUA amb soci espanyol està exempta?",
-            "Què guardo com a prova?"
+            "Què guardo com a prova?",
+            "Qui és exactament un beneficiari efectiu?",
+            "Com funciona a la pràctica la finestra d'actualització de 30 dies?"
           ]
         }
       },
@@ -9920,39 +9922,5 @@
       }
     }
   },
-  "issues": [
-    {
-      "criticality": "P2",
-      "area": "blog-faq-coverage-gap-es",
-      "location": "client/src/data/blog-content/es/boi-report-fincen-guia-completa-2026.ts",
-      "description": "Blog \"boi-report-fincen-guia-completa-2026\" (es): 3 Q/A vs 5 en en — la versión ES se quedó atrás",
-      "evidence": "{\"es\":3,\"en\":5}",
-      "suggestion": "Enriquecer el FAQ ES de \"boi-report-fincen-guia-completa-2026\" para que iguale o supere las 5 Q/A de en",
-      "languages": [
-        "es"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "blog-faq-coverage-gap-es",
-      "location": "client/src/data/blog-content/es/boi-report-fincen-guia-completa-2026.ts",
-      "description": "Blog \"boi-report-fincen-guia-completa-2026\" (es): 3 Q/A vs 5 en fr — la versión ES se quedó atrás",
-      "evidence": "{\"es\":3,\"fr\":5}",
-      "suggestion": "Enriquecer el FAQ ES de \"boi-report-fincen-guia-completa-2026\" para que iguale o supere las 5 Q/A de fr",
-      "languages": [
-        "es"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "blog-faq-coverage-gap-es",
-      "location": "client/src/data/blog-content/es/boi-report-fincen-guia-completa-2026.ts",
-      "description": "Blog \"boi-report-fincen-guia-completa-2026\" (es): 3 Q/A vs 5 en de — la versión ES se quedó atrás",
-      "evidence": "{\"es\":3,\"de\":5}",
-      "suggestion": "Enriquecer el FAQ ES de \"boi-report-fincen-guia-completa-2026\" para que iguale o supere las 5 Q/A de de",
-      "languages": [
-        "es"
-      ]
-    }
-  ]
+  "issues": []
 }

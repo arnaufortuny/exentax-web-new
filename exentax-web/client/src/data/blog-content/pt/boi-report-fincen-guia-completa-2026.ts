@@ -148,6 +148,10 @@ O BOI foi a obrigação mais volátil dos últimos 24 meses; versão em vigor:
 
 **O que guardo como prova?** Comprovativo da última submissão e captura do estado da entidade no portal. Em auditoria futura, documente também a data da consulta regulatória. É por isso que na Exentax mantemos o teu calendário em ordem — tu deixas de pensar em prazos e nós fechamo-los antes que mordam.
 
+**Quem é exatamente um beneficiário efetivo?** Qualquer pessoa singular que, direta ou indiretamente, detenha **≥ 25 %** da LLC ou exerça **controlo substancial** (por exemplo, um quadro dirigente ou qualquer pessoa com autoridade para vincular a entidade). Para cada uma reporta-se nome legal, data de nascimento, morada residencial e número de passaporte ou documento oficial em vigor.
+
+**Como funciona na prática a janela de atualização de 30 dias?** Qualquer alteração aos dados submetidos (novo passaporte, nova morada residencial, novo sócio que cruza o limiar dos 25 %, mudança de nome da LLC) abre uma **janela de 30 dias** para voltar a submeter através de **boiefiling.fincen.gov**. O FinCEN trata o incumprimento dessa atualização como se tivesses omitido a submissão inicial e expõe-te às mesmas sanções civis e penais.
+
 ## BOI e obrigações declarativas em Portugal e Brasil
 
 Para residentes fiscais em Portugal ou no Brasil, a isenção FinCEN não dispensa nenhuma obrigação local. O regime BOI trata apenas da divulgação ao registo federal americano; a Autoridade Tributária portuguesa e a Receita Federal brasileira operam com regras próprias de transparência fiscal internacional.

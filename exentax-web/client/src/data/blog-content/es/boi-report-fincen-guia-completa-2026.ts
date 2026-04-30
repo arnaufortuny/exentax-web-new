@@ -149,6 +149,10 @@ El BOI ha sido la obligación más cambiante de los últimos 24 meses; la versi�
 
 **¿Qué guardo como prueba?** El **BOIR Confirmation Number** que entrega el portal **boiefiling.fincen.gov** al finalizar la presentación, más el PDF de transmisión. Es la prueba estándar ante una eventual auditoría.
 
+**¿Quién es exactamente un beneficiario efectivo?** Cualquier persona física que, directa o indirectamente, posea **≥ 25 %** de la LLC o ejerza **control sustancial** (por ejemplo, un directivo o cualquier persona con autoridad para vincular a la entidad). De cada uno se reportan nombre legal, fecha de nacimiento, dirección residencial y número de pasaporte o documento oficial vigente.
+
+**¿Cómo funciona en la práctica la ventana de actualización de 30 días?** Cualquier cambio en los datos presentados (nuevo pasaporte, nueva dirección residencial, nuevo socio que cruza el umbral del 25 %, cambio de nombre de la LLC) abre una **ventana de 30 días** para volver a presentar a través de **boiefiling.fincen.gov**. FinCEN trata el incumplimiento de esa actualización como si hubieras omitido la presentación inicial y te expone a las mismas sanciones civiles y penales. Por eso en Exentax mantenemos tu calendario al día — tú dejas de pensar en plazos y nosotros los cerramos antes de que aprieten.
+
 <!-- exentax:execution-v2 -->
 ## Cómo presentamos el BOI Report en Exentax sin sobresaltos
 

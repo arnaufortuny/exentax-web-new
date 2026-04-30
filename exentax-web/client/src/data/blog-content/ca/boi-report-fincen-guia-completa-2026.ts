@@ -140,6 +140,10 @@ El BOI ha estat l'obligació més canviant dels darrers 24 mesos; la versió vig
 
 **Què guardo com a prova?** Acusament de la darrera presentació i captura de l'estat de l'entitat al portal. En auditoria futura, documenta també la data de la consulta normativa. A Exentax hem tancat sense sanció clients exactament en aquesta situació. Parlar aviat val or — i t'estalvia cinc xifres.
 
+**Qui és exactament un beneficiari efectiu?** Qualsevol persona física que, directament o indirectament, posseeixi **≥ 25 %** de la LLC o exerceixi **control substancial** (per exemple, un directiu o qualsevol persona amb autoritat per vincular l'entitat). De cadascuna es reporta nom legal, data de naixement, adreça residencial i número de passaport o document oficial vigent.
+
+**Com funciona a la pràctica la finestra d'actualització de 30 dies?** Qualsevol canvi en les dades presentades (nou passaport, nova adreça residencial, nou soci que creua el llindar del 25 %, canvi de nom de la LLC) obre una **finestra de 30 dies** per tornar a presentar a través de **boiefiling.fincen.gov**. El FinCEN tracta l'incompliment d'aquesta actualització com si haguessis omès la presentació inicial i t'exposa a les mateixes sancions civils i penals.
+
 ## BOI i obligacions declaratives a Catalunya i Andorra
 
 Per a residents fiscals a Catalunya o a Andorra amb una LLC americana, el règim FinCEN no allibera de cap obligació local. La regla BOI tracta exclusivament la divulgació davant del registre federal nord-americà; l'AEAT i el Departament de Tributs i Fronteres d'Andorra apliquen els seus propis règims de transparència fiscal i informació sobre béns a l'estranger.
