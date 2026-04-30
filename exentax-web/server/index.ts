@@ -12,7 +12,8 @@ import { assertGuidePdfUrlReady } from "./email";
 import { startDripWorker } from "./scheduled/drip-worker";
 import { startDiscordAlertWorker } from "./discord-alerts";
 import { backendLabel, resolveRequestLang } from "./routes/shared";
-import { notifyCriticalError, startDiscordQueueWorker, clearPendingDiscordTimers } from "./discord";
+import { notifyCriticalError, startDiscordQueueWorker, clearPendingDiscordTimers, notifySeoIndexing } from "./discord";
+import { checkSeoSecretsAtBoot } from "./seo-secrets-check";
 import { SITE_URL, getBrandingEnvFallbacks } from "./server-constants";
 import { correlationMiddleware } from "./correlation";
 import { recordHttpRequest } from "./metrics";
@@ -834,6 +835,19 @@ httpServer.listen(
         "startup",
       );
     }
+
+    // SEO indexing secret audit. The IndexNow / Google Search Console /
+    // Google Indexing API plumbing is implemented but degrades silently
+    // (`ok: false, skipped`) when its secrets are absent. In production
+    // that means "sitemaps that nobody is submitting" with no visible
+    // signal. Run a single check here, after the Discord queue worker is
+    // up (line ~576) so the warning notification can be enqueued cleanly.
+    // Dev path is debug-only to avoid noise during local development.
+    checkSeoSecretsAtBoot({
+      isProd,
+      logger,
+      notify: notifySeoIndexing,
+    });
 
     import("./storage").then(({ seedInitialLegalVersions }) => {
       seedInitialLegalVersions().then(() => logger.info("Legal document versions seeded.", "startup")).catch(e => logger.error("legal version seed failed", "startup", e));
