@@ -38,6 +38,12 @@ reports/seo/*
 !reports/cta-canonical.csv
 !reports/cta-canonical.json
 !reports/whatsapp-audit.md
+# Task #35 — email snapshots (12 templates × 6 langs). The HTML/TXT
+# files are derived artifacts and regenerate via `npm run email:snapshots`,
+# but the README explaining how to do that ships with the repo.
+!reports/email-snapshots/
+reports/email-snapshots/*
+!reports/email-snapshots/README.md
 !reports/whatsapp-inventory.csv
 !reports/whatsapp-inventory.json
 # Exception: the blog source-URL ping cache MUST be tracked. The structural
