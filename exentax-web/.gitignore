@@ -55,6 +55,14 @@ reports/seo/serp-previews/*
 !reports/seo/serp-previews/serp-previews.html
 !reports/seo/serp-previews/serp-previews.md
 !reports/seo/serp-previews/serp-previews.json
+# Exception: SEO closure (Task #24) — baseline metrics + the live audit
+# report are committed as evidence of the production-readiness check.
+# Refresh with `npm run seo:masterpiece-strict` and
+# `BASE_URL=http://localhost:5000 node scripts/seo/seo-cierre-audit.mjs`.
+!reports/seo/baseline-606.json
+!reports/seo/baseline-606.md
+!reports/seo/seo-cierre-audit.json
+!reports/seo/seo-cierre-audit.md
 test-results/
 .local-audit/
 playwright-report/
