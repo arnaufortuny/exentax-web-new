@@ -84,6 +84,30 @@ export function extractBlogFaqQAs(src, lang) {
   return qas;
 }
 
+// ---------------------------------------------------------------------------
+// Paridad de cobertura de Q/A entre ES y traducciones (Task #56, 2026-04-30).
+//
+// El audit trata ES como source-of-truth y desde Task #49 ya marca cuando una
+// traducción tiene MENOS Q/A que la versión ES (`blog-faq-coverage-gap`).
+// Esta tarea añade el chequeo simétrico: si una traducción crece y supera al
+// ES, queremos que ES se ponga al día — de lo contrario el post castellano se
+// queda atrás silenciosamente.
+//
+// Devuelve el área de issue a emitir, o null si los conteos coinciden:
+//   - "blog-faq-coverage-gap"     : la traducción tiene MENOS Q/A que ES.
+//   - "blog-faq-coverage-gap-es"  : la traducción tiene MÁS Q/A que ES.
+//   - null                        : misma cantidad (todo OK).
+//
+// Mantener este helper puro (sólo aritmética sobre los conteos) para que el
+// test de regresión pueda fijar el contrato sin ejecutar la auditoría entera.
+export function classifyBlogFaqCoverage(esQaCount, otherQaCount) {
+  const es = Number(esQaCount) || 0;
+  const other = Number(otherQaCount) || 0;
+  if (other < es) return "blog-faq-coverage-gap";
+  if (other > es) return "blog-faq-coverage-gap-es";
+  return null;
+}
+
 // Helper de conveniencia: dado el src markdown de un post y su idioma,
 // devuelve la lista de hallazgos (uno por Q o por A que dispara el regex).
 // Cada hallazgo es { kind: "question"|"answer", index, text } donde `index`

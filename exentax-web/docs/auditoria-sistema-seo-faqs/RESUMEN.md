@@ -1,6 +1,6 @@
 # Auditoría sistema, SEO, sitemap y FAQs — Resumen ejecutivo
 
-Generado: 2026-04-30T13:12:22.687Z
+Generado: 2026-04-30T14:33:13.182Z
 Servidor analizado: http://localhost:5000 (origin sitemap: http://localhost:5000)
 
 ## Conteos por área
@@ -10,9 +10,9 @@ Servidor analizado: http://localhost:5000 (origin sitemap: http://localhost:5000
 | Documentos legales | 17 | 0 | 0 | 17 |
 | SEO técnico | 399 | 0 | 298 | 101 |
 | Sitemap | 106 | 106 | 0 | 0 |
-| FAQs (contenido) | 0 | 0 | 0 | 0 |
+| FAQs (contenido) | 3 | 0 | 0 | 3 |
 | FAQs indexación | 12 | 12 | 0 | 0 |
-| **Total** | **535** | **118** | **298** | **119** |
+| **Total** | **538** | **118** | **298** | **122** |
 
 ## Inventario de URLs (sitemap real)
 - sitemap-pages.xml: 0 URLs

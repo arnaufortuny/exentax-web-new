@@ -41,6 +41,7 @@ import {
   BLOG_FAQ_HEADINGS,
   extractBlogFaqQAs,
   findBlogFaqSpanishTells,
+  classifyBlogFaqCoverage,
 } from "./audit-system-seo-faqs.lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -1480,14 +1481,34 @@ const faqs = { generatedAt: new Date().toISOString(), summary: {}, structure: FA
           evidence: `regex BLOG_FAQ_HEADINGS[${lang}] no coincide`,
           languages: [lang], suggestion: `Añadir sección "${({en:'### Frequently asked questions',fr:'### Questions fréquentes',de:'### Häufige Fragen',pt:'### Perguntas frequentes',ca:'### Preguntes freqüents'})[lang]}" con ${esCell.qaCount} Q/A`,
         }));
-      } else if (c.qaCount < esCell.qaCount) {
-        faqs.issues.push(makeIssue({
-          criticality: "P2", area: "blog-faq-coverage-gap",
-          location: `client/src/data/blog-content/${lang}/${slug}.ts`,
-          description: `Blog "${slug}" (${lang}): ${c.qaCount} Q/A vs ${esCell.qaCount} en ES`,
-          evidence: JSON.stringify({ es: esCell.qaCount, [lang]: c.qaCount }),
-          languages: [lang], suggestion: "Alinear cantidad de Q/A con la versión ES",
-        }));
+      } else {
+        // Chequeo simétrico de paridad de Q/A (Task #56, 2026-04-30):
+        //   - blog-faq-coverage-gap     : la traducción se quedó corta vs ES.
+        //   - blog-faq-coverage-gap-es  : ES se quedó atrás vs una traducción.
+        // El segundo caso es el guardrail añadido en Task #56 — sin él, una
+        // traducción más rica que ES pasaría desapercibida y el post fuente
+        // se atrofiaría en silencio. Lógica en `classifyBlogFaqCoverage`
+        // (audit-system-seo-faqs.lib.mjs); test en
+        // `scripts/audit/audit-system-seo-faqs.test.mjs`.
+        const direction = classifyBlogFaqCoverage(esCell.qaCount, c.qaCount);
+        if (direction === "blog-faq-coverage-gap") {
+          faqs.issues.push(makeIssue({
+            criticality: "P2", area: "blog-faq-coverage-gap",
+            location: `client/src/data/blog-content/${lang}/${slug}.ts`,
+            description: `Blog "${slug}" (${lang}): ${c.qaCount} Q/A vs ${esCell.qaCount} en ES`,
+            evidence: JSON.stringify({ es: esCell.qaCount, [lang]: c.qaCount }),
+            languages: [lang], suggestion: "Alinear cantidad de Q/A con la versión ES",
+          }));
+        } else if (direction === "blog-faq-coverage-gap-es") {
+          faqs.issues.push(makeIssue({
+            criticality: "P2", area: "blog-faq-coverage-gap-es",
+            location: `client/src/data/blog-content/es/${slug}.ts`,
+            description: `Blog "${slug}" (es): ${esCell.qaCount} Q/A vs ${c.qaCount} en ${lang} — la versión ES se quedó atrás`,
+            evidence: JSON.stringify({ es: esCell.qaCount, [lang]: c.qaCount }),
+            languages: ["es"],
+            suggestion: `Enriquecer el FAQ ES de "${slug}" para que iguale o supere las ${c.qaCount} Q/A de ${lang}`,
+          }));
+        }
       }
 
       // ── Residuos castellanos en FAQs embebidas (Task #49, 2026-04-22) ──

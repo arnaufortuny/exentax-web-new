@@ -28,6 +28,7 @@ import {
   BLOG_FAQ_HEADINGS,
   extractBlogFaqQAs,
   findBlogFaqSpanishTells,
+  classifyBlogFaqCoverage,
 } from "./audit-system-seo-faqs.lib.mjs";
 
 // Cada fixture: { name, lang, text, expect: "flag" | "pass" }.
@@ -320,6 +321,85 @@ if (blogFailures.length > 0) {
   process.exit(1);
 }
 
+// ---------------------------------------------------------------------------
+// Task #56 (2026-04-30): paridad simétrica de cobertura de Q/A.
+//
+// El audit ya marcaba cuando una traducción tenía MENOS Q/A que ES (gap en la
+// traducción). Ahora también debe marcar el caso inverso: si una traducción
+// crece y supera al ES, queremos ver un finding `blog-faq-coverage-gap-es`
+// (P2) para que la versión castellana se ponga al día.
+//
+// Probamos `classifyBlogFaqCoverage` directamente (contrato puro de aritmética
+// sobre conteos) y además construimos dos posts sintéticos — uno ES, uno EN
+// con una Q/A extra — y comprobamos que `extractBlogFaqQAs` + el clasificador
+// reportan el área correcta. Si alguien retira el chequeo simétrico del audit
+// o cambia el nombre del área, este test debe romperse.
+// ---------------------------------------------------------------------------
+const COVERAGE_FIXTURES = [
+  { name: "counts iguales -> null",            esCount: 3, otherCount: 3, expect: null },
+  { name: "traducción con menos -> gap (other)", esCount: 5, otherCount: 3, expect: "blog-faq-coverage-gap" },
+  { name: "traducción con más -> gap-es (Task #56)", esCount: 3, otherCount: 5, expect: "blog-faq-coverage-gap-es" },
+  { name: "ambas en cero -> null",             esCount: 0, otherCount: 0, expect: null },
+  { name: "ES vacío y traducción con 1 -> gap-es", esCount: 0, otherCount: 1, expect: "blog-faq-coverage-gap-es" },
+];
+
+const coverageFailures = [];
+let coveragePassed = 0;
+
+for (const f of COVERAGE_FIXTURES) {
+  const got = classifyBlogFaqCoverage(f.esCount, f.otherCount);
+  if (got !== f.expect) {
+    coverageFailures.push({ ...f, got });
+  } else {
+    coveragePassed += 1;
+  }
+}
+
+// Fixture extremo a extremo: dos posts sintéticos con conteos asimétricos.
+// Ejercita la cadena `extractBlogFaqQAs` + `classifyBlogFaqCoverage` que el
+// audit usa internamente para construir el finding `blog-faq-coverage-gap-es`.
+const ES_POST_COVERAGE = buildBlogPost("es", [
+  ["¿Cómo funciona?", "Depende del régimen elegido."],
+  ["¿Cuánto cuesta?", "Varía según la facturación."],
+]);
+const EN_POST_COVERAGE_RICHER = buildBlogPost("en", [
+  ["How does it work?", "It depends on the regime."],
+  ["How much does it cost?", "It varies with revenue."],
+  ["Is it worth it?", "Usually yes for >€60k revenue."],
+]);
+const esQas = extractBlogFaqQAs(ES_POST_COVERAGE, "es");
+const enQas = extractBlogFaqQAs(EN_POST_COVERAGE_RICHER, "en");
+const directionRicherEn = classifyBlogFaqCoverage(esQas.length, enQas.length);
+if (esQas.length !== 2 || enQas.length !== 3) {
+  coverageFailures.push({
+    name: "extracción de fixtures EN-más-rico-que-ES",
+    expect: "esQas=2 enQas=3",
+    got: `esQas=${esQas.length} enQas=${enQas.length}`,
+  });
+}
+if (directionRicherEn !== "blog-faq-coverage-gap-es") {
+  coverageFailures.push({
+    name: "EN más rico que ES dispara blog-faq-coverage-gap-es",
+    expect: "blog-faq-coverage-gap-es",
+    got: String(directionRicherEn),
+  });
+} else {
+  coveragePassed += 1;
+}
+
+if (coverageFailures.length > 0) {
+  console.error(
+    `\n[audit-system-seo-faqs.test] FAIL (coverage parity) — ${coverageFailures.length} fixture(s) no coinciden:\n`,
+  );
+  for (const f of coverageFailures) {
+    console.error(`  ✗ ${f.name}\n      esperado=${String(f.expect)}, obtenido=${String(f.got)}`);
+  }
+  console.error(
+    `\n[audit-system-seo-faqs.test] Si has cambiado classifyBlogFaqCoverage a propósito, actualiza también las fixtures de este test y la entrada Task #56 en docs/auditoria-sistema-seo-faqs/DECISIONES.md.`,
+  );
+  process.exit(1);
+}
+
 console.log(
-  `[audit-system-seo-faqs.test] OK — ${passed}/${total} fixtures FAQs sistema + ${blogPassed}/${BLOG_FIXTURES.length} fixtures FAQs blog coinciden.`,
+  `[audit-system-seo-faqs.test] OK — ${passed}/${total} fixtures FAQs sistema + ${blogPassed}/${BLOG_FIXTURES.length} fixtures FAQs blog + ${coveragePassed}/${COVERAGE_FIXTURES.length + 1} fixtures cobertura ES coinciden.`,
 );

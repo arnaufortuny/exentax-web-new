@@ -120,3 +120,42 @@ aunque el script vuelva a ejecutarse y sobrescriba `RESUMEN.md`.
   `BLOG_FIXTURES`.
 - Si se cambia el extractor (separadores `### `, formato `**Q?**`), actualizar
   las fixtures y dejar constancia en esta sección.
+
+---
+
+## Task #56 — Paridad simétrica de cobertura de Q/A en FAQs del blog (2026-04-30)
+
+### Contexto / problema
+- Cerrando Task #54 detectamos que el chequeo de paridad de FAQs embebidas en
+  posts del blog era asimétrico: `auditFaqs()` sólo emitía un finding cuando
+  una traducción tenía MENOS Q/A que la versión ES (`blog-faq-coverage-gap`,
+  P2). El caso inverso — una traducción crece y supera al ES — pasaba
+  desapercibido y el post fuente se quedaba atrás silenciosamente.
+
+### Decisión
+- Se añade `classifyBlogFaqCoverage(esQaCount, otherQaCount)` en
+  `scripts/audit/audit-system-seo-faqs.lib.mjs`. Helper puro, sin side-effects,
+  que devuelve `"blog-faq-coverage-gap"` | `"blog-faq-coverage-gap-es"` |
+  `null` según el sentido del desbalance.
+- `auditFaqs()` consume el helper en el bucle por (slug × lang ≠ es). El nuevo
+  finding `blog-faq-coverage-gap-es` (P2) apunta a `client/src/data/blog-content/es/<slug>.ts`,
+  marca `languages: ["es"]` y sugiere enriquecer la versión ES hasta igualar a
+  la traducción más rica (se emite un finding por cada lengua que supera a
+  ES).
+- Se mantienen ambas direcciones como P2 (guardrail, no bloqueante).
+
+### Hallazgo real al activar el guardrail
+- El audit pasó de 0 a 3 issues, todas reales y todas en
+  `boi-report-fincen-guia-completa-2026`: la versión ES tiene 3 Q/A vs 5 en
+  EN/FR/DE (faltan las preguntas sobre "beneficial owner" y el "30-day update
+  window"). Es exactamente el tipo de gap que el chequeo viene a vigilar; se
+  deja como follow-up de contenido (no en el alcance de esta task).
+
+### Test de regresión
+- `scripts/audit/audit-system-seo-faqs.test.mjs` se extiende con 6 fixtures
+  (`COVERAGE_FIXTURES` + un caso end-to-end con `extractBlogFaqQAs`) que fijan:
+  conteos iguales → `null`; traducción con menos → `blog-faq-coverage-gap`;
+  traducción con más → `blog-faq-coverage-gap-es`; y la cadena
+  `extractBlogFaqQAs` + `classifyBlogFaqCoverage` sobre un post EN sintético
+  con una Q/A más que el ES.
+- Sigue corriendo en `npm run check` vía `npm run test:audit-faqs`.
