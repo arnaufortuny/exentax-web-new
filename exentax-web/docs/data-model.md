@@ -232,12 +232,18 @@ psql "$DATABASE_URL" -c "EXPLAIN SELECT * FROM newsletter_subscribers WHERE unsu
 
 ## 10. Sincronización lead ↔ agenda (Task #18, abril 2026)
 
-`leads` no tiene **UNIQUE** sobre `email` (la calculadora puede tocar
-varias veces sin que cada simulación cree fila nueva — usa
-select-then-update vía `usedCalculator=true`). El flujo de booking,
-hasta abril 2026, hacía un `INSERT` ciego con `id = bookingLeadId`,
-duplicando la fila cuando el visitante ya tenía un lead previo (caso
-típico: calculó primero, reservó después).
+`leads` lleva un índice **UNIQUE parcial** sobre `email`
+(`leads_email_uniq_idx WHERE email <> ''`) desde Task #28 (abril 2026)
+— ver `migrations/0002_leads_email_unique.sql` y la versión idempotente
+en `runColumnMigrations()`. La calculadora sigue pudiendo tocar varias
+veces sin crear fila nueva porque usa select-then-update vía
+`usedCalculator=true`; lo que el UNIQUE garantiza es que NUNCA puedan
+coexistir dos filas para el mismo email, ni siquiera en una carrera
+teórica calculadora+booking que el lock por email no haya logrado
+serializar (degradación de Redis, partición de cluster, etc.).
+Hasta abril 2026 el flujo de booking hacía un `INSERT` ciego con
+`id = bookingLeadId`, duplicando la fila cuando el visitante ya tenía
+un lead previo (caso típico: calculó primero, reservó después).
 
 **Comportamiento actual** — `upsertLeadOnBooking()` en
 `server/storage/marketing.ts`:
@@ -263,7 +269,13 @@ backed por Redis (`SET NX PX`) en producción y por una promise chain
 in-memory en dev. El mismo lock se aplica al handler de calculadora,
 así que dos POSTs simultáneos del mismo email — incluso desde flujos
 distintos (calculadora + booking) — se serializan y la segunda ve la
-fila creada por la primera.
+fila creada por la primera. Como red de seguridad final (Task #28), la
+transacción se envuelve además en `withRetryOnLeadEmailUnique`: si el
+índice UNIQUE caza una carrera que el lock no logró bloquear (Redis
+caído, partición de cluster), el wrapper reintenta una vez la
+transacción y la segunda pasada toma el camino UPDATE sobre la fila
+que ganó la carrera. La regression vive en
+`tests/leads-email-unique.test.ts`.
 
 **Implicación para retención**: el lead "sobrevive" a la cancelación
 de la reserva (la fila de `leads` no se borra cuando `agenda.estado =

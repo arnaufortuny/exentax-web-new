@@ -29,7 +29,7 @@ import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
   checkBookingRateLimit, checkBookingEmailRateLimit, checkBookingDraftEmailRateLimit, checkBookingManageRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
-  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, truncateIp, withSlotLock, withBookingLock, withLeadEmailLock,
+  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, truncateIp, withSlotLock, withBookingLock, withLeadEmailLock, withRetryOnLeadEmailUnique,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
 import { backendLabel, resolveRequestLang, escapeHtml } from "./shared";
@@ -624,10 +624,19 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         let bookingConsentId: string | null = null;
         try {
         // Race-safety belt around the lead upsert: see `withLeadEmailLock`
-        // docstring for why this is needed even though `leads.email` is
-        // not UNIQUE at the DB level. The lock spans the whole booking
-        // transaction so the agenda+lead writes still commit atomically.
-        await withLeadEmailLock(email, () => withTransaction(async (tx) => {
+        // docstring for the lock's role. As of Task #28 (2026-04-30),
+        // `leads.email` ALSO carries a partial UNIQUE constraint (see
+        // `shared/schema.ts:leads_email_uniq_idx`), so a duplicate row is
+        // physically impossible at the DB layer. `withRetryOnLeadEmailUnique`
+        // catches the now-impossible-in-practice 23505 that would arise if
+        // the lock store ever degraded (Redis partition / dev process
+        // restart mid-flight) and re-runs the whole transaction once. The
+        // second pass walks the SELECT-then-UPDATE branch on the row that
+        // committed first. The lock spans BOTH attempts so the retry does
+        // not race a third writer; the retry sits OUTSIDE `withTransaction`
+        // because Postgres aborts the entire tx on any error and a fresh
+        // tx is required.
+        await withLeadEmailLock(email, () => withRetryOnLeadEmailUnique(() => withTransaction(async (tx) => {
           await insertAgenda({
             id: bookingLeadId,
             name,
@@ -732,7 +741,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
               tx,
             );
           }
-        }));
+        })));
         } catch (err) {
           if (err instanceof SlotConflictError) {
             return { error: true as const, status: 409 as const, message: backendLabel("slotAlreadyBooked", resolveRequestLang(req)), code: "SLOT_TAKEN" };
@@ -1051,10 +1060,17 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     let calcConsentId: string | null = null;
 
     // Race-safety belt around the lead upsert (same rationale as the
-    // booking handler — see `withLeadEmailLock` docstring). Without
-    // this, two simultaneous calculator submissions for the same email
-    // could both pass the SELECT and both INSERT.
-    await withLeadEmailLock(normalizedEmail, () => withTransaction(async (tx) => {
+    // booking handler). The lock serialises concurrent submissions for
+    // the same email; the partial UNIQUE on `leads.email` (Task #28,
+    // 2026-04-30) is the DB-level backstop that makes a duplicate row
+    // physically impossible if the lock store ever degrades.
+    // `withRetryOnLeadEmailUnique` re-runs the whole transaction once on
+    // the now-impossible-in-practice 23505 so the second pass walks the
+    // SELECT-then-UPDATE branch on the row that committed first. Same
+    // wrapping order as the booking handler — see the comment block there
+    // for why the retry sits OUTSIDE `withTransaction` (Postgres aborts
+    // the entire tx on any error and a fresh tx is required).
+    await withLeadEmailLock(normalizedEmail, () => withRetryOnLeadEmailUnique(() => withTransaction(async (tx) => {
       const [existingLead] = await tx.select().from(schema.leads).where(eq(schema.leads.email, normalizedEmail)).limit(1);
       if (existingLead) {
         const newPhone = parsed.data.phone;
@@ -1193,7 +1209,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           }, tx);
         }
       }
-    })).catch((err) => {
+    }))).catch((err) => {
       logger.error("Calculator lead+row transaction failed:", "db", err);
       throw err;
     });

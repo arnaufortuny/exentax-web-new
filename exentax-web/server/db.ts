@@ -213,6 +213,81 @@ export async function runColumnMigrations(): Promise<void> {
         WHERE unsubscribe_token IS NOT NULL
     `);
 
+    // Task #28 (2026-04-30): partial UNIQUE on `leads(email)`. Belt-and-
+    // braces against the duplicate-lead bug Task #18 fixed in application
+    // code (see `upsertLeadOnBooking` in `server/storage/marketing.ts` and
+    // the calculator handler in `server/routes/public.ts`). The
+    // `withLeadEmailLock` wrapper already serialises concurrent writes for
+    // the same email, but the lock store is process-local in dev and
+    // Redis-backed in production — neither guarantees absolute global
+    // mutual exclusion across a partitioned cluster. This DB-level
+    // constraint makes a duplicate row physically impossible.
+    //
+    // Pre-cleanup merges any legacy duplicate rows (none expected on a
+    // healthy production DB post Task #18, but defensive) so the unique
+    // index can always be created. Strategy: keep the OLDEST row per email
+    // (preserving the original `id` referenced by any
+    // calculation/agenda/email logs by email but no FK chain — verified
+    // 2026-04-30: no FK targets `leads.id`), OR-merge the boolean flags
+    // and COALESCE the long-text fields from each duplicate into the
+    // survivor so we never lose `usedCalculator=true` or
+    // `scheduledCall=true` set on a younger row, then DELETE the rest.
+    // The dedup runs in a single statement so it is atomic w.r.t. the
+    // index creation that follows. Logged at WARN with the merged ids
+    // so any production occurrence is visible in `#alertas`.
+    const leadDup = await client.query(`
+      WITH dups AS (
+        SELECT id,
+               email,
+               row_number() OVER (
+                 PARTITION BY email
+                 ORDER BY fecha_creacion ASC NULLS LAST, id ASC
+               ) AS rn
+        FROM leads
+        WHERE email IS NOT NULL AND email <> ''
+      ),
+      survivors AS (
+        SELECT email, id AS keep_id FROM dups WHERE rn = 1
+      ),
+      merge AS (
+        SELECT s.keep_id,
+               bool_or(COALESCE(l.uso_calculadora, false))   AS uso_calculadora,
+               bool_or(COALESCE(l.agendo_llamada, false))    AS agendo_llamada,
+               bool_or(COALESCE(l.privacidad_aceptada, false)) AS privacidad_aceptada,
+               bool_or(COALESCE(l.terminos_aceptados, false))  AS terminos_aceptados,
+               bool_or(COALESCE(l.marketing_aceptado, false))  AS marketing_aceptado
+        FROM survivors s
+        JOIN leads l ON l.email = s.email
+        GROUP BY s.keep_id
+      ),
+      merged AS (
+        UPDATE leads l
+          SET uso_calculadora      = m.uso_calculadora,
+              agendo_llamada       = m.agendo_llamada,
+              privacidad_aceptada  = m.privacidad_aceptada,
+              terminos_aceptados   = m.terminos_aceptados,
+              marketing_aceptado   = m.marketing_aceptado
+          FROM merge m
+          WHERE l.id = m.keep_id
+            AND EXISTS (
+              SELECT 1 FROM dups d WHERE d.email = l.email AND d.rn > 1
+            )
+          RETURNING l.id, l.email
+      )
+      DELETE FROM leads
+        WHERE id IN (SELECT id FROM dups WHERE rn > 1)
+        RETURNING id, email
+    `);
+    if (leadDup.rowCount && leadDup.rowCount > 0) {
+      const ids = leadDup.rows.map((r: { id: string; email: string }) => `${r.id}@${r.email}`).join(", ");
+      logger.warn(`[migration] Auto-merged ${leadDup.rowCount} duplicate lead row(s) before ensuring unique email index: ${ids}`, "db");
+    }
+    await client.query(`
+      CREATE UNIQUE INDEX IF NOT EXISTS leads_email_uniq_idx
+        ON leads (email)
+        WHERE email <> ''
+    `);
+
     // A2 fix (Task #36, 2026-04-30) — exactly-once dispatch sentinel.
     // Updated post-SMTP-ACK in a write separate from `currentStep`, so a
     // transient `advanceDripEnrollment` failure after the email has already

@@ -2,7 +2,7 @@ import { sendReminderEmail, maskEmail } from "./email";
 import { logger } from "./logger";
 import { AGENDA_STATUSES, isCancelledStatus } from "./server-constants";
 import { madridWallTimeToUtcMs } from "../shared/madrid-time";
-import { normalizeEmail } from "./storage/core";
+import { normalizeEmail, isLeadEmailUniqueViolation } from "./storage/core";
 import type { Request, Response, NextFunction } from "express";
 
 export function asyncHandler(fn: (req: Request, res: Response, next: NextFunction) => Promise<any>) {
@@ -458,6 +458,47 @@ export function withSlotLock<T>(slotKey: string, fn: () => Promise<T>): Promise<
 export function withLeadEmailLock<T>(email: string, fn: () => Promise<T>): Promise<T> {
   const key = email.trim().toLowerCase();
   return withLockReady("lead-email", key, SLOT_LOCK_TTL_MS, SLOT_LOCK_WAIT_MS, fn);
+}
+
+/**
+ * Task #28 (2026-04-30): single-shot retry wrapper for the booking +
+ * calculator lead-upsert path. The partial UNIQUE on `leads(email)` (see
+ * `shared/schema.ts` and `runColumnMigrations` in `server/db.ts`) makes a
+ * duplicate row physically impossible, but the trade-off is that a
+ * theoretical race between two simultaneous POSTs for the same email can
+ * now surface as a 23505 instead of silently producing two rows.
+ *
+ * `withLeadEmailLock` already serialises within a single Node process and
+ * across a healthy Redis-backed cluster, so this retry is effectively
+ * dead code on the happy path. It exists for the partitioned-cluster /
+ * lock-store-degraded edge case: when the lock fails to enforce mutual
+ * exclusion, the DB constraint catches the second writer and we transparently
+ * recover by re-running the SELECT-then-UPDATE branch (which now sees the
+ * row that won the race).
+ *
+ * Retry is single-shot (max 1 retry, total 2 attempts) and ONLY catches
+ * `isLeadEmailUniqueViolation` — every other error (validation, connection
+ * loss, etc.) propagates immediately so we never paper over real bugs.
+ * The caller is expected to pass an idempotent transaction body: re-running
+ * the same `withTransaction(...)` invocation must produce the same result.
+ * Both the booking handler and the calculator handler (in
+ * `server/routes/public.ts`) satisfy this — `upsertLeadOnBooking` and the
+ * inline calculator upsert both branch on `existing` so a retry after the
+ * row materialised in the DB just walks the UPDATE path.
+ */
+export async function withRetryOnLeadEmailUnique<T>(fn: () => Promise<T>): Promise<T> {
+  try {
+    return await fn();
+  } catch (err) {
+    if (!isLeadEmailUniqueViolation(err)) throw err;
+    logger.warn(
+      `[lead-email] partial UNIQUE caught a race that withLeadEmailLock missed; retrying SELECT-then-UPDATE once. cause=${
+        err instanceof Error ? err.message : String(err)
+      }`,
+      "db",
+    );
+    return await fn();
+  }
 }
 
 export function isBotVisitor(req: { headers: Record<string, string | string[] | undefined>; ip?: string }): boolean {

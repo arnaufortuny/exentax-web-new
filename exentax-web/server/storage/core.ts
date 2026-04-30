@@ -45,6 +45,7 @@ export class SlotConflictError extends StorageError {
 }
 
 export const SLOT_UNIQUE_INDEX_NAME = "agenda_active_slot_uniq_idx";
+export const LEAD_EMAIL_UNIQUE_INDEX_NAME = "leads_email_uniq_idx";
 
 type PgErrorShape = { code?: string; constraint?: string; cause?: PgErrorShape };
 
@@ -75,6 +76,25 @@ export function isSlotUniqueViolation(err: unknown): boolean {
   // don't silently lose the slot-race signal.
   if (!pg.constraint) return true;
   return pg.constraint === SLOT_UNIQUE_INDEX_NAME;
+}
+
+/**
+ * Task #28 (2026-04-30): true ONLY for the partial UNIQUE on `leads(email)`.
+ * The booking and calculator handlers wrap their lead-upsert path in
+ * `withLeadEmailLock`, so a race producing this violation should be
+ * impossible in steady state — but the lock is process-local in dev and
+ * Redis-backed in production, neither of which guarantees absolute global
+ * mutual exclusion across a partitioned cluster. When this fires, the
+ * caller's correct response is to retry the SELECT-then-UPDATE branch
+ * (the row that "won the race" is now visible). We do NOT fall back to
+ * `true` on a missing constraint name (unlike `isSlotUniqueViolation`)
+ * because retrying the booking/calculator transaction on an unrelated
+ * 23505 (e.g. an `id` PK collision) would mask a real bug.
+ */
+export function isLeadEmailUniqueViolation(err: unknown): boolean {
+  const pg = extractPgError(err);
+  if (!pg) return false;
+  return pg.constraint === LEAD_EMAIL_UNIQUE_INDEX_NAME;
 }
 
 export function normalizeEmail(email: string): string {

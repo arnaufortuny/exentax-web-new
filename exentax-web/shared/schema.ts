@@ -26,6 +26,23 @@ export const leads = pgTable("leads", {
   index("leads_fecha_creacion_idx").on(table.createdAt),
   index("leads_telefono_idx").on(table.phone),
   index("leads_fuente_idx").on(table.source),
+  // Task #28 (2026-04-30): partial UNIQUE on `email` so a theoretical race
+  // between two simultaneous POSTs (booking + calculator from the same
+  // address at the same instant) cannot produce two rows. Task #18 already
+  // moved both writers to a select-then-update path inside
+  // `withLeadEmailLock`, so in practice no duplicates can be produced — but
+  // the per-email lock relies on Redis (production) and a process-local map
+  // (dev), neither of which can guarantee global mutual exclusion across a
+  // partitioned cluster. This DB-level constraint makes the duplicate
+  // impossible by design. Partial on `email <> ''` so legacy rows with an
+  // empty placeholder email (none currently exist; defensive) cannot
+  // collide. The matching idempotent `CREATE UNIQUE INDEX IF NOT EXISTS`
+  // lives in `server/db.ts:runColumnMigrations` and dedupes any legacy
+  // duplicates before creating the index — see that block for the
+  // merge-and-delete strategy.
+  uniqueIndex("leads_email_uniq_idx")
+    .on(table.email)
+    .where(sql`${table.email} <> ''`),
 ]);
 
 export const insertLeadSchema = createInsertSchema(leads).omit({ createdAt: true });
