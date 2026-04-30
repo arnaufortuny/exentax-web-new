@@ -1,5 +1,5 @@
 import { logger } from "../logger";
-import { getEmailTranslations, resolveEmailLang, resolveLocalLabel, getCalculatorFidelityLabels, UNSUB_LINK_I18N } from "../email-i18n";
+import { getEmailTranslations, resolveEmailLang, resolveLocalLabel, getCalculatorFidelityLabels, resolveCcaaLabel, UNSUB_LINK_I18N } from "../email-i18n";
 import { registerEmailRetryHandler } from "../email-retry-queue";
 import {
   emailHtml, label, heading, bodyText, divider, ctaButton, brandSignature, unsubNote, unsubFooterWithLink,
@@ -39,7 +39,24 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData, opts?: { un
   const sinLLCF = fmtMoney(data.sinLLC);
   const conLLCF = fmtMoney(data.conLLC);
   const annualF = fmtMoney(data.annualIncome ?? data.income * 12);
-  const countryLabel = resolveLocalLabel(data.localLabel, lang);
+  // Country / residence row. When the visitor explicitly chose a CCAA (Task #53)
+  // we append the localised CCAA name so the email mirrors what they see on
+  // screen ("Autónomo en España · Madrid"). País Vasco / Navarra additionally
+  // get a foral-regime caveat further down because their IRPF is not the
+  // state scale that the calculator models.
+  const baseLocalLabel = resolveLocalLabel(data.localLabel, lang);
+  const ccaaLabel = data.country === "espana" ? resolveCcaaLabel(data.ccaa, lang) : null;
+  const countryLabel = ccaaLabel ? `${baseLocalLabel} · ${escapeHtml(ccaaLabel)}` : baseLocalLabel;
+  const isForalCcaa = data.country === "espana" && (data.ccaa === "paisVasco" || data.ccaa === "navarra");
+  const foralNoticeByLang: Record<string, string> = {
+    es: "País Vasco y Navarra tienen régimen foral propio (Concierto/Convenio Económico). El IRPF lo regulan las Diputaciones Forales o la Hacienda Foral de Navarra, no la escala estatal — esta estimación es orientativa.",
+    en: "Basque Country and Navarra have their own foral tax system (Concierto/Convenio Económico). Income tax is set by the Foral Treasuries, not the state scale — this estimate is approximate.",
+    fr: "Le Pays basque et la Navarre disposent d'un régime fiscal foral propre (Concierto/Convenio Económico). L'impôt sur le revenu y est fixé par les Trésoreries forales, pas par le barème étatique — estimation indicative.",
+    de: "Das Baskenland und Navarra haben ein eigenes foral-Steuersystem (Concierto/Convenio Económico). Die Einkommensteuer wird von den foralen Finanzbehörden festgelegt, nicht nach der staatlichen Skala — diese Schätzung ist orientierend.",
+    pt: "O País Basco e Navarra têm regime foral próprio (Concierto/Convenio Económico). O IRPF é regulado pelas Diputaciones Forales ou pela Hacienda Foral de Navarra, não pela tabela estatal — estimativa indicativa.",
+    ca: "El País Basc i Navarra tenen règim foral propi (Concert/Conveni Econòmic). L'IRPF el regulen les Diputacions Forals o la Hisenda Foral de Navarra, no l'escala estatal — estimació orientativa.",
+  };
+  const foralNotice = isForalCcaa ? (foralNoticeByLang[lang] || foralNoticeByLang.es) : null;
 
   // Localized labels for the calculator fidelity block — centralized in email-i18n.ts.
   const fi = getCalculatorFidelityLabels(lang);
@@ -87,6 +104,14 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData, opts?: { un
       { icon: "pin", label: ct.residenceLabel, value: countryLabel },
       { icon: "calendar", label: ct.incomeLabel, value: annualF },
     ])}
+
+    ${foralNotice ? `
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px;">
+      <tr><td style="padding:14px 18px;background-color:${C_ACCENT_BG};border:1px solid ${C_ACCENT_BD};border-radius:14px;" bgcolor="${C_ACCENT_BG}">
+        <p style="font-family:${F_STACK};font-size:12px;color:${C_TEXT_2};margin:0;line-height:1.55;">${escapeHtml(foralNotice)}</p>
+      </td></tr>
+    </table>
+    ` : ""}
 
     ${divider()}
 

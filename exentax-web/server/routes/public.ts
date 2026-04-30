@@ -1214,7 +1214,9 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       throw err;
     });
 
-    // Send email AFTER transaction commits — avoids orphan emails on TX failure
+    // Send email AFTER transaction commits — avoids orphan emails on TX failure.
+    // `parsed.data.ccaa` (Task #53) is included in the spread above and surfaces
+    // in the email's residence row + foral notice for País Vasco / Navarra.
     sendCalculatorEmail({ ...parsed.data, clientIp: calcIp, leadId: calcLeadId }).catch((err) =>
       logger.error("Calculator email failed:", "app", err)
     );

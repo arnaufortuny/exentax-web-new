@@ -35,23 +35,37 @@ interface CalculatorResultsProps {
   getInsight: () => string;
   displayCurrency?: string;
   allStructures?: AllStructuresResult | null;
+  /**
+   * Comunidad Autónoma key (Task #53) chosen for Spain. When present and
+   * `country === "espana"`, we append the localised CCAA name to the
+   * residence label so the visitor sees the same context they picked
+   * upstream — and that the email will echo. Optional & ignored outside
+   * Spain.
+   */
+  ccaa?: string;
 }
 
-export default function CalculatorResults({ result, income, country, regime, getInsight, displayCurrency = "EUR", allStructures }: CalculatorResultsProps) {
+export default function CalculatorResults({ result, income, country, regime, getInsight, displayCurrency = "EUR", allStructures, ccaa }: CalculatorResultsProps) {
   const { t } = useTranslation();
   const lp = useLangPath();
   const cur = displayCurrency;
 
   const fmt = (v: number) => formatCurrency(v, cur);
 
+  const ccaaSuffix = (() => {
+    if (country !== "espana" || !ccaa) return "";
+    const name = t(`calculator.ccaaLabels.${ccaa}`, { defaultValue: "" });
+    return name ? ` · ${name}` : "";
+  })();
+
   const resolvedLocalLabel = (() => {
     const parts = result.localLabel.split("|");
     if (parts.length === 2) {
       const [regLabel, countryKey] = parts;
       const countryName = t(`calculator.countryLabels.${countryKey}`, countryKey);
-      return `${regLabel} ${t("calculator.inCountry", { defaultValue: "en" })} ${countryName}`;
+      return `${regLabel} ${t("calculator.inCountry", { defaultValue: "en" })} ${countryName}${ccaaSuffix}`;
     }
-    return result.localLabel;
+    return `${result.localLabel}${ccaaSuffix}`;
   })();
 
   const llcIsBest = allStructures ? allStructures.bestId === "llc" : true;

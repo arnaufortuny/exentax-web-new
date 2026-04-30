@@ -151,6 +151,26 @@ export function getCalculatorFidelityLabels(lang?: string | null): CalculatorFid
   return CALCULATOR_FIDELITY_I18N[resolveEmailLang(lang)];
 }
 
+// CCAA (Comunidad Autónoma) labels per email locale. Keys match
+// `CCAA_PROFILE_MAP` in `client/src/lib/calculator-config.ts` (Task #53).
+// Only used by the Spain calculator email — the calc UI carries its own
+// `ccaaLabels` in the i18n locale files; we duplicate the localised
+// strings here on the server so the email render is fully self-contained.
+export const CCAA_LABELS_I18N: Record<SupportedLang, Record<string, string>> = {
+  es: { madrid: "Madrid", andalucia: "Andalucía", larioja: "La Rioja", ceuta: "Ceuta", melilla: "Melilla", aragon: "Aragón", asturias: "Asturias", baleares: "Illes Balears", canarias: "Canarias", cantabria: "Cantabria", castillaLaMancha: "Castilla-La Mancha", castillaYLeon: "Castilla y León", cataluna: "Cataluña", extremadura: "Extremadura", galicia: "Galicia", murcia: "Murcia", navarra: "Navarra (foral)", paisVasco: "País Vasco (foral)", valencia: "Comunitat Valenciana" },
+  en: { madrid: "Madrid", andalucia: "Andalusia", larioja: "La Rioja", ceuta: "Ceuta", melilla: "Melilla", aragon: "Aragon", asturias: "Asturias", baleares: "Balearic Islands", canarias: "Canary Islands", cantabria: "Cantabria", castillaLaMancha: "Castilla-La Mancha", castillaYLeon: "Castilla y León", cataluna: "Catalonia", extremadura: "Extremadura", galicia: "Galicia", murcia: "Murcia", navarra: "Navarra (foral)", paisVasco: "Basque Country (foral)", valencia: "Valencian Community" },
+  fr: { madrid: "Madrid", andalucia: "Andalousie", larioja: "La Rioja", ceuta: "Ceuta", melilla: "Melilla", aragon: "Aragon", asturias: "Asturies", baleares: "Îles Baléares", canarias: "Îles Canaries", cantabria: "Cantabrie", castillaLaMancha: "Castille-La Manche", castillaYLeon: "Castille-et-León", cataluna: "Catalogne", extremadura: "Estrémadure", galicia: "Galice", murcia: "Murcie", navarra: "Navarre (foral)", paisVasco: "Pays basque (foral)", valencia: "Communauté valencienne" },
+  de: { madrid: "Madrid", andalucia: "Andalusien", larioja: "La Rioja", ceuta: "Ceuta", melilla: "Melilla", aragon: "Aragonien", asturias: "Asturien", baleares: "Balearen", canarias: "Kanarische Inseln", cantabria: "Kantabrien", castillaLaMancha: "Kastilien-La Mancha", castillaYLeon: "Kastilien und León", cataluna: "Katalonien", extremadura: "Extremadura", galicia: "Galicien", murcia: "Murcia", navarra: "Navarra (foral)", paisVasco: "Baskenland (foral)", valencia: "Valencia" },
+  pt: { madrid: "Madrid", andalucia: "Andaluzia", larioja: "La Rioja", ceuta: "Ceuta", melilla: "Melilla", aragon: "Aragão", asturias: "Astúrias", baleares: "Ilhas Baleares", canarias: "Ilhas Canárias", cantabria: "Cantábria", castillaLaMancha: "Castela-La Mancha", castillaYLeon: "Castela e Leão", cataluna: "Catalunha", extremadura: "Estremadura", galicia: "Galiza", murcia: "Múrcia", navarra: "Navarra (foral)", paisVasco: "País Basco (foral)", valencia: "Comunidade Valenciana" },
+  ca: { madrid: "Madrid", andalucia: "Andalusia", larioja: "La Rioja", ceuta: "Ceuta", melilla: "Melilla", aragon: "Aragó", asturias: "Astúries", baleares: "Illes Balears", canarias: "Canàries", cantabria: "Cantàbria", castillaLaMancha: "Castella-la Manxa", castillaYLeon: "Castella i Lleó", cataluna: "Catalunya", extremadura: "Extremadura", galicia: "Galícia", murcia: "Múrcia", navarra: "Navarra (foral)", paisVasco: "País Basc (foral)", valencia: "Comunitat Valenciana" },
+};
+
+export function resolveCcaaLabel(ccaa: string | undefined | null, lang?: string | null): string | null {
+  if (!ccaa) return null;
+  const resolved = resolveEmailLang(lang);
+  return CCAA_LABELS_I18N[resolved]?.[ccaa] || CCAA_LABELS_I18N.es[ccaa] || null;
+}
+
 // `BRAND_NAME` is re-exported for callers that imported it transitively
 // from this barrel before the modularization. Keeps backward compat.
 export { BRAND_NAME };

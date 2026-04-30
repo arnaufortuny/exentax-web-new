@@ -64,6 +64,15 @@ export interface CalculatorEmailData {
   llcVsAutonomo?: number;
   llcVsSociedad?: number;
   options?: { tarifaPlana?: boolean; franceMicro?: boolean };
+  /**
+   * Comunidad Autónoma (España) explicitly chosen by the visitor — one of
+   * the 19 keys in `CCAA_PROFILE_MAP` (17 CCAA + Ceuta + Melilla + the two
+   * forales: País Vasco and Navarra). When present, the calculator email
+   * appends the localised CCAA name to the residence row ("España ·
+   * Madrid") and adds a foral-regime note for País Vasco / Navarra.
+   * Optional so older clients and non-Spain leads keep working.
+   */
+  ccaa?: string;
 }
 
 export interface ReminderEmailData {

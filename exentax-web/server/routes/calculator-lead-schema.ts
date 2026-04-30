@@ -25,6 +25,26 @@ export const calculatorLeadSchema = z.object({
   })).max(20),
   deductibleExpenses: z.number().min(0).max(1_000_000).optional().default(0),
   calcSpainIrpf: z.boolean().optional().default(false),
+  // Comunidad Autónoma (España) explicitly chosen by the visitor.
+  // Constrained to the 19 keys in `CCAA_PROFILE_MAP` (the 17 CCAA + the
+  // two autonomous cities Ceuta and Melilla; País Vasco and Navarra are
+  // already part of the 17 and additionally flagged as foral on the UI).
+  // Replaces the older `low|medium|high` aggregate sent from the UI: the
+  // server now receives the exact CCAA so the email can echo
+  // "España · Madrid" and future analytics can split conversion by
+  // region. Optional for back-compat with older clients (in that case
+  // the email omits the CCAA row and the calculation defaults to the
+  // "medium" profile, preserving the pre-Task-53 behaviour).
+  // NOTE: keep this list in sync with `CCAA_PROFILE_MAP` /
+  // `CCAA_KEYS` in `client/src/lib/calculator-config.ts`. We duplicate
+  // the keys here (rather than importing from the client bundle) to
+  // keep the server↔client dependency direction one-way.
+  ccaa: z.enum([
+    "madrid", "andalucia", "larioja", "ceuta", "melilla",
+    "aragon", "asturias", "baleares", "canarias", "cantabria",
+    "castillaLaMancha", "castillaYLeon", "cataluna", "extremadura",
+    "galicia", "murcia", "navarra", "paisVasco", "valencia",
+  ]).optional(),
   privacyAccepted: z.boolean().refine((val) => val === true, "zodMustAcceptPrivacy"),
   marketingAccepted: z.boolean().optional().default(false),
   language: z.string().max(10).optional().nullable(),

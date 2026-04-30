@@ -129,6 +129,23 @@ export const CCAA_PROFILE_MAP: Record<string, CcaaProfile> = {
 // Para uso del UI / docs. La 17 CCAA + Ceuta/Melilla + 2 forales.
 export const CCAA_KEYS = Object.keys(CCAA_PROFILE_MAP);
 
+// CCAA con régimen foral propio (Concierto / Convenio Económico). Su IRPF
+// no sigue la escala estatal: las Diputaciones Forales (Bizkaia, Gipuzkoa,
+// Álava) y la Hacienda Foral de Navarra publican sus propios tramos. La
+// calculadora avisa explícitamente al usuario para que sepa que el cálculo
+// es orientativo y debe contrastarse con un asesor especializado en
+// régimen foral.
+export const FORAL_CCAA: ReadonlyArray<string> = ["paisVasco", "navarra"];
+
+export function isForalCcaa(ccaa: string): boolean {
+  return FORAL_CCAA.includes(ccaa);
+}
+
+export function resolveCcaaProfile(ccaa: string | undefined | null): CcaaProfile {
+  if (!ccaa) return "medium";
+  return CCAA_PROFILE_MAP[ccaa] ?? "medium";
+}
+
 // IRPF dividendos / rentas del ahorro 2026 (base del ahorro, art. 66 LIRPF).
 export const SPAIN_DIVIDEND_BRACKETS = [
   { limit: 6000,     rate: 0.19 },

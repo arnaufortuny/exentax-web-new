@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { resolveLocale } from "@/lib/lang-utils";
 import { calculateSavings, computeAllStructures, formatCurrency, countries, activities, getExpenseCategories, calcDeductibleTotal, COUNTRY_CURRENCY, COUNTRY_REGIMES, DISPLAY_CURRENCIES, convertFromEUR, convertToEUR, NON_DEDUCTIBLE_INFO } from "@/lib/calculator";
 import type { ExpenseItem, AllStructuresResult } from "@/lib/calculator";
+import { CCAA_KEYS, isForalCcaa, resolveCcaaProfile } from "@/lib/calculator-config";
 import { apiRequest } from "@/lib/queryClient";
 import { useLangPath } from "@/hooks/useLangPath";
 import { trackCalculatorUsed, trackCalculatorCompleted } from "@/components/Tracking";
@@ -77,7 +78,15 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [showExpensesSection, setShowExpensesSection] = useState(false);
   const [expenseItems, setExpenseItems] = useState<ExpenseItem[]>([]);
   const [calcSpainIrpf, setCalcSpainIrpf] = useState(false);
-  const [ccaaProfile, setCcaaProfile] = useState<"low" | "medium" | "high">("medium");
+  // Task #53 — store the exact CCAA the visitor picked (Madrid, Cataluña,
+  // País Vasco, …) instead of the older `low|medium|high` aggregate. The
+  // calculator core still consumes `low|medium|high` so we derive that on
+  // the fly via `resolveCcaaProfile`. Empty string = "no explicit choice
+  // yet" and falls back to the medium profile (= pre-Task-53 default
+  // behaviour, no calculation drift on first render).
+  const [ccaa, setCcaa] = useState<string>("");
+  const ccaaProfile = useMemo(() => resolveCcaaProfile(ccaa), [ccaa]);
+  const showForalNotice = ccaa !== "" && isForalCcaa(ccaa);
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
@@ -281,6 +290,10 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       bestStructureId: allStructures?.bestId,
       llcVsAutonomo: allStructures?.llcSavingsVsAutonomo,
       llcVsSociedad: allStructures?.llcSavingsVsSociedad,
+      // Task #53 — only forward an explicit Spain CCAA choice. Outside Spain
+      // (or when the user hasn't picked one) we omit the field so older
+      // server validators stay happy and the email skips the CCAA row.
+      ...(country === "espana" && ccaa ? { ccaa } : {}),
       ...(expenseItems.length > 0 ? { expenseItems: expenseItems.map(it => ({ id: it.id, monthly: it.monthly })) } : {}),
     }).catch((e) => {
       clientLogger.warn("[calculator] submission failed", e);
@@ -439,15 +452,29 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                     {t("calculator.ccaaProfile", { defaultValue: "Comunidad autónoma" })}
                   </SectionLabel>
                   <select
-                    value={ccaaProfile}
-                    onChange={(e) => setCcaaProfile(e.target.value as "low" | "medium" | "high")}
+                    value={ccaa}
+                    onChange={(e) => setCcaa(e.target.value)}
                     className={`calc-select-chevron w-full rounded-full px-5 font-semibold text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border-2 border-[rgba(var(--green-rgb),0.3)] hover:border-[rgba(var(--green-rgb),0.5)] focus:border-[rgba(var(--green-rgb),0.65)] focus:outline-none focus:shadow-[0_0_0_4px_rgba(0,229,16,0.12)] transition-all ${compact ? "py-2.5 text-xs" : "py-3.5 text-sm"}`}
-                    data-testid="select-ccaa-profile"
+                    data-testid="select-ccaa"
                   >
-                    <option value="medium">{t("calculator.ccaaMedium", { defaultValue: "Escala media (default)" })}</option>
-                    <option value="low">{t("calculator.ccaaLow", { defaultValue: "Madrid · Andalucía · La Rioja" })}</option>
-                    <option value="high">{t("calculator.ccaaHigh", { defaultValue: "Cataluña · Valencia · Asturias" })}</option>
+                    <option value="">{t("calculator.ccaaPlaceholder", { defaultValue: "Selecciona tu CCAA" })}</option>
+                    {[...CCAA_KEYS]
+                      .map(k => ({ k, label: t(`calculator.ccaaLabels.${k}`, { defaultValue: k }) }))
+                      .sort((a, b) => a.label.localeCompare(b.label, calcLocale))
+                      .map(({ k, label: lbl }) => (
+                        <option key={k} value={k} data-testid={`option-ccaa-${k}`}>{lbl}</option>
+                      ))}
                   </select>
+                  {showForalNotice && (
+                    <div
+                      className={`mt-2 rounded-xl border border-amber-500/30 bg-amber-50/40 ${compact ? "p-2.5" : "p-3"}`}
+                      data-testid="ccaa-foral-notice"
+                    >
+                      <p className={`font-body text-amber-700 leading-snug ${compact ? "text-[10px]" : "text-[11px]"}`}>
+                        {t("calculator.ccaaForalNote", { defaultValue: "País Vasco y Navarra tienen régimen foral propio (Concierto/Convenio Económico). Esta estimación es orientativa." })}
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
@@ -765,6 +792,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
             getInsight={getInsight}
             displayCurrency={displayCurrency}
             allStructures={allStructures}
+            ccaa={country === "espana" ? ccaa : undefined}
           />
           {sendError && (
             <p className="text-[var(--error)] text-xs text-center mt-2" data-testid="text-calculator-send-error">
