@@ -226,6 +226,49 @@ export async function runColumnMigrations(): Promise<void> {
         ADD COLUMN IF NOT EXISTS last_sent_step integer NOT NULL DEFAULT 0
     `);
 
+    // Transactional outbox for drip emails (Task #38, 2026-04-30). The
+    // canonical schema lives in `shared/schema.ts:emailOutbox` and a
+    // drizzle-kit migration would land it on a fresh DB; this idempotent
+    // CREATE TABLE makes legacy production DBs self-migrate at boot.
+    // See the schema docstring for the lifecycle rationale (eliminates
+    // residuals (a) SMTP-ACK→sentinel window, (b) lease overlap, and
+    // bounds (c) sentinel + poison double-fail via the attempts cap).
+    await client.query(`
+      CREATE TABLE IF NOT EXISTS email_outbox (
+        id varchar(64) PRIMARY KEY NOT NULL,
+        enrollment_id varchar(64) NOT NULL,
+        step integer NOT NULL,
+        payload text NOT NULL,
+        claimed_at text,
+        claim_version integer NOT NULL DEFAULT 0,
+        attempts integer NOT NULL DEFAULT 0,
+        max_attempts integer NOT NULL DEFAULT 8,
+        sent_at text,
+        last_error text,
+        next_attempt_at text NOT NULL,
+        fecha_creacion timestamp DEFAULT now(),
+        CONSTRAINT email_outbox_step_check CHECK (step >= 1 AND step <= 6)
+      )
+    `);
+    await ensureForeignKeyNotValid(client, {
+      table: "email_outbox",
+      constraint: "email_outbox_enrollment_id_drip_enrollments_id_fk",
+      definition: "FOREIGN KEY (enrollment_id) REFERENCES drip_enrollments(id) ON DELETE CASCADE",
+    });
+    await client.query(`
+      CREATE UNIQUE INDEX IF NOT EXISTS email_outbox_enrollment_step_uniq
+        ON email_outbox (enrollment_id, step)
+    `);
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS email_outbox_pending_idx
+        ON email_outbox (next_attempt_at)
+        WHERE sent_at IS NULL
+    `);
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS email_outbox_enrollment_idx
+        ON email_outbox (enrollment_id)
+    `);
+
     logger.debug("Column migrations applied.", "db");
   } catch (err) {
     // Slot uniqueness is the only mechanism preventing double-booking, so

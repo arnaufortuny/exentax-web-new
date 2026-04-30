@@ -257,7 +257,7 @@ export async function tryCreateDripEnrollment(opts: {
    * for the configured cadence before firing step 1.
    */
   nextSendAt?: string;
-}): Promise<s.DripEnrollment | null> {
+}, txDb?: DbOrTx): Promise<s.DripEnrollment | null> {
   try {
     const id = generateId("DRIP");
     const nextSendAt = opts.nextSendAt ?? new Date().toISOString();
@@ -267,7 +267,14 @@ export async function tryCreateDripEnrollment(opts: {
     // unique HTTPS endpoint. 32 bytes hex = 64 chars, indistinguishable
     // from random by an attacker without the secret.
     const unsubToken = (await import("node:crypto")).randomBytes(32).toString("hex");
-    const inserted = await db.execute(sql`
+    // Task #38: accept optional `txDb` so the enrollment row commits in the
+    // SAME transaction as the outbox row (and the consent_log /
+    // newsletter_subscribers writes). Previously the enrollment was created
+    // OUTSIDE the route's `withTransaction`, which left a window where the
+    // floating fire-and-forget `sendImmediateStep1` could race the worker
+    // for the same row. With the outbox model, route handlers MUST pass
+    // `txDb` so the enrollment + outbox row land atomically.
+    const inserted = await (txDb || db).execute(sql`
       INSERT INTO drip_enrollments (id, email, name, language, source, current_step, last_sent_step, next_send_at, unsubscribe_token)
       VALUES (${id}, ${opts.email}, ${cleanName}, ${opts.language}, ${opts.source}, 0, 0, ${nextSendAt}, ${unsubToken})
       ON CONFLICT (email) WHERE completed_at IS NULL DO NOTHING
@@ -285,6 +292,269 @@ export async function tryCreateDripEnrollment(opts: {
   }
 }
 
+// ─── Email outbox (Task #38, 2026-04-30) ─────────────────────────────────────
+// Transactional outbox that replaces the legacy "send-then-mark-sentinel"
+// pattern. See `shared/schema.ts:emailOutbox` for the full lifecycle and
+// the audit doc row A2 for the residuals it eliminates.
+
+/**
+ * Shape of `email_outbox.payload`. The outbox row carries everything the
+ * worker needs to dispatch the email — the worker never re-derives this
+ * from `drip_enrollments` so a row that was enqueued under one schema
+ * version is still dispatchable after a deploy that changes the
+ * enrollment table.
+ */
+export interface OutboxPayload {
+  kind: "guide" | "calculator";
+  email: string;
+  name: string | null;
+  language: string;
+  step: number;
+  unsubToken: string | null;
+}
+
+/**
+ * Idempotently insert one outbox row inside the caller's transaction.
+ * Re-issuing the same `(enrollmentId, step)` is a no-op — the unique
+ * index on `(enrollment_id, step)` guarantees at-most-one row per
+ * enrollment+step combination, which is what makes the outbox
+ * idempotent across route retries / replays / page double-submits.
+ *
+ * Returns the inserted row, or `null` when the row already existed
+ * (caller can branch on this if they need to know whether they actually
+ * enqueued anything new — e.g. to decide whether to fire a worker
+ * wake-up tick).
+ */
+export async function enqueueOutboxRow(opts: {
+  enrollmentId: string;
+  step: number;
+  payload: OutboxPayload;
+  /** ISO timestamp; defaults to now (immediately due). */
+  nextAttemptAt?: string;
+}, txDb?: DbOrTx): Promise<s.EmailOutboxRow | null> {
+  try {
+    const id = generateId("OBX");
+    const nextAttemptAt = opts.nextAttemptAt ?? new Date().toISOString();
+    const inserted = await (txDb || db).execute(sql`
+      INSERT INTO email_outbox (id, enrollment_id, step, payload, next_attempt_at)
+      VALUES (${id}, ${opts.enrollmentId}, ${opts.step}, ${JSON.stringify(opts.payload)}, ${nextAttemptAt})
+      ON CONFLICT (enrollment_id, step) DO NOTHING
+      RETURNING id, enrollment_id AS "enrollmentId", step, payload,
+                claimed_at AS "claimedAt", claim_version AS "claimVersion",
+                attempts, max_attempts AS "maxAttempts",
+                sent_at AS "sentAt", last_error AS "lastError",
+                next_attempt_at AS "nextAttemptAt",
+                fecha_creacion AS "createdAt"
+    `);
+    const rows = (inserted as unknown as { rows: s.EmailOutboxRow[] }).rows ?? [];
+    return rows[0] ?? null;
+  } catch (err) { throw wrapStorageError("enqueueOutboxRow", err); }
+}
+
+/**
+ * Atomically claim up to `limit` due outbox rows. Mirrors
+ * `claimDueDripEnrollments` (`SELECT … FOR UPDATE SKIP LOCKED` inside an
+ * `UPDATE … RETURNING`) so concurrent workers cannot grab the same
+ * row. Each successful claim:
+ *   - Bumps `claim_version` by 1 (this is the fencing token returned to
+ *     the caller).
+ *   - Bumps `attempts` by 1 — bounding residual (c) above. After
+ *     `attempts >= max_attempts` the row falls out of the eligibility
+ *     filter even if `next_attempt_at` keeps rolling over, so a row
+ *     stuck in a SMTP-OK + sentinel-fail loop can produce at most
+ *     `max_attempts` total dispatches across its lifetime.
+ *   - Sets `claimed_at` to `now`.
+ *
+ * Eligibility:
+ *   - `sent_at IS NULL` (still pending)
+ *   - `next_attempt_at <= now` (backoff is up)
+ *   - `attempts < max_attempts` (budget not exhausted)
+ *   - `claimed_at IS NULL OR claimed_at < now - staleSeconds` (treats
+ *     a long-stuck claim as a crashed worker)
+ */
+export async function claimDueOutboxRows(opts: {
+  limit: number;
+  staleSeconds: number;
+}): Promise<s.EmailOutboxRow[]> {
+  try {
+    const result = await db.execute(sql`
+      UPDATE email_outbox AS o
+         SET claimed_at = to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"'),
+             claim_version = o.claim_version + 1,
+             attempts = o.attempts + 1
+       WHERE o.id IN (
+         SELECT id FROM email_outbox
+          WHERE sent_at IS NULL
+            AND next_attempt_at <= to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"')
+            AND attempts < max_attempts
+            AND (
+              claimed_at IS NULL
+              OR claimed_at < to_char((now() - (${opts.staleSeconds} || ' seconds')::interval) AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"')
+            )
+          ORDER BY next_attempt_at
+          LIMIT ${opts.limit}
+          FOR UPDATE SKIP LOCKED
+       )
+      RETURNING o.id, o.enrollment_id AS "enrollmentId", o.step, o.payload,
+                o.claimed_at AS "claimedAt",
+                o.claim_version AS "claimVersion",
+                o.attempts, o.max_attempts AS "maxAttempts",
+                o.sent_at AS "sentAt", o.last_error AS "lastError",
+                o.next_attempt_at AS "nextAttemptAt",
+                o.fecha_creacion AS "createdAt"
+    `);
+    const rows = (result as unknown as { rows: s.EmailOutboxRow[] }).rows ?? [];
+    return rows;
+  } catch (err) { throw wrapStorageError("claimDueOutboxRows", err); }
+}
+
+/**
+ * Fencing-CAS: mark the row as durably sent IFF our `claim_version`
+ * still matches what the worker recorded at claim time. If a stale
+ * lease was reclaimed by another worker, the version no longer
+ * matches and this UPDATE no-ops — the original worker's belated
+ * call thus cannot overwrite the newer claim's eventual `sent_at`,
+ * preserving the exactly-once contract on the persistence layer.
+ *
+ * Returns `true` when the CAS succeeded, `false` otherwise. Caller
+ * uses the false branch to abandon the row (a parallel worker is
+ * handling it) without releasing the claim or scheduling retries.
+ */
+export async function markOutboxRowSent(opts: { id: string; claimVersion: number }, txDb?: DbOrTx): Promise<boolean> {
+  try {
+    const result = await (txDb || db).execute(sql`
+      UPDATE email_outbox
+         SET sent_at = to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"'),
+             claimed_at = NULL,
+             last_error = NULL
+       WHERE id = ${opts.id}
+         AND claim_version = ${opts.claimVersion}
+         AND sent_at IS NULL
+      RETURNING id
+    `);
+    const rows = (result as unknown as { rows: { id: string }[] }).rows ?? [];
+    return rows.length > 0;
+  } catch (err) { throw wrapStorageError("markOutboxRowSent", err); }
+}
+
+/**
+ * Fencing-CAS release: SMTP failed (no email was sent). Clear the claim
+ * and schedule the next attempt. Only writes if our `claim_version`
+ * still matches — if a stale lease was reclaimed elsewhere we silently
+ * no-op (no spurious release of someone else's claim).
+ */
+export async function releaseOutboxRowOnError(opts: {
+  id: string;
+  claimVersion: number;
+  error: string;
+  nextAttemptAt: string;
+}): Promise<boolean> {
+  try {
+    const result = await db.execute(sql`
+      UPDATE email_outbox
+         SET claimed_at = NULL,
+             last_error = ${opts.error.slice(0, 500)},
+             next_attempt_at = ${opts.nextAttemptAt}
+       WHERE id = ${opts.id}
+         AND claim_version = ${opts.claimVersion}
+         AND sent_at IS NULL
+      RETURNING id
+    `);
+    const rows = (result as unknown as { rows: { id: string }[] }).rows ?? [];
+    return rows.length > 0;
+  } catch (err) { throw wrapStorageError("releaseOutboxRowOnError", err); }
+}
+
+/**
+ * Fencing-CAS poison: SMTP delivered but the post-send sentinel write
+ * (`markOutboxRowSent`) failed every retry. Park the row so neither
+ * the claim selector nor the staleness sweeper can re-pick it: set
+ * `next_attempt_at` to the far future and prefix `last_error` with
+ * `POISONED:` so the periodic Discord alert layer can flag it for
+ * operator triage.
+ *
+ * The fencing CAS prevents poison from clobbering a row that another
+ * worker has already successfully marked sent (we'd never want to
+ * shadow a real `sent_at`).
+ */
+export async function poisonOutboxRow(opts: {
+  id: string;
+  claimVersion: number;
+  step: number;
+  error: string;
+}): Promise<boolean> {
+  try {
+    // Far future — effectively "never" for the worker. Operator
+    // recovery is to confirm SMTP delivery via gmail logs and then
+    // either delete the row or set sent_at manually.
+    const farFuture = "9999-12-31T00:00:00.000Z";
+    const result = await db.execute(sql`
+      UPDATE email_outbox
+         SET next_attempt_at = ${farFuture},
+             last_error = ${`POISONED:step=${opts.step}:${opts.error}`.slice(0, 500)}
+       WHERE id = ${opts.id}
+         AND claim_version = ${opts.claimVersion}
+         AND sent_at IS NULL
+      RETURNING id
+    `);
+    const rows = (result as unknown as { rows: { id: string }[] }).rows ?? [];
+    return rows.length > 0;
+  } catch (err) { throw wrapStorageError("poisonOutboxRow", err); }
+}
+
+/**
+ * Pre-send fencing helper: read the row's CURRENT `claim_version` so
+ * the worker can verify, immediately before SMTP dispatch, that no
+ * other worker has stolen the lease (stale-claim reclaim) since this
+ * worker last saw it. Returns `null` if the row no longer exists or
+ * has already been sent. Cheap single-row read; not transactional —
+ * the only safety guarantee we need at this point is "if the value
+ * read here equals row.claimVersion, we still own the row right now,
+ * so SMTP is safe to fire". A reclaim arriving in the interval
+ * between this read and the SMTP call would still race, but the
+ * window is microseconds (the reclaim only happens after
+ * STALE_CLAIM_SECONDS = 600s of inactivity), so in practice this
+ * eliminates residual (b) at the delivery level.
+ */
+export async function getOutboxClaimVersion(id: string): Promise<number | null> {
+  try {
+    const result = await db.execute(sql`
+      SELECT claim_version AS "claimVersion"
+        FROM email_outbox
+       WHERE id = ${id}
+         AND sent_at IS NULL
+       LIMIT 1
+    `);
+    const rows = (result as unknown as { rows: { claimVersion: number }[] }).rows ?? [];
+    return rows[0]?.claimVersion ?? null;
+  } catch (err) { throw wrapStorageError("getOutboxClaimVersion", err); }
+}
+
+/**
+ * Test-only / operator helper: look up the outbox row for an enrollment
+ * + step. Used by the regression test to assert the row's terminal
+ * state after each scenario.
+ */
+export async function findOutboxRow(opts: { enrollmentId: string; step: number }): Promise<s.EmailOutboxRow | null> {
+  try {
+    const result = await db.execute(sql`
+      SELECT id, enrollment_id AS "enrollmentId", step, payload,
+             claimed_at AS "claimedAt",
+             claim_version AS "claimVersion",
+             attempts, max_attempts AS "maxAttempts",
+             sent_at AS "sentAt", last_error AS "lastError",
+             next_attempt_at AS "nextAttemptAt",
+             fecha_creacion AS "createdAt"
+        FROM email_outbox
+       WHERE enrollment_id = ${opts.enrollmentId}
+         AND step = ${opts.step}
+       LIMIT 1
+    `);
+    const rows = (result as unknown as { rows: s.EmailOutboxRow[] }).rows ?? [];
+    return rows[0] ?? null;
+  } catch (err) { throw wrapStorageError("findOutboxRow", err); }
+}
+
 /**
  * Mark step `n` as just-sent and schedule the next send for `opts.nextSendAt`.
  * The worker passes `nextSendAt = null` when `n` was the final step for that
@@ -298,11 +568,18 @@ export async function advanceDripEnrollment(opts: {
   id: string;
   toStep: number;
   nextSendAt: string | null;
-}) {
+}, txDb?: DbOrTx) {
   try {
     const isFinalStep = opts.nextSendAt === null;
     const completedAt = isFinalStep ? new Date().toISOString() : null;
-    await db.update(s.dripEnrollments).set({
+    // Task #38: accept optional `txDb` so the post-SMTP write set
+    // (markOutboxRowSent + advanceDripEnrollment + lastSentStep update +
+    // enqueueOutboxRow(nextStep)) commits as a single transaction. Without
+    // this the enrollment would advance via the global `db` even when
+    // the surrounding tx rolls back, leaving partial state (e.g. enrollment
+    // at step N+1 but outbox row for step N still pending) that can
+    // produce duplicate sends.
+    await (txDb || db).update(s.dripEnrollments).set({
       currentStep: opts.toStep,
       nextSendAt: opts.nextSendAt,
       completedAt,

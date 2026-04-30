@@ -526,3 +526,88 @@ export const dripEnrollments = pgTable("drip_enrollments", {
 export const insertDripEnrollmentSchema = createInsertSchema(dripEnrollments).omit({ createdAt: true });
 export type InsertDripEnrollment = z.infer<typeof insertDripEnrollmentSchema>;
 export type DripEnrollment = typeof dripEnrollments.$inferSelect;
+
+/**
+ * Transactional outbox for drip emails (Task #38, 2026-04-30). Eliminates
+ * the three residuals documented in `docs/audits/produccion-2026-04/01-funcional.md`
+ * row A2 (SMTP-ACK→sentinel window, lease overlap, sentinel + poison
+ * double-fail) by making the "this email needs to be sent" intent durable
+ * INSIDE the same transaction that creates the `drip_enrollments` row.
+ *
+ * Lifecycle:
+ *   1. Route handler inserts a row alongside the enrollment, in the same
+ *      `withTransaction` (atomic with consent_log + newsletter_subscribers).
+ *      `sent_at IS NULL` and `next_attempt_at <= now` makes it immediately
+ *      eligible for the worker.
+ *   2. Worker `drainOutbox()` claims due rows (`SELECT … FOR UPDATE SKIP
+ *      LOCKED` mirrors the email-retry-queue pattern) and bumps
+ *      `claim_version` — the fencing token that every subsequent
+ *      post-SMTP UPDATE on this row must match. A second worker that
+ *      reclaims the row after a stale lease will get a HIGHER
+ *      `claim_version`, so the original worker's belated UPDATE
+ *      (`markOutboxRowSent` / `releaseOutboxRowOnError`) silently no-ops
+ *      via the CAS — never a duplicate `sent_at` write. Lease overlap
+ *      bound: at most one extra SMTP per stale-lease window, which the
+ *      caps below (max_attempts) bound from above.
+ *   3. After SMTP success, `markOutboxRowSent` sets `sent_at` and clears
+ *      `claimed_at`, in the same transaction that advances
+ *      `drip_enrollments.current_step` and inserts the NEXT step's
+ *      outbox row. This is the single place the worker writes "the
+ *      email was delivered" — once committed, the row's `sent_at`
+ *      filter removes it from the claim selector forever.
+ *   4. `attempts` is bumped on every claim, NOT on every dispatch. Even
+ *      if the post-SMTP UPDATE fails AND `poisonOutboxRow` itself
+ *      fails, after `MAX_ATTEMPTS` total claims the row falls out of
+ *      the eligibility filter. This bounds residual (c) so the worst
+ *      case is a fixed handful of duplicate sends over the lifetime
+ *      of one row, instead of an unbounded retry loop.
+ *
+ * Indexing:
+ *   - `(enrollment_id, step)` UNIQUE: idempotent enqueue (an enrollment's
+ *     step N can only ever exist once, so `ON CONFLICT DO NOTHING` is
+ *     a safe re-issue path on retry).
+ *   - Partial index on `next_attempt_at WHERE sent_at IS NULL AND
+ *     attempts < MAX_ATTEMPTS` is the hot path for `drainOutbox` and
+ *     keeps the planner small even as the table grows historical rows.
+ */
+export const emailOutbox = pgTable("email_outbox", {
+  id: varchar("id", { length: 64 }).primaryKey(),
+  enrollmentId: varchar("enrollment_id", { length: 64 }).notNull()
+    .references(() => dripEnrollments.id, { onDelete: "cascade" }),
+  step: integer("step").notNull(),
+  // JSON-encoded sender payload. Keeps the worker independent of route
+  // schema changes and lets the test layer stub dispatch without
+  // touching the DB row format.
+  // Shape: { kind: "guide"|"calculator", email, name, language, unsubToken, step }.
+  payload: text("payload").notNull(),
+  claimedAt: text("claimed_at"),
+  // Fencing token. Bumped atomically on every successful claim. Every
+  // post-SMTP UPDATE on this row must include `WHERE claim_version = ?`
+  // so a stale-lease re-claim by another worker invalidates the
+  // original worker's belated writes.
+  claimVersion: integer("claim_version").notNull().default(0),
+  attempts: integer("attempts").notNull().default(0),
+  maxAttempts: integer("max_attempts").notNull().default(8),
+  sentAt: text("sent_at"),
+  lastError: text("last_error"),
+  nextAttemptAt: text("next_attempt_at").notNull(),
+  createdAt: timestamp("fecha_creacion").defaultNow(),
+}, (table) => [
+  uniqueIndex("email_outbox_enrollment_step_uniq")
+    .on(table.enrollmentId, table.step),
+  // Hot-path index for `drainOutbox`: filters to pending rows
+  // (sent_at IS NULL) ordered by next_attempt_at. The attempts <
+  // max_attempts gate is applied as a regular WHERE clause at query
+  // time rather than baked into the index predicate, since
+  // max_attempts is a per-row column (not a constant) and Postgres
+  // partial indexes only accept immutable predicates.
+  index("email_outbox_pending_idx")
+    .on(table.nextAttemptAt)
+    .where(sql`${table.sentAt} IS NULL`),
+  index("email_outbox_enrollment_idx").on(table.enrollmentId),
+  check("email_outbox_step_check",
+    sql`${table.step} >= 1 AND ${table.step} <= 6`),
+]);
+
+export type EmailOutboxRow = typeof emailOutbox.$inferSelect;
+export type InsertEmailOutboxRow = typeof emailOutbox.$inferInsert;

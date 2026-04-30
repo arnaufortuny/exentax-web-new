@@ -19,8 +19,8 @@ import {
 } from "../storage";
 import { encryptField } from "../field-encryption";
 import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, renderCalculatorEmailHtml, maskEmail } from "../email";
-import { sendImmediateStep1 } from "../scheduled/drip-worker";
-import { tryCreateDripEnrollment } from "../storage/marketing";
+import { wakeOutboxWorker } from "../scheduled/drip-worker";
+import { tryCreateDripEnrollment, enqueueOutboxRow, type OutboxPayload } from "../storage/marketing";
 import { enqueueEmail, triggerEmailDrain } from "../email-retry-queue";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL, HREFLANG_BCP47 } from "../server-constants";
 import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
@@ -1145,11 +1145,15 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
 
       // A4 fix: newsletter membership for calculator leads (gated on
       // explicit marketing consent) ALSO inside the tx — same rationale
-      // as booking. Drip enrollment stays OUTSIDE because it is
-      // idempotent (partial unique index) and has its own retry loop in
-      // the worker; losing a single drip schedule attempt is recoverable
-      // by the next form submission, but losing a consent/newsletter row
-      // is a regulatory/data-loss issue.
+      // as booking.
+      //
+      // Task #38 (2026-04-30): drip enrollment + the step-1 outbox row
+      // ALSO move INSIDE this tx. The outbox row makes the
+      // "send-this-email-eventually" intent durable atomically with the
+      // newsletter / consent_log rows, so a crash between commit and
+      // the (former) `void sendImmediateStep1` cannot leave a paying
+      // signal with no follow-up. The single worker drains the row on
+      // its next tick (or sooner via `wakeOutboxWorker` post-commit).
       if (parsed.data.marketingAccepted) {
         await upsertNewsletterSubscriber(
           normalizedEmail,
@@ -1158,6 +1162,36 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           ["fiscalidad", "llc"],
           tx,
         );
+
+        // Calculator nurture: 3 follow-ups on days 2 / 4 / 6 from now.
+        // Day-0 is the personalised report email sent inline below by
+        // `sendCalculatorEmail` and is NOT a drip step. Step 1 is
+        // enqueued with `next_attempt_at = now() + 2d` so the worker
+        // honours the cadence delay.
+        const calcFirstNurtureAt = new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString();
+        const enrollment = await tryCreateDripEnrollment({
+          email: normalizedEmail,
+          name: null, // calculator form does not collect name
+          language: parsed.data.language || "es",
+          source: "calculator",
+          nextSendAt: calcFirstNurtureAt,
+        }, tx);
+        if (enrollment) {
+          const payload: OutboxPayload = {
+            kind: "calculator",
+            email: enrollment.email,
+            name: enrollment.name ?? null,
+            language: enrollment.language ?? "es",
+            step: 1,
+            unsubToken: enrollment.unsubscribeToken ?? null,
+          };
+          await enqueueOutboxRow({
+            enrollmentId: enrollment.id,
+            step: 1,
+            payload,
+            nextAttemptAt: calcFirstNurtureAt,
+          }, tx);
+        }
       }
     })).catch((err) => {
       logger.error("Calculator lead+row transaction failed:", "db", err);
@@ -1171,23 +1205,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
 
     if (parsed.data.marketingAccepted) {
       notifyNewsletterSubscribe({ email: normalizedEmail, source: "calculadora_marketing", language: parsed.data.language, ip: calcIp });
-
-      // Enroll in the calculator nurture drip (3 follow-up emails on
-      // days 2 / 4 / 6 from now). The day-0 personalised report is
-      // sent inline above by `sendCalculatorEmail`; this enrollment
-      // schedules step 1 (Laura case) for +2d and the worker handles
-      // the rest. Idempotent via the partial unique index on active
-      // enrollments — a contact who already has an active guide drip
-      // simply keeps it. Gated on explicit marketing consent, same
-      // rule as the newsletter row.
-      const calcFirstNurtureAt = new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString();
-      tryCreateDripEnrollment({
-        email: normalizedEmail,
-        name: null, // calculator form does not collect name
-        language: parsed.data.language || "es",
-        source: "calculator",
-        nextSendAt: calcFirstNurtureAt,
-      }).catch((err) => logger.warn(`Drip enrollment (calculator) error: ${err instanceof Error ? err.message : String(err)}`, "drip"));
+      // Task #38: drip enrollment + step-1 outbox row are committed
+      // INSIDE the tx above. Wake the worker so the +2d cadence delay
+      // doesn't add an extra polling-interval lag for due rows that
+      // share the same tick. (Step 1 itself isn't due for 2 days, so
+      // this wake-up is a no-op for fresh calculator leads — included
+      // for symmetry with the guide flow.)
+      wakeOutboxWorker();
     }
 
     notifyCalculatorLead({
@@ -1278,6 +1302,12 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const newsletterConsentUa = (req.headers["user-agent"] as string | undefined) || null;
     const newsletterPrivacyVersion = await getCachedPrivacyVersion();
 
+    // Task #38 (2026-04-30): drip enrollment + step-1 outbox row commit
+    // INSIDE this same tx (atomically with newsletter_subscribers and
+    // consent_log). Replaces the prior `void sendImmediateStep1(...)`
+    // post-commit fire-and-forget, which left a race window between
+    // SMTP-ACK and the worker's sentinel write — see audit doc row A2
+    // and `shared/schema.ts:emailOutbox` for the lifecycle rationale.
     const txResult = await withTransaction(async (tx) => {
       const sub = await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"], tx);
       const consentId = await insertConsentLog({
@@ -1291,40 +1321,55 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         ip: newsletterConsentIp,
         userAgent: newsletterConsentUa,
       }, tx);
-      return { subscriber: sub, consentId };
-    });
-    const subscriber = txResult.subscriber;
-    const newsletterConsentId = txResult.consentId;
 
-    notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer", language: language || null, ip, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false });
-    // Enroll in the 6-step drip sequence (days 0/3/6/9/12/15).
-    // `isNew` (from the upsert's `xmax = 0` check) guards the happy path;
-    // the drip helper itself is idempotent (partial unique index on
-    // active enrollments), so concurrent submits cannot enroll twice.
-    if (subscriber?.isNew) {
-      // Await the row insert so the HTTP response only returns once the
-      // enrollment is durably committed (the e2e test queries the table
-      // immediately after subscribing). The expensive part — sending the
-      // first email — stays fire-and-forget so the response stays fast.
-      try {
+      // Enroll in the 6-step guide drip (days 0/3/6/9/12/15).
+      // `isNew` (from the upsert's `xmax = 0` check) guards the happy
+      // path; `tryCreateDripEnrollment` itself is idempotent (partial
+      // unique index on active enrollments), so concurrent submits
+      // cannot enroll twice. We still gate on `isNew` because re-issued
+      // enrollments are a no-op and would otherwise produce a noisy log.
+      let outboxEnqueued = false;
+      if (sub?.isNew) {
         const enrollment = await tryCreateDripEnrollment({
           email: normalizedEmail,
           name: null, // footer guide form does not collect a name
           language: language || "es",
           source: "guide",
-        });
+        }, tx);
         if (enrollment) {
-          void sendImmediateStep1({
-            id: enrollment.id,
+          const payload: OutboxPayload = {
+            kind: "guide",
             email: enrollment.email,
             name: enrollment.name ?? null,
-            language: enrollment.language,
-            unsubToken: enrollment.unsubscribeToken,
-          });
+            language: enrollment.language ?? "es",
+            step: 1,
+            unsubToken: enrollment.unsubscribeToken ?? null,
+          };
+          // `next_attempt_at = now()` (default) so the worker fires
+          // step 1 within one polling tick of commit. The
+          // `wakeOutboxWorker` post-commit further trims that to a
+          // single event-loop turn.
+          await enqueueOutboxRow({
+            enrollmentId: enrollment.id,
+            step: 1,
+            payload,
+          }, tx);
+          outboxEnqueued = true;
         }
-      } catch (err) {
-        logger.warn(`Drip enrollment (guide) error: ${err instanceof Error ? err.message : String(err)}`, "drip");
       }
+      return { subscriber: sub, consentId, outboxEnqueued };
+    });
+    const subscriber = txResult.subscriber;
+    const newsletterConsentId = txResult.consentId;
+
+    notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer", language: language || null, ip, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false });
+    // Wake the worker out-of-band so freshly enqueued step-1 rows are
+    // dispatched without waiting a full polling interval (UX symmetry
+    // with the legacy `void sendImmediateStep1` immediate-fire path,
+    // but routed through the single fencing-protected worker so
+    // residuals (a)/(b)/(c) cannot reappear here).
+    if (txResult.outboxEnqueued) {
+      wakeOutboxWorker();
     }
     // A4: Discord audit (operational) — fired AFTER the consent_log row
     // is durably committed, with the same `con_*` id captured from
