@@ -1,0 +1,181 @@
+{
+  "baseUrl": "http://localhost:5000",
+  "startedAt": "2026-04-30T11:20:05.151Z",
+  "sitemaps": {
+    "/sitemap.xml": {
+      "status": 200,
+      "urlCount": null
+    },
+    "/sitemap-pages.xml": {
+      "status": 200,
+      "urlCount": 102,
+      "expected": 102
+    },
+    "/sitemap-blog.xml": {
+      "status": 200,
+      "urlCount": 672,
+      "expected": 672
+    },
+    "/sitemap-faq.xml": {
+      "status": 200,
+      "urlCount": 6,
+      "expected": 6
+    }
+  },
+  "totals": {
+    "urls": 780,
+    "groups": 130,
+    "reciprocityFailures": 0,
+    "expected": 780
+  },
+  "routes": {
+    "public": [
+      {
+        "path": "/es",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      },
+      {
+        "path": "/en",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      },
+      {
+        "path": "/fr",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      },
+      {
+        "path": "/de",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      },
+      {
+        "path": "/pt",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      },
+      {
+        "path": "/ca",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      },
+      {
+        "path": "/en/blog/quick-audit-of-your-llc-in-30-minutes-12-points-to-review",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      },
+      {
+        "path": "/en/faq",
+        "status": 200,
+        "xRobotsTag": "index, follow, max-snippet:-1, max-image-preview:large",
+        "hasCanonical": true
+      }
+    ],
+    "private": [
+      {
+        "path": "/booking/cita",
+        "status": 200,
+        "xRobotsTag": "noindex, nofollow",
+        "hasCanonical": false
+      },
+      {
+        "path": "/start",
+        "status": 200,
+        "xRobotsTag": "noindex, nofollow",
+        "hasCanonical": false
+      },
+      {
+        "path": "/thank-you",
+        "status": 404,
+        "xRobotsTag": "noindex, nofollow",
+        "hasCanonical": false
+      },
+      {
+        "path": "/links",
+        "status": 200,
+        "xRobotsTag": "noindex, nofollow",
+        "hasCanonical": false
+      },
+      {
+        "path": "/preview/test",
+        "status": 404,
+        "xRobotsTag": "noindex, nofollow",
+        "hasCanonical": false
+      },
+      {
+        "path": "/__mockup/foo",
+        "status": 404,
+        "xRobotsTag": "noindex, nofollow",
+        "hasCanonical": false
+      }
+    ]
+  },
+  "robots": {
+    "sitemapsFound": [
+      "https://exentax.com/sitemap.xml",
+      "https://exentax.com/sitemap-pages.xml",
+      "https://exentax.com/sitemap-blog.xml",
+      "https://exentax.com/sitemap-faq.xml"
+    ],
+    "aiBotsFound": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-Web",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Google-Extended",
+      "Applebot-Extended",
+      "CCBot"
+    ],
+    "aiBotsAllowed": [
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "ClaudeBot",
+      "Claude-Web",
+      "anthropic-ai",
+      "PerplexityBot",
+      "Google-Extended",
+      "Applebot-Extended",
+      "CCBot"
+    ],
+    "disallowsFound": [
+      "/api/",
+      "/internal/",
+      "/private/",
+      "/booking/",
+      "/start",
+      "/go/",
+      "/links",
+      "/thank-you",
+      "/thanks",
+      "/preview/",
+      "/staging/",
+      "/dev/",
+      "/__mockup/",
+      "/*?ref=",
+      "/*?utm_source=",
+      "/*?utm_medium=",
+      "/*?utm_campaign=",
+      "/*?utm_term=",
+      "/*?utm_content=",
+      "/*?gclid=",
+      "/*?fbclid=",
+      "/*?mc_cid=",
+      "/*?mc_eid="
+    ]
+  },
+  "finishedAt": "2026-04-30T11:20:14.043Z",
+  "ok": true,
+  "errors": []
+}
