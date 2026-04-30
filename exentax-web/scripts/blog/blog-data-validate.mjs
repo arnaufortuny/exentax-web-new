@@ -33,6 +33,11 @@
  *      - keywords (when present) is a non-empty string array of length 1..10.
  *      - readTime is a positive integer ≤ 30.
  *
+ *   6. metaDescription digit-first hook (SEO convention).
+ *      - The first non-whitespace character of every metaDescription must be
+ *        a digit 0-9. Across all 6 locales the corpus already complies; this
+ *        rule guards against silent regressions from future copy edits.
+ *
  * Exit code: 0 when zero criticals. Warnings are reported but never fatal.
  * Wired by `scripts/blog/blog-validate-all.mjs`.
  * ----------------------------------------------------------------------------
@@ -173,6 +178,25 @@ function checkLengths(slug, lang, meta, criticals, warnings) {
     warnings.push({ slug, lang, kind: "metaDescription-near-limit", detail: `${md.length}` });
   } else if (md.length <= DESC_WARN_LOW) {
     warnings.push({ slug, lang, kind: "metaDescription-thin", detail: `${md.length}` });
+  }
+}
+
+/** metaDescription must start with a digit 0-9 (after any leading
+ *  whitespace). This is a deliberate SEO hook used across all 6 locales
+ *  — the corpus complies today (672/672); the assertion guards against
+ *  future copy edits that would silently break the convention. */
+function checkDigitFirstMetaDescription(slug, lang, metaDescription, criticals) {
+  if (!metaDescription || typeof metaDescription !== "string") return;
+  const trimmed = metaDescription.replace(/^\s+/, "");
+  if (trimmed.length === 0) return;
+  const first = trimmed.charAt(0);
+  if (first < "0" || first > "9") {
+    criticals.push({
+      slug,
+      lang,
+      kind: "metaDescription-not-digit-first",
+      detail: `starts with "${first}" — must be 0-9 (SEO hook convention)`,
+    });
   }
 }
 
@@ -331,6 +355,7 @@ async function main() {
       metaTitle: p.metaTitle,
       metaDescription: p.metaDescription,
     }, criticals, warnings);
+    checkDigitFirstMetaDescription(p.slug, "es", p.metaDescription, criticals);
     checkOrphanYears(p, "es", {
       title: p.title || "",
       metaTitle: p.metaTitle || "",
@@ -352,6 +377,7 @@ async function main() {
     for (const slug of Object.keys(map)) {
       const meta = map[slug];
       checkLengths(slug, lang, meta, criticals, warnings);
+      checkDigitFirstMetaDescription(slug, lang, meta.metaDescription, criticals);
       checkOrphanYears({ slug }, lang, {
         title: meta.title || "",
         metaTitle: meta.metaTitle || "",
