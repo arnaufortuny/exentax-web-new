@@ -57,6 +57,14 @@ export const calculatorLeadSchema = z.object({
     tarifaPlana: z.boolean().optional(),
     franceMicro: z.boolean().optional(),
     vatMode: z.enum(["general", "exportB2B"]).optional(),
+    // Hebesatz municipal Alemania — afecta a Gewerbesteuer.
+    //   "low"    → 250 % (≈ 8,75 % efectivo)
+    //   "medium" → 400 % (≈ 14,00 % efectivo) — default
+    //   "high"   → 490 % (≈ 17,15 % efectivo, München / Frankfurt)
+    // Optional para compatibilidad con clientes anteriores; cuando no
+    // viene, el cálculo y el email caen al perfil "medium" (= comportamiento
+    // pre-Task-51, sin drift).
+    germanyHebesatz: z.enum(["low", "medium", "high"]).optional(),
   }).strict().optional(),
   // Replay-fidelity inputs.
   expenseItems: z.array(z.object({

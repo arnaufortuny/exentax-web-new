@@ -81,6 +81,16 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData, opts?: { un
   if (data.options?.franceMicro) optList.push(fi.micro);
   if (data.options?.vatMode === "exportB2B") optList.push(fi.exportB2B);
   if (optList.length > 0) fidelityRows.push({ label: fi.opts, value: optList.join(", ") });
+  // Task #51: Hebesatz municipal alemán. Solo lo emitimos cuando el lead
+  // es de Alemania para no añadir ruido a calculadoras de otros países y
+  // (consistente con el resto del bloque) cuando trae un valor explícito —
+  // si el cliente es viejo y no envía `germanyHebesatz`, el cálculo cae al
+  // perfil "medium" tanto en UI como en backend, así que ocultar la fila
+  // mantiene el contrato pre-Task-51.
+  const hbProfile = data.options?.germanyHebesatz;
+  if (data.country === "alemania" && (hbProfile === "low" || hbProfile === "medium" || hbProfile === "high")) {
+    fidelityRows.push({ label: fi.hebesatz, value: escapeHtml(fi.hebesatzValues[hbProfile]) });
+  }
 
   const fidelityBlock = fidelityRows.length === 0 ? "" : `
     ${divider()}

@@ -53,6 +53,12 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     setCountry(newCountry);
     setRegime("");
     setShowExpensesSection(false);
+    // Task #51: salir de Alemania resetea el Hebesatz para que volver a
+    // entrar empiece desde el default y no arrastre la última elección
+    // (mismo patrón que `setRegime("")` arriba).
+    if (newCountry !== "alemania") {
+      setGermanyHebesatz("");
+    }
     // Only auto-pick the country's default currency if the user has NOT
     // explicitly chosen one. Country and currency are independent, once
     // the user picks a currency we keep it across country changes.
@@ -88,6 +94,11 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const ccaaProfile = useMemo(() => resolveCcaaProfile(ccaa), [ccaa]);
   const showForalNotice = ccaa !== "" && isForalCcaa(ccaa);
   const [vatExportB2B, setVatExportB2B] = useState(false);
+  // Task #51 — Hebesatz municipal Alemania. El estado vacío "" significa
+  // "no eligió explícitamente" y cae al default "medium" en `calculateSavings`
+  // (mismo contrato que `ccaaProfile`). Solo se envía al backend cuando el
+  // visitante eligió un valor distinto del vacío.
+  const [germanyHebesatz, setGermanyHebesatz] = useState<"" | "low" | "medium" | "high">("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
@@ -120,10 +131,16 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
 
   const calcRegime = regime === "sin-regimen" ? "autonomo" : regime;
   const vatMode: "general" | "exportB2B" = vatExportB2B ? "exportB2B" : "general";
+  // Task #51: solo pasamos `germanyHebesatz` cuando el país es Alemania y
+  // el visitante eligió explícitamente un Hebesatz; cualquier otro caso cae
+  // al default "medium" del core sin enviar señal extra (cero drift para el
+  // resto de países).
+  const effectiveHebesatz: "low" | "medium" | "high" | undefined =
+    country === "alemania" && germanyHebesatz !== "" ? germanyHebesatz : undefined;
   const result = useMemo(() => (hasCountry && hasRegime)
-    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, { ccaaProfile, vatMode })
+    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, { ccaaProfile, vatMode, germanyHebesatz: effectiveHebesatz })
     : { sinLLC: 0, conLLC: 0, ahorro: 0, localLabel: "", breakdown: [], llcBreakdown: [], ivaNote: 0, effectiveRate: 0, llcEffectiveRate: 0, gastosDeducibles: 0 } as ReturnType<typeof calculateSavings>,
-    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime, ccaaProfile, vatMode]);
+    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime, ccaaProfile, vatMode, effectiveHebesatz]);
 
   const allStructures = useMemo<AllStructuresResult | null>(() => hasCountry
     ? computeAllStructures(income, country, activity, expenses, expenseItems, { vatMode })
@@ -296,7 +313,17 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       // (or when the user hasn't picked one) we omit the field so older
       // server validators stay happy and the email skips the CCAA row.
       ...(country === "espana" && ccaa ? { ccaa } : {}),
-      ...(vatExportB2B ? { options: { vatMode: "exportB2B" as const } } : {}),
+      // Task #52 + Task #51 — `options` agrupa señales opcionales que el
+      // visitante activó explícitamente (VAT B2B export, Hebesatz alemán).
+      // Solo se envía cuando hay al menos una señal, y combinamos ambas
+      // en el mismo objeto para mantener un único contenedor `options`
+      // (el schema lo permite y el email itera sobre los campos).
+      ...((vatExportB2B || effectiveHebesatz) ? {
+        options: {
+          ...(vatExportB2B ? { vatMode: "exportB2B" as const } : {}),
+          ...(effectiveHebesatz ? { germanyHebesatz: effectiveHebesatz } : {}),
+        },
+      } : {}),
       ...(expenseItems.length > 0 ? { expenseItems: expenseItems.map(it => ({ id: it.id, monthly: it.monthly })) } : {}),
     }).catch((e) => {
       clientLogger.warn("[calculator] submission failed", e);
@@ -478,6 +505,32 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                       </p>
                     </div>
                   )}
+                </div>
+              )}
+
+              {country === "alemania" && (
+                <div>
+                  <SectionLabel step="05">
+                    {t("calculator.germanyHebesatz", { defaultValue: "Municipio (Hebesatz)" })}
+                  </SectionLabel>
+                  <select
+                    value={germanyHebesatz}
+                    onChange={(e) => setGermanyHebesatz(e.target.value as "" | "low" | "medium" | "high")}
+                    className={`calc-select-chevron w-full rounded-full px-5 font-semibold text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border-2 border-[rgba(var(--green-rgb),0.3)] hover:border-[rgba(var(--green-rgb),0.5)] focus:border-[rgba(var(--green-rgb),0.65)] focus:outline-none focus:shadow-[0_0_0_4px_rgba(0,229,16,0.12)] transition-all ${compact ? "py-2.5 text-xs" : "py-3.5 text-sm"}`}
+                    data-testid="select-germany-hebesatz"
+                    title={t("calculator.germanyHebesatzNote", { defaultValue: "Gewerbesteuer = 3,5% × Hebesatz municipal." })}
+                  >
+                    <option value="">{t("calculator.germanyHebesatzPlaceholder", { defaultValue: "Selecciona un Hebesatz" })}</option>
+                    <option value="low" data-testid="option-germany-hebesatz-low">{t("calculator.germanyHebesatzLow", { defaultValue: "Bajo (≈250%)" })}</option>
+                    <option value="medium" data-testid="option-germany-hebesatz-medium">{t("calculator.germanyHebesatzMedium", { defaultValue: "Medio (≈400%)" })}</option>
+                    <option value="high" data-testid="option-germany-hebesatz-high">{t("calculator.germanyHebesatzHigh", { defaultValue: "Alto (≈490%)" })}</option>
+                  </select>
+                  <p
+                    className={`mt-1.5 text-[var(--text-3)] leading-snug ${compact ? "text-[10px]" : "text-[11px]"}`}
+                    data-testid="germany-hebesatz-note"
+                  >
+                    {t("calculator.germanyHebesatzNote", { defaultValue: "Gewerbesteuer = 3,5% × Hebesatz municipal (200%–580%)." })}
+                  </p>
                 </div>
               )}
             </div>

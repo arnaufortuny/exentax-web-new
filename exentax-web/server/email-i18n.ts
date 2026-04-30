@@ -136,16 +136,23 @@ export interface CalculatorFidelityLabels {
   tarifa: string;
   micro: string;
   exportB2B: string;
+  // Hebesatz municipal Alemania (Task #51): cuando el lead alemán
+  // eligió un Hebesatz distinto del default, el email muestra una fila
+  // "Municipio (Hebesatz): Bajo (≈250%)" para que el cálculo sea
+  // reproducible — el visitante recuerda exactamente con qué supuesto
+  // de tipo efectivo Gewerbesteuer obtuvo la cifra.
+  hebesatz: string;
+  hebesatzValues: { low: string; medium: string; high: string };
   structure: Record<string, string>;
 }
 
 export const CALCULATOR_FIDELITY_I18N: Record<SupportedLang, CalculatorFidelityLabels> = {
-  es: { best: "Estructura ganadora", vsAuto: "Frente a autónomo", vsSoc: "Frente a sociedad local", currency: "Divisa de visualización", opts: "Régimen especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", exportB2B: "Exportación B2B (IVA 0 % por inversión del sujeto pasivo)", structure: { autonomo: "Autónomo", sociedad: "Sociedad local", llc: "LLC US" } },
-  en: { best: "Winning structure", vsAuto: "Vs sole-trader", vsSoc: "Vs local company", currency: "Display currency", opts: "Special regime", tarifa: "Flat rate", micro: "Micro-entrepreneur", exportB2B: "B2B export (VAT 0% via reverse charge / out-of-scope)", structure: { autonomo: "Sole trader", sociedad: "Local company", llc: "US LLC" } },
-  fr: { best: "Structure gagnante", vsAuto: "Vs indépendant", vsSoc: "Vs société locale", currency: "Devise d'affichage", opts: "Régime spécial", tarifa: "Tarif plat", micro: "Micro-entrepreneur", exportB2B: "Exportation B2B (TVA 0 % via autoliquidation)", structure: { autonomo: "Indépendant", sociedad: "Société locale", llc: "LLC US" } },
-  de: { best: "Beste Struktur", vsAuto: "Vs Selbstständig", vsSoc: "Vs lokale GmbH", currency: "Anzeigewährung", opts: "Sonderregelung", tarifa: "Pauschaltarif", micro: "Micro-entrepreneur", exportB2B: "B2B-Export (USt. 0 % per Reverse-Charge)", structure: { autonomo: "Selbstständig", sociedad: "Lokale GmbH", llc: "US-LLC" } },
-  pt: { best: "Estrutura vencedora", vsAuto: "Vs trabalhador independente", vsSoc: "Vs sociedade local", currency: "Moeda de visualização", opts: "Regime especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", exportB2B: "Exportação B2B (IVA 0 % por reverse-charge)", structure: { autonomo: "Trabalhador independente", sociedad: "Sociedade local", llc: "LLC US" } },
-  ca: { best: "Estructura guanyadora", vsAuto: "Davant d'autònom", vsSoc: "Davant de societat local", currency: "Divisa de visualització", opts: "Règim especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", exportB2B: "Exportació B2B (IVA 0 % per inversió del subjecte passiu)", structure: { autonomo: "Autònom", sociedad: "Societat local", llc: "LLC US" } },
+  es: { best: "Estructura ganadora", vsAuto: "Frente a autónomo", vsSoc: "Frente a sociedad local", currency: "Divisa de visualización", opts: "Régimen especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", exportB2B: "Exportación B2B (IVA 0 % por inversión del sujeto pasivo)", hebesatz: "Municipio (Hebesatz)", hebesatzValues: { low: "Bajo (≈250%)", medium: "Medio (≈400%)", high: "Alto (≈490%) — Múnich / Frankfurt" }, structure: { autonomo: "Autónomo", sociedad: "Sociedad local", llc: "LLC US" } },
+  en: { best: "Winning structure", vsAuto: "Vs sole-trader", vsSoc: "Vs local company", currency: "Display currency", opts: "Special regime", tarifa: "Flat rate", micro: "Micro-entrepreneur", exportB2B: "B2B export (VAT 0% via reverse charge / out-of-scope)", hebesatz: "German municipality (Hebesatz)", hebesatzValues: { low: "Low (≈250%)", medium: "Medium (≈400%)", high: "High (≈490%) — Munich / Frankfurt" }, structure: { autonomo: "Sole trader", sociedad: "Local company", llc: "US LLC" } },
+  fr: { best: "Structure gagnante", vsAuto: "Vs indépendant", vsSoc: "Vs société locale", currency: "Devise d'affichage", opts: "Régime spécial", tarifa: "Tarif plat", micro: "Micro-entrepreneur", exportB2B: "Exportation B2B (TVA 0 % via autoliquidation)", hebesatz: "Commune (Hebesatz)", hebesatzValues: { low: "Faible (≈250 %)", medium: "Moyen (≈400 %)", high: "Élevé (≈490 %) — Munich / Francfort" }, structure: { autonomo: "Indépendant", sociedad: "Société locale", llc: "LLC US" } },
+  de: { best: "Beste Struktur", vsAuto: "Vs Selbstständig", vsSoc: "Vs lokale GmbH", currency: "Anzeigewährung", opts: "Sonderregelung", tarifa: "Pauschaltarif", micro: "Micro-entrepreneur", exportB2B: "B2B-Export (USt. 0 % per Reverse-Charge)", hebesatz: "Gemeinde (Hebesatz)", hebesatzValues: { low: "Niedrig (≈250 %)", medium: "Mittel (≈400 %)", high: "Hoch (≈490 %) — München / Frankfurt" }, structure: { autonomo: "Selbstständig", sociedad: "Lokale GmbH", llc: "US-LLC" } },
+  pt: { best: "Estrutura vencedora", vsAuto: "Vs trabalhador independente", vsSoc: "Vs sociedade local", currency: "Moeda de visualização", opts: "Regime especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", exportB2B: "Exportação B2B (IVA 0 % por reverse-charge)", hebesatz: "Município (Hebesatz)", hebesatzValues: { low: "Baixo (≈250%)", medium: "Médio (≈400%)", high: "Alto (≈490%) — Munique / Frankfurt" }, structure: { autonomo: "Trabalhador independente", sociedad: "Sociedade local", llc: "LLC US" } },
+  ca: { best: "Estructura guanyadora", vsAuto: "Davant d'autònom", vsSoc: "Davant de societat local", currency: "Divisa de visualització", opts: "Règim especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", exportB2B: "Exportació B2B (IVA 0 % per inversió del subjecte passiu)", hebesatz: "Municipi (Hebesatz)", hebesatzValues: { low: "Baix (≈250%)", medium: "Mitjà (≈400%)", high: "Alt (≈490%) — Munic / Frankfurt" }, structure: { autonomo: "Autònom", sociedad: "Societat local", llc: "LLC US" } },
 };
 
 export function getCalculatorFidelityLabels(lang?: string | null): CalculatorFidelityLabels {

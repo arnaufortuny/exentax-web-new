@@ -264,4 +264,102 @@ test.describe("calculator flow", () => {
       expect(options?.vatMode).toBe("exportB2B");
     });
   }
+
+  /**
+   * Task #51 — Alemania + sociedad: el visitante puede elegir un Hebesatz
+   * municipal (250 / 400 / 490 %). El cambio tiene que recalcular la
+   * comparativa (los dos cuadros principales y el `text-ahorro`) y
+   * reflejarse en el desglose Gewerbesteuer. Para que el caso sea
+   * inequívocamente reproducible, fijamos el ingreso en 8000 €/mes
+   * (96 000 €/año), bien por encima de los Freibetrags de Soli, donde
+   * la diferencia entre Hebesatz=low (≈8,75 % efectivo) y Hebesatz=high
+   * (≈17,15 %) cambia el Gewerbesteuer en miles de euros — imposible que
+   * los dos render arrojen la misma cifra de Gewerbesteuer y, por tanto,
+   * el mismo `text-ahorro`.
+   *
+   * También afirmamos que el campo viaja al backend dentro de
+   * `options.germanyHebesatz` (Task #51 espera persistirlo y mostrarlo
+   * en el email de fidelidad).
+   */
+  test("Alemania + sociedad: el Hebesatz recalcula y aparece en el desglose", async ({ page }) => {
+    const capture: LeadCapture = { payload: null };
+    await stubCalculatorLead(page, capture);
+
+    await page.goto("/start");
+    await ensureCalculatorMounted(page);
+
+    // Country: Alemania.
+    await page.getByTestId("button-country-alemania").click();
+
+    // Regime: sociedad (la rama donde se aplica Gewerbesteuer).
+    await page.getByTestId("select-regime").selectOption("sociedad");
+
+    // Activity: digitalServices (default razonable, el ratio de gastos
+    // por defecto no afecta a la asimetría que estamos midiendo).
+    await page.getByTestId("select-activity").selectOption("digitalServices");
+
+    // Income: 8000 €/mes — el delta Hebesatz-low → Hebesatz-high es
+    // varios miles de euros a este nivel, así que el comparador NO
+    // puede colapsar las dos cifras.
+    const incomeInput = page.getByTestId("text-income-value");
+    await incomeInput.click();
+    await incomeInput.fill("8000");
+    await incomeInput.blur();
+
+    // Selector de Hebesatz visible y con todas las opciones.
+    const hebesatz = page.getByTestId("select-germany-hebesatz");
+    await expect(hebesatz).toBeVisible();
+    await expect(page.getByTestId("germany-hebesatz-note")).toBeVisible();
+
+    // Empezamos con Hebesatz=low y enviamos el formulario para llegar
+    // a la pantalla de resultados.
+    await hebesatz.selectOption("low");
+
+    await expect(page.getByTestId("form-email-gate")).toBeVisible({ timeout: 10_000 });
+    await page.getByTestId("input-email-gate").fill("hebesatz+e2e@example.com");
+    await page.getByTestId("input-phone-gate").fill("612345678");
+    const privacyCheckbox = page.getByTestId("checkbox-privacy");
+    await privacyCheckbox.click({ force: true });
+    await expect(privacyCheckbox).toBeChecked({ timeout: 5_000 });
+
+    const leadRequestPromise: Promise<Request> = page.waitForRequest(
+      (req) => req.url().includes("/api/calculator-leads") && req.method() === "POST",
+      { timeout: 15_000 },
+    );
+    await page.getByTestId("button-submit-email").click();
+    const leadRequest = await leadRequestPromise;
+    expect(leadRequest, "POST /api/calculator-leads fired").toBeTruthy();
+
+    await expect(page.getByTestId("calculator-results")).toBeVisible({ timeout: 15_000 });
+
+    // Captura el ahorro con Hebesatz=low.
+    const ahorroLow = (await page.getByTestId("text-ahorro").textContent())?.trim() || "";
+    expect(ahorroLow, "ahorro rendered for Hebesatz=low").not.toBe("");
+    expect(ahorroLow).toMatch(/[€$£]|EUR|USD|GBP/);
+
+    // Lead payload con Hebesatz=low.
+    expect(capture.payload, "lead payload captured").not.toBeNull();
+    const payloadLow = capture.payload as Record<string, unknown>;
+    expect(payloadLow.country).toBe("alemania");
+    expect(payloadLow.regime).toBe("sociedad");
+    expect(payloadLow.options).toEqual(expect.objectContaining({ germanyHebesatz: "low" }));
+
+    // Cambiamos a Hebesatz=high. El recálculo es inmediato (useMemo
+    // depende de germanyHebesatz), así que el `text-ahorro` debe
+    // reflejar otra cifra sin recargar la página.
+    await hebesatz.selectOption("high");
+    const ahorroEl = page.getByTestId("text-ahorro");
+    await expect(ahorroEl).not.toHaveText(ahorroLow, { timeout: 5_000 });
+    const ahorroHigh = (await ahorroEl.textContent())?.trim() || "";
+    expect(ahorroHigh).toMatch(/[€$£]|EUR|USD|GBP/);
+    expect(ahorroHigh).not.toBe(ahorroLow);
+
+    // El desglose tiene que incluir la línea de Gewerbesteuer (id de
+    // breakdown estable: el label es la clave i18n `calculator.bd.alemania.gewerbe`,
+    // ver `calcGermanTax` en `client/src/lib/calculator.ts`).
+    await page.getByTestId("button-toggle-breakdown").click();
+    await expect(
+      page.getByTestId("text-breakdown-calculator.bd.alemania.gewerbe"),
+    ).toBeVisible();
+  });
 });
