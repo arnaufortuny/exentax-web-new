@@ -156,9 +156,53 @@ clave maestra en `FIELD_ENCRYPTION_KEY` — 64 hex chars).
   una sola vez. Útil para tests locales.
 - **Rotación**: al cambiar la clave, las filas existentes quedan
   ilegibles (los `ef:`-prefixed values incluyen IV+tag pero no key id).
-  Procedimiento: leer todo, descifrar con clave vieja, re-encriptar con
-  nueva, escribir. **Pendiente** automatizar este script — actualmente
-  manual via consola.
+  Para rotar usa el script
+  [`scripts/rotate-encryption-key.ts`](../scripts/rotate-encryption-key.ts):
+
+  ```bash
+  # 1. Genera la nueva clave (64 hex chars / 32 bytes)
+  NEW=$(openssl rand -hex 32)
+
+  # 2. (Opcional) dry-run: cuenta qué filas se re-encriptarían sin escribir
+  OLD_KEY=$FIELD_ENCRYPTION_KEY NEW_KEY=$NEW \
+    tsx exentax-web/scripts/rotate-encryption-key.ts
+
+  # 3. Aplicar la rotación, en lotes transaccionales
+  OLD_KEY=$FIELD_ENCRYPTION_KEY NEW_KEY=$NEW \
+    tsx exentax-web/scripts/rotate-encryption-key.ts --apply
+
+  # 4. Cambia FIELD_ENCRYPTION_KEY=$NEW en el secret store y reinicia la app
+  ```
+
+  Garantías:
+
+  - **Idempotente**: cada fila se intenta primero descifrar con `NEW_KEY`;
+    si ya está rotada se salta. Re-ejecutar tras un fallo parcial es
+    seguro y reanuda donde quedó.
+  - **Transaccional por lote** (`--batch-size=N`, default 100). Si un
+    `UPDATE` falla, el lote entero hace rollback y el script aborta con
+    código ≠ 0.
+  - **Refuse-on-misuse**: aborta si las claves son iguales o no son
+    exactamente 64 hex chars; no escribe nada en `--dry-run`; nunca toca
+    filas en plaintext (sin prefijo `ef:`).
+  - **Filas huérfanas**: las que no descifran ni con `OLD_KEY` ni con
+    `NEW_KEY` se reportan al final con su id y el script sale con código
+    `2` para que el operador las investigue antes de retirar la clave
+    vieja.
+
+  Si añades una columna PII nueva (lista en el cuadro de arriba), añádela
+  también a `TARGETS` en `scripts/rotate-encryption-key.ts` — el script
+  no descubre columnas automáticamente, igual que `LEAD_SENSITIVE` /
+  `AGENDA_SENSITIVE` en `server/storage/*.ts`.
+
+  **Precaución operativa**: la paginación es por `id` ascendente. Si la
+  app sigue admitiendo escrituras durante la rotación, una fila nueva
+  insertada con un `id` lexicográficamente menor que el cursor actual
+  podría no entrar en esta corrida. Mitigación: ejecuta la rotación en
+  una ventana de bajo tráfico y vuelve a correr el script (con
+  `--apply`, idempotente) inmediatamente antes de cambiar
+  `FIELD_ENCRYPTION_KEY` en producción — la segunda pasada barre
+  cualquier fila tardía bajo `OLD_KEY` y no toca las ya rotadas.
 
 ## 6. Tablas reservadas / pendientes de uso
 

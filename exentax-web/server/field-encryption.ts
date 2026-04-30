@@ -101,6 +101,63 @@ function isEncryptedField(value: string | null | undefined): boolean {
     && /^[0-9a-f]+$/.test(parts[0]) && /^[0-9a-f]+$/.test(parts[1]) && /^[0-9a-f]+$/.test(parts[2]);
 }
 
+/**
+ * Public predicate used by the key-rotation script to identify which rows
+ * carry the `ef:` envelope (and therefore need to be re-encrypted) vs.
+ * legacy plaintext rows that should be left alone.
+ */
+export function isFieldEncryptionEnvelope(value: string | null | undefined): boolean {
+  return isEncryptedField(value);
+}
+
+/**
+ * Encryption / decryption primitives that take an explicit key buffer
+ * instead of consulting `process.env.FIELD_ENCRYPTION_KEY`. Exists so the
+ * key-rotation script (`scripts/rotate-encryption-key.ts`) can decrypt with
+ * the OLD key and re-encrypt with the NEW key inside the same process
+ * without having to swap module-level state. The runtime application path
+ * still uses the cached-key `encryptField` / `decryptField` above — never
+ * change a request handler to call these directly.
+ *
+ * `key` must be exactly 32 bytes (AES-256) or these functions throw. They
+ * never silently degrade to "store as plaintext" the way the runtime path
+ * does in dev — the rotation tool is operator-invoked and should fail loud.
+ */
+export function encryptFieldWithKey(key: Buffer, plaintext: string): string {
+  if (key.length !== 32) throw new Error("encryptFieldWithKey: key must be 32 bytes");
+  const iv = crypto.randomBytes(IV_LENGTH);
+  const cipher = crypto.createCipheriv(ALGORITHM, key, iv);
+  const encrypted = Buffer.concat([cipher.update(plaintext, "utf8"), cipher.final()]);
+  const tag = cipher.getAuthTag();
+  return PREFIX + iv.toString("hex") + ":" + tag.toString("hex") + ":" + encrypted.toString("hex");
+}
+
+/**
+ * Returns the decrypted plaintext, or null if the value cannot be decrypted
+ * with the supplied key. Distinguishing "not encrypted" from "encrypted with
+ * a different key" matters for the rotation script: legacy plaintext rows
+ * are skipped, but rows encrypted under an unknown key are surfaced as
+ * errors so the operator notices a missing key generation.
+ */
+export function tryDecryptFieldWithKey(key: Buffer, stored: string): string | null {
+  if (!isEncryptedField(stored)) return null;
+  if (key.length !== 32) throw new Error("tryDecryptFieldWithKey: key must be 32 bytes");
+  try {
+    const parts = stored.slice(PREFIX.length).split(":");
+    const iv = Buffer.from(parts[0], "hex");
+    const tag = Buffer.from(parts[1], "hex");
+    const ciphertext = Buffer.from(parts[2], "hex");
+    if (iv.length !== IV_LENGTH || tag.length !== TAG_LENGTH) return null;
+    const decipher = crypto.createDecipheriv(ALGORITHM, key, iv, { authTagLength: TAG_LENGTH });
+    decipher.setAuthTag(tag);
+    const decrypted = Buffer.concat([decipher.update(ciphertext), decipher.final()]);
+    return decrypted.toString("utf8");
+  } catch {
+    // Auth-tag mismatch (wrong key) or malformed envelope. Caller decides.
+    return null;
+  }
+}
+
 export type SensitiveFieldName = "phone";
 
 const ALL_SENSITIVE: readonly SensitiveFieldName[] = ["phone"];
