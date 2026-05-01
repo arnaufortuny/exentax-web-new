@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-04-30T15:59:07.510Z",
+    "generatedAt": "2026-05-01T09:20:01.581Z",
     "totalArticles": 672,
     "meanScore": 100,
     "byLang": {
@@ -97,7 +97,7 @@
     {
       "slug": "boi-report-fincen-guia-completa-2026",
       "lang": "es",
-      "words": 3560,
+      "words": 3580,
       "score": 100,
       "findings": []
     },
@@ -309,7 +309,7 @@
     {
       "slug": "boi-report-fincen-guia-completa-2026",
       "lang": "es",
-      "words": 3560,
+      "words": 3580,
       "score": 100,
       "findings": []
     },
@@ -4229,7 +4229,7 @@
     {
       "slug": "boi-report-fincen-guia-completa-2026",
       "lang": "ca",
-      "words": 3440,
+      "words": 3463,
       "score": 100,
       "findings": []
     },

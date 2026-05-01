@@ -147,7 +147,7 @@ El BOI ha sido la obligación más cambiante de los últimos 24 meses; la versi�
 
 **¿Cuál es la sanción si caigo en el ámbito y me retraso?** Hasta **591 USD por cada día** de retraso (cuantía civil ajustada anualmente por inflación) y, en casos de incumplimiento doloso, hasta **10.000 USD y 2 años de prisión** según 31 U.S.C. §5336. Por eso, si encajas como foreign reporting company, conviene presentar dentro de plazo y, si tienes BOIR atrasados, regularizar antes de que llegue el requerimiento. Tranquilo: en Exentax esto es trabajo de cada semana, lo gestionamos antes de que la carta llegue a tu buzón.
 
-**¿Qué guardo como prueba?** El **BOIR Confirmation Number** que entrega el portal **boiefiling.fincen.gov** al finalizar la presentación, más el PDF de transmisión. Es la prueba estándar ante una eventual auditoría.
+**¿Qué guardo como prueba?** El **BOIR Confirmation Number** que entrega el portal **boiefiling.fincen.gov** al finalizar la presentación, más el PDF de transmisión. Es la prueba estándar ante una eventual auditoría. Aquí entra Exentax: te presentamos el formulario, archivamos el acuse y, si la administración pregunta, ya tienes la respuesta lista.
 
 **¿Quién es exactamente un beneficiario efectivo?** Cualquier persona física que, directa o indirectamente, posea **≥ 25 %** de la LLC o ejerza **control sustancial** (por ejemplo, un directivo o cualquier persona con autoridad para vincular a la entidad). De cada uno se reportan nombre legal, fecha de nacimiento, dirección residencial y número de pasaporte o documento oficial vigente.
 

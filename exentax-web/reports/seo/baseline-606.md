@@ -1,6 +1,6 @@
 # Blog masterpiece audit — baseline 606
 
-Generado: 2026-04-30T15:59:07.510Z
+Generado: 2026-05-01T09:20:01.581Z
 Artículos auditados: **672**
 Score medio: **100 / 100**
 
@@ -30,7 +30,7 @@ Score medio: **100 / 100**
 | es | autonomos-espana-por-que-dejar-de-serlo | 100 | 3293 | — |
 | es | bancos-vs-fintech-llc-donde-abrir-cuenta | 100 | 3029 | — |
 | es | boe-febrero-2020-llc-doctrina-administrativa | 100 | 3897 | — |
-| es | boi-report-fincen-guia-completa-2026 | 100 | 3560 | — |
+| es | boi-report-fincen-guia-completa-2026 | 100 | 3580 | — |
 | es | bookkeeping-llc-paso-a-paso | 100 | 3993 | — |
 | es | cambiar-divisas-llc-mejores-opciones | 100 | 2965 | — |
 | es | cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad | 100 | 3495 | — |

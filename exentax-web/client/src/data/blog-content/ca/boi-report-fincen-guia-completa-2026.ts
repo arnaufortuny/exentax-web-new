@@ -142,7 +142,7 @@ El BOI ha estat l'obligació més canviant dels darrers 24 mesos; la versió vig
 
 **Qui és exactament un beneficiari efectiu?** Qualsevol persona física que, directament o indirectament, posseeixi **≥ 25 %** de la LLC o exerceixi **control substancial** (per exemple, un directiu o qualsevol persona amb autoritat per vincular l'entitat). De cadascuna es reporta nom legal, data de naixement, adreça residencial i número de passaport o document oficial vigent.
 
-**Com funciona a la pràctica la finestra d'actualització de 30 dies?** Qualsevol canvi en les dades presentades (nou passaport, nova adreça residencial, nou soci que creua el llindar del 25 %, canvi de nom de la LLC) obre una **finestra de 30 dies** per tornar a presentar a través de **boiefiling.fincen.gov**. El FinCEN tracta l'incompliment d'aquesta actualització com si haguessis omès la presentació inicial i t'exposa a les mateixes sancions civils i penals.
+**Com funciona a la pràctica la finestra d'actualització de 30 dies?** Qualsevol canvi en les dades presentades (nou passaport, nova adreça residencial, nou soci que creua el llindar del 25 %, canvi de nom de la LLC) obre una **finestra de 30 dies** per tornar a presentar a través de **boiefiling.fincen.gov**. El FinCEN tracta l'incompliment d'aquesta actualització com si haguessis omès la presentació inicial i t'exposa a les mateixes sancions civils i penals. Per això, a Exentax et portem el calendari al dia — tu deixes de pensar en terminis i nosaltres els tanquem abans que mosseguin.
 
 ## BOI i obligacions declaratives a Catalunya i Andorra
 
