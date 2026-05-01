@@ -238,8 +238,8 @@ test.describe("analytics events", () => {
     await page.getByTestId("button-country-espana").click();
     await page.getByTestId("select-regime").selectOption("autonomo");
     await page.getByTestId("select-activity").selectOption("digitalServices");
-    await expect(page.getByTestId("select-ccaa-profile")).toBeVisible();
-    await page.getByTestId("select-ccaa-profile").selectOption("high");
+    await expect(page.getByTestId("select-ccaa")).toBeVisible();
+    await page.getByTestId("select-ccaa").selectOption("cataluna");
 
     const incomeInput = page.getByTestId("text-income-value");
     await incomeInput.click();

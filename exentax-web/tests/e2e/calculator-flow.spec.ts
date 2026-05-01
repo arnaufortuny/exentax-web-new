@@ -7,7 +7,7 @@ import { suppressCookieBanner } from "./_setup";
  * The calculator widget (`<Calculator>`) is mounted on `/start` (a
  * calculator-only landing) and on the home `/es` Hero in `compact`
  * mode. We use `/start` because it renders the full (non-compact)
- * widget and exposes every test-id we need (`select-ccaa-profile`
+ * widget and exposes every test-id we need (`select-ccaa`
  * only renders when country = "espana").
  *
  * Coverage:
@@ -79,9 +79,12 @@ test.describe("calculator flow", () => {
     // Activity: digitalServices.
     await page.getByTestId("select-activity").selectOption("digitalServices");
 
-    // CCAA: high (Cataluña/Valencia/Asturias).
-    await expect(page.getByTestId("select-ccaa-profile")).toBeVisible();
-    await page.getByTestId("select-ccaa-profile").selectOption("high");
+    // CCAA: Cataluña (perfil "high"; ver CCAA_PROFILE_MAP — junto a
+    // Valencia y Asturias). El <select> emite la clave de la CCAA
+    // directamente, no el perfil agregado, así que seleccionamos por
+    // clave.
+    await expect(page.getByTestId("select-ccaa")).toBeVisible();
+    await page.getByTestId("select-ccaa").selectOption("cataluna");
 
     // Income: 5000 monthly (default mode is monthly).
     const incomeInput = page.getByTestId("text-income-value");
@@ -183,7 +186,7 @@ test.describe("calculator flow", () => {
     await page.getByTestId("button-country-reino-unido").click();
 
     // CCAA only renders when country === "espana".
-    await expect(page.getByTestId("select-ccaa-profile")).toHaveCount(0);
+    await expect(page.getByTestId("select-ccaa")).toHaveCount(0);
   });
 
   /**
