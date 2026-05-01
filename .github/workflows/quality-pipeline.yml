@@ -64,6 +64,41 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # ---------------------------------------------------------------
+      # Playwright (Task #83): el gate `npm run test:e2e:gate` que se
+      # añade a `npm run check` necesita el binario de chromium en
+      # `~/.cache/ms-playwright`. Reproducimos el mismo patrón que
+      # usa `e2e.yml` (cache + install-or-install-deps) pero SOLO para
+      # chromium — el gate local únicamente corre ese proyecto; la
+      # matriz completa (firefox/webkit/mobile/tablet) sigue siendo
+      # responsabilidad de `e2e.yml`. El wrapper
+      # `scripts/test-e2e-gate.mjs` aborta con un mensaje accionable
+      # si el binario no aparece, así que omitir estos steps haría
+      # que el gate fallara con instrucciones de instalación en CI
+      # — útil como salvavidas, pero gastaríamos un run rojo cada
+      # vez. Mejor instalarlo proactivamente y compartir cache con
+      # `e2e.yml` (la clave es la misma → se hidrata mutuamente).
+      - name: Resolve pinned Playwright version
+        id: playwright-version
+        run: |
+          version=$(node -p "require('./package-lock.json').packages['node_modules/@playwright/test'].version")
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers (chromium)
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright-version.outputs.version }}
+
+      - name: Install Playwright chromium (cache miss)
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Install Playwright system deps (cache hit)
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
       - name: Bootstrap database schema
         run: |
           # drizzle.config.ts is not committed; write an ephemeral one so

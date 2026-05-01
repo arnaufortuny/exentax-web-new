@@ -108,3 +108,77 @@ node scripts/audit/auditoria-rutas-componentes-discord-emails.mjs summary
 ```
 
 Variable opcional: `AUDIT_BASE_URL` (por defecto `http://localhost:5000`).
+
+## Tarea #83 — Playwright e2e en el gate (diagnóstico Fase 0)
+
+**Síntoma observado.** El test-id `select-ccaa-profile` se renombró a
+`select-ccaa` en `client/src/components/calculator/index.tsx` y la
+referencia en `tests/e2e/calculator-flow.spec.ts` (5 sitios) y
+`tests/e2e/analytics-events.spec.ts` (2 sitios) quedó obsoleta sin
+que el gate `npm run check` ni `quality-pipeline.yml` se pusieran
+rojos en ese commit. El test e2e nuevo del Hebesatz que añadió #51
+(`calculator-flow.spec.ts:308-340`) tampoco se ha visto verde nunca
+porque el setup intermedio revienta antes de llegar a su assertion.
+
+**Por qué se escapó.** Hay dos agujeros independientes:
+
+1. **Local / `quality-pipeline.yml`.** El script
+   `scripts/check.mjs` (y por tanto `npm run check`) NO incluía
+   `npm run test:e2e` en su lista `STEPS`, ni en `check:serial`. El
+   gate de feedback rápido jamás abría un navegador; era imposible
+   detectar drift de `data-testid` en el commit que lo introducía.
+   `quality-pipeline.yml` reproduce `check:serial` script-a-script,
+   así que heredaba el mismo agujero.
+2. **`e2e.yml`.** El workflow corre la matriz de 7 navegadores en
+   cada push/PR a `main` y sí debería haber cazado el drift. El
+   código del workflow está bien (`fail-fast: false`,
+   `quarantined: false` en los 7 legs, artifacts con 14 días de
+   retención). Lo que la nota fuente del task #83 marca como
+   conjetura — y que no podemos confirmar desde el código del repo
+   (las settings de branch protection no son código) — es alguna
+   combinación de:
+     - Los legs `Playwright E2E (chromium|firefox|webkit|…)` no
+       están como **required checks** en branch protection del
+       `main`, por lo que un PR podía mergear con esos jobs en
+       rojo.
+     - O el workflow se introdujo con `e2e.yml` después del commit
+       que renombró el test-id, y nadie revisó la primera tanda de
+       runs rojos.
+   El propio README de la suite (`tests/e2e/README.md` §"Running
+   in CI") ya pide explícitamente: "Mark every non-quarantined
+   matrix leg … as required checks in branch protection". Si esa
+   recomendación no se aplicó, esta tarea no puede arreglarlo (no
+   tiene permisos sobre las settings de GitHub) — queda como
+   follow-up para el owner del repo.
+
+**Lo que cambia con esta tarea (Task #83).**
+
+- Se añade `npm run test:e2e:gate` (wrapper sobre
+  `scripts/test-e2e-gate.mjs`) tanto a `check:serial` como al array
+  `STEPS` de `scripts/check.mjs` (`weight: 90`, conservador).
+  Resultado: un drift de `data-testid` o de selector pone rojo
+  `npm run check` y `quality-pipeline.yml` en el mismo commit.
+- El wrapper pre-vuela el binario de chromium y emite un mensaje
+  accionable (con el `npx playwright install chromium` exacto) en
+  lugar de dejar que Playwright explote con un stack críptico.
+  Respeta `SKIP_E2E=1` para opt-out puntual.
+- El wrapper despoja `CI` del entorno antes de lanzar Playwright
+  para que `playwright.config.ts::useWebServer` quede `false` y
+  Playwright NO intente levantar un segundo dev server sobre el
+  que ya tiene levantado `prewarmDevServer()` en :5000 (evita
+  port collision).
+- `analytics-events.spec.ts` queda excluido del gate local
+  (`--grep-invert "analytics events"`) porque exige
+  `E2E_TEST_HOOKS=1` en el dev server y modificar el pre-warm para
+  inyectar ese flag tendría blast radius sobre todo el dev server
+  compartido. Ese spec sigue cubierto por la matriz de `e2e.yml`
+  (donde Playwright sí spawn su propio server con el flag puesto).
+
+**Lo que NO cambia.**
+
+- `e2e.yml` sigue corriendo la matriz completa de 7 navegadores
+  intacta. No se quarantine ni desactiva ningún leg.
+- Ningún spec se modifica: la intención es enchufar lo que hay,
+  no rediseñar la suite.
+- Branch protection sigue siendo responsabilidad del owner del
+  repo (fuera del scope de esta tarea, follow-up creado).

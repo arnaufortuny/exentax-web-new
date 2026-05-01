@@ -122,6 +122,67 @@ If neither is true, the spec's `ensureHookEnabled` helper throws a
 clear error pointing back here rather than silently passing on an
 empty `dataLayer`.
 
+## Running as part of `npm run check` (Task #83)
+
+The Playwright suite is wired into the local quality gate via
+`npm run test:e2e:gate` (added to `check:serial` and registered in
+`scripts/check.mjs`'s `STEPS` table). This closes the historical
+window where a broken `data-testid` (e.g. `select-ccaa-profile` →
+`select-ccaa`) could pass `npm run check` and `quality-pipeline.yml`
+on the same commit and only turn red hours later via `e2e.yml`.
+
+What runs in the gate vs. what runs in `e2e.yml`:
+
+| Surface | `npm run check` (local + `quality-pipeline.yml`) | `e2e.yml` (separate workflow) |
+| --- | --- | --- |
+| `chromium` | ✅ via `test:e2e:gate` | ✅ |
+| `firefox` / `webkit` | — | ✅ |
+| `mobile-chrome` / `mobile-safari` | — | ✅ |
+| `tablet-ipad` / `tablet-android` | — | ✅ |
+| `analytics-events.spec.ts` | — (skipped, needs `E2E_TEST_HOOKS=1` on the dev server) | ✅ (Playwright spawns its own server with the flag set) |
+| Other 5 specs | ✅ | ✅ |
+
+The two are complementary, not redundant. The gate is the fast
+feedback loop ("did THIS commit break a flow?"); the matrix
+workflow is the regression net for cross-browser drift.
+
+### `scripts/test-e2e-gate.mjs`
+
+The wrapper exists so the gate fails *informatively* instead of
+crashing when prerequisites are absent. It:
+
+1. Honours `SKIP_E2E=1` (exit 0 with a clear "skipped" line).
+2. Pre-flights the chromium binary under
+   `$PLAYWRIGHT_BROWSERS_PATH` (or `~/.cache/ms-playwright`). If
+   missing, exits 1 with the exact `npx playwright install
+   chromium` command to run.
+3. Strips `CI` from the spawned env so
+   `playwright.config.ts::useWebServer` stays `false` and we don't
+   collide with the dev server `scripts/check.mjs::prewarmDevServer`
+   already booted on :5000.
+4. Runs `playwright test --project=chromium --grep-invert
+   "analytics events"`. The grep-invert can be disabled by setting
+   `E2E_GATE_INCLUDE_ANALYTICS=1` (only useful when you started the
+   dev server with `E2E_TEST_HOOKS=1` yourself).
+5. Forwards any extra CLI args, so `npm run test:e2e:gate --
+   tests/e2e/calculator-flow.spec.ts` works for triage.
+
+Local one-liner to install the browser the gate needs (≈170 MB,
+one-time):
+
+```bash
+cd exentax-web && \
+  PLAYWRIGHT_BROWSERS_PATH=$HOME/.cache/ms-playwright \
+  npx playwright install chromium
+```
+
+To opt out for a single `npm run check` run (e.g. while triaging an
+unrelated failure):
+
+```bash
+SKIP_E2E=1 npm run check
+```
+
 ## Running in CI
 
 The GitHub Actions workflow `.github/workflows/e2e.yml` runs **two
