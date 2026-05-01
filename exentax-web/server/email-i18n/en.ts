@@ -260,7 +260,7 @@ export const enTranslations: EmailTranslations = {
             "When someone gets this far, there are always three things on their mind.",
             "Whether it’s legal. Whether the tax authority knows. What happens to their pension.",
             "All three have a clear answer.",
-            "It’s completely legal. The double taxation treaty between Spain and the United States covers exactly this structure. What isn’t legal is not declaring your profits on your income tax return, and that’s the first thing we review with every client.",
+            "It’s completely legal. Most countries that source income from US LLCs already have a double-taxation treaty with the United States that covers exactly this structure. What isn’t legal is not declaring your profits on your income tax return, and that’s the first thing we review with every client.",
             "Tax authorities know all about US LLCs. It’s not a secret or a loophole. It’s a structure that thousands of Europeans use correctly every year.",
             "The pension is a personal decision. Many of our clients put part of their savings into private pension plans with better returns. We walk you through it without any pressure so you can decide with full information.",
             "Got a question that isn’t covered here? Reply directly. I read every email.",
