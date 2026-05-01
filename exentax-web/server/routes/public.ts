@@ -1125,6 +1125,18 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         // Audit Task #8 — extended persistence so a calculation can be
         // replayed for support / fact-check / analytics with full fidelity.
         displayCurrency: parsed.data.displayCurrency ?? null,
+        // Task #78: the JSON blob persisted here is the canonical
+        // long-term store for every replayable knob the visitor toggled —
+        // including `germanyHebesatz` (low/medium/high) for German leads.
+        // Reporting / analytics over historical leads can therefore
+        // recover the exact Hebesatz a visitor picked by parsing this
+        // column (the column is `text` so the cast is explicit:
+        // `SELECT (opciones::jsonb)->>'germanyHebesatz' FROM calculations
+        // WHERE pais = 'alemania' AND opciones IS NOT NULL`).
+        // Keep this in sync with the strict
+        // schema in `calculator-lead-schema.ts` — anything added there
+        // is automatically captured here because we serialize the whole
+        // validated `options` object as-is.
         options: parsed.data.options ? JSON.stringify(parsed.data.options) : null,
         bestStructureId: parsed.data.bestStructureId ?? null,
         llcVsAutonomo: typeof parsed.data.llcVsAutonomo === "number" ? String(parsed.data.llcVsAutonomo) : null,
@@ -1235,6 +1247,15 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     notifyCalculatorLead({
       leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime,
       ahorro: parsed.data.ahorro, annualIncome, monthlyIncome, localTax: parsed.data.sinLLC, llcTax: parsed.data.conLLC,
+      // Task #78: surface the Hebesatz to operators alongside the country
+      // so the Discord card explains why two German leads with the same
+      // income show different `ahorro` (München/Frankfurt at ≈490 %
+      // vs a small town at ≈250 % is several thousand €/year apart).
+      // Persistence already happens inside the tx above:
+      // `calculations.options` (JSON column) is `JSON.stringify(parsed.data.options)`,
+      // which includes `germanyHebesatz`; this notify is the operator-facing
+      // mirror of the same value (no second source of truth).
+      germanyHebesatz: parsed.data.options?.germanyHebesatz ?? null,
       language: parsed.data.language, ip: calcIp, marketingAccepted: parsed.data.marketingAccepted, privacyAccepted: parsed.data.privacyAccepted,
     });
     // A4: Discord audit (operational) — fired AFTER the consent_log row

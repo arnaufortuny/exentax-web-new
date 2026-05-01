@@ -1767,6 +1767,15 @@ export function notifyCalculatorLead(opts: {
   monthlyIncome?: number | null;
   localTax?: number | null;
   llcTax?: number | null;
+  // Task #78: Hebesatz municipal alemán (low/medium/high) — el operador
+  // necesita verlo junto al país en el aviso de calculadora porque
+  // condiciona la cifra de Gewerbesteuer y, por tanto, el `ahorro`. El
+  // valor canónico (low/medium/high) ya viaja al backend dentro de
+  // `options.germanyHebesatz` (Task #51) y se persiste en
+  // `calculations.options` (JSON column) para reporting / replay; aquí
+  // sólo lo emitimos en el card cuando el lead es de Alemania, para no
+  // añadir ruido a los del resto de países.
+  germanyHebesatz?: "low" | "medium" | "high" | null;
   language?: string | null;
   ip?: string | null;
   marketingAccepted?: boolean;
@@ -1787,6 +1796,18 @@ export function notifyCalculatorLead(opts: {
   push(fields, "Pais", opts.country);
   push(fields, "Regimen fiscal", opts.regime);
   push(fields, "Actividad", opts.activity);
+  // Hebesatz alemán — sólo cuando el país es Alemania y el cliente
+  // mandó un valor explícito (clientes anteriores a Task #51 no lo
+  // mandan; el cálculo cae al perfil "medium" por defecto y omitimos
+  // la fila para no afirmar algo que el visitante no eligió).
+  if (opts.country === "alemania"
+    && (opts.germanyHebesatz === "low" || opts.germanyHebesatz === "medium" || opts.germanyHebesatz === "high")
+  ) {
+    const hbLabel = opts.germanyHebesatz === "low" ? "Bajo (≈250%)"
+      : opts.germanyHebesatz === "high" ? "Alto (≈490%)"
+      : "Medio (≈400%)";
+    pushAlways(fields, "Hebesatz", hbLabel, true);
+  }
 
   if (opts.monthlyIncome != null) pushAlways(fields, "Ingresos mensuales", fmt(opts.monthlyIncome), true);
   if (opts.annualIncome != null) pushAlways(fields, "Ingresos anuales", fmt(opts.annualIncome), true);

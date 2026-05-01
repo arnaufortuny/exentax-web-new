@@ -36,6 +36,7 @@ process.env.DISCORD_CHANNEL_CONSENTIMIENTOS = "1000000000000000001";
 process.env.DISCORD_CHANNEL_ERRORES         = "1000000000000000002";
 process.env.DISCORD_CHANNEL_AUDITORIA       = "1000000000000000003";
 process.env.DISCORD_CHANNEL_REGISTROS       = "1000000000000000004";
+process.env.DISCORD_CHANNEL_CALCULADORA     = "1000000000000000005";
 
 interface Captured { url: string; body: string }
 const SENT: Captured[] = [];
@@ -185,6 +186,108 @@ async function main() {
     "notifySeoIndexing emits no HTTP request when both DISCORD_CHANNEL_ERRORES and DISCORD_CHANNEL_REGISTROS are unset");
   process.env.DISCORD_CHANNEL_ERRORES = savedErrores;
   process.env.DISCORD_CHANNEL_REGISTROS = savedRegistros;
+
+  // ──────────── lead_calculator (Hebesatz alemán — Task #78) ────────────
+  // Locks in the operator-facing surfacing of `germanyHebesatz` next to
+  // the country in the Discord card. Without this regression a future
+  // refactor of `notifyCalculatorLead` could silently drop the row and
+  // operators would lose the only at-a-glance signal that explains why
+  // two German leads with the same income show different `ahorro`
+  // (München/Frankfurt at ≈490 % vs a small town at ≈250 % is several
+  // thousand €/year apart). The persistence side of the same value
+  // (`calculations.options` JSON column) is already covered by the e2e
+  // flow in `tests/e2e/calculator-flow.spec.ts` which asserts the lead
+  // payload carries `options.germanyHebesatz` — together they pin the
+  // value from UI → backend → DB → operator.
+
+  // (a) Germany + explicit Hebesatz=high → row appears with the localised
+  // band label and the rest of the body still surfaces country/email/lead id.
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_de_high",
+    email: "munich@test.local",
+    country: "alemania",
+    regime: "sociedad",
+    ahorro: 4321,
+    annualIncome: 96000,
+    monthlyIncome: 8000,
+    germanyHebesatz: "high",
+    language: "de",
+  });
+  await flush();
+  const calcSentDeHigh = findFor("1000000000000000005");
+  assert(calcSentDeHigh.length > 0, "notifyCalculatorLead routes to DISCORD_CHANNEL_CALCULADORA");
+  {
+    const parsed = JSON.parse(calcSentDeHigh[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(embed.fields.some((f: any) => f.name === "Type" && f.value === "lead_calculator"),
+      "notifyCalculatorLead embed declares Type=lead_calculator in the header fields");
+    assert(embed.fields.some((f: any) => f.name === "Pais" && f.value === "alemania"),
+      "notifyCalculatorLead surfaces the country in the body fields");
+    assert(embed.fields.some((f: any) => f.name === "Hebesatz" && f.value.includes("Alto") && f.value.includes("490")),
+      "notifyCalculatorLead surfaces the Hebesatz=high row alongside the country");
+    assert(embed.fields.some((f: any) => f.name === "ID Lead" && f.value.includes("lead_calc_de_high")),
+      "notifyCalculatorLead carries the lead id in the body fields");
+  }
+
+  // (b) Germany + Hebesatz=low → row appears with the small-town band label.
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_de_low",
+    email: "smalltown@test.local",
+    country: "alemania",
+    ahorro: 1000,
+    germanyHebesatz: "low",
+    language: "de",
+  });
+  await flush();
+  {
+    const parsed = JSON.parse(findFor("1000000000000000005")[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(embed.fields.some((f: any) => f.name === "Hebesatz" && f.value.includes("Bajo") && f.value.includes("250")),
+      "notifyCalculatorLead surfaces the Hebesatz=low row with the small-town band label");
+  }
+
+  // (c) Back-compat: Germany lead WITHOUT germanyHebesatz (older client
+  // bundle that predates Task #51) → no Hebesatz row, so the card never
+  // asserts a value the visitor never picked. The cálculo silently
+  // falls back to the medium profile (Task #51 default) — but we don't
+  // surface that as if it were a user choice.
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_de_legacy",
+    email: "legacy@test.local",
+    country: "alemania",
+    ahorro: 1500,
+    language: "de",
+  });
+  await flush();
+  {
+    const parsed = JSON.parse(findFor("1000000000000000005")[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(!embed.fields.some((f: any) => f.name === "Hebesatz"),
+      "notifyCalculatorLead omits the Hebesatz row when the client did not send one (back-compat)");
+  }
+
+  // (d) Non-German lead → no Hebesatz row even when a value sneaks
+  // through (defensive: the Hebesatz only models the German Gewerbesteuer,
+  // surfacing it next to a Spanish or French lead would be misleading).
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_es_with_hb",
+    email: "madrid@test.local",
+    country: "espana",
+    ahorro: 2500,
+    germanyHebesatz: "high",
+    language: "es",
+  });
+  await flush();
+  {
+    const parsed = JSON.parse(findFor("1000000000000000005")[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(!embed.fields.some((f: any) => f.name === "Hebesatz"),
+      "notifyCalculatorLead omits the Hebesatz row for non-German leads");
+  }
 
   // ───────────────────────── admin_action ────────────────────────────────
   SENT.length = 0;
