@@ -251,7 +251,16 @@ Mark every non-quarantined matrix leg
 (`Playwright E2E (chromium|firefox|webkit|mobile-chrome|mobile-safari|tablet-ipad|tablet-android)`)
 **and** `Production bundle smoke build` as required checks in branch
 protection so merges block when any spec fails or the prod bundle
-stops compiling.
+stops compiling. (pending repo-owner action — this setting lives in
+GitHub repo Settings → Branches and cannot be configured from code;
+keep in sync when adding matrix legs)
+
+When you add or rename a matrix leg in `.github/workflows/e2e.yml`,
+update the "Required status checks" list in GitHub → Settings →
+Branches → Branch protection rule for `main` to match the new check
+name (`Playwright E2E (<new-project>)`). Quarantined legs
+(`continue-on-error: true`) should *not* be added as required — they
+are intentionally non-blocking until the underlying flake is fixed.
 
 ## Conventions
 
