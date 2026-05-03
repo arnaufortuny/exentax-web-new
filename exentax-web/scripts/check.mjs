@@ -118,7 +118,49 @@ const STEPS = [
   // sequential chromium runs (phase 1 ~50s + phase 2 dev server
   // boot ~10-20s + analytics specs ~30s); refresh after the first
   // few CI runs settle in.
-  { name: "test:e2e:gate",                   weight: 130 },
+  //
+  // Weight tuning paper trail
+  // -------------------------
+  // 2026-05-02 (Task #88): bumped to 200 from direct local
+  //   measurement (prior baselines: 90 from Task #83, 130 from
+  //   Task #89's conservative upper bound). The task's preferred
+  //   source — the median of 3–5 green `quality-pipeline.yml` CI
+  //   runs — was provably unavailable on this date:
+  //     - `origin/main` was at sha d9fbe1e (2026-04-29), which
+  //       predates the Task #83 commit 3c1ea20 (2026-05-01) that
+  //       first wired `test:e2e:gate` into `npm run check`. So
+  //       the gate had never run in CI.
+  //     - GitHub Actions API confirmed: 89 historical
+  //       `quality-pipeline.yml` runs, all on pre-#83 commits,
+  //       conclusion=failure × 89, conclusion=success × 0. Source:
+  //         GET /repos/arnaufortuny/exentax-web-new/actions/
+  //             workflows/quality-pipeline.yml/runs
+  //   So instead the gate was timed by spec on this 4-vCPU
+  //   sandbox (matches the GitHub `ubuntu-latest` runner shape),
+  //   against the running `Start application` workflow on :5000,
+  //   with chromium installed via `npx playwright install
+  //   chromium`. Per-spec wall (workers=1 unless noted):
+  //     language-switch.spec.ts        5 tests, w=1 → 33s wall
+  //     cta-navigation [es|en|fr]     18 tests, w=1 → 67s wall
+  //     cta-navigation [de|pt|ca]     18 tests, w=1 → 65s wall
+  //     tablet-layout.spec.ts          3 tests skipped on chromium
+  //   booking-flow + calculator-flow could not be measured cleanly
+  //   in this sandbox (the chromium pool kept hitting wall-clock
+  //   kills near the tool's ~115s ceiling); they were estimated
+  //   from the per-test wall observed in the measured specs:
+  //   booking ≈ 14 × 8s = 112s, calculator ≈ 6 × 10s = 60s.
+  //   Sum-serial ≈ 33 + 132 + 112 + 60 = 337s. The gate runs with
+  //   Playwright's default 2 workers (its boot line literally
+  //   prints `Running 65 tests using 2 workers`), so parallel wall
+  //   ≈ 337 / 1.7 ≈ 200s at normal parallel efficiency. Rounded
+  //   to the nearest 10s = 200.
+  //   This estimate does not yet reflect the Task #89 two-phase
+  //   wrapper (analytics specs run against a separate :5050 dev
+  //   server gated on DATABASE_URL); re-tune once
+  //   `quality-pipeline.yml` has 3–5 green runs whose
+  //   `[N/total] PASS test:e2e:gate (Xs)` lines confirm or correct
+  //   this estimate; replace the value and append a dated entry.
+  { name: "test:e2e:gate",                   weight: 200 },
   // Task #90 — lock-in test for the two-phase wiring of
   // `scripts/test-e2e-gate.mjs`. Pure source-string assertions
   // (no Playwright, no dev server), so weight is 1.
