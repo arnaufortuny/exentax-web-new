@@ -243,32 +243,27 @@ function runPlaywright({ phase, args, env }) {
   });
 }
 
-// ---- 4. Phase 1: every spec except `analytics events` ----------------------
+// ---- 4. Pre-boot the Phase 2 analytics dev server (in parallel) ------------
 //
-// We grep-invert the analytics specs because the prewarmed dev server
-// on :5000 doesn't have `E2E_TEST_HOOKS=1` set, so the spec's
-// `ensureHookEnabled` helper would (correctly) throw. Phase 2 below
-// boots a dedicated server with the flag and runs the analytics specs
-// against it.
-
-const phase1Code = await runPlaywright({
-  phase: "phase1",
-  args: ["--grep-invert", "analytics events"],
-  env: buildSpawnEnv(),
-});
-
-// ---- 5. Phase 2: `analytics events` against a dedicated dev server ---------
-//
-// We boot a SECOND `tsx server/index.ts` on `E2E_GATE_ANALYTICS_PORT`
-// (default 5050) with `E2E_TEST_HOOKS=1` so `server/e2e-hook.ts`
-// injects `<script>window.__EXENTAX_E2E_TRACKING__=true;</script>`
-// before the React bundle parses. The analytics specs then bypass
-// the dev/localhost short-circuit in `Tracking.tsx::hasAnalyticsConsent`
+// Phase 2 needs a SECOND `tsx server/index.ts` on
+// `E2E_GATE_ANALYTICS_PORT` (default 5050) with `E2E_TEST_HOOKS=1` so
+// `server/e2e-hook.ts` injects
+// `<script>window.__EXENTAX_E2E_TRACKING__=true;</script>` before the
+// React bundle parses. The analytics specs then bypass the
+// dev/localhost short-circuit in `Tracking.tsx::hasAnalyticsConsent`
 // and assert on the real `window.dataLayer` push.
 //
-// The second server is teardown-on-exit (SIGTERM, then SIGKILL after
-// 5s if it's stuck), and SIGINT/SIGTERM on the wrapper itself are
-// trapped to avoid leaving a zombie tsx process bound to :5050.
+// `tsx server/index.ts` is a 10–20 s cold boot and has NO data
+// dependency on Phase 1. Booting it here, before we kick off Phase 1,
+// lets the two run concurrently — by the time Phase 1's playwright
+// reporter prints its summary, the analytics server is usually
+// already listening, so Phase 2's readiness probe returns in <2 s
+// instead of paying the full boot cost (Task #91).
+//
+// The server is teardown-on-exit (SIGTERM, then SIGKILL after 5s if
+// it's stuck), and SIGINT/SIGTERM on the wrapper itself are trapped
+// to avoid leaving a zombie tsx process bound to :5050 — including
+// the failure paths where Phase 1 errors out before Phase 2 starts.
 
 const ANALYTICS_PORT = Number(process.env.E2E_GATE_ANALYTICS_PORT || 5050);
 const ANALYTICS_BASE = `http://localhost:${ANALYTICS_PORT}`;
@@ -284,6 +279,7 @@ async function waitForUp(url, deadlineMs) {
 }
 
 let analyticsServer = null;
+const bootLogChunks = [];
 
 function killAnalyticsServer() {
   if (!analyticsServer || analyticsServer.killed) return;
@@ -299,88 +295,139 @@ function killAnalyticsServer() {
 
 process.once("SIGINT", () => { killAnalyticsServer(); process.exit(130); });
 process.once("SIGTERM", () => { killAnalyticsServer(); process.exit(143); });
+// Also kill on a clean exit path — a thrown error or a Phase 1
+// hard-fail before Phase 2 runs would otherwise leave the spawned
+// `tsx server/index.ts` bound to :5050 for the next gate run.
+process.once("exit", () => { killAnalyticsServer(); });
 
-async function runAnalyticsPhase() {
-  if (process.env.E2E_GATE_SKIP_ANALYTICS === "1") {
-    log("[phase2] skipped (E2E_GATE_SKIP_ANALYTICS=1).");
-    return 0;
-  }
-  if (extraArgs.length > 0) {
-    // Triage mode: the operator passed extra CLI args (e.g. a specific
-    // spec file) so they're targeting Phase 1. Forwarding the same
-    // args to Phase 2 alongside `--grep "analytics events"` would
-    // produce "no tests found" and confuse the result. Skip Phase 2
-    // and tell the operator how to run the analytics specs alone.
-    log(`[phase2] skipped — extra CLI args (${extraArgs.join(" ")}) are forwarded to Phase 1 only.`);
-    log("[phase2] To target the analytics specs explicitly, run:");
-    log("[phase2]   E2E_GATE_ANALYTICS_PORT=5050 PORT=5050 E2E_TEST_HOOKS=1 npm run dev");
-    log("[phase2]   BASE_URL=http://localhost:5050 npx playwright test --project=chromium --grep \"analytics events\"");
-    return 0;
-  }
-  if (!process.env.DATABASE_URL) {
-    // Without DATABASE_URL the dev server's `db.ts` throws at import
-    // time. Skip with a clear line — same degraded path the prewarm
-    // takes, and CI (`quality-pipeline.yml`) always supplies one so
-    // the gate stays enforced where it matters.
-    log("");
-    log("[phase2] DATABASE_URL is unset — cannot boot a dedicated dev server");
-    log("[phase2] for `analytics events`. Skipping Phase 2.");
-    log("[phase2] (CI provides DATABASE_URL; the analytics gate is enforced there.)");
-    log("");
-    return 0;
-  }
+// Decide upfront whether we will run Phase 2; if so, kick off the
+// boot now so it warms in parallel with Phase 1.
+//
+//   - skipReason !== null  → don't even spawn; Phase 2 will short-circuit.
+//   - reusedExistingServer → something was already on the port; we'll
+//                            reuse it. No spawn, ready promise resolves
+//                            immediately.
+//   - otherwise            → spawn `tsx server/index.ts` and stash a
+//                            readiness promise that Phase 2 awaits.
+//
+// We MUST do the port-reuse probe before spawning so we don't EADDRINUSE
+// against an existing analytics server (matches the legacy behaviour).
+
+let phase2SkipReason = null;
+if (process.env.E2E_GATE_SKIP_ANALYTICS === "1") {
+  phase2SkipReason = "E2E_GATE_SKIP_ANALYTICS=1";
+} else if (extraArgs.length > 0) {
+  // Triage mode: extra CLI args target Phase 1. Forwarding them to
+  // Phase 2 alongside `--grep "analytics events"` would produce
+  // "no tests found" and confuse the result.
+  phase2SkipReason = `extra CLI args (${extraArgs.join(" ")}) are forwarded to Phase 1 only`;
+} else if (!process.env.DATABASE_URL) {
+  // Without DATABASE_URL the dev server's `db.ts` throws at import
+  // time. Skip with a clear line — same degraded path the prewarm
+  // takes, and CI (`quality-pipeline.yml`) always supplies one so
+  // the gate stays enforced where it matters.
+  phase2SkipReason = "DATABASE_URL is unset — cannot boot a dedicated dev server";
+}
+
+let analyticsReady = null;     // Promise<boolean> — true if server is reachable.
+let reusedExistingServer = false;
+
+if (phase2SkipReason === null) {
   // If somebody (or a previous gate run) already has a dev server on
   // the analytics port, reuse it instead of trying to bind. The
   // spec's `ensureHookEnabled` helper will throw a clear error if
   // that pre-existing server is missing `E2E_TEST_HOOKS=1`, so
   // reusing is safe — we won't silently green-light a bad setup.
   if (await probeServer(ANALYTICS_PROBE_URL, 1500)) {
+    reusedExistingServer = true;
+    analyticsReady = Promise.resolve(true);
     log(`[phase2] reusing dev server already on :${ANALYTICS_PORT}`);
-    return runPlaywright({
-      phase: "phase2",
-      args: ["--grep", "analytics events"],
-      env: buildSpawnEnv({
-        BASE_URL: ANALYTICS_BASE,
-        PORT: String(ANALYTICS_PORT),
-      }),
-    });
+  } else {
+    log(`[phase2] booting analytics dev server on :${ANALYTICS_PORT} with E2E_TEST_HOOKS=1 (in parallel with Phase 1) ...`);
+    const tsxCli = path.resolve(WS_ROOT, "node_modules/tsx/dist/cli.mjs");
+    analyticsServer = spawn(
+      process.execPath,
+      [tsxCli, path.resolve(WS_ROOT, "server/index.ts")],
+      {
+        cwd: WS_ROOT,
+        env: {
+          ...process.env,
+          PORT: String(ANALYTICS_PORT),
+          NODE_ENV: "development",
+          E2E_TEST_HOOKS: "1",
+        },
+        stdio: ["ignore", "pipe", "pipe"],
+        detached: false,
+      },
+    );
+    // Drain stdout/stderr so the pipes don't fill and stall the server.
+    // Capture the tail in case boot fails — operators want a hint why.
+    const captureBoot = (b) => {
+      bootLogChunks.push(b);
+      // Cap memory at ~64KB of boot log; rotate the oldest chunks out.
+      let total = bootLogChunks.reduce((n, c) => n + c.length, 0);
+      while (total > 65_536 && bootLogChunks.length > 1) {
+        total -= bootLogChunks.shift().length;
+      }
+    };
+    analyticsServer.stdout.on("data", captureBoot);
+    analyticsServer.stderr.on("data", captureBoot);
+    // Start probing now — by the time Phase 1 finishes (typically
+    // 30–90 s) this promise will have resolved true and Phase 2's
+    // wait collapses to a single `await` on a settled promise.
+    analyticsReady = waitForUp(ANALYTICS_PROBE_URL, 60_000);
+    // Don't let an unhandled rejection on this background promise
+    // crash the process if Phase 1 fails fast and we never await it.
+    analyticsReady.catch(() => {});
+  }
+}
+
+// ---- 5. Phase 1: every spec except `analytics events` ----------------------
+//
+// We grep-invert the analytics specs because the prewarmed dev server
+// on :5000 doesn't have `E2E_TEST_HOOKS=1` set, so the spec's
+// `ensureHookEnabled` helper would (correctly) throw. Phase 2 below
+// runs the analytics specs against the dedicated server we kicked off
+// above.
+
+const phase1Code = await runPlaywright({
+  phase: "phase1",
+  args: ["--grep-invert", "analytics events"],
+  env: buildSpawnEnv(),
+});
+
+// ---- 6. Phase 2: `analytics events` against the dedicated dev server -------
+
+async function runAnalyticsPhase() {
+  if (phase2SkipReason !== null) {
+    log("");
+    log(`[phase2] skipped (${phase2SkipReason}).`);
+    if (phase2SkipReason.startsWith("extra CLI args")) {
+      log("[phase2] To target the analytics specs explicitly, run:");
+      log("[phase2]   E2E_GATE_ANALYTICS_PORT=5050 PORT=5050 E2E_TEST_HOOKS=1 npm run dev");
+      log("[phase2]   BASE_URL=http://localhost:5050 npx playwright test --project=chromium --grep \"analytics events\"");
+    } else if (phase2SkipReason.startsWith("DATABASE_URL")) {
+      log("[phase2] (CI provides DATABASE_URL; the analytics gate is enforced there.)");
+    }
+    log("");
+    return 0;
   }
 
-  log(`[phase2] booting analytics dev server on :${ANALYTICS_PORT} with E2E_TEST_HOOKS=1 ...`);
-  const tsxCli = path.resolve(WS_ROOT, "node_modules/tsx/dist/cli.mjs");
-  analyticsServer = spawn(
-    process.execPath,
-    [tsxCli, path.resolve(WS_ROOT, "server/index.ts")],
-    {
-      cwd: WS_ROOT,
-      env: {
-        ...process.env,
-        PORT: String(ANALYTICS_PORT),
-        NODE_ENV: "development",
-        E2E_TEST_HOOKS: "1",
-      },
-      stdio: ["ignore", "pipe", "pipe"],
-      detached: false,
-    },
-  );
-  // Drain stdout/stderr so the pipes don't fill and stall the server.
-  // Capture the tail in case boot fails — operators want a hint why.
-  const bootLogChunks = [];
-  const captureBoot = (b) => {
-    bootLogChunks.push(b);
-    // Cap memory at ~64KB of boot log; rotate the oldest chunks out.
-    let total = bootLogChunks.reduce((n, c) => n + c.length, 0);
-    while (total > 65_536 && bootLogChunks.length > 1) {
-      total -= bootLogChunks.shift().length;
-    }
-  };
-  analyticsServer.stdout.on("data", captureBoot);
-  analyticsServer.stderr.on("data", captureBoot);
-
-  const ready = await waitForUp(ANALYTICS_PROBE_URL, 60_000);
+  let ready = await analyticsReady;
+  if (!ready) {
+    // The 60 s deadline on `analyticsReady` started at preboot time
+    // (in parallel with Phase 1). On unusually slow/contended hosts
+    // the server could become ready AFTER that deadline but BEFORE
+    // Phase 1 finished — in which case the background promise has
+    // already resolved `false` even though the server is now up.
+    // Give it one final probe (and a short top-up wait) before
+    // declaring failure, so Task #91's parallelisation never makes
+    // the gate flakier than the sequential version was.
+    ready = await waitForUp(ANALYTICS_PROBE_URL, 30_000);
+  }
   if (!ready) {
     err("");
-    err(`❌ [phase2] analytics dev server did not become ready in 60 s on :${ANALYTICS_PORT}.`);
+    err(`❌ [phase2] analytics dev server did not become ready on :${ANALYTICS_PORT}.`);
     const tail = Buffer.concat(bootLogChunks).toString("utf8").trim();
     if (tail.length > 0) {
       err("   --- boot log tail ---");
@@ -391,7 +438,9 @@ async function runAnalyticsPhase() {
     killAnalyticsServer();
     return 1;
   }
-  log(`[phase2] analytics dev server ready on :${ANALYTICS_PORT}`);
+  if (!reusedExistingServer) {
+    log(`[phase2] analytics dev server ready on :${ANALYTICS_PORT}`);
+  }
 
   const code = await runPlaywright({
     phase: "phase2",
