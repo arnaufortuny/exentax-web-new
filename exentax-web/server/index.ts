@@ -308,11 +308,11 @@ const LEGACY_ES_REDIRECTS: Record<string, string> = {
   "/servicios":            "/es/servicios",
   "/preguntas-frecuentes": "/es/preguntas-frecuentes",
   "/blog":                 "/es/blog",
-  "/legal/terminos":       "/es/legal/terminos",
-  "/legal/privacidad":     "/es/legal/privacidad",
-  "/legal/cookies":        "/es/legal/cookies",
-  "/legal/reembolsos":     "/es/legal/reembolsos",
-  "/legal/disclaimer":     "/es/legal/disclaimer",
+  "/terminos":             "/es/terminos",
+  "/privacidad":           "/es/privacidad",
+  "/cookies":              "/es/cookies",
+  "/reembolsos":           "/es/reembolsos",
+  "/disclaimer":           "/es/disclaimer",
   // Task #23 + Task #16: hubs renamed per language to native segment + ITIN
   // slug switched to imperative-informal in FR/DE. All old subpage URLs 301
   // to their new home so search-engine link equity carries over and old

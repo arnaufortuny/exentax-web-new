@@ -1891,7 +1891,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         "availability": "https://schema.org/InStock",
         "url": `${BASE_URL}/es/agendar`
       },
-      "termsOfService": `${BASE_URL}/legal/terminos`,
+      "termsOfService": `${BASE_URL}/es/terminos`,
       "availableChannel": {
         "@type": "ServiceChannel",
         "serviceType": "Videollamada Google Meet",

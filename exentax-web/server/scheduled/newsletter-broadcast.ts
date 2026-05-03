@@ -302,7 +302,7 @@ async function sendCampaignJob(
 <p style="font-size:12px;color:#666;text-align:center;line-height:1.5">
   Recibes este email porque te suscribiste a la newsletter de Exentax.<br>
   ¿No quieres recibir más? <a href="${unsubUrl}" style="color:#666;text-decoration:underline">Darse de baja</a> ·
-  <a href="${SITE_URL}/legal/privacidad" style="color:#666;text-decoration:underline">Política de privacidad</a><br>
+  <a href="${SITE_URL}/es/privacidad" style="color:#666;text-decoration:underline">Política de privacidad</a><br>
   Exentax — fiscalidad internacional para no residentes
 </p>`.trim();
     html = html + "\n" + footerEs;
