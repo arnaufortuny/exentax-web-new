@@ -2,9 +2,16 @@
 
 Static HTML previews of every transactional + nurture email template
 the app sends, rendered for every supported language. They are a
-**manual review tool** — not a CI gate — so reviewers can eyeball
-typography, line-breaks, CTA contrast, and chrome layout without
-sending real mail or booting the dev server.
+**manual review tool** — reviewers can eyeball typography, line-breaks,
+CTA contrast, and chrome layout without sending real mail or booting
+the dev server.
+
+The CI gate companion (Task #77) lives at
+`tests/email-snapshot-regression.test.ts` — it re-renders the same 12 ×
+6 = 72 combinations and diffs the HTML against committed baselines
+under `tests/__snapshots__/email/`. Both consumers share the same
+fixtures + render pipeline (`scripts/email/fixtures.ts`) so the manual
+snapshots and the CI baselines never drift apart.
 
 ## How to regenerate
 
@@ -19,6 +26,23 @@ generated `*.html` and `*.txt` files (and `index.html`) inside this
 directory, then rewrites them. **This `README.md` is preserved across
 runs.** Open `index.html` afterwards for a per-language matrix of
 links into each rendered combination.
+
+## Updating the CI baselines
+
+When you intentionally change email layout, copy, or chrome, the
+regression test in `check:serial` will fail. Refresh the committed
+baselines with:
+
+```bash
+UPDATE_SNAPSHOTS=1 npm run test:email-snapshot-regression
+```
+
+Inspect the resulting `git diff tests/__snapshots__/email/` carefully
+— that diff **is** the visual change. Commit the baseline updates
+alongside the source change in the same PR so reviewers see both.
+Stale baselines (templates removed) are deleted automatically; new
+templates added to `scripts/email/fixtures.ts` get fresh baselines on
+the same command.
 
 ## When to re-run
 
@@ -78,5 +102,6 @@ numbers and emails in the snapshots are fixtures (e.g.
 `fixture-recipient@example.com`, `+34 600 000 000`,
 `agd_snap_0001`). They are obvious enough that any audit script
 flagging real PII would catch a leak immediately if a snapshot ever
-escaped into a live test path. See
-`scripts/email/render-all-snapshots.ts` for the full fixture set.
+escaped into a live test path. See `scripts/email/fixtures.ts` for the
+full fixture set (shared between this manual tool and the CI
+regression test).
