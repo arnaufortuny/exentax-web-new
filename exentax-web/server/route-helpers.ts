@@ -318,6 +318,13 @@ const bookingEmailLimiter = createAndTrackLimiter("bookingEmail", 5, 60 * 60 * 1
 const bookingDraftEmailLimiter = createAndTrackLimiter("bookingDraftEmail", 10, 60 * 60 * 1000);
 const bookingManageLimiter = createAndTrackLimiter("bookingManage", 30, 60 * 60 * 1000);
 const calcLimiter = createAndTrackLimiter("calc", 10, 60 * 60 * 1000);
+// Email-keyed throttle on calculator submissions: protects a victim's
+// inbox from spray attacks where an attacker rotates IPs to bypass the
+// per-IP `calcLimiter`. 5 submissions per email per hour is enough for
+// any legitimate flow (re-submit after edit, multi-device session) but
+// caps the spam blast radius. Same model + bucket size as
+// `bookingEmailLimiter`.
+const calcEmailLimiter = createAndTrackLimiter("calcEmail", 5, 60 * 60 * 1000);
 const newsletterLimiter = createAndTrackLimiter("newsletter", 3, 60 * 60 * 1000);
 const publicDataLimiter = createAndTrackLimiter("publicData", 60, 60 * 1000);
 const visitorLimiter = createAndTrackLimiter("visitor", 30, 60 * 1000);
@@ -346,6 +353,7 @@ export function checkBookingEmailRateLimit(email: string): Promise<boolean> { re
 export function checkBookingDraftEmailRateLimit(email: string): Promise<boolean> { return bookingDraftEmailLimiter.check(email); }
 export function checkBookingManageRateLimit(ip: string): Promise<boolean> { return bookingManageLimiter.check(ip); }
 export function checkCalcRateLimit(ip: string): Promise<boolean> { return calcLimiter.check(ip); }
+export function checkCalcEmailRateLimit(email: string): Promise<boolean> { return calcEmailLimiter.check(email.trim().toLowerCase()); }
 export function checkNewsletterRateLimit(ip: string): Promise<boolean> { return newsletterLimiter.check(ip); }
 export function checkPublicDataRateLimit(ip: string): Promise<boolean> { return publicDataLimiter.check(ip); }
 export function checkVisitorRateLimit(ip: string): Promise<boolean> { return visitorLimiter.check(ip); }

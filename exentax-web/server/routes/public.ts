@@ -28,7 +28,7 @@ import type { SupportedLang } from "../server-constants";
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
-  checkBookingRateLimit, checkBookingEmailRateLimit, checkBookingDraftEmailRateLimit, checkBookingManageRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
+  checkBookingRateLimit, checkBookingEmailRateLimit, checkBookingDraftEmailRateLimit, checkBookingManageRateLimit, checkCalcRateLimit, checkCalcEmailRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
   checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, truncateIp, withSlotLock, withBookingLock, withLeadEmailLock, withRetryOnLeadEmailUnique,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
@@ -48,7 +48,7 @@ import { apiFail, apiOk, apiRateLimited, apiNotFound, apiValidationFail } from "
 import {
   notifyBookingCreated, notifyBookingRescheduled, notifyBookingCancelled,
   notifyCalculatorLead, notifyNewsletterSubscribe, notifyWebVisit, notifyConsent,
-  notifyNewLead,
+  notifyNewLead, notifyCriticalError,
 } from "../discord";
 
 function escapeXml(str: string): string {
@@ -577,6 +577,16 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             }
           } catch (err) {
             logger.error("Google Meet creation failed:", "app", err);
+            // Defensive: alert admins so they can manually create + send the
+            // Meet link before the meeting. Slot is already locked + booking
+            // proceeds — observability is the goal, not blocking the flow.
+            notifyCriticalError({
+              context: "google_meet_create_initial_booking",
+              message: err instanceof Error ? err.message : String(err),
+              code: "MEET_CREATE_FAIL",
+              path: "/api/bookings/book",
+              method: "POST",
+            });
           }
         }
 
@@ -919,6 +929,15 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         }
       } catch (err) {
         logger.error("Google Meet create on reschedule failed:", "app", err);
+        // Defensive: alert admins. Reschedule slot already locked, agenda
+        // updated next; admin can manually generate Meet link + email it.
+        notifyCriticalError({
+          context: "google_meet_create_on_reschedule",
+          message: err instanceof Error ? err.message : String(err),
+          code: "MEET_CREATE_FAIL",
+          path: req.path,
+          method: req.method,
+        });
       }
     }
 
@@ -1028,6 +1047,14 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const parsed = calculatorLeadSchema.safeParse(req.body);
     if (!parsed.success) {
       return apiValidationFail(res, parsed.error);
+    }
+
+    // Email-keyed throttle: defends a victim's inbox from spray attacks
+    // where an attacker rotates IPs to bypass the per-IP `calcLimiter`.
+    // 5 calculator submissions per normalized email per hour. Same model
+    // as the booking flow's `checkBookingEmailRateLimit`.
+    if (!(await checkCalcEmailRateLimit(parsed.data.email))) {
+      return apiRateLimited(res, "tooManyRequestsWait");
     }
 
     const expectedAhorro = parsed.data.sinLLC - parsed.data.conLLC;
