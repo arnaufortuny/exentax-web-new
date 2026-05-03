@@ -12,8 +12,8 @@ export interface PageMeta {
 
 export const PAGE_META: Record<string, PageMeta> = {
   "/": {
-    title: "Paga hasta 0% federal con una LLC americana | Exentax",
-    description: "Una LLC bien estructurada paga hasta 0% en IRS federal. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
+    title: "Exentax | Tu LLC en Estados Unidos, gestionada por expertos",
+    description: "Deja de pagar de más. Forma tu LLC en EE.UU. con expertos en fiscalidad internacional. Todo incluido, desde cualquier país.",
     canonical: BASE_URL,
   },
   "/blog": {
@@ -196,19 +196,14 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Tu LLC americana paga $0 en EE.UU., pero debes declarar en tu país. Cómo funciona la tributación real en España, México, Colombia y Argentina.",
     canonical: `${BASE_URL}/es/blog/fiscalidad-llc-por-pais-residencia`,
   },
-  "/blog/crs-2-0-carf-por-que-usa-no-firmara-llc": {
-    title: "CRS 2.0 y CARF: por qué EE. UU. no firmará y tu LLC queda fuera | Exentax",
-    description: "Paquete OCDE 2023 (CRS 2.0 + CARF) y DAC8 entran en vigor el 1/1/2026. EE. UU. no firma: tu LLC queda fuera del CRS por arquitectura, no por opacidad.",
-    canonical: `${BASE_URL}/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc`,
-  },
   "/blog/crs-cuentas-bancarias-llc-intercambio-informacion": {
-    title: "CRS 2.0 y cuentas LLC: qué reporta cada banco a tu hacienda | Exentax",
-    description: "Paquete OCDE 2023 (CRS 2.0) en vigor 1/1/2026. Mercury y Choice no son CRS; Wise/Revolut/N26 sí. Qué entra y qué no en el intercambio automático.",
+    title: "CRS, cuentas bancarias y LLC: intercambio de información fiscal | Exentax",
+    description: "¿Puede tu hacienda ver tu cuenta de Mercury? Cómo funciona el CRS, qué reportan las fintechs americanas y por qué la transparencia fiscal te beneficia.",
     canonical: `${BASE_URL}/es/blog/crs-cuentas-bancarias-llc-intercambio-informacion`,
   },
   "/blog/cuentas-bancarias-usa-reportan-hacienda-verdad": {
-    title: "¿Tu banco USA reporta a Hacienda? CRS 2.0, FATCA y la LLC | Exentax",
-    description: "EE. UU. no firma CRS 2.0 (vigor 1/1/2026): solo FATCA bilateral. Tu cuenta Mercury queda fuera del intercambio automático, pero no de tu Modelo 720.",
+    title: "¿Las cuentas bancarias USA reportan a tu hacienda? La verdad | Exentax",
+    description: "¿Mercury, Wise o Relay reportan a Hacienda en España o México? Cómo funciona el CRS, FATCA y qué información se comparte realmente.",
     canonical: `${BASE_URL}/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad`,
   },
   "/blog/privacidad-llc-americana-secreto-ventaja": {
@@ -309,33 +304,33 @@ export const PAGE_META: Record<string, PageMeta> = {
     noindex: true,
   },
   "/es": {
-    title: "Paga hasta 0% federal con una LLC americana | Exentax",
-    description: "Una LLC bien estructurada paga hasta 0% en IRS federal. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
+    title: "Exentax | Tu LLC en Estados Unidos, gestionada por expertos",
+    description: "Deja de pagar de más. Forma tu LLC en EE.UU. con expertos en fiscalidad internacional. Todo incluido, desde cualquier país.",
     canonical: `${BASE_URL}/es`,
   },
   "/en": {
-    title: "Pay up to 0% US federal tax with a US LLC | Exentax",
-    description: "A well-structured US LLC pays up to 0% federal IRS. Setup in 2 days: EIN, US bank account (Slash, Wise, Relay, Mercury) and full compliance. Free 30-min consult.",
+    title: "Exentax | Your US LLC, managed by experts",
+    description: "Stop overpaying tax. Form your US LLC with international tax experts. All-included, from any country.",
     canonical: `${BASE_URL}/en`,
   },
   "/fr": {
-    title: "LLC américaine: jusqu'à 0% d'impôt fédéral US | Exentax",
-    description: "Une LLC bien structurée paie jusqu'à 0% d'impôt fédéral US. EIN, compte bancaire (Slash, Wise, Relay, Mercury), compliance inclus. Consultation gratuite.",
+    title: "Exentax | Votre LLC aux États-Unis, gérée par des experts",
+    description: "Arrêtez de payer en trop. Créez votre LLC aux USA avec des experts en fiscalité internationale. Tout inclus, depuis n'importe quel pays.",
     canonical: `${BASE_URL}/fr`,
   },
   "/de": {
-    title: "US-LLC: bis zu 0% US-Bundessteuer zahlen | Exentax",
-    description: "Eine gut strukturierte US-LLC zahlt bis zu 0% US-Bundessteuer. EIN, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Kostenlose Beratung.",
+    title: "Exentax | Ihre US-LLC, von Experten verwaltet",
+    description: "Schluss mit dem Zuviel-Zahlen. Gründen Sie Ihre US-LLC mit Experten für internationales Steuerrecht. Alles inklusive, aus jedem Land.",
     canonical: `${BASE_URL}/de`,
   },
   "/pt": {
-    title: "LLC americana: até 0% de imposto federal US | Exentax",
-    description: "Uma LLC bem estruturada paga até 0% de imposto federal US. EIN, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Consulta grátis 30 min.",
+    title: "Exentax | A sua LLC nos EUA, gerida por especialistas",
+    description: "Pare de pagar a mais. Crie a sua LLC nos EUA com especialistas em fiscalidade internacional. Tudo incluído, de qualquer país.",
     canonical: `${BASE_URL}/pt`,
   },
   "/ca": {
-    title: "LLC americana: fins a 0% d'impost federal US | Exentax",
-    description: "Una LLC ben estructurada paga fins a 0% d'impost federal US. EIN, compte USA (Slash, Wise, Relay, Mercury), compliance. Consulta gratuïta.",
+    title: "Exentax | La teva LLC als Estats Units, gestionada per experts",
+    description: "Deixa de pagar de més. Forma la teva LLC als EUA amb experts en fiscalitat internacional. Tot inclòs, des de qualsevol país.",
     canonical: `${BASE_URL}/ca`,
   },
   "/es/como-trabajamos": {
@@ -345,7 +340,7 @@ export const PAGE_META: Record<string, PageMeta> = {
   },
   "/en/how-we-work": {
     title: "How it works: your LLC ready in 4 steps | Exentax",
-    description: "Strategic advisory → personalized structure → formation in 2-4 days → annual compliance. Clear process, no fine print. Over 127 satisfied clients.",
+    description: "Strategic consulting → personalized structure → formation in 2-4 days → annual compliance. Clear process, no fine print. Over 127 satisfied clients.",
     canonical: `${BASE_URL}/en/how-we-work`,
   },
   "/fr/comment-nous-travaillons": {
@@ -434,8 +429,8 @@ export const PAGE_META: Record<string, PageMeta> = {
     canonical: `${BASE_URL}/es/agendar`,
   },
   "/en/book": {
-    title: "30-min strategic tax advisory session | Exentax",
-    description: "Book your strategic tax advisory session. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
+    title: "30-min strategic tax consultation | Exentax",
+    description: "Book your strategic tax consultation. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
     canonical: `${BASE_URL}/en/book`,
   },
   "/fr/reserver": {
@@ -450,7 +445,7 @@ export const PAGE_META: Record<string, PageMeta> = {
   },
   "/pt/agendar": {
     title: "Consultoria fiscal estratégica 30 min | Exentax",
-    description: "Agende sua assessoria fiscal estratégica. Em 30 minutos analisamos sua situação fiscal real e calculamos quanto você pode economizar com uma LLC.",
+    description: "Agende sua consultoria fiscal estratégica. Em 30 minutos analisamos sua situação fiscal real e calculamos quanto você pode economizar com uma LLC.",
     canonical: `${BASE_URL}/pt/agendar`,
   },
   "/ca/agendar": {
@@ -562,7 +557,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
     },
     book: {
       es: "Asesoría fiscal estratégica 30 min | Exentax",
-      en: "30-min strategic tax advisory session | Exentax",
+      en: "30-min strategic tax consultation | Exentax",
       fr: "Consultation fiscale gratuite 30 min | Exentax",
       de: "Kostenlose 30-Min-Steuerberatung | Exentax",
       pt: "Consultoria fiscal gratuita 30 min | Exentax",
@@ -668,12 +663,12 @@ function buildI18nMeta(): Record<string, PageMeta> {
 
   const PAGE_DESCS: Record<RouteKey, Record<SupportedLang, string>> = {
     home: {
-      es: "Una LLC americana bien estructurada paga hasta 0% en IRS federal. EIN sin viajar, cuenta USA (Slash, Wise, Relay, Mercury) y compliance incluidos. Para freelancers y autónomos.",
-      en: "A well-structured US LLC pays up to 0% federal IRS. EIN without travel, US bank account (Slash, Wise, Relay, Mercury) and full compliance included. Built for freelancers.",
-      fr: "Une LLC américaine bien structurée paie jusqu'à 0% d'impôt fédéral US. EIN sans déplacement, compte US (Slash, Wise, Relay, Mercury) et compliance inclus. Pour freelances.",
-      de: "Eine gut strukturierte US-LLC zahlt bis zu 0% US-Bundessteuer. EIN ohne Reise, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Für Freelancer.",
-      pt: "Uma LLC americana bem estruturada paga até 0% de imposto federal US. EIN sem viajar, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Para freelancers.",
-      ca: "Una LLC americana ben estructurada paga fins a 0% d'impost federal US. EIN sense viatjar, compte USA (Slash, Wise, Relay, Mercury) i compliance inclosos.",
+      es: "Deja de pagar de más. Forma tu LLC en EE.UU. con expertos en fiscalidad internacional. Todo incluido, desde cualquier país.",
+      en: "Stop overpaying tax. Form your US LLC with international tax experts. All-included, from any country.",
+      fr: "Arrêtez de payer en trop. Créez votre LLC aux USA avec des experts en fiscalité internationale. Tout inclus, depuis n'importe quel pays.",
+      de: "Schluss mit dem Zuviel-Zahlen. Gründen Sie Ihre US-LLC mit Experten für internationales Steuerrecht. Alles inklusive, aus jedem Land.",
+      pt: "Pare de pagar a mais. Crie a sua LLC nos EUA com especialistas em fiscalidade internacional. Tudo incluído, de qualquer país.",
+      ca: "Deixa de pagar de més. Forma la teva LLC als EUA amb experts en fiscalitat internacional. Tot inclòs, des de qualsevol país.",
     },
     our_services: {
       es: "Servicios LLC Estados Unidos: constitución, EIN, Operating Agreement, cuenta USA (Slash, Wise, Relay, Mercury) y compliance LLC. Planes para no residentes.",
@@ -685,10 +680,10 @@ function buildI18nMeta(): Record<string, PageMeta> {
     },
     how_we_work: {
       es: "Cómo trabajamos LLC: asesoría fiscal estratégica, plan personalizado LLC y proceso constitución LLC en 2-4 días con compliance anual. Sin letra pequeña.",
-      en: "LLC formation process: strategic tax advisory session, personalized LLC plan and formation in 2-4 days with annual LLC compliance. No surprises or fine print.",
+      en: "LLC formation process: strategic tax consultation, personalized LLC plan and formation in 2-4 days with annual LLC compliance. No surprises or fine print.",
       fr: "Processus constitution LLC : consultation fiscale stratégique, plan LLC personnalisé et constitution en 2-4 jours avec conformité annuelle. Sans surprises.",
       de: "LLC Gründungsprozess: strategische Steuerberatung, individueller LLC Plan und Gründung in 2-4 Tagen mit jährlicher LLC Compliance. Ohne Überraschungen.",
-      pt: "Processo constituição LLC: assessoria fiscal estratégica, plano LLC personalizado e constituição em 2-4 dias com compliance anual. Sem surpresas.",
+      pt: "Processo constituição LLC: consultoria fiscal estratégica, plano LLC personalizado e constituição em 2-4 dias com compliance anual. Sem surpresas.",
       ca: "Procés constitució LLC: assessoria fiscal estratègica, pla LLC personalitzat i constitució en 2-4 dies amb compliance anual. Sense lletra petita.",
     },
     about_llc: {
@@ -708,11 +703,11 @@ function buildI18nMeta(): Record<string, PageMeta> {
       ca: "FAQ LLC EUA: preguntes freqüents LLC per a autònoms — costos LLC, impostos LLC, legalitat LLC i diferències Wyoming Delaware Nou Mèxic.",
     },
     book: {
-      es: "Agendar asesoría fiscal Exentax: llamada estratégica LLC de 30 minutos. Analizamos tu asesoría fiscal 30 minutos y calculamos el ahorro con una LLC.",
-      en: "Book tax advisory session Exentax: strategic LLC call of 30 min. We deliver a 30-min tax advisory session and calculate your savings with a US LLC.",
+      es: "Agendar asesoría fiscal Exentax: llamada estratégica LLC de 30 minutos. Analizamos tu consultoría fiscal 30 minutos y calculamos el ahorro con una LLC.",
+      en: "Book tax consultation Exentax: strategic LLC call of 30 min. We deliver a 30-min tax consultation and calculate your savings with a US LLC.",
       fr: "Réserver consultation fiscale Exentax : appel stratégique LLC de 30 min. Nous menons votre consultation fiscale 30 min et calculons vos économies LLC.",
       de: "Steuerberatung buchen Exentax: strategischer LLC Anruf von 30 Min. 30-min Steuerberatung mit Berechnung Ihrer Ersparnis mit einer US-LLC.",
-      pt: "Agendar assessoria fiscal Exentax: chamada estratégica LLC de 30 min. Fazemos a assessoria fiscal 30 min e calculamos a economia com uma LLC.",
+      pt: "Agendar consultoria fiscal Exentax: chamada estratégica LLC de 30 min. Fazemos a consultoria fiscal 30 min e calculamos a economia com uma LLC.",
       ca: "Reservar assessoria fiscal Exentax: trucada estratègica LLC de 30 min. Fem l'assessoria fiscal 30 min i calculem l'estalvi amb una LLC als EUA.",
     },
     legal_terms: {
@@ -809,7 +804,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
       en: "Open a US LLC in 2-4 days as a non-resident: pick the state, get the EIN without SSN, open Mercury, file Form 1120 + 5472 with the IRS and declare profits at home. Full guide with expert tax advisors.",
       fr: "Ouvrir une LLC américaine en 2-4 jours en tant que non-résident : choisir l'État, obtenir l'EIN sans SSN, ouvrir Mercury, déposer Form 1120 + 5472 et déclarer en France. Guide complet par des fiscalistes.",
       de: "US-LLC in 2-4 Tagen als Nicht-Resident eröffnen: Bundesstaat wählen, EIN ohne SSN, Mercury-Konto, Form 1120 + 5472 beim IRS und saubere Erklärung im Heimatland. Vollständige Anleitung mit Steuerexperten.",
-      pt: "Abrir uma LLC americana em 2-4 dias como não-residente: escolher o estado, EIN sem SSN, conta Mercury, Form 1120 + 5472 no IRS e declaração limpa em Portugal/Brasil. Guia completo com assessores fiscais.",
+      pt: "Abrir uma LLC americana em 2-4 dias como não-residente: escolher o estado, EIN sem SSN, conta Mercury, Form 1120 + 5472 no IRS e declaração limpa em Portugal/Brasil. Guia completo com consultores fiscais.",
       ca: "Obrir una LLC americana en 2-4 dies sent no resident: escollir l'estat, EIN sense SSN, compte Mercury, Form 1120 + 5472 a l'IRS i declaració neta a l'IRPF. Guia completa amb assessors fiscals experts.",
     },
   };
@@ -838,10 +833,10 @@ function buildI18nMeta(): Record<string, PageMeta> {
     },
     how_we_work: {
       es: "cómo trabajamos LLC, proceso constitución LLC, asesoría fiscal estratégica, plan personalizado LLC, compliance anual LLC, soporte LLC",
-      en: "LLC formation process, strategic tax advisory session, personalized LLC plan, annual LLC compliance, ongoing LLC support",
+      en: "LLC formation process, strategic tax consultation, personalized LLC plan, annual LLC compliance, ongoing LLC support",
       fr: "processus constitution LLC, consultation fiscale stratégique, plan LLC personnalisé, conformité annuelle LLC, support LLC",
       de: "LLC Gründungsprozess, strategische Steuerberatung, individueller LLC Plan, jährliche LLC Compliance, LLC Support",
-      pt: "processo constituição LLC, assessoria fiscal estratégica, plano LLC personalizado, compliance anual LLC, suporte LLC",
+      pt: "processo constituição LLC, consultoria fiscal estratégica, plano LLC personalizado, compliance anual LLC, suporte LLC",
       ca: "procés constitució LLC, assessoria fiscal estratègica, pla LLC personalitzat, compliance anual LLC, suport LLC",
     },
     about_llc: {
@@ -861,12 +856,12 @@ function buildI18nMeta(): Record<string, PageMeta> {
       ca: "FAQ LLC EUA, preguntes freqüents LLC, LLC autònoms dubtes, costos LLC, impostos LLC, legalitat LLC, FAQ Wyoming Delaware Nou Mèxic",
     },
     book: {
-      es: "agendar asesoría fiscal, llamada estratégica LLC, asesoría fiscal 30 minutos, asesoría LLC gratis, reservar llamada Exentax",
-      en: "book tax advisory session, strategic LLC call, 30-min tax advisory session, free LLC advisory, book Exentax call",
+      es: "agendar asesoría fiscal, llamada estratégica LLC, consultoría fiscal 30 minutos, asesoría LLC gratis, reservar llamada Exentax",
+      en: "book tax consultation, strategic LLC call, 30-min tax consultation, free LLC advisory, book Exentax call",
       fr: "réserver consultation fiscale, appel stratégique LLC, consultation fiscale 30 min, conseil LLC gratuit, réserver appel Exentax",
       de: "Steuerberatung buchen, strategischer LLC Anruf, 30-Min Steuerberatung, kostenlose LLC Beratung, Exentax Termin",
-      pt: "agendar assessoria fiscal, chamada estratégica LLC, assessoria fiscal 30 min, assessoria LLC grátis, reservar Exentax",
-      ca: "reservar assessoria fiscal, trucada estratègica LLC, assessoria fiscal 30 min, assessoria LLC gratuïta, reservar Exentax",
+      pt: "agendar consultoria fiscal, chamada estratégica LLC, consultoria fiscal 30 min, consultoria LLC grátis, reservar Exentax",
+      ca: "reservar assessoria fiscal, trucada estratègica LLC, assessoria fiscal 30 min, consultoria LLC gratuïta, reservar Exentax",
     },
     service_llc_nm: {
       es: "LLC Nuevo México, LLC New Mexico no residentes, NM LLC sin informe anual, NM LLC privacidad, LLC barata Estados Unidos",
@@ -1037,8 +1032,8 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Introduce tus ingresos mensuales, tu país de residencia fiscal y tu régimen actual. Compara al instante lo que pagas hoy con lo que pagarías con una LLC americana bien estructurada. Sin registro. Sin compromiso.</p>
 <h2>Cómo nos diferenciamos</h2>
 <ul>
-<li>Hasta 0% de IRS federal con estructura LLC bien diseñada (no residentes)</li>
-<li>+50 clientes con estructura activa y optimizada</li>
+<li>-37% reducción fiscal media para nuestros clientes</li>
+<li>+31 clientes con estructura optimizada</li>
 <li>Asesoría fiscal estratégica de 30 minutos por videollamada </li>
 <li>Todo 100% online: sin necesidad de viajar a Estados Unidos</li>
 <li>Compliance fiscal continuo: nunca estás solo</li>
@@ -1058,10 +1053,10 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 </ul>
 <p>Declaraciones IRS (Form 1120, Form 5472), BOI Report, renovación agente registrado y compliance fiscal continuo. Annual Report en estados que lo exigen (Wyoming y Delaware).</p>
 <h2>¿Para quién es Exentax?</h2>
-<p>Freelancers, programadores, diseñadores, asesores, creadores de contenido, traders de criptomonedas y forex, e-commerce, SaaS, agencias de marketing y nómadas digitales que facturan internacionalmente.</p>
+<p>Freelancers, programadores, diseñadores, consultores, creadores de contenido, traders de criptomonedas y forex, e-commerce, SaaS, agencias de marketing y nómadas digitales que facturan internacionalmente.</p>
 <h3>Países atendidos</h3>
 <p>Trabajamos con autónomos y emprendedores de España, Argentina, México, Colombia, Chile y Perú. Nuestro equipo habla español e inglés y conoce la legislación fiscal de cada país.</p>
-<p>Contacto: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
+<p>Contacto: <a href="mailto:hola@exentax.com">hola@exentax.com</a> | <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/es/sobre-las-llc">LLC en Estados Unidos: Guía completa 2026</a>
 <a href="/es/como-trabajamos">Así trabajamos: Proceso paso a paso</a>
@@ -1288,7 +1283,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Qué es una LLC?</h2>
 <p>Es una figura jurídica estadounidense que separa tus bienes personales de los del negocio. Para no residentes con una Single-Member LLC, el IRS la clasifica como Disregarded Entity: no paga impuesto federal en EE.UU.</p>
 <h2>¿Por qué tantos freelancers eligen una LLC?</h2>
-<ul><li>Fiscalidad optimizada: hasta 0% de IRS federal para no residentes</li><li>Protección patrimonial</li><li>Banca USA en dólares (Slash, Wise, Relay, Mercury)</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% online</li></ul>
+<ul><li>Fiscalidad optimizada: reduce tu carga fiscal hasta un 80%</li><li>Protección patrimonial</li><li>Banca USA en dólares (Slash, Wise, Relay, Mercury)</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% online</li></ul>
 <h2>Mejores estados para tu LLC</h2>
 <p>Nuevo México (estructura eficiente), Wyoming (máxima privacidad) y Delaware (mejor marco legal). Cada estado tiene ventajas distintas según tu situación.</p>
 <p><a href="/es/agendar">Agenda una asesoría fiscal</a> para saber cuál te conviene.</p>
@@ -1637,16 +1632,6 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       ],
       "foundingDate": "2024",
       "legalName": "Exentax LLC",
-      "slogan": "LLC en EE.UU. para no residentes — formación en 2–4 días, compliance IRS y banca Mercury/Wise/Relay.",
-      "numberOfEmployees": { "@type": "QuantitativeValue", "minValue": 5, "maxValue": 15 },
-      "founder": {
-        "@type": "Person",
-        "name": "Exentax Editorial Team",
-        "jobTitle": "International tax & US LLC compliance specialists",
-        "worksFor": { "@id": `${BASE_URL}/#organization` }
-      },
-      "knowsLanguage": ["es", "en", "fr", "de", "pt", "ca"],
-      "award": "Trustpilot 5.0/5 — 127+ verified reviews",
       "areaServed": [
         { "@type": "Country", "name": "España" },
         { "@type": "Country", "name": "Argentina" },
@@ -1656,9 +1641,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
-        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Reino Unido" }
+        { "@type": "Country", "name": "Italia" }
       ],
       "knowsAbout": [
         "LLC en Estados Unidos",
@@ -1686,10 +1670,19 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL }
       ]
     },
-    // WebSite is intentionally NOT redeclared here — the canonical WebSite
-    // node lives in `client/index.html` (id `#website`) with publisher →
-    // /#organization and a SearchAction. Keeping a single WebSite node on
-    // the home page (LOTE 8 dedupe) prevents ambiguous entity graphs.
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": BRAND_NAME,
+      "url": BASE_URL,
+      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": `${BASE_URL}/blog?q={search_term_string}`,
+        "query-input": "required name=search_term_string"
+      }
+    }
   ],
   "about_llc": [
     {
@@ -1706,8 +1699,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "LLC en Estados Unidos para no residentes: Guía completa 2026",
       "description": "Todo lo que necesitas saber sobre LLC en EE.UU.: ventajas fiscales, mejores estados, proceso de constitución paso a paso y obligaciones fiscales anuales.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/es/sobre-las-llc`,
@@ -1842,7 +1835,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "ProfessionalService",
       "name": "Exentax: Constitución y gestión de LLC en EE.UU.",
       "description": "Servicio integral de constitución de LLC en Estados Unidos para autónomos, freelancers y emprendedores digitales. Incluye EIN, Operating Agreement, cuenta bancaria Mercury, compliance fiscal y soporte continuo.",
-      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
       "serviceType": "Constitución y gestión de LLC",
       "areaServed": "Worldwide",
       "hasOfferCatalog": {
@@ -1881,7 +1874,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Service",
       "name": "Asesoría Fiscal Estratégica: 30 Minutos",
       "description": "Videollamada de 30 minutos con un asesor fiscal de Exentax. Analizamos tu situación fiscal y te indicamos si una LLC en Estados Unidos es la mejor opción para tu negocio.",
-      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
       "serviceType": "Asesoría fiscal",
       "areaServed": [
         { "@type": "Country", "name": "España" },
@@ -1921,7 +1914,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "name": "Blog: Fiscalidad internacional y LLC en Estados Unidos",
       "description": "Artículos sobre optimización fiscal, LLC en Estados Unidos, compliance y estrategias legales para freelancers y emprendedores digitales.",
       "url": `${BASE_URL}/blog`,
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
       "inLanguage": "es"
     }
   ],
@@ -1941,8 +1934,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "LLC en Estados Unidos: guía completa para no residentes en 2026",
       "description": "Guía completa para constituir una LLC en EE.UU. siendo extranjero. Estados, costes, fiscalidad, errores frecuentes y cómo elegir la mejor opción.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/llc-estados-unidos-guia-completa-2026`,
@@ -1967,8 +1960,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Form 5472: qué es y cómo presentarlo correctamente",
       "description": "El Form 5472 es obligatorio para LLCs con dueños extranjeros. Aprende qué transacciones reportar, plazos de presentación y cómo cumplir sin complicaciones.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/form-5472-que-es-como-presentarlo`,
@@ -1993,8 +1986,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Nuevo México vs Wyoming vs Delaware: qué estado elegir para tu LLC",
       "description": "Comparativa completa de los 4 mejores estados (Nuevo México, Wyoming, Delaware y Florida) para constituir una LLC como no residente. Costes, privacidad, burocracia y para quién encaja cada uno.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/nuevo-mexico-vs-wyoming-vs-delaware`,
       "inLanguage": "es",
@@ -2018,8 +2011,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso",
       "description": "El EIN es el número fiscal que el IRS asigna a tu LLC. Aprende cómo obtenerlo paso a paso siendo no residente, plazos, coste y errores frecuentes.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/ein-numero-fiscal-llc-como-obtenerlo`,
       "inLanguage": "es",
@@ -2043,8 +2036,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Cómo abrir una cuenta Mercury para tu LLC desde cualquier país",
       "description": "Guía paso a paso para abrir una cuenta bancaria en Mercury con tu LLC americana siendo no residente. Requisitos, plazos, documentos y alternativas.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/cuenta-bancaria-mercury-llc-extranjero`,
       "inLanguage": "es",
@@ -2068,8 +2061,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Autónomo en España vs LLC en EE.UU.: comparativa fiscal completa",
       "description": "Comparamos la carga fiscal de un autónomo en España (30-40%) con una LLC en Estados Unidos (hasta 0%). Números reales, ventajas y para quién tiene sentido.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/autonomo-espana-vs-llc-estados-unidos`,
       "inLanguage": "es",
@@ -2093,8 +2086,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Impuestos si tienes clientes internacionales en España: lo que nadie te cuenta",
       "description": "Si facturas a clientes internacionales desde España, puedes reducir tu carga fiscal del 40% hasta un 0% legalmente. IVA, fiscalidad internacional y LLC explicados.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/impuestos-clientes-internacionales-espana`,
@@ -2119,8 +2112,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "¿Se puede pagar 0% de impuestos legalmente? La verdad sobre la optimización fiscal",
       "description": "¿Es posible pagar cero impuestos de forma legal? Analizamos los 3 escenarios reales: LLC + residencia fiscal en país sin IRPF, Ley Beckham y régimen territorial.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/pagar-cero-impuestos-legalmente-llc`,
       "inLanguage": "es",
@@ -2144,8 +2137,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Nómada digital: dónde tributar y cómo elegir tu residencia fiscal",
       "description": "Guía fiscal para nómadas digitales: regla de los 183 días, mejores países para tributar y cómo cambiar tu residencia fiscal.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/nomada-digital-residencia-fiscal`,
       "inLanguage": "es",
@@ -2169,8 +2162,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Criptomonedas y trading con LLC: fiscalidad completa para traders",
       "description": "Fiscalidad completa para traders de criptomonedas. Cómo tributar en España, ventajas de operar con LLC, Modelo 721, setup ideal y errores frecuentes.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/criptomonedas-trading-llc-impuestos`,
       "inLanguage": "es",
@@ -2194,8 +2187,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "IVA en servicios digitales internacionales: cuándo aplica y cuándo no",
       "description": "Cuándo cobrar IVA en servicios digitales a clientes internacionales. Reglas B2B/B2C, operaciones intracomunitarias, Modelo 303/349, OSS.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/iva-servicios-digitales-internacional`,
       "inLanguage": "es",
@@ -2219,8 +2212,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "Registered Agent: qué es y por qué es obligatorio para tu LLC",
       "description": "El Registered Agent es obligatorio para tu LLC. Qué hace, cuánto cuesta, qué pasa sin él y cómo elegir el mejor servicio.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/registered-agent-que-es-por-que-necesitas`,
       "inLanguage": "es",
@@ -2244,8 +2237,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "headline": "7 errores fiscales que cometen los freelancers españoles (y cómo evitarlos)",
       "description": "Los 7 errores fiscales más costosos que cometen los freelancers en España. Deducciones, IVA internacional, pagos fraccionados y cómo evitar perder hasta 30.000€/año.",
       "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "mainEntityOfPage": `${BASE_URL}/blog/errores-fiscales-freelancers-espanoles`,
       "inLanguage": "es",
@@ -2259,7 +2252,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Cómo operar tu LLC", "item": `${BASE_URL}/blog/como-operar-llc-dia-a-dia` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo operar tu LLC en el día a día: guía práctica", "description": "Guía práctica para operar tu LLC americana: facturación, cobros, gastos, retiros y contabilidad.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/como-operar-llc-dia-a-dia`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo operar tu LLC en el día a día: guía práctica", "description": "Guía práctica para operar tu LLC americana: facturación, cobros, gastos, retiros y contabilidad.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/como-operar-llc-dia-a-dia`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1100 }
   ],
   "/blog/operating-agreement-llc-que-es": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2267,7 +2260,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Operating Agreement LLC", "item": `${BASE_URL}/blog/operating-agreement-llc-que-es` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Operating Agreement: qué es y por qué tu LLC lo necesita", "description": "El Operating Agreement define las reglas internas de tu LLC. Qué incluye, por qué es imprescindible y cuándo actualizarlo.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/operating-agreement-llc-que-es`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Operating Agreement: qué es y por qué tu LLC lo necesita", "description": "El Operating Agreement define las reglas internas de tu LLC. Qué incluye, por qué es imprescindible y cuándo actualizarlo.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/operating-agreement-llc-que-es`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/documentos-llc-cuales-necesitas": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2275,7 +2268,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Documentos de tu LLC", "item": `${BASE_URL}/blog/documentos-llc-cuales-necesitas` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno", "description": "Articles of Organization, EIN, Operating Agreement, BOI Report... Todos los documentos de tu LLC explicados.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/documentos-llc-cuales-necesitas`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno", "description": "Articles of Organization, EIN, Operating Agreement, BOI Report... Todos los documentos de tu LLC explicados.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/documentos-llc-cuales-necesitas`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/mantenimiento-anual-llc-obligaciones": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2283,7 +2276,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Mantenimiento anual LLC", "item": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes", "description": "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes", "description": "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1200 }
   ],
   "/blog/wise-business-llc-guia": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2291,7 +2284,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Wise Business LLC", "item": `${BASE_URL}/blog/wise-business-llc-guia` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Wise Business para tu LLC: guía completa", "description": "Wise Business para tu LLC: recibir pagos en múltiples divisas, convertir moneda y enviar dinero.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/wise-business-llc-guia`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Wise Business para tu LLC: guía completa", "description": "Wise Business para tu LLC: recibir pagos en múltiples divisas, convertir moneda y enviar dinero.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/wise-business-llc-guia`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1000 }
   ],
   "/blog/pasarelas-pago-llc-stripe-paypal-dodo": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2299,7 +2292,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Pasarelas de pago LLC", "item": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas", "description": "Compara Stripe, PayPal y Dodo Payments para tu LLC americana.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas", "description": "Compara Stripe, PayPal y Dodo Payments para tu LLC americana.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
   ],
   "/blog/amazon-ecommerce-llc-vender-online": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2307,7 +2300,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Amazon y ecommerce con LLC", "item": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Amazon y ecommerce con LLC: cómo vender online desde cualquier país", "description": "Vende en Amazon, Shopify y Etsy con tu LLC americana sin restricciones.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Amazon y ecommerce con LLC: cómo vender online desde cualquier país", "description": "Vende en Amazon, Shopify y Etsy con tu LLC americana sin restricciones.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/gastos-deducibles-llc-que-puedes-deducir": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2315,7 +2308,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Gastos deducibles LLC", "item": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir", "description": "Guía completa de gastos deducibles en tu LLC: tecnología, servicios, marketing, viajes, formación.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir", "description": "Guía completa de gastos deducibles en tu LLC: tecnología, servicios, marketing, viajes, formación.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
   ],
   "/blog/residentes-no-residentes-llc-diferencias": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2323,7 +2316,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Residentes vs no residentes LLC", "item": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC para residentes y no residentes de EE.UU.: diferencias clave", "description": "Las diferencias fiscales entre tener una LLC como residente y no residente de EE.UU.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC para residentes y no residentes de EE.UU.: diferencias clave", "description": "Las diferencias fiscales entre tener una LLC como residente y no residente de EE.UU.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
   ],
   "/blog/cambiar-divisas-llc-mejores-opciones": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2331,7 +2324,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Cambiar divisas LLC", "item": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo cambiar divisas en tu LLC: las mejores opciones", "description": "Compara Wise, Mercury, bancos tradicionales y PayPal para cambiar divisas en tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo cambiar divisas en tu LLC: las mejores opciones", "description": "Compara Wise, Mercury, bancos tradicionales y PayPal para cambiar divisas en tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/constituir-llc-proceso-paso-a-paso": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2339,7 +2332,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Constituir LLC paso a paso", "item": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Constituir tu LLC: el proceso paso a paso", "description": "El proceso completo para constituir una LLC americana como no residente: elegir estado, nombre, Registered Agent, EIN, cuenta bancaria.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Constituir tu LLC: el proceso paso a paso", "description": "El proceso completo para constituir una LLC americana como no residente: elegir estado, nombre, Registered Agent, EIN, cuenta bancaria.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
   "/blog/autonomos-espana-por-que-dejar-de-serlo": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2347,7 +2340,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Dejar de ser autónomo en España", "item": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Por qué dejar de ser autónomo en España (y qué alternativas tienes)", "description": "Si eres autónomo en España y facturas al extranjero, puedes estar pagando hasta un 47%. Hay alternativas legales como la LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Por qué dejar de ser autónomo en España (y qué alternativas tienes)", "description": "Si eres autónomo en España y facturas al extranjero, puedes estar pagando hasta un 47%. Hay alternativas legales como la LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
   ],
   "/blog/bancos-vs-fintech-llc-donde-abrir-cuenta": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2355,7 +2348,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Bancos vs Fintech para LLC", "item": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC", "description": "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC", "description": "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
   ],
   "/blog/tiempos-pagos-ach-wire-transfer": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2363,7 +2356,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Tiempos ACH y Wire Transfer", "item": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales", "description": "Tiempos reales de pago: ACH (1-3 días), Wire doméstico (horas), Wire internacional (1-5 días), Wise (1-2 días).", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales", "description": "Tiempos reales de pago: ACH (1-3 días), Wire doméstico (horas), Wire internacional (1-5 días), Wise (1-2 días).", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/iban-swift-routing-number-que-son": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2371,7 +2364,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "IBAN, SWIFT y Routing Number", "item": `${BASE_URL}/blog/iban-swift-routing-number-que-son` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos", "description": "IBAN, SWIFT/BIC y Routing Number explicados: qué son, cuándo usar cada uno, qué datos dar a clientes.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/iban-swift-routing-number-que-son`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos", "description": "IBAN, SWIFT/BIC y Routing Number explicados: qué son, cuándo usar cada uno, qué datos dar a clientes.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/iban-swift-routing-number-que-son`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/cuanto-cuesta-constituir-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2379,7 +2372,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Cuánto cuesta constituir LLC", "item": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto cuesta constituir una LLC? Costes reales", "description": "Costes reales de constituir una LLC en Nuevo México, Wyoming, Delaware y Florida. Filing fees, Registered Agent, EIN, mantenimiento anual.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto cuesta constituir una LLC? Costes reales", "description": "Costes reales de constituir una LLC en Nuevo México, Wyoming, Delaware y Florida. Filing fees, Registered Agent, EIN, mantenimiento anual.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
   "/blog/ventajas-desventajas-llc-no-residentes": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2387,7 +2380,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Ventajas y desventajas LLC", "item": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros", "description": "Las ventajas reales (fiscalidad, protección, banca) y las desventajas reales (costes, compliance, complejidad) de una LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes`, "inLanguage": "es", "articleSection": "Comparativas", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros", "description": "Las ventajas reales (fiscalidad, protección, banca) y las desventajas reales (costes, compliance, complejidad) de una LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes`, "inLanguage": "es", "articleSection": "Comparativas", "wordCount": 1200 }
   ],
   "/blog/evitar-bloqueos-mercury-wise-revolut": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2395,7 +2388,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Evitar bloqueos Mercury Wise Revolut", "item": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo evitar bloqueos en Mercury, Wise y Revolut Business", "description": "Por qué bloquean cuentas de LLC en Mercury, Wise y Revolut. Cómo prevenirlo y qué hacer si te bloquean.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo evitar bloqueos en Mercury, Wise y Revolut Business", "description": "Por qué bloquean cuentas de LLC en Mercury, Wise y Revolut. Cómo prevenirlo y qué hacer si te bloquean.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1200 }
   ],
   "/blog/que-es-irs-guia-duenos-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2403,7 +2396,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "Qué es el IRS", "item": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el IRS? Guía completa para dueños de LLC", "description": "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el IRS? Guía completa para dueños de LLC", "description": "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
   ],
   "/blog/llc-seguridad-juridica-proteccion-patrimonial": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2411,7 +2404,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
       { "@type": "ListItem", "position": 3, "name": "LLC seguridad jurídica", "item": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
 
   // Service subpages — one Service schema each. All five delegate the UI to
@@ -2420,8 +2413,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   // specific URL (otherwise the SEO audit flags `schema-service-missing`).
   // Task #14 (GEO): all five service subpages now ship as ProfessionalService
   // (not generic Service) with a `provider.@id` ref to the canonical
-  // Organization (`/#organization`), broad `areaServed` covering the 11
-  // markets we serve (LATAM + EU + UK), an audience that reflects the actual
+  // Organization (`/#organization`), broad `areaServed` covering the 6
+  // markets we serve (LATAM + EU), an audience that reflects the actual
   // ICP, and *no* literal price commitments in bot-facing schema (pricing
   // tiers vary per state and lead-time and live in the React UI). The
   // runtime React JSON-LD in client/src/pages/services/ServiceSubpage.tsx
@@ -2444,9 +2437,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
-        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Reino Unido" }
+        { "@type": "Country", "name": "Italia" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Freelancers, autónomos, agencias y emprendedores digitales no residentes fiscales en EE.UU." },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2479,9 +2471,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
-        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Reino Unido" }
+        { "@type": "Country", "name": "Italia" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Freelancers, autónomos, agencias y emprendedores digitales no residentes fiscales en EE.UU." },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2514,9 +2505,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
-        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Reino Unido" }
+        { "@type": "Country", "name": "Italia" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Founders, startups e inversores no residentes que buscan jurisdicción Delaware" },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2549,9 +2539,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
-        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Reino Unido" }
+        { "@type": "Country", "name": "Italia" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "Operadores con clientes en EE.UU. y mercado hispano de Miami" },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2584,9 +2573,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Country", "name": "Perú" },
         { "@type": "Country", "name": "Portugal" },
         { "@type": "Country", "name": "Francia" },
-        { "@type": "Country", "name": "Bélgica" },
         { "@type": "Country", "name": "Alemania" },
-        { "@type": "Country", "name": "Reino Unido" }
+        { "@type": "Country", "name": "Italia" }
       ],
       "audience": { "@type": "BusinessAudience", "audienceType": "No residentes fiscales en EE.UU. sin SSN que necesitan número fiscal IRS" },
       "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
@@ -2658,9 +2646,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Question", "name": "¿Cuánto cuesta abrir y mantener una LLC en EE.UU.?", "acceptedAnswer": { "@type": "Answer", "text": "El alta inicial profesional ronda los 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, asesoría inicial y banca). El mantenimiento anual oscila entre 400 y 900 USD según el estado, el Registered Agent, el franchise tax y los reports." } },
         { "@type": "Question", "name": "¿En cuántos días puedo tener mi LLC operativa?", "acceptedAnswer": { "@type": "Answer", "text": "La LLC se constituye en 24-48 horas hábiles. El EIN tarda entre 4 y 15 días naturales. La cuenta bancaria Mercury se activa en 1-3 días tras el KYC. En total: entre 7 y 20 días para tener la LLC plenamente operativa." } },
         { "@type": "Question", "name": "¿Tengo que viajar a Estados Unidos para abrir la LLC?", "acceptedAnswer": { "@type": "Answer", "text": "No. Todo el proceso (constitución, EIN, banca, compliance) se gestiona 100% online desde tu país. Solo necesitas pasaporte y firma electrónica." } },
-        { "@type": "Question", "name": "¿Qué impuestos paga una LLC con dueño no residente?", "acceptedAnswer": { "@type": "Answer", "text": "Una Single-Member LLC con propietario extranjero sin Effectively Connected Income (ECI) en EE.UU. tributa al 0% federal sobre los beneficios obtenidos fuera de EE.UU. Esos beneficios deben declararse en el país de residencia fiscal del propietario según las normas locales (IRPF en España, Ganancias en Argentina, ISR en México, etc.)." } },
-        { "@type": "Question", "name": "¿Cuándo entran en vigor CRS 2.0 y CARF y cómo afectan a mi LLC?", "url": `${BASE_URL}/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc`, "acceptedAnswer": { "@type": "Answer", "text": "El paquete OCDE CRS 2.0 + CARF se aprobó en 2023. La UE lo transpone mediante la Directiva (UE) 2023/2226 (DAC8), con aplicación material desde el 1 de enero de 2026 y primer intercambio efectivo en enero de 2027 sobre datos del ejercicio 2026. Tu LLC en EE. UU. no es entidad reportante (los bancos americanos no son Reporting Financial Institutions bajo CRS), pero sí entra cualquier capa europea que añadas: Wise Business, Revolut Business europeo, N26, Wallester, Payoneer Europe y los exchanges con sede o licencia en la UE. Análisis completo en el artículo del cluster CRS 2.0 / CARF." } },
-        { "@type": "Question", "name": "¿Mi LLC en EE. UU. queda fuera del CRS 2.0?", "url": `${BASE_URL}/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc`, "acceptedAnswer": { "@type": "Answer", "text": "Sí, por arquitectura, no por opacidad. Estados Unidos no es jurisdicción CRS y no firmará el CRS 2.0; mantiene FATCA como régimen propio bilateral. La LLC en sí no es Reporting Financial Institution bajo CRS. Eso no exime de declarar correctamente en el país de residencia: la cuenta bancaria americana entra en el Modelo 720/721 español o en los regímenes equivalentes; los exchanges europeos sí reportan bajo CARF/DAC8 desde 2026. Análisis completo en el artículo del cluster CRS 2.0 / CARF." } }
+        { "@type": "Question", "name": "¿Qué impuestos paga una LLC con dueño no residente?", "acceptedAnswer": { "@type": "Answer", "text": "Una Single-Member LLC con propietario extranjero sin Effectively Connected Income (ECI) en EE.UU. tributa al 0% federal sobre los beneficios obtenidos fuera de EE.UU. Esos beneficios deben declararse en el país de residencia fiscal del propietario según las normas locales (IRPF en España, Ganancias en Argentina, ISR en México, etc.)." } }
       ]
     },
     {
@@ -2696,7 +2682,7 @@ type PillarLocaleSchema = {
   howToName: string;
   howToDescription: string;
   steps: Array<{ name: string; text: string }>;
-  faq: Array<{ q: string; a: string; url?: string }>;
+  faq: Array<{ q: string; a: string }>;
 };
 
 function buildPillarSchemas(s: PillarLocaleSchema): object[] {
@@ -2739,7 +2725,6 @@ function buildPillarSchemas(s: PillarLocaleSchema): object[] {
       "mainEntity": s.faq.map((f) => ({
         "@type": "Question",
         "name": f.q,
-        ...(f.url ? { "url": f.url } : {}),
         "acceptedAnswer": { "@type": "Answer", "text": f.a },
       })),
     },
@@ -2780,8 +2765,6 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "How fast can my LLC be operational?", a: "The LLC is formed in 24-48 business hours. The EIN takes 4-15 calendar days. The Mercury account activates in 1-3 days after KYC. Total: 7-20 days to be fully operational." },
         { q: "Do I have to travel to the United States to open the LLC?", a: "No. The entire process (formation, EIN, banking, compliance) is handled 100% online from your country. All you need is a passport and an electronic signature." },
         { q: "What taxes does an LLC with a non-resident owner pay?", a: "A Single-Member LLC with a foreign owner and no Effectively Connected Income (ECI) in the US is taxed at 0% federally on profits earned outside the US. Those profits must be declared in the owner's country of tax residence under local rules." },
-        { q: "When do CRS 2.0 and CARF come into force and how do they affect my LLC?", a: "The OECD CRS 2.0 + CARF package was approved in 2023. The EU transposes it through Directive (EU) 2023/2226 (DAC8), with material application from 1 January 2026 and the first effective exchange in January 2027 over fiscal-year 2026 data. Your US LLC is not a reporting entity (US banks are not Reporting Financial Institutions under CRS), but any European layer you add is: Wise Business, European Revolut Business, N26, Wallester, Payoneer Europe and any exchange seated or licensed in the EU. Full analysis in the CRS 2.0 / CARF cluster article.", url: `${BASE_URL}/en/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
-        { q: "Is my US LLC outside CRS 2.0?", a: "Yes — by design, not by opacity. The United States is not a CRS jurisdiction and will not sign CRS 2.0; it keeps FATCA as its own bilateral regime. The LLC itself is not a Reporting Financial Institution under CRS. That does not waive your filing duty in your country of residence: the US bank account still goes into Spain's Modelo 720/721 or any equivalent regime, and European exchanges do report under CARF/DAC8 from 2026 onwards. Full analysis in the CRS 2.0 / CARF cluster article.", url: `${BASE_URL}/en/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
       ],
     }),
     fr: buildPillarSchemas({
@@ -2808,8 +2791,6 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "En combien de temps ma LLC est-elle opérationnelle ?", a: "La LLC est constituée en 24-48 heures ouvrées. L'EIN met 4 à 15 jours. Le compte Mercury s'active en 1-3 jours après KYC. Au total : 7 à 20 jours pour être pleinement opérationnel." },
         { q: "Faut-il se déplacer aux États-Unis pour ouvrir la LLC ?", a: "Non. L'intégralité du processus (création, EIN, banque, conformité) se gère 100% en ligne depuis votre pays. Il suffit d'un passeport et d'une signature électronique." },
         { q: "Quels impôts paie une LLC avec propriétaire non-résident ?", a: "Une Single-Member LLC à propriétaire étranger sans Effectively Connected Income (ECI) aux États-Unis est imposée à 0% au fédéral sur les bénéfices réalisés hors des US. Ces bénéfices doivent être déclarés dans le pays de résidence fiscale du propriétaire." },
-        { q: "Quand le CRS 2.0 et le CARF entrent-ils en vigueur et comment touchent-ils ma LLC ?", a: "Le paquet OCDE CRS 2.0 + CARF a été approuvé en 2023. L'UE le transpose par la directive (UE) 2023/2226 (DAC8), avec application matérielle depuis le 1er janvier 2026 et premier échange effectif en janvier 2027 sur les données de l'exercice 2026. Votre LLC aux USA n'est pas une entité déclarante (les banques américaines ne sont pas Reporting Financial Institutions au sens du CRS), mais toute couche européenne ajoutée l'est : Wise Business, Revolut Business européen, N26, Wallester, Payoneer Europe et les exchanges à siège ou licence UE. Analyse complète dans l'article du cluster CRS 2.0 / CARF.", url: `${BASE_URL}/fr/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
-        { q: "Ma LLC aux États-Unis est-elle hors du CRS 2.0 ?", a: "Oui — par architecture, pas par opacité. Les États-Unis ne sont pas une juridiction CRS et ne signeront pas le CRS 2.0 ; ils conservent FATCA comme régime bilatéral propre. La LLC elle-même n'est pas Reporting Financial Institution au sens du CRS. Cela ne dispense pas de déclarer dans votre pays de résidence : le compte bancaire américain reste à déclarer (formulaires nationaux applicables) et les exchanges européens reportent bien sous CARF/DAC8 dès 2026. Analyse complète dans l'article du cluster CRS 2.0 / CARF.", url: `${BASE_URL}/fr/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
       ],
     }),
     de: buildPillarSchemas({
@@ -2836,8 +2817,6 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "Wie schnell ist meine LLC einsatzbereit?", a: "Die LLC wird in 24-48 Werktagen gegründet. Der EIN dauert 4-15 Kalendertage. Mercury-Konto aktiviert in 1-3 Tagen nach KYC. Gesamt: 7-20 Tage bis vollständig einsatzbereit." },
         { q: "Muss ich für die LLC-Gründung in die USA reisen?", a: "Nein. Der gesamte Prozess (Gründung, EIN, Banking, Compliance) läuft 100% online aus Ihrem Heimatland. Sie brauchen nur Reisepass und elektronische Signatur." },
         { q: "Welche Steuern zahlt eine LLC mit nicht-ansässigem Eigentümer?", a: "Eine Single-Member-LLC mit ausländischem Eigentümer und ohne Effectively Connected Income (ECI) in den USA wird mit 0% Bundessteuer auf außerhalb der USA erzielte Gewinne besteuert. Diese Gewinne müssen im Wohnsitzland des Eigentümers nach lokalem Recht deklariert werden." },
-        { q: "Wann treten CRS 2.0 und CARF in Kraft und wie betreffen sie meine LLC?", a: "Das OECD-Paket CRS 2.0 + CARF wurde 2023 verabschiedet. Die EU setzt es durch die Richtlinie (EU) 2023/2226 (DAC8) um, mit materieller Anwendung ab dem 1. Januar 2026 und erstem effektiven Austausch im Januar 2027 über Daten des Geschäftsjahrs 2026. Ihre US-LLC ist keine meldende Einheit (US-Banken sind keine Reporting Financial Institutions im Sinne des CRS), aber jede europäische Schicht, die Sie hinzufügen, schon: Wise Business, europäisches Revolut Business, N26, Wallester, Payoneer Europe und alle in der EU ansässigen oder lizenzierten Krypto-Börsen. Vollständige Analyse im Cluster-Artikel CRS 2.0 / CARF.", url: `${BASE_URL}/de/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
-        { q: "Steht meine US-LLC außerhalb des CRS 2.0?", a: "Ja — durch Architektur, nicht durch Intransparenz. Die USA sind keine CRS-Jurisdiktion und werden CRS 2.0 nicht unterzeichnen; sie behalten FATCA als eigenes bilaterales Regime. Die LLC selbst ist keine Reporting Financial Institution im Sinne des CRS. Das entbindet nicht von der Erklärungspflicht im Wohnsitzland: Das US-Bankkonto fließt weiterhin in die jeweiligen nationalen Anzeigeformulare ein, und europäische Krypto-Börsen melden sehr wohl ab 2026 unter CARF/DAC8. Vollständige Analyse im Cluster-Artikel CRS 2.0 / CARF.", url: `${BASE_URL}/de/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
       ],
     }),
     pt: buildPillarSchemas({
@@ -2860,12 +2839,10 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
       ],
       faq: [
         { q: "É legal abrir uma LLC nos EUA sendo não residente?", a: "Sim. Os Estados Unidos permitem expressamente que pessoas singulares não residentes e sem SSN sejam proprietárias únicas ou múltiplas de uma LLC. A operação é regulada pelo IRS (Form 5472 + 1120 pro forma) e pelas leis estaduais." },
-        { q: "Quanto custa abrir e manter uma LLC nos EUA?", a: "A constituição profissional ronda os 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, assessoria inicial e bancária). Manutenção anual: 400-900 USD consoante estado, agente, franchise tax e reports." },
+        { q: "Quanto custa abrir e manter uma LLC nos EUA?", a: "A constituição profissional ronda os 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, consultoria inicial e bancária). Manutenção anual: 400-900 USD consoante estado, agente, franchise tax e reports." },
         { q: "Em quantos dias posso ter a minha LLC operativa?", a: "A LLC constitui-se em 24-48 horas úteis. O EIN demora 4-15 dias. A conta Mercury ativa em 1-3 dias após KYC. Total: 7-20 dias para ficar plenamente operativa." },
         { q: "Tenho de viajar aos EUA para abrir a LLC?", a: "Não. Todo o processo (constituição, EIN, banca, compliance) é gerido 100% à distância a partir do seu país. Basta passaporte e assinatura eletrónica." },
         { q: "Que impostos paga uma LLC com dono não residente?", a: "Uma Single-Member LLC com proprietário estrangeiro e sem Effectively Connected Income (ECI) nos EUA é tributada a 0% federal sobre os lucros obtidos fora dos EUA. Esses lucros têm de ser declarados no país de residência fiscal." },
-        { q: "Quando entram em vigor o CRS 2.0 e o CARF e como afetam a minha LLC?", a: "O pacote OCDE CRS 2.0 + CARF foi aprovado em 2023. A UE transpõe-no pela Diretiva (UE) 2023/2226 (DAC8), com aplicação material desde 1 de janeiro de 2026 e primeira troca efetiva em janeiro de 2027 sobre dados do exercício de 2026. A sua LLC nos EUA não é entidade reportante (os bancos americanos não são Reporting Financial Institutions no quadro do CRS), mas qualquer camada europeia adicionada é: Wise Business, Revolut Business europeu, N26, Wallester, Payoneer Europe e os exchanges com sede ou licença na UE. Análise completa no artigo do cluster CRS 2.0 / CARF.", url: `${BASE_URL}/pt/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
-        { q: "A minha LLC nos EUA fica fora do CRS 2.0?", a: "Sim — por arquitetura, não por opacidade. Os Estados Unidos não são uma jurisdição CRS e não vão assinar o CRS 2.0; mantêm a FATCA como regime bilateral próprio. A LLC em si não é Reporting Financial Institution no quadro do CRS. Isso não dispensa de declarar no país de residência: a conta bancária americana continua a entrar no Anexo J do IRS português ou nos regimes equivalentes, e os exchanges europeus reportam sob CARF/DAC8 desde 2026. Análise completa no artigo do cluster CRS 2.0 / CARF.", url: `${BASE_URL}/pt/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
       ],
     }),
     ca: buildPillarSchemas({
@@ -2892,8 +2869,6 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "En quants dies puc tenir la meva LLC operativa?", a: "La LLC es constitueix en 24-48 hores hàbils. L'EIN triga 4-15 dies. El compte Mercury s'activa en 1-3 dies després del KYC. Total: 7-20 dies per estar plenament operativa." },
         { q: "He de viatjar als EUA per obrir la LLC?", a: "No. Tot el procés (constitució, EIN, banca, compliance) es gestiona 100% online des del teu país. Només cal passaport i signatura electrònica." },
         { q: "Quins impostos paga una LLC amb propietari no resident?", a: "Una Single-Member LLC amb propietari estranger i sense Effectively Connected Income (ECI) als EUA tributa al 0% federal sobre els beneficis obtinguts fora dels EUA. Aquests beneficis s'han de declarar al país de residència fiscal." },
-        { q: "Quan entren en vigor el CRS 2.0 i el CARF i com afecten la meva LLC?", a: "El paquet OCDE CRS 2.0 + CARF es va aprovar el 2023. La UE el transposa per la Directiva (UE) 2023/2226 (DAC8), amb aplicació material des de l'1 de gener de 2026 i primer intercanvi efectiu el gener de 2027 sobre dades de l'exercici 2026. La teva LLC als EUA no és entitat reportant (els bancs americans no són Reporting Financial Institutions sota el CRS), però sí qualsevol capa europea afegida: Wise Business, Revolut Business europeu, N26, Wallester, Payoneer Europe i els exchanges amb seu o llicència a la UE. Anàlisi completa a l'article del cluster CRS 2.0 / CARF.", url: `${BASE_URL}/ca/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
-        { q: "La meva LLC als EUA queda fora del CRS 2.0?", a: "Sí — per arquitectura, no per opacitat. Els Estats Units no són jurisdicció CRS i no signaran el CRS 2.0; mantenen FATCA com a règim bilateral propi. La LLC en si no és Reporting Financial Institution sota el CRS. Això no eximeix de declarar al país de residència: el compte bancari americà continua entrant al Model 720/721 espanyol o als règims equivalents, i els exchanges europeus reporten sota CARF/DAC8 des del 2026. Anàlisi completa a l'article del cluster CRS 2.0 / CARF.", url: `${BASE_URL}/ca/blog/crs-2-0-carf-por-que-usa-no-firmara-llc` },
       ],
     }),
   },
@@ -2912,9 +2887,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>At Exentax we design international tax structures so you pay only what you owe, with certainty and without guesswork. We reduce your tax burden from 40% to as low as 0% through legitimate tax planning.</p>
 <h2>How Exentax is different</h2>
 <ul>
-<li>Up to 0% US federal IRS with a well-designed LLC structure (non-residents)</li>
-<li>+50 clients with an active and optimized structure</li>
-<li>Strategic 30-minute video advisory session</li>
+<li>-37% average tax reduction for our clients</li>
+<li>31+ clients with an optimized structure</li>
+<li>Strategic 30-minute video consultation</li>
 <li>100% online: no travel to the United States required</li>
 <li>Ongoing fiscal compliance: you are never on your own</li>
 </ul>
@@ -2927,15 +2902,12 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Includes: Articles of Organization, Operating Agreement, EIN (IRS tax ID), Registered Agent, Mercury business account and 12 months of support.</p>
 <h2>Who is Exentax for?</h2>
 <p>Freelancers, software engineers, designers, consultants, content creators, crypto and forex traders, e-commerce owners, SaaS founders, marketing agencies and digital nomads invoicing internationally.</p>
-<h3>Countries we serve</h3>
-<p>We work with freelancers and entrepreneurs from Spain, Argentina, Mexico, Colombia, Chile and Peru. Our team speaks Spanish and English and knows the tax law of each country.</p>
-<p>Contact: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/en/about-llc">US LLC for non-residents: 2026 guide</a>
 <a href="/en/how-we-work">How we work: step by step</a>
 <a href="/en/services">Services and pricing</a>
 <a href="/en/faq">Frequently asked questions</a>
-<a href="/en/book">Book a strategic tax advisory session</a>
+<a href="/en/book">Book a strategic tax consultation</a>
 </nav>
 </article>`,
     about_llc: `<article>
@@ -2978,14 +2950,14 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Annual Report: only required in Wyoming and Delaware (New Mexico does not require one)</li>
 <li>Registered Agent renewal: annual, in the state of formation</li>
 </ul>
-<p>See <a href="/en/services">services and pricing</a> or <a href="/en/book">book a strategic tax advisory session</a>.</p>
+<p>See <a href="/en/services">services and pricing</a> or <a href="/en/book">book a strategic tax consultation</a>.</p>
 </article>`,
     how_we_work: `<article>
 <h1>How We Work: step-by-step tax optimization</h1>
 <h2>A clear, four-phase process with no surprises</h2>
 <p>Exentax runs a structured four-phase process to optimize your international tax position legally and safely. Everything is 100% online: no travel to the United States required.</p>
 <h2>Phase 1: Strategic Tax Diagnosis</h2>
-<p>A 30-minute video advisory session where we analyze your current tax situation, income profile, residency and professional activity. We determine whether a US LLC is the right fit and estimate your savings.</p>
+<p>A 30-minute video consultation where we analyze your current tax situation, income profile, residency and professional activity. We determine whether a US LLC is the right fit and estimate your savings.</p>
 <h2>Phase 2: LLC Formation</h2>
 <p>We handle the full formation in the state that best fits your case: Articles of Organization, personalized Operating Agreement, IRS EIN application and Registered Agent designation. Typical completion in 2–4 weeks.</p>
 <h2>Phase 3: Banking and Payment Setup</h2>
@@ -3013,9 +2985,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h2>Additional services</h2>
 <ul>
 <li>ITIN application (Individual Taxpayer Identification Number)</li>
-<li>30-minute strategic tax advisory session via Google Meet</li>
+<li>30-minute strategic tax consultation via Google Meet</li>
 </ul>
-<p>No hidden fees. No lock-in. Cancel anytime. <a href="/en/book">Book a strategic tax advisory session</a>.</p>
+<p>No hidden fees. No lock-in. Cancel anytime. <a href="/en/book">Book a strategic tax consultation</a>.</p>
 </article>`,
     faq: `<article>
 <h1>Frequently asked questions: US LLC and international tax</h1>
@@ -3042,13 +3014,13 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Yes. Mercury onboarding is fully online. You only need your formed LLC and the EIN.</p>
 <h3>Can I use Stripe with my US LLC?</h3>
 <p>Yes. A US LLC gives you full Stripe access with no country-based restrictions, across 135+ currencies.</p>
-<p>More questions? <a href="/en/book">Book a strategic tax advisory session</a>.</p>
+<p>More questions? <a href="/en/book">Book a strategic tax consultation</a>.</p>
 </article>`,
     book: `<article>
-<h1>Strategic tax advisory session: 30 minutes over video</h1>
+<h1>Strategic tax consultation: 30 minutes over video</h1>
 <h2>Personalized fiscal diagnosis for your digital business</h2>
 <p>Book a 30-minute video call with an Exentax tax advisor. We analyze your current fiscal situation and tell you whether a US LLC is the right move for your digital business.</p>
-<h2>What the advisory session includes</h2>
+<h2>What the consultation includes</h2>
 <ul>
 <li>Full analysis of your current tax situation in your country</li>
 <li>Personalized savings estimate with an LLC structure</li>
@@ -3075,8 +3047,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Chez Exentax nous concevons des structures fiscales internationales pour que vous ne payiez que ce que vous devez, avec certitude et sans improvisation.</p>
 <h2>Nos différences</h2>
 <ul>
-<li>Jusqu'à 0 % d'impôt fédéral US avec une structure LLC bien conçue (non-résidents)</li>
-<li>+50 clients avec une structure active et optimisée</li>
+<li>-37 % de réduction fiscale moyenne pour nos clients</li>
 <li>Consultation stratégique de 30 minutes en visioconférence</li>
 <li>100 % en ligne: aucun déplacement aux États-Unis</li>
 <li>Conformité fiscale continue: vous n'êtes jamais seul</li>
@@ -3088,9 +3059,6 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>LLC Delaware: meilleur cadre juridique pour les startups</li>
 </ul>
 <p>Inclus : Articles of Organization, Operating Agreement, EIN (numéro fiscal IRS), agent enregistré, compte bancaire Mercury et 12 mois d'accompagnement.</p>
-<h3>Pays desservis</h3>
-<p>Nous travaillons avec des freelances et entrepreneurs d'Espagne, d'Argentine, du Mexique, de Colombie, du Chili et du Pérou. Notre équipe parle espagnol et anglais et connaît la fiscalité de chaque pays.</p>
-<p>Contact: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/fr/a-propos-des-llc">LLC américaine pour non-résidents: guide 2026</a>
 <a href="/fr/comment-nous-travaillons">Comment nous travaillons</a>
@@ -3233,8 +3201,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Exentax gestaltet internationale Steuerstrukturen, damit Sie nur zahlen, was Sie schulden: mit Rechtssicherheit, ohne Improvisation.</p>
 <h2>Was uns unterscheidet</h2>
 <ul>
-<li>Bis zu 0 % US-Bundessteuer mit einer gut konzipierten LLC-Struktur (Nichtansässige)</li>
-<li>+50 Mandanten mit aktiver und optimierter Struktur</li>
+<li>-37 % durchschnittliche Steuerreduktion für unsere Mandanten</li>
 <li>Strategische 30-Minuten-Videoberatung</li>
 <li>100 % online: keine USA-Reise nötig</li>
 <li>Laufende steuerliche Compliance: Sie sind nie allein</li>
@@ -3246,9 +3213,6 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Delaware LLC: bester Rechtsrahmen für investor-taugliche Unternehmen</li>
 </ul>
 <p>Inklusive: Articles of Organization, Operating Agreement, EIN (IRS-Steuernummer), Registered Agent, Mercury-Geschäftskonto und 12 Monate Betreuung.</p>
-<h3>Bediente Länder</h3>
-<p>Wir arbeiten mit Freelancern und Unternehmern aus Spanien, Argentinien, Mexiko, Kolumbien, Chile und Peru. Unser Team spricht Spanisch und Englisch und kennt die Steuergesetze jedes Landes.</p>
-<p>Kontakt: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/de/uber-llc">US-LLC für Nicht-Residenten: Leitfaden 2026</a>
 <a href="/de/wie-wir-arbeiten">Wie wir arbeiten</a>
@@ -3391,8 +3355,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Na Exentax desenhamos estruturas fiscais internacionais para que você pague apenas o que deve, com segurança e sem improviso.</p>
 <h2>O que nos diferencia</h2>
 <ul>
-<li>Até 0 % de imposto federal US com uma estrutura LLC bem desenhada (não residentes)</li>
-<li>+50 clientes com estrutura ativa e otimizada</li>
+<li>-37 % de redução fiscal média para nossos clientes</li>
 <li>Consultoria estratégica de 30 minutos por videochamada</li>
 <li>100 % online: sem viajar aos Estados Unidos</li>
 <li>Compliance fiscal contínuo</li>
@@ -3404,15 +3367,12 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>LLC Delaware: melhor arcabouço jurídico para empresas com investidores</li>
 </ul>
 <p>Inclui: Articles of Organization, Operating Agreement, EIN, agente registrado, conta Mercury e 12 meses de suporte.</p>
-<h3>Países atendidos</h3>
-<p>Trabalhamos com freelancers e empreendedores de Espanha, Argentina, México, Colômbia, Chile e Peru. A nossa equipa fala espanhol e inglês e conhece a legislação fiscal de cada país.</p>
-<p>Contacto: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/pt/sobre-llc">LLC americana para não residentes: guia 2026</a>
 <a href="/pt/como-trabalhamos">Como trabalhamos</a>
 <a href="/pt/servicos">Nossos serviços e preços</a>
 <a href="/pt/perguntas-frequentes">Perguntas frequentes</a>
-<a href="/pt/agendar">Agendar assessoria fiscal estratégica</a>
+<a href="/pt/agendar">Agendar consultoria fiscal estratégica</a>
 </nav>
 </article>`,
     about_llc: `<article>
@@ -3454,7 +3414,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Annual Report: apenas Wyoming e Delaware</li>
 <li>Renovação anual do agente registrado</li>
 </ul>
-<p>Veja <a href="/pt/servicos">nossos serviços</a> ou <a href="/pt/agendar">agende uma assessoria</a>.</p>
+<p>Veja <a href="/pt/servicos">nossos serviços</a> ou <a href="/pt/agendar">agende uma consultoria</a>.</p>
 </article>`,
     how_we_work: `<article>
 <h1>Como trabalhamos: otimização fiscal passo a passo</h1>
@@ -3467,7 +3427,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h2>Fase 3: Conta bancária e meios de pagamento</h2>
 <p>Abrimos sua conta Mercury ou Relay em USD e configuramos Stripe e gateways de pagamento.</p>
 <h2>Fase 4: Compliance contínuo</h2>
-<p>Gestão fiscal anual: Form 5472, Form 1120, BOI Report, renovação do agente registrado, Annual Report (Wyoming/Delaware) e assessoria permanente.</p>
+<p>Gestão fiscal anual: Form 5472, Form 1120, BOI Report, renovação do agente registrado, Annual Report (Wyoming/Delaware) e consultoria permanente.</p>
 <p><a href="/pt/agendar">Agende seu diagnóstico</a> ou veja <a href="/pt/servicos">serviços e preços</a>.</p>
 </article>`,
     our_services: `<article>
@@ -3491,7 +3451,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Obtenção do ITIN</li>
 <li>Consultoria estratégica de 30 minutos por Google Meet</li>
 </ul>
-<p>Sem custos ocultos. Sem fidelidade. <a href="/pt/agendar">Agendar assessoria</a>.</p>
+<p>Sem custos ocultos. Sem fidelidade. <a href="/pt/agendar">Agendar consultoria</a>.</p>
 </article>`,
     faq: `<article>
 <h1>Perguntas frequentes: LLC americana e tributação internacional</h1>
@@ -3516,7 +3476,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Sim. Totalmente online.</p>
 <h3>Posso usar Stripe com minha LLC americana?</h3>
 <p>Sim, sem restrições geográficas, em mais de 135 moedas.</p>
-<p>Mais dúvidas? <a href="/pt/agendar">Agendar assessoria fiscal estratégica</a>.</p>
+<p>Mais dúvidas? <a href="/pt/agendar">Agendar consultoria fiscal estratégica</a>.</p>
 </article>`,
     book: `<article>
 <h1>Consultoria fiscal estratégica: 30 minutos por videochamada</h1>
@@ -3549,8 +3509,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>A Exentax dissenyem estructures fiscals internacionals perquè paguis només el que deus, amb seguretat i sense improvisacions.</p>
 <h2>Com ens diferenciem</h2>
 <ul>
-<li>Fins a 0 % d'impost federal US amb una estructura LLC ben dissenyada (no residents)</li>
-<li>+50 clients amb estructura activa i optimitzada</li>
+<li>-37 % de reducció fiscal mitjana per als nostres clients</li>
 <li>Assessoria estratègica de 30 minuts per videotrucada</li>
 <li>100 % online: sense viatjar als Estats Units</li>
 <li>Compliance fiscal continu</li>
@@ -3562,9 +3521,6 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>LLC Delaware: millor marc legal per a empreses amb inversors</li>
 </ul>
 <p>Inclou: Articles of Organization, Operating Agreement, EIN, agent registrat, compte Mercury i 12 mesos de suport.</p>
-<h3>Països atesos</h3>
-<p>Treballem amb autònoms i emprenedors d'Espanya, Argentina, Mèxic, Colòmbia, Xile i Perú. El nostre equip parla castellà i anglès i coneix la legislació fiscal de cada país.</p>
-<p>Contacte: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/ca/sobre-les-llc">LLC als EUA per a no residents: guia 2026</a>
 <a href="/ca/com-treballem">Com treballem</a>
@@ -3809,7 +3765,7 @@ export const FAQ_SCHEMA_ENTRIES = [
 // minimal <h1> entry in PAGE_SEO_CONTENT / PAGE_SEO_CONTENT_I18N derived
 // from PAGE_META.title. This mirrors the runtime fallback that
 // injectMeta() applies in server/static.ts and also lets the static
-// audit script (scripts/audit/audit-system-seo-faqs.mjs) recognise a
+// audit script (scripts/audit-system-seo-faqs.mjs) recognise a
 // rendered <h1> without having to crawl the production build.
 // ---------------------------------------------------------------------
 const _H1_BACKFILL_ROUTES: RouteKey[] = [
