@@ -1256,6 +1256,15 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       // which includes `germanyHebesatz`; this notify is the operator-facing
       // mirror of the same value (no second source of truth).
       germanyHebesatz: parsed.data.options?.germanyHebesatz ?? null,
+      // Task #86: surface the Comunidad Autónoma to operators alongside
+      // the country so the Discord card explains why two Spanish leads
+      // with the same income show different `ahorro` (Madrid cheap vs
+      // Cataluña expensive — and País Vasco/Navarra have their own foral
+      // IRPF entirely). The value already travels in `parsed.data.ccaa`
+      // (Task #53, validated against the 19 CCAA / autonomous-city keys);
+      // this notify is the operator-facing mirror of the same value the
+      // customer email already shows via `resolveCcaaLabel`.
+      ccaa: parsed.data.ccaa ?? null,
       language: parsed.data.language, ip: calcIp, marketingAccepted: parsed.data.marketingAccepted, privacyAccepted: parsed.data.privacyAccepted,
     });
     // A4: Discord audit (operational) — fired AFTER the consent_log row

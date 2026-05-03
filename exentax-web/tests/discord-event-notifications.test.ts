@@ -289,6 +289,94 @@ async function main() {
       "notifyCalculatorLead omits the Hebesatz row for non-German leads");
   }
 
+  // ──────────── lead_calculator (CCAA española — Task #86) ────────────
+  // Mirrors the Hebesatz block above for Spain: the operator must see
+  // the Comunidad Autónoma next to `Pais: espana` because Madrid (cheap
+  // IRPF) and Cataluña (expensive IRPF) — and the foral regimes of País
+  // Vasco / Navarra — produce very different `ahorro` figures for the
+  // same income. The localised label comes from `resolveCcaaLabel`
+  // (server/email-i18n.ts), the same helper the customer email uses, so
+  // the operator card and the customer email stay in sync.
+
+  // (e) ES + ccaa=cataluna → "Comunidad" row appears with the localised name.
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_es_cat",
+    email: "barcelona@test.local",
+    country: "espana",
+    ahorro: 3200,
+    annualIncome: 80000,
+    ccaa: "cataluna",
+    language: "es",
+  });
+  await flush();
+  {
+    const parsed = JSON.parse(findFor("1000000000000000005")[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(embed.fields.some((f: any) => f.name === "Pais" && f.value === "espana"),
+      "notifyCalculatorLead surfaces the country for Spanish leads");
+    assert(embed.fields.some((f: any) => f.name === "Comunidad" && f.value === "Cataluña"),
+      "notifyCalculatorLead surfaces the localised CCAA name next to the country");
+  }
+
+  // (f) ES + ccaa=paisVasco → foral tag so the operator doesn't apply
+  // state IRPF brackets (País Vasco runs its own foral IRPF).
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_es_pv",
+    email: "bilbao@test.local",
+    country: "espana",
+    ahorro: 2800,
+    ccaa: "paisVasco",
+    language: "es",
+  });
+  await flush();
+  {
+    const parsed = JSON.parse(findFor("1000000000000000005")[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(embed.fields.some((f: any) => f.name === "Comunidad" && f.value.includes("foral")),
+      "notifyCalculatorLead tags País Vasco with the foral marker");
+  }
+
+  // (g) Back-compat: ES lead WITHOUT ccaa (older client bundle that
+  // predates Task #53) → no Comunidad row, same back-compat stance as
+  // the Hebesatz row above (don't assert a value the visitor never picked).
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_es_legacy",
+    email: "legacy-es@test.local",
+    country: "espana",
+    ahorro: 1800,
+    language: "es",
+  });
+  await flush();
+  {
+    const parsed = JSON.parse(findFor("1000000000000000005")[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(!embed.fields.some((f: any) => f.name === "Comunidad"),
+      "notifyCalculatorLead omits the Comunidad row when the client did not send a ccaa (back-compat)");
+  }
+
+  // (h) Non-Spanish lead → no Comunidad row even when a ccaa sneaks
+  // through (defensive: the CCAA tax differential only applies inside
+  // Spain, surfacing it next to e.g. a French lead would be misleading).
+  SENT.length = 0;
+  d.notifyCalculatorLead({
+    leadId: "lead_calc_fr_with_ccaa",
+    email: "paris@test.local",
+    country: "francia",
+    ahorro: 2100,
+    ccaa: "madrid",
+    language: "fr",
+  });
+  await flush();
+  {
+    const parsed = JSON.parse(findFor("1000000000000000005")[0].body);
+    const embed = parsed.embeds?.[0];
+    assert(!embed.fields.some((f: any) => f.name === "Comunidad"),
+      "notifyCalculatorLead omits the Comunidad row for non-Spanish leads");
+  }
+
   // ───────────────────────── admin_action ────────────────────────────────
   SENT.length = 0;
   d.notifyAdminAction({

@@ -57,6 +57,7 @@ import type {
   RESTPatchAPIChannelMessageJSONBody,
 } from "discord-api-types/v10";
 import { logger } from "./logger";
+import { resolveCcaaLabel } from "./email-i18n";
 import { SITE_URL, DEFAULT_TIMEZONE } from "./server-constants";
 import { setDiscordQueueSize, incDiscordDropped, incDiscordSendFailure, incAlertFallback } from "./metrics";
 
@@ -1776,6 +1777,16 @@ export function notifyCalculatorLead(opts: {
   // sólo lo emitimos en el card cuando el lead es de Alemania, para no
   // añadir ruido a los del resto de países.
   germanyHebesatz?: "low" | "medium" | "high" | null;
+  // Task #86: CCAA (Comunidad Autónoma) — el operador necesita verla
+  // junto al país en el aviso de calculadora porque, como el Hebesatz
+  // alemán (Task #78), condiciona la cifra de IRPF/cuotas y por tanto
+  // el `ahorro` (Madrid barato vs Cataluña caro). El valor canónico
+  // (madrid, paisVasco, ...) ya viaja al backend dentro de
+  // `parsed.data.ccaa` (Task #53) y el email del cliente ya muestra el
+  // nombre localizado vía `resolveCcaaLabel`; aquí lo reflejamos en el
+  // card sólo cuando el lead es de España, igual que el Hebesatz se
+  // surface sólo para Alemania.
+  ccaa?: string | null;
   language?: string | null;
   ip?: string | null;
   marketingAccepted?: boolean;
@@ -1794,6 +1805,26 @@ export function notifyCalculatorLead(opts: {
   pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
   pushAlways(fields, "Email", opts.email, true);
   push(fields, "Pais", opts.country);
+  // Task #86: Comunidad Autónoma — sólo cuando el país es España y el
+  // cliente envió un valor explícito (clientes anteriores a Task #53 no
+  // lo mandan; omitimos la fila para no afirmar algo que el visitante
+  // no eligió, mismo criterio que el Hebesatz más abajo). Reutilizamos
+  // `resolveCcaaLabel` (server/email-i18n.ts) para que la etiqueta
+  // coincida con la del email enviado al cliente. País Vasco y Navarra
+  // llevan régimen foral; las etiquetas localizadas ya incluyen
+  // "(foral)" en todos los idiomas, pero añadimos un fallback por si
+  // un futuro lang no lo incluye, para que el operador no aplique los
+  // tramos estatales de IRPF al hablar con el lead. La fila va
+  // inmediatamente después de `Pais` (igual que el Hebesatz va junto
+  // al país en el lead alemán).
+  if (opts.country === "espana" && opts.ccaa) {
+    const label = resolveCcaaLabel(opts.ccaa, opts.language);
+    if (label) {
+      const isForal = opts.ccaa === "paisVasco" || opts.ccaa === "navarra";
+      const value = isForal && !label.includes("foral") ? `${label} (régimen foral)` : label;
+      pushAlways(fields, "Comunidad", value, true);
+    }
+  }
   push(fields, "Regimen fiscal", opts.regime);
   push(fields, "Actividad", opts.activity);
   // Hebesatz alemán — sólo cuando el país es Alemania y el cliente
