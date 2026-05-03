@@ -119,6 +119,10 @@ const STEPS = [
   // boot ~10-20s + analytics specs ~30s); refresh after the first
   // few CI runs settle in.
   { name: "test:e2e:gate",                   weight: 130 },
+  // Task #90 — lock-in test for the two-phase wiring of
+  // `scripts/test-e2e-gate.mjs`. Pure source-string assertions
+  // (no Playwright, no dev server), so weight is 1.
+  { name: "test:lint-e2e-gate-wiring",       weight: 1 },
 ];
 
 // `tsc` is special — it isn't a package.json script, it's invoked directly
