@@ -1,6 +1,6 @@
 # Blog masterpiece audit — baseline 606
 
-Generado: 2026-05-01T09:20:01.581Z
+Generado: 2026-05-03T13:45:18.430Z
 Artículos auditados: **672**
 Score medio: **100 / 100**
 

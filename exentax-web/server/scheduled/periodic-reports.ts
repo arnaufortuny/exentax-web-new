@@ -23,6 +23,7 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import { logger } from "../logger";
 import { notifyEvent } from "../discord";
+import { countPoisonedOutboxRows } from "../storage/marketing";
 
 // Helpers tipados para `db.execute(...)`. Centralizan el cast de
 // `QueryResult<Record<string, unknown>>` a la forma conocida de cada
@@ -641,6 +642,94 @@ export async function runYearlyHookAudit(now: Date): Promise<void> {
  * Robusto a reinicios: dedupKey por período impide duplicados aunque el
  * proceso se reinicie varias veces dentro de la ventana de 1 hora.
  */
+// ─── Task #69 — Poisoned outbox watch (hourly) ────────────────────────────
+// The new outbox model parks rows that hit one of two terminal states so
+// they never re-send (POISONED: + far-future next_attempt_at, or attempts
+// >= max_attempts). Operators previously learned about this only by
+// SSH-ing in and grepping; this branch fires a Discord alert each hour
+// while the count is non-zero so SRE can triage proactively.
+//
+// Dedup strategy: notifyEvent's in-memory dedup is a 5-minute TTL only,
+// so consecutive ticks would still produce one card per hour even though
+// the situation is unchanged. That's the desired behavior — a stuck row
+// is silent data loss, and one card per hour is the right escalation
+// cadence (mirrors the existing `still_firing` reminder cadence in
+// discord-alerts.ts). The dedupKey embeds an hour bucket so two ticks
+// inside the same wall-clock hour are still suppressed if the warmup
+// happens to fire near the top of the hour.
+
+interface PoisonedAlertResult {
+  total: number;
+  fired: boolean;
+}
+
+export async function runPoisonedOutboxAlert(now: Date = new Date()): Promise<PoisonedAlertResult> {
+  let counts;
+  try {
+    counts = await countPoisonedOutboxRows({ sampleLimit: 10 });
+  } catch (err) {
+    logger.error(
+      "[periodic-reports] poisoned outbox count failed (non-fatal)",
+      "reports",
+      err,
+    );
+    return { total: 0, fired: false };
+  }
+
+  if (counts.total === 0) {
+    return { total: 0, fired: false };
+  }
+
+  const hourBucket = Math.floor(now.getTime() / (60 * 60 * 1000));
+
+  // Build a compact, privacy-conscious sample. Each row stays on a single
+  // line so the embed value field stays well below the 1024-char limit
+  // even with 10 rows. Email is masked (`ar*****@exentax.com`) so the
+  // alert can be screenshotted in chat without leaking PII.
+  const sampleLines = counts.sample.map((r) => {
+    const tag = r.reason === "poisoned" ? "POISON" : "EXHAUST";
+    const err = (r.lastError ?? "").slice(0, 60).replace(/`/g, "'");
+    return `\`${tag}\` \`${r.id}\` enr=\`${r.enrollmentId}\` step=${r.step} ${r.kind} ${r.emailMasked} (${r.attempts}/${r.maxAttempts}) — ${err}`;
+  });
+  const sampleValue = sampleLines.length > 0 ? sampleLines.join("\n") : "_(no sample)_";
+
+  const description = [
+    `**${counts.total}** rows in \`email_outbox\` are stuck and will never re-send on their own.`,
+    `Breakdown: **${counts.poisoned}** poisoned (post-send sentinel CAS failed) · **${counts.exhausted}** exhausted (attempts ≥ max_attempts).`,
+    "",
+    "Each stuck row means the next step in that contact's drip sequence will never fire — silent marketing-funnel data loss. Triage with `POST /api/admin/outbox/:id/retry` after confirming SMTP delivery in Gmail logs.",
+  ].join("\n");
+
+  const fields = [
+    { name: "Total stuck", value: String(counts.total), inline: true },
+    { name: "Poisoned", value: String(counts.poisoned), inline: true },
+    { name: "Exhausted", value: String(counts.exhausted), inline: true },
+    {
+      name: `Sample (newest ${counts.sample.length})`,
+      value: sampleValue.slice(0, 1024),
+      inline: false,
+    },
+  ];
+
+  notifyEvent({
+    type: "system_error",
+    criticality: "warning",
+    title: `Outbox: ${counts.total} stuck row${counts.total === 1 ? "" : "s"} — operator triage`,
+    description,
+    fields,
+    channel: "errores",
+    origin: "scheduler/poisoned-outbox-watch",
+    dedupKey: `poisoned_outbox_${hourBucket}`,
+  });
+
+  logger.warn(
+    `[poisoned-outbox-watch] alerted: total=${counts.total} poisoned=${counts.poisoned} exhausted=${counts.exhausted}`,
+    "reports",
+  );
+  return { total: counts.total, fired: true };
+}
+
+
 export function startPeriodicReportsScheduler(): NodeJS.Timeout {
   const HOUR_MS = 60 * 60 * 1000;
 
@@ -696,6 +785,11 @@ export function startPeriodicReportsScheduler(): NodeJS.Timeout {
         }
       }
     }
+
+    // Task #69: poisoned-outbox watch runs EVERY hour (not gated on 9am)
+    // because silent drip data loss should be surfaced quickly, not
+    // batched with the 09:00 daily roll-up.
+    await runPoisonedOutboxAlert(realNow);
 
     // Solo en hora 9:00 (cualquier minuto, ejecuta una vez por hora)
     if (hour !== 9) return;

@@ -20,7 +20,7 @@ import {
 import { encryptField } from "../field-encryption";
 import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, renderCalculatorEmailHtml, maskEmail } from "../email";
 import { wakeOutboxWorker } from "../scheduled/drip-worker";
-import { tryCreateDripEnrollment, enqueueOutboxRow, type OutboxPayload } from "../storage/marketing";
+import { tryCreateDripEnrollment, enqueueOutboxRow, type OutboxPayload, retryPoisonedOutboxRow } from "../storage/marketing";
 import { enqueueEmail, triggerEmailDrain } from "../email-retry-queue";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL, HREFLANG_BCP47 } from "../server-constants";
 import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
@@ -2002,6 +2002,54 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   });
   app.get("/api/drip/unsubscribe/:token", dripUnsubHandler);
   app.post("/api/drip/unsubscribe/:token", dripUnsubHandler);
+  // ─── Task #69 — Operator-only outbox retry ────────────────────────────
+  // After confirming via Gmail's SMTP logs that a poisoned/exhausted
+  // outbox row's email actually delivered (or that retrying is safe), an
+  // operator can call this endpoint to reset attempts/next_attempt_at/
+  // last_error so the worker re-claims the row on its next tick. Gated
+  // behind `OUTBOX_ADMIN_TOKEN`: when the env var is unset the route
+  // returns 404 (no operator surface exists in this environment), and
+  // when it's set we constant-time compare against the
+  // `x-operator-token` request header. There is intentionally no UI for
+  // this — it's a curl-from-laptop tool for SRE.
+  //
+  // Side-effect contract: only acts on rows where `sent_at IS NULL` (see
+  // `retryPoisonedOutboxRow`), so a confused operator who passes an
+  // already-delivered row's id gets a 404 instead of producing a
+  // duplicate marketing email.
+  app.post("/api/admin/outbox/:id/retry", asyncHandler(async (req, res) => {
+    const expected = (process.env.OUTBOX_ADMIN_TOKEN ?? "").trim();
+    if (!expected) {
+      return apiNotFound(res, "endpoint not configured");
+    }
+    const provided = String(req.headers["x-operator-token"] ?? "");
+    const expectedBuf = Buffer.from(expected);
+    const providedBuf = Buffer.from(provided);
+    if (
+      providedBuf.length !== expectedBuf.length ||
+      !crypto.timingSafeEqual(providedBuf, expectedBuf)
+    ) {
+      return apiFail(res, 401, "unauthorized", "UNAUTHORIZED");
+    }
+    const id = String(req.params.id || "").trim();
+    if (!/^OBX_[A-Za-z0-9_-]{1,60}$/.test(id)) {
+      return apiFail(res, 400, "invalid outbox id", "VALIDATION_ERROR");
+    }
+    const reset = await retryPoisonedOutboxRow(id);
+    if (!reset) {
+      return apiNotFound(res, "outbox row not found or already sent");
+    }
+    logger.warn(
+      `[admin/outbox] operator reset id=${id} ip=${maskIp(getClientIp(req))}`,
+      "admin",
+    );
+    // Wake the worker so the operator does not have to wait for the next
+    // 30-second tick to see the retry happen. Best-effort — the worker
+    // module guards its own debouncing.
+    try { wakeOutboxWorker(); } catch { /* non-fatal */ }
+    return apiOk(res, { id, status: "reset" });
+  }));
+
 
 }
 

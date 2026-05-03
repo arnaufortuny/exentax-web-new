@@ -521,13 +521,161 @@ export async function getOutboxClaimVersion(id: string): Promise<number | null> 
     const result = await db.execute(sql`
       SELECT claim_version AS "claimVersion"
         FROM email_outbox
-       WHERE id = ${id}
+       WHERE id = ${id} AND (last_error LIKE 'POISONED:%' OR attempts >= max_attempts)
          AND sent_at IS NULL
        LIMIT 1
     `);
     const rows = (result as unknown as { rows: { claimVersion: number }[] }).rows ?? [];
     return rows[0]?.claimVersion ?? null;
   } catch (err) { throw wrapStorageError("getOutboxClaimVersion", err); }
+}
+
+export interface PoisonedOutboxSampleRow {
+  id: string;
+  enrollmentId: string;
+  step: number;
+  emailMasked: string;
+  kind: string;
+  attempts: number;
+  maxAttempts: number;
+  lastError: string | null;
+  reason: "poisoned" | "exhausted";
+}
+
+function maskEmailForAlert(email: string | null | undefined): string {
+  if (!email || typeof email !== "string") return "(unknown)";
+  const at = email.indexOf("@");
+  if (at <= 0) return "***";
+  const local = email.slice(0, at);
+  const domain = email.slice(at);
+  const head = local.slice(0, 2);
+  return `${head}${"*".repeat(Math.max(1, local.length - 2))}${domain}`;
+}
+
+/**
+ * Operator alerting helper (Task #69): count outbox rows that are stuck
+ * and will never re-send on their own. Two failure modes are aggregated
+ * because both produce the same downstream symptom (the next step in
+ * the drip sequence will never fire — silent marketing-funnel data loss):
+ *
+ *   1. POISONED rows — `last_error LIKE 'POISONED:%'`. Set by
+ *      `poisonOutboxRow` when SMTP delivered but the post-send sentinel
+ *      write failed every retry; `next_attempt_at = 9999-12-31` parks
+ *      the row out of the worker's claim selector forever.
+ *   2. EXHAUSTED rows — `attempts >= max_attempts AND sent_at IS NULL`.
+ *      The claim selector's `attempts < max_attempts` filter makes the
+ *      row ineligible even if `next_attempt_at` rolls over.
+ *
+ * Returns aggregate counts plus up to `sampleLimit` rows for the Discord
+ * alert. Ordered by `fecha_creacion DESC` so the freshest stuck rows
+ * surface first — they are usually the ones the operator can still
+ * recover before the recipient notices the missing follow-up.
+ */
+export async function countPoisonedOutboxRows(opts: { sampleLimit: number }): Promise<{
+  total: number;
+  poisoned: number;
+  exhausted: number;
+  sample: PoisonedOutboxSampleRow[];
+}> {
+  try {
+    const totals = await db.execute(sql`
+      SELECT
+        COUNT(*) FILTER (WHERE last_error LIKE 'POISONED:%')::int AS poisoned,
+        COUNT(*) FILTER (WHERE attempts >= max_attempts AND sent_at IS NULL)::int AS exhausted,
+        COUNT(*) FILTER (
+          WHERE last_error LIKE 'POISONED:%'
+             OR (attempts >= max_attempts AND sent_at IS NULL)
+        )::int AS total
+      FROM email_outbox
+    `);
+    const totalsRow = (totals as unknown as {
+      rows: { poisoned: number; exhausted: number; total: number }[];
+    }).rows[0] ?? { poisoned: 0, exhausted: 0, total: 0 };
+
+    let sample: PoisonedOutboxSampleRow[] = [];
+    if (totalsRow.total > 0 && opts.sampleLimit > 0) {
+      const sampleRes = await db.execute(sql`
+        SELECT id, enrollment_id AS "enrollmentId", step, payload,
+               attempts, max_attempts AS "maxAttempts", last_error AS "lastError"
+          FROM email_outbox
+         WHERE last_error LIKE 'POISONED:%'
+            OR (attempts >= max_attempts AND sent_at IS NULL)
+         ORDER BY fecha_creacion DESC
+         LIMIT ${opts.sampleLimit}
+      `);
+      const rows = (sampleRes as unknown as {
+        rows: Array<{
+          id: string;
+          enrollmentId: string;
+          step: number;
+          payload: string;
+          attempts: number;
+          maxAttempts: number;
+          lastError: string | null;
+        }>;
+      }).rows ?? [];
+      sample = rows.map((r) => {
+        let kind = "?";
+        let email = "";
+        try {
+          const p = JSON.parse(r.payload) as Partial<OutboxPayload>;
+          kind = String(p.kind ?? "?");
+          email = String(p.email ?? "");
+        } catch {
+          // Malformed payload — fine; row is stuck for a different reason.
+        }
+        const reason: "poisoned" | "exhausted" =
+          r.lastError && r.lastError.startsWith("POISONED:") ? "poisoned" : "exhausted";
+        return {
+          id: r.id,
+          enrollmentId: r.enrollmentId,
+          step: r.step,
+          emailMasked: maskEmailForAlert(email),
+          kind,
+          attempts: r.attempts,
+          maxAttempts: r.maxAttempts,
+          lastError: r.lastError,
+          reason,
+        };
+      });
+    }
+
+    return {
+      total: totalsRow.total,
+      poisoned: totalsRow.poisoned,
+      exhausted: totalsRow.exhausted,
+      sample,
+    };
+  } catch (err) { throw wrapStorageError("countPoisonedOutboxRows", err); }
+}
+
+/**
+ * Operator-triggered recovery (Task #69): reset a stuck outbox row so
+ * the worker re-tries delivery on its next tick. Only acts on rows
+ * still pending (`sent_at IS NULL`) — a row already marked sent must
+ * NOT be revived from the operator path (that would risk a duplicate
+ * marketing email, which is the very thing the outbox lifecycle exists
+ * to prevent).
+ *
+ * Returns `true` if the row was found and reset, `false` if the id is
+ * unknown or the row was already sent (caller should respond 404 in
+ * that case so the operator notices their mistake).
+ */
+export async function retryPoisonedOutboxRow(id: string): Promise<boolean> {
+  try {
+    const result = await db.execute(sql`
+      UPDATE email_outbox
+         SET attempts = 0,
+             next_attempt_at = to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"'),
+             last_error = NULL,
+             claimed_at = NULL
+       WHERE id = ${id} AND (last_error LIKE 'POISONED:%' OR attempts >= max_attempts)
+         AND sent_at IS NULL
+      RETURNING id
+    `);
+    const rows = (result as unknown as { rows: { id: string }[] }).rows ?? [];
+    return rows.length > 0;
+  } catch (err) { throw wrapStorageError("retryPoisonedOutboxRow", err); }
 }
 
 /**
