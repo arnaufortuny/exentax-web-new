@@ -183,9 +183,24 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
     onError: (error: Error) => {
-      setStep("form");
+      // 409 = slot just got taken by another user mid-form. Refresh slots
+      // AND drop the user back to the time picker with the stale selection
+      // cleared, otherwise re-submitting hits the same 409 on the now-busy
+      // slot. 429 stays in the form step (rate-limit is per-IP, retry works).
+      const message = error.message ?? "";
+      const isSlotConflict = message.includes("409") || /slot.*(taken|booked|conflict)/i.test(message);
+      if (isSlotConflict) {
+        setSelectedTime(null);
+        setStep("time");
+      } else {
+        setStep("form");
+      }
       queryClient.invalidateQueries({ queryKey: ["/api/bookings/available-slots"] });
-      const msg = error.message?.includes("429") ? t("errors.rateLimited") : t("errors.serverError");
+      const msg = isSlotConflict
+        ? t("errors.slotTaken", { defaultValue: t("errors.serverError") })
+        : message.includes("429")
+          ? t("errors.rateLimited")
+          : t("errors.serverError");
       showMsg(msg, "error");
     },
   });

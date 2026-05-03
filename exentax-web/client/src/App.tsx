@@ -163,7 +163,7 @@ class RouteErrorBoundary extends Component<RouteErrorBoundaryProps, RouteErrorBo
 
   render() {
     if (this.state.hasError) {
-      return <EmptyLoader />;
+      return <RouteErrorFallback />;
     }
     return this.props.children;
   }
@@ -171,6 +171,38 @@ class RouteErrorBoundary extends Component<RouteErrorBoundaryProps, RouteErrorBo
 
 function EmptyLoader() {
   return <div style={{ minHeight: "100vh", background: "var(--bg-0, #F7F6F2)" }} />;
+}
+
+function RouteErrorFallback() {
+  // Localised lightweight fallback for per-route errors (e.g. lazy chunk
+  // failure on a single page). Distinct from main.tsx ErrorBoundary which
+  // catches root-level crashes; this one keeps Navbar/Footer mounted and
+  // only swaps the route slot, so the user can navigate away.
+  const lang = (typeof navigator !== "undefined" ? navigator.language : "es").split("-")[0].toLowerCase();
+  const msgs: Record<string, { title: string; desc: string; reload: string }> = {
+    es: { title: "No hemos podido cargar esta sección", desc: "Recarga la página o vuelve al inicio.", reload: "Recargar" },
+    en: { title: "We couldn't load this section", desc: "Reload the page or go back home.", reload: "Reload" },
+    fr: { title: "Impossible de charger cette section", desc: "Rechargez la page ou retournez à l'accueil.", reload: "Recharger" },
+    de: { title: "Dieser Bereich konnte nicht geladen werden", desc: "Lade die Seite neu oder gehe zurück zur Startseite.", reload: "Neu laden" },
+    pt: { title: "Não conseguimos carregar esta secção", desc: "Recarrega a página ou volta ao início.", reload: "Recarregar" },
+    ca: { title: "No hem pogut carregar aquesta secció", desc: "Recarrega la pàgina o torna a l'inici.", reload: "Recarregar" },
+  };
+  const m = msgs[lang] || msgs.es;
+  return (
+    <div style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center", padding: "2rem", fontFamily: "'Inter', sans-serif" }}>
+      <div style={{ textAlign: "center", maxWidth: 480 }}>
+        <h2 style={{ fontSize: 22, fontWeight: 700, color: "var(--text-1, #0F1A14)", marginBottom: 12, fontFamily: "'Space Grotesk', sans-serif" }}>{m.title}</h2>
+        <p style={{ fontSize: 15, color: "var(--text-2, #6B7D73)", marginBottom: 20, lineHeight: 1.5 }}>{m.desc}</p>
+        <button
+          onClick={() => { if (typeof window !== "undefined") window.location.reload(); }}
+          style={{ background: "#00E510", color: "#0B0D0C", border: "none", borderRadius: 999, padding: "10px 28px", fontSize: 15, fontWeight: 700, cursor: "pointer", fontFamily: "'Space Grotesk', sans-serif" }}
+          data-testid="route-error-reload"
+        >
+          {m.reload}
+        </button>
+      </div>
+    </div>
+  );
 }
 
 function RootRedirect() {

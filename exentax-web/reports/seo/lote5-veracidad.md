@@ -1,6 +1,6 @@
 # LOTE 5 — Veracidad de los 112 artículos × 6 idiomas
 
-Generado: 2026-05-03T13:43:59.372Z · Fecha de verificación: **2026-05-03** · Script: `scripts/blog/blog-veracity-audit.mjs`
+Generado: 2026-05-03T15:20:21.130Z · Fecha de verificación: **2026-05-03** · Script: `scripts/blog/blog-veracity-audit.mjs`
 
 Este informe cierra el LOTE 5 del Task #6: verifica la **veracidad** de los datos sensibles publicados en el blog (112 slugs × 6 idiomas = **672 piezas de contenido**) contra las fuentes oficiales emisoras (BOE, AEAT, Seguridad Social, IRS, FinCEN, EUR-Lex, OCDE, Secretary of State del estado correspondiente).
 
