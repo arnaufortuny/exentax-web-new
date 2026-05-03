@@ -1966,6 +1966,7 @@ const fr = {
 errors: {
   rateLimited: "Vous avez fait plusieurs requêtes de suite. Patientez un instant.",
   serverError: "Problème sur le serveur. Nous l'examinons déjà.",
+  slotTaken: "Ce créneau vient d'être réservé. Choisissez un autre horaire disponible.",
 },
   calculator: {
     placeholderZero: "0",

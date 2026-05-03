@@ -475,7 +475,7 @@ const en: SubpagesBase = {
       h1green: "lean, private and at minimum cost",
       subtitle: "Low-cost privacy for solo founders: a U.S. LLC with no annual report, no franchise tax and members kept off the public record — the leanest structure for digital nomads and online entrepreneurs.",
       ctaPrimary: "Book a consultation",
-      ctaWhatsapp: "Chat on WhatsApp",
+      ctaWhatsapp: "Speak to us on WhatsApp",
       waText: "Hi, I'd like to set up an LLC in New Mexico. Can we talk?",
     },
     intro: {
@@ -548,7 +548,7 @@ const en: SubpagesBase = {
       h1green: "strong privacy and asset protection",
       subtitle: "Gold-standard U.S. asset protection: Wyoming delivers the strongest charging order shield in the country (even for single-member LLCs) and maximum legal privacy for the members.",
       ctaPrimary: "Book a consultation",
-      ctaWhatsapp: "Chat on WhatsApp",
+      ctaWhatsapp: "Speak to us on WhatsApp",
       waText: "Hi, I'd like to set up an LLC in Wyoming. Can we talk?",
     },
     intro: {
@@ -621,7 +621,7 @@ const en: SubpagesBase = {
       h1green: "corporate prestige and access to investors",
       subtitle: "The choice of VCs and B2B buyers: Delaware is the world's most recognized jurisdiction in corporate law and the de facto standard for startups, fundraising rounds and serious B2B contracts.",
       ctaPrimary: "Book a consultation",
-      ctaWhatsapp: "Chat on WhatsApp",
+      ctaWhatsapp: "Speak to us on WhatsApp",
       waText: "Hi, I'd like to set up an LLC in Delaware. Can we talk?",
     },
     intro: {
@@ -694,7 +694,7 @@ const en: SubpagesBase = {
       h1green: "real presence, Hispanic market and business momentum",
       subtitle: "Your gateway to Miami's Latin market: Florida is the natural state when you'll travel often to the U.S., serve local clients or build a business rooted in Miami and the Hispanic community.",
       ctaPrimary: "Book a consultation",
-      ctaWhatsapp: "Chat on WhatsApp",
+      ctaWhatsapp: "Speak to us on WhatsApp",
       waText: "Hi, I'd like to set up an LLC in Florida. Can we talk?",
     },
     intro: {
@@ -768,7 +768,7 @@ const en: SubpagesBase = {
       h1green: "end-to-end, without mailing your passport",
       subtitle: "Skip the IRS office and the passport courier: our authorized Certifying Acceptance Agent files your Individual Taxpayer Identification Number (ITIN) with the IRS end-to-end, so you start from anywhere in the world.",
       ctaPrimary: "Book a consultation",
-      ctaWhatsapp: "Chat on WhatsApp",
+      ctaWhatsapp: "Speak to us on WhatsApp",
       waText: "Hi, I need to apply for my ITIN. Can we talk?",
     },
     intro: {

@@ -2720,6 +2720,7 @@ const es = {
  errors: {
   rateLimited: "Has hecho varias peticiones seguidas. Espera un momento.",
   serverError: "Problema en el servidor. Ya estamos revisándolo.",
+  slotTaken: "Ese horario acaba de reservarse. Elige otra hora disponible.",
  },
  blogPost: {
   articlesFound: "artículos encontrados",

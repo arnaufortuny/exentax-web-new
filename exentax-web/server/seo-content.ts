@@ -483,30 +483,30 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Tot sobre LLC als Estats Units: avantatges fiscals, com constituir-la pas a pas, banca en dòlars, Stripe, obligacions IRS i errors a evitar.",
     canonical: `${BASE_URL}/ca/sobre-les-llc`,
   },
-  "/es/legal/terminos": {
+  "/es/terminos": {
     title: "Términos y condiciones | Exentax",
     description: "Términos y condiciones de Exentax. Constitución y gestión de LLC en EE.UU., planificación fiscal internacional y asesoría continua para autónomos.",
-    canonical: `${BASE_URL}/es/legal/terminos`,
+    canonical: `${BASE_URL}/es/terminos`,
   },
-  "/es/legal/privacidad": {
+  "/es/privacidad": {
     title: "Política de privacidad | Exentax",
     description: "Política de privacidad de Exentax. Cómo recopilamos, usamos y protegemos tus datos personales en los servicios de optimización fiscal.",
-    canonical: `${BASE_URL}/es/legal/privacidad`,
+    canonical: `${BASE_URL}/es/privacidad`,
   },
-  "/es/legal/cookies": {
+  "/es/cookies": {
     title: "Política de cookies | Exentax",
     description: "Información sobre el uso de cookies en exentax.com. Asesoría especializada en optimización fiscal legal para autónomos y freelancers.",
-    canonical: `${BASE_URL}/es/legal/cookies`,
+    canonical: `${BASE_URL}/es/cookies`,
   },
-  "/es/legal/reembolsos": {
+  "/es/reembolsos": {
     title: "Política de reembolsos | Exentax",
     description: "Política de reembolsos de Exentax. Cancelaciones, devoluciones y garantías en los servicios de constitución LLC y optimización fiscal.",
-    canonical: `${BASE_URL}/es/legal/reembolsos`,
+    canonical: `${BASE_URL}/es/reembolsos`,
   },
-  "/es/legal/disclaimer": {
+  "/es/disclaimer": {
     title: "Disclaimer legal y fiscal | Exentax",
     description: "Disclaimer legal y fiscal de Exentax. Información sobre la naturaleza de nuestros servicios, limitaciones de responsabilidad y obligaciones del cliente.",
-    canonical: `${BASE_URL}/es/legal/disclaimer`,
+    canonical: `${BASE_URL}/es/disclaimer`,
   },
 };
 

@@ -1965,6 +1965,7 @@ const de = {
 errors: {
   rateLimited: "Sie haben mehrere Anfragen hintereinander gestellt. Warten Sie einen Moment.",
   serverError: "Problem auf dem Server. Wir kümmern uns bereits darum.",
+  slotTaken: "Dieser Termin wurde gerade gebucht. Wählen Sie eine andere verfügbare Zeit.",
 },
 calculator: {
     placeholderZero: "0",

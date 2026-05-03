@@ -1000,8 +1000,8 @@ const en = {
     kicker: "FINAL STEP",
     title: "Ready for your LLC?",
     subtitle: "We form your US LLC with complete compliance, working banking and tax support in your country. 100% remote, transparent, no surprises.",
-    ctaBook: "Book a free advisory session",
-    ctaWhatsapp: "Chat on WhatsApp",
+    ctaBook: "Book a free consultation",
+    ctaWhatsapp: "Speak to us on WhatsApp",
     waText: "Hi Exentax, I come from the home page and want to talk to an advisor about my case.",
     stat1: "Remote",
     stat2: "Countries covered",
@@ -1012,7 +1012,7 @@ const en = {
     title: "Frequently asked questions about tax",
     titleHighlight: "optimization.",
     subtitle: "We answer your questions clearly and directly. If you can't find your answer, we're just a click away.",
-    cta: { book: "Book a free advisory call", whatsapp: "Chat on WhatsApp" },
+    cta: { book: "Book a free advisory call", whatsapp: "Speak to us on WhatsApp" },
     talkToUs: "Talk to an advisor",
     viewAll: "View all frequently asked questions",
     items: [{"q":"How long does it take to set up my LLC?","a":"<p class=\"mb-3\"><strong class=\"text-[var(--text-1)]\">Your LLC is formed in less than 5 days.</strong> It's one of the fastest processes in the world to open an international company.</p><p class=\"mb-3\">What you receive in that timeframe:</p><div class=\"grid gap-2 mt-2 mb-3\"><div class=\"rounded-2xl bg-white border border-[rgba(0,229,16,0.32)] px-4 py-2.5 text-[15px] leading-relaxed text-[var(--text-1)] shadow-[0_1px_2px_rgba(11,13,12,0.04)]\">State certificate of formation (Articles of Organization)</div><div class=\"rounded-2xl bg-white border border-[rgba(0,229,16,0.32)] px-4 py-2.5 text-[15px] leading-relaxed text-[var(--text-1)] shadow-[0_1px_2px_rgba(11,13,12,0.04)]\">Provisional EIN to start operating and open accounts</div><div class=\"rounded-2xl bg-white border border-[rgba(0,229,16,0.32)] px-4 py-2.5 text-[15px] leading-relaxed text-[var(--text-1)] shadow-[0_1px_2px_rgba(11,13,12,0.04)]\">Custom Operating Agreement and US business address</div></div><p>We then handle the ITIN and bank account opening — with your business already invoicing.</p>"},
@@ -1330,7 +1330,7 @@ const en = {
       h2: "And it shouldn't be.",
       desc: "If your business is already global. If you invoice from different platforms. If you want a structure that doesn't rely on guesswork. At Exentax we execute each phase with you so your company is ready to operate and grow.",
       btnAgendar: "Book your strategic advisory session",
-      btnWhatsapp: "Chat on WhatsApp",
+      btnWhatsapp: "Speak to us on WhatsApp",
       waText: "Hello. I've read how you work and I'd like to know how to start the process. Can we talk?"
     },
     intro: {
@@ -1360,7 +1360,7 @@ const en = {
         cta: {
           desc: "We don't work by volume. We work when it makes sense.",
           btnAgendar: "Book your strategic advisory session",
-          btnWhatsapp: "Chat on WhatsApp",
+          btnWhatsapp: "Speak to us on WhatsApp",
           waText: "Hello, I've seen how you work and I'd like to know if my situation is a fit. Can we chat for a moment?"
         }
       },
@@ -1963,6 +1963,7 @@ const en = {
   errors: {
     rateLimited: "You've made several requests in a row. Give it a moment.",
     serverError: "Server issue. We're already looking into it.",
+    slotTaken: "That slot was just booked. Pick another available time.",
   },
   calculator: {
     placeholderZero: "0",

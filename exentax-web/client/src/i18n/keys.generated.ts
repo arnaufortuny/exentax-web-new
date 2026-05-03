@@ -1320,6 +1320,7 @@ export type TranslationKey =
   | "start.closePrivacy"
   | "errors.rateLimited"
   | "errors.serverError"
+  | "errors.slotTaken"
   | "blogPost.articlesFound"
   | "blogPost.share"
   | "blogPost.backToBlog"

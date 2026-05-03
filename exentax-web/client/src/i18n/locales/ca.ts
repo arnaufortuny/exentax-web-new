@@ -2380,6 +2380,7 @@ const ca = {
   errors: {
     rateLimited: "Has fet diverses peticions seguides. Espera un moment.",
     serverError: "Problema al servidor. Ja ho estem mirant.",
+    slotTaken: "Aquest horari acaba de reservar-se. Tria una altra hora disponible.",
   },
   finalCta: {
     whatsappCta: "Escriu-nos per WhatsApp",

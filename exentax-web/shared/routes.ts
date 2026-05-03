@@ -33,11 +33,11 @@ export const ROUTE_SLUGS: Record<RouteKey, Record<SupportedLang, string>> = {
   service_llc_de:   { es: "servicios/llc-delaware",         en: "services/llc-delaware",        fr: "services/llc-delaware",            de: "leistungen/llc-delaware",       pt: "servicos/llc-delaware",     ca: "serveis/llc-delaware" },
   service_llc_fl:   { es: "servicios/llc-florida",          en: "services/llc-florida",         fr: "services/llc-floride",             de: "leistungen/llc-florida",        pt: "servicos/llc-florida",      ca: "serveis/llc-florida" },
   service_itin:     { es: "servicios/obten-tu-itin",        en: "services/get-your-itin",       fr: "services/obtiens-ton-itin",        de: "leistungen/hol-deine-itin",     pt: "servicos/obtenha-seu-itin", ca: "serveis/obte-el-teu-itin" },
-  legal_terms:      { es: "legal/terminos",            en: "legal/terms",                fr: "legal/conditions",              de: "legal/agb",             pt: "legal/termos",             ca: "legal/termes" },
-  legal_privacy:    { es: "legal/privacidad",          en: "legal/privacy",              fr: "legal/confidentialite",         de: "legal/datenschutz",     pt: "legal/privacidade",        ca: "legal/privacitat" },
-  legal_cookies:    { es: "legal/cookies",             en: "legal/cookies",              fr: "legal/cookies",                 de: "legal/cookies",         pt: "legal/cookies",            ca: "legal/cookies" },
-  legal_refunds:    { es: "legal/reembolsos",          en: "legal/refunds",              fr: "legal/remboursements",          de: "legal/erstattungen",    pt: "legal/reembolsos",         ca: "legal/reemborsaments" },
-  legal_disclaimer: { es: "legal/disclaimer",          en: "legal/disclaimer",           fr: "legal/avertissement",           de: "legal/haftungsausschluss", pt: "legal/aviso-legal",     ca: "legal/avis-legal" },
+  legal_terms:      { es: "terminos",            en: "terms",                fr: "conditions",              de: "agb",             pt: "termos",             ca: "termes" },
+  legal_privacy:    { es: "privacidad",          en: "privacy",              fr: "confidentialite",         de: "datenschutz",     pt: "privacidade",        ca: "privacitat" },
+  legal_cookies:    { es: "cookies",             en: "cookies",              fr: "cookies",                 de: "cookies",         pt: "cookies",            ca: "cookies" },
+  legal_refunds:    { es: "reembolsos",          en: "refunds",              fr: "remboursements",          de: "erstattungen",    pt: "reembolsos",         ca: "reemborsaments" },
+  legal_disclaimer: { es: "disclaimer",          en: "disclaimer",           fr: "avertissement",           de: "haftungsausschluss", pt: "aviso-legal",     ca: "avis-legal" },
 };
 
 export const ALL_ROUTE_KEYS = Object.keys(ROUTE_SLUGS) as RouteKey[];

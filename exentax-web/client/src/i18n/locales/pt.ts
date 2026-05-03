@@ -1969,6 +1969,7 @@ const pt = {
 errors: {
   rateLimited: "Fez vários pedidos seguidos. Aguarde um momento.",
   serverError: "Problema no servidor. Já estamos a tratar do assunto.",
+  slotTaken: "Esse horário acabou de ser reservado. Escolha outra hora disponível.",
 },
   calculator: {
     placeholderZero: "0",
