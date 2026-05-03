@@ -352,6 +352,87 @@ for (const route of [
   }
 }
 
+// ─── Rule 12: non-ES bundles must not leak Spain-only wording ─────────
+//
+// Background: tasks #75 and #81 manually rewrote three paragraphs in
+// `server/email-i18n/en.ts` (calcDrip step 2, drip step 3, drip step 5)
+// that originally assumed the English reader was a Spanish tax
+// resident — "Spain", "Spanish tax authority", "Spain–US treaty",
+// "Hacienda", "Modelo 720", etc. The English drip bundle is read mostly
+// by non-residents of Spain, so any future copy edit could easily
+// reintroduce that framing and ship it to inboxes before review.
+//
+// This rule scans the en/fr/de/pt bundles for Spain-specific tokens
+// (in each bundle's own language) and fails unless the match is inside
+// the calcDrip step-1 paragraph — Laura's real case, which legitimately
+// happens in Spain and is the only allow-listed exception. The Catalan
+// (`ca`) and Spanish (`es`) bundles are deliberately exempt because
+// their primary audience is Spanish-resident.
+//
+// To extend the allow-list (e.g. if Laura's paragraph ever stops being
+// the first calcDrip step), update `findLauraSpan` so the legitimate
+// Laura wording stays inside the allow-listed range.
+const SPAIN_TOKENS = {
+  // Per-language inflections of "Spain" / "Spanish". The universal
+  // tokens (España, Hacienda, Modelo 720) are appended to every
+  // language because they are Spanish proper nouns regardless of the
+  // surrounding prose.
+  en: [/\bSpain\b/g, /\bSpanish\b/g],
+  fr: [/\bEspagne\b/g, /\bespagnole?s?\b/gi],
+  de: [/\bSpanien\b/g, /\bspanisch\w*/gi],
+  pt: [/\bEspanha\b/g, /\bespanhol\w*/gi],
+};
+const UNIVERSAL_SPAIN_TOKENS = [
+  /\bEspaña\b/g,
+  /\bHacienda\b/g,
+  /\bModelo\s*720\b/gi,
+];
+/**
+ * Locate the byte range in a bundle source that corresponds to the
+ * first calcDrip step (Laura's real case). Anything outside this range
+ * must stay neutral (no Spain-specific tokens). Returns null if the
+ * bundle has no `calcDrip.steps` (defensive — every current bundle has
+ * one, so a null span means the schema drifted and the rule should
+ * fail loudly rather than silently allow leaks).
+ */
+function findLauraSpan(src) {
+  const calcIdx = src.indexOf("calcDrip:");
+  if (calcIdx < 0) return null;
+  const stepsIdx = src.indexOf("steps:", calcIdx);
+  if (stepsIdx < 0) return null;
+  const openBracket = src.indexOf("[", stepsIdx);
+  if (openBracket < 0) return null;
+  const firstObj = src.indexOf("{", openBracket);
+  if (firstObj < 0) return null;
+  const subjectRe = /\bsubject\s*:/g;
+  subjectRe.lastIndex = firstObj;
+  const first = subjectRe.exec(src);
+  if (!first) return null;
+  const second = subjectRe.exec(src);
+  // End of Laura's step is the start of step 2's `subject:`. If there
+  // is no second step, allow up to the closing of the steps array.
+  const end = second ? second.index : src.indexOf("]", firstObj);
+  return { start: firstObj, end };
+}
+for (const { lang, src } of i18nLangSources) {
+  if (lang === "es" || lang === "ca") continue; // Spain-locale bundles
+  const laura = findLauraSpan(src);
+  if (!laura) {
+    fail(`Rule 12 (${lang}): could not locate calcDrip step-1 (Laura) span — schema drift?`);
+    continue;
+  }
+  const patterns = [...(SPAIN_TOKENS[lang] || []), ...UNIVERSAL_SPAIN_TOKENS];
+  for (const re of patterns) {
+    re.lastIndex = 0;
+    let m;
+    while ((m = re.exec(src))) {
+      if (m.index >= laura.start && m.index < laura.end) continue; // inside Laura — allowed
+      const lineNo = src.slice(0, m.index).split("\n").length;
+      fail(`Rule 12 (${lang}): Spain-specific token "${m[0]}" at line ${lineNo} outside the allow-listed Laura paragraph — keep non-ES copy neutral so it ships to non-residents of Spain.`);
+    }
+  }
+}
+
 // ─── Report ───────────────────────────────────────────────────────────
 if (failures.length === 0) {
   console.log(`✅ lint-email-deliverability: OK (${sendEmailCalls.length} sendEmail callsites · ${bookingSenders.length} booking senders · ${ctaCalls.length} CTAs UTM-tagged · ${subjectChecks} subjects spam-checked)`);
