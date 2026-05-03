@@ -63,7 +63,7 @@ export interface CalculatorEmailData {
   bestStructureId?: "autonomo" | "sociedad" | "llc";
   llcVsAutonomo?: number;
   llcVsSociedad?: number;
-  options?: { tarifaPlana?: boolean; franceMicro?: boolean; vatMode?: "general" | "exportB2B"; germanyHebesatz?: "low" | "medium" | "high" };
+  options?: { tarifaPlana?: boolean; franceMicro?: boolean; vatMode?: "general" | "exportB2B"; germanyHebesatz?: "low" | "medium" | "high"; germanyHebesatzCustom?: number };
   /**
    * Comunidad Autónoma (España) explicitly chosen by the visitor — one of
    * the 19 keys in `CCAA_PROFILE_MAP` (17 CCAA + Ceuta + Melilla + the two

@@ -65,6 +65,8 @@ export const calculatorLeadSchema = z.object({
     // viene, el cálculo y el email caen al perfil "medium" (= comportamiento
     // pre-Task-51, sin drift).
     germanyHebesatz: z.enum(["low", "medium", "high"]).optional(),
+    // Hebesatz exacto en % (banda legal § 16 GewStG). Si presente, prevalece sobre el preset.
+    germanyHebesatzCustom: z.number().min(200).max(580).optional(),
   }).strict().optional(),
   // Replay-fidelity inputs.
   expenseItems: z.array(z.object({

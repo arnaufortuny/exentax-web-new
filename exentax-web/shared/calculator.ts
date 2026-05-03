@@ -62,6 +62,9 @@ export interface CalcOptions {
   //   "medium" → 400 % (media nacional, ≈ 14,00 % efectivo) — default
   //   "high"   → 490 % (München / Frankfurt, ≈ 17,15 % efectivo)
   germanyHebesatz?: "low" | "medium" | "high";
+  // Hebesatz exacto en porcentaje humano (200–580). Si presente, prevalece
+  // sobre el preset `germanyHebesatz`.
+  germanyHebesatzCustom?: number;
   // Modo IVA — `general` (default, tipo estándar) o `exportB2B` (0 % por
   // inversión del sujeto pasivo / no sujeción intracomunitaria).
   vatMode?: "general" | "exportB2B";

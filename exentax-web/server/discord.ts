@@ -1777,6 +1777,8 @@ export function notifyCalculatorLead(opts: {
   // sólo lo emitimos en el card cuando el lead es de Alemania, para no
   // añadir ruido a los del resto de países.
   germanyHebesatz?: "low" | "medium" | "high" | null;
+  // Hebesatz exacto (200–580 %) — prevalece sobre el preset cuando viene.
+  germanyHebesatzCustom?: number | null;
   // Task #86: CCAA (Comunidad Autónoma) — el operador necesita verla
   // junto al país en el aviso de calculadora porque, como el Hebesatz
   // alemán (Task #78), condiciona la cifra de IRPF/cuotas y por tanto
@@ -1831,13 +1833,20 @@ export function notifyCalculatorLead(opts: {
   // mandó un valor explícito (clientes anteriores a Task #51 no lo
   // mandan; el cálculo cae al perfil "medium" por defecto y omitimos
   // la fila para no afirmar algo que el visitante no eligió).
-  if (opts.country === "alemania"
-    && (opts.germanyHebesatz === "low" || opts.germanyHebesatz === "medium" || opts.germanyHebesatz === "high")
-  ) {
-    const hbLabel = opts.germanyHebesatz === "low" ? "Bajo (≈250%)"
-      : opts.germanyHebesatz === "high" ? "Alto (≈490%)"
-      : "Medio (≈400%)";
-    pushAlways(fields, "Hebesatz", hbLabel, true);
+  if (opts.country === "alemania") {
+    if (typeof opts.germanyHebesatzCustom === "number"
+      && Number.isFinite(opts.germanyHebesatzCustom)
+      && opts.germanyHebesatzCustom >= 200
+      && opts.germanyHebesatzCustom <= 580
+    ) {
+      const pct = Math.round(opts.germanyHebesatzCustom * 10) / 10;
+      pushAlways(fields, "Hebesatz", `${pct}% (custom)`, true);
+    } else if (opts.germanyHebesatz === "low" || opts.germanyHebesatz === "medium" || opts.germanyHebesatz === "high") {
+      const hbLabel = opts.germanyHebesatz === "low" ? "Bajo (≈250%)"
+        : opts.germanyHebesatz === "high" ? "Alto (≈490%)"
+        : "Medio (≈400%)";
+      pushAlways(fields, "Hebesatz", hbLabel, true);
+    }
   }
 
   if (opts.monthlyIncome != null) pushAlways(fields, "Ingresos mensuales", fmt(opts.monthlyIncome), true);

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { resolveLocale } from "@/lib/lang-utils";
 import { calculateSavings, computeAllStructures, formatCurrency, countries, activities, getExpenseCategories, calcDeductibleTotal, COUNTRY_CURRENCY, COUNTRY_REGIMES, DISPLAY_CURRENCIES, convertFromEUR, convertToEUR, NON_DEDUCTIBLE_INFO } from "@/lib/calculator";
 import type { ExpenseItem, AllStructuresResult } from "@/lib/calculator";
-import { CCAA_KEYS, isForalCcaa, resolveCcaaProfile } from "@/lib/calculator-config";
+import { CCAA_KEYS, isForalCcaa, resolveCcaaProfile, GERMANY_GEWERBE_HEBESATZ_MIN_PCT, GERMANY_GEWERBE_HEBESATZ_MAX_PCT } from "@/lib/calculator-config";
 import { apiRequest } from "@/lib/queryClient";
 import { useLangPath } from "@/hooks/useLangPath";
 import { trackCalculatorUsed, trackCalculatorCompleted } from "@/components/Tracking";
@@ -58,6 +58,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     // (mismo patrón que `setRegime("")` arriba).
     if (newCountry !== "alemania") {
       setGermanyHebesatz("");
+      setGermanyHebesatzCustomStr("");
     }
     // Only auto-pick the country's default currency if the user has NOT
     // explicitly chosen one. Country and currency are independent, once
@@ -99,6 +100,8 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   // (mismo contrato que `ccaaProfile`). Solo se envía al backend cuando el
   // visitante eligió un valor distinto del vacío.
   const [germanyHebesatz, setGermanyHebesatz] = useState<"" | "low" | "medium" | "high">("");
+  // String mientras se teclea; sólo se promueve cuando cae en banda (200–580 %).
+  const [germanyHebesatzCustomStr, setGermanyHebesatzCustomStr] = useState<string>("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
@@ -137,15 +140,24 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   // resto de países).
   const effectiveHebesatz: "low" | "medium" | "high" | undefined =
     country === "alemania" && germanyHebesatz !== "" ? germanyHebesatz : undefined;
+  const effectiveHebesatzCustom: number | undefined = useMemo(() => {
+    if (country !== "alemania") return undefined;
+    if (germanyHebesatzCustomStr.trim() === "") return undefined;
+    const parsed = Number(germanyHebesatzCustomStr.replace(",", "."));
+    if (!Number.isFinite(parsed)) return undefined;
+    if (parsed < GERMANY_GEWERBE_HEBESATZ_MIN_PCT) return undefined;
+    if (parsed > GERMANY_GEWERBE_HEBESATZ_MAX_PCT) return undefined;
+    return parsed;
+  }, [country, germanyHebesatzCustomStr]);
   const result = useMemo(() => (hasCountry && hasRegime)
-    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, { ccaaProfile, vatMode, germanyHebesatz: effectiveHebesatz })
+    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, { ccaaProfile, vatMode, germanyHebesatz: effectiveHebesatz, germanyHebesatzCustom: effectiveHebesatzCustom })
     : { sinLLC: 0, conLLC: 0, ahorro: 0, localLabel: "", breakdown: [], llcBreakdown: [], ivaNote: 0, effectiveRate: 0, llcEffectiveRate: 0, gastosDeducibles: 0 } as ReturnType<typeof calculateSavings>,
-    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime, ccaaProfile, vatMode, effectiveHebesatz]);
+    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime, ccaaProfile, vatMode, effectiveHebesatz, effectiveHebesatzCustom]);
 
   const allStructures = useMemo<AllStructuresResult | null>(() => hasCountry
-    ? computeAllStructures(income, country, activity, expenses, expenseItems, { vatMode })
+    ? computeAllStructures(income, country, activity, expenses, expenseItems, { ccaaProfile, vatMode, germanyHebesatz: effectiveHebesatz, germanyHebesatzCustom: effectiveHebesatzCustom })
     : null,
-    [income, country, activity, expenses, expenseItems, hasCountry, vatMode]);
+    [income, country, activity, expenses, expenseItems, hasCountry, ccaaProfile, vatMode, effectiveHebesatz, effectiveHebesatzCustom]);
 
   // Geo-based prefill (Task #11): on mount, ask the server for the visitor's
   // country (resolved from cf-ipcountry / x-vercel-ip-country / fly-client-ip-
@@ -318,10 +330,11 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       // Solo se envía cuando hay al menos una señal, y combinamos ambas
       // en el mismo objeto para mantener un único contenedor `options`
       // (el schema lo permite y el email itera sobre los campos).
-      ...((vatExportB2B || effectiveHebesatz) ? {
+      ...((vatExportB2B || effectiveHebesatz || effectiveHebesatzCustom) ? {
         options: {
           ...(vatExportB2B ? { vatMode: "exportB2B" as const } : {}),
           ...(effectiveHebesatz ? { germanyHebesatz: effectiveHebesatz } : {}),
+          ...(effectiveHebesatzCustom ? { germanyHebesatzCustom: effectiveHebesatzCustom } : {}),
         },
       } : {}),
       ...(expenseItems.length > 0 ? { expenseItems: expenseItems.map(it => ({ id: it.id, monthly: it.monthly })) } : {}),
@@ -531,6 +544,47 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                   >
                     {t("calculator.germanyHebesatzNote", { defaultValue: "Gewerbesteuer = 3,5% × Hebesatz municipal (200%–580%)." })}
                   </p>
+                  <div className={`${compact ? "mt-2" : "mt-3"}`}>
+                    <label
+                      htmlFor="input-germany-hebesatz-custom"
+                      className={`block font-medium text-[var(--text-2)] ${compact ? "text-[11px] mb-1" : "text-[12px] mb-1.5"}`}
+                    >
+                      {t("calculator.germanyHebesatzCustomLabel", { defaultValue: "O introduce el Hebesatz exacto (%)" })}
+                    </label>
+                    <input
+                      id="input-germany-hebesatz-custom"
+                      type="number"
+                      inputMode="decimal"
+                      min={GERMANY_GEWERBE_HEBESATZ_MIN_PCT}
+                      max={GERMANY_GEWERBE_HEBESATZ_MAX_PCT}
+                      step={1}
+                      value={germanyHebesatzCustomStr}
+                      onChange={(e) => setGermanyHebesatzCustomStr(e.target.value)}
+                      placeholder={t("calculator.germanyHebesatzCustomPlaceholder", { defaultValue: "Ej. 410 (Berlín), 490 (Múnich)" })}
+                      className={`w-full rounded-full px-5 font-semibold text-[var(--text-1)] bg-[var(--bg-1)] border-2 border-[rgba(var(--green-rgb),0.3)] hover:border-[rgba(var(--green-rgb),0.5)] focus:border-[rgba(var(--green-rgb),0.65)] focus:outline-none focus:shadow-[0_0_0_4px_rgba(0,229,16,0.12)] transition-all ${compact ? "py-2.5 text-xs" : "py-3.5 text-sm"}`}
+                      data-testid="input-germany-hebesatz-custom"
+                      aria-describedby="germany-hebesatz-custom-help"
+                    />
+                    {germanyHebesatzCustomStr.trim() !== "" && effectiveHebesatzCustom === undefined && (
+                      <p
+                        className={`mt-1.5 text-amber-600 leading-snug ${compact ? "text-[10px]" : "text-[11px]"}`}
+                        data-testid="germany-hebesatz-custom-error"
+                      >
+                        {t("calculator.germanyHebesatzCustomError", {
+                          defaultValue: "Introduce un valor entre {{min}}% y {{max}}%.",
+                          min: GERMANY_GEWERBE_HEBESATZ_MIN_PCT,
+                          max: GERMANY_GEWERBE_HEBESATZ_MAX_PCT,
+                        })}
+                      </p>
+                    )}
+                    <p
+                      id="germany-hebesatz-custom-help"
+                      className={`mt-1.5 text-[var(--text-3)] leading-snug ${compact ? "text-[10px]" : "text-[11px]"}`}
+                      data-testid="germany-hebesatz-custom-help"
+                    >
+                      {t("calculator.germanyHebesatzCustomHelp", { defaultValue: "Si introduces un Hebesatz, prevalece sobre el preset." })}
+                    </p>
+                  </div>
                 </div>
               )}
             </div>

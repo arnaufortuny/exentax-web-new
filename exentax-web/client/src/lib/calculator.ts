@@ -169,6 +169,9 @@ import {
   GERMANY_GEWERBE_EFFECTIVE_LOW,
   GERMANY_GEWERBE_EFFECTIVE_MEDIUM,
   GERMANY_GEWERBE_EFFECTIVE_HIGH,
+  GERMANY_GEWERBE_STEUERMESSZAHL,
+  GERMANY_GEWERBE_HEBESATZ_MIN_PCT,
+  GERMANY_GEWERBE_HEBESATZ_MAX_PCT,
   GERMANY_KAPESTG_RATE,
   GERMANY_STEUERBERATER_ANNUAL,
   MEXICO_ISR_BRACKETS,
@@ -418,15 +421,32 @@ function calcFranceTax(annualIncomeEUR: number, regime: string, micro: boolean =
   }
 }
 
-// Helper: resuelve el tipo efectivo Gewerbesteuer según el Hebesatz
-// municipal seleccionado por el UI (low/medium/high). Default: medium.
-function resolveGewerbeRate(profile?: "low" | "medium" | "high"): number {
+// Resuelve el tipo efectivo Gewerbesteuer. `customPct` (200–580 %, en %
+// humano) prevalece sobre `profile`; fuera de banda se ignora.
+function resolveGewerbeRate(
+  profile?: "low" | "medium" | "high",
+  customPct?: number,
+): number {
+  if (
+    typeof customPct === "number"
+    && Number.isFinite(customPct)
+    && customPct >= GERMANY_GEWERBE_HEBESATZ_MIN_PCT
+    && customPct <= GERMANY_GEWERBE_HEBESATZ_MAX_PCT
+  ) {
+    return GERMANY_GEWERBE_STEUERMESSZAHL * (customPct / 100);
+  }
   switch (profile) {
     case "low":  return GERMANY_GEWERBE_EFFECTIVE_LOW;
     case "high": return GERMANY_GEWERBE_EFFECTIVE_HIGH;
     case "medium":
     default:     return GERMANY_GEWERBE_EFFECTIVE_MEDIUM;
   }
+}
+
+// Reverse helper: dado el `gewerbeRate` efectivo, devuelve el Hebesatz en %
+// (entero / un decimal) para mostrarlo en el desglose del UI.
+function gewerbeRateToHebesatzPct(rate: number): number {
+  return Math.round((rate / GERMANY_GEWERBE_STEUERMESSZAHL) * 1000) / 10;
 }
 
 function calcGermanTax(
@@ -457,12 +477,19 @@ function calcGermanTax(
       ? Math.round(kstBase * GERMANY_SOLI_RATE)
       : 0;
     const kst = kstBase + soli;
-    // Gewerbesteuer — Hebesatz seleccionable (250 / 400 / 490 %).
-    const gewerbeRate = resolveGewerbeRate(options.germanyHebesatz);
+    // Gewerbesteuer — Hebesatz preset (250/400/490 %) o numérico libre (200–580 %).
+    const gewerbeRate = resolveGewerbeRate(options.germanyHebesatz, options.germanyHebesatzCustom);
     const gewerbe = Math.round(profit * gewerbeRate);
     const dividendos = Math.round((profit - kst - gewerbe) * GERMANY_KAPESTG_RATE);
+    const hebesatzPct = gewerbeRateToHebesatzPct(gewerbeRate);
+    const effectivePct = Math.round(gewerbeRate * 10000) / 100;
     breakdown.push({ label: "calculator.bd.alemania.kst", amount: kst });
-    breakdown.push({ label: "calculator.bd.alemania.gewerbe", amount: gewerbe, note: "calculator.bd.alemania.gewerbe_note" });
+    breakdown.push({
+      label: "calculator.bd.alemania.gewerbe",
+      amount: gewerbe,
+      note: "calculator.bd.alemania.gewerbe_note_value",
+      noteParams: { hebesatz: hebesatzPct, effective: effectivePct },
+    });
     breakdown.push({ label: "calculator.bd.alemania.kapestg", amount: dividendos });
     breakdown.push({ label: "calculator.bd.alemania.steuerberater", amount: GERMANY_STEUERBERATER_ANNUAL });
     return { tax: kst + gewerbe + dividendos + GERMANY_STEUERBERATER_ANNUAL, breakdown };

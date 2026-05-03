@@ -387,6 +387,10 @@ export const GERMANY_GEWERBE_STEUERMESSZAHL = 0.035;
 export const GERMANY_GEWERBE_HEBESATZ_LOW = 2.50;     // 250 % — pequeñas localidades
 export const GERMANY_GEWERBE_HEBESATZ_MEDIUM = 4.00;  // 400 % — media nacional
 export const GERMANY_GEWERBE_HEBESATZ_HIGH = 4.90;    // 490 % — München / Frankfurt
+// Banda legal del Hebesatz municipal (§ 16 GewStG): mínimo 200 % desde 2004,
+// máximo de facto ~580 % (Oberhausen, Mülheim an der Ruhr).
+export const GERMANY_GEWERBE_HEBESATZ_MIN_PCT = 200;
+export const GERMANY_GEWERBE_HEBESATZ_MAX_PCT = 580;
 // Tipo efectivo derivado: Messzahl × Hebesatz.
 export const GERMANY_GEWERBE_EFFECTIVE_LOW = GERMANY_GEWERBE_STEUERMESSZAHL * GERMANY_GEWERBE_HEBESATZ_LOW;     // 8,75 %
 export const GERMANY_GEWERBE_EFFECTIVE_MEDIUM = GERMANY_GEWERBE_STEUERMESSZAHL * GERMANY_GEWERBE_HEBESATZ_MEDIUM; // 14,00 %

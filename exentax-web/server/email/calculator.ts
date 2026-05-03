@@ -88,7 +88,16 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData, opts?: { un
   // perfil "medium" tanto en UI como en backend, así que ocultar la fila
   // mantiene el contrato pre-Task-51.
   const hbProfile = data.options?.germanyHebesatz;
-  if (data.country === "alemania" && (hbProfile === "low" || hbProfile === "medium" || hbProfile === "high")) {
+  const hbCustom = data.options?.germanyHebesatzCustom;
+  if (data.country === "alemania"
+    && typeof hbCustom === "number"
+    && Number.isFinite(hbCustom)
+    && hbCustom >= 200
+    && hbCustom <= 580
+  ) {
+    const pct = Math.round(hbCustom * 10) / 10;
+    fidelityRows.push({ label: fi.hebesatz, value: escapeHtml(`${pct}% (custom)`) });
+  } else if (data.country === "alemania" && (hbProfile === "low" || hbProfile === "medium" || hbProfile === "high")) {
     fidelityRows.push({ label: fi.hebesatz, value: escapeHtml(fi.hebesatzValues[hbProfile]) });
   }
 
