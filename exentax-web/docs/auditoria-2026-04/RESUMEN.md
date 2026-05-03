@@ -167,12 +167,17 @@ porque el setup intermedio revienta antes de llegar a su assertion.
   Playwright NO intente levantar un segundo dev server sobre el
   que ya tiene levantado `prewarmDevServer()` en :5000 (evita
   port collision).
-- `analytics-events.spec.ts` queda excluido del gate local
+- `analytics-events.spec.ts` quedaba excluido del gate local
   (`--grep-invert "analytics events"`) porque exige
   `E2E_TEST_HOOKS=1` en el dev server y modificar el pre-warm para
   inyectar ese flag tendría blast radius sobre todo el dev server
-  compartido. Ese spec sigue cubierto por la matriz de `e2e.yml`
-  (donde Playwright sí spawn su propio server con el flag puesto).
+  compartido. **Task #89** cierra ese hueco: el wrapper ahora
+  corre en dos fases — Fase 1 contra el dev server prewarmed en
+  `:5000` (sin flag), y Fase 2 booteando un dev server dedicado
+  en `:5050` (`E2E_GATE_ANALYTICS_PORT`) con `E2E_TEST_HOOKS=1`
+  para los specs de `analytics events`. Fase 2 se salta sólo si
+  `DATABASE_URL` no está seteado (CI siempre lo provee, así que
+  el gate sigue aplicándose en `quality-pipeline.yml`).
 
 **Lo que NO cambia.**
 

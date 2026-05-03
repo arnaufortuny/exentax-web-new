@@ -98,18 +98,27 @@ const STEPS = [
   { name: "test:admin-api-removed",          weight: 1 },
   { name: "test:email-template-security",    weight: 1 },
   { name: "test:madrid-time-dst",            weight: 1 },
-  // Task #83 — Playwright e2e (chromium-only, `analytics-events`
-  // skipped because it needs `E2E_TEST_HOOKS=1` on the dev server).
-  // Wrapped by `scripts/test-e2e-gate.mjs`, which pre-flights the
-  // chromium binary and emits an actionable message if missing
-  // (rather than letting Playwright crash with a stack trace).
+  // Task #83 — Playwright e2e (chromium-only). Wrapped by
+  // `scripts/test-e2e-gate.mjs`, which pre-flights the chromium
+  // binary and emits an actionable message if missing (rather than
+  // letting Playwright crash with a stack trace).
+  //
+  // Task #89 — the wrapper now runs in two phases: (1) every spec
+  // except `analytics events` against the prewarmed :5000 server,
+  // (2) `analytics events` against a dedicated dev server it boots
+  // on :5050 with `E2E_TEST_HOOKS=1`. Phase 2 is gated on
+  // DATABASE_URL being set (the dev server cannot boot without it);
+  // CI provides one so the analytics gate is enforced there.
+  //
   // The full 7-browser matrix still runs out-of-band in
   // `.github/workflows/e2e.yml` — this gate adds chromium for fast
-  // local feedback so a broken `data-testid` or selector turns
-  // `npm run check` red in the same commit, not days later. Weight
-  // is a conservative upper bound for a parallel chromium run on
-  // 6 specs; refresh after the first few CI runs settle in.
-  { name: "test:e2e:gate",                   weight: 90 },
+  // local feedback so a broken `data-testid` / selector / dataLayer
+  // payload turns `npm run check` red in the same commit, not days
+  // later. Weight is a conservative upper bound for the two
+  // sequential chromium runs (phase 1 ~50s + phase 2 dev server
+  // boot ~10-20s + analytics specs ~30s); refresh after the first
+  // few CI runs settle in.
+  { name: "test:e2e:gate",                   weight: 130 },
 ];
 
 // `tsc` is special — it isn't a package.json script, it's invoked directly

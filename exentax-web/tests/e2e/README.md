@@ -139,7 +139,7 @@ What runs in the gate vs. what runs in `e2e.yml`:
 | `firefox` / `webkit` | — | ✅ |
 | `mobile-chrome` / `mobile-safari` | — | ✅ |
 | `tablet-ipad` / `tablet-android` | — | ✅ |
-| `analytics-events.spec.ts` | — (skipped, needs `E2E_TEST_HOOKS=1` on the dev server) | ✅ (Playwright spawns its own server with the flag set) |
+| `analytics-events.spec.ts` | ✅ via `test:e2e:gate` Phase 2 (boots a dedicated `:5050` dev server with `E2E_TEST_HOOKS=1`; needs `DATABASE_URL`) | ✅ (Playwright spawns its own server with the flag set) |
 | Other 5 specs | ✅ | ✅ |
 
 The two are complementary, not redundant. The gate is the fast
@@ -160,10 +160,20 @@ crashing when prerequisites are absent. It:
    `playwright.config.ts::useWebServer` stays `false` and we don't
    collide with the dev server `scripts/check.mjs::prewarmDevServer`
    already booted on :5000.
-4. Runs `playwright test --project=chromium --grep-invert
-   "analytics events"`. The grep-invert can be disabled by setting
-   `E2E_GATE_INCLUDE_ANALYTICS=1` (only useful when you started the
-   dev server with `E2E_TEST_HOOKS=1` yourself).
+4. Runs Playwright in **two phases**:
+   - **Phase 1** — `playwright test --project=chromium
+     --grep-invert "analytics events"` against the prewarmed
+     `:5000` dev server.
+   - **Phase 2 (Task #89)** — boots a *dedicated* dev server on
+     `E2E_GATE_ANALYTICS_PORT` (default `5050`) with
+     `E2E_TEST_HOOKS=1`, then runs `playwright test
+     --project=chromium --grep "analytics events"` with
+     `BASE_URL=http://localhost:5050`, then tears the server
+     down. Phase 2 is skipped (with a clear log line, not a
+     silent pass) when `DATABASE_URL` is unset — the dev server
+     can't boot without it. CI (`quality-pipeline.yml`) always
+     supplies a `DATABASE_URL`, so the gate is enforced there.
+     Disable Phase 2 explicitly with `E2E_GATE_SKIP_ANALYTICS=1`.
 5. Forwards any extra CLI args, so `npm run test:e2e:gate --
    tests/e2e/calculator-flow.spec.ts` works for triage.
 
