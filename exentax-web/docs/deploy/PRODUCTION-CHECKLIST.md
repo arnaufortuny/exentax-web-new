@@ -184,6 +184,29 @@ certbot --nginx -d exentax.com -d www.exentax.com --non-interactive --agree-tos 
 # → instala renovación automática (twice daily timer)
 ```
 
+### D-bis. Pre-deploy local checks (correr ANTES de cada release)
+
+Suite de regresión local que cubre los workers críticos cuya falla
+silenciosa solo se detectaría en producción. Ejecutar desde
+`exentax-web/`:
+
+```bash
+npm run test:consent-atomicity        # GDPR audit-trail atómico
+npm run test:drip-exactly-once        # outbox fencing + exactly-once
+npm run test:drip-outbox-backfill     # migración boot-time T#38 → T#70
+npm run test:discord-queue-persistence
+npm run test:discord-event-notifications
+```
+
+`test:drip-outbox-backfill` valida `backfillOutboxFromEnrollments()` — el
+helper one-shot que enqueua filas de `email_outbox` para enrollments
+legacy en vuelo al primer boot post-T#38. Cubre los 5 edge cases del
+audit row A2 (enrollment fresco, reconciliación `last_sent_step >
+current_step`, exhausted → seal `completed_at`, idempotencia con outbox
+pre-existente, mapeo `source ↔ payload.kind`) más una segunda pasada
+que prueba que re-ejecutar la migración no produce filas adicionales.
+Requiere `DATABASE_URL` accesible (skipea con SKIP si no lo está).
+
 ### E. Re-deploys (cada release)
 
 ```bash
