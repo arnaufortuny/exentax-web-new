@@ -55,6 +55,23 @@ const META_TITLE_MAX = 60, META_TITLE_WARN = 58;
 const DESC_MAX = 155, DESC_MIN = 70, DESC_WARN_HIGH = 150, DESC_WARN_LOW = 90;
 const SLUG_RX = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
+/**
+ * Per-locale "safe" metaDescription ceiling — a hard ratchet that lives
+ * BELOW the global DESC_WARN_HIGH (150) / DESC_MAX (155) Google-SERP budget.
+ *
+ * Why: Task #68 — two manual passes were needed to drag all 112 ES
+ * metaDescriptions out of the 146-149 warning band. Without an automated
+ * gate, the next round of copy edits silently drifts back. This map
+ * encodes that gain: any locale listed here triggers a CRITICAL (exit 1)
+ * — not a warning — when an article's metaDescription exceeds its safe
+ * cap. PT/DE/EN/FR/CA can opt in later by adding their own entry; the
+ * threshold is intentionally per-locale because translated copy inflates
+ * differently in each language.
+ */
+const DESC_SAFE_MAX_BY_LANG = {
+  es: 145,
+};
+
 function todayUtcEnd() {
   const d = new Date();
   d.setUTCHours(23, 59, 59, 999);
@@ -174,10 +191,23 @@ function checkLengths(slug, lang, meta, criticals, warnings) {
     criticals.push({ slug, lang, kind: "metaDescription-overflow", detail: `${md.length}>${DESC_MAX}` });
   } else if (md.length < DESC_MIN) {
     criticals.push({ slug, lang, kind: "metaDescription-too-short", detail: `${md.length}<${DESC_MIN}` });
-  } else if (md.length >= DESC_WARN_HIGH) {
-    warnings.push({ slug, lang, kind: "metaDescription-near-limit", detail: `${md.length}` });
-  } else if (md.length <= DESC_WARN_LOW) {
-    warnings.push({ slug, lang, kind: "metaDescription-thin", detail: `${md.length}` });
+  } else {
+    // Per-locale safe ratchet (Task #68). Evaluated BEFORE the soft warn
+    // band so a locale that has opted into the safe cap (e.g. ES @ 145)
+    // gets a fail-fast critical instead of a silent warning.
+    const safeMax = DESC_SAFE_MAX_BY_LANG[lang];
+    if (typeof safeMax === "number" && md.length > safeMax) {
+      criticals.push({
+        slug,
+        lang,
+        kind: "metaDescription-over-safe-cap",
+        detail: `${md.length}>${safeMax} (per-locale safe ceiling; tighten copy or raise DESC_SAFE_MAX_BY_LANG.${lang})`,
+      });
+    } else if (md.length >= DESC_WARN_HIGH) {
+      warnings.push({ slug, lang, kind: "metaDescription-near-limit", detail: `${md.length}` });
+    } else if (md.length <= DESC_WARN_LOW) {
+      warnings.push({ slug, lang, kind: "metaDescription-thin", detail: `${md.length}` });
+    }
   }
 }
 
