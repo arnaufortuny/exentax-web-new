@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/* Archivo Black is loaded via <link rel="preload"> + <link rel="stylesheet"> in
+   client/index.html so it ships in parallel with Inter and Space Grotesk instead
+   of blocking on the CSS @import chain (LCP improvement on hero H1). */
 
 @tailwind base;
 @tailwind components;

@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import { SUPPORTED_LANGS, type SupportedLang, loadLocale } from "./index";
 import { STORAGE_KEYS } from "@/lib/constants";
+import { writeLangCookie, readLangCookie } from "@/lib/lang-cookie";
 
 function normalizeLang(raw: string): SupportedLang {
   const code = raw.split("-")[0].toLowerCase();
@@ -14,6 +15,7 @@ export const LanguageService = {
 
   async change(lang: SupportedLang): Promise<void> {
     if (!SUPPORTED_LANGS.includes(lang)) return;
+    writeLangCookie(lang);
     try {
       localStorage.setItem(STORAGE_KEYS.LANG, lang);
     } catch {
@@ -47,7 +49,13 @@ export const LanguageService = {
   },
 
   getStoredPreference(): SupportedLang | null {
-    const saved = localStorage.getItem(STORAGE_KEYS.LANG) as SupportedLang | null;
-    return saved && SUPPORTED_LANGS.includes(saved) ? saved : null;
+    const cookieLang = readLangCookie() as SupportedLang | null;
+    if (cookieLang && SUPPORTED_LANGS.includes(cookieLang)) return cookieLang;
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.LANG) as SupportedLang | null;
+      return saved && SUPPORTED_LANGS.includes(saved) ? saved : null;
+    } catch {
+      return null;
+    }
   },
 } as const;

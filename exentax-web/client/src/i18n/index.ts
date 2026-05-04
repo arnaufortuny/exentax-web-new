@@ -2,6 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import es from "./locales/es";
 import { STORAGE_KEYS } from "@/lib/constants";
+import { readLangCookie, writeLangCookie } from "@/lib/lang-cookie";
 
 export const SUPPORTED_LANGS = ["es", "en", "fr", "de", "pt", "ca"] as const;
 export type SupportedLang = (typeof SUPPORTED_LANGS)[number];
@@ -17,13 +18,28 @@ export const LANG_LABELS: Record<SupportedLang, string> = {
 };
 
 function detectLanguage(): SupportedLang {
+  // 1. Cookie (1-year TTL, survives localStorage clears, readable server-side)
+  const cookieLang = readLangCookie() as SupportedLang | null;
+  if (cookieLang && SUPPORTED_LANGS.includes(cookieLang)) {
+    // Refresh cookie expiry on every visit so the year resets while the user keeps returning.
+    writeLangCookie(cookieLang);
+    return cookieLang;
+  }
+
+  // 2. localStorage (legacy, kept for backward compatibility with users who set
+  //    a preference before the cookie was introduced).
   try {
     const saved = localStorage.getItem(STORAGE_KEYS.LANG) as SupportedLang | null;
-    if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
+    if (saved && SUPPORTED_LANGS.includes(saved)) {
+      // Migrate to cookie so future visits use the canonical mechanism.
+      writeLangCookie(saved);
+      return saved;
+    }
   } catch {
     /* localStorage may be blocked; fall through to browser detection */
   }
 
+  // 3. Browser language fallback.
   const browserLang = (typeof navigator !== "undefined" ? navigator.language : "en")
     .split("-")[0] as SupportedLang;
   if (SUPPORTED_LANGS.includes(browserLang)) return browserLang;
