@@ -85,17 +85,24 @@ export default function ToastHost() {
   }, []);
 
   useEffect(() => {
+    const pendingTimers = new Set<ReturnType<typeof setTimeout>>();
     function onToast(e: Event) {
       const detail = (e as CustomEvent<ToastDetail>).detail;
       if (!detail || typeof detail.message !== "string") return;
       const id = ++toastCounter;
       setItems((prev) => [...prev, { id, message: detail.message, variant: detail.variant || "info" }]);
-      setTimeout(() => {
+      const timer = setTimeout(() => {
+        pendingTimers.delete(timer);
         setItems((prev) => prev.filter((it) => it.id !== id));
       }, AUTO_DISMISS_MS);
+      pendingTimers.add(timer);
     }
     window.addEventListener(EVENT_NAME, onToast as EventListener);
-    return () => window.removeEventListener(EVENT_NAME, onToast as EventListener);
+    return () => {
+      window.removeEventListener(EVENT_NAME, onToast as EventListener);
+      for (const t of pendingTimers) clearTimeout(t);
+      pendingTimers.clear();
+    };
   }, []);
 
   if (items.length === 0) return null;

@@ -20,39 +20,42 @@ const MAX_DEPTH = 10;
 
 const DANGEROUS_KEYS = new Set(["__proto__", "constructor", "prototype"]);
 
-export function sanitizeInPlace(obj: any, depth = 0): void {
+export function sanitizeInPlace(obj: unknown, depth = 0): void {
   if (!obj || typeof obj !== "object") return;
   if (depth > MAX_DEPTH || obj instanceof Buffer || obj instanceof Uint8Array) return;
 
   if (Array.isArray(obj)) {
     const len = Math.min(obj.length, MAX_ARRAY_LEN);
     for (let i = 0; i < len; i++) {
-      if (typeof obj[i] === "string") {
-        obj[i] = sanitizeValue(obj[i]);
-      } else if (typeof obj[i] === "object" && obj[i] !== null) {
-        sanitizeInPlace(obj[i], depth + 1);
+      const v = obj[i];
+      if (typeof v === "string") {
+        obj[i] = sanitizeValue(v);
+      } else if (typeof v === "object" && v !== null) {
+        sanitizeInPlace(v, depth + 1);
       }
     }
     return;
   }
 
-  const keys = Object.keys(obj);
+  const record = obj as Record<string, unknown>;
+  const keys = Object.keys(record);
   for (let i = 0; i < Math.min(keys.length, MAX_KEYS); i++) {
     const key = keys[i];
     if (DANGEROUS_KEYS.has(key)) {
-      delete obj[key];
+      delete record[key];
       continue;
     }
-    if (!Object.prototype.hasOwnProperty.call(obj, key)) continue;
-    if (typeof obj[key] === "string") {
-      obj[key] = sanitizeValue(obj[key]);
-    } else if (typeof obj[key] === "object" && obj[key] !== null) {
-      sanitizeInPlace(obj[key], depth + 1);
+    if (!Object.prototype.hasOwnProperty.call(record, key)) continue;
+    const v = record[key];
+    if (typeof v === "string") {
+      record[key] = sanitizeValue(v);
+    } else if (typeof v === "object" && v !== null) {
+      sanitizeInPlace(v, depth + 1);
     }
   }
 }
 
-function countKeys(obj: any, depth = 0): number {
+function countKeys(obj: unknown, depth = 0): number {
   if (!obj || typeof obj !== "object" || depth > MAX_DEPTH) return 0;
   if (obj instanceof Buffer || obj instanceof Uint8Array) return 0;
   let count = 0;
@@ -60,9 +63,10 @@ function countKeys(obj: any, depth = 0): number {
     if (obj.length > MAX_ARRAY_LEN) return MAX_KEYS + 1;
     for (const item of obj) count += countKeys(item, depth + 1);
   } else {
-    const keys = Object.keys(obj);
+    const record = obj as Record<string, unknown>;
+    const keys = Object.keys(record);
     count += keys.length;
-    for (const key of keys) count += countKeys(obj[key], depth + 1);
+    for (const key of keys) count += countKeys(record[key], depth + 1);
   }
   return count;
 }

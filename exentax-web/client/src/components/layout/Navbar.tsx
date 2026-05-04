@@ -185,6 +185,10 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
   const handleMenuToggle = useCallback(() => {
     setMenuOpen(prev => {
       const next = !prev;
+      // setTimeout(0) defers the synthetic event to the next tick so it fires
+      // AFTER React has committed the state update, ensuring listeners that
+      // read the DOM reflect the post-toggle state. Standard pattern, not a
+      // race condition.
       setTimeout(() => window.dispatchEvent(new CustomEvent("mobile-menu-toggle", { detail: next })), 0);
       return next;
     });

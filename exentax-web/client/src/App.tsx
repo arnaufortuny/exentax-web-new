@@ -81,6 +81,10 @@ const PAGE_COMPONENTS: Record<RouteKey, React.LazyExoticComponent<React.Componen
 
 function Redirect({ to }: { to: string }) {
   const [, setLocation] = useLocation();
+  // wouter's setLocation is stable across renders (its identity does not
+  // change), so omitting it from the dependency array is safe — adding it
+  // would never trigger a re-run anyway.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { setLocation(to, { replace: true }); }, [to]);
   return null;
 }

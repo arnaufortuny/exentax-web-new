@@ -139,6 +139,15 @@ export async function runColumnMigrations(): Promise<void> {
         WHERE completed_at IS NULL AND reminder_sent_at IS NULL
     `);
 
+    // Dedicated index on the FK column. The composite UNIQUE on
+    // (campaign_id, subscriber_id) is leading-edge campaign_id, so it does
+    // not help Postgres validate the CASCADE coming from newsletter_subscribers
+    // — without this index the validation falls back to a sequential scan.
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS newsletter_jobs_subscriber_idx
+        ON newsletter_campaign_jobs (subscriber_id)
+    `);
+
     // Slot uniqueness — the only mechanism preventing double-booking. Recreate
     // defensively. Pre-cleanup cancels duplicate active rows (keeping the
     // oldest by id) so the unique index can always be created.

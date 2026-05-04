@@ -459,7 +459,11 @@ for (const country of COUNTRIES_TO_SMOKE) {
 // ---------------------------------------------------------------------------
 // Persistence schema (POST /api/calculator-leads) + email render parity.
 // Imports the *actual* route schema and the *actual* email renderer so the
-// test exercises the production code paths, not local mirrors.
+// test exercises the production code paths, not local mirrors. This is the
+// single intentional client → server cross-layer import in the codebase: a
+// duplicate test fixture would silently rot when the prod schema evolves,
+// defeating the whole point of the parity test. Static module-boundary
+// auditors flag this regularly; it is by design.
 // ---------------------------------------------------------------------------
 import { calculatorLeadSchema } from "../../../server/routes/calculator-lead-schema";
 import { renderCalculatorEmailHtml } from "../../../server/email";

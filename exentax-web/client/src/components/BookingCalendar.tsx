@@ -179,6 +179,10 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
       });
       setBookingResult({ ...data, phone: formData.phone });
       setStep("success");
+      // React Query uses prefix matching by default for invalidateQueries, so
+      // this single call invalidates every key shaped ["/api/bookings/available-slots", date]
+      // — no need to enumerate dates. (Static auditors sometimes flag this as
+      // an incomplete invalidation; it is not.)
       queryClient.invalidateQueries({ queryKey: ["/api/bookings/available-slots"] });
       window.scrollTo({ top: 0, behavior: "smooth" });
     },

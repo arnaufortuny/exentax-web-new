@@ -235,6 +235,11 @@ export const newsletterCampaignJobs = pgTable("newsletter_campaign_jobs", {
   index("newsletter_jobs_campaign_idx").on(table.campaignId),
   index("newsletter_jobs_status_idx").on(table.status),
   index("newsletter_jobs_campaign_status_idx").on(table.campaignId, table.status),
+  // Dedicated index on the FK column. The composite UNIQUE below covers
+  // (campaignId, subscriberId) but Postgres prefers a leading-edge index on
+  // the referenced column when validating the ON DELETE CASCADE from
+  // newsletter_subscribers — without this it falls back to a full scan.
+  index("newsletter_jobs_subscriber_idx").on(table.subscriberId),
   uniqueIndex("newsletter_jobs_campaign_subscriber_uniq")
     .on(table.campaignId, table.subscriberId),
   check("newsletter_jobs_status_check",

@@ -141,11 +141,11 @@ export default function PhoneInput({
     ipDetectAttempted.current = true;
     if (value && value.trim() !== "") return;
     if (userTouchedPrefix.current) return;
-    let cancelled = false;
-    fetch("/api/geo", { credentials: "same-origin" })
+    const controller = new AbortController();
+    fetch("/api/geo", { credentials: "same-origin", signal: controller.signal })
       .then((r) => (r.ok ? r.json() : null))
       .then((data: { country?: string } | null) => {
-        if (cancelled || !data) return;
+        if (!data) return;
         if (userTouchedPrefix.current) return;
         if (lastEmitted.current && lastEmitted.current.trim() !== "") return;
         const raw = (data.country || "").toUpperCase();
@@ -154,9 +154,11 @@ export default function PhoneInput({
         const match = COUNTRY_PREFIXES.find((c) => c.code === iso);
         if (match) setSelectedCode(match.code);
       })
-      .catch(() => {});
+      .catch(() => {
+        /* AbortError on unmount or network error — both are non-fatal */
+      });
     return () => {
-      cancelled = true;
+      controller.abort();
     };
   }, []);
 
