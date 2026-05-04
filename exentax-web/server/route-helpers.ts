@@ -203,8 +203,17 @@ export function isValidISODate(s: string): boolean {
   return date.getFullYear() === y && date.getMonth() === m - 1 && date.getDate() === d;
 }
 
-export const PHONE_MAX_LENGTH = 30;
-export const PHONE_MIN_DIGITS = 7;
+// Field-length constants live in shared/ so client forms and server Zod
+// schemas read the same source of truth and cannot drift. Re-exported here
+// for backwards compatibility with the existing import sites in this file.
+export {
+  EMAIL_MAX_LENGTH,
+  NAME_MAX_LENGTH,
+  PHONE_MAX_LENGTH,
+  PHONE_MIN_DIGITS,
+  PHONE_MAX_DIGITS,
+} from "../shared/form-validation";
+import { PHONE_MAX_LENGTH, PHONE_MIN_DIGITS } from "../shared/form-validation";
 
 export function isValidPhone(val: string): boolean {
   if (val.length > PHONE_MAX_LENGTH) return false;

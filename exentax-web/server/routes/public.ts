@@ -989,12 +989,22 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
 
+  // Cancel accepts no body fields. We still parse with `.strict()` so any
+  // unexpected key (e.g. an attacker injecting `{ status: "confirmed" }` to
+  // probe for accidental forwarding) yields 400 instead of being silently
+  // ignored. Defense-in-depth: even if a future code path touches req.body
+  // before this handler completes its own checks, a strict parse already
+  // rejected anomalous shapes upstream.
+  const cancelBodySchema = z.object({}).strict();
+
   app.post("/api/booking/:bookingId/cancel", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
     if (!(await checkBookingManageRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const bookingId = String(req.params.bookingId || "");
     const token = String(req.query.token || "");
     if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
+    const bodyParsed = cancelBodySchema.safeParse(req.body ?? {});
+    if (!bodyParsed.success) return apiValidationFail(res, bodyParsed.error, resolveRequestLang(req));
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "ALREADY_CANCELLED");

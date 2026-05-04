@@ -503,26 +503,36 @@ export async function poisonOutboxRow(opts: {
 }
 
 /**
- * Pre-send fencing helper: read the row's CURRENT `claim_version` so
- * the worker can verify, immediately before SMTP dispatch, that no
- * other worker has stolen the lease (stale-claim reclaim) since this
- * worker last saw it. Returns `null` if the row no longer exists or
- * has already been sent. Cheap single-row read; not transactional —
- * the only safety guarantee we need at this point is "if the value
- * read here equals row.claimVersion, we still own the row right now,
- * so SMTP is safe to fire". A reclaim arriving in the interval
- * between this read and the SMTP call would still race, but the
- * window is microseconds (the reclaim only happens after
- * STALE_CLAIM_SECONDS = 600s of inactivity), so in practice this
- * eliminates residual (b) at the delivery level.
+ * Pre-send fencing helper: read the row's CURRENT `claim_version` so the
+ * worker can verify, immediately before SMTP dispatch, that no other worker
+ * has stolen the lease (stale-claim reclaim) since this worker last saw it.
+ *
+ * Returns:
+ *   - The current `claim_version` if the row still exists and has NOT been
+ *     sent yet (i.e. is a candidate for the worker about to dispatch).
+ *   - `null` if the row no longer exists OR has already been sent.
+ *
+ * Cheap single-row read, NOT transactional. The only safety guarantee we
+ * need at this point is: "if the value read here equals row.claimVersion,
+ * we still own the row right now, so SMTP is safe to fire". A reclaim
+ * arriving in the interval between this read and the SMTP call would still
+ * race, but the window is microseconds (the reclaim only happens after
+ * STALE_CLAIM_SECONDS = 600s of inactivity), so in practice this eliminates
+ * residual (b) at the delivery level.
+ *
+ * Bug history (round 7 audit): a previous implementation restricted the
+ * WHERE clause to rows that were `POISONED` or `attempts >= max_attempts`,
+ * which made the function return `null` for healthy claimed rows. Callers
+ * interpret `null` as "the row is gone, skip the send" — leaking dispatches
+ * AND leaving rows orphan in `claimed` state until lease expiry. The WHERE
+ * is now intentionally minimal: row exists AND not yet sent.
  */
 export async function getOutboxClaimVersion(id: string): Promise<number | null> {
   try {
     const result = await db.execute(sql`
       SELECT claim_version AS "claimVersion"
         FROM email_outbox
-       WHERE id = ${id} AND (last_error LIKE 'POISONED:%' OR attempts >= max_attempts)
-         AND sent_at IS NULL
+       WHERE id = ${id} AND sent_at IS NULL
        LIMIT 1
     `);
     const rows = (result as unknown as { rows: { claimVersion: number }[] }).rows ?? [];

@@ -40,6 +40,41 @@ function utcMsToIcsBasic(ms: number): string {
   );
 }
 
+// Wall-clock formatter used when DTSTART/DTEND carry a `TZID=Europe/Madrid`
+// parameter. Apple Calendar and Outlook display the local time the user
+// expects (e.g. "09:00 Madrid"), not the UTC instant. RFC 5545 §3.3.5.
+function madridWallTimeToIcsLocal(date: string, time: string): string {
+  // date = "2026-03-29", time = "09:00" → "20260329T090000"
+  const ymd = date.replace(/-/g, "");
+  const hm = time.replace(":", "");
+  return `${ymd}T${hm}00`;
+}
+
+// VTIMEZONE block for Europe/Madrid. Required by RFC 5545 §3.6.5 whenever
+// any DTSTART/DTEND carries a TZID. The transition rules below model the
+// EU permanent DST policy (last Sunday March +1h, last Sunday October -1h)
+// and stay valid as long as that policy holds.
+const VTIMEZONE_EUROPE_MADRID: ReadonlyArray<string> = [
+  "BEGIN:VTIMEZONE",
+  "TZID:Europe/Madrid",
+  "X-LIC-LOCATION:Europe/Madrid",
+  "BEGIN:DAYLIGHT",
+  "TZOFFSETFROM:+0100",
+  "TZOFFSETTO:+0200",
+  "TZNAME:CEST",
+  "DTSTART:19700329T020000",
+  "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU",
+  "END:DAYLIGHT",
+  "BEGIN:STANDARD",
+  "TZOFFSETFROM:+0200",
+  "TZOFFSETTO:+0100",
+  "TZNAME:CET",
+  "DTSTART:19701025T030000",
+  "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU",
+  "END:STANDARD",
+  "END:VTIMEZONE",
+];
+
 function escapeIcsText(s: string): string {
   return s
     .replace(/\\/g, "\\\\")
@@ -70,11 +105,18 @@ function buildLocation(input: CalendarInput): string {
 }
 
 export function buildIcsContent(input: CalendarInput): string {
-  const startMs = madridWallTimeToUtcMs(input.date, input.startTime);
-  const endMs = madridWallTimeToUtcMs(input.date, input.endTime);
-  const dtStart = utcMsToIcsBasic(startMs);
-  const dtEnd = utcMsToIcsBasic(endMs);
+  // DTSTAMP is always UTC per RFC 5545 §3.3.5.
   const dtStamp = utcMsToIcsBasic(Date.now());
+  // DTSTART/DTEND carry a TZID parameter so calendar apps display the time in
+  // Madrid local (e.g. "09:00") rather than the UTC instant. Without this,
+  // Apple Calendar/Outlook show the UTC time (07:00 in summer / 08:00 in
+  // winter) which is wrong from the user's perspective. We still include
+  // VTIMEZONE so clients that don't ship the IANA tz db can resolve the offset.
+  const dtStart = madridWallTimeToIcsLocal(input.date, input.startTime);
+  const dtEnd = madridWallTimeToIcsLocal(input.date, input.endTime);
+  // Kept around for tests / debugging: the UTC instant we'd emit if a client
+  // ignored TZID. Not currently used in the file body but documents intent.
+  void madridWallTimeToUtcMs;
 
   const uidSeed = input.agendaId
     ? input.agendaId
@@ -91,11 +133,12 @@ export function buildIcsContent(input: CalendarInput): string {
     "VERSION:2.0",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
+    ...VTIMEZONE_EUROPE_MADRID,
     "BEGIN:VEVENT",
     `UID:${escapeIcsText(uid)}`,
     `DTSTAMP:${dtStamp}`,
-    `DTSTART:${dtStart}`,
-    `DTEND:${dtEnd}`,
+    `DTSTART;TZID=Europe/Madrid:${dtStart}`,
+    `DTEND;TZID=Europe/Madrid:${dtEnd}`,
     `SUMMARY:${escapeIcsText(input.summary)}`,
     `DESCRIPTION:${escapeIcsText(input.description)}`,
     `LOCATION:${escapeIcsText(location)}`,

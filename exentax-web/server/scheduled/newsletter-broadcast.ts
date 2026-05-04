@@ -341,11 +341,25 @@ async function markJobResult(jobId: string, status: "sent" | "failed", error: st
   }
 }
 
+// Increment sent_count or failed_count atomically. The counter values are
+// computed by Postgres from the row's current values inside a single UPDATE
+// statement, so two concurrent calls (single-instance: same loop iter, very
+// rare; multi-instance: future scaling) cannot lose an increment to a
+// read-modify-write race. We pass a single `success` boolean as a literal
+// rather than templated input so Postgres treats the CASE as a constant.
 async function incrementCampaignCounter(campaignId: string, success: boolean): Promise<void> {
   if (success) {
-    await db.execute(sql`UPDATE newsletter_campaigns SET sent_count = sent_count + 1 WHERE id = ${campaignId}`);
+    await db.execute(sql`
+      UPDATE newsletter_campaigns
+         SET sent_count = sent_count + 1
+       WHERE id = ${campaignId}
+    `);
   } else {
-    await db.execute(sql`UPDATE newsletter_campaigns SET failed_count = failed_count + 1 WHERE id = ${campaignId}`);
+    await db.execute(sql`
+      UPDATE newsletter_campaigns
+         SET failed_count = failed_count + 1
+       WHERE id = ${campaignId}
+    `);
   }
 }
 

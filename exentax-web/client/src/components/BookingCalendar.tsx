@@ -3,6 +3,7 @@ import { useQuery, useMutation } from "@tanstack/react-query";
 import { queryClient, REFERENCE_QUERY_OPTS, LIVE_QUERY_OPTS } from "@/lib/queryClient";
 import { useTranslation } from "react-i18next";
 import { CONTACT } from "@/lib/constants";
+import { PHONE_MIN_DIGITS, PHONE_MAX_DIGITS } from "@shared/form-validation";
 import { useInlineMessage } from "@/hooks/useInlineMessage";
 import { InlineMessage } from "@/components/InlineMessage";
 import { trackBookingCompleted, trackBookingInitiated, trackWhatsAppClick } from "@/components/Tracking";
@@ -286,7 +287,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     if (!selectedDate || !selectedTime) return;
 
     const phoneDigits = formData.phone.replace(/\D/g, "");
-    if (phoneDigits.length < 7 || phoneDigits.length > 15) {
+    if (phoneDigits.length < PHONE_MIN_DIGITS || phoneDigits.length > PHONE_MAX_DIGITS) {
       setPhoneError(true);
       return;
     }
