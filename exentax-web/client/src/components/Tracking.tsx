@@ -2,6 +2,7 @@ import { useEffect, useCallback, useRef } from "react";
 import { useLocation } from "wouter";
 import { getCookieConsent } from "./CookieBanner";
 import { clientLogger } from "@/lib/clientLogger";
+import { randomUUID } from "@/lib/random-uuid";
 import i18n from "@/i18n";
 
 const GA4_ID = import.meta.env.VITE_GA4_ID as string | undefined;
@@ -377,7 +378,7 @@ function getSessionId(): string {
   const key = "exentax_sid";
   let sid = sessionStorage.getItem(key);
   if (!sid) {
-    sid = crypto.randomUUID();
+    sid = randomUUID();
     sessionStorage.setItem(key, sid);
   }
   return sid;

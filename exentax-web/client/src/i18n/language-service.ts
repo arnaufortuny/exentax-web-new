@@ -8,6 +8,22 @@ function normalizeLang(raw: string): SupportedLang {
   return SUPPORTED_LANGS.includes(code as SupportedLang) ? (code as SupportedLang) : "es";
 }
 
+const LOCALE_TAG_BY_LANG: Record<SupportedLang, string> = {
+  es: "es-ES", en: "en-US", fr: "fr-FR",
+  de: "de-DE", pt: "pt-PT", ca: "ca-ES",
+};
+
+// Sync `<html lang>` so screen readers + Google Translate detect the active
+// language correctly. WCAG 3.1.1 (Language of Page). Best-effort — runs
+// after every change() / changeTransient(), no-op during SSR.
+function syncDocumentLang(lang: SupportedLang): void {
+  if (typeof document === "undefined") return;
+  const tag = LOCALE_TAG_BY_LANG[lang] ?? lang;
+  if (document.documentElement.getAttribute("lang") !== tag) {
+    document.documentElement.setAttribute("lang", tag);
+  }
+}
+
 export const LanguageService = {
   getCurrent(): SupportedLang {
     return normalizeLang(i18n.language || "es");
@@ -23,21 +39,18 @@ export const LanguageService = {
     }
     await loadLocale(lang);
     await i18n.changeLanguage(lang);
+    syncDocumentLang(lang);
   },
 
   async changeTransient(lang: SupportedLang): Promise<void> {
     if (!SUPPORTED_LANGS.includes(lang)) return;
     await loadLocale(lang);
     await i18n.changeLanguage(lang);
+    syncDocumentLang(lang);
   },
 
   getLocaleTag(): string {
-    const lang = this.getCurrent();
-    const map: Record<SupportedLang, string> = {
-      es: "es-ES", en: "en-US", fr: "fr-FR",
-      de: "de-DE", pt: "pt-PT", ca: "ca-ES",
-    };
-    return map[lang];
+    return LOCALE_TAG_BY_LANG[this.getCurrent()];
   },
 
   resolveForEntity(entityLang?: string | null): SupportedLang {

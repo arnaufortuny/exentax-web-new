@@ -193,6 +193,16 @@ i18n.use(initReactI18next).init({
 // correct language (no ES → detected flash for non-Spanish visitors).
 // If the chunk fails to load (network / 404 after a deploy with stale
 // hashes) we degrade to Spanish so the app still mounts.
+// Sync `<html lang>` once at boot so screen readers see the correct locale
+// before LanguageService.change() is ever called (WCAG 3.1.1).
+const LOCALE_TAG_AT_BOOT: Record<SupportedLang, string> = {
+  es: "es-ES", en: "en-US", fr: "fr-FR",
+  de: "de-DE", pt: "pt-PT", ca: "ca-ES",
+};
+if (typeof document !== "undefined") {
+  document.documentElement.setAttribute("lang", LOCALE_TAG_AT_BOOT[detectedLang]);
+}
+
 export const i18nReady: Promise<void> =
   detectedLang === "es"
     ? Promise.resolve()

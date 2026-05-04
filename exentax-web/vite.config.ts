@@ -30,6 +30,10 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    // ES2020 — covers all browsers in package.json `browserslist.production`
+    // (Chrome ≥105, Firefox ≥105, Safari ≥15.4, iOS ≥15.4, Edge ≥105).
+    // Autoprefixer reads the same browserslist field from package.json so CSS
+    // prefixes and JS target stay in sync across the build.
     target: "es2020",
     cssCodeSplit: true,
     reportCompressedSize: false,
