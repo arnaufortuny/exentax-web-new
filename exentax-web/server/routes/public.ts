@@ -331,7 +331,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   // calculator country, default display currency, and CCAA profile. Returns
   // empty strings for unknown / unmapped countries so the client keeps its
   // current default. The raw IP is intentionally NOT exposed.
-  app.get("/api/geo", (req, res) => {
+  app.get("/api/geo", async (req, res) => {
+    // Rate limit per-IP (60 req/min) — protects against scraping attempts
+    // even though the response carries no PII (only a 2-char country code).
+    const ip = getClientIp(req);
+    if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const country = (req as typeof req & { geo?: { country: string } }).geo?.country || "";
     let calculatorCountry = "";
     let currency = "";

@@ -2,6 +2,12 @@ import { useState, useRef, useEffect, useLayoutEffect } from "react";
 import { createPortal } from "react-dom";
 import { useTranslation } from "react-i18next";
 
+// Country labels are intentionally NOT routed through i18n. The bilingual
+// "España / Spain" / "France" / "Deutschland" / etc. format is the same
+// across all 6 site languages by design: the label is a phone-prefix lookup
+// helper, not user-facing prose, so a multilingual label avoids the cost
+// of 6 × ~70 translations and keeps search ("germany" or "alemania" both
+// match) working. Don't refactor to i18n keys without product sign-off.
 const COUNTRY_PREFIXES = [
   { code: "ES", prefix: "+34", flag: "es", label: "España / Spain" },
   { code: "US", prefix: "+1", flag: "us", label: "United States" },
@@ -113,6 +119,7 @@ export default function PhoneInput({
   const [number, setNumber] = useState(initial.number);
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
+  const [highlightIndex, setHighlightIndex] = useState(0);
   const [menuPos, setMenuPos] = useState<{ top: number; left: number; width: number } | null>(null);
   const ref = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -301,21 +308,42 @@ export default function PhoneInput({
               ref={searchRef}
               type="text"
               value={search}
-              onChange={e => setSearch(e.target.value)}
+              onChange={e => { setSearch(e.target.value); setHighlightIndex(0); }}
+              onKeyDown={e => {
+                if (e.key === "Escape") {
+                  e.preventDefault();
+                  setOpen(false);
+                  setSearch("");
+                  triggerRef.current?.focus();
+                } else if (e.key === "ArrowDown") {
+                  e.preventDefault();
+                  setHighlightIndex(i => Math.min(i + 1, filtered.length - 1));
+                } else if (e.key === "ArrowUp") {
+                  e.preventDefault();
+                  setHighlightIndex(i => Math.max(i - 1, 0));
+                } else if (e.key === "Enter") {
+                  e.preventDefault();
+                  const choice = filtered[highlightIndex];
+                  if (choice) handleSelect(choice.code);
+                }
+              }}
               placeholder={t("common.search")}
               data-testid={`${testId}-search`}
               className="w-full py-1.5 px-3 rounded-full border border-[var(--border)] text-xs outline-none focus:border-[var(--green)] text-[var(--text-1)] bg-[var(--bg-1)]"
             />
           </div>
           <div className="overflow-y-auto max-h-[210px]">
-            {filtered.map(c => (
+            {filtered.map((c, i) => (
               <button
                 key={c.code}
                 type="button"
+                role="option"
+                aria-selected={c.code === selectedCode}
                 onClick={() => handleSelect(c.code)}
+                onMouseEnter={() => setHighlightIndex(i)}
                 data-testid={`${testId}-option-${c.code}`}
                 className={`flex items-center gap-2 w-full py-2 px-3 border-none cursor-pointer text-left text-xs text-[var(--text-1)] transition-colors ${
-                  c.code === selectedCode ? "bg-[var(--green-soft)]" : "hover:bg-[var(--bg-2)]"
+                  c.code === selectedCode ? "bg-[var(--green-soft)]" : i === highlightIndex ? "bg-[var(--bg-2)]" : "hover:bg-[var(--bg-2)]"
                 }`}
               >
                 <img src={`https://flagcdn.com/w40/${c.flag}.png`} alt="" width={16} height={12} loading="lazy" className="rounded-[2px] object-cover flex-shrink-0" />

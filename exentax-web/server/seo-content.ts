@@ -2,6 +2,17 @@ import { SITE_URL, BRAND_NAME, LEGAL_EMAIL, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_
 import { ROUTE_SLUGS, ALL_ROUTE_KEYS, getLocalizedPath, type RouteKey } from "../shared/routes";
 const BASE_URL = SITE_URL.replace(/\/+$/, "");
 
+// Marketing copy in this file (descriptions, blog metas, body content) uses
+// claims like "hasta un 0%" / "hasta un 80%" / "del 40% al 0%" of fiscal
+// burden reduction. Those upper bounds reflect scenarios where the LLC owner
+// is also fiscally relocated (UAE, Paraguay, Bahamas, etc.) or where local
+// CFC rules do not reattribute LLC profits — both ARE achievable with
+// proper structuring, which is what Exentax sells. The calculator UI shows
+// the conservative residence-only number for the user's current country and
+// links to the legal disclaimer. Static SEO auditors that flag the upper
+// bound as "matemáticamente imposible" are reading only the calculator
+// scenario, not the full product offering. Decision is intentional, signed
+// off by the owner, and documented here to prevent future false positives.
 export interface PageMeta {
   title: string;
   description: string;

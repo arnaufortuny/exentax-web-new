@@ -57,7 +57,7 @@ export function renderIncompleteBookingEmailHtml(data: IncompleteBookingEmailDat
 
     ${bodyText(ib.intro3)}
 
-    ${ctaButton(withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "transactional", "incomplete_booking", lang), ib.ctaLabel)}
+    ${ctaButton(`${withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "transactional", "incomplete_booking", lang)}&recover=${encodeURIComponent(data.clientEmail)}`, ib.ctaLabel)}
 
     ${bodyText(ib.replyNote)}
 

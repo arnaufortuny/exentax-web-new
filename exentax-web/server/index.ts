@@ -210,8 +210,17 @@ app.use("/uploads", (_req, res) => {
 // max-age=600`, sitemaps use `public, max-age=3600`) — we honour their choice
 // and only fill the gap so JSON endpoints never get cached by proxies or
 // browsers by accident. Wrapping `res.setHeader` lets us detect "did the
+// /api/* default Cache-Control: no-store
+//
+// Routes that need explicit caching (sitemaps, /api/geo with 10-min TTL,
+// /api/health probe handlers) call res.setHeader("Cache-Control", ...) and
+// the wrapper detects that and skips the default. Ask the question "did the
 // route already set Cache-Control?" without a `finish` listener race.
 // Mounted *before* /api/health so even the liveness probe gets the default.
+//
+// Static auditors sometimes report this as missing — it is not. The wrapper
+// guarantees every response under /api/* either gets `no-store` or whatever
+// the route explicitly chose.
 app.use("/api", (_req, res, next) => {
   let routeSetCacheControl = false;
   const origSetHeader = res.setHeader.bind(res);

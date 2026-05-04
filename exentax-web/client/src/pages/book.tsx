@@ -129,7 +129,10 @@ export default function ReservarPage() {
   const search = useSearch();
   const params = new URLSearchParams(search);
   const prefillName = params.get("name") || "";
-  const prefillEmail = params.get("email") || "";
+  // `?email=` is used for reschedule deep links; `?recover=` is used by
+  // the incomplete-booking reminder email so the user lands on a form that
+  // already knows who they are and we can match the open draft on the server.
+  const prefillEmail = params.get("email") || params.get("recover") || "";
   const prefillPhone = params.get("phone") || "";
   const prefillContext = params.get("context") || "";
   const isReschedule = !!(prefillName || prefillEmail);
