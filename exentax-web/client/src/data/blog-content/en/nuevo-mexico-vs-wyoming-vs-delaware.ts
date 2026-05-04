@@ -1,3 +1,9 @@
+// SLUG INTENT NOTE (anti-false-positive for future audits):
+// Filename slug stays "nuevo-mexico-vs-wyoming-vs-delaware" even though the
+// post body now includes a Florida section (Exentax's fourth formation state).
+// Renaming would require a 6-language 301 redirect chain and would forfeit
+// historical SEO authority. The Florida service page covers FL discovery;
+// this post evolves in place. See es.ts for canonical comment.
 export default `
 
 New Mexico charges 0 dollars for the Annual Report, Wyoming asks 60 dollars with a 60-dollar minimum franchise tax, and Delaware demands 300 dollars of Franchise Tax every June 1: three states, three very different annual cost models.

@@ -440,8 +440,8 @@ export const PAGE_META: Record<string, PageMeta> = {
     canonical: `${BASE_URL}/es/agendar`,
   },
   "/en/book": {
-    title: "30-min strategic tax consultation | Exentax",
-    description: "Book your strategic tax consultation. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
+    title: "Free 30-min strategic tax consultation | Exentax",
+    description: "Book your free strategic tax consultation. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
     canonical: `${BASE_URL}/en/book`,
   },
   "/fr/reserver": {
@@ -567,8 +567,8 @@ function buildI18nMeta(): Record<string, PageMeta> {
       ca: "Preguntes freqüents sobre LLC als EUA | Exentax",
     },
     book: {
-      es: "Asesoría fiscal estratégica 30 min | Exentax",
-      en: "30-min strategic tax consultation | Exentax",
+      es: "Asesoría estratégica gratuita 30 min | Exentax",
+      en: "Free 30-min strategic tax consultation | Exentax",
       fr: "Consultation fiscale gratuite 30 min | Exentax",
       de: "Kostenlose 30-Min-Steuerberatung | Exentax",
       pt: "Consultoria fiscal gratuita 30 min | Exentax",
@@ -621,7 +621,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
     // same SERP-promised hook to social previewers.
     service_llc_nm: {
       es: "Nuevo México: 0% impuesto estatal para tu LLC | Exentax",
-      en: "New Mexico LLC: low-cost privacy for solo founders | Exentax",
+      en: "New Mexico LLC: low-cost privacy for digital professionals | Exentax",
       fr: "LLC au Nouveau-Mexique : zéro paperasse annuelle | Exentax",
       de: "New Mexico LLC: steueroptimiert für Selbstständige | Exentax",
       pt: "LLC no Novo México: estrutura enxuta e barata | Exentax",
@@ -769,7 +769,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
     // Facebook and LinkedIn debuggers.
     service_llc_nm: {
       es: "LLC en Nuevo México para no residentes: cero impuesto estatal, NM LLC sin informe anual y anonimato real. EIN, Mercury y BOI incluidos. Reserva tu llamada.",
-      en: "New Mexico LLC for non-residents: low-cost US LLC with no annual report, no franchise tax and full member anonymity. EIN, US bank and BOI included. Get started.",
+      en: "New Mexico LLC for non-residents: low-cost US LLC with no annual report, no franchise tax and full member anonymity. EIN, US bank and BOI included. Book your free call.",
       fr: "LLC Nouveau-Mexique pour non-résidents : LLC US bas coût, NM LLC sans rapport annuel ni franchise tax, anonymat total. EIN, banque et BOI inclus. Réservez.",
       de: "New Mexico LLC für Nicht-Residenten: günstige US-LLC ohne Jahresbericht, ohne Franchise Tax und mit voller Anonymität. EIN, Bank und BOI inklusive.",
       pt: "LLC Novo México para não residentes: LLC EUA baixo custo, sem relatório anual, sem franchise tax e com anonimato real. EIN, banco e BOI inclusos. Comece hoje.",

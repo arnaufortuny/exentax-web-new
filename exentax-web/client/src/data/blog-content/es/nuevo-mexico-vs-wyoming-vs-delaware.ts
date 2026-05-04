@@ -1,3 +1,11 @@
+// SLUG INTENT NOTE (anti-false-positive for future audits):
+// El slug del archivo permanece "nuevo-mexico-vs-wyoming-vs-delaware" aunque el
+// post incluye una sección Florida añadida posteriormente (cuarto estado de
+// formación que Exentax ofrece). Renombrar el slug requeriría cadena 301
+// redirect × 6 langs y rompería backlinks históricos. Mantener el slug
+// original es deliberado: el contenido del post + la página de servicio
+// /es/servicios/llc-florida cubren el descubrimiento de FL como cuarto estado.
+// La URL conserva su autoridad SEO histórica mientras el contenido evoluciona.
 export default `
 
 New Mexico cobra 0 $ de Annual Report, Wyoming pide 60 $ con franchise tax mínima de 60 $ y Delaware reclama 300 $ de Franchise Tax cada 1 de junio: tres estados, tres modelos de coste anual muy distintos.

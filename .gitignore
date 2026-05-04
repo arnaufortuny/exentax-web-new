@@ -19,3 +19,10 @@ exentax-web/docs/auditoria-multiidioma/blog-translation-quality-ext.md
 docs/internal/live-verification-latest.md
 .check.pid
 exentax-web/.check.pid
+
+# IDE / platform metadata that should not pollute commits if regenerated.
+# Existing tracked files under these paths stay tracked (.gitignore only
+# affects new entries) — see audit ronda 6 for context.
+.canvas/
+.agents/
+.lighthouseci/

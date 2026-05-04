@@ -1,3 +1,6 @@
+// SLUG INTENT NOTE: filename keeps the original 3-state slug. Florida is the
+// 4th formation state Exentax offers and is mentioned in body; renaming would
+// require a 6-language 301 chain. See es.ts for canonical comment.
 export default `
 
 New Mexico verlangt 0 USD für den Annual Report, Wyoming fordert 60 USD mit einer Mindest-Franchise-Tax von 60 USD und Delaware verlangt jedes Jahr am 1. Juni 300 USD Franchise Tax: drei Bundesstaaten, drei sehr unterschiedliche jährliche Kostenmodelle.
