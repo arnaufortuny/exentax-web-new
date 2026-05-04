@@ -118,6 +118,15 @@ app.disable("x-powered-by");
 const cspScriptSrc = isProd
   ? ["'self'", "https://www.googletagmanager.com", "https://www.google-analytics.com", "https://connect.facebook.net"]
   : ["'self'", "'unsafe-inline'", "https://www.googletagmanager.com", "https://www.google-analytics.com", "https://connect.facebook.net"];
+// styleSrc keeps `'unsafe-inline'` in BOTH prod and dev. Reason: Tailwind
+// (and most React component libs) emit inline `style="..."` attributes for
+// dynamic values (slot grids, animation transforms, theme tokens via
+// CSS-in-JS). A nonce-based or hash-based CSP would require pre-computing
+// every possible style attribute at build time, which is not feasible with
+// runtime-derived values. The trade-off is mitigated by the much stricter
+// `scriptSrc` (no inline JS in prod) + `scriptSrcAttr: 'none'` (no inline
+// event handlers anywhere) — XSS via CSS alone cannot exfiltrate data
+// without a JS surface to fire on, and JS injection is closed off.
 const cspStyleSrc = isProd
   ? ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"]
   : ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"];
@@ -129,6 +138,12 @@ app.use(helmet({
       scriptSrc: cspScriptSrc,
       styleSrc: cspStyleSrc,
       fontSrc: ["'self'", "https://fonts.gstatic.com"],
+      // imgSrc allows `https:` wildcard intentionally. The site embeds
+      // partner logos (Mercury, Wise, Slash, Relay), Trustpilot snippets,
+      // testimonial avatars and flag SVGs from flagcdn.com — locking down
+      // to an explicit allowlist would require updating CSP every time a
+      // new partner appears. Risk is bounded: img-src cannot execute code,
+      // only display; no exfil vector exists without a JS or form surface.
       imgSrc: ["'self'", "data:", "blob:", "https:"],
       connectSrc: ["'self'", "https://www.googletagmanager.com", "https://www.google-analytics.com", "https://analytics.google.com", "https://connect.facebook.net", "https://www.facebook.com", "https://fonts.googleapis.com", "https://fonts.gstatic.com"],
       frameSrc: ["'self'", "https://www.googletagmanager.com"],

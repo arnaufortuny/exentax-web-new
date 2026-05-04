@@ -21,6 +21,13 @@ const pool = new Pool({
   statement_timeout: 30000,
   query_timeout: 30000,
   allowExitOnIdle: !isProduction,
+  // SSL with `rejectUnauthorized: false` is acceptable here ONLY because the
+  // production deployment target is Hostinger VPS where the Node process and
+  // PostgreSQL run on localhost (127.0.0.1, see HOSTINGER-VPS.md guide).
+  // The TLS handshake adds no MITM resistance over loopback but keeps the
+  // connection encrypted at the socket level. If the topology ever changes
+  // to a managed Postgres reached over the internet, this MUST switch to
+  // `rejectUnauthorized: true` with a pinned CA bundle.
   ...(isProduction && { ssl: { rejectUnauthorized: false } }),
 });
 
@@ -146,6 +153,16 @@ export async function runColumnMigrations(): Promise<void> {
     await client.query(`
       CREATE INDEX IF NOT EXISTS newsletter_jobs_subscriber_idx
         ON newsletter_campaign_jobs (subscriber_id)
+    `);
+
+    // Composite index for the broadcaster worker tick path:
+    //   SELECT id, ... FROM newsletter_campaigns
+    //    WHERE status = 'in_progress' ORDER BY created_at LIMIT 5
+    // Without (status, created_at) the planner uses the status-only index
+    // and sorts after the fetch. With it, the rows come out pre-sorted.
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS newsletter_campaigns_status_created_idx
+        ON newsletter_campaigns (status, fecha_creacion)
     `);
 
     // Slot uniqueness — the only mechanism preventing double-booking. Recreate

@@ -68,6 +68,9 @@ function initGA4(id: string) {
   window.gtag!("config", id, {
     send_page_view: false,
     cookie_flags: "SameSite=Lax;Secure",
+    // Privacy hardening: discard the last octet of the visitor IP before
+    // GA4 ingests it. GDPR best practice (Spain AEPD also recommends).
+    anonymize_ip: true,
   });
 }
 

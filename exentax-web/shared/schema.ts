@@ -213,6 +213,12 @@ export const newsletterCampaigns = pgTable("newsletter_campaigns", {
 }, (table) => [
   index("newsletter_campaigns_status_idx").on(table.status),
   index("newsletter_campaigns_created_at_idx").on(table.createdAt),
+  // Composite (status, created_at) index for the broadcaster worker hot
+  // path: "give me the in-progress campaigns oldest first". Without this
+  // composite, Postgres scans the status index then sorts by created_at
+  // separately. With it, the scan emits rows already in the desired order,
+  // turning the worker tick into an index-only seek.
+  index("newsletter_campaigns_status_created_idx").on(table.status, table.createdAt),
   check("newsletter_campaigns_status_check",
     sql`${table.status} IN ('queued','in_progress','completed','cancelled','failed')`),
 ]);

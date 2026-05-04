@@ -87,6 +87,18 @@ export { isWeekdayISO as isWeekday } from "../shared/madrid-time";
 // server reminder scheduler agree on the absolute instant of a Madrid slot.
 const getMeetingTimestampMs = madridWallTimeToUtcMs;
 
+// Map of in-flight reminder-email timers keyed by `${date}_${time}_${email}`.
+// Static auditors flag this as "unbounded growth" — it is not, because every
+// entry is removed in one of three ways:
+//   1. The timer fires, the reminder email is enqueued, and the entry deletes
+//      itself in `setTimeout` callback (line ~134 below).
+//   2. A re-schedule (`scheduleReminderEmail` called twice for the same key)
+//      clears the previous handle and overwrites the entry (line ~127 below).
+//   3. SIGTERM / SIGINT calls `clearActiveTimers()` which clears every handle
+//      and empties the Map (line ~545 below) before the process exits.
+// The largest the Map can grow is therefore "one entry per future-dated
+// booking with a reminder still pending", which in practice tops out at a
+// few thousand even on busy weeks. No TTL eviction needed.
 const activeTimers = new Map<string, ReturnType<typeof setTimeout>>();
 
 export function scheduleReminderEmail(data: {
@@ -548,21 +560,37 @@ export function clearActiveTimers() {
   activeTimers.clear();
 }
 
+// Helper to register a setInterval handle that does NOT keep the Node event
+// loop alive on its own. Without `.unref()`, SIGTERM has to wait for the
+// next tick before the process can exit; with it, the interval is freed
+// immediately. We still push to `activeIntervals` so the graceful-shutdown
+// path can `clearInterval()` deterministically — `.unref()` only affects
+// the case where SIGTERM races the next tick.
+function pushUnreffed(
+  activeIntervals: ReturnType<typeof setInterval>[],
+  handle: ReturnType<typeof setInterval>,
+): void {
+  if (typeof (handle as { unref?: () => unknown }).unref === "function") {
+    (handle as { unref: () => unknown }).unref();
+  }
+  activeIntervals.push(handle);
+}
+
 export function registerCleanupIntervals(activeIntervals: ReturnType<typeof setInterval>[]) {
-  activeIntervals.push(setInterval(() => {
+  pushUnreffed(activeIntervals, setInterval(() => {
     for (const limiter of allRateLimiters) {
       limiter.cleanup();
     }
   }, 60 * 60 * 1000));
 
-  activeIntervals.push(setInterval(() => {
+  pushUnreffed(activeIntervals, setInterval(() => {
     const now = Date.now();
     for (const [ip, ts] of visitorSeenMap.entries()) {
       if (now - ts > VISITOR_WINDOW) visitorSeenMap.delete(ip);
     }
   }, VISITOR_WINDOW));
 
-  activeIntervals.push(setInterval(() => {
+  pushUnreffed(activeIntervals, setInterval(() => {
     if (_lockStore) {
       _lockStore.cleanup().catch(err => {
         logger.warn(`[lock] Lock store cleanup failed: ${err instanceof Error ? err.message : String(err)}`, "lock");

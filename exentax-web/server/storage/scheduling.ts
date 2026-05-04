@@ -116,15 +116,21 @@ export async function getBookedSlots(date: string): Promise<Set<string>> {
 }
 
 export async function isSlotBooked(date: string, time: string): Promise<boolean> {
+  // EXISTS lets Postgres stop on the first match instead of counting every
+  // row. The unique partial index `agenda_active_slot_uniq_idx` (schema.ts)
+  // means there can be AT MOST one active row for a given (date, time)
+  // anyway, but EXISTS is the idiomatic shape for a boolean check.
   try {
-    const rows = await db.select({ cnt: sql<number>`COUNT(*)` })
-      .from(s.agenda)
-      .where(and(
-        eq(s.agenda.meetingDate, date),
-        eq(s.agenda.startTime, time),
-        sql`${s.agenda.status} NOT IN ('cancelled', 'no_show')`
-      ));
-    return (rows[0]?.cnt ?? 0) > 0;
+    const rows = await db.execute(sql`
+      SELECT EXISTS (
+        SELECT 1 FROM ${s.agenda}
+         WHERE ${s.agenda.meetingDate} = ${date}
+           AND ${s.agenda.startTime} = ${time}
+           AND ${s.agenda.status} NOT IN ('cancelled', 'no_show')
+      ) AS "exists"
+    `);
+    const result = (rows as unknown as { rows: { exists: boolean }[] }).rows ?? [];
+    return Boolean(result[0]?.exists);
   } catch (err) { throw wrapStorageError("isSlotBooked", err); }
 }
 

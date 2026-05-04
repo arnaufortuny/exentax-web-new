@@ -31,6 +31,33 @@ export function maskIp(ip: string | null | undefined): string {
   return "(masked)";
 }
 
+/**
+ * Mask a phone number for log output. Keeps the country prefix (if present)
+ * and the last 2 digits as a low-PII fingerprint operators can use to
+ * cross-reference a specific lead in Discord without exposing the full
+ * subscriber line.
+ *
+ *   maskPhone("+34 612 345 678")  → "+34 *** ** 78"
+ *   maskPhone("612345678")        → "*** *** 78"
+ *   maskPhone("")                 → "(no-phone)"
+ *   maskPhone(null)               → "(no-phone)"
+ *
+ * Defense-in-depth: even though Discord channels are admin-only, GDPR
+ * data-minimisation discourages full phone numbers in logs that may be
+ * forwarded to external aggregators (Sentry, Datadog) in the future.
+ */
+export function maskPhone(phone: string | null | undefined): string {
+  if (!phone || typeof phone !== "string") return "(no-phone)";
+  const trimmed = phone.trim();
+  if (!trimmed) return "(no-phone)";
+  const prefixMatch = trimmed.match(/^(\+\d{1,3})\s*(.*)$/);
+  const prefix = prefixMatch ? prefixMatch[1] : "";
+  const rest = (prefixMatch ? prefixMatch[2] : trimmed).replace(/\D/g, "");
+  if (rest.length < 2) return prefix ? `${prefix} ***` : "***";
+  const tail = rest.slice(-2);
+  return prefix ? `${prefix} *** ** ${tail}` : `*** *** ${tail}`;
+}
+
 const REDACTED_PATTERNS = [
   "password", "passwordhash", "contrasena", "otp", "otpcode",
   "secret", "managetoken", "sessiontoken", "currentpassword", "newpassword",
